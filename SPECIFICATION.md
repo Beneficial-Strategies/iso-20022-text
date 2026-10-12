@@ -52,6 +52,8 @@ That means "not published yet", and the consumer may ask the MCP for the English
 
 ## The type resource
 
+The example is illustrative: its French is not a published translation.
+
 ```json
 {
   "type": "PostalAddress27",
