@@ -11,6 +11,8 @@ repository per language, so that the people who care for a language have their o
 | Spanish | [iso-20022-text-es](https://github.com/Beneficial-Strategies/iso-20022-text-es) |
 | Portuguese | [iso-20022-text-pt](https://github.com/Beneficial-Strategies/iso-20022-text-pt) |
 
+**[SPECIFICATION.md](SPECIFICATION.md)** is the convention for finding any localized name or definition (draft).
+
 `languages.json` pins the release (a commit) of each language that this hub serves. The hub builds the files a text host serves from those
 pinned versions and the library's source artifact (the English), and deploys them, so that the library can load the text of a language at run
 time from a text host instead of carrying it. The design and the proof of concept are described in
