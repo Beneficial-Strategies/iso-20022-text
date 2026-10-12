@@ -1,7 +1,7 @@
 # ISO 20022 text convention (draft v0)
 
-How to find the localized name or definition of anything in the ISO 20022 specification, the same way for every language, every tool and the
-MCP. This document is the contract. It says nothing about any one consumer: a tool that has never heard of Headless can use it.
+How to find the localized name or definition of anything in the ISO 20022 specification, the same way for every language and every tool.
+This document is the contract. It says nothing about any one consumer: a tool that has never heard of Headless can use it.
 
 ## Principles
 
@@ -48,7 +48,7 @@ That means "not published yet", and the consumer may ask the MCP for the English
 
 **Static hosts and `/{TypeName}/{Child}`.** A file and a directory cannot share a name, so a static host cannot serve both `/{TypeName}` and
 `/{TypeName}/{Child}`. The type resource therefore contains every child, and the child path is a convenience for hosts with a flat key space
-(object storage) or a function, and for the MCP.
+(object storage) or a function.
 
 ## The type resource
 
@@ -110,9 +110,11 @@ certainty compares `/manifest`.`release` and appends `?v={release}`.
 
 ## The MCP
 
-The MCP answers the same resolution for any element: `iso20022://element/{id}/details?lang={language}` (the element with `name` and `definition`
-in that language and their `status`), and `iso20022://text/{language}/{TypeName}[/{Child}]`, which returns the resources above. *Proposal, to
-be agreed with the MCP's maintainers.*
+The MCP delivers the specification's own text, in English, and **nothing localized**; it never serves the resources above. It can be *aware* of
+this convention, so that a client that has something from the MCP can find its localized text without guessing: the MCP's answers already carry
+the ISO names the addresses are made of (a type's name, a child's element name, a message identifier), and the host pattern and paths above are
+all a client needs. The MCP is also where the English base comes from (see below). How the MCP states the convention, in its documentation or by
+returning a pointer with an element, is left open.
 
 ## Informative: how a language is maintained
 
@@ -127,7 +129,7 @@ it fills every element of that name unless overridden, belongs to the maintenanc
 
 * The spelling of the language tag in a hostname (`en-us`) and how a client finds out which tags exist (a list at the hub?).
 * Whether `/{identifier}` bundles are required once coverage includes messages.
-* The MCP resource shape above.
+* How the MCP makes clients aware of the convention (documentation only, or a pointer in its answers).
 * Storage once coverage outgrows free static hosting (object storage behind the same hostname and paths: nothing published changes).
 * ISO's terms for republishing its text and its definitions.
 
