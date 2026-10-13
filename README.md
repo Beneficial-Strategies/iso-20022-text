@@ -19,16 +19,31 @@ time from a text host instead of carrying it. The design and the proof of concep
 [Iso20022Headless: docs/text-packs-poc.md](https://github.com/Beneficial-Strategies/Iso20022Headless/blob/poc/text-packs/docs/text-packs-poc.md)
 (on the `poc/text-packs` branch until it is merged).
 
-## Status
+## What is here
 
-**Nothing here builds or deploys yet.** This repository holds the list of languages and their pinned versions, and nothing else. The
-proof of concept builds the files in the Iso20022Headless repository; moving that build here is the next step.
+This repository holds **the text exactly as the ISO 20022 specification has it**, in English, plus the texts our tools generate. A language repository
+holds only what differs from it.
+
+| Path | What |
+|---|---|
+| `types/<first letter>/<Type>.json` | one file per type: its `name` and `definition`, and the `isoElements`, `isoCodes` and `isoRules` of it; data types also carry `format`, the text that says what a value must look like |
+| `areas.json` | the business areas (pain, camt, ...): name and definition of each, served at `/areas` |
+| `messages/<identifier>.json` | a message: its root type and the types it uses (its name and description are the root type's; `/messages` lists every message's name) |
+| `tools/<tool>/<name>.json` | the text of an application that uses this text, key -> text (today: the ISO 20022 Explorer, `tools/explorer/page.json` and `controls.json`); served at `/tools/<tool>/<name>` |
+| `coverage.json` | what is published so far (the types of the listed messages and everything they use) |
+| `build/glossary.mjs` | lists the words of the names, and the ones a language's glossary does not cover yet |
+| `build/overlay.mjs` | builds what a language host serves: this text, then the language repository's `glossary.json` rules, then its explicit entries |
+
+Definitions are ISO's, word for word (with `|` for a line break, as ISO writes it). A `name` is the ISO element, type or code name broken into words (`BranchData5` is "Branch Data 5"), and
+`format` is generated from the ISO pattern of the type; both are ours, not ISO's. A text is written once here and reused by every application that needs it,
+so an error message for a malformed BIC is the same in a UI, a C# API or any other consumer.
+
+Coverage so far: `pain.001.001.13` and the 170 types it uses.
 
 ## Status, license and warranty
 
 This text and everything in these repositories are provided **free of charge and as is**, under the MIT license (see `LICENSE`), without warranty
-of any kind. We make our best-faith effort toward accurate text, but it is not verified by a professional translator, and until an entry is marked
-reviewed it is a machine draft. **Do not rely on it for legal, financial or compliance decisions**: the authoritative text is ISO's English.
+of any kind. We make our best-faith effort toward accurate text, but it is not verified by a professional translator, and entries may be machine drafts that no person has reviewed. **Do not rely on it for legal, financial or compliance decisions**: the authoritative text is ISO's English.
 
 **The controls here are lax at present**: there is no formal review process, release gating or ownership policy beyond what you can see in these
 repositories. We intend to improve them over time (named maintainers per language and area, required reviews, release checks) should the libraries
