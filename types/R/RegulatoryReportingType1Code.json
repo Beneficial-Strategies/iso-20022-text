@@ -1,0 +1,23 @@
+{
+  "isoType": "RegulatoryReportingType1Code",
+  "language": "en",
+  "name": "Regulatory Reporting Type 1 Code",
+  "definition": "Identifies whether the regulatory reporting information applies to the debit side, to the credit side or to both debit and credit sides of the transaction.",
+  "isoCodes": {
+    "CRED": {
+      "isoName": "Credit",
+      "name": "Credit",
+      "definition": "Regulatory information applies to the credit side."
+    },
+    "DEBT": {
+      "isoName": "Debit",
+      "name": "Debit",
+      "definition": "Regulatory information applies to the debit side."
+    },
+    "BOTH": {
+      "isoName": "Both",
+      "name": "Both",
+      "definition": "Regulatory information applies to both credit and debit sides."
+    }
+  }
+}

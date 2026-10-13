@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementParties120",
+  "language": "en",
+  "name": "Settlement Parties 120",
+  "definition": "Provides a settlement party by a choice between a BIC or a name and address or a party identification.",
+  "isoElements": {
+    "DeliveryAgent": {
+      "name": "Delivery Agent",
+      "definition": "Financial institution from which cash will be transferred."
+    },
+    "Intermediary": {
+      "name": "Intermediary",
+      "definition": "Party, within the settlement chain, between the delivery and receiving agents."
+    },
+    "ReceivingAgent": {
+      "name": "Receiving Agent",
+      "definition": "Financial institution where the payee will receive the funds."
+    },
+    "BeneficiaryInstitution": {
+      "name": "Beneficiary Institution",
+      "definition": "Ultimate institution that will receive the funds when different from the trading or counterparty side."
+    }
+  }
+}

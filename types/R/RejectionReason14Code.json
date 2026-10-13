@@ -1,0 +1,68 @@
+{
+  "isoType": "RejectionReason14Code",
+  "language": "en",
+  "name": "Rejection Reason 14 Code",
+  "definition": "Specifies the reason of a rejection of a movement cancellation request.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    },
+    "LATT": {
+      "isoName": "Late",
+      "name": "Late",
+      "definition": "Instruction/Request arrives too late."
+    },
+    "INET": {
+      "isoName": "InvalidEventType",
+      "name": "Invalid Event Type",
+      "definition": "CA Event Type does not correspond with the relating Corporate Action."
+    },
+    "INUS": {
+      "isoName": "InvalidUnderlyingSecurity",
+      "name": "Invalid Underlying Security",
+      "definition": "Underlying Security Identification does not correspond with the Corporate Action Reference supplied."
+    },
+    "INPT": {
+      "isoName": "InvalidEventProcessingType",
+      "name": "Invalid Event Processing Type",
+      "definition": "Event Processing Type does not correspond with the relating Corporate Action."
+    },
+    "INMV": {
+      "isoName": "InvalidMandatoryVoluntaryEventType",
+      "name": "Invalid Mandatory Voluntary Event Type",
+      "definition": "Mandatory/Voluntary Event Type does not correspond with the relating Corporate Action."
+    },
+    "INDE": {
+      "isoName": "InvalidCorporateActionInformation",
+      "name": "Invalid Corporate Action Information",
+      "definition": "Details specified in the Corporate Action General Information block are inconsistent with those that were specified in the relating original message."
+    },
+    "AGIN": {
+      "isoName": "InvalidAgent",
+      "name": "Invalid Agent",
+      "definition": "Invalid agent identification supplied."
+    },
+    "INMO": {
+      "isoName": "InvalidMovementInformation",
+      "name": "Invalid Movement Information",
+      "definition": "Details specified in the MOVEMENT GENERAL INFORMATION block are inconsistent with those that were specified in the relating original message."
+    },
+    "SAID": {
+      "isoName": "SameIdentification",
+      "name": "Same Identification",
+      "definition": "Several message with the same identification."
+    },
+    "INID": {
+      "isoName": "InvalidIdentification",
+      "name": "Invalid Identification",
+      "definition": "Instruction contains an invalid message identification, identification is unknown."
+    },
+    "MOSE": {
+      "isoName": "MovementAlreadySettled",
+      "name": "Movement Already Settled",
+      "definition": "One or more of the underlying movements have already settled."
+    }
+  }
+}

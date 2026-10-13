@@ -1,0 +1,48 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequestStatusAdviceV15",
+  "language": "en",
+  "name": "Corporate Action Instruction Cancellation Request Status Advice V 15",
+  "definition": "Scope|The CorporateActionInstructionCancellationRequestStatusAdvice message is sent by an account servicer to an account owner or its designated agent to report the status of a previously received CorporateActionInstructionCancellationRequest message sent by the account owner. This will include the acknowledgement/rejection of a request to cancel an outstanding instruction. |Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "InstructionCancellationRequestIdentification": {
+      "name": "Instruction Cancellation Request Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "InstructionCancellationRequestStatus": {
+      "name": "Instruction Cancellation Request Status",
+      "definition": ""
+    },
+    "CorporateActionInstruction": {
+      "name": "Corporate Action Instruction",
+      "definition": ""
+    },
+    "ProtectInstruction": {
+      "name": "Protect Instruction",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "All elements in the AdditionalInformation sequence must not contain information that can be provided in a structured field unless bilaterally agreed."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "If CorporateActionInstruction/OptionType/Code value is BOBD (BeneficialOwnerBreakdownRequest), then CorporateActionGeneralInformation/EventType/Code value must be WTRC (Withholding Tax Relief Certification).|(MT567 NVR C6)"
+    }
+  }
+}

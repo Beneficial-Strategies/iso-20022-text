@@ -1,0 +1,16 @@
+{
+  "isoType": "RelatedTransactionData1",
+  "language": "en",
+  "name": "Related Transaction Data 1",
+  "definition": "Provides information on individual transactions that the payment instruction has been split into.",
+  "isoElements": {
+    "MasterUETR": {
+      "name": "Master UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a master payment transaction and to which one or multiple sub payment transactions can be linked."
+    },
+    "SubUETR": {
+      "name": "Sub UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a sub payment transaction which may be linked to a master payment transaction."
+    }
+  }
+}

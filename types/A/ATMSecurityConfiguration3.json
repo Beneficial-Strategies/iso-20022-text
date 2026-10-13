@@ -1,0 +1,36 @@
+{
+  "isoType": "ATMSecurityConfiguration3",
+  "language": "en",
+  "name": "ATM Security Configuration 3",
+  "definition": "Configuration of the encryption or digital envelope, if the security module is able to perform encryption.",
+  "isoElements": {
+    "AsymmetricEncryption": {
+      "name": "Asymmetric Encryption",
+      "definition": "True if the security module is able to perform encryption with an asymmetric key."
+    },
+    "AsymmetricKeyStandardIdentification": {
+      "name": "Asymmetric Key Standard Identification",
+      "definition": "True if the security module is able to identify an asymmetric key with certificate issuer X.500 name and certificate serial number. False if a proprietary asymmetric key identifier is required."
+    },
+    "AsymmetricEncryptionAlgorithm": {
+      "name": "Asymmetric Encryption Algorithm",
+      "definition": "Asymmetric encryption algorithm the security module is able to manage."
+    },
+    "SymmetricTransportKey": {
+      "name": "Symmetric Transport Key",
+      "definition": "True if the security module is able to manage a symmetric transport session key to protect cryptographic keys and data. False if only a previously exchanged symmetric key must be used; a proprietary symmetric key identifier is then used."
+    },
+    "SymmetricTransportKeyAlgorithm": {
+      "name": "Symmetric Transport Key Algorithm",
+      "definition": "Symmetric transport session key algorithm the security module is able to manage."
+    },
+    "SymmetricEncryptionAlgorithm": {
+      "name": "Symmetric Encryption Algorithm",
+      "definition": "Symmetric encryption algorithm the security module is able to manage."
+    },
+    "EncryptionFormat": {
+      "name": "Encryption Format",
+      "definition": "Format of data before encryption, if the format is not plaintext or implicit."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "isoType": "SecuritiesBalanceType13Code",
+  "language": "en",
+  "name": "Securities Balance Type 13 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of financial instruments that are blocked."
+    },
+    "AWAS": {
+      "isoName": "AvailableWithNoAdditionalStatus",
+      "name": "Available With No Additional Status",
+      "definition": "Balance of financial instruments that are freely available with no specific additional status."
+    },
+    "AVAI": {
+      "isoName": "Available",
+      "name": "Available",
+      "definition": "Balance of financial instruments that are available."
+    },
+    "NOMI": {
+      "isoName": "Registered",
+      "name": "Registered",
+      "definition": "Balance of financial instruments that are registered (in nominee name or in the name of the beneficial owner)."
+    },
+    "PLED": {
+      "isoName": "Pledged",
+      "name": "Pledged",
+      "definition": "Balance of securities that belong to and is kept in the safekeeping account indicated within this message, and that are pledged."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of financial instruments currently being processed by the institution responsible for registering the new beneficial owner (or nominee)."
+    },
+    "RSTR": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of financial instruments that may only be sold under certain conditions or require legal documents."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Other. See Narrative."
+    },
+    "SPOS": {
+      "isoName": "StreetPosition",
+      "name": "Street Position",
+      "definition": "Balance of financial instruments that remain registered in the name of the prior beneficial owner."
+    },
+    "UNRG": {
+      "isoName": "Unregistered",
+      "name": "Unregistered",
+      "definition": "Balance of securities that could not be registered due to foreign ownership limitation."
+    },
+    "ISSU": {
+      "isoName": "Issued",
+      "name": "Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has been received."
+    },
+    "QUAS": {
+      "isoName": "QuasiIssued",
+      "name": "Quasi Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has not yet been received."
+    },
+    "COLA": {
+      "isoName": "EligibleForCollateralPurposes",
+      "name": "Eligible For Collateral Purposes",
+      "definition": "Balance of securities that are eligible for use for collateral purposes."
+    }
+  }
+}

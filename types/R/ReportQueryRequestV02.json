@@ -1,0 +1,20 @@
+{
+  "isoType": "ReportQueryRequestV02",
+  "language": "en",
+  "name": "Report Query Request V 02",
+  "definition": "The ReportQueryRequest message is exchanged between system member and system transaction administrator.|It aims at querying the latest available report data of a specific report type. A report is stored and available for query until the event occurs again report is replaced.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "ReportQueryCriteria": {
+      "name": "Report Query Criteria",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

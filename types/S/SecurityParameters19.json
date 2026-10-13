@@ -1,0 +1,20 @@
+{
+  "isoType": "SecurityParameters19",
+  "language": "en",
+  "name": "Security Parameters 19",
+  "definition": "Security parameters of the host downloading the key.",
+  "isoElements": {
+    "HostChallenge": {
+      "name": "Host Challenge",
+      "definition": "Random value from the host."
+    },
+    "Key": {
+      "name": "Key",
+      "definition": "Cryptographic key used to store in the ATM."
+    },
+    "SignatureChoice": {
+      "name": "Signature Choice",
+      "definition": "Element containing the signature."
+    }
+  }
+}

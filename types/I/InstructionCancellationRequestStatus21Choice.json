@@ -1,0 +1,28 @@
+{
+  "isoType": "InstructionCancellationRequestStatus21Choice",
+  "language": "en",
+  "name": "Instruction Cancellation Request Status 21 Choice",
+  "definition": "Choice between different instruction cancellation request statuses.",
+  "isoElements": {
+    "CancellationCompleted": {
+      "name": "Cancellation Completed",
+      "definition": "Provides status information related to an instruction cancellation request completed."
+    },
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "Provides status information related to a cancellation request accepted for further processing."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Provides status information related to a cancellation request rejected for further processing due to system (data) reasons."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Provides status information related to a pending cancellation request."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Proprietary status related to an instruction cancellation request."
+    }
+  }
+}

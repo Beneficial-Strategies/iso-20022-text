@@ -1,0 +1,23 @@
+{
+  "isoType": "AuthenticationEntity1Code",
+  "language": "en",
+  "name": "Authentication Entity 1 Code",
+  "definition": "Entity or object in charge of verifying the cardholder authenticity.",
+  "isoCodes": {
+    "ICCD": {
+      "isoName": "ICC",
+      "name": "ICC",
+      "definition": "Application in the chip card (Integrated Circuit Card), for instance an offline PIN verification."
+    },
+    "AGNT": {
+      "isoName": "AuthorisedAgent",
+      "name": "Authorised Agent",
+      "definition": "Authorisation agent of the issuer."
+    },
+    "MERC": {
+      "isoName": "Merchant",
+      "name": "Merchant",
+      "definition": "Merchant (for example signature verification by the attendant)."
+    }
+  }
+}

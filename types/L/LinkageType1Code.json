@@ -1,0 +1,23 @@
+{
+  "isoType": "LinkageType1Code",
+  "language": "en",
+  "name": "Linkage Type 1 Code",
+  "definition": "Type of linkage requested.",
+  "isoCodes": {
+    "LINK": {
+      "isoName": "Link",
+      "name": "Link",
+      "definition": "Request is to link the referenced transactions."
+    },
+    "UNLK": {
+      "isoName": "Unlink",
+      "name": "Unlink",
+      "definition": "Request is to unlink the referenced transactions."
+    },
+    "SOFT": {
+      "isoName": "Soft",
+      "name": "Soft",
+      "definition": "Request is to soft link the referenced transactions."
+    }
+  }
+}

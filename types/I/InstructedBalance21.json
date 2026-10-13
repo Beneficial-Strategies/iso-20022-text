@@ -1,0 +1,36 @@
+{
+  "isoType": "InstructedBalance21",
+  "language": "en",
+  "name": "Instructed Balance 21",
+  "definition": "Provides information about total instructed balance.",
+  "isoElements": {
+    "TotalInstructedBalance": {
+      "name": "Total Instructed Balance",
+      "definition": "Provides information about the total instructed balance."
+    },
+    "TotalAcceptedInstructionBalance": {
+      "name": "Total Accepted Instruction Balance",
+      "definition": "Daily total of all accepted instructions for given day.  Cover protect instructions will be included in this total balance."
+    },
+    "TotalCancelledInstructionBalance": {
+      "name": "Total Cancelled Instruction Balance",
+      "definition": "Daily total of cancelled instructions for a given day."
+    },
+    "TotalPendingInstructionBalance": {
+      "name": "Total Pending Instruction Balance",
+      "definition": "Daily total of pending instructions in pending status.  It includes cancel pending instructions."
+    },
+    "TotalRejectedInstructionBalance": {
+      "name": "Total Rejected Instruction Balance",
+      "definition": "Daily total of rejected instructions."
+    },
+    "TotalProtectInstructionBalance": {
+      "name": "Total Protect Instruction Balance",
+      "definition": "Daily total of all protect instructions sent in a given day."
+    },
+    "OptionDetails": {
+      "name": "Option Details",
+      "definition": "Provide instructed balance breakdown information per option."
+    }
+  }
+}

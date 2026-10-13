@@ -1,0 +1,36 @@
+{
+  "isoType": "LimitIdentification8",
+  "language": "en",
+  "name": "Limit Identification 8",
+  "definition": "Defines the identification details to uniquely identify a limit within the system.",
+  "isoElements": {
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Identification of a particular cash clearing system."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "name": "Bilateral Limit Counterparty Identification",
+      "definition": "Identification of the system member for which the limit is established."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the risk management limit."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty1Rule": {
+      "definition": "If Type is MULT, then BilateralLimitCounterpartyIdentification is not allowed."
+    },
+    "BilateralLimitCounterparty2Rule": {
+      "definition": "If Type is BILI or NELI or INBI, then BilateralLimitCounterpartyIdentification must be present."
+    }
+  }
+}

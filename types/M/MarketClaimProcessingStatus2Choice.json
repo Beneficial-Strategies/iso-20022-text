@@ -1,0 +1,32 @@
+{
+  "isoType": "MarketClaimProcessingStatus2Choice",
+  "language": "en",
+  "name": "Market Claim Processing Status 2 Choice",
+  "definition": "Choice between different instruction processing statuses.",
+  "isoElements": {
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Provides status information related to an instruction request cancelled."
+    },
+    "AcceptedForFurtherProcessing": {
+      "name": "Accepted For Further Processing",
+      "definition": "Provides status information related to an instruction request that is accepted. This means that the instruction has been received, is processable and has been validated for further processing."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Provides status information related to an instruction request rejected for further processing due to system reasons."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Provides status information related to a pending instruction."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Proprietary status related to an instruction."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "SecuritiesSettlementStatus2Code",
+  "language": "en",
+  "name": "Securities Settlement Status 2 Code",
+  "definition": "Provides the status of settlement of an instruction.",
+  "isoCodes": {
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Instruction is pending. Settlement at the instructed settlement date is still possible."
+    },
+    "PENF": {
+      "isoName": "Failing",
+      "name": "Failing",
+      "definition": "Instruction is failing. Settlement at the instructed settlement date is no longer possible."
+    },
+    "USET": {
+      "isoName": "Unsettled",
+      "name": "Unsettled",
+      "definition": "Instruction is unsettled."
+    },
+    "SETT": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Full settlement."
+    },
+    "PAIN": {
+      "isoName": "PartialSettlement",
+      "name": "Partial Settlement",
+      "definition": "Part of the instruction remains unsettled."
+    }
+  }
+}

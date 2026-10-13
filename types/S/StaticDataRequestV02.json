@@ -1,0 +1,24 @@
+{
+  "isoType": "StaticDataRequestV02",
+  "language": "en",
+  "name": "Static Data Request V 02",
+  "definition": "The StaticDataRequest message is sent by a participant of a central system to the central system to request a static data report.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for the message, as assigned by the sender."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "DataRequestDetails": {
+      "name": "Data Request Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

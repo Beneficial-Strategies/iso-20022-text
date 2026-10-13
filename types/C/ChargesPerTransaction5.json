@@ -1,0 +1,40 @@
+{
+  "isoType": "ChargesPerTransaction5",
+  "language": "en",
+  "name": "Charges Per Transaction 5",
+  "definition": "Provides information on the charges related to the payment transaction.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "name": "Charges Identification",
+      "definition": "Unique and unambiguous identification of the charges information for reconciliation purpose."
+    },
+    "TotalChargesPerTransaction": {
+      "name": "Total Charges Per Transaction",
+      "definition": "Total charges claimed for the transaction."
+    },
+    "ChargesAccount": {
+      "name": "Charges Account",
+      "definition": "Identifies the account that has been debited or credited for the charges, interest or other|adjustment(s)."
+    },
+    "ChargesAccountOwner": {
+      "name": "Charges Account Owner",
+      "definition": "Agent that owns the charges account."
+    },
+    "Record": {
+      "name": "Record",
+      "definition": "Itemised charges record per transaction."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the reason for the charges."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTransactionOrRecord2Rule": {
+      "definition": "When Record/ChargesAccount is present or Record/ChargesAccountOwner is present then ChargesAccount must be absent and ChargesAccountOwner must be absent."
+    },
+    "ChargesAccountTransactionOrRecord1Rule": {
+      "definition": "When ChargesAccount is present or ChargesAccountOwner is present then  Record/ChargesAccount must be absent and Record/ChargesAccountOwner must be absent."
+    }
+  }
+}

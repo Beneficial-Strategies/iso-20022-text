@@ -1,0 +1,24 @@
+{
+  "isoType": "TaxAmount3",
+  "language": "en",
+  "name": "Tax Amount 3",
+  "definition": "Set of elements used to provide information on the tax amount(s) of tax record.",
+  "isoElements": {
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the tax."
+    },
+    "TaxableBaseAmount": {
+      "name": "Taxable Base Amount",
+      "definition": "Amount of money on which the tax is based."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount that is the result of the calculation of the tax for the record."
+    },
+    "Details": {
+      "name": "Details",
+      "definition": "Set of elements used to provide details on the tax period and amount."
+    }
+  }
+}

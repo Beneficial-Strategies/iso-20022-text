@@ -1,0 +1,25 @@
+{
+  "isoType": "RequestHandling4",
+  "language": "en",
+  "name": "Request Handling 4",
+  "definition": "Explains the status of the related request.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of the request, for example the result of the schema validation or a business processing result/error."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the status, in free format text."
+    }
+  },
+  "isoRules": {
+    "DescriptionRule": {
+      "definition": "If Description is present, then Status/Code is not allowed."
+    }
+  }
+}

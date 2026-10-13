@@ -1,0 +1,28 @@
+{
+  "isoType": "RoundingDirection1Code",
+  "language": "en",
+  "name": "Rounding Direction 1 Code",
+  "definition": "Specifies the rounding direction.",
+  "isoCodes": {
+    "RDUP": {
+      "isoName": "RoundUp",
+      "name": "Round Up",
+      "definition": "Round up to the nearest whole number."
+    },
+    "RDWN": {
+      "isoName": "RoundDown",
+      "name": "Round Down",
+      "definition": "Round down to the nearest whole number."
+    },
+    "STAN": {
+      "isoName": "RoundToNearest",
+      "name": "Round To Nearest",
+      "definition": "Round up or down to the nearest whole number."
+    },
+    "DIST": {
+      "isoName": "IssueFraction",
+      "name": "Issue Fraction",
+      "definition": "Do not round."
+    }
+  }
+}

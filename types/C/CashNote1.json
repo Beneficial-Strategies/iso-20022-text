@@ -1,0 +1,28 @@
+{
+  "isoType": "CashNote1",
+  "language": "en",
+  "name": "Cash Note 1",
+  "definition": "Withdrawal or deposit of an amount of money defined in cash notes.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of cash."
+    },
+    "BoxReference": {
+      "name": "Box Reference",
+      "definition": "Reference for the box holding these notes."
+    },
+    "NoteDenomination": {
+      "name": "Note Denomination",
+      "definition": "Specifies the note denomination, including the currency, such as a 50 euro note."
+    },
+    "NumberOfNotes": {
+      "name": "Number Of Notes",
+      "definition": "Specifies the number of notes of the same denomination."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies the total amount of money for this note denomination, that is the note denomination times the number of notes."
+    }
+  }
+}

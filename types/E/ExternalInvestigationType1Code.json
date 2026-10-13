@@ -1,0 +1,68 @@
+{
+  "isoType": "ExternalInvestigationType1Code",
+  "language": "en",
+  "name": "External Investigation Type 1 Code",
+  "definition": "Specifies the investigation type, as published in an external investigation type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "UTAP": {
+      "isoName": "UnableToApplyByCreditor",
+      "name": "Unable To Apply By Creditor",
+      "definition": "A booked entry cannot be applied by the creditor."
+    },
+    "CCNR": {
+      "isoName": "CreditorClaimNonReceipt",
+      "name": "Creditor Claim Non Receipt",
+      "definition": "Creditor claims non-receipt of payment."
+    },
+    "CONR": {
+      "isoName": "CreditorAgentClaimCoverNonReceipt",
+      "name": "Creditor Agent Claim Cover Non Receipt",
+      "definition": "Creditor agent claims non-receipt of cover or settlement."
+    },
+    "RQFI": {
+      "isoName": "RequestForInformation",
+      "name": "Request For Information",
+      "definition": "Further information is required on a payment, entry, message or instruction."
+    },
+    "PINC": {
+      "isoName": "PaymentInitiationNotConfirmed",
+      "name": "Payment Initiation Not Confirmed",
+      "definition": "Payment initiation has not been settled or confirmed."
+    },
+    "RQVA": {
+      "isoName": "RequestValueDateAdjustment",
+      "name": "Request Value Date Adjustment",
+      "definition": "Revaluation of an entry is requested."
+    },
+    "RQUF": {
+      "isoName": "RequestUseOfFunds",
+      "name": "Request Use Of Funds",
+      "definition": "Use of funds on an entry is requested."
+    },
+    "RQDA": {
+      "isoName": "RequestDebitAuthorisation",
+      "name": "Request Debit Authorisation",
+      "definition": "Debit authorisation on an entry is requested."
+    },
+    "ACCT": {
+      "isoName": "AccountRelatedInvestigation",
+      "name": "Account Related Investigation",
+      "definition": "Investigation relating to an account."
+    },
+    "RQCH": {
+      "isoName": "RequestRelatedToCharges",
+      "name": "Request Related To Charges",
+      "definition": "Investigation relating to charges that have been taken or are requested."
+    },
+    "RIMF": {
+      "isoName": "RequestFromIMF",
+      "name": "Request From IMF",
+      "definition": "Request from International Monetary Fund."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other request type."
+    }
+  }
+}

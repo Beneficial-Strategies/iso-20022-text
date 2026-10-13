@@ -1,0 +1,33 @@
+{
+  "isoType": "SystemClosureReason1Code",
+  "language": "en",
+  "name": "System Closure Reason 1 Code",
+  "definition": "Specifies the reason for system inactivity.",
+  "isoCodes": {
+    "BHOL": {
+      "isoName": "BankingHoliday",
+      "name": "Banking Holiday",
+      "definition": "System is closed due to a bank holiday."
+    },
+    "SMTN": {
+      "isoName": "SystemMaintenance",
+      "name": "System Maintenance",
+      "definition": "System is closed for maintenance reasons."
+    },
+    "NOOP": {
+      "isoName": "NoOperation",
+      "name": "No Operation",
+      "definition": "System is not processing any operation."
+    },
+    "RCVR": {
+      "isoName": "Recovery",
+      "name": "Recovery",
+      "definition": "System is not operational during recovery operations."
+    },
+    "ADTW": {
+      "isoName": "AllowedDowntimeWindow",
+      "name": "Allowed Downtime Window",
+      "definition": "System is not operational during allowed downtime windows."
+    }
+  }
+}

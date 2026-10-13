@@ -1,0 +1,16 @@
+{
+  "isoType": "KeyValue3Choice",
+  "language": "en",
+  "name": "Key Value 3 Choice",
+  "definition": "Element containing the key information.",
+  "isoElements": {
+    "EncryptedKeyValue": {
+      "name": "Encrypted Key Value",
+      "definition": "Encrypted value of the cryptographic key."
+    },
+    "TRRelatedData": {
+      "name": "TR Related Data",
+      "definition": "Data block for a TR31 or TR34 block, where the block does not contain a key (for example the TR34 unbind which contains the signed authorization data)."
+    }
+  }
+}

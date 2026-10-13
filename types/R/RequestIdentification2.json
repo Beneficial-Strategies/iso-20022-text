@@ -1,0 +1,24 @@
+{
+  "isoType": "RequestIdentification2",
+  "language": "en",
+  "name": "Request Identification 2",
+  "definition": "Identification of the original withdrawal or deposit request.",
+  "isoElements": {
+    "OriginalOrderReference": {
+      "name": "Original Order Reference",
+      "definition": "Unique identification for the order."
+    },
+    "OriginalCashReceiverReference": {
+      "name": "Original Cash Receiver Reference",
+      "definition": "Unique identification, as assigned by the cash receiver for the cash withdrawal."
+    },
+    "OriginalCashSenderReference": {
+      "name": "Original Cash Sender Reference",
+      "definition": "Unique identification, as assigned by the cash sender for the cash deposit."
+    },
+    "OriginalTotalAmount": {
+      "name": "Original Total Amount",
+      "definition": "Total amount of all notes and coins in the original request."
+    }
+  }
+}

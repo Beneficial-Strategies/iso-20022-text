@@ -1,0 +1,65 @@
+{
+  "isoType": "FIToFIPaymentReversalV14",
+  "language": "en",
+  "name": "FI To FI Payment Reversal V 14",
+  "definition": "Scope|The FinancialInstitutionToFinancialInstitutionPaymentReversal message is sent by an agent to the next party in the payment chain. It is used to reverse a payment previously executed.|Usage|The FIToFIPaymentReversal message is exchanged between agents to reverse a payment message that has been settled. The result will be a credit on the debtor account (when the reversed payment was a direct debit) or a debit on the creditor account (when the reversed payment was a credit transfer).|The FIToFIPaymentReversal message may or may not be the follow-up of a payment message.|The FIToFIPaymentReversal message refers to the original payment message by means of references only or by means of references and a set of elements from the original instruction.|The FIToFIPaymentReversal message can be used in domestic and cross-border scenarios.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": ""
+    },
+    "TransactionInformation": {
+      "name": "Transaction Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "GroupReversalAndTransactionInformationNotPresentRule": {
+      "definition": "If GroupHeader/GroupReversal is true, then TransactionInformation is not allowed."
+    },
+    "GroupReversalAndTransactionInformationPresentRule": {
+      "definition": "If GroupHeader/GroupReversal is false, then at least one occurrence of TransactionInformation must be present."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "If GroupHeader/GroupReversal is true, then OriginalGroupInformation/ReversalReasonInformation/Reason must present."
+    },
+    "InstructedAgentRule": {
+      "definition": "If GroupHeader/InstructedAgent is present, then TransactionInformation/InstructedAgent is not allowed."
+    },
+    "InstructingAgentRule": {
+      "definition": "If GroupHeader/InstructingAgent is present, then TransactionInformation/InstructingAgent is not allowed."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "If GroupHeader/InterbankSettlementDate is present, then TransactionInformation/InterbankSettlementDate is not allowed."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "If GroupHeader/InterbankSettlementDate is not present, then TransactionInformation/InterbankSettlementDate must be present."
+    },
+    "GroupReversalAndNumberOfTransactionsRule": {
+      "definition": "If GroupHeader/GroupReversal is false, then GroupHeader/NumberOfTransactions must equal the number of occurrences of TransactionInformation."
+    },
+    "TotalReversedInterbankSettlementAmountRule": {
+      "definition": "If GroupHeader/TotalReversedInterbankSettlementAmount is present, then all occurrences of TransactionInformation/ReversedInterbankSettlementAmount must have the same currency as the currency of GroupHeader/TotalReversedInterbankSettlementAmount."
+    },
+    "TotalReversedInterbankSettlementAmountAndSumRule": {
+      "definition": "GroupHeader/TotalReversedInterbankSettlementAmount must equal the sum of all individual TransactionInformation/ReversedInterbankSettlementAmount when present."
+    },
+    "NoCoverSettlementMethodRule": {
+      "definition": "GroupHeader/SettlementInformation/SettlementMethod must be different from COVE (Cover) when reversing direct debit transactions."
+    },
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    },
+    "OriginalGroupInformationRule": {
+      "definition": "If OriginalGroupInformation is present, then TransactionInformation/OriginalGroupInformation is not allowed."
+    }
+  }
+}

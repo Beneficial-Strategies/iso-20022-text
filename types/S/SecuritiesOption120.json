@@ -1,0 +1,107 @@
+{
+  "isoType": "SecuritiesOption120",
+  "language": "en",
+  "name": "Securities Option 120",
+  "definition": "Provides information about the corporate action security option.",
+  "isoElements": {
+    "SecurityDetails": {
+      "name": "Security Details",
+      "definition": "Provides description of the financial instrument related to securities movement."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "name": "Temporary Financial Instrument Indicator",
+      "definition": "Specifies that the security identified is a temporary security identification used for processing reasons, for example, contra security used in the US."
+    },
+    "NonEligibleProceedsIndicator": {
+      "name": "Non Eligible Proceeds Indicator",
+      "definition": "Specifies information regarding outturn resources that cannot be processed by the Central Securities Depository (CSD). Special delivery instruction is required from the account owner for the corporate action outcome to be credited."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "name": "New Securities Issuance Indicator",
+      "definition": "Specifies the nature of the securities issue."
+    },
+    "IncomeType": {
+      "name": "Income Type",
+      "definition": "Specifies the type of income.|The lists of income type codes to be used, are available on the SMPG website at www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "name": "Other Income Type",
+      "definition": "Type of income to be used under another tax regime."
+    },
+    "ExemptionType": {
+      "name": "Exemption Type",
+      "definition": "Specifies the basis for the reduced rate of withholding."
+    },
+    "EntitledQuantity": {
+      "name": "Entitled Quantity",
+      "definition": "Quantity of securities based on the terms of the corporate action event and balance of underlying securities entitled to the account owner. (This quantity can be positive or negative)."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Location where the financial instruments are/will be safekept."
+    },
+    "CountryOfIncomeSource": {
+      "name": "Country Of Income Source",
+      "definition": "Indicates the country from which the income originates."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency in which cash proceeds are to be credited/debited."
+    },
+    "TradingPeriod": {
+      "name": "Trading Period",
+      "definition": "Period during which intermediate or outturn securities are tradable in a secondary market."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to securities movement."
+    },
+    "RateDetails": {
+      "name": "Rate Details",
+      "definition": "Provides information about the rates related to securities movement."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to securities movement."
+    },
+    "PriceBasis": {
+      "name": "Price Basis",
+      "definition": "Price is based on either base or disbursed security."
+    },
+    "EstimatedPriceIndicator": {
+      "name": "Estimated Price Indicator",
+      "definition": "Indicates whether the price from the offeror is estimated or final."
+    },
+    "RoundingFactor": {
+      "name": "Rounding Factor",
+      "definition": "Decimal above which numbers are rounded. For an example if rounding factor is 0.6 this means that fractional units greater than or equal to 6 will be rounded up and less than 6 will be rounded down."
+    },
+    "ChargeIndicator": {
+      "name": "Charge Indicator",
+      "definition": "Indicates whether a DTC (The Depository Trust Corporation) participant, using one or more payment bonds in connection with a warrant exercise, will be charged (through settlement on exercise date) the value of the upcoming interest payment on the bond(s)."
+    },
+    "ReinvestmentIncomeClassification": {
+      "name": "Reinvestment Income Classification",
+      "definition": "Income classification of the cash proceeds for dividend reinvestment."
+    }
+  },
+  "isoRules": {
+    "IncomeTypeUsageRule": {
+      "definition": "The lists of income type codes to be used in IncomeType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "The lists of exemption type codes to be used in ExemptionType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "If at least one occurrence of OtherIncomeType is present, then IncomeType must be present."
+    }
+  }
+}

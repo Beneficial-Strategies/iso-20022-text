@@ -1,0 +1,28 @@
+{
+  "isoType": "CurrencyFactors1",
+  "language": "en",
+  "name": "Currency Factors 1",
+  "definition": "Currency specific Factors.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the underlying currency specific amounts and ratios used in the pay-in schedule calculation."
+    },
+    "ShortPositionLimit": {
+      "name": "Short Position Limit",
+      "definition": "Maximum allowed short position in the currency during settlement."
+    },
+    "MinimumPayInAmount": {
+      "name": "Minimum Pay In Amount",
+      "definition": "Minimum amount paid in one payment unless the short position is less than the minimum."
+    },
+    "VolatilityMargin": {
+      "name": "Volatility Margin",
+      "definition": "Margin used to decrease long positions and increase short positions during the risk calculation."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Exchange rate used in the calculation of the pay-in schedule."
+    }
+  }
+}

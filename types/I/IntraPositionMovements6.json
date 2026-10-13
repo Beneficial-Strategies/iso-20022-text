@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraPositionMovements6",
+  "language": "en",
+  "name": "Intra Position Movements 6",
+  "definition": "Provides the transactions in the response.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Movement": {
+      "name": "Movement",
+      "definition": "Identifies the individual transaction."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount must be present or Movement(*)/SafekeepingAccount must be present, but not both."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner must be present or Movement(*)/AccountOwner must be present, but not both."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason must be present or Movement(*)/StatusAndReason must be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "isoType": "MessageAndBusinessReference14",
+  "language": "en",
+  "name": "Message And Business Reference 14",
+  "definition": "Information about the message reference of the message for which the status is requested and the business reference of the transfer instruction.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference to the message or communication that was previously sent."
+    },
+    "TypeOfRequest": {
+      "name": "Type Of Request",
+      "definition": "Type of request required."
+    },
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identification of the transfer, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for a transfer cancellation, as assigned by the instructing party."
+    },
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Identification of the asset."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Investment account information of the transfer for which the status or information is requested."
+    },
+    "IntermediaryInformation": {
+      "name": "Intermediary Information",
+      "definition": "Identification of a related party or intermediary."
+    },
+    "QueryInformation": {
+      "name": "Query Information",
+      "definition": "Information about the query."
+    },
+    "RequestIssuer": {
+      "name": "Request Issuer",
+      "definition": "Party that issues the request message."
+    },
+    "RequestRecipient": {
+      "name": "Request Recipient",
+      "definition": "Party that receives the request message."
+    }
+  },
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference should be used to reference a transfer instruction or a transfer cancellation request 'message' sent in a proprietary way or used for a system reference. If Reference/OtherReference is present, Reference/OtherReference/MessageName must contain 'fax' or 'phone' or 'email', etc."
+    },
+    "PreviousReferenceRule": {
+      "definition": "If Reference/PreviousReference/MessageName is present, it must start with sese.001, sese.002, sese.005, sese.006, sese.012 or sese.014."
+    }
+  }
+}

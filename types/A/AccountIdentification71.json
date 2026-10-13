@@ -1,0 +1,42 @@
+{
+  "isoType": "AccountIdentification71",
+  "language": "en",
+  "name": "Account Identification 71",
+  "definition": "Provides account identification information.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Location where the financial instruments are/will be safekept."
+    },
+    "ConfirmedBalance": {
+      "name": "Confirmed Balance",
+      "definition": "Balance to which the payment applies (less or equal to the total eligible balance)."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceRule": {
+      "definition": "The SafekeepingPlace is only to be used by global custodians that allow their clients to specify where the securities are to be held, for example, in an ICSD account versus an account at the local CSD."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present then SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "If SafekeepingAccount is present, then BlockChainAddressOrWallet must be absent."
+    }
+  }
+}

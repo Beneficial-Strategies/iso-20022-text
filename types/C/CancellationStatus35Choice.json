@@ -1,0 +1,20 @@
+{
+  "isoType": "CancellationStatus35Choice",
+  "language": "en",
+  "name": "Cancellation Status 35 Choice",
+  "definition": "Status applying to the instruction cancellation request received.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status advising on the processing of the instruction cancellation request."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status advising on the rejection of the instruction cancellation request and on the reason for the rejection."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Status advising that the instruction cancellation request is pending and advising on the reason for the pending status."
+    }
+  }
+}

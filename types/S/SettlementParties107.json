@@ -1,0 +1,55 @@
+{
+  "isoType": "SettlementParties107",
+  "language": "en",
+  "name": "Settlement Parties 107",
+  "definition": "Chain of parties involved in the settlement of a transaction, including receipts and deliveries, book transfers, treasury deals, or other activities, resulting in the movement of a security or amount of money from one account to another.",
+  "isoElements": {
+    "Depository": {
+      "name": "Depository",
+      "definition": "First party in the settlement chain. In a plain vanilla settlement, it is the Central Securities Depository where the counterparty requests to receive the financial instrument or from where the counterparty delivers the financial instruments."
+    },
+    "Party1": {
+      "name": "Party 1",
+      "definition": "Party that, in a settlement chain interacts with the depository."
+    },
+    "Party2": {
+      "name": "Party 2",
+      "definition": "Party that, in a settlement chain interacts with the party 1."
+    },
+    "Party3": {
+      "name": "Party 3",
+      "definition": "Party that, in a settlement chain interacts with the party 2."
+    },
+    "Party4": {
+      "name": "Party 4",
+      "definition": "Party that, in a settlement chain interacts with the party 3."
+    },
+    "Party5": {
+      "name": "Party 5",
+      "definition": "Party that, in a settlement chain interacts with the party 4."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "If Party2 is present, then Party1 must be present."
+    },
+    "Party3PresenceRule": {
+      "definition": "If Party3 is present, then Party2 must be present."
+    },
+    "Party4PresenceRule": {
+      "definition": "If Party4 is present, then Party3 must be present."
+    },
+    "Party5PresenceRule": {
+      "definition": "If Party5 is present, then Party4 must be present."
+    },
+    "SettlementChainGuideline": {
+      "definition": "SMPG recommends that at least three settlement parties be instructed in equity or fixed income receive|free or against payment settlement instructions; the depository, the participant of the depository (Party1) and the client of Party1 (Party2).|The data format for the identification of Party1 depends on the market. If no country specific requirement is available, BIC is recommended.|For more details, see the relevant market practice document on www.smpg.info."
+    },
+    "DepositoryGuideline": {
+      "definition": "In a delivery, the receiving depository is to be understood as the requested depository of the receiving counterparty. |In a receive, the delivering depository is to be understood as the requested depository of the delivering counterparty.|The field must be populated with the BIC of a national or international CSD. When no CSD exists in a particular market, the stock exchange BIC is to be used.|Country code should be used for settlement taking place outside of an institution published in the PSET's BIC list. This includes physical deliveries and investment funds not settling at a CSD. |The format and content of the settlement party sequences will comply with the market practices published for the counterparty depository included in the message.|For more details, see the relevant market practice document on www.smpg.info."
+    },
+    "BookTransferGuideline": {
+      "definition": "In case of own account internal transfer, own account external transfer, portfolio transfer and in specie transfer (see SecuritiesTransactionType), the account of (delivering) Party2 at (delivering) Party1 must be provided.|For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

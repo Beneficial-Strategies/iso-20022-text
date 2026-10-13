@@ -1,0 +1,31 @@
+{
+  "isoType": "SecuritiesSettlementTransactionQueryResponseV01",
+  "language": "en",
+  "name": "Securities Settlement Transaction Query Response V 01",
+  "definition": "The SecuritiesSettlementResponse message is sent from a settlement infrastructure to an account owner/requestor to provide the details of the securities settlement instructions, as selected in the search criteria defined in the request.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "Transactions": {
+      "name": "Transactions",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ActivityIndicator is equal to Yes (true or 1) then Transactions must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ActivityIndicator is equal to No (false or 0) then Transactions must be absent."
+    },
+    "QueryTypeAndStatusReasonRule": {
+      "definition": "If QueryType is equal to Status (STTS) or StatusPeriod (STPD) then Transactions(*)/StatusReaon must be present."
+    }
+  }
+}

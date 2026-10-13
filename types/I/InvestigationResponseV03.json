@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationResponseV03",
+  "language": "en",
+  "name": "Investigation Response V 03",
+  "definition": "Scope|The InvestigationResponse message is sent between agents to provide a response or status update on an investigation.|Usage|The InvestigationResponse message should be used to respond to an InvestigationRequest message. The responses cover these business scenarios -|- unable to apply;|- request for information;|- request value date adjustment;|- claim non-receipt;|- request debit authorisation;|- request use of funds;|- payment initiation not confirmed;|- miscellaenous business scenarios.|The InvestigationResponse message covers one and only one transaction or entry at a time except when responding to some requests for information.",
+  "isoElements": {
+    "InvestigationResponse": {
+      "name": "Investigation Response",
+      "definition": ""
+    },
+    "OriginalInvestigationRequest": {
+      "name": "Original Investigation Request",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

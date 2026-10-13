@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventType127Choice",
+  "language": "en",
+  "name": "Corporate Action Event Type 127 Choice",
+  "definition": "Choice between formats to express the corporate event type.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Event type expressed as a code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Event type expressed as a proprietary code."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "If Code is present, the code OTHR (Other) must only be used if no other corporate action event code is appropriate. ||If Code is present, the code CHAN (Change) must only be used if no other corporate action event code is appropriate and only for an event which relates to a change. ||If Code is present, the code REDM (Final Maturity) must only be used if the redemption is decided by the issuer and not by the securities holders."
+    }
+  }
+}

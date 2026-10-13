@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceSourceFormatChoice",
+  "language": "en",
+  "name": "Price Source Format Choice",
+  "definition": "Choice of the source (place) of the price quotation.",
+  "isoElements": {
+    "LocalMarketPlace": {
+      "name": "Local Market Place",
+      "definition": "Source of price quotation is the market, expressed as a Market Identifier Code (MIC)."
+    },
+    "NonLocalMarketPlace": {
+      "name": "Non Local Market Place",
+      "definition": "Source of a price quotation when it is not the local market."
+    },
+    "PlaceAsDSS": {
+      "name": "Place As DSS",
+      "definition": "Source of a price quotation expressed with a propriety identification scheme."
+    }
+  }
+}

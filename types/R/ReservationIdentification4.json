@@ -1,0 +1,28 @@
+{
+  "isoType": "ReservationIdentification4",
+  "language": "en",
+  "name": "Reservation Identification 4",
+  "definition": "Liquidity set aside by the account owner for specific purposes.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "name": "Reservation Identification",
+      "definition": "Unique identification of the reservation."
+    },
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Identification of a particular cash clearing system."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the reservation."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    }
+  }
+}

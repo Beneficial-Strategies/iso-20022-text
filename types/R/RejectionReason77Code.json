@@ -1,0 +1,43 @@
+{
+  "isoType": "RejectionReason77Code",
+  "language": "en",
+  "name": "Rejection Reason 77 Code",
+  "definition": "Specifies the reason why the request has a rejected or repair status.",
+  "isoCodes": {
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "MISM": {
+      "isoName": "InvalidRequest",
+      "name": "Invalid Request",
+      "definition": "Statement/status advice request cannot be executed. The message type requested is not valid for the message reference or statement period concerned."
+    }
+  }
+}

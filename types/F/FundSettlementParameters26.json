@@ -1,0 +1,24 @@
+{
+  "isoType": "FundSettlementParameters26",
+  "language": "en",
+  "name": "Fund Settlement Parameters 26",
+  "definition": "Parameters applied to the settlement of a security.",
+  "isoElements": {
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Condition under which the order/trade is to be/was executed. This may be required for settlement through T2S."
+    },
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Condition under which the order/trade is to be settled. This may be required for settlement through T2S."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "name": "Securities Settlement System Identification",
+      "definition": "Identification of a specific system or set of rules and/or processes to be applied at the settlement place."
+    },
+    "DeliveringSideDetails": {
+      "name": "Delivering Side Details",
+      "definition": "Chain of delivering settlement parties."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "FundCashInBreakdown3",
+  "language": "en",
+  "name": "Fund Cash In Breakdown 3",
+  "definition": "Breakdown of cash movements into a fund as a result of investment funds transactions, eg, subscriptions or switch-in.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of cash flow in, expressed as an amount of money."
+    },
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Amount of the cash flow in, expressed as a number of units."
+    },
+    "NewAmountIndicator": {
+      "name": "New Amount Indicator",
+      "definition": "Indicates whether the cash flow is an item that did not appear on the previously sent report, for example, because it was received close to cut-off time."
+    },
+    "InvestmentFundTransactionInType": {
+      "name": "Investment Fund Transaction In Type",
+      "definition": "Type of transaction that resulted in the cash-in movement, for example, subscription, switch-in."
+    },
+    "OriginalOrderQuantityType": {
+      "name": "Original Order Quantity Type",
+      "definition": "Specifies how the original order was expressed that resulted in the cash-in movement, that is cash or units."
+    },
+    "ChargeDetails": {
+      "name": "Charge Details",
+      "definition": "Charge for the placement of an order."
+    },
+    "CommissionDetails": {
+      "name": "Commission Details",
+      "definition": "Information related to the commission applied to an order, for example, back-end or front-end commission."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Settlement currency for the transaction."
+    }
+  }
+}

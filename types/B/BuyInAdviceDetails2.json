@@ -1,0 +1,40 @@
+{
+  "isoType": "BuyInAdviceDetails2",
+  "language": "en",
+  "name": "Buy In Advice Details 2",
+  "definition": "Details of a buy-in.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "References of the failing transaction."
+    },
+    "BuyInState": {
+      "name": "Buy In State",
+      "definition": "Status of the buy-in transaction."
+    },
+    "BuyInDeferral": {
+      "name": "Buy In Deferral",
+      "definition": "Specifies if the buy-in transaction was deferred or not."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the financial instrument of the buy-in instruction."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of financial instrument concerned by the buy-in transaction."
+    },
+    "BuyInPrice": {
+      "name": "Buy In Price",
+      "definition": "Price of the traded financial instrument in the buy-in transaction."
+    },
+    "CashCompensationAmount": {
+      "name": "Cash Compensation Amount",
+      "definition": "Amount of money that has to be paid by the failing trading party in case of an unsuccessful or partially successful buy-in transaction."
+    },
+    "BuyInSettlementDate": {
+      "name": "Buy In Settlement Date",
+      "definition": "Settlement date of the buy-in."
+    }
+  }
+}

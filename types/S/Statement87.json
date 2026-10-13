@@ -1,0 +1,32 @@
+{
+  "isoType": "Statement87",
+  "language": "en",
+  "name": "Statement 87",
+  "definition": "Characteristics of the statement.",
+  "isoElements": {
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Reference common to all pages of a statement."
+    },
+    "StatementDateTime": {
+      "name": "Statement Date Time",
+      "definition": "Date and time of the statement."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the report is complete or contains changes only."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    }
+  }
+}

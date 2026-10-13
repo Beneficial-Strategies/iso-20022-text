@@ -1,0 +1,36 @@
+{
+  "isoType": "PenaltyFinancialInstrumentIdentification1",
+  "language": "en",
+  "name": "Penalty Financial Instrument Identification 1",
+  "definition": "Specifies the details of the financial instrument subject to penalties.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "SubjectToPenalties": {
+      "name": "Subject To Penalties",
+      "definition": "Indicates if the financial instrument is subject to penalties on this business day.||Usage: If not provided it means that the security is subject to penalties on this business day."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "Liquidity": {
+      "name": "Liquidity",
+      "definition": "Specifies whether the security is liquid or illiquid.||Usage: When indicator in not provided, the liquidity is not relevant."
+    },
+    "PriceData": {
+      "name": "Price Data",
+      "definition": "Further details on the price of the financial instrument."
+    },
+    "ForeignExchangeData": {
+      "name": "Foreign Exchange Data",
+      "definition": "Further details on the foreign exchange rate."
+    },
+    "SecuritiesPenaltyRateData": {
+      "name": "Securities Penalty Rate Data",
+      "definition": "Penalty rate data provided if the securities is subject to penalties and the calculation method code is securities or both."
+    }
+  }
+}

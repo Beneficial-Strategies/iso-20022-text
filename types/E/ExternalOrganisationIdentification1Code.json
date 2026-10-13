@@ -1,0 +1,83 @@
+{
+  "isoType": "ExternalOrganisationIdentification1Code",
+  "language": "en",
+  "name": "External Organisation Identification 1 Code",
+  "definition": "Specifies the external organisation identification scheme name code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BANK": {
+      "isoName": "BankPartyIdentification",
+      "name": "Bank Party Identification",
+      "definition": "Unique and unambiguous assignment made by a specific bank or similar financial institution to identify a relationship as defined between the bank and its client."
+    },
+    "CBID": {
+      "isoName": "CentralBankIdentificationNumber",
+      "name": "Central Bank Identification Number",
+      "definition": "A unique identification number assigned by a central bank to identify an organisation."
+    },
+    "CHID": {
+      "isoName": "ClearingIdentificationNumber",
+      "name": "Clearing Identification Number",
+      "definition": "A unique identification number assigned by a clearing house to identify an organisation"
+    },
+    "CINC": {
+      "isoName": "CertificateOfIncorporationNumber",
+      "name": "Certificate Of Incorporation Number",
+      "definition": "A unique identification number assigned by a designated authority to a certificate of incorporation and used to identify an organisation."
+    },
+    "COID": {
+      "isoName": "CountryIdentificationCode",
+      "name": "Country Identification Code",
+      "definition": "Country authority given organisation identification (e.g., corporate registration number)"
+    },
+    "CUST": {
+      "isoName": "CustomerNumber",
+      "name": "Customer Number",
+      "definition": "Number assigned by an issuer to identify a customer.|Number assigned by a party to identify a creditor or debtor relationship."
+    },
+    "DUNS": {
+      "isoName": "DataUniversalNumberingSystem",
+      "name": "Data Universal Numbering System",
+      "definition": "A unique identification number provided by Dun & Bradstreet to identify an organisation."
+    },
+    "EMPL": {
+      "isoName": "EmployerIdentificationNumber",
+      "name": "Employer Identification Number",
+      "definition": "Number assigned by a registration authority to an employer."
+    },
+    "GS1G": {
+      "isoName": "GS1GLNIdentifier",
+      "name": "GS 1 GLN Identifier",
+      "definition": "Global Location Number. A non-significant reference number used to identify legal entities, functional entities, or physical entities according to GS1 numbering scheme rules.The number is used to retrieve detailed information that is linked to it."
+    },
+    "SREN": {
+      "isoName": "SIREN",
+      "name": "SIREN",
+      "definition": "The SIREN number is a 9 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation in France."
+    },
+    "SRET": {
+      "isoName": "SIRET",
+      "name": "SIRET",
+      "definition": "The SIRET number is a 14 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation unit in France. It consists of the SIREN number, followed by a five digit classification number, to identify the local geographical unit of that entity"
+    },
+    "TXID": {
+      "isoName": "TaxIdentificationNumber",
+      "name": "Tax Identification Number",
+      "definition": "Number assigned by a tax authority to identify an organisation."
+    },
+    "BDID": {
+      "isoName": "BusinessDomainIdentifier",
+      "name": "Business Domain Identifier",
+      "definition": "Identifier of the business domain in which the organisation is active."
+    },
+    "BOID": {
+      "isoName": "BusinessOtherIdentification",
+      "name": "Business Other Identification",
+      "definition": "Other identification of the organisation."
+    },
+    "USID": {
+      "isoName": "UniqueSuperannuationIdentifier",
+      "name": "Unique Superannuation Identifier",
+      "definition": "Unique identifier assigned to a pension/superannuation fund, product, or scheme to which a superannuation contribution payment is directed."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "PortfolioTransferStatus2Choice",
+  "language": "en",
+  "name": "Portfolio Transfer Status 2 Choice",
+  "definition": "Choice of format for an allegement status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Processing of the instruction/request is pending."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction/request has been rejected for further processing."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "GeneralBusinessOrError8Choice",
+  "language": "en",
+  "name": "General Business Or Error 8 Choice",
+  "definition": "Reports either on the business information or on a business error.",
+  "isoElements": {
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    },
+    "GeneralBusiness": {
+      "name": "General Business",
+      "definition": "Requested business information."
+    }
+  }
+}

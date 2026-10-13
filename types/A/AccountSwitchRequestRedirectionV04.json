@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountSwitchRequestRedirectionV04",
+  "language": "en",
+  "name": "Account Switch Request Redirection V 04",
+  "definition": "The AccountSwitchRequestRedirection message is sent by the new account servicer to a central account switch servicer to set up the redirection of payment and collection transactions that are processed after completion of the account switch.  It is routed to the previous account servicer to signal that it should schedule the cancellation of all payment arrangements on the old account. This message may also be used by the new bank to amend the new account details, if the details previously provided were incorrect.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "NewAccount": {
+      "name": "New Account",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

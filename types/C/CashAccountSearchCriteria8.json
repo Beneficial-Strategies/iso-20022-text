@@ -1,0 +1,37 @@
+{
+  "isoType": "CashAccountSearchCriteria8",
+  "language": "en",
+  "name": "Cash Account Search Criteria 8",
+  "definition": "Defines the criteria used to search for an account.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature, or use, of the cash account."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency of the cash account."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Balance of the account which is being queried."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Servicer of the account which is being queried."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "If the account identification identifies a group of accounts with different types or in different currencies, the currency and/or the account type can be used as additional search criteria."
+    }
+  }
+}

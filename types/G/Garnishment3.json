@@ -1,0 +1,40 @@
+{
+  "isoType": "Garnishment3",
+  "language": "en",
+  "name": "Garnishment 3",
+  "definition": "Provides remittance information about a payment for garnishment-related purposes.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of garnishment."
+    },
+    "Garnishee": {
+      "name": "Garnishee",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor, in this case, to the garnisher."
+    },
+    "GarnishmentAdministrator": {
+      "name": "Garnishment Administrator",
+      "definition": "Party on the credit side of the transaction who administers the garnishment on behalf of the ultimate beneficiary."
+    },
+    "ReferenceNumber": {
+      "name": "Reference Number",
+      "definition": "Reference information that is specific to the agency receiving the garnishment."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date of payment which garnishment was taken from."
+    },
+    "RemittedAmount": {
+      "name": "Remitted Amount",
+      "definition": "Amount of money remitted for the referred document."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "name": "Family Medical Insurance Indicator",
+      "definition": "Indicates if the person to whom the garnishment applies (that is, the ultimate debtor) has family medical insurance coverage available."
+    },
+    "EmployeeTerminationIndicator": {
+      "name": "Employee Termination Indicator",
+      "definition": "Indicates if the employment of the person to whom the garnishment applies (that is, the ultimate debtor) has been terminated."
+    }
+  }
+}

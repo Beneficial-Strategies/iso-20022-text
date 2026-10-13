@@ -1,0 +1,38 @@
+{
+  "isoType": "FIToFIPaymentStatusRequestV07",
+  "language": "en",
+  "name": "FI To FI Payment Status Request V 07",
+  "definition": "Scope|The FinancialInstitutionToFinancialInstitutionPaymentStatusRequest message is sent by the debtor agent to the creditor agent, directly or through other agents and/or a payment clearing and settlement system. It is used to request a FIToFIPaymentStatusReport message containing information on the status of a previously sent instruction. |Usage|The FIToFIPaymentStatusRequest message is exchanged between agents to request status information about instructions previously sent. Its usage will always be governed by a bilateral agreement between the agents.|The FIToFIPaymentStatusRequest message can be used to request information about the status (such as rejection, acceptance) of a credit transfer instruction, a direct debit instruction, as well as other intra-agent instructions (for example FIToFIPaymentCancellationRequest).|The FIToFIPaymentStatusRequest message refers to the original instruction(s) by means of references only or by means of references and a set of elements from the original instruction.|The FIToFIPaymentStatusRequest message can be used in domestic and cross-border scenarios.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": ""
+    },
+    "TransactionInformation": {
+      "name": "Transaction Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "OriginalGroupInformationAbsenceRule": {
+      "definition": "If OriginalGroupInformation is absent, then TransactionInformation[*]/OriginalGroupInformation must be present."
+    },
+    "OriginalGroupInformationMultiplePresenceRule": {
+      "definition": "If OriginalGroupInformation is present and multiple times (Occurrence > 1), then TransactionInformation[*]/OriginalGroupInformation must be present."
+    },
+    "OriginalGroupInformationSinglePresenceRule": {
+      "definition": "If OriginalGroupInformationAndStatus is present and only once, then TransactionInformationAndStatus[*]/OriginalGroupInformation must be absent."
+    },
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}

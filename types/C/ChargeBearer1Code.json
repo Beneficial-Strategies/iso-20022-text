@@ -1,0 +1,23 @@
+{
+  "isoType": "ChargeBearer1Code",
+  "language": "en",
+  "name": "Charge Bearer 1 Code",
+  "definition": "Specifies which party(ies) will pay charges due for processing of the payment transaction.",
+  "isoCodes": {
+    "OUR": {
+      "isoName": "BorneByDebtor",
+      "name": "Borne By Debtor",
+      "definition": "All transaction charges are to be borne by the debtor."
+    },
+    "BEN": {
+      "isoName": "BorneByCreditor",
+      "name": "Borne By Creditor",
+      "definition": "All transaction charges are to be borne by the creditor."
+    },
+    "SHA": {
+      "isoName": "Shared",
+      "name": "Shared",
+      "definition": "Under the credit transfer scenario, transaction charges on the sender's side are to be borne by the debtor; transaction charges on the receiver's side are to be borne by the creditor."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementTransactionCondition5Code",
+  "language": "en",
+  "name": "Settlement Transaction Condition 5 Code",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoCodes": {
+    "PART": {
+      "isoName": "PartialAllowed",
+      "name": "Partial Allowed",
+      "definition": "Partial settlement is allowed."
+    },
+    "NPAR": {
+      "isoName": "PartialNotAllowed",
+      "name": "Partial Not Allowed",
+      "definition": "Partial settlement is not allowed."
+    },
+    "PARC": {
+      "isoName": "PartialSettlementCashThresholdAllowed",
+      "name": "Partial Settlement Cash Threshold Allowed",
+      "definition": "Partial settlement is allowed but must satisfy a cash value minimum (value defined in static data)."
+    },
+    "PARQ": {
+      "isoName": "PartialSettlementQuantityThresholdAllowed",
+      "name": "Partial Settlement Quantity Threshold Allowed",
+      "definition": "Partial settlement is allowed but must satisfy a minimum quantity of securities (quantity defined in static data)."
+    }
+  }
+}

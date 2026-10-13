@@ -1,0 +1,61 @@
+{
+  "isoType": "Cheque19",
+  "language": "en",
+  "name": "Cheque 19",
+  "definition": "Characteristics of a cheque instruction, such as cheque type or cheque number.",
+  "isoElements": {
+    "ChequeType": {
+      "name": "Cheque Type",
+      "definition": "Specifies the type of cheque to be issued."
+    },
+    "ChequeNumber": {
+      "name": "Cheque Number",
+      "definition": "Unique and unambiguous identifier for a cheque as assigned by the agent."
+    },
+    "ChequeFrom": {
+      "name": "Cheque From",
+      "definition": "Identifies the party that ordered the issuance of the cheque."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies the delivery method of the cheque by the debtor's agent."
+    },
+    "DeliverTo": {
+      "name": "Deliver To",
+      "definition": "Party to whom the debtor's agent needs to send the cheque."
+    },
+    "InstructionPriority": {
+      "name": "Instruction Priority",
+      "definition": "Urgency or order of importance that the originator would like the recipient of the payment instruction to apply to the processing of the payment instruction."
+    },
+    "ChequeMaturityDate": {
+      "name": "Cheque Maturity Date",
+      "definition": "Date when the draft becomes payable and the debtor's account is debited."
+    },
+    "FormsCode": {
+      "name": "Forms Code",
+      "definition": "Identifies, in a coded form, the cheque layout, company logo and digitised signature to be used to print the cheque, as agreed between the initiating party and the debtor's agent."
+    },
+    "MemoField": {
+      "name": "Memo Field",
+      "definition": "Information that needs to be printed on a cheque, used by the payer to add miscellaneous information."
+    },
+    "RegionalClearingZone": {
+      "name": "Regional Clearing Zone",
+      "definition": "Regional area in which the cheque can be cleared, when a country has no nation-wide cheque clearing organisation."
+    },
+    "PrintLocation": {
+      "name": "Print Location",
+      "definition": "Specifies the print location of the cheque."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Signature to be used by the cheque servicer on a specific cheque to be printed."
+    }
+  },
+  "isoRules": {
+    "ChequeMaturityDateRule": {
+      "definition": "If ChequeMaturityDate is present, then ChequeType must be present and equal to DRFT or ELDR."
+    }
+  }
+}

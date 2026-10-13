@@ -1,0 +1,148 @@
+{
+  "isoType": "SecuritiesBalanceType11Code",
+  "language": "en",
+  "name": "Securities Balance Type 11 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of financial instruments that are blocked."
+    },
+    "AWAS": {
+      "isoName": "AvailableWithNoAdditionalStatus",
+      "name": "Available With No Additional Status",
+      "definition": "Balance of financial instruments that are freely available with no specific additional status."
+    },
+    "AVAI": {
+      "isoName": "Available",
+      "name": "Available",
+      "definition": "Balance of financial instruments that are available."
+    },
+    "BLCA": {
+      "isoName": "BlockedCorporateAction",
+      "name": "Blocked Corporate Action",
+      "definition": "Balance of financial instrument blocked following a corporate action, including proxy activities."
+    },
+    "BLOT": {
+      "isoName": "BlockedTrading",
+      "name": "Blocked Trading",
+      "definition": "Balance of financial instruments that are blocked for trading."
+    },
+    "BLOV": {
+      "isoName": "BlockedAuthenticity",
+      "name": "Blocked Authenticity",
+      "definition": "Balance of financial instruments that are blocked for verification of authenticity."
+    },
+    "BORR": {
+      "isoName": "Borrowed",
+      "name": "Borrowed",
+      "definition": "Balance of financial instruments that have been borrowed from another party."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation."
+    },
+    "COLA": {
+      "isoName": "EligibleForCollateralPurposes",
+      "name": "Eligible For Collateral Purposes",
+      "definition": "Balance of securities that are eligible for use for collateral purposes."
+    },
+    "LOAN": {
+      "isoName": "OnLoan",
+      "name": "On Loan",
+      "definition": "Loan for consumption."
+    },
+    "MARG": {
+      "isoName": "DerivativesMargin",
+      "name": "Derivatives Margin",
+      "definition": "Account is used when financing is by the broker/dealer."
+    },
+    "PECA": {
+      "isoName": "PendingCorporateActionReceipt",
+      "name": "Pending Corporate Action Receipt",
+      "definition": "Balance of financial instrument pending receipt following a corporate action."
+    },
+    "PEDA": {
+      "isoName": "PendingCorporateActionDelivery",
+      "name": "Pending Corporate Action Delivery",
+      "definition": "Balance of financial instrument pending delivery following a corporate action."
+    },
+    "PLED": {
+      "isoName": "Pledged",
+      "name": "Pledged",
+      "definition": "Balance of securities that belong to and is kept in the safekeeping account indicated within this message, and that are pledged."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of financial instruments currently being processed by the institution responsible for registering the new beneficial owner (or nominee)."
+    },
+    "RSTR": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of financial instruments that may only be sold under certain conditions or require legal documents."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Other. See Narrative."
+    },
+    "TRAN": {
+      "isoName": "InTransshipment",
+      "name": "In Transshipment",
+      "definition": "Transaction has been generated due to transformation following a corporate action."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Settlement transactions relates to drawn securities."
+    },
+    "CLEN": {
+      "isoName": "TaxExempt",
+      "name": "Tax Exempt",
+      "definition": "Tax-exempt financial instruments are to be settled."
+    },
+    "DIRT": {
+      "isoName": "NonTaxExempt",
+      "name": "Non Tax Exempt",
+      "definition": "Taxable financial instruments are to be settled."
+    },
+    "NOMI": {
+      "isoName": "Registered",
+      "name": "Registered",
+      "definition": "Balance of financial instruments that are registered (in nominee name or in the name of the beneficial owner)."
+    },
+    "SPOS": {
+      "isoName": "StreetPosition",
+      "name": "Street Position",
+      "definition": "Balance of financial instruments that remain registered in the name of the prior beneficial owner."
+    },
+    "UNRG": {
+      "isoName": "Unregistered",
+      "name": "Unregistered",
+      "definition": "Balance of securities that could not be registered due to foreign ownership limitation."
+    },
+    "ISSU": {
+      "isoName": "Issued",
+      "name": "Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has been received."
+    },
+    "QUAS": {
+      "isoName": "QuasiIssued",
+      "name": "Quasi Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has not yet been received."
+    },
+    "LODE": {
+      "isoName": "PendingOnLoanDelivery",
+      "name": "Pending On Loan Delivery",
+      "definition": "Balance of financial instruments that are pending delivery in relation to a lending transaction."
+    }
+  }
+}

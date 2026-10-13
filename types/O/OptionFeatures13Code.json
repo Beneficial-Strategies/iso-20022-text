@@ -1,0 +1,83 @@
+{
+  "isoType": "OptionFeatures13Code",
+  "language": "en",
+  "name": "Option Features 13 Code",
+  "definition": "Specifies the features that may apply to a corporate action option.",
+  "isoCodes": {
+    "ASVO": {
+      "isoName": "AccountServicerOption",
+      "name": "Account Servicer Option",
+      "definition": "Option is offered by the account servicer only."
+    },
+    "BOIS": {
+      "isoName": "BeneficiaryOwnerInstruction",
+      "name": "Beneficiary Owner Instruction",
+      "definition": "Indicates that the holder needs to instruct at beneficiary owner level only."
+    },
+    "COND": {
+      "isoName": "Conditional",
+      "name": "Conditional",
+      "definition": "Feature whereby the holder can elect to place a condition on the acceptance of the option."
+    },
+    "MAXC": {
+      "isoName": "MaximumCash",
+      "name": "Maximum Cash",
+      "definition": "Maximum cash option, may be subject to scaling, as such you may receive a combination of cash and securities outturn."
+    },
+    "MAXS": {
+      "isoName": "MaximumSecurities",
+      "name": "Maximum Securities",
+      "definition": "Maximum stock option, may be subject to scaling, as such you may receive a combination of securities and cash outturn."
+    },
+    "NOSE": {
+      "isoName": "NoServiceOffered",
+      "name": "No Service Offered",
+      "definition": "Feature whereby the holder must elect directly to the issuer's agent (issuer only supported option)."
+    },
+    "OPLF": {
+      "isoName": "OddLotPreference",
+      "name": "Odd Lot Preference",
+      "definition": "Tender or exchange with the odd lot preference."
+    },
+    "CAOS": {
+      "isoName": "OptionApplicability",
+      "name": "Option Applicability",
+      "definition": "Option applicability is not subject to the account owner decision but depends on the terms defined by the issuer, for example in the case of equity linked notes or warrants."
+    },
+    "PINS": {
+      "isoName": "PreviousInstructionInvalidity",
+      "name": "Previous Instruction Invalidity",
+      "definition": "Indicates the previously sent instructions becomes invalid. This is only applicable after a market deadline extension."
+    },
+    "PROR": {
+      "isoName": "Proration",
+      "name": "Proration",
+      "definition": "Feature whereby the option can be subject to pro ration in case, for example, of over-subscription."
+    },
+    "VVPR": {
+      "isoName": "ReducedWithholdingTax",
+      "name": "Reduced Withholding Tax",
+      "definition": "Reduced withholding tax rate applies to the option."
+    },
+    "QCAS": {
+      "isoName": "InstructCashAmount",
+      "name": "Instruct Cash Amount",
+      "definition": "Feature whereby the holder should only instruct a cash amount."
+    },
+    "SHAR": {
+      "isoName": "ShareholderNumber",
+      "name": "Shareholder Number",
+      "definition": "Indicates usage of a reference number to identify an investor or a shareholder with the issuer or the registration provider (for instance allocation code)."
+    },
+    "RGRS": {
+      "isoName": "GrossDividendReinvestment",
+      "name": "Gross Dividend Reinvestment",
+      "definition": "Gross dividend is reinvested."
+    },
+    "RNET": {
+      "isoName": "NetDividendReinvestment",
+      "name": "Net Dividend Reinvestment",
+      "definition": "Dividend reinvestment is processed net of withholding tax."
+    }
+  }
+}

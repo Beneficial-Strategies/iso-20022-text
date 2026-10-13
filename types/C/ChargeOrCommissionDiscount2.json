@@ -1,0 +1,25 @@
+{
+  "isoType": "ChargeOrCommissionDiscount2",
+  "language": "en",
+  "name": "Charge Or Commission Discount 2",
+  "definition": "Discounts or waivers to charges and commissions.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of discount or waiver."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate of discount or waiver."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Form of the discount or rebate."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis must be present."
+    }
+  }
+}

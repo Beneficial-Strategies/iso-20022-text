@@ -1,0 +1,53 @@
+{
+  "isoType": "Organisation39",
+  "language": "en",
+  "name": "Organisation 39",
+  "definition": "Organised structure that is set up for a particular purpose, for example, a business, government body, department, charity, or financial institution.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name by which the organisation is known and which is usually used to identify that organisation."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Name of the organisation in short form."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier for the organisation."
+    },
+    "LegalEntityIdentifier": {
+      "name": "Legal Entity Identifier",
+      "definition": "Identification of the organisation with a Legal Entity Identifier. This is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Purpose of the organisation, for example, charity."
+    },
+    "RegistrationCountry": {
+      "name": "Registration Country",
+      "definition": "Country in which the organisation is registered."
+    },
+    "RegistrationDate": {
+      "name": "Registration Date",
+      "definition": "Date and time at which a given organisation was officially registered."
+    },
+    "PostalAddress": {
+      "name": "Postal Address",
+      "definition": "Information that locates and identifies a specific address, as defined by postal services."
+    },
+    "TypeOfOrganisation": {
+      "name": "Type Of Organisation",
+      "definition": "Type of organisation."
+    },
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Place of listing for shares in the organisation."
+    }
+  },
+  "isoRules": {
+    "OrganisationElementRule": {
+      "definition": "One of the elements (Name, ShortName, Identification, LegalEntityIdentifier, Purpose, RegistrationCountry, RegistrationDate, PostalAddress, TypeOfOrganisation, PlaceOfListing) must be present."
+    }
+  }
+}

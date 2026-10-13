@@ -1,0 +1,16 @@
+{
+  "isoType": "AccountIdentification78Choice",
+  "language": "en",
+  "name": "Account Identification 78 Choice",
+  "definition": "Choice between all accounts (GENR - General in ISO 15022) or one or more selected accounts.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "name": "For All Accounts",
+      "definition": "All safekeeping accounts that own an underlying financial instrument."
+    },
+    "AccountsListAndBalanceDetails": {
+      "name": "Accounts List And Balance Details",
+      "definition": "Selected safekeeping accounts list (and optionally balance information) to which the corporate action event applies."
+    }
+  }
+}

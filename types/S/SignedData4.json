@@ -1,0 +1,28 @@
+{
+  "isoType": "SignedData4",
+  "language": "en",
+  "name": "Signed Data 4",
+  "definition": "Digital signatures of data from one or several signers.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "DigestAlgorithm": {
+      "name": "Digest Algorithm",
+      "definition": "Identification of digest algorithm applied before signature."
+    },
+    "EncapsulatedContent": {
+      "name": "Encapsulated Content",
+      "definition": "Data to sign."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Chain of X.509 certificates."
+    },
+    "Signer": {
+      "name": "Signer",
+      "definition": "Digital signature and identification of a signer."
+    }
+  }
+}

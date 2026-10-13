@@ -1,0 +1,24 @@
+{
+  "isoType": "StandingOrderTotalAmount1",
+  "language": "en",
+  "name": "Standing Order Total Amount 1",
+  "definition": "Provides details on the overall amount of \"not yet executed\" predefined liquidity transfer orders or \"defined\" by a system participant in its sphere of responsibility within the system.",
+  "isoElements": {
+    "SetPredefinedOrder": {
+      "name": "Set Predefined Order",
+      "definition": "Total defined amount of predefined liquidity transfer orders."
+    },
+    "PendingPredefinedOrder": {
+      "name": "Pending Predefined Order",
+      "definition": "Total amount of not yet executed predefined liquidity transfer orders."
+    },
+    "SetStandingOrder": {
+      "name": "Set Standing Order",
+      "definition": "Total defined amount of standing liquidity transfer orders."
+    },
+    "PendingStandingOrder": {
+      "name": "Pending Standing Order",
+      "definition": "Total amount of not yet executed standing liquidity transfer orders."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "RepoCallAcknowledgementReason2Code",
+  "language": "en",
+  "name": "Repo Call Acknowledgement Reason 2 Code",
+  "definition": "Specifies additional information about the repurchase agreement call processed instruction.",
+  "isoCodes": {
+    "CALD": {
+      "isoName": "InProcess",
+      "name": "In Process",
+      "definition": "Repurchase agreement call is in process."
+    },
+    "CALP": {
+      "isoName": "Processed",
+      "name": "Processed",
+      "definition": "Repurchase agreement call is processed."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline. Processed on best effort basis."
+    }
+  }
+}

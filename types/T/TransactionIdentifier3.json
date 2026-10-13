@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionIdentifier3",
+  "language": "en",
+  "name": "Transaction Identifier 3",
+  "definition": "Identification of the transaction in an unambiguous way.",
+  "isoElements": {
+    "TransactionDateTime": {
+      "name": "Transaction Date Time",
+      "definition": "Local date and time of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "HostTransactionDateTime": {
+      "name": "Host Transaction Date Time",
+      "definition": "Local date and time of the transaction assigned by the host."
+    },
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": "Identification of the transaction that has to be unique for a time period."
+    }
+  }
+}

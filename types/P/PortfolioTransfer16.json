@@ -1,0 +1,44 @@
+{
+  "isoType": "PortfolioTransfer16",
+  "language": "en",
+  "name": "Portfolio Transfer 16",
+  "definition": "Type of product and assets to be transferred.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferIdentification": {
+      "name": "Transfer Identification",
+      "definition": "Identification assigned to the transfer of assets."
+    },
+    "TransferConfirmationIdentification": {
+      "name": "Transfer Confirmation Identification",
+      "definition": "Identification of the confirmation assigned by the transferor to the transfer."
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Choice of tax efficient product, general investment or pension."
+    },
+    "PartialDiscovery": {
+      "name": "Partial Discovery",
+      "definition": "Indicates that not all the assets in the holding/portfolio are specified and that some other kind of other communication is required."
+    },
+    "ResidualCash": {
+      "name": "Residual Cash",
+      "definition": "Specifies whether there is cash in the account awaiting investment and the currency."
+    },
+    "TaxDate": {
+      "name": "Tax Date",
+      "definition": "Tax date applicable to all the assets."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "name": "Financial Instrument Asset For Transfer",
+      "definition": "Asset to be transferred."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the product transfer."
+    }
+  }
+}

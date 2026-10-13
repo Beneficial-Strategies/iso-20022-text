@@ -1,0 +1,20 @@
+{
+  "isoType": "CashDepositOrWithdrawalCancellationRequestV01",
+  "language": "en",
+  "name": "Cash Deposit Or Withdrawal Cancellation Request V 01",
+  "definition": "The CashDepositOrWithdrawalCancellationRequest message requests the cancellation of a cash deposit request or cash withdrawal request.|Where requesting cancellation of a cash deposit request, it is sent by a cash receiver to a cash sender.|Where requesting cancellation of a cash withdrawal request, it is sent by a cash sender to a cash receiver.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

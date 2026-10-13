@@ -1,0 +1,163 @@
+{
+  "isoType": "FailureReason9Code",
+  "language": "en",
+  "name": "Failure Reason 9 Code",
+  "definition": "Incident occurring during the processing of an ATM transaction.",
+  "isoCodes": {
+    "CDCP": {
+      "isoName": "CardCaptured",
+      "name": "Card Captured",
+      "definition": "ATM manager has requested to capture the card."
+    },
+    "CDCL": {
+      "isoName": "CardDeclined",
+      "name": "Card Declined",
+      "definition": "Integrated circuit card declines the transaction before or after the authorisation."
+    },
+    "CDER": {
+      "isoName": "CardError",
+      "name": "Card Error",
+      "definition": "Unable to complete transaction with the card."
+    },
+    "CUCL": {
+      "isoName": "CustomerCancel",
+      "name": "Customer Cancel",
+      "definition": "Customer cancellation, for example removing the card before the end of the transaction."
+    },
+    "CUDC": {
+      "isoName": "CustomerDecline",
+      "name": "Customer Decline",
+      "definition": "Customer has declined additional fees or a lower amount, transaction fails."
+    },
+    "CDFG": {
+      "isoName": "ForgottenCard",
+      "name": "Forgotten Card",
+      "definition": "Customer has left the card in the ATM or a motorised card reader."
+    },
+    "FILL": {
+      "isoName": "FullfilmentError",
+      "name": "Fullfilment Error",
+      "definition": "Unable to fulfil, for instance dispensing the cash."
+    },
+    "MALF": {
+      "isoName": "Malfunction",
+      "name": "Malfunction",
+      "definition": "Suspected malfunction."
+    },
+    "NDCL": {
+      "isoName": "OnLineDeclined",
+      "name": "On Line Declined",
+      "definition": "Online authorisation declined the transaction."
+    },
+    "SECU": {
+      "isoName": "SecurityError",
+      "name": "Security Error",
+      "definition": "Security error has occurred in the authorisation response message sent by the acquirer."
+    },
+    "SFRD": {
+      "isoName": "SuspectedFraud",
+      "name": "Suspected Fraud",
+      "definition": "Card payment transaction fails because the merchant suspect a fraud."
+    },
+    "TIMO": {
+      "isoName": "TimeOut",
+      "name": "Time Out",
+      "definition": "Timeout while waiting for a response to a request message, or no response was received (for example connection release before receiving the response)."
+    },
+    "LATE": {
+      "isoName": "TooLateResponse",
+      "name": "Too Late Response",
+      "definition": "Response to the previous message was received too late."
+    },
+    "UCPT": {
+      "isoName": "UnableToCapture",
+      "name": "Unable To Capture",
+      "definition": "Unable to capture the card as requested."
+    },
+    "UCMP": {
+      "isoName": "UnableToComplete",
+      "name": "Unable To Complete",
+      "definition": "Unable to complete the transaction after the authorisation response."
+    },
+    "USND": {
+      "isoName": "UnableToSend",
+      "name": "Unable To Send",
+      "definition": "Unable to deliver the request message to the recipient party."
+    },
+    "CSRV": {
+      "isoName": "OutOfCustomerService",
+      "name": "Out Of Customer Service",
+      "definition": "ATM manager has requested to the ATM to stop customer services."
+    },
+    "CDRT": {
+      "isoName": "CardRetained",
+      "name": "Card Retained",
+      "definition": "Card has been retained by the ATM or the terminal."
+    },
+    "CUTO": {
+      "isoName": "CustomerTimeOut",
+      "name": "Customer Time Out",
+      "definition": "Customer has not been performed in time an action."
+    },
+    "RJCT": {
+      "isoName": "Reject",
+      "name": "Reject",
+      "definition": "The ATM Manager has sent an ATMReject message in response to an authorisation request."
+    },
+    "FMTE": {
+      "isoName": "FormatError",
+      "name": "Format Error",
+      "definition": "The ATM Manager has sent a response message in response to an authorisation request where some of its required elements were badly formatted (for example an integer value where a dateTime value was expected)."
+    },
+    "VLTE": {
+      "isoName": "ValidationError",
+      "name": "Validation Error",
+      "definition": "The ATM Manager has sent a response message in response to an authorisation request where some of its required elements were invalid (for example an incorrect ExchangeIdentifier)."
+    },
+    "CHFG": {
+      "isoName": "CashDispenserRetract",
+      "name": "Cash Dispenser Retract",
+      "definition": "Following a cash dispense operation the consumer forgot to take the notes, which have subsequently been retracted following a Present time-out. The number of notes retracted is unknown."
+    },
+    "DCFG": {
+      "isoName": "CashDepositRetract",
+      "name": "Cash Deposit Retract",
+      "definition": "Following a cash return, on a deposit operation, the consumer forgot to take the returned notes, causing them to be retracted. The number of notes retracted is unknown."
+    },
+    "CQFG": {
+      "isoName": "ChequeDepositRetract",
+      "name": "Cheque Deposit Retract",
+      "definition": "Following cheques being returned, on a cheque deposit operation, the consumer forgot to take the returned cheques, causing them to be retracted. The number of cheques retracted is unknown."
+    },
+    "DFGC": {
+      "isoName": "CashDepositRetractCounted",
+      "name": "Cash Deposit Retract Counted",
+      "definition": "Following a cash return, on a deposit operation, the consumer forgot to take the returned notes, causing them to be retracted. The number of notes retracted is known as the device was able to count the notes retracted."
+    },
+    "CFGC": {
+      "isoName": "CashDispenserRetractCounted",
+      "name": "Cash Dispenser Retract Counted",
+      "definition": "Following a cash dispense operation the consumer forgot to take the returned notes, which have subsequently been retracted following a Present time-out. The number of notes retracted is known as the device was able to count the notes retracted."
+    },
+    "QFGC": {
+      "isoName": "ChequeDepositRetractCounted",
+      "name": "Cheque Deposit Retract Counted",
+      "definition": "Following cheques being returned, on a cheque deposit operation, the consumer forgot to take the returned cheques, causing them to be retracted. The number of cheques retracted is known as the device was able to count the cheques retracted."
+    },
+    "CQRT": {
+      "isoName": "ChequesRetained",
+      "name": "Cheques Retained",
+      "definition": "Cheques have been retained by the terminal since it has been unable to return them."
+    },
+    "DCRT": {
+      "isoName": "DepositsRetained",
+      "name": "Deposits Retained",
+      "definition": "Cash has been retained by the terminal since it has been unable to return it."
+    },
+    "RSTR": {
+      "isoName": "Restart",
+      "name": "Restart",
+      "definition": "The ATM has restarted."
+    }
+  }
+}

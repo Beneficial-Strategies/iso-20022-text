@@ -1,0 +1,40 @@
+{
+  "isoType": "TransactionDetails160",
+  "language": "en",
+  "name": "Transaction Details 160",
+  "definition": "Identifies the details of the transaction.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    }
+  }
+}

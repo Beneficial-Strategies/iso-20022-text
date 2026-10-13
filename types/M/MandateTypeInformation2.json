@@ -1,0 +1,24 @@
+{
+  "isoType": "MandateTypeInformation2",
+  "language": "en",
+  "name": "Mandate Type Information 2",
+  "definition": "Set of elements used to further detail the information related to the type of payment.",
+  "isoElements": {
+    "ServiceLevel": {
+      "name": "Service Level",
+      "definition": "Agreement under which or rules under which the mandate resides."
+    },
+    "LocalInstrument": {
+      "name": "Local Instrument",
+      "definition": "User community specific instrument.|Usage: This element is used to specify a local instrument, local clearing option and/or further qualify the service or service level."
+    },
+    "CategoryPurpose": {
+      "name": "Category Purpose",
+      "definition": "Specifies the high level purpose of the mandate based on a set of pre-defined categories."
+    },
+    "Classification": {
+      "name": "Classification",
+      "definition": "Type of direct debit instruction."
+    }
+  }
+}

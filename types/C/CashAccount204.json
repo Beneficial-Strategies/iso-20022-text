@@ -1,0 +1,56 @@
+{
+  "isoType": "CashAccount204",
+  "language": "en",
+  "name": "Cash Account 204",
+  "definition": "Account to or from which a cash entry is made.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency associated with the payment instrument."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "AccountServicerBranch": {
+      "name": "Account Servicer Branch",
+      "definition": "Information identifying a specific branch of a financial institution.||Usage: this component should be used in case the identification information in the financial institution component does not provide identification up to branch level."
+    },
+    "AccountOwnerOtherIdentification": {
+      "name": "Account Owner Other Identification",
+      "definition": "Alternative identification, for example, national registration identification number, passport number, tax identification number. This may be an account number used to further identify the beneficial owner, for example, a Central Provident Fund (CFP) account as required for Singapore."
+    },
+    "InvestmentAccountType": {
+      "name": "Investment Account Type",
+      "definition": "Type of account."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Specifies if the account is for credits or debits."
+    },
+    "SettlementInstructionReason": {
+      "name": "Settlement Instruction Reason",
+      "definition": "Type of transaction for which the cash account is specified."
+    },
+    "CashAccountPurpose": {
+      "name": "Cash Account Purpose",
+      "definition": "Purpose of the cash account."
+    },
+    "CashAccountDesignation": {
+      "name": "Cash Account Designation",
+      "definition": "Specifies whether the account is the primary or secondary account if there are two accounts for the same purpose."
+    },
+    "DividendPercentage": {
+      "name": "Dividend Percentage",
+      "definition": "Percentage of the dividend payment not to be reinvested, that is, to be paid in cash."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "QueryType2Code",
+  "language": "en",
+  "name": "Query Type 2 Code",
+  "definition": "Specifies the nature of the query, i.e. whether the query requests that all matching items be returned or only new matching items since the last similar query be returned.",
+  "isoCodes": {
+    "ALLL": {
+      "isoName": "All",
+      "name": "All",
+      "definition": "Specifies that the query requests that all matching items be returned."
+    },
+    "CHNG": {
+      "isoName": "Changed",
+      "name": "Changed",
+      "definition": "Specifies that the query requests that only new matching items since the last similar query be returned."
+    },
+    "MODF": {
+      "isoName": "Modified",
+      "name": "Modified",
+      "definition": "Specifies that the query requests that only items that have changed since the last query be returned."
+    },
+    "DELD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Specifies that the query requests that items that have been deleted since the last query be returned."
+    }
+  }
+}

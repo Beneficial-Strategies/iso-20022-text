@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionPrice88",
+  "language": "en",
+  "name": "Corporate Action Price 88",
+  "definition": "Specifies prices related to a corporate action option.",
+  "isoElements": {
+    "IndicativeOrMarketPrice": {
+      "name": "Indicative Or Market Price",
+      "definition": "Indicates whether the price is an indicative price or a market price."
+    },
+    "IssuePrice": {
+      "name": "Issue Price",
+      "definition": "Initial issue price of a financial instrument."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "name": "Generic Cash Price Received Per Product",
+      "definition": "Generic cash price received per product by the underlying security holder either as a percentage or an amount, for example, redemption price."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "name": "Generic Cash Price Paid Per Product",
+      "definition": "Generic cash price paid per product by the underlying security holder either as a percentage or an amount, for example, reinvestment price."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "Generic Cash Price Received per Product (OFFR) and Generic Cash Price Paid per Product (PRPP) are prices received or paid in the course of an event. The specific meaning (redemption price, subscription price, reinvestment price, etc.) is derived from the event type."
+    }
+  }
+}

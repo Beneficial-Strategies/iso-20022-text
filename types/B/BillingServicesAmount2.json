@@ -1,0 +1,20 @@
+{
+  "isoType": "BillingServicesAmount2",
+  "language": "en",
+  "name": "Billing Services Amount 2",
+  "definition": "Taxable service charge amount conversions to host currency.",
+  "isoElements": {
+    "HostAmount": {
+      "name": "Host Amount",
+      "definition": "Sum of the original charge host amount and the service tax host amount values. It represents the total charge for a service (including taxes) expressed in the host currency."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Sum of the original charge host amount and the service tax host amount values but expressed in the settlement currency."
+    },
+    "PricingAmount": {
+      "name": "Pricing Amount",
+      "definition": "Sum of the original charge host amount and the service tax host amount values but expressed in the pricing currency."
+    }
+  }
+}

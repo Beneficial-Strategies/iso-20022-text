@@ -1,0 +1,24 @@
+{
+  "isoType": "TotalCharges8",
+  "language": "en",
+  "name": "Total Charges 8",
+  "definition": "Specifies the total amount of records and charges included in the block.",
+  "isoElements": {
+    "NumberOfChargesBreakdownItems": {
+      "name": "Number Of Charges Breakdown Items",
+      "definition": "Number of individual charges breakdown items contained in the record."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual charges breakdown amounts, irrespective of currencies."
+    },
+    "TotalChargesAmount": {
+      "name": "Total Charges Amount",
+      "definition": "Total amount of charges claimed through the charges breakdown items."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the total charges amount is a credit or a debit amount. |Usage: A zero amount is considered to be a credit."
+    }
+  }
+}

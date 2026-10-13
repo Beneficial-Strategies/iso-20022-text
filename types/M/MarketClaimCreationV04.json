@@ -1,0 +1,52 @@
+{
+  "isoType": "MarketClaimCreationV04",
+  "language": "en",
+  "name": "Market Claim Creation V 04",
+  "definition": "Scope and Usage|The MarketClaimCreation message is sent by an account servicer to an account holder to advise the creation of a market claim transaction on a securities account, that has been automatically generated (for example by a CSD) on a mandatory distribution type of corporate action event. |This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "RelatedSettlementInstructionDetails": {
+      "name": "Related Settlement Instruction Details",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": ""
+    },
+    "MarketClaimType": {
+      "name": "Market Claim Type",
+      "definition": "Type of market claim creation requested."
+    },
+    "MarketClaimSettlementIndicator": {
+      "name": "Market Claim Settlement Indicator",
+      "definition": "Indicates if a market claim will not settle and is created for detection purposes only."
+    },
+    "MarketClaimDetails": {
+      "name": "Market Claim Details",
+      "definition": ""
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": ""
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

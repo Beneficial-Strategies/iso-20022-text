@@ -1,0 +1,18 @@
+{
+  "isoType": "ServiceAdjustmentType1Code",
+  "language": "en",
+  "name": "Service Adjustment Type 1 Code",
+  "definition": "Defines the type of allowed service adjustment.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Compensable",
+      "name": "Compensable",
+      "definition": "Adjustment applies to a service which is balance compensable. Earnings credits based on average balances maintained in the account can be used to offset the service charge."
+    },
+    "NCMP": {
+      "isoName": "NonCompensable",
+      "name": "Non Compensable",
+      "definition": "Adjustment applies to a service which is not balance compensable. Balance based credits cannot be used to offset the service charge."
+    }
+  }
+}

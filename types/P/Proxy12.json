@@ -1,0 +1,21 @@
+{
+  "isoType": "Proxy12",
+  "language": "en",
+  "name": "Proxy 12",
+  "definition": "Identification of a proxy appointed to represent a party authorised to vote at a shareholders meeting and proxy vote.",
+  "isoElements": {
+    "ProxyType": {
+      "name": "Proxy Type",
+      "definition": "Type of proxy."
+    },
+    "PersonDetails": {
+      "name": "Person Details",
+      "definition": "Person, other than the chairman of the meeting, assigned by the security holder as the proxy."
+    }
+  },
+  "isoRules": {
+    "ProxyAppointment1Rule": {
+      "definition": "If ProxyType is DISC (Discretionary) or HLDR (SecurityHolder), then PersonDetails must be present."
+    }
+  }
+}

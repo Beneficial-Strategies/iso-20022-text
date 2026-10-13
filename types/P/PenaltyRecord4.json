@@ -1,0 +1,44 @@
+{
+  "isoType": "PenaltyRecord4",
+  "language": "en",
+  "name": "Penalty Record 4",
+  "definition": "Specifies further details on the penalty.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification as assigned to the penalty by the market infrastructure."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the penalty."
+    },
+    "Insolvency": {
+      "name": "Insolvency",
+      "definition": "Party can no longer meet its financial obligations.||Usage: When indicator in not provided, the Insolvency is not relevant."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of a penalty."
+    },
+    "ComputedAmount": {
+      "name": "Computed Amount",
+      "definition": "Amount computed for this penalty."
+    },
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "Provides the calculation rule used to compute the penalty."
+    },
+    "NumberOfDays": {
+      "name": "Number Of Days",
+      "definition": "Number of business days from/to the intended settlement date."
+    },
+    "CalculationData": {
+      "name": "Calculation Data",
+      "definition": "Further details for the calculation of the penalty."
+    },
+    "RelatedTransaction": {
+      "name": "Related Transaction",
+      "definition": "Transaction for which the penalties apply."
+    }
+  }
+}

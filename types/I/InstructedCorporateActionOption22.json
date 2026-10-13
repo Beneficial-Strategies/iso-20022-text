@@ -1,0 +1,56 @@
+{
+  "isoType": "InstructedCorporateActionOption22",
+  "language": "en",
+  "name": "Instructed Corporate Action Option 22",
+  "definition": "Provides corporate action option details about total instructed balance.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "InstructedBalance": {
+      "name": "Instructed Balance",
+      "definition": "Balance of instructed position."
+    },
+    "DefaultAction": {
+      "name": "Default Action",
+      "definition": "Indicates the default action related to a corporate action event."
+    },
+    "OptionAcceptedInstructedBalance": {
+      "name": "Option Accepted Instructed Balance",
+      "definition": "Daily total of accepted instructions received for a given option."
+    },
+    "OptionCancelledInstructionBalance": {
+      "name": "Option Cancelled Instruction Balance",
+      "definition": "Daily total of cancelled instructions for a given option."
+    },
+    "OptionPendingInstructionBalance": {
+      "name": "Option Pending Instruction Balance",
+      "definition": "Daily total of pending instructions in pending status for a given option.  It includes cancel pending instructions."
+    },
+    "OptionRejectedInstructionBalance": {
+      "name": "Option Rejected Instruction Balance",
+      "definition": "Daily total of rejected instructions for a given option."
+    },
+    "OptionReturnedInstructedBalance": {
+      "name": "Option Returned Instructed Balance",
+      "definition": "Daily total of returned instructions received for a given option."
+    },
+    "OptionProtectInstructionBalance": {
+      "name": "Option Protect Instruction Balance",
+      "definition": "Daily total of all protect instructions for a given option."
+    },
+    "EventDeadlines": {
+      "name": "Event Deadlines",
+      "definition": "Provides information about the deadlines related to a corporate action option."
+    },
+    "OptionInstructionDetails": {
+      "name": "Option Instruction Details",
+      "definition": "Instructions details received for the given option."
+    }
+  }
+}

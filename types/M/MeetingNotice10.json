@@ -1,0 +1,100 @@
+{
+  "isoType": "MeetingNotice10",
+  "language": "en",
+  "name": "Meeting Notice 10",
+  "definition": "Information about a meeting, participation requirements and voting procedures.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "name": "Meeting Identification",
+      "definition": "Identification assigned to the general meeting by the party that provides the meeting notification. It must be unique to the party providing the notification"
+    },
+    "IssuerMeetingIdentification": {
+      "name": "Issuer Meeting Identification",
+      "definition": "Identification assigned to the meeting by the issuer. It must be unique for the issuer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of security holders meeting."
+    },
+    "Classification": {
+      "name": "Classification",
+      "definition": "Classification of the meeting."
+    },
+    "AnnouncementDate": {
+      "name": "Announcement Date",
+      "definition": "Official meeting announcement date."
+    },
+    "OneManOneVoteIndicator": {
+      "name": "One Man One Vote Indicator",
+      "definition": "Indicates whether the meeting vote is held under the \"one-man-one-vote\" principle, also known as \"per capita vote\" whereby the shareholder attending the meeting has one vote only, regardless of the holding positions."
+    },
+    "Participation": {
+      "name": "Participation",
+      "definition": "Method of voting participation to the general meeting and related voting deadline per method of participation."
+    },
+    "Attendance": {
+      "name": "Attendance",
+      "definition": "Information and conditions for physical attendance at the general meeting."
+    },
+    "AdditionalDocumentationURLAddress": {
+      "name": "Additional Documentation URL Address",
+      "definition": "Address to use over the www (HTTP) service where additional information on the meeting may be found."
+    },
+    "EventProcessingWebSiteAddress": {
+      "name": "Event Processing Web Site Address",
+      "definition": "Provides web address of an account servicer (or of a service provider) that contains information solely intended for the immediate account holder to enable or facilitate event processing between parties."
+    },
+    "AdditionalProcedureDetails": {
+      "name": "Additional Procedure Details",
+      "definition": "Additional procedural information about the general meeting, specifying the participation requirements and the voting procedures. Alternatively, this may indicate where such information may be obtained."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "name": "Total Number Of Securities Outstanding",
+      "definition": "Number of securities admitted to the vote, expressed as an amount and a currency."
+    },
+    "TotalNumberOfVotingRights": {
+      "name": "Total Number Of Voting Rights",
+      "definition": "Number of rights admitted to the vote."
+    },
+    "ProxyAppointmentNotificationAddress": {
+      "name": "Proxy Appointment Notification Address",
+      "definition": "Address where the information on the proxy should be sent."
+    },
+    "ProxyChoice": {
+      "name": "Proxy Choice",
+      "definition": "Specifies the proxy or whether a proxy is not allowed."
+    },
+    "ContactPersonDetails": {
+      "name": "Contact Person Details",
+      "definition": "Contact person at the party organising the meeting, at the issuer or at an intermediary."
+    },
+    "ResultPublicationDate": {
+      "name": "Result Publication Date",
+      "definition": "Date on which the company publishes the results of its meeting."
+    },
+    "SecuritiesBlockingPeriodEndDate": {
+      "name": "Securities Blocking Period End Date",
+      "definition": "Date by which the blocking period for the securities should end."
+    },
+    "EntitlementFixingDate": {
+      "name": "Entitlement Fixing Date",
+      "definition": "Date at which the positions are struck to record which parties will receive the entitlement, for example, record date, book close date."
+    },
+    "RegistrationSecuritiesDeadline": {
+      "name": "Registration Securities Deadline",
+      "definition": "Date by which the securities have to be registered. This deadline is specified by an intermediary."
+    },
+    "RegistrationSecuritiesMarketDeadline": {
+      "name": "Registration Securities Market Deadline",
+      "definition": "Date by which the securities have to be registered. This deadline is set by the issuer."
+    },
+    "EnrolmentMarketDeadline": {
+      "name": "Enrolment Market Deadline",
+      "definition": "Date by which enrolment for participation in the general meeting or exercise of voting rights must be instructed. This deadline is set by the issuer."
+    },
+    "EnrolmentDeadline": {
+      "name": "Enrolment Deadline",
+      "definition": "Date by which enrolment for participation in the general meeting or exercise of voting rights must be instructed. This deadline is set by the intermediary."
+    }
+  }
+}

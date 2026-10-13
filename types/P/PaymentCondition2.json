@@ -1,0 +1,28 @@
+{
+  "isoType": "PaymentCondition2",
+  "language": "en",
+  "name": "Payment Condition 2",
+  "definition": "Specifies the conditions for the execution of the payment.",
+  "isoElements": {
+    "AmountModificationAllowed": {
+      "name": "Amount Modification Allowed",
+      "definition": "Indicates if the debtor is allowed to pay a different amount then the requested amount.||Usage: When element is not present, the default value is \"Not Applicable\"."
+    },
+    "EarlyPaymentAllowed": {
+      "name": "Early Payment Allowed",
+      "definition": "Indicates if the debtor is allowed to pay before the requested execution date.||Usage: When element is not present, the default value is \"Not Applicable\"."
+    },
+    "DelayPenalty": {
+      "name": "Delay Penalty",
+      "definition": "Penalty to be applied for a delayed payment, that is when the payment is made after the requested execution date."
+    },
+    "ImmediatePaymentRebate": {
+      "name": "Immediate Payment Rebate",
+      "definition": "Discount rate applied for immediate payment upon receipt of the request."
+    },
+    "GuaranteedPaymentRequested": {
+      "name": "Guaranteed Payment Requested",
+      "definition": "Indicates if a payment guarantee is requested, assuming a payment guarantee contract exists between the different actors.||Usage: When element is not present, the default value is \"Not Applicable\"."
+    }
+  }
+}

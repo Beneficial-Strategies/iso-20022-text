@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMPropertyType1Code",
+  "language": "en",
+  "name": "ATM Property Type 1 Code",
+  "definition": "Encoding type of the property.",
+  "isoCodes": {
+    "STRG": {
+      "isoName": "String",
+      "name": "String",
+      "definition": "The property is encoded as a String."
+    },
+    "NMBR": {
+      "isoName": "Number",
+      "name": "Number",
+      "definition": "The property is encoded as a Number."
+    },
+    "BOOL": {
+      "isoName": "Boolean",
+      "name": "Boolean",
+      "definition": "The property is encoded as a Boolean."
+    },
+    "JSON": {
+      "isoName": "JSON",
+      "name": "JSON",
+      "definition": "The property is encoded in JSON."
+    },
+    "CSVF": {
+      "isoName": "CSV",
+      "name": "CSV",
+      "definition": "The property is a CSV string representing a table of data."
+    }
+  }
+}

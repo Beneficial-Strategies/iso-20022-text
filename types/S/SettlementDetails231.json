@@ -1,0 +1,84 @@
+{
+  "isoType": "SettlementDetails231",
+  "language": "en",
+  "name": "Settlement Details 231",
+  "definition": "Details of settlement of a transaction.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade is to be settled."
+    },
+    "SettlingCapacity": {
+      "name": "Settling Capacity",
+      "definition": "Role of a party in the settlement of the transaction."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Specifies whether registration should occur upon receipt."
+    },
+    "BeneficialOwnership": {
+      "name": "Beneficial Ownership",
+      "definition": "Specifies whether there is change of beneficial ownership."
+    },
+    "CashClearingSystem": {
+      "name": "Cash Clearing System",
+      "definition": "Specifies the category of cash clearing system, for example, cheque clearing."
+    },
+    "TaxCapacity": {
+      "name": "Tax Capacity",
+      "definition": "Tax role capacity of the instructing party."
+    },
+    "RepurchaseType": {
+      "name": "Repurchase Type",
+      "definition": "Specifies whether the rate is fixed, variable or a forfeit."
+    },
+    "MarketClientSide": {
+      "name": "Market Client Side",
+      "definition": "Specifies if an instruction is for a market side or a client side transaction."
+    },
+    "BlockTrade": {
+      "name": "Block Trade",
+      "definition": "Specifies whether the settlement instruction is a block parent or child."
+    },
+    "LegalRestrictions": {
+      "name": "Legal Restrictions",
+      "definition": "Regulatory restrictions applicable to a security."
+    },
+    "SettlementSystemMethod": {
+      "name": "Settlement System Method",
+      "definition": "Specifies whether the settlement instruction is to be settled through the default or the alternate settlement system."
+    },
+    "NettingEligibility": {
+      "name": "Netting Eligibility",
+      "definition": "Specifies whether the settlement transaction is eligible for netting."
+    },
+    "CCPEligibility": {
+      "name": "CCP Eligibility",
+      "definition": "Specifies whether the settlement transaction is CCP (Central Counterparty) eligible."
+    },
+    "LetterOfGuarantee": {
+      "name": "Letter Of Guarantee",
+      "definition": "Specifies whether physical settlement may be executed using a letter of guarantee or if the physical certificates should be used."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "If SettlementDetails elements are used, then their conditions of use must be pre-agreed between account owner and account servicer."
+    },
+    "CashClearingSystemRule": {
+      "definition": "The CashSettlementSystem codes are to be used only by agents directly involved in the settlement process, such as local settlement agents, CSD's and central banks."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "isoType": "TransferStatusType2Code",
+  "language": "en",
+  "name": "Transfer Status Type 2 Code",
+  "definition": "Specifies a type of transfer status or transfer event.",
+  "isoCodes": {
+    "S019": {
+      "isoName": "AccountHoldingInformationRequest",
+      "name": "Account Holding Information Request",
+      "definition": "Status report is sent in response to an account holding information request."
+    },
+    "BCEV": {
+      "isoName": "BenefitCrystallisationEvent",
+      "name": "Benefit Crystallisation Event",
+      "definition": "Status report advises one or more Benefit Crystallisation Events (BCE) have occurred."
+    },
+    "SETT": {
+      "isoName": "CSDorICSDSettlementInformation",
+      "name": "CS Dor ICSD Settlement Information",
+      "definition": "Status report is sent to provide information required for a CSD or ICSD settlement leg."
+    },
+    "DRAW": {
+      "isoName": "Drawdown",
+      "name": "Drawdown",
+      "definition": "Status report advises one or more drawdowns."
+    },
+    "PAYA": {
+      "isoName": "PaymentAdvice",
+      "name": "Payment Advice",
+      "definition": "Status report advises cash is or has been instructed."
+    },
+    "S012": {
+      "isoName": "PortfolioTransferInstruction",
+      "name": "Portfolio Transfer Instruction",
+      "definition": "Status report is sent in response to a portfolio transfer instruction."
+    },
+    "INFO": {
+      "isoName": "Information",
+      "name": "Information",
+      "definition": "Status report is sent to provide information pertinent to the transfer. May be sent in response to a request for transfer status."
+    },
+    "STAT": {
+      "isoName": "Status",
+      "name": "Status",
+      "definition": "Status report is sent to provide the status of a transfer. May be sent in response to a request for transfer status."
+    },
+    "S005": {
+      "isoName": "TransferInInstruction",
+      "name": "Transfer In Instruction",
+      "definition": "Status report is sent in response to a transfer-in instruction."
+    },
+    "S001": {
+      "isoName": "TransferOutInstruction",
+      "name": "Transfer Out Instruction",
+      "definition": "Status report is sent in response to a transfer-out instruction."
+    },
+    "CONV": {
+      "isoName": "ConversionStatus",
+      "name": "Conversion Status",
+      "definition": "Status report is sent to provide the number of units following a conversion."
+    }
+  }
+}

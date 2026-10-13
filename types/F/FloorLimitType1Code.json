@@ -1,0 +1,23 @@
+{
+  "isoType": "FloorLimitType1Code",
+  "language": "en",
+  "name": "Floor Limit Type 1 Code",
+  "definition": "Indicates whether the floor limit applies to credit, to debit or to both credit and debit entries.",
+  "isoCodes": {
+    "CRED": {
+      "isoName": "Credit",
+      "name": "Credit",
+      "definition": "Floor limit applies to credit entries."
+    },
+    "DEBT": {
+      "isoName": "Debit",
+      "name": "Debit",
+      "definition": "Floor limit applies to debit entries."
+    },
+    "BOTH": {
+      "isoName": "Both",
+      "name": "Both",
+      "definition": "Floor limit applies to both credit and debit entries."
+    }
+  }
+}

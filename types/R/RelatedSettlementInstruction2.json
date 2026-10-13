@@ -1,0 +1,24 @@
+{
+  "isoType": "RelatedSettlementInstruction2",
+  "language": "en",
+  "name": "Related Settlement Instruction 2",
+  "definition": "Information about a related settlement instruction.",
+  "isoElements": {
+    "RelatedSettlementInstructionIdentification": {
+      "name": "Related Settlement Instruction Identification",
+      "definition": "Unambiguous identification of the related settlement instruction assigned by the account holder."
+    },
+    "RelatedSettlementQuantity": {
+      "name": "Related Settlement Quantity",
+      "definition": "Quantity of securities for which the market claim has been raised."
+    },
+    "TransferOfProceedsTypeIndicator": {
+      "name": "Transfer Of Proceeds Type Indicator",
+      "definition": "Indicates the type of transfer for the market claim proceeds."
+    },
+    "ProceedsQuantityBreakdown": {
+      "name": "Proceeds Quantity Breakdown",
+      "definition": "Specifies the breakdown of quantities between transfer of proceeds and cash compensation."
+    }
+  }
+}

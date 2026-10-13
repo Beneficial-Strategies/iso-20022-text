@@ -1,0 +1,28 @@
+{
+  "isoType": "PendingReason29Code",
+  "language": "en",
+  "name": "Pending Reason 29 Code",
+  "definition": "Standard code to specify the reason why the instruction/event has a pending status.",
+  "isoCodes": {
+    "NPAY": {
+      "isoName": "NoPayment",
+      "name": "No Payment",
+      "definition": "Payment has not been made by issuer."
+    },
+    "NSEC": {
+      "isoName": "NotDelivered",
+      "name": "Not Delivered",
+      "definition": "Financial instruments have not been delivered by the issuer."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "AUTH": {
+      "isoName": "SentToTaxAuthorities",
+      "name": "Sent To Tax Authorities",
+      "definition": "Instruction/event is pending because the reclaim is sent to the tax authorities."
+    }
+  }
+}

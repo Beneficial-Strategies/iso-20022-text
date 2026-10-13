@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionIdentification6",
+  "language": "en",
+  "name": "Transaction Identification 6",
+  "definition": "Provides transaction type and identification information.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    }
+  }
+}

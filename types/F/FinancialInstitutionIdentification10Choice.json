@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancialInstitutionIdentification10Choice",
+  "language": "en",
+  "name": "Financial Institution Identification 10 Choice",
+  "definition": "Choice between formats for the identification of a financial institution.",
+  "isoElements": {
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Name and address of the party."
+    },
+    "BICFI": {
+      "name": "BICFI",
+      "definition": "Identification of the financial institution expressed as a BIC."
+    },
+    "ClearingSystemMemberIdentification": {
+      "name": "Clearing System Member Identification",
+      "definition": "Choice of identifier for a clearing system member, as assigned by the clearing system. In some clearing systems, the accounts of the clearing system members are also assigned an identifier."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    }
+  }
+}

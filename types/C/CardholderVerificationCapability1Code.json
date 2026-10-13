@@ -1,0 +1,68 @@
+{
+  "isoType": "CardholderVerificationCapability1Code",
+  "language": "en",
+  "name": "Cardholder Verification Capability 1 Code",
+  "definition": "Cardholder verification capabilities of the POI (Personal Identification Number) performing the transaction.",
+  "isoCodes": {
+    "MNSG": {
+      "isoName": "ManualSignature",
+      "name": "Manual Signature",
+      "definition": "Manual signature verification."
+    },
+    "NPIN": {
+      "isoName": "OnLinePIN",
+      "name": "On Line PIN",
+      "definition": "Online PIN (Personal Identification Number)."
+    },
+    "FCPN": {
+      "isoName": "OfflinePINClear",
+      "name": "Offline PIN Clear",
+      "definition": "Offline PIN in clear (Personal Identification Number)."
+    },
+    "FEPN": {
+      "isoName": "OfflinePINEncrypted",
+      "name": "Offline PIN Encrypted",
+      "definition": "Offline PIN encrypted (Personal Identification Number)."
+    },
+    "FDSG": {
+      "isoName": "OfflineDigitalSignature",
+      "name": "Offline Digital Signature",
+      "definition": "Offline digital signature analysis."
+    },
+    "FBIO": {
+      "isoName": "OfflineBiometrics",
+      "name": "Offline Biometrics",
+      "definition": "Offline biometrics."
+    },
+    "MNVR": {
+      "isoName": "ManualVerification",
+      "name": "Manual Verification",
+      "definition": "Other manual verification, for example passport or drivers license."
+    },
+    "FBIG": {
+      "isoName": "OfflineBiographics",
+      "name": "Offline Biographics",
+      "definition": "Offline biographics."
+    },
+    "APKI": {
+      "isoName": "AccountDigitalSignature",
+      "name": "Account Digital Signature",
+      "definition": "Account based digital signature."
+    },
+    "PKIS": {
+      "isoName": "PKISignature",
+      "name": "PKI Signature",
+      "definition": "PKI (Public Key Infrastructure) based digital signature."
+    },
+    "CHDT": {
+      "isoName": "CardholderData",
+      "name": "Cardholder Data",
+      "definition": "Cardholder authentication data."
+    },
+    "SCEC": {
+      "isoName": "SecureElectronicCommerce",
+      "name": "Secure Electronic Commerce",
+      "definition": "Three domain secure (three domain secure authentication of the cardholder)."
+    }
+  }
+}

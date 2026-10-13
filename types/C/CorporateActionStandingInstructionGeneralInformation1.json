@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionStandingInstructionGeneralInformation1",
+  "language": "en",
+  "name": "Corporate Action Standing Instruction General Information 1",
+  "definition": "Provides information about the standing instruction.",
+  "isoElements": {
+    "StandingInstructionType": {
+      "name": "Standing Instruction Type",
+      "definition": "Type of standing instruction."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of coporpate action event."
+    },
+    "InstructingPartyIdentification": {
+      "name": "Instructing Party Identification",
+      "definition": "Identification of the instructing party, ie, the CSD client."
+    },
+    "ClientStandingInstructionIdentification": {
+      "name": "Client Standing Instruction Identification",
+      "definition": "Reference of the standing instruction assigned by the client."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Provides information about the account to which the standing instruction can apply."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Identification of the underlying financial instrument, ie, the financial instrument affected by the corporate action event."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "isoType": "ChequeDelivery1Code",
+  "language": "en",
+  "name": "Cheque Delivery 1 Code",
+  "definition": "Specifies the method to be used in delivering a cheque to a party.",
+  "isoCodes": {
+    "MLDB": {
+      "isoName": "MailToDebtor",
+      "name": "Mail To Debtor",
+      "definition": "Cheque is to be sent through mail services to debtor."
+    },
+    "MLCD": {
+      "isoName": "MailToCreditor",
+      "name": "Mail To Creditor",
+      "definition": "Cheque is to be sent through mail services to creditor."
+    },
+    "MLFA": {
+      "isoName": "MailToFinalAgent",
+      "name": "Mail To Final Agent",
+      "definition": "Cheque is to be sent through mail services to creditor agent."
+    },
+    "CRDB": {
+      "isoName": "CourierToDebtor",
+      "name": "Courier To Debtor",
+      "definition": "Cheque is to be sent through courier services to debtor."
+    },
+    "CRCD": {
+      "isoName": "CourierToCreditor",
+      "name": "Courier To Creditor",
+      "definition": "Cheque is to be sent through courier services to creditor."
+    },
+    "CRFA": {
+      "isoName": "CourierToFinalAgent",
+      "name": "Courier To Final Agent",
+      "definition": "Cheque is to be sent through courier services to creditor agent."
+    },
+    "PUDB": {
+      "isoName": "PickUpByDebtor",
+      "name": "Pick Up By Debtor",
+      "definition": "Cheque will be picked up by the debtor."
+    },
+    "PUCD": {
+      "isoName": "PickUpByCreditor",
+      "name": "Pick Up By Creditor",
+      "definition": "Cheque will be picked up by the creditor."
+    },
+    "PUFA": {
+      "isoName": "PickUpByFinalAgent",
+      "name": "Pick Up By Final Agent",
+      "definition": "Cheque will be picked up by the creditor agent."
+    },
+    "RGDB": {
+      "isoName": "RegisteredMailToDebtor",
+      "name": "Registered Mail To Debtor",
+      "definition": "Cheque is to be sent through registered mail services to debtor."
+    },
+    "RGCD": {
+      "isoName": "RegisteredMailToCreditor",
+      "name": "Registered Mail To Creditor",
+      "definition": "Cheque is to be sent through registered mail services to creditor."
+    },
+    "RGFA": {
+      "isoName": "RegisteredMailToFinalAgent",
+      "name": "Registered Mail To Final Agent",
+      "definition": "Cheque is to be sent through registered mail services to creditor agent."
+    }
+  }
+}

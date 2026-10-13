@@ -1,0 +1,16 @@
+{
+  "isoType": "ControlData1",
+  "language": "en",
+  "name": "Control Data 1",
+  "definition": "Provides details of the number of transactions and the control sum of the message.",
+  "isoElements": {
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Number of individual transactions contained in the message."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the message, irrespective of currencies."
+    }
+  }
+}

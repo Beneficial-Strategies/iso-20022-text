@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionSecuritiesMovement2",
+  "language": "en",
+  "name": "Corporate Action Securities Movement 2",
+  "definition": "Provides information about the securities movement resulting from the election instruction.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "PostingDateTime": {
+      "name": "Posting Date Time",
+      "definition": "Date and time of the posting of the movement."
+    },
+    "PostingIdentification": {
+      "name": "Posting Identification",
+      "definition": "Posting identification of the securities movement."
+    },
+    "PostingQuantity": {
+      "name": "Posting Quantity",
+      "definition": "Securities quantity posted as a result of the securities movement."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Provides information about the account which is debited/credited as a result of the movement."
+    }
+  }
+}

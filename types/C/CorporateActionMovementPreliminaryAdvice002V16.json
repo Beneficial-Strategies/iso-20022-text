@@ -1,0 +1,157 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdvice002V16",
+  "language": "en",
+  "name": "Corporate Action Movement Preliminary Advice 002 V 16",
+  "definition": "Scope|The CorporateActionMovementPreliminaryAdvice message is sent by an account servicer to an account owner or its designated agent:|- to advise about the eligible balance and entitlements and,|- to pre-advise an upcoming posting or reversal of securities and/or cash postings.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "MovementPreliminaryAdviceGeneralInformation": {
+      "name": "Movement Preliminary Advice General Information",
+      "definition": ""
+    },
+    "PreviousMovementPreliminaryAdviceIdentification": {
+      "name": "Previous Movement Preliminary Advice Identification",
+      "definition": ""
+    },
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": ""
+    },
+    "MovementConfirmationIdentification": {
+      "name": "Movement Confirmation Identification",
+      "definition": ""
+    },
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": ""
+    },
+    "ReversalReason": {
+      "name": "Reversal Reason",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": ""
+    },
+    "CorporateActionMovementDetails": {
+      "name": "Corporate Action Movement Details",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "IssuerAgent": {
+      "name": "Issuer Agent",
+      "definition": ""
+    },
+    "PayingAgent": {
+      "name": "Paying Agent",
+      "definition": ""
+    },
+    "SubPayingAgent": {
+      "name": "Sub Paying Agent",
+      "definition": ""
+    },
+    "Registrar": {
+      "name": "Registrar",
+      "definition": ""
+    },
+    "ResellingAgent": {
+      "name": "Reselling Agent",
+      "definition": ""
+    },
+    "PhysicalSecuritiesAgent": {
+      "name": "Physical Securities Agent",
+      "definition": ""
+    },
+    "DropAgent": {
+      "name": "Drop Agent",
+      "definition": ""
+    },
+    "SolicitationAgent": {
+      "name": "Solicitation Agent",
+      "definition": ""
+    },
+    "InformationAgent": {
+      "name": "Information Agent",
+      "definition": ""
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": ""
+    },
+    "Offeror": {
+      "name": "Offeror",
+      "definition": ""
+    },
+    "TransferAgent": {
+      "name": "Transfer Agent",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "RateAndCorporateActionEventRule": {
+      "definition": "If CorporateActionMovementDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate Code value or CorporateActionMovementDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate Code value is NILP (Nil Payment), then CorporateActionGeneralInformation/EventType/Code must be either DVCA (CashDividend) or INTR (InterestPayment).|If CorporateActionMovementDetails/CashMovementDetails/RateAndAmountDetails/GrossDistributionRate/NotSpecifiedRate Code value or CorporateActionMovementDetails/CashMovementDetails/RateAndAmountDetails/GrossInterestRateUsedForPayment/NotSpecifiedRate Code value is NILP (Nil Payment), then CorporateActionGeneralInformation/EventType/Code must be either DVCA (CashDividend) or INTR (InterestPayment)."
+    },
+    "SafekeepingAccount1Rule": {
+      "definition": "If AccountDetails/ForAllAccounts/IdentificationCode value is GENR (General), then any element in the list (MinimumNominalQuantity, MinimumExercisableQuantity,MinimumExercisableMultipleQuantity, ContractSize) must not be present in any occurrences of CorporateActionMovementDetails/SecuritiesMovementDetails/SecurityDetails;|(MT564 Rule C2 - part 1)."
+    },
+    "SafekeepingAccount2Rule": {
+      "definition": "If AccountDetails/ForAllAccounts/IdentificationCode value is GENR (General), then AmountDetails must not be present in any occurrences of CorporateActionMovementDetails/CashMovementDetails.|(MT564 Rule C2 - part 2)."
+    },
+    "OtherEventRule": {
+      "definition": "If CorporateActionGeneralInformation/EventType/Code is OTHR (Other), then at least one occurrence of AdditionalInformation/AdditionalText/AdditionalInformation must be present.|(MT564 NVR C4)."
+    },
+    "IntermediateSecuritiesDistributionRule": {
+      "definition": "If CorporateActionGeneralInformation/EventType/Code is RHDI (IntermediateSecuritiesDistribution), then CorporateActionDetails/IntermediateSecuritiesDistributionType must be present.|(MT 564 NVR C11)."
+    },
+    "AppliedOptionRule": {
+      "definition": "If CorporateActionMovementDetails/AppliedOptionIndicator value is 'true' or '1' (Yes) in one or more occurrences of CorporateActionMovementDetails, then CorporateActionGeneralInformation/MandatoryVoluntaryEventType/Code value must be CHOS (MandatoryWithOptions) and at least one of the CorporateActionDetails/AdditionalBusinessProcessIndicator/Code values must be REAC (RequiredAction)."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "If in at least one occurrence of CorporateActionMovementDetails, OptionType/Code value is BOBD (BeneficialOwnerBreakdownRequest), then CorporateActionGeneralInformation/EventType/Code value must be WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "If Code value is equal to INCP (IncentivePremiumPayment) in CorporateActionDetails/AdditionalBusinessProcessIndicator, then CorporateActionGeneralInformation/EventType/Code value must be equal to CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "BeneficialOwnerBreakdownRequestUGRule": {
+      "definition": "If in at least one occurrence of CorporateActionOptionDetails, OptionType/Code value is BOBD (BeneficialOwnerBreakdownRequest), then CorporateActionGeneralInformation/EventType/Code value must be WTRC (Withholding Tax Relief Certification).|(MT 564 NVR C23)."
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "If Code value is equal to INCP (IncentivePremiumPayment) in any occurrence of CorporateActionDetails/AdditionalBusinessProcessIndicator, then CorporateActionGeneralInformation/EventType/Code value must be equal to CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "ReversalReasonRule": {
+      "definition": "If CorporateActionDetails/AdditionalBusinessProcessIndicator/Code value is equal to REVR (ReversalReason), then |ReversalReason must be present and MovementPreliminaryAdviceGeneralInformation/Function code value is equal to CAPA (PreadviceOfMovement)."
+    },
+    "PreviousMovementPreliminaryAdviceIdentification1Rule": {
+      "definition": "If MovementPreliminaryAdiceGeneralInformation/Type is REPL (Replace) and Pagination/PageNumber is equal to value 1, then PreviousMovementPreliminaryAdviceIdentification must be present.|(MT 564 NVR C9)."
+    },
+    "PaginationRule": {
+      "definition": "If pagination is present, then MovementPreliminaryAdviceGeneralInformation/MovementPreliminaryAdviceIdentification must be present."
+    }
+  }
+}

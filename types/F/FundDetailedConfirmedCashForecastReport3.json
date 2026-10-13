@@ -1,0 +1,24 @@
+{
+  "isoType": "FundDetailedConfirmedCashForecastReport3",
+  "language": "en",
+  "name": "Fund Detailed Confirmed Cash Forecast Report 3",
+  "definition": "Information about a cash forecast report.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "name": "Fund Or Sub Fund Details",
+      "definition": "Information about the fund/sub fund when the report either specifies cash flow for the fund/sub fund or for a share class of the fund/sub fund."
+    },
+    "FundCashForecastDetails": {
+      "name": "Fund Cash Forecast Details",
+      "definition": "Information related to the cash-in and cash-out flows for a specific trade date as a result of transactions in shares in an investment fund, for example, subscriptions, redemptions or switches. The information provided is sorted by pre-defined criteria such as country, institution, currency or user defined criteria."
+    },
+    "ConsolidatedNetCashForecast": {
+      "name": "Consolidated Net Cash Forecast",
+      "definition": "Estimated net cash as a result of the cash-in and cash-out flows."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

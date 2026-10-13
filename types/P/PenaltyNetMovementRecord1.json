@@ -1,0 +1,28 @@
+{
+  "isoType": "PenaltyNetMovementRecord1",
+  "language": "en",
+  "name": "Penalty Net Movement Record 1",
+  "definition": "Specifies the attributes when the penalty applies to a net settlement movement.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "SecuritiesShortfall": {
+      "name": "Securities Shortfall",
+      "definition": "Total quantity of securities which failed to settle."
+    },
+    "ShortfallValuation": {
+      "name": "Shortfall Valuation",
+      "definition": "Valuation of securities which failed to settle."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "NumberOfEntries": {
+      "name": "Number Of Entries",
+      "definition": "Number of entries related to the net position."
+    }
+  }
+}

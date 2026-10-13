@@ -1,0 +1,48 @@
+{
+  "isoType": "PendingReason35Code",
+  "language": "en",
+  "name": "Pending Reason 35 Code",
+  "definition": "Specifies the reason why a cancellation request sent for the related instruction is pending.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. It will be managed as per the bilateral service agreement between the account servicer and account owner."
+    },
+    "CONF": {
+      "isoName": "AwaitingConfirmation",
+      "name": "Awaiting Confirmation",
+      "definition": "Awaiting confirmation from the counterparty."
+    },
+    "CDCY": {
+      "isoName": "ConditionalCurrency",
+      "name": "Conditional Currency",
+      "definition": "Execution is conditional to the execution of a process linked to the currency of the transaction."
+    },
+    "CDAC": {
+      "isoName": "ConditionalDeliveryAwaitingCancellation",
+      "name": "Conditional Delivery Awaiting Cancellation",
+      "definition": "Awaiting cancellation of one of the party."
+    },
+    "CDRE": {
+      "isoName": "ConditionalRealignement",
+      "name": "Conditional Realignement",
+      "definition": "Execution is conditional to the execution of a process of realignment at the issuer CSD."
+    },
+    "CDRG": {
+      "isoName": "ConditionalRegistrar",
+      "name": "Conditional Registrar",
+      "definition": "Execution is conditional to the execution of a process at the registrar."
+    },
+    "INBC": {
+      "isoName": "IncompleteNumberCount",
+      "name": "Incomplete Number Count",
+      "definition": "Not all the instructions part of a pool have been received."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    }
+  }
+}

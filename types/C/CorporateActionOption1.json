@@ -1,0 +1,108 @@
+{
+  "isoType": "CorporateActionOption1",
+  "language": "en",
+  "name": "Corporate Action Option 1",
+  "definition": "Provides information about the CA option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "OptionAvailabilityStatus": {
+      "name": "Option Availability Status",
+      "definition": "Specifies the status of the option."
+    },
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Whether or not certification is required from the account owner. |Yes: certification required |No: no certification required."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Type of certification which is required."
+    },
+    "AssentedLineSecurityIdentification": {
+      "name": "Assented Line Security Identification",
+      "definition": "Identification of a temporary security used for processing reasons, eg, contra security used in the US."
+    },
+    "AgentSecuritiesAccountIdentification": {
+      "name": "Agent Securities Account Identification",
+      "definition": "Identification of the safekeeping account held by an agent at the CSD."
+    },
+    "AgentCashAccountIdentification": {
+      "name": "Agent Cash Account Identification",
+      "definition": "Identification of the cash account held by an agent at the CSD."
+    },
+    "OfferType": {
+      "name": "Offer Type",
+      "definition": "Specifies the conditions that apply to the offer."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "name": "Intermediate Securities Distribution Type",
+      "definition": "Type of intermediates securities distribution, eg, stock dividend, reverse right."
+    },
+    "WithdrawalAllowedIndicator": {
+      "name": "Withdrawal Allowed Indicator",
+      "definition": "Indicates whether withdrawal of instruction is allowed."
+    },
+    "ChangeAllowedIndicator": {
+      "name": "Change Allowed Indicator",
+      "definition": "Indicates whether change of instruction is allowed."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a CA option."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about rates and amounts related to a CA option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a CA option."
+    },
+    "PeriodDetails": {
+      "name": "Period Details",
+      "definition": "Provides information about the periods related to a CA option."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Provides information about the securities movement linked to the CA option."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Provides information about the cash movement linked to the CA option."
+    },
+    "CorporateActionOtherAgentDetails": {
+      "name": "Corporate Action Other Agent Details",
+      "definition": "Provides information about the agents linked to the CA option."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "name": "Redemption Charges Applied Indicator",
+      "definition": "ndicates whether redemption charges apply."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Specifies the features that may apply to a corporate action option."
+    },
+    "CorporateActionAdditionalInformation": {
+      "name": "Corporate Action Additional Information",
+      "definition": "Provides additional information."
+    }
+  },
+  "isoRules": {
+    "ChangeAllowedRule": {
+      "definition": "If the value of ChangeAllowedIndicator is true, then PerdioDetails/RevocabilityPeriod is Mandatory."
+    },
+    "WithdrawalAllowedRule": {
+      "definition": "If the value of WithdrawalAllowedIndicator is true, then PeriodDetails/RevocabilityPeriod is Mandatory."
+    }
+  }
+}

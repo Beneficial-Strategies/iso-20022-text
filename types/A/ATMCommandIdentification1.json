@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMCommandIdentification1",
+  "language": "en",
+  "name": "ATM Command Identification 1",
+  "definition": "Identification of the entity issuing the command.",
+  "isoElements": {
+    "Origin": {
+      "name": "Origin",
+      "definition": "Identification of the entity issuing the command."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Unique identification of the command for the issuer of the command."
+    },
+    "Processor": {
+      "name": "Processor",
+      "definition": "Identification or address of the host performing the command."
+    }
+  }
+}

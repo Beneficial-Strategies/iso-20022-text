@@ -1,0 +1,24 @@
+{
+  "isoType": "DirectDebitTransaction12",
+  "language": "en",
+  "name": "Direct Debit Transaction 12",
+  "definition": "Provides further specific details on the direct debit transaction and the related mandate.",
+  "isoElements": {
+    "MandateRelatedInformation": {
+      "name": "Mandate Related Information",
+      "definition": "Provides further details of the direct debit mandate signed between the creditor and the debtor."
+    },
+    "CreditorSchemeIdentification": {
+      "name": "Creditor Scheme Identification",
+      "definition": "Credit party that signs the mandate."
+    },
+    "PreNotificationIdentification": {
+      "name": "Pre Notification Identification",
+      "definition": "Unique and unambiguous identification of the pre-notification which is sent separately from the direct debit instruction.||Usage: The direct debit pre-notification is used to reconcile separately sent collection information with the direct debit transaction information."
+    },
+    "PreNotificationDate": {
+      "name": "Pre Notification Date",
+      "definition": "Date on which the creditor notifies the debtor about the amount and date on which the direct debit instruction will be presented to the debtor's agent."
+    }
+  }
+}

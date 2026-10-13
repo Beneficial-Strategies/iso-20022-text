@@ -1,0 +1,49 @@
+{
+  "isoType": "Instruction9",
+  "language": "en",
+  "name": "Instruction 9",
+  "definition": "Information about a meeting vote instruction.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "name": "Single Instruction Identification",
+      "definition": "Identification of the individual instruction."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date at which the instruction must be executed."
+    },
+    "VoteExecutionConfirmation": {
+      "name": "Vote Execution Confirmation",
+      "definition": "Indicates that a vote execution confirmation is requested."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Identification of the securities account."
+    },
+    "Proxy": {
+      "name": "Proxy",
+      "definition": "Identification of the person appointed by the security holder as the proxy."
+    },
+    "VoteDetails": {
+      "name": "Vote Details",
+      "definition": "Detailed voting instructions."
+    },
+    "MeetingAttendee": {
+      "name": "Meeting Attendee",
+      "definition": "Identification of the security holder who will attend and vote at the meeting in person and/or the person assigned by the security holder to attend the meeting without having any voting rights or taking any action."
+    },
+    "SpecificInstructionRequest": {
+      "name": "Specific Instruction Request",
+      "definition": "Request to execute specific instructions, such as participation registration, securities registration or blocking of securities."
+    },
+    "AdditionalDisclosureInformation": {
+      "name": "Additional Disclosure Information",
+      "definition": "Information required by the issuer to be disclosed as part of a submitted instruction, that is neither the information related to the beneficiary holder, or the voting participant, or the proxy appointed by the issuer, or the attendee(s) participating to the meeting (without voting)."
+    }
+  },
+  "isoRules": {
+    "MeetingAttendeeRule": {
+      "definition": "If at least one occurrence of MeetingAttendee is present, then SpecificInstructionRequest/ParticipationMethod/Code must be PHYS (InPerson)."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "AccountSwitchInformationResponseV06",
+  "language": "en",
+  "name": "Account Switch Information Response V 06",
+  "definition": "The AccountSwitchInformationResponse message is sent by the account servicer that previously held the account to the new account servicer to signal whether the account owner's account can be switched and to pass details of payment arrangements to be transferred to the new account servicer if the account may be switched. Confirmation of the balance transfer window is permitted by the old account servicer.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "NewAccount": {
+      "name": "New Account",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "PaymentInstruction": {
+      "name": "Payment Instruction",
+      "definition": ""
+    },
+    "DirectDebitInstruction": {
+      "name": "Direct Debit Instruction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

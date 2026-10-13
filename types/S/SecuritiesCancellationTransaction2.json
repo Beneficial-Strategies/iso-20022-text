@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesCancellationTransaction2",
+  "language": "en",
+  "name": "Securities Cancellation Transaction 2",
+  "definition": "Identifies the details of the transaction.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status and status reason of the transaction."
+    },
+    "RequestReference": {
+      "name": "Request Reference",
+      "definition": "Unambiguous identification of the cancellation request."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "References of the transaction for which the intra-position modification is requested."
+    },
+    "Underlying": {
+      "name": "Underlying",
+      "definition": "Identifies additional details of the transaction."
+    }
+  }
+}

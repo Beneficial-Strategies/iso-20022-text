@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingMethod1",
+  "language": "en",
+  "name": "Billing Method 1",
+  "definition": "Provides the details for the tax calculation method A.",
+  "isoElements": {
+    "ServiceChargeHostAmount": {
+      "name": "Service Charge Host Amount",
+      "definition": "Amount of the original charge expressed in the host currency."
+    },
+    "ServiceTax": {
+      "name": "Service Tax",
+      "definition": "Provides for the regional taxes on the service. Up to three regional taxes may be defined for the same service."
+    },
+    "TotalCharge": {
+      "name": "Total Charge",
+      "definition": "Specifies the total charge for a service (including taxes)."
+    },
+    "TaxIdentification": {
+      "name": "Tax Identification",
+      "definition": "Provides for the specific tax identification within the same tax region. ||Usage: This element allows for a maximum of three regional taxes on the same service."
+    }
+  }
+}

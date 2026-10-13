@@ -1,0 +1,32 @@
+{
+  "isoType": "RemittanceAmount3",
+  "language": "en",
+  "name": "Remittance Amount 3",
+  "definition": "Nature of the amount and currency on a document referred to in the remittance section, typically either the original amount due/payable or the amount actually remitted for the referenced document.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "name": "Due Payable Amount",
+      "definition": "Amount specified is the exact amount due and payable to the creditor."
+    },
+    "DiscountAppliedAmount": {
+      "name": "Discount Applied Amount",
+      "definition": "Amount of discount to be applied to the amount due and payable to the creditor."
+    },
+    "CreditNoteAmount": {
+      "name": "Credit Note Amount",
+      "definition": "Amount of a credit note."
+    },
+    "TaxAmount": {
+      "name": "Tax Amount",
+      "definition": "Amount of the tax."
+    },
+    "AdjustmentAmountAndReason": {
+      "name": "Adjustment Amount And Reason",
+      "definition": "Specifies detailed information on the amount and reason of the adjustment."
+    },
+    "RemittedAmount": {
+      "name": "Remitted Amount",
+      "definition": "Amount of money remitted."
+    }
+  }
+}

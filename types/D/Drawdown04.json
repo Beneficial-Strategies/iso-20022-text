@@ -1,0 +1,81 @@
+{
+  "isoType": "Drawdown04",
+  "language": "en",
+  "name": "Drawdown 04",
+  "definition": "Details of a drawdown tranche.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the drawdown."
+    },
+    "TrancheType": {
+      "name": "Tranche Type",
+      "definition": "Type of drawdown tranche."
+    },
+    "ApplicableRules": {
+      "name": "Applicable Rules",
+      "definition": "Specifies the rules that are applicable to the drawdown. For example, in the UK market, the pre-A-day rule that was introduced on 6 April 2006.)"
+    },
+    "InvestorTaxReference": {
+      "name": "Investor Tax Reference",
+      "definition": "Identification of the investor as assigned by a tax authority."
+    },
+    "PercentageOfTotalTransferValue": {
+      "name": "Percentage Of Total Transfer Value",
+      "definition": "Percentage of the total transfer value covered by the drawdown."
+    },
+    "TotalAmountNetDrawdown": {
+      "name": "Total Amount Net Drawdown",
+      "definition": "Amount that was originally designated for drawdown."
+    },
+    "AdditionalFundsDesignated": {
+      "name": "Additional Funds Designated",
+      "definition": "Indicates whether any additional funds have been designated since the original arrangement."
+    },
+    "PensionCommencementLumpSumRemaining": {
+      "name": "Pension Commencement Lump Sum Remaining",
+      "definition": "Amount of the pension commencement lump sum (PCLS) remaining."
+    },
+    "PensionCommencementLumpSumDate": {
+      "name": "Pension Commencement Lump Sum Date",
+      "definition": "Date by which the pension commencement lump sum (PCLS) must be used."
+    },
+    "MultiplePensionCommencementLumpSums": {
+      "name": "Multiple Pension Commencement Lump Sums",
+      "definition": "Indicates there have been multiple pension commencement lump sum (PCLS) payments."
+    },
+    "LifetimeAllowance": {
+      "name": "Lifetime Allowance",
+      "definition": "Percentage of the lifetime allowance (LTA) used."
+    },
+    "RecipientOfDrawdownIndicator": {
+      "name": "Recipient Of Drawdown Indicator",
+      "definition": "Indicates a person other than the original pension holder is the receiver of the drawdown payment."
+    },
+    "BeneficiaryDetails": {
+      "name": "Beneficiary Details",
+      "definition": "Information about the recipient of the drawdown, when not the original pension holder."
+    },
+    "CappedLimits": {
+      "name": "Capped Limits",
+      "definition": "Limits of the capped drawdown."
+    },
+    "FlexibleDrawdownTriggeredDate": {
+      "name": "Flexible Drawdown Triggered Date",
+      "definition": "Date on which the drawdown was triggered when the drawdown type is flexible."
+    },
+    "TrancheDate": {
+      "name": "Tranche Date",
+      "definition": "Date on which the tranche is actioned"
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the drawdown."
+    }
+  },
+  "isoRules": {
+    "BeneficiaryDetailsRule": {
+      "definition": "If RecipientOfDrawdownIndicator is \"false\" or \"0\" (No), then BeneficiaryDetails is not allowed.|If RecipientOfDrawdownIndicator is \"true\" or \"1\" (Yes), then BeneficiaryDetails may be present."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CaseAssignment6",
+  "language": "en",
+  "name": "Case Assignment 6",
+  "definition": "Represents the assignment of a case to a party.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Uniquely identifies the case assignment."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Party who assigns the case. |Usage: This is also the sender of the message."
+    },
+    "Assignee": {
+      "name": "Assignee",
+      "definition": "Party to which the case is assigned.|Usage: This is also the receiver of the message."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the assignment was created."
+    }
+  }
+}

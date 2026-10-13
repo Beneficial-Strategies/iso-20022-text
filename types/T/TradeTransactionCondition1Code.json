@@ -1,0 +1,263 @@
+{
+  "isoType": "TradeTransactionCondition1Code",
+  "language": "en",
+  "name": "Trade Transaction Condition 1 Code",
+  "definition": "Indicates the conditions under which the order/trade is to be/was executed.",
+  "isoCodes": {
+    "CBNS": {
+      "isoName": "CumBonus",
+      "name": "Cum Bonus",
+      "definition": "Indicates whether the trade is executed cum bonus."
+    },
+    "XBNS": {
+      "isoName": "ExBonus",
+      "name": "Ex Bonus",
+      "definition": "Indicates whether the trade is executed ex bonus."
+    },
+    "CCPN": {
+      "isoName": "CumCoupon",
+      "name": "Cum Coupon",
+      "definition": "Indicates whether the trade is executed cum coupon."
+    },
+    "XCPN": {
+      "isoName": "ExCoupon",
+      "name": "Ex Coupon",
+      "definition": "Indicates whether the trade is executed ex coupon."
+    },
+    "CDIV": {
+      "isoName": "CumDividend",
+      "name": "Cum Dividend",
+      "definition": "Indicates whether the trade is executed cum dividend."
+    },
+    "XDIV": {
+      "isoName": "ExDividend",
+      "name": "Ex Dividend",
+      "definition": "Indicates whether the trade is executed ex dividend."
+    },
+    "CRTS": {
+      "isoName": "CumRights",
+      "name": "Cum Rights",
+      "definition": "Indicates whether the trade is executed cum rights."
+    },
+    "XRTS": {
+      "isoName": "ExRights",
+      "name": "Ex Rights",
+      "definition": "Indicates whether the trade is executed ex rights."
+    },
+    "CWAR": {
+      "isoName": "CumWarrant",
+      "name": "Cum Warrant",
+      "definition": "Indicates whether the trade is executed cum warrant."
+    },
+    "XWAR": {
+      "isoName": "ExWarrant",
+      "name": "Ex Warrant",
+      "definition": "Indicates whether the trade is executed ex warrant."
+    },
+    "SPCU": {
+      "isoName": "SpecialCumDividend",
+      "name": "Special Cum Dividend",
+      "definition": "Indicates whether the trade is executed with a special cum |dividend, that is, buying after the ex date and getting the dividend."
+    },
+    "SPEX": {
+      "isoName": "SpecialExDividend",
+      "name": "Special Ex Dividend",
+      "definition": "Indicates whether the trade is executed with a special ex |dividend, that is, selling before the ex date without the coupon."
+    },
+    "DUEB": {
+      "isoName": "BrokerDueBill",
+      "name": "Broker Due Bill",
+      "definition": "Indicates that the trade is executed cum-dividend or cum-coupon and a due bill is required. |A due bill is a contractual agreement to pay the dividend along with the delivery of |the financial instrument."
+    },
+    "SSTI": {
+      "isoName": "SoldShort",
+      "name": "Sold Short",
+      "definition": "Indicates whether the trade is sold short. When the seller does not have the |financial instrument, the delivery is effected by borrowing the financial instrument by or |for the account of the seller."
+    },
+    "DIRT": {
+      "isoName": "Dirty",
+      "name": "Dirty",
+      "definition": "Indicates that the trade is executed dirty, ie government tax must be paid on the accrued interest on the bond."
+    },
+    "CLEN": {
+      "isoName": "Clean",
+      "name": "Clean",
+      "definition": "Indicates that the trade is executed clean, ie government tax must not be paid on the accrued interest on the bond."
+    },
+    "BLKO": {
+      "isoName": "Block",
+      "name": "Block",
+      "definition": "Indicates whether the trade is a block trade or not, ie, whether allocation instruction will follow or not."
+    },
+    "GTDL": {
+      "isoName": "GuaranteedDelivery",
+      "name": "Guaranteed Delivery",
+      "definition": "Indicates whether the delivery of the financial instrument on settlement date |is guaranteed."
+    },
+    "FRAC": {
+      "isoName": "Fractions",
+      "name": "Fractions",
+      "definition": "Indicates whether fractional parts are allowed."
+    },
+    "CRST": {
+      "isoName": "CrossTrade",
+      "name": "Cross Trade",
+      "definition": "Indicates that cross trades are allowed whereby buy and sell orders are offset without recording the trade on the exchange."
+    },
+    "NCRS": {
+      "isoName": "NoCrossTrade",
+      "name": "No Cross Trade",
+      "definition": "Indicates that cross trades, whereby buy and sell orders are offset without recording the trade on the exchange, are not allowed."
+    },
+    "DORD": {
+      "isoName": "DirectOrder",
+      "name": "Direct Order",
+      "definition": "Indicates that the order is to be executed by a trading party other than the trading party to which the |order is sent. In this case, the instructing party has traded with another broker which will |subsequently send an advice of execution to the executing party who received the order |and which is acting as clearing broker."
+    },
+    "DIOR": {
+      "isoName": "DirectedOrder",
+      "name": "Directed Order",
+      "definition": "Indicates that the order must be executed with a specific trading party."
+    },
+    "WARE": {
+      "isoName": "WarehouseTrade",
+      "name": "Warehouse Trade",
+      "definition": "Warehouse Trade."
+    },
+    "DNIN": {
+      "isoName": "NotIncrease",
+      "name": "Not Increase",
+      "definition": "A limit order to buy or a stop order to sell or a stop limit order which is not to be increased in shares on the ex-dividend date as a result of a stock dividend or distribution."
+    },
+    "DNRE": {
+      "isoName": "NotReduce",
+      "name": "Not Reduce",
+      "definition": "A limit order to buy or a stop order to sell, or a stop-limit order to sell which is not to be reduced in price by the amount of an ordinary cash dividend. Only applies to ordinary stock dividends; it should be reduced for other distributions. e.g. when a stock goes 'ex' stock dividend or rights."
+    },
+    "FORW": {
+      "isoName": "ForwardPriceTrade",
+      "name": "Forward Price Trade",
+      "definition": "Indicates that the order is based on a forward price."
+    },
+    "HIST": {
+      "isoName": "HistoricPriceTrade",
+      "name": "Historic Price Trade",
+      "definition": "Indicates that the order is based on a historic price."
+    },
+    "BCRO": {
+      "isoName": "ResultOption",
+      "name": "Result Option",
+      "definition": "Result of option when set. (UK specific)."
+    },
+    "BCRP": {
+      "isoName": "ResultRepo",
+      "name": "Result Repo",
+      "definition": "Result of repo when set (UK specific)."
+    },
+    "BCPD": {
+      "isoName": "DeliverCountryIncorporation",
+      "name": "Deliver Country Incorporation",
+      "definition": "Place of delivery, in country of incorporation when unset (UK specific)."
+    },
+    "BCFD": {
+      "isoName": "DeliveryForm",
+      "name": "Delivery Form",
+      "definition": "Form of delivery, not for foreign registration when unset (UK specific)."
+    },
+    "BCBL": {
+      "isoName": "BoardLot",
+      "name": "Board Lot",
+      "definition": "Board lots, not set for odd lots (UK specific)."
+    },
+    "BCBN": {
+      "isoName": "BadName",
+      "name": "Bad Name",
+      "definition": "Bad names, not set for good names (UK specific)."
+    },
+    "BTEX": {
+      "isoName": "BestExecution",
+      "name": "Best Execution",
+      "definition": "Trade to be executed done at best execution."
+    },
+    "CALL": {
+      "isoName": "Call",
+      "name": "Call",
+      "definition": "Trade to be executed following the exercise of a call option on the security."
+    },
+    "CLBR": {
+      "isoName": "ClosureBeforeRollOver",
+      "name": "Closure Before Roll Over",
+      "definition": "Trade to be executed for closure of a previous position before the rollover of a position (Deferred Settlement Service)."
+    },
+    "MONT": {
+      "isoName": "Monthly",
+      "name": "Monthly",
+      "definition": "Trade to be executed for month-end settlement (Deferred Settlement Service)."
+    },
+    "NBFR": {
+      "isoName": "NewTradeFollowingRollover",
+      "name": "New Trade Following Rollover",
+      "definition": "Trade to be executed for a new trade position on the next month following the roll-over of a position (Deferred Settlement Service)."
+    },
+    "TRFR": {
+      "isoName": "TradeFollowingRollover",
+      "name": "Trade Following Rollover",
+      "definition": "Trade to be executed on the next month following the roll-over of positions."
+    },
+    "PUTT": {
+      "isoName": "Putt",
+      "name": "Putt",
+      "definition": "Trade to be executed following the exercise of a put option on the security."
+    },
+    "SPCC": {
+      "isoName": "SpecialCumCoupon",
+      "name": "Special Cum Coupon",
+      "definition": "Indicates whether the trade is executed with a special cum coupon."
+    },
+    "SECN": {
+      "isoName": "SpecialExCoupon",
+      "name": "Special Ex Coupon",
+      "definition": "Indicates whether the trade is executed with a special ex coupon."
+    },
+    "SEBN": {
+      "isoName": "SpecialExBonus",
+      "name": "Special Ex Bonus",
+      "definition": "Indicates whether the trade is executed special ex bonus."
+    },
+    "SCBN": {
+      "isoName": "SpecialCumBonus",
+      "name": "Special Cum Bonus",
+      "definition": "Indicates whether the trade is executed special cum bonus."
+    },
+    "SCRT": {
+      "isoName": "SpecialCumRights",
+      "name": "Special Cum Rights",
+      "definition": "Indicates whether the trade is executed special cum rights."
+    },
+    "SERT": {
+      "isoName": "SpecialExRights",
+      "name": "Special Ex Rights",
+      "definition": "Indicates whether the trade is executed special ex rights."
+    },
+    "SCCR": {
+      "isoName": "SpecialCumCapitalRepayments",
+      "name": "Special Cum Capital Repayments",
+      "definition": "Indicates whether the trade is executed special cum capital repayments."
+    },
+    "SECR": {
+      "isoName": "SpecialExCapitalRepayments",
+      "name": "Special Ex Capital Repayments",
+      "definition": "Indicates whether the trade is executed special ex capital repayments."
+    },
+    "CAST": {
+      "isoName": "CashSettlement",
+      "name": "Cash Settlement",
+      "definition": "Indicates whether the trade is executed with a cash settlement."
+    },
+    "SPPR": {
+      "isoName": "SpecialPrice",
+      "name": "Special Price",
+      "definition": "Indicates whether the trade is executed with a special price."
+    }
+  }
+}

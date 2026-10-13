@@ -1,0 +1,64 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails55",
+  "language": "en",
+  "name": "Securities Financing Transaction Details 55",
+  "definition": "Details of the closing of the securities financing transaction.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "name": "Securities Financing Trade Identification",
+      "definition": "Unambiguous identification of the underlying securities financing trade as assigned by the instructing party. The identification is common to all collateral pieces (one or many)."
+    },
+    "SecuritiesFinancingUniqueTransactionIdentifier": {
+      "name": "Securities Financing Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    },
+    "ClosingLegIdentification": {
+      "name": "Closing Leg Identification",
+      "definition": "Unambiguous identification of the second leg of the transaction as known by the account owner (or the instructing party acting on its behalf)."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Closing date/time or maturity date/time of the transaction."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies whether the rate is fixed or variable."
+    },
+    "LegalFramework": {
+      "name": "Legal Framework",
+      "definition": "Legal framework of the transaction."
+    },
+    "MaturityDateModification": {
+      "name": "Maturity Date Modification",
+      "definition": "Indicates whether the maturity date of the securities financing transaction may be modified."
+    },
+    "InterestPayment": {
+      "name": "Interest Payment",
+      "definition": "Indicates whether the interest is to be paid to the collateral taker. If set to no, the interest is paid to the collateral giver."
+    },
+    "VariableRateSupport": {
+      "name": "Variable Rate Support",
+      "definition": "Index or support rate used together with the spread to calculate the repurchase rate."
+    },
+    "RepurchaseRate": {
+      "name": "Repurchase Rate",
+      "definition": "Rate to be used to recalculate the repurchase amount."
+    },
+    "TransactionCallDelay": {
+      "name": "Transaction Call Delay",
+      "definition": "Minimum number of days' notice a counterparty needs for terminating the transaction."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between coupon payment periods."
+    },
+    "TerminationTransactionAmount": {
+      "name": "Termination Transaction Amount",
+      "definition": "Total amount of money to be settled to terminate the transaction."
+    },
+    "SecondLegNarrative": {
+      "name": "Second Leg Narrative",
+      "definition": "Provides additional information about the second leg in narrative form."
+    }
+  }
+}

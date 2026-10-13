@@ -1,0 +1,141 @@
+{
+  "isoType": "CorporateActionOption250",
+  "language": "en",
+  "name": "Corporate Action Option 250",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Specifies the features that may apply to a corporate action option."
+    },
+    "SupplementaryOptionFeatures": {
+      "name": "Supplementary Option Features",
+      "definition": "Used for options that have particular proprietary features."
+    },
+    "OptionAvailabilityStatus": {
+      "name": "Option Availability Status",
+      "definition": "Specifies the status of the option."
+    },
+    "CertificationBreakdownType": {
+      "name": "Certification Breakdown Type",
+      "definition": "Type of certification/breakdown."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency in which cash proceeds are to be credited/debited."
+    },
+    "DefaultOptionIndicator": {
+      "name": "Default Option Indicator",
+      "definition": "Indicates whether the option, for example, currency option, will be selected by default if no instruction is provided by the account owner."
+    },
+    "CertificationBreakdownIndicator": {
+      "name": "Certification Breakdown Indicator",
+      "definition": "Indicates whether certification/breakdown is required from the account owner. |Yes: certification required |No: no certification required."
+    },
+    "WithdrawalAllowedIndicator": {
+      "name": "Withdrawal Allowed Indicator",
+      "definition": "Indicates whether withdrawal of instruction is allowed."
+    },
+    "OversubscriptionChargeIndicator": {
+      "name": "Oversubscription Charge Indicator",
+      "definition": "Indicates whether the cash debit for the oversubscription charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "ProtectChargeIndicator": {
+      "name": "Protect Charge Indicator",
+      "definition": "Indicates whether the cash debit for the protect charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "SubscriptionChargeIndicator": {
+      "name": "Subscription Charge Indicator",
+      "definition": "Indicates whether the cash debit for the subscription charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "StepUpChargeIndicator": {
+      "name": "Step Up Charge Indicator",
+      "definition": "Indicates whether the cash debit for the step-up charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identifies the financial instrument."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a corporate action option."
+    },
+    "PeriodDetails": {
+      "name": "Period Details",
+      "definition": "Provides information about the periods related to a corporate action option."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about rates and amounts related to a corporate action option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action option."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Provides information about securities quantity linked to a corporate action option."
+    },
+    "TaxCategory": {
+      "name": "Tax Category",
+      "definition": "Identification of the tax category as issuers, their agents, or tax authorities may require a breakdown of holders at a category level that have requested to receive a distribution at a favourable rate of tax."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "name": "Proration Below Minimum Quantity",
+      "definition": "Specifies how instructions prorated below the minimum quantity to instruct will be processed."
+    },
+    "ProrationRoundingIndicator": {
+      "name": "Proration Rounding Indicator",
+      "definition": "Indicates how fractional positions will be handled for events with prorated options."
+    },
+    "ProrationFraction": {
+      "name": "Proration Fraction",
+      "definition": "Decimal above which numbers are rounded for prorated options. For example if the rounding factor is 0.5, numbers of 0.5 and above will be rounded up."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "name": "Proration Return Minimum Quantity Treatment",
+      "definition": "Indicates how prorated instructions will be handled when the prorated entitlement results in less than the minimum denomination."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Provides information about the securities movement linked to the corporate action option."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Provides information about the cash movement linked to the corporate action option."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "If OptionType/Code is OTHR (Other), then at least one occurrence of AdditionalInformation/AdditionalText/AdditionalInformation must be present.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "For differentiation between options, it is recommended to use the OptionNumber rather than the OptionType, for example, in the case where two or more offers can be described by the same corporate action option code."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "If WithdrawalAllowedIndicator is present and is 'true' or '1' (Yes), then PeriodDetails/RevocabilityPeriod must be present to indicate the period during which the withdrawal of instruction is allowed."
+    },
+    "OptionTypeUnknownProceedsUsageRule": {
+      "definition": "When used, the corporate action option type code PRUN (Unknown Proceeds) should be maintained throughout the full lifecycle of the event."
+    },
+    "InstructCashAmountRule": {
+      "definition": "If OptionFeatures/Code QCAS (InstructCashAmount) is not present, then any message elements in the list (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) must not be present.|(MT564 NVR C20)."
+    }
+  }
+}

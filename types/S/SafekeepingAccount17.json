@@ -1,0 +1,32 @@
+{
+  "isoType": "SafekeepingAccount17",
+  "language": "en",
+  "name": "Safekeeping Account 17",
+  "definition": "Detailed information about the safekeeping account, its holdings and the sublevel accounts.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained. Account held by the responding intermediary with its account servicer."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is, manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "ShareholdingBalanceOnOwnAccount": {
+      "name": "Shareholding Balance On Own Account",
+      "definition": "Number of shares held by the responding intermediary on its own account."
+    },
+    "ShareholdingBalanceOnClientAccount": {
+      "name": "Shareholding Balance On Client Account",
+      "definition": "Number of shares held by the responding intermediary on account of someone else."
+    },
+    "TotalShareholdingBalance": {
+      "name": "Total Shareholding Balance",
+      "definition": "Total number of shares held by the responding intermediary."
+    },
+    "AccountSubLevel": {
+      "name": "Account Sub Level",
+      "definition": "Shareholdings information at account sub level."
+    }
+  }
+}

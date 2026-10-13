@@ -1,0 +1,144 @@
+{
+  "isoType": "CorporateActionOption245",
+  "language": "en",
+  "name": "Corporate Action Option 245",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "OfferType": {
+      "name": "Offer Type",
+      "definition": "Specifies the conditions that apply to the offer."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Specifies the features that may apply to a corporate action option."
+    },
+    "OptionAvailabilityStatus": {
+      "name": "Option Availability Status",
+      "definition": "Specifies the status of the option."
+    },
+    "CertificationBreakdownType": {
+      "name": "Certification Breakdown Type",
+      "definition": "Type of certification/breakdown."
+    },
+    "NonDomicileCountry": {
+      "name": "Non Domicile Country",
+      "definition": "Holder of the security has to certify, in line with the terms of the corporate action, that it is not domiciled in the country indicated."
+    },
+    "ValidDomicileCountry": {
+      "name": "Valid Domicile Country",
+      "definition": "Country of domicile in which the Corporate Action option is valid. The holder of the security has to certify that it is domiciled in the country indicated."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency in which cash proceeds are to be credited or debited."
+    },
+    "DefaultProcessingOrStandingInstruction": {
+      "name": "Default Processing Or Standing Instruction",
+      "definition": "Indicates whether the corporate action movement is a default processing or a standing instruction."
+    },
+    "ChargesAppliedIndicator": {
+      "name": "Charges Applied Indicator",
+      "definition": "Indicates whether redemption charges apply."
+    },
+    "AcceptancePriorityLevel": {
+      "name": "Acceptance Priority Level",
+      "definition": "Level of priority of the given offer which will be accepted by the issuer/agent within the tiered structure of the event.|Offer events in many cases are subject to proration."
+    },
+    "CertificationBreakdownIndicator": {
+      "name": "Certification Breakdown Indicator",
+      "definition": "Indicates whether certification/breakdown is required from the account owner. |Yes: certification required |No: no certification required."
+    },
+    "WithdrawalAllowedIndicator": {
+      "name": "Withdrawal Allowed Indicator",
+      "definition": "Indicates whether withdrawal of instruction is allowed."
+    },
+    "ChangeAllowedIndicator": {
+      "name": "Change Allowed Indicator",
+      "definition": "Indicates whether change of instruction is allowed."
+    },
+    "AppliedOptionIndicator": {
+      "name": "Applied Option Indicator",
+      "definition": "Indicates whether the option, different from the default one, shall be applied by the account owner."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identifies the financial instrument."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a corporate action option."
+    },
+    "PeriodDetails": {
+      "name": "Period Details",
+      "definition": "Provides information about the periods related to a corporate action option."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about rates and amounts related to a corporate action option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action option."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Provides information about securities quantity related to a corporate action option."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Provides information about securities movement related to a corporate action option."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Provides information about the cash movement linked to the corporate action option."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information about the corporate action movement."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "If OptionType/Code is OTHR (Other), then AdditionalInformation/AdditionalText/AdditionalInformation must be present.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "For differentiation between options, it is recommended to use the OptionNumber rather than the OptionType, for example, in the case where two or more offers can be described by the same corporate action option code."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "If WithdrawalAllowedIndicator or ChangeAllowedIndicator is present and is 'true' or '1' (Yes), then PeriodDetails/RevocabilityPeriod must be present to indicate the period during which the change or withdrawal of instruction is allowed."
+    },
+    "AppliedOptionRule": {
+      "definition": "If DefaultProcessingOrStandingInstruction/DefaultOptionIndicator is present and its value is '1' or 'true' (Yes), then AppliedOptionIndicator value must not be '1' or 'true' (Yes)."
+    },
+    "InstructCashAmountRule": {
+      "definition": "If OptionFeatures/Code QCAS (InstructCashAmount) is not present, then any message elements in the list (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) must not be present.|(MT564 NVR C20)."
+    },
+    "DissenterRights1Rule": {
+      "definition": "If OfferType/Code value is equal to DISS (DissenterRights), then OfferType/Code value equal to NDIS (DissenterRightsNotApplicable) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "If OfferType/Code value is equal to NDISS (DissenterRightsNotApplicable), then OfferType/Code value equal to DISS (DissenterRights) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1UGRule": {
+      "definition": "If OfferType/Code value is equal to DISS (DissenterRights), then OfferType/Code value equal to NDIS (DissenterRightsNotApplicable) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "If OfferType/Code value is equal to NDIS (DissenterRightsNotApplicable), then OfferType/Code value equal to DISS (DissenterRights) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "AcceptancePriorityLevelUGRule": {
+      "definition": "If OfferType/Code is equal to AcceptancePriority (ACPR), then AcceptancePriorityLevel must be present."
+    }
+  }
+}

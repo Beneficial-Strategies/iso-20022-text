@@ -1,0 +1,20 @@
+{
+  "isoType": "ChequeCancellationOrStopReportV02",
+  "language": "en",
+  "name": "Cheque Cancellation Or Stop Report V 02",
+  "definition": "The ChequeCancellationOrStopReport message is sent by the drawee agent (on which a cheque is drawn) to the drawer agent or the agent acting on behalf of the drawer agent to indicate what actions have been taken in attempting to cancel the presentment and/or stop the payment of the cheque referred to in the message.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "Cheque": {
+      "name": "Cheque",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

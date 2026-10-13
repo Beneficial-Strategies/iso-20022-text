@@ -1,0 +1,61 @@
+{
+  "isoType": "TransferInInstructionV10",
+  "language": "en",
+  "name": "Transfer In Instruction V 10",
+  "definition": "The TransferInInstruction message is sent by an instructing party, for example, an investment manager or its authorised representative, to the executing party, for example, a transfer agent, to instruct the receipt of a financial instrument, free of payment, on a given date from a specified party.|This message may also be used to instruct the receipt of a financial instrument, free of payment, from another of the instructing parties own accounts or from a third party.|Usage|The TransferInInstruction message is used to instruct the receipt of a financial instrument from another account, either owned by the instructing party or by a third party.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "Function": {
+      "name": "Function",
+      "definition": "Function of the transfer in, that is, whether the transfer in message is used as an instruction or an advice and request for information. The absence of Function indicates the message is an instruction."
+    },
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferDetails": {
+      "name": "Transfer Details",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "CopyDetails": {
+      "name": "Copy Details",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Either TransferDetails/RequestedSettlementDate may be present in one or more occurrences of TransferDetails or SettlementDetails/RequestedSettlementDate may be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "CorporateActionElection3",
+  "language": "en",
+  "name": "Corporate Action Election 3",
+  "definition": "Provides information about a corporate action election.",
+  "isoElements": {
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Provides information about the account."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "InstructedUnderlyingSecuritiesQuantity": {
+      "name": "Instructed Underlying Securities Quantity",
+      "definition": "Quantity of underlying securities to which this instruction applies."
+    },
+    "InstructedSecuritiesQuantityToReceive": {
+      "name": "Instructed Securities Quantity To Receive",
+      "definition": "Quantity of the benefits that the account owner wants to receive, eg, as a result of dividend reinvestment."
+    },
+    "ProposedRate": {
+      "name": "Proposed Rate",
+      "definition": "Rate proposed in a remarketing of variable rate notes."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Provides information about the cash movement resulting from the election instruction."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Provides information about the securities movement resulting from the election instruction."
+    }
+  }
+}

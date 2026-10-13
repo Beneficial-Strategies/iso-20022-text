@@ -1,0 +1,23 @@
+{
+  "isoType": "PendingCancellationReason8Code",
+  "language": "en",
+  "name": "Pending Cancellation Reason 8 Code",
+  "definition": "Specifies the reason why the cancellation request has a pending status.",
+  "isoCodes": {
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "PCAT": {
+      "isoName": "PendingCounterpartyAcceptance",
+      "name": "Pending Counterparty Acceptance",
+      "definition": "Pending acceptance from the counterparty."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    }
+  }
+}

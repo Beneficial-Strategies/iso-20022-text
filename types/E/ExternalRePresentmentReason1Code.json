@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalRePresentmentReason1Code",
+  "language": "en",
+  "name": "External Re Presentment Reason 1 Code",
+  "definition": "Specifies the external representment reason code in the format of character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.",
+  "isoCodes": {
+    "AMCR": {
+      "isoName": "AmountCorrected",
+      "name": "Amount Corrected",
+      "definition": "Amount corrected due to proof of transaction"
+    },
+    "CLSD": {
+      "isoName": "CardAuthenticationLiabilityShiftDenied",
+      "name": "Card Authentication Liability Shift Denied",
+      "definition": "Liability Shift to acquirer due to missing card authentication method denied"
+    },
+    "CRPI": {
+      "isoName": "CreditPreviouslyIssued",
+      "name": "Credit Previously Issued",
+      "definition": "Credit previously issued"
+    },
+    "OTVA": {
+      "isoName": "OriginalTransactionValid",
+      "name": "Original Transaction Valid",
+      "definition": "Original transaction was valid"
+    },
+    "VLSD": {
+      "isoName": "VerificationLiabilityShiftDenied",
+      "name": "Verification Liability Shift Denied",
+      "definition": "Liability Shift to acquirer due to missing cardholder verification method denied"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalTaxAmountType1Code",
+  "language": "en",
+  "name": "External Tax Amount Type 1 Code",
+  "definition": "Specifies the nature, or use, of the amount in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CITY": {
+      "isoName": "CityTax",
+      "name": "City Tax",
+      "definition": "Tax accessed by city jurisdications within a country."
+    },
+    "CNTY": {
+      "isoName": "CountyTax",
+      "name": "County Tax",
+      "definition": "Tax accessed by county jurisdications within a country."
+    },
+    "LOCL": {
+      "isoName": "LocalTax",
+      "name": "Local Tax",
+      "definition": "Tax accessed by local jurisdications within a country."
+    },
+    "PROV": {
+      "isoName": "ProvinceTax",
+      "name": "Province Tax",
+      "definition": "Tax accessed by province jurisdications within a country."
+    },
+    "STAT": {
+      "isoName": "StateTax",
+      "name": "State Tax",
+      "definition": "Tax accessed by state jurisdications within a country."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "isoType": "StructuredLongPostalAddress1",
+  "language": "en",
+  "name": "Structured Long Postal Address 1",
+  "definition": "Address of a party expressed in a formal structure, usually according to the country's postal services specifications.",
+  "isoElements": {
+    "BuildingName": {
+      "name": "Building Name",
+      "definition": "Name of the building or house."
+    },
+    "StreetName": {
+      "name": "Street Name",
+      "definition": "Name of a street or thoroughfare."
+    },
+    "StreetBuildingIdentification": {
+      "name": "Street Building Identification",
+      "definition": "Number that identifies the position of a building on a street."
+    },
+    "Floor": {
+      "name": "Floor",
+      "definition": "Floor or storey within a building."
+    },
+    "TownName": {
+      "name": "Town Name",
+      "definition": "Name of a built-up area, with defined boundaries, and a local government."
+    },
+    "DistrictName": {
+      "name": "District Name",
+      "definition": "Name of a district, that is, a part of a town or region."
+    },
+    "RegionIdentification": {
+      "name": "Region Identification",
+      "definition": "Identification of an administrative division of a country, state, or territory."
+    },
+    "State": {
+      "name": "State",
+      "definition": "Organised political community or area forming a part of a federation."
+    },
+    "CountyIdentification": {
+      "name": "County Identification",
+      "definition": "Identifier of a county."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Nation with its own government."
+    },
+    "PostCodeIdentification": {
+      "name": "Post Code Identification",
+      "definition": "Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail."
+    },
+    "PostOfficeBox": {
+      "name": "Post Office Box",
+      "definition": "Numbered box in a post office, assigned to a person or organisation, where letters are kept until called for."
+    }
+  },
+  "isoRules": {
+    "StreetNameAndOrPostOfficeBoxRule": {
+      "definition": "If StreetName is not present, then PostOfficeBox is mandatory. If StreetName is present, then PostOfficeBox is optional."
+    }
+  }
+}

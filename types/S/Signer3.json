@@ -1,0 +1,28 @@
+{
+  "isoType": "Signer3",
+  "language": "en",
+  "name": "Signer 3",
+  "definition": "Entity who has signed the data and its digital signature.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the Cryptographic Message Syntax (CMS) data structure."
+    },
+    "SignerIdentification": {
+      "name": "Signer Identification",
+      "definition": "Identification of the entity who has signed the data."
+    },
+    "DigestAlgorithm": {
+      "name": "Digest Algorithm",
+      "definition": "Identification of a digest algorithm to apply before signature."
+    },
+    "SignatureAlgorithm": {
+      "name": "Signature Algorithm",
+      "definition": "Cryptographic digital signature algorithm."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Digital signature."
+    }
+  }
+}

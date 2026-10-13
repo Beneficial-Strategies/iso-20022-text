@@ -1,0 +1,28 @@
+{
+  "isoType": "ImpliedCurrencyAmountRange1Choice",
+  "language": "en",
+  "name": "Implied Currency Amount Range 1 Choice",
+  "definition": "Choice between ranges of values in which an amount is considered valid or a specified amount value which has to be matched or unmatched to be valid.",
+  "isoElements": {
+    "FromAmount": {
+      "name": "From Amount",
+      "definition": "Lower boundary of a range of amount values."
+    },
+    "ToAmount": {
+      "name": "To Amount",
+      "definition": "Upper boundary of a range of amount values."
+    },
+    "FromToAmount": {
+      "name": "From To Amount",
+      "definition": "Range of valid amount values."
+    },
+    "EqualAmount": {
+      "name": "Equal Amount",
+      "definition": "Exact value an amount must match to be considered valid."
+    },
+    "NotEqualAmount": {
+      "name": "Not Equal Amount",
+      "definition": "Value that an amount must not match to be considered valid."
+    }
+  }
+}

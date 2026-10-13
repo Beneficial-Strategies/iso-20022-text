@@ -1,0 +1,28 @@
+{
+  "isoType": "LimitStatus1Code",
+  "language": "en",
+  "name": "Limit Status 1 Code",
+  "definition": "Specifies the current status of a limit.",
+  "isoCodes": {
+    "ENAB": {
+      "isoName": "Enabled",
+      "name": "Enabled",
+      "definition": "Limit is currently in effect."
+    },
+    "DISA": {
+      "isoName": "Disabled",
+      "name": "Disabled",
+      "definition": "Limit is not currently in effect."
+    },
+    "DELD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Limit has been deleted or suspended."
+    },
+    "REQD": {
+      "isoName": "Requested",
+      "name": "Requested",
+      "definition": "Limit has been asked for and is not yet enabled."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "HostToATMRequest1",
+  "language": "en",
+  "name": "Host To ATM Request 1",
+  "definition": "Information related to the request to an ATM to contact the ATM manager.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the ATM."
+    },
+    "CommandIdentification": {
+      "name": "Command Identification",
+      "definition": "Identification of the entity issuing the command."
+    },
+    "ExpectedMessageFunction": {
+      "name": "Expected Message Function",
+      "definition": "Message that have to be sent by the ATM."
+    }
+  }
+}

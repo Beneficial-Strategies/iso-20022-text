@@ -1,0 +1,68 @@
+{
+  "isoType": "UnmatchedReason16Code",
+  "language": "en",
+  "name": "Unmatched Reason 16 Code",
+  "definition": "Specifies the reason the transaction, transfer or settlement instruction is unmatched.",
+  "isoCodes": {
+    "NCRR": {
+      "isoName": "CurrencySettlementAmount",
+      "name": "Currency Settlement Amount",
+      "definition": "Settlement amount currency does not match."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrument",
+      "name": "Financial Instrument",
+      "definition": "Financial instrument identification does not match, for example, ISIN, financial instrument attributes differs."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "CMIS": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "A matching instruction from your counterparty could not be found."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Depository does not match."
+    },
+    "ICAG": {
+      "isoName": "ReceivingDeliveringParty1",
+      "name": "Receiving Delivering Party 1",
+      "definition": "Participant of delivering or receiving depository does not match."
+    },
+    "ICUS": {
+      "isoName": "ReceivingDeliveringParty2",
+      "name": "Receiving Delivering Party 2",
+      "definition": "Client of delivering or receiving party 1 does not match."
+    },
+    "IEXE": {
+      "isoName": "ReceivingDeliveringParty3",
+      "name": "Receiving Delivering Party 3",
+      "definition": "Client of delivering or receiving party 2 does not match."
+    },
+    "DMON": {
+      "isoName": "SettlementAmount",
+      "name": "Settlement Amount",
+      "definition": "Settlement amount does not match."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Settlement date/time does not match."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Trade date does not match."
+    },
+    "DELN": {
+      "isoName": "TransactionDirection",
+      "name": "Transaction Direction",
+      "definition": "Direction of the trade does not match. Counterparty expects a delivery from you, not a receipt or vice versa."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "BillingServicesAmount1",
+  "language": "en",
+  "name": "Billing Services Amount 1",
+  "definition": "Taxable service charge amount conversions to host currency.",
+  "isoElements": {
+    "HostAmount": {
+      "name": "Host Amount",
+      "definition": "Sum of all the individual taxes on the service expressed in the host currency."
+    },
+    "PricingAmount": {
+      "name": "Pricing Amount",
+      "definition": "Amount of the tax obligation expressed in the tax region's pricing currency.|Usage: This is the same amount as carried in the host amount but allows the sender to optionally express the value in the pricing currency."
+    }
+  }
+}

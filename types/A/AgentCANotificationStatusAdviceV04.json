@@ -1,0 +1,16 @@
+{
+  "isoType": "AgentCANotificationStatusAdviceV04",
+  "language": "en",
+  "name": "Agent CA Notification Status Advice V 04",
+  "definition": "Scope|This message is sent by a CSD to an issuer (or its agent) to report the status, or change in status, of a notification advice or notification cancellation request.|Usage|When this message is used to report the status of a notification advice then the building block Agent Corporate Action Notification Advice Identification must be present.|When this message is used to provide the status of a notification cancellation request then the building block Notification Cancellation Request Identification must be present.",
+  "isoElements": {
+    "AgentDocumentIdentificationAndStatus": {
+      "name": "Agent Document Identification And Status",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementInstruction19",
+  "language": "en",
+  "name": "Settlement Instruction 19",
+  "definition": "Provides further details on the settlement of the instruction.",
+  "isoElements": {
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date at which the message sender or ChargesRequestor where this element is present expects to be credited for the payment of the charges."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Financial institution that receives an amount of money from the financial institutional debtor.||Usage: where used this party must be the same as the message sender or ChargesRequestor where this element is present."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction.||Usage: where used this account should be owned by the message sender or ChargesRequestor where this element is present."
+    }
+  }
+}

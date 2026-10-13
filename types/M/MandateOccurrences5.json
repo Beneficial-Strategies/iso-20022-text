@@ -1,0 +1,28 @@
+{
+  "isoType": "MandateOccurrences5",
+  "language": "en",
+  "name": "Mandate Occurrences 5",
+  "definition": "Provides further details related to the duration of the mandate and the occurrence of the underlying transactions.",
+  "isoElements": {
+    "SequenceType": {
+      "name": "Sequence Type",
+      "definition": "Identifies the underlying transaction sequence as either recurring or one-off."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which instructions are to be created and processed."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Length of time for which the mandate remains valid."
+    },
+    "FirstCollectionDate": {
+      "name": "First Collection Date",
+      "definition": "Date of the first collection of a direct debit as per the mandate."
+    },
+    "FinalCollectionDate": {
+      "name": "Final Collection Date",
+      "definition": "Date of the final collection of a direct debit as per the mandate."
+    }
+  }
+}

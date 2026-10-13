@@ -1,0 +1,68 @@
+{
+  "isoType": "AdditionalBusinessProcess12Code",
+  "language": "en",
+  "name": "Additional Business Process 12 Code",
+  "definition": "Specifies the additional business process linked to a corporate action event such as an automatic market claim.",
+  "isoCodes": {
+    "CLFT": {
+      "isoName": "FullTransferOfReceivedProceeds",
+      "name": "Full Transfer Of Received Proceeds",
+      "definition": "Market Claim is to transfer proceeds received from the issuer to the entitled party."
+    },
+    "CLAI": {
+      "isoName": "ClaimOrCompensation",
+      "name": "Claim Or Compensation",
+      "definition": "Relates to a claim on the associated corporate action event."
+    },
+    "CLNT": {
+      "isoName": "PartialTransferOfReceivedProceeds",
+      "name": "Partial Transfer Of Received Proceeds",
+      "definition": "Market Claim is to transfer proceeds partially received from the issuer to the entitled party. Part is compensated in cash by the party that failed to fulfil its obligation."
+    },
+    "CLPT": {
+      "isoName": "NoTransferOfReceivedProceeds",
+      "name": "No Transfer Of Received Proceeds",
+      "definition": "Market Claim is to compensate the entitled party in cash by the party that failed to fulfil its obligation. No proceeds have been received from the issuer."
+    },
+    "TAXR": {
+      "isoName": "TaxRefund",
+      "name": "Tax Refund",
+      "definition": "Relates to a tax refund from the authorities on the associated corporate action event."
+    },
+    "CONS": {
+      "isoName": "Consent",
+      "name": "Consent",
+      "definition": "Relates to a consent within a corporate action event other than a Consent event (: 22F:: CAEV//CONS)."
+    },
+    "FPRE": {
+      "isoName": "FullPrefunding",
+      "name": "Full Prefunding",
+      "definition": "Full pre-funding of a debt instrument by the issuer prior to original maturity when the issuer deposits assets in trust. Applicable only in the frame of a partial defeasance corporate action event."
+    },
+    "INCP": {
+      "isoName": "IncentivePremiumPayment",
+      "name": "Incentive Premium Payment",
+      "definition": "The event is a payment of an incentive premium related to the voting conditions prescribed at a general meeting."
+    },
+    "NPLE": {
+      "isoName": "NoSplitElection",
+      "name": "No Split Election",
+      "definition": "Issuer only allows a single option to be selected per designated holding."
+    },
+    "PPUT": {
+      "isoName": "PartialMandatoryPutRedemption",
+      "name": "Partial Mandatory Put Redemption",
+      "definition": "Partial mandatory exchange of a portion of bonds where the exchanged securities are usually remarketed. The issuer may offer holders the right to retain instead of exchanging their securities. A lottery will be used to determine eligibility for the event."
+    },
+    "PPRE": {
+      "isoName": "PartialPreFunding",
+      "name": "Partial Pre Funding",
+      "definition": "Partial pre-funding of a debt instrument prior to maturity drawn through a lottery process. One new security is issued with an earlier maturity date for the refunded (called portion) and the other new security is issued with the original maturity date for the non refunded (remaining) portion. Applicable only in the frame of a partial defeasance corporate action event."
+    },
+    "SCHM": {
+      "isoName": "SchemeOrPlanOfArrangement",
+      "name": "Scheme Or Plan Of Arrangement",
+      "definition": "Component event of a scheme/plan of arrangement: a reorganisation of a company or a group of companies, and their capital."
+    }
+  }
+}

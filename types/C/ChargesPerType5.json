@@ -1,0 +1,44 @@
+{
+  "isoType": "ChargesPerType5",
+  "language": "en",
+  "name": "Charges Per Type 5",
+  "definition": "Provides a detailed breakdown of the charges per type of charges.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "name": "Charges Identification",
+      "definition": "Unique and unambiguous identification of the charges information for reconciliation purpose."
+    },
+    "TotalChargesPerChargeType": {
+      "name": "Total Charges Per Charge Type",
+      "definition": "Total charges claimed through for the specified charge type."
+    },
+    "ChargesAccount": {
+      "name": "Charges Account",
+      "definition": "Identifies the account that has been debited or credited for the charges, interest or other adjustment(s)."
+    },
+    "ChargesAccountOwner": {
+      "name": "Charges Account Owner",
+      "definition": "Agent that owns the charges account."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of charge."
+    },
+    "Record": {
+      "name": "Record",
+      "definition": "Itemised charges record per charges type."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the reason for the charges."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTypeOrRecord2Rule": {
+      "definition": "When Record/ChargesAccount is present or Record/ChargesAccountOwner is present then ChargesAccount must be absent and ChargesAccountOwner must be absent."
+    },
+    "ChargesAccountTypeOrRecord1Rule": {
+      "definition": "When ChargesAccount is present or ChargesAccountOwner is present then  Record/ChargesAccount must be absent and Record/ChargesAccountOwner must be absent."
+    }
+  }
+}

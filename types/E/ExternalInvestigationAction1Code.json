@@ -1,0 +1,28 @@
+{
+  "isoType": "ExternalInvestigationAction1Code",
+  "language": "en",
+  "name": "External Investigation Action 1 Code",
+  "definition": "Specifies the requested action, as published in an external investigation action code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RQCL": {
+      "isoName": "RequestInvestigationClosure",
+      "name": "Request Investigation Closure",
+      "definition": "Responder is requested to close the investigation. All investigation requests relating to the investigation may be disregarded."
+    },
+    "RQST": {
+      "isoName": "RequestInvestigationStatus",
+      "name": "Request Investigation Status",
+      "definition": "Responder is requested to provide the status of the investigation."
+    },
+    "RQOB": {
+      "isoName": "RequestObjection",
+      "name": "Request Objection",
+      "definition": "Responder is requested to review an earlier response as the requestor objects to it."
+    },
+    "RQRO": {
+      "isoName": "RequestInvestigationReopening",
+      "name": "Request Investigation Reopening",
+      "definition": "Responder is requested to reopen the investigation."
+    }
+  }
+}

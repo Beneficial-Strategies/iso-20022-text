@@ -1,0 +1,28 @@
+{
+  "isoType": "RejectionReason81Code",
+  "language": "en",
+  "name": "Rejection Reason 81 Code",
+  "definition": "Specifies the reason why the corporate action notification cancellation request has a rejected status.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "Validation of the advice/instruction/request failed."
+    },
+    "REFI": {
+      "isoName": "InvalidCAIdentification",
+      "name": "Invalid CA Identification",
+      "definition": "Invalid corporate action identification supplied."
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Cancellation request has been rejected because the instruction process is in progress or has been processed."
+    }
+  }
+}

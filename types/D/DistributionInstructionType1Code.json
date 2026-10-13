@@ -1,0 +1,33 @@
+{
+  "isoType": "DistributionInstructionType1Code",
+  "language": "en",
+  "name": "Distribution Instruction Type 1 Code",
+  "definition": "Specifies the type of distribution instruction.",
+  "isoCodes": {
+    "GDEB": {
+      "isoName": "GlobalDebitOrder",
+      "name": "Global Debit Order",
+      "definition": "Instruction to debit the positions held under all clients accounts in the underlying resouces of the given event and option. This order applies to all clients who are eligible to participate to the CA event."
+    },
+    "IDEB": {
+      "isoName": "IndividualOrder",
+      "name": "Individual Order",
+      "definition": "An instruction, on a per client basis, to debit the position held in the underlying resources (securities and/or cash) and/or the credit of the proceeds (securities and/or cash)."
+    },
+    "GRET": {
+      "isoName": "GlobalReturnOrder",
+      "name": "Global Return Order",
+      "definition": "Instruction to transfer securities from the clients sequestered balances back to the respective available balances."
+    },
+    "CHAN": {
+      "isoName": "OptionChangeOrder",
+      "name": "Option Change Order",
+      "definition": "Instruction to transfer the position from one sequestered balance (related to a CA option) to another sequestered balalnce (related to another CA option)."
+    },
+    "IRET": {
+      "isoName": "IndividualReturnOrder",
+      "name": "Individual Return Order",
+      "definition": "Instruction to transfer securities from a client sequestered balance back to its available balance."
+    }
+  }
+}

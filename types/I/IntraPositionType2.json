@@ -1,0 +1,21 @@
+{
+  "isoType": "IntraPositionType2",
+  "language": "en",
+  "name": "Intra Position Type 2",
+  "definition": "Intra-position type used to specify pairs of from/to balances.",
+  "isoElements": {
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the securities are moving."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the securities are moving."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "The cash balance type of BalanceFrom must be different from the cash balance type of BalanceTo."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BreakdownByCurrency2",
+  "language": "en",
+  "name": "Breakdown By Currency 2",
+  "definition": "Specifies the cash-in and cash-out flows by currency.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency for which the cash flow is being reported."
+    },
+    "CashOutForecast": {
+      "name": "Cash Out Forecast",
+      "definition": "Cash movement out of the fund as a result of transactions in shares in an investment fund, for example, redemptions or switch-outs."
+    },
+    "CashInForecast": {
+      "name": "Cash In Forecast",
+      "definition": "Cash movement into the fund as a result of transactions in shares in an investment fund, for example, subscriptions or switch-ins."
+    },
+    "NetCashForecast": {
+      "name": "Net Cash Forecast",
+      "definition": "Net cash as a result of the cash-in and cash-out flows specified for the currency."
+    }
+  }
+}

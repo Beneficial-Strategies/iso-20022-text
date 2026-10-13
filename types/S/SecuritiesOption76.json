@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesOption76",
+  "language": "en",
+  "name": "Securities Option 76",
+  "definition": "Provides information about the corporate action security option.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "EntitledQuantity": {
+      "name": "Entitled Quantity",
+      "definition": "Quantity of securities based on the terms of the corporate action event and balance of underlying securities entitled to the account owner. (This quantity can be positive or negative)."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time at which the movement is due to take place (cash and/or securities)."
+    }
+  }
+}

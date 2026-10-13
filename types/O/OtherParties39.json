@@ -1,0 +1,25 @@
+{
+  "isoType": "OtherParties39",
+  "language": "en",
+  "name": "Other Parties 39",
+  "definition": "Other parties information.",
+  "isoElements": {
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    },
+    "StockExchange": {
+      "name": "Stock Exchange",
+      "definition": "Identification of the stock exchange to which transaction reporting will be done."
+    },
+    "TradeRegulator": {
+      "name": "Trade Regulator",
+      "definition": "Institution to which a trade must be reported."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "If Investor is used with a country code, then the country code specifies the nationality of the investor, for example for the settlement of certain securities (that is airlines, defence manufacturers) under the EU legislation."
+    }
+  }
+}

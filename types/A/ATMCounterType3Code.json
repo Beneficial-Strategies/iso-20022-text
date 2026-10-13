@@ -1,0 +1,43 @@
+{
+  "isoType": "ATMCounterType3Code",
+  "language": "en",
+  "name": "ATM Counter Type 3 Code",
+  "definition": "Type of ATM cassette counters.",
+  "isoCodes": {
+    "INQU": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Counters since the last counters inquiry."
+    },
+    "CTXN": {
+      "isoName": "CustomerTransaction",
+      "name": "Customer Transaction",
+      "definition": "Counters for a customer transaction."
+    },
+    "CTOF": {
+      "isoName": "CutOff",
+      "name": "Cut Off",
+      "definition": "Counters since the last cut-off."
+    },
+    "BDAY": {
+      "isoName": "BusinessDay",
+      "name": "Business Day",
+      "definition": "Counters since the beginning of the business day."
+    },
+    "PRTN": {
+      "isoName": "Operation",
+      "name": "Operation",
+      "definition": "Counters as a result of some replenishment operation carried out by an operator (for example adding cash to a cash unit)."
+    },
+    "OPER": {
+      "isoName": "OperatorAdjust",
+      "name": "Operator Adjust",
+      "definition": "Counters since the last update by an operator on the ATM."
+    },
+    "SLRP": {
+      "isoName": "SinceLastReplenishmentPoint",
+      "name": "Since Last Replenishment Point",
+      "definition": "Counters since last replenishment point."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "BeneficiaryDrawdown2",
+  "language": "en",
+  "name": "Beneficiary Drawdown 2",
+  "definition": "Information about the beneficiary of a drawdown.",
+  "isoElements": {
+    "BeneficiaryType": {
+      "name": "Beneficiary Type",
+      "definition": "Type of beneficiary."
+    },
+    "DeathUnderLimit": {
+      "name": "Death Under Limit",
+      "definition": "Indicates whether the original pension holder was under the age limit when deceased. Typically, in the UK this limit is seventy-five."
+    },
+    "DateOfDeath": {
+      "name": "Date Of Death",
+      "definition": "Date of death of the original pension holder."
+    },
+    "DateDesignatedToBeneficiary": {
+      "name": "Date Designated To Beneficiary",
+      "definition": "Date on which the new beneficiary was designated."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the recipient of the drawdown."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SecurityParameters18",
+  "language": "en",
+  "name": "Security Parameters 18",
+  "definition": "Security parameters of the ATM for the initiated key download.",
+  "isoElements": {
+    "Key": {
+      "name": "Key",
+      "definition": "Cryptographic key used to protect the key download."
+    },
+    "SignatureChoice": {
+      "name": "Signature Choice",
+      "definition": "Element containing the signature."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Ordered certificate chain of the asymmetric key encryption key, starting with the ATM certificate."
+    },
+    "ATMChallenge": {
+      "name": "ATM Challenge",
+      "definition": "Random value from the ATM to avoid message replay."
+    },
+    "RequestedKey": {
+      "name": "Requested Key",
+      "definition": "Requested key for downloading, depending on the key hierarchy used by the host."
+    }
+  }
+}

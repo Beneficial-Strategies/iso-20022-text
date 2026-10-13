@@ -1,0 +1,24 @@
+{
+  "isoType": "PledgeInformation1",
+  "language": "en",
+  "name": "Pledge Information 1",
+  "definition": "Information about the pledge and pledger.",
+  "isoElements": {
+    "Pledger": {
+      "name": "Pledger",
+      "definition": "Entity that provide assets to a counterparty as a guarantee."
+    },
+    "ThirdParty": {
+      "name": "Third Party",
+      "definition": "Third party, usually a bank, involved in the pledge."
+    },
+    "PledgeType": {
+      "name": "Pledge Type",
+      "definition": "Identifies the type of pledge."
+    },
+    "ReturnSecuritiesIndicator": {
+      "name": "Return Securities Indicator",
+      "definition": "Indicates whether the pledger is entitled to vote, otherwise the right to vote is with the right holder."
+    }
+  }
+}

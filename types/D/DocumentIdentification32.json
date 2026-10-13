@@ -1,0 +1,20 @@
+{
+  "isoType": "DocumentIdentification32",
+  "language": "en",
+  "name": "Document Identification 32",
+  "definition": "Identification of a document as well as the document number and type of link.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identifier of the document (message) assigned either by the account servicer or the account owner."
+    },
+    "DocumentNumber": {
+      "name": "Document Number",
+      "definition": "Identification of the type of document."
+    },
+    "LinkageType": {
+      "name": "Linkage Type",
+      "definition": "Specifies when this document is to be processed relative to another referred document."
+    }
+  }
+}

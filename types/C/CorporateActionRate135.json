@@ -1,0 +1,61 @@
+{
+  "isoType": "CorporateActionRate135",
+  "language": "en",
+  "name": "Corporate Action Rate 135",
+  "definition": "Specifies rates of a corporate action.",
+  "isoElements": {
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Annualised interest rate of a financial instrument used to calculate the actual interest rate of the coupon or the accrued interest."
+    },
+    "PercentageSought": {
+      "name": "Percentage Sought",
+      "definition": "Percentage of securities the offeror/issuer will purchase or redeem under the terms of the event."
+    },
+    "RelatedIndex": {
+      "name": "Related Index",
+      "definition": "Index rate related to the interest rate of the forthcoming interest payment."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Margin allowed over or under a given rate."
+    },
+    "BidInterval": {
+      "name": "Bid Interval",
+      "definition": "Acceptable price increment used for submitting a bid."
+    },
+    "PreviousFactor": {
+      "name": "Previous Factor",
+      "definition": "Factor used to calculate the value of the outstanding principal of the financial instrument (for factored securities) until the next redemption (factor) date."
+    },
+    "NextFactor": {
+      "name": "Next Factor",
+      "definition": "Factor used to calculate the value of the outstanding principal of the financial instrument (for factored securities) that will applicable after the redemption (factor) date."
+    },
+    "ReinvestmentDiscountRateToMarket": {
+      "name": "Reinvestment Discount Rate To Market",
+      "definition": "Rate of discount for securities purchased through a reinvestment scheme as compared to the current market price of security."
+    },
+    "InterestShortfall": {
+      "name": "Interest Shortfall",
+      "definition": "For structured security issues where there is a set schedule of principal and interest payments for the life of the issue, this is the difference between the actual rate of the interest payment and the expected or scheduled rate of the interest payment."
+    },
+    "RealisedLoss": {
+      "name": "Realised Loss",
+      "definition": "For structured security issues where there is a set schedule of principal and interest payments for the life of the issue, this is the difference between the actual rate of the capital or principal repayment and the scheduled capital repayment."
+    },
+    "DeclaredRate": {
+      "name": "Declared Rate",
+      "definition": "Dividend or interest rate declared by the issuer."
+    },
+    "IndexFactor": {
+      "name": "Index Factor",
+      "definition": "Public index rate applied to the amount paid to adjust it to inflation."
+    }
+  },
+  "isoRules": {
+    "DeclaredRateRule": {
+      "definition": "DeclaredRate may only be used if the dividend or interest declared by the issuer is actually paid in a different currency than the declared one or if the dividend or the interest event makes it possible to elect amongst multiple currency options."
+    }
+  }
+}

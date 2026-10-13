@@ -1,0 +1,43 @@
+{
+  "isoType": "ATMCommand4Code",
+  "language": "en",
+  "name": "ATM Command 4 Code",
+  "definition": "Type of command to be performed by an ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "isoName": "ATMBalance",
+      "name": "ATM Balance",
+      "definition": "Provide the ATM counters, resetting those that are applicable."
+    },
+    "ASTS": {
+      "isoName": "ATMStatusUpdate",
+      "name": "ATM Status Update",
+      "definition": "Status of the ATM required by the ATM manager."
+    },
+    "CFGT": {
+      "isoName": "ConfigurationUpdate",
+      "name": "Configuration Update",
+      "definition": "Update the ATM configuration parameters."
+    },
+    "CCNT": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Request the value of the ATM counters."
+    },
+    "DISC": {
+      "isoName": "Disconnect",
+      "name": "Disconnect",
+      "definition": "Perform a disconnection followed by a reconnection."
+    },
+    "SNDM": {
+      "isoName": "SendMessage",
+      "name": "Send Message",
+      "definition": "Send a specific message to initiate a process."
+    },
+    "RPTC": {
+      "isoName": "CountersReport",
+      "name": "Counters Report",
+      "definition": "Provide the value of the ATM counters, no reinitialisation of the counters."
+    }
+  }
+}

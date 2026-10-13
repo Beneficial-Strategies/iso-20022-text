@@ -1,0 +1,21 @@
+{
+  "isoType": "RateStatus4Choice",
+  "language": "en",
+  "name": "Rate Status 4 Choice",
+  "definition": "Choice between a standard code or proprietary code to specify a rate status.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Standard code to specify the status of the rate."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary identification of the status of the rate."
+    }
+  },
+  "isoRules": {
+    "RateStatusGuideline": {
+      "definition": "The code value ACTU is the default value for a rate status."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "DebitAuthorisationConfirmation2",
+  "language": "en",
+  "name": "Debit Authorisation Confirmation 2",
+  "definition": "Specifies whether or not the debit authorisation is granted.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "name": "Debit Authorisation",
+      "definition": "Code expressing the decision taken by the account owner relative to the request for debit authorization."
+    },
+    "AmountToDebit": {
+      "name": "Amount To Debit",
+      "definition": "Amount of money authorised for debit. |Usage: The party approving the debit may want to authorise the amount less charges and may only be prepared to approve the debit for value today rather than the original value date."
+    },
+    "ValueDateToDebit": {
+      "name": "Value Date To Debit",
+      "definition": "Value date for debiting the amount."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the debit authorisation request."
+    }
+  }
+}

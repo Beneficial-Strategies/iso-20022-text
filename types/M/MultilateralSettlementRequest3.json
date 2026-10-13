@@ -1,0 +1,36 @@
+{
+  "isoType": "MultilateralSettlementRequest3",
+  "language": "en",
+  "name": "Multilateral Settlement Request 3",
+  "definition": "Provides details specific to the individual settlement instruction(s) included in the message.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": "Unique identification, as assigned by the instructing agent, and sent to the market infrastructure to unambiguously identify the instruction.||Usage: The instruction identification is a point to point reference that can be used between the instructing agent and the market infrastructure to refer to the individual instruction. It can be included in several messages related to the instruction."
+    },
+    "InstructionPriority": {
+      "name": "Instruction Priority",
+      "definition": "Indicator of the urgency or order of importance that the instructing agent would like the market infrastructure to apply to the processing of the instruction.||Usage: Market practice or bilateral agreement should specify how this element should be used. If this element is not populated and there is no market guidance or bilateral agreement, the priority will be considered as 'Normal'."
+    },
+    "SettlementTimeRequest": {
+      "name": "Settlement Time Request",
+      "definition": "Provides information on the requested settlement time(s) of the instruction."
+    },
+    "SettlementPriority": {
+      "name": "Settlement Priority",
+      "definition": "Indicator of the urgency or order of importance that the instructing agent would like the market infrastructure to apply to the processing of the settlement instruction.||Usage: Market practice or bilateral agreement should specify how this element should be used. If this element is not populated and there is no market guidance or bilateral agreement, the priority will be considered as 'Normal'."
+    },
+    "SettlementCycle": {
+      "name": "Settlement Cycle",
+      "definition": "Identification of the settlement cycle in the settlement service.||Usage: The SettlementCycle is used to differentiate this multilateral settlement from other multilateral settlements where more than one occurs within a given time period."
+    },
+    "NumberOfMovementRecords": {
+      "name": "Number Of Movement Records",
+      "definition": "Indicator of the number of movement records contained in an individual settlement request."
+    },
+    "MovementRecord": {
+      "name": "Movement Record",
+      "definition": "Credit or debit transaction contained in an individual settlement request.||Usage: The sum of all amounts (debit and credit records) should net to zero where net settlement is used."
+    }
+  }
+}

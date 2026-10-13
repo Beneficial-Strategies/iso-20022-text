@@ -1,0 +1,20 @@
+{
+  "isoType": "Frequency36Choice",
+  "language": "en",
+  "name": "Frequency 36 Choice",
+  "definition": "Choice of format for a frequency, for example, the frequency of payment.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies a frequency in terms of a specified period type."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Specifies a frequency in terms of a count per period within a specified period type."
+    },
+    "PointInTime": {
+      "name": "Point In Time",
+      "definition": "Specifies a frequency in terms of an exact point in time or moment within a specified period type."
+    }
+  }
+}

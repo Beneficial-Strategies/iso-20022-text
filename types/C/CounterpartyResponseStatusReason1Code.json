@@ -1,0 +1,23 @@
+{
+  "isoType": "CounterpartyResponseStatusReason1Code",
+  "language": "en",
+  "name": "Counterparty Response Status Reason 1 Code",
+  "definition": "Specifies the type of counterparty's action the response is related to.",
+  "isoCodes": {
+    "CPTR": {
+      "isoName": "CounterpartyTransaction",
+      "name": "Counterparty Transaction",
+      "definition": "Specifies that the response is related to an allegement from the counterparty."
+    },
+    "CPCX": {
+      "isoName": "CounterpartyCancellation",
+      "name": "Counterparty Cancellation",
+      "definition": "Specifies that the response is related to the cancellation request of the counterparty."
+    },
+    "CPMD": {
+      "isoName": "CounterpartyModification",
+      "name": "Counterparty Modification",
+      "definition": "Specifies that the response is related to the modification request of the counterparty."
+    }
+  }
+}

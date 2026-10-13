@@ -1,0 +1,45 @@
+{
+  "isoType": "InvestmentAccount76",
+  "language": "en",
+  "name": "Investment Account 76",
+  "definition": "Information about a securities account and its characteristics.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "Designation": {
+      "name": "Designation",
+      "definition": "Supplementary registration information applying to a specific block of units for dealing and reporting purposes. The supplementary registration information may be used when all the units are registered, for example, to a funds supermarket, but holdings for each investor have to be reconciled individually."
+    },
+    "FundType": {
+      "name": "Fund Type",
+      "definition": "Legal form of the fund, for example, UCITS, SICAV, OEIC, Unit Trust, and FCP."
+    },
+    "FundFamilyName": {
+      "name": "Fund Family Name",
+      "definition": "Name of the investment fund family."
+    },
+    "SecurityDetails": {
+      "name": "Security Details",
+      "definition": "Detailed information about the investment fund associated to the account."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account."
+    },
+    "Intermediary": {
+      "name": "Intermediary",
+      "definition": "Intermediary or other party related to the management of the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    }
+  },
+  "isoRules": {
+    "AccountDataElementRule": {
+      "definition": "One of the elements (Name, Designation, FundType, FundFamilyName, SecurityDetails, AccountOwner, Intermediary, Account Servicer) must be present."
+    }
+  }
+}

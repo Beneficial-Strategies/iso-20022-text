@@ -1,0 +1,36 @@
+{
+  "isoType": "IntraPositionMovementPendingReportV01",
+  "language": "en",
+  "name": "Intra Position Movement Pending Report V 01",
+  "definition": "This IntraPositionMovementPendingReport message is sent from a settlement infrastructure to an account owner/request to report the intra-position movement instructions, previously sent by the account owner, that have a pending status.||The message may also be used to: |- re-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |- provide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "Movements": {
+      "name": "Movements",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to Yes (true or 1) then Movements must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to No (false or 0) then Movements must be absent."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "CorporateActionInformation2",
+  "language": "en",
+  "name": "Corporate Action Information 2",
+  "definition": "Provides information about the corporate action event.",
+  "isoElements": {
+    "AgentIdentification": {
+      "name": "Agent Identification",
+      "definition": "Identification of the issuer's agent or the issuer."
+    },
+    "IssuerCorporateActionIdentification": {
+      "name": "Issuer Corporate Action Identification",
+      "definition": "Reference given to the event by the CA event issuer (agent)."
+    },
+    "CorporateActionProcessingIdentification": {
+      "name": "Corporate Action Processing Identification",
+      "definition": "Reference assigned by the (I)CSD to unambiguously identify a corporate avent."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Speficies the type of corporate event."
+    },
+    "EventProcessingType": {
+      "name": "Event Processing Type",
+      "definition": "Type of processing involved by a Corporate Action."
+    },
+    "MandatoryVoluntaryEventType": {
+      "name": "Mandatory Voluntary Event Type",
+      "definition": "Specifies whether the event is mandatory, mandatory with options or voluntary."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Identification of the underlying financial instrument, ie, the financial instrument affected by the corporate action event."
+    },
+    "OtherUnderlyingSecurity": {
+      "name": "Other Underlying Security",
+      "definition": "Identification of the secondary underlying financial instrument, ie, the non-principal financial instrument affected by the corporate action event."
+    }
+  }
+}

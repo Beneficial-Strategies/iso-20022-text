@@ -1,0 +1,20 @@
+{
+  "isoType": "LimitJournal3",
+  "language": "en",
+  "name": "Limit Journal 3",
+  "definition": "Record where all transactions are originally entered. The journal details which transactions occurred and what accounts were affected.",
+  "isoElements": {
+    "Limit": {
+      "name": "Limit",
+      "definition": "Maximum value used for risk containment in a system or towards counterparts. The limit may be a current limit or a default limit."
+    },
+    "JournalActivityDate": {
+      "name": "Journal Activity Date",
+      "definition": "Date upon which journal activity takes place."
+    },
+    "JournalEntry": {
+      "name": "Journal Entry",
+      "definition": "Recording of transaction data pertaining to a transaction in a journal."
+    }
+  }
+}

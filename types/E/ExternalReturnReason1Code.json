@@ -1,0 +1,528 @@
+{
+  "isoType": "ExternalReturnReason1Code",
+  "language": "en",
+  "name": "External Return Reason 1 Code",
+  "definition": "Specifies the return reason, as published in an external return reason code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "isoName": "IncorrectAccountNumber",
+      "name": "Incorrect Account Number",
+      "definition": "Format of the account number specified is not correct"
+    },
+    "AC03": {
+      "isoName": "InvalidCreditorAccountNumber",
+      "name": "Invalid Creditor Account Number",
+      "definition": "Wrong IBAN in SCT"
+    },
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the bank of account's books"
+    },
+    "AC06": {
+      "isoName": "BlockedAccount",
+      "name": "Blocked Account",
+      "definition": "Account specified is blocked, prohibiting posting of transactions against it."
+    },
+    "AC13": {
+      "isoName": "InvalidDebtorAccountType",
+      "name": "Invalid Debtor Account Type",
+      "definition": "Debtor account type is missing or invalid"
+    },
+    "AC14": {
+      "isoName": "InvalidAgent",
+      "name": "Invalid Agent",
+      "definition": "An agent in the payment chain is invalid."
+    },
+    "AC15": {
+      "isoName": "AccountDetailsChanged",
+      "name": "Account Details Changed",
+      "definition": "Account details have changed."
+    },
+    "AC16": {
+      "isoName": "AccountInSequestration",
+      "name": "Account In Sequestration",
+      "definition": "Account is in sequestration."
+    },
+    "AC17": {
+      "isoName": "AccountInLiquidation",
+      "name": "Account In Liquidation",
+      "definition": "Account is in liquidation."
+    },
+    "AG01": {
+      "isoName": "TransactionForbidden",
+      "name": "Transaction Forbidden",
+      "definition": "Transaction forbidden on this type of account (formerly NoAgreement)"
+    },
+    "AG02": {
+      "isoName": "InvalidBankOperationCode",
+      "name": "Invalid Bank Operation Code",
+      "definition": "Bank Operation code specified in the message is not valid for receiver"
+    },
+    "AM01": {
+      "isoName": "ZeroAmount",
+      "name": "Zero Amount",
+      "definition": "Specified message amount is equal to zero"
+    },
+    "AM02": {
+      "isoName": "NotAllowedAmount",
+      "name": "Not Allowed Amount",
+      "definition": "Specific transaction/message amount is greater than allowed maximum"
+    },
+    "AM03": {
+      "isoName": "NotAllowedCurrency",
+      "name": "Not Allowed Currency",
+      "definition": "Specified message amount is an non processable currency outside of existing agreement"
+    },
+    "AM04": {
+      "isoName": "InsufficientFunds",
+      "name": "Insufficient Funds",
+      "definition": "Amount of funds available to cover specified message amount is insufficient."
+    },
+    "AM05": {
+      "isoName": "Duplication",
+      "name": "Duplication",
+      "definition": "Duplication"
+    },
+    "AM06": {
+      "isoName": "TooLowAmount",
+      "name": "Too Low Amount",
+      "definition": "Specified transaction amount is less than agreed minimum."
+    },
+    "AM07": {
+      "isoName": "BlockedAmount",
+      "name": "Blocked Amount",
+      "definition": "Amount specified in message has been blocked by regulatory authorities."
+    },
+    "AM09": {
+      "isoName": "WrongAmount",
+      "name": "Wrong Amount",
+      "definition": "Amount received is not the amount agreed or expected"
+    },
+    "AM10": {
+      "isoName": "InvalidControlSum",
+      "name": "Invalid Control Sum",
+      "definition": "Sum of instructed amounts does not equal the control sum."
+    },
+    "ARDT": {
+      "isoName": "AlreadyReturnedTransaction",
+      "name": "Already Returned Transaction",
+      "definition": "Already returned original SCT"
+    },
+    "BE01": {
+      "isoName": "InconsistentWithEndCustomer",
+      "name": "Inconsistent With End Customer",
+      "definition": "Identification of end customer is not consistent with associated account number, organisation ID or private ID."
+    },
+    "BE04": {
+      "isoName": "MissingCreditorAddress",
+      "name": "Missing Creditor Address",
+      "definition": "Specification of creditor's address, which is required for payment, is missing/not correct (formerly IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "isoName": "UnrecognisedInitiatingParty",
+      "name": "Unrecognised Initiating Party",
+      "definition": "Party who initiated the message is not recognised by the end customer"
+    },
+    "BE06": {
+      "isoName": "UnknownEndCustomer",
+      "name": "Unknown End Customer",
+      "definition": "End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books"
+    },
+    "BE07": {
+      "isoName": "MissingDebtorAddress",
+      "name": "Missing Debtor Address",
+      "definition": "Specification of debtor's address, which is required for payment, is missing/not correct."
+    },
+    "BE08": {
+      "isoName": "BankError",
+      "name": "Bank Error",
+      "definition": "Returned as a result of a bank error."
+    },
+    "CN01": {
+      "isoName": "AuthorisationCancelled",
+      "name": "Authorisation Cancelled",
+      "definition": "Authorisation is cancelled."
+    },
+    "CNOR": {
+      "isoName": "CreditorBankIsNotRegistered",
+      "name": "Creditor Bank Is Not Registered",
+      "definition": "Creditor bank is not registered under this BIC in the CSM"
+    },
+    "CNPC": {
+      "isoName": "CashNotPickedUp",
+      "name": "Cash Not Picked Up",
+      "definition": "Cash not picked up by Creditor or cash could not be delivered to Creditor"
+    },
+    "CURR": {
+      "isoName": "IncorrectCurrency",
+      "name": "Incorrect Currency",
+      "definition": "Currency of the payment is incorrect"
+    },
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation requested by the Debtor"
+    },
+    "DNOR": {
+      "isoName": "DebtorBankIsNotRegistered",
+      "name": "Debtor Bank Is Not Registered",
+      "definition": "Debtor bank is not registered under this BIC in the CSM"
+    },
+    "DS28": {
+      "isoName": "ReturnForTechnicalReason",
+      "name": "Return For Technical Reason",
+      "definition": "Return following technical problems resulting in erroneous transaction."
+    },
+    "DT01": {
+      "isoName": "InvalidDate",
+      "name": "Invalid Date",
+      "definition": "Invalid date (eg, wrong settlement date)"
+    },
+    "DT02": {
+      "isoName": "ChequeExpired",
+      "name": "Cheque Expired",
+      "definition": "Cheque has been issued but not deposited and is considered expired."
+    },
+    "ED01": {
+      "isoName": "CorrespondentBankNotPossible",
+      "name": "Correspondent Bank Not Possible",
+      "definition": "Correspondent bank not possible."
+    },
+    "ED03": {
+      "isoName": "BalanceInfoRequest",
+      "name": "Balance Info Request",
+      "definition": "Balance of payments complementary info is requested"
+    },
+    "ED05": {
+      "isoName": "SettlementFailed",
+      "name": "Settlement Failed",
+      "definition": "Settlement of the transaction has failed."
+    },
+    "EMVL": {
+      "isoName": "EMVLiabilityShift",
+      "name": "EMV Liability Shift",
+      "definition": "The card payment is fraudulent and was not processed with EMV technology for an EMV card."
+    },
+    "ERIN": {
+      "isoName": "ERIOptionNotSupported",
+      "name": "ERI Option Not Supported",
+      "definition": "The Extended Remittance Information (ERI) option is not supported."
+    },
+    "FF05": {
+      "isoName": "InvalidLocalInstrumentCode",
+      "name": "Invalid Local Instrument Code",
+      "definition": "Local Instrument code is missing or invalid"
+    },
+    "FOCR": {
+      "isoName": "FollowingCancellationRequest",
+      "name": "Following Cancellation Request",
+      "definition": "Return following a cancellation request"
+    },
+    "FR01": {
+      "isoName": "Fraud",
+      "name": "Fraud",
+      "definition": "Returned as a result of fraud."
+    },
+    "FRTR": {
+      "isoName": "FinalResponseMandateCancelled",
+      "name": "Final Response Mandate Cancelled",
+      "definition": "Final response/tracking is recalled as mandate is cancelled."
+    },
+    "MD01": {
+      "isoName": "NoMandate",
+      "name": "No Mandate",
+      "definition": "No Mandate"
+    },
+    "MD02": {
+      "isoName": "MissingMandatoryInformationInMandate",
+      "name": "Missing Mandatory Information In Mandate",
+      "definition": "Mandate related information data required by the scheme is missing."
+    },
+    "MD06": {
+      "isoName": "RefundRequestByEndCustomer",
+      "name": "Refund Request By End Customer",
+      "definition": "Return of funds requested by end customer"
+    },
+    "MD07": {
+      "isoName": "EndCustomerDeceased",
+      "name": "End Customer Deceased",
+      "definition": "End customer is deceased."
+    },
+    "MS02": {
+      "isoName": "NotSpecifiedReasonCustomerGenerated",
+      "name": "Not Specified Reason Customer Generated",
+      "definition": "Reason has not been specified by end customer"
+    },
+    "MS03": {
+      "isoName": "NotSpecifiedReasonAgentGenerated",
+      "name": "Not Specified Reason Agent Generated",
+      "definition": "Reason has not been specified by agent."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "NOAS": {
+      "isoName": "NoAnswerFromCustomer",
+      "name": "No Answer From Customer",
+      "definition": "No response from Beneficiary"
+    },
+    "NOCM": {
+      "isoName": "NotCompliant",
+      "name": "Not Compliant",
+      "definition": "Customer account is not compliant with regulatory requirements, for example FICA (in South Africa) or any other regulatory requirements which render an account inactive for certain processing."
+    },
+    "NOOR": {
+      "isoName": "NoOriginalTransactionReceived",
+      "name": "No Original Transaction Received",
+      "definition": "Original SCT never received"
+    },
+    "PINL": {
+      "isoName": "PINLiabilityShift",
+      "name": "PIN Liability Shift",
+      "definition": "The card payment is fraudulent (lost and stolen fraud) and was processed as EMV transaction without PIN verification."
+    },
+    "RC01": {
+      "isoName": "BankIdentifierIncorrect",
+      "name": "Bank Identifier Incorrect",
+      "definition": "Bank Identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode)."
+    },
+    "RC07": {
+      "isoName": "InvalidCreditorBICIdentifier",
+      "name": "Invalid Creditor BIC Identifier",
+      "definition": "Incorrrect BIC of the beneficiary Bank in the SCTR"
+    },
+    "RF01": {
+      "isoName": "NotUniqueTransactionReference",
+      "name": "Not Unique Transaction Reference",
+      "definition": "Transaction reference is not unique within the message."
+    },
+    "RR01": {
+      "isoName": "MissingDebtorAccountOrIdentification",
+      "name": "Missing Debtor Account Or Identification",
+      "definition": "Specification of the debtor’s account or unique identification needed for reasons of regulatory requirements is insufficient or missing"
+    },
+    "RR02": {
+      "isoName": "MissingDebtorNameOrAddress",
+      "name": "Missing Debtor Name Or Address",
+      "definition": "Specification of the debtor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR03": {
+      "isoName": "MissingCreditorNameOrAddress",
+      "name": "Missing Creditor Name Or Address",
+      "definition": "Specification of the creditor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason"
+    },
+    "RUTA": {
+      "isoName": "ReturnUponUnableToApply",
+      "name": "Return Upon Unable To Apply",
+      "definition": "Return following investigation request and no remediation possible."
+    },
+    "SL01": {
+      "isoName": "SpecificServiceOfferedByDebtorAgent",
+      "name": "Specific Service Offered By Debtor Agent",
+      "definition": "Due to specific service offered by the Debtor Agent"
+    },
+    "SL02": {
+      "isoName": "SpecificServiceOfferedByCreditorAgent",
+      "name": "Specific Service Offered By Creditor Agent",
+      "definition": "Due to specific service offered by the Creditor Agent"
+    },
+    "SL11": {
+      "isoName": "CreditorNotOnWhitelistOfDebtor",
+      "name": "Creditor Not On Whitelist Of Debtor",
+      "definition": "Whitelisting service offered by the Debtor Agent; Debtor has not included the Creditor on its “Whitelist” (yet). In the Whitelist the Debtor may list all allowed Creditors to debit Debtor bank account."
+    },
+    "SL12": {
+      "isoName": "CreditorOnBlacklistOfDebtor",
+      "name": "Creditor On Blacklist Of Debtor",
+      "definition": "Blacklisting service offered by the Debtor Agent; Debtor included the Creditor on his “Blacklist”. In the Blacklist the Debtor may list all Creditors not allowed to debit Debtor bank account."
+    },
+    "SL13": {
+      "isoName": "MaximumNumberOfDirectDebitTransactionsExceeded",
+      "name": "Maximum Number Of Direct Debit Transactions Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transactions per period service offered by the Debtor Agent."
+    },
+    "SL14": {
+      "isoName": "MaximumDirectDebitTransactionAmountExceeded",
+      "name": "Maximum Direct Debit Transaction Amount Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transaction amount service offered by the Debtor Agent."
+    },
+    "SP01": {
+      "isoName": "PaymentStopped",
+      "name": "Payment Stopped",
+      "definition": "Payment is stopped by account holder."
+    },
+    "SP02": {
+      "isoName": "PreviouslyStopped",
+      "name": "Previously Stopped",
+      "definition": "Previously stopped by means of a stop payment advise."
+    },
+    "SVNR": {
+      "isoName": "ServiceNotRendered",
+      "name": "Service Not Rendered",
+      "definition": "The card payment is returned since a cash amount rendered was not correct or goods or a service was not rendered to the customer, e.g. in an e-commerce situation."
+    },
+    "TM01": {
+      "isoName": "CutOffTime",
+      "name": "Cut Off Time",
+      "definition": "Associated message was received after agreed processing cut-off time."
+    },
+    "TRAC": {
+      "isoName": "RemovedFromTracking",
+      "name": "Removed From Tracking",
+      "definition": "Return following direct debit being removed from tracking process."
+    },
+    "UPAY": {
+      "isoName": "UnduePayment",
+      "name": "Undue Payment",
+      "definition": "Payment is not justified."
+    },
+    "AGNT": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent in the payment workflow is incorrect."
+    },
+    "FF06": {
+      "isoName": "InvalidCategoryPurposeCode",
+      "name": "Invalid Category Purpose Code",
+      "definition": "Category Purpose code is missing or invalid."
+    },
+    "RC08": {
+      "isoName": "InvalidClearingSystemMemberIdentifier",
+      "name": "Invalid Clearing System Member Identifier",
+      "definition": "ClearingSystemMemberidentifier is invalid or missing.|Generic usage if cannot specify between debit or credit account."
+    },
+    "BE11": {
+      "isoName": "InvalidCreditorCountry",
+      "name": "Invalid Creditor Country",
+      "definition": "Creditor country code is missing or invalid."
+    },
+    "BE17": {
+      "isoName": "InvalidCreditorIdentificationCode",
+      "name": "Invalid Creditor Identification Code",
+      "definition": "Creditor or Ultimate Creditor identification code missing or invalid."
+    },
+    "AC02": {
+      "isoName": "InvalidDebtorAccountNumber",
+      "name": "Invalid Debtor Account Number",
+      "definition": "Debtor account number invalid or missing."
+    },
+    "RR11": {
+      "isoName": "InvalidDebtorAgentServiceIdentification",
+      "name": "Invalid Debtor Agent Service Identification",
+      "definition": "Invalid or missing identification of a bank proprietary service."
+    },
+    "BE10": {
+      "isoName": "InvalidDebtorCountry",
+      "name": "Invalid Debtor Country",
+      "definition": "Debtor country code is missing or invalid."
+    },
+    "BE16": {
+      "isoName": "InvalidDebtorIdentificationCode",
+      "name": "Invalid Debtor Identification Code",
+      "definition": "Debtor or Ultimate Debtor identification code missing or invalid."
+    },
+    "RC11": {
+      "isoName": "InvalidIntermediaryAgent",
+      "name": "Invalid Intermediary Agent",
+      "definition": "Intermediary Agent is invalid or missing."
+    },
+    "RR12": {
+      "isoName": "InvalidPartyIdentification",
+      "name": "Invalid Party Identification",
+      "definition": "Invalid or missing identification required within a particular country or payment type."
+    },
+    "FF03": {
+      "isoName": "InvalidPaymentTypeInformation",
+      "name": "Invalid Payment Type Information",
+      "definition": "Payment Type Information is missing or invalid.|Generic usage if cannot specify Service Level or Local Instrument code."
+    },
+    "FF07": {
+      "isoName": "InvalidPurpose",
+      "name": "Invalid Purpose",
+      "definition": "Purpose is missing or invalid."
+    },
+    "FF04": {
+      "isoName": "InvalidServiceLevelCode",
+      "name": "Invalid Service Level Code",
+      "definition": "Service Level code is missing or invalid."
+    },
+    "RR09": {
+      "isoName": "InvalidStructuredCreditorReference",
+      "name": "Invalid Structured Creditor Reference",
+      "definition": "Structured creditor reference invalid or missing."
+    },
+    "RR05": {
+      "isoName": "RegulatoryInformationInvalid",
+      "name": "Regulatory Information Invalid",
+      "definition": "Regulatory or Central Bank Reporting information missing, incomplete or invalid."
+    },
+    "RR07": {
+      "isoName": "RemittanceInformationInvalid",
+      "name": "Remittance Information Invalid",
+      "definition": "Remittance information structure does not comply with rules for payment type."
+    },
+    "RR08": {
+      "isoName": "RemittanceInformationTruncated",
+      "name": "Remittance Information Truncated",
+      "definition": "Remittance information truncated to comply with rules for payment type."
+    },
+    "RR06": {
+      "isoName": "TaxInformationInvalid",
+      "name": "Tax Information Invalid",
+      "definition": "Tax information missing, incomplete or invalid."
+    },
+    "AG07": {
+      "isoName": "UnsuccesfulDirectDebit",
+      "name": "Unsuccesful Direct Debit",
+      "definition": "Debtor account cannot be debited for a generic reason.|Usage: Code value may be used in general purposes and as a replacement for AM04 if debtor bank does not reveal its customer's insufficient funds for privacy reasons."
+    },
+    "G004": {
+      "isoName": "CreditPendingFunds",
+      "name": "Credit Pending Funds",
+      "definition": "In a FIToFI Customer Credit Transfer: Credit to the creditor’s account is pending, status Originator is waiting for funds provided via a cover. Update will follow from the Status Originator."
+    },
+    "MD05": {
+      "isoName": "CollectionNotDue",
+      "name": "Collection Not Due",
+      "definition": "Creditor or creditor's agent should not have collected the direct debit."
+    },
+    "AC07": {
+      "isoName": "ClosedCreditorAccountNumber",
+      "name": "Closed Creditor Account Number",
+      "definition": "Creditor account number closed."
+    },
+    "DC04": {
+      "isoName": "NoCustomerCreditTransferReceived",
+      "name": "No Customer Credit Transfer Received",
+      "definition": "Return of Covering Settlement due to the underlying Credit Transfer details not being received."
+    },
+    "RC04": {
+      "isoName": "InvalidCreditorBankIdentifier",
+      "name": "Invalid Creditor Bank Identifier",
+      "definition": "Creditor bank identifier is invalid or missing."
+    },
+    "DT04": {
+      "isoName": "FutureDateNotSupported",
+      "name": "Future Date Not Supported",
+      "definition": "Future date not supported."
+    },
+    "DUPL": {
+      "isoName": "DuplicatePayment",
+      "name": "Duplicate Payment",
+      "definition": "Payment is a duplicate of another payment."
+    },
+    "RC03": {
+      "isoName": "InvalidDebtorBankIdentifier",
+      "name": "Invalid Debtor Bank Identifier",
+      "definition": "Debtor bank identifier is invalid or missing."
+    }
+  }
+}

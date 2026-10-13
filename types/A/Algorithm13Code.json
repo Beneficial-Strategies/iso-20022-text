@@ -1,0 +1,43 @@
+{
+  "isoType": "Algorithm13Code",
+  "language": "en",
+  "name": "Algorithm 13 Code",
+  "definition": "Cryptographic algorithms for the protection of transported keys.",
+  "isoCodes": {
+    "EA2C": {
+      "isoName": "AES128CBC",
+      "name": "AES 128 CBC",
+      "definition": "AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) encryption with a 128 bits cryptographic key as defined by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "E3DC": {
+      "isoName": "DES112CBC",
+      "name": "DES 112 CBC",
+      "definition": "Triple DES (Data Encryption Standard) CBC (Chaining Block Cypher) encryption with double length key (112 Bit) as defined in FIPS PUB 46-3 - (ASN.1 Object Identifier: des-ede3-cbc)."
+    },
+    "DKP9": {
+      "isoName": "DUKPT2009",
+      "name": "DUKPT 2009",
+      "definition": "DUKPT (Derived Unique Key Per Transaction) algorithm, as specified in ANSI X9.24-2009 Annex A."
+    },
+    "UKPT": {
+      "isoName": "UKPT",
+      "name": "UKPT",
+      "definition": "UKPT (Unique Key Per Transaction) or Master Session Key key encryption - (ASN.1 Object Identifier: id-ukpt-wrap)."
+    },
+    "UKA1": {
+      "isoName": "UKPTwithAES128",
+      "name": "UKP Twith AES 128",
+      "definition": "UKPT (Unique Key Per Transaction) or Master Session Key key encryption, using Advanced Encryption Standard with a 128 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "EA9C": {
+      "isoName": "AES192CBC",
+      "name": "AES 192 CBC",
+      "definition": "AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) encryption with a 192 bits cryptographic key as defined by the Federal Information Processing Standards (FIPS 197 – November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "EA5C": {
+      "isoName": "AES256CBC",
+      "name": "AES 256 CBC",
+      "definition": "AES (Advanced Encryption Standard) CBC (Chaining Block Cypher) encryption with a 256 bits cryptographic key as defined by the Federal Information Processing Standards (FIPS 197 – November 6, 2001 - Advanced Encryption Standard)."
+    }
+  }
+}

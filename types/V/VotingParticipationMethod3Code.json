@@ -1,0 +1,38 @@
+{
+  "isoType": "VotingParticipationMethod3Code",
+  "language": "en",
+  "name": "Voting Participation Method 3 Code",
+  "definition": "Specifies the different methods allowed for participating to the vote of agenda resolutions in a general meeting.",
+  "isoCodes": {
+    "MAIL": {
+      "isoName": "Correspondence",
+      "name": "Correspondence",
+      "definition": "Vote participation is via documents sent through physical post / mail."
+    },
+    "EVOT": {
+      "isoName": "ElectronicVoting",
+      "name": "Electronic Voting",
+      "definition": "Vote participation is through electronic means like dedicated standards messaging or web based voting applications."
+    },
+    "PHYS": {
+      "isoName": "InPerson",
+      "name": "In Person",
+      "definition": "Vote participation is through physical attendance."
+    },
+    "PHNV": {
+      "isoName": "NotVoting",
+      "name": "Not Voting",
+      "definition": "Participation to the meeting is in person but the person is not voting."
+    },
+    "PRXY": {
+      "isoName": "Proxy",
+      "name": "Proxy",
+      "definition": "Vote participation is through a proxy person."
+    },
+    "VIRT": {
+      "isoName": "Virtual",
+      "name": "Virtual",
+      "definition": "Vote participation is through virtual meeting attendance method like multimedia and web based video or audio conferencing."
+    }
+  }
+}

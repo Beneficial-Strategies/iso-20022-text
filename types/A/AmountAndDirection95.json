@@ -1,0 +1,44 @@
+{
+  "isoType": "AmountAndDirection95",
+  "language": "en",
+  "name": "Amount And Direction 95",
+  "definition": "Posting of an item to a cash account, in the context of a cash transaction, that results in an increase or decrease to the balance of the account.",
+  "isoElements": {
+    "AccruedInterestIndicator": {
+      "name": "Accrued Interest Indicator",
+      "definition": "Indicates whether the net proceeds include interest accrued on the financial instrument."
+    },
+    "StampDutyIndicator": {
+      "name": "Stamp Duty Indicator",
+      "definition": "Whether the net proceeds include stamp duty amount."
+    },
+    "BrokerageAmountIndicator": {
+      "name": "Brokerage Amount Indicator",
+      "definition": "Indicates whether the net proceeds include brokerage fees for the transaction. If absent, element is not required."
+    },
+    "ResearchFeeIndicator": {
+      "name": "Research Fee Indicator",
+      "definition": "Indicates whether the net proceeds include research fees for the transaction."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money in the cash entry."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether an entry is a credit or a debit."
+    },
+    "OriginalCurrencyAndOrderedAmount": {
+      "name": "Original Currency And Ordered Amount",
+      "definition": "Posting/settlement amount in its original currency when conversion from/into another currency has occurred."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the cash is at the disposal of the credit account owner, or ceases to be at the disposal of the debit account owner."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "BasicCollateralValuation1Details",
+  "language": "en",
+  "name": "Basic Collateral Valuation 1 Details",
+  "definition": "Basic valuation details of a collateral position.",
+  "isoElements": {
+    "ValuationHaircut": {
+      "name": "Valuation Haircut",
+      "definition": "Haircut percentage applied to the market value of underlying assets used as collateral as a risk control measure. The institution valuating the collateral calculates the value of underlying assets based on its market value less a certain percentage (the haircut)."
+    },
+    "HaircutSource": {
+      "name": "Haircut Source",
+      "definition": "Place where the valuation haircut was calculated."
+    }
+  }
+}

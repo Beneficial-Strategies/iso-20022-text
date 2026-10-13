@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMSecurityContext6",
+  "language": "en",
+  "name": "ATM Security Context 6",
+  "definition": "Information related to security commands.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "name": "Current Security Scheme",
+      "definition": "Key exchange security scheme in activation on the ATM for the host manager."
+    },
+    "SecuritySchemeCapabilities": {
+      "name": "Security Scheme Capabilities",
+      "definition": "Key exchange security schemes implemented in the hardware security module of the ATM."
+    },
+    "SecurityDevice": {
+      "name": "Security Device",
+      "definition": "Hardware security module of the ATM."
+    },
+    "Key": {
+      "name": "Key",
+      "definition": "Cryptographic keys stored in the hardware security module of the ATM."
+    },
+    "HostChallenge": {
+      "name": "Host Challenge",
+      "definition": "Random value from the host provided during a previous exchange."
+    }
+  }
+}

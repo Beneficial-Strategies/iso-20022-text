@@ -1,0 +1,59 @@
+{
+  "isoType": "OriginalPaymentInstruction54",
+  "language": "en",
+  "name": "Original Payment Instruction 54",
+  "definition": "Provides details on the reference and status of the original transactions, included in the original instruction, to which the cancellation request message applies.",
+  "isoElements": {
+    "OriginalPaymentInformationCancellationIdentification": {
+      "name": "Original Payment Information Cancellation Identification",
+      "definition": "Unique identification, as assigned by the original assigner, to unambiguously identify the original payment information cancellation request."
+    },
+    "ResolvedCase": {
+      "name": "Resolved Case",
+      "definition": "Identifies the resolved case."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "name": "Original Payment Information Identification",
+      "definition": "Unique identification, as assigned by the original sending party, to unambiguously identify the original payment information group."
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Provides information on the original message."
+    },
+    "OriginalNumberOfTransactions": {
+      "name": "Original Number Of Transactions",
+      "definition": "Number of individual transactions contained in the original payment information group."
+    },
+    "OriginalControlSum": {
+      "name": "Original Control Sum",
+      "definition": "Total of all individual amounts included in the original payment information group, irrespective of currencies."
+    },
+    "PaymentInformationCancellationStatus": {
+      "name": "Payment Information Cancellation Status",
+      "definition": "Specifies the status of a cancellation request, related to a payment information group."
+    },
+    "CancellationStatusReasonInformation": {
+      "name": "Cancellation Status Reason Information",
+      "definition": "Provides detailed information on the cancellation status reason."
+    },
+    "NumberOfTransactionsPerCancellationStatus": {
+      "name": "Number Of Transactions Per Cancellation Status",
+      "definition": "Detailed information on the number of transactions for each identical cancellation status."
+    },
+    "TransactionInformationAndStatus": {
+      "name": "Transaction Information And Status",
+      "definition": "Provides information on the original transactions to which the cancellation request message refers."
+    }
+  },
+  "isoRules": {
+    "CancellationStatusReasonInformationRule": {
+      "definition": "If PaymentInformationCancellationStatus is present and is different from RJCR (RejectedCancellationRequest) or PNCR (PendingCancellationRequest), then CancellationStatusReasonInformation/AdditionalInformation is not allowed."
+    },
+    "NumberOfTransactionsPerCancellationStatusGuideline": {
+      "definition": "OriginalGroupInformationAndStatus/NumberOfTransactionsPerStatus should only be present if GroupCancellationStatus equals PACR (PartialCancellationRequest)."
+    },
+    "PaymentInformationOrTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase may be present at either ResolvedCase, OriginalGroupInformationAndStatus level, OriginalPaymentInformationAndStatus or TransactionInformationAndStatus level."
+    }
+  }
+}

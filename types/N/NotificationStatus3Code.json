@@ -1,0 +1,23 @@
+{
+  "isoType": "NotificationStatus3Code",
+  "language": "en",
+  "name": "Notification Status 3 Code",
+  "definition": "Specifies the status of the notification in a coded form.",
+  "isoCodes": {
+    "RCBD": {
+      "isoName": "ReceivedButDifferent",
+      "name": "Received But Different",
+      "definition": "Event(s) as described in the notification to receive occurred but details are different."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Event(s) as described in the notification to receive occurred."
+    },
+    "NRCD": {
+      "isoName": "NotReceived",
+      "name": "Not Received",
+      "definition": "Event(s) as described in the notification to receive did not occur."
+    }
+  }
+}

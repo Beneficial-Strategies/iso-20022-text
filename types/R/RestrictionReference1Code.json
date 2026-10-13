@@ -1,0 +1,28 @@
+{
+  "isoType": "RestrictionReference1Code",
+  "language": "en",
+  "name": "Restriction Reference 1 Code",
+  "definition": "Specifies the restriction references to be applied to a transaction.",
+  "isoCodes": {
+    "ADDC": {
+      "isoName": "AddCashRestrictionReference",
+      "name": "Add Cash Restriction Reference",
+      "definition": "Addition of a cash restriction reference representing a cash sub-balance to be utilised within the settlement instruction for the debiting or crediting of cash."
+    },
+    "ADDS": {
+      "isoName": "AddSecuritiesRestrictionReference",
+      "name": "Add Securities Restriction Reference",
+      "definition": "Addition of a securities restriction reference representing a securities sub-position to be utilised within the settlement instruction for the delivery or receipt of securities."
+    },
+    "REMC": {
+      "isoName": "RemoveCashRestrictionReference",
+      "name": "Remove Cash Restriction Reference",
+      "definition": "Removal of a cash restriction reference, already present within the settlement instruction, representing a cash sub-balance to be utilised within the settlement instruction for the debiting or crediting of cash."
+    },
+    "REMS": {
+      "isoName": "RemoveSecuritiesRestrictionReference",
+      "name": "Remove Securities Restriction Reference",
+      "definition": "Removal of a securities restriction reference, already present within the settlement instruction, representing a securities sub-position to be utilised within the settlement instruction for the delivery or receipt of securities."
+    }
+  }
+}

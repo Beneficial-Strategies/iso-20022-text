@@ -1,0 +1,868 @@
+{
+  "isoType": "ExternalClearingSystemIdentification1Code",
+  "language": "en",
+  "name": "External Clearing System Identification 1 Code",
+  "definition": "Specifies the clearing system identification code, as published in an external clearing system identification code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "MA": {
+      "isoName": "MoroccoClearingSystemID",
+      "name": "Morocco Clearing System ID",
+      "definition": "Clearing System ID used in Morocco"
+    },
+    "DZ": {
+      "isoName": "AlgeriaClearingSystemID",
+      "name": "Algeria Clearing System ID",
+      "definition": "Clearing System ID used in Algeria"
+    },
+    "MU": {
+      "isoName": "MauritiusClearingSystemID",
+      "name": "Mauritius Clearing System ID",
+      "definition": "Clearing System ID used in Mauritius"
+    },
+    "RS": {
+      "isoName": "SerbiaClearingSystemID",
+      "name": "Serbia Clearing System ID",
+      "definition": "Clearing System ID used in Serbia"
+    },
+    "ATBLZ": {
+      "isoName": "AustrianBankleitzahl",
+      "name": "Austrian Bankleitzahl",
+      "definition": "Bank Branch code used in Austria."
+    },
+    "AUBSB": {
+      "isoName": "AustralianBankStateBranchCodeBSB",
+      "name": "Australian Bank State Branch Code BSB",
+      "definition": "Bank Branch code used in Australia."
+    },
+    "CACPA": {
+      "isoName": "CanadianPaymentsAssociationPaymentRoutingNumber",
+      "name": "Canadian Payments Association Payment Routing Number",
+      "definition": "Bank Branch code used in Canada."
+    },
+    "CHBCC": {
+      "isoName": "SwissFinancialInstitutionIdentificationShort",
+      "name": "Swiss Financial Institution Identification Short",
+      "definition": "Financial Institution Identification (IID) used in Switzerland, without check digit."
+    },
+    "CHSIC": {
+      "isoName": "SwissFinancialInstitutionIdentificationLong",
+      "name": "Swiss Financial Institution Identification Long",
+      "definition": "Financial Institution Identification (IID) used in Switzerland, including check digit."
+    },
+    "CNAPS": {
+      "isoName": "CNAPSIdentifier",
+      "name": "CNAPS Identifier",
+      "definition": "Bank Branch code used in China."
+    },
+    "DEBLZ": {
+      "isoName": "GermanBankleitzahl",
+      "name": "German Bankleitzahl",
+      "definition": "Bank Branch code used in Germany."
+    },
+    "ESNCC": {
+      "isoName": "SpanishDomesticInterbankingCode",
+      "name": "Spanish Domestic Interbanking Code",
+      "definition": "Bank Branch code used in Spain."
+    },
+    "GBDSC": {
+      "isoName": "UKDomesticSortCode",
+      "name": "UK Domestic Sort Code",
+      "definition": "Bank Branch code used in the UK."
+    },
+    "GRBIC": {
+      "isoName": "HelenicBankIdentificationCode",
+      "name": "Helenic Bank Identification Code",
+      "definition": "Bank Branch code used in Greece."
+    },
+    "HKNCC": {
+      "isoName": "HongKongBankCode",
+      "name": "Hong Kong Bank Code",
+      "definition": "Bank Branch code used in Hong Kong."
+    },
+    "IENCC": {
+      "isoName": "IrishNationalClearingCode",
+      "name": "Irish National Clearing Code",
+      "definition": "Bank Branch code used in Ireland."
+    },
+    "INFSC": {
+      "isoName": "IndianFinancialSystemCode",
+      "name": "Indian Financial System Code",
+      "definition": "Bank Branch code used in India."
+    },
+    "ITNCC": {
+      "isoName": "ItalianDomesticIdentificationCode",
+      "name": "Italian Domestic Identification Code",
+      "definition": "Bank Branch code used in Italy."
+    },
+    "JPZGN": {
+      "isoName": "JapanZenginClearingCode",
+      "name": "Japan Zengin Clearing Code",
+      "definition": "Bank Branch code used in Japan."
+    },
+    "NZNCC": {
+      "isoName": "NewZealandNationalClearingCode",
+      "name": "New Zealand National Clearing Code",
+      "definition": "Bank Branch code used in New Zealand."
+    },
+    "PLKNR": {
+      "isoName": "PolishNationalClearingCode",
+      "name": "Polish National Clearing Code",
+      "definition": "Bank Branch code used in Poland."
+    },
+    "PTNCC": {
+      "isoName": "PortugueseNationalClearingCode",
+      "name": "Portuguese National Clearing Code",
+      "definition": "Bank Branch code used in Portugal."
+    },
+    "RUCBC": {
+      "isoName": "RussianCentralBankIdentificationCode",
+      "name": "Russian Central Bank Identification Code",
+      "definition": "Bank Branch code used in Russia."
+    },
+    "SESBA": {
+      "isoName": "SwedenBankgiroClearingCode",
+      "name": "Sweden Bankgiro Clearing Code",
+      "definition": "Bank Branch code used in Sweden."
+    },
+    "SGIBG": {
+      "isoName": "IBGSortCode",
+      "name": "IBG Sort Code",
+      "definition": "Bank Branch code used in Singapore."
+    },
+    "THCBC": {
+      "isoName": "ThaiCentralBankIdentificationCode",
+      "name": "Thai Central Bank Identification Code",
+      "definition": "Bank Identification code used in Thailand."
+    },
+    "TWNCC": {
+      "isoName": "FinancialInstitutionCode",
+      "name": "Financial Institution Code",
+      "definition": "Bank Branch code used in Taiwan."
+    },
+    "USABA": {
+      "isoName": "UnitedStatesRoutingNumberFedwireNACHA",
+      "name": "United States Routing Number Fedwire NACHA",
+      "definition": "Routing Transit number assigned by the ABA for US financial institutions."
+    },
+    "USPID": {
+      "isoName": "CHIPSParticipantIdentifier",
+      "name": "CHIPS Participant Identifier",
+      "definition": "Bank identifier used by CHIPs in the US."
+    },
+    "ZANCC": {
+      "isoName": "SouthAfricanNationalClearingCode",
+      "name": "South African National Clearing Code",
+      "definition": "Bank Branch code used in South Africa."
+    },
+    "NZRSA": {
+      "isoName": "NewZealandRTGSClearingCode",
+      "name": "New Zealand RTGS Clearing Code",
+      "definition": "RTGS settlement account used in New Zealand."
+    },
+    "MZBMO": {
+      "isoName": "BancoDeMocambiqueRTGS",
+      "name": "Banco De Mocambique RTGS",
+      "definition": "Banco de Mocambique RTGS system."
+    },
+    "CNCIP": {
+      "isoName": "CrossBorderInterbankPaymentSystem",
+      "name": "Cross Border Interbank Payment System",
+      "definition": "Chinese Cross-border Interbank Payment System (CIPS) Identifier."
+    },
+    "KRBOK": {
+      "isoName": "SouthKoreaCentralBankIdentificationCode",
+      "name": "South Korea Central Bank Identification Code",
+      "definition": "Participant Institution code used by BOK-Wire+ in South Korea."
+    },
+    "BRISP": {
+      "isoName": "BrazilianBankIdentificationCode",
+      "name": "Brazilian Bank Identification Code",
+      "definition": "Bank Identification code used in Brazil (ISPB)."
+    },
+    "NACSC": {
+      "isoName": "NamibiaClearingSystemCode",
+      "name": "Namibia Clearing System Code",
+      "definition": "Clearing system Identification code used in Namibia."
+    },
+    "ZWTSS": {
+      "isoName": "ZimbabweClearingSystemCode",
+      "name": "Zimbabwe Clearing System Code",
+      "definition": "System Identification Code used in the Zimbabwe settlement system."
+    },
+    "AD": {
+      "isoName": "AndorraClearingSystemID",
+      "name": "Andorra Clearing System ID",
+      "definition": "Clearing System ID used in Andorra"
+    },
+    "EGNCC": {
+      "isoName": "EgyptianNationalClearingCode",
+      "name": "Egyptian National Clearing Code",
+      "definition": "RTGS Clearing system Identification code used in Egypt."
+    },
+    "AE": {
+      "isoName": "UnitedArabEmiratesClearingSystemID",
+      "name": "United Arab Emirates Clearing System ID",
+      "definition": "Clearing System ID used in United Arab Emirates"
+    },
+    "AF": {
+      "isoName": "AfghanistanClearingSystemID",
+      "name": "Afghanistan Clearing System ID",
+      "definition": "Clearing System ID used in Afghanistan"
+    },
+    "AI": {
+      "isoName": "AntiguaandBermudaClearingSystemID",
+      "name": "Antiguaand Bermuda Clearing System ID",
+      "definition": "Clearing System ID used in Antigua and Bermuda"
+    },
+    "AL": {
+      "isoName": "AlbaniaClearingSystemID",
+      "name": "Albania Clearing System ID",
+      "definition": "Clearing System ID used in Albania"
+    },
+    "AM": {
+      "isoName": "ArmeniaClearingSystemID",
+      "name": "Armenia Clearing System ID",
+      "definition": "Clearing System ID used in Armenia"
+    },
+    "AO": {
+      "isoName": "AngolaClearingSystemID",
+      "name": "Angola Clearing System ID",
+      "definition": "Clearing System ID used in Angola"
+    },
+    "AR": {
+      "isoName": "ArgentinaClearingSystemID",
+      "name": "Argentina Clearing System ID",
+      "definition": "Clearing System ID used in Argentina"
+    },
+    "AS": {
+      "isoName": "AmericanSamoaClearingSystemID",
+      "name": "American Samoa Clearing System ID",
+      "definition": "Clearing System ID used in American Samoa"
+    },
+    "AW": {
+      "isoName": "ArubaClearingSystemID",
+      "name": "Aruba Clearing System ID",
+      "definition": "Clearing System ID used in Aruba."
+    },
+    "AZ": {
+      "isoName": "AzerbaijanClearingSystemID",
+      "name": "Azerbaijan Clearing System ID",
+      "definition": "Clearing System ID used in Azerbaijan"
+    },
+    "BA": {
+      "isoName": "BosniaandHerzegovinaClearingSystemID",
+      "name": "Bosniaand Herzegovina Clearing System ID",
+      "definition": "Clearing System ID used in Bosnia and Herzegovina"
+    },
+    "BD": {
+      "isoName": "BangladeshClearingSystemID",
+      "name": "Bangladesh Clearing System ID",
+      "definition": "Clearing System ID used in Bangladesh"
+    },
+    "BG": {
+      "isoName": "BulgariaClearingSystemID",
+      "name": "Bulgaria Clearing System ID",
+      "definition": "Clearing System ID used in Bulgaria"
+    },
+    "BH": {
+      "isoName": "BahrainClearingSystemID",
+      "name": "Bahrain Clearing System ID",
+      "definition": "Clearing System ID used in Bahrain"
+    },
+    "BI": {
+      "isoName": "BurundiClearingSystemID",
+      "name": "Burundi Clearing System ID",
+      "definition": "Clearing System ID used in Burundi"
+    },
+    "BL": {
+      "isoName": "SaintBarthelemyClearingSystemID",
+      "name": "Saint Barthelemy Clearing System ID",
+      "definition": "Clearing System ID used in Saint Barthelemy"
+    },
+    "BM": {
+      "isoName": "BermudaClearingSystemID",
+      "name": "Bermuda Clearing System ID",
+      "definition": "Clearing System ID used in Bermuda"
+    },
+    "BN": {
+      "isoName": "BruneiDarussalamClearingSystemID",
+      "name": "Brunei Darussalam Clearing System ID",
+      "definition": "Clearing System ID used in Brunei Darussalam"
+    },
+    "BO": {
+      "isoName": "BoliviaClearingSystemID",
+      "name": "Bolivia Clearing System ID",
+      "definition": "Clearing System ID used in Bolivia"
+    },
+    "BS": {
+      "isoName": "BahamasClearingSystemID",
+      "name": "Bahamas Clearing System ID",
+      "definition": "Clearing System ID used in Bahamas"
+    },
+    "BT": {
+      "isoName": "BhutanClearingSystemID",
+      "name": "Bhutan Clearing System ID",
+      "definition": "Clearing System ID used in Bhutan"
+    },
+    "BW": {
+      "isoName": "BotswanaClearingSystemID",
+      "name": "Botswana Clearing System ID",
+      "definition": "Clearing System ID used in Botswana"
+    },
+    "BY": {
+      "isoName": "BelarusClearingSystemID",
+      "name": "Belarus Clearing System ID",
+      "definition": "Clearing System ID used in Belarus"
+    },
+    "BZ": {
+      "isoName": "BelizeClearingSystemID",
+      "name": "Belize Clearing System ID",
+      "definition": "Clearing System ID used in Belize"
+    },
+    "CD": {
+      "isoName": "DemocraticRepublicofTheCongoClearingSystemID",
+      "name": "Democratic Republicof The Congo Clearing System ID",
+      "definition": "Clearing System ID used in Democratic Republic of The Congo."
+    },
+    "CL": {
+      "isoName": "ChileClearingSystemID",
+      "name": "Chile Clearing System ID",
+      "definition": "Clearing System ID used in Chile"
+    },
+    "CO": {
+      "isoName": "ColombiaClearingSystemID",
+      "name": "Colombia Clearing System ID",
+      "definition": "Clearing System ID used in Colombia"
+    },
+    "CR": {
+      "isoName": "CostaRicaClearingSystemID",
+      "name": "Costa Rica Clearing System ID",
+      "definition": "Clearing System ID used in Costa Rica"
+    },
+    "CV": {
+      "isoName": "CaboVerdeClearingSystemID",
+      "name": "Cabo Verde Clearing System ID",
+      "definition": "Clearing System ID used in Cabo Verde"
+    },
+    "CW": {
+      "isoName": "CuracaoClearingSystemID",
+      "name": "Curacao Clearing System ID",
+      "definition": "Clearing System ID used in Curacao"
+    },
+    "CY": {
+      "isoName": "CyprusClearingSystemID",
+      "name": "Cyprus Clearing System ID",
+      "definition": "Clearing System ID used in Cyprus"
+    },
+    "CZ": {
+      "isoName": "CzechRepublicClearingSystemID",
+      "name": "Czech Republic Clearing System ID",
+      "definition": "Clearing System ID used in Czech Republic"
+    },
+    "DO": {
+      "isoName": "DominicanRepublicClearingSystemID",
+      "name": "Dominican Republic Clearing System ID",
+      "definition": "Clearing System ID used in Dominican Republic"
+    },
+    "EC": {
+      "isoName": "EcuadorClearingSystemID",
+      "name": "Ecuador Clearing System ID",
+      "definition": "Clearing System ID used in Ecuador"
+    },
+    "EE": {
+      "isoName": "EstoniaClearingSystemID",
+      "name": "Estonia Clearing System ID",
+      "definition": "Clearing System ID used in Estonia"
+    },
+    "GE": {
+      "isoName": "GeorgiaClearingSystemID",
+      "name": "Georgia Clearing System ID",
+      "definition": "Clearing System ID used in Georgia"
+    },
+    "GH": {
+      "isoName": "GhanaClearingSystemID",
+      "name": "Ghana Clearing System ID",
+      "definition": "Clearing System ID used in Ghana"
+    },
+    "GN": {
+      "isoName": "GuineaClearingSystemID",
+      "name": "Guinea Clearing System ID",
+      "definition": "Clearing System ID used in Guinea"
+    },
+    "GT": {
+      "isoName": "GuatemalaClearingSystemID",
+      "name": "Guatemala Clearing System ID",
+      "definition": "Clearing System ID used in Guatemala"
+    },
+    "GY": {
+      "isoName": "GuyanaClearingSystemID",
+      "name": "Guyana Clearing System ID",
+      "definition": "Clearing System ID used in Guyana"
+    },
+    "HN": {
+      "isoName": "HondurasClearingSystemID",
+      "name": "Honduras Clearing System ID",
+      "definition": "Clearing System ID used in Honduras"
+    },
+    "HR": {
+      "isoName": "CroatiaClearingSystemID",
+      "name": "Croatia Clearing System ID",
+      "definition": "Clearing System ID used in Croatia"
+    },
+    "HT": {
+      "isoName": "HaitiClearingSystemID",
+      "name": "Haiti Clearing System ID",
+      "definition": "Clearing System ID used in Haiti"
+    },
+    "HU": {
+      "isoName": "HungaryClearingSystemID",
+      "name": "Hungary Clearing System ID",
+      "definition": "Clearing System ID used in Hungary"
+    },
+    "ID": {
+      "isoName": "IndonesiaClearingSystemID",
+      "name": "Indonesia Clearing System ID",
+      "definition": "Clearing System ID used in Indonesia"
+    },
+    "IL": {
+      "isoName": "IsraelClearingSystemID",
+      "name": "Israel Clearing System ID",
+      "definition": "Clearing System ID used in Israel"
+    },
+    "IQ": {
+      "isoName": "IraqClearingSystemID",
+      "name": "Iraq Clearing System ID",
+      "definition": "Clearing System ID used in Iraq"
+    },
+    "IS": {
+      "isoName": "IcelandClearingSystemID",
+      "name": "Iceland Clearing System ID",
+      "definition": "Clearing System ID used in Iceland"
+    },
+    "JM": {
+      "isoName": "JamaicaClearingSystemID",
+      "name": "Jamaica Clearing System ID",
+      "definition": "Clearing System ID used in Jamaica"
+    },
+    "JO": {
+      "isoName": "JordanClearingSystemID",
+      "name": "Jordan Clearing System ID",
+      "definition": "Clearing System ID used in Jordan"
+    },
+    "KE": {
+      "isoName": "KenyaClearingSystemID",
+      "name": "Kenya Clearing System ID",
+      "definition": "Clearing System ID used in Kenya"
+    },
+    "KG": {
+      "isoName": "TheKyrgyzRepublicClearingSystemID",
+      "name": "The Kyrgyz Republic Clearing System ID",
+      "definition": "Clearing System ID used in The Kyrgyz Republic"
+    },
+    "KH": {
+      "isoName": "CambodiaClearingSystemID",
+      "name": "Cambodia Clearing System ID",
+      "definition": "Clearing System ID used in Cambodia"
+    },
+    "KM": {
+      "isoName": "ComorosClearingSystemID",
+      "name": "Comoros Clearing System ID",
+      "definition": "Clearing System ID used in Comoros"
+    },
+    "KW": {
+      "isoName": "KuwaitClearingSystemID",
+      "name": "Kuwait Clearing System ID",
+      "definition": "Clearing System ID used in Kuwait"
+    },
+    "KZ": {
+      "isoName": "KazakhstanClearingSystemID",
+      "name": "Kazakhstan Clearing System ID",
+      "definition": "Clearing System ID used in Kazakhstan"
+    },
+    "LB": {
+      "isoName": "LebanonClearingSystemID",
+      "name": "Lebanon Clearing System ID",
+      "definition": "Clearing System ID used in Lebanon"
+    },
+    "LK": {
+      "isoName": "SriLankaClearingSystemID",
+      "name": "Sri Lanka Clearing System ID",
+      "definition": "Clearing System ID used in Sri Lanka"
+    },
+    "LR": {
+      "isoName": "LiberiaClearingSystemID",
+      "name": "Liberia Clearing System ID",
+      "definition": "Clearing System ID used in Liberia"
+    },
+    "LS": {
+      "isoName": "LesothoClearingSystemID",
+      "name": "Lesotho Clearing System ID",
+      "definition": "Clearing System ID used in Lesotho"
+    },
+    "LT": {
+      "isoName": "LithuaniaClearingSystemID",
+      "name": "Lithuania Clearing System ID",
+      "definition": "Clearing System ID used in Lithuania."
+    },
+    "LV": {
+      "isoName": "LatviaClearingSystemID",
+      "name": "Latvia Clearing System ID",
+      "definition": "Clearing System ID used in Latvia"
+    },
+    "LY": {
+      "isoName": "LibyaClearingSystemID",
+      "name": "Libya Clearing System ID",
+      "definition": "Clearing System ID used in Libya"
+    },
+    "MD": {
+      "isoName": "MoldovaClearingSystemID",
+      "name": "Moldova Clearing System ID",
+      "definition": "Clearing System ID used in Moldova"
+    },
+    "ME": {
+      "isoName": "MontenegroClearingSystemID",
+      "name": "Montenegro Clearing System ID",
+      "definition": "Clearing System ID used in Montenegro"
+    },
+    "MG": {
+      "isoName": "MadagascarClearingSystemID",
+      "name": "Madagascar Clearing System ID",
+      "definition": "Clearing System ID used in Madagascar"
+    },
+    "MK": {
+      "isoName": "NorthMacedoniaClearingSystemID",
+      "name": "North Macedonia Clearing System ID",
+      "definition": "Clearing System ID used in North Macedonia"
+    },
+    "MN": {
+      "isoName": "MongoliaClearingSystemID",
+      "name": "Mongolia Clearing System ID",
+      "definition": "Clearing System ID used in Mongolia"
+    },
+    "MO": {
+      "isoName": "MacaoClearingSystemID",
+      "name": "Macao Clearing System ID",
+      "definition": "Clearing System ID used in Macao"
+    },
+    "MR": {
+      "isoName": "MauritaniaClearingSystemID",
+      "name": "Mauritania Clearing System ID",
+      "definition": "Clearing System ID used in Mauritania"
+    },
+    "MT": {
+      "isoName": "MaltaClearingSystemID",
+      "name": "Malta Clearing System ID",
+      "definition": "Clearing System ID used in Malta"
+    },
+    "MW": {
+      "isoName": "MalawiClearingSystemID",
+      "name": "Malawi Clearing System ID",
+      "definition": "Clearing System ID used in Malawi."
+    },
+    "MX": {
+      "isoName": "MexicoClearingSystemID",
+      "name": "Mexico Clearing System ID",
+      "definition": "Clearing System ID used in Mexico"
+    },
+    "MY": {
+      "isoName": "MalaysiaClearingSystemID",
+      "name": "Malaysia Clearing System ID",
+      "definition": "Clearing System ID used in Malaysia"
+    },
+    "NG": {
+      "isoName": "NigeriaClearingSystemID",
+      "name": "Nigeria Clearing System ID",
+      "definition": "Clearing System ID used in Nigeria"
+    },
+    "NI": {
+      "isoName": "NicaraguaClearingSystemID",
+      "name": "Nicaragua Clearing System ID",
+      "definition": "Clearing System ID used in Nicaragua"
+    },
+    "NP": {
+      "isoName": "NepalClearingSystemID",
+      "name": "Nepal Clearing System ID",
+      "definition": "Clearing System ID used in Nepal"
+    },
+    "OM": {
+      "isoName": "OmanClearingSystemID",
+      "name": "Oman Clearing System ID",
+      "definition": "Clearing System ID used in Oman"
+    },
+    "PA": {
+      "isoName": "PanamaClearingSystemID",
+      "name": "Panama Clearing System ID",
+      "definition": "Clearing System ID used in Panama"
+    },
+    "PE": {
+      "isoName": "PeruClearingSystemID",
+      "name": "Peru Clearing System ID",
+      "definition": "Clearing System ID used in Peru"
+    },
+    "PG": {
+      "isoName": "PapuaNewGuineaClearingSystemID",
+      "name": "Papua New Guinea Clearing System ID",
+      "definition": "Clearing System ID used in Papua New Guinea"
+    },
+    "PH": {
+      "isoName": "PhilippinesClearingSystemID",
+      "name": "Philippines Clearing System ID",
+      "definition": "Clearing System ID used in Philippines."
+    },
+    "PK": {
+      "isoName": "PakistanClearingSystemID",
+      "name": "Pakistan Clearing System ID",
+      "definition": "Clearing System ID used in Pakistan"
+    },
+    "PS": {
+      "isoName": "PalestineClearingSystemID",
+      "name": "Palestine Clearing System ID",
+      "definition": "Clearing System ID used in Palestine"
+    },
+    "PY": {
+      "isoName": "ParaguayClearingSystemID",
+      "name": "Paraguay Clearing System ID",
+      "definition": "Clearing System ID used in Paraguay."
+    },
+    "QA": {
+      "isoName": "QatarClearingSystemID",
+      "name": "Qatar Clearing System ID",
+      "definition": "Clearing System ID used in Qatar"
+    },
+    "RO": {
+      "isoName": "RomaniaClearingSystemID",
+      "name": "Romania Clearing System ID",
+      "definition": "Clearing System ID used in Romania"
+    },
+    "RW": {
+      "isoName": "RwandaClearingSystemID",
+      "name": "Rwanda Clearing System ID",
+      "definition": "Clearing System ID used in Rwanda"
+    },
+    "SA": {
+      "isoName": "SaudiArabiaClearingSystemID",
+      "name": "Saudi Arabia Clearing System ID",
+      "definition": "Clearing System ID used in Saudi Arabia"
+    },
+    "SC": {
+      "isoName": "SeychellesClearingSystemID",
+      "name": "Seychelles Clearing System ID",
+      "definition": "Clearing System ID used in Seychelles"
+    },
+    "SD": {
+      "isoName": "SudanClearingSystemID",
+      "name": "Sudan Clearing System ID",
+      "definition": "Clearing System ID used in Sudan"
+    },
+    "SI": {
+      "isoName": "SloveniaClearingSystemID",
+      "name": "Slovenia Clearing System ID",
+      "definition": "Clearing System ID used in Slovenia"
+    },
+    "SK": {
+      "isoName": "SlovakiaClearingSystemID",
+      "name": "Slovakia Clearing System ID",
+      "definition": "Clearing System ID used in Slovakia."
+    },
+    "SL": {
+      "isoName": "SierraLeoneClearingSystemID",
+      "name": "Sierra Leone Clearing System ID",
+      "definition": "Clearing System ID used in Sierra Leone"
+    },
+    "ST": {
+      "isoName": "SaoTomeandPrincipeClearingSystemID",
+      "name": "Sao Tomeand Principe Clearing System ID",
+      "definition": "Clearing System ID used in Sao Tome and Principe"
+    },
+    "SV": {
+      "isoName": "ElSalvadorClearingSystemID",
+      "name": "El Salvador Clearing System ID",
+      "definition": "Clearing System ID used in El Salvador"
+    },
+    "SZ": {
+      "isoName": "EswatiniClearingSystemID",
+      "name": "Eswatini Clearing System ID",
+      "definition": "Clearing System ID used in Eswatini."
+    },
+    "TJ": {
+      "isoName": "TajikistanClearingSystemID",
+      "name": "Tajikistan Clearing System ID",
+      "definition": "Clearing System ID used in Tajikistan"
+    },
+    "TL": {
+      "isoName": "Timor-LesteClearingSystemID",
+      "name": "Timor-Leste Clearing System ID",
+      "definition": "Clearing System ID used in Timor-Leste"
+    },
+    "TM": {
+      "isoName": "TurkmenistanClearingSystemID",
+      "name": "Turkmenistan Clearing System ID",
+      "definition": "Clearing System ID used in Turkmenistan"
+    },
+    "TN": {
+      "isoName": "TunisiaClearingSystemID",
+      "name": "Tunisia Clearing System ID",
+      "definition": "Clearing System ID used in Tunisia"
+    },
+    "TR": {
+      "isoName": "TurkeyClearingSystemID",
+      "name": "Turkey Clearing System ID",
+      "definition": "Clearing System ID used in Turkey"
+    },
+    "TT": {
+      "isoName": "TrinidadandTobagoClearingSystemID",
+      "name": "Trinidadand Tobago Clearing System ID",
+      "definition": "Clearing System ID used in Trinidad and Tobago"
+    },
+    "TZ": {
+      "isoName": "TanzaniaClearingSystemID",
+      "name": "Tanzania Clearing System ID",
+      "definition": "Clearing System ID used in Tanzania"
+    },
+    "UA": {
+      "isoName": "UkraineClearingSystemID",
+      "name": "Ukraine Clearing System ID",
+      "definition": "Clearing System ID used in Ukraine"
+    },
+    "UG": {
+      "isoName": "UgandaClearingSystemID",
+      "name": "Uganda Clearing System ID",
+      "definition": "Clearing System ID used in Uganda"
+    },
+    "UY": {
+      "isoName": "UruguayClearingSystemID",
+      "name": "Uruguay Clearing System ID",
+      "definition": "Clearing System ID used in Uruguay"
+    },
+    "UZ": {
+      "isoName": "UzbekistanClearingSystemID",
+      "name": "Uzbekistan Clearing System ID",
+      "definition": "Clearing System ID used in Uzbekistan"
+    },
+    "VA": {
+      "isoName": "VaticanCityClearingSystemID",
+      "name": "Vatican City Clearing System ID",
+      "definition": "Clearing System ID used in Vatican City"
+    },
+    "VE": {
+      "isoName": "VenezuelaClearingSystemID",
+      "name": "Venezuela Clearing System ID",
+      "definition": "Clearing System ID used in Venezuela"
+    },
+    "VN": {
+      "isoName": "VietnamClearingSystemID",
+      "name": "Vietnam Clearing System ID",
+      "definition": "Clearing System ID used in Vietnam"
+    },
+    "XK": {
+      "isoName": "KosovoClearingSystemID",
+      "name": "Kosovo Clearing System ID",
+      "definition": "Clearing System ID used in Kosovo"
+    },
+    "ZM": {
+      "isoName": "ZambiaClearingSystemID",
+      "name": "Zambia Clearing System ID",
+      "definition": "Clearing System ID used in Zambia"
+    },
+    "MARPA": {
+      "isoName": "MoroccoRTGSParticipantIdentificationCode",
+      "name": "Morocco RTGS Participant Identification Code",
+      "definition": "RTGS participant identification code used in the Kingdom of Morocco."
+    },
+    "MARAC": {
+      "isoName": "MoroccoRTGSNationalClearingCode",
+      "name": "Morocco RTGS National Clearing Code",
+      "definition": "RTGS clearing system identification used in the Kingdom of Morocco."
+    },
+    "CEAPA": {
+      "isoName": "BankOfCentralAfricanStateParticipantIdentificationCode",
+      "name": "Bank Of Central African State Participant Identification Code",
+      "definition": "Bank Of Central African States (BEAC) Participant Identification Code – Financial Institution Identification used in BEAC’s SYGMA system for settlement between participants in Cameroon, Central Africa Republic, Chad, Equatorial Guinea, Gabon and Republic of the Congo. In this case, it is particular to the form of electronic payment of Real Time Gross Settlement."
+    },
+    "CEAAC": {
+      "isoName": "BankOfCentralAfricanStateParticipantAccountIdentificationCode",
+      "name": "Bank Of Central African State Participant Account Identification Code",
+      "definition": "Bank Of Central African States (BEAC) Participant Account Identification Code – Financial Institution Identification used in BEAC’s SYGMA system for settlement between participants accounts in Cameroon, Central Africa Republic, Chad, Equatorial Guinea, Gabon and Republic of the Congo. In this case, it is particular to the form of electronic payment of Real Time Gross Settlement."
+    },
+    "RSDPA": {
+      "isoName": "SerbiaRTGSParticipantIdentificationCode",
+      "name": "Serbia RTGS Participant Identification Code",
+      "definition": "RTGS participant identification code used in the Republic of Serbia."
+    },
+    "RSDAC": {
+      "isoName": "SerbiaRTGSAccountIdentificationCode",
+      "name": "Serbia RTGS Account Identification Code",
+      "definition": "RTGS account identification code used in the Republic of Serbia."
+    },
+    "RSEPA": {
+      "isoName": "SerbiaNationalClearingParticipantIdentificationCode",
+      "name": "Serbia National Clearing Participant Identification Code",
+      "definition": "Interbank and International Clearing of FX Payments System participant identification code used in the Republic of Serbia."
+    },
+    "RSEAC": {
+      "isoName": "SerbiaNationalClearingAccountIdentificationCode",
+      "name": "Serbia National Clearing Account Identification Code",
+      "definition": "Interbank and International Clearing of FX Payments account identification code used in the Republic of Serbia."
+    },
+    "MUPPA": {
+      "isoName": "MauritiusRTGSParticipantIdentificationCode",
+      "name": "Mauritius RTGS Participant Identification Code",
+      "definition": "MACSS participant identification code used in Mauritus."
+    },
+    "MUPAC": {
+      "isoName": "MauritiusRTGSAccountIdentificationCode",
+      "name": "Mauritius RTGS Account Identification Code",
+      "definition": "MACSS settlement account used in Mauritius."
+    },
+    "CBHPA": {
+      "isoName": "COMESAREPSSParticipantIdentificationCode",
+      "name": "COMESAREPSS Participant Identification Code",
+      "definition": "REPSS (Regional cross-border payment and settlement platform designed to facilitate efficient and secure intra-regional trade payments within COMESA member states) participant identification code."
+    },
+    "CBHAC": {
+      "isoName": "COMESAREPSSAccountIdentificationCode",
+      "name": "COMESAREPSS Account Identification Code",
+      "definition": "REPSS (regional cross-border payment and settlement platform designed to facilitate efficient and secure intra-regional trade payments within COMESA member states) settlement account."
+    },
+    "CBPPA": {
+      "isoName": "COMESASSParticipantIdentificationCode",
+      "name": "COMESASS Participant Identification Code",
+      "definition": "COMESA SS participant identification code."
+    },
+    "CBPAC": {
+      "isoName": "COMESASSAccountIdentificationCode",
+      "name": "COMESASS Account Identification Code",
+      "definition": "COMESA SS settlement account."
+    },
+    "DZRPA": {
+      "isoName": "AlgeriaAgentIdentificationCode",
+      "name": "Algeria Agent Identification Code",
+      "definition": "Agent identification code used in the RTGS system of Algeria."
+    },
+    "DZRAC": {
+      "isoName": "AlgeriaAcсountIdentificationCode",
+      "name": "Algeria Acсount Identification Code",
+      "definition": "Account identification code used in the RTGS system of Algeria."
+    },
+    "UGDPA": {
+      "isoName": "UgandaRTGSParticipantIdentificationCode",
+      "name": "Uganda RTGS Participant Identification Code",
+      "definition": "RTGS participant identification code used in the Republic of Uganda."
+    },
+    "UGDAC": {
+      "isoName": "UgandaRTGSAccountIdentificationCode",
+      "name": "Uganda RTGS Account Identification Code",
+      "definition": "RTGS account identification code used in the Republic of Uganda."
+    },
+    "MGRPA": {
+      "isoName": "MadagascarRTGSParticipantIdentificationCode",
+      "name": "Madagascar RTGS Participant Identification Code",
+      "definition": "RTGS participant identification code used in Madagascar"
+    },
+    "MGRAC": {
+      "isoName": "MadagascarRTGSAccountIdentificationCode",
+      "name": "Madagascar RTGS Account Identification Code",
+      "definition": "RTGS account identification code used in Madagascar"
+    }
+  }
+}

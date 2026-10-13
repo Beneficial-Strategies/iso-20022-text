@@ -1,0 +1,71 @@
+{
+  "isoType": "RequestDetails31",
+  "language": "en",
+  "name": "Request Details 31",
+  "definition": "Details of the settlement condition modification request.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "References of the transaction for which the securities settlement condition modification is requested."
+    },
+    "RestrictionReference": {
+      "name": "Restriction Reference",
+      "definition": "Restriction references applied on the transaction for which the securities settlement condition modification is requested."
+    },
+    "AutomaticBorrowing": {
+      "name": "Automatic Borrowing",
+      "definition": "Condition for automatic borrowing."
+    },
+    "RetainIndicator": {
+      "name": "Retain Indicator",
+      "definition": "Indicates whether the instruction due to expire is confirmed for settlement."
+    },
+    "Linkage": {
+      "name": "Linkage",
+      "definition": "Specifies the type of linkage requested."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "OtherProcessing": {
+      "name": "Other Processing",
+      "definition": "Specifies another type of processing change request."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Specifies whether the transaction is on hold/blocked/frozen."
+    },
+    "MatchingDenial": {
+      "name": "Matching Denial",
+      "definition": "Specifies the matching processing change requested."
+    },
+    "UnilateralSplit": {
+      "name": "Unilateral Split",
+      "definition": "Specifies that the transaction is requested to be unilaterally split."
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": "Information regarding the linkage requested."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "At least one securities settlement conditions modification request type must be present."
+    },
+    "OtherProcessingRule": {
+      "definition": "If OtherProcessing is used, then its usage must be pre-agreed between the sender and receiver."
+    },
+    "SettlementConditionModificationApplicabilityRule": {
+      "definition": "All settlement condition modification request types do not apply to all account servicers."
+    }
+  }
+}

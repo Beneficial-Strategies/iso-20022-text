@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDateType1Code",
+  "language": "en",
+  "name": "External Date Type 1 Code",
+  "definition": "Defines the type of date, as published in an external date type code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "INDA": {
+      "isoName": "InvoiceDate",
+      "name": "Invoice Date",
+      "definition": "Relates to the invoice date."
+    },
+    "PADD": {
+      "isoName": "PaymentDueDate",
+      "name": "Payment Due Date",
+      "definition": "Relates to the payment due date."
+    },
+    "NXBD": {
+      "isoName": "NextBillingDate",
+      "name": "Next Billing Date",
+      "definition": "Relates to the next billing date."
+    },
+    "NTAV": {
+      "isoName": "NotAvailable",
+      "name": "Not Available",
+      "definition": "Date type is not available."
+    },
+    "PYDT": {
+      "isoName": "PayrollDate",
+      "name": "Payroll Date",
+      "definition": "Relates to the payroll date."
+    }
+  }
+}

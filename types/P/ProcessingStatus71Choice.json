@@ -1,0 +1,36 @@
+{
+  "isoType": "ProcessingStatus71Choice",
+  "language": "en",
+  "name": "Processing Status 71 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Request has been acknowledged by the account servicer."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Modification is pending. It is not known at this time whether modification can be affected."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Modification request has been rejected for further processing."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction or request is accepted but in repair."
+    },
+    "Denied": {
+      "name": "Denied",
+      "definition": "Modification request will not be executed."
+    },
+    "Completed": {
+      "name": "Completed",
+      "definition": "Modification request was completed."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    }
+  }
+}

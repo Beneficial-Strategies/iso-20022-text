@@ -1,0 +1,58 @@
+{
+  "isoType": "CorporateActionEventStage3Code",
+  "language": "en",
+  "name": "Corporate Action Event Stage 3 Code",
+  "definition": "Specifies the stage of the CA event.",
+  "isoCodes": {
+    "APPD": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Approved at the relevant meeting, for example, dividend."
+    },
+    "CLDE": {
+      "isoName": "Deactivated",
+      "name": "Deactivated",
+      "definition": "Offer is closed for acceptance."
+    },
+    "FULL": {
+      "isoName": "CancellationAndReRun",
+      "name": "Cancellation And Re Run",
+      "definition": "Cancellation and re-run of an original lottery or an original and supplemental lottery. A subsequent lottery will be performed under a new event."
+    },
+    "LAPS": {
+      "isoName": "Lapsed",
+      "name": "Lapsed",
+      "definition": "Event/offer conditions have not been met and the event/offer is terminated or lapsed."
+    },
+    "PART": {
+      "isoName": "SupplementalCancellationAndReRun",
+      "name": "Supplemental Cancellation And Re Run",
+      "definition": "Cancellation and re-run of a supplemental lottery only. A subsequent new supplemental lottery will be performed under the original event."
+    },
+    "PWAL": {
+      "isoName": "ActionPeriod",
+      "name": "Action Period",
+      "definition": "Open for acceptance until the next specified deadline in the announcement (if any)."
+    },
+    "RESC": {
+      "isoName": "SupplementalCancellation",
+      "name": "Supplemental Cancellation",
+      "definition": "A supplemental lottery is being cancelled by the issuer. No subsequent lottery will be performed."
+    },
+    "SUAP": {
+      "isoName": "SubjectToApproval",
+      "name": "Subject To Approval",
+      "definition": "Subject to approval at the relevant meeting, for example, dividend."
+    },
+    "UNAC": {
+      "isoName": "UnconditionalAsToAcceptance",
+      "name": "Unconditional As To Acceptance",
+      "definition": "The required level of acceptances specified in the terms of the offer has been achieved but there are still outstanding conditions to fulfil."
+    },
+    "WHOU": {
+      "isoName": "WhollyUnconditional",
+      "name": "Wholly Unconditional",
+      "definition": "Wholly unconditional; all conditions specified in the offer document have been satisfied."
+    }
+  }
+}

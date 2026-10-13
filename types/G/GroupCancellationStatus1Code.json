@@ -1,0 +1,28 @@
+{
+  "isoType": "GroupCancellationStatus1Code",
+  "language": "en",
+  "name": "Group Cancellation Status 1 Code",
+  "definition": "Specifies the status of a group of cancellation requests.",
+  "isoCodes": {
+    "PACR": {
+      "isoName": "PartiallyAcceptedCancellationRequest",
+      "name": "Partially Accepted Cancellation Request",
+      "definition": "Cancellation is partially accepted."
+    },
+    "RJCR": {
+      "isoName": "RejectedCancellationRequest",
+      "name": "Rejected Cancellation Request",
+      "definition": "Cancellation request is rejected"
+    },
+    "ACCR": {
+      "isoName": "AcceptedCancellationRequest",
+      "name": "Accepted Cancellation Request",
+      "definition": "Cancellation is accepted."
+    },
+    "PDCR": {
+      "isoName": "PendingCancellationRequest",
+      "name": "Pending Cancellation Request",
+      "definition": "Cancellation request is pending."
+    }
+  }
+}

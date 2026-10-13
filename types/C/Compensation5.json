@@ -1,0 +1,32 @@
+{
+  "isoType": "Compensation5",
+  "language": "en",
+  "name": "Compensation 5",
+  "definition": "Specifies the details of a payment compensation.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money to be paid in compensation."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor.||Usage: The debtor agent is the payer of the compensation amount."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Unambiguous identification of the account of the debtor agent at its servicing agent in the payment chain."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor.||Usage: The creditor agent is the payee of the compensation amount."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the payment compensation."
+    }
+  }
+}

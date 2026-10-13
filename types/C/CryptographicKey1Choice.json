@@ -1,0 +1,16 @@
+{
+  "isoType": "CryptographicKey1Choice",
+  "language": "en",
+  "name": "Cryptographic Key 1 Choice",
+  "definition": "Choice of format for a cryptographic key which ensures that a payment can only be executed on the terms previously agreed.",
+  "isoElements": {
+    "ILPV4": {
+      "name": "ILPV 4",
+      "definition": "Cryptographic key represented as a ILP V4 packet."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Cryptographic key represented as a signature."
+    }
+  }
+}

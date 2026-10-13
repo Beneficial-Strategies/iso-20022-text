@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalEnquiryRequestType1Code",
+  "language": "en",
+  "name": "External Enquiry Request Type 1 Code",
+  "definition": "Specifies the external request type code for the enquiry on a position in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code set published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RT11": {
+      "isoName": "BankPositionEnquiry",
+      "name": "Bank Position Enquiry",
+      "definition": "Type is an enquiry on the bank's position."
+    },
+    "RT12": {
+      "isoName": "SpecificTransactionEnquiry",
+      "name": "Specific Transaction Enquiry",
+      "definition": "Type is an enquiry on a specific transaction."
+    },
+    "RT13": {
+      "isoName": "QueuedTransactionEnquiry",
+      "name": "Queued Transaction Enquiry",
+      "definition": "Type is an enquiry on a queued transaction."
+    },
+    "RT14": {
+      "isoName": "SuspiciousTransactionEnquiry",
+      "name": "Suspicious Transaction Enquiry",
+      "definition": "Type is an enquiry on a suspicious transaction."
+    },
+    "RT16": {
+      "isoName": "SytemTimeEnquiry",
+      "name": "Sytem Time Enquiry",
+      "definition": "Type is an enquiry on the system date and/or time."
+    },
+    "RT15": {
+      "isoName": "PendingInwardCreditsEnquiry",
+      "name": "Pending Inward Credits Enquiry",
+      "definition": "Type is an enquiry on pending inward credits."
+    }
+  }
+}

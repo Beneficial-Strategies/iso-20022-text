@@ -1,0 +1,36 @@
+{
+  "isoType": "SafekeepingAccount7",
+  "language": "en",
+  "name": "Safekeeping Account 7",
+  "definition": "Account on which a securities entry is made.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "BeneficialOwner": {
+      "name": "Beneficial Owner",
+      "definition": "Individual or entity that is ultimately entitled to the benefit of income and rights in a financial instrument, as opposed to a nominal or legal owner."
+    },
+    "BalanceDetails": {
+      "name": "Balance Details",
+      "definition": "Report on the net position of a financial instrument on the account, for a certain date. The agent, for example, a trade intermediary, may also be specified."
+    },
+    "AccountSubLevel1": {
+      "name": "Account Sub Level 1",
+      "definition": "Holdings of level 1."
+    },
+    "AccountSubLevel1Difference": {
+      "name": "Account Sub Level 1 Difference",
+      "definition": "Difference in holdings between the safekeeping account and the sub-accounts of level 1."
+    }
+  }
+}

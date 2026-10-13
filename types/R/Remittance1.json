@@ -1,0 +1,20 @@
+{
+  "isoType": "Remittance1",
+  "language": "en",
+  "name": "Remittance 1",
+  "definition": "Specifies the remittance resource for direct access to the remittance information.",
+  "isoElements": {
+    "Unstructured": {
+      "name": "Unstructured",
+      "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in an unstructured form."
+    },
+    "Structured": {
+      "name": "Structured",
+      "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in a structured form."
+    },
+    "Related": {
+      "name": "Related",
+      "definition": "Provides information related to the handling of the remittance information by any of the agents in the transaction processing chain."
+    }
+  }
+}

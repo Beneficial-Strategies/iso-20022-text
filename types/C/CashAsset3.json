@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAsset3",
+  "language": "en",
+  "name": "Cash Asset 3",
+  "definition": "Identification of a cash asset.",
+  "isoElements": {
+    "CashAssetType": {
+      "name": "Cash Asset Type",
+      "definition": "Type of cash asset."
+    },
+    "HoldingCurrency": {
+      "name": "Holding Currency",
+      "definition": "Currency of the asset in the holding."
+    },
+    "TransferCurrency": {
+      "name": "Transfer Currency",
+      "definition": "Currency of the asset in another currency."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the cash asset."
+    }
+  },
+  "isoRules": {
+    "HoldingTransferCurrencyGuideline": {
+      "definition": "When cash is transferred in a currency other than that of the cash, the currency should be specified in TransferCurrency."
+    }
+  }
+}

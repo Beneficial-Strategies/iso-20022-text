@@ -1,0 +1,128 @@
+{
+  "isoType": "ATMServiceType11Code",
+  "language": "en",
+  "name": "ATM Service Type 11 Code",
+  "definition": "Describes the type of service selected by the customer.",
+  "isoCodes": {
+    "TRFC": {
+      "isoName": "CustomerTransfer",
+      "name": "Customer Transfer",
+      "definition": "Funds transfer between accounts belonging to the customer in the same bank."
+    },
+    "TRFI": {
+      "isoName": "InterCustomerTransfer",
+      "name": "Inter Customer Transfer",
+      "definition": "Funds transfer to another customer."
+    },
+    "TRFP": {
+      "isoName": "Payment",
+      "name": "Payment",
+      "definition": "Funds transfer to pay a third party."
+    },
+    "ASTS": {
+      "isoName": "AccountStatements",
+      "name": "Account Statements",
+      "definition": "Request a full statement (that is a legal statement) related to a customer account."
+    },
+    "BLCQ": {
+      "isoName": "BalanceInquiry",
+      "name": "Balance Inquiry",
+      "definition": "Balance inquiry."
+    },
+    "CDVF": {
+      "isoName": "CardVerification",
+      "name": "Card Verification",
+      "definition": "Verification of the card."
+    },
+    "CHSN": {
+      "isoName": "ChosenWithdrawal",
+      "name": "Chosen Withdrawal",
+      "definition": "Amount and notes values are chosen by the customer."
+    },
+    "CMPF": {
+      "isoName": "CustomerProfile",
+      "name": "Customer Profile",
+      "definition": "Ask for customer profile with eventualy related account information."
+    },
+    "DCCS": {
+      "isoName": "DynamicCurrencyConversion",
+      "name": "Dynamic Currency Conversion",
+      "definition": "Ask to a DCC service provider to qualify the currency conversion for the card."
+    },
+    "XRTD": {
+      "isoName": "ExchangeRateDeposit",
+      "name": "Exchange Rate Deposit",
+      "definition": "Ask for exchange rate for the ongoing deposit transaction."
+    },
+    "XRTW": {
+      "isoName": "ExchangeRateWithdrawal",
+      "name": "Exchange Rate Withdrawal",
+      "definition": "Ask for exchange rate for the ongoing withdrawal transaction."
+    },
+    "MCHG": {
+      "isoName": "MakingChange",
+      "name": "Making Change",
+      "definition": "Making change between media types."
+    },
+    "DPSN": {
+      "isoName": "NonVerifiedDeposit",
+      "name": "Non Verified Deposit",
+      "definition": "Deposit of media items unverified by the ATM, for instance in an envelope."
+    },
+    "PINC": {
+      "isoName": "PINChange",
+      "name": "PIN Change",
+      "definition": "Modification of the card PIN value."
+    },
+    "PINR": {
+      "isoName": "PINRecovery",
+      "name": "PIN Recovery",
+      "definition": "Resetting of a PIN."
+    },
+    "PINU": {
+      "isoName": "PINUnblock",
+      "name": "PIN Unblock",
+      "definition": "Unblock the PIN."
+    },
+    "PATH": {
+      "isoName": "PreAuthorisedWithdrawal",
+      "name": "Pre Authorised Withdrawal",
+      "definition": "Withdrawal transaction was pre-authorised by another channel, for instance a mobile. The amount could be absent from the withdrawal request message."
+    },
+    "PRFL": {
+      "isoName": "ProfileWithdrawal",
+      "name": "Profile Withdrawal",
+      "definition": "Amount and notes Values are pre-defined by the customer profile."
+    },
+    "EMVS": {
+      "isoName": "SelectEMVApplication",
+      "name": "Select EMV Application",
+      "definition": "Select the EMV applications allowed by the acquirer."
+    },
+    "STDR": {
+      "isoName": "StandardWithdrawal",
+      "name": "Standard Withdrawal",
+      "definition": "Standard withdrawal of items."
+    },
+    "SPRV": {
+      "isoName": "SupervisedWithdrawal",
+      "name": "Supervised Withdrawal",
+      "definition": "Withdrawal authorised by a supervisor."
+    },
+    "DPSV": {
+      "isoName": "VerifiedDeposit",
+      "name": "Verified Deposit",
+      "definition": "Deposit of media items verified by the ATM."
+    },
+    "ACCD": {
+      "isoName": "AccountDownload",
+      "name": "Account Download",
+      "definition": "Download accounts associated to the customer card."
+    },
+    "MINI": {
+      "isoName": "MiniStatement",
+      "name": "Mini Statement",
+      "definition": "Request a mini-statement (i.e. partial statement) related to a customer account."
+    }
+  }
+}

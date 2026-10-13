@@ -1,0 +1,32 @@
+{
+  "isoType": "CurrencyExchange26",
+  "language": "en",
+  "name": "Currency Exchange 26",
+  "definition": "Set of elements used to provide details of the currency exchange.",
+  "isoElements": {
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency in which the rate of exchange is expressed in a currency exchange. In the example GBP 1.00 = USD 1.30, the unit currency is GBP."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the base (unit) currency is converted. In the example GBP 1.00 = USD 1.30, the unit currency is USD."
+    },
+    "PreAgreedExchangeRate": {
+      "name": "Pre Agreed Exchange Rate",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate|expresses the ratio between UnitCurrency and QuotedCurrency. (Amount in UnitCurrency * ExchangeRate = Amount in QuotedCurrency)"
+    },
+    "QuotationDateTime": {
+      "name": "Quotation Date Time",
+      "definition": "Date and time at which an exchange rate is quoted."
+    },
+    "QuoteIdentification": {
+      "name": "Quote Identification",
+      "definition": "Unique identification to unambiguously identify the quote issued by the ForeignExchangeAgent.||Usage: This identification must be passed on throughout the entire end-to-end chain."
+    },
+    "ForeignExchangeAgent": {
+      "name": "Foreign Exchange Agent",
+      "definition": "Agent who undertakes the conversion of funds from the unit currency to the quoted currency.||Usage: The ForeignExchangeAgent must receive the AgreedRate block unchanged."
+    }
+  }
+}

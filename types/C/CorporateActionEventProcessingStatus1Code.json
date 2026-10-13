@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus1Code",
+  "language": "en",
+  "name": "Corporate Action Event Processing Status 1 Code",
+  "definition": "Specifies the stage in the corporate action event life cycle.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "Specifies that a corporate action event processing has been completed."
+    },
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Specifies that a corporate action event processing has not been completed."
+    },
+    "RECD": {
+      "isoName": "Reconciled",
+      "name": "Reconciled",
+      "definition": "Corporate action event processing specifying that the funds paid have been reconciled with the funds received from the agent (meaning that there is no more risk of payment to be reversed)."
+    }
+  }
+}

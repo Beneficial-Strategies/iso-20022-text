@@ -1,0 +1,32 @@
+{
+  "isoType": "BillingSearchCriteria3",
+  "language": "en",
+  "name": "Billing Search Criteria 3",
+  "definition": "Defines the criteria to be used to extract.",
+  "isoElements": {
+    "Service": {
+      "name": "Service",
+      "definition": "Identification of the service or system for which the billing information must be returned."
+    },
+    "BillingIdentification": {
+      "name": "Billing Identification",
+      "definition": "Identification of the billing report."
+    },
+    "BillingPeriod": {
+      "name": "Billing Period",
+      "definition": "General information for each invoice invoicing request or month end billing event is stored."
+    },
+    "ResponsiblePartyIdentification": {
+      "name": "Responsible Party Identification",
+      "definition": "Unique identification of the party responsible for the referenced party (that is, which has a contractual responsibility for the billed customer)."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification to unambiguously identify the billed party."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Either securities account or dedicated cash account number."
+    }
+  }
+}

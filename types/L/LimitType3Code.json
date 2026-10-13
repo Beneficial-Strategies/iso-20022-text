@@ -1,0 +1,83 @@
+{
+  "isoType": "LimitType3Code",
+  "language": "en",
+  "name": "Limit Type 3 Code",
+  "definition": "Specifies the type of risk management limit.",
+  "isoCodes": {
+    "MULT": {
+      "isoName": "Multilateral",
+      "name": "Multilateral",
+      "definition": "Limit is a maximum amount value applied to, or by, a participant to a set of counterparties. The multilateral limit is taken into account by the transaction administrator to contain the risk in the system. With the help of the multilateral limit, the direct participant restricts the use of liquidity when clearing payments with all other direct participants for which no bilateral limit is set."
+    },
+    "BILI": {
+      "isoName": "Bilateral",
+      "name": "Bilateral",
+      "definition": "Limit is applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant."
+    },
+    "MAND": {
+      "isoName": "MandatoryBilateral",
+      "name": "Mandatory Bilateral",
+      "definition": "Mandatory part of the bilateral limit applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant."
+    },
+    "DISC": {
+      "isoName": "DiscretionaryBilateral",
+      "name": "Discretionary Bilateral",
+      "definition": "Discretionary part of the bilateral limit applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant."
+    },
+    "NELI": {
+      "isoName": "NetBilateral",
+      "name": "Net Bilateral",
+      "definition": "Limit is applied by one party to a specific counterparty, and corresponds to the maximum net balance acceptable by the party that is setting the limit. The limit is calculated as an arithmetic sum in value of the bilateral flows exchanged between the two parties. The net bilateral limit can be expressed as a debit or a credit balance."
+    },
+    "INBI": {
+      "isoName": "IndirectBilateral",
+      "name": "Indirect Bilateral",
+      "definition": "Limit is a maximum value set by a direct participant with respect to its indirect participant. The limit represents the maximum amount the indirect participant can use to settle its operations."
+    },
+    "GLBL": {
+      "isoName": "Global",
+      "name": "Global",
+      "definition": "Maximum value set by either the transaction administrator or by a member for the participation of a member in the system. The global limit may be expressed as a credit or debit maximum value and is taken into account by the transaction administrator when processing transaction inside the system. With the help of the global limit, the direct participant may limit the use of liquidity when clearing specific type of payments."
+    },
+    "DIDB": {
+      "isoName": "DirectDebit",
+      "name": "Direct Debit",
+      "definition": "Limit not to be exceeded for direct debit operations."
+    },
+    "SPLC": {
+      "isoName": "SingleCustomerDirectDebit",
+      "name": "Single Customer Direct Debit",
+      "definition": "Single direct debit payment limit not to be exceeded by any single direct debit transaction by a customer."
+    },
+    "SPLF": {
+      "isoName": "SingleFinancialInstitutionDirectDebit",
+      "name": "Single Financial Institution Direct Debit",
+      "definition": "Single direct debit payment limit not to be exceeded by any single direct debit transaction initiated by a financial institution."
+    },
+    "TDLC": {
+      "isoName": "TotalDailyCustomerDirectDebit",
+      "name": "Total Daily Customer Direct Debit",
+      "definition": "Total daily payments limit for customer direct debits not to be exceeded by the total of all direct debit transactions initiated by customers."
+    },
+    "TDLF": {
+      "isoName": "TotalDailyFinancialInstitutionDirectDebit",
+      "name": "Total Daily Financial Institution Direct Debit",
+      "definition": "Total daily payments limit for financial institutions direct debits not to be exceeded by the total of all direct debit transactions initiated by financial institutions."
+    },
+    "UCDT": {
+      "isoName": "UnsecuredCredit",
+      "name": "Unsecured Credit",
+      "definition": "Limit is related to a cap amount granted by a national central bank or a settlement bank, but generally unsecured outside of the market infrastructure."
+    },
+    "ACOL": {
+      "isoName": "AutoCollateralisation",
+      "name": "Auto Collateralisation",
+      "definition": "Limit is related to a credit operation that is or can be triggered when a buyer does not have a sufficient amount of money to settle a securities transaction in order to improve its cash position for the next settlement cycle. The credit provided can be secured using securities already held by the buyer (“collateral stocks”) or the securities that are being purchased (“collateral flows”)."
+    },
+    "EXGT": {
+      "isoName": "ExternalGuarantee",
+      "name": "External Guarantee",
+      "definition": "Limit is related to a cap amount granted by a national central bank or a settlement bank."
+    }
+  }
+}

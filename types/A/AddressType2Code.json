@@ -1,0 +1,38 @@
+{
+  "isoType": "AddressType2Code",
+  "language": "en",
+  "name": "Address Type 2 Code",
+  "definition": "Specifies the type of address.",
+  "isoCodes": {
+    "ADDR": {
+      "isoName": "Postal",
+      "name": "Postal",
+      "definition": "Address is the complete postal address."
+    },
+    "PBOX": {
+      "isoName": "POBox",
+      "name": "PO Box",
+      "definition": "Address is a postal office (PO) box."
+    },
+    "HOME": {
+      "isoName": "Residential",
+      "name": "Residential",
+      "definition": "Address is the home address."
+    },
+    "BIZZ": {
+      "isoName": "Business",
+      "name": "Business",
+      "definition": "Address is the business address."
+    },
+    "MLTO": {
+      "isoName": "MailTo",
+      "name": "Mail To",
+      "definition": "Address is the address to which mail is sent."
+    },
+    "DLVY": {
+      "isoName": "DeliveryTo",
+      "name": "Delivery To",
+      "definition": "Address is the address to which delivery is to take place."
+    }
+  }
+}

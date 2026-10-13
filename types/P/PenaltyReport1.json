@@ -1,0 +1,41 @@
+{
+  "isoType": "PenaltyReport1",
+  "language": "en",
+  "name": "Penalty Report 1",
+  "definition": "Specifies the details of the penalties report.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Reference common to all pages of a report."
+    },
+    "ReportDate": {
+      "name": "Report Date",
+      "definition": "Date of the report."
+    },
+    "ReportPeriod": {
+      "name": "Report Period",
+      "definition": "Period for the report."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "PenaltyListType": {
+      "name": "Penalty List Type",
+      "definition": "Specifies whether the penalty list reported contains new computed penalties or updated/removed penalties."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the statement is complete or contains changes only."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the report."
+    }
+  },
+  "isoRules": {
+    "ReportDatePeriodPresenceRule": {
+      "definition": "At least on occurence of ReportDate or ReportPeriod must be present."
+    }
+  }
+}

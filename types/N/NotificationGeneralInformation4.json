@@ -1,0 +1,28 @@
+{
+  "isoType": "NotificationGeneralInformation4",
+  "language": "en",
+  "name": "Notification General Information 4",
+  "definition": "Event notification type and status.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Unique identification of the group of meeting notification messages when the notification is split in multiple (paginated) messages."
+    },
+    "NotificationType": {
+      "name": "Notification Type",
+      "definition": "Type of notification."
+    },
+    "NotificationStatus": {
+      "name": "Notification Status",
+      "definition": "Status of the details of the event."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "name": "Shareholder Rights Directive Indicator",
+      "definition": "Indicates whether the announcement was initiated by the first intermediary in the custody chain in accordance with SRD II."
+    },
+    "ConfirmationOfHoldingRequired": {
+      "name": "Confirmation Of Holding Required",
+      "definition": "Indicates whether a specific confirmation of holding together with a participation and/or vote instruction is required by the issuer (for instance as required in the German Stock Corporation Act paragraph 67c section 3)."
+    }
+  }
+}

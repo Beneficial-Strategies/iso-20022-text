@@ -1,0 +1,49 @@
+{
+  "isoType": "UnderlyingPaymentTransaction8",
+  "language": "en",
+  "name": "Underlying Payment Transaction 8",
+  "definition": "Provides further details on the original payment transaction to which the investigation message refers.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Set of elements used to provide information on the original message."
+    },
+    "OriginalInstructionIdentification": {
+      "name": "Original Instruction Identification",
+      "definition": "Unique identification, as assigned by the original instructing party for the original instructed party, to unambiguously identify the original instruction."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Unique identification, as assigned by the original initiating party, to unambiguously identify the original transaction."
+    },
+    "OriginalTransactionIdentification": {
+      "name": "Original Transaction Identification",
+      "definition": "Unique identification, as assigned by the original first instructing agent, to unambiguously identify the transaction."
+    },
+    "OriginalUETR": {
+      "name": "Original UETR",
+      "definition": "Universally unique identifier to provide the original end-to-end reference of a payment transaction."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "name": "Original Interbank Settlement Amount",
+      "definition": "Amount of money moved between the instructing agent and the instructed agent, as provided in the original instruction."
+    },
+    "OriginalInterbankSettlementDate": {
+      "name": "Original Interbank Settlement Date",
+      "definition": "Date, as provided in the original transaction, on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due."
+    },
+    "OriginalTransactionReference": {
+      "name": "Original Transaction Reference",
+      "definition": "Key elements used to identify the original transaction that is being referred to."
+    },
+    "OriginalServiceLevel": {
+      "name": "Original Service Level",
+      "definition": "Agreement under which or rules under which the transaction should be processed."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Either OriginalInstructionIdentification, OriginalEndToEndIdentification, OriginalTransactionIdentification or OriginalUETR must be present."
+    }
+  }
+}

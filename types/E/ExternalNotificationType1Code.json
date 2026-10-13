@@ -1,0 +1,73 @@
+{
+  "isoType": "ExternalNotificationType1Code",
+  "language": "en",
+  "name": "External Notification Type 1 Code",
+  "definition": "Specifies the notification type, as published in an external notification type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CUHO": {
+      "isoName": "CurrencyHoliday",
+      "name": "Currency Holiday",
+      "definition": "Notification of a currency holiday."
+    },
+    "ATAC": {
+      "isoName": "AccountTermsAndConditions",
+      "name": "Account Terms And Conditions",
+      "definition": "Notification of new or amended terms and conditions for an account."
+    },
+    "SUSP": {
+      "isoName": "Suspension",
+      "name": "Suspension",
+      "definition": "Notification of a process suspension due to an incident."
+    },
+    "COUP": {
+      "isoName": "ContactDetailsUpdate",
+      "name": "Contact Details Update",
+      "definition": "Notification of new or amended contact details."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other notification type."
+    },
+    "INFO": {
+      "isoName": "InformationSharing",
+      "name": "Information Sharing",
+      "definition": "Sharing of information."
+    },
+    "ADDR": {
+      "isoName": "ChangeOfAddress",
+      "name": "Change Of Address",
+      "definition": "Notification of a change of address."
+    },
+    "TERM": {
+      "isoName": "ServiceTermination",
+      "name": "Service Termination",
+      "definition": "Notification of termination of a service, such as an account closure."
+    },
+    "SSIS": {
+      "isoName": "StandingSettlementInstructionsUpdate",
+      "name": "Standing Settlement Instructions Update",
+      "definition": "Notification of a change to Standing Settlement Instructions (SSIs)."
+    },
+    "MERG": {
+      "isoName": "AdviceOfAMerger",
+      "name": "Advice Of A Merger",
+      "definition": "Notification of a merger and any associated changes."
+    },
+    "SYST": {
+      "isoName": "SystemAccessRequest",
+      "name": "System Access Request",
+      "definition": "Request for access to a system."
+    },
+    "OPEN": {
+      "isoName": "ChangeOfBankBranchOpeningHours",
+      "name": "Change Of Bank Branch Opening Hours",
+      "definition": "Notification of a change to opening hours."
+    },
+    "INCH": {
+      "isoName": "IndustryChanges",
+      "name": "Industry Changes",
+      "definition": "Notification of any pertinent industry or market changes."
+    }
+  }
+}

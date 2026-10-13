@@ -1,0 +1,36 @@
+{
+  "isoType": "ProcessingStatus86Choice",
+  "language": "en",
+  "name": "Processing Status 86 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "The cancellation is pending processing."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction/Request has been rejected for further processing."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction/Request is accepted but in repair."
+    },
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    },
+    "Denied": {
+      "name": "Denied",
+      "definition": "Instruction/Request will not be executed."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Cancellation requested executed."
+    }
+  }
+}

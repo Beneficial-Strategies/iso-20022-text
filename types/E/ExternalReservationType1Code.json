@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalReservationType1Code",
+  "language": "en",
+  "name": "External Reservation Type 1 Code",
+  "definition": "Specifies the type of reservation, as published in an external reservation type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BLKD": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Amount blocked or frozen due to external circumstances such as a court order, death of beneficiary or account owner, or bankruptcy."
+    },
+    "CARE": {
+      "isoName": "CashReservation",
+      "name": "Cash Reservation",
+      "definition": "Amount set aside by a participant to reserve liquidity from its own account, exclusively or executing cash withdrawals."
+    },
+    "HPAR": {
+      "isoName": "HighlyUrgentPaymentReservation",
+      "name": "Highly Urgent Payment Reservation",
+      "definition": "Amount set aside by a participant to reserve liquidity from its own account, exclusively for executing highly urgent payments."
+    },
+    "NSSR": {
+      "isoName": "NetSSSReservation",
+      "name": "Net SSS Reservation",
+      "definition": "Amount set aside by a participant to reserve liquidity from its own account, exclusively for the settlement of the multilateral cash balance stemming from the Net Security Settlement System."
+    },
+    "THRE": {
+      "isoName": "ThresholdForInvestment",
+      "name": "Threshold For Investment",
+      "definition": "Amount above which funds will be destined for investment."
+    },
+    "UPAR": {
+      "isoName": "UrgentPaymentReservation",
+      "name": "Urgent Payment Reservation",
+      "definition": "Amount set aside by a participant to reserve liquidity from its own account, exclusively for executing critical payments called urgent payments."
+    }
+  }
+}

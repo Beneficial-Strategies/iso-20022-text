@@ -1,0 +1,190 @@
+{
+  "isoType": "DirectDebitTransactionInformation35",
+  "language": "en",
+  "name": "Direct Debit Transaction Information 35",
+  "definition": "Provides further details specific to the individual direct debit transaction(s) included in the message.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "name": "Payment Identification",
+      "definition": "Set of elements used to reference a payment instruction."
+    },
+    "PaymentTypeInformation": {
+      "name": "Payment Type Information",
+      "definition": "Set of elements used to further specify the type of transaction."
+    },
+    "InterbankSettlementAmount": {
+      "name": "Interbank Settlement Amount",
+      "definition": "Amount of money moved between the instructing agent and the instructed agent."
+    },
+    "InterbankSettlementDate": {
+      "name": "Interbank Settlement Date",
+      "definition": "Date on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due."
+    },
+    "SettlementPriority": {
+      "name": "Settlement Priority",
+      "definition": "Indicator of the urgency or order of importance that the instructing party would like the instructed party to apply to the processing of the settlement instruction."
+    },
+    "SettlementTimeIndication": {
+      "name": "Settlement Time Indication",
+      "definition": "Provides information on the occurred settlement time of the payment transaction."
+    },
+    "InstructedAmount": {
+      "name": "Instructed Amount",
+      "definition": "Amount of money to be moved between the debtor and creditor, before deduction of charges, expressed in the currency as ordered by the initiating party.|Usage: This amount has to be transported unchanged through the transaction chain."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Factor used to convert an amount from one currency into another. This reflects the price at which one currency was bought with another currency."
+    },
+    "ChargeBearer": {
+      "name": "Charge Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "ChargesInformation": {
+      "name": "Charges Information",
+      "definition": "Provides information on the charges to be paid by the charge bearer(s) related to the payment transaction."
+    },
+    "RequestedCollectionDate": {
+      "name": "Requested Collection Date",
+      "definition": "Date and time at which the creditor requests that the amount of money is to be collected from the debtor."
+    },
+    "DirectDebitTransaction": {
+      "name": "Direct Debit Transaction",
+      "definition": "Provides information specific to the direct debit mandate."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party that initiates the payment.|Usage: This can be either the creditor or a party that initiates the direct debit on behalf of the creditor."
+    },
+    "InstructingAgent": {
+      "name": "Instructing Agent",
+      "definition": "Agent that instructs the next party in the chain to carry out the (set of) instruction(s)."
+    },
+    "InstructedAgent": {
+      "name": "Instructed Agent",
+      "definition": "Agent that is instructed by the previous party in the chain to carry out the (set of) instruction(s)."
+    },
+    "IntermediaryAgent1": {
+      "name": "Intermediary Agent 1",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than one intermediary agent is present, then IntermediaryAgent1 identifies the agent between the DebtorAgent and the IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "name": "Intermediary Agent 1 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 1 at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent2": {
+      "name": "Intermediary Agent 2",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than two intermediary agents are present, then IntermediaryAgent2 identifies the agent between the IntermediaryAgent1 and the IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "name": "Intermediary Agent 2 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 2 at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent3": {
+      "name": "Intermediary Agent 3",
+      "definition": "Agent between the debtor agent and creditor agent.||Usage: If IntermediaryAgent3 is present, then it identifies the agent between the intermediary agent 2 and the debtor agent."
+    },
+    "IntermediaryAgent3Account": {
+      "name": "Intermediary Agent 3 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 3 at its servicing agent in the payment chain."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Unambiguous identification of the account of the debtor to which a debit entry will be made as a result of the transaction."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Unambiguous identification of the account of the debtor agent at its servicing agent in the payment chain."
+    },
+    "UltimateDebtor": {
+      "name": "Ultimate Debtor",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Underlying reason for the payment transaction.|Usage: Purpose is used by the end-customers, that is initiating party, (ultimate) debtor, (ultimate) creditor to provide information concerning the nature of the payment. Purpose is a content element, which is not used for processing by any of the agents involved in the payment chain."
+    },
+    "RegulatoryReporting": {
+      "name": "Regulatory Reporting",
+      "definition": "Information needed due to regulatory and statutory requirements."
+    },
+    "RelatedRemittanceInformation": {
+      "name": "Related Remittance Information",
+      "definition": "Provides information related to the handling of the remittance information by any of the agents in the transaction processing chain."
+    },
+    "RemittanceInformation": {
+      "name": "Remittance Information",
+      "definition": "Information supplied to enable the matching of an entry with the items that the transfer is intended to settle, such as commercial invoices in an accounts' receivable system."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor may only be present if different from Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor may only be present if different from Creditor."
+    },
+    "ChargesInformationAndInstructedAmountRule": {
+      "definition": "If ChargesInformation is present, then InstructedAmount must be present."
+    },
+    "ChargesAmountGuideline": {
+      "definition": "If ChargesInformation is present, then the currency of ChargesInformation/ChargesAmount is recommended to be the same as the currency of InterbankSettlementAmount."
+    },
+    "InstructedAmountAndExchangeRate1Rule": {
+      "definition": "If InstructedAmount is present and the currency is different from the currency in InterbankSettlementAmount, then ExchangeRate must be present."
+    },
+    "InstructedAmountAndExchangeRate2Rule": {
+      "definition": "If InstructedAmount is present and the currency is the same as the currency in InterbankSettlementAmount, then ExchangeRate is not allowed."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "If IntermediaryAgent1Account is present, then IntermediaryAgent1 must be present."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "If IntermediaryAgent2Account is present, then IntermediaryAgent2 must be present."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "If IntermediaryAgent3Account is present, then IntermediaryAgent3 must be present."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "If IntermediaryAgent2 is present, then IntermediaryAgent1 must be present."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "If IntermediaryAgent3 is present, then IntermediaryAgent2 must be present."
+    },
+    "InstructedAmountAndExchangeRate3Rule": {
+      "definition": "If InstructedAmount is not present, then ExchangeRate is not allowed."
+    }
+  }
+}

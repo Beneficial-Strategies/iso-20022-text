@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMKeyDownloadRequestV05",
+  "language": "en",
+  "name": "ATM Key Download Request V 05",
+  "definition": "The ATMKeyDownloadRequest message is sent by an ATM to an ATM manager to initiate the download of one or several cryptographic keys.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMKeyDownloadRequest": {
+      "name": "Protected ATM Key Download Request",
+      "definition": ""
+    },
+    "ATMKeyDownloadRequest": {
+      "name": "ATM Key Download Request",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

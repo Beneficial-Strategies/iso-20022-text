@@ -1,0 +1,23 @@
+{
+  "isoType": "InstructionQueryType1Code",
+  "language": "en",
+  "name": "Instruction Query Type 1 Code",
+  "definition": "Specifies the type of instruction queried.",
+  "isoCodes": {
+    "SETT": {
+      "isoName": "SettlementInstruction",
+      "name": "Settlement Instruction",
+      "definition": "Query is performed on settlement transactions."
+    },
+    "IPOS": {
+      "isoName": "IntraPositionMovement",
+      "name": "Intra Position Movement",
+      "definition": "Query is performed on intra-position movements."
+    },
+    "BOTH": {
+      "isoName": "SettlementAndIntraPosition",
+      "name": "Settlement And Intra Position",
+      "definition": "Query is performed on both settlement transactions and intra-position movements."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyIdentification242Choice",
+  "language": "en",
+  "name": "Party Identification 242 Choice",
+  "definition": "Choice between a BIC, name and address or a LEI to identify a party.",
+  "isoElements": {
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Identification of the party expressed as name and an optional address and an optional alternative identifier."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Identification of the party expressed as a BIC and an optional alternative identifier."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Party Identification specified as a list of values per element."
+    }
+  }
+}

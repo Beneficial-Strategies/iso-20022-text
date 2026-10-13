@@ -1,0 +1,40 @@
+{
+  "isoType": "CompensationResponse1",
+  "language": "en",
+  "name": "Compensation Response 1",
+  "definition": "Specifies whether or not the compensation request is granted.",
+  "isoElements": {
+    "Granted": {
+      "name": "Granted",
+      "definition": "Code expressing the decision taken relative to the request for compensation."
+    },
+    "InitialAmount": {
+      "name": "Initial Amount",
+      "definition": "Compensation calculated for the request before charges have been deducted."
+    },
+    "PaidCharges": {
+      "name": "Paid Charges",
+      "definition": "Charges deducted from the initial amount."
+    },
+    "AmountDue": {
+      "name": "Amount Due",
+      "definition": "Compensation due for the request after charges have been deducted."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "Value date on which the compensation is expected to be paid."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Date range for which the compensation applies."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate of a financial instrument used to calculate the compensation."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the compensation response."
+    }
+  }
+}

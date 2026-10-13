@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalRequestStatus1Code",
+  "language": "en",
+  "name": "External Request Status 1 Code",
+  "definition": "Specifies the request status, as published in an external request status code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Message has been received."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Message has been rejected."
+    },
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Message has been accepted."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Message is pending further analysis and investigation."
+    },
+    "PART": {
+      "isoName": "PartiallyAccepted",
+      "name": "Partially Accepted",
+      "definition": "Message has been partially accepted."
+    }
+  }
+}

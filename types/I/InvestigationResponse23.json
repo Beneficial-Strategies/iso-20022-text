@@ -1,0 +1,28 @@
+{
+  "isoType": "InvestigationResponse23",
+  "language": "en",
+  "name": "Investigation Response 23",
+  "definition": "Provides details of the investigation response.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the responder, and sent to the requestor to unambiguously identify the message.|Usage: The responder has to make sure that MessageIdentification is unique per requestor for a pre-agreed period."
+    },
+    "ResponderInvestigationIdentification": {
+      "name": "Responder Investigation Identification",
+      "definition": "Unique identification, as assigned by the responder, to unambiguously identify the responder reference for the investigation."
+    },
+    "InvestigationStatus": {
+      "name": "Investigation Status",
+      "definition": "Status of the investigation request."
+    },
+    "NextResponder": {
+      "name": "Next Responder",
+      "definition": "Identification of the party or agent the responder is awaiting a response from.||Usage: When the Responder has forwarded the investigation to another party, it is recommended to provide the NextResponder element."
+    },
+    "InvestigationData": {
+      "name": "Investigation Data",
+      "definition": "Provides the response to the request."
+    }
+  }
+}

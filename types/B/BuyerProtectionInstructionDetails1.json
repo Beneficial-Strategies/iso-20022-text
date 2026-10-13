@@ -1,0 +1,28 @@
+{
+  "isoType": "BuyerProtectionInstructionDetails1",
+  "language": "en",
+  "name": "Buyer Protection Instruction Details 1",
+  "definition": "Information received for a given buyer protection instruction.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "name": "Buyer Protection Instruction Identification",
+      "definition": "Identification of the related buyer protection instruction document for which the cancellation is requested."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "name": "Related Settlement Instruction Identification",
+      "definition": "Set of elements used to identify the buyer protected settlement instruction."
+    },
+    "CounterpartyDepository": {
+      "name": "Counterparty Depository",
+      "definition": "First receiving party in the settlement chain. In a plain vanilla settlement, it is the central securities depository where the receiving side of the transaction requests to receive the financial instrument."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Selected safekeeping accounts list to which the corporate action event applies."
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": "Information about the processing status of the instruction."
+    }
+  }
+}

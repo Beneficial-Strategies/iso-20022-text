@@ -1,0 +1,40 @@
+{
+  "isoType": "CorporateActionMovement1",
+  "language": "en",
+  "name": "Corporate Action Movement 1",
+  "definition": "Provides information about the movement instruction.",
+  "isoElements": {
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Type of movement instruction."
+    },
+    "HighPriorityIndicator": {
+      "name": "High Priority Indicator",
+      "definition": "Indicates whether the movement is a high priority or not.|Meaning when true: High priority|Meaning when false: Standard."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date at which the distribution movement must be executed."
+    },
+    "AccountOwnerIdentification": {
+      "name": "Account Owner Identification",
+      "definition": "Identification of the party that owns the account."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the account."
+    },
+    "ConfirmedBalanceSecuritiesQuantity": {
+      "name": "Confirmed Balance Securities Quantity",
+      "definition": "Quantity of securities in the confirmed balance, ie, the balance to which the credit of the outturned resources applies."
+    }
+  }
+}

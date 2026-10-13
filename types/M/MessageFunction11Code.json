@@ -1,0 +1,193 @@
+{
+  "isoType": "MessageFunction11Code",
+  "language": "en",
+  "name": "Message Function 11 Code",
+  "definition": "Identifies the type of process related to an ATM message.",
+  "isoCodes": {
+    "BALN": {
+      "isoName": "ATMBalance",
+      "name": "ATM Balance",
+      "definition": "Provide the ATM counters resettting those that are applicable."
+    },
+    "CMPA": {
+      "isoName": "ATMCompletionAcknowledgement",
+      "name": "ATM Completion Acknowledgement",
+      "definition": "Acknowledgement of a completion advice."
+    },
+    "CMPD": {
+      "isoName": "ATMCompletionAdvice",
+      "name": "ATM Completion Advice",
+      "definition": "Advice of an ATM transaction completion."
+    },
+    "ACMD": {
+      "isoName": "ATMControl",
+      "name": "ATM Control",
+      "definition": "Global ATM commands."
+    },
+    "DVCC": {
+      "isoName": "ATMDeviceControl",
+      "name": "ATM Device Control",
+      "definition": "Maintenance commands to perform."
+    },
+    "DIAQ": {
+      "isoName": "ATMDiagnosticRequest",
+      "name": "ATM Diagnostic Request",
+      "definition": "Request for a diagnostic."
+    },
+    "DIAP": {
+      "isoName": "ATMDiagnosticResponse",
+      "name": "ATM Diagnostic Response",
+      "definition": "Response to a diagnostic request."
+    },
+    "GSTS": {
+      "isoName": "ATMGlobalStatus",
+      "name": "ATM Global Status",
+      "definition": "Global status of the ATM."
+    },
+    "INQQ": {
+      "isoName": "ATMInquiryRequest",
+      "name": "ATM Inquiry Request",
+      "definition": "Request for an inquiry."
+    },
+    "INQP": {
+      "isoName": "ATMInquiryResponse",
+      "name": "ATM Inquiry Response",
+      "definition": "Response to an inquiry request."
+    },
+    "KYAQ": {
+      "isoName": "ATMKeyDownloadRequest",
+      "name": "ATM Key Download Request",
+      "definition": "Request for a key download."
+    },
+    "KYAP": {
+      "isoName": "ATMKeyDownloadResponse",
+      "name": "ATM Key Download Response",
+      "definition": "Response to a key download."
+    },
+    "PINQ": {
+      "isoName": "ATMPINManagementRequest",
+      "name": "ATMPIN Management Request",
+      "definition": "Request for a cardholder PIN management."
+    },
+    "PINP": {
+      "isoName": "ATMPINManagementResponse",
+      "name": "ATMPIN Management Response",
+      "definition": "Response to a cardholder PIN management request."
+    },
+    "RJAQ": {
+      "isoName": "ATMRequestReject",
+      "name": "ATM Request Reject",
+      "definition": "Rejected request message."
+    },
+    "RJAP": {
+      "isoName": "ATMResponseReject",
+      "name": "ATM Response Reject",
+      "definition": "Rejected response message."
+    },
+    "WITV": {
+      "isoName": "ATMWithdrawalAdvice",
+      "name": "ATM Withdrawal Advice",
+      "definition": "Response of a withdrawal transaction."
+    },
+    "WITK": {
+      "isoName": "ATMWithdrawalAknowledgement",
+      "name": "ATM Withdrawal Aknowledgement",
+      "definition": "Acknowledgement of a withdrawal transaction advice."
+    },
+    "WITQ": {
+      "isoName": "ATMWithdrawalRequest",
+      "name": "ATM Withdrawal Request",
+      "definition": "Request for a withdrawal transaction."
+    },
+    "WITP": {
+      "isoName": "ATMWithdrawalResponse",
+      "name": "ATM Withdrawal Response",
+      "definition": "Response to a withdrawal transaction request."
+    },
+    "INQC": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Request the value of the ATM counters."
+    },
+    "H2AP": {
+      "isoName": "HostToATMAcknowledgement",
+      "name": "Host To ATM Acknowledgement",
+      "definition": "Acknowledgement of a request from a host to an ATM for contacting."
+    },
+    "H2AQ": {
+      "isoName": "HostToATMRequest",
+      "name": "Host To ATM Request",
+      "definition": "Request from a host to an ATM to be contacted by this ATM."
+    },
+    "TMOP": {
+      "isoName": "ATMOperation",
+      "name": "ATM Operation",
+      "definition": "Logical or physical operation on the ATM."
+    },
+    "CSEC": {
+      "isoName": "SecurityControl",
+      "name": "Security Control",
+      "definition": "Security Commands."
+    },
+    "DSEC": {
+      "isoName": "SecurityDetails",
+      "name": "Security Details",
+      "definition": "Security detailed report."
+    },
+    "SKSC": {
+      "isoName": "SecurityKeyCompletion",
+      "name": "Security Key Completion",
+      "definition": "Result of the key download with the status of the downloaded keys including key check values."
+    },
+    "SSTS": {
+      "isoName": "SecurityKeyStatus",
+      "name": "Security Key Status",
+      "definition": "Status of cryptographic keys."
+    },
+    "DPSK": {
+      "isoName": "ATMDepositCompletionAcknowledgement",
+      "name": "ATM Deposit Completion Acknowledgement",
+      "definition": "Acknowledgement of a deposit completion advice."
+    },
+    "DPSV": {
+      "isoName": "ATMDepositCompletionAdvice",
+      "name": "ATM Deposit Completion Advice",
+      "definition": "Advice of an ATM deposit transaction completion."
+    },
+    "DPSQ": {
+      "isoName": "ATMDepositRequest",
+      "name": "ATM Deposit Request",
+      "definition": "Request for a deposit."
+    },
+    "DPSP": {
+      "isoName": "ATMDepositResponse",
+      "name": "ATM Deposit Response",
+      "definition": "Response to a deposit request."
+    },
+    "EXPK": {
+      "isoName": "ATMExceptionAcknowledgement",
+      "name": "ATM Exception Acknowledgement",
+      "definition": "Acknowledgement of an exception advice."
+    },
+    "EXPV": {
+      "isoName": "ATMExceptionAdvice",
+      "name": "ATM Exception Advice",
+      "definition": "Advice of an ATM exception."
+    },
+    "TRFQ": {
+      "isoName": "ATMTransferRequest",
+      "name": "ATM Transfer Request",
+      "definition": "Request for a fund transfer."
+    },
+    "TRFP": {
+      "isoName": "ATMTransferResponse",
+      "name": "ATM Transfer Response",
+      "definition": "Response to a fund transfer request."
+    },
+    "RPTC": {
+      "isoName": "CountersReport",
+      "name": "Counters Report",
+      "definition": "Provide the value of the ATM counters, no reinitialisation of the counters."
+    }
+  }
+}

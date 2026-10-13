@@ -1,0 +1,28 @@
+{
+  "isoType": "TrackerStatus4",
+  "language": "en",
+  "name": "Tracker Status 4",
+  "definition": "Provides detailed information on the transaction status to be updated in the tracker.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of a transaction, in a coded form."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date for the status."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "RejectReturnReason": {
+      "name": "Reject Return Reason",
+      "definition": "Provides detailed information on the return reason."
+    },
+    "AmountInconsistency": {
+      "name": "Amount Inconsistency",
+      "definition": "Specifies whether the amount information matches the tracker record reference data or not."
+    }
+  }
+}

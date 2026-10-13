@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargesBreakdown1",
+  "language": "en",
+  "name": "Charges Breakdown 1",
+  "definition": "Provides a breakdown of the charges per type.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of transaction charges to be paid by the charge bearer."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the charges amount is a credit or a debit amount. |Usage: A zero amount is considered to be a credit."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of charge."
+    }
+  }
+}

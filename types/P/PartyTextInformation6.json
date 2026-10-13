@@ -1,0 +1,29 @@
+{
+  "isoType": "PartyTextInformation6",
+  "language": "en",
+  "name": "Party Text Information 6",
+  "definition": "Provides additional information regarding the party, for example, the contact unit or person responsible for the transaction identified in the message.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Provides declaration details narrative relative to the party."
+    },
+    "PartyContactDetails": {
+      "name": "Party Contact Details",
+      "definition": "Provides additional information regarding the party, for example, the contact unit or person responsible for the transaction identified in the message."
+    },
+    "RegistrationDetails": {
+      "name": "Registration Details",
+      "definition": "Provides information required for the registration."
+    },
+    "RegistrationAddress": {
+      "name": "Registration Address",
+      "definition": "Address of the nominee company that holds the assets at the transfer agent or International Central Securities Depository or Central Securities Depository on behalf of the party."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, DeclarationlDetails, RegistrationDetails and PartyContactDetails must not contain information that can be provided in a structured field."
+    }
+  }
+}

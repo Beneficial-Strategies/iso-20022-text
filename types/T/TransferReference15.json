@@ -1,0 +1,28 @@
+{
+  "isoType": "TransferReference15",
+  "language": "en",
+  "name": "Transfer Reference 15",
+  "definition": "Reference of a transfer and of a transfer cancellation.",
+  "isoElements": {
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identifier for the transfer instruction for which the cancellation request is sent, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transfer allocated by the counterparty."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the transfer cancellation, as assigned by the instructing party."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Reason for the cancellation."
+    }
+  }
+}

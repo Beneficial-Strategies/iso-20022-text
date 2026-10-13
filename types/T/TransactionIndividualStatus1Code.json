@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactionIndividualStatus1Code",
+  "language": "en",
+  "name": "Transaction Individual Status 1 Code",
+  "definition": "Specifies the status of a single payment transaction.",
+  "isoCodes": {
+    "ACTC": {
+      "isoName": "AcceptedTechnicalValidation",
+      "name": "Accepted Technical Validation",
+      "definition": "Authentication and syntactical and semantical validation are successful."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Payment initiation or individual transaction included in the payment initiation has been rejected."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Payment initiation or individual transaction included in the payment initiation is pending.  Further checks and status update will be performed."
+    },
+    "ACCP": {
+      "isoName": "AcceptedCustomerProfile",
+      "name": "Accepted Customer Profile",
+      "definition": "Preceding check of technical validation was successful. Customer profile check was also successful."
+    },
+    "ACSP": {
+      "isoName": "AcceptedSettlementInProcess",
+      "name": "Accepted Settlement In Process",
+      "definition": "All preceding checks such as technical validation and customer profile were successful and therefore the payment initiation has been accepted for execution."
+    },
+    "ACSC": {
+      "isoName": "AcceptedSettlementCompleted",
+      "name": "Accepted Settlement Completed",
+      "definition": "Settlement on the debtor's account has been completed. ||Usage : this can be used by the first agent to report to the debtor that the transaction has been completed. Warning : this status is provided for transaction status reasons, not for financial information. It can only be used after bilateral agreement"
+    },
+    "ACCR": {
+      "isoName": "AcceptedCancellationRequest",
+      "name": "Accepted Cancellation Request",
+      "definition": "Cancellation is accepted."
+    },
+    "ACWC": {
+      "isoName": "AcceptedWithChange",
+      "name": "Accepted With Change",
+      "definition": "Instruction is accepted but a change will be made, such as date or remittance not sent."
+    }
+  }
+}

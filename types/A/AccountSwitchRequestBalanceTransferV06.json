@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountSwitchRequestBalanceTransferV06",
+  "language": "en",
+  "name": "Account Switch Request Balance Transfer V 06",
+  "definition": "The AccountSwitchRequestBalanceTransfer message is sent by the new account servicer to the account servicer which previously held the account to request the transfer of the closing balance. This may be addressed to the new account or an alternate account nominated by the new account servicer.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "NewAccount": {
+      "name": "New Account",
+      "definition": ""
+    },
+    "NominatedAccount": {
+      "name": "Nominated Account",
+      "definition": ""
+    },
+    "BalanceTransfer": {
+      "name": "Balance Transfer",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

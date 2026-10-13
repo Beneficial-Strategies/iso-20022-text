@@ -1,0 +1,36 @@
+{
+  "isoType": "CorporateActionPeriod2",
+  "language": "en",
+  "name": "Corporate Action Period 2",
+  "definition": "Specifies periods.",
+  "isoElements": {
+    "AssentedLinePeriod": {
+      "name": "Assented Line Period",
+      "definition": "Period during which the assented line is available."
+    },
+    "ActionPeriod": {
+      "name": "Action Period",
+      "definition": "Period during which the specified option, or all options of the event, remains valid, eg, offer period."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "name": "Privilege Suspension Period",
+      "definition": "Period during which the privilege is not available, eg, this can happen whenever a meeting takes place or whenever a coupon payment is due."
+    },
+    "ParallelTradingPeriod": {
+      "name": "Parallel Trading Period",
+      "definition": "Period during which both old and new equity may be traded simultaneously, eg, consolidation of equity or splitting of equity."
+    },
+    "SellThruIssuerPeriod": {
+      "name": "Sell Thru Issuer Period",
+      "definition": "Period (last day included) during which an account owner can surrender or sell securities to the issuer and receive the sale proceeds."
+    },
+    "RevocabilityPeriod": {
+      "name": "Revocability Period",
+      "definition": "Period during which the shareholder can revoke, change or withdraw its instruction."
+    },
+    "PriceCalculationPeriod": {
+      "name": "Price Calculation Period",
+      "definition": "Period during which the price of a security is determined (for outturn securities)."
+    }
+  }
+}

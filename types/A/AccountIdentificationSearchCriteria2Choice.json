@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountIdentificationSearchCriteria2Choice",
+  "language": "en",
+  "name": "Account Identification Search Criteria 2 Choice",
+  "definition": "Choice between the different options to search for an account.",
+  "isoElements": {
+    "Equal": {
+      "name": "Equal",
+      "definition": "Search for one or more accounts based on exact identification of the account(s)."
+    },
+    "ContainText": {
+      "name": "Contain Text",
+      "definition": "Search for one or more accounts based on partial identification of the account(s)."
+    },
+    "NotContainText": {
+      "name": "Not Contain Text",
+      "definition": "Search for one or more accounts based on a pattern that cannot be contained in the account identification."
+    }
+  }
+}

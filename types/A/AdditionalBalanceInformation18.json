@@ -1,0 +1,32 @@
+{
+  "isoType": "AdditionalBalanceInformation18",
+  "language": "en",
+  "name": "Additional Balance Information 18",
+  "definition": "Subbalances providing additional information on a specific position but that is not to be accounted for in the building of the aggregate balance, for example, registered.",
+  "isoElements": {
+    "SubBalanceType": {
+      "name": "Sub Balance Type",
+      "definition": "Reason for the sub-balance."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of securities in the sub-balance."
+    },
+    "SubBalanceAdditionalDetails": {
+      "name": "Sub Balance Additional Details",
+      "definition": "Provides additional sub-balance information."
+    },
+    "QuantityBreakdown": {
+      "name": "Quantity Breakdown",
+      "definition": "Breakdown of the aggregate quantity reported into significant lots, for example, tax lots."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if SubBalanceAdditionnalDetails is used, them it must not contain information that can be provided in a structured field."
+    },
+    "EligibleForCollateralPurposesRule": {
+      "definition": "If Subbalance type is EligibleForCollateralPurposes, then QuantityAndAvailability cannot be used."
+    }
+  }
+}

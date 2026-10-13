@@ -1,0 +1,68 @@
+{
+  "isoType": "RejectionReason51Code",
+  "language": "en",
+  "name": "Rejection Reason 51 Code",
+  "definition": "Specifies a reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Cancellation request has been rejected because the instruction process is in progress or has been processed."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "INIR": {
+      "isoName": "InstructionIrrevocable",
+      "name": "Instruction Irrevocable",
+      "definition": "Instruction is irrevocable."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "RBIS": {
+      "isoName": "RejectedByIssuerOrRegistrar",
+      "name": "Rejected By Issuer Or Registrar",
+      "definition": "Issuer or registrar has rejected the instruction."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    }
+  }
+}

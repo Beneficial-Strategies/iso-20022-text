@@ -1,0 +1,63 @@
+{
+  "isoType": "ExternalReversalReason1Code",
+  "language": "en",
+  "name": "External Reversal Reason 1 Code",
+  "definition": "Specifies the reversal reason, as published in an external reversal reason code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC03": {
+      "isoName": "InvalidCreditorAccountNumber",
+      "name": "Invalid Creditor Account Number",
+      "definition": "Wrong IBAN in  SCT"
+    },
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the Receiver's books"
+    },
+    "AG02": {
+      "isoName": "InvalidBankOperationCode",
+      "name": "Invalid Bank Operation Code",
+      "definition": "Bank Operation code specified in the message is not valid for receiver"
+    },
+    "AM05": {
+      "isoName": "Duplication",
+      "name": "Duplication",
+      "definition": "Duplication"
+    },
+    "AM09": {
+      "isoName": "WrongAmount",
+      "name": "Wrong Amount",
+      "definition": "Wrong amount in SCT"
+    },
+    "MD01": {
+      "isoName": "NoMandate",
+      "name": "No Mandate",
+      "definition": "No Mandate"
+    },
+    "MD05": {
+      "isoName": "CollectionNotDue",
+      "name": "Collection Not Due",
+      "definition": "Creditor or creditor's agent should not have collected the direct debit"
+    },
+    "MS02": {
+      "isoName": "NotSpecifiedReasonCustomerGenerated",
+      "name": "Not Specified Reason Customer Generated",
+      "definition": "Reason has not been specified by end customer"
+    },
+    "MS03": {
+      "isoName": "NotSpecifiedReasonAgentGenerated",
+      "name": "Not Specified Reason Agent Generated",
+      "definition": "Reason has not been specified by agent."
+    },
+    "RC07": {
+      "isoName": "InvalidCreditorBICIdentifier",
+      "name": "Invalid Creditor BIC Identifier",
+      "definition": "Wrong BIC in SCT"
+    },
+    "TM01": {
+      "isoName": "CutOffTime",
+      "name": "Cut Off Time",
+      "definition": "Associated message was received after agreed processing cut-off time."
+    }
+  }
+}

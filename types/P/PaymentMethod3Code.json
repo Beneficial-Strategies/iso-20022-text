@@ -1,0 +1,23 @@
+{
+  "isoType": "PaymentMethod3Code",
+  "language": "en",
+  "name": "Payment Method 3 Code",
+  "definition": "Specifies the transfer method that will be used to transfer an amount of money.",
+  "isoCodes": {
+    "CHK": {
+      "isoName": "Cheque",
+      "name": "Cheque",
+      "definition": "Written order to a bank to pay a certain amount of money from one person to another person."
+    },
+    "TRF": {
+      "isoName": "CreditTransfer",
+      "name": "Credit Transfer",
+      "definition": "Transfer of an amount of money in the books of the account servicer."
+    },
+    "TRA": {
+      "isoName": "TransferAdvice",
+      "name": "Transfer Advice",
+      "definition": "Transfer of an amount of money in the books of the account servicer. An advice should be sent back to the account owner."
+    }
+  }
+}

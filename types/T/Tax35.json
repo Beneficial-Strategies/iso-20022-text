@@ -1,0 +1,32 @@
+{
+  "isoType": "Tax35",
+  "language": "en",
+  "name": "Tax 35",
+  "definition": "Tax related to an investment fund order.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of tax."
+    },
+    "AppliedAmount": {
+      "name": "Applied Amount",
+      "definition": "Amount of money resulting from the calculation of the tax."
+    },
+    "AppliedRate": {
+      "name": "Applied Rate",
+      "definition": "Rate used to calculate the tax."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country where the tax is due."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Party that receives the tax. The recipient of, and the party entitled to, the tax may be two different parties."
+    },
+    "TaxCalculationDetails": {
+      "name": "Tax Calculation Details",
+      "definition": "Information used to calculate the tax."
+    }
+  }
+}

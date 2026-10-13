@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMDeviceReport5",
+  "language": "en",
+  "name": "ATM Device Report 5",
+  "definition": "Information related to the report from an ATM device.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "ATMGlobalStatus": {
+      "name": "ATM Global Status",
+      "definition": "Global status of the ATM."
+    },
+    "CommandResult": {
+      "name": "Command Result",
+      "definition": "Result of a maintenance command performed by the ATM."
+    },
+    "CommandContext": {
+      "name": "Command Context",
+      "definition": "Maintenance command which has requested the device report."
+    },
+    "ATMSecurityContext": {
+      "name": "ATM Security Context",
+      "definition": "Information related to security commands."
+    }
+  }
+}

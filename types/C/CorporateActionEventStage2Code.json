@@ -1,0 +1,43 @@
+{
+  "isoType": "CorporateActionEventStage2Code",
+  "language": "en",
+  "name": "Corporate Action Event Stage 2 Code",
+  "definition": "Specifies the stage of the corporate action event.",
+  "isoCodes": {
+    "PWAL": {
+      "isoName": "ActionPeriod",
+      "name": "Action Period",
+      "definition": "Open for acceptance until the next specified deadline in the announcement (if any)."
+    },
+    "SUAP": {
+      "isoName": "SubjectToApproval",
+      "name": "Subject To Approval",
+      "definition": "Subject to approval at the relevant meeting, eg, dividend."
+    },
+    "APPD": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Approved at the relevant meeting, eg, dividend."
+    },
+    "UNAC": {
+      "isoName": "UnconditionalAsToAcceptance",
+      "name": "Unconditional As To Acceptance",
+      "definition": "The required level of acceptances specified in the terms of the offer has been achieved but there are still outstanding conditions to fulfil."
+    },
+    "WHOU": {
+      "isoName": "WhollyUnconditional",
+      "name": "Wholly Unconditional",
+      "definition": "Wholly unconditional; all conditions specified in the offer document have been satisfied."
+    },
+    "CLDE": {
+      "isoName": "Deactivated",
+      "name": "Deactivated",
+      "definition": "The offer is closed for acceptance."
+    },
+    "LAPS": {
+      "isoName": "Lapsed",
+      "name": "Lapsed",
+      "definition": "The event/offer conditions have not been met and the event/offer is terminated or lapsed."
+    }
+  }
+}

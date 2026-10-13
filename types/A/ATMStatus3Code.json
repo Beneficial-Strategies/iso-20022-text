@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMStatus3Code",
+  "language": "en",
+  "name": "ATM Status 3 Code",
+  "definition": "Current status of the key.",
+  "isoCodes": {
+    "OPER": {
+      "isoName": "InOperation",
+      "name": "In Operation",
+      "definition": "Component is activated and in operation."
+    },
+    "STOP": {
+      "isoName": "Stopped",
+      "name": "Stopped",
+      "definition": "Component has been stopped."
+    },
+    "WACT": {
+      "isoName": "WaitingActivation",
+      "name": "Waiting Activation",
+      "definition": "Component has been loaded, but not yet activated."
+    }
+  }
+}

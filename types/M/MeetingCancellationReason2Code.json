@@ -1,0 +1,23 @@
+{
+  "isoType": "MeetingCancellationReason2Code",
+  "language": "en",
+  "name": "Meeting Cancellation Reason 2 Code",
+  "definition": "Specifies the reason for cancelling a meeting.",
+  "isoCodes": {
+    "QORM": {
+      "isoName": "Quorum",
+      "name": "Quorum",
+      "definition": "Cancellation due to insufficient participation to the vote."
+    },
+    "PROC": {
+      "isoName": "Processing",
+      "name": "Processing",
+      "definition": "Cancellation due to a processing error."
+    },
+    "WITH": {
+      "isoName": "Withdrawal",
+      "name": "Withdrawal",
+      "definition": "Cancellation due to the meeting being cancelled by the issuer."
+    }
+  }
+}

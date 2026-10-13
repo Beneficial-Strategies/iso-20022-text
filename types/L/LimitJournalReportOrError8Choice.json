@@ -1,0 +1,16 @@
+{
+  "isoType": "LimitJournalReportOrError8Choice",
+  "language": "en",
+  "name": "Limit Journal Report Or Error 8 Choice",
+  "definition": "Defines the limit business report as either a limit report or a business error.",
+  "isoElements": {
+    "LimitJournal": {
+      "name": "Limit Journal",
+      "definition": "Requested information on the limit."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    }
+  }
+}

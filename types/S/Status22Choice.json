@@ -1,0 +1,69 @@
+{
+  "isoType": "Status22Choice",
+  "language": "en",
+  "name": "Status 22 Choice",
+  "definition": "Choice of status.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "name": "Affirmation Status",
+      "definition": "Status of affirmation of a trade."
+    },
+    "AllocationStatus": {
+      "name": "Allocation Status",
+      "definition": "Provides the status of allocation of collateral to cover the instruction."
+    },
+    "RepoCallRequestStatus": {
+      "name": "Repo Call Request Status",
+      "definition": "Provides the status of the repurchase agreement call request."
+    },
+    "CorporateActionEventProcessingStatus": {
+      "name": "Corporate Action Event Processing Status",
+      "definition": "Provides the status of a corporate action or the status of a payment."
+    },
+    "CorporateActionEventStage": {
+      "name": "Corporate Action Event Stage",
+      "definition": "Stage in the corporate action event life cycle."
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": "Provides the matching status of an instruction as known by the account servicer based on an allegement. At this time no matching took place on the market (at the CSD/ICSD)."
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": "Provides the status of an instruction."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "RegistrationProcessingStatus": {
+      "name": "Registration Processing Status",
+      "definition": "Provides the status of the registration processing."
+    },
+    "ResponseStatus": {
+      "name": "Response Status",
+      "definition": "Provides the status of the received collateral message (collateral claim, a collateral proposal or a proposal/request for collateral substitution) from a collateral management perspective."
+    },
+    "ReplacementProcessingStatus": {
+      "name": "Replacement Processing Status",
+      "definition": "Provides the processing status of the replacement request."
+    },
+    "CancellationProcessingStatus": {
+      "name": "Cancellation Processing Status",
+      "definition": "Provides the status of a cancellation request."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "SettlementConditionModificationStatus": {
+      "name": "Settlement Condition Modification Status",
+      "definition": "Provides the status of a securities settlement condition modification request."
+    }
+  },
+  "isoRules": {
+    "StatusRule": {
+      "definition": "If a specific Status is requested, then it must be in line with the statuses available for the message type requested."
+    }
+  }
+}

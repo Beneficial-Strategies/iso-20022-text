@@ -1,0 +1,33 @@
+{
+  "isoType": "AccountManagementMessageReference5",
+  "language": "en",
+  "name": "Account Management Message Reference 5",
+  "definition": "Information about the references of an account management instruction message.",
+  "isoElements": {
+    "LinkedReference": {
+      "name": "Linked Reference",
+      "definition": "Reference to a linked message."
+    },
+    "StatusRequestType": {
+      "name": "Status Request Type",
+      "definition": "Type of account management instruction for which the status is requested or a request to know the status of the account."
+    },
+    "AccountApplicationIdentification": {
+      "name": "Account Application Identification",
+      "definition": "Unique and unambiguous identifier of the account opening or account modification instruction at application level."
+    },
+    "ExistingAccountIdentification": {
+      "name": "Existing Account Identification",
+      "definition": "Account to which the account opening is related."
+    },
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Account information for which the status of an account management instruction is requested."
+    }
+  },
+  "isoRules": {
+    "LinkedReferenceOrAccountApplicationIdentificationRule": {
+      "definition": "Either LinkedReference or AccountApplicationIdentification must be present."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "isoType": "RejectionReason79Code",
+  "language": "en",
+  "name": "Rejection Reason 79 Code",
+  "definition": "Specifies the reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "INIR": {
+      "isoName": "InstructionIrrevocable",
+      "name": "Instruction Irrevocable",
+      "definition": "Instruction is irrevocable."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Cancellation request has been rejected because the instruction process is in progress or has been processed."
+    },
+    "REJA": {
+      "isoName": "RejectedByIssuerAgent",
+      "name": "Rejected By Issuer Agent",
+      "definition": "Instruction rejected by the issuer agent."
+    },
+    "CTCT": {
+      "isoName": "MissingContact",
+      "name": "Missing Contact",
+      "definition": "Contact information is missing."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "PROT": {
+      "isoName": "MissingProtectDate",
+      "name": "Missing Protect Date",
+      "definition": "Protect date is required for cover protect instructions."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "PROI": {
+      "isoName": "MissingProtectIdentification",
+      "name": "Missing Protect Identification",
+      "definition": "Protect identification is required for cover protect instructions."
+    },
+    "TRTI": {
+      "isoName": "MissingTransactionType",
+      "name": "Missing Transaction Type",
+      "definition": "Transaction type is missing or invalid for protect or cover protect instructions."
+    },
+    "DUPL": {
+      "isoName": "DuplicateInstruction",
+      "name": "Duplicate Instruction",
+      "definition": "Instruction is rejected due to duplicate business message identifier."
+    }
+  }
+}

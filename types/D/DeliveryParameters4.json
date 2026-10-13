@@ -1,0 +1,25 @@
+{
+  "isoType": "DeliveryParameters4",
+  "language": "en",
+  "name": "Delivery Parameters 4",
+  "definition": "Parameters of a physical delivery.",
+  "isoElements": {
+    "RegisteredAddressIndicator": {
+      "name": "Registered Address Indicator",
+      "definition": "Indicates whether the address for the physical delivery is the registered address."
+    },
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Name and address to/from which the physical delivery/receipt of the financial instrument must take place."
+    },
+    "ContactPerson": {
+      "name": "Contact Person",
+      "definition": "Contact person and contact information."
+    }
+  },
+  "isoRules": {
+    "NameAndAddress1Rule": {
+      "definition": "If RegisteredAddressIndicator is \"true\" or \"1\" (Yes), then NameAndAddress is not allowed.|If RegisteredAddressIndicator is \"false\" or \"0\" (No), then NameAndAddress must be present."
+    }
+  }
+}

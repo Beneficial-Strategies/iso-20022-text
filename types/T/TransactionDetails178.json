@@ -1,0 +1,67 @@
+{
+  "isoType": "TransactionDetails178",
+  "language": "en",
+  "name": "Transaction Details 178",
+  "definition": "Identifies the details of the transaction.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities."
+    },
+    "DigitalPaymentSettlement": {
+      "name": "Digital Payment Settlement",
+      "definition": "Amount of digital asset that is to be/was posted to the account as a means of payment."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

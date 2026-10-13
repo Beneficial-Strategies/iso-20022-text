@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionCancellation3",
+  "language": "en",
+  "name": "Corporate Action Cancellation 3",
+  "definition": "Corporate action event cancellation status and reason.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "name": "Cancellation Reason Code",
+      "definition": "Specifies reasons for cancellation of a corporate action event."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Additional information about cancellation of a corporate action event."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Specifies the status of the details of the event."
+    }
+  }
+}

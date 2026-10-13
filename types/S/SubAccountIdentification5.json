@@ -1,0 +1,24 @@
+{
+  "isoType": "SubAccountIdentification5",
+  "language": "en",
+  "name": "Sub Account Identification 5",
+  "definition": "Account to or from which a securities entry is made.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "FungibleIndicator": {
+      "name": "Fungible Indicator",
+      "definition": "Indicates whether the securities in the account are fungible, ie, interchangeable."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity reported in the statement."
+    },
+    "BalanceForSubAccount": {
+      "name": "Balance For Sub Account",
+      "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities account."
+    }
+  }
+}

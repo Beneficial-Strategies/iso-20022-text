@@ -1,0 +1,28 @@
+{
+  "isoType": "MarketClaimCancellationRequestV02",
+  "language": "en",
+  "name": "Market Claim Cancellation Request V 02",
+  "definition": "Scope and Usage|The MarketClaimCancellationRequest message is sent by the account holder to the account servicer. |It is sent to request the cancellation of a market claim transaction.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "MarketClaimCreationIdentification": {
+      "name": "Market Claim Creation Identification",
+      "definition": ""
+    },
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PriceMethod1Code",
+  "language": "en",
+  "name": "Price Method 1 Code",
+  "definition": "Specifies the type of pricing calculation method.",
+  "isoCodes": {
+    "FORW": {
+      "isoName": "ForwardPrice",
+      "name": "Forward Price",
+      "definition": "Price will be calculated after the close of the dealing period. An investor, therefore, does not know the exact buy or sell price."
+    },
+    "HIST": {
+      "isoName": "HistoricalPrice",
+      "name": "Historical Price",
+      "definition": "Price is calculated at an earlier valuation point preceding the dealing period. An investor, therefore, knows the exact buy or sell price."
+    }
+  }
+}

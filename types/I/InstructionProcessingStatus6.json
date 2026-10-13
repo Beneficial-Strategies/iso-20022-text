@@ -1,0 +1,25 @@
+{
+  "isoType": "InstructionProcessingStatus6",
+  "language": "en",
+  "name": "Instruction Processing Status 6",
+  "definition": "Status advising on the processing of the instruction.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status code."
+    },
+    "AttendanceCardNumber": {
+      "name": "Attendance Card Number",
+      "definition": "Number of the admission ticket that has been granted by the custodian or the issuer."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the status."
+    }
+  },
+  "isoRules": {
+    "AttendanceCardNumber1Rule": {
+      "definition": "If AttendanceCardNumber is present, then Status must be ATTC (AttendanceConfirmed)."
+    }
+  }
+}

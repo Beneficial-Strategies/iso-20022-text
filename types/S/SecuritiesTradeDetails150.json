@@ -1,0 +1,97 @@
+{
+  "isoType": "SecuritiesTradeDetails150",
+  "language": "en",
+  "name": "Securities Trade Details 150",
+  "definition": "Details of the securities trade.",
+  "isoElements": {
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    },
+    "CollateralTransactionIdentification": {
+      "name": "Collateral Transaction Identification",
+      "definition": "Unambiguous identification of a collateral transaction as assigned by the instructing party."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "PlaceOfClearing": {
+      "name": "Place Of Clearing",
+      "definition": "Infrastructure which may be a component of a clearing house and which facilitates clearing and settlement for its members by standing between the buyer and the seller. It may net transactions and it substitutes itself as settlement counterparty for each position."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared, for example, payment is effected and securities are delivered."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Specifies the price of the traded financial instrument.|This is the deal price of the individual trade transaction. |If there is only one trade transaction for the execution of the trade, then the deal price could equal the executed trade price (unless, for example, the price includes commissions or rounding, or some other factor has been applied to the deal price or the executed trade price, or both)."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "OpeningClosing": {
+      "name": "Opening Closing",
+      "definition": "Specifies additional information relative to the processing of the trade."
+    },
+    "Reporting": {
+      "name": "Reporting",
+      "definition": "Specifies that a trade is to be reported to a third party."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "InvestorCapacity": {
+      "name": "Investor Capacity",
+      "definition": "Specifies the role of the investor in the transaction."
+    },
+    "TradeOriginatorRole": {
+      "name": "Trade Originator Role",
+      "definition": "Specifies the role of the trading party in the transaction."
+    },
+    "TypeOfPrice": {
+      "name": "Type Of Price",
+      "definition": "Specifies the type of price and information about the price."
+    },
+    "FXAdditionalDetails": {
+      "name": "FX Additional Details",
+      "definition": "Provides additional details pertaining to foreign exchange instructions."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "name": "Settlement Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which cannot be included within the structured fields of the message."
+    }
+  },
+  "isoRules": {
+    "InvestorCapacityRule": {
+      "definition": "If InvestorCapacity is used, then the use of the codes needs to be bi-laterally agreed."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "If PlaceOfTrade is used and an ISO 10383 MIC exists for the market to be identified, then the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "If Trade Date/Time is used with a time or a time + UTC indicator, then it must be the local time of the place of trade, for example, of the stock exchange, or of the selling broker for OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if FXAdditionalDetails and/or SettlementInstructionProcessingAdditionalDetails are present, then they must not contain information that can be provided in a structured field."
+    },
+    "TradeDateGuideline": {
+      "definition": "In addition to the settlement date (ISO 20022 mandatory), trade date is one of the 10 common elements recommended by SMPG for equities and fixed income settlement instructions.|For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "MandateAdjustment1",
+  "language": "en",
+  "name": "Mandate Adjustment 1",
+  "definition": "Specifies the details for the adjustment of the mandate.",
+  "isoElements": {
+    "DateAdjustmentRuleIndicator": {
+      "name": "Date Adjustment Rule Indicator",
+      "definition": "Specifies whether an adjustment is to be applied on pre-agreed collection date or not."
+    },
+    "Category": {
+      "name": "Category",
+      "definition": "Defines the category of adjustment."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Pre-agreed amount to increase or decrease the mandate amount as justified per information in the category."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Pre-agreed increase or decrease rate that will be applied to the collection amount."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "BillingReportOrError6Choice",
+  "language": "en",
+  "name": "Billing Report Or Error 6 Choice",
+  "definition": "Choice between report on billing data, billing cancellation request details or operational error.",
+  "isoElements": {
+    "BillingReport": {
+      "name": "Billing Report",
+      "definition": "Report on billing data."
+    },
+    "CancellationReport": {
+      "name": "Cancellation Report",
+      "definition": "Report on cancelled billing data."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ModificationProcessingStatus1Code",
+  "language": "en",
+  "name": "Modification Processing Status 1 Code",
+  "definition": "Specifies the status of a cancellation request.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Modification request has been acknowledged for further processing by the account servicer."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Modification has been rejected for further processing."
+    },
+    "MODC": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "Modification has been completed."
+    },
+    "DEND": {
+      "isoName": "Denied",
+      "name": "Denied",
+      "definition": "Modification will not be executed."
+    },
+    "MODP": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Modification is pending. It is not known at this time whether modified can be executed."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Modification request is in repair."
+    }
+  }
+}

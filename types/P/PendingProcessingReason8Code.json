@@ -1,0 +1,48 @@
+{
+  "isoType": "PendingProcessingReason8Code",
+  "language": "en",
+  "name": "Pending Processing Reason 8 Code",
+  "definition": "Specifies the reason the transaction/instruction is failing settlement. Settlement on the instructed settlement date is no longer possible.",
+  "isoCodes": {
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. It will be managed as per the bilateral service agreement between the account servicer and account owner."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementAmount",
+      "name": "Minimum Settlement Amount",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementAmount",
+      "name": "Multiple Settlement Amount",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "NEXT": {
+      "isoName": "NextProcess",
+      "name": "Next Process",
+      "definition": "Next process is launched. No processing pending problems to be reported."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DENO": {
+      "isoName": "UnavailableDeliverableDenominatedQuantity",
+      "name": "Unavailable Deliverable Denominated Quantity",
+      "definition": "Quantity instructed does not match the denomination available/deliverable. Physical securities need to be obtained in deliverable denominated quantities."
+    },
+    "CERT": {
+      "isoName": "WrongCertificatesNumbers",
+      "name": "Wrong Certificates Numbers",
+      "definition": "Certificate number error."
+    }
+  }
+}

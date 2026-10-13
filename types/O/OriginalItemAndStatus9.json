@@ -1,0 +1,40 @@
+{
+  "isoType": "OriginalItemAndStatus9",
+  "language": "en",
+  "name": "Original Item And Status 9",
+  "definition": "Identifies the original notification item and to provide the status.",
+  "isoElements": {
+    "OriginalItemIdentification": {
+      "name": "Original Item Identification",
+      "definition": "Identification of the original notification item."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Unique identification as assigned by the debtor to unambiguously identify the original underlying transaction to the creditor."
+    },
+    "OriginalUETR": {
+      "name": "Original UETR",
+      "definition": "Universally unique identifier to provide the original end-to-end reference of a payment transaction."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money expected to be credited to the account, as per the original notification to receive."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "Value date on which the account was expected to be credited."
+    },
+    "ItemStatus": {
+      "name": "Item Status",
+      "definition": "Specifies the status of the notification item."
+    },
+    "AdditionalStatusInformation": {
+      "name": "Additional Status Information",
+      "definition": "Further details of the item status."
+    },
+    "OriginalItemReference": {
+      "name": "Original Item Reference",
+      "definition": "Provides further information in order to identify a previous payment notification."
+    }
+  }
+}

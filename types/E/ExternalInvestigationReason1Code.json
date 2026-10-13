@@ -1,0 +1,318 @@
+{
+  "isoType": "ExternalInvestigationReason1Code",
+  "language": "en",
+  "name": "External Investigation Reason 1 Code",
+  "definition": "Specifies the investigation reason, as published in an external investigation reason code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RERE": {
+      "isoName": "RelatedReference",
+      "name": "Related Reference",
+      "definition": "Related transaction reference is incorrect, incomplete or missing."
+    },
+    "SVLV": {
+      "isoName": "PaymentServiceLevel",
+      "name": "Payment Service Level",
+      "definition": "Payment type service level is incorrect, incomplete or missing."
+    },
+    "CAPU": {
+      "isoName": "CategoryPurpose",
+      "name": "Category Purpose",
+      "definition": "Payment type category purpose is incorrect, incomplete or missing."
+    },
+    "REDT": {
+      "isoName": "RequestedExecutionDate",
+      "name": "Requested Execution Date",
+      "definition": "Requested execution date is incorrect or missing."
+    },
+    "ISDT": {
+      "isoName": "InterbankSettlementDate",
+      "name": "Interbank Settlement Date",
+      "definition": "Interbank settlement date is incorrect."
+    },
+    "ISAM": {
+      "isoName": "InterbankSettlementAmount",
+      "name": "Interbank Settlement Amount",
+      "definition": "Interbank settlement amount is incorrect."
+    },
+    "AMNT": {
+      "isoName": "Amount",
+      "name": "Amount",
+      "definition": "An amount element has triggered the investigation."
+    },
+    "DTOR": {
+      "isoName": "Debtor",
+      "name": "Debtor",
+      "definition": "Further information pertaining to the debtor is requested."
+    },
+    "DTAG": {
+      "isoName": "DebtorAgent",
+      "name": "Debtor Agent",
+      "definition": "Further information pertaining to the debtor agent is requested."
+    },
+    "IGRA": {
+      "isoName": "InstructingReimbursementAgent",
+      "name": "Instructing Reimbursement Agent",
+      "definition": "Further information pertaining to the instructing reimbursement agent is requested."
+    },
+    "IDRA": {
+      "isoName": "InstructedReimbursementAgent",
+      "name": "Instructed Reimbursement Agent",
+      "definition": "Further information pertaining to the instructed reimbursement agent is requested."
+    },
+    "TDRA": {
+      "isoName": "ThirdReimbursementAgent",
+      "name": "Third Reimbursement Agent",
+      "definition": "Further information pertaining to the third reimbursement agent is requested."
+    },
+    "INAG": {
+      "isoName": "IntermediaryAgent",
+      "name": "Intermediary Agent",
+      "definition": "Further information pertaining to an intermediary agent is requested."
+    },
+    "PYCC": {
+      "isoName": "PaymentClearingChannel",
+      "name": "Payment Clearing Channel",
+      "definition": "Payment type clearing channel is incorrect, incomplete or missing."
+    },
+    "CTAG": {
+      "isoName": "CreditorAgent",
+      "name": "Creditor Agent",
+      "definition": "Further information pertaining to the creditor agent is requested."
+    },
+    "CTOR": {
+      "isoName": "Creditor",
+      "name": "Creditor",
+      "definition": "Further information pertaining to the creditor is requested."
+    },
+    "REIN": {
+      "isoName": "RemittanceInformation",
+      "name": "Remittance Information",
+      "definition": "Remittance information is incorrect, incomplete or missing."
+    },
+    "PYPU": {
+      "isoName": "PaymentPurpose",
+      "name": "Payment Purpose",
+      "definition": "Transaction payment purpose is incorrect, incomplete or missing."
+    },
+    "CHBE": {
+      "isoName": "ChargeBearer",
+      "name": "Charge Bearer",
+      "definition": "Further information pertaining to the charge bearer is requested."
+    },
+    "INNA": {
+      "isoName": "InstructionForNextAgent",
+      "name": "Instruction For Next Agent",
+      "definition": "Further information pertaining to the instruction for next agent is requested."
+    },
+    "INCA": {
+      "isoName": "InstructionForCreditorAgent",
+      "name": "Instruction For Creditor Agent",
+      "definition": "Further information pertaining to the instruction for creditor agent is requested."
+    },
+    "STET": {
+      "isoName": "StatementEntry",
+      "name": "Statement Entry",
+      "definition": "Further information pertaining to a statement entry is requested."
+    },
+    "SEAC": {
+      "isoName": "SettlementAccount",
+      "name": "Settlement Account",
+      "definition": "Further information pertaining to the settlement account is requested."
+    },
+    "CHIN": {
+      "isoName": "ChargesInformation",
+      "name": "Charges Information",
+      "definition": "Further information pertaining to the charges information is requested."
+    },
+    "ULTD": {
+      "isoName": "UltimateDebtor",
+      "name": "Ultimate Debtor",
+      "definition": "Further information pertaining to the ultimate debtor is requested."
+    },
+    "ULTC": {
+      "isoName": "UltimateCreditor",
+      "name": "Ultimate Creditor",
+      "definition": "Further information pertaining to the ultimate creditor is requested."
+    },
+    "PURP": {
+      "isoName": "Purpose",
+      "name": "Purpose",
+      "definition": "Further information pertaining to the purpose is requested."
+    },
+    "INPA": {
+      "isoName": "InitiatingParty",
+      "name": "Initiating Party",
+      "definition": "Further information pertaining to the initiating party is requested."
+    },
+    "REGR": {
+      "isoName": "RegulatoryReporting",
+      "name": "Regulatory Reporting",
+      "definition": "Regulatory reporting is incomplete or missing."
+    },
+    "TAXD": {
+      "isoName": "Tax",
+      "name": "Tax",
+      "definition": "Tax data is incomplete or missing."
+    },
+    "FRAD": {
+      "isoName": "FraudulentInstrument",
+      "name": "Fraudulent Instrument",
+      "definition": "Instrument is confirmed as fraudulent."
+    },
+    "FCCI": {
+      "isoName": "FinancialCrimeCompliance",
+      "name": "Financial Crime Compliance",
+      "definition": "Investigation relates to financial crimes compliance."
+    },
+    "FWTR": {
+      "isoName": "FundsTransferRegulationOrWireTransferRegulation",
+      "name": "Funds Transfer Regulation Or Wire Transfer Regulation",
+      "definition": "Investigation relates to funds transfer regulation or wire transfer regulation."
+    },
+    "CHCO": {
+      "isoName": "RequestChequeCopy",
+      "name": "Request Cheque Copy",
+      "definition": "Copy of cheque is requested."
+    },
+    "DRCO": {
+      "isoName": "RequestDraftCopy",
+      "name": "Request Draft Copy",
+      "definition": "Copy of draft is requested."
+    },
+    "AMLI": {
+      "isoName": "AntiMoneyLaundering",
+      "name": "Anti Money Laundering",
+      "definition": "Request message relates to anti-money laundering."
+    },
+    "RQPR": {
+      "isoName": "RequestPartyRelationship",
+      "name": "Request Party Relationship",
+      "definition": "Clarification over a party relationship is requested."
+    },
+    "RQVD": {
+      "isoName": "RequestVesselOrAircraftDetails",
+      "name": "Request Vessel Or Aircraft Details",
+      "definition": "Clarification over a vessel or aircraft is requested."
+    },
+    "RQLD": {
+      "isoName": "RequestLocationDetails",
+      "name": "Request Location Details",
+      "definition": "Clarification over location details is requested."
+    },
+    "RQSG": {
+      "isoName": "RequestServicesOrGoodsDetails",
+      "name": "Request Services Or Goods Details",
+      "definition": "Clarification over goods or services involved is requested."
+    },
+    "RQED": {
+      "isoName": "RequestServicesOrGoodsExchangeDate",
+      "name": "Request Services Or Goods Exchange Date",
+      "definition": "Clarification over when goods or services were exchanged is requested."
+    },
+    "RQDO": {
+      "isoName": "RequestDocumentation",
+      "name": "Request Documentation",
+      "definition": "Documentation relating to the transaction is requested."
+    },
+    "CHNP": {
+      "isoName": "ChequeNotYetPaid",
+      "name": "Cheque Not Yet Paid",
+      "definition": "Cheque not yet paid despite being sent to agent."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "See AdditionalRequestData element for additional information"
+    },
+    "RQCD": {
+      "isoName": "RequestAccountClosureDate",
+      "name": "Request Account Closure Date",
+      "definition": "Account closure date is requested."
+    },
+    "UTAP": {
+      "isoName": "UnableToApplyByCreditor",
+      "name": "Unable To Apply By Creditor",
+      "definition": "A booked entry cannot be applied by the creditor."
+    },
+    "CCNR": {
+      "isoName": "CreditorClaimNonReceipt",
+      "name": "Creditor Claim Non Receipt",
+      "definition": "Creditor claims non-receipt of payment."
+    },
+    "CONR": {
+      "isoName": "CreditorAgentClaimCoverNonReceipt",
+      "name": "Creditor Agent Claim Cover Non Receipt",
+      "definition": "Creditor agent claims non-receipt of cover or settlement."
+    },
+    "PINC": {
+      "isoName": "PaymentInitiationNotConfirmed",
+      "name": "Payment Initiation Not Confirmed",
+      "definition": "Payment initiation has not been settled or confirmed."
+    },
+    "RQVA": {
+      "isoName": "RequestValueDateAdjustment",
+      "name": "Request Value Date Adjustment",
+      "definition": "Revaluation of an entry is requested."
+    },
+    "RQUF": {
+      "isoName": "RequestUseOfFunds",
+      "name": "Request Use Of Funds",
+      "definition": "Use of funds on an entry is requested."
+    },
+    "RQDA": {
+      "isoName": "RequestDebitAuthorisation",
+      "name": "Request Debit Authorisation",
+      "definition": "Debit authorisation on an entry is requested."
+    },
+    "ACCT": {
+      "isoName": "AccountRelatedInvestigation",
+      "name": "Account Related Investigation",
+      "definition": "Investigation relating to an account."
+    },
+    "RQCH": {
+      "isoName": "RequestRelatedToCharges",
+      "name": "Request Related To Charges",
+      "definition": "Investigation relating to charges that have been taken or are unpaid."
+    },
+    "RIMF": {
+      "isoName": "RequestFromIMF",
+      "name": "Request From IMF",
+      "definition": "Request from International Monetary Fund."
+    },
+    "MCAT": {
+      "isoName": "MissingCreditAmount",
+      "name": "Missing Credit Amount",
+      "definition": "Missing credit amount on statement."
+    },
+    "MDAT": {
+      "isoName": "MissingDebitAmount",
+      "name": "Missing Debit Amount",
+      "definition": "Missing debit amount on statement."
+    },
+    "IIRT": {
+      "isoName": "InvalidInterestRateType",
+      "name": "Invalid Interest Rate Type",
+      "definition": "Invalid interest rate."
+    },
+    "INCB": {
+      "isoName": "IncorrectClosingBalance",
+      "name": "Incorrect Closing Balance",
+      "definition": "Incorrect closing balance."
+    },
+    "IAIB": {
+      "isoName": "IncorrectAccruedInterest",
+      "name": "Incorrect Accrued Interest",
+      "definition": "Incorrect accrued interest balance."
+    },
+    "IDAI": {
+      "isoName": "IncorrectDailyAccruedInterest",
+      "name": "Incorrect Daily Accrued Interest",
+      "definition": "Incorrect daily accrued interest amount."
+    },
+    "INTA": {
+      "isoName": "IncorrectTransactionAmount",
+      "name": "Incorrect Transaction Amount",
+      "definition": "Incorrect transaction amount."
+    }
+  }
+}

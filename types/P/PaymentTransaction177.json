@@ -1,0 +1,84 @@
+{
+  "isoType": "PaymentTransaction177",
+  "language": "en",
+  "name": "Payment Transaction 177",
+  "definition": "Provides further details on the original transactions, to which the status report message refers.",
+  "isoElements": {
+    "StatusIdentification": {
+      "name": "Status Identification",
+      "definition": "Unique identification, as assigned by an instructing party for an instructed party, to unambiguously identify the reported status.|Usage: The instructing party is the party sending the status message and not the party that sent the original instruction that is being reported on."
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message."
+    },
+    "OriginalInstructionIdentification": {
+      "name": "Original Instruction Identification",
+      "definition": "Unique identification, as assigned by the original instructing party for the original instructed party, to unambiguously identify the original instruction."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Unique identification, as assigned by the original initiating party, to unambiguously identify the original transaction."
+    },
+    "OriginalTransactionIdentification": {
+      "name": "Original Transaction Identification",
+      "definition": "Unique identification, as assigned by the original first instructing agent, to unambiguously identify the transaction."
+    },
+    "OriginalUETR": {
+      "name": "Original UETR",
+      "definition": "Universally unique identifier to provide the original end-to-end reference of a payment transaction."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Specifies the status of a transaction, as published in an external payment transaction status code list."
+    },
+    "StatusReasonInformation": {
+      "name": "Status Reason Information",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "ChargesInformation": {
+      "name": "Charges Information",
+      "definition": "Provides information on the charges related to the processing of the rejection of the instruction.||Usage: This is passed on for information purposes only. Settlement of the charges will be done separately."
+    },
+    "AcceptanceDateTime": {
+      "name": "Acceptance Date Time",
+      "definition": "Point in time when the payment order from the initiating party meets the processing conditions of the account servicing agent. This means that the account servicing agent has received the payment order and has applied checks such as authorisation, availability of funds."
+    },
+    "ProcessingDate": {
+      "name": "Processing Date",
+      "definition": "Date/time at which the instruction was processed by the specified party."
+    },
+    "EffectiveInterbankSettlementDate": {
+      "name": "Effective Interbank Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared, that is, payment is effected."
+    },
+    "AccountServicerReference": {
+      "name": "Account Servicer Reference",
+      "definition": "Unique reference, as assigned by the account servicing institution, to unambiguously identify the instruction."
+    },
+    "ClearingSystemReference": {
+      "name": "Clearing System Reference",
+      "definition": "Unique reference, as assigned by a clearing system, to unambiguously identify the instruction."
+    },
+    "CreditSettlementKey": {
+      "name": "Credit Settlement Key",
+      "definition": "Cryptographic key provided by the CreditorAgent to confirm that settlement on the creditor's account is guaranteed."
+    },
+    "InstructingAgent": {
+      "name": "Instructing Agent",
+      "definition": "Agent that instructs the next party in the chain to carry out the (set of) instruction(s).||Usage: The instructing agent is the party sending the status message and not the party that sent the original instruction that is being reported on."
+    },
+    "InstructedAgent": {
+      "name": "Instructed Agent",
+      "definition": "Agent that is instructed by the previous party in the chain to carry out the (set of) instruction(s).||Usage: The instructed agent is the party receiving the status message and not the party that received the original instruction that is being reported on."
+    },
+    "OriginalTransactionReference": {
+      "name": "Original Transaction Reference",
+      "definition": "Key elements used to identify the original transaction that is being referred to."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

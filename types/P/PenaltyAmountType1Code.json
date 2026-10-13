@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyAmountType1Code",
+  "language": "en",
+  "name": "Penalty Amount Type 1 Code",
+  "definition": "Specifies the type of the penalty amount.",
+  "isoCodes": {
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Penalty is based on the amount of cash failed to be delivered and the penalty rate is the discount rate of the relevant currency."
+    },
+    "SECU": {
+      "isoName": "Securities",
+      "name": "Securities",
+      "definition": "Penalty is based on the quantity of securities failed to be delivered and penalty rate of the securities."
+    }
+  }
+}

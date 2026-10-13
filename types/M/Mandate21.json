@@ -1,0 +1,104 @@
+{
+  "isoType": "Mandate21",
+  "language": "en",
+  "name": "Mandate 21",
+  "definition": "Information that serves as a basis to debit an account.",
+  "isoElements": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Unique identification, as assigned by the responsible party (such as the creditor) or agent (such as the debtor agent), to unambiguously identify the mandate."
+    },
+    "MandateRequestIdentification": {
+      "name": "Mandate Request Identification",
+      "definition": "Identification for the mandate request, as assigned by the initiating party."
+    },
+    "Authentication": {
+      "name": "Authentication",
+      "definition": "Specifies the transport authentication details related to the mandate."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of mandate, such as paper, electronic or scheme."
+    },
+    "Occurrences": {
+      "name": "Occurrences",
+      "definition": "Provides details of the duration of the mandate and occurrence of the underlying transactions."
+    },
+    "TrackingIndicator": {
+      "name": "Tracking Indicator",
+      "definition": "Specifies whether the direct debit instructions should be automatically re-submitted periodically when bilaterally agreed."
+    },
+    "FirstCollectionAmount": {
+      "name": "First Collection Amount",
+      "definition": "Amount different from the collection amount, as it includes the costs associated with the first debited amount."
+    },
+    "CollectionAmount": {
+      "name": "Collection Amount",
+      "definition": "Fixed amount to be collected from the debtor's account."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount that may be collected from the debtor's account, per instruction."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the characteristics of the adjustment applied to the collection amount of a direct debit instruction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Provides the reason for the setup of the mandate."
+    },
+    "CreditorSchemeIdentification": {
+      "name": "Creditor Scheme Identification",
+      "definition": "Credit party that signs the mandate."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party that signs the mandate and to whom an amount of money is due."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that signs the mandate and owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Unambiguous identification of the account of the debtor, to which a debit entry will be made as a result of the transaction."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "UltimateDebtor": {
+      "name": "Ultimate Debtor",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor."
+    },
+    "MandateReference": {
+      "name": "Mandate Reference",
+      "definition": "Reference assigned by a creditor or ultimate creditor for internal usage for the mandate."
+    },
+    "ReferredDocument": {
+      "name": "Referred Document",
+      "definition": "Provides information to identify the underlying documents associated with the mandate."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor may only be present if different from Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor may only be present if different from Creditor."
+    }
+  }
+}

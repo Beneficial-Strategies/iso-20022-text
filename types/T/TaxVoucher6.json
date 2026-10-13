@@ -1,0 +1,31 @@
+{
+  "isoType": "TaxVoucher6",
+  "language": "en",
+  "name": "Tax Voucher 6",
+  "definition": "Specifies tax vouchers in the framework of a corporate action event.",
+  "isoElements": {
+    "TaxVoucherReference": {
+      "name": "Tax Voucher Reference",
+      "definition": "Unique reference for the tax voucher required by the relevant tax authorities to ensure that any claim relating to this particular tax voucher cannot be duplicated."
+    },
+    "TaxReclaimDocumentationReference": {
+      "name": "Tax Reclaim Documentation Reference",
+      "definition": "Unique reference assigned by the account owner to the tax documentation sent to the account servicer for processing."
+    },
+    "BeneficialOwnerReference": {
+      "name": "Beneficial Owner Reference",
+      "definition": "Unique reference identifying the beneficial owner the refund applies to, as assigned by the account owner to the tax documentation sent to the account servicer for processing."
+    }
+  },
+  "isoRules": {
+    "TaxVoucherPresenceRule": {
+      "definition": "At least one of TaxVoucherReference Or TaxReclaimDocumentationReference Or BeneficialOwnerReference must be present."
+    },
+    "TaxReclaimDocumentationReferencePresenceRule": {
+      "definition": "If TaxReclaimDocumentationReference is present then BeneficialOwnerReference must be absent."
+    },
+    "BeneficialOwnerReferencePresenceRule": {
+      "definition": "If BeneficialOwnerReference is present then TaxReclaimDocumentationReference must be absent."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "MessageHeader11",
+  "language": "en",
+  "name": "Message Header 11",
+  "definition": "Specifies the header data such as the identification and the creation date and time, specific to the message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the sender, to unambiguously identify the message.|Usage: The sender has to make sure that MessageIdentification is unique for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "RequestType": {
+      "name": "Request Type",
+      "definition": "Specific actions to be executed through the request."
+    },
+    "OriginalBusinessQuery": {
+      "name": "Original Business Query",
+      "definition": "Unique identification of the original query message."
+    }
+  }
+}

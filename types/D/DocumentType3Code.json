@@ -1,0 +1,38 @@
+{
+  "isoType": "DocumentType3Code",
+  "language": "en",
+  "name": "Document Type 3 Code",
+  "definition": "Specifies a type of financial or commercial document.",
+  "isoCodes": {
+    "RADM": {
+      "isoName": "RemittanceAdviceMessage",
+      "name": "Remittance Advice Message",
+      "definition": "Document is a remittance advice sent separately from the current transaction."
+    },
+    "RPIN": {
+      "isoName": "RelatedPaymentInstruction",
+      "name": "Related Payment Instruction",
+      "definition": "Document is a linked payment instruction to which the current payment instruction is related, for example, in a cover scenario."
+    },
+    "FXDR": {
+      "isoName": "ForeignExchangeDealReference",
+      "name": "Foreign Exchange Deal Reference",
+      "definition": "Document is a pre-agreed or pre-arranged foreign exchange transaction to which the payment transaction refers."
+    },
+    "DISP": {
+      "isoName": "DispatchAdvice",
+      "name": "Dispatch Advice",
+      "definition": "Document is a dispatch advice."
+    },
+    "PUOR": {
+      "isoName": "PurchaseOrder",
+      "name": "Purchase Order",
+      "definition": "Document is a purchase order."
+    },
+    "SCOR": {
+      "isoName": "StructuredCommunicationReference",
+      "name": "Structured Communication Reference",
+      "definition": "Document is a structured communication reference provided by the creditor to identify the referred transaction."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "PenaltyCalculationRecord1",
+  "language": "en",
+  "name": "Penalty Calculation Record 1",
+  "definition": "Specifies the details for the penalty calculation.",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date for which the penalty applies."
+    },
+    "MissingReferenceData": {
+      "name": "Missing Reference Data",
+      "definition": "Information provided for  penalties where there is missing reference data on this business day.||Usage: When not present, there are no missing reference data."
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": "Further details on the financial instrument reported."
+    },
+    "DiscountRate": {
+      "name": "Discount Rate",
+      "definition": "Discount rate for the currency of the penalty, provided if the Security is subject to penalties and if the calculation method code is cash, mixed or both."
+    },
+    "ForeignExchangeData": {
+      "name": "Foreign Exchange Data",
+      "definition": "Further details on the foreign exchange rate."
+    },
+    "SubAmountPenaltyBreakdown": {
+      "name": "Sub Amount Penalty Breakdown",
+      "definition": "Breakdown into sub-amounts that compose the penalty total amount."
+    }
+  }
+}

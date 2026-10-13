@@ -1,0 +1,20 @@
+{
+  "isoType": "BillingServiceIdentification2",
+  "language": "en",
+  "name": "Billing Service Identification 2",
+  "definition": "Identification of the service to be billed.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Financial institution's own, internal service identification code, different from the common code.|Usage: The financial institution own code is used to uniquely identify the service within the financial institution."
+    },
+    "SubService": {
+      "name": "Sub Service",
+      "definition": "Defines the financial institution sub-service identification if the financial institution service identification code is used for more than one service."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Specifies further details to describe the financial institution service description, which is not the standard description related to the common code."
+    }
+  }
+}

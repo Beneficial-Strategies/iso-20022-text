@@ -1,0 +1,89 @@
+{
+  "isoType": "IntraBalancePending6",
+  "language": "en",
+  "name": "Intra Balance Pending 6",
+  "definition": "Identifies the details of the transaction.",
+  "isoElements": {
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction as assigned by the processor."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the amount of money is moved."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the amount of money is moved."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Amount of money effectively settled and which will be credited to/debited from the account owner's cash account. It may differ from the instructed settlement amount based on market tolerance level."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Date and time at which the amount of money is intended to be moved."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "CashSubBalanceIdentification": {
+      "name": "Cash Sub Balance Identification",
+      "definition": "Number identifying a lot constituting the sub-balance."
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": "Link to another transaction that must be processed after, before or at the same time."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, for example, the transaction was sent by fax, then the AccountOwnerTransactionIdentification must be NONREF."
+    }
+  }
+}

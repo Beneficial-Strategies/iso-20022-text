@@ -1,0 +1,20 @@
+{
+  "isoType": "IntraPositionStatusType2",
+  "language": "en",
+  "name": "Intra Position Status Type 2",
+  "definition": "Choice of the intra-position movement status type.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides details on the processing status of the transaction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the settlement status of a transaction."
+    },
+    "Settled": {
+      "name": "Settled",
+      "definition": "Specifies the state or the condition."
+    }
+  }
+}

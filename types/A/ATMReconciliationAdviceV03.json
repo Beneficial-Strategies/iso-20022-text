@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMReconciliationAdviceV03",
+  "language": "en",
+  "name": "ATM Reconciliation Advice V 03",
+  "definition": "The ATMReconciliationAdvice message is sent by an ATM to an acquirer or its agent to send all the counters of the ATM. It can be sent by an operator function or as a response of a command sent by an agent or a server.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMReconciliationAdvice": {
+      "name": "Protected ATM Reconciliation Advice",
+      "definition": ""
+    },
+    "ATMReconciliationAdvice": {
+      "name": "ATM Reconciliation Advice",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

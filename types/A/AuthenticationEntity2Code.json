@@ -1,0 +1,38 @@
+{
+  "isoType": "AuthenticationEntity2Code",
+  "language": "en",
+  "name": "Authentication Entity 2 Code",
+  "definition": "Entity or device that has performed the verification.",
+  "isoCodes": {
+    "ICCD": {
+      "isoName": "ICC",
+      "name": "ICC",
+      "definition": "Application in the chip card (Integrated Circuit Card), for instance an offline PIN verification."
+    },
+    "AGNT": {
+      "isoName": "AuthorisedAgent",
+      "name": "Authorised Agent",
+      "definition": "Authorisation agent of the issuer."
+    },
+    "MERC": {
+      "isoName": "Merchant",
+      "name": "Merchant",
+      "definition": "Merchant (for example signature verification by the attendant)."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Acquirer of the transaction."
+    },
+    "ISSR": {
+      "isoName": "Issuer",
+      "name": "Issuer",
+      "definition": "Card issuer."
+    },
+    "TRML": {
+      "isoName": "Terminal",
+      "name": "Terminal",
+      "definition": "Secure application in the terminal."
+    }
+  }
+}

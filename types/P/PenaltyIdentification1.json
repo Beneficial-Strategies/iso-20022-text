@@ -1,0 +1,20 @@
+{
+  "isoType": "PenaltyIdentification1",
+  "language": "en",
+  "name": "Penalty Identification 1",
+  "definition": "Unique and unambiguous identification of a penalty.",
+  "isoElements": {
+    "MarketInfrastructureIdentification": {
+      "name": "Market Infrastructure Identification",
+      "definition": "Identification as assigned by the market infrastructure to the penalty and that is common for both the failing and the non-failing participant."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification as assigned by the market infrastructure to the penalty and that is the individual identification of the penalty for the relevant account owner (that is either for the failing participant or for the non failing participant)."
+    },
+    "ReallocationIdentification": {
+      "name": "Reallocation Identification",
+      "definition": "Identification as assigned to the penalty by the market infrastructure following a reallocation."
+    }
+  }
+}

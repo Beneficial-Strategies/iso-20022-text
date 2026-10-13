@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactionProcessingStatus4Code",
+  "language": "en",
+  "name": "Transaction Processing Status 4 Code",
+  "definition": "Specifies the status of an instruction.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "AcknowledgedAccepted",
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged/accepted for further processing by the account servicer."
+    },
+    "PPRC": {
+      "isoName": "PendingProcessing",
+      "name": "Pending Processing",
+      "definition": "Processing of the instruction is pending."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instruction has been rejected for further processing."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Instruction is accepted but in repair."
+    },
+    "CAND": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "CANP": {
+      "isoName": "PendingCancellation",
+      "name": "Pending Cancellation",
+      "definition": "Cancellation request from yourself for this instruction is pending waiting for further processing."
+    },
+    "CPRC": {
+      "isoName": "CancellationRequested",
+      "name": "Cancellation Requested",
+      "definition": "Cancellation request from the counterparty is awaiting for your cancellation request or your consent."
+    },
+    "MPRC": {
+      "isoName": "ModificationRequested",
+      "name": "Modification Requested",
+      "definition": "Modification request from the counterparty is awaiting for your modification request or your consent."
+    }
+  }
+}

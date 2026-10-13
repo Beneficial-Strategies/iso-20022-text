@@ -1,0 +1,1838 @@
+{
+  "isoType": "ExternalPurpose1Code",
+  "language": "en",
+  "name": "External Purpose 1 Code",
+  "definition": "Specifies the external purpose code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BKDF": {
+      "isoName": "BankLoanDelayedDrawFunding",
+      "name": "Bank Loan Delayed Draw Funding",
+      "definition": "Delayed draw funding. Certain issuers may utilize delayed draw loans whereby the lender is committed to fund cash within a specified period once a call is made by the issuer. The lender receives a fee for entering into such a commitment."
+    },
+    "BKFE": {
+      "isoName": "BankLoanFees",
+      "name": "Bank Loan Fees",
+      "definition": "Bank loan fees. Cash activity related to specific bank loan fees, including (a) agent / assignment fees; (b) amendment fees; (c) commitment fees; (d) consent fees; (e) cost of carry fees; (f) delayed compensation fees; (g) facility fees; (h) fronting fees; (i) funding fees; (j) letter of credit assignment fees."
+    },
+    "BKFM": {
+      "isoName": "BankLoanFundingMemo",
+      "name": "Bank Loan Funding Memo",
+      "definition": "Bank loan funding memo. Net cash movement for the loan contract final notification when sent separately from the loan contract final notification instruction."
+    },
+    "BKIP": {
+      "isoName": "BankLoanAccruedInterestPayment",
+      "name": "Bank Loan Accrued Interest Payment",
+      "definition": "Accrued interest payments. Specific to bank loans."
+    },
+    "BKPP": {
+      "isoName": "BankLoanPrincipalPaydown",
+      "name": "Bank Loan Principal Paydown",
+      "definition": "Principal paydowns. Specific to bank loans"
+    },
+    "CBLK": {
+      "isoName": "CardBulkClearing",
+      "name": "Card Bulk Clearing",
+      "definition": "A Service that is settling money for a bulk of card transactions, while referring to a specific transaction file or other information like terminal ID, card acceptor ID or other transaction details."
+    },
+    "CDCB": {
+      "isoName": "CardPaymentWithCashBack",
+      "name": "Card Payment With Cash Back",
+      "definition": "Purchase of Goods and Services with additional Cash disbursement at the POI (Cashback)."
+    },
+    "CDCD": {
+      "isoName": "CashDisbursementCashSettlement",
+      "name": "Cash Disbursement Cash Settlement",
+      "definition": "ATM Cash Withdrawal in an unattended or Cash Advance in an attended environment (POI or bank counter)."
+    },
+    "CDCS": {
+      "isoName": "CashDisbursementWithSurcharging",
+      "name": "Cash Disbursement With Surcharging",
+      "definition": "ATM Cash Withdrawal in an unattended or Cash Advance in an attended environment (POI or bank counter) with surcharging."
+    },
+    "CDDP": {
+      "isoName": "CardDeferredPayment",
+      "name": "Card Deferred Payment",
+      "definition": "A combined service which enables the card acceptor to perform an authorisation for a temporary amount and a completion for the final amount within a limited time frame. Deferred Payment is only available in the unattended environment. Examples where this service is widely used are unattended petrol pumps and phone booths."
+    },
+    "CDOC": {
+      "isoName": "OriginalCredit",
+      "name": "Original Credit",
+      "definition": "A service which allows the card acceptor to effect a credit to a cardholder' account. Unlike a Merchant Refund, an Original Credit is not preceded by a card payment. This service is used for example for crediting winnings from gaming."
+    },
+    "CDQC": {
+      "isoName": "QuasiCash",
+      "name": "Quasi Cash",
+      "definition": "Purchase of Goods which are equivalent to cash like coupons in casinos."
+    },
+    "ETUP": {
+      "isoName": "EPurseTopUp",
+      "name": "E Purse Top Up",
+      "definition": "Transaction is related to a Service that is first reserving money from a card account and then is loading an e-purse application by this amount."
+    },
+    "FCOL": {
+      "isoName": "FeeCollection",
+      "name": "Fee Collection",
+      "definition": "A Service that is settling card transaction related fees between two parties."
+    },
+    "MTUP": {
+      "isoName": "MobileTopUp",
+      "name": "Mobile Top Up",
+      "definition": "A Service that is first reserving money from a card account and then is loading a prepaid mobile phone amount by this amount."
+    },
+    "ACCT": {
+      "isoName": "AccountManagement",
+      "name": "Account Management",
+      "definition": "Transaction moves funds between 2 accounts of same account holder at the same bank."
+    },
+    "CASH": {
+      "isoName": "CashManagementTransfer",
+      "name": "Cash Management Transfer",
+      "definition": "Transaction is a general cash management instruction."
+    },
+    "COLL": {
+      "isoName": "CollectionPayment",
+      "name": "Collection Payment",
+      "definition": "Transaction is a collection of funds initiated via a credit transfer or direct debit."
+    },
+    "CSDB": {
+      "isoName": "CashDisbursementCashManagement",
+      "name": "Cash Disbursement Cash Management",
+      "definition": "Transaction is related to cash disbursement."
+    },
+    "DEPT": {
+      "isoName": "Deposit",
+      "name": "Deposit",
+      "definition": "Transaction is releted to a payment of deposit."
+    },
+    "INTC": {
+      "isoName": "IntraCompanyPayment",
+      "name": "Intra Company Payment",
+      "definition": "Transaction is an intra-company payment, ie, a payment between two companies belonging to the same group."
+    },
+    "INTP": {
+      "isoName": "IntraPartyPayment",
+      "name": "Intra Party Payment",
+      "definition": "Transaction is a payment between two accounts belonging to the same party (intra-party payment), where party is a natural person (identified by a private ID, not organisation ID)."
+    },
+    "LIMA": {
+      "isoName": "LiquidityManagement",
+      "name": "Liquidity Management",
+      "definition": "Bank initiated account transfer to support zero target balance management, pooling or sweeping."
+    },
+    "NETT": {
+      "isoName": "Netting",
+      "name": "Netting",
+      "definition": "Transaction is related to a netting operation."
+    },
+    "BFWD": {
+      "isoName": "BondForward",
+      "name": "Bond Forward",
+      "definition": "Cash collateral related to any securities traded out beyond 3 days which include treasury notes, JGBs and Gilts."
+    },
+    "CCIR": {
+      "isoName": "CrossCurrencyIRS",
+      "name": "Cross Currency IRS",
+      "definition": "Cash Collateral related to a Cross Currency Interest Rate Swap, indicating the exchange of fixed interest payments in one currency for those in another."
+    },
+    "CCPC": {
+      "isoName": "CCPClearedInitialMargin",
+      "name": "CCP Cleared Initial Margin",
+      "definition": "Cash Collateral associated with an ISDA or Central Clearing Agreement that is covering the initial margin requirements for OTC trades clearing through a CCP."
+    },
+    "CCPM": {
+      "isoName": "CCPClearedVariationMargin",
+      "name": "CCP Cleared Variation Margin",
+      "definition": "Cash Collateral associated with an ISDA or Central Clearing Agreement that is covering the variation margin requirements for OTC trades clearing through a CCP."
+    },
+    "CCSM": {
+      "isoName": "CCPClearedInitialMarginSegregatedCash",
+      "name": "CCP Cleared Initial Margin Segregated Cash",
+      "definition": "CCP Segregated initial margin: Initial margin on OTC Derivatives cleared through a CCP that requires segregation."
+    },
+    "CRDS": {
+      "isoName": "CreditDefaultSwap",
+      "name": "Credit Default Swap",
+      "definition": "Cash collateral related to trading of credit default swap."
+    },
+    "CRPR": {
+      "isoName": "CrossProduct",
+      "name": "Cross Product",
+      "definition": "Cash collateral related to a combination of various types of trades."
+    },
+    "CRSP": {
+      "isoName": "CreditSupport",
+      "name": "Credit Support",
+      "definition": "Cash collateral related to cash lending/borrowing; letter of Credit; signing of master agreement."
+    },
+    "CRTL": {
+      "isoName": "CreditLine",
+      "name": "Credit Line",
+      "definition": "Cash collateral related to opening of a credit line before trading."
+    },
+    "EQPT": {
+      "isoName": "EquityOption",
+      "name": "Equity Option",
+      "definition": "Cash collateral related to trading of equity option (Also known as stock options)."
+    },
+    "EQUS": {
+      "isoName": "EquitySwap",
+      "name": "Equity Swap",
+      "definition": "Cash collateral related to equity swap trades where the return of an equity is exchanged for either a fixed or a floating rate of interest."
+    },
+    "EXPT": {
+      "isoName": "ExoticOption",
+      "name": "Exotic Option",
+      "definition": "Cash collateral related to trading of an exotic option for example a non-standard option."
+    },
+    "EXTD": {
+      "isoName": "ExchangeTradedDerivatives",
+      "name": "Exchange Traded Derivatives",
+      "definition": "Cash collateral related to trading of exchanged traded derivatives in general (Opposite to Over the Counter (OTC))."
+    },
+    "FIXI": {
+      "isoName": "FixedIncome",
+      "name": "Fixed Income",
+      "definition": "Cash collateral related to a fixed income instrument"
+    },
+    "FWBC": {
+      "isoName": "ForwardBrokerOwnedCashCollateral",
+      "name": "Forward Broker Owned Cash Collateral",
+      "definition": "Cash collateral payment against a Master Forward Agreement (MFA) where the cash is held in a segregated account and is not available for use by the client. Includes any instruments with a forward settling date such TBAs, repurchase agreements and bond forwards"
+    },
+    "FWCC": {
+      "isoName": "ForwardClientOwnedCashCollateral",
+      "name": "Forward Client Owned Cash Collateral",
+      "definition": "Cash collateral payment against a Master Forward Agreement (MFA) where the cash is owned and may be used by the client when returned. Includes any instruments with a forward settling date such TBAs, repurchase agreements and bond forwards"
+    },
+    "FWSB": {
+      "isoName": "ForwardBrokerOwnedCashCollateralSegregated",
+      "name": "Forward Broker Owned Cash Collateral Segregated",
+      "definition": "Any cash payment related to the collateral for a Master Agreement forward, which is segregated, and not available for use by the client. Example master agreement forwards include TBA, repo and Bond Forwards."
+    },
+    "FWSC": {
+      "isoName": "ForwardClientOwnedSegregatedCashCollateral",
+      "name": "Forward Client Owned Segregated Cash Collateral",
+      "definition": "Any cash payment related to the collateral for a Master agreement forward, which is owned by the client and is available for use by the client when it is returned to them from the segregated account. Example master agreement forwards include TBA, repo and Bond Forwards."
+    },
+    "MARG": {
+      "isoName": "DailyMarginOnListedDerivatives",
+      "name": "Daily Margin On Listed Derivatives",
+      "definition": "Daily margin on listed derivatives – not segregated as collateral associated with an FCM agreement. Examples include listed futures and options margin payments; premiums for listed options not covered in the MT54X message."
+    },
+    "MBSB": {
+      "isoName": "MBSBrokerOwnedCashCollateral",
+      "name": "MBS Broker Owned Cash Collateral",
+      "definition": "MBS Broker Owned Segregated (40Act/Dodd Frank) Cash Collateral - Any cash payment related to the collateral for a Mortgage Back Security, which is segregated, and not available for use by the client."
+    },
+    "MBSC": {
+      "isoName": "MBSClientOwnedCashCollateral",
+      "name": "MBS Client Owned Cash Collateral",
+      "definition": "MBS Client Owned Cash Segregated (40Act/Dodd Frank) Cash Collateral - Any cash payment related to the collateral for a Mortgage Back Security, which is owned by the client and is available for use by the client when it is returned to them from the segregated account"
+    },
+    "MGCC": {
+      "isoName": "FuturesInitialMargin",
+      "name": "Futures Initial Margin",
+      "definition": "Initial futures margin. Where such payment is owned by the client and is available for use by them on return"
+    },
+    "MGSC": {
+      "isoName": "FuturesInitialMarginClientOwnedSegregatedCashCollateral",
+      "name": "Futures Initial Margin Client Owned Segregated Cash Collateral",
+      "definition": "Margin Client Owned Segregated Cash Collateral - Any cash payment related to the collateral for initial futures margin, which is owned by the client and is available for use by the client when it is returned to them from the segregated account."
+    },
+    "OCCC": {
+      "isoName": "ClientOwnedOCCPledgedCollateral",
+      "name": "Client Owned OCC Pledged Collateral",
+      "definition": "Client owned collateral identified as eligible for OCC pledging."
+    },
+    "OPBC": {
+      "isoName": "OTCOptionBrokerOwnedCashCollateral",
+      "name": "OTC Option Broker Owned Cash Collateral",
+      "definition": "Cash collateral payment for OTC options associated with an FCM agreement. Where such payment is segregated and not available for use by the client"
+    },
+    "OPCC": {
+      "isoName": "OTCOptionClientOwnedCashCollateral",
+      "name": "OTC Option Client Owned Cash Collateral",
+      "definition": "Cash collateral payment for OTC options associated with an FCM agreement. Where such payment is not segregated and is available for use by the client upon return"
+    },
+    "OPSB": {
+      "isoName": "OTCOptionBrokerOwnedSegregatedCashCollateral",
+      "name": "OTC Option Broker Owned Segregated Cash Collateral",
+      "definition": "Option Broker Owned Segregated Cash Collateral - Any cash payment related to the collateral for an OTC option, which is segregated, and not available for use by the client."
+    },
+    "OPSC": {
+      "isoName": "OTCOptionClientOwnedCashSegregatedCashCollateral",
+      "name": "OTC Option Client Owned Cash Segregated Cash Collateral",
+      "definition": "Option Client Owned Cash Segregated Cash Collateral - Any cash payment related to the collateral for an OTC option, which is owned by the client and is available for use by the client when it is returned to them from the segregated account"
+    },
+    "OPTN": {
+      "isoName": "FXOption",
+      "name": "FX Option",
+      "definition": "Cash collateral related to trading of option on Foreign Exchange."
+    },
+    "OTCD": {
+      "isoName": "OTCDerivatives",
+      "name": "OTC Derivatives",
+      "definition": "Cash collateral related to Over-the-counter (OTC) Derivatives in general for example contracts which are traded and privately negotiated."
+    },
+    "REPO": {
+      "isoName": "RepurchaseAgreement",
+      "name": "Repurchase Agreement",
+      "definition": "Cash collateral related to a repurchase agreement transaction."
+    },
+    "RPBC": {
+      "isoName": "BilateralRepoBrokerOwnedCollateral",
+      "name": "Bilateral Repo Broker Owned Collateral",
+      "definition": "Bi-lateral repo broker owned collateral associated with a repo master agreement – GMRA or MRA Master Repo Agreements."
+    },
+    "RPCC": {
+      "isoName": "RepoClientOwnedCollateral",
+      "name": "Repo Client Owned Collateral",
+      "definition": "Repo client owned collateral associated with a repo master agreement – GMRA or MRA Master Repo Agreements"
+    },
+    "RPSB": {
+      "isoName": "BilateralRepoBrokerOwnedSegregatedCashCollateral",
+      "name": "Bilateral Repo Broker Owned Segregated Cash Collateral",
+      "definition": "Bi-lateral repo broker owned segregated cash collateral associated with a repo master agreement."
+    },
+    "RPSC": {
+      "isoName": "BilateralRepoClientOwnedSegregatedCashCollateral",
+      "name": "Bilateral Repo Client Owned Segregated Cash Collateral",
+      "definition": "Repo client owned segregated collateral associated with a repo master agreement."
+    },
+    "RVPO": {
+      "isoName": "ReverseRepurchaseAgreement",
+      "name": "Reverse Repurchase Agreement",
+      "definition": "Cash collateral related to a reverse repurchase agreement transaction."
+    },
+    "SBSC": {
+      "isoName": "SecuritiesBuySellSellBuyBack",
+      "name": "Securities Buy Sell Sell Buy Back",
+      "definition": "Cash collateral related to a Securities Buy Sell Sell Buy Back"
+    },
+    "SCIE": {
+      "isoName": "SingleCurrencyIRSExotic",
+      "name": "Single Currency IRS Exotic",
+      "definition": "Cash collateral related to Exotic single currency interest rate swap."
+    },
+    "SCIR": {
+      "isoName": "SingleCurrencyIRS",
+      "name": "Single Currency IRS",
+      "definition": "Cash collateral related to Single Currency Interest Rate Swap."
+    },
+    "SCRP": {
+      "isoName": "SecuritiesCrossProducts",
+      "name": "Securities Cross Products",
+      "definition": "Cash collateral related to Combination of securities-related exposure types."
+    },
+    "SHBC": {
+      "isoName": "BrokerOwnedCollateralShortSale",
+      "name": "Broker Owned Collateral Short Sale",
+      "definition": "Short Sale broker owned collateral associated with a prime broker agreement."
+    },
+    "SHCC": {
+      "isoName": "ClientOwnedCollateralShortSale",
+      "name": "Client Owned Collateral Short Sale",
+      "definition": "Short Sale client owned collateral associated with a prime brokerage agreement."
+    },
+    "SHSL": {
+      "isoName": "ShortSell",
+      "name": "Short Sell",
+      "definition": "Cash Collateral related to a Short Sell"
+    },
+    "SLEB": {
+      "isoName": "SecuritiesLendingAndBorrowing",
+      "name": "Securities Lending And Borrowing",
+      "definition": "Cash collateral related to Securities lending and borrowing."
+    },
+    "SLOA": {
+      "isoName": "SecuredLoan",
+      "name": "Secured Loan",
+      "definition": "Cash collateral related to a Secured loan."
+    },
+    "SWBC": {
+      "isoName": "SwapBrokerOwnedCashCollateral",
+      "name": "Swap Broker Owned Cash Collateral",
+      "definition": "Cash collateral payment for swaps associated with an ISDA agreement. . Where such payment is segregated and|not available for use by the client. Includes any cash collateral payments made under the terms of a CSA agreement|for instruments such as swaps and FX forwards."
+    },
+    "SWCC": {
+      "isoName": "SwapClientOwnedCashCollateral",
+      "name": "Swap Client Owned Cash Collateral",
+      "definition": "Cash collateral payment for swaps associated with an ISDA agreement. Where such payment is not segregated and|is available for use by the client upon return. Includes any cash collateral payments made under the terms of a CSA|agreement for instruments such as swaps and FX forwards."
+    },
+    "SWPT": {
+      "isoName": "Swaption",
+      "name": "Swaption",
+      "definition": "Cash collateral related to an option on interest rate swap."
+    },
+    "SWSB": {
+      "isoName": "SwapsBrokerOwnedSegregatedCashCollateral",
+      "name": "Swaps Broker Owned Segregated Cash Collateral",
+      "definition": "Swaps Broker Owned Segregated Cash Collateral - Any cash payment related to the collateral for Swap margin ,|which is segregated, and not available for use by the client. This includes any collateral identified in a CSA|agreement such as Swap or FX Forward collateral."
+    },
+    "SWSC": {
+      "isoName": "SwapsClientOwnedSegregatedCashCollateral",
+      "name": "Swaps Client Owned Segregated Cash Collateral",
+      "definition": "Swaps Client Owned Segregated Cash Collateral - Any cash payment related to the collateral for Swap margin,|which is owned by the client and is available for use by the client when returned from the segregated account. This|includes any collateral identified in a CSA agreement such as Swap or FX Forward collateral."
+    },
+    "TBAS": {
+      "isoName": "ToBeAnnounced",
+      "name": "To Be Announced",
+      "definition": "Cash collateral related to a To Be Announced (TBA)"
+    },
+    "TBBC": {
+      "isoName": "TBABrokerOwnedCashCollateral",
+      "name": "TBA Broker Owned Cash Collateral",
+      "definition": "Cash collateral payment (segregated) for TBA securities associated with a TBA Master Agreement. Where such payment is segregated and not available for use by the client."
+    },
+    "TBCC": {
+      "isoName": "TBAClientOwnedCashCollateral",
+      "name": "TBA Client Owned Cash Collateral",
+      "definition": "Cash collateral payment (for use by client)for TBA securities associated with a TBA Master Agreement. Where such payment is not segregated and is available for use by the client upon return."
+    },
+    "TRCP": {
+      "isoName": "TreasuryCrossProduct",
+      "name": "Treasury Cross Product",
+      "definition": "Cash collateral related to a combination of treasury-related exposure types."
+    },
+    "AGRT": {
+      "isoName": "AgriculturalTransfer",
+      "name": "Agricultural Transfer",
+      "definition": "Transaction is related to the agricultural domain."
+    },
+    "AREN": {
+      "isoName": "AccountsReceivablesEntry",
+      "name": "Accounts Receivables Entry",
+      "definition": "Transaction is related to a payment associated with an Account Receivable Entry"
+    },
+    "BEXP": {
+      "isoName": "BusinessExpenses",
+      "name": "Business Expenses",
+      "definition": "Transaction is related to a payment of business expenses."
+    },
+    "BOCE": {
+      "isoName": "BackOfficeConversionEntry",
+      "name": "Back Office Conversion Entry",
+      "definition": "Transaction is related to a payment associated with a Back Office Conversion Entry"
+    },
+    "COMC": {
+      "isoName": "CommercialPayment",
+      "name": "Commercial Payment",
+      "definition": "Transaction is related to a payment of commercial credit or debit. (formerly CommercialCredit)."
+    },
+    "CPYR": {
+      "isoName": "Copyright",
+      "name": "Copyright",
+      "definition": "Transaction is payment of copyright."
+    },
+    "GDDS": {
+      "isoName": "PurchaseSaleOfGoods",
+      "name": "Purchase Sale Of Goods",
+      "definition": "Transaction is related to purchase and sale of goods."
+    },
+    "GDSV": {
+      "isoName": "PurchaseSaleOfGoodsAndServices",
+      "name": "Purchase Sale Of Goods And Services",
+      "definition": "Transaction is related to purchase and sale of goods and services."
+    },
+    "GSCB": {
+      "isoName": "PurchaseSaleOfGoodsAndServicesWithCashBack",
+      "name": "Purchase Sale Of Goods And Services With Cash Back",
+      "definition": "Transaction is related to purchase and sale of goods and services with cash back."
+    },
+    "LICF": {
+      "isoName": "LicenseFee",
+      "name": "License Fee",
+      "definition": "Transaction is payment of a license fee."
+    },
+    "MP2B": {
+      "isoName": "MobileP2BPayment",
+      "name": "Mobile P 2 B Payment",
+      "definition": "A service which enables a user to use an app on its mobile to pay a merchant or other business payees by initiating a payment message. Within this context, the account information or an alias of the payee might be transported through different channels to the app, for example QR Code, NFC, Bluetooth, other Networks."
+    },
+    "POPE": {
+      "isoName": "PointOfPurchaseEntry",
+      "name": "Point Of Purchase Entry",
+      "definition": "Transaction is related to a payment associated with a Point of Purchase Entry."
+    },
+    "ROYA": {
+      "isoName": "Royalties",
+      "name": "Royalties",
+      "definition": "Transaction is the payment of royalties."
+    },
+    "SCVE": {
+      "isoName": "PurchaseSaleOfServices",
+      "name": "Purchase Sale Of Services",
+      "definition": "Transaction is related to purchase and sale of services."
+    },
+    "SERV": {
+      "isoName": "ServiceCharges",
+      "name": "Service Charges",
+      "definition": "Transaction is related to service charges charged by a service provider."
+    },
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Transaction is related to a payment of information or entertainment services either in printed or electronic form."
+    },
+    "SUPP": {
+      "isoName": "SupplierPayment",
+      "name": "Supplier Payment",
+      "definition": "Transaction is related to a payment to a supplier."
+    },
+    "TRAD": {
+      "isoName": "Commercial",
+      "name": "Commercial",
+      "definition": "Transaction is related to a trade services operation."
+    },
+    "CHAR": {
+      "isoName": "CharityPayment",
+      "name": "Charity Payment",
+      "definition": "Transaction is a payment for charity reasons."
+    },
+    "COMT": {
+      "isoName": "ConsumerThirdPartyConsolidatedPayment",
+      "name": "Consumer Third Party Consolidated Payment",
+      "definition": "Transaction is a payment used by a third party who can collect funds to pay on behalf of consumers, ie credit counseling or bill payment companies."
+    },
+    "MP2P": {
+      "isoName": "MobileP2PPayment",
+      "name": "Mobile P 2 P Payment",
+      "definition": "A service which enables a user to use an app on its mobile to initiate moving funds from his/her bank account to another person’s bank account while not using the account number  but an alias information like an MSISDN as account addressing information in his/her app."
+    },
+    "ECPG": {
+      "isoName": "GuaranteedEPayment",
+      "name": "Guaranteed E Payment",
+      "definition": "E-Commerce payment with payment guarantee of the issuing bank."
+    },
+    "ECPR": {
+      "isoName": "EPaymentReturn",
+      "name": "E Payment Return",
+      "definition": "E-Commerce payment return."
+    },
+    "ECPU": {
+      "isoName": "NonGuaranteedEPayment",
+      "name": "Non Guaranteed E Payment",
+      "definition": "E-Commerce payment without payment guarantee of the issuing bank."
+    },
+    "EPAY": {
+      "isoName": "Epayment",
+      "name": "Epayment",
+      "definition": "Transaction is related to ePayment."
+    },
+    "CLPR": {
+      "isoName": "CarLoanPrincipalRepayment",
+      "name": "Car Loan Principal Repayment",
+      "definition": "Transaction is a payment of car loan principal payment."
+    },
+    "COMP": {
+      "isoName": "CompensationPayment",
+      "name": "Compensation Payment",
+      "definition": "Transaction is related to the payment of a compensation relating to interest loss/value date adjustment and can include fees."
+    },
+    "DBTC": {
+      "isoName": "DebitCollectionPayment",
+      "name": "Debit Collection Payment",
+      "definition": "Collection of funds initiated via a debit transfer."
+    },
+    "GOVI": {
+      "isoName": "GovernmentInsurance",
+      "name": "Government Insurance",
+      "definition": "Transaction is related to a payment of government insurance."
+    },
+    "HLRP": {
+      "isoName": "PropertyLoanRepayment",
+      "name": "Property Loan Repayment",
+      "definition": "Transaction is related to a payment of property loan."
+    },
+    "HLST": {
+      "isoName": "PropertyLoanSettlement",
+      "name": "Property Loan Settlement",
+      "definition": "Transaction is related to the settlement of a property loan."
+    },
+    "INPC": {
+      "isoName": "InsurancePremiumCar",
+      "name": "Insurance Premium Car",
+      "definition": "Transaction is a payment of car insurance premium."
+    },
+    "INPR": {
+      "isoName": "InsurancePremiumRefund",
+      "name": "Insurance Premium Refund",
+      "definition": "Transaction is related to an insurance premium refund."
+    },
+    "INSC": {
+      "isoName": "PaymentOfInsuranceClaim",
+      "name": "Payment Of Insurance Claim",
+      "definition": "Transaction is related to the payment of an insurance claim."
+    },
+    "INSU": {
+      "isoName": "InsurancePremium",
+      "name": "Insurance Premium",
+      "definition": "Transaction is payment of an insurance premium."
+    },
+    "INTE": {
+      "isoName": "Interest",
+      "name": "Interest",
+      "definition": "Transaction is payment of interest."
+    },
+    "LBRI": {
+      "isoName": "LaborInsurance",
+      "name": "Labor Insurance",
+      "definition": "Transaction is a payment of labor insurance."
+    },
+    "LIFI": {
+      "isoName": "LifeInsurance",
+      "name": "Life Insurance",
+      "definition": "Transaction is a payment of life insurance."
+    },
+    "LOAN": {
+      "isoName": "Loan",
+      "name": "Loan",
+      "definition": "Transaction is related to transfer of loan to borrower."
+    },
+    "LOAR": {
+      "isoName": "LoanRepayment",
+      "name": "Loan Repayment",
+      "definition": "Transaction is related to repayment of loan to lender."
+    },
+    "PENO": {
+      "isoName": "PaymentBasedOnEnforcementOrder",
+      "name": "Payment Based On Enforcement Order",
+      "definition": "Payment based on enforcement orders except those arising from judicial alimony decrees."
+    },
+    "PPTI": {
+      "isoName": "PropertyInsurance",
+      "name": "Property Insurance",
+      "definition": "Transaction is a payment of property insurance."
+    },
+    "RELG": {
+      "isoName": "RentalLeaseGeneral",
+      "name": "Rental Lease General",
+      "definition": "Transaction is for general rental/lease."
+    },
+    "RINP": {
+      "isoName": "RecurringInstallmentPayment",
+      "name": "Recurring Installment Payment",
+      "definition": "Transaction is related to a payment of a recurring installment made at regular intervals."
+    },
+    "TRFD": {
+      "isoName": "TrustFund",
+      "name": "Trust Fund",
+      "definition": "Transaction is related to a payment of a trust fund."
+    },
+    "FORW": {
+      "isoName": "ForwardForeignExchange",
+      "name": "Forward Foreign Exchange",
+      "definition": "FX trades with a value date in the future."
+    },
+    "FXNT": {
+      "isoName": "ForeignExchangeRelatedNetting",
+      "name": "Foreign Exchange Related Netting",
+      "definition": "FX netting if cash is moved by separate wire instead of within the closing FX instruction"
+    },
+    "ADMG": {
+      "isoName": "AdministrativeManagement",
+      "name": "Administrative Management",
+      "definition": "Transaction is related to a payment associated with administrative management."
+    },
+    "ADVA": {
+      "isoName": "AdvancePayment",
+      "name": "Advance Payment",
+      "definition": "Transaction is an advance payment."
+    },
+    "BCDM": {
+      "isoName": "BearerChequeDomestic",
+      "name": "Bearer Cheque Domestic",
+      "definition": "Transaction is the payment of a domestic bearer cheque."
+    },
+    "BCFG": {
+      "isoName": "BearerChequeForeign",
+      "name": "Bearer Cheque Foreign",
+      "definition": "Transaction is the payment of a foreign bearer cheque."
+    },
+    "BLDM": {
+      "isoName": "BuildingMaintenance",
+      "name": "Building Maintenance",
+      "definition": "Transaction is related to a payment associated with building maintenance."
+    },
+    "BNET": {
+      "isoName": "BondForwardNetting",
+      "name": "Bond Forward Netting",
+      "definition": "Bond Forward pair-off cash net movement."
+    },
+    "CBFF": {
+      "isoName": "CapitalBuilding",
+      "name": "Capital Building",
+      "definition": "Transaction is related to capital building fringe fortune, ie capital building in general."
+    },
+    "CBFR": {
+      "isoName": "CapitalBuildingRetirement",
+      "name": "Capital Building Retirement",
+      "definition": "Transaction is related to capital building fringe fortune for retirement."
+    },
+    "CCRD": {
+      "isoName": "CreditCardPayment",
+      "name": "Credit Card Payment",
+      "definition": "Transaction is related to a payment of credit card account."
+    },
+    "CDBL": {
+      "isoName": "CreditCardBill",
+      "name": "Credit Card Bill",
+      "definition": "Transaction is related to a payment of credit card bill."
+    },
+    "CFEE": {
+      "isoName": "CancellationFee",
+      "name": "Cancellation Fee",
+      "definition": "Transaction is related to a payment of cancellation fee."
+    },
+    "CGDD": {
+      "isoName": "CardGeneratedDirectDebit",
+      "name": "Card Generated Direct Debit",
+      "definition": "Transaction is related to a direct debit where the mandate was generated by using data from a payment card at the point of sale."
+    },
+    "CORT": {
+      "isoName": "TradeSettlementPayment",
+      "name": "Trade Settlement Payment",
+      "definition": "Transaction is related to settlement of a trade, e.g. a foreign exchange deal or a securities transaction."
+    },
+    "COST": {
+      "isoName": "Costs",
+      "name": "Costs",
+      "definition": "Transaction is related to payment of costs."
+    },
+    "CPKC": {
+      "isoName": "CarparkCharges",
+      "name": "Carpark Charges",
+      "definition": "Transaction is related to carpark charges."
+    },
+    "DCRD": {
+      "isoName": "DebitCardPayment",
+      "name": "Debit Card Payment",
+      "definition": "Transaction is related to a debit card payment."
+    },
+    "DSMT": {
+      "isoName": "PrintedOrderDisbursement",
+      "name": "Printed Order Disbursement",
+      "definition": "Transaction is the payment of a disbursement due to a specific type of printed order for a payment of a  specified sum, issued by a bank or a post office (Zahlungsanweisung zur Verrechnung)"
+    },
+    "DVPM": {
+      "isoName": "DeliverAgainstPayment",
+      "name": "Deliver Against Payment",
+      "definition": "Code used to pre-advise the account servicer of a forthcoming deliver against payment instruction."
+    },
+    "EDUC": {
+      "isoName": "Education",
+      "name": "Education",
+      "definition": "Transaction is related to a payment of study/tuition fees."
+    },
+    "FACT": {
+      "isoName": "FactorUpdateRelatedPayment",
+      "name": "Factor Update Related Payment",
+      "definition": "Payment related to a factor update"
+    },
+    "FAND": {
+      "isoName": "FinancialAidInCaseOfNaturalDisaster",
+      "name": "Financial Aid In Case Of Natural Disaster",
+      "definition": "Financial aid by State authorities for abolition of consequences of natural disasters."
+    },
+    "FCPM": {
+      "isoName": "LatePaymentOfFeesAndCharges",
+      "name": "Late Payment Of Fees And Charges",
+      "definition": "Transaction is the payment for late fees & charges. E.g Credit card charges"
+    },
+    "FEES": {
+      "isoName": "PaymentOfFees",
+      "name": "Payment Of Fees",
+      "definition": "Payment of fees/charges."
+    },
+    "GIFT": {
+      "isoName": "Gift",
+      "name": "Gift",
+      "definition": "Payment with no commercial or statutory purpose."
+    },
+    "GOVT": {
+      "isoName": "GovernmentPayment",
+      "name": "Government Payment",
+      "definition": "Transaction is a payment to or from a government department."
+    },
+    "ICCP": {
+      "isoName": "IrrevocableCreditCardPayment",
+      "name": "Irrevocable Credit Card Payment",
+      "definition": "Transaction is reimbursement of credit card payment."
+    },
+    "IDCP": {
+      "isoName": "IrrevocableDebitCardPayment",
+      "name": "Irrevocable Debit Card Payment",
+      "definition": "Transaction is reimbursement of debit card payment."
+    },
+    "IHRP": {
+      "isoName": "InstalmentHirePurchaseAgreement",
+      "name": "Instalment Hire Purchase Agreement",
+      "definition": "Transaction is payment for an installment/hire-purchase agreement."
+    },
+    "INSM": {
+      "isoName": "Installment",
+      "name": "Installment",
+      "definition": "Transaction is related to a payment of an installment."
+    },
+    "IVPT": {
+      "isoName": "InvoicePayment",
+      "name": "Invoice Payment",
+      "definition": "Transaction is the payment for invoices."
+    },
+    "MCDM": {
+      "isoName": "MultiCurrenyChequeDomestic",
+      "name": "Multi Curreny Cheque Domestic",
+      "definition": "Transaction is the payment of a domestic multi-currency cheque"
+    },
+    "MCFG": {
+      "isoName": "MultiCurrenyChequeForeign",
+      "name": "Multi Curreny Cheque Foreign",
+      "definition": "Transaction is the payment of a foreign multi-currency cheque"
+    },
+    "MSVC": {
+      "isoName": "MultipleServiceTypes",
+      "name": "Multiple Service Types",
+      "definition": "Transaction is related to a payment for multiple service types."
+    },
+    "NOWS": {
+      "isoName": "NotOtherwiseSpecified",
+      "name": "Not Otherwise Specified",
+      "definition": "Transaction is related to a payment for type of services not specified elsewhere."
+    },
+    "OCDM": {
+      "isoName": "OrderChequeDomestic",
+      "name": "Order Cheque Domestic",
+      "definition": "Transaction is the payment of a domestic order cheque"
+    },
+    "OCFG": {
+      "isoName": "OrderChequeForeign",
+      "name": "Order Cheque Foreign",
+      "definition": "Transaction is the payment of a foreign order cheque"
+    },
+    "OFEE": {
+      "isoName": "OpeningFee",
+      "name": "Opening Fee",
+      "definition": "Transaction is related to a payment of opening fee."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other payment purpose."
+    },
+    "PADD": {
+      "isoName": "PreauthorizedDebit",
+      "name": "Preauthorized Debit",
+      "definition": "Transaction is related to a pre-authorized debit origination"
+    },
+    "PTSP": {
+      "isoName": "PaymentTerms",
+      "name": "Payment Terms",
+      "definition": "Transaction is related to payment terms specifications"
+    },
+    "RCKE": {
+      "isoName": "RepresentedCheckEntry",
+      "name": "Represented Check Entry",
+      "definition": "Transaction is related to a payment associated with a re-presented check entry"
+    },
+    "RCPT": {
+      "isoName": "ReceiptPayment",
+      "name": "Receipt Payment",
+      "definition": "Transaction is related to a payment of receipt."
+    },
+    "REBT": {
+      "isoName": "Rebate",
+      "name": "Rebate",
+      "definition": "Transaction is the payment of a rebate."
+    },
+    "REFU": {
+      "isoName": "Refund",
+      "name": "Refund",
+      "definition": "Transaction is the payment of a refund."
+    },
+    "RENT": {
+      "isoName": "Rent",
+      "name": "Rent",
+      "definition": "Transaction is the payment of rent."
+    },
+    "REOD": {
+      "isoName": "AccountOverdraftRepayment",
+      "name": "Account Overdraft Repayment",
+      "definition": "Transaction is for account overdraft repayment"
+    },
+    "RIMB": {
+      "isoName": "ReimbursementOfAPreviousErroneousTransaction",
+      "name": "Reimbursement Of A Previous Erroneous Transaction",
+      "definition": "Transaction is related to a reimbursement of a previous erroneous transaction."
+    },
+    "RPNT": {
+      "isoName": "BilateralRepoInternetNetting",
+      "name": "Bilateral Repo Internet Netting",
+      "definition": "Bi-lateral repo interest net/bulk payment at rollover/pair-off or other closing scenarios where applicable."
+    },
+    "RRBN": {
+      "isoName": "RoundRobin",
+      "name": "Round Robin",
+      "definition": "Cash payment resulting from a Round Robin"
+    },
+    "RRCT": {
+      "isoName": "ReimbursementReceivedCreditTransfer",
+      "name": "Reimbursement Received Credit Transfer",
+      "definition": "Transaction is related to a reimbursement for commercial reasons of a correctly received credit transfer."
+    },
+    "RRTP": {
+      "isoName": "RelatedRequestToPay",
+      "name": "Related Request To Pay",
+      "definition": "Transaction is related to a Request to Pay."
+    },
+    "RVPM": {
+      "isoName": "ReceiveAgainstPayment",
+      "name": "Receive Against Payment",
+      "definition": "Code used to pre-advise the account servicer of a forthcoming receive against payment instruction."
+    },
+    "SLPI": {
+      "isoName": "PaymentSlipInstruction",
+      "name": "Payment Slip Instruction",
+      "definition": "Transaction is payment of a well formatted payment slip."
+    },
+    "SPLT": {
+      "isoName": "SplitPayments",
+      "name": "Split Payments",
+      "definition": "Split payments. To be used when cash and security movements for a security trade settlement are instructed|separately."
+    },
+    "STDY": {
+      "isoName": "Study",
+      "name": "Study",
+      "definition": "Transaction is related to a payment of study/tuition costs."
+    },
+    "TBAN": {
+      "isoName": "TBAPairOffNetting",
+      "name": "TBA Pair Off Netting",
+      "definition": "TBA pair-off cash wire net movement"
+    },
+    "TBIL": {
+      "isoName": "TelecommunicationsBill",
+      "name": "Telecommunications Bill",
+      "definition": "Transaction is related to a payment of telecommunications related bill."
+    },
+    "TCSC": {
+      "isoName": "TownCouncilServiceCharges",
+      "name": "Town Council Service Charges",
+      "definition": "Transaction is related to a payment associated with charges levied by a town council."
+    },
+    "TELI": {
+      "isoName": "TelephoneInitiatedTransaction",
+      "name": "Telephone Initiated Transaction",
+      "definition": "Transaction is related to a payment initiated via telephone."
+    },
+    "TMPG": {
+      "isoName": "TMPGClaimPayment",
+      "name": "TMPG Claim Payment",
+      "definition": "Cash payment resulting from a TMPG Claim"
+    },
+    "TPRI": {
+      "isoName": "TriPartyRepoInterest",
+      "name": "Tri Party Repo Interest",
+      "definition": "Tri-Party Repo related interest"
+    },
+    "TPRP": {
+      "isoName": "TriPartyRepoNetting",
+      "name": "Tri Party Repo Netting",
+      "definition": "Tri-party Repo related net gain/loss cash movement"
+    },
+    "TRNC": {
+      "isoName": "TruncatedPaymentSlip",
+      "name": "Truncated Payment Slip",
+      "definition": "Transaction is payment of a beneficiary prefilled payment slip where beneficiary to payer information is truncated."
+    },
+    "TRVC": {
+      "isoName": "TravellerCheque",
+      "name": "Traveller Cheque",
+      "definition": "Transaction is the payment of a travellers cheque"
+    },
+    "WEBI": {
+      "isoName": "InternetInitiatedTransaction",
+      "name": "Internet Initiated Transaction",
+      "definition": "Transaction is related to a payment initiated via internet."
+    },
+    "IPAY": {
+      "isoName": "InstantPayments",
+      "name": "Instant Payments",
+      "definition": "Transaction in which the amount is available to the payee immediately."
+    },
+    "IPCA": {
+      "isoName": "InstantPaymentsCancellation",
+      "name": "Instant Payments Cancellation",
+      "definition": "Transaction in which the Return of the amount is fully returned."
+    },
+    "IPDO": {
+      "isoName": "InstantPaymentsForDonations",
+      "name": "Instant Payments For Donations",
+      "definition": "Transaction in which the amount is available to the payee immediately, done for donations, with sending the address data of the payer."
+    },
+    "IPEA": {
+      "isoName": "InstantPaymentsInECommerceWithoutAddressData",
+      "name": "Instant Payments In E Commerce Without Address Data",
+      "definition": "Transaction in which the amount is available to the payee immediately, done in E-commerce, without sending the address data of the payer."
+    },
+    "IPEC": {
+      "isoName": "InstantPaymentsInECommerceWithAddressData",
+      "name": "Instant Payments In E Commerce With Address Data",
+      "definition": "Transaction in which the amount is available to the payee immediately, done in E-commerce, with sending the address data of the payer."
+    },
+    "IPEW": {
+      "isoName": "InstantPaymentsInECommerce",
+      "name": "Instant Payments In E Commerce",
+      "definition": "Transaction in which the amount is available to the payee immediately, done in E-commerce."
+    },
+    "IPPS": {
+      "isoName": "InstantPaymentsAtPOS",
+      "name": "Instant Payments At POS",
+      "definition": "Transaction in which the amount is available to the payee immediately, done at POS."
+    },
+    "IPRT": {
+      "isoName": "InstantPaymentsReturn",
+      "name": "Instant Payments Return",
+      "definition": "Transaction in which the Return of the amount is fully or partial returned."
+    },
+    "IPU2": {
+      "isoName": "InstantPaymentsUnattendedVendingMachineWith2FA",
+      "name": "Instant Payments Unattended Vending Machine With 2 FA",
+      "definition": "Transaction is made via an unattending vending machine by using 2-factor-authentification."
+    },
+    "IPUW": {
+      "isoName": "InstantPaymentsUnattendedVendingMachineWithout2FA",
+      "name": "Instant Payments Unattended Vending Machine Without 2 FA",
+      "definition": "Transaction is made via an unattending vending machine by without using 2-factor-authentification."
+    },
+    "ANNI": {
+      "isoName": "Annuity",
+      "name": "Annuity",
+      "definition": "Transaction settles annuity related to credit, insurance, investments, other.n"
+    },
+    "CAFI": {
+      "isoName": "CustodianManagementFeeInhouse",
+      "name": "Custodian Management Fee Inhouse",
+      "definition": "Transaction is the payment of custodian account management fee where custodian bank and current account servicing bank coincide."
+    },
+    "CFDI": {
+      "isoName": "CapitalFallingDueInhouse",
+      "name": "Capital Falling Due Inhouse",
+      "definition": "Transaction is the payment of capital falling due where custodian bank and current account servicing bank coincide."
+    },
+    "CMDT": {
+      "isoName": "CommodityTransfer",
+      "name": "Commodity Transfer",
+      "definition": "Transaction is payment of commodities."
+    },
+    "DERI": {
+      "isoName": "Derivatives",
+      "name": "Derivatives",
+      "definition": "Transaction is related to a derivatives transaction."
+    },
+    "DIVD": {
+      "isoName": "Dividend",
+      "name": "Dividend",
+      "definition": "Transaction is payment of dividends."
+    },
+    "FREX": {
+      "isoName": "ForeignExchange",
+      "name": "Foreign Exchange",
+      "definition": "Transaction is related to a foreign exchange operation."
+    },
+    "HEDG": {
+      "isoName": "Hedging",
+      "name": "Hedging",
+      "definition": "Transaction is related to a hedging operation."
+    },
+    "INVS": {
+      "isoName": "InvestmentAndSecurities",
+      "name": "Investment And Securities",
+      "definition": "Transaction is for the payment of mutual funds, investment products and shares"
+    },
+    "PRME": {
+      "isoName": "PreciousMetal",
+      "name": "Precious Metal",
+      "definition": "Transaction is related to a precious metal operation."
+    },
+    "SAVG": {
+      "isoName": "Savings",
+      "name": "Savings",
+      "definition": "Transfer to / from savings or to retirement account."
+    },
+    "SECU": {
+      "isoName": "Securities",
+      "name": "Securities",
+      "definition": "Transaction is the payment of securities."
+    },
+    "SEPI": {
+      "isoName": "SecuritiesPurchaseInhouse",
+      "name": "Securities Purchase Inhouse",
+      "definition": "Transaction is the payment of a purchase of securities where custodian bank and current account servicing bank coincide"
+    },
+    "TREA": {
+      "isoName": "TreasuryPayment",
+      "name": "Treasury Payment",
+      "definition": "Transaction is related to treasury operations."
+    },
+    "UNIT": {
+      "isoName": "UnitTrustPurchase",
+      "name": "Unit Trust Purchase",
+      "definition": "Transaction is purchase of Unit Trust"
+    },
+    "FNET": {
+      "isoName": "FuturesNettingPayment",
+      "name": "Futures Netting Payment",
+      "definition": "Cash associated with a netting of futures payments. Refer to CCPM codeword for netting of initial and variation margin through a CCP"
+    },
+    "FUTR": {
+      "isoName": "Futures",
+      "name": "Futures",
+      "definition": "Cash related to futures trading activity."
+    },
+    "ANTS": {
+      "isoName": "AnesthesiaServices",
+      "name": "Anesthesia Services",
+      "definition": "Transaction is a payment for anesthesia services."
+    },
+    "CVCF": {
+      "isoName": "ConvalescentCareFacility",
+      "name": "Convalescent Care Facility",
+      "definition": "Transaction is a payment for convalescence care facility services."
+    },
+    "DMEQ": {
+      "isoName": "DurableMedicaleEquipment",
+      "name": "Durable Medicale Equipment",
+      "definition": "Transaction is a payment is for use of durable medical equipment."
+    },
+    "DNTS": {
+      "isoName": "DentalServices",
+      "name": "Dental Services",
+      "definition": "Transaction is a payment for dental services."
+    },
+    "HLTC": {
+      "isoName": "HomeHealthCare",
+      "name": "Home Health Care",
+      "definition": "Transaction is a payment for home health care services."
+    },
+    "HLTI": {
+      "isoName": "HealthInsurance",
+      "name": "Health Insurance",
+      "definition": "Transaction is a payment of health insurance."
+    },
+    "HSPC": {
+      "isoName": "HospitalCare",
+      "name": "Hospital Care",
+      "definition": "Transaction is a payment for hospital care services."
+    },
+    "ICRF": {
+      "isoName": "IntermediateCareFacility",
+      "name": "Intermediate Care Facility",
+      "definition": "Transaction is a payment for intermediate care facility services."
+    },
+    "LTCF": {
+      "isoName": "LongTermCareFacility",
+      "name": "Long Term Care Facility",
+      "definition": "Transaction is a payment for long-term care facility services."
+    },
+    "MAFC": {
+      "isoName": "MedicalAidFundContribution",
+      "name": "Medical Aid Fund Contribution",
+      "definition": "Transaction is contribution to medical aid fund."
+    },
+    "MARF": {
+      "isoName": "MedicalAidRefund",
+      "name": "Medical Aid Refund",
+      "definition": "Transaction is related to a medical aid refund."
+    },
+    "MDCS": {
+      "isoName": "MedicalServices",
+      "name": "Medical Services",
+      "definition": "Transaction is a payment for medical care services."
+    },
+    "VIEW": {
+      "isoName": "VisionCare",
+      "name": "Vision Care",
+      "definition": "Transaction is a payment for vision care services."
+    },
+    "CDEP": {
+      "isoName": "CreditDefaultEventPayment",
+      "name": "Credit Default Event Payment",
+      "definition": "Payment related to a credit default event."
+    },
+    "SWFP": {
+      "isoName": "SwapContractFinalPayment",
+      "name": "Swap Contract Final Payment",
+      "definition": "Final payments for a swap contract"
+    },
+    "SWPP": {
+      "isoName": "SwapContractPartialPayment",
+      "name": "Swap Contract Partial Payment",
+      "definition": "Partial payment for a swap contract"
+    },
+    "SWRS": {
+      "isoName": "SwapContractResetPayment",
+      "name": "Swap Contract Reset Payment",
+      "definition": "Reset payment for a swap contract"
+    },
+    "SWUF": {
+      "isoName": "SwapContractUpfrontPayment",
+      "name": "Swap Contract Upfront Payment",
+      "definition": "Upfront payment for a swap contract"
+    },
+    "ADCS": {
+      "isoName": "AdvisoryDonationCopyrightServices",
+      "name": "Advisory Donation Copyright Services",
+      "definition": "Payments for donation, sponsorship, advisory, intellectual and other copyright services."
+    },
+    "AEMP": {
+      "isoName": "ActiveEmploymentPolicy",
+      "name": "Active Employment Policy",
+      "definition": "Payment concerning active employment policy."
+    },
+    "ALLW": {
+      "isoName": "Allowance",
+      "name": "Allowance",
+      "definition": "Transaction is the payment of allowances."
+    },
+    "ALMY": {
+      "isoName": "AlimonyPayment",
+      "name": "Alimony Payment",
+      "definition": "Transaction is the payment of alimony."
+    },
+    "BBSC": {
+      "isoName": "BabyBonusScheme",
+      "name": "Baby Bonus Scheme",
+      "definition": "Transaction is related to a payment made as incentive to encourage parents to have more children"
+    },
+    "BECH": {
+      "isoName": "ChildBenefit",
+      "name": "Child Benefit",
+      "definition": "Transaction is related to a payment made to assist parent/guardian to maintain child."
+    },
+    "BENE": {
+      "isoName": "UnemploymentDisabilityBenefit",
+      "name": "Unemployment Disability Benefit",
+      "definition": "Transaction is related to a payment to a person who is unemployed/disabled."
+    },
+    "BONU": {
+      "isoName": "BonusPayment.",
+      "name": "Bonus Payment.",
+      "definition": "Transaction is related to payment of a bonus."
+    },
+    "CCHD": {
+      "isoName": "CashCompensationHelplessnessDisability",
+      "name": "Cash Compensation Helplessness Disability",
+      "definition": "Payments made by Government institute related to cash compensation, helplessness, disability. These payments are made by the Government institution as a social benefit in addition to regularly paid salary or pension."
+    },
+    "COMM": {
+      "isoName": "Commission",
+      "name": "Commission",
+      "definition": "Transaction is payment of commission."
+    },
+    "CSLP": {
+      "isoName": "CompanySocialLoanPaymentToBank",
+      "name": "Company Social Loan Payment To Bank",
+      "definition": "Transaction is a payment by a company to a bank for financing social loans to employees."
+    },
+    "GFRP": {
+      "isoName": "GuaranteeFundRightsPayment",
+      "name": "Guarantee Fund Rights Payment",
+      "definition": "Compensation to unemployed persons during insolvency procedures."
+    },
+    "GVEA": {
+      "isoName": "AustrianGovernmentEmployeesCategoryA",
+      "name": "Austrian Government Employees Category A",
+      "definition": "Transaction is payment to category A Austrian government employees."
+    },
+    "GVEB": {
+      "isoName": "AustrianGovernmentEmployeesCategoryB",
+      "name": "Austrian Government Employees Category B",
+      "definition": "Transaction is payment to category B Austrian government employees."
+    },
+    "GVEC": {
+      "isoName": "AustrianGovernmentEmployeesCategoryC",
+      "name": "Austrian Government Employees Category C",
+      "definition": "Transaction is payment to category C Austrian government employees."
+    },
+    "GVED": {
+      "isoName": "AustrianGovernmentEmployeesCategoryD",
+      "name": "Austrian Government Employees Category D",
+      "definition": "Transaction is payment to category D Austrian government employees."
+    },
+    "GWLT": {
+      "isoName": "GovermentWarLegislationTransfer",
+      "name": "Goverment War Legislation Transfer",
+      "definition": "Payment to victims of war violence and to disabled soldiers."
+    },
+    "HREC": {
+      "isoName": "HousingRelatedContribution",
+      "name": "Housing Related Contribution",
+      "definition": "Transaction is a contribution by an employer to the housing expenditures (purchase, construction, renovation) of the employees within a tax free fringe benefit system."
+    },
+    "PAYR": {
+      "isoName": "Payroll",
+      "name": "Payroll",
+      "definition": "Transaction is related to the payment of payroll."
+    },
+    "PEFC": {
+      "isoName": "PensionFundContribution",
+      "name": "Pension Fund Contribution",
+      "definition": "Transaction is contribution to pension fund."
+    },
+    "PENS": {
+      "isoName": "PensionPayment",
+      "name": "Pension Payment",
+      "definition": "Transaction is the payment of pension."
+    },
+    "PRCP": {
+      "isoName": "PricePayment",
+      "name": "Price Payment",
+      "definition": "Transaction is related to a payment of a price."
+    },
+    "RHBS": {
+      "isoName": "RehabilitationSupport",
+      "name": "Rehabilitation Support",
+      "definition": "Benefit for the duration of occupational rehabilitation."
+    },
+    "SALA": {
+      "isoName": "SalaryPayment",
+      "name": "Salary Payment",
+      "definition": "Transaction is the payment of salaries."
+    },
+    "SPSP": {
+      "isoName": "SalaryPensionSumPayment",
+      "name": "Salary Pension Sum Payment",
+      "definition": "Salary or pension payment for more months in one amount or a delayed payment of salaries or pensions."
+    },
+    "SSBE": {
+      "isoName": "SocialSecurityBenefit",
+      "name": "Social Security Benefit",
+      "definition": "Transaction is a social security benefit, ie payment made by a government to support individuals."
+    },
+    "LBIN": {
+      "isoName": "LendingBuyInNetting",
+      "name": "Lending Buy In Netting",
+      "definition": "Net payment related to a buy-in. When an investment manager is bought in on a sell trade that fails due to a failed securities lending recall, the IM may seize the underlying collateral to pay for the buy-in. Any difference between the value of the collateral and the sell proceeds would be paid or received under this code"
+    },
+    "LCOL": {
+      "isoName": "LendingCashCollateralFreeMovement",
+      "name": "Lending Cash Collateral Free Movement",
+      "definition": "Free movement of cash collateral. Cash collateral paid by the borrower is done separately from the delivery of the shares at loan opening or return of collateral done separately from return of the loaned security. Note: common when the currency of the security is different the currency of the cash collateral."
+    },
+    "LFEE": {
+      "isoName": "LendingFees",
+      "name": "Lending Fees",
+      "definition": "Fee payments, other than rebates, for securities lending. Includes (a) exclusive fees; (b) transaction fees; (c)|custodian fees; (d) minimum balance fees"
+    },
+    "LMEQ": {
+      "isoName": "LendingEquityMarkedToMarketCashCollateral",
+      "name": "Lending Equity Marked To Market Cash Collateral",
+      "definition": "Cash collateral payments resulting from the marked-to-market of a portfolio of loaned equity securities"
+    },
+    "LMFI": {
+      "isoName": "LendingFixedIncomeMarkedToMarketCashCollateral",
+      "name": "Lending Fixed Income Marked To Market Cash Collateral",
+      "definition": "Cash collateral payments resulting from the marked-to-market of a portfolio of loaned fixed income securities"
+    },
+    "LMRK": {
+      "isoName": "LendingUnspecifiedTypeOfMarkedToMarketCashCollateral",
+      "name": "Lending Unspecified Type Of Marked To Market Cash Collateral",
+      "definition": "Cash collateral payments resulting from the marked-to-market of a portfolio of loaned securities where the instrument|types are not specified"
+    },
+    "LREB": {
+      "isoName": "LendingRebatePayments",
+      "name": "Lending Rebate Payments",
+      "definition": "Securities lending rebate payments"
+    },
+    "LREV": {
+      "isoName": "LendingRevenuePayments",
+      "name": "Lending Revenue Payments",
+      "definition": "Revenue payments made by the lending agent to the client"
+    },
+    "LSFL": {
+      "isoName": "LendingClaimPayment",
+      "name": "Lending Claim Payment",
+      "definition": "Payments made by a borrower to a lending agent to satisfy claims made by the investment manager related to sell fails from late loan recall deliveries"
+    },
+    "ESTX": {
+      "isoName": "EstateTax",
+      "name": "Estate Tax",
+      "definition": "Transaction is related to a payment of estate tax."
+    },
+    "FWLV": {
+      "isoName": "ForeignWorkerLevy",
+      "name": "Foreign Worker Levy",
+      "definition": "Transaction is related to a payment of Foreign Worker Levy"
+    },
+    "GSTX": {
+      "isoName": "GoodsServicesTax",
+      "name": "Goods Services Tax",
+      "definition": "Transaction is the payment of Goods & Services Tax"
+    },
+    "HSTX": {
+      "isoName": "HousingTax",
+      "name": "Housing Tax",
+      "definition": "Transaction is related to a payment of housing tax."
+    },
+    "INTX": {
+      "isoName": "IncomeTax",
+      "name": "Income Tax",
+      "definition": "Transaction is related to a payment of income tax."
+    },
+    "NITX": {
+      "isoName": "NetIncomeTax",
+      "name": "Net Income Tax",
+      "definition": "Transaction is related to a payment of net income tax."
+    },
+    "PTXP": {
+      "isoName": "PropertyTax",
+      "name": "Property Tax",
+      "definition": "Transaction is related to a payment of property tax."
+    },
+    "RDTX": {
+      "isoName": "RoadTax",
+      "name": "Road Tax",
+      "definition": "Transaction is related to a payment of road tax."
+    },
+    "TAXS": {
+      "isoName": "TaxPayment",
+      "name": "Tax Payment",
+      "definition": "Transaction is the payment of taxes."
+    },
+    "VATX": {
+      "isoName": "ValueAddedTaxPayment",
+      "name": "Value Added Tax Payment",
+      "definition": "Transaction is the payment of value added tax."
+    },
+    "WHLD": {
+      "isoName": "WithHolding",
+      "name": "With Holding",
+      "definition": "Transaction is related to a payment of withholding tax."
+    },
+    "TAXR": {
+      "isoName": "TaxRefund",
+      "name": "Tax Refund",
+      "definition": "Transaction is the refund of a tax payment or obligation."
+    },
+    "B112": {
+      "isoName": "TrailerFeePayment",
+      "name": "Trailer Fee Payment",
+      "definition": "US mutual fund trailer fee (12b-1) payment"
+    },
+    "BR12": {
+      "isoName": "TrailerFeeRebate",
+      "name": "Trailer Fee Rebate",
+      "definition": "US mutual fund trailer fee (12b-1) rebate payment"
+    },
+    "TLRF": {
+      "isoName": "NonUSMutualFundTrailerFeePayment",
+      "name": "Non US Mutual Fund Trailer Fee Payment",
+      "definition": "Any non-US mutual fund trailer fee (retrocession) payment (use ISIN to determine onshore versus offshore designation)"
+    },
+    "TLRR": {
+      "isoName": "NonUSMutualFundTrailerFeeRebatePayment",
+      "name": "Non US Mutual Fund Trailer Fee Rebate Payment",
+      "definition": "Any non-US mutual fund trailer fee (retrocession) rebate payment (use ISIN to determine onshore versus offshore designation)"
+    },
+    "AIRB": {
+      "isoName": "Air",
+      "name": "Air",
+      "definition": "Transaction is a payment for air transport related business."
+    },
+    "BUSB": {
+      "isoName": "Bus",
+      "name": "Bus",
+      "definition": "Transaction is a payment for bus transport related business."
+    },
+    "FERB": {
+      "isoName": "Ferry",
+      "name": "Ferry",
+      "definition": "Transaction is a payment for ferry related business."
+    },
+    "RLWY": {
+      "isoName": "Railway",
+      "name": "Railway",
+      "definition": "Transaction is a payment for railway transport related business."
+    },
+    "TRPT": {
+      "isoName": "RoadPricing",
+      "name": "Road Pricing",
+      "definition": "Transaction is for the payment to top-up pre-paid card and electronic road pricing for the purpose of transportation"
+    },
+    "CBTV": {
+      "isoName": "CableTVBill",
+      "name": "Cable TV Bill",
+      "definition": "Transaction is related to a payment of cable TV bill."
+    },
+    "ELEC": {
+      "isoName": "ElectricityBill",
+      "name": "Electricity Bill",
+      "definition": "Transaction is related to a payment of electricity bill."
+    },
+    "ENRG": {
+      "isoName": "Energies",
+      "name": "Energies",
+      "definition": "Transaction is related to a utility operation."
+    },
+    "GASB": {
+      "isoName": "GasBill",
+      "name": "Gas Bill",
+      "definition": "Transaction is related to a payment of gas bill."
+    },
+    "NWCH": {
+      "isoName": "NetworkCharge",
+      "name": "Network Charge",
+      "definition": "Transaction is related to a payment of network charges."
+    },
+    "NWCM": {
+      "isoName": "NetworkCommunication",
+      "name": "Network Communication",
+      "definition": "Transaction is related to a payment of network communication."
+    },
+    "OTLC": {
+      "isoName": "OtherTelecomRelatedBill",
+      "name": "Other Telecom Related Bill",
+      "definition": "Transaction is related to a payment of other telecom related bill."
+    },
+    "PHON": {
+      "isoName": "TelephoneBill",
+      "name": "Telephone Bill",
+      "definition": "Transaction is related to a payment of telephone bill."
+    },
+    "UBIL": {
+      "isoName": "Utilities",
+      "name": "Utilities",
+      "definition": "Transaction is for the payment to common utility provider that provide gas, water and/or electricity."
+    },
+    "WTER": {
+      "isoName": "WaterBill",
+      "name": "Water Bill",
+      "definition": "Transaction is related to a payment of water bill."
+    },
+    "BOND": {
+      "isoName": "Bonds",
+      "name": "Bonds",
+      "definition": "Securities Lending-Settlement of Bond transaction."
+    },
+    "CABD": {
+      "isoName": "CorporateActions-Bonds",
+      "name": "Corporate Actions-Bonds",
+      "definition": "Securities Lending-Settlement of Corporate Actions: Bonds transactions."
+    },
+    "CAEQ": {
+      "isoName": "CorporateActions-Equities",
+      "name": "Corporate Actions-Equities",
+      "definition": "Securities Lending-Settlement of Corporate Actions: Equities transactions."
+    },
+    "CBCR": {
+      "isoName": "CreditCard",
+      "name": "Credit Card",
+      "definition": "Card Settlement-Settlement of Credit Card transactions."
+    },
+    "DBCR": {
+      "isoName": "DebitCard",
+      "name": "Debit Card",
+      "definition": "Card Settlement-Settlement of Debit Card transactions."
+    },
+    "DICL": {
+      "isoName": "Diners",
+      "name": "Diners",
+      "definition": "Card Settlement-Settlement of Diners transactions."
+    },
+    "EQTS": {
+      "isoName": "Equities",
+      "name": "Equities",
+      "definition": "Securities Lending-Settlement of Equities transactions."
+    },
+    "FLCR": {
+      "isoName": "FleetCard",
+      "name": "Fleet Card",
+      "definition": "Card Settlement-Settlement of Fleet transactions."
+    },
+    "EFTC": {
+      "isoName": "LowValueCredit",
+      "name": "Low Value Credit",
+      "definition": "Utilities-Settlement of Low value Credit transactions."
+    },
+    "EFTD": {
+      "isoName": "LowValueDebit",
+      "name": "Low Value Debit",
+      "definition": "Utilities-Settlement of Low value Debit transactions."
+    },
+    "MOMA": {
+      "isoName": "MoneyMarket",
+      "name": "Money Market",
+      "definition": "Securities Lending-ettlement of Money Market PCH."
+    },
+    "RAPI": {
+      "isoName": "RapidPaymentInstruction",
+      "name": "Rapid Payment Instruction",
+      "definition": "Instant Payments-Settlement of Rapid Payment Instruction (RPI) transactions."
+    },
+    "GAMB": {
+      "isoName": "GamblingOrWageringPayment",
+      "name": "Gambling Or Wagering Payment",
+      "definition": "General-Payments towards a purchase or winnings received from gambling, betting or other wagering activities."
+    },
+    "LOTT": {
+      "isoName": "LotteryPayment",
+      "name": "Lottery Payment",
+      "definition": "General-Payment towards a purchase or winnings received from lottery activities."
+    },
+    "AMEX": {
+      "isoName": "Amex",
+      "name": "Amex",
+      "definition": "Card Settlement-Settlement of AMEX transactions."
+    },
+    "SASW": {
+      "isoName": "ATM",
+      "name": "ATM",
+      "definition": "Card Settlement-Settlement of ATM transactions."
+    },
+    "AUCO": {
+      "isoName": "AuthenticatedCollections",
+      "name": "Authenticated Collections",
+      "definition": "Utilities-Settlement of Authenticated Collections transactions."
+    },
+    "PCOM": {
+      "isoName": "PropertyCompletionPayment",
+      "name": "Property Completion Payment",
+      "definition": "Final payment to complete the purchase of a property."
+    },
+    "PDEP": {
+      "isoName": "PropertyDeposit",
+      "name": "Property Deposit",
+      "definition": "Payment of the deposit required towards purchase of a property."
+    },
+    "PLDS": {
+      "isoName": "PropertyLoanDisbursement",
+      "name": "Property Loan Disbursement",
+      "definition": "Payment of funds from a lender as part of the issuance of a property loan."
+    },
+    "PLRF": {
+      "isoName": "PropertyLoanRefinancing",
+      "name": "Property Loan Refinancing",
+      "definition": "Transfer or extension of a property financing arrangement to a new deal or loan provider, without change of ownership of property."
+    },
+    "GAFA": {
+      "isoName": "GovernmentFamilyAllowance",
+      "name": "Government Family Allowance",
+      "definition": "Salary and Benefits-Allowance from government to support family."
+    },
+    "GAHO": {
+      "isoName": "GovernmentHousingAllowance",
+      "name": "Government Housing Allowance",
+      "definition": "Salary and Benefits-Allowance from government to individuals to support payments of housing."
+    },
+    "CPEN": {
+      "isoName": "CashPenalties",
+      "name": "Cash Penalties",
+      "definition": "Cash penalties related to securities transaction, including CSDR Settlement Discipline Regime."
+    },
+    "DEPD": {
+      "isoName": "DependentSupportPayment",
+      "name": "Dependent Support Payment",
+      "definition": "Transaction is related to a payment concerning dependent support, for example child support or support for a person substantially financially dependent on the support provider."
+    },
+    "RETL": {
+      "isoName": "RetailPayment",
+      "name": "Retail Payment",
+      "definition": "Retail payment including e-commerce and online shopping."
+    },
+    "DEBT": {
+      "isoName": "ChargesBorneByDebtor",
+      "name": "Charges Borne By Debtor",
+      "definition": "Purpose of payment is the settlement of charges payable by the debtor in relation to an underlying customer credit transfer."
+    },
+    "RMCO": {
+      "isoName": "RegisteredMandate",
+      "name": "Registered Mandate",
+      "definition": "Utilities-Settlement of Unauthenticated Collections transactions."
+    },
+    "INBC": {
+      "isoName": "InterbankCharges",
+      "name": "Interbank Charges",
+      "definition": "Settlement of charges in response to a prior interbank charge request."
+    },
+    "LBXX": {
+      "isoName": "LongBoxTransfer",
+      "name": "Long Box Transfer",
+      "definition": "Transaction is related to a cash transfer from an underlying fund to a holding collateralization account (ie. Longbox) for potential further use as collateral or back to the fund in case it is not required anymore."
+    },
+    "MFSR": {
+      "isoName": "MutualFundSubscriptionRedemption",
+      "name": "Mutual Fund Subscription Redemption",
+      "definition": "Payment related to shares settlement of a subscription or redemption order."
+    },
+    "CRYP": {
+      "isoName": "CryptoAssets",
+      "name": "Crypto Assets",
+      "definition": "Transaction is related to the purchase or sale of crypto assets."
+    },
+    "MDEP": {
+      "isoName": "MicroDeposit",
+      "name": "Micro Deposit",
+      "definition": "Transaction is a small deposit, e.g., for account verification purposes."
+    },
+    "BROK": {
+      "isoName": "BrokerageFunding",
+      "name": "Brokerage Funding",
+      "definition": "Account transfer funding a brokerage account."
+    },
+    "ACTF": {
+      "isoName": "AccountFunding",
+      "name": "Account Funding",
+      "definition": "Account transfer funding a bank account (Demand Deposit (DDA) and savings accounts)."
+    },
+    "WALM": {
+      "isoName": "WalletFundingMultiUse",
+      "name": "Wallet Funding Multi Use",
+      "definition": "Account transfer funding a multi-use wallet."
+    },
+    "WALS": {
+      "isoName": "WalletFundingSingle",
+      "name": "Wallet Funding Single",
+      "definition": "Account transfer funding a single purpose wallet."
+    },
+    "CHDF": {
+      "isoName": "CharitableDonationDAF",
+      "name": "Charitable Donation DAF",
+      "definition": "Charitable donation being processed on behalf of a Donor Advised Fund (DAF)."
+    },
+    "CHFN": {
+      "isoName": "CharitableDonationFoundation",
+      "name": "Charitable Donation Foundation",
+      "definition": "Charitable donation being processed on behalf of a Foundation (purpose-driven entity)."
+    },
+    "CHCP": {
+      "isoName": "CharitableDonationCorporate",
+      "name": "Charitable Donation Corporate",
+      "definition": "Charitable donation being processed on behalf of a Corporate entity."
+    },
+    "TNTP": {
+      "isoName": "TaxNeutralPensionTransfer",
+      "name": "Tax Neutral Pension Transfer",
+      "definition": "Transaction is a tax-neutral transfer of existing pension balance."
+    },
+    "ALDS": {
+      "isoName": "AutoLoanDisbursement",
+      "name": "Auto Loan Disbursement",
+      "definition": "Disbursement of funds for vehicle purchases including cars, trucks, motorcycles, boats, RVs/motorhomes, ATVs/UTVs, jet skis, snowmobiles, commercial vehicles, and trailers."
+    },
+    "PSDS": {
+      "isoName": "PersonalLoanDisbursement",
+      "name": "Personal Loan Disbursement",
+      "definition": "Personal Loan Disbursement, e.g., disbursing funds for debt consolidation, home improvement, or major purchases."
+    },
+    "BLDS": {
+      "isoName": "BusinessLoanDisbursement",
+      "name": "Business Loan Disbursement",
+      "definition": "Business Loan Disbursement, e.g., disbursing capital for business expansion, equipment purchase, or operational expenses."
+    },
+    "SLDS": {
+      "isoName": "StudentLoanDisbursement",
+      "name": "Student Loan Disbursement",
+      "definition": "Student Loan Disbursement, e.g., disbursing tuition funds to educational institutions or directly to students."
+    },
+    "CLDS": {
+      "isoName": "ConstructionLoanDisbursement",
+      "name": "Construction Loan Disbursement",
+      "definition": "Construction Loan Disbursement, e.g., phased disbursements for construction projects based on completion milestones."
+    },
+    "PDLN": {
+      "isoName": "PayDayLoan",
+      "name": "Pay Day Loan",
+      "definition": "Pay Day Loan, e.g., short-term, high-interest loans typically due on borrower's next payday."
+    },
+    "BNPL": {
+      "isoName": "BuyNowPayLater",
+      "name": "Buy Now Pay Later",
+      "definition": "Buy Now Pay Later Payments, e.g., point-of-sale financing options allowing installment payments for retail purchases."
+    },
+    "ESCR": {
+      "isoName": "EscrowPayment",
+      "name": "Escrow Payment",
+      "definition": "Financial intermediation services via an escrow account, e.g., real estate transactions, online marketplace purchases, business acquisitions, construction projects, legal settlements."
+    },
+    "ODPY": {
+      "isoName": "OnDemandPayment",
+      "name": "On Demand Payment",
+      "definition": "On demand/Real-time payments, e.g., Same-day wage access, gig economy payouts."
+    },
+    "FUEL": {
+      "isoName": "Fuel",
+      "name": "Fuel",
+      "definition": "Fuel/Gas, e.g., purchases at gas stations for vehicle fuel or at charging stations for electric vehicles."
+    },
+    "TOLL": {
+      "isoName": "Tolls",
+      "name": "Tolls",
+      "definition": "Tolls, e.g., payments for road tolls, bridges, tunnels, or electronic toll collection systems."
+    },
+    "CARL": {
+      "isoName": "CarLeaseRental",
+      "name": "Car Lease Rental",
+      "definition": "Car Rentals, e.g., short-term vehicle rentals."
+    },
+    "TRVL": {
+      "isoName": "TravelAndHospitality",
+      "name": "Travel And Hospitality",
+      "definition": "Generic code for travel and hospitality related transactions, e.g., hotel bookings, vacation rentals, travel packages, or direct hotel reservations."
+    },
+    "GYMM": {
+      "isoName": "GymMembership",
+      "name": "Gym Membership",
+      "definition": "Gym Membership, e.g., monthly or annual fees for fitness centers or health clubs."
+    },
+    "HMMS": {
+      "isoName": "HomeMaintenanceServices",
+      "name": "Home Maintenance Services",
+      "definition": "Home Maintenance Related, e.g., regular services for home cleaning, lawn care, pest control, or pool maintenance."
+    },
+    "STRM": {
+      "isoName": "StreamingServices",
+      "name": "Streaming Services",
+      "definition": "Streaming Services, e.g., monthly subscriptions to digital content platforms."
+    },
+    "HRPS": {
+      "isoName": "HomeRepairServices",
+      "name": "Home Repair Services",
+      "definition": "Home Repair, e.g., one-time or emergency repairs for washer/dryer, damaged floors, plumbing issues, or electrical problems."
+    },
+    "RHSV": {
+      "isoName": "RideHailingServices",
+      "name": "Ride Hailing Services",
+      "definition": "Ride-hailing/Delivery Service, e.g., payments for app-based rides."
+    },
+    "FGDL": {
+      "isoName": "FoodGroceryDelivery",
+      "name": "Food Grocery Delivery",
+      "definition": "Food/Grocery Delivery, e.g., delivery fees and payments through app-based food delivery services."
+    },
+    "ERPM": {
+      "isoName": "EmergencyReliefPayment",
+      "name": "Emergency Relief Payment",
+      "definition": "Emergency relief payments, e.g., receiving assistance after natural disasters, COVID relief payments, or emergency aid disbursements."
+    },
+    "GOVG": {
+      "isoName": "GovernmentGrants",
+      "name": "Government Grants",
+      "definition": "Government Grants, e.g., receiving funds for academic research, small business development, educational programs, or community initiatives."
+    },
+    "TIPS": {
+      "isoName": "TipsGratuity",
+      "name": "Tips Gratuity",
+      "definition": "Tip/Gratuity, e.g., additional payments for service workers at restaurants, hotels, salons, or through digital tipping platforms."
+    },
+    "SCAC": {
+      "isoName": "SchoolActivities",
+      "name": "School Activities",
+      "definition": "Transaction is related to payment for school activities, extracurricular programs."
+    },
+    "WALT": {
+      "isoName": "WalletTransactions",
+      "name": "Wallet Transactions",
+      "definition": "Transaction is related to digital wallet funding or defunding."
+    }
+  }
+}

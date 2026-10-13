@@ -1,0 +1,40 @@
+{
+  "isoType": "MeetingReference11",
+  "language": "en",
+  "name": "Meeting Reference 11",
+  "definition": "Identification of a meeting.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "name": "Meeting Identification",
+      "definition": "Identification assigned to the general meeting by the party that provides the meeting notification. It must be unique to the party providing the notification."
+    },
+    "IssuerMeetingIdentification": {
+      "name": "Issuer Meeting Identification",
+      "definition": "Identification assigned to the meeting by the issuer. It must be unique for the issuer."
+    },
+    "MeetingDateAndTime": {
+      "name": "Meeting Date And Time",
+      "definition": "Date and time at which the meeting will take place."
+    },
+    "EntitlementFixingDate": {
+      "name": "Entitlement Fixing Date",
+      "definition": "Date at which the positions are struck to record which parties will receive the entitlement, for example, record date, book close date."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of meeting for which instructions are sent."
+    },
+    "Classification": {
+      "name": "Classification",
+      "definition": "Classification type of the meeting."
+    },
+    "Location": {
+      "name": "Location",
+      "definition": "Place of the company meeting for the scheduled meeting date."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Institution that is the issuer of the security to which the meeting applies."
+    }
+  }
+}

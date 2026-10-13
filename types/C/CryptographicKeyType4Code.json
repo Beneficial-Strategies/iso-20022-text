@@ -1,0 +1,43 @@
+{
+  "isoType": "CryptographicKeyType4Code",
+  "language": "en",
+  "name": "Cryptographic Key Type 4 Code",
+  "definition": "Category of the cryptographic key.",
+  "isoCodes": {
+    "APPL": {
+      "isoName": "Application",
+      "name": "Application",
+      "definition": "Key used to protect application information."
+    },
+    "DATA": {
+      "isoName": "Data",
+      "name": "Data",
+      "definition": "Key used to protect data in the messages."
+    },
+    "DYNC": {
+      "isoName": "Dynamic",
+      "name": "Dynamic",
+      "definition": "Any cryptographic key that can be downloaded."
+    },
+    "KENC": {
+      "isoName": "KeyEncryption",
+      "name": "Key Encryption",
+      "definition": "Key used to encrypt other keys."
+    },
+    "MACK": {
+      "isoName": "MAC",
+      "name": "MAC",
+      "definition": "Key used to generate the MAC of a message."
+    },
+    "PINK": {
+      "isoName": "PIN",
+      "name": "PIN",
+      "definition": "Key used to encrypt a PIN."
+    },
+    "WRKG": {
+      "isoName": "Working",
+      "name": "Working",
+      "definition": "Temporary key used to download keys."
+    }
+  }
+}

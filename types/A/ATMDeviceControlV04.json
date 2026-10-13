@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDeviceControlV04",
+  "language": "en",
+  "name": "ATM Device Control V 04",
+  "definition": "The ATMDeviceControl message is sent by a maintenance host to an ATM in response to an ATMDeviceReport message. The message contains a sequence of maintenance commands the ATM must perform.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMDeviceControl": {
+      "name": "Protected ATM Device Control",
+      "definition": ""
+    },
+    "ATMDeviceControl": {
+      "name": "ATM Device Control",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

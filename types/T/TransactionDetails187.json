@@ -1,0 +1,170 @@
+{
+  "isoType": "TransactionDetails187",
+  "language": "en",
+  "name": "Transaction Details 187",
+  "definition": "Identifies additional details of the transaction.",
+  "isoElements": {
+    "TransactionActivity": {
+      "name": "Transaction Activity",
+      "definition": "Specifies the type of activity to which this instruction relates."
+    },
+    "SettlementTransactionOrCorporateActionEventType": {
+      "name": "Settlement Transaction Or Corporate Action Event Type",
+      "definition": "Choice of type for the transaction reported."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": "Parameters applied to the settlement of a security transfer."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "PlaceOfClearing": {
+      "name": "Place Of Clearing",
+      "definition": "Infrastructure which may be a component of a clearing house and which facilitates clearing and settlement for its members by standing between the buyer and the seller. It may net transactions and it substitutes itself as settlement counterparty for each position."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Primary market or country where a security is issued by the issuer or its agent."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "name": "Conditional Securities Delivery",
+      "definition": "Specifies whether the transaction is under Conditional Securities Delivery (CoSD)."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of financial instrument to be settled."
+    },
+    "SettledQuantity": {
+      "name": "Settled Quantity",
+      "definition": "Quantity of financial instrument effectively settled and which will be delivered to/received from the account owner's securities account. It may differ from the instructed settlement quantity based on market tolerance level."
+    },
+    "PreviouslySettledQuantity": {
+      "name": "Previously Settled Quantity",
+      "definition": "Quantity of financial instrument previously settled."
+    },
+    "RemainingToBeSettledQuantity": {
+      "name": "Remaining To Be Settled Quantity",
+      "definition": "Quantity of financial instrument remaining to be settled."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities."
+    },
+    "SettledAmount": {
+      "name": "Settled Amount",
+      "definition": "Amount of money effectively settled and which will be credited to/debited from the account owner's cash account. It may differ from the instructed settlement amount based on market tolerance level."
+    },
+    "PreviouslySettledAmount": {
+      "name": "Previously Settled Amount",
+      "definition": "Amount of money previously settled."
+    },
+    "RemainingSettlementAmount": {
+      "name": "Remaining Settlement Amount",
+      "definition": "Amount of money remaining to be settled."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between coupon payment periods."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared, that is a payment is effected and securities are delivered."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry)."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "name": "Acknowledged Status Time Stamp",
+      "definition": "Time stamp on when the transaction is acknowledged."
+    },
+    "MatchedStatusTimeStamp": {
+      "name": "Matched Status Time Stamp",
+      "definition": "Time stamp on when the transaction is matched."
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": "Link to another transaction that must be processed after, before or at the same time."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "ReversalIndicator": {
+      "name": "Reversal Indicator",
+      "definition": "Specifies whether it is the reversal of a previously reported movement."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "TransactionAdditionalDetails": {
+      "name": "Transaction Additional Details",
+      "definition": "Provides additional details on the transaction which can not be included within the structured fields of the message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "PostingAmountRule": {
+      "definition": "If the instruction is against payment, PostingAmount must be present.|."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if TransactionAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "For settlement of two parts transactions (Securities Financing), the opening/initiation and closing/return of the transaction is confirmed by sending the below combination of SecuritiesMovementType codes and SettlementParameters/SecuritiesTransactionType codes:||Repo Opening|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo Closing|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse Repo Opening|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse Repo Closing|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||TriParty Repo Opening|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|TriParty Repo Closing|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||TriParty Reverse Repo Opening|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|TriParty Reverse Repo Closing|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Securities Lending Initiation|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Securities Lending Return|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Securities Borrowing Initiation|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Securities Borrowing Return|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "For settlement of two parts transactions (buy-sell back, sell buy-back, collateral in and out), the opening/initiation and closing/return of the transaction is confirmed by sending the below combination of SecuritiesMovementType codes and SettlementParameters/SecuritiesTransactionType codes:||Sell-Buy Back: Sell|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Buy Back|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Buy|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Sell Back|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Collateral (giver) Out Initiation|SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Collateral (giver) Out Return|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Collateral (taker) In Initiation|SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Collateral (taker) In Return|SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

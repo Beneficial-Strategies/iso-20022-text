@@ -1,0 +1,52 @@
+{
+  "isoType": "PortfolioTransfer14",
+  "language": "en",
+  "name": "Portfolio Transfer 14",
+  "definition": "Type of product and assets to be transferred.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferIdentification": {
+      "name": "Transfer Identification",
+      "definition": "Identification assigned to the transfer of assets."
+    },
+    "TransferConfirmationIdentification": {
+      "name": "Transfer Confirmation Identification",
+      "definition": "Identification of the confirmation assigned by the transferor to the transfer."
+    },
+    "RequestedTransferDate": {
+      "name": "Requested Transfer Date",
+      "definition": "Date for which the instructing party requests the transfer of the portfolio as a whole."
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Choice of tax efficient product, general investment or pension."
+    },
+    "AllOtherCash": {
+      "name": "All Other Cash",
+      "definition": "Specifies whether all remaining assets in the portfolio not listed for transfer should be liquidated and transferred as cash."
+    },
+    "CashAll": {
+      "name": "Cash All",
+      "definition": "Specifies whether all assets in the portfolio are to be liquidated and transferred as cash."
+    },
+    "ResidualCash": {
+      "name": "Residual Cash",
+      "definition": "Specifies how the cash in the account that is awaiting investment is to be dealt with."
+    },
+    "PaymentDetails": {
+      "name": "Payment Details",
+      "definition": "Payment process for the transfer of cash from the debtor to the creditor."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "name": "Financial Instrument Asset For Transfer",
+      "definition": "Asset to be transferred."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the product transfer."
+    }
+  }
+}

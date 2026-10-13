@@ -1,0 +1,48 @@
+{
+  "isoType": "InstructionProcessingStatus58Choice",
+  "language": "en",
+  "name": "Instruction Processing Status 58 Choice",
+  "definition": "Choice between different instruction processing statuses.",
+  "isoElements": {
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Status and quantity information related to a cancelled instruction request."
+    },
+    "AcceptedForFurtherProcessing": {
+      "name": "Accepted For Further Processing",
+      "definition": "Status information related to an instruction request that is accepted. This means that the instruction has been received, is processable and has been validated for further processing."
+    },
+    "Forwarded": {
+      "name": "Forwarded",
+      "definition": "Instruction has been accepted and forwarded to the next intermediary in the chain."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status information related to an instruction request rejected for further processing due to system reasons."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Status information related to a pending instruction."
+    },
+    "Returned": {
+      "name": "Returned",
+      "definition": "Instructed units are returned or partially returned to the instructing party."
+    },
+    "DefaultAction": {
+      "name": "Default Action",
+      "definition": "Default action is taken."
+    },
+    "StandingInstruction": {
+      "name": "Standing Instruction",
+      "definition": "Standing instruction has been applied."
+    },
+    "ReceivedByIssuerOrOfferor": {
+      "name": "Received By Issuer Or Offeror",
+      "definition": "Instruction has been received and accepted by the issuer or offeror."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Proprietary status related to an instruction."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "TrackerData8",
+  "language": "en",
+  "name": "Tracker Data 8",
+  "definition": "Specifies the detailed information as provided by a payment tracking system.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "name": "Confirmed Date",
+      "definition": "Point in time when the creditor’s account has been credited with the funds for a payment."
+    },
+    "ConfirmedAmount": {
+      "name": "Confirmed Amount",
+      "definition": "Amount of money effectively credited to the creditor and confirmed to the tracking system by the agent."
+    },
+    "ReturnedConfirmedDate": {
+      "name": "Returned Confirmed Date",
+      "definition": "Point in time when the creditor’s account has been credited with the funds for a payment return."
+    },
+    "ReturnedConfirmedAmount": {
+      "name": "Returned Confirmed Amount",
+      "definition": "Amount of money effectively credited to the creditor for a payment return and confirmed to the tracking system by the agent."
+    },
+    "RemainingToBeConfirmedAmount": {
+      "name": "Remaining To Be Confirmed Amount",
+      "definition": "Amount of money remaining to be confirmed."
+    },
+    "PreviouslyConfirmedAmount": {
+      "name": "Previously Confirmed Amount",
+      "definition": "Amount of money previously credited to the creditor and confirmed to the tracking system by the agent."
+    },
+    "PreviouslyConfirmedDate": {
+      "name": "Previously Confirmed Date",
+      "definition": "Point in time when the previous amount was confirmed.||Usage: |This date provides the point in time when the last previous confirmed amount was provided to the tracker, in case of a partial confirmation."
+    }
+  }
+}

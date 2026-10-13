@@ -1,0 +1,78 @@
+{
+  "isoType": "CorporateActionMovementReversalAdvice002V16",
+  "language": "en",
+  "name": "Corporate Action Movement Reversal Advice 002 V 16",
+  "definition": "Scope|The CorporateActionMovementReversalAdvice message is sent by an account servicer to an account owner or its designated agent to reverse a previously confirmed posting of securities or cash.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "MovementConfirmationIdentification": {
+      "name": "Movement Confirmation Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": ""
+    },
+    "ReversalReason": {
+      "name": "Reversal Reason",
+      "definition": ""
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": ""
+    },
+    "CorporateActionConfirmationDetails": {
+      "name": "Corporate Action Confirmation Details",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "IssuerAgent": {
+      "name": "Issuer Agent",
+      "definition": ""
+    },
+    "PayingAgent": {
+      "name": "Paying Agent",
+      "definition": ""
+    },
+    "SubPayingAgent": {
+      "name": "Sub Paying Agent",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "The CorporateActionConfirmationDetails/OptionNumber value provided must be the same as the one provided in the related CorporateActionOptionDetails/OptionNumber element of the CorporateActionNotification or CorporateActionMovementPreliminaryAdvice messages previously sent."
+    },
+    "AdditionalInformationRule": {
+      "definition": "All elements in the AdditionalInformation sequence must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition as in AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent must be used only in the communication between a CSD and local custodians."
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "If CorporateActionGeneralInformation/EventType/Code is RHDI (IntermediateSecuritiesDistribution), then CorporateActionDetails/|IntermediateSecuritiesDistributionType must be present.|(MT 566 NVR C5)."
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "isoType": "ExternalUnableToApplyMissingData1Code",
+  "language": "en",
+  "name": "External Unable To Apply Missing Data 1 Code",
+  "definition": "Specifies the reason of an unable to apply due to missing data, as published in an external unable to apply missing data code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "MS01": {
+      "isoName": "MissingRemittanceInformation",
+      "name": "Missing Remittance Information",
+      "definition": "RemittanceInformation is missing."
+    },
+    "MS02": {
+      "isoName": "MissingInstructionForNextAgent",
+      "name": "Missing Instruction For Next Agent",
+      "definition": "Instruction for next agent is missing (former MissingSenderToReceiverInformation split into debtor, credit and next agent information)."
+    },
+    "MS03": {
+      "isoName": "MissingDebtor",
+      "name": "Missing Debtor",
+      "definition": "Debtor is missing."
+    },
+    "MS04": {
+      "isoName": "MissingDebtorAccount",
+      "name": "Missing Debtor Account",
+      "definition": "DebtorAccount is missing."
+    },
+    "MS05": {
+      "isoName": "MissingDebtorAgent",
+      "name": "Missing Debtor Agent",
+      "definition": "DebtorAgent is missing (former MissingFirstAgent for credit transfers)."
+    },
+    "MS06": {
+      "isoName": "MissingAmount",
+      "name": "Missing Amount",
+      "definition": "Amount is missing."
+    },
+    "MS07": {
+      "isoName": "MissingSettlementAccount",
+      "name": "Missing Settlement Account",
+      "definition": "SettlementAccount is missing. (former MissingNostroVostroAccount)."
+    },
+    "MS08": {
+      "isoName": "MissingIntermediary",
+      "name": "Missing Intermediary",
+      "definition": "Intermediary is missing."
+    },
+    "MS09": {
+      "isoName": "MissingInstructingReimbursementAgent",
+      "name": "Missing Instructing Reimbursement Agent",
+      "definition": "InstructingReimbursementAgent is missing (former MissingReimbursementAgent1)."
+    },
+    "MS10": {
+      "isoName": "MissingInstructedReimbursementAgent",
+      "name": "Missing Instructed Reimbursement Agent",
+      "definition": "InstructedReimbursementAgent is missing (former MissingReimbursementAgent2)."
+    },
+    "MS11": {
+      "isoName": "MissingThirdReimbursementAgent",
+      "name": "Missing Third Reimbursement Agent",
+      "definition": "Third reimbursement agent is missing (former MissingReimbursementAgent)."
+    },
+    "MS12": {
+      "isoName": "MissingCreditor",
+      "name": "Missing Creditor",
+      "definition": "Creditor is missing."
+    },
+    "MS13": {
+      "isoName": "MissingCreditorAccount",
+      "name": "Missing Creditor Account",
+      "definition": "CreditorAccount is missing."
+    },
+    "MS14": {
+      "isoName": "MissingInstruction",
+      "name": "Missing Instruction",
+      "definition": "Payment instruction is missing."
+    },
+    "MS15": {
+      "isoName": "MissingCreditorAgent",
+      "name": "Missing Creditor Agent",
+      "definition": "Creditor agent is missing (former MissingFirstAgent for direct debits)."
+    },
+    "MS16": {
+      "isoName": "MissingInstructionForCreditorAgent",
+      "name": "Missing Instruction For Creditor Agent",
+      "definition": "Instruction for creditor agent is missing (former MissingSenderToReceiverInformation split into debtor, credit and next agent information)."
+    },
+    "MS17": {
+      "isoName": "MissingInstructionForDebtorAgent",
+      "name": "Missing Instruction For Debtor Agent",
+      "definition": "Instruction for debtor agent is missing (former MissingSenderToReceiverInformation split into debtor, credit and next agent information)."
+    },
+    "MS18": {
+      "isoName": "MissingRelatedRemittanceInformation",
+      "name": "Missing Related Remittance Information",
+      "definition": "RelatedRemittanceInformation is missing."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "See narrative field for additional information."
+    }
+  }
+}

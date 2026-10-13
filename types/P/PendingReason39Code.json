@@ -1,0 +1,73 @@
+{
+  "isoType": "PendingReason39Code",
+  "language": "en",
+  "name": "Pending Reason 39 Code",
+  "definition": "Specifies the reason why the instruction has a pending status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. It will be managed as per the bilateral service agreement between the account servicer and account owner."
+    },
+    "CYCL": {
+      "isoName": "AwaitingNextSettlementCycle",
+      "name": "Awaiting Next Settlement Cycle",
+      "definition": "Your instruction is confirmed in the local market or is ready for settlement, awaiting next settlement cycle."
+    },
+    "FUTU": {
+      "isoName": "AwaitingSettlementDate",
+      "name": "Awaiting Settlement Date",
+      "definition": "Awaiting settlement date. No settlement problems to be reported."
+    },
+    "BOTH": {
+      "isoName": "BothInstructionsOnHold",
+      "name": "Both Instructions On Hold",
+      "definition": "Counterparty's instruction and your instruction are on hold/frozen/ in a preadvice mode."
+    },
+    "PRCY": {
+      "isoName": "CounterpartyInstructionOnHold",
+      "name": "Counterparty Instruction On Hold",
+      "definition": "Counterparty's instruction is a preadvice, that is, for matching only."
+    },
+    "CMON": {
+      "isoName": "CounterpartyInsufficientMoney",
+      "name": "Counterparty Insufficient Money",
+      "definition": "Insufficient money in counterparty's account."
+    },
+    "CLAC": {
+      "isoName": "CounterpartyInsufficientSecurities",
+      "name": "Counterparty Insufficient Securities",
+      "definition": "Insufficient deliverable financial instruments in counterparty's account or counterparty does not hold financial instruments."
+    },
+    "MONY": {
+      "isoName": "InsufficientMoney",
+      "name": "Insufficient Money",
+      "definition": "Insufficient money in your account."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Instruction was received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "PREA": {
+      "isoName": "YourInstructionOnHold",
+      "name": "Your Instruction On Hold",
+      "definition": "Your instruction is a preadvice, that is, for matching only."
+    }
+  }
+}

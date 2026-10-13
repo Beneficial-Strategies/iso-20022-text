@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMReconciliationResponseV01",
+  "language": "en",
+  "name": "ATM Reconciliation Response V 01",
+  "definition": "The ATMReconciliationResponse is sent by a maintenance host to an ATM to identify counts that must be updated.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMReconciliationResponse": {
+      "name": "Protected ATM Reconciliation Response",
+      "definition": ""
+    },
+    "ATMReconciliationResponse": {
+      "name": "ATM Reconciliation Response",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

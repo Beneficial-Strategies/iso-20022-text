@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountManagementStatusReportV07",
+  "language": "en",
+  "name": "Account Management Status Report V 07",
+  "definition": "Scope|The AccountManagementStatusReport message is sent by an account servicer, for example, a registrar, transfer agent, custodian bank or securities depository to the account owner or its designated agent, for example, an investor to report on the receipt or the processing status of a previously received account management message.|Usage|The AccountManagementStatusReport message is used to provide the status of a previously received AccountOpeningInstruction, an AccountModificationInstruction or a GetAccountDetails message. It may also be used to report the status of the account. |The AccountManagementStatusReport message is also used to reject an AccountOpeningInstruction, AccountModificationInstruction or GetAccountDetails message when the message is not compliant with the agreed SLA or when the account cannot be uniquely identified.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "StatusReport": {
+      "name": "Status Report",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  }
+}

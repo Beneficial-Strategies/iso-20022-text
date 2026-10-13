@@ -1,0 +1,44 @@
+{
+  "isoType": "RequestDetails22",
+  "language": "en",
+  "name": "Request Details 22",
+  "definition": "Details of the request providing the changes and references of the instruction.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "References of the transaction for which the intra-balance modification is requested."
+    },
+    "Linkage": {
+      "name": "Linkage",
+      "definition": "Specifies the type of linkage requested."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "OtherProcessing": {
+      "name": "Other Processing",
+      "definition": "Specifies another type of processing change request."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "ClearingChannel": {
+      "name": "Clearing Channel",
+      "definition": "Specifies the clearing channel to be used to process the payment instruction."
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": "Information regarding the linkage requested."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "At least one modification request type element must be present."
+    },
+    "OtherProcessingRule": {
+      "definition": "If OtherProcessing is used, then its usage must be pre-agreed between the sender and the receiver."
+    }
+  }
+}

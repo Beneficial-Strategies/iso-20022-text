@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalRegulatoryReportingType1Code",
+  "language": "en",
+  "name": "External Regulatory Reporting Type 1 Code",
+  "definition": "Specifies the type of regulatory reporting, as published in an external code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "DECL": {
+      "isoName": "Declaration",
+      "name": "Declaration",
+      "definition": "The transaction includes a declaration confirming compliance with applicable regulatory and sanctions requirements (e.g., FEFTA, OFAC, or other relevant frameworks). This type code refers to information in any element under the same occurrence of “RgltryRptg/Dtls”."
+    },
+    "CIST": {
+      "isoName": "CitizenshipStatus",
+      "name": "Citizenship Status",
+      "definition": "Regulatory Authority requires the status of residency of an involved party, e.g. if it is a resident or non-resident. This type code may refer to information in any element under the same occurrence of “RgltryRptg/Dtls”."
+    },
+    "CRST": {
+      "isoName": "CreditorStatus",
+      "name": "Creditor Status",
+      "definition": "Regulatory Authority requires the status or type of Creditor, e.g. if it is a corporation, an individual or the government. This type code may refer to information in any element under the same occurrence of “RgltryRptg/Dtls”."
+    },
+    "TAXS": {
+      "isoName": "TaxStatus",
+      "name": "Tax Status",
+      "definition": "Regulatory Authority requires a tax information, e.g. an tax identification reference. This type code may refer to information in any element under the same occurrence of “RgltryRptg/Dtls”."
+    },
+    "PURP": {
+      "isoName": "NewCode",
+      "name": "New Code",
+      "definition": "Regulatory Authority requires or recommends a code or narrative text to identify the purpose of payment in line with the specific requirements of that authority. This type code may refer to information in any element under the same occurrence of “RgltryRptg/Dtls”."
+    }
+  }
+}

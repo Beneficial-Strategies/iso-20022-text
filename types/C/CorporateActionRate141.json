@@ -1,0 +1,73 @@
+{
+  "isoType": "CorporateActionRate141",
+  "language": "en",
+  "name": "Corporate Action Rate 141",
+  "definition": "Specifies rates.",
+  "isoElements": {
+    "GrossDistributionRate": {
+      "name": "Gross Distribution Rate",
+      "definition": "Distribution rate before tax has been deducted."
+    },
+    "NetDistributionRate": {
+      "name": "Net Distribution Rate",
+      "definition": "Distribution rate after tax has been deducted."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "name": "Gross Interest Rate Used For Payment",
+      "definition": "Actual interest rate before tax used for the payment of the interest for the specified interest period."
+    },
+    "MaximumAllowedOversubscriptionRate": {
+      "name": "Maximum Allowed Oversubscription Rate",
+      "definition": "A maximum percentage of shares available through the over subscription privilege, usually a percentage of the basic subscription shares, for example, an account owner subscribing to 100 shares may over subscribe to a maximum of 50 additional shares when the over subscription maximum is 50 percent."
+    },
+    "ProrationRate": {
+      "name": "Proration Rate",
+      "definition": "Percentage of securities accepted by the offeror/issuer."
+    },
+    "WithholdingTaxRate": {
+      "name": "Withholding Tax Rate",
+      "definition": "Percentage of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "SecondLevelTax": {
+      "name": "Second Level Tax",
+      "definition": "Rate at which the income will be withheld by a jurisdiction other than the jurisdiction of the issuer’s country of tax incorporation, for which a relief at source and/or reclaim may be possible. It is levied in complement or offset of the withholding tax rate (TAXR) levied by the jurisdiction of the issuer’s tax domicile."
+    },
+    "AdditionalTax": {
+      "name": "Additional Tax",
+      "definition": "Rate used for additional tax that cannot be categorised."
+    },
+    "TaxableIncomePerDividendShare": {
+      "name": "Taxable Income Per Dividend Share",
+      "definition": "Amount included in the dividend/NAV that is identified as gains directly or indirectly derived from interest payments, for example, in the context of the EU Savings directive."
+    }
+  },
+  "isoRules": {
+    "GrossDistributionRate2Rule": {
+      "definition": "If GrossDistributionRate is repeated, then:|- RateTypeAndAmountAndRateStatus/RateType/Code values must all be different in each occurrence of GrossDistributionRate. (MT 566 NVR C4 )."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Only a single occurrence of either GrossDistributionRate/Amount or GrossDistributionRate/AmountAndRateStatus may be present. Both elements may not be present together. (MT 566 NVR C3)."
+    },
+    "NetDistributionRate1Rule": {
+      "definition": "If NetDistributionRate is repeated, then RateTypeAndAmountAndRateStatus/RateType/Code values must all be different in each occurrence of NetDistributionRate. (MT 566 NVR C4 )."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Only a single occurrence of either NetDistributionRate/Amount may be present. Both elements may not be present together. (MT 566 NVR C3)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "If at least one occurrence of SecondLevelTax is present, then at least one occurrence of WithholdingTaxRate must be present. (MT 566 NVR C8)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "If SecondLevelTax is repeated, then SecondLevelTax/RateTypeAndRate/RateType/Code values must all be different in each occurrence of SecondLevelTax. |(MT 564 NVR C8)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Only a single occurrence of either SecondLevelTax/Amount or SecondLevelTax/Rate or SecondLevelTax/NotSpecifiedRate may be present, only one of these elements may be present. |(MT 564 NVR C7)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "If WithholdingTaxRate is repeated, then WithholdingTaxRate/RateTypeAndRate/RateType/Code values must all be different in each occurrence of WithholdingTaxRate. |(MT 564 NVR C8)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Only a single occurrence of either WithholdingTaxRate/Amount or WithholdingTaxRate/Rate or WithholdingTaxRate/NotSpecifiedRate may be present, only one of these elements may be present. |(MT 564 NVR C7)."
+    }
+  }
+}

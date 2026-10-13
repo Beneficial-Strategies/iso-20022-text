@@ -1,0 +1,36 @@
+{
+  "isoType": "IntraPosition6",
+  "language": "en",
+  "name": "Intra Position 6",
+  "definition": "Details of the intra-position movement.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be moved."
+    },
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the securities are moving."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the securities are moving."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "name": "Securities Sub Balance Identification",
+      "definition": "Number identifying a lot constituting the sub-balance."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    }
+  }
+}

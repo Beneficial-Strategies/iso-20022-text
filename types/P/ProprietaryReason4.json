@@ -1,0 +1,21 @@
+{
+  "isoType": "ProprietaryReason4",
+  "language": "en",
+  "name": "Proprietary Reason 4",
+  "definition": "Proprietary identification of the reason related to a status.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Proprietary identification of the reason related to a status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

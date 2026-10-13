@@ -1,0 +1,36 @@
+{
+  "isoType": "MarketClaimStatusAdviceV04",
+  "language": "en",
+  "name": "Market Claim Status Advice V 04",
+  "definition": "Scope and Usage|The MarketClaimStatusAdvice message is sent by an account servicer to an account holder to provide the status of a market claim transaction.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "MarketClaimCreationIdentification": {
+      "name": "Market Claim Creation Identification",
+      "definition": ""
+    },
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "MarketClaimProcessingStatus": {
+      "name": "Market Claim Processing Status",
+      "definition": ""
+    },
+    "MarketClaimDetails": {
+      "name": "Market Claim Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

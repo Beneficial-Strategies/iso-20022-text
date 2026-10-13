@@ -1,0 +1,98 @@
+{
+  "isoType": "SecuritiesOption122",
+  "language": "en",
+  "name": "Securities Option 122",
+  "definition": "Provides information about the corporate action security option.",
+  "isoElements": {
+    "SecurityDetails": {
+      "name": "Security Details",
+      "definition": "Provides description of the financial instrument related to securities movement."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "name": "Temporary Financial Instrument Indicator",
+      "definition": "Specifies that the security identified is a temporary security identification used for processing reasons, for example, contra security used in the US."
+    },
+    "NonEligibleProceedsIndicator": {
+      "name": "Non Eligible Proceeds Indicator",
+      "definition": "Specifies information regarding outturn resources that cannot be processed by the Central Securities Depository (CSD). Special delivery instruction is required from the account owner for the corporate action outcome to be credited."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "name": "Issuer Offeror Taxability Indicator",
+      "definition": "Proceeds are taxable according to the information provided by the issuer / offeror."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "name": "New Securities Issuance Indicator",
+      "definition": "Specifies the nature of the securities issue."
+    },
+    "IncomeType": {
+      "name": "Income Type",
+      "definition": "Specifies the type of income.|The lists of income type codes to be used, are available on the SMPG website at www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "name": "Other Income Type",
+      "definition": "Type of income to be used under another tax regime."
+    },
+    "ExemptionType": {
+      "name": "Exemption Type",
+      "definition": "Specifies the basis for the reduced rate of withholding."
+    },
+    "EntitledQuantity": {
+      "name": "Entitled Quantity",
+      "definition": "Quantity of securities based on the terms of the corporate action event and balance of underlying securities entitled to the account owner. (This quantity can be positive or negative)."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Location where the financial instruments are/will be safekept."
+    },
+    "CountryOfIncomeSource": {
+      "name": "Country Of Income Source",
+      "definition": "Indicates the country from which the income originates."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency in which cash proceeds are to be credited or debited."
+    },
+    "TradingPeriod": {
+      "name": "Trading Period",
+      "definition": "Period during which intermediate or outturn securities are tradable in a secondary market."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to securities movement."
+    },
+    "RateDetails": {
+      "name": "Rate Details",
+      "definition": "Provides information about the rates related to securities movement."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to securities movement."
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Provides information about the amounts related to a securities movement."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "The IssuerOfferorTaxabilityIndicator may only be used when no tax rate is provided in the message and it must not be used in events such as dividend or interest.|The list of proprietary IssuerOfferorTaxabilityIndicator codes that may be used are provided in the document \" TXAP Taxability Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "The lists of income type codes to be used in IncomeType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "The lists of exemption type codes to be used in ExemptionType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "If at least one occurrence of OtherIncomeType is present, then IncomeType must be present."
+    }
+  }
+}

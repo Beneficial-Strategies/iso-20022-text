@@ -1,0 +1,24 @@
+{
+  "isoType": "DateAndPeriod2Choice",
+  "language": "en",
+  "name": "Date And Period 2 Choice",
+  "definition": "Choice between a date and period.",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Specific date within a period."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Time span defined by a start date and an end date."
+    },
+    "FromDate": {
+      "name": "From Date",
+      "definition": "Date at which the range starts."
+    },
+    "ToDate": {
+      "name": "To Date",
+      "definition": "Date at which the range ends."
+    }
+  }
+}

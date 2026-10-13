@@ -1,0 +1,24 @@
+{
+  "isoType": "BankTransactionCodeStructure4",
+  "language": "en",
+  "name": "Bank Transaction Code Structure 4",
+  "definition": "Set of elements used to identify the type or operations code of a transaction entry.",
+  "isoElements": {
+    "Domain": {
+      "name": "Domain",
+      "definition": "Set of elements used to provide the domain, the family and the sub-family of the bank transaction code, in a structured and hierarchical format.||Usage: If a specific family or sub-family code cannot be provided, the generic family code defined for the domain or the generic sub-family code defined for the family should be provided."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Bank transaction code in a proprietary form, as defined by the issuer."
+    }
+  },
+  "isoRules": {
+    "DomainOrProprietaryRule": {
+      "definition": "Either Proprietary or Domain or both must be present."
+    },
+    "FamilyAndSubFamilyRule": {
+      "definition": "If a specific (non-generic) Family code is not present, then a specific (non-generic) SubFamily code is not allowed."
+    }
+  }
+}

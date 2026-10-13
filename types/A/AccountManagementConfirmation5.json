@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountManagementConfirmation5",
+  "language": "en",
+  "name": "Account Management Confirmation 5",
+  "definition": "Information about the type of request or instruction.",
+  "isoElements": {
+    "ConfirmationType": {
+      "name": "Confirmation Type",
+      "definition": "Specifies the confirmation type."
+    },
+    "AccountApplicationIdentification": {
+      "name": "Account Application Identification",
+      "definition": "Unique and unambiguous identifier of the account opening or modification instruction at application level."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous identification of a transaction, for example, a transfer, as assigned by the investor or account owner."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transaction, for example, a transfer, as allocated by the counterparty."
+    },
+    "ExistingAccountIdentification": {
+      "name": "Existing Account Identification",
+      "definition": "Account to which the account opening is related."
+    }
+  }
+}

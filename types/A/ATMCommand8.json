@@ -1,0 +1,32 @@
+{
+  "isoType": "ATMCommand8",
+  "language": "en",
+  "name": "ATM Command 8",
+  "definition": "Command result for reinitialization of the transaction counters.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of command to be performed by the ATM."
+    },
+    "RequiredDateTime": {
+      "name": "Required Date Time",
+      "definition": "Date time on which the command has been requested to be performed."
+    },
+    "ProcessedDateTime": {
+      "name": "Processed Date Time",
+      "definition": "Date time on which the command has been performed."
+    },
+    "CommandIdentification": {
+      "name": "Command Identification",
+      "definition": "Identification of the entity issuing the command."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Final result of the processed command at the ATM."
+    },
+    "AdditionalErrorInformation": {
+      "name": "Additional Error Information",
+      "definition": "Additional information on the failure to be logged for further examination."
+    }
+  }
+}

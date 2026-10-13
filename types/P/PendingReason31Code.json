@@ -1,0 +1,58 @@
+{
+  "isoType": "PendingReason31Code",
+  "language": "en",
+  "name": "Pending Reason 31 Code",
+  "definition": "Specifies the reason the transaction/instruction is pending settlement. Settlement on the instructed settlement date is still possible.",
+  "isoCodes": {
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "PART": {
+      "isoName": "TradeSettlesInPartials",
+      "name": "Trade Settles In Partials",
+      "definition": "Trade will settle in partials."
+    },
+    "COLL": {
+      "isoName": "SecuritiesPledgedAsCollateral",
+      "name": "Securities Pledged As Collateral",
+      "definition": "Financial instruments are not deliverable as they are pledged as collateral."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "FUTU": {
+      "isoName": "AwaitingSettlementDate",
+      "name": "Awaiting Settlement Date",
+      "definition": "Awaiting settlement date. No settlement problems to be reported."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "SBLO": {
+      "isoName": "SecuritiesBlocked",
+      "name": "Securities Blocked",
+      "definition": "Financial instruments are blocked due to a corporate action event, realignment, etc."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "PRSY": {
+      "isoName": "SystemOnHold",
+      "name": "System On Hold",
+      "definition": "Transaction was put on hold/frozen by the system."
+    },
+    "INBC": {
+      "isoName": "IncompleteNumberCount",
+      "name": "Incomplete Number Count",
+      "definition": "Not all the instructions part of a pool have been received."
+    }
+  }
+}

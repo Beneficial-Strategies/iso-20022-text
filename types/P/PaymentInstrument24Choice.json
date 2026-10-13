@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentInstrument24Choice",
+  "language": "en",
+  "name": "Payment Instrument 24 Choice",
+  "definition": "Choice of payment instruments.",
+  "isoElements": {
+    "PaymentCardDetails": {
+      "name": "Payment Card Details",
+      "definition": "Settlement instructions for a payment by card."
+    },
+    "DirectDebitDetails": {
+      "name": "Direct Debit Details",
+      "definition": "Settlement instructions for a payment by direct debit."
+    },
+    "Cheque": {
+      "name": "Cheque",
+      "definition": "Indicates whether the payment is done via cheque."
+    },
+    "BankersDraft": {
+      "name": "Bankers Draft",
+      "definition": "Indicates whether the payment is done via draft."
+    }
+  }
+}

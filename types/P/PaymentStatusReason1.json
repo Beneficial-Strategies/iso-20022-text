@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentStatusReason1",
+  "language": "en",
+  "name": "Payment Status Reason 1",
+  "definition": "Provides information on the status reason of the transaction.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the status report."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the status reason.||Usage: Additional information can be used for several purposes such as the reporting of repaired information."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Reason/Code is equal to NARR, then AddititionalInformation must be present."
+    }
+  }
+}

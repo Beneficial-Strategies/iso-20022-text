@@ -1,0 +1,23 @@
+{
+  "isoType": "ProcessingPosition4Code",
+  "language": "en",
+  "name": "Processing Position 4 Code",
+  "definition": "Specifies when a transaction/instruction is to be executed relative to a linked transaction/instruction.",
+  "isoCodes": {
+    "AFTE": {
+      "isoName": "After",
+      "name": "After",
+      "definition": "Specifies that the transaction/instruction is to be executed after the linked transaction/instruction."
+    },
+    "BEFO": {
+      "isoName": "Before",
+      "name": "Before",
+      "definition": "Specifies that the transaction/instruction is to be executed before the linked transaction/instruction."
+    },
+    "WITH": {
+      "isoName": "With",
+      "name": "With",
+      "definition": "Specifies that the transaction/instruction is to be executed with the linked transaction/instruction."
+    }
+  }
+}

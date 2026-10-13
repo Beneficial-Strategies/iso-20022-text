@@ -1,0 +1,32 @@
+{
+  "isoType": "BillingCancellationReport3",
+  "language": "en",
+  "name": "Billing Cancellation Report 3",
+  "definition": "Report on cancelled billing data.",
+  "isoElements": {
+    "RegulatoryData": {
+      "name": "Regulatory Data",
+      "definition": "Information about legal and regulatory data exchanged between invoicing and paying party."
+    },
+    "Service": {
+      "name": "Service",
+      "definition": "Identification of the service or system for which the billing cancellation is provided."
+    },
+    "InvoiceDate": {
+      "name": "Invoice Date",
+      "definition": "Date at which the billing report was created."
+    },
+    "BillingIdentification": {
+      "name": "Billing Identification",
+      "definition": "Identification of the billing report."
+    },
+    "BillingPeriod": {
+      "name": "Billing Period",
+      "definition": "Date period which for which the report data is valid."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Reason why requested billing information is cancelled."
+    }
+  }
+}

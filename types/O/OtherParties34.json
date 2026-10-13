@@ -1,0 +1,33 @@
+{
+  "isoType": "OtherParties34",
+  "language": "en",
+  "name": "Other Parties 34",
+  "definition": "Identification of other parties.",
+  "isoElements": {
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    },
+    "QualifiedForeignIntermediary": {
+      "name": "Qualified Foreign Intermediary",
+      "definition": "Foreign financial institution which has been authorised by local authorities to act as account management institution in the country."
+    },
+    "StockExchange": {
+      "name": "Stock Exchange",
+      "definition": "Identification of the stock exchange to which transaction reporting will be done."
+    },
+    "TradeRegulator": {
+      "name": "Trade Regulator",
+      "definition": "Institution to which a trade must be reported."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Party responsible for the administration of a tri-party collateral transaction including collateral allocation, marking to market and substitution of collateral."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "If Investor is used with a country code, then the country code specifies the nationality of the investor, for example, for the settlement of certain securities (that is, airlines, defence manufacturers) under the EU legislation."
+    }
+  }
+}

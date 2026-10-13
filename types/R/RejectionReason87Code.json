@@ -1,0 +1,113 @@
+{
+  "isoType": "RejectionReason87Code",
+  "language": "en",
+  "name": "Rejection Reason 87 Code",
+  "definition": "Specifies the reason why the instruction request has a rejected status.",
+  "isoCodes": {
+    "OPTY": {
+      "isoName": "InvalidOptionType",
+      "name": "Invalid Option Type",
+      "definition": "Invalid option type."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "NMTY": {
+      "isoName": "Mismatch",
+      "name": "Mismatch",
+      "definition": "Mismatch between option number and option type."
+    },
+    "CANC": {
+      "isoName": "OptionCancelled",
+      "name": "Option Cancelled",
+      "definition": "Option is not valid; it has been cancelled by the market or service provider, and cannot be responded to. Any responses already processed against this option are considered void and new responses will be required."
+    },
+    "INTV": {
+      "isoName": "OptionInactive",
+      "name": "Option Inactive",
+      "definition": "Option is not active and can no longer be responded to. Any responses already processed against this option will remain valid, for example, expired option."
+    },
+    "OPNM": {
+      "isoName": "OptionNumberRejection",
+      "name": "Option Number Rejection",
+      "definition": "Unrecognised option number."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "DQCC": {
+      "isoName": "CurrencyRejection",
+      "name": "Currency Rejection",
+      "definition": "Invalid instructed currency."
+    },
+    "DUPL": {
+      "isoName": "DuplicateInstruction",
+      "name": "Duplicate Instruction",
+      "definition": "Instruction is rejected due to duplicate business message identifier."
+    },
+    "DSET": {
+      "isoName": "DeniedSinceAlreadySettled",
+      "name": "Denied Since Already Settled",
+      "definition": "Cancellation request was denied because the instruction was already settled."
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "TRTY": {
+      "isoName": "IncorrectTransactionType",
+      "name": "Incorrect Transaction Type",
+      "definition": "Transaction type is incorrect."
+    },
+    "BUMM": {
+      "isoName": "BuyerProtectionMismatch",
+      "name": "Buyer Protection Mismatch",
+      "definition": "Counterparty disagreement on the chosen corporate action outturn."
+    },
+    "ECMD": {
+      "isoName": "ElectionToCounterpartyMarketDeadlineMissed",
+      "name": "Election To Counterparty Market Deadline Missed",
+      "definition": "Received after the election to counterparty market deadline."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    },
+    "DUCK": {
+      "isoName": "UnderlyingTransactionCancelled",
+      "name": "Underlying Transaction Cancelled",
+      "definition": "Buyer Protection instruction rejected since underlying settlement transaction has been cancelled."
+    },
+    "DUST": {
+      "isoName": "UnderlyingTransactionAlreadySettled",
+      "name": "Underlying Transaction Already Settled",
+      "definition": "Buyer Protection instruction was rejected, because the underlying settlement transaction has already been settled."
+    },
+    "DSNA": {
+      "isoName": "NoBuyerProtectionAllowed",
+      "name": "No Buyer Protection Allowed",
+      "definition": "Underlying transaction type/status does not allow for a buyer protection."
+    }
+  }
+}

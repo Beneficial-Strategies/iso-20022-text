@@ -1,0 +1,23 @@
+{
+  "isoType": "AttendanceContext1Code",
+  "language": "en",
+  "name": "Attendance Context 1 Code",
+  "definition": "Human attendance at the POI location during the transaction.",
+  "isoCodes": {
+    "ATTD": {
+      "isoName": "Attended",
+      "name": "Attended",
+      "definition": "Attended payment, with an attendant."
+    },
+    "SATT": {
+      "isoName": "SemiAttended",
+      "name": "Semi Attended",
+      "definition": "Semi-attended, including self checkout. An attendant supervises several payment, and could be called to help the cardholder."
+    },
+    "UATT": {
+      "isoName": "Unattended",
+      "name": "Unattended",
+      "definition": "Unattended payment, no attendant present."
+    }
+  }
+}

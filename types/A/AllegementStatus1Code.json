@@ -1,0 +1,18 @@
+{
+  "isoType": "AllegementStatus1Code",
+  "language": "en",
+  "name": "Allegement Status 1 Code",
+  "definition": "Specifies the status of an allegement.",
+  "isoCodes": {
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Allegement has been cancelled since the previous delta statement. The allegement was cancelled because of a mistake by the sender or because the alleging party cancelled its instruction."
+    },
+    "REMO": {
+      "isoName": "Removed",
+      "name": "Removed",
+      "definition": "Allegement has been removed since the previous delta statement. The allegement was removed because the alleged party sent its instruction."
+    }
+  }
+}

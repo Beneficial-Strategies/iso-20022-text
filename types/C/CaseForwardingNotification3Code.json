@@ -1,0 +1,38 @@
+{
+  "isoType": "CaseForwardingNotification3Code",
+  "language": "en",
+  "name": "Case Forwarding Notification 3 Code",
+  "definition": "Specifies the action requested when forwarding a case.",
+  "isoCodes": {
+    "FTHI": {
+      "isoName": "FurtherInvestigation",
+      "name": "Further Investigation",
+      "definition": "Case has been forwarded to the next party for further investigation."
+    },
+    "CANC": {
+      "isoName": "RequestToCancel",
+      "name": "Request To Cancel",
+      "definition": "Case has been forwarded to the next party for cancellation."
+    },
+    "MODI": {
+      "isoName": "RequestToModify",
+      "name": "Request To Modify",
+      "definition": "Case has been forwarded to the next party for modification."
+    },
+    "DTAU": {
+      "isoName": "RequestDebitAuthorisation",
+      "name": "Request Debit Authorisation",
+      "definition": "Case has been forwarded to obtain authorisation to debit."
+    },
+    "SAIN": {
+      "isoName": "SentAdditionalInformation",
+      "name": "Sent Additional Information",
+      "definition": "Additional information has been forwarded to the creditor."
+    },
+    "MINE": {
+      "isoName": "MineInvestigationCase",
+      "name": "Mine Investigation Case",
+      "definition": "Case is been handled by the assigned party."
+    }
+  }
+}

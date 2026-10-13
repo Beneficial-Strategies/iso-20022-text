@@ -1,0 +1,83 @@
+{
+  "isoType": "PendingReason41Code",
+  "language": "en",
+  "name": "Pending Reason 41 Code",
+  "definition": "Specifies a reason why the instruction is pending.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. It will be managed as per the bilateral service agreement between the account servicer and account owner."
+    },
+    "ADDM": {
+      "isoName": "AdditionalDocumentationMissing",
+      "name": "Additional Documentation Missing",
+      "definition": "Additional documents requested missing."
+    },
+    "DREM": {
+      "isoName": "DeadlineToRegisterMissed",
+      "name": "Deadline To Register Missed",
+      "definition": "Deadline to register is missed."
+    },
+    "IPED": {
+      "isoName": "InstructionPriorToEntitlementDate",
+      "name": "Instruction Prior To Entitlement Date",
+      "definition": "Instruction was received prior to entitlement date."
+    },
+    "IPOS": {
+      "isoName": "InsufficientThresholdPosition",
+      "name": "Insufficient Threshold Position",
+      "definition": "Position is less than required threshold."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Instruction was received after market deadline."
+    },
+    "IPOA": {
+      "isoName": "MissingOrInvalidPOA",
+      "name": "Missing Or Invalid POA",
+      "definition": "Missing or invalid power of attorney."
+    },
+    "NPOS": {
+      "isoName": "NoRegisteredPosition",
+      "name": "No Registered Position",
+      "definition": "Insufficient or no registered position."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "FULL": {
+      "isoName": "PendingBeneficiaryOwnerDetails",
+      "name": "Pending Beneficiary Owner Details",
+      "definition": "Pending receipt of beneficiary owner details."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "Instruction is pending receipt of securities, for example, from a purchase or loan."
+    },
+    "PRXY": {
+      "isoName": "ProxyCardDiscrepancy",
+      "name": "Proxy Card Discrepancy",
+      "definition": "Invalid Proxy Information."
+    },
+    "DQUA": {
+      "isoName": "QuantityDisagreement",
+      "name": "Quantity Disagreement",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "IREG": {
+      "isoName": "RegistrationDiscrepancy",
+      "name": "Registration Discrepancy",
+      "definition": "Invalid registration discrepancy."
+    }
+  }
+}

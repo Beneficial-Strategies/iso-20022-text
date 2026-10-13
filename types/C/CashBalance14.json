@@ -1,0 +1,36 @@
+{
+  "isoType": "CashBalance14",
+  "language": "en",
+  "name": "Cash Balance 14",
+  "definition": "Balance details for a cash account.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature of a balance."
+    },
+    "CounterpartyType": {
+      "name": "Counterparty Type",
+      "definition": "Specifies the type of counterparty for which the balance is calculated."
+    },
+    "CounterpartyIdentification": {
+      "name": "Counterparty Identification",
+      "definition": "Specifies the counterparty for which the balance is calculated."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the balance is or will be available."
+    },
+    "ProcessingDate": {
+      "name": "Processing Date",
+      "definition": "Date or date time when the balance was last updated following an entry posted to the account, in the books of the account servicing institution."
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentification1Rule": {
+      "definition": "If at least one occurrence of CounterpartyType is present and is equal to Multilateral (MULT), then no occurrence of CounterpartyIdentification is allowed.|If CounterpartyType is not present, then any occurrence of CounterpartyIdentification is optional."
+    },
+    "CounterpartyIdentification2Rule": {
+      "definition": "If at least one occurrence of CounterpartyType is present and is equal to Bilateral (BILA), then at least one occurrence of CounterpartyIdentification must be present.|If CounterpartyType is not present, then any occurrence of CounterpartyIdentification is optional."
+    }
+  }
+}

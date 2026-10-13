@@ -1,0 +1,63 @@
+{
+  "isoType": "AuthenticationMethod1Code",
+  "language": "en",
+  "name": "Authentication Method 1 Code",
+  "definition": "Method used to authenticate a cardholder.",
+  "isoCodes": {
+    "UKNW": {
+      "isoName": "UnknownMethod",
+      "name": "Unknown Method",
+      "definition": "Authentication method is performed unknown."
+    },
+    "BYPS": {
+      "isoName": "Bypass",
+      "name": "Bypass",
+      "definition": "Authentication bypassed by the merchant."
+    },
+    "NPIN": {
+      "isoName": "OnLinePIN",
+      "name": "On Line PIN",
+      "definition": "On-line PIN authentication (Personal Identification Number)."
+    },
+    "FPIN": {
+      "isoName": "OfflinePIN",
+      "name": "Offline PIN",
+      "definition": "Off-line PIN authentication (Personal Identification Number)."
+    },
+    "CPSG": {
+      "isoName": "SignatureCapture",
+      "name": "Signature Capture",
+      "definition": "Electronic signature capture (handwritten signature)."
+    },
+    "PPSG": {
+      "isoName": "PaperSignature",
+      "name": "Paper Signature",
+      "definition": "Handwritten paper signature."
+    },
+    "MANU": {
+      "isoName": "ManualVerification",
+      "name": "Manual Verification",
+      "definition": "Manual verification, for example passport or drivers license."
+    },
+    "MERC": {
+      "isoName": "MerchantAuthentication",
+      "name": "Merchant Authentication",
+      "definition": "Merchant-related authentication."
+    },
+    "SCRT": {
+      "isoName": "SecureCertificate",
+      "name": "Secure Certificate",
+      "definition": "Electronic commerce transaction secured with the X.509 certificate of a customer."
+    },
+    "SNCT": {
+      "isoName": "SecureNoCertificate",
+      "name": "Secure No Certificate",
+      "definition": "Secure electronic transaction without cardholder certificate."
+    },
+    "SCNL": {
+      "isoName": "SecuredChannel",
+      "name": "Secured Channel",
+      "definition": "Channel-encrypted transaction."
+    }
+  }
+}

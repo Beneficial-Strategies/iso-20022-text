@@ -1,0 +1,36 @@
+{
+  "isoType": "IntraBalanceQueryCriteria12",
+  "language": "en",
+  "name": "Intra Balance Query Criteria 12",
+  "definition": "Defines the criteria based on which information is included.",
+  "isoElements": {
+    "ModificationRequestIdentification": {
+      "name": "Modification Request Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account in which cash is maintained."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the cash account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the creation date/time of the intra-balance movement."
+    }
+  }
+}

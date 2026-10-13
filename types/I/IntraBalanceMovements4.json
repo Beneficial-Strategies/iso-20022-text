@@ -1,0 +1,42 @@
+{
+  "isoType": "IntraBalanceMovements4",
+  "language": "en",
+  "name": "Intra Balance Movements 4",
+  "definition": "Provides the intra-balance movements in the report.",
+  "isoElements": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which an entry is made."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the cash account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Movement": {
+      "name": "Movement",
+      "definition": "Further details on the individual intrabalance movement transaction."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount must be present or Movement(*)/CashAccount must be present, but not both."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner must be present or Movement(*)/AccountOwner must be present, but not both."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason must be present or Movement(*)/StatusAndReason must be present, but not both."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer must be present or Movement(*)/AccountOwner must be present, but not both."
+    }
+  }
+}

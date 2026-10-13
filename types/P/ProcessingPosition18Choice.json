@@ -1,0 +1,21 @@
+{
+  "isoType": "ProcessingPosition18Choice",
+  "language": "en",
+  "name": "Processing Position 18 Choice",
+  "definition": "Choice of format for the processing position.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Processing position expressed as an ISO 20022 code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Processing position expressed as a proprietary code."
+    }
+  },
+  "isoRules": {
+    "WithLinkageRule": {
+      "definition": "If Code WITH is used, then the one or more instruction which are linked become bound and which must be executed together. Even if one single transactions/instructions/notifications can not be executed, then all the other transactions/instructions/notifications must also be kept pending. Therefore the use of code WITH must be limited to combine up to 2 or 3 transactions/instructions/notifications."
+    }
+  }
+}

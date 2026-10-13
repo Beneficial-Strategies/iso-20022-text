@@ -1,0 +1,28 @@
+{
+  "isoType": "VerificationReport5",
+  "language": "en",
+  "name": "Verification Report 5",
+  "definition": "Provides the details of the verification of identification data for which verification was requested.",
+  "isoElements": {
+    "OriginalIdentification": {
+      "name": "Original Identification",
+      "definition": "Unique identification, as assigned by a sending party, to unambiguously identify the party and account identification information group within the original message."
+    },
+    "Verification": {
+      "name": "Verification",
+      "definition": "Identifies whether the party and/or account information received is correct."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason why the verified identification information is incorrect."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "name": "Original Party And Account Identification",
+      "definition": "Provides party and/or account identification information as given in the original message."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "name": "Updated Party And Account Identification",
+      "definition": "Provides party and/or account identification information."
+    }
+  }
+}

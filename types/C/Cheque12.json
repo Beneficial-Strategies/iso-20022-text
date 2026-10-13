@@ -1,0 +1,24 @@
+{
+  "isoType": "Cheque12",
+  "language": "en",
+  "name": "Cheque 12",
+  "definition": "Set of characteristics related to a cheque instruction, such as cheque type or cheque number.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Unique and unambiguous identifier for the cheque as assigned by the financial institution."
+    },
+    "PayeeIdentification": {
+      "name": "Payee Identification",
+      "definition": "Party to which the cheque is made payable."
+    },
+    "DraweeIdentification": {
+      "name": "Drawee Identification",
+      "definition": "Financial institution on which the cheque is drawn, that is, the financial institution that services the account of the entity that issued the cheque."
+    },
+    "DrawerIdentification": {
+      "name": "Drawer Identification",
+      "definition": "Account owner that issues the cheque ordering the drawee bank to pay a specific amount, upon demand, to the payee."
+    }
+  }
+}

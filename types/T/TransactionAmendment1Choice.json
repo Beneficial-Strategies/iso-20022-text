@@ -1,0 +1,52 @@
+{
+  "isoType": "TransactionAmendment1Choice",
+  "language": "en",
+  "name": "Transaction Amendment 1 Choice",
+  "definition": "Specifies the data elements requested in the investigation request.",
+  "isoElements": {
+    "Agent": {
+      "name": "Agent",
+      "definition": "Specifies the data of an agent that was requested."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies details on an amount that was requested."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Specifies details on a business identifier code that was requested."
+    },
+    "BICFI": {
+      "name": "BICFI",
+      "definition": "Specifies details on a financial institution business identifier code that was requested."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Specifies details on a cash account that was requested."
+    },
+    "Code": {
+      "name": "Code",
+      "definition": "Specifies details on a code that was requested."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Specifies details of a date that was requested."
+    },
+    "DateTime": {
+      "name": "Date Time",
+      "definition": "Specifies details on a date and time that was requested."
+    },
+    "Party": {
+      "name": "Party",
+      "definition": "Specifies details on the data of a party that was requested."
+    },
+    "Remittance": {
+      "name": "Remittance",
+      "definition": "Specifies details on the data of a remittance that was requested."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Specifies other data related to the investigation that was requested."
+    }
+  }
+}

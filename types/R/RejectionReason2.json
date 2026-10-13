@@ -1,0 +1,28 @@
+{
+  "isoType": "RejectionReason2",
+  "language": "en",
+  "name": "Rejection Reason 2",
+  "definition": "General information about the reason of the rejection.",
+  "isoElements": {
+    "RejectingPartyReason": {
+      "name": "Rejecting Party Reason",
+      "definition": "Reason of the rejection provided by the rejecting party."
+    },
+    "RejectionDateTime": {
+      "name": "Rejection Date Time",
+      "definition": "Date and time at which the rejection was generated."
+    },
+    "ErrorLocation": {
+      "name": "Error Location",
+      "definition": "Description of the precise location of the potential error in a message."
+    },
+    "ReasonDescription": {
+      "name": "Reason Description",
+      "definition": "Detailed description of the rejection reason."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional information related to the rejection and meant to allow for the precise identification of the rejection reason. This could include a copy of the rejected message in part or in full."
+    }
+  }
+}

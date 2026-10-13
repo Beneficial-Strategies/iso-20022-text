@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMPropertyComponent1",
+  "language": "en",
+  "name": "ATM Property Component 1",
+  "definition": "Set of properties to update on a terminal.",
+  "isoElements": {
+    "PropertyName": {
+      "name": "Property Name",
+      "definition": "The name of the property to be update on the terminal."
+    },
+    "PropertyType": {
+      "name": "Property Type",
+      "definition": "The type of the property. It will be one of: String, Number, Boolean, JSON, CSV (i.e. a CSV1 string representing a table of data)."
+    },
+    "PropertyValue": {
+      "name": "Property Value",
+      "definition": "The value to be assigned to the property."
+    }
+  }
+}

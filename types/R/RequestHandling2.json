@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestHandling2",
+  "language": "en",
+  "name": "Request Handling 2",
+  "definition": "Explains the status of the related request.",
+  "isoElements": {
+    "StatusCode": {
+      "name": "Status Code",
+      "definition": "Specifies the status of the request, for example the result of the schema validation or a business processing result/error."
+    },
+    "StatusDateTime": {
+      "name": "Status Date Time",
+      "definition": "Date and time when the status was generated."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the status, in free format text."
+    }
+  }
+}

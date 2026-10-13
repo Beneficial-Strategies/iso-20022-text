@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlingCapacity2Code",
+  "language": "en",
+  "name": "Settling Capacity 2 Code",
+  "definition": "Specifies the role of the party in the settlement of the transaction.",
+  "isoCodes": {
+    "SAGE": {
+      "isoName": "SettlingAgent",
+      "name": "Settling Agent",
+      "definition": "Settlement party is trading and settling transactions in financial instruments on behalf of its client(s)."
+    },
+    "CUST": {
+      "isoName": "SettlingCustodian",
+      "name": "Settling Custodian",
+      "definition": "Settlement party is a custodian. It receives/delivers the securities and carries out custodial duties."
+    },
+    "SPRI": {
+      "isoName": "SettlingPrincipal",
+      "name": "Settling Principal",
+      "definition": "Settlement party is settling its own trades."
+    },
+    "RISP": {
+      "isoName": "SettlingRisklessPrincipal",
+      "name": "Settling Riskless Principal",
+      "definition": "Party settles trades that were simultaneously offset."
+    }
+  }
+}

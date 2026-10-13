@@ -1,0 +1,23 @@
+{
+  "isoType": "Eligibility1Code",
+  "language": "en",
+  "name": "Eligibility 1 Code",
+  "definition": "Identifies the type of investor. The rules that apply to each type of client are different.",
+  "isoCodes": {
+    "ELIG": {
+      "isoName": "EligibleCounterparty",
+      "name": "Eligible Counterparty",
+      "definition": "Eligible customers are the most sophisticated level of investor, able to opt out of some the protections afforded by conduct of business rules."
+    },
+    "RETL": {
+      "isoName": "RetailClient",
+      "name": "Retail Client",
+      "definition": "Retail customers are the least sophisticated level of investor."
+    },
+    "PROF": {
+      "isoName": "ProfessionalClient",
+      "name": "Professional Client",
+      "definition": "Professional customers are, for example, investment firms, credit institutions, insurance companies."
+    }
+  }
+}

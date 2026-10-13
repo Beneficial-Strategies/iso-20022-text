@@ -1,0 +1,32 @@
+{
+  "isoType": "TransactionAndDocumentIdentification6",
+  "language": "en",
+  "name": "Transaction And Document Identification 6",
+  "definition": "Transaction and document identification details.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the instructing party."
+    },
+    "DocumentIdentification": {
+      "name": "Document Identification",
+      "definition": "Unique identifier of the document (message) assigned by the sender of the document."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the transaction was created by the instructing party in its business application."
+    },
+    "CopyDuplicate": {
+      "name": "Copy Duplicate",
+      "definition": "Specifies if this document is a copy, a duplicate, or a duplicate of a copy."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "MessageRecipient": {
+      "name": "Message Recipient",
+      "definition": "Party that is the final destination of the message, if other than the receiver."
+    }
+  }
+}

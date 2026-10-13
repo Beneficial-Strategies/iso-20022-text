@@ -1,0 +1,93 @@
+{
+  "isoType": "PINFormat4Code",
+  "language": "en",
+  "name": "PIN Format 4 Code",
+  "definition": "Format of an ATM PIN block before encryption.",
+  "isoCodes": {
+    "ANSI": {
+      "isoName": "ANSI0",
+      "name": "ANSI 0",
+      "definition": "ANSI 0 PIN block format."
+    },
+    "BNCM": {
+      "isoName": "Bancomat",
+      "name": "Bancomat",
+      "definition": "Italian Bancomat PIN block format."
+    },
+    "BKSY": {
+      "isoName": "Banksys",
+      "name": "Banksys",
+      "definition": "Banksys PIN block format."
+    },
+    "DBLD": {
+      "isoName": "Diebold",
+      "name": "Diebold",
+      "definition": "Diebold PIN block format."
+    },
+    "DBLC": {
+      "isoName": "DieboldCO",
+      "name": "Diebold CO",
+      "definition": "Diebold CO PIN block format."
+    },
+    "ECI2": {
+      "isoName": "ECI2",
+      "name": "ECI 2",
+      "definition": "ECI2 PIN block format."
+    },
+    "ECI3": {
+      "isoName": "ECI3",
+      "name": "ECI 3",
+      "definition": "ECI3 PIN block format."
+    },
+    "EMVS": {
+      "isoName": "EMVRSA",
+      "name": "EMVRSA",
+      "definition": "EMV ISO2 PIN block format encrypted with the EMV RSA cryptographic key for the PIN."
+    },
+    "IBM3": {
+      "isoName": "IBM3624",
+      "name": "IBM 3624",
+      "definition": "IBM 3624 PIN block format."
+    },
+    "ISO0": {
+      "isoName": "ISO0",
+      "name": "ISO 0",
+      "definition": "PIN diversified with the card account number, conforming to the standard ISO 9564-2."
+    },
+    "ISO1": {
+      "isoName": "ISO1",
+      "name": "ISO 1",
+      "definition": "PIN completed with random padding characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO2": {
+      "isoName": "ISO2",
+      "name": "ISO 2",
+      "definition": "PIN without diversification characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO3": {
+      "isoName": "ISO3",
+      "name": "ISO 3",
+      "definition": "PIN diversified with the card account number and random characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO4": {
+      "isoName": "ISO4",
+      "name": "ISO 4",
+      "definition": "PIN format used with AES encryption, conforming to the new ISO SC2 format."
+    },
+    "ISO5": {
+      "isoName": "ISO5",
+      "name": "ISO 5",
+      "definition": "Alternative PIN format used with AES encryption, conforming to the new ISO SC2 format."
+    },
+    "VIS2": {
+      "isoName": "VISA2",
+      "name": "VISA 2",
+      "definition": "VISA2 PIN block format."
+    },
+    "VIS3": {
+      "isoName": "VISA3",
+      "name": "VISA 3",
+      "definition": "VISA3 PIN block format."
+    }
+  }
+}

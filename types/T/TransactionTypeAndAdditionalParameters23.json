@@ -1,0 +1,40 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters23",
+  "language": "en",
+  "name": "Transaction Type And Additional Parameters 23",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction (unique per piece of collateral) as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction (unique per piece of collateral) as known by the account servicer."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "name": "Securities Financing Transaction Type",
+      "definition": "Specifies the type of securities financing transaction, that is, repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "ModificationType": {
+      "name": "Modification Type",
+      "definition": "Identifies the type of securities financing modification requested."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "AdditionalBalanceInformation2",
+  "language": "en",
+  "name": "Additional Balance Information 2",
+  "definition": "Net position of a segregated holding of a single security within the overall position held in the securities account, eg, sub-balance per status.",
+  "isoElements": {
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of securities in the sub-balance."
+    },
+    "SubBalanceType": {
+      "name": "Sub Balance Type",
+      "definition": "Reason a security is not available or additional information about the financial instrument for which the balance is given, for example, unregistered, registered in nominee name."
+    },
+    "ExtendedSubBalanceType": {
+      "name": "Extended Sub Balance Type",
+      "definition": "Reason a security is not available or additional information about the financial instrument for which the balance is given, for example, unregistered, registered in nominee name."
+    }
+  },
+  "isoRules": {
+    "SubBalanceTypeOrExtendedSubBalanceTypeRule": {
+      "definition": "Either SubBalanceType or ExtendedSubBalanceType must be present, but not both."
+    },
+    "SubBalanceTypeOrExtendedSubBalanceTypeRuleNotBoth": {
+      "definition": "Either SubBalanceType or ExtendedSubBalanceType must be present, but not both."
+    }
+  }
+}

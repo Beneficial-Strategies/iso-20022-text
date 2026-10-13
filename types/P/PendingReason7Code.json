@@ -1,0 +1,28 @@
+{
+  "isoType": "PendingReason7Code",
+  "language": "en",
+  "name": "Pending Reason 7 Code",
+  "definition": "Specifies the reason why a cancellation request sent for the related instruction is pending.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. Processed on best effort basis."
+    },
+    "CONF": {
+      "isoName": "AwaitingConfirmation",
+      "name": "Awaiting Confirmation",
+      "definition": "Awaiting confirmation from the counterparty."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DQUA": {
+      "isoName": "QuantityDisagreement",
+      "name": "Quantity Disagreement",
+      "definition": "Quantity of financial instruments does not match."
+    }
+  }
+}

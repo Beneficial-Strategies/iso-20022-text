@@ -1,0 +1,46 @@
+{
+  "isoType": "PortfolioTransferNotification002V07",
+  "language": "en",
+  "name": "Portfolio Transfer Notification 002 V 07",
+  "definition": "Scope|The  PortfolioTransferNotification is sent by an account servicer to another account servicer to exchange transfer settlement details information during a retail or institutional client portfolio transfer.|The account servicer will typically be local agent or global custodian acting on behalf of an investment management institution, a broker/dealer or a retail client.||Usage|The exchange of transfer settlement details is the provision, by the delivering account servicer to the receiving account servicer, of the settlement data (such as trade date, settlement date, delivering settlement chain, quantities) of the individual transfers that will take place during a full or partial portfolio transfer. This delivering account servicer message may also include, for validation, the receiving settlement chain as provided by the client. In case the receiving settlement chain is not available to the delivering account servicer, the receiving account servicer may in return provide to the delivering account servicer the receiving settlement chain using the same message.||The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information|using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": ""
+    },
+    "TransferNotificationDetails": {
+      "name": "Transfer Notification Details",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the use of this message.|These market practices are available on www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

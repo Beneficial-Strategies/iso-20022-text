@@ -1,0 +1,143 @@
+{
+  "isoType": "ExternalDocumentAmountType1Code",
+  "language": "en",
+  "name": "External Document Amount Type 1 Code",
+  "definition": "Specifies the nature, or use, of the amount, as published in an external document amount type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "APDS": {
+      "isoName": "AdditionalPromotionalDiscount",
+      "name": "Additional Promotional Discount",
+      "definition": "Addition discount based on third-party agreed business promotional activity, i.e., extra 10 percent discount for 15 days)"
+    },
+    "STDS": {
+      "isoName": "StandingDiscount",
+      "name": "Standing Discount",
+      "definition": "Discount based on volume purchased."
+    },
+    "TMDS": {
+      "isoName": "TermsDiscount",
+      "name": "Terms Discount",
+      "definition": "Discount based on terms negotiated for payment within a specified time period, i.e., 2/10 Net 30 (2 percent discount if paid in 10 days; otherwise, net amount is due in 30 days)."
+    },
+    "CITY": {
+      "isoName": "CityTax",
+      "name": "City Tax",
+      "definition": "Tax accessed by city jurisdictions within a country."
+    },
+    "CNTY": {
+      "isoName": "CountyTax",
+      "name": "County Tax",
+      "definition": "Tax accessed by county jurisdictions within a country."
+    },
+    "LOCL": {
+      "isoName": "LocalTax",
+      "name": "Local Tax",
+      "definition": "Tax accessed by local jurisdictions within a country."
+    },
+    "PROV": {
+      "isoName": "ProvinceTax",
+      "name": "Province Tax",
+      "definition": "Tax accessed by province jurisdictions within a country."
+    },
+    "STAT": {
+      "isoName": "StateTax",
+      "name": "State Tax",
+      "definition": "Tax accessed by state jurisdictions within a country."
+    },
+    "CREN": {
+      "isoName": "CreditNote",
+      "name": "Credit Note",
+      "definition": "Amount is a credit note."
+    },
+    "DUPA": {
+      "isoName": "DuePayable",
+      "name": "Due Payable",
+      "definition": "Amount is due payable."
+    },
+    "PRIN": {
+      "isoName": "OutstandingPrincipal",
+      "name": "Outstanding Principal",
+      "definition": "Amount is the outstanding principal."
+    },
+    "TOTA": {
+      "isoName": "TotalPayment",
+      "name": "Total Payment",
+      "definition": "Amount is the total."
+    },
+    "INTE": {
+      "isoName": "InterestPayment",
+      "name": "Interest Payment",
+      "definition": "Amount is the interest."
+    },
+    "ESCO": {
+      "isoName": "Escrow",
+      "name": "Escrow",
+      "definition": "Amount is in escrow."
+    },
+    "TAXS": {
+      "isoName": "Tax",
+      "name": "Tax",
+      "definition": "Amount is tax."
+    },
+    "INSU": {
+      "isoName": "Insurance",
+      "name": "Insurance",
+      "definition": "Amount is insurance."
+    },
+    "OBAL": {
+      "isoName": "OutstandingBalance",
+      "name": "Outstanding Balance",
+      "definition": "Amount is the outstanding balance."
+    },
+    "SBAL": {
+      "isoName": "StatementBalance",
+      "name": "Statement Balance",
+      "definition": "Amount is the statement balance."
+    },
+    "MIDU": {
+      "isoName": "MinimumDue",
+      "name": "Minimum Due",
+      "definition": "Amount is the minimum due."
+    },
+    "PADU": {
+      "isoName": "PastDue",
+      "name": "Past Due",
+      "definition": "Amount is past due."
+    },
+    "CRTL": {
+      "isoName": "AvailableCredit",
+      "name": "Available Credit",
+      "definition": "Amount is available credit."
+    },
+    "PBAL": {
+      "isoName": "PreviousBalance",
+      "name": "Previous Balance",
+      "definition": "Amount is the previous balance."
+    },
+    "CHAR": {
+      "isoName": "NewCharges",
+      "name": "New Charges",
+      "definition": "Amount is new charges, for example new charges on a credit card."
+    },
+    "FEES": {
+      "isoName": "Fees",
+      "name": "Fees",
+      "definition": "Amount is fees."
+    },
+    "INTC": {
+      "isoName": "InterestCharges",
+      "name": "Interest Charges",
+      "definition": "Amount is interest charges, or example interest charges on a credit card."
+    },
+    "REMI": {
+      "isoName": "Remitted",
+      "name": "Remitted",
+      "definition": "Amount remitted."
+    },
+    "DISC": {
+      "isoName": "DiscountApplied",
+      "name": "Discount Applied",
+      "definition": "Discount Applied. Generic usage if cannot be specified by any other discount code."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "isoType": "SettlementDetails211",
+  "language": "en",
+  "name": "Settlement Details 211",
+  "definition": "Details of settlement of a transaction.",
+  "isoElements": {
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction was executed with a high priority."
+    },
+    "SecuritiesTransactionType": {
+      "name": "Securities Transaction Type",
+      "definition": "Identifies the type of securities transaction."
+    },
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade was to be settled."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement was allowed."
+    },
+    "BeneficialOwnership": {
+      "name": "Beneficial Ownership",
+      "definition": "Specifies whether there was change of beneficial ownership."
+    },
+    "BlockTrade": {
+      "name": "Block Trade",
+      "definition": "Specifies whether the settlement instruction was a block parent or child."
+    },
+    "CCPEligibility": {
+      "name": "CCP Eligibility",
+      "definition": "Specifies whether the settlement transaction was CCP (Central Counterparty) eligible."
+    },
+    "CashClearingSystem": {
+      "name": "Cash Clearing System",
+      "definition": "Specifies the category of cash clearing system, for example, cheque clearing."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade having caused the collateral movement."
+    },
+    "MarketClientSide": {
+      "name": "Market Client Side",
+      "definition": "Specifies if an instruction was for a market side or a client side transaction."
+    },
+    "NettingEligibility": {
+      "name": "Netting Eligibility",
+      "definition": "Specifies whether the settlement transaction was eligible for netting."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Specifies whether registration was to occur upon receipt."
+    },
+    "RepurchaseType": {
+      "name": "Repurchase Type",
+      "definition": "Specifies the type of repurchase transaction."
+    },
+    "LegalRestrictions": {
+      "name": "Legal Restrictions",
+      "definition": "Regulatory restrictions applicable to a security."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction was to be settled through an RTGS or a non RTGS system."
+    },
+    "SettlingCapacity": {
+      "name": "Settling Capacity",
+      "definition": "Role of a party in the settlement of the transaction."
+    },
+    "SettlementSystemMethod": {
+      "name": "Settlement System Method",
+      "definition": "Specifies whether the settlement instruction was to be settled through the default or the alternate settlement system."
+    },
+    "TaxCapacity": {
+      "name": "Tax Capacity",
+      "definition": "Tax role capacity of the instructing party."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    },
+    "AutomaticBorrowing": {
+      "name": "Automatic Borrowing",
+      "definition": "Condition for automatic borrowing."
+    },
+    "LetterOfGuarantee": {
+      "name": "Letter Of Guarantee",
+      "definition": "Specifies whether physical settlement was executed using a letter of guarantee or if the physical certificates were used."
+    },
+    "EligibleForCollateral": {
+      "name": "Eligible For Collateral",
+      "definition": "Specifies whether securities were requested to be included in the pool of securities eligible for collateral purposes."
+    },
+    "SecuritiesSubBalanceType": {
+      "name": "Securities Sub Balance Type",
+      "definition": "Specifies the securities sub balance type indicator (example restriction type for a market infrastructure)."
+    },
+    "CashSubBalanceType": {
+      "name": "Cash Sub Balance Type",
+      "definition": "Specifies the cash sub balance type indicator, for example, the restriction type for a market infrastructure."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "If SettlementDetails elements are used, then their conditions of use must be pre-agreed between account owner and account servicer."
+    },
+    "CashClearingSystemRule": {
+      "definition": "The CashSettlementSystem codes are to be used only by agents directly involved in the settlement process, such as local settlement agents, CSDs and central banks."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "GroupHeader128",
+  "language": "en",
+  "name": "Group Header 128",
+  "definition": "Provides the characteristics shared by all individual transactions included in the message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the instructing party, and sent to the next party in the chain to unambiguously identify the message.|Usage: The instructing party has to make sure that 'MessageIdentification' is unique per instructed party for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party that initiates the status message."
+    },
+    "ForwardingAgent": {
+      "name": "Forwarding Agent",
+      "definition": "Financial institution that receives the instruction from the initiating party and forwards it to the next agent in the payment chain."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    }
+  }
+}

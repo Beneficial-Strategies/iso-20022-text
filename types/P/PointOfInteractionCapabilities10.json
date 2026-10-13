@@ -1,0 +1,56 @@
+{
+  "isoType": "PointOfInteractionCapabilities10",
+  "language": "en",
+  "name": "Point Of Interaction Capabilities 10",
+  "definition": "Capabilities of the ATM terminal.",
+  "isoElements": {
+    "CardReadData": {
+      "name": "Card Read Data",
+      "definition": "Card reading capabilities of the ATM performing the transaction."
+    },
+    "CardWriteData": {
+      "name": "Card Write Data",
+      "definition": "Card writing capabilities of the terminal performing the transaction."
+    },
+    "Authentication": {
+      "name": "Authentication",
+      "definition": "Customer and card authentication capabilities available at the ATM."
+    },
+    "PINLengthCapabilities": {
+      "name": "PIN Length Capabilities",
+      "definition": "Maximum number of digits the ATM is able to accept when the cardholder enters its PIN."
+    },
+    "ApprovalCodeLength": {
+      "name": "Approval Code Length",
+      "definition": "Maximum number of characters of the approval code the ATM is able to manage."
+    },
+    "MaxScriptLength": {
+      "name": "Max Script Length",
+      "definition": "Maximum data length in bytes that a card issuer can return to the ICC at the terminal."
+    },
+    "CardCaptureCapable": {
+      "name": "Card Capture Capable",
+      "definition": "True if the ATM is able to capture card.|Usage: When absent, default value is True."
+    },
+    "WithdrawalMedia": {
+      "name": "Withdrawal Media",
+      "definition": "Type of media the ATM is able to dispense."
+    },
+    "DepositedMedia": {
+      "name": "Deposited Media",
+      "definition": "Type of media the customer is able to deposit in the ATM."
+    },
+    "MessageCapabilities": {
+      "name": "Message Capabilities",
+      "definition": "Capabilities of the terminal to display       Interactive Transaction Capabilities such as DCC, Fees, Accounts, etc. which the terminal can support.or print message to the cardholder and the merchant."
+    },
+    "InteractiveTransactions": {
+      "name": "Interactive Transactions",
+      "definition": "Interactive Transaction Capabilities such as DCC, Fees, Accounts, etc. which the terminal can support."
+    },
+    "ReceiptPrinting": {
+      "name": "Receipt Printing",
+      "definition": "Whether the terminal can print a receipt (i.e. the device is functional, and it has paper).|Usage: When absent, default value is True."
+    }
+  }
+}

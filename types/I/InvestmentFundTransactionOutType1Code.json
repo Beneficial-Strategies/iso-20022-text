@@ -1,0 +1,28 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Code",
+  "language": "en",
+  "name": "Investment Fund Transaction Out Type 1 Code",
+  "definition": "Specifies the type of investment fund transaction that results in a cash movement out of a fund.",
+  "isoCodes": {
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Transaction is a redemption of an investment fund."
+    },
+    "SWIO": {
+      "isoName": "SwitchOut",
+      "name": "Switch Out",
+      "definition": "Transaction is a subscription leg of a switch order execution."
+    },
+    "INSP": {
+      "isoName": "InSpecie",
+      "name": "In Specie",
+      "definition": "Transaction is an InSpecie."
+    },
+    "CROO": {
+      "isoName": "CrossOut",
+      "name": "Cross Out",
+      "definition": "Transaction is a cross out."
+    }
+  }
+}

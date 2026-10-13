@@ -1,0 +1,18 @@
+{
+  "isoType": "SuspendedStatusReason1Code",
+  "language": "en",
+  "name": "Suspended Status Reason 1 Code",
+  "definition": "Specifies the reason the transaction/instruction is suspended.",
+  "isoCodes": {
+    "SUBY": {
+      "isoName": "SuspendedByYourself",
+      "name": "Suspended By Yourself",
+      "definition": "Transaction/instruction is suspended following your earlier suspension instruction."
+    },
+    "SUBS": {
+      "isoName": "SuspendedBySystem",
+      "name": "Suspended By System",
+      "definition": "Transaction/instruction is suspended following a system suspension instruction."
+    }
+  }
+}

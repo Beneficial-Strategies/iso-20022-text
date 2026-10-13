@@ -1,0 +1,48 @@
+{
+  "isoType": "TransferStatus6Code",
+  "language": "en",
+  "name": "Transfer Status 6 Code",
+  "definition": "Specifies a transfer or settlement instruction status.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Transfer or settlement instruction has been acknowledged / accepted for further processing."
+    },
+    "COSE": {
+      "isoName": "AlreadyExecuted",
+      "name": "Already Executed",
+      "definition": "Transfer or settlement instruction is fully executed and the confirmation is sent."
+    },
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "Portfolio transfer is complete."
+    },
+    "DELY": {
+      "isoName": "Delayed",
+      "name": "Delayed",
+      "definition": "Transfer or settlement instruction is delayed."
+    },
+    "MACH": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Transfer or settlement instruction is matched."
+    },
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Instruction has been received, that is, technical validation of the message is ok, and the message is now at the receiving side."
+    },
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Transfer or settlement instruction has been sent to the next party, that is, the next intermediary."
+    },
+    "SETT": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Transfer or settlement instruction is settled."
+    }
+  }
+}

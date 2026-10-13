@@ -1,0 +1,40 @@
+{
+  "isoType": "ChargesRecord8",
+  "language": "en",
+  "name": "Charges Record 8",
+  "definition": "Provides further individual record details on the charges related to the payment transaction.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Transaction charges to be paid by the charge bearer."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the charges amount is a credit or a debit amount. |Usage: A zero amount is considered to be a credit."
+    },
+    "ChargeIncludedIndicator": {
+      "name": "Charge Included Indicator",
+      "definition": "Indicates whether the charge should be included in the amount or is added as pre-advice."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of charge."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the amount of the charge or fee."
+    },
+    "Bearer": {
+      "name": "Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "Agent": {
+      "name": "Agent",
+      "definition": "Agent that takes the transaction charges or to which the transaction charges are due."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Provides details on the tax applied to charges."
+    }
+  }
+}

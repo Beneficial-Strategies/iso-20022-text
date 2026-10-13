@@ -1,0 +1,47 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAuditTrailReport002V05",
+  "language": "en",
+  "name": "Securities Settlement Transaction Audit Trail Report 002 V 05",
+  "definition": "Scope|This message is sent by the Market Infrastructure to the CSD to advise of the history of all the statuses, modifications, replacement and cancellation of a specific transaction during its whole life cycle when the instructing party is a direct participant to the Settlement Infrastructure.||Usage|The message may also be used to: |- re-send a message sent by the market infrastructure to the direct participant,|- provide a third party with a copy of a message being sent by the market infrastructure for information,|- re-send to a third party a copy of a message being sent by the market infrastructure for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatusQuery message sent to request this report."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "StatusTrail": {
+      "name": "Status Trail",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

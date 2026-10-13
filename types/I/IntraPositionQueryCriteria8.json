@@ -1,0 +1,68 @@
+{
+  "isoType": "IntraPositionQueryCriteria8",
+  "language": "en",
+  "name": "Intra Position Query Criteria 8",
+  "definition": "Defines the criteria based on which information is included.",
+  "isoElements": {
+    "References": {
+      "name": "References",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "SafekeepingAccountOwner": {
+      "name": "Safekeeping Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BalanceType": {
+      "name": "Balance Type",
+      "definition": "Balance to which the amount of money is moved."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "name": "Securities Sub Balance Identification",
+      "definition": "Number identifying a lot constituting the sub-balance."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SettledQuantity": {
+      "name": "Settled Quantity",
+      "definition": "Quantity of financial instrument effectively settled."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Date and time at which the securities are intended to be moved."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which the securities are moved."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Primary market or country where a security is issued by the issuer or its agent."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the creation date/time of the intra-position movement."
+    }
+  }
+}

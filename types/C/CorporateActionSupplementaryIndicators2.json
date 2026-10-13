@@ -1,0 +1,49 @@
+{
+  "isoType": "CorporateActionSupplementaryIndicators2",
+  "language": "en",
+  "name": "Corporate Action Supplementary Indicators 2",
+  "definition": "Identification of a supplementary data element.",
+  "isoElements": {
+    "ConditionalPaymentApplicableIndicator": {
+      "name": "Conditional Payment Applicable Indicator",
+      "definition": "Indicates whether the payment made by the issuer is based on a stated condition.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "name": "Solicitation Dealer Fee Indicator",
+      "definition": "Indicates whether there is a solicitation fee on the event. This fee is paid by the soliciting dealer.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "SurrenderSharesToAgentIndicator": {
+      "name": "Surrender Shares To Agent Indicator",
+      "definition": "Indicates whether shares outside of DTC need to be delivered to the agent in order to receive entitlement.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "StepUpPrivilegeIndicator": {
+      "name": "Step Up Privilege Indicator",
+      "definition": "Indicates that the holder has the privilege to buy additional rights. Upon exercising this privilege, the holder may subscribe to one additional share of the new security in lieu of fractional shares to which the holder might otherwise be entitled.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "RightsOversubscriptionIndicator": {
+      "name": "Rights Oversubscription Indicator",
+      "definition": "Indicates whether holders of rights will be afforded the opportunity to subscribe to purchase extra shares that are not picked up by the remaining holders.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "RightsRoundUpPrivilegeIndicator": {
+      "name": "Rights Round Up Privilege Indicator",
+      "definition": "Indicates whether the shareholder will be able to round up its subscription in the event its rights are less than the requirement.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "RightsTransferableIndicator": {
+      "name": "Rights Transferable Indicator",
+      "definition": "Indicates whether rights can be transferred.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "EscrowToMaturityIndicator": {
+      "name": "Escrow To Maturity Indicator",
+      "definition": "For Partial Defeasance events, indicates whether there is an escrow agreement in place."
+    },
+    "ConcurrentCallIndicator": {
+      "name": "Concurrent Call Indicator",
+      "definition": "Indicates the presence of an additional redemption event occurring with the same publication date, payment date and underlying security as the event being announced."
+    }
+  },
+  "isoRules": {
+    "ConcurrentCallRule": {
+      "definition": "If ConcurrentCallIndicator is Yes, then Lottery FeatureType must be present."
+    }
+  }
+}

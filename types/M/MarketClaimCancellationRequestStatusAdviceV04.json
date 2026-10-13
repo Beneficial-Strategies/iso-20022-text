@@ -1,0 +1,32 @@
+{
+  "isoType": "MarketClaimCancellationRequestStatusAdviceV04",
+  "language": "en",
+  "name": "Market Claim Cancellation Request Status Advice V 04",
+  "definition": "Scope and Usage|The MarketClaimCancellationRequestStatusAdvice message is sent by an account servicer to an account holder to provide the status of a market claim transaction cancellation request.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "MarketClaimCancellationRequestIdentification": {
+      "name": "Market Claim Cancellation Request Identification",
+      "definition": ""
+    },
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "MarketClaimCancellationRequestStatus": {
+      "name": "Market Claim Cancellation Request Status",
+      "definition": ""
+    },
+    "MarketClaimDetails": {
+      "name": "Market Claim Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

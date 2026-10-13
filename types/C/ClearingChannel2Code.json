@@ -1,0 +1,28 @@
+{
+  "isoType": "ClearingChannel2Code",
+  "language": "en",
+  "name": "Clearing Channel 2 Code",
+  "definition": "Specifies the clearing channel for the routing of the transaction, as part of the payment type identification.",
+  "isoCodes": {
+    "RTGS": {
+      "isoName": "RealTimeGrossSettlementSystem",
+      "name": "Real Time Gross Settlement System",
+      "definition": "Clearing channel is a real-time gross settlement system."
+    },
+    "RTNS": {
+      "isoName": "RealTimeNetSettlementSystem",
+      "name": "Real Time Net Settlement System",
+      "definition": "Clearing channel is a real-time net settlement system."
+    },
+    "MPNS": {
+      "isoName": "MassPaymentNetSystem",
+      "name": "Mass Payment Net System",
+      "definition": "Clearing channel is a mass payment net settlement system."
+    },
+    "BOOK": {
+      "isoName": "BookTransfer",
+      "name": "Book Transfer",
+      "definition": "Payment through internal book transfer."
+    }
+  }
+}

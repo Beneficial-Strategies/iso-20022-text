@@ -1,0 +1,21 @@
+{
+  "isoType": "IntraPositionPending11",
+  "language": "en",
+  "name": "Intra Position Pending 11",
+  "definition": "Provides the transactions in the report.",
+  "isoElements": {
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Movement": {
+      "name": "Movement",
+      "definition": "Identifies the individual transaction."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason must be present or Movement(*)/StatusAndReason must be present, but not both."
+    }
+  }
+}

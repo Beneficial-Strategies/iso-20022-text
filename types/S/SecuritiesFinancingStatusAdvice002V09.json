@@ -1,0 +1,45 @@
+{
+  "isoType": "SecuritiesFinancingStatusAdvice002V09",
+  "language": "en",
+  "name": "Securities Financing Status Advice 002 V 09",
+  "definition": "Scope|An securities financing transaction account servicer sends a SecuritiesFinancingStatusAdvice to an account owner to advise the status of a securities financing transaction previously instructed by the account owner.|The status advice may be sent as a response to the request of the account owner or not.|The account servicer/owner relationship may be:|- a central securities depository or another settlement market infrastructure managing securities financing transactions on behalf of their participants|- an agent (sub-custodian) managing securities financing transactions on behalf of their global custodian customer, or|- a custodian managing securities financing transactions on behalf of an investment management institution or a broker/dealer.||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": ""
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": ""
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": ""
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": ""
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": ""
+    },
+    "RepoCallRequestStatus": {
+      "name": "Repo Call Request Status",
+      "definition": ""
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "If settlement status/reason is used alone, then it means that the transaction is matched (if a matching process exists in the concerned market or at the concerned account servicer)."
+    }
+  }
+}

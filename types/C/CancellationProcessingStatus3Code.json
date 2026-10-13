@@ -1,0 +1,38 @@
+{
+  "isoType": "CancellationProcessingStatus3Code",
+  "language": "en",
+  "name": "Cancellation Processing Status 3 Code",
+  "definition": "Specifies the status of a cancellation request.",
+  "isoCodes": {
+    "CANP": {
+      "isoName": "PendingCancellation",
+      "name": "Pending Cancellation",
+      "definition": "Cancellation is pending. It is not known at this time whether cancellation can be affected."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Cancellation has been rejected for further processing."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Cancellation request is in repair."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Cancellation request has been acknowledged for further processing by the account servicer."
+    },
+    "DEND": {
+      "isoName": "Denied",
+      "name": "Denied",
+      "definition": "Cancellation will not be executed."
+    },
+    "CAND": {
+      "isoName": "CancellationCompleted",
+      "name": "Cancellation Completed",
+      "definition": "Cancellation has been completed."
+    }
+  }
+}

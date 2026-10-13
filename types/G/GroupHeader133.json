@@ -1,0 +1,32 @@
+{
+  "isoType": "GroupHeader133",
+  "language": "en",
+  "name": "Group Header 133",
+  "definition": "Set of characteristics shared by all individual notifications included in the message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the sender, and sent to the receiver to unambiguously identify the message.|Usage: The sender has to make sure that MessageIdentification is unique per receiver for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "CashReceiver": {
+      "name": "Cash Receiver",
+      "definition": "Party that requests the cash withdrawal."
+    },
+    "CashSender": {
+      "name": "Cash Sender",
+      "definition": "Party that responds to the cash withdrawal request."
+    },
+    "NumberOfRequests": {
+      "name": "Number Of Requests",
+      "definition": "Number of individual requests contained in the message."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the message, irrespective of currencies."
+    }
+  }
+}

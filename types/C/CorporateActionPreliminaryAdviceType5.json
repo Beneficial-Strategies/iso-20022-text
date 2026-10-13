@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType5",
+  "language": "en",
+  "name": "Corporate Action Preliminary Advice Type 5",
+  "definition": "Type of movement preliminary advice document.",
+  "isoElements": {
+    "MovementPreliminaryAdviceIdentification": {
+      "name": "Movement Preliminary Advice Identification",
+      "definition": "Unique identification of the group of corporate action movement preliminary advice messages when the preliminary advice is split in multiple (paginated) messages."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of movement preliminary advice, for example. new or replacement."
+    },
+    "Function": {
+      "name": "Function",
+      "definition": "Specifies whether the message advises about the final eligible balance and entitlements or about an upcoming posting or reversal of securities and/or cash postings."
+    }
+  }
+}

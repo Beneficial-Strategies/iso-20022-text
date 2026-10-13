@@ -1,0 +1,28 @@
+{
+  "isoType": "PartyIdentification263Choice",
+  "language": "en",
+  "name": "Party Identification 263 Choice",
+  "definition": "Choice between different formats for the identification of a party.",
+  "isoElements": {
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Code allocated to a financial or non-financial institution by the ISO 9362 Registration Authority, as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    },
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Name and address of a party."
+    },
+    "IndividualOwnerIdentification": {
+      "name": "Individual Owner Identification",
+      "definition": "Individual local country specific identification of the owner agreed between the account servicer and account owner."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification of the party."
+    }
+  }
+}

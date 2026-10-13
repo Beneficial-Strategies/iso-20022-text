@@ -1,0 +1,36 @@
+{
+  "isoType": "ATMCassetteCounters6",
+  "language": "en",
+  "name": "ATM Cassette Counters 6",
+  "definition": "ATM cassette counter per unit value or globally.",
+  "isoElements": {
+    "UnitValue": {
+      "name": "Unit Value",
+      "definition": "Amount of one media unit, if the media type is valued."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the media, if the media type is valued and different from the currency of the requested amount."
+    },
+    "MediaCategory": {
+      "name": "Media Category",
+      "definition": "Category of media items."
+    },
+    "InitialCount": {
+      "name": "Initial Count",
+      "definition": "Number of media items in cassette after last replenishment."
+    },
+    "CurrentNumber": {
+      "name": "Current Number",
+      "definition": "Current number of media present in the cassette."
+    },
+    "CurrentAmount": {
+      "name": "Current Amount",
+      "definition": "Current amount in the cassette."
+    },
+    "FlowTotals": {
+      "name": "Flow Totals",
+      "definition": "Counters of media inside the cassette."
+    }
+  }
+}

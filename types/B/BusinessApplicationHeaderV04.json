@@ -1,0 +1,69 @@
+{
+  "isoType": "BusinessApplicationHeaderV04",
+  "language": "en",
+  "name": "Business Application Header V 04",
+  "definition": "The Business Layer deals with Business Messages. The behaviour of the Business Messages is fully described by the Business Transaction and the structure of the Business Messages is fully described by the Message Definitions and related Message Rules, Rules and Market Practices. All of which are registered in the ISO 20022 Repository.|A single new Business Message (with its accompagnying business application header) is created - by the sending MessagingEndpoint - for each business event; that is each interaction in a Business Transaction. A Business Message adheres to the following principles:|\" A Business Message (and its business application header) must not contain information about the Message Transport System or the mechanics or mechanism of message sending, transportation, or receipt. |\" A Business Message must be comprehensible outside of the context of the Transport Message. That is the Business Message must not require knowledge of the Transport Message to be understood.|\" A Business Message may contain headers, footers, and envelopes that are meaningful for the business. When present, they are treated as any other message content, which means that they are considered part of the Message Definition of the Business Message and as such will be part of the ISO 20022 Repository.|\" A Business Message refers to Business Actors by their Name. Each instance of a Business Actor has one Name. The Business Actor must not be referred to in the Transport Layer.|Specific usage of this BusinessMessageHeader may be defined by the relevant SEG.",
+  "isoElements": {
+    "CharacterSet": {
+      "name": "Character Set",
+      "definition": "Contains the character set of the text-based elements used in the Business Message."
+    },
+    "From": {
+      "name": "From",
+      "definition": ""
+    },
+    "To": {
+      "name": "To",
+      "definition": ""
+    },
+    "BusinessMessageIdentifier": {
+      "name": "Business Message Identifier",
+      "definition": "Unambiguously identifies the Business Message to the MessagingEndpoint that has created the Business Message."
+    },
+    "MessageDefinitionIdentifier": {
+      "name": "Message Definition Identifier",
+      "definition": "The Message Definition Identifier of the Business Message instance with which this Business Application Header instance is associated."
+    },
+    "BusinessService": {
+      "name": "Business Service",
+      "definition": "Specifies the business service agreed between the two MessagingEndpoints under which rules this Business Message is exchanged.|To be used when there is a choice of processing services or processing service levels.||Example: |“marketx.hvps.01” and “marketx.xbdr.01” might be used to indicate that the associated messages are subject to different processing levels for domestic high value payments versus cross-border payments  within the same market practice."
+    },
+    "MarketPractice": {
+      "name": "Market Practice",
+      "definition": ""
+    },
+    "CreationDate": {
+      "name": "Creation Date",
+      "definition": "Date and time when this Business Message (header) was created."
+    },
+    "BusinessProcessingDate": {
+      "name": "Business Processing Date",
+      "definition": "Processing date and time indicated by the sender for the receiver of the business message. This date may be different from the date and time provided in the CreationDate.||Usage: Market practice or bilateral agreement should specify how this element should be used."
+    },
+    "CopyDuplicate": {
+      "name": "Copy Duplicate",
+      "definition": "Indicates whether the message is a Copy, a Duplicate or a copy of a duplicate of a previously sent ISO 20022 Message."
+    },
+    "PossibleDuplicate": {
+      "name": "Possible Duplicate",
+      "definition": "Flag indicating if the Business Message exchanged between the MessagingEndpoints is possibly a duplicate. |If the receiving MessagingEndpoint did not receive the original, then this Business Message should be processed as if it were the original. ||If the receiving MessagingEndpoint did receive the original, then it should perform necessary actions to avoid processing this Business Message again.||This will guarantee business idempotent behaviour.||NOTE: this is named \"PossResend\" in FIX - this is an application level resend not a network level retransmission."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Relative indication of the processing precedence of the message over a (set of) Business Messages with assigned priorities."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Contains the digital signature of the Business Entity authorised to sign this Business Message."
+    },
+    "Related": {
+      "name": "Related",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "RelatedPresentWhenCopyDupl": {
+      "definition": "Related MUST contain the relevant BusinessMessageHeader elements of the BusinessMessage to which this BusinessMessage relates.||If CopyDuplicate is present, then Related MUST be present."
+    }
+  }
+}

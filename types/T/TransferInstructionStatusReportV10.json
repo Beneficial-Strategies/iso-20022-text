@@ -1,0 +1,40 @@
+{
+  "isoType": "TransferInstructionStatusReportV10",
+  "language": "en",
+  "name": "Transfer Instruction Status Report V 10",
+  "definition": "Scope|The TransferInstructionStatusReport message is sent by an executing party, for example, a transfer agent, to the instructing party, for example, an investment manager or one of its authorised representatives to provide the status of a previously received request for holdings information, portfolio transfer or transfer instruction.| It may also be used to report the status of an event related to the asset being transferred or provide additional information.|The TransferInstructionStatusReport message may also be sent by any party in the transfer transaction to another party in the transfer transaction chain to provide information relevant for the settlement of a transfer transaction. |Usage|The TransferInstructionStatusReport message is used to provide the status of a previously received request for holdings information, portfolio transfer or transfer instruction, or in response to a RequestForTransferStatus message. It may also be used to report the status of an event related to the asset being transferred or provide additional information.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": ""
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": ""
+    },
+    "StatusReport": {
+      "name": "Status Report",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference should be used to reference a transfer instruction or a transfer cancellation request 'message' sent in a proprietary way or used for a system reference. If Reference/OtherReference is present, Reference/OtherReference/MessageName must contain 'fax' or 'phone' or 'email', etc."
+    },
+    "RelatedReferenceRule": {
+      "definition": "If Reference/RelatedReference/MessageName is present, it must start with sese.001, sese.002, sese.005, sese.006, sese.009, sese.012 or sese.014."
+    }
+  }
+}

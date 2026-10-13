@@ -1,0 +1,42 @@
+{
+  "isoType": "IntraBalanceModification7",
+  "language": "en",
+  "name": "Intra Balance Modification 7",
+  "definition": "Provides the modification requests data in the report.",
+  "isoElements": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the cash account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Further details of the individual intrabalance modification transaction."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount must be present or Cancellation(*)/CashAccount must be present, but not both."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner must be present or Cancellation(*)/AccountOwner must be present, but not both."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus must be present or Cancellation(*)/ProcessingStatus must be present, but not both."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer must be present or Cancellation(*)/AccountOwner must be present, but not both."
+    }
+  }
+}

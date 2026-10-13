@@ -1,0 +1,193 @@
+{
+  "isoType": "PendingSettlementStatusReason2Code",
+  "language": "en",
+  "name": "Pending Settlement Status Reason 2 Code",
+  "definition": "Specifies the reason for a transfer or settlement instruction settlement pending status.",
+  "isoCodes": {
+    "AWSH": {
+      "isoName": "AwaitingSharesFromCounterparty",
+      "name": "Awaiting Shares From Counterparty",
+      "definition": "Securities have not yet been received from the counterparty."
+    },
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "CAIS": {
+      "isoName": "AwaitingSecurities",
+      "name": "Awaiting Securities",
+      "definition": "Awaiting securities from corporate action issue or other procedures, for example, conversion, dematerialisation, exchange, registration, stamping, splitting, etc."
+    },
+    "CLAC": {
+      "isoName": "CounterpartyInsufficientSecurities",
+      "name": "Counterparty Insufficient Securities",
+      "definition": "Insufficient deliverable securities in the counterparty's account, or counterparty does not hold the securities."
+    },
+    "DOCC": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromCounterparty",
+      "name": "Awaiting Documents Or Endorsements From Counterparty",
+      "definition": "Awaiting documents or endorsements from the counterparty."
+    },
+    "DOCY": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromYou",
+      "name": "Awaiting Documents Or Endorsements From You",
+      "definition": "Awaiting documents or endorsements from you."
+    },
+    "IAAD": {
+      "isoName": "StatusReasonInvestigation",
+      "name": "Status Reason Investigation",
+      "definition": "Pending reason is being investigated."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient deliverable securities in your account."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "PHCK": {
+      "isoName": "PhysicalSecuritiesVerification",
+      "name": "Physical Securities Verification",
+      "definition": "Physical shares have been received and are being checked for authenticity."
+    },
+    "PHSE": {
+      "isoName": "PhysicalDeliveryDelay",
+      "name": "Physical Delivery Delay",
+      "definition": "Settlement is physical and securities are being delivered."
+    },
+    "SBLO": {
+      "isoName": "SecuritiesBlocked",
+      "name": "Securities Blocked",
+      "definition": "Settlement is pending. The securities are blocked due to, for example, a corporate action event, re-alignment."
+    },
+    "MINF": {
+      "isoName": "MissingInformation",
+      "name": "Missing Information",
+      "definition": "Information, for example, telephone number, contact person, is missing."
+    },
+    "ACOP": {
+      "isoName": "AccountNotOpen",
+      "name": "Account Not Open",
+      "definition": "Account must already be opened in order to process the transfer."
+    },
+    "IINV": {
+      "isoName": "UnderInvestigation",
+      "name": "Under Investigation",
+      "definition": "Intermediary is investigating the reason why the transfer is pending."
+    },
+    "CINV": {
+      "isoName": "UnderClientInvestigation",
+      "name": "Under Client Investigation",
+      "definition": "Client has been informed of a problem and is investigating."
+    },
+    "AINV": {
+      "isoName": "UnderTransferAgentInvestigation",
+      "name": "Under Transfer Agent Investigation",
+      "definition": "Transfer agent is investigating."
+    },
+    "WTRF": {
+      "isoName": "AwaitingTransferAgentStatus",
+      "name": "Awaiting Transfer Agent Status",
+      "definition": "Transfer is being processed by the transfer agent, awaiting status from transfer agent."
+    },
+    "USUA": {
+      "isoName": "UsualTransactionTime",
+      "name": "Usual Transaction Time",
+      "definition": "Usual transfer agent's processing timeframe."
+    },
+    "ASTA": {
+      "isoName": "AwaitingStatus",
+      "name": "Awaiting Status",
+      "definition": "At your request, the Intermediary is checking the status of your instruction with the transfer agent."
+    },
+    "AFST": {
+      "isoName": "ApplicationFormSent",
+      "name": "Application Form Sent",
+      "definition": "Application form has been sent to the transfer agent."
+    },
+    "STST": {
+      "isoName": "StockTransferFormSent",
+      "name": "Stock Transfer Form Sent",
+      "definition": "Stock transfer form has been sent to the counterparty to sign and forward to the transfer agent."
+    },
+    "LPRO": {
+      "isoName": "LongerProcessing",
+      "name": "Longer Processing",
+      "definition": "Longer processing timeframe for this type of transfer, due to documentation requirements."
+    },
+    "ADRQ": {
+      "isoName": "AdditionalDocumentsRequested",
+      "name": "Additional Documents Requested",
+      "definition": "Additional documents have been requested by the transfer agent."
+    },
+    "ADS1": {
+      "isoName": "AdditionalDocumentsSent1",
+      "name": "Additional Documents Sent 1",
+      "definition": "Additional documents have been sent."
+    },
+    "ADS2": {
+      "isoName": "AdditionalDocumentsSent2",
+      "name": "Additional Documents Sent 2",
+      "definition": "Upon request of the transfer agent, the intermediary has sent additional documents. The transfer agent has confirmed that all the necessary information is now in place."
+    },
+    "DRJC": {
+      "isoName": "DocumentsRejected",
+      "name": "Documents Rejected",
+      "definition": "Documents are rejected by the transfer agent."
+    },
+    "CYIN": {
+      "isoName": "AwaitingCounterpartyReceipt",
+      "name": "Awaiting Counterparty Receipt",
+      "definition": "Counterparty has not sent an instruction to receive. Check with counterparty."
+    },
+    "CYDV": {
+      "isoName": "AwaitingCounterpartyDelivery",
+      "name": "Awaiting Counterparty Delivery",
+      "definition": "Counterparty has not sent an instruction to deliver or delivered the shares. Check with counterparty."
+    },
+    "OVER": {
+      "isoName": "NormalProcessingPeriodLapsed",
+      "name": "Normal Processing Period Lapsed",
+      "definition": "Normal processing period for the instruction has lapsed. The transfer agent has been or will be contacted."
+    },
+    "WCPA": {
+      "isoName": "WrongCounterpartyAccount",
+      "name": "Wrong Counterparty Account",
+      "definition": "Wrong counterparty account details."
+    },
+    "SDUT": {
+      "isoName": "LackOfStampDutyInformation",
+      "name": "Lack Of Stamp Duty Information",
+      "definition": "Instruction is pending as stamp duty information is missing."
+    },
+    "TAPR": {
+      "isoName": "TransferAgentProcessing",
+      "name": "Transfer Agent Processing",
+      "definition": "Transfer is being processed by transfer agent."
+    },
+    "XCNF": {
+      "isoName": "ExpectedConfirmation",
+      "name": "Expected Confirmation",
+      "definition": "Confirmation is expected from transfer agent."
+    },
+    "ESCA": {
+      "isoName": "Escalation",
+      "name": "Escalation",
+      "definition": "Special follow-up is taking place."
+    },
+    "NRCP": {
+      "isoName": "TransferAgentNonReceipt",
+      "name": "Transfer Agent Non Receipt",
+      "definition": "Transfer agent claims non-receipt of physical shares."
+    },
+    "FVER": {
+      "isoName": "FinalVerification",
+      "name": "Final Verification",
+      "definition": "Confirmed but finality is to be verified."
+    }
+  }
+}

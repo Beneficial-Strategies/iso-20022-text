@@ -1,0 +1,53 @@
+{
+  "isoType": "IntraPositionMovement10",
+  "language": "en",
+  "name": "Intra Position Movement 10",
+  "definition": "Identifies the details of the transaction.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction as assigned by the processor."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "MovementDetails": {
+      "name": "Movement Details",
+      "definition": "Identifies additional details of the transaction."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, for example, the transaction was sent by fax, then the AccountOwnerTransactionIdentification must be NONREF."
+    }
+  }
+}

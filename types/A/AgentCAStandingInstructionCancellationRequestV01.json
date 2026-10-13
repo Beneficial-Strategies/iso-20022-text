@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCAStandingInstructionCancellationRequestV01",
+  "language": "en",
+  "name": "Agent CA Standing Instruction Cancellation Request V 01",
+  "definition": "Scope|This message is sent by a CSD to the issuer agent to request the cancellation of a previously sent Agent Corporate Action Standing Instruction.|Usage|This message is used to request the cancellation of a standing instruction.|This message must contain the identification of the standing instruction to be cancelled. It may also contain details of the standing instruction to be cancelled, but this is not recommended.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AgentCAStandingInstructionRequestIdentification": {
+      "name": "Agent CA Standing Instruction Request Identification",
+      "definition": ""
+    },
+    "StandingInstructionGeneralInformation": {
+      "name": "Standing Instruction General Information",
+      "definition": ""
+    },
+    "StandingInstructionDetails": {
+      "name": "Standing Instruction Details",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventType101Choice",
+  "language": "en",
+  "name": "Corporate Action Event Type 101 Choice",
+  "definition": "Choice of format for the repair reason.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Corporate action event type expressed as an ISO 20022 code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Corporate action event type expressed as a proprietary code."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "The use of a specific corporate action event type code is allowed only if this specific event triggers a securities movement as per the Event Interpretation Grid published by the Securities Market Practice Group (SMPG).||The corporate action event indicator code OTHR must only be used in case no other corporate action event code is appropriate.||The corporate action event indicator code CHAN must only be used in case no other corporate action event code is appropriate and only for an event which relates to a change.||The corporate action event indicator code REDM must only be used when the redemption is decided by the issuer and not by the holders."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ResendRequestV01",
+  "language": "en",
+  "name": "Resend Request V 01",
+  "definition": "A system member or any parties authorised by them send a ResendRequest message to the Central System (such as the T2S platform). The purpose of this request is, that the requesting party wants to receive the “original” message once again. This might be caused through technical problems on the receiving side (message could not be received or processed or is missing in the message sequencing) or for archiving purposes.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "ResendSearchCriteria": {
+      "name": "Resend Search Criteria",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

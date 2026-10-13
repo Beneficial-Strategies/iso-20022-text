@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementMethod7Choice",
+  "language": "en",
+  "name": "Settlement Method 7 Choice",
+  "definition": "Settlement details to determine whether payment is a credit or debit.",
+  "isoElements": {
+    "Credit": {
+      "name": "Credit",
+      "definition": "Specifies details of the payment to be made by the old account servicer to the new account servicer in case of a positive closing balance."
+    },
+    "Debit": {
+      "name": "Debit",
+      "definition": "Specifies details of the payment to be made by the new account servicer to the old account servicer in case of a negative closing balance."
+    }
+  }
+}

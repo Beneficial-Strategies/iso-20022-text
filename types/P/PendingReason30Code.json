@@ -1,0 +1,28 @@
+{
+  "isoType": "PendingReason30Code",
+  "language": "en",
+  "name": "Pending Reason 30 Code",
+  "definition": "Specifies the reason why the instruction has a pending status.",
+  "isoCodes": {
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "BUMM": {
+      "isoName": "BuyerProtectionMismatch",
+      "name": "Buyer Protection Mismatch",
+      "definition": "Counterparty disagreement on the chosen corporate action outturn."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    },
+    "WCTF": {
+      "isoName": "AwaitingCounterpartyResponse",
+      "name": "Awaiting Counterparty Response",
+      "definition": "Allegement has been sent out to counterparty. Waiting for the response."
+    }
+  }
+}

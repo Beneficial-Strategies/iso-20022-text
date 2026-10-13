@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalReference11",
+  "language": "en",
+  "name": "Additional Reference 11",
+  "definition": "References a related message or provides another reference, such as a pool reference, linking a set of messages. The party which issued the related reference may be the Sender of the referenced message or a party other than the Sender.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference identifying a set of messages."
+    },
+    "ReferenceIssuer": {
+      "name": "Reference Issuer",
+      "definition": "Issuer of the reference."
+    },
+    "MessageName": {
+      "name": "Message Name",
+      "definition": "Name of the message."
+    }
+  }
+}

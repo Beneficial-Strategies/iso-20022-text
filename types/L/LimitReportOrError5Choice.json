@@ -1,0 +1,16 @@
+{
+  "isoType": "LimitReportOrError5Choice",
+  "language": "en",
+  "name": "Limit Report Or Error 5 Choice",
+  "definition": "Choice between details of one or more limits set by the member (or on behalf of the member) and managed by the transaction administrator or an operational error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Reports on limits."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

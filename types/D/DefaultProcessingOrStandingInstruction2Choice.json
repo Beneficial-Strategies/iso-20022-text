@@ -1,0 +1,16 @@
+{
+  "isoType": "DefaultProcessingOrStandingInstruction2Choice",
+  "language": "en",
+  "name": "Default Processing Or Standing Instruction 2 Choice",
+  "definition": "Choice between default processing or standing instruction.",
+  "isoElements": {
+    "DefaultOptionIndicator": {
+      "name": "Default Option Indicator",
+      "definition": "Indicates whether the option, for example, currency option, will be selected by default if no instruction is provided by the account owner."
+    },
+    "StandingInstructionIndicator": {
+      "name": "Standing Instruction Indicator",
+      "definition": "Indicates whether an account owner has placed a standing order to select this corporate action option.|The standing instruction may or may not be overridden, depending on account or event terms."
+    }
+  }
+}

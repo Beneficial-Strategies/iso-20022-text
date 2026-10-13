@@ -1,0 +1,60 @@
+{
+  "isoType": "CashAccountCharacteristics5",
+  "language": "en",
+  "name": "Cash Account Characteristics 5",
+  "definition": "Specifies the characteristics of the cash account.",
+  "isoElements": {
+    "AccountLevel": {
+      "name": "Account Level",
+      "definition": "Defines the account level within an account hierarchy."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Usage: the account servicer is the domicile agent servicing the local account."
+    },
+    "ParentAccount": {
+      "name": "Parent Account",
+      "definition": "Defines a parent account to which the cash account is related to."
+    },
+    "CompensationMethod": {
+      "name": "Compensation Method",
+      "definition": "Defines if and how charges and taxes due are paid to the financial institution."
+    },
+    "DebitAccount": {
+      "name": "Debit Account",
+      "definition": "Defines the account debited for charges and taxes due on the cash account, if different from the cash account."
+    },
+    "DelayedDebitDate": {
+      "name": "Delayed Debit Date",
+      "definition": "Future date on which the account will be automatically debited for charges and taxes due."
+    },
+    "SettlementAdvice": {
+      "name": "Settlement Advice",
+      "definition": "Free form message advising the customer about the settlement of charges and taxes due."
+    },
+    "AccountBalanceCurrencyCode": {
+      "name": "Account Balance Currency Code",
+      "definition": "Currency used to specify the account's balance currency."
+    },
+    "SettlementCurrencyCode": {
+      "name": "Settlement Currency Code",
+      "definition": "Currency used to specify the account's settlement currency."
+    },
+    "HostCurrencyCode": {
+      "name": "Host Currency Code",
+      "definition": "Currency used to specify the account's taxing host currency."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Describes account taxing parameters."
+    },
+    "AccountServicerContact": {
+      "name": "Account Servicer Contact",
+      "definition": "Individual to contact at the financial institution's location regarding problems of a business nature."
+    }
+  }
+}

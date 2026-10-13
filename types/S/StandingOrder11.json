@@ -1,0 +1,88 @@
+{
+  "isoType": "StandingOrder11",
+  "language": "en",
+  "name": "Standing Order 11",
+  "definition": "Defines the detailed attributes of a standing order.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money and currency to be transferred when a payment instruction is created as a result of a standing order."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies if the account is debited or credited by the standing order."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Unique and unambiguous identification for a standing order, as assigned by the account servicer or the account owner."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the standing order."
+    },
+    "AssociatedPoolAccount": {
+      "name": "Associated Pool Account",
+      "definition": "Liquidity transfer origin or destination account within the pool of accounts under management of the requestor."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Unique and unambiguous identification for a standing order, as assigned by the account servicer or the account owner."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which payment instructions are to be created and processed as a result of the standing order, such as daily, weekly, or monthly."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Dates during which the standing order is in effect."
+    },
+    "SystemMember": {
+      "name": "System Member",
+      "definition": "Specifies if the account is debited or credited by the standing order."
+    },
+    "ResponsibleParty": {
+      "name": "Responsible Party",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "LinkSetIdentification": {
+      "name": "Link Set Identification",
+      "definition": "Unique identification to unambiguously identify the link set in which the standing order is defined. The link set is a collection of standing order defined in a specific sequence."
+    },
+    "LinkSetOrderIdentification": {
+      "name": "Link Set Order Identification",
+      "definition": "Unique identification to unambiguously identify liquidity transfer standing order within the link set."
+    },
+    "LinkSetOrderSequence": {
+      "name": "Link Set Order Sequence",
+      "definition": "Specifies the sequence in which the system will execute the liquidity transfers standing order within the link set when additional liquidity is required."
+    },
+    "ExecutionType": {
+      "name": "Execution Type",
+      "definition": "Defines whether the standing order is executed through a time-based or an event-based trigger."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Cash account credited from a standing order mechanism."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Cash account debited from a standing order mechanism."
+    },
+    "TotalsPerStandingOrder": {
+      "name": "Totals Per Standing Order",
+      "definition": "Overall amount of \"not yet executed\" predefined liquidity transfer orders or \"defined\" by a system participant in its sphere of responsibility within the system."
+    },
+    "ZeroSweepIndicator": {
+      "name": "Zero Sweep Indicator",
+      "definition": "Indicates whether the liquidity transfer standing order is defined as a zero sweeping order. When true, the liquidity transfer standing order will transfer all amount of money out of the account so the resulting balance is zero."
+    }
+  }
+}

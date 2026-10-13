@@ -1,0 +1,69 @@
+{
+  "isoType": "AccountStatus2",
+  "language": "en",
+  "name": "Account Status 2",
+  "definition": "Status of an account.",
+  "isoElements": {
+    "Enabled": {
+      "name": "Enabled",
+      "definition": "Account can be used for its intended purpose."
+    },
+    "Disabled": {
+      "name": "Disabled",
+      "definition": "Account cannot temporarily be used for its intended purpose."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Account change is pending approval."
+    },
+    "PendingOpening": {
+      "name": "Pending Opening",
+      "definition": "Account opening is pending."
+    },
+    "Proforma": {
+      "name": "Proforma",
+      "definition": "Account is temporary and can be partially used for its intended purpose. The account will be fully available for use when the account servicer has received all relevant documents."
+    },
+    "Closed": {
+      "name": "Closed",
+      "definition": "Account is closed."
+    },
+    "ClosurePending": {
+      "name": "Closure Pending",
+      "definition": "Account closure is pending."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Status is a bilaterally agreed status."
+    }
+  },
+  "isoRules": {
+    "ClosedStatus1Rule": {
+      "definition": "If Closed is present then Enabled is not allowed."
+    },
+    "EnabledDisabledStatus1Rule": {
+      "definition": "If Enabled is present, then Disabled is not allowed."
+    },
+    "EnabledDisabledStatus2Rule": {
+      "definition": "If Disabled is present, then Enabled is not allowed."
+    },
+    "ClosedStatus3Rule": {
+      "definition": "If Closed is present then Pending is not allowed."
+    },
+    "ClosedStatus2Rule": {
+      "definition": "If Closed is present then Disabled is not allowed."
+    },
+    "ClosedStatus4Rule": {
+      "definition": "If Closed is present then PendingOpening is not allowed."
+    },
+    "ClosedStatus5Rule": {
+      "definition": "If Closed is present then Proforma is not allowed."
+    },
+    "ClosedStatus6Rule": {
+      "definition": "If Closed is present then ClosurePending is not allowed."
+    },
+    "StatusElementRule": {
+      "definition": "One of the elements (Enabled, Disabled, Pending, PendingOpening, Proforma, Closed, ClosurePending, Other) must be present."
+    }
+  }
+}

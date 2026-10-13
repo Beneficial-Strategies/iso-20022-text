@@ -1,0 +1,33 @@
+{
+  "isoType": "MarketType9Code",
+  "language": "en",
+  "name": "Market Type 9 Code",
+  "definition": "Specifies the type of place where a trade was executed, a price was sourced from, an instrument is listed.",
+  "isoCodes": {
+    "FUND": {
+      "isoName": "Fund",
+      "name": "Fund",
+      "definition": "The place is a fund (transfer agent, fund itself, etc.)."
+    },
+    "LMAR": {
+      "isoName": "LocalMarket",
+      "name": "Local Market",
+      "definition": "The place is a local market."
+    },
+    "THEO": {
+      "isoName": "Theoretical",
+      "name": "Theoretical",
+      "definition": "The place is theoretical."
+    },
+    "VEND": {
+      "isoName": "Vendor",
+      "name": "Vendor",
+      "definition": "The place is a vendor."
+    },
+    "SCAS": {
+      "isoName": "SmartContractAutomatedPricingSystem",
+      "name": "Smart Contract Automated Pricing System",
+      "definition": "Source of price quotation is a smart contract automated pricing system."
+    }
+  }
+}

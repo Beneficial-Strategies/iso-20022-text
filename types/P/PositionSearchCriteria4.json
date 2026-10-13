@@ -1,0 +1,40 @@
+{
+  "isoType": "PositionSearchCriteria4",
+  "language": "en",
+  "name": "Position Search Criteria 4",
+  "definition": "Defines the securities account position query criteria.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "FinancialInstrument": {
+      "name": "Financial Instrument",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-à-vis the issuer."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Country where the security is issued."
+    },
+    "SubBalanceType": {
+      "name": "Sub Balance Type",
+      "definition": "Defines specific restriction characteristics for a securities position."
+    },
+    "ReturnZeroPosition": {
+      "name": "Return Zero Position",
+      "definition": "Option to provide output zero position in the results."
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": "Other business parties relevant to the transaction."
+    }
+  }
+}

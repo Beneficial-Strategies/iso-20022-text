@@ -1,0 +1,48 @@
+{
+  "isoType": "SettlementTransactionCondition22Code",
+  "language": "en",
+  "name": "Settlement Transaction Condition 22 Code",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoCodes": {
+    "CLEN": {
+      "isoName": "Clean",
+      "name": "Clean",
+      "definition": "Tax-exempt financial instruments are to be settled."
+    },
+    "DLWM": {
+      "isoName": "DeliveryWithoutMatching",
+      "name": "Delivery Without Matching",
+      "definition": "Matching receipt instruction not required (only for concerned international or national central securities depositories)."
+    },
+    "DIRT": {
+      "isoName": "Dirty",
+      "name": "Dirty",
+      "definition": "Taxable financial instruments are to be settled."
+    },
+    "GATE": {
+      "isoName": "GatingEventParticipation",
+      "name": "Gating Event Participation",
+      "definition": "Gating event participation. Hold until event start time."
+    },
+    "NOMC": {
+      "isoName": "NoAutomaticMarketClaim",
+      "name": "No Automatic Market Claim",
+      "definition": "No market claim should be automatically generated."
+    },
+    "PHYS": {
+      "isoName": "Physical",
+      "name": "Physical",
+      "definition": "Securities are to be physically settled."
+    },
+    "SPDL": {
+      "isoName": "SpecialDelivery",
+      "name": "Special Delivery",
+      "definition": "Settlement transactions to be settled with special delivery."
+    },
+    "SPST": {
+      "isoName": "SplitSettlement",
+      "name": "Split Settlement",
+      "definition": "Money and financial instruments settle in different locations."
+    }
+  }
+}

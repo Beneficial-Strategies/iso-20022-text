@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationRequestV02",
+  "language": "en",
+  "name": "Investigation Request V 02",
+  "definition": "Scope|The InvestigationRequest message is sent between agents or parties to create a payment or account related investigation or request a status update on an open payment or account related investigation.||Usage|The InvestigationRequest message can be used to create an investigation for these business scenarios -|- unable to apply;|- request for information;|- request value date adjustment;|- claim non-receipt;|- request debit authorisation;|- request use of funds;|- payment initiation not confirmed;|- miscellaenous business scenarios.|The InvestigationRequest message covers one and only one transaction or entry at a time in most business scenarios. In a request for information an agent or party may refer to more than one transaction within the Narrative element. For all other scenarios if an agent or party needs to create investigations that relate to several transactions or entries then several InvestigationRequest messages should be sent.",
+  "isoElements": {
+    "InvestigationRequest": {
+      "name": "Investigation Request",
+      "definition": ""
+    },
+    "InvestigationData": {
+      "name": "Investigation Data",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesAccountIdentification1Choice",
+  "language": "en",
+  "name": "Securities Account Identification 1 Choice",
+  "definition": "Choice between one or more selected accounts.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    }
+  }
+}

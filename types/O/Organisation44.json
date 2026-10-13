@@ -1,0 +1,21 @@
+{
+  "isoType": "Organisation44",
+  "language": "en",
+  "name": "Organisation 44",
+  "definition": "Information which describes the organisation.",
+  "isoElements": {
+    "FullLegalName": {
+      "name": "Full Legal Name",
+      "definition": "Name by which a party is known and which is usually used to identify that party."
+    },
+    "OrganisationIdentification": {
+      "name": "Organisation Identification",
+      "definition": "Unique and unambiguous way of identifying an organisation."
+    }
+  },
+  "isoRules": {
+    "OrganisationIdentificationRule": {
+      "definition": "In case of conflict between the Organisation Identification and the Full Legal Name, it is recommended that the account servicer ask for clarification by means of an AdditionalInformationRequest message."
+    }
+  }
+}

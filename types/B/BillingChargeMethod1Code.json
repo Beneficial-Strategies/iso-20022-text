@@ -1,0 +1,108 @@
+{
+  "isoType": "BillingChargeMethod1Code",
+  "language": "en",
+  "name": "Billing Charge Method 1 Code",
+  "definition": "Defines how the billing charge is calculated.",
+  "isoCodes": {
+    "UPRC": {
+      "isoName": "UnitPriced",
+      "name": "Unit Priced",
+      "definition": "Charge is calculated as the product of volume times unit price. This is the default value."
+    },
+    "STAM": {
+      "isoName": "StampDuty",
+      "name": "Stamp Duty",
+      "definition": "Service is specifically identified as a stamp duty for accounting purposes. The charge is calculated as the product of volume times unit price."
+    },
+    "BCHG": {
+      "isoName": "BaseCharge",
+      "name": "Base Charge",
+      "definition": "Fee charged in addition to the volume times unit price when one or more units of the service are provided."
+    },
+    "DPRC": {
+      "isoName": "DiscountPrice",
+      "name": "Discount Price",
+      "definition": "Charge is calculated using a price which is lower than the quoted bank price."
+    },
+    "FCHG": {
+      "isoName": "FlatCharge",
+      "name": "Flat Charge",
+      "definition": "Fixed charge not tied to volume or unit price. Flat Charge fees do not require a volume or Unit Price."
+    },
+    "LPRC": {
+      "isoName": "ListPrice",
+      "name": "List Price",
+      "definition": "A single service where the volume, original charge and balance required are the totals of two or more pricing tiers."
+    },
+    "MCHG": {
+      "isoName": "MinimumCharge",
+      "name": "Minimum Charge",
+      "definition": "Lowest charge possible for the service."
+    },
+    "MXRD": {
+      "isoName": "MaximumReduction",
+      "name": "Maximum Reduction",
+      "definition": "Maximum charge possible for the service even though volume times unit price exceeds the maximum reduction value."
+    },
+    "TIR1": {
+      "isoName": "Tier1",
+      "name": "Tier 1",
+      "definition": "Line item represents a charge for tier 1 in a multi tier, volume discount charging structure. Designates the tier 1 used to charge out the volume that falls in that tier."
+    },
+    "TIR2": {
+      "isoName": "Tier2",
+      "name": "Tier 2",
+      "definition": "Line item represents a charge for tier 2 in a multi tier, volume discount charging structure. Designates the tier 2 used to charge out the volume that falls in that tier."
+    },
+    "TIR3": {
+      "isoName": "Tier3",
+      "name": "Tier 3",
+      "definition": "Line item represents a charge for tier 3 in a multi tier, volume discount charging structure. Designates the tier 3 used to charge out the volume that falls in that tier."
+    },
+    "TIR4": {
+      "isoName": "Tier4",
+      "name": "Tier 4",
+      "definition": "Line item represents a charge for tier 4 in a multi tier, volume discount charging structure. Designates the tier 4 used to charge out the volume that falls in that tier."
+    },
+    "TIR5": {
+      "isoName": "Tier5",
+      "name": "Tier 5",
+      "definition": "Line item represents a charge for tier 5 in a multi tier, volume discount charging structure. Designates the tier 5 used to charge out the volume that falls in that tier."
+    },
+    "TIR6": {
+      "isoName": "Tier6",
+      "name": "Tier 6",
+      "definition": "Line item represents a charge for tier 6 in a multi tier, volume discount charging structure. Designates the tier 6 used to charge out the volume that falls in that tier."
+    },
+    "TIR7": {
+      "isoName": "Tier7",
+      "name": "Tier 7",
+      "definition": "Line item represents a charge for tier 7 in a multi tier, volume discount charging structure. Designates the tier 7 used to charge out the volume that falls in that tier."
+    },
+    "TIR8": {
+      "isoName": "Tier8",
+      "name": "Tier 8",
+      "definition": "Line item represents a charge for tier 8 in a multi tier, volume discount charging structure. Designates the tier 8 used to charge out the volume that falls in that tier."
+    },
+    "TIR9": {
+      "isoName": "Tier9",
+      "name": "Tier 9",
+      "definition": "Line item represents a charge for tier 9 in a multi tier, volume discount charging structure. Designates the tier 9 used to charge out the volume that falls in that tier."
+    },
+    "TPRC": {
+      "isoName": "ThresholdPrice",
+      "name": "Threshold Price",
+      "definition": "Unit price is determined by the total volume."
+    },
+    "ZPRC": {
+      "isoName": "ZonePrice",
+      "name": "Zone Price",
+      "definition": "Indicates different prices for the same service. Typically used in a relationship summary statement where the same service has a different price for different accounts in the relationship."
+    },
+    "BBSE": {
+      "isoName": "BalanceBased",
+      "name": "Balance Based",
+      "definition": "Charge is calculated as a balance times a per-annum rate multiplied by a time factor."
+    }
+  }
+}

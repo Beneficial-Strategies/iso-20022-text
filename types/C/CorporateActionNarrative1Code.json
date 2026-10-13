@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionNarrative1Code",
+  "language": "en",
+  "name": "Corporate Action Narrative 1 Code",
+  "definition": "Specifies the narrative type of a corporate action.",
+  "isoCodes": {
+    "TAXE": {
+      "isoName": "TaxationConditions",
+      "name": "Taxation Conditions",
+      "definition": "Provides taxation conditions that cannot be included within the structured fields of this message."
+    },
+    "REGI": {
+      "isoName": "RegistrationDetails",
+      "name": "Registration Details",
+      "definition": "Provides information required for the registration."
+    },
+    "WTRC": {
+      "isoName": "WithholdingTaxReliefCertification",
+      "name": "Withholding Tax Relief Certification",
+      "definition": "Certification process for withholding tax reduction or exemption based on the tax status of the holder."
+    },
+    "RFMC": {
+      "isoName": "ICSDRefusalOfMarkUpDownConfirmation",
+      "name": "ICSD Refusal Of Mark Up Down Confirmation",
+      "definition": "In the context of a corporate action, an International Central Securities Depository (ICSD) refuses a mark-up/mark-down confirmation sent by the account servicer."
+    },
+    "PAUT": {
+      "isoName": "ChasingOfPriorAuthorization",
+      "name": "Chasing Of Prior Authorization",
+      "definition": "International Central Securities Depository (ICSD) chases the authorisation from the account servicer in order to process the exchange from global temporary to global permanent."
+    },
+    "CTIN": {
+      "isoName": "ConfirmationOfHoldingTransfer",
+      "name": "Confirmation Of Holding Transfer",
+      "definition": "Confirmation of transfer of interests between International Central Securities Depositories (ICSDs) following a corporate actions."
+    }
+  }
+}

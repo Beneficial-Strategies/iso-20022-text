@@ -1,0 +1,16 @@
+{
+  "isoType": "EndPoint2Choice",
+  "language": "en",
+  "name": "End Point 2 Choice",
+  "definition": "Choice of either the last payment date or the number of payments to make.",
+  "isoElements": {
+    "NumberOfPayments": {
+      "name": "Number Of Payments",
+      "definition": "Number of the payments that will be made in completing this frequency sequence including any executed since the sequence start date."
+    },
+    "LastPaymentDate": {
+      "name": "Last Payment Date",
+      "definition": "Final payment of the standing order due."
+    }
+  }
+}

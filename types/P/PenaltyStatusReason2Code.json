@@ -1,0 +1,73 @@
+{
+  "isoType": "PenaltyStatusReason2Code",
+  "language": "en",
+  "name": "Penalty Status Reason 2 Code",
+  "definition": "Specifies the reason for the status of the penalty.",
+  "isoCodes": {
+    "UPDT": {
+      "isoName": "Updated",
+      "name": "Updated",
+      "definition": "Penalty has been updated."
+    },
+    "SUSP": {
+      "isoName": "TradingSuspended",
+      "name": "Trading Suspended",
+      "definition": "Penalty was removed becuase of ISIN suspension from trading."
+    },
+    "TECH": {
+      "isoName": "TechnicalImpossibilities",
+      "name": "Technical Impossibilities",
+      "definition": "Penalty was removed becuase there were thecnical imposssibilities at the CSD level that prevent settlement, such as: a failure of the infrastructure components, a cyber-attack, network problems."
+    },
+    "SWIC": {
+      "isoName": "Switched",
+      "name": "Switched",
+      "definition": "Penalty has been switched between the failing and non-failing party."
+    },
+    "SESU": {
+      "isoName": "SettlementSuspended",
+      "name": "Settlement Suspended",
+      "definition": "Penalty was removed becuase of ISIN suspension from settlement due to a reconciliation issue under Article 65 (2) and (6) of the RTS on CSD Requirements."
+    },
+    "SEMP": {
+      "isoName": "SettlementOnMultiplePlatforms",
+      "name": "Settlement On Multiple Platforms",
+      "definition": "Settlement on multiple platforms where one of the platforms is closed for settlement (either cash or securities)."
+    },
+    "RALO": {
+      "isoName": "Reallocated",
+      "name": "Reallocated",
+      "definition": "Re-allocation of a late matching fail penalty from the instructing party to the delivering/receiving party."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "See narrative."
+    },
+    "NEWP": {
+      "isoName": "NewPenalty",
+      "name": "New Penalty",
+      "definition": "Penalty is new."
+    },
+    "INTS": {
+      "isoName": "InternalisedSettlement",
+      "name": "Internalised Settlement",
+      "definition": "Penalty is not computed because the settlement has been internalised."
+    },
+    "INSO": {
+      "isoName": "Insolvency",
+      "name": "Insolvency",
+      "definition": "Penalty was removed becuase insolvency proceedings are opened against the failing participant."
+    },
+    "CORP": {
+      "isoName": "CorporateAction",
+      "name": "Corporate Action",
+      "definition": "Specifies that due to a specific corporate action, the security does no longer exists."
+    },
+    "NOSU": {
+      "isoName": "NotSubject",
+      "name": "Not Subject",
+      "definition": "Penalty is not computed or removed because the security is not subject to penalties."
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "isoType": "MeetingNotificationV13",
+  "language": "en",
+  "name": "Meeting Notification V 13",
+  "definition": "Scope|The MeetingNotification message is sent by a notifying party, for example, an issuer, its agent or an intermediary to another intermediary, a party holding the right to vote, a registered security holder or to a beneficial holder to announce a meeting.|Usage|The MeetingNotification message is used to announce a meeting, for example, it provides information on the participation details and requirements for the meeting, the vote parameters and the resolutions. The MeetingNotification message may also be used to announce an update.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "NotificationGeneralInformation": {
+      "name": "Notification General Information",
+      "definition": ""
+    },
+    "NotificationUpdate": {
+      "name": "Notification Update",
+      "definition": ""
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": ""
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": ""
+    },
+    "MeetingDetails": {
+      "name": "Meeting Details",
+      "definition": ""
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": ""
+    },
+    "IssuerAgent": {
+      "name": "Issuer Agent",
+      "definition": ""
+    },
+    "Security": {
+      "name": "Security",
+      "definition": ""
+    },
+    "Resolution": {
+      "name": "Resolution",
+      "definition": ""
+    },
+    "Vote": {
+      "name": "Vote",
+      "definition": ""
+    },
+    "PowerOfAttorneyRequirements": {
+      "name": "Power Of Attorney Requirements",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "Resolution1Guideline": {
+      "definition": "When an agenda item needs to be linked to a resolution, it is recommended that the resolution information directly follows the agenda item information to which the resolution is linked, as illustrated in the following example:|Resolution/IssuerLabel = Agenda item 1|Description = <Item description.>|ForInformationOnly = True|Type =.||Directly followed by||Resolution/IssuerLabel = Resolution 1|Description = <Resolution description.>|ForInformationOnly = False|Type =.|."
+    },
+    "VoteInstructionType1Guideline": {
+      "definition": "If all of the vote instructions types are to be the same for all resolutions, it is recommended that only the element Vote/VoteInstructionType is used. If the vote instruction types are not going to be the same for each resolution, then it is recommended that only the element Resolution/VoteInstructionType in each occurrence of Resolution is used."
+    },
+    "EntitlementDate1Guideline": {
+      "definition": "If both Meeting/EntitlementFixingDate and Security/Position/HoldingBalance/Date are present, it is recommended that both date values be identical."
+    },
+    "PreviousNotificationIdentificationRule": {
+      "definition": "If NotificationGeneralInformation/NotificationType is REPL (Replacement) and Pagination/PageNumber is equal to value 1, then NotificationUpdate/PreviousNotificationIdentification must be present."
+    },
+    "AgentRole1Rule": {
+      "definition": "IssuerAgent/Role PRIN (PrincipalAgent) can only be present in a single occurrence of IssuerAgent."
+    },
+    "VoteAsPerIntermediary1Rule": {
+      "definition": "If Vote/VoteMethod/VoteThroughNetwork/VoteChannel code value is VOPI (VoteAsPerIntermediaryInformation), then at least one occurrence of AdditionalInformation/ProcessingTextForNextIntermediary must be present."
+    },
+    "PaginationRule": {
+      "definition": "If pagination is present, then NotificationGeneralInformation/NotificationIdentification must be present."
+    },
+    "AttendeeEmailRequiredIndicator1Rule": {
+      "definition": "If participation method is VIRT, then AttendeeEmailRequiredIndicator must be set to Y."
+    },
+    "AttendeeEmailRequiredIndicator2Rule": {
+      "definition": "If participation method is VIRT, then the email address of the party who will attend the virtual meeting must be provided in the Meeting Instruction."
+    }
+  }
+}

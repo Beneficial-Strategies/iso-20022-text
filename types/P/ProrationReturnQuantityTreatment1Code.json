@@ -1,0 +1,23 @@
+{
+  "isoType": "ProrationReturnQuantityTreatment1Code",
+  "language": "en",
+  "name": "Proration Return Quantity Treatment 1 Code",
+  "definition": "Indicates how prorated instructions will be handled when the prorated entitlement results in less than the minimum denomination.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accept",
+      "name": "Accept",
+      "definition": "Prorated instructions which result in less than the minimum denominations will be accepted in full."
+    },
+    "ADJT": {
+      "isoName": "Adjust",
+      "name": "Adjust",
+      "definition": "Prorated instructions which result in less than the minimum denominations will be adjusted up."
+    },
+    "REJT": {
+      "isoName": "Reject",
+      "name": "Reject",
+      "definition": "Prorated instructions which result in less than the minimum denominations will be rejected in full."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMKeyDownloadResponse6",
+  "language": "en",
+  "name": "ATM Key Download Response 6",
+  "definition": "Information related to the response of an ATM key download from an ATM manager.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the key download."
+    },
+    "ATMSecurityContext": {
+      "name": "ATM Security Context",
+      "definition": "Context of the ATM for the key download."
+    },
+    "ATMChallenge": {
+      "name": "ATM Challenge",
+      "definition": "Random value from the ATM provided during a previous exchange."
+    },
+    "HostSecurityParameters": {
+      "name": "Host Security Parameters",
+      "definition": "Security parameters of the host downloading the key."
+    },
+    "Command": {
+      "name": "Command",
+      "definition": "Maintenance command to perform on the ATM."
+    }
+  }
+}

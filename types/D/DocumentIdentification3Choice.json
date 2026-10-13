@@ -1,0 +1,16 @@
+{
+  "isoType": "DocumentIdentification3Choice",
+  "language": "en",
+  "name": "Document Identification 3 Choice",
+  "definition": "Choice between a document identification provided either by the account owner or by the account servicer.",
+  "isoElements": {
+    "AccountServicerDocumentIdentification": {
+      "name": "Account Servicer Document Identification",
+      "definition": "Identification of the document assigned by the account servicer."
+    },
+    "AccountOwnerDocumentIdentification": {
+      "name": "Account Owner Document Identification",
+      "definition": "Identification of the document assigned by the account owner."
+    }
+  }
+}

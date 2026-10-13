@@ -1,0 +1,32 @@
+{
+  "isoType": "OriginalNotification17",
+  "language": "en",
+  "name": "Original Notification 17",
+  "definition": "Identifies the original notification and to provide the status.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference, as assigned by the original sender, to unambiguously identify the original notification to receive message."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Date and time at which the original message was created."
+    },
+    "OriginalNotificationIdentification": {
+      "name": "Original Notification Identification",
+      "definition": "Identification of the original notification."
+    },
+    "NotificationStatus": {
+      "name": "Notification Status",
+      "definition": "Specifies the status of the notification in a coded form."
+    },
+    "AdditionalStatusInformation": {
+      "name": "Additional Status Information",
+      "definition": "Further details of the notification status."
+    },
+    "OriginalNotificationReference": {
+      "name": "Original Notification Reference",
+      "definition": "Identifies the original notification item and provides the status."
+    }
+  }
+}

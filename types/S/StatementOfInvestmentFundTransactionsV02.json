@@ -1,0 +1,49 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsV02",
+  "language": "en",
+  "name": "Statement Of Investment Fund Transactions V 02",
+  "definition": "Scope|An account servicer, for example, a transfer agent sends the StatementOfInvestmentFundTransactions message to the account owner, for example, an investment manager or its authorised representative to provide detailed transactions (increases and decreases) of holdings which occurred during a specified period of time.|Usage|The StatementOfInvestmentFundTransactions message is used to list the holdings transactions of a single (master) account or several sub-accounts.|This message should be used at a frequency agreed bi-laterally between the account servicer and the account owner.|This message must not be used in place of confirmation messages.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "MessagePagination": {
+      "name": "Message Pagination",
+      "definition": ""
+    },
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": ""
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": ""
+    },
+    "TransactionOnAccount": {
+      "name": "Transaction On Account",
+      "definition": ""
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is \"true\" or \"1\" (Yes), then either TransactionOnAccount or SubAccountDetails is mandatory. If StatementGeneralDetails/ActivityIndicator is \"false\" or \"0\" (No), then TransactionOnAccount and SubAccountDetails are not allowed."
+    }
+  }
+}

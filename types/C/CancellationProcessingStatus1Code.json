@@ -1,0 +1,53 @@
+{
+  "isoType": "CancellationProcessingStatus1Code",
+  "language": "en",
+  "name": "Cancellation Processing Status 1 Code",
+  "definition": "Specifies the status of a cancellation request.",
+  "isoCodes": {
+    "CAND": {
+      "isoName": "CancellationCompleted",
+      "name": "Cancellation Completed",
+      "definition": "Cancellation has been completed."
+    },
+    "CANP": {
+      "isoName": "PendingCancellation",
+      "name": "Pending Cancellation",
+      "definition": "Cancellation is pending. It is not known at this time whether cancellation can be affected."
+    },
+    "DEND": {
+      "isoName": "Denied",
+      "name": "Denied",
+      "definition": "Cancellation will not be executed."
+    },
+    "EXCH": {
+      "isoName": "ReceivedAtStockExchange",
+      "name": "Received At Stock Exchange",
+      "definition": "Cancellation has been received at the stock exchange."
+    },
+    "INTE": {
+      "isoName": "ReceivedAtIntermediary",
+      "name": "Received At Intermediary",
+      "definition": "Cancellation has been received at the intermediary."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Cancellation request has been acknowledged for further processing by the account servicer."
+    },
+    "PARF": {
+      "isoName": "PartiallyFilled",
+      "name": "Partially Filled",
+      "definition": "Order is partially filled, cancellation processing accepted for the remainder."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Cancellation has been rejected for further processing."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Cancellation request is in repair."
+    }
+  }
+}

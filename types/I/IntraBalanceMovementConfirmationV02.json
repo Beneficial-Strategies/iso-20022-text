@@ -1,0 +1,36 @@
+{
+  "isoType": "IntraBalanceMovementConfirmationV02",
+  "language": "en",
+  "name": "Intra Balance Movement Confirmation V 02",
+  "definition": "The IntraBalanceMovementConfirmation message is sent from a settlement infrastructure to an account owner/requestor to confirm the movement of an amount of money within its holdings from one sub-balance to another. ||Usage: |The message may be used to: |- re-send a message previously sent (the sub-function of the message is \"Duplicate\")|- provide a third party with a copy of a message for information (the sub-function of the message is \"Copy\")|- re-send to a third party a copy of a message for information (the sub-function of the message is \"CopyDuplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AdditionalParameters": {
+      "name": "Additional Parameters",
+      "definition": ""
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": ""
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": ""
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": ""
+    },
+    "IntraBalance": {
+      "name": "Intra Balance",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

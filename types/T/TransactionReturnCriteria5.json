@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionReturnCriteria5",
+  "language": "en",
+  "name": "Transaction Return Criteria 5",
+  "definition": "Defines the criteria used to report on a payment transaction.",
+  "isoElements": {
+    "PaymentToReturnCriteria": {
+      "name": "Payment To Return Criteria",
+      "definition": "Destination of the payment (be it a member or a system or both)."
+    },
+    "PaymentFromReturnCriteria": {
+      "name": "Payment From Return Criteria",
+      "definition": "Origin of the payment (be it a member or a system or both)."
+    },
+    "AccountCashEntryReturnCriteria": {
+      "name": "Account Cash Entry Return Criteria",
+      "definition": "Defines the criteria used to report on the cash entry."
+    },
+    "PaymentReturnCriteria": {
+      "name": "Payment Return Criteria",
+      "definition": "Defines the criteria used to report on the payment."
+    }
+  }
+}

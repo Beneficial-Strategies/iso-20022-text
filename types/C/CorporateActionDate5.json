@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionDate5",
+  "language": "en",
+  "name": "Corporate Action Date 5",
+  "definition": "Specifies corporate action dates.",
+  "isoElements": {
+    "ForeignExchangeRateFixingDate": {
+      "name": "Foreign Exchange Rate Fixing Date",
+      "definition": "Date/time at which a foreign exchange rate will be determined."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time at which assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry)."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time at which the distribution is due to take place (cash and/or securities)."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date/time at which a payment can be made, eg, if payment date is a non-business day or to indicate the first payment date of an offer."
+    }
+  }
+}

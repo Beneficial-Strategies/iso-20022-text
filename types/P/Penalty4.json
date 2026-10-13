@@ -1,0 +1,57 @@
+{
+  "isoType": "Penalty4",
+  "language": "en",
+  "name": "Penalty 4",
+  "definition": "Specifies the penalties for a given party.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the penalties reported."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date where the penalties reported in this block were initially computed.|."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification of the party within the system."
+    },
+    "CounterpartyCSD": {
+      "name": "Counterparty CSD",
+      "definition": "Unique and unambiguous identification of the party for which the aggregated amounts are referred to."
+    },
+    "CSDDepository": {
+      "name": "CSD Depository",
+      "definition": "Depository/intermediary that is used by an ICSD to access a specific counterparty's CSD, that is the party that services the account."
+    },
+    "AggregatedAmount": {
+      "name": "Aggregated Amount",
+      "definition": "Aggregated penalty amount."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account account to be debited/credited for the settlement of the penalty."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which the payment of the penalty is due."
+    },
+    "CashPenaltyIdentification": {
+      "name": "Cash Penalty Identification",
+      "definition": "Reference of the penalty payment."
+    },
+    "NumberOfCounterparties": {
+      "name": "Number Of Counterparties",
+      "definition": "Number of counterparties involved in the penalty."
+    },
+    "PenaltyPerCounterparty": {
+      "name": "Penalty Per Counterparty",
+      "definition": "Claims (penalties) in a currency and of a date reported for a given party.|If there are no penalties in a given currency for a party, this block will not be informed."
+    }
+  },
+  "isoRules": {
+    "CounterpartyCSDPresenceRule": {
+      "definition": "Either the CounterpartyCSD or PenaltyPerCounterparty/AccountServicer is informed but not both."
+    }
+  }
+}

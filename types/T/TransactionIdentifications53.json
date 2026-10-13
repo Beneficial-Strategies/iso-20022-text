@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionIdentifications53",
+  "language": "en",
+  "name": "Transaction Identifications 53",
+  "definition": "Provides transaction type and identification information.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, for example, the transaction was sent by fax, then the AccountOwnerTransactionIdentification must be NONREF."
+    }
+  }
+}

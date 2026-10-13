@@ -1,0 +1,24 @@
+{
+  "isoType": "InvoiceLegalIssue5",
+  "language": "en",
+  "name": "Invoice Legal Issue 5",
+  "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in a structured form.",
+  "isoElements": {
+    "Invoicer": {
+      "name": "Invoicer",
+      "definition": "Identification of the organisation issuing the invoice, when it is different from the creditor or ultimate creditor."
+    },
+    "Invoicee": {
+      "name": "Invoicee",
+      "definition": "Identification of the party to whom an invoice is issued, when it is different from the debtor or ultimate debtor."
+    },
+    "InvoiceLegalStatement": {
+      "name": "Invoice Legal Statement",
+      "definition": "Additional information, in free text form, to complement the structured remittance information."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Method of payment for the remittance of the CSD or NCB to the invoicing party."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "isoType": "PaymentStatusTrackerUpdateV05",
+  "language": "en",
+  "name": "Payment Status Tracker Update V 05",
+  "definition": "The PaymentStatusTrackerUpdate message is sent by an agent to a tracking facility to monitor the progress of a business transaction, and to update the status of this business transaction for obtaining tracking and transparency purpose.||Usage:|Multiple business transaction statuses may be reported in a single message, and each status may include all relevant information of a single transaction or multiple transactions of the tracked payment(s) exchanged.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "TrackerStatusAndTransaction": {
+      "name": "Tracker Status And Transaction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "TrackerInformingPartyRule": {
+      "definition": "GroupHeader/TrackerInformingParty or TrackerStatusAndTransaction/TrackerInformingParty must be present."
+    },
+    "TrackerInformedPartyRule": {
+      "definition": "GroupHeader/TrackerInformedParty must be absent or TrackerStatusAndTransaction/Transaction/TrackerInformedParty must be absent."
+    },
+    "TrackerInformingParty2Rule": {
+      "definition": "If GroupHeader/TrackerInformingParty is present, then TrackerStatusAndTransaction/TrackerInformingParty is not allowed."
+    }
+  }
+}

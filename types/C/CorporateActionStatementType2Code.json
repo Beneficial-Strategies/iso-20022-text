@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionStatementType2Code",
+  "language": "en",
+  "name": "Corporate Action Statement Type 2 Code",
+  "definition": "Indicates whether the statement contains missing instructions only or all instructions.",
+  "isoCodes": {
+    "MISS": {
+      "isoName": "Missing",
+      "name": "Missing",
+      "definition": "Statement contains missing instructions."
+    },
+    "ALLL": {
+      "isoName": "All",
+      "name": "All",
+      "definition": "Statement contains all instructions."
+    },
+    "BALO": {
+      "isoName": "BalanceOnlyNotification",
+      "name": "Balance Only Notification",
+      "definition": "Balance information with no instruction details provided."
+    },
+    "BALI": {
+      "isoName": "BalanceInformation",
+      "name": "Balance Information",
+      "definition": "Balance information with instruction details."
+    }
+  }
+}

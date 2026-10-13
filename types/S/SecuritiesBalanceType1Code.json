@@ -1,0 +1,113 @@
+{
+  "isoType": "SecuritiesBalanceType1Code",
+  "language": "en",
+  "name": "Securities Balance Type 1 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of securities that are blocked or frozen. A financial instrument may be unavailable due to external circumstances such as a court order, death of beneficiary or account owner, or bankruptcy."
+    },
+    "BORR": {
+      "isoName": "Borrowed",
+      "name": "Borrowed",
+      "definition": "Balance of securities that have been borrowed from another party."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation."
+    },
+    "LOAN": {
+      "isoName": "OnLoan",
+      "name": "On Loan",
+      "definition": "Balance of securities that have been loaned to a third party."
+    },
+    "MARG": {
+      "isoName": "DerivativesMargin",
+      "name": "Derivatives Margin",
+      "definition": "Balance of securities that are used as collateral for derivatives."
+    },
+    "PDMT": {
+      "isoName": "PendingDeliveryMatchedBalance",
+      "name": "Pending Delivery Matched Balance",
+      "definition": "Balance of securities pending delivery that have been matched. This is only applicable in a CSD to participant communication."
+    },
+    "PRMT": {
+      "isoName": "PendingReceiptMatchedBalance",
+      "name": "Pending Receipt Matched Balance",
+      "definition": "Balance of securities pending receipt that have been matched. This is only applicable in a CSD to participant communication."
+    },
+    "PRUM": {
+      "isoName": "PendingReceiptUnmatchedBalance",
+      "name": "Pending Receipt Unmatched Balance",
+      "definition": "Balance of securities pending receipt that are unmatched. This is only applicable in a CSD to participant communication."
+    },
+    "PECA": {
+      "isoName": "PendingCorporateAction",
+      "name": "Pending Corporate Action",
+      "definition": "Balance of securities, before ex-date, that are involved in a corporate action (CA). Securities blocked due to a CA, for example, proxi, in escrow, are to be identified in the BLOK sub-balance."
+    },
+    "PEND": {
+      "isoName": "PendingDelivery",
+      "name": "Pending Delivery",
+      "definition": "Balance of securities that are pending delivery."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "Balance of securities that are pending receipt."
+    },
+    "PLED": {
+      "isoName": "Pledged",
+      "name": "Pledged",
+      "definition": "Balance of securities that are pledged, for example, a financial instrument is unavailable because it has been used or given as a guarantee."
+    },
+    "PDUM": {
+      "isoName": "PendingDeliveryUnmatchedBalance",
+      "name": "Pending Delivery Unmatched Balance",
+      "definition": "Balance of securities pending delivery that are unmatched. This is only applicable in a CSD to participant communication."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of securities currently being processed by the institution responsible for registering the new beneficial owner (or nominee) of securities after a transaction has settled."
+    },
+    "RSTR": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of securities that may only be sold under certain conditions or require legal documents."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Balance of securities that is unclassified, ie, is not identified with one of the existing sub-balance types."
+    },
+    "TRAN": {
+      "isoName": "InTransshipment",
+      "name": "In Transshipment",
+      "definition": "Balance of physical securities that are in transshipment, eg, in the process of being transferred from one depository or agent to another."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Balance of securities that are drawn for redemption."
+    },
+    "WDOC": {
+      "isoName": "WaitingDocumentation",
+      "name": "Waiting Documentation",
+      "definition": "Financial instrument is unavailable due to missing or incomplete documentation pertaining to the account, or due to a missing or incomplete order."
+    },
+    "BTRA": {
+      "isoName": "BeingTransferred",
+      "name": "Being Transferred",
+      "definition": "Financial instrument is unavailable as a result of a transfer order, pending movement in the shareholders' register."
+    }
+  }
+}

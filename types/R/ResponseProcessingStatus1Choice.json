@@ -1,0 +1,16 @@
+{
+  "isoType": "ResponseProcessingStatus1Choice",
+  "language": "en",
+  "name": "Response Processing Status 1 Choice",
+  "definition": "Choice between an accepted and a rejected status for the acceptance of a message.",
+  "isoElements": {
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "The received message or the multipart received report (sent with pagination in multiple messages) is accepted."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "The received message or the multipart received report (sent with pagination in multiple messages) is rejected."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "FailureReason8Code",
+  "language": "en",
+  "name": "Failure Reason 8 Code",
+  "definition": "Exception occurring outside the service.",
+  "isoCodes": {
+    "CDRT": {
+      "isoName": "CardRetained",
+      "name": "Card Retained",
+      "definition": "Card has been retained by the ATM or the terminal."
+    },
+    "CDCP": {
+      "isoName": "CardCaptured",
+      "name": "Card Captured",
+      "definition": "ATM manager has requested to capture the card."
+    },
+    "CUCL": {
+      "isoName": "CustomerCancel",
+      "name": "Customer Cancel",
+      "definition": "Customer cancellation, for example removing the card before the end of the transaction."
+    },
+    "CDFG": {
+      "isoName": "ForgottenCard",
+      "name": "Forgotten Card",
+      "definition": "Customer has left the card in the ATM or a motorised card reader."
+    },
+    "MALF": {
+      "isoName": "Malfunction",
+      "name": "Malfunction",
+      "definition": "Suspected malfunction."
+    },
+    "SECU": {
+      "isoName": "SecurityError",
+      "name": "Security Error",
+      "definition": "Security error has occurred in the authorisation response message sent by the acquirer."
+    },
+    "SFRD": {
+      "isoName": "SuspectedFraud",
+      "name": "Suspected Fraud",
+      "definition": "Card payment transaction fails because the merchant suspect a fraud."
+    },
+    "UCPT": {
+      "isoName": "UnableToCapture",
+      "name": "Unable To Capture",
+      "definition": "Unable to capture the card as requested."
+    }
+  }
+}

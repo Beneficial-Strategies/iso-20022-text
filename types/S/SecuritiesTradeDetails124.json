@@ -1,0 +1,77 @@
+{
+  "isoType": "SecuritiesTradeDetails124",
+  "language": "en",
+  "name": "Securities Trade Details 124",
+  "definition": "Details of the securities trade.",
+  "isoElements": {
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "PlaceOfClearing": {
+      "name": "Place Of Clearing",
+      "definition": "Infrastructure which may be a component of a clearing house and which facilitates clearing and settlement for its members by standing between the buyer and the seller. It may net transactions and it substitutes itself as settlement counterparty for each position."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared, that is, payment is effected and securities are delivered."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Specifies the price of the traded financial instrument.|This is the deal price of the individual trade transaction. |If there is only one trade transaction for the execution of the trade, then the deal price could equal the executed trade price (unless, for example, the price includes commissions or rounding, or some other factor has been applied to the deal price or the executed trade price, or both)."
+    },
+    "Reporting": {
+      "name": "Reporting",
+      "definition": "Specifies that a trade is to be reported to a third party."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "InvestorCapacity": {
+      "name": "Investor Capacity",
+      "definition": "Specifies the role of the investor in the transaction."
+    },
+    "TradeOriginatorRole": {
+      "name": "Trade Originator Role",
+      "definition": "Specifies the role of the trading party in the transaction."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "name": "Settlement Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which cannot be included within the structured fields of the message."
+    },
+    "FXAdditionalDetails": {
+      "name": "FX Additional Details",
+      "definition": "Provides additional details pertaining to foreign exchange instructions."
+    }
+  },
+  "isoRules": {
+    "InvestorCapacityRule": {
+      "definition": "If InvestorCapacity is used, then the use of the codes needs to be bi-laterally agreed."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "If PlaceOfTrade is used and an ISO 10383 MIC exists for the market to be identified, then the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "If Trade Date/Time is used with a time or a time + UTC indicator, then it must be the local time of the place of trade, for example, of the stock exchange, or of the selling broker for OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if FXAdditionalDetails and/or SettlementInstructionProcessingAdditionalDetails are present, then they must not contain information that can be provided in a structured field."
+    },
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuy and CurrencyToSell in the TradeDetails message component, provides an instruction to the account servicer to execute a foreign exchange deal on behalf of the account owner. The purpose of the forex deal is to fund the purchase of securities. This field is not to be used when standing instructions have been established. ||If CurrencyToSell is used, then it implies the following:|- the instruction is a receive.|- the currency required for funding a purchase of securities, for example, the currency to be purchased, is the currency of the settlement amount. The currency to be sold to obtain settlement currency is provided by the currency to sell message element. Normally, this is the base currency of the portfolio. |- the amount of currency to be bought is equal to the settlement amount of the transaction. This implies the forex will not be used for other transactions and that a bulk forex deal must be instructed by other means. |- a forex deal to fund the purchase of securities should be executed in time for the currency to be available on the settlement date of the securities transaction. |- a bilateral agreement regarding the use of this field has been established.||If CurrencyToBuy is used, then it implies the following:|- the instruction is a delivery|- the currency received as proceeds from the sale of securities, for example, the currency to be sold, is the currency of the settlement amount. The currency to be bought is provided by the currency to buy message element. If proceeds are repatriated, this is in the base currency of the portfolio. |- the amount of currency to be sold is equal to the settlement amount of the transaction. This implies a bulk forex deal must be instructed by other means. |- a forex deal to repatriate proceeds after the sale of securities should be executed for the soonest possible value date after settlement of the securities, as permitted by market convention. |- a bilateral agreement regarding the use of this field has been established."
+    }
+  }
+}

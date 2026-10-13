@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountManagementStatus1Code",
+  "language": "en",
+  "name": "Account Management Status 1 Code",
+  "definition": "Specifies the status of an account management instruction.",
+  "isoCodes": {
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "The account management instruction has been received and is acknowledged."
+    },
+    "ACCP": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "The account management instruction has been validated and accepted."
+    },
+    "EXEC": {
+      "isoName": "ProcessingOngoing",
+      "name": "Processing Ongoing",
+      "definition": "The account management instruction is being processed and the confirmation will follow."
+    },
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "The account management instruction has been sent to the next party, for example, the next intermediary."
+    }
+  }
+}

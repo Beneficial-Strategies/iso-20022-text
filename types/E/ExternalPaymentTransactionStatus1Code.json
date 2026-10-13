@@ -1,0 +1,133 @@
+{
+  "isoType": "ExternalPaymentTransactionStatus1Code",
+  "language": "en",
+  "name": "External Payment Transaction Status 1 Code",
+  "definition": "Specifies the status of an individual payment instructions, as published in an external payment transaction status code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ACCC": {
+      "isoName": "AcceptedSettlementCompletedCreditorAccount",
+      "name": "Accepted Settlement Completed Creditor Account",
+      "definition": "Settlement on the creditor's account has been completed."
+    },
+    "ACCP": {
+      "isoName": "AcceptedCustomerProfile",
+      "name": "Accepted Customer Profile",
+      "definition": "Preceding check of technical validation was successful. Customer profile check was also successful."
+    },
+    "ACFC": {
+      "isoName": "AcceptedFundsChecked",
+      "name": "Accepted Funds Checked",
+      "definition": "Preceding check of technical validation and customer profile was successful and an automatic funds check was positive."
+    },
+    "ACIS": {
+      "isoName": "AcceptedandChequeIssued",
+      "name": "Acceptedand Cheque Issued",
+      "definition": "Payment instruction to issue a cheque has been accepted, and the cheque has been issued but not yet been deposited or cleared."
+    },
+    "ACSC": {
+      "isoName": "AcceptedSettlementCompletedDebitorAccount",
+      "name": "Accepted Settlement Completed Debitor Account",
+      "definition": "Settlement completed.|Usage : this can be used by a Market Infrastructure reporting to Infrastructure Participant or an Account Servicer to Account Owner to report that the transaction account entry has been completed.|Warning : this status is provided for transaction status reasons, not for financial information. It can only be used after bilateral agreement"
+    },
+    "ACSP": {
+      "isoName": "AcceptedSettlementInProcess",
+      "name": "Accepted Settlement In Process",
+      "definition": "All preceding checks such as technical validation and customer profile were successful and therefore the payment instruction has been accepted for execution."
+    },
+    "ACTC": {
+      "isoName": "AcceptedTechnicalValidation",
+      "name": "Accepted Technical Validation",
+      "definition": "Authentication and syntactical and semantical validation are successful"
+    },
+    "ACWC": {
+      "isoName": "AcceptedWithChange",
+      "name": "Accepted With Change",
+      "definition": "Instruction is accepted but a change will be made, such as date or remittance not sent."
+    },
+    "ACWP": {
+      "isoName": "AcceptedWithoutPosting",
+      "name": "Accepted Without Posting",
+      "definition": "Payment instruction included in the credit transfer is accepted without being posted to the creditor customer’s account."
+    },
+    "BLCK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Payment transaction previously reported with status 'ACWP' is blocked, for example, funds will neither be posted to the Creditor's account, nor be returned to the Debtor."
+    },
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Payment initiation has been successfully cancelled after having received a request for cancellation.|Usage: code to be used in the context of APIs only."
+    },
+    "CPUC": {
+      "isoName": "CashPickedUpByCreditor",
+      "name": "Cash Picked Up By Creditor",
+      "definition": "Cash has been picked up by the Creditor."
+    },
+    "PATC": {
+      "isoName": "PartiallyAcceptedTechnicalCorrect",
+      "name": "Partially Accepted Technical Correct",
+      "definition": "Payment initiation needs multiple authentications, where some but not yet all have been performed. Syntactical and semantical validations are successful."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Payment instruction is pending. Further checks and status update will be performed."
+    },
+    "PRES": {
+      "isoName": "Presented",
+      "name": "Presented",
+      "definition": "Request for Payment has been presented to the Debtor."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Payment instruction has been received."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Payment instruction has been rejected."
+    },
+    "ACPD": {
+      "isoName": "AcceptedClearingProcessed",
+      "name": "Accepted Clearing Processed",
+      "definition": "Status of transaction released from the Debtor Agent and accepted by the clearing."
+    },
+    "RCVC": {
+      "isoName": "ReceivedVerificationCompleted",
+      "name": "Received Verification Completed",
+      "definition": "Verification of Payee check has been applied to received transaction stating to be complete without mismatching data."
+    },
+    "RVNA": {
+      "isoName": "ReceivedVerificationCompletedNotApplicable",
+      "name": "Received Verification Completed Not Applicable",
+      "definition": "Verification of Payee check has been applied to received transaction stating to be complete with not applicable data."
+    },
+    "RVNM": {
+      "isoName": "ReceivedVerificationCompletedNoMatch",
+      "name": "Received Verification Completed No Match",
+      "definition": "Verification of Payee check has been applied to received transaction stating to be complete with mismatching data."
+    },
+    "RVMC": {
+      "isoName": "ReceivedVerificationCompletedMatchClosely",
+      "name": "Received Verification Completed Match Closely",
+      "definition": "Verification of Payee check has been applied to received transaction stating to be complete with data matching closely."
+    },
+    "ACFW": {
+      "isoName": "AcceptedFundsCheckedWaitingConfirmation",
+      "name": "Accepted Funds Checked Waiting Confirmation",
+      "definition": "Preceding check of technical validation and customer profile was successful, and an automatic funds check was positive, but an explicit confirmation by the initiating party is outstanding."
+    },
+    "RVNC": {
+      "isoName": "ReceivedVerificationNotCompleted",
+      "name": "Received Verification Not Completed",
+      "definition": "Verification of party check on the transaction is not yet completed."
+    },
+    "RVCM": {
+      "isoName": "ReceivedVerificationCompletedWithMismatches",
+      "name": "Received Verification Completed With Mismatches",
+      "definition": "Verification of Payee checks have been applied to received transaction stating to be completed containing mismatching data."
+    }
+  }
+}

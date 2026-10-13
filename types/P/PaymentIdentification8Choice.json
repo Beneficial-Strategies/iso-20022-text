@@ -1,0 +1,32 @@
+{
+  "isoType": "PaymentIdentification8Choice",
+  "language": "en",
+  "name": "Payment Identification 8 Choice",
+  "definition": "Choice between ways of identifying a payment instruction by its references and business identification.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification, as assigned by the first instructing agent, to unambiguously identify the transaction that is passed on, unchanged, throughout the entire interbank chain.|Usage: The transaction identification can be used for reconciliation, tracking or to link tasks relating to the transaction on the interbank level. The instructing agent has to make sure that the transaction identification is unique for a pre-agreed period.|Usage: this is the former PaymentInstructionReference element."
+    },
+    "UETR": {
+      "name": "UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a payment transaction."
+    },
+    "QueueIdentification": {
+      "name": "Queue Identification",
+      "definition": "Identification of the payment instruction by its position in a queue managed by the clearing agent."
+    },
+    "LongBusinessIdentification": {
+      "name": "Long Business Identification",
+      "definition": "Business identification of the payment instruction given by the clearing agent."
+    },
+    "ShortBusinessIdentification": {
+      "name": "Short Business Identification",
+      "definition": "Business identification of the payment instruction given by the clearing agent."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique proprietary reference of the underlying payment instruction assigned by the system."
+    }
+  }
+}

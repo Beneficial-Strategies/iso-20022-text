@@ -1,0 +1,45 @@
+{
+  "isoType": "EligiblePosition21",
+  "language": "en",
+  "name": "Eligible Position 21",
+  "definition": "Information about a securities position and rights holders.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the securities account."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "HoldingBalance": {
+      "name": "Holding Balance",
+      "definition": "Net position of a segregated holding of a single security within the overall position held in a securities account, for example, sub-balance per status."
+    },
+    "RightsHolder": {
+      "name": "Rights Holder",
+      "definition": "Owner of the voting rights."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "It is recommended that RightsHolder is only present more than once if there is joint ownership."
+    },
+    "HoldingBalanceTypeRule": {
+      "definition": "In all occurrences of HoldingBalance, one and only one BalanceType may be ELIG (Eligible)."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Either AccountIdentification or BlockChainAddressOrWallet must be present but not both."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present then AccountIdentification must be absent."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "If AccountIdentification is present, then BlockChainAddressOrWallet must be absent."
+    }
+  }
+}

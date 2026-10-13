@@ -1,0 +1,16 @@
+{
+  "isoType": "AccountIdentification38Choice",
+  "language": "en",
+  "name": "Account Identification 38 Choice",
+  "definition": "Unique identification of the securities account or the cash account owned by the customer.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "name": "Securities Account Identification",
+      "definition": "Unique identification of the securities account as assigned by the account servicer."
+    },
+    "CashAccountIdentification": {
+      "name": "Cash Account Identification",
+      "definition": "Unique identification of the cash account, as assigned by the account servicer."
+    }
+  }
+}

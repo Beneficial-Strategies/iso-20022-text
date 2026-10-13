@@ -1,0 +1,111 @@
+{
+  "isoType": "CorporateActionMovementConfirmation002V16",
+  "language": "en",
+  "name": "Corporate Action Movement Confirmation 002 V 16",
+  "definition": "Scope|The CorporateActionMovementConfirmation message is sent by an account servicer to an account owner or its designated agent to confirm the posting of securities or cash as a result of a corporate action event.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "MovementConfirmationIdentification": {
+      "name": "Movement Confirmation Identification",
+      "definition": "Unique Identification of the group of corporate action movement confirmation messages when the movement confirmation is split in multiple (paginated) messages."
+    },
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": ""
+    },
+    "MovementPreliminaryAdviceIdentification": {
+      "name": "Movement Preliminary Advice Identification",
+      "definition": ""
+    },
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": ""
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": ""
+    },
+    "CorporateActionConfirmationDetails": {
+      "name": "Corporate Action Confirmation Details",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "IssuerAgent": {
+      "name": "Issuer Agent",
+      "definition": ""
+    },
+    "PayingAgent": {
+      "name": "Paying Agent",
+      "definition": ""
+    },
+    "SubPayingAgent": {
+      "name": "Sub Paying Agent",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "The CorporateActionConfirmationDetails/OptionNumber value provided must be the same as the one provided in the related CorporateActionOptionDetails/OptionNumber element of the CorporateActionNotification or CorporateActionMovementPreliminaryAdvice messages previously sent."
+    },
+    "OtherDocumentIdentificationRule": {
+      "definition": "If CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/IndemnityAmount is present, then OtherDocumentationIdentification must be present to refer to the linked settlement confirmation."
+    },
+    "ScripOrDividendReinvestment1Rule": {
+      "definition": "If CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountCarriedForward or CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountBroughtForward is present, then CorporateActionGeneralInformation/EventType/Code value must be either DVSC (ScripDividend) or DRIP (DividendReinvestment)."
+    },
+    "ScripOrDividendReinvestment2Rule": {
+      "definition": "If CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalDividendPayableAmount or CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalTaxAmount is present, then CorporateActionGeneralInformation/EventType/Code value must be DVSC (ScripDividend)."
+    },
+    "ScripOrDividendReinvestment3Rule": {
+      "definition": "If CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainDate or CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainSettlementDate is present, then CorporateActionGeneralInformation/EventType/Code value must be DRIP (DividendReinvestment)."
+    },
+    "AdditionalInformationRule": {
+      "definition": "All elements in the AdditionalInformation sequence must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition as in AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent must be used only in the communication between a CSD and local custodians."
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "If Code value is equal to INCP (IncentivePremiumPayment) in  CorporateActionDetails/AdditionalBusinessProcessIndicator, then CorporateActionGeneralInformation/EventType/Code value must be equal to CONS (Consent).|(MT 566 NVR C9)"
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "If CorporateActionGeneralInformation/EventType/Code is RHDI (IntermediateSecuritiesDistribution), then CorporateActionDetails/|IntermediateSecuritiesDistributionType must be present.|(MT 566 NVR C5)."
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "If Code value is equal to INCP (IncentivePremiumPayment) in any occurrence of CorporateActionDetails/AdditionalBusinessProcessIndicator, then CorporateActionGeneralInformation/EventType/Code value must be equal to CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "PaginationRule": {
+      "definition": "If pagination is present, then MovementConfirmationIdentification must be present."
+    }
+  }
+}

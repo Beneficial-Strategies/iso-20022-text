@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMCustomerProfile1Code",
+  "language": "en",
+  "name": "ATM Customer Profile 1 Code",
+  "definition": "Describes the main way customer information was collected to build up the customer menu and the withdrawal request.",
+  "isoCodes": {
+    "CRDF": {
+      "isoName": "CardInformation",
+      "name": "Card Information",
+      "definition": "Customer profile is deduced from the card data and the local configuration."
+    },
+    "OREQ": {
+      "isoName": "OtherRequest",
+      "name": "Other Request",
+      "definition": "Customer profile is sent via an account enquiry selecting an account."
+    },
+    "PREQ": {
+      "isoName": "ProfileRequest",
+      "name": "Profile Request",
+      "definition": "Customer profile is built via a specific profile message exchange."
+    }
+  }
+}

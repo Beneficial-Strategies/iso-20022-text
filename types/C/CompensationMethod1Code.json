@@ -1,0 +1,28 @@
+{
+  "isoType": "CompensationMethod1Code",
+  "language": "en",
+  "name": "Compensation Method 1 Code",
+  "definition": "Defines if and how charges and taxes due are paid to the financial institution.",
+  "isoCodes": {
+    "NOCP": {
+      "isoName": "No",
+      "name": "No",
+      "definition": "Account does not pay and charges or taxes due."
+    },
+    "DBTD": {
+      "isoName": "Debited",
+      "name": "Debited",
+      "definition": "Account is debited for any charges or taxes due."
+    },
+    "INVD": {
+      "isoName": "Invoiced",
+      "name": "Invoiced",
+      "definition": "Account or summary account is invoiced for any charges or taxes due."
+    },
+    "DDBT": {
+      "isoName": "DelayedDebit",
+      "name": "Delayed Debit",
+      "definition": "Account is automatically debited on a future date."
+    }
+  }
+}

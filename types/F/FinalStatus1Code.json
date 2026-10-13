@@ -1,0 +1,28 @@
+{
+  "isoType": "FinalStatus1Code",
+  "language": "en",
+  "name": "Final Status 1 Code",
+  "definition": "Specifies the final status of a transaction.",
+  "isoCodes": {
+    "STLD": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Transaction has been successfully processed by the clearing agent."
+    },
+    "RJTD": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Transaction has been rejected by the clearing agent."
+    },
+    "CAND": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Transaction has been cancelled."
+    },
+    "FNLD": {
+      "isoName": "Finalised",
+      "name": "Finalised",
+      "definition": "Transaction has been successfully processed by the clearing agent. Settlement will take place outside of the system."
+    }
+  }
+}

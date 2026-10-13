@@ -1,0 +1,32 @@
+{
+  "isoType": "TransferReference14",
+  "language": "en",
+  "name": "Transfer Reference 14",
+  "definition": "Reference of a transfer and of a transfer cancellation.",
+  "isoElements": {
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identifier for the portfolio transfer instruction, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the portfolio transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the portfolio transfer allocated by the counterparty."
+    },
+    "TransferConfirmationReference": {
+      "name": "Transfer Confirmation Reference",
+      "definition": "Unique and unambiguous identifier for the portfolio transfer execution, as assigned by the confirming party."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the portfolio transfer cancellation, as assigned by the instructing party."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Reason for the cancellation."
+    }
+  }
+}

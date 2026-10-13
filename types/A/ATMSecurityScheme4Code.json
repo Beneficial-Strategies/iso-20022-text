@@ -1,0 +1,53 @@
+{
+  "isoType": "ATMSecurityScheme4Code",
+  "language": "en",
+  "name": "ATM Security Scheme 4 Code",
+  "definition": "Key exchange security schemes implemented in the hardware security module of the ATM.",
+  "isoCodes": {
+    "APPK": {
+      "isoName": "ApplicationRemoteKeyLoading",
+      "name": "Application Remote Key Loading",
+      "definition": "Application key download protected by a share symmetric key."
+    },
+    "CERT": {
+      "isoName": "CertificateRemoteKeyLoading",
+      "name": "Certificate Remote Key Loading",
+      "definition": "Key download protected by asymmetric keys authenticated by a certificate."
+    },
+    "FRAN": {
+      "isoName": "FrenchRemoteKeyLoading",
+      "name": "French Remote Key Loading",
+      "definition": "Key download conform to the French ATM key download security scheme."
+    },
+    "DTCH": {
+      "isoName": "GermanRemoteKeyLoading",
+      "name": "German Remote Key Loading",
+      "definition": "Key download conform to the German ATM key download security scheme."
+    },
+    "LUXG": {
+      "isoName": "LuxemburgRemoteKeyLoading",
+      "name": "Luxemburg Remote Key Loading",
+      "definition": "Key download conform to the Luxemburg ATM key download security scheme."
+    },
+    "MANU": {
+      "isoName": "ManualKeyEntry",
+      "name": "Manual Key Entry",
+      "definition": "Manual key entry on the ATM."
+    },
+    "PKIP": {
+      "isoName": "PKIKeyDownload",
+      "name": "PKI Key Download",
+      "definition": "Key download protected by asymmetric keys authenticated by a PKI (Public Key Infrastructure)."
+    },
+    "SIGN": {
+      "isoName": "SignatureRemoteKeyLoading",
+      "name": "Signature Remote Key Loading",
+      "definition": "Key download protected by asymmetric keys authenticated by a digital signature."
+    },
+    "TR34": {
+      "isoName": "TR34",
+      "name": "TR 34",
+      "definition": "ANSI X9 TR34 2012 scheme for the distribution of the symmetric public keys and the initial master key."
+    }
+  }
+}

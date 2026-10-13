@@ -1,0 +1,343 @@
+{
+  "isoType": "PendingReason33Code",
+  "language": "en",
+  "name": "Pending Reason 33 Code",
+  "definition": "Specifies the reason the transaction/instruction is pending or failing settlement. Settlement on the instructed settlement date is still possible, status is pending. Settlement on the instructed settlement date is no longer possible, status is failing.",
+  "isoCodes": {
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. It will be managed as per the bilateral service agreement between the account servicer and account owner."
+    },
+    "CONF": {
+      "isoName": "AwaitingConfirmation",
+      "name": "Awaiting Confirmation",
+      "definition": "Awaiting confirmation from the counterparty."
+    },
+    "DOCC": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromCounterparty",
+      "name": "Awaiting Documents Or Endorsements From Counterparty",
+      "definition": "Awaiting documents or endorsements from counterparty."
+    },
+    "DOCY": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromYou",
+      "name": "Awaiting Documents Or Endorsements From You",
+      "definition": "Awaiting documents or endorsements from you."
+    },
+    "AWMO": {
+      "isoName": "AwaitingMoney",
+      "name": "Awaiting Money",
+      "definition": "Financial instruments are delivered, but still awaiting money from counterparty."
+    },
+    "CYCL": {
+      "isoName": "AwaitingNextSettlementCycle",
+      "name": "Awaiting Next Settlement Cycle",
+      "definition": "Your instruction is confirmed in the local market or is ready for settlement, awaiting next settlement cycle."
+    },
+    "LAAW": {
+      "isoName": "AwaitingOtherTransaction",
+      "name": "Awaiting Other Transaction",
+      "definition": "Awaiting settlement of a purchase to cover failing positions."
+    },
+    "CAIS": {
+      "isoName": "AwaitingSecurities",
+      "name": "Awaiting Securities",
+      "definition": "Awaiting financial instruments from a corporate action or other procedure, for example, conversion, dematerialisation, exchange, registration, stamping, splitting."
+    },
+    "AWSH": {
+      "isoName": "AwaitingSecuritiesFromCounterparty",
+      "name": "Awaiting Securities From Counterparty",
+      "definition": "Financial instruments have not yet been received from the counterparty (if receive against payment trade), the money has been delivered."
+    },
+    "FUTU": {
+      "isoName": "AwaitingSettlementDate",
+      "name": "Awaiting Settlement Date",
+      "definition": "Awaiting settlement date. No settlement problems to be reported."
+    },
+    "BENO": {
+      "isoName": "BeneficialOwnershipDisagreement",
+      "name": "Beneficial Ownership Disagreement",
+      "definition": "Disagreement in beneficial ownership."
+    },
+    "BOTH": {
+      "isoName": "BothInstructionsOnHold",
+      "name": "Both Instructions On Hold",
+      "definition": "Counterparty's instruction and your instruction are on hold/frozen/ in a preadvice mode."
+    },
+    "IPNC": {
+      "isoName": "CancelNotPossible",
+      "name": "Cancel Not Possible",
+      "definition": "Instruction has been processed and cannot be cancelled."
+    },
+    "CDCY": {
+      "isoName": "ConditionalCurrency",
+      "name": "Conditional Currency",
+      "definition": "Execution is conditional to the execution of a process linked to the currency of the transaction."
+    },
+    "YCOL": {
+      "isoName": "CollateralShortage",
+      "name": "Collateral Shortage",
+      "definition": "Insufficient collateral in your account to execute the instruction."
+    },
+    "CLHT": {
+      "isoName": "ClearingHouseTrade",
+      "name": "Clearing House Trade",
+      "definition": "Instructed settlement date does not agree with the settlement date on the clearing house trade, that is, a specific type of trade in India."
+    },
+    "REGT": {
+      "isoName": "CertificatesRejected",
+      "name": "Certificates Rejected",
+      "definition": "Certificates have been lodged with the registrar but rejected due to incomplete documentation or foreign ownership limitation reached."
+    },
+    "CDRE": {
+      "isoName": "ConditionalRealignement",
+      "name": "Conditional Realignement",
+      "definition": "Execution is conditional to the execution of a process of realignment at the issuer CSD."
+    },
+    "CDRG": {
+      "isoName": "ConditionalRegistrar",
+      "name": "Conditional Registrar",
+      "definition": "Execution is conditional to the execution of a process at the registrar."
+    },
+    "NCON": {
+      "isoName": "ConfirmationNotReceived",
+      "name": "Confirmation Not Received",
+      "definition": "Confirmation of settlement has not yet been received."
+    },
+    "CPEC": {
+      "isoName": "CounterpartyInReceivership",
+      "name": "Counterparty In Receivership",
+      "definition": "Counterparty is in receivership (form of bankruptcy where a court appointed person - the receiver - manages the affairs of the business)."
+    },
+    "PRCY": {
+      "isoName": "CounterpartyInstructionOnHold",
+      "name": "Counterparty Instruction On Hold",
+      "definition": "Counterparty's instruction is a preadvice, that is, for matching only."
+    },
+    "CMON": {
+      "isoName": "CounterpartyInsufficientMoney",
+      "name": "Counterparty Insufficient Money",
+      "definition": "Insufficient money in counterparty's account."
+    },
+    "CLAC": {
+      "isoName": "CounterpartyInsufficientSecurities",
+      "name": "Counterparty Insufficient Securities",
+      "definition": "Insufficient deliverable financial instruments in counterparty's account or counterparty does not hold financial instruments."
+    },
+    "DKNY": {
+      "isoName": "CounterpartyReturnedShares",
+      "name": "Counterparty Returned Shares",
+      "definition": "Counterparty has returned or refuses the securities."
+    },
+    "CHAS": {
+      "isoName": "EnquirySent",
+      "name": "Enquiry Sent",
+      "definition": "A chaser/enquiry has been sent."
+    },
+    "GLOB": {
+      "isoName": "GlobalFormSecurities",
+      "name": "Global Form Securities",
+      "definition": "Settlement cannot be executed; financial instruments are in global form."
+    },
+    "INCA": {
+      "isoName": "IncomeAdjustementRequired",
+      "name": "Income Adjustement Required",
+      "definition": "Financial instruments require income adjustment, for example, dividend or interest."
+    },
+    "REFU": {
+      "isoName": "InstructionRefusedOrNotRecognised",
+      "name": "Instruction Refused Or Not Recognised",
+      "definition": "Instruction has been refused or not recognised and is represented automatically."
+    },
+    "LIQU": {
+      "isoName": "InsufficientCentralBankLiquidity",
+      "name": "Insufficient Central Bank Liquidity",
+      "definition": "Central bank liquidity is insufficient."
+    },
+    "MONY": {
+      "isoName": "InsufficientMoney",
+      "name": "Insufficient Money",
+      "definition": "Insufficient money in your account."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "SDUT": {
+      "isoName": "LackOfStampDutyInformation",
+      "name": "Lack Of Stamp Duty Information",
+      "definition": "Stamp duty information is missing."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Instruction was received after market deadline."
+    },
+    "FLIM": {
+      "isoName": "MaximumForeignLimitReached",
+      "name": "Maximum Foreign Limit Reached",
+      "definition": "Insufficient deliverable financial instruments in your account as maximum foreign limit has been reached."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementAmount",
+      "name": "Minimum Settlement Amount",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "MCER": {
+      "isoName": "MissingCertification",
+      "name": "Missing Certification",
+      "definition": "Awaiting receipt of adequate certification."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementAmount",
+      "name": "Multiple Settlement Amount",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "DISA": {
+      "isoName": "NaturalDisaster",
+      "name": "Natural Disaster",
+      "definition": "Exceptional closing of all financial institutions due to natural disaster, for example, earthquake."
+    },
+    "NEWI": {
+      "isoName": "NewIssues",
+      "name": "New Issues",
+      "definition": "Financial instrument is a new issue and not yet available/tradable."
+    },
+    "NOFX": {
+      "isoName": "NoForeignExchangeInstruction",
+      "name": "No Foreign Exchange Instruction",
+      "definition": "A foreign exchange instruction from you is missing."
+    },
+    "NMAS": {
+      "isoName": "NoMatchingRequired",
+      "name": "No Matching Required",
+      "definition": "Instruction has not been matched; matching process is not required."
+    },
+    "NPAY": {
+      "isoName": "NoPayment",
+      "name": "No Payment",
+      "definition": "Payment has not been made by issuer."
+    },
+    "NSEC": {
+      "isoName": "NotDelivered",
+      "name": "Not Delivered",
+      "definition": "Financial instruments have not been delivered by the issuer."
+    },
+    "REFS": {
+      "isoName": "NotInGoodOrder",
+      "name": "Not In Good Order",
+      "definition": "Delivery/receipt was refused because physical financial instruments are not in good order."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "The instruction is pending receipt of securities, for example, from a purchase, loan etc."
+    },
+    "PHSE": {
+      "isoName": "PhysicalDeliveryDelay",
+      "name": "Physical Delivery Delay",
+      "definition": "Settlement is physical. Financial instruments are being delivered."
+    },
+    "PHCK": {
+      "isoName": "PhysicalSecuritiesVerification",
+      "name": "Physical Securities Verification",
+      "definition": "Physical financial instruments have been received and are being checked for authenticity."
+    },
+    "BATC": {
+      "isoName": "ProcessingBatchDifference",
+      "name": "Processing Batch Difference",
+      "definition": "Processing batch differs in the counterparty's instruction, for example, daytime/real-time versus overnight."
+    },
+    "DQUA": {
+      "isoName": "QuantityDisagreement",
+      "name": "Quantity Disagreement",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "DEPO": {
+      "isoName": "RefusedDepositForIssueOfDepositaryReceipts",
+      "name": "Refused Deposit For Issue Of Depositary Receipts",
+      "definition": "Deposit of shares for the issuing of depositary receipts has been refused. The allotment granted by the issuer is exceeded by your transaction."
+    },
+    "SBLO": {
+      "isoName": "SecuritiesBlocked",
+      "name": "Securities Blocked",
+      "definition": "Financial instruments are blocked due to, for example, a corporate action event, realignment."
+    },
+    "FROZ": {
+      "isoName": "SecuritiesFrozenAtCSD",
+      "name": "Securities Frozen At CSD",
+      "definition": "Financial instruments are blocked at the Central Security Depository (CSD) following a corporate event."
+    },
+    "LALO": {
+      "isoName": "SecuritiesLoanedOut",
+      "name": "Securities Loaned Out",
+      "definition": "Financial instruments are out on loan."
+    },
+    "COLL": {
+      "isoName": "SecuritiesPledgedAsCollateral",
+      "name": "Securities Pledged As Collateral",
+      "definition": "Financial instruments are not deliverable as they are pledged as collateral."
+    },
+    "AUTH": {
+      "isoName": "SentToTaxAuthorities",
+      "name": "Sent To Tax Authorities",
+      "definition": "Tax reclaim has been sent to the tax authorities."
+    },
+    "SETS": {
+      "isoName": "SettlementSystemMethodModified",
+      "name": "Settlement System Method Modified",
+      "definition": "Settlement system/method has been modified at central securities depository to allow settlement."
+    },
+    "IAAD": {
+      "isoName": "StatusReasonInvestigation",
+      "name": "Status Reason Investigation",
+      "definition": "Pending reason being investigated."
+    },
+    "PRSY": {
+      "isoName": "SystemOnHold",
+      "name": "System On Hold",
+      "definition": "Transaction was put on hold/frozen by the system."
+    },
+    "TAMM": {
+      "isoName": "TradeAmendedInMarket",
+      "name": "Trade Amended In Market",
+      "definition": "Trade is being amended in the market."
+    },
+    "PART": {
+      "isoName": "TradeSettlesInPartials",
+      "name": "Trade Settles In Partials",
+      "definition": "Trade will settle in partials."
+    },
+    "DENO": {
+      "isoName": "UnavailableDeliverableDenominatedQuantity",
+      "name": "Unavailable Deliverable Denominated Quantity",
+      "definition": "Quantity instructed does not match the denomination available/deliverable. Physical securities need to be obtained in deliverable denominated quantities."
+    },
+    "VLDA": {
+      "isoName": "ValidForTaxAuthorities",
+      "name": "Valid For Tax Authorities",
+      "definition": "For tax reclaim, the event is pending, the tax reclaim is valid for the tax authorities."
+    },
+    "PREA": {
+      "isoName": "YourInstructionOnHold",
+      "name": "Your Instruction On Hold",
+      "definition": "Your instruction is a preadvice, that is, for matching only."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalSecuritiesStatementType1Code",
+  "language": "en",
+  "name": "External Securities Statement Type 1 Code",
+  "definition": "Specifies whether the statement is an accounting or a custody statement.|The list of valid codes is an external code set published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RGAD": {
+      "isoName": "RegisteredHolderNamesAndAddress",
+      "name": "Registered Holder Names And Address",
+      "definition": "Statement is a registered holder names(s) and address statement."
+    },
+    "SRNR": {
+      "isoName": "SecurityHolderReferenceNumberAndRegistration",
+      "name": "Security Holder Reference Number And Registration",
+      "definition": "Statement is a security holder reference number and registration statement."
+    }
+  }
+}

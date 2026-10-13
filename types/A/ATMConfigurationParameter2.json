@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMConfigurationParameter2",
+  "language": "en",
+  "name": "ATM Configuration Parameter 2",
+  "definition": "Parameters to be used by the various cryptographic key commands.",
+  "isoElements": {
+    "KeyCategory": {
+      "name": "Key Category",
+      "definition": "Category of the cryptographic key."
+    },
+    "HostChallenge": {
+      "name": "Host Challenge",
+      "definition": "Random value from the host provided during a previous exchange."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Ordered certificate chain of the asymmetric key encryption key, starting with the host certificate."
+    },
+    "KeyProperties": {
+      "name": "Key Properties",
+      "definition": "Cryptographic key involved in the security command."
+    }
+  }
+}

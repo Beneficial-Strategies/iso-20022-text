@@ -1,0 +1,33 @@
+{
+  "isoType": "BalanceAmounts4",
+  "language": "en",
+  "name": "Balance Amounts 4",
+  "definition": "Amounts linked to a securities balance, for example, holding value.",
+  "isoElements": {
+    "HoldingValue": {
+      "name": "Holding Value",
+      "definition": "Value of an individual financial instrument holding within a safekeeping account."
+    },
+    "PreviousHoldingValue": {
+      "name": "Previous Holding Value",
+      "definition": "Previous value of an individual financial instrument holding within a safekeeping account."
+    },
+    "BookValue": {
+      "name": "Book Value",
+      "definition": "Value of a financial instrument, as booked/acquired in an account. It may be used to establish capital gain tax liability."
+    },
+    "EligibleCollateralValue": {
+      "name": "Eligible Collateral Value",
+      "definition": "Value of the position eligible for collateral purposes."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between coupon payment periods."
+    }
+  },
+  "isoRules": {
+    "EligibleCollateralValueRule": {
+      "definition": "EligibleCollateralValue is only to be used in (I)CSD-participant communication or if bilaterally agreed between the sender and receiver."
+    }
+  }
+}

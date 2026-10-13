@@ -1,0 +1,16 @@
+{
+  "isoType": "FXCancellation4Choice",
+  "language": "en",
+  "name": "FX Cancellation 4 Choice",
+  "definition": "Choice of format for the forex cancellation information.",
+  "isoElements": {
+    "Indicator": {
+      "name": "Indicator",
+      "definition": "Specifies whether the underlying forex transaction should also be cancelled. Yes means forex is to be cancelled. No means forex is to be retained."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Forex cancellation information expressed as a proprietary code."
+    }
+  }
+}

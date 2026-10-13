@@ -1,0 +1,63 @@
+{
+  "isoType": "AdditionalBusinessProcess13Code",
+  "language": "en",
+  "name": "Additional Business Process 13 Code",
+  "definition": "Specifies the additional business process linked to a corporate action event.",
+  "isoCodes": {
+    "ACLA": {
+      "isoName": "AutomaticMarketClaim",
+      "name": "Automatic Market Claim",
+      "definition": "Will automatically give rise to market claims by the account servicer, for example, a Central Securities Depository (CSD)."
+    },
+    "ATXF": {
+      "isoName": "SubjectToTransformation",
+      "name": "Subject To Transformation",
+      "definition": "As a result of the corporate action, all transactions in the underlying security will be cancelled by the system and replaced with transactions in the outturn resource(s)."
+    },
+    "CNTR": {
+      "isoName": "CancelUnderlyingTrades",
+      "name": "Cancel Underlying Trades",
+      "definition": "As a result of the corporate action, all transactions in the underlying security will be cancelled by the system."
+    },
+    "NAMC": {
+      "isoName": "NoAutomaticMarketClaimsAndTransformations",
+      "name": "No Automatic Market Claims And Transformations",
+      "definition": "Event will not automatically give rise to market claims and transformations by the account servicer, for example, a Central Securities Depository (CSD)."
+    },
+    "NPLE": {
+      "isoName": "NoSplitElection",
+      "name": "No Split Election",
+      "definition": "Issuer only allows a single option to be selected per designated holding."
+    },
+    "SCHM": {
+      "isoName": "SchemeOrPlanOfArrangement",
+      "name": "Scheme Or Plan Of Arrangement",
+      "definition": "Component event of a scheme/plan of arrangement: a reorganisation of a company or a group of companies, and their capital."
+    },
+    "CONS": {
+      "isoName": "Consent",
+      "name": "Consent",
+      "definition": "Relates to a consent within a corporate action event other than a Consent event (: 22F:: CAEV//CONS)."
+    },
+    "PPUT": {
+      "isoName": "PartialMandatoryPutRedemption",
+      "name": "Partial Mandatory Put Redemption",
+      "definition": "Partial mandatory exchange of a portion of bonds where the exchanged securities are usually remarketed. The issuer may offer holders the right to retain instead of exchanging their securities. A lottery will be used to determine eligibility for the event."
+    },
+    "PPRE": {
+      "isoName": "PartialPreFunding",
+      "name": "Partial Pre Funding",
+      "definition": "Partial pre-funding of a debt instrument prior to maturity drawn through a lottery process. One new security is issued with an earlier maturity date for the refunded (called portion) and the other new security is issued with the original maturity date for the non refunded (remaining) portion. Applicable only in the frame of a partial defeasance corporate action event."
+    },
+    "REAC": {
+      "isoName": "RequiredAction",
+      "name": "Required Action",
+      "definition": "Proceeds / entitlements of the mandatory event can only be paid if specified action is taken by the account owner."
+    },
+    "INCP": {
+      "isoName": "IncentivePremiumPayment",
+      "name": "Incentive Premium Payment",
+      "definition": "The event is a payment of an incentive premium related to the voting conditions prescribed at a general meeting."
+    }
+  }
+}

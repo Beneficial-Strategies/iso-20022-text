@@ -1,0 +1,25 @@
+{
+  "isoType": "SettlementStatus20Choice",
+  "language": "en",
+  "name": "Settlement Status 20 Choice",
+  "definition": "Choice of format for the settlement status.",
+  "isoElements": {
+    "Pending": {
+      "name": "Pending",
+      "definition": "Instruction is pending. Settlement at the instructed settlement date is still possible."
+    },
+    "Failing": {
+      "name": "Failing",
+      "definition": "Instruction is failing. Settlement at the instructed settlement date is no longer possible."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary status."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "A pending transaction (PEND) becomes a failing transaction (PENF) on the settlement date instructed in the message, during the end of day reporting."
+    }
+  }
+}

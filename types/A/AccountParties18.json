@@ -1,0 +1,73 @@
+{
+  "isoType": "AccountParties18",
+  "language": "en",
+  "name": "Account Parties 18",
+  "definition": "Information about a party's account.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "name": "Modification Scope Indication",
+      "definition": "Specifies the type of modification to be applied."
+    },
+    "PrincipalAccountParty": {
+      "name": "Principal Account Party",
+      "definition": "Main party associated with the account."
+    },
+    "SecondaryOwner": {
+      "name": "Secondary Owner",
+      "definition": "Entity that is not the primary owner when the ownership of the investment account is split among several owners."
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Ultimate party that is entitled to either receive the benefits of the ownership of a financial instrument, or to be paid/credited as a result of a transfer."
+    },
+    "PowerOfAttorney": {
+      "name": "Power Of Attorney",
+      "definition": "Entity that was given the authority by another entity to act on its behalf."
+    },
+    "LegalGuardian": {
+      "name": "Legal Guardian",
+      "definition": "Entity that has been appointed by a legal authority to act on behalf of a person judged to be incapacitated."
+    },
+    "CustodianForMinor": {
+      "name": "Custodian For Minor",
+      "definition": "Entity that holds shares/units on behalf of a legal minor. Although the account is registered under the name of the minor, the custodian retains control of the account."
+    },
+    "SuccessorOnDeath": {
+      "name": "Successor On Death",
+      "definition": "Deceased's estate, or successor, to whom the respective percentage of ownership will be transferred upon the death of one of the owners."
+    },
+    "Administrator": {
+      "name": "Administrator",
+      "definition": "Entity that has been appointed by a legal authority to act on behalf of a person or organisation that has gone bankrupt."
+    },
+    "OtherParty": {
+      "name": "Other Party",
+      "definition": "Other type of party."
+    },
+    "Granter": {
+      "name": "Granter",
+      "definition": "Granter role in the hedge funds industry."
+    },
+    "Settlor": {
+      "name": "Settlor",
+      "definition": "Entity that creates a trust or contributes assets to the trust."
+    },
+    "SeniorManagingOfficial": {
+      "name": "Senior Managing Official",
+      "definition": "Party that makes, or participates in the making of, decisions that affect the whole, or a substantial part, of the business of a customer of a reporting entity or that has the capacity to affect significantly the financial standing of a customer of a reporting entity. Typically, this is a controlling person of a corporate (ownership type CORP)."
+    },
+    "Protector": {
+      "name": "Protector",
+      "definition": "Person appointed under the trust instrument to direct or restrain the trustees in relation to their administration of the trust. Typically, this is a controlling person of a trust (ownership type TRUS) or other non-individual organisation (ownership type ONIS)."
+    },
+    "RegisteredShareholderName": {
+      "name": "Registered Shareholder Name",
+      "definition": "Party for which shares are to be registered."
+    }
+  },
+  "isoRules": {
+    "AddressRule": {
+      "definition": "If ModificationScopeIndication is INSE (InsertNewDataSet), then one of the following must be present:|PrincipalAccountParty/./Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|CustodianForMinor/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|SecondaryOwner/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|Beneficiary/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|PowerOfAttorney/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|LegalGuardian/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|SuccessorOnDeath/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|Administrator/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|OtherParty/OtherPartyDetails/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|Granter/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|Settlor/Party/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|SeniorManagingOfficial/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)|Protector/./ModifiedPostalAddress/ModificationScopeIndication/INSE (InsertNewDataSet)."
+    }
+  }
+}

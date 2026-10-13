@@ -1,0 +1,23 @@
+{
+  "isoType": "CallIn1Code",
+  "language": "en",
+  "name": "Call In 1 Code",
+  "definition": "Specifies the type of pay-in call report.",
+  "isoCodes": {
+    "CFAV": {
+      "isoName": "CallForAccountValue",
+      "name": "Call For Account Value",
+      "definition": "Pay-in call is for account value."
+    },
+    "CFST": {
+      "isoName": "CallForSettlement",
+      "name": "Call For Settlement",
+      "definition": "Pay-in call is for settlement."
+    },
+    "CFCC": {
+      "isoName": "CallForCurrencyClose",
+      "name": "Call For Currency Close",
+      "definition": "Pay-in call is for currency close."
+    }
+  }
+}

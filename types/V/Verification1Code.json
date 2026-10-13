@@ -1,0 +1,38 @@
+{
+  "isoType": "Verification1Code",
+  "language": "en",
+  "name": "Verification 1 Code",
+  "definition": "Result of the verification.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "Failed",
+      "name": "Failed",
+      "definition": "Verification failed."
+    },
+    "MISS": {
+      "isoName": "Missing",
+      "name": "Missing",
+      "definition": "Information required to perform the verification was missing."
+    },
+    "NOVF": {
+      "isoName": "NotPerformed",
+      "name": "Not Performed",
+      "definition": "Verification has not been performed."
+    },
+    "PART": {
+      "isoName": "PartialMatch",
+      "name": "Partial Match",
+      "definition": "Verification was partially successful."
+    },
+    "SUCC": {
+      "isoName": "Successful",
+      "name": "Successful",
+      "definition": "Verification was successful."
+    },
+    "ERRR": {
+      "isoName": "TechnicalError",
+      "name": "Technical Error",
+      "definition": "Device or entity to perform the verification was unavailable."
+    }
+  }
+}

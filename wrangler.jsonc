@@ -1,0 +1,15 @@
+// The English text host, https://iso-20022-text-en.beneficialstrategies.com: the ISO English of this repository, served as static assets
+// (no Worker code). Cloudflare Workers Builds watches this repository: the main branch deploys, other branches get preview addresses.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "iso-20022-text-en",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./site" },
+  // DNS record and certificate are made on deploy; the name is one level below the zone (the free certificate covers *.beneficialstrategies.com)
+  "routes": [{ "pattern": "iso-20022-text-en.beneficialstrategies.com", "custom_domain": true }],
+  "workers_dev": true,
+  "preview_urls": true,
+  // preview builds do not run the dashboard's build command, so the site is built here (docs: Iso20022Headless/docs/cloudflare-deploy.md)
+  "build": { "command": "node build/build.mjs --out site" },
+  "previews": {}
+}

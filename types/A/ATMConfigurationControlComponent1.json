@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMConfigurationControlComponent1",
+  "language": "en",
+  "name": "ATM Configuration Control Component 1",
+  "definition": "Information related to the control of a configuration on ATM device.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "ConfigurationVersion": {
+      "name": "Configuration Version",
+      "definition": "The configuration version which is being sent to the terminal."
+    },
+    "ActionRequired": {
+      "name": "Action Required",
+      "definition": "The action which is required by the terminal on receipt of this configuration update. This will be one of: APLY (Apply) apply the configuration update, or NONE no configuration to be applied."
+    },
+    "Property": {
+      "name": "Property",
+      "definition": "Set of properties related to an ATM configuration."
+    },
+    "ActivationDate": {
+      "name": "Activation Date",
+      "definition": "Date when the whole configuration is to be activated. If no activation date is provided, the activation must occur immediately."
+    }
+  }
+}

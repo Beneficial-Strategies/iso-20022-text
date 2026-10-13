@@ -1,0 +1,60 @@
+{
+  "isoType": "IntraPositionDetails61",
+  "language": "en",
+  "name": "Intra Position Details 61",
+  "definition": "Details of the intra-position movement.",
+  "isoElements": {
+    "SettledQuantity": {
+      "name": "Settled Quantity",
+      "definition": "Quantity of financial instrument effectively settled."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "name": "Securities Sub Balance Identification",
+      "definition": "Number identifying a Securities Sub balance Type for example restriction identification."
+    },
+    "CollateralMonitorAmount": {
+      "name": "Collateral Monitor Amount",
+      "definition": "Value of the collateral available for the delivery settlement process at the account level."
+    },
+    "PreviouslySettledQuantity": {
+      "name": "Previously Settled Quantity",
+      "definition": "Quantity of financial instrument previously settled."
+    },
+    "RemainingToBeSettledQuantity": {
+      "name": "Remaining To Be Settled Quantity",
+      "definition": "Quantity of financial instrument remaining to be settled."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities were moved."
+    },
+    "AvailableDate": {
+      "name": "Available Date",
+      "definition": "Date/time securities become available for sale (if securities become unavailable, this specifies the date/time at which they will become available again)."
+    },
+    "CorporateActionEventType": {
+      "name": "Corporate Action Event Type",
+      "definition": "Specifies the type of corporate event."
+    },
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the securities are moving."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the securities are moving."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if InstructionProcessingAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    },
+    "BalanceFromToRule": {
+      "definition": "The BalanceFrom/Type must be different from the BalanceTo/Type."
+    }
+  }
+}

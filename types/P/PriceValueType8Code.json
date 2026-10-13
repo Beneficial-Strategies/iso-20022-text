@@ -1,0 +1,28 @@
+{
+  "isoType": "PriceValueType8Code",
+  "language": "en",
+  "name": "Price Value Type 8 Code",
+  "definition": "Specifies a type of price value.",
+  "isoCodes": {
+    "TBSP": {
+      "isoName": "ToBeSpecified",
+      "name": "To Be Specified",
+      "definition": "Price to be specified by account owner."
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Price is not required to be specified by account owner."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Price is unknown by the sender or has not been established."
+    },
+    "NILP": {
+      "isoName": "NilPayment",
+      "name": "Nil Payment",
+      "definition": "Price will not be paid."
+    }
+  }
+}

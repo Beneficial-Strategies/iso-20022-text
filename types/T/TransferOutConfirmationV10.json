@@ -1,0 +1,60 @@
+{
+  "isoType": "TransferOutConfirmationV10",
+  "language": "en",
+  "name": "Transfer Out Confirmation V 10",
+  "definition": "The TransferOutConfirmation message is sent by an executing party, for example, a transfer agent, to the instructing party, for example, an investment manager or its authorised representative, to confirm the delivery of a financial instrument, free of payment, on a given date, to a specified party.|This message may also be used to confirm the delivery of a financial instrument, free of payment, to another of the instructing parties own accounts or to a third party.|Usage|The TransferOutConfirmation message is used to confirm the withdrawal of a financial instrument from the owner's account and its delivery to another own account, or to a third party, has taken place.|The reference of the transfer confirmation is identified in TransferConfirmationReference. The reference of the original transfer instruction is specified in TransferReference. The message identification of the TransferOutInstruction message in which the transfer instruction was conveyed may also be quoted in RelatedReference but this is not recommended.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferDetails": {
+      "name": "Transfer Details",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "CopyDetails": {
+      "name": "Copy Details",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Either TransferDetails/RequestedSettlementDate may be present in one or more occurrences of TransferDetails or SettlementDetails/RequestedSettlementDate may be present, but not both."
+    },
+    "EffectiveSettlementDateRule": {
+      "definition": "Either TransferDetails/EffectiveSettlementDate may be present in one or more occurrences of TransferDetails or SettlementDetails/EffectiveSettlementDate may be present, but not both."
+    }
+  }
+}

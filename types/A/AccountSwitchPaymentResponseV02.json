@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountSwitchPaymentResponseV02",
+  "language": "en",
+  "name": "Account Switch Payment Response V 02",
+  "definition": "The AccountSwitchPaymentResponse message is sent by the new account servicer to the old account servicer to confirm whether it will make the requested payment in a request payment message. The AccountSwitchPaymentResponse message is only used to respond to a AccountSwitchRequestPayment message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

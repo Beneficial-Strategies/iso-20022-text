@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountExcludedMandateMaintenanceRequestV05",
+  "language": "en",
+  "name": "Account Excluded Mandate Maintenance Request V 05",
+  "definition": "The AccountExcludedMandateMaintenanceRequest message is sent from an organisation to a financial institution as part of the account maintenance process. It is the initial request message to update an account. Usage: this update is about account details excluding any mandate information.|If modification codes are not used: the organisation will specify under the “Account” and “Organisation” tags the complete information as it should be in the financial institution’s records after processing the update request. |If modification codes are used (in that case, they must be used everywhere): the organisation will specify under the “Account” and “Organisation” tags which elements must be added, deleted, modified, or if they are unchanged.",
+  "isoElements": {
+    "References": {
+      "name": "References",
+      "definition": ""
+    },
+    "From": {
+      "name": "From",
+      "definition": ""
+    },
+    "ContractDates": {
+      "name": "Contract Dates",
+      "definition": ""
+    },
+    "UnderlyingMasterAgreement": {
+      "name": "Underlying Master Agreement",
+      "definition": ""
+    },
+    "Account": {
+      "name": "Account",
+      "definition": ""
+    },
+    "AccountServicerIdentification": {
+      "name": "Account Servicer Identification",
+      "definition": ""
+    },
+    "Organisation": {
+      "name": "Organisation",
+      "definition": ""
+    },
+    "AdditionalMessageInformation": {
+      "name": "Additional Message Information",
+      "definition": ""
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

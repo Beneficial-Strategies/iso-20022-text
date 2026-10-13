@@ -1,0 +1,43 @@
+{
+  "isoType": "InvestigationRejection1Code",
+  "language": "en",
+  "name": "Investigation Rejection 1 Code",
+  "definition": "Specifies the reason for rejecting an investigation case.",
+  "isoCodes": {
+    "NFND": {
+      "isoName": "UnderlyingPaymentNotFound",
+      "name": "Underlying Payment Not Found",
+      "definition": "Underlying instruction can not be found."
+    },
+    "NAUT": {
+      "isoName": "NotAuthorisedToInvestigate",
+      "name": "Not Authorised To Investigate",
+      "definition": "Case assignee is not allowed to investigate on this instruction or a party has been by-passed in the payment chain or no bilateral agreement has been established for this type of query."
+    },
+    "UKNW": {
+      "isoName": "UnknownCase",
+      "name": "Unknown Case",
+      "definition": "Case has never been assigned before."
+    },
+    "PCOR": {
+      "isoName": "PaymentPreviouslyCancelledOrRejected",
+      "name": "Payment Previously Cancelled Or Rejected",
+      "definition": "Used when the payment instruction has previously been cancelled or rejected."
+    },
+    "WMSG": {
+      "isoName": "WrongMessage",
+      "name": "Wrong Message",
+      "definition": "Wrong message has been used in the investigation workflow."
+    },
+    "RNCR": {
+      "isoName": "RejectNonCashRelated",
+      "name": "Reject Non Cash Related",
+      "definition": "Used to reject a non-cash related query that is not covered in the workflow."
+    },
+    "MROI": {
+      "isoName": "MissingResolutionOfInvestigation",
+      "name": "Missing Resolution Of Investigation",
+      "definition": "Resolution of Investigation has not been received on reopened case."
+    }
+  }
+}

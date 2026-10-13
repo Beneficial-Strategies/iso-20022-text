@@ -1,0 +1,28 @@
+{
+  "isoType": "DateTimeSearch2Choice",
+  "language": "en",
+  "name": "Date Time Search 2 Choice",
+  "definition": "Choice between search criteria based on dates and date ranges.",
+  "isoElements": {
+    "FromDateTime": {
+      "name": "From Date Time",
+      "definition": "Start date of the range."
+    },
+    "ToDateTime": {
+      "name": "To Date Time",
+      "definition": "End date of the range."
+    },
+    "FromToDateTime": {
+      "name": "From To Date Time",
+      "definition": "Particular time span specified between a start date and an end date."
+    },
+    "EqualDateTime": {
+      "name": "Equal Date Time",
+      "definition": "Specified date to match."
+    },
+    "NotEqualDateTime": {
+      "name": "Not Equal Date Time",
+      "definition": "Specified date to be excluded from the search."
+    }
+  }
+}

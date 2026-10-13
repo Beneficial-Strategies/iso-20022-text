@@ -1,0 +1,45 @@
+{
+  "isoType": "References31",
+  "language": "en",
+  "name": "References 31",
+  "definition": "Provides a set if identifications to reference to a securities settlement transaction.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner, the account servicer and the market infrastructure."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    }
+  },
+  "isoRules": {
+    "ReferencePresenceRule": {
+      "definition": "At least one reference must be present."
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "isoType": "FinancialInstrument109",
+  "language": "en",
+  "name": "Financial Instrument 109",
+  "definition": "Identification of a security or other asset.",
+  "isoElements": {
+    "LineIdentification": {
+      "name": "Line Identification",
+      "definition": "Identification of the line of holding in the portfolio."
+    },
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Identification of the asset."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of asset transferred or to be transferred."
+    },
+    "PartialInstructedQuantity": {
+      "name": "Partial Instructed Quantity",
+      "definition": "Indicates that the quantity of asset to be transferred is a partially instructed quantity."
+    },
+    "OriginalPercentageInstructed": {
+      "name": "Original Percentage Instructed",
+      "definition": "Percentage rate of assets to be transferred or transferred, as originally instructed."
+    },
+    "TransferType": {
+      "name": "Transfer Type",
+      "definition": "Specifies how the financial instrument is transferred."
+    },
+    "AdditionalAsset": {
+      "name": "Additional Asset",
+      "definition": "Indicates the asset is a new asset, not previously identified by the transferor party (ceding party) in the account holding discovery process."
+    },
+    "NotAvailable": {
+      "name": "Not Available",
+      "definition": "Indicates the asset is no longer available at the transferor party (ceding party)."
+    },
+    "Conversion": {
+      "name": "Conversion",
+      "definition": "Security is to be converted into another security before transfer."
+    },
+    "UnitsDetails": {
+      "name": "Units Details",
+      "definition": "Breakdown of units."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transfer allocated by the counterparty."
+    },
+    "BusinessFlowType": {
+      "name": "Business Flow Type",
+      "definition": "Business process in which the actors are involved. This will facilitate the right business process to be triggered, according to the market business model, which may require matching instructions (double leg process) or not (single leg process)."
+    },
+    "AverageAcquisitionPrice": {
+      "name": "Average Acquisition Price",
+      "definition": "Average cost per share of the security, including all fees."
+    },
+    "TransferCurrency": {
+      "name": "Transfer Currency",
+      "definition": "Currency to be used to transfer the holdings. Some transfer agents register holdings grouped by currency in addition to using the ISIN for multi-currency fund shares."
+    },
+    "TotalBookValue": {
+      "name": "Total Book Value",
+      "definition": "Net asset on the balance sheet, the total portfolio value minus or plus the unrealised gain or loss."
+    },
+    "OriginalCost": {
+      "name": "Original Cost",
+      "definition": "Original amount paid for the asset at the point of purchase. May also be known as the book cost."
+    },
+    "LatestValuation": {
+      "name": "Latest Valuation",
+      "definition": "Date and market value of the asset."
+    },
+    "TransfereeAccount": {
+      "name": "Transferee Account",
+      "definition": "Account held in the name of the party that is not the name of the beneficial owner of the shares.|(Party and account into which the transferee receives the financial instrument from the transferor.)"
+    },
+    "Transferor": {
+      "name": "Transferor",
+      "definition": "Party and account from which the transferor delivers the financial instrument to the transferee."
+    },
+    "IntermediaryInformation": {
+      "name": "Intermediary Information",
+      "definition": "Identification of a related party or intermediary."
+    },
+    "RequestedTradeDate": {
+      "name": "Requested Trade Date",
+      "definition": "Date to be used as the trade date when securities are settled through an International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date on which the securities are to be exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "name": "Effective Transfer Date",
+      "definition": "Date and time at which the transfer was executed."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which the securities were exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "PaymentDetails": {
+      "name": "Payment Details",
+      "definition": "Payment process for the transfer of cash from the debtor to the creditor."
+    },
+    "CrystallisationDetails": {
+      "name": "Crystallisation Details",
+      "definition": "Number of units that have been received (crystallised) or not yet received (uncrystallised) from the fund. This is typically relevant to a pension fund."
+    },
+    "TaxValuationPoint": {
+      "name": "Tax Valuation Point",
+      "definition": "Date or tax quarter used for the calculation of tax on the asset."
+    },
+    "SettlementPartiesDetails": {
+      "name": "Settlement Parties Details",
+      "definition": "Chain of parties involved in the settlement of a transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "name": "Assets Held In Own Name",
+      "definition": "Indicates whether the assets are held in an individual’s own name."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "name": "Transfer Results In Change Of Beneficial Owner",
+      "definition": "Indicates whether the transfer results in a change of beneficial owner."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the financial instrument."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "If Instrument/Security is present, then Quantity/Unit or Quantity/FaceAmount or Quantity/AmortisedValue must be present."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "If Instrument/CashAsset is present, then Quantity/CashAmount must be present."
+    },
+    "EffectiveTransferAndSettlementDateGuideline": {
+      "definition": "When the portfolio transfer confirmation is used to confirm the intent to transfer, effective transfer date and effective settlement date are not applicable."
+    },
+    "Conversion1Rule": {
+      "definition": "If TransferType/Code/CONV (Conversion) is present, then Conversion must be present."
+    },
+    "Conversion2Rule": {
+      "definition": "If TransferType/Code/CONV (Conversion) is not present, then Conversion is not allowed."
+    }
+  }
+}

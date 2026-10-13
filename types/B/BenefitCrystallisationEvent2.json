@@ -1,0 +1,36 @@
+{
+  "isoType": "BenefitCrystallisationEvent2",
+  "language": "en",
+  "name": "Benefit Crystallisation Event 2",
+  "definition": "Information about the realisation of benefits taken from a pension.",
+  "isoElements": {
+    "EventTypeNumber": {
+      "name": "Event Type Number",
+      "definition": "Number of the crystallisation event. In the UK market this could be, for example, BCE5, BE5A or BCE5B."
+    },
+    "EventTypeName": {
+      "name": "Event Type Name",
+      "definition": "Name of the crystallisation event. In the UK market this could be, for example, ‘entitlement to scheme pension’."
+    },
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the crystallisation event was triggered."
+    },
+    "CrystallisationAmount": {
+      "name": "Crystallisation Amount",
+      "definition": "Amount of the crystallisation event."
+    },
+    "PercentageOfAllowance": {
+      "name": "Percentage Of Allowance",
+      "definition": "Percentage of allowance used for the benefit crystallisation event."
+    },
+    "LifetimeAllowanceProtection": {
+      "name": "Lifetime Allowance Protection",
+      "definition": "Indicates whether lifetime allowance protection impacts the benefit crystallisation event."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the benefit crystallisation event."
+    }
+  }
+}

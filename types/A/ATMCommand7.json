@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMCommand7",
+  "language": "en",
+  "name": "ATM Command 7",
+  "definition": "Maintenance command to perform on an ATM.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of command to be performed by the ATM."
+    },
+    "Urgency": {
+      "name": "Urgency",
+      "definition": "Urgency of the command."
+    },
+    "DateTime": {
+      "name": "Date Time",
+      "definition": "Date time on which the command must be performed."
+    },
+    "CommandIdentification": {
+      "name": "Command Identification",
+      "definition": "Identification of the entity issuing the command."
+    },
+    "CommandParameters": {
+      "name": "Command Parameters",
+      "definition": "Specific parameters attached to the command."
+    }
+  }
+}

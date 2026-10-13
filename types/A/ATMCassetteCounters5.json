@@ -1,0 +1,64 @@
+{
+  "isoType": "ATMCassetteCounters5",
+  "language": "en",
+  "name": "ATM Cassette Counters 5",
+  "definition": "Counters of media inside an ATM cassette.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of counters."
+    },
+    "AddedNumber": {
+      "name": "Added Number",
+      "definition": "Number of added media during servicing operations."
+    },
+    "RemovedNumber": {
+      "name": "Removed Number",
+      "definition": "Number of removed media during servicing operations."
+    },
+    "RemovedAmount": {
+      "name": "Removed Amount",
+      "definition": "Amount of removed media during servicing operations."
+    },
+    "DispensedNumber": {
+      "name": "Dispensed Number",
+      "definition": "Total number of media out of the cassette."
+    },
+    "DepositedNumber": {
+      "name": "Deposited Number",
+      "definition": "Total number of media deposited in the cassette."
+    },
+    "DepositedAmount": {
+      "name": "Deposited Amount",
+      "definition": "Amount of media deposited in the cassette."
+    },
+    "RecycledNumber": {
+      "name": "Recycled Number",
+      "definition": "Total number of recycled media from the cassette."
+    },
+    "RetractedNumber": {
+      "name": "Retracted Number",
+      "definition": "Total number of retracted media originating from the cassette."
+    },
+    "RetractedAmount": {
+      "name": "Retracted Amount",
+      "definition": "Total amount retracted during operation. Only intended to be used where each of the items in the cassette do not have the same value (for example for retracting checks)."
+    },
+    "RejectedNumber": {
+      "name": "Rejected Number",
+      "definition": "Total number of media from this cassette which are on the reject bin."
+    },
+    "PresentedNumber": {
+      "name": "Presented Number",
+      "definition": "Total number of media presented to the customer."
+    },
+    "InitialNumber": {
+      "name": "Initial Number",
+      "definition": "Initial number added during a servicing operation."
+    },
+    "InitialAmount": {
+      "name": "Initial Amount",
+      "definition": "Initial amount added during a servicing operation."
+    }
+  }
+}

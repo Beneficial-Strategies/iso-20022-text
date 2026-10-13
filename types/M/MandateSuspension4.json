@@ -1,0 +1,28 @@
+{
+  "isoType": "MandateSuspension4",
+  "language": "en",
+  "name": "Mandate Suspension 4",
+  "definition": "Identifies the mandate, which is being suspended.",
+  "isoElements": {
+    "SuspensionRequestIdentification": {
+      "name": "Suspension Request Identification",
+      "definition": "Unique identification, as assigned by the initiating party, to unambiguously identify the suspension request."
+    },
+    "OriginalMessageInformation": {
+      "name": "Original Message Information",
+      "definition": "Provides information on the original message."
+    },
+    "SuspensionReason": {
+      "name": "Suspension Reason",
+      "definition": "Provides detailed information on the suspension reason."
+    },
+    "OriginalMandate": {
+      "name": "Original Mandate",
+      "definition": "Provides the original mandate data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

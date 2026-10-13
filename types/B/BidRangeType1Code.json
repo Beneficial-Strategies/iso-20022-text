@@ -1,0 +1,23 @@
+{
+  "isoType": "BidRangeType1Code",
+  "language": "en",
+  "name": "Bid Range Type 1 Code",
+  "definition": "Types of acceptable bid range values.",
+  "isoCodes": {
+    "DIVI": {
+      "isoName": "Divisible",
+      "name": "Divisible",
+      "definition": "All values (including minimum and maximum prices) are divisible by the bid interval."
+    },
+    "INCR": {
+      "isoName": "Incremental",
+      "name": "Incremental",
+      "definition": "No values within the bid range are divisible by the bid interval including the minimum and maximum prices.  Each value between the minimum and maximum prices is incremented by the bid interval."
+    },
+    "MULT": {
+      "isoName": "InMultiple",
+      "name": "In Multiple",
+      "definition": "Minimum and maximum prices are not divisible by the bid interval.  All successive values between the minimum and maximum prices are in multiples of the bid interval."
+    }
+  }
+}

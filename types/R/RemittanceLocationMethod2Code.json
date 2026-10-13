@@ -1,0 +1,38 @@
+{
+  "isoType": "RemittanceLocationMethod2Code",
+  "language": "en",
+  "name": "Remittance Location Method 2 Code",
+  "definition": "Specifies the method used to deliver the remittance advice information.",
+  "isoCodes": {
+    "FAXI": {
+      "isoName": "Fax",
+      "name": "Fax",
+      "definition": "Remittance advice information must be faxed."
+    },
+    "EDIC": {
+      "isoName": "ElectronicDataInterchange",
+      "name": "Electronic Data Interchange",
+      "definition": "Remittance advice information must be sent through Electronic Data Interchange (EDI)."
+    },
+    "URID": {
+      "isoName": "UniformResourceIdentifier",
+      "name": "Uniform Resource Identifier",
+      "definition": "Remittance advice information needs to be sent to a Uniform Resource Identifier (URI). URI is a compact string of characters that uniquely identify an abstract or physical resource. URI's are the super-set of identifiers, such as URLs, email addresses, ftp sites, etc, and as such, provide the syntax for all of the identification schemes."
+    },
+    "EMAL": {
+      "isoName": "EMail",
+      "name": "E Mail",
+      "definition": "Remittance advice information must be sent through e-mail."
+    },
+    "POST": {
+      "isoName": "Post",
+      "name": "Post",
+      "definition": "Remittance advice information must be sent through postal services."
+    },
+    "SMSM": {
+      "isoName": "SMS",
+      "name": "SMS",
+      "definition": "Remittance advice information must be sent through by phone as a short message service (SMS)."
+    }
+  }
+}

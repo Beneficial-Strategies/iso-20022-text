@@ -1,0 +1,20 @@
+{
+  "isoType": "BuyerProtectionInstructionReportRequestV01",
+  "language": "en",
+  "name": "Buyer Protection Instruction Report Request V 01",
+  "definition": "Scope|The BuyerProtectionInstructionReportRequest message is sent by an account owner or its designated agent to an account servicer to request a report of all buyer protection instructions at the safekeeping account level for one or more corporate action events or at the corporate action event level for one or more safekeeping accounts.||Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "BuyerProtectionSelectionCriteria": {
+      "name": "Buyer Protection Selection Criteria",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

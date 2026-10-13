@@ -1,0 +1,18 @@
+{
+  "isoType": "MessageRejectedReason2Code",
+  "language": "en",
+  "name": "Message Rejected Reason 2 Code",
+  "definition": "Specifies the reason for a message rejected status.",
+  "isoCodes": {
+    "NALO": {
+      "isoName": "NotAllowedRequest",
+      "name": "Not Allowed Request",
+      "definition": "Sending party is not allowed to send this request."
+    },
+    "REFE": {
+      "isoName": "InvalidOrUnrecognisedReference",
+      "name": "Invalid Or Unrecognised Reference",
+      "definition": "Request contains an invalid or unrecognised business reference."
+    }
+  }
+}

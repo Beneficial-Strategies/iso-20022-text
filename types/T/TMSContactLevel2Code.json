@@ -1,0 +1,28 @@
+{
+  "isoType": "TMSContactLevel2Code",
+  "language": "en",
+  "name": "TMS Contact Level 2 Code",
+  "definition": "Urgency of the command.",
+  "isoCodes": {
+    "ASAP": {
+      "isoName": "AsSoonAsPossible",
+      "name": "As Soon As Possible",
+      "definition": "Terminal management system has to be contacted as soon as possible (for example after reconciliation)."
+    },
+    "CRIT": {
+      "isoName": "Critical",
+      "name": "Critical",
+      "definition": "Terminal management system has to be contacted before the next transaction."
+    },
+    "DTIM": {
+      "isoName": "DateTime",
+      "name": "Date Time",
+      "definition": "Terminal management system has to be contacted at the date and time provided."
+    },
+    "ENCS": {
+      "isoName": "EndCustomerSession",
+      "name": "End Customer Session",
+      "definition": "After the end of the customer session."
+    }
+  }
+}

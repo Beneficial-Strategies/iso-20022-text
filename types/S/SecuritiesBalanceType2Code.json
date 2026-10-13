@@ -1,0 +1,38 @@
+{
+  "isoType": "SecuritiesBalanceType2Code",
+  "language": "en",
+  "name": "Securities Balance Type 2 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "CLEN": {
+      "isoName": "TaxExempt",
+      "name": "Tax Exempt",
+      "definition": "Balance of tax-exempt securities."
+    },
+    "DIRT": {
+      "isoName": "NonTaxExempt",
+      "name": "Non Tax Exempt",
+      "definition": "Balance of taxable securities."
+    },
+    "NOMI": {
+      "isoName": "Registered",
+      "name": "Registered",
+      "definition": "Balance of securities that are registered (in the name of a nominee or of the beneficial owner)."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Balance of securities that is unclassified, ie, is not identified with one of the existing sub-balance types."
+    },
+    "SPOS": {
+      "isoName": "StreetPosition",
+      "name": "Street Position",
+      "definition": "Balance of securities that remain registered in the name of the prior beneficial owner of securities."
+    },
+    "UNRG": {
+      "isoName": "Unregistered",
+      "name": "Unregistered",
+      "definition": "Balance of securities that could not be registered due to foreign ownership limitation."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CashPaymentStatus2Code",
+  "language": "en",
+  "name": "Cash Payment Status 2 Code",
+  "definition": "Specifies the state of a payment instruction at a specified time.",
+  "isoCodes": {
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "The payment is awaiting settlement."
+    },
+    "FINL": {
+      "isoName": "Final",
+      "name": "Final",
+      "definition": "The payment has been settled or stopped."
+    }
+  }
+}

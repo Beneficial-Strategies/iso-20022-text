@@ -1,0 +1,32 @@
+{
+  "isoType": "ProcessingStatus62Choice",
+  "language": "en",
+  "name": "Processing Status 62 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Processing of the instruction/request is pending."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction/Request is accepted but in repair."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "A cancellation request from yourself for this instruction is pending waiting for further processing (only as a response to a SecuritiesTransactionStatusQuery). The pending status on the processing of a cancellation request must be provided using a SecuritiesTransactionCancellationRequestStatusAdvice."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    },
+    "CancellationRequested": {
+      "name": "Cancellation Requested",
+      "definition": "Cancellation request from your counterparty for this transaction is pending waiting for your cancellation request."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "ProceedsDelivery1",
+  "language": "en",
+  "name": "Proceeds Delivery 1",
+  "definition": "Provides information about the account.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "name": "Securities Account Identification",
+      "definition": "identification of the securities account to which the securities have to be delivered."
+    },
+    "CashAccountIdentification": {
+      "name": "Cash Account Identification",
+      "definition": "Identification of the cash account to which the cash has to be delivered."
+    },
+    "AccountOwnerIdentification": {
+      "name": "Account Owner Identification",
+      "definition": "Identification of the party that owns the account."
+    },
+    "AccountServicerIdentification": {
+      "name": "Account Servicer Identification",
+      "definition": "Identification of the institution servicing the account."
+    }
+  },
+  "isoRules": {
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRule": {
+      "definition": "Either SecuritiesAccountIdentification or CashAccountIdentification must be present."
+    },
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRuleNotBoth": {
+      "definition": "Either SecuritiesAccountIdentification or CashAccountIdentification must be present."
+    }
+  }
+}

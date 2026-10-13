@@ -1,0 +1,65 @@
+{
+  "isoType": "IntraPositionMovementDetails21",
+  "language": "en",
+  "name": "Intra Position Movement Details 21",
+  "definition": "Details of the intra-position movement.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifications (account owner and/or account servicer) of the intra-position movement."
+    },
+    "SettledQuantity": {
+      "name": "Settled Quantity",
+      "definition": "Quantity of financial instrument effectively settled."
+    },
+    "PreviouslySettledQuantity": {
+      "name": "Previously Settled Quantity",
+      "definition": "Quantity of financial instrument previously settled."
+    },
+    "RemainingToBeSettledQuantity": {
+      "name": "Remaining To Be Settled Quantity",
+      "definition": "Quantity of financial instrument remaining to be settled."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "name": "Securities Sub Balance Identification",
+      "definition": "Number identifying a securities sub-balance type for example restriction identification."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the securities were moved."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities were moved."
+    },
+    "AvailableDate": {
+      "name": "Available Date",
+      "definition": "Date/time securities become available for sale (if securities become unavailable, this specifies the date/time at which they will become available again)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "name": "Acknowledged Status Time Stamp",
+      "definition": "Time stamp on when the transaction is acknowledged."
+    },
+    "CorporateActionEventType": {
+      "name": "Corporate Action Event Type",
+      "definition": "Specifies the type of corporate event."
+    },
+    "CollateralMonitorAmount": {
+      "name": "Collateral Monitor Amount",
+      "definition": "Value of the collateral available for the delivery settlement process at the account level."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if InstructionProcessingAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    }
+  }
+}

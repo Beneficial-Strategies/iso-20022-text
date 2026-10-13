@@ -1,0 +1,23 @@
+{
+  "isoType": "QueryType3Code",
+  "language": "en",
+  "name": "Query Type 3 Code",
+  "definition": "Specifies the nature of the request, that is whether all information be returned or only information that has changed since the last similar request was returned.",
+  "isoCodes": {
+    "ALLL": {
+      "isoName": "All",
+      "name": "All",
+      "definition": "Specifies that the query requests that all matching items be returned."
+    },
+    "CHNG": {
+      "isoName": "Changed",
+      "name": "Changed",
+      "definition": "Specifies that the query requests that only new matching items since the last similar query be returned."
+    },
+    "MODF": {
+      "isoName": "Modified",
+      "name": "Modified",
+      "definition": "Specifies that the query requests that only items that have changed since the last query be returned."
+    }
+  }
+}

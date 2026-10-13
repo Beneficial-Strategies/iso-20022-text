@@ -1,0 +1,67 @@
+{
+  "isoType": "SecuritiesTradeDetails126",
+  "language": "en",
+  "name": "Securities Trade Details 126",
+  "definition": "Details of the securities trade.",
+  "isoElements": {
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "CollateralTransactionIdentification": {
+      "name": "Collateral Transaction Identification",
+      "definition": "Unambiguous identification of a collateral transaction as assigned by the instructing party."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Identification of an account owner transaction that could potentially match with the allegement notified."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner, the account servicer and the market infrastructure."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "PlaceOfClearing": {
+      "name": "Place Of Clearing",
+      "definition": "Infrastructure which may be a component of a clearing house and which facilitates clearing and settlement for its members by standing between the buyer and the seller. It may net transactions and it substitutes itself as settlement counterparty for each position."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Specifies the price of the traded financial instrument.|This is the deal price of the individual trade transaction. |If there is only one trade transaction for the execution of the trade, then the deal price could equal the executed trade price (unless, for example, the price includes commissions or rounding, or some other factor has been applied to the deal price or the executed trade price, or both)."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "TypeOfPrice": {
+      "name": "Type Of Price",
+      "definition": "Specifies the type of price and information about the price."
+    }
+  },
+  "isoRules": {
+    "PlaceOfTradeRule": {
+      "definition": "If PlaceOfTrade is used and an ISO 10383 MIC exists for the market to be identified, then the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "If Trade Date/Time is used with a time or a time + UTC indicator, then it must be the local time of the place of trade, for example, of the stock exchange, or of the selling broker for OTC."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "If LateDeliveryDate is used, then the transaction must be a pool trade that results from the original TBA (To Be Announced). The original TBA would be offset by an opposite transaction and replaced by buys or sells of individual pools. It is a date greater than the settlement date stated in the trade, for pools designed as settling late."
+    }
+  }
+}

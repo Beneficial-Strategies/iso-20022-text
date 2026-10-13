@@ -1,0 +1,50 @@
+{
+  "isoType": "OriginalPaymentInstruction56",
+  "language": "en",
+  "name": "Original Payment Instruction 56",
+  "definition": "Provides detailed information on the original transaction, to which the status report message refers.",
+  "isoElements": {
+    "OriginalPaymentInformationIdentification": {
+      "name": "Original Payment Information Identification",
+      "definition": "Unique identification, as assigned by the original sending party, to unambiguously identify the original payment information group."
+    },
+    "OriginalNumberOfTransactions": {
+      "name": "Original Number Of Transactions",
+      "definition": "Number of individual transactions contained in the original payment information group."
+    },
+    "OriginalControlSum": {
+      "name": "Original Control Sum",
+      "definition": "Total of all individual amounts included in the original payment information group, irrespective of currencies."
+    },
+    "PaymentInformationStatus": {
+      "name": "Payment Information Status",
+      "definition": "Specifies the status of the payment information group."
+    },
+    "StatusReasonInformation": {
+      "name": "Status Reason Information",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "NumberOfTransactionsPerStatus": {
+      "name": "Number Of Transactions Per Status",
+      "definition": "Detailed information on the number of transactions for each identical transaction status."
+    },
+    "TransactionInformationAndStatus": {
+      "name": "Transaction Information And Status",
+      "definition": "Provides information on the original transactions to which the status report message refers."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationStatusAcceptedRule": {
+      "definition": "If PaymentInformationStatus is present and is equal to ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) or ACWC (AcceptedWithChange), then TransactionInformationAndStatus/TransactionStatus must be different from RJCT (Rejected)."
+    },
+    "PaymentInformationStatusPendingRule": {
+      "definition": "If OriginalPaymentInformationAndStatus/PaymentInformationStatus is present and is equal to PDNG (Pending), then TransactionInformationAndStatus/TransactionStatus must be different from RJCT (Rejected)."
+    },
+    "PaymentInformationStatusRejectedRule": {
+      "definition": "If OriginalPaymentInformationAndStatus/PaymentInformationStatus is present and is equal to RJCT (Rejceted), then TransactionInformationAndStatus/TransactionStatus, if present, must be equal to RJCT (Rejected)."
+    },
+    "PaymentInformationStatusReceivedRule": {
+      "definition": "If OriginalPaymentInformationAndStatus/PaymentInformationStatus is present and is equal to RCVD (Received), then TransactionInformationAndStatus/TransactionStatus is not allowed."
+    }
+  }
+}

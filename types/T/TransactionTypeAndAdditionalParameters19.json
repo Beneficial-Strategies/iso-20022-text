@@ -1,0 +1,45 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters19",
+  "language": "en",
+  "name": "Transaction Type And Additional Parameters 19",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction (unique per piece of collateral) as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction (unique per piece of collateral) as known by the account servicer."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "name": "Securities Financing Transaction Type",
+      "definition": "Specifies the type of securities financing transaction, that is, repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "For transactions settling in two legs (Securities Financing), the opening/initiation and closing/return information of the transaction is provided by sending the below combination of SecuritiesMovementType codes and SecuritiesFinancingTransactionType codes:||Repo Opening|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Repo Closing|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Reverse Repo Opening|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Reverse Repo Closing|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Securities Lending Initiation|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Securities Lending Return|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Securities Borrowing Initiation|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Securities Borrowing Return|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "isoType": "PaymentReturnReason7",
+  "language": "en",
+  "name": "Payment Return Reason 7",
+  "definition": "Provides further details on the reason of the return of the transaction.",
+  "isoElements": {
+    "Originator": {
+      "name": "Originator",
+      "definition": "Party that issues the return."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the return."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the return reason."
+    }
+  },
+  "isoRules": {
+    "ReturnReasonRule": {
+      "definition": "If Reason/Code is equal to NARR, then AddititionalInformation must be present."
+    }
+  }
+}

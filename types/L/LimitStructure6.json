@@ -1,0 +1,24 @@
+{
+  "isoType": "LimitStructure6",
+  "language": "en",
+  "name": "Limit Structure 6",
+  "definition": "Limit details of one particular limit set by the member and managed by the transaction administrator.",
+  "isoElements": {
+    "LimitIdentification": {
+      "name": "Limit Identification",
+      "definition": "Identification of the default limit."
+    },
+    "StartDateTime": {
+      "name": "Start Date Time",
+      "definition": "Date and time at which the limit becomes effective."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money of the limit, expressed in an eligible currency."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies if a limit is a debit limit or a credit limit."
+    }
+  }
+}

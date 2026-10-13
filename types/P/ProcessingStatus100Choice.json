@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessingStatus100Choice",
+  "language": "en",
+  "name": "Processing Status 100 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction or request is accepted but in repair."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled. The status on the processing of a cancellation request must be provided using a cancellation request report message."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies a choice of status for the processing of an intra-balance movement."
+    }
+  }
+}

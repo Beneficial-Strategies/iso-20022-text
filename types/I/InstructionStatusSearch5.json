@@ -1,0 +1,20 @@
+{
+  "isoType": "InstructionStatusSearch5",
+  "language": "en",
+  "name": "Instruction Status Search 5",
+  "definition": "Defines the criteria which are used to search for the status of the payment.",
+  "isoElements": {
+    "PaymentInstructionStatus": {
+      "name": "Payment Instruction Status",
+      "definition": "Status of a transfer."
+    },
+    "PaymentInstructionStatusDateTime": {
+      "name": "Payment Instruction Status Date Time",
+      "definition": "Date and time at which the status was assigned to the transfer."
+    },
+    "ProprietaryStatusReason": {
+      "name": "Proprietary Status Reason",
+      "definition": "Defines the reason that has been used by the system to reject the transaction."
+    }
+  }
+}

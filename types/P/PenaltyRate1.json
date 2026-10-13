@@ -1,0 +1,20 @@
+{
+  "isoType": "PenaltyRate1",
+  "language": "en",
+  "name": "Penalty Rate 1",
+  "definition": "Specifies the penalty rate data if the securities is subject to penalties.",
+  "isoElements": {
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Place of trade of the related transaction."
+    },
+    "SMEGrowthMarket": {
+      "name": "SME Growth Market",
+      "definition": "Binary classification whether the security was traded in a SME Growth Market or not.||Usage: If not provided, the indicator is not relevant for the calculation of the penalty."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Penalty rate applicable for the asset type."
+    }
+  }
+}

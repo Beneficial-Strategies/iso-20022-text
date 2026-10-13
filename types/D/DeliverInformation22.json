@@ -1,0 +1,92 @@
+{
+  "isoType": "DeliverInformation22",
+  "language": "en",
+  "name": "Deliver Information 22",
+  "definition": "Parameters applied to the settlement of a security transfer.",
+  "isoElements": {
+    "Transferor": {
+      "name": "Transferor",
+      "definition": "Party that delivers (transferor) securities to the receiving agent (transferee)."
+    },
+    "TransferorRegisteredAccount": {
+      "name": "Transferor Registered Account",
+      "definition": "Account from which the securities are to be delivered."
+    },
+    "IntermediaryInformation": {
+      "name": "Intermediary Information",
+      "definition": "Identification of a related party or intermediary."
+    },
+    "SecuritiesForm": {
+      "name": "Securities Form",
+      "definition": "Form, that is, ownership, of the security, that is, registered or bearer."
+    },
+    "DematerialisedIndicator": {
+      "name": "Dematerialised Indicator",
+      "definition": "Indicates whether a security exists only as an electronic record, that is, there is no physical document representing the security."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "name": "Beneficiary Certification Completion",
+      "definition": "Beneficial owner or its designated agent certifies that it complies with any holding or investment restrictions or requirements of the fund."
+    },
+    "RequestedTradeDate": {
+      "name": "Requested Trade Date",
+      "definition": "Date to be used as the trade date when securities are settled through an International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date and time at which the securities are to be exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid/to be paid or received in exchange for the financial instrument."
+    },
+    "StampDuty": {
+      "name": "Stamp Duty",
+      "definition": "Specifies if the settlement amount includes the stamp duty amount."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Deal amount."
+    },
+    "Fees": {
+      "name": "Fees",
+      "definition": "Fee related to the transfer of the financial instrument."
+    },
+    "IndividualTax": {
+      "name": "Individual Tax",
+      "definition": "Tax related to the transfer of the financial instrument."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion.|How the exchange rate is expressed determines which currency is the Unit Currency and Quoted Currency. If the amounts concerned are EUR 1000 and USD 1300, the exchange rate may be expressed as per either of the following examples:|EXAMPLE 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EXAMPLE 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769."
+    },
+    "SettlementPartiesDetails": {
+      "name": "Settlement Parties Details",
+      "definition": "Chain of parties involved in the settlement of a transaction."
+    },
+    "PhysicalTransfer": {
+      "name": "Physical Transfer",
+      "definition": "Indicates whether the financial instrument is to be physically delivered."
+    },
+    "PhysicalTransferDetails": {
+      "name": "Physical Transfer Details",
+      "definition": "Parameters of a physical delivery."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    }
+  },
+  "isoRules": {
+    "PhysicalTransferDetails1Rule": {
+      "definition": "If PhysicalTransfer is PHYS (Physical), then PhysicalTransferDetails must be present."
+    },
+    "PhysicalTransferDetails2Rule": {
+      "definition": "If PhysicalTransfer is DEMT (Dematerialised), then PhysicalTransferDetails is not allowed."
+    }
+  }
+}

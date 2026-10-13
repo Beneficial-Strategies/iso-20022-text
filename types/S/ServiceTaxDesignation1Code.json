@@ -1,0 +1,23 @@
+{
+  "isoType": "ServiceTaxDesignation1Code",
+  "language": "en",
+  "name": "Service Tax Designation 1 Code",
+  "definition": "Defines the taxable status of the service.",
+  "isoCodes": {
+    "XMPT": {
+      "isoName": "Exempt",
+      "name": "Exempt",
+      "definition": "No taxes are due."
+    },
+    "ZERO": {
+      "isoName": "ZeroRate",
+      "name": "Zero Rate",
+      "definition": "Tax is due but at zero percent and a zero charge."
+    },
+    "TAXE": {
+      "isoName": "Taxable",
+      "name": "Taxable",
+      "definition": "One or more taxes are due on this service."
+    }
+  }
+}

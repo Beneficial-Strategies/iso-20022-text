@@ -1,0 +1,21 @@
+{
+  "isoType": "IntraBalancePending5",
+  "language": "en",
+  "name": "Intra Balance Pending 5",
+  "definition": "Provides the data for the pending intra-balance movements.",
+  "isoElements": {
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Movement": {
+      "name": "Movement",
+      "definition": "Further details on the individual intrabalance movement transaction."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason must be present or Movement(*)/StatusAndReason must be present, but not both."
+    }
+  }
+}

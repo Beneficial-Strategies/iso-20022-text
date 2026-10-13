@@ -1,0 +1,28 @@
+{
+  "isoType": "AlternateSecurityIdentification3",
+  "language": "en",
+  "name": "Alternate Security Identification 3",
+  "definition": "Proprietary or domestic identification scheme that uniquely identifies a security.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of a security."
+    },
+    "DomesticIdentificationSource": {
+      "name": "Domestic Identification Source",
+      "definition": "Country of the proprietary identification scheme."
+    },
+    "ProprietaryIdentificationSource": {
+      "name": "Proprietary Identification Source",
+      "definition": "Entity that issues the proprietary identification."
+    }
+  },
+  "isoRules": {
+    "DomesticOrProprietaryIdentificationSourceRule": {
+      "definition": "Either DomesticIdentificationSource or ProprietaryIdentificationSource must be present, but not both."
+    },
+    "DomesticOrProprietaryIdentificationSourceRuleNotBoth": {
+      "definition": "Either DomesticIdentificationSource or ProprietaryIdentificationSource must be present, but not both."
+    }
+  }
+}

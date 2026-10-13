@@ -1,0 +1,40 @@
+{
+  "isoType": "BalanceAdjustment1",
+  "language": "en",
+  "name": "Balance Adjustment 1",
+  "definition": "Specifies the balance adjustments for a specific service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type of adjustment."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free-form description and clarification of the adjustment."
+    },
+    "BalanceAmount": {
+      "name": "Balance Amount",
+      "definition": "Amount of the adjustment. If the amount would reduce the underlying balance then the amount should be negatively signed. Expressed in the Account currency."
+    },
+    "AverageAmount": {
+      "name": "Average Amount",
+      "definition": "Day-weighted net amount of the adjustment to the average collected balance over the statement period."
+    },
+    "ErrorDate": {
+      "name": "Error Date",
+      "definition": "Date on which the error occurred in the underlying cash account."
+    },
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Date on which the error was corrected in the cash account. If the date is not know then use the last day of the month in which the error was corrected."
+    },
+    "Days": {
+      "name": "Days",
+      "definition": "Number of days within the period to which the adjustment applies."
+    },
+    "EarningsAdjustmentAmount": {
+      "name": "Earnings Adjustment Amount",
+      "definition": "Earnings credit adjustment, debit or credit, resulting from this adjustment’s effect on the average collected balance. If the amount would reduce the credit due then the amount should be negatively signed."
+    }
+  }
+}

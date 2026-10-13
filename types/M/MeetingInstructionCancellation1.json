@@ -1,0 +1,16 @@
+{
+  "isoType": "MeetingInstructionCancellation1",
+  "language": "en",
+  "name": "Meeting Instruction Cancellation 1",
+  "definition": "Identification of the cancellation request message requesting cancellation of individual instruction(s).",
+  "isoElements": {
+    "MeetingInstructionCancellationRequestIdentification": {
+      "name": "Meeting Instruction Cancellation Request Identification",
+      "definition": "Identification of the meeting instruction cancellation request message containing the individual instruction(s) for which the cancellation was requested."
+    },
+    "SingleInstructionIdentification": {
+      "name": "Single Instruction Identification",
+      "definition": "Identification of the individual instruction for which the cancellation was requested."
+    }
+  }
+}

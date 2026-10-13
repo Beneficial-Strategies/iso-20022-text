@@ -1,0 +1,64 @@
+{
+  "isoType": "CashWithdrawalRequest1",
+  "language": "en",
+  "name": "Cash Withdrawal Request 1",
+  "definition": "Specifies the details of a cash withdrawal request.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique identification for the order."
+    },
+    "CashReceiverReference": {
+      "name": "Cash Receiver Reference",
+      "definition": "Unique identification, as assigned by the cash receiver for the cash withdrawal."
+    },
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicates whether this message is amending an earlier request message.||Where the value Yes is indicated the OrderReference and CashReceiverReference must remain the same as the original message.||Where this element is not used the message is not considered an amendment."
+    },
+    "RequestedValueDate": {
+      "name": "Requested Value Date",
+      "definition": "Date on which the cash receiver requests the cash to be withdrawn from the account."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account to which cash will be withdrawn."
+    },
+    "CashWithdrawal": {
+      "name": "Cash Withdrawal",
+      "definition": "Provides the details of a cash withdrawal for an amount of money in cash notes and/or coins."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies the delivery method for the cash withdrawal."
+    },
+    "DeliveryAddress": {
+      "name": "Delivery Address",
+      "definition": "Specifies the address to which the cash withdrawal is delivered to."
+    },
+    "WithdrawalContact": {
+      "name": "Withdrawal Contact",
+      "definition": "Party that is collecting the withdrawn cash."
+    },
+    "SecureCarrierName": {
+      "name": "Secure Carrier Name",
+      "definition": "Identification of the secure carrier."
+    },
+    "SecureCarrierReference": {
+      "name": "Secure Carrier Reference",
+      "definition": "Unique identification, as assigned by the secure carrier for the withdrawal."
+    },
+    "InsuranceIndicator": {
+      "name": "Insurance Indicator",
+      "definition": "Indicates whether the withdrawal in transit is insured.||Where this element is not used the withdrawal is not insured."
+    },
+    "WithdrawalAddress": {
+      "name": "Withdrawal Address",
+      "definition": "Specifies the address where the cash withdrawal is sent from."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details of the cash withdrawal."
+    }
+  }
+}

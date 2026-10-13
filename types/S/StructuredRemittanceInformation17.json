@@ -1,0 +1,40 @@
+{
+  "isoType": "StructuredRemittanceInformation17",
+  "language": "en",
+  "name": "Structured Remittance Information 17",
+  "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in a structured form.",
+  "isoElements": {
+    "ReferredDocumentInformation": {
+      "name": "Referred Document Information",
+      "definition": "Provides the identification and the content of the referred document."
+    },
+    "ReferredDocumentAmount": {
+      "name": "Referred Document Amount",
+      "definition": "Provides details on the amounts of the referred document."
+    },
+    "CreditorReferenceInformation": {
+      "name": "Creditor Reference Information",
+      "definition": "Reference information provided by the creditor to allow the identification of the underlying documents."
+    },
+    "Invoicer": {
+      "name": "Invoicer",
+      "definition": "Identification of the organisation issuing the invoice, when it is different from the creditor or ultimate creditor."
+    },
+    "Invoicee": {
+      "name": "Invoicee",
+      "definition": "Identification of the party to whom an invoice is issued, when it is different from the debtor or ultimate debtor."
+    },
+    "TaxRemittance": {
+      "name": "Tax Remittance",
+      "definition": "Provides remittance information about a payment made for tax-related purposes."
+    },
+    "GarnishmentRemittance": {
+      "name": "Garnishment Remittance",
+      "definition": "Provides remittance information about a payment for garnishment-related purposes."
+    },
+    "AdditionalRemittanceInformation": {
+      "name": "Additional Remittance Information",
+      "definition": "Additional information, in free text form, to complement the structured remittance information."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "isoType": "PartyProfileInformation5",
+  "language": "en",
+  "name": "Party Profile Information 5",
+  "definition": "Information to support the Know Your Customer (KYC) processes.",
+  "isoElements": {
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Indicates whether the certificate type has been obtained and verified."
+    },
+    "ValidatingParty": {
+      "name": "Validating Party",
+      "definition": "Identification of the person who validated the document."
+    },
+    "CheckingParty": {
+      "name": "Checking Party",
+      "definition": "Identification of the person who checked the document."
+    },
+    "ResponsibleParty": {
+      "name": "Responsible Party",
+      "definition": "Identification of the person who is responsible for the document."
+    },
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Type of certificate."
+    },
+    "CheckingDate": {
+      "name": "Checking Date",
+      "definition": "Date at which the certification check has been performed."
+    },
+    "CheckingFrequency": {
+      "name": "Checking Frequency",
+      "definition": "Specifies how frequently the check is performed."
+    },
+    "NextRevisionDate": {
+      "name": "Next Revision Date",
+      "definition": "Specifies the date at which the next certification check will be performed."
+    },
+    "SalaryRange": {
+      "name": "Salary Range",
+      "definition": "Limits between which a person's salary is estimated."
+    },
+    "SourceOfWealth": {
+      "name": "Source Of Wealth",
+      "definition": "Indicates the main source of revenue."
+    },
+    "CustomerConductClassification": {
+      "name": "Customer Conduct Classification",
+      "definition": "Specifies an assessment of the customer’s behaviour at the time of the account opening application."
+    },
+    "RiskLevel": {
+      "name": "Risk Level",
+      "definition": "Specifies the customer’s money laundering risk."
+    },
+    "KnowYourCustomerCheckType": {
+      "name": "Know Your Customer Check Type",
+      "definition": "Specifies the type of due diligence checks carried out on the investor or account owner. For definitions of ordinary, simple and enhanced know your customer checks, local market regulations should be consulted."
+    },
+    "KnowYourCustomerDatabaseCheck": {
+      "name": "Know Your Customer Database Check",
+      "definition": "Specifies whether a customer has been checked in a Know Your Customer (KYC) database."
+    }
+  }
+}

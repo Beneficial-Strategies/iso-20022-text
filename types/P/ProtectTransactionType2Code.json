@@ -1,0 +1,23 @@
+{
+  "isoType": "ProtectTransactionType2Code",
+  "language": "en",
+  "name": "Protect Transaction Type 2 Code",
+  "definition": "Specifies the type of protect instruction.",
+  "isoCodes": {
+    "PROT": {
+      "isoName": "ProtectTransaction",
+      "name": "Protect Transaction",
+      "definition": "Reorganisation is a protect transaction type."
+    },
+    "COVP": {
+      "isoName": "CoverOnBehalfOfAnotherParticipantTransaction",
+      "name": "Cover On Behalf Of Another Participant Transaction",
+      "definition": "Reorganisation is a cover on behalf of another participant transaction type."
+    },
+    "COVR": {
+      "isoName": "CoverProtectTransaction",
+      "name": "Cover Protect Transaction",
+      "definition": "Reorganisation is a cover protect transaction type."
+    }
+  }
+}

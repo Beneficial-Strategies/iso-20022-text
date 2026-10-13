@@ -1,0 +1,43 @@
+{
+  "isoType": "TradingCapacity6Code",
+  "language": "en",
+  "name": "Trading Capacity 6 Code",
+  "definition": "Specifies the role of a trading party in a transaction.",
+  "isoCodes": {
+    "AGEN": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Trading as Agent on behalf of a customer."
+    },
+    "BAGN": {
+      "isoName": "ActingAgent",
+      "name": "Acting Agent",
+      "definition": "Party acting as an agent for both customer and another person."
+    },
+    "CAGN": {
+      "isoName": "CrossingAgent",
+      "name": "Crossing Agent",
+      "definition": "Crossing as an agent."
+    },
+    "CPRN": {
+      "isoName": "CrossingPrincipal",
+      "name": "Crossing Principal",
+      "definition": "Crossing as a principal."
+    },
+    "OAGN": {
+      "isoName": "OtherAgent",
+      "name": "Other Agent",
+      "definition": "Acting as an agent for a party other than a customer."
+    },
+    "PRAG": {
+      "isoName": "PrincipalAgent",
+      "name": "Principal Agent",
+      "definition": "Acting as an agent for some executions and principal for others in the same transaction."
+    },
+    "PRIN": {
+      "isoName": "Principal",
+      "name": "Principal",
+      "definition": "Trading as Principal."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "isoType": "FinancialInstrumentAttributes128",
+  "language": "en",
+  "name": "Financial Instrument Attributes 128",
+  "definition": "Description of the financial instrument.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identifies the financial instrument."
+    },
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Place where the referenced financial instrument is listed."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies the computation method of (accrued) interest of the financial instrument."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI)."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a financial instrument is currently denominated."
+    },
+    "NextCouponDate": {
+      "name": "Next Coupon Date",
+      "definition": "Next payment date of an interest bearing financial instrument."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which an order expires or at which a privilege or offer terminates."
+    },
+    "FloatingRateFixingDate": {
+      "name": "Floating Rate Fixing Date",
+      "definition": "Date on which the interest rate or redemption price will be/was calculated according to the terms of the issue."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date on which a financial instrument becomes due and assets are to be repaid."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date on which the financial instrument is issued."
+    },
+    "NextCallableDate": {
+      "name": "Next Callable Date",
+      "definition": "Date on which a financial instrument is called away/redeemed before its scheduled maturity."
+    },
+    "PutableDate": {
+      "name": "Putable Date",
+      "definition": "Date on which a holder of a financial instrument has the right to request redemption of the principal amount prior to its scheduled maturity date."
+    },
+    "DatedDate": {
+      "name": "Dated Date",
+      "definition": "Date on which an interest bearing financial instrument begins to accrue interest."
+    },
+    "ConversionDate": {
+      "name": "Conversion Date",
+      "definition": "Deadline by which a convertible security must be converted, according to the terms of the issue."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Annualised interest rate of a financial instrument used to calculate the actual interest rate of the coupon or the accrued interest."
+    },
+    "NextInterestRate": {
+      "name": "Next Interest Rate",
+      "definition": "Interest rate applicable to the next interest payment period in relation to variable rate instruments."
+    },
+    "PercentageOfDebtClaim": {
+      "name": "Percentage Of Debt Claim",
+      "definition": "Percentage of the underlying assets of a fund that represents a debt, for example, in the context of the EU Savings directive."
+    },
+    "PreviousFactor": {
+      "name": "Previous Factor",
+      "definition": "Factor used to calculate the value of the outstanding principal of the financial instrument (for factored securities) until the next redemption (factor) date."
+    },
+    "NextFactor": {
+      "name": "Next Factor",
+      "definition": "Factor used to calculate the value of the outstanding principal of the financial instrument (for factored securities) that will applicable after the redemption (factor) date."
+    },
+    "WarrantParity": {
+      "name": "Warrant Parity",
+      "definition": "Provides the ratio between the quantity of warrants and the quantity of underlying securities."
+    },
+    "MinimumNominalQuantity": {
+      "name": "Minimum Nominal Quantity",
+      "definition": "Minimum nominal quantity of financial instrument."
+    },
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a financial instrument quantity."
+    }
+  },
+  "isoRules": {
+    "PreviousNextFactorRule": {
+      "definition": "In case of partial redemption by pool factor, PreviousFactor provides the factor applicable before redemption and NextFactor provides the factor applicable after redemption."
+    },
+    "MaturityDateRule": {
+      "definition": "Maturity date may only provide generic information about the final maturity of the underlying instrument."
+    }
+  }
+}

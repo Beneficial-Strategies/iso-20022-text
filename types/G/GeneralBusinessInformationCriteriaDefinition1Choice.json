@@ -1,0 +1,16 @@
+{
+  "isoType": "GeneralBusinessInformationCriteriaDefinition1Choice",
+  "language": "en",
+  "name": "General Business Information Criteria Definition 1 Choice",
+  "definition": "Defines the information that is searched either implicitly by recalling a previous query or explicitly by defining the criteria.",
+  "isoElements": {
+    "QueryName": {
+      "name": "Query Name",
+      "definition": "Recalls the criteria (search and return criteria) defined in a preceding query."
+    },
+    "NewCriteria": {
+      "name": "New Criteria",
+      "definition": "Defines the criteria based on which the information is extracted."
+    }
+  }
+}

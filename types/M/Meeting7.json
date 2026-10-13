@@ -1,0 +1,37 @@
+{
+  "isoType": "Meeting7",
+  "language": "en",
+  "name": "Meeting 7",
+  "definition": "Information about the date and location(s) of a general meeting.",
+  "isoElements": {
+    "DateAndTime": {
+      "name": "Date And Time",
+      "definition": "Date and time at which the meeting will take place."
+    },
+    "DateStatus": {
+      "name": "Date Status",
+      "definition": "Status of the meeting date."
+    },
+    "QuorumRequired": {
+      "name": "Quorum Required",
+      "definition": "Indicates whether a minimum number of security representation is required to hold a meeting."
+    },
+    "Location": {
+      "name": "Location",
+      "definition": "Location at which the meeting will take place."
+    },
+    "QuorumQuantity": {
+      "name": "Quorum Quantity",
+      "definition": "Minimum quantity of securities required to hold a meeting."
+    },
+    "URLAddress": {
+      "name": "URL Address",
+      "definition": "Address for the Universal Resource Locator (URL), for example, used over the www (HTTP) service."
+    }
+  },
+  "isoRules": {
+    "DateStatus1Rule": {
+      "definition": "If DateAndTime/DateCode is \"UKWN\" (Unknown), then DateStatus must not be present."
+    }
+  }
+}

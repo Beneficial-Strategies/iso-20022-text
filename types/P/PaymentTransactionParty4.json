@@ -1,0 +1,60 @@
+{
+  "isoType": "PaymentTransactionParty4",
+  "language": "en",
+  "name": "Payment Transaction Party 4",
+  "definition": "Defines the party fields used to search for a payment.",
+  "isoElements": {
+    "InstructingAgent": {
+      "name": "Instructing Agent",
+      "definition": "Agent that instructs the next party in the chain to carry out the (set of) instruction(s)."
+    },
+    "InstructedAgent": {
+      "name": "Instructed Agent",
+      "definition": "Agent that is instructed by the previous party in the chain to carry out the (set of) instruction(s)."
+    },
+    "UltimateDebtor": {
+      "name": "Ultimate Debtor",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes assets to the creditor, such as a result of receipt of goods or services, gifts, or charity payments. The debtor may also be the debit account owner."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution that receives the payment transaction from the account owner, or other authorised party, and processes the instruction."
+    },
+    "InstructingReimbursementAgent": {
+      "name": "Instructing Reimbursement Agent",
+      "definition": "Specifies the agent through which the instructing agent will reimburse the instructed agent."
+    },
+    "InstructedReimbursementAgent": {
+      "name": "Instructed Reimbursement Agent",
+      "definition": "Agent at which the instructed agent will be reimbursed."
+    },
+    "IntermediaryAgent1": {
+      "name": "Intermediary Agent 1",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than one intermediary agent is present, then IntermediaryAgent1 identifies the agent between the DebtorAgent and the IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "name": "Intermediary Agent 2",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than two intermediary agents are present, then IntermediaryAgent2 identifies the agent between the IntermediaryAgent1 and the IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "name": "Intermediary Agent 3",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If IntermediaryAgent3 is present, then it identifies the agent between the IntermediaryAgent 2 and the CreditorAgent."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution that receives the payment transaction on behalf of an account owner, or other nominated party, and credits the account."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party that receives an amount of money from the debtor. In the context of the payment model, the creditor is also the credit account owner."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    }
+  }
+}

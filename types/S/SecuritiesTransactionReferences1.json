@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesTransactionReferences1",
+  "language": "en",
+  "name": "Securities Transaction References 1",
+  "definition": "Identifies the underlying securities transaction.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the securities transaction as known by the securities account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the securities transaction as known by the securities account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a securities transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Identification of the securities transaction assigned by the processor of the instruction other than the securities account owner, the securities account servicer and the market infrastructure."
+    }
+  }
+}

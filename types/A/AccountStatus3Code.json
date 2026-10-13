@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountStatus3Code",
+  "language": "en",
+  "name": "Account Status 3 Code",
+  "definition": "Qualifies further the current state of an account.",
+  "isoCodes": {
+    "ENAB": {
+      "isoName": "Enabled",
+      "name": "Enabled",
+      "definition": "Account can be used for its intended purpose."
+    },
+    "DISA": {
+      "isoName": "Disabled",
+      "name": "Disabled",
+      "definition": "Account cannot be used for its intended purpose, either temporarily or permanently."
+    },
+    "DELE": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Account cannot be used any longer."
+    },
+    "FORM": {
+      "isoName": "ProForma",
+      "name": "Pro Forma",
+      "definition": "Account is temporary and can be partially used for its intended purpose. The account will be fully available for use when the account servicer has received all relevant documents."
+    }
+  }
+}

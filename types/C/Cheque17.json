@@ -1,0 +1,60 @@
+{
+  "isoType": "Cheque17",
+  "language": "en",
+  "name": "Cheque 17",
+  "definition": "Characteristics of a cheque instruction, such as cheque type or cheque number.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": "Unique identification, as assigned by an instructing party for an instructed party, to unambiguously identify the instruction. ||Usage: The instruction identification is a point to point reference that can be used between the instructing party and the instructed party to refer to the individual instruction. It can be included in several messages related to the instruction."
+    },
+    "ChequeNumber": {
+      "name": "Cheque Number",
+      "definition": "Unique and unambiguous identifier for a cheque as assigned by the agent."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date when the cheque has been issued by the payer."
+    },
+    "StaleDate": {
+      "name": "Stale Date",
+      "definition": "Date after which a cheque is no longer valid. The validity period of a cheque is calculated from the issue date on the face of the cheque.  The period may be indicated on the face of the cheque itself such as \"Valid for 90 days” or may be determined in accordance with domestic banking practice. |Not all countries will have a validity period."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies the amount of the cheque to be paid to the payee."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the cheque amount becomes available on the payee account."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "Party that issues a cheque ordering the drawee agent to pay a specific amount, upon demand, to the payee."
+    },
+    "PayerAccount": {
+      "name": "Payer Account",
+      "definition": "Specifies the cash account of the payer."
+    },
+    "DrawerAgent": {
+      "name": "Drawer Agent",
+      "definition": "Specifies the agent servicing the account of the cheque payer."
+    },
+    "DrawerAgentAccount": {
+      "name": "Drawer Agent Account",
+      "definition": "Specifies the cash account of the drawer agent."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "Party that receives an amount of money as specified in the cheque."
+    },
+    "PayeeAccount": {
+      "name": "Payee Account",
+      "definition": "Specifies the cash account of the payee."
+    },
+    "InstructionForChequeAgent": {
+      "name": "Instruction For Cheque Agent",
+      "definition": "Further information related to the processing of the cheque instruction that may need to be acted upon by the agent processing the cheque."
+    }
+  }
+}

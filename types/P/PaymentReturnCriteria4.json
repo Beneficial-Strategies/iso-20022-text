@@ -1,0 +1,104 @@
+{
+  "isoType": "PaymentReturnCriteria4",
+  "language": "en",
+  "name": "Payment Return Criteria 4",
+  "definition": "Defines the criteria used to report on the payment.",
+  "isoElements": {
+    "MessageIdentificationIndicator": {
+      "name": "Message Identification Indicator",
+      "definition": "Indicates whether the original payment transaction message identification is requested.|Usage: this is the former TransactionReference."
+    },
+    "RequestedExecutionDateIndicator": {
+      "name": "Requested Execution Date Indicator",
+      "definition": "Indicates whether the requested execution date is requested.|Usage: this is the former TransferValueDate."
+    },
+    "InstructionIndicator": {
+      "name": "Instruction Indicator",
+      "definition": "Indicates whether the instruction is requested."
+    },
+    "InstructionStatusReturnCriteria": {
+      "name": "Instruction Status Return Criteria",
+      "definition": "Indicates whether the instruction status is requested."
+    },
+    "InstructedAmountIndicator": {
+      "name": "Instructed Amount Indicator",
+      "definition": "Indicates whether the instructed amount is requested."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the credit debit indicator is requested."
+    },
+    "InterbankSettlementAmountIndicator": {
+      "name": "Interbank Settlement Amount Indicator",
+      "definition": "Indicates whether the interbank settlement amount is requested."
+    },
+    "PriorityIndicator": {
+      "name": "Priority Indicator",
+      "definition": "Indicates whether the payment priority is requested."
+    },
+    "ProcessingValidityTimeIndicator": {
+      "name": "Processing Validity Time Indicator",
+      "definition": "Indicates whether the processing validity time is requested."
+    },
+    "PurposeIndicator": {
+      "name": "Purpose Indicator",
+      "definition": "Indicates whether the transfer reason is requested."
+    },
+    "InstructionCopyIndicator": {
+      "name": "Instruction Copy Indicator",
+      "definition": "Indicates whether the instruction copy is requested."
+    },
+    "PaymentMessageTypeIndicator": {
+      "name": "Payment Message Type Indicator",
+      "definition": "Indicates whether the payment message type is requested."
+    },
+    "PaymentTypeIndicator": {
+      "name": "Payment Type Indicator",
+      "definition": "Indicates whether the payment type is requested."
+    },
+    "TransactionIdentificationIndicator": {
+      "name": "Transaction Identification Indicator",
+      "definition": "Indicates whether the transaction identification is requested.|Usage: this is the former PaymentInstructionReference."
+    },
+    "InterbankSettlementDateIndicator": {
+      "name": "Interbank Settlement Date Indicator",
+      "definition": "Indicates whether the interbank settlement date is requested.|Usage: this is the former InterbankValueDate."
+    },
+    "EndToEndIdentificationIndicator": {
+      "name": "End To End Identification Indicator",
+      "definition": "Indicates whether the end-to-end identification is requested.|Usage: this is the former RelatedReference."
+    },
+    "PaymentMethodIndicator": {
+      "name": "Payment Method Indicator",
+      "definition": "Indicates whether the payment method is requested."
+    },
+    "DebtorIndicator": {
+      "name": "Debtor Indicator",
+      "definition": "Indicates whether the debtor is requested."
+    },
+    "DebtorAgentIndicator": {
+      "name": "Debtor Agent Indicator",
+      "definition": "Indicates whether the debtor agent is requested.|Usage: this is the former FirstAgent."
+    },
+    "InstructingReimbursementAgentIndicator": {
+      "name": "Instructing Reimbursement Agent Indicator",
+      "definition": "Indicates whether the instructing reimbursement agent is requested.|Usage: this is the former InstructingAgentCorrespondent."
+    },
+    "InstructedReimbursementAgentIndicator": {
+      "name": "Instructed Reimbursement Agent Indicator",
+      "definition": "Indicates whether the instructed reimbursement agent is requested.|Usage: this is the former InstructedAgentCorrespondent."
+    },
+    "IntermediaryIndicator": {
+      "name": "Intermediary Indicator",
+      "definition": "Indicates whether the intermediary is requested."
+    },
+    "CreditorAgentIndicator": {
+      "name": "Creditor Agent Indicator",
+      "definition": "Indicates whether the creditor agent is requested.|Usage: this is the former FinalAgent."
+    },
+    "CreditorIndicator": {
+      "name": "Creditor Indicator",
+      "definition": "Indicates whether the creditor is requested."
+    }
+  }
+}

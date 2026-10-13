@@ -1,0 +1,48 @@
+{
+  "isoType": "RejectionReason55Code",
+  "language": "en",
+  "name": "Rejection Reason 55 Code",
+  "definition": "Specifies the reason the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "BENO": {
+      "isoName": "BeneficialOwnershipDisagreement",
+      "name": "Beneficial Ownership Disagreement",
+      "definition": "Disagreement in beneficial ownership."
+    },
+    "CAEV": {
+      "isoName": "CorporateActionRejection",
+      "name": "Corporate Action Rejection",
+      "definition": "Corporate action pending on the financial instrument instructed."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "PODU": {
+      "isoName": "PossibleDuplicate",
+      "name": "Possible Duplicate",
+      "definition": "Instruction has not been matched. It is a possible duplicate instruction."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "SSID": {
+      "isoName": "StandingSettlementInstructionRejection",
+      "name": "Standing Settlement Instruction Rejection",
+      "definition": "Standing Settlement Instruction is unknown or invalid."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    }
+  }
+}

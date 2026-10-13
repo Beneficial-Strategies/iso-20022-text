@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionEventStatus2Code",
+  "language": "en",
+  "name": "Corporate Action Event Status 2 Code",
+  "definition": "Specifies the status of the CA option.",
+  "isoCodes": {
+    "ACTI": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "The CA event is active."
+    },
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "The CA event is cancelled."
+    },
+    "INAC": {
+      "isoName": "Inactive",
+      "name": "Inactive",
+      "definition": "Option is not active and can no longer be responded to. Any responses already processed against this option will remain valid, eg, expired option."
+    }
+  }
+}

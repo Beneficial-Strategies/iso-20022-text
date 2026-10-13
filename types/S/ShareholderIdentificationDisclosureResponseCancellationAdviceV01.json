@@ -1,0 +1,24 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseCancellationAdviceV01",
+  "language": "en",
+  "name": "Shareholder Identification Disclosure Response Cancellation Advice V 01",
+  "definition": "The ShareholdersIdentificationDisclosureResponseCancellationAdvice message is sent by any intermediaries to the recipient designated by the issuer (such as an issuer's agent) in the disclosure request message in order to cancel the shareholder identification disclosure response whether previously sent in a single message or in a set of multipart/paginated response messages.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "name": "Disclosure Response Identification",
+      "definition": "Unique identification of the disclosure response for which a cancellation advice is sent.|The same disclosure response identification number is to be used when cancelling a response which is split in multiple messages."
+    },
+    "IssuerDisclosureRequestReference": {
+      "name": "Issuer Disclosure Request Reference",
+      "definition": ""
+    },
+    "RespondingIntermediary": {
+      "name": "Responding Intermediary",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

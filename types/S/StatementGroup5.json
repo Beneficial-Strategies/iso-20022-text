@@ -1,0 +1,32 @@
+{
+  "isoType": "StatementGroup5",
+  "language": "en",
+  "name": "Statement Group 5",
+  "definition": "Group of the statement header reporting the bank services billing and the billing statement.",
+  "isoElements": {
+    "GroupIdentification": {
+      "name": "Group Identification",
+      "definition": "Identification of a group of customer billing statements."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Originating financial institution sending the statement."
+    },
+    "SenderIndividualContact": {
+      "name": "Sender Individual Contact",
+      "definition": "Specifies the individual to contact in case of technical problems at the sender's location."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Financial institution customer receiving the statement."
+    },
+    "ReceiverIndividualContact": {
+      "name": "Receiver Individual Contact",
+      "definition": "Specifies the individual to contact in case of technical problems at the receiver's location."
+    },
+    "BillingStatement": {
+      "name": "Billing Statement",
+      "definition": "Provides the bank services billing statement recounting of all service chargeable events that occurred during a reporting cycle, such as the end of the month reporting."
+    }
+  }
+}

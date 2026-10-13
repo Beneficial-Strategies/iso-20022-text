@@ -1,0 +1,72 @@
+{
+  "isoType": "AccountStatement15",
+  "language": "en",
+  "name": "Account Statement 15",
+  "definition": "Provides further details of the account statement.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification, as assigned by the account servicer, to unambiguously identify the account statement."
+    },
+    "StatementPagination": {
+      "name": "Statement Pagination",
+      "definition": "Provides details on the page number of the statement.||Usage: The pagination of the statement is only allowed when agreed between the parties."
+    },
+    "ElectronicSequenceNumber": {
+      "name": "Electronic Sequence Number",
+      "definition": "Sequential number of the statement, as assigned by the account servicer.|Usage: The sequential number is increased incrementally for each statement sent electronically."
+    },
+    "ReportingSequence": {
+      "name": "Reporting Sequence",
+      "definition": "Specifies the range of identification sequence numbers, as provided in the request."
+    },
+    "LegalSequenceNumber": {
+      "name": "Legal Sequence Number",
+      "definition": "Legal sequential number of the statement, as assigned by the account servicer. It is increased incrementally for each statement sent.||Usage: Where a paper statement is a legal requirement, it may have a number different from the electronic sequential number. Paper statements could for instance only be sent if movement on the account has taken place, whereas electronic statements could be sent at the end of each reporting period, regardless of whether movements have taken place or not."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the statement was created."
+    },
+    "FromToDate": {
+      "name": "From To Date",
+      "definition": "Range of time between a start date and an end date for which the account statement is issued."
+    },
+    "CopyDuplicateIndicator": {
+      "name": "Copy Duplicate Indicator",
+      "definition": "Indicates whether the document is a copy, a duplicate, or a duplicate of a copy."
+    },
+    "ReportingSource": {
+      "name": "Reporting Source",
+      "definition": "Specifies the application used to generate the reporting."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account to which credit and debit entries are made."
+    },
+    "RelatedAccount": {
+      "name": "Related Account",
+      "definition": "Identifies the parent account of the account for which the statement has been issued."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Provides general interest information that applies to the account at a particular moment in time."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Set of elements used to define the balance as a numerical representation of the net increases and decreases in an account at a specific point in time."
+    },
+    "TransactionsSummary": {
+      "name": "Transactions Summary",
+      "definition": "Provides summary information on entries."
+    },
+    "Entry": {
+      "name": "Entry",
+      "definition": "Specify an entry in the statement.|Usage: At least one reference must be provided to identify the entry and its underlying transaction(s).|||Usage Rule: In case of a Payments R-transaction the creditor / debtor referenced of the original payment initiation messages is also used for reporting of the R-transaction. The original debtor/creditor in the reporting of R-Transactions is not inverted. |Following elements all defined in the TransactionDetails in RelatedParties or RelatedAgents are impacted by this usage rule:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount and DebtorAgent."
+    },
+    "AdditionalStatementInformation": {
+      "name": "Additional Statement Information",
+      "definition": "Further details of the account statement."
+    }
+  }
+}

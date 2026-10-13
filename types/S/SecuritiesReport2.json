@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesReport2",
+  "language": "en",
+  "name": "Securities Report 2",
+  "definition": "Characteristics of the report.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Reference common to all pages of a report."
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "QueryType": {
+      "name": "Query Type",
+      "definition": "Defines the type of query."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "If Long number (Exact5NumericText) is used, then the report must be a delta reports (UpdateType: DELT).|If the report has multiple pages, then the ReportIdentification must remain the same through all the pages. It is a unique number to the report.|Two reports of the same type sent one after the other to the same receiver in relation to the same safekeeping account must have different report identifications. For example, a daily report sent on day 1 would have ReportIdentification 001, on day 2, 002, etc."
+    }
+  }
+}

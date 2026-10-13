@@ -1,0 +1,76 @@
+{
+  "isoType": "StandingOrderReturnCriteria1",
+  "language": "en",
+  "name": "Standing Order Return Criteria 1",
+  "definition": "Defines the criteria used to report on standing orders.",
+  "isoElements": {
+    "StandingOrderIdentificationIndicator": {
+      "name": "Standing Order Identification Indicator",
+      "definition": "Defines the criteria used to report on a multilateral balance."
+    },
+    "TypeIndicator": {
+      "name": "Type Indicator",
+      "definition": "Indicates whether the standing order type is requested."
+    },
+    "SystemMemberIndicator": {
+      "name": "System Member Indicator",
+      "definition": "Indicates whether the system member identification is requested."
+    },
+    "ResponsiblePartyIndicator": {
+      "name": "Responsible Party Indicator",
+      "definition": "Indicates whether the responsible party identification is requested."
+    },
+    "CurrencyIndicator": {
+      "name": "Currency Indicator",
+      "definition": "Indicates whether the account currency is requested."
+    },
+    "DebtorAccountIndicator": {
+      "name": "Debtor Account Indicator",
+      "definition": "Indicates whether the account type is requested."
+    },
+    "CreditorAccountIndicator": {
+      "name": "Creditor Account Indicator",
+      "definition": "Indicates whether the multilateral limit is requested."
+    },
+    "AssociatedPoolAccount": {
+      "name": "Associated Pool Account",
+      "definition": "Indicates whether the associated pool account is requested."
+    },
+    "FrequencyIndicator": {
+      "name": "Frequency Indicator",
+      "definition": "Indicates whether the frequency is requested."
+    },
+    "ExecutionTypeIndicator": {
+      "name": "Execution Type Indicator",
+      "definition": "Indicates whether the execution type is requested."
+    },
+    "ValidityFromIndicator": {
+      "name": "Validity From Indicator",
+      "definition": "Indicates whether the account standing order is requested."
+    },
+    "ValidToIndicator": {
+      "name": "Valid To Indicator",
+      "definition": "Indicates whether the account owner information is requested."
+    },
+    "LinkSetIdentificationIndicator": {
+      "name": "Link Set Identification Indicator",
+      "definition": "Indicates whether the link set identification is requested."
+    },
+    "LinkSetOrderIdentificationIndicator": {
+      "name": "Link Set Order Identification Indicator",
+      "definition": "Indicates whether the identification of a standing order within a link set is requested."
+    },
+    "LinkSetOrderSequenceIndicator": {
+      "name": "Link Set Order Sequence Indicator",
+      "definition": "Indicates whether the sequence of a standing order within a link set is requested."
+    },
+    "TotalAmountIndicator": {
+      "name": "Total Amount Indicator",
+      "definition": "Indicates whether the total amount per standing order type is requested."
+    },
+    "ZeroSweepIndicator": {
+      "name": "Zero Sweep Indicator",
+      "definition": "Indicates whether the zero sweeping indicator is requested."
+    }
+  }
+}

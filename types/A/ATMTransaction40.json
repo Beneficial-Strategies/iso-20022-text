@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMTransaction40",
+  "language": "en",
+  "name": "ATM Transaction 40",
+  "definition": "Transaction for which the exception is sent.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period."
+    },
+    "Exception": {
+      "name": "Exception",
+      "definition": "Exception occurring outside the service."
+    },
+    "ExceptionDetail": {
+      "name": "Exception Detail",
+      "definition": "Explanation of the exception."
+    },
+    "ElectronicPurseBalance": {
+      "name": "Electronic Purse Balance",
+      "definition": "Balance of the captured card or epurse if available."
+    }
+  }
+}

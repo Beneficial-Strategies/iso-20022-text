@@ -1,0 +1,88 @@
+{
+  "isoType": "ExternalVerificationReason1Code",
+  "language": "en",
+  "name": "External Verification Reason 1 Code",
+  "definition": "Specifies the external verification reason code, as published in an external verification code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "isoName": "IncorrectAccountNumber",
+      "name": "Incorrect Account Number",
+      "definition": "Account number provided in the request is invalid or missing."
+    },
+    "AGNT": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent identification provided in the request is incorrect"
+    },
+    "DUPL": {
+      "isoName": "DuplicateRequest",
+      "name": "Duplicate Request",
+      "definition": "Request is a duplicate of another request"
+    },
+    "AG01": {
+      "isoName": "TransactionForbiddenOnThisAccount",
+      "name": "Transaction Forbidden On This Account",
+      "definition": "Transaction forbidden on this type of account (Payment cannot be made to this account for example not open for deposits, blocked, closed)."
+    },
+    "BNOR": {
+      "isoName": "AccountHoldingBankNotRegistered",
+      "name": "Account Holding Bank Not Registered",
+      "definition": "PSP is not registered under this Scheme."
+    },
+    "DS28": {
+      "isoName": "ReturnForTechnicalReason",
+      "name": "Return For Technical Reason",
+      "definition": "Return following technical problems resulting in erroneous transaction."
+    },
+    "FF01": {
+      "isoName": "InvalidFileFormat",
+      "name": "Invalid File Format",
+      "definition": "File format incomplete or invalid."
+    },
+    "MS03": {
+      "isoName": "NotSpecifiedReasonAgentGenerated",
+      "name": "Not Specified Reason Agent Generated",
+      "definition": "Reason has not been specified by agent."
+    },
+    "NORR": {
+      "isoName": "NoReportRecieved",
+      "name": "No Report Recieved",
+      "definition": "No response on request within timeframe."
+    },
+    "NR01": {
+      "isoName": "NoReasonPossible",
+      "name": "No Reason Possible",
+      "definition": "PSP not able to confirm details and no reason is stated."
+    },
+    "RC03": {
+      "isoName": "InvalidDebtorBankIdentifier",
+      "name": "Invalid Debtor Bank Identifier",
+      "definition": "Debtor bank identifier is invalid or missing."
+    },
+    "RC04": {
+      "isoName": "InvalidCreditorBankIdentifier",
+      "name": "Invalid Creditor Bank Identifier",
+      "definition": "Creditor bank identifier is invalid or missing."
+    },
+    "TM01": {
+      "isoName": "InvalidCutOffTime",
+      "name": "Invalid Cut Off Time",
+      "definition": "Associated message was received after agreed processing cut-off time."
+    },
+    "PN01": {
+      "isoName": "AccountOwnerNameDoNotMatch",
+      "name": "Account Owner Name Do Not Match",
+      "definition": "Account Owner name and Payment Account number do not match."
+    },
+    "PN02": {
+      "isoName": "AccountOwnerNameCloseMatch",
+      "name": "Account Owner Name Close Match",
+      "definition": "Account Owner name and Payment Account number is a close match."
+    },
+    "PI01": {
+      "isoName": "AccountOwnerIdentificationDoNotMatch",
+      "name": "Account Owner Identification Do Not Match",
+      "definition": "Account Owner Identification and Payment Account number do not match."
+    }
+  }
+}

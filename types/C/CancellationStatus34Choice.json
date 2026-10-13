@@ -1,0 +1,16 @@
+{
+  "isoType": "CancellationStatus34Choice",
+  "language": "en",
+  "name": "Cancellation Status 34 Choice",
+  "definition": "Status applying to the instruction cancellation request received.",
+  "isoElements": {
+    "GlobalCancellationStatus": {
+      "name": "Global Cancellation Status",
+      "definition": "Status applicable globally to the meeting instruction cancellation request message."
+    },
+    "DetailedCancellationStatus": {
+      "name": "Detailed Cancellation Status",
+      "definition": "Status of individual instruction cancellation request that were received within the instruction cancellation  message identified in InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

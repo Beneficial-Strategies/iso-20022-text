@@ -1,0 +1,146 @@
+{
+  "isoType": "SettlementDetails220",
+  "language": "en",
+  "name": "Settlement Details 220",
+  "definition": "Details of settlement of a transaction.",
+  "isoElements": {
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Specifies whether the transaction is on hold/blocked/frozen."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "SecuritiesTransactionType": {
+      "name": "Securities Transaction Type",
+      "definition": "Identifies the type of securities transaction."
+    },
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade is to be settled."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "BeneficialOwnership": {
+      "name": "Beneficial Ownership",
+      "definition": "Specifies whether there is change of beneficial ownership."
+    },
+    "BlockTrade": {
+      "name": "Block Trade",
+      "definition": "Specifies whether the settlement instruction is a block parent or child."
+    },
+    "CCPEligibility": {
+      "name": "CCP Eligibility",
+      "definition": "Specifies whether the settlement transaction is CCP (Central Counterparty) eligible."
+    },
+    "DeliveryReturnReason": {
+      "name": "Delivery Return Reason",
+      "definition": "Reason for a delivery return."
+    },
+    "CashClearingSystem": {
+      "name": "Cash Clearing System",
+      "definition": "Specifies the category of cash clearing system, for example, cheque clearing."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the collateral movement."
+    },
+    "FXStandingInstruction": {
+      "name": "FX Standing Instruction",
+      "definition": "Specifies whether the foreign exchange standing instruction in place should apply."
+    },
+    "MarketClientSide": {
+      "name": "Market Client Side",
+      "definition": "Specifies if an instruction is for a market side or a client side transaction."
+    },
+    "NettingEligibility": {
+      "name": "Netting Eligibility",
+      "definition": "Specifies whether the settlement transaction is eligible for netting."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Specifies whether registration should occur upon receipt."
+    },
+    "RepurchaseType": {
+      "name": "Repurchase Type",
+      "definition": "Specifies the type of repurchase transaction."
+    },
+    "LegalRestrictions": {
+      "name": "Legal Restrictions",
+      "definition": "Regulatory restrictions applicable to a security."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "SettlingCapacity": {
+      "name": "Settling Capacity",
+      "definition": "Role of a party in the settlement of the transaction."
+    },
+    "SettlementSystemMethod": {
+      "name": "Settlement System Method",
+      "definition": "Specifies whether the settlement instruction is to be settled through the default or the alternate settlement system."
+    },
+    "TaxCapacity": {
+      "name": "Tax Capacity",
+      "definition": "Tax role capacity of the instructing party."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    },
+    "Tracking": {
+      "name": "Tracking",
+      "definition": "Specifies whether the loan and/or collateral is tracked."
+    },
+    "AutomaticBorrowing": {
+      "name": "Automatic Borrowing",
+      "definition": "Condition for automatic borrowing."
+    },
+    "LetterOfGuarantee": {
+      "name": "Letter Of Guarantee",
+      "definition": "Specifies whether physical settlement may be executed using a letter of guarantee or if the physical certificates should be used."
+    },
+    "ReturnLeg": {
+      "name": "Return Leg",
+      "definition": "Indicates whether, for a securities lending/borrowing settlement transaction, the lender will instruct the return leg as agreed with the borrower."
+    },
+    "ModificationCancellationAllowed": {
+      "name": "Modification Cancellation Allowed",
+      "definition": "Specifies whether a third party is allowed to modify or cancel the transaction."
+    },
+    "EligibleForCollateral": {
+      "name": "Eligible For Collateral",
+      "definition": "Specifies whether securities should be included in the pool of securities eligible for collateral purposes."
+    },
+    "DeliveringSecuritiesSubBalanceType": {
+      "name": "Delivering Securities Sub Balance Type",
+      "definition": "Specifies the delivering securities sub balance type indicator (example restriction type for a market infrastructure)."
+    },
+    "ReceivingSecuritiesSubBalanceType": {
+      "name": "Receiving Securities Sub Balance Type",
+      "definition": "Specifies the receiving securities sub balance type indicator (example restriction type for a market infrastructure)."
+    },
+    "CashSubBalanceType": {
+      "name": "Cash Sub Balance Type",
+      "definition": "Specifies the cash sub balance type indicator, for example, the restriction type for a market infrastructure."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "If SettlementDetails elements are used, then their conditions of use must be pre-agreed between account owner and account servicer."
+    },
+    "CashClearingSystemRule": {
+      "definition": "The CashSettlementSystem codes are to be used only by agents directly involved in the settlement process, such as local settlement agents, CSDs and central banks."
+    },
+    "FXStandingInstructionPresenceRule": {
+      "definition": "If HoldIndicator is present and is value TRUE (Yes), then FXStandingInstruction must not be present. In ISO 15022,|and therefore in ISO 20022, the FXStandingInstruction indicator can only be used when the transation is instructed|in a released mode."
+    },
+    "SettlementParametersGuideline": {
+      "definition": "• Physical settlement:|In case of physical receipt at local agent level, the receiving agent must receive a receipt free instruction|for reconciliation purposes. If the final beneficiary of the securities uses a global custodian, the receipt free|instruction will be sent to the global custodian that will forward it to his receiving agent on the market.|For physical settlement, SettlementTransactionCondition/Physical must be used.|• Partial settlement:|This market practice only applies in markets where partial settlement is allowed.|If an account owner wants to specify in its original instruction that partial settlement is allowed or not, they|must use the PartialSettlementIndicator.|• Book Transfer:|The use of SecuritiesTransactionTypes OWNI, OWNE, INSP and PORT and other booktransfer|related fields is governed by a market practice document.|• Block Trades:|The parent transaction must be identified using the Block Trade field with code BLPA. The children|transactions must be identified using the code BLCH.||For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

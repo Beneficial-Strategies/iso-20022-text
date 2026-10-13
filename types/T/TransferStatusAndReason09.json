@@ -1,0 +1,127 @@
+{
+  "isoType": "TransferStatusAndReason09",
+  "language": "en",
+  "name": "Transfer Status And Reason 09",
+  "definition": "Information about the status of a transfer instruction and its reason.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identification of the transfer, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for a transfer cancellation, as assigned by the instructing party."
+    },
+    "TransferEventType": {
+      "name": "Transfer Event Type",
+      "definition": "Type of event for which the message is sent."
+    },
+    "TransferStatus": {
+      "name": "Transfer Status",
+      "definition": "Status of the transfer instruction."
+    },
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Identification of the asset."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Investment account information of the transfer for which the status or information is provided."
+    },
+    "IntermediaryInformation": {
+      "name": "Intermediary Information",
+      "definition": "Identification of a related party or intermediary."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date on which the transfer was executed.|In some scenarios, this is the date and time to be used as the trade date when securities are settled through an International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date at which the securities are to be exchanged or were exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "SendOutDate": {
+      "name": "Send Out Date",
+      "definition": "Date on which the document, for example, the application form, was sent."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "TotalUnitsNumber": {
+      "name": "Total Units Number",
+      "definition": "Number of units to be transferred."
+    },
+    "AveragePrice": {
+      "name": "Average Price",
+      "definition": "Weighted average price of the units in the account. The average price may also be known as the average acquisition price."
+    },
+    "UnitsDetails": {
+      "name": "Units Details",
+      "definition": "Breakdown of units to be transferred."
+    },
+    "Conversion": {
+      "name": "Conversion",
+      "definition": "Information about the source security following a conversion."
+    },
+    "TotalTransferValue": {
+      "name": "Total Transfer Value",
+      "definition": "Total transfer value."
+    },
+    "PaymentDetails": {
+      "name": "Payment Details",
+      "definition": "Details of a payment that will result from or resulting from the liquation of an asset and transfer of cash or for the transfer of cash that was not invested."
+    },
+    "BenefitCrystallisationEvent": {
+      "name": "Benefit Crystallisation Event",
+      "definition": "Information about the realisation of benefits taken from a pension."
+    },
+    "DrawdownTranche": {
+      "name": "Drawdown Tranche",
+      "definition": "Details of a drawdown tranche."
+    },
+    "OtherDrawdownInformation": {
+      "name": "Other Drawdown Information",
+      "definition": "Drawdown information not specifically associated with a drawdown tranche."
+    },
+    "QueryResponse": {
+      "name": "Query Response",
+      "definition": "Response information."
+    },
+    "StatusInitiator": {
+      "name": "Status Initiator",
+      "definition": "Party that initiates the status."
+    },
+    "StatusIssuer": {
+      "name": "Status Issuer",
+      "definition": "Party that issues the status or information message."
+    },
+    "StatusRecipient": {
+      "name": "Status Recipient",
+      "definition": "Party that receives the status or information message."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the status."
+    }
+  },
+  "isoRules": {
+    "TransferStatusEventType1Rule": {
+      "definition": "If at least one occurence of TransferEventType is Information (INFO) then TransferStatus/Status/Status must be equal to Received (RECE)."
+    },
+    "TransferStatusEventType2Rule": {
+      "definition": "If at least one occurence of TransferEventType is ConversionStatus (CONV) then TransferStatus/Status/Status must be equal to Received (RECE)."
+    },
+    "ConversionRule": {
+      "definition": "If at least one occurence of TransferEventType is ConversionStatus (CONV) then Conversion must be present."
+    }
+  }
+}

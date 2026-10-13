@@ -1,0 +1,32 @@
+{
+  "isoType": "References6",
+  "language": "en",
+  "name": "References 6",
+  "definition": "Set of elements for the identification of the message and related references.",
+  "isoElements": {
+    "RejectedRequestType": {
+      "name": "Rejected Request Type",
+      "definition": "Identify the type of rejected request."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason of the message rejection."
+    },
+    "RejectedRequestIdentification": {
+      "name": "Rejected Request Identification",
+      "definition": "Identification of the rejected request message."
+    },
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identifies a message by a unique identifier and the date and time when the message was created by the sender."
+    },
+    "ProcessIdentification": {
+      "name": "Process Identification",
+      "definition": "Identifies a process by a unique identifier and the date and time when the first message belonging to the process was created by the sender. The process identification remains the same in all messages belonging to the same process, from the initial request message to the final account report closing the process."
+    },
+    "AttachedDocumentName": {
+      "name": "Attached Document Name",
+      "definition": "File name of a document logically related to the request."
+    }
+  }
+}

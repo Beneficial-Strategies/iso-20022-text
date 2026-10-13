@@ -1,0 +1,23 @@
+{
+  "isoType": "ExternalInvestigationStatus1Code",
+  "language": "en",
+  "name": "External Investigation Status 1 Code",
+  "definition": "Specifies the investigation status, as published in an external investigation status code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CLSD": {
+      "isoName": "InvestigationClosed",
+      "name": "Investigation Closed",
+      "definition": "Investigation is closed."
+    },
+    "PDNG": {
+      "isoName": "InvestigationPending",
+      "name": "Investigation Pending",
+      "definition": "Investigation is opened/pending."
+    },
+    "RJCT": {
+      "isoName": "InvestigationRejected",
+      "name": "Investigation Rejected",
+      "definition": "Investigation is rejected."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "StaticDataReportV02",
+  "language": "en",
+  "name": "Static Data Report V 02",
+  "definition": "The StaticDataReport message is sent by a central system to the participant to provide static data held in the system.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for the message, as assigned by the sender."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "ReportDetails": {
+      "name": "Report Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "isoType": "PaymentInstruction50",
+  "language": "en",
+  "name": "Payment Instruction 50",
+  "definition": "Characteristics that apply to the credit side of the payment transactions included in the direct debit initiation.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "name": "Payment Information Identification",
+      "definition": "Unique identification, as assigned by a sending party, to unambiguously identify the payment information group within the message."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Specifies the means of payment that will be used to move the amount of money."
+    },
+    "RequestedAdviceType": {
+      "name": "Requested Advice Type",
+      "definition": "Type of advice details requested."
+    },
+    "BatchBooking": {
+      "name": "Batch Booking",
+      "definition": "Identifies whether a single entry per individual transaction or a batch entry for the sum of the amounts of all transactions within the group of a message is requested.|Usage: Batch booking is used to request and not order a possible batch booking."
+    },
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Number of individual transactions contained in the payment information group."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the group, irrespective of currencies."
+    },
+    "PaymentTypeInformation": {
+      "name": "Payment Type Information",
+      "definition": "Set of elements used to further specify the type of transaction."
+    },
+    "RequestedCollectionDate": {
+      "name": "Requested Collection Date",
+      "definition": "Date and time at which the creditor requests that the amount of money is to be collected from the debtor."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent in the payment chain."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    },
+    "ChargeBearer": {
+      "name": "Charge Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "ChargesAccount": {
+      "name": "Charges Account",
+      "definition": "Account used to process charges associated with a transaction.||Usage: Charges account should be used when charges have to be booked to an account different from the account identified in debtor's account."
+    },
+    "ChargesAccountAgent": {
+      "name": "Charges Account Agent",
+      "definition": "Agent that services a charges account.||Usage: Charges account agent should only be used when the charges account agent is different from the creditor agent."
+    },
+    "CreditorSchemeIdentification": {
+      "name": "Creditor Scheme Identification",
+      "definition": "Credit party that signs the mandate."
+    },
+    "DirectDebitTransactionInformation": {
+      "name": "Direct Debit Transaction Information",
+      "definition": "Provides information on the individual transaction(s) included in the message."
+    }
+  },
+  "isoRules": {
+    "ChargeBearerRule": {
+      "definition": "If ChargeBearer is present, then DirectDebitTransactionInformation/ChargeBearer is not allowed. If DirectDebitTransactionInformation/ChargeBearer is present, then ChargeBearer is not allowed. DirectDebitTransactionInformation/ChargeBearer and ChargeBearer may both be absent."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor may only be present if different from Creditor."
+    },
+    "ChargesAccountRule": {
+      "definition": "If ChargesAccountAgent is present, then ChargesAccount must be present."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "If PaymentTypeInformation is present, then DirectDebitTransactionInformation/PaymentTypeInformation is not allowed."
+    },
+    "CreditorSchemeIdentificationRule": {
+      "definition": "If CreditorSchemeIdentification is present, then DirectDebitTransactionInformation/CreditorSchemeIdentification is not allowed. If DirectDebitTransactionInformation/CreditorSchemeIdentification is present, then CreditorSchemeIdentification is not allowed. DirectDebitTransactionInformation/CreditorSchemeIdentification and CreditorSchemeIdentification may both be absent."
+    },
+    "UltimateCreditorRule": {
+      "definition": "If UltimateCreditor is present, then DirectDebitTransactionInformation/UltimateCreditor is not allowed. If DirectDebitTransactionInformation/UltimateCreditor is present, then UltimateCreditor is not allowed. DirectDebitTransactionInformation/UltimateCreditor and UltimateCreditor may both be absent."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "If ChargesAccountAgent is present, then it must contain a branch of the CreditorAgent. It must not contain a completely different agent."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "AcknowledgementReason18",
+  "language": "en",
+  "name": "Acknowledgement Reason 18",
+  "definition": "Specifies additional information about the processed instruction.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Choice of format for the acknowledgement reason."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional reason information that cannot be provided in a structured field."
+    }
+  }
+}

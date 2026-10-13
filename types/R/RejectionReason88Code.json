@@ -1,0 +1,48 @@
+{
+  "isoType": "RejectionReason88Code",
+  "language": "en",
+  "name": "Rejection Reason 88 Code",
+  "definition": "Specifies the reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Cancellation request has been rejected because the instruction process is in progress or has been processed."
+    },
+    "DUPL": {
+      "isoName": "DuplicateInstruction",
+      "name": "Duplicate Instruction",
+      "definition": "Instruction is rejected due to duplicate business message identifier."
+    },
+    "ECMD": {
+      "isoName": "ElectionToCounterpartyMarketDeadlineMissed",
+      "name": "Election To Counterparty Market Deadline Missed",
+      "definition": "Received after the election to counterparty market deadline."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    }
+  }
+}

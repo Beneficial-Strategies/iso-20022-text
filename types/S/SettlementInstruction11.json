@@ -1,0 +1,70 @@
+{
+  "isoType": "SettlementInstruction11",
+  "language": "en",
+  "name": "Settlement Instruction 11",
+  "definition": "Provides further details on the settlement of the instruction.",
+  "isoElements": {
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method used to settle the (batch of) payment instructions."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "A specific purpose account used to post debit and credit entries as a result of the transaction."
+    },
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Specification of a pre-agreed offering between clearing agents or the channel through which the payment instruction is processed."
+    },
+    "InstructingReimbursementAgent": {
+      "name": "Instructing Reimbursement Agent",
+      "definition": "Agent through which the instructing agent will reimburse the instructed agent.||Usage: If InstructingAgent and InstructedAgent have the same reimbursement agent, then only InstructingReimbursementAgent must be used."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "name": "Instructing Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the instructing reimbursement agent account at its servicing agent in the payment chain."
+    },
+    "InstructedReimbursementAgent": {
+      "name": "Instructed Reimbursement Agent",
+      "definition": "Agent at which the instructed agent will be reimbursed.|Usage: If InstructedReimbursementAgent contains a branch of the InstructedAgent, then the party in InstructedAgent will claim reimbursement from that branch/will be paid by that branch.|Usage: If InstructingAgent and InstructedAgent have the same reimbursement agent, then only InstructingReimbursementAgent must be used."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "name": "Instructed Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the instructed reimbursement agent account at its servicing agent in the payment chain."
+    },
+    "ThirdReimbursementAgent": {
+      "name": "Third Reimbursement Agent",
+      "definition": "Agent at which the instructed agent will be reimbursed.|Usage: If ThirdReimbursementAgent contains a branch of the InstructedAgent, then the party in InstructedAgent will claim reimbursement from that branch/will be paid by that branch."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "name": "Third Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the third reimbursement agent account at its servicing agent in the payment chain."
+    }
+  },
+  "isoRules": {
+    "ThirdReimbursementAgentRule": {
+      "definition": "If ThirdReimbursementAgent is present, then InstructingReimbursementAgent and InstructedReimbursementAgent must both be present."
+    },
+    "SettlementMethodAgentRule": {
+      "definition": "If SettlementMethod is equal to INDA or INGA, then ReimbursementAgent(s) and ClearingSystem are not allowed."
+    },
+    "SettlementMethodCoverRule": {
+      "definition": "If SettlementMethod is equal to COVE, then SettlementAccount and ClearingSystem are not allowed."
+    },
+    "SettlementMethodCoverAgentRule": {
+      "definition": "If SettlementMethod is equal to COVE, then InstructedReimbursementAgent or InstructingReimbursementAgent must be present."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "If SettlementMethod is equal to CLRG, then SettlementAccount and ReimbursementAgent(s) are not allowed."
+    },
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "If InstructingReimbursementAgentAccount is present, then InstructingReimbursementAgent must be present."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "If InstructedReimbursementAgentAccount is present, then InstructedReimbursementAgent must be present."
+    },
+    "ThirdReimbursementAgentAccountRule": {
+      "definition": "If ThirdReimbursementAgentAccount is present, then ThirdReimbursementAgent must be present."
+    }
+  }
+}

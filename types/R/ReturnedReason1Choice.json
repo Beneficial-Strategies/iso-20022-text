@@ -1,0 +1,16 @@
+{
+  "isoType": "ReturnedReason1Choice",
+  "language": "en",
+  "name": "Returned Reason 1 Choice",
+  "definition": "Choice between a standard code and proprietary code to specify the reason why the instruction or cancellation request has a returned status.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Returned reason specified as a code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Returned reason specified as a proprietary code."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "DeliveryPlace3Code",
+  "language": "en",
+  "name": "Delivery Place 3 Code",
+  "definition": "Specifies the place of delivery.",
+  "isoCodes": {
+    "EMAL": {
+      "isoName": "Email",
+      "name": "Email",
+      "definition": "Card needs to be sent via e-mail."
+    },
+    "EMPL": {
+      "isoName": "Employer",
+      "name": "Employer",
+      "definition": "Card needs to be mailed to employer's address."
+    },
+    "INDI": {
+      "isoName": "Individual",
+      "name": "Individual",
+      "definition": "Card needs to be mailed to the individual specified in PersonDetail."
+    },
+    "ENTR": {
+      "isoName": "MeetingEntrance",
+      "name": "Meeting Entrance",
+      "definition": "Card needs to be available at the entrance of the meeting."
+    },
+    "OADR": {
+      "isoName": "OtherAddress",
+      "name": "Other Address",
+      "definition": "Cards needs to be send to another specified address."
+    }
+  }
+}

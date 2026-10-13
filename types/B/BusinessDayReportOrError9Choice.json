@@ -1,0 +1,16 @@
+{
+  "isoType": "BusinessDayReportOrError9Choice",
+  "language": "en",
+  "name": "Business Day Report Or Error 9 Choice",
+  "definition": "Choice between business day information details or an operational error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Reports either business day information or a business error."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

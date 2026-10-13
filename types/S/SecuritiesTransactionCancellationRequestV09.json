@@ -1,0 +1,73 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequestV09",
+  "language": "en",
+  "name": "Securities Transaction Cancellation Request V 09",
+  "definition": "Scope|An account owner sends a SecuritiesTransactionCancellationRequest to an account servicer to request the cancellation of a securities transaction.|The account owner/servicer relationship may be:|- a global custodian which has an account with a local custodian, or|- an investment management institution which manage a fund account opened at a custodian, or - a broker which has an account with a custodian, or|- a central securities depository participant which has an account with a central securities depository, or|- a central securities depository which has an account with a custodian, another central securities depository or another settlement market infrastructure, or|- a central counterparty or a stock exchange or a trade matching utility which need to instruct to a central securities depository or another settlement market infrastructure.||Usage|The transaction may be:|- a securities settlement transaction|- an intra-position movement|- a securities financing transaction|The instruction cannot be:|- a securities settlement conditions modification (another transaction processing command should be sent to reverse a processing change previously requested).|- a securities financing modification|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": ""
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Message Reference identifying the Processor of the transaction."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": ""
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": ""
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": ""
+    },
+    "FXCancellation": {
+      "name": "FX Cancellation",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresence2Rule": {
+      "definition": "If AccountOwnerTransactionIdentification is NONREF then at least one of the other references must be present."
+    },
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, then the AccountOwnerTransactionIdentification must be NONREF."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

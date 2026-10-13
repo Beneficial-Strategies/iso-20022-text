@@ -1,0 +1,40 @@
+{
+  "isoType": "Account36",
+  "language": "en",
+  "name": "Account 36",
+  "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "name": "Owner Identification",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountDesignation": {
+      "name": "Account Designation",
+      "definition": "Supplementary registration information applying to a specific block of units for dealing and reporting purposes. The supplementary registration information may be used when all the units are registered, for example, to a funds supermarket, but holdings for each investor have to be reconciled individually."
+    },
+    "AccountName": {
+      "name": "Account Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of securities account."
+    },
+    "Servicer": {
+      "name": "Servicer",
+      "definition": "Institution that maintains the records where the account is held."
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": "Sub-account of the master or omnibus account."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Digital account where digital assets or digital tokens can be stored and where an entry is made."
+    }
+  }
+}

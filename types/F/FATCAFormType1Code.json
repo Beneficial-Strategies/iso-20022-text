@@ -1,0 +1,43 @@
+{
+  "isoType": "FATCAFormType1Code",
+  "language": "en",
+  "name": "FATCA Form Type 1 Code",
+  "definition": "Specifies the type of Foreign Account Tax Compliance Act (FATCA) form.",
+  "isoCodes": {
+    "CER5": {
+      "isoName": "CertificateForeignIntermediary",
+      "name": "Certificate Foreign Intermediary",
+      "definition": "Certificate of foreign intermediary (also known as IRS form W-8IMY)."
+    },
+    "CER7": {
+      "isoName": "CertificateForeignPersonsClaim",
+      "name": "Certificate Foreign Persons Claim",
+      "definition": "Certificate of foreign person's claim that income is effectively connected with the conduct of a trade or business in the United States (also known as IRS form W-8BEN-E)."
+    },
+    "CER1": {
+      "isoName": "CertificateForeignStatusBeneficialOwner",
+      "name": "Certificate Foreign Status Beneficial Owner",
+      "definition": "Certificate of foreign status of beneficial owner (also known as IRS form W-8BEN)."
+    },
+    "CER2": {
+      "isoName": "CertificateLossNationality",
+      "name": "Certificate Loss Nationality",
+      "definition": "Certificate of loss of nationality."
+    },
+    "CER3": {
+      "isoName": "SelfCertification",
+      "name": "Self Certification",
+      "definition": "Self certification."
+    },
+    "CER4": {
+      "isoName": "SelfCertificationLossNationality",
+      "name": "Self Certification Loss Nationality",
+      "definition": "Self certificate of loss of nationality (also known as IRS form I-407)."
+    },
+    "CER6": {
+      "isoName": "TaxpayerIdentificationNumberRequest",
+      "name": "Taxpayer Identification Number Request",
+      "definition": "Form is a request for taxpayer identification number and certification (also known as IRS form W9)."
+    }
+  }
+}

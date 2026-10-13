@@ -1,0 +1,25 @@
+{
+  "isoType": "IntraPositionDetails66",
+  "language": "en",
+  "name": "Intra Position Details 66",
+  "definition": "Details of the intra-position movement.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the securities were moved."
+    },
+    "IntraPositionMovement": {
+      "name": "Intra Position Movement",
+      "definition": "Intra-position movement(s) having been performed."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule2": {
+      "definition": "BalanceFrom/Code must be different from the IntraPositionMovement/BalanceTo/Code."
+    }
+  }
+}

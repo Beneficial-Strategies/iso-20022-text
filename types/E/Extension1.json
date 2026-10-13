@@ -1,0 +1,21 @@
+{
+  "isoType": "Extension1",
+  "language": "en",
+  "name": "Extension 1",
+  "definition": "Additional information that can not be captured in the structured fields and/or any other specific block.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Name qualifying the information provided in the Text field, and place where this information should be inserted."
+    },
+    "Text": {
+      "name": "Text",
+      "definition": "Text of the extension."
+    }
+  },
+  "isoRules": {
+    "ExtensionRule": {
+      "definition": "This component may not be used without the explicit approval of the Registration Authority and without strict usage rules published by the Registration Authority."
+    }
+  }
+}

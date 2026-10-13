@@ -1,0 +1,383 @@
+{
+  "isoType": "IssuerAgentRejection1Code",
+  "language": "en",
+  "name": "Issuer Agent Rejection 1 Code",
+  "definition": "",
+  "isoCodes": {
+    "NMOD": {
+      "isoName": "CancelledEvent",
+      "name": "Cancelled Event",
+      "definition": "Cancelled event cannot be modified."
+    },
+    "PR1K": {
+      "isoName": "CashRateLessThanThousand",
+      "name": "Cash Rate Less Than Thousand",
+      "definition": "Zero Coupon Bond, Principal / Cash rate must be less than USD 1,000.00."
+    },
+    "CER0": {
+      "isoName": "CertificateAmountGreaterZero",
+      "name": "Certificate Amount Greater Zero",
+      "definition": "Certificate Amount must be greater than zero."
+    },
+    "NCON": {
+      "isoName": "ConvertibleSecurityNotSupported",
+      "name": "Convertible Security Not Supported",
+      "definition": "Convertible Security Not Supported."
+    },
+    "DEPO": {
+      "isoName": "DepositoryCalledAmountEqualSecurityCalledAmount",
+      "name": "Depository Called Amount Equal Security Called Amount",
+      "definition": "Depository Called Amount must be greater than zero and must be equal to Security Called Amount."
+    },
+    "FAS0": {
+      "isoName": "DepositoryCalledAmountGreaterZero",
+      "name": "Depository Called Amount Greater Zero",
+      "definition": "Depository Called Amount must be greater than zero."
+    },
+    "DUPL": {
+      "isoName": "DuplicateEvent",
+      "name": "Duplicate Event",
+      "definition": "Duplicate event exists."
+    },
+    "PDAY": {
+      "isoName": "EffectiveDayAfterPaymentDate",
+      "name": "Effective Day After Payment Date",
+      "definition": "Effective date is after the payment date."
+    },
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "Validation of the advice/instruction/request failed."
+    },
+    "LOCK": {
+      "isoName": "GlobalLock",
+      "name": "Global Lock",
+      "definition": "Underlying Security has a global lock."
+    },
+    "GAMN": {
+      "isoName": "GrossAmountLessThanNetAmount",
+      "name": "Gross Amount Less Than Net Amount",
+      "definition": "Gross amount is less than net amount."
+    },
+    "UNDI": {
+      "isoName": "InactiveUnderlyingSecurity",
+      "name": "Inactive Underlying Security",
+      "definition": "Inactive Underlying Security."
+    },
+    "DEFE": {
+      "isoName": "InvalidDefeasedSecurityIdentifier",
+      "name": "Invalid Defeased Security Identifier",
+      "definition": "Invalid Defeased Security Identifier."
+    },
+    "IDIS": {
+      "isoName": "InvalidDisbursedSecurityIdentification",
+      "name": "Invalid Disbursed Security Identification",
+      "definition": "Disbursed security identification is missing."
+    },
+    "SEEQ": {
+      "isoName": "InvalidEquitySecurityType",
+      "name": "Invalid Equity Security Type",
+      "definition": "Invalid Equity Security Type."
+    },
+    "EVNT": {
+      "isoName": "InvalidEventType",
+      "name": "Invalid Event Type",
+      "definition": "Invalid Event Type."
+    },
+    "NDEF": {
+      "isoName": "InvalidNonDefeasedSecurityIdentifier",
+      "name": "Invalid Non Defeased Security Identifier",
+      "definition": "Invalid Non-Defeased Security Identifier."
+    },
+    "NREF": {
+      "isoName": "InvalidNonRefundedSecurityIdentifier",
+      "name": "Invalid Non Refunded Security Identifier",
+      "definition": "Invalid Non-Refunded Security Identifier"
+    },
+    "REFR": {
+      "isoName": "InvalidNotificationIdentification",
+      "name": "Invalid Notification Identification",
+      "definition": "Invalid Notification Identification."
+    },
+    "ISSC": {
+      "isoName": "InvalidOrMissingIssuerAgentContactInformation",
+      "name": "Invalid Or Missing Issuer Agent Contact Information",
+      "definition": "Issuer agent contact information is invalid or missing."
+    },
+    "PRIN": {
+      "isoName": "InvalidPrincipalCashRate",
+      "name": "Invalid Principal Cash Rate",
+      "definition": "Invalid Principal Cash Rate."
+    },
+    "REDT": {
+      "isoName": "InvalidRedemptionDate",
+      "name": "Invalid Redemption Date",
+      "definition": "Invalid Redemption Date."
+    },
+    "REFU": {
+      "isoName": "InvalidRefundedSecurityIdentifier",
+      "name": "Invalid Refunded Security Identifier",
+      "definition": "Invalid Refunded Security Identifier."
+    },
+    "CERT": {
+      "isoName": "InvalidTotalCertificateAmount",
+      "name": "Invalid Total Certificate Amount",
+      "definition": "Invalid Amount Total Certificate Amount must be greater than zero and equal to Security Called Amount."
+    },
+    "UNDV": {
+      "isoName": "InvalidUnderlyingSecurity",
+      "name": "Invalid Underlying Security",
+      "definition": "Invalid Underlying Security."
+    },
+    "BACK": {
+      "isoName": "MissingBackEndOddLotQuantity",
+      "name": "Missing Back End Odd Lot Quantity",
+      "definition": "Back end odd lot quantity is missing."
+    },
+    "BIDI": {
+      "isoName": "MissingBidInterval",
+      "name": "Missing Bid Interval",
+      "definition": "Bid interval is missing."
+    },
+    "CINL": {
+      "isoName": "MissingCashInLieuPrice",
+      "name": "Missing Cash In Lieu Price",
+      "definition": "Cash in lieu price is missing."
+    },
+    "MCER": {
+      "isoName": "MissingCertification",
+      "name": "Missing Certification",
+      "definition": "Certification has not been filled in."
+    },
+    "CSRT": {
+      "isoName": "MissingCashRate",
+      "name": "Missing Cash Rate",
+      "definition": "Cash rate is missing."
+    },
+    "COND": {
+      "isoName": "MissingConditionalTendersAcceptedFlag",
+      "name": "Missing Conditional Tenders Accepted Flag",
+      "definition": "Conditional tenders accepted flag is missing."
+    },
+    "DFLT": {
+      "isoName": "MissingDefaultOption",
+      "name": "Missing Default Option",
+      "definition": "One option must be marked as the default."
+    },
+    "MDIS": {
+      "isoName": "MissingDisbursedSecurityIdentification",
+      "name": "Missing Disbursed Security Identification",
+      "definition": "Disbursed security identification is missing."
+    },
+    "XRAT": {
+      "isoName": "MissingExchangeRate",
+      "name": "Missing Exchange Rate",
+      "definition": "Resulting amount is not allowed without an exchange rate."
+    },
+    "FIRS": {
+      "isoName": "MissingFirstBidIncrement",
+      "name": "Missing First Bid Increment",
+      "definition": "First bid increment is missing."
+    },
+    "FRAC": {
+      "isoName": "MissingFractionalDisposition",
+      "name": "Missing Fractional Disposition",
+      "definition": "Fractional Underlying Security cannot be announced."
+    },
+    "MFCF": {
+      "isoName": "MissingFullConditionalFlag",
+      "name": "Missing Full Conditional Flag",
+      "definition": "Full conditional flag is missing."
+    },
+    "ISSR": {
+      "isoName": "MissingIssuerAgent",
+      "name": "Missing Issuer Agent",
+      "definition": "Issuer agent is missing."
+    },
+    "LAST": {
+      "isoName": "MissingLastBidIncrement",
+      "name": "Missing Last Bid Increment",
+      "definition": "Last bid increment is missing."
+    },
+    "MAXP": {
+      "isoName": "MissingMaximumPrice",
+      "name": "Missing Maximum Price",
+      "definition": "Maximum price is missing."
+    },
+    "MINP": {
+      "isoName": "MissingMinimumPrice",
+      "name": "Missing Minimum Price",
+      "definition": "Minimum price is missing."
+    },
+    "ODLT": {
+      "isoName": "MissingOddLotPriorityFlag",
+      "name": "Missing Odd Lot Priority Flag",
+      "definition": "Odd lot priority flag is missing."
+    },
+    "SECO": {
+      "isoName": "MissingOption",
+      "name": "Missing Option",
+      "definition": "Second option is mandatory."
+    },
+    "OVCH": {
+      "isoName": "MissingOversubscriptionChargeFlag",
+      "name": "Missing Oversubscription Charge Flag",
+      "definition": "Oversubscription charge flag is missing."
+    },
+    "OVFL": {
+      "isoName": "MissingOversubscriptionFlag",
+      "name": "Missing Oversubscription Flag",
+      "definition": "Oversubscription flag is missing."
+    },
+    "OVPR": {
+      "isoName": "MissingOversubscriptionPrice",
+      "name": "Missing Oversubscription Price",
+      "definition": "Oversubscription price is missing."
+    },
+    "PTYP": {
+      "isoName": "MissingPayoutType",
+      "name": "Missing Payout Type",
+      "definition": "Payout type is missing."
+    },
+    "ENDP": {
+      "isoName": "MissingPeriodEndDate",
+      "name": "Missing Period End Date",
+      "definition": "Period ending date or code is missing."
+    },
+    "STAR": {
+      "isoName": "MissingPeriodStartDate",
+      "name": "Missing Period Start Date",
+      "definition": "Period starting date or code is missing."
+    },
+    "PBAS": {
+      "isoName": "MissingPriceBasis",
+      "name": "Missing Price Basis",
+      "definition": "Price basis is missing."
+    },
+    "PROR": {
+      "isoName": "MissingProrationRate",
+      "name": "Missing Proration Rate",
+      "definition": "Proration rate is missing."
+    },
+    "MPRI": {
+      "isoName": "MissingProrationRoundingIndicator",
+      "name": "Missing Proration Rounding Indicator",
+      "definition": "Proration rounding indicator is missing."
+    },
+    "PRCH": {
+      "isoName": "MissingProtectChargeIndicator",
+      "name": "Missing Protect Charge Indicator",
+      "definition": "Protect charge indicator is missing."
+    },
+    "RESU": {
+      "isoName": "MissingResultingAmount",
+      "name": "Missing Resulting Amount",
+      "definition": "Resulting amount must be filled in as exchange rate is present."
+    },
+    "RITR": {
+      "isoName": "MissingRightsTransferrableFlag",
+      "name": "Missing Rights Transferrable Flag",
+      "definition": "Rights transferrable flag is missing."
+    },
+    "ROUN": {
+      "isoName": "MissingRoudingFactor",
+      "name": "Missing Rouding Factor",
+      "definition": "Rounding factor is missing."
+    },
+    "SERT": {
+      "isoName": "MissingSecuritiesRate",
+      "name": "Missing Securities Rate",
+      "definition": "Securities rate is missing."
+    },
+    "SFEE": {
+      "isoName": "MissingSolicitationDealerFeeFlag",
+      "name": "Missing Solicitation Dealer Fee Flag",
+      "definition": "Solicitation dealer fee flag is missing."
+    },
+    "SUCH": {
+      "isoName": "MissingSubscriptionChargeFlag",
+      "name": "Missing Subscription Charge Flag",
+      "definition": "Subscription charge flag is missing."
+    },
+    "SUPR": {
+      "isoName": "MissingSubscriptionPrice",
+      "name": "Missing Subscription Price",
+      "definition": "Subscription price is missing."
+    },
+    "UNSP": {
+      "isoName": "MissingUnspecifiedPriceAllowed",
+      "name": "Missing Unspecified Price Allowed",
+      "definition": "Unspecified price allowed is missing."
+    },
+    "NOAC": {
+      "isoName": "NoAccessToService",
+      "name": "No Access To Service",
+      "definition": "Agent has no access to the service."
+    },
+    "NPAT": {
+      "isoName": "NonActiveParty",
+      "name": "Non Active Party",
+      "definition": "Party is not active."
+    },
+    "ELIG": {
+      "isoName": "NonEligibleSecurity",
+      "name": "Non Eligible Security",
+      "definition": "Security is not eligible."
+    },
+    "BDAY": {
+      "isoName": "NotBusinessDay",
+      "name": "Not Business Day",
+      "definition": "Date is not a business day for the security market."
+    },
+    "AGID": {
+      "isoName": "NotDefinedAgent",
+      "name": "Not Defined Agent",
+      "definition": "Party is not defined as an agent."
+    },
+    "DISP": {
+      "isoName": "NotEligibleDisperseSecurity",
+      "name": "Not Eligible Disperse Security",
+      "definition": "Disperse security is not eligible in the (ICSD) service provider owner."
+    },
+    "ONCV": {
+      "isoName": "OngoingConversionEventExists",
+      "name": "Ongoing Conversion Event Exists",
+      "definition": "Ongoing Conversion Event Exists"
+    },
+    "PERI": {
+      "isoName": "PeriodEndDateBeforeStartDate",
+      "name": "Period End Date Before Start Date",
+      "definition": "Period ending date is before period starting date."
+    },
+    "PUBD": {
+      "isoName": "PublicationDate",
+      "name": "Publication Date",
+      "definition": "Publication date must be earlier than payable date."
+    },
+    "RDTE": {
+      "isoName": "RecordDateAfterPaymentDate",
+      "name": "Record Date After Payment Date",
+      "definition": "Record date is after payment date."
+    },
+    "UNDM": {
+      "isoName": "UnderlyingSecurityNotEligible",
+      "name": "Underlying Security Not Eligible",
+      "definition": "Underlying Security is not eligible at Depository."
+    },
+    "ACRU": {
+      "isoName": "UnexpectedAccruedInterest",
+      "name": "Unexpected Accrued Interest",
+      "definition": "Accrued interest is not applicable for this type of security."
+    },
+    "VALU": {
+      "isoName": "ValueDateBeforePaymentDate",
+      "name": "Value Date Before Payment Date",
+      "definition": "Value date is before payment date."
+    },
+    "SECT": {
+      "isoName": "WrongSecurityType",
+      "name": "Wrong Security Type",
+      "definition": "Security type does not match with the type of corporate action."
+    }
+  }
+}

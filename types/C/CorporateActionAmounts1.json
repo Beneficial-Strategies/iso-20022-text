@@ -1,0 +1,208 @@
+{
+  "isoType": "CorporateActionAmounts1",
+  "language": "en",
+  "name": "Corporate Action Amounts 1",
+  "definition": "Specifies amounts in the framework of a corporate action event.",
+  "isoElements": {
+    "GrossCashAmount": {
+      "name": "Gross Cash Amount",
+      "definition": "Amount of money before any deductions and allowances have been made."
+    },
+    "NetCashAmount": {
+      "name": "Net Cash Amount",
+      "definition": "Amount of money after deductions and allowances have been made, if any, ie, the total amount +/- charges/fees."
+    },
+    "IssueDiscountAmount": {
+      "name": "Issue Discount Amount",
+      "definition": "Amount of money defined as a discount on a new issue or on a tranche of an existing issue."
+    },
+    "SolicitationFees": {
+      "name": "Solicitation Fees",
+      "definition": "Amount of cash premium made available in order to encourage participation in the offer. Payment is made to a third party who has solicited an entity to take part in the offer."
+    },
+    "CashInLieuOfShare": {
+      "name": "Cash In Lieu Of Share",
+      "definition": "Cash disbursement in lieu of a fractional quantity of, eg, equity."
+    },
+    "OriginalAmount": {
+      "name": "Original Amount",
+      "definition": "Amount in its original currency when conversion from/into another currency has occurred."
+    },
+    "CapitalGain": {
+      "name": "Capital Gain",
+      "definition": "Amount of money distributed as the result of a capital gain."
+    },
+    "InterestAmount": {
+      "name": "Interest Amount",
+      "definition": "Amount of money representing a coupon payment."
+    },
+    "IndemnityAmount": {
+      "name": "Indemnity Amount",
+      "definition": "(Unique to France) Amount due to a buyer of securities dealt prior to ex date which may be subject to different rate of taxation."
+    },
+    "RedemptionPremiumAmount": {
+      "name": "Redemption Premium Amount",
+      "definition": "Amount of money (not interest) in addition to the principal at the redemption of a bond."
+    },
+    "ManufacturedDividendAmount": {
+      "name": "Manufactured Dividend Amount",
+      "definition": "Amount of money that the borrower pays to the lender as a compensation. It does not entitle the lender to reclaim any tax credit and is sometimes treated differently by the local tax authorities of the lender."
+    },
+    "PrincipalOrCorpus": {
+      "name": "Principal Or Corpus",
+      "definition": "Amount of money representing a distribution of a bond's principal, eg, repayment of outstanding debt."
+    },
+    "ReinvestmentAmount": {
+      "name": "Reinvestment Amount",
+      "definition": "Amount of money reinvested in additional securities."
+    },
+    "MarketClaimAmount": {
+      "name": "Market Claim Amount",
+      "definition": "Amount of money resulting from a market claim."
+    },
+    "FullyFrankedAmount": {
+      "name": "Fully Franked Amount",
+      "definition": "Amount resulting from a fully franked dividend paid by a company; amount includes tax credit for companies that have made sufficient tax payments during the fiscal period."
+    },
+    "UnfrankedAmount": {
+      "name": "Unfranked Amount",
+      "definition": "Amount resulting from an unfranked dividend paid by a company; the amount does not include tax credit and is subject to withholding tax."
+    },
+    "SundryOrOtherAmount": {
+      "name": "Sundry Or Other Amount",
+      "definition": "Amount of money related to taxable income that cannot be categorised."
+    },
+    "SpecialConcessionAmount": {
+      "name": "Special Concession Amount",
+      "definition": "Amount of drawdown or other reduction from or in addition to the deal price."
+    },
+    "EntitledAmount": {
+      "name": "Entitled Amount",
+      "definition": "Cash amount based on terms of corporate action event and balance of underlying securities, entitled to/from account owner (which may be positive or negative)."
+    },
+    "CashIncentive": {
+      "name": "Cash Incentive",
+      "definition": "Rate of the cash premium made available if the securities holder consents or participates to an event, e.g. consent fees."
+    },
+    "AdditionalSubscriptionCost": {
+      "name": "Additional Subscription Cost",
+      "definition": "Additional costs - coming on top of the subscription costs - which the subscriber should pay as per the subscription process. Not to be used for the subscription cost itself."
+    },
+    "TaxFreeAmount": {
+      "name": "Tax Free Amount",
+      "definition": "Amount of money that has not been subject to taxation."
+    },
+    "TaxDeferredAmount": {
+      "name": "Tax Deferred Amount",
+      "definition": "Amount of income eligible for deferred taxation."
+    },
+    "GermanLocalTax1Amount": {
+      "name": "German Local Tax 1 Amount",
+      "definition": "Local tax (ZAS Anrechnungsbetrag) subject to interest down payment tax (proportion of interest liable for interest down payment tax/interim profit that is not covered by the tax exempt amount)."
+    },
+    "GermanLocalTax2Amount": {
+      "name": "German Local Tax 2 Amount",
+      "definition": "Local tax (ZAS Pflichtige Zinsen) interest liable for interest down payment tax (proportion of gross interest per unit/interim profits that is not covered by the credit in the interest pool)."
+    },
+    "GermanLocalTax3Amount": {
+      "name": "German Local Tax 3 Amount",
+      "definition": "Local tax (Zinstopf) offset interest per unit against tax exempt amount (variation to offset interest per unit in relation to tax exempt amount)."
+    },
+    "GermanLocalTax4Amount": {
+      "name": "German Local Tax 4 Amount",
+      "definition": "Local tax (Ertrag Besitzanteilig) yield liable for interest down payment tax."
+    },
+    "StockExchangeTaxAmount": {
+      "name": "Stock Exchange Tax Amount",
+      "definition": "Amount of stock exchange tax."
+    },
+    "TransferTaxAmount": {
+      "name": "Transfer Tax Amount",
+      "definition": "Tax levied on a transfer of ownership of financial instrument."
+    },
+    "TransactionTaxAmount": {
+      "name": "Transaction Tax Amount",
+      "definition": "Amount of transaction tax."
+    },
+    "ValueAddedTaxAmount": {
+      "name": "Value Added Tax Amount",
+      "definition": "Tax on value added."
+    },
+    "EURetentionTaxAmount": {
+      "name": "EU Retention Tax Amount",
+      "definition": "Total amount of tax withheld at source in conformance with the EU Savings Directive."
+    },
+    "LocalTaxAmount": {
+      "name": "Local Tax Amount",
+      "definition": "Amount of tax charged by the jurisdiction in which the financial instrument settles."
+    },
+    "PaymentLevyTaxAmount": {
+      "name": "Payment Levy Tax Amount",
+      "definition": "Payment levy tax."
+    },
+    "CountryNationalFederalTaxAmount": {
+      "name": "Country National Federal Tax Amount",
+      "definition": "Amount of country, national or federal tax charged by the jurisdiction in which the account servicer is located."
+    },
+    "StampDutyAmount": {
+      "name": "Stamp Duty Amount",
+      "definition": "Amount of stamp duty."
+    },
+    "TaxReclaimAmount": {
+      "name": "Tax Reclaim Amount",
+      "definition": "Amount that was paid in excess of actual tax obligation and was reclaimed."
+    },
+    "TaxCreditAmount": {
+      "name": "Tax Credit Amount",
+      "definition": "Amount of taxes that have been previously paid in relation to the taxable event."
+    },
+    "WithholdingOfForeignTaxAmount": {
+      "name": "Withholding Of Foreign Tax Amount",
+      "definition": "Amount of money withheld by the jurisdiction in which the income was originally paid, for which relief at source and/or reclaim may be possible."
+    },
+    "WithholdingOfLocalTaxAmount": {
+      "name": "Withholding Of Local Tax Amount",
+      "definition": "Amount of money withheld by the jurisdiction in which the account owner is located, for which relief at source and/or reclaim may be possible."
+    },
+    "AdditionalTaxAmount": {
+      "name": "Additional Tax Amount",
+      "definition": "Amount of additional taxes that cannot be categorised."
+    },
+    "WithholdingTaxAmount": {
+      "name": "Withholding Tax Amount",
+      "definition": "Amount of a cash distribution that will be withheld by a tax authority."
+    },
+    "FiscalStampAmount": {
+      "name": "Fiscal Stamp Amount",
+      "definition": "Amount of fiscal tax to apply."
+    },
+    "ExecutingBrokerAmount": {
+      "name": "Executing Broker Amount",
+      "definition": "Amount of money paid to an executing broker as a commission."
+    },
+    "PayingAgentCommissionAmount": {
+      "name": "Paying Agent Commission Amount",
+      "definition": "Amount of paying/sub-paying agent commission."
+    },
+    "LocalBrokerCommissionAmount": {
+      "name": "Local Broker Commission Amount",
+      "definition": "Local broker's commission."
+    },
+    "PostageFeeAmount": {
+      "name": "Postage Fee Amount",
+      "definition": "Amount of money paid for delivery by regular post mail."
+    },
+    "RegulatoryFeesAmount": {
+      "name": "Regulatory Fees Amount",
+      "definition": "Amount of money charged by a regulatory authority, eg, Securities and Exchange fees."
+    },
+    "ShippingFeesAmount": {
+      "name": "Shipping Fees Amount",
+      "definition": "Amount of money (including insurance) paid for delivery by carrier."
+    },
+    "ChargesAmount": {
+      "name": "Charges Amount",
+      "definition": "Amount of money paid for the provision of financial services that cannot be categorised by another qualifier."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalTransactionReference43",
+  "language": "en",
+  "name": "Original Transaction Reference 43",
+  "definition": "Provides reference information to the original message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message."
+    },
+    "MessageNameIdentification": {
+      "name": "Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the original message was created."
+    },
+    "OriginalTransaction": {
+      "name": "Original Transaction",
+      "definition": "Provides reference information to the original transaction."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "AdditionalParameters33",
+  "language": "en",
+  "name": "Additional Parameters 33",
+  "definition": "Specifies additional parameters to the message or transaction.",
+  "isoElements": {
+    "PartialSettlement": {
+      "name": "Partial Settlement",
+      "definition": "Specifies partial settlement information."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "name": "Previous Partial Confirmation Identification",
+      "definition": "Identification of the confirmation previously sent to confirm the partial settlement of a transaction."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "name": "Counterparty Market Infrastructure Transaction Identification",
+      "definition": "Identification of a counterparty transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "NetReportData2",
+  "language": "en",
+  "name": "Net Report Data 2",
+  "definition": "Specifies the meta data associated with a net report.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for a message, as assigned by the Sender. This unique identifier can be used for cross-referencing purposes in subsequent messages."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the net report was generated."
+    },
+    "NettingCutOffTime": {
+      "name": "Netting Cut Off Time",
+      "definition": "Provides the cut off time that has been passed, resulting in the generation of the net report."
+    },
+    "ReportDate": {
+      "name": "Report Date",
+      "definition": "Specifies the value date on which the net report was generated."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Specifies the value date of the trades used in the generation of the net report."
+    },
+    "ReportType": {
+      "name": "Report Type",
+      "definition": "Specifies the type of net report, indicating how the obligations have been calculated."
+    },
+    "NetReportServicer": {
+      "name": "Net Report Servicer",
+      "definition": "Describes the central system responsible for generating the net report."
+    },
+    "NetServiceType": {
+      "name": "Net Service Type",
+      "definition": "Describes the type of netting service supporting the net report."
+    },
+    "MessagePagination": {
+      "name": "Message Pagination",
+      "definition": "Page number of the message (within the net report) and continuation indicator to indicate that the report is to continue or that the message is the last page of the report."
+    }
+  }
+}

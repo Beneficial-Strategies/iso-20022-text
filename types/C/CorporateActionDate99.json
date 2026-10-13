@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionDate99",
+  "language": "en",
+  "name": "Corporate Action Date 99",
+  "definition": "Specifies corporate action dates.",
+  "isoElements": {
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Date/time of the posting (credit or debit) to the account."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time when calculating economic benefit for a cash amount."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "name": "Foreign Exchange Rate Fixing Date",
+      "definition": "Date/time at which a foreign exchange rate will be determined."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date/time on which a payment can be made, for example, if the payment date is a non-business day or to indicate the first payment date of an offer."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date on which the distribution is due to take place (cash and/or securities)."
+    }
+  }
+}

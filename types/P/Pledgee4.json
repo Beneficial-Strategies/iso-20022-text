@@ -1,0 +1,21 @@
+{
+  "isoType": "Pledgee4",
+  "language": "en",
+  "name": "Pledgee 4",
+  "definition": "Identifies the entity to which the financial instruments are pledged.",
+  "isoElements": {
+    "PledgeeTypeAndIdentification": {
+      "name": "Pledgee Type And Identification",
+      "definition": "Unique identification of the party."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification as an alternate identification for a party."
+    }
+  },
+  "isoRules": {
+    "PledgeeTypeAndIdentificationOrLEIRule": {
+      "definition": "PledgeeTypeAndIdentification must be present or LEI must be present."
+    }
+  }
+}

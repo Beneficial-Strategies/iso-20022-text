@@ -1,0 +1,180 @@
+{
+  "isoType": "FinancialInstrumentAttributes112",
+  "language": "en",
+  "name": "Financial Instrument Attributes 112",
+  "definition": "Elements characterising a financial instrument.",
+  "isoElements": {
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Market(s) on which the security is listed."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies the computation method of (accrued) interest of the security."
+    },
+    "RegistrationForm": {
+      "name": "Registration Form",
+      "definition": "Specifies the form, this is, ownership, of the security."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the frequency of an interest payment."
+    },
+    "PaymentStatus": {
+      "name": "Payment Status",
+      "definition": "Status of payment of a security at a particular time."
+    },
+    "VariableRateChangeFrequency": {
+      "name": "Variable Rate Change Frequency",
+      "definition": "Specifies the frequency of change to the variable rate of an interest bearing instrument."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised (American, European, Bermudan)."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a Call option (right to purchase a specific underlying asset) or a Put option (right to sell a specific underlying asset)."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CouponDate": {
+      "name": "Coupon Date",
+      "definition": "Next payment date of an interest bearing financial instrument."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which a privilege expires."
+    },
+    "FloatingRateFixingDate": {
+      "name": "Floating Rate Fixing Date",
+      "definition": "Date at which the interest rate of an interest bearing security will be calculated and reset, according to the terms of the issue."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date at which the security was made available."
+    },
+    "NextCallableDate": {
+      "name": "Next Callable Date",
+      "definition": "Next date at which the issuer has the right to pay the security prior to maturity."
+    },
+    "PutableDate": {
+      "name": "Putable Date",
+      "definition": "Date at which the holder has the right to ask for redemption of the security prior to final maturity."
+    },
+    "DatedDate": {
+      "name": "Dated Date",
+      "definition": "First date at which a security begins to accrue interest."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date at which the first interest payment is due to holders of the security."
+    },
+    "PreviousFactor": {
+      "name": "Previous Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 that was applicable before the current factor and defines the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "CurrentFactor": {
+      "name": "Current Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 defining the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "NextFactor": {
+      "name": "Next Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 that will be applicable as of the next factor date and defines the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Per annum ratio of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "YieldToMaturityRate": {
+      "name": "Yield To Maturity Rate",
+      "definition": "Rate of return anticipated on a bond when held until maturity date."
+    },
+    "NextInterestRate": {
+      "name": "Next Interest Rate",
+      "definition": "Interest rate applicable to the next interest payment period in relation to variable rate instruments."
+    },
+    "IndexRateBasis": {
+      "name": "Index Rate Basis",
+      "definition": "Specifies the reference rate for fixed income instruments where the |price of the instrument is indexed to the price of an underlying benchmark."
+    },
+    "CouponAttachedNumber": {
+      "name": "Coupon Attached Number",
+      "definition": "Number of the coupon attached to the physical security."
+    },
+    "PoolNumber": {
+      "name": "Pool Number",
+      "definition": "Number identifying a group of underlying assets assigned by the issuer of a factored security."
+    },
+    "QuantityBreakdown": {
+      "name": "Quantity Breakdown",
+      "definition": "Breakdown of a quantity into lots such as tax lots, instrument series."
+    },
+    "VariableRateIndicator": {
+      "name": "Variable Rate Indicator",
+      "definition": "Indicates whether the interest rate of an interest bearing instrument is reset periodically."
+    },
+    "CallableIndicator": {
+      "name": "Callable Indicator",
+      "definition": "Indicates whether the issuer has the right to pay the security prior to maturity. Also called RetractableIndicator."
+    },
+    "PutableIndicator": {
+      "name": "Putable Indicator",
+      "definition": "Indicates whether the holder has the right to ask for redemption of the security prior to final maturity. Also called RedeemableIndicator."
+    },
+    "MarketOrIndicativePrice": {
+      "name": "Market Or Indicative Price",
+      "definition": "Value of the price, for example, as a currency and value per unit or as a percentage."
+    },
+    "ExercisePrice": {
+      "name": "Exercise Price",
+      "definition": "Predetermined price at which the holder of a derivative will buy or sell the underlying instrument."
+    },
+    "SubscriptionPrice": {
+      "name": "Subscription Price",
+      "definition": "Pre-determined price at which the holder of a right is entitled to buy the underlying instrument."
+    },
+    "ConversionPrice": {
+      "name": "Conversion Price",
+      "definition": "Price of one target security in the conversion."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Predetermined price at which the holder will have to buy or sell the underlying instrument."
+    },
+    "MinimumNominalQuantity": {
+      "name": "Minimum Nominal Quantity",
+      "definition": "Minimum nominal quantity of financial instrument."
+    },
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a quantity."
+    },
+    "UnderlyingFinancialInstrumentIdentification": {
+      "name": "Underlying Financial Instrument Identification",
+      "definition": "Identification of the underlying security."
+    },
+    "FinancialInstrumentAttributeAdditionalDetails": {
+      "name": "Financial Instrument Attribute Additional Details",
+      "definition": "Provides additional information about the financial instrument in narrative form."
+    }
+  },
+  "isoRules": {
+    "PlaceOfListingRule": {
+      "definition": "If PlaceOfListing is used and an ISO 10383 MIC exists for the market to be identified, the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if FinancialInstrumentAttributeAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    }
+  }
+}

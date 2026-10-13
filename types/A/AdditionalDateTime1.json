@@ -1,0 +1,25 @@
+{
+  "isoType": "AdditionalDateTime1",
+  "language": "en",
+  "name": "Additional Date Time 1",
+  "definition": "Series of additional dates related to the payment.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "name": "Acceptance Date Time",
+      "definition": "Point in time when the payment order from the initiating party meets the processing conditions of the account servicing agent. This means that the account servicing agent has received the payment order and has applied checks such as authorisation, availability of funds."
+    },
+    "PoolingAdjustmentDate": {
+      "name": "Pooling Adjustment Date",
+      "definition": "Date used for the correction of the value date of a cash pool movement that has been posted with a different value date."
+    },
+    "ExpiryDateTime": {
+      "name": "Expiry Date Time",
+      "definition": "Date and time on which the payment should be expired if it has not settled."
+    }
+  },
+  "isoRules": {
+    "AdditionalDateTimePresenceRule": {
+      "definition": "AcceptanceDateTime or PoolingAdjustmentDate or ExpiryDateTime must be present. All can be present."
+    }
+  }
+}

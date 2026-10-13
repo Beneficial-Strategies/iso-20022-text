@@ -1,0 +1,24 @@
+{
+  "isoType": "AggregatedPenaltyAmount2",
+  "language": "en",
+  "name": "Aggregated Penalty Amount 2",
+  "definition": "Specifies the aggregated penalties amounts per party.",
+  "isoElements": {
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique and unambiguous identification of the party for which the aggregated amounts are referred to."
+    },
+    "AggregatedDebitAmount": {
+      "name": "Aggregated Debit Amount",
+      "definition": "Sum of the debit amounts for the party."
+    },
+    "AggregatedCreditAmount": {
+      "name": "Aggregated Credit Amount",
+      "definition": "Sum of the credit amounts for the party."
+    },
+    "GlobalNetAmount": {
+      "name": "Global Net Amount",
+      "definition": "Net of all amounts for this CSD."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "IntraPositionProcessingStatus11Choice",
+  "language": "en",
+  "name": "Intra Position Processing Status 11 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction/Request has been rejected for further processing."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction/Request is accepted but in repair."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies a choice of status for the processing of an intra-position movement."
+    }
+  }
+}

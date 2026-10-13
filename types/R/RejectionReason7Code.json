@@ -1,0 +1,78 @@
+{
+  "isoType": "RejectionReason7Code",
+  "language": "en",
+  "name": "Rejection Reason 7 Code",
+  "definition": "Specifies the reason of a rejection cancellation request.",
+  "isoCodes": {
+    "DEAC": {
+      "isoName": "EventAlreadyDeactivated",
+      "name": "Event Already Deactivated",
+      "definition": "Rejected as the deactivation of the event is already completed."
+    },
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    },
+    "PDEA": {
+      "isoName": "NoPendingDeactivationInstruction",
+      "name": "No Pending Deactivation Instruction",
+      "definition": "The cancellation request is rejected as there is no pending deactivation instruction."
+    },
+    "INID": {
+      "isoName": "InvalidIdentification",
+      "name": "Invalid Identification",
+      "definition": "Instruction contains an invalid message identification, identification is unknown."
+    },
+    "REFI": {
+      "isoName": "InvalidCAIdentification",
+      "name": "Invalid CA Identification",
+      "definition": "Invalid corporate action identification supplied."
+    },
+    "AGIN": {
+      "isoName": "InvalidAgent",
+      "name": "Invalid Agent",
+      "definition": "Invalid agent identification supplied."
+    },
+    "SAID": {
+      "isoName": "SameIdentification",
+      "name": "Same Identification",
+      "definition": "Several message with the same identification."
+    },
+    "DEAO": {
+      "isoName": "OptionAlreadyDeactivated",
+      "name": "Option Already Deactivated",
+      "definition": "Rejected as the deactivation of the option is already completed."
+    },
+    "INET": {
+      "isoName": "InvalidEventType",
+      "name": "Invalid Event Type",
+      "definition": "CA Event Type does not correspond with the relating Corporate Action."
+    },
+    "INUS": {
+      "isoName": "InvalidUnderlyingSecurity",
+      "name": "Invalid Underlying Security",
+      "definition": "Underlying Security Identification does not correspond with the Corporate Action Reference supplied."
+    },
+    "INPT": {
+      "isoName": "InvalidEventProcessingType",
+      "name": "Invalid Event Processing Type",
+      "definition": "Event Processing Type does not correspond with the relating Corporate Action."
+    },
+    "INMV": {
+      "isoName": "InvalidMandatoryVoluntaryEventType",
+      "name": "Invalid Mandatory Voluntary Event Type",
+      "definition": "Mandatory/Voluntary Event Type does not correspond with the relating Corporate Action."
+    },
+    "INDE": {
+      "isoName": "InvalidCorporateActionInformation",
+      "name": "Invalid Corporate Action Information",
+      "definition": "Details specified in the Corporate Action General Information block are inconsistent with those that were specified in the relating original message."
+    },
+    "INDT": {
+      "isoName": "InvalidDetails",
+      "name": "Invalid Details",
+      "definition": "Message details specified in the instruction/request are inconsistent with those that were specified in the relating original message."
+    }
+  }
+}

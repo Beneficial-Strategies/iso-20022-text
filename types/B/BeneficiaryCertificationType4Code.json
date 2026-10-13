@@ -1,0 +1,58 @@
+{
+  "isoType": "BeneficiaryCertificationType4Code",
+  "language": "en",
+  "name": "Beneficiary Certification Type 4 Code",
+  "definition": "Specifies the type of certification required.",
+  "isoCodes": {
+    "ACCI": {
+      "isoName": "AccreditedInvestor",
+      "name": "Accredited Investor",
+      "definition": "The holder of the security has to irrevocably certify that it is an Accredited Investor as defined in US Securities and Exchange Commission Regulation D."
+    },
+    "DOMI": {
+      "isoName": "DomicileCountry",
+      "name": "Domicile Country",
+      "definition": "The holder of the security has to certify his domicile."
+    },
+    "NDOM": {
+      "isoName": "NonDomicileCountry",
+      "name": "Non Domicile Country",
+      "definition": "The holder of the security has to certify, in line with the terms of the corporate action, that it is not domiciled in the country indicated."
+    },
+    "FULL": {
+      "isoName": "FullBeneficialOwnerBreakdown",
+      "name": "Full Beneficial Owner Breakdown",
+      "definition": "The holder of the security has to provide his beneficial owner details for disclosure/instruction purpose."
+    },
+    "NCOM": {
+      "isoName": "NonCompany",
+      "name": "Non Company",
+      "definition": "The holder of the security has to certify he is an Non-Company related person."
+    },
+    "QIBB": {
+      "isoName": "QIBCertification",
+      "name": "QIB Certification",
+      "definition": "The holder of the security has to irrevocably certify that it is a Qualified Institutional Buyer as defined in US Securities and Exchange Commission Rule 144A."
+    },
+    "TRBD": {
+      "isoName": "TaxRateBreakdown",
+      "name": "Tax Rate Breakdown",
+      "definition": "The holder of the security has to provide basic details on nominals and associated tax rate to be used by the account servicer."
+    },
+    "PAPW": {
+      "isoName": "BeneficialOwnerPaperwork",
+      "name": "Beneficial Owner Paperwork",
+      "definition": "Indicates if the Beneficial Owner is responsible to fill in the paperwork."
+    },
+    "PABD": {
+      "isoName": "ICSDParticipantBreakdown",
+      "name": "ICSD Participant Breakdown",
+      "definition": "The (I)CSD has to provide its participants' details for disclosure purpose to the issuer/issuer’s agent."
+    },
+    "FRAC": {
+      "isoName": "FractionBreakdown",
+      "name": "Fraction Breakdown",
+      "definition": "Indicates that the rounding rule in the Fraction Disposition component at the option level can be offered at the beneficial owner level."
+    }
+  }
+}

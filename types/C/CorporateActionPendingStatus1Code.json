@@ -1,0 +1,78 @@
+{
+  "isoType": "CorporateActionPendingStatus1Code",
+  "language": "en",
+  "name": "Corporate Action Pending Status 1 Code",
+  "definition": "Pending status of the corporate action notification advice coming from the issuer agent.",
+  "isoCodes": {
+    "CNFC": {
+      "isoName": "ConcurrentFullCall",
+      "name": "Concurrent Full Call",
+      "definition": "Concurrent full call event exists."
+    },
+    "PUBF": {
+      "isoName": "FuturePublicationDate",
+      "name": "Future Publication Date",
+      "definition": "Pending due to future publication date."
+    },
+    "REOR": {
+      "isoName": "ConcurrentReorganisation",
+      "name": "Concurrent Reorganisation",
+      "definition": "Concurrent reorganisation announcement exists."
+    },
+    "ACCR": {
+      "isoName": "IncalculableInterest",
+      "name": "Incalculable Interest",
+      "definition": "Unable to calculate accrued interest. Missing payment details."
+    },
+    "SCAL": {
+      "isoName": "InvalidSecurityCalledAmount",
+      "name": "Invalid Security Called Amount",
+      "definition": "Invalid Security Called Amount."
+    },
+    "LATE": {
+      "isoName": "LateAnnouncement",
+      "name": "Late Announcement",
+      "definition": "Late announcement. The declared payment date is outside of acceptable range in the past."
+    },
+    "MATU": {
+      "isoName": "MaturingIssue",
+      "name": "Maturing Issue",
+      "definition": "Maturing issue. Redemption date is greater than or equal to maturity date."
+    },
+    "PAYD": {
+      "isoName": "PayableDateOutsideRange",
+      "name": "Payable Date Outside Range",
+      "definition": "Payable date outside of applicable date range."
+    },
+    "POSD": {
+      "isoName": "PositionDiscrepancy",
+      "name": "Position Discrepancy",
+      "definition": "Position discrepancy. Potential partial call."
+    },
+    "CNPC": {
+      "isoName": "PotentialPartialCall",
+      "name": "Potential Partial Call",
+      "definition": "Verify event. Potential conflicting partial call exists."
+    },
+    "CNRD": {
+      "isoName": "VerifyConcurrentRedemption",
+      "name": "Verify Concurrent Redemption",
+      "definition": "Verify event. Concurrent redemption event exists."
+    },
+    "CNRE": {
+      "isoName": "VerifyConcurrentReorganisation",
+      "name": "Verify Concurrent Reorganisation",
+      "definition": "Verify event. Concurrent reorganisation event exists."
+    },
+    "VRON": {
+      "isoName": "VerifyRateRedemption",
+      "name": "Verify Rate Redemption",
+      "definition": "Verify rate. On-cycle redemption."
+    },
+    "VRZC": {
+      "isoName": "VerifyRateZeroBond",
+      "name": "Verify Rate Zero Bond",
+      "definition": "Verify rate. Zero coupon bond."
+    }
+  }
+}

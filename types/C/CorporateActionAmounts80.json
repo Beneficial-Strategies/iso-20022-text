@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionAmounts80",
+  "language": "en",
+  "name": "Corporate Action Amounts 80",
+  "definition": "Specifies amounts in the framework of a corporate action event.",
+  "isoElements": {
+    "RefundedAmount": {
+      "name": "Refunded Amount",
+      "definition": "For partial prerefunding events, amount that the Issuer is refunding to an earlier maturity date which is guarantee and deposited in escrow."
+    },
+    "NonRefundedAmount": {
+      "name": "Non Refunded Amount",
+      "definition": "For partial prerefunding events, remaining amount which will continue to have the same maturity date."
+    },
+    "DepositoryCalledAmount": {
+      "name": "Depository Called Amount",
+      "definition": "Indicates the portion of the call amount which is held at the depository. This may include position held in certificated form at the depository plus the balance held at the redemption agent. For registered issues, this only includes the portion of certificates held at the depository in registered or bearer form."
+    }
+  }
+}

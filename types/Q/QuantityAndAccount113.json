@@ -1,0 +1,57 @@
+{
+  "isoType": "QuantityAndAccount113",
+  "language": "en",
+  "name": "Quantity And Account 113",
+  "definition": "Details on a quantity, account and other related information.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "DenominationChoice": {
+      "name": "Denomination Choice",
+      "definition": "Denomination of the security to be received or delivered."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "QuantityBreakdown": {
+      "name": "Quantity Breakdown",
+      "definition": "Breakdown of a quantity into lots such as tax lots, instrument series."
+    }
+  },
+  "isoRules": {
+    "DenominationRule": {
+      "definition": "Unless bilaterally agreed between the account owner and servicer, if DenominationChoice is used, it must not contain information that can be provided in a structured field."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "The SafekeepingPlace functionality in the settlement instructions is only to be used for global custodians that allow their clients to specify where the securities are to be held, for example, in an ICSD account versus an account at the local CSD."
+    },
+    "SafekeepingPlaceGuideline": {
+      "definition": "When used (see usage rule SafekeepingPlaceRule), unless special arrangements exist between the account servicer and the account owner, it is recommended to use the place of safekeeping field following the market practice described below:|• SafekeepingPlaceType/SharesHeldAtNCSD: a NCSD's BIC will be used for domestic and NCSD to NCSD settlement instructions.|• SafekeepingPlaceType/SharesHeldAtICSD: an ICSD's BIC will be used for ICSD internal, ICSD/local and ICSD to ICSD settlement instructions.|• SafekeepingPlaceType/SharesHeldAtLoaclCustodian: applicable, for instance, when the account servicer is a global custodian and provides the account owner with a position reporting at global custodian's agents' level. When instructing, the fund manager would therefore mention, as a place of safekeeping, the BIC of the global custodian's agent on the market.|Absence of SafekeepingPlace means that:|• The SafekeepingPlace information is kept by the account servicer (SLA, account structure, ETC.) and should not be provided by the account owner.|• The SafekeepingPlace is the counterparty's Depository. The transaction is therefore domestic (to an NCSD) or internal to an ICSD.|For more details, see the relevant market practice document on www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

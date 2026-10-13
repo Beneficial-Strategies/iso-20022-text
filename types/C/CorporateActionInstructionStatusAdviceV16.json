@@ -1,0 +1,75 @@
+{
+  "isoType": "CorporateActionInstructionStatusAdviceV16",
+  "language": "en",
+  "name": "Corporate Action Instruction Status Advice V 16",
+  "definition": "Scope|The CorporateActionInstructionStatusAdvice message is sent by an account servicer to an account owner or its designated agent, to report the status of a received corporate action election instruction.||This message is used to advise the status, or a change in status, of a corporate action-related transaction previously instructed by, or executed on behalf of, the account owner. This will include the acknowledgement/rejection of a corporate action instruction.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": ""
+    },
+    "CorporateActionInstruction": {
+      "name": "Corporate Action Instruction",
+      "definition": ""
+    },
+    "ProtectInstruction": {
+      "name": "Protect Instruction",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "All elements in the AdditionalInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "If CorporateActionInstruction/OptionType/Code value is BOBD (BeneficialOwnerBreakdownRequest), then CorporateActionGeneralInformation/EventType/Code value must be WTRC (Withholding Tax Relief Certification).|(MT567 NVR C6)"
+    },
+    "StatusQuantity1Rule": {
+      "definition": "If CorporateActionInstruction/StatusCashAmount is present, then the InstructionProcessingStatus/Cancelled/CancelledQuantity and InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity and InstructionProcessingStatus/Rejected and InstructionProcessingStatus/Pending must be absent and CorporateActionInstruction/StatusQuantity must be absent. (MT 567 C5 and C7)."
+    },
+    "StatusQuantity2Rule": {
+      "definition": "If CorporateActionInstruction/StatusQuantity is present, then the InstructionProcessingStatus/Cancelled/CancelledQuantity and InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity and InstructionProcessingStatus/Rejected and InstructionProcessingStatus/Pending must be absent and CorporateActionInstruction/StatusCashAmount must be absent. (MT 567 C5 and C7)."
+    },
+    "StatusQuantity3Rule": {
+      "definition": "If InstructionProcessingStatus/Cancelled/CancelledQuantity or InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity or InstructionProcessingStatus/Rejected or InstructionProcessingStatus/Pending are present, then  CorporateActionInstruction/StatusCashAmount and CorporateActionInstruction/StatusQuantity must be absent. (MT 567 C5 and C7)."
+    },
+    "StatusQuantity4Rule": {
+      "definition": "If CorporateActionInstruction/StatusCashAmount is present, then the InstructionProcessingStatus/Forwarded/ForwardedQuantity and InstructionProcessingStatus/Returned/ReturnedQuantity and InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity Must be absent."
+    },
+    "StatusQuantity5Rule": {
+      "definition": "If CorporateActionInstruction/StatusQuantity is present, then the InstructionProcessingStatus/Forwarded/ForwardedQuantity or InstructionProcessingStatus/Returned/ReturnedQuantity or InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity are not allowed."
+    },
+    "StatusQuantity6Rule": {
+      "definition": "If InstructionProcessingStatus/Forwarded/ForwardedQuantity or InstructionProcessingStatus/Returned/ReturnedQuantity or InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity are present, then  CorporateActionInstruction/StatusCashAmount and CorporateActionInstruction/StatusQuantity must be absent."
+    },
+    "StatusQuantity1UGRule": {
+      "definition": "If CorporateActionInstruction/StatusCashAmount is present, then the InstructionProcessingStatus/Cancelled/CancelledQuantity and InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity and InstructionProcessingStatus/Rejected and InstructionProcessingStatus/Pending must be absent and CorporateActionInstruction/StatusQuantity must be absent. (MT 567 C5 and C7)."
+    },
+    "StatusQuantity2UGRule": {
+      "definition": "If CorporateActionInstruction/StatusQuantity is present, then the InstructionProcessingStatus/Cancelled/CancelledQuantity and InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity and InstructionProcessingStatus/Rejected and InstructionProcessingStatus/Pending must be absent and CorporateActionInstruction/StatusCashAmount must be absent. (MT 567 C5 and C7)"
+    },
+    "StatusQuantity3UGRule": {
+      "definition": "If InstructionProcessingStatus/Cancelled/CancelledQuantity or InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity or InstructionProcessingStatus/Rejected or InstructionProcessingStatus/Pending are present, then  CorporateActionInstruction/StatusCashAmount and CorporateActionInstruction/StatusQuantity must be absent. (MT 567 C5 and C7)."
+    }
+  }
+}

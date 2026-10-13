@@ -1,0 +1,44 @@
+{
+  "isoType": "ChargesPerType6",
+  "language": "en",
+  "name": "Charges Per Type 6",
+  "definition": "Provides a detailed breakdown of the charges per type of charges.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "name": "Charges Identification",
+      "definition": "Unique and unambiguous identification of the charges information for reconciliation purpose.||Usage: this identification shall be used as the end-to-end identification in the resulting message for the payment of the charges, to allow for automated reconciliation."
+    },
+    "TotalChargesPerChargeType": {
+      "name": "Total Charges Per Charge Type",
+      "definition": "Total charges claimed through for the specified charge type."
+    },
+    "ChargesAccountAgent": {
+      "name": "Charges Account Agent",
+      "definition": "Agent that services the charges account.||Usage: this element should be used where the charge being claimed does not relate to the processing of a payment transaction e.g. it relates to an investigation or other process. This identifies the agent that services the account from which charges are to be settled from."
+    },
+    "ChargesAccountAgentAccount": {
+      "name": "Charges Account Agent Account",
+      "definition": "Account of the agent that services the charges account.||Usage: this element should be used where the charge being claimed does not relate to the processing of a payment transaction e.g. it relates to an investigation or other process. This identifies the account from which charges are to be settled from."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of charge."
+    },
+    "Record": {
+      "name": "Record",
+      "definition": "Itemised charges record per charges type."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the reason for the charges."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountAgent2Rule": {
+      "definition": "When Record/ChargesAccountAgent is present or Record/ChargesAccountAgentAccount is present then ChargesAccountAgent must be absent and ChargesAccountAgentAccount must be absent."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "When ChargesAccountAgent is present or ChargesAccountAgentAccount is present then  Record/ChargesAccountAgent must be absent and Record/ChargesAccountAgentAccount must be absent."
+    }
+  }
+}

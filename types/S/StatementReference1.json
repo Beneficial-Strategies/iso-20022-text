@@ -1,0 +1,20 @@
+{
+  "isoType": "StatementReference1",
+  "language": "en",
+  "name": "Statement Reference 1",
+  "definition": "Identifies the reference of the statment by a unique identifier and the date (and time).",
+  "isoElements": {
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Reference common to all pages of the statement for which the status advice is sent."
+    },
+    "StatementDateTime": {
+      "name": "Statement Date Time",
+      "definition": "Date and time the statement was created."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the related message (within the statement) and continuation indicator to indicate that the statement is to continue or that the related message is the last page of the statement."
+    }
+  }
+}

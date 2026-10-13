@@ -1,0 +1,25 @@
+{
+  "isoType": "AccountCriteria8",
+  "language": "en",
+  "name": "Account Criteria 8",
+  "definition": "Defines the criteria which are used to search for an account and to report on the account. A name may be given to the new query.",
+  "isoElements": {
+    "NewQueryName": {
+      "name": "New Query Name",
+      "definition": "Name of the query defined by the search criteria and return criteria."
+    },
+    "SearchCriteria": {
+      "name": "Search Criteria",
+      "definition": "Defines the criteria to be used to extract the account information."
+    },
+    "ReturnCriteria": {
+      "name": "Return Criteria",
+      "definition": "Defines the expected account report."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "If ReturnCriteria is not present, then at least one occurrence of SearchCriteria must be present. If ReturnCriteria is present, then any occurrence of SearchCriteria is optional."
+    }
+  }
+}

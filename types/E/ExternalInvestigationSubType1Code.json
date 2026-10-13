@@ -1,0 +1,63 @@
+{
+  "isoType": "ExternalInvestigationSubType1Code",
+  "language": "en",
+  "name": "External Investigation Sub Type 1 Code",
+  "definition": "Specifies the investigation sub type, as published in an external investigation sub type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AMLI": {
+      "isoName": "AntiMoneyLaundering",
+      "name": "Anti Money Laundering",
+      "definition": "Investigation relates to anti-money laundering."
+    },
+    "SANC": {
+      "isoName": "Sanctions",
+      "name": "Sanctions",
+      "definition": "Investigation relates to sanctions."
+    },
+    "FRAD": {
+      "isoName": "Fraud",
+      "name": "Fraud",
+      "definition": "Investigation relates to fraud."
+    },
+    "UTEX": {
+      "isoName": "UnableToExecute",
+      "name": "Unable To Execute",
+      "definition": "Investigation relates to a transaction that cannot be executed."
+    },
+    "FCCI": {
+      "isoName": "FinancialCrimeCompliance",
+      "name": "Financial Crime Compliance",
+      "definition": "Investigation relates to financial crimes compliance."
+    },
+    "FWTR": {
+      "isoName": "FundsWireTransferRegulation",
+      "name": "Funds Wire Transfer Regulation",
+      "definition": "Investigation relates to funds/wire transfer regulation."
+    },
+    "RQUF": {
+      "isoName": "RequestUseOfFunds",
+      "name": "Request Use Of Funds",
+      "definition": "Use of funds on an entry is requested."
+    },
+    "RQDA": {
+      "isoName": "RequestDebitAuthorisation",
+      "name": "Request Debit Authorisation",
+      "definition": "Debit authorisation on an entry is requested."
+    },
+    "RQVA": {
+      "isoName": "RequestValueDateAdjustment",
+      "name": "Request Value Date Adjustment",
+      "definition": "Revaluation of an entry is requested."
+    },
+    "RQCH": {
+      "isoName": "RequestRelatedToCharges",
+      "name": "Request Related To Charges",
+      "definition": "Investigation relating to charges that have been taken or are requested."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other"
+    }
+  }
+}

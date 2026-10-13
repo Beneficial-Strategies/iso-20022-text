@@ -1,0 +1,168 @@
+{
+  "isoType": "RejectionReason91Code",
+  "language": "en",
+  "name": "Rejection Reason 91 Code",
+  "definition": "Specifies a reason why the instruction has a rejected status.",
+  "isoCodes": {
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "IPOS": {
+      "isoName": "InsufficientThresholdPosition",
+      "name": "Insufficient Threshold Position",
+      "definition": "Position is less than required threshold."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "SPLT": {
+      "isoName": "SplitVoteNotAllowed",
+      "name": "Split Vote Not Allowed",
+      "definition": "Split voting is not allowed."
+    },
+    "PART": {
+      "isoName": "PartialVoteNotAllowed",
+      "name": "Partial Vote Not Allowed",
+      "definition": "Partial voting is not allowed."
+    },
+    "IPOA": {
+      "isoName": "MissingOrInvalidPOA",
+      "name": "Missing Or Invalid POA",
+      "definition": "Missing or invalid power of attorney."
+    },
+    "PRXY": {
+      "isoName": "ProxyCardDiscrepancy",
+      "name": "Proxy Card Discrepancy",
+      "definition": "Invalid proxy information."
+    },
+    "IREG": {
+      "isoName": "RegistrationDiscrepancy",
+      "name": "Registration Discrepancy",
+      "definition": "Invalid registration information."
+    },
+    "RBIS": {
+      "isoName": "RejectedByIssuerOrRegistrar",
+      "name": "Rejected By Issuer Or Registrar",
+      "definition": "Issuer or registrar has rejected the instruction."
+    },
+    "LACK": {
+      "isoName": "LackofSecurities",
+      "name": "Lackof Securities",
+      "definition": "Instructed position exceeds the eligible balance."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OPTY": {
+      "isoName": "InvalidOptionType",
+      "name": "Invalid Option Type",
+      "definition": "Invalid option type."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "FULL": {
+      "isoName": "MissingBeneficiaryOwnerDetails",
+      "name": "Missing Beneficiary Owner Details",
+      "definition": "Rejected due to missing beneficiary owner details."
+    },
+    "ADDM": {
+      "isoName": "AdditionalDocumentationMissing",
+      "name": "Additional Documentation Missing",
+      "definition": "Requested additional documentation is missing."
+    },
+    "MCAN": {
+      "isoName": "EventCancelled",
+      "name": "Event Cancelled",
+      "definition": "Event has been cancelled."
+    },
+    "DREM": {
+      "isoName": "DeadlineToRegisterMissed",
+      "name": "Deadline To Register Missed",
+      "definition": "Deadline to register is missed."
+    },
+    "NPOS": {
+      "isoName": "NoRegisteredPosition",
+      "name": "No Registered Position",
+      "definition": "Insufficient or no registered position."
+    },
+    "RESN": {
+      "isoName": "ResolutionNumberDiscrepancy",
+      "name": "Resolution Number Discrepancy",
+      "definition": "Resolution number provided discrepancy."
+    },
+    "DUPL": {
+      "isoName": "DuplicateInstruction",
+      "name": "Duplicate Instruction",
+      "definition": "Instruction is rejected due to duplicate business message identifier."
+    },
+    "LIST": {
+      "isoName": "InvalidVoteInFavourInGroupListing",
+      "name": "Invalid Vote In Favour In Group Listing",
+      "definition": "Instruction is invalid due to multiple resolutions instructed as vote \"For” and belonging to the same listing group resolution label number."
+    },
+    "NOSL": {
+      "isoName": "NotRegisteredInInStockLedger",
+      "name": "Not Registered In In Stock Ledger",
+      "definition": "Invalid instruction as the shareholder or its delegate is not registered in the company stock ledger book."
+    },
+    "PMNS": {
+      "isoName": "ParticipationMethodNotSupported",
+      "name": "Participation Method Not Supported",
+      "definition": "Instruction rejected due to the method of participation not supported by the account servicer."
+    },
+    "IPED": {
+      "isoName": "InstructionPriorToEntitlementDate",
+      "name": "Instruction Prior To Entitlement Date",
+      "definition": "Instruction was received prior to entitlement date."
+    },
+    "NACD": {
+      "isoName": "NotAcceptedEmailAddressMissing",
+      "name": "Not Accepted Email Address Missing",
+      "definition": "Instruction to virtually attend meeting is rejected due to missing attendee email address."
+    },
+    "EFDM": {
+      "isoName": "MissingOrIncorrectEntitlementFixingDate",
+      "name": "Missing Or Incorrect Entitlement Fixing Date",
+      "definition": "Entitlement fixing date is missing or incorrect."
+    },
+    "ADIM": {
+      "isoName": "AdditionalDisclosureInformationMissing",
+      "name": "Additional Disclosure Information Missing",
+      "definition": "(I)CSD failed to receive (from underlying) or provide (to the issuer agent) the disclosure information required."
+    },
+    "MINC": {
+      "isoName": "MissingInvestorClassificationDetails",
+      "name": "Missing Investor Classification Details",
+      "definition": "Classification submitted in the instruction does not match the investor classification in the notification."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    }
+  }
+}

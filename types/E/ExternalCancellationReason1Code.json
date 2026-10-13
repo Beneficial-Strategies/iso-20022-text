@@ -1,0 +1,173 @@
+{
+  "isoType": "ExternalCancellationReason1Code",
+  "language": "en",
+  "name": "External Cancellation Reason 1 Code",
+  "definition": "Specifies the cancellation reason, as published in an external cancellation reason code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC02": {
+      "isoName": "InvalidDebtorAccountNumber",
+      "name": "Invalid Debtor Account Number",
+      "definition": "Debtor account number invalid or missing."
+    },
+    "AC03": {
+      "isoName": "InvalidCreditorAccountNumber",
+      "name": "Invalid Creditor Account Number",
+      "definition": "Wrong account number in Credit Transfer."
+    },
+    "AGNT": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent in the payment workflow is incorrect."
+    },
+    "AM09": {
+      "isoName": "WrongAmount",
+      "name": "Wrong Amount",
+      "definition": "Amount is not the amount agreed or expected."
+    },
+    "BE16": {
+      "isoName": "InvalidDebtorIdentificationCode",
+      "name": "Invalid Debtor Identification Code",
+      "definition": "Debtor or Ultimate Debtor identification code missing or invalid."
+    },
+    "COVR": {
+      "isoName": "CoverCancelledOrReturned",
+      "name": "Cover Cancelled Or Returned",
+      "definition": "Cover payments has either been returned or cancelled."
+    },
+    "CURR": {
+      "isoName": "IncorrectCurrency",
+      "name": "Incorrect Currency",
+      "definition": "Currency of the payment is incorrect."
+    },
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation requested by the Debtor."
+    },
+    "CUTA": {
+      "isoName": "CancelUponUnableToApply",
+      "name": "Cancel Upon Unable To Apply",
+      "definition": "Cancellation requested because an investigation request has been received and no remediation is possible."
+    },
+    "DS24": {
+      "isoName": "TimeOut",
+      "name": "Time Out",
+      "definition": "Cancellation requested because the original payment order expired due to time-out."
+    },
+    "DT01": {
+      "isoName": "InvalidDate",
+      "name": "Invalid Date",
+      "definition": "Invalid date (for example, wrong or missing settlement date)."
+    },
+    "DUPL": {
+      "isoName": "DuplicatePayment",
+      "name": "Duplicate Payment",
+      "definition": "Payment is a duplicate of another payment."
+    },
+    "FRAD": {
+      "isoName": "FraudulentOrigin",
+      "name": "Fraudulent Origin",
+      "definition": "Cancellation requested following a transaction that was originated fraudulently. The use of the FraudulentOrigin code should be governed by jurisdictions."
+    },
+    "FRNA": {
+      "isoName": "ForwardToNextAgent",
+      "name": "Forward To Next Agent",
+      "definition": "To complement a rejection response, suggesting the request for cancelation should be forwarded to the next agent in the payment transaction chain."
+    },
+    "FRTR": {
+      "isoName": "FinalResponse",
+      "name": "Final Response",
+      "definition": "Direct Debit Tracking recalled as Mandate Cancelled."
+    },
+    "INDM": {
+      "isoName": "IndemnityRequired",
+      "name": "Indemnity Required",
+      "definition": "To express the wish to establish a bilateral indemnity agreement."
+    },
+    "MODT": {
+      "isoName": "ModifiedTransaction",
+      "name": "Modified Transaction",
+      "definition": "The underlying transaction in relation to an RTP was modified."
+    },
+    "PAID": {
+      "isoName": "TransactionAlreadyPaid",
+      "name": "Transaction Already Paid",
+      "definition": "The underlying transaction in relation to an RTP was already paid (via other means)."
+    },
+    "SVNR": {
+      "isoName": "ServiceNotRendered",
+      "name": "Service Not Rendered",
+      "definition": "The payment is cancelled since a cash amount rendered was not correct or goods or a service was not rendered to the customer, e.g. in an e-commerce situation."
+    },
+    "SYAD": {
+      "isoName": "RequestToSettlementSystemAdministrator",
+      "name": "Request To Settlement System Administrator",
+      "definition": "Cancellation requested by System Member to Settlement System Administrator to indicate that the cancellation request must not be forwarded further in the chain."
+    },
+    "TECH": {
+      "isoName": "TechnicalProblem",
+      "name": "Technical Problem",
+      "definition": "Cancellation requested following technical problems resulting in an erroneous transaction."
+    },
+    "UPAY": {
+      "isoName": "UnduePayment",
+      "name": "Undue Payment",
+      "definition": "Payment is not justified."
+    },
+    "ENUE": {
+      "isoName": "EndUserError",
+      "name": "End User Error",
+      "definition": "Cancellation or request for return requested by the Debtor specifically due to one or more errors by debtor in the original Credit Transfer. Usage: This code can be used for any error in the original Credit Transfer made by the Debtor. Can also be used if multiple errors were made in the original Credit Transfer."
+    },
+    "UAPA": {
+      "isoName": "UnauthorizedPayment",
+      "name": "Unauthorized Payment",
+      "definition": "The Debtor is requesting a return of the payment because the payment was not properly authorized.|Usage: This code can be used in the case where a Credit Transfer was made without proper authorization from the Debtor. This could be due to compromised end user credentials."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "INCR": {
+      "isoName": "InvalidCancellationRequest",
+      "name": "Invalid Cancellation Request",
+      "definition": "Process a cancellation request with incorrect reference to original batch."
+    },
+    "BIAS": {
+      "isoName": "BatchInstructionAlreadySettled",
+      "name": "Batch Instruction Already Settled",
+      "definition": "Process a cancellation request but batch already settled."
+    },
+    "DRTP": {
+      "isoName": "DuplicationRequestToPay",
+      "name": "Duplication Request To Pay",
+      "definition": "Duplication of a request-to-pay message."
+    },
+    "WNTB": {
+      "isoName": "WarrantyBreach",
+      "name": "Warranty Breach",
+      "definition": "Breach of warranty provided in connection with a request for payment."
+    },
+    "MD06": {
+      "isoName": "RefundRequestByEndCustomer",
+      "name": "Refund Request By End Customer",
+      "definition": "Return of funds requested by end customer."
+    },
+    "PPRC": {
+      "isoName": "PayeeParticipantRTPCancellation",
+      "name": "Payee Participant RTP Cancellation",
+      "definition": "Request to Pay cancellation initiated because the Payee is not in good standing."
+    },
+    "ECAG": {
+      "isoName": "ErrorCreditorAgent",
+      "name": "Error Creditor Agent",
+      "definition": "Payee (Creditor) cancels the Request To Pay (RTP) request due to error or adjustment agreement with Payer/Debtor."
+    },
+    "NFNA": {
+      "isoName": "NeverForwardToNextAgent",
+      "name": "Never Forward To Next Agent",
+      "definition": "To complement a cancellation request, instructing the market infrastructure that the request for cancelation should not be forwarded to the next agent in the payment transaction chain."
+    }
+  }
+}

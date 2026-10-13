@@ -1,0 +1,29 @@
+{
+  "isoType": "Intermediary29",
+  "language": "en",
+  "name": "Intermediary 29",
+  "definition": "Party that provides services to investors relating to financial products.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of the intermediary."
+    },
+    "Role": {
+      "name": "Role",
+      "definition": "Function performed by the intermediary."
+    },
+    "OrderOriginatorEligibility": {
+      "name": "Order Originator Eligibility",
+      "definition": "Counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "OrderOriginatorEligibility1Rule": {
+      "definition": "OrderOriginatorEligibility may only be present if Role is either UCL1 or UCL2."
+    }
+  }
+}

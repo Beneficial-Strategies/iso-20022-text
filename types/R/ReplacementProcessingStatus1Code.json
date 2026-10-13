@@ -1,0 +1,53 @@
+{
+  "isoType": "ReplacementProcessingStatus1Code",
+  "language": "en",
+  "name": "Replacement Processing Status 1 Code",
+  "definition": "Specifies the processing status of the replacement request.",
+  "isoCodes": {
+    "DEND": {
+      "isoName": "Denied",
+      "name": "Denied",
+      "definition": "Replacement request cannot be executed."
+    },
+    "EXCH": {
+      "isoName": "ReceivedAtStockExchange",
+      "name": "Received At Stock Exchange",
+      "definition": "Replacement request previously received from you has been received at the stock exchange."
+    },
+    "INTE": {
+      "isoName": "ReceivedAtIntermediary",
+      "name": "Received At Intermediary",
+      "definition": "Replacement request previously received from you has been received at intermediary (if not stock exchange)."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Replacement request has been accepted for further processing by the account servicer (technical receipt)."
+    },
+    "PART": {
+      "isoName": "PartialReplacementAccepted",
+      "name": "Partial Replacement Accepted",
+      "definition": "Order is partially filled, replacement processing accepted for the remaining."
+    },
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Replacement request is pending."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Replacement request has been rejected for further processing."
+    },
+    "REPL": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "Replacement request has been completed."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Replacement request previously received from you is in repair."
+    }
+  }
+}

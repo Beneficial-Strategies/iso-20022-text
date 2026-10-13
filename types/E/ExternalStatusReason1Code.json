@@ -1,0 +1,1583 @@
+{
+  "isoType": "ExternalStatusReason1Code",
+  "language": "en",
+  "name": "External Status Reason 1 Code",
+  "definition": "Specifies the status reason, as published in an external status reason code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AB01": {
+      "isoName": "AbortedClearingTimeout",
+      "name": "Aborted Clearing Timeout",
+      "definition": "Clearing process aborted due to timeout."
+    },
+    "AB02": {
+      "isoName": "AbortedClearingFatalError",
+      "name": "Aborted Clearing Fatal Error",
+      "definition": "Clearing process aborted due to a fatal error."
+    },
+    "AB03": {
+      "isoName": "AbortedSettlementTimeout",
+      "name": "Aborted Settlement Timeout",
+      "definition": "Settlement aborted due to timeout."
+    },
+    "AB04": {
+      "isoName": "AbortedSettlementFatalError",
+      "name": "Aborted Settlement Fatal Error",
+      "definition": "Settlement process aborted due to a fatal error."
+    },
+    "AB05": {
+      "isoName": "TimeoutCreditorAgent",
+      "name": "Timeout Creditor Agent",
+      "definition": "Transaction stopped due to timeout at the Creditor Agent."
+    },
+    "AB06": {
+      "isoName": "TimeoutInstructedAgent",
+      "name": "Timeout Instructed Agent",
+      "definition": "Transaction stopped due to timeout at the Instructed Agent."
+    },
+    "AB07": {
+      "isoName": "OfflineAgent",
+      "name": "Offline Agent",
+      "definition": "Agent of message is not online.|Generic usage if it cannot be determined who exactly is not online."
+    },
+    "AB08": {
+      "isoName": "OfflineCreditorAgent",
+      "name": "Offline Creditor Agent",
+      "definition": "Creditor Agent is not online."
+    },
+    "AB09": {
+      "isoName": "ErrorCreditorAgent",
+      "name": "Error Creditor Agent",
+      "definition": "Transaction stopped due to error at the Creditor Agent."
+    },
+    "AB10": {
+      "isoName": "ErrorInstructedAgent",
+      "name": "Error Instructed Agent",
+      "definition": "Transaction stopped due to error at the Instructed Agent."
+    },
+    "AB11": {
+      "isoName": "TimeoutDebtorAgent",
+      "name": "Timeout Debtor Agent",
+      "definition": "Transaction stopped due to timeout at the Debtor Agent."
+    },
+    "AC01": {
+      "isoName": "IncorrectAccountNumber",
+      "name": "Incorrect Account Number",
+      "definition": "Account number is invalid or missing."
+    },
+    "AC02": {
+      "isoName": "InvalidDebtorAccountNumber",
+      "name": "Invalid Debtor Account Number",
+      "definition": "Debtor account number invalid or missing"
+    },
+    "AC03": {
+      "isoName": "InvalidCreditorAccountNumber",
+      "name": "Invalid Creditor Account Number",
+      "definition": "Creditor account number invalid or missing"
+    },
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the bank of account's books."
+    },
+    "AC05": {
+      "isoName": "ClosedDebtorAccountNumber",
+      "name": "Closed Debtor Account Number",
+      "definition": "Debtor account number closed."
+    },
+    "AC06": {
+      "isoName": "BlockedAccount",
+      "name": "Blocked Account",
+      "definition": "Account specified is blocked, prohibiting posting of transactions against it."
+    },
+    "AC07": {
+      "isoName": "ClosedCreditorAccountNumber",
+      "name": "Closed Creditor Account Number",
+      "definition": "Creditor account number closed"
+    },
+    "AC08": {
+      "isoName": "InvalidBranchCode",
+      "name": "Invalid Branch Code",
+      "definition": "Branch code is invalid or missing"
+    },
+    "AC09": {
+      "isoName": "InvalidAccountCurrency",
+      "name": "Invalid Account Currency",
+      "definition": "Account currency is invalid or missing"
+    },
+    "AC10": {
+      "isoName": "InvalidDebtorAccountCurrency",
+      "name": "Invalid Debtor Account Currency",
+      "definition": "Debtor account currency is invalid or missing"
+    },
+    "AC11": {
+      "isoName": "InvalidCreditorAccountCurrency",
+      "name": "Invalid Creditor Account Currency",
+      "definition": "Creditor account currency is invalid or missing"
+    },
+    "AC12": {
+      "isoName": "InvalidAccountType",
+      "name": "Invalid Account Type",
+      "definition": "Account type missing or invalid.|Generic usage if cannot specify between group and payment information levels"
+    },
+    "AC13": {
+      "isoName": "InvalidDebtorAccountType",
+      "name": "Invalid Debtor Account Type",
+      "definition": "Debtor account type missing or invalid"
+    },
+    "AC14": {
+      "isoName": "InvalidCreditorAccountType",
+      "name": "Invalid Creditor Account Type",
+      "definition": "Creditor account type missing or invalid"
+    },
+    "AC15": {
+      "isoName": "AccountDetailsChanged",
+      "name": "Account Details Changed",
+      "definition": "The account details for the counterparty have changed."
+    },
+    "AC16": {
+      "isoName": "CardNumberInvalid",
+      "name": "Card Number Invalid",
+      "definition": "Credit or debit card number is invalid."
+    },
+    "AG01": {
+      "isoName": "TransactionForbidden",
+      "name": "Transaction Forbidden",
+      "definition": "Transaction forbidden on this type of account (formerly NoAgreement)"
+    },
+    "AG02": {
+      "isoName": "InvalidBankOperationCode",
+      "name": "Invalid Bank Operation Code",
+      "definition": "Bank Operation code specified in the message is not valid for receiver"
+    },
+    "AG03": {
+      "isoName": "TransactionNotSupported",
+      "name": "Transaction Not Supported",
+      "definition": "Transaction type not supported/authorized on this account."
+    },
+    "AG04": {
+      "isoName": "InvalidAgentCountry",
+      "name": "Invalid Agent Country",
+      "definition": "Agent country code is missing or invalid.|Generic usage if cannot specify between group and payment information levels."
+    },
+    "AG05": {
+      "isoName": "InvalidDebtorAgentCountry",
+      "name": "Invalid Debtor Agent Country",
+      "definition": "Debtor agent country code is missing or invalid"
+    },
+    "AG06": {
+      "isoName": "InvalidCreditorAgentCountry",
+      "name": "Invalid Creditor Agent Country",
+      "definition": "Creditor agent country code is missing or invalid"
+    },
+    "AG07": {
+      "isoName": "UnsuccesfulDirectDebit",
+      "name": "Unsuccesful Direct Debit",
+      "definition": "Debtor account cannot be debited for a generic reason.|Code value may be used in general purposes and as a replacement for AM04 if debtor bank does not reveal its customer's insufficient funds for privacy reasons"
+    },
+    "AG08": {
+      "isoName": "InvalidAccessRights",
+      "name": "Invalid Access Rights",
+      "definition": "Transaction failed due to invalid or missing user or access right"
+    },
+    "AG09": {
+      "isoName": "PaymentNotReceived",
+      "name": "Payment Not Received",
+      "definition": "Original payment never received."
+    },
+    "AG10": {
+      "isoName": "AgentSuspended",
+      "name": "Agent Suspended",
+      "definition": "Agent of message is suspended from the Real Time Payment system.|Generic usage if it cannot be determined who exactly is suspended."
+    },
+    "AG11": {
+      "isoName": "CreditorAgentSuspended",
+      "name": "Creditor Agent Suspended",
+      "definition": "Creditor Agent of message is suspended from the Real Time Payment system."
+    },
+    "AG12": {
+      "isoName": "NotAllowedBookTransfer",
+      "name": "Not Allowed Book Transfer",
+      "definition": "Payment orders made by transferring funds from one account to another at the same financial institution (bank or payment institution) are not allowed."
+    },
+    "AG13": {
+      "isoName": "ForbiddenReturnPayment",
+      "name": "Forbidden Return Payment",
+      "definition": "Returned payments derived from previously returned transactions are not allowed."
+    },
+    "AGNT": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent in the payment workflow is incorrect"
+    },
+    "AM01": {
+      "isoName": "ZeroAmount",
+      "name": "Zero Amount",
+      "definition": "Specified message amount is equal to zero"
+    },
+    "AM02": {
+      "isoName": "NotAllowedAmount",
+      "name": "Not Allowed Amount",
+      "definition": "Specific transaction/message amount is greater than allowed maximum"
+    },
+    "AM03": {
+      "isoName": "NotAllowedCurrency",
+      "name": "Not Allowed Currency",
+      "definition": "Specified message amount is an non processable currency outside of existing agreement"
+    },
+    "AM04": {
+      "isoName": "InsufficientFunds",
+      "name": "Insufficient Funds",
+      "definition": "Amount of funds available to cover specified message amount is insufficient."
+    },
+    "AM05": {
+      "isoName": "Duplication",
+      "name": "Duplication",
+      "definition": "Duplication"
+    },
+    "AM06": {
+      "isoName": "TooLowAmount",
+      "name": "Too Low Amount",
+      "definition": "Specified transaction amount is less than agreed minimum."
+    },
+    "AM07": {
+      "isoName": "BlockedAmount",
+      "name": "Blocked Amount",
+      "definition": "Amount specified in message has been blocked by regulatory authorities."
+    },
+    "AM09": {
+      "isoName": "WrongAmount",
+      "name": "Wrong Amount",
+      "definition": "Amount received is not the amount agreed or expected"
+    },
+    "AM10": {
+      "isoName": "InvalidControlSum",
+      "name": "Invalid Control Sum",
+      "definition": "Sum of instructed amounts does not equal the control sum."
+    },
+    "AM11": {
+      "isoName": "InvalidTransactionCurrency",
+      "name": "Invalid Transaction Currency",
+      "definition": "Transaction currency is invalid or missing"
+    },
+    "AM12": {
+      "isoName": "InvalidAmount",
+      "name": "Invalid Amount",
+      "definition": "Amount is invalid or missing"
+    },
+    "AM13": {
+      "isoName": "AmountExceedsClearingSystemLimit",
+      "name": "Amount Exceeds Clearing System Limit",
+      "definition": "Transaction amount exceeds limits set by clearing system"
+    },
+    "AM14": {
+      "isoName": "AmountExceedsAgreedLimit",
+      "name": "Amount Exceeds Agreed Limit",
+      "definition": "Transaction amount exceeds limits agreed between bank and client"
+    },
+    "AM15": {
+      "isoName": "AmountBelowClearingSystemMinimum",
+      "name": "Amount Below Clearing System Minimum",
+      "definition": "Transaction amount below minimum set by clearing system"
+    },
+    "AM16": {
+      "isoName": "InvalidGroupControlSum",
+      "name": "Invalid Group Control Sum",
+      "definition": "Control Sum at the Group level is invalid"
+    },
+    "AM17": {
+      "isoName": "InvalidPaymentInfoControlSum",
+      "name": "Invalid Payment Info Control Sum",
+      "definition": "Control Sum at the Payment Information level is invalid"
+    },
+    "AM18": {
+      "isoName": "InvalidNumberOfTransactions",
+      "name": "Invalid Number Of Transactions",
+      "definition": "Number of transactions is invalid or missing.|Generic usage if cannot specify between group and payment information levels."
+    },
+    "AM19": {
+      "isoName": "InvalidGroupNumberOfTransactions",
+      "name": "Invalid Group Number Of Transactions",
+      "definition": "Number of transactions at the Group level is invalid or missing"
+    },
+    "AM20": {
+      "isoName": "InvalidPaymentInfoNumberOfTransactions",
+      "name": "Invalid Payment Info Number Of Transactions",
+      "definition": "Number of transactions at the Payment Information level is invalid"
+    },
+    "AM21": {
+      "isoName": "LimitExceeded",
+      "name": "Limit Exceeded",
+      "definition": "Transaction amount exceeds limits agreed between bank and client."
+    },
+    "AM22": {
+      "isoName": "ZeroAmountNotApplied",
+      "name": "Zero Amount Not Applied",
+      "definition": "Unable to apply zero amount to designated account. For example, where the rules of a service allow the use of zero amount payments, however the back-office system is unable to apply the funds to the account. If the rules of a service prohibit the use of zero amount payments, then code AM01 is used to report the error condition."
+    },
+    "AM23": {
+      "isoName": "AmountExceedsSettlementLimit",
+      "name": "Amount Exceeds Settlement Limit",
+      "definition": "Transaction amount exceeds settlement limit."
+    },
+    "BE01": {
+      "isoName": "InconsistentWithEndCustomer",
+      "name": "Inconsistent With End Customer",
+      "definition": "Identification of end customer is not consistent with associated account number. (formerly CreditorConsistency)."
+    },
+    "BE04": {
+      "isoName": "MissingCreditorAddress",
+      "name": "Missing Creditor Address",
+      "definition": "Specification of creditor's address, which is required for payment, is missing/not correct (formerly IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "isoName": "UnrecognisedInitiatingParty",
+      "name": "Unrecognised Initiating Party",
+      "definition": "Party who initiated the message is not recognised by the end customer"
+    },
+    "BE06": {
+      "isoName": "UnknownEndCustomer",
+      "name": "Unknown End Customer",
+      "definition": "End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books"
+    },
+    "BE07": {
+      "isoName": "MissingDebtorAddress",
+      "name": "Missing Debtor Address",
+      "definition": "Specification of debtor's address, which is required for payment, is missing/not correct."
+    },
+    "BE08": {
+      "isoName": "MissingDebtorName",
+      "name": "Missing Debtor Name",
+      "definition": "Debtor name is missing"
+    },
+    "BE09": {
+      "isoName": "InvalidCountry",
+      "name": "Invalid Country",
+      "definition": "Country code is missing or Invalid.|Generic usage if cannot specifically identify debtor or creditor"
+    },
+    "BE10": {
+      "isoName": "InvalidDebtorCountry",
+      "name": "Invalid Debtor Country",
+      "definition": "Debtor country code is missing or invalid"
+    },
+    "BE11": {
+      "isoName": "InvalidCreditorCountry",
+      "name": "Invalid Creditor Country",
+      "definition": "Creditor country code is missing or invalid"
+    },
+    "BE12": {
+      "isoName": "InvalidCountryOfResidence",
+      "name": "Invalid Country Of Residence",
+      "definition": "Country code of residence is missing or Invalid.|Generic usage if cannot specifically identify debtor or creditor"
+    },
+    "BE13": {
+      "isoName": "InvalidDebtorCountryOfResidence",
+      "name": "Invalid Debtor Country Of Residence",
+      "definition": "Country code of debtor's residence is missing or Invalid"
+    },
+    "BE14": {
+      "isoName": "InvalidCreditorCountryOfResidence",
+      "name": "Invalid Creditor Country Of Residence",
+      "definition": "Country code of creditor's residence is missing or Invalid"
+    },
+    "BE15": {
+      "isoName": "InvalidIdentificationCode",
+      "name": "Invalid Identification Code",
+      "definition": "Identification code missing or invalid.|Generic usage if cannot specifically identify debtor or creditor."
+    },
+    "BE16": {
+      "isoName": "InvalidDebtorIdentificationCode",
+      "name": "Invalid Debtor Identification Code",
+      "definition": "Debtor or Ultimate Debtor identification code missing or invalid"
+    },
+    "BE17": {
+      "isoName": "InvalidCreditorIdentificationCode",
+      "name": "Invalid Creditor Identification Code",
+      "definition": "Creditor or Ultimate Creditor identification code missing or invalid"
+    },
+    "BE18": {
+      "isoName": "InvalidContactDetails",
+      "name": "Invalid Contact Details",
+      "definition": "Contact details missing or invalid"
+    },
+    "BE19": {
+      "isoName": "InvalidChargeBearerCode",
+      "name": "Invalid Charge Bearer Code",
+      "definition": "Charge bearer code for transaction type is invalid"
+    },
+    "BE20": {
+      "isoName": "InvalidNameLength",
+      "name": "Invalid Name Length",
+      "definition": "Name length exceeds local rules for payment type."
+    },
+    "BE21": {
+      "isoName": "MissingName",
+      "name": "Missing Name",
+      "definition": "Name missing or invalid.  Generic usage if cannot specifically identify debtor or creditor."
+    },
+    "BE22": {
+      "isoName": "MissingCreditorName",
+      "name": "Missing Creditor Name",
+      "definition": "Creditor name is missing"
+    },
+    "BE23": {
+      "isoName": "AccountProxyInvalid",
+      "name": "Account Proxy Invalid",
+      "definition": "Phone number or email address, or any other proxy, used as the account proxy is unknown or invalid."
+    },
+    "CERI": {
+      "isoName": "CheckERI",
+      "name": "Check ERI",
+      "definition": "Credit transfer is not tagged as an Extended Remittance Information (ERI) transaction but contains ERI."
+    },
+    "CH03": {
+      "isoName": "RequestedExecutionDateOrRequestedCollectionDateTooFarInFuture",
+      "name": "Requested Execution Date Or Requested Collection Date Too Far In Future",
+      "definition": "Value in Requested Execution Date or Requested Collection Date is too far in the future"
+    },
+    "CH04": {
+      "isoName": "RequestedExecutionDateOrRequestedCollectionDateTooFarInPast",
+      "name": "Requested Execution Date Or Requested Collection Date Too Far In Past",
+      "definition": "Value in Requested Execution Date or Requested Collection Date is too far in the past"
+    },
+    "CH07": {
+      "isoName": "ElementIsNotToBeUsedAtB-andC-Level",
+      "name": "Element Is Not To Be Used At B-and C-Level",
+      "definition": "Element is not to be used at B- and C-Level"
+    },
+    "CH09": {
+      "isoName": "MandateChangesNotAllowed",
+      "name": "Mandate Changes Not Allowed",
+      "definition": "Mandate changes are not allowed"
+    },
+    "CH10": {
+      "isoName": "InformationOnMandateChangesMissing",
+      "name": "Information On Mandate Changes Missing",
+      "definition": "Information on mandate changes are missing"
+    },
+    "CH11": {
+      "isoName": "CreditorIdentifierIncorrect",
+      "name": "Creditor Identifier Incorrect",
+      "definition": "Value in Creditor Identifier is incorrect"
+    },
+    "CH12": {
+      "isoName": "CreditorIdentifierNotUnambiguouslyAtTransaction-Level",
+      "name": "Creditor Identifier Not Unambiguously At Transaction-Level",
+      "definition": "Creditor Identifier is ambiguous at Transaction Level"
+    },
+    "CH13": {
+      "isoName": "OriginalDebtorAccountIsNotToBeUsed",
+      "name": "Original Debtor Account Is Not To Be Used",
+      "definition": "Original Debtor Account is not to be used"
+    },
+    "CH14": {
+      "isoName": "OriginalDebtorAgentIsNotToBeUsed",
+      "name": "Original Debtor Agent Is Not To Be Used",
+      "definition": "Original Debtor Agent  is not to be used"
+    },
+    "CH15": {
+      "isoName": "ElementContentIncludesMoreThan140Characters",
+      "name": "Element Content Includes More Than 140 Characters",
+      "definition": "Content Remittance Information/Structured includes more than 140 characters"
+    },
+    "CH16": {
+      "isoName": "ElementContentFormallyIncorrect",
+      "name": "Element Content Formally Incorrect",
+      "definition": "Content is incorrect"
+    },
+    "CH17": {
+      "isoName": "ElementNotAdmitted",
+      "name": "Element Not Admitted",
+      "definition": "Element is not allowed"
+    },
+    "CH19": {
+      "isoName": "ValuesWillBeSetToNextTARGETday",
+      "name": "Values Will Be Set To Next TARGE Tday",
+      "definition": "Values in Interbank Settlement Date or Requested Collection Date will be set to the next TARGET day"
+    },
+    "CH20": {
+      "isoName": "DecimalPointsNotCompatibleWithCurrency",
+      "name": "Decimal Points Not Compatible With Currency",
+      "definition": "Number of decimal points not compatible with the currency"
+    },
+    "CH21": {
+      "isoName": "RequiredCompulsoryElementMissing",
+      "name": "Required Compulsory Element Missing",
+      "definition": "Mandatory element is missing."
+    },
+    "CH22": {
+      "isoName": "COREandB2BwithinOnemessage",
+      "name": "COR Eand B 2 Bwithin Onemessage",
+      "definition": "SDD CORE and B2B not permitted within one message."
+    },
+    "CHQC": {
+      "isoName": "ChequeSettledOnCreditorAccount",
+      "name": "Cheque Settled On Creditor Account",
+      "definition": "Cheque has been presented in cheque clearing and settled on the creditor’s account."
+    },
+    "CNOR": {
+      "isoName": "CreditorBankIsNotRegistered",
+      "name": "Creditor Bank Is Not Registered",
+      "definition": "Creditor bank is not registered under this BIC in the CSM"
+    },
+    "CURR": {
+      "isoName": "IncorrectCurrency",
+      "name": "Incorrect Currency",
+      "definition": "Currency of the payment is incorrect"
+    },
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation requested by the Debtor"
+    },
+    "DNOR": {
+      "isoName": "DebtorBankIsNotRegistered",
+      "name": "Debtor Bank Is Not Registered",
+      "definition": "Debtor bank is not registered under this BIC in the CSM"
+    },
+    "DS01": {
+      "isoName": "ElectronicSignaturesCorrect",
+      "name": "Electronic Signatures Correct",
+      "definition": "The electronic signature(s) is/are correct"
+    },
+    "DS02": {
+      "isoName": "OrderCancelled",
+      "name": "Order Cancelled",
+      "definition": "An authorized user has cancelled the order"
+    },
+    "DS03": {
+      "isoName": "OrderNotCancelled",
+      "name": "Order Not Cancelled",
+      "definition": "The user’s attempt to cancel the order was not successful."
+    },
+    "DS04": {
+      "isoName": "OrderRejected",
+      "name": "Order Rejected",
+      "definition": "The order was rejected by the bank side (for reasons concerning content)"
+    },
+    "DS05": {
+      "isoName": "OrderForwardedForPostprocessing",
+      "name": "Order Forwarded For Postprocessing",
+      "definition": "The order was correct and could be forwarded for postprocessing"
+    },
+    "DS06": {
+      "isoName": "TransferOrder",
+      "name": "Transfer Order",
+      "definition": "The order was transferred to VEU"
+    },
+    "DS07": {
+      "isoName": "ProcessingOK",
+      "name": "Processing OK",
+      "definition": "All actions concerning the order could be done by the EBICS bank server"
+    },
+    "DS08": {
+      "isoName": "DecompressionError",
+      "name": "Decompression Error",
+      "definition": "The decompression of the file was not successful"
+    },
+    "DS09": {
+      "isoName": "DecryptionError",
+      "name": "Decryption Error",
+      "definition": "The decryption of the file was not successful"
+    },
+    "DS0A": {
+      "isoName": "DataSignRequested",
+      "name": "Data Sign Requested",
+      "definition": "Data signature is required."
+    },
+    "DS0B": {
+      "isoName": "UnknownDataSignFormat",
+      "name": "Unknown Data Sign Format",
+      "definition": "Data signature for the format is not available or invalid."
+    },
+    "DS0C": {
+      "isoName": "SignerCertificateRevoked",
+      "name": "Signer Certificate Revoked",
+      "definition": "The signer certificate is revoked."
+    },
+    "DS0D": {
+      "isoName": "SignerCertificateNotValid",
+      "name": "Signer Certificate Not Valid",
+      "definition": "The signer certificate is not valid (revoked or not active)."
+    },
+    "DS0E": {
+      "isoName": "IncorrectSignerCertificate",
+      "name": "Incorrect Signer Certificate",
+      "definition": "The signer certificate is not present."
+    },
+    "DS0F": {
+      "isoName": "SignerCertificationAuthoritySignerNotValid",
+      "name": "Signer Certification Authority Signer Not Valid",
+      "definition": "The authority of the signer certification sending the certificate is unknown."
+    },
+    "DS0G": {
+      "isoName": "NotAllowedPayment",
+      "name": "Not Allowed Payment",
+      "definition": "Signer is not allowed to sign this operation type."
+    },
+    "DS0H": {
+      "isoName": "NotAllowedAccount",
+      "name": "Not Allowed Account",
+      "definition": "Signer is not allowed to sign for this account."
+    },
+    "DS0K": {
+      "isoName": "NotAllowedNumberOfTransaction",
+      "name": "Not Allowed Number Of Transaction",
+      "definition": "The number of transaction is over the number allowed for this signer."
+    },
+    "DS10": {
+      "isoName": "Signer1CertificateRevoked",
+      "name": "Signer 1 Certificate Revoked",
+      "definition": "The certificate is revoked for the first signer."
+    },
+    "DS11": {
+      "isoName": "Signer1CertificateNotValid",
+      "name": "Signer 1 Certificate Not Valid",
+      "definition": "The certificate is not valid (revoked or not active) for the first signer."
+    },
+    "DS12": {
+      "isoName": "IncorrectSigner1Certificate",
+      "name": "Incorrect Signer 1 Certificate",
+      "definition": "The certificate is not present for the first signer."
+    },
+    "DS13": {
+      "isoName": "SignerCertificationAuthoritySigner1NotValid",
+      "name": "Signer Certification Authority Signer 1 Not Valid",
+      "definition": "The authority of signer certification sending the certificate is unknown for the first signer."
+    },
+    "DS14": {
+      "isoName": "UserDoesNotExist",
+      "name": "User Does Not Exist",
+      "definition": "The user is unknown on the server"
+    },
+    "DS15": {
+      "isoName": "IdenticalSignatureFound",
+      "name": "Identical Signature Found",
+      "definition": "The same signature has already been sent to the bank"
+    },
+    "DS16": {
+      "isoName": "PublicKeyVersionIncorrect",
+      "name": "Public Key Version Incorrect",
+      "definition": "The public key version is not correct. This code is returned when a customer sends signature files to the financial institution after conversion from an older program version (old ES format) to a new program version (new ES format) without having carried out re-initialisation with regard to a public key change."
+    },
+    "DS17": {
+      "isoName": "DifferentOrderDataInSignatures",
+      "name": "Different Order Data In Signatures",
+      "definition": "Order data and signatures don’t match"
+    },
+    "DS18": {
+      "isoName": "RepeatOrder",
+      "name": "Repeat Order",
+      "definition": "File cannot be tested, the complete order has to be repeated. This code is returned in the event of a malfunction during the signature check, e.g. not enough storage space."
+    },
+    "DS19": {
+      "isoName": "ElectronicSignatureRightsInsufficient",
+      "name": "Electronic Signature Rights Insufficient",
+      "definition": "The user’s rights (concerning his signature) are insufficient to execute the order"
+    },
+    "DS20": {
+      "isoName": "Signer2CertificateRevoked",
+      "name": "Signer 2 Certificate Revoked",
+      "definition": "The certificate is revoked for the second signer."
+    },
+    "DS21": {
+      "isoName": "Signer2CertificateNotValid",
+      "name": "Signer 2 Certificate Not Valid",
+      "definition": "The certificate is not valid (revoked or not active) for the second signer."
+    },
+    "DS22": {
+      "isoName": "IncorrectSigner2Certificate",
+      "name": "Incorrect Signer 2 Certificate",
+      "definition": "The certificate is not present for the second signer."
+    },
+    "DS23": {
+      "isoName": "SignerCertificationAuthoritySigner2NotValid",
+      "name": "Signer Certification Authority Signer 2 Not Valid",
+      "definition": "The authority of signer certification sending the certificate is unknown for the second signer."
+    },
+    "DS24": {
+      "isoName": "WaitingTimeExpired",
+      "name": "Waiting Time Expired",
+      "definition": "Waiting time expired due to incomplete order"
+    },
+    "DS25": {
+      "isoName": "OrderFileDeleted",
+      "name": "Order File Deleted",
+      "definition": "The order file was deleted by the bank server |(for multiple reasons)"
+    },
+    "DS26": {
+      "isoName": "UserSignedMultipleTimes",
+      "name": "User Signed Multiple Times",
+      "definition": "The same user has signed multiple times"
+    },
+    "DS27": {
+      "isoName": "UserNotYetActivated",
+      "name": "User Not Yet Activated",
+      "definition": "The user is not yet activated (technically)"
+    },
+    "DT01": {
+      "isoName": "InvalidDate",
+      "name": "Invalid Date",
+      "definition": "Invalid date (eg, wrong or missing settlement date)"
+    },
+    "DT02": {
+      "isoName": "InvalidCreationDate",
+      "name": "Invalid Creation Date",
+      "definition": "Invalid creation date and time in Group Header (eg, historic date)"
+    },
+    "DT03": {
+      "isoName": "InvalidNonProcessingDate",
+      "name": "Invalid Non Processing Date",
+      "definition": "Invalid non bank processing date (eg, weekend or local public holiday)"
+    },
+    "DT04": {
+      "isoName": "FutureDateNotSupported",
+      "name": "Future Date Not Supported",
+      "definition": "Future date not supported"
+    },
+    "DT05": {
+      "isoName": "InvalidCutOffDate",
+      "name": "Invalid Cut Off Date",
+      "definition": "Associated message, payment information block or transaction was received after agreed processing cut-off date, i.e., date in the past."
+    },
+    "DT06": {
+      "isoName": "ExecutionDateChanged",
+      "name": "Execution Date Changed",
+      "definition": "Execution Date has been modified in order for transaction to be processed"
+    },
+    "DU01": {
+      "isoName": "DuplicateMessageID",
+      "name": "Duplicate Message ID",
+      "definition": "Message Identification is not unique."
+    },
+    "DU02": {
+      "isoName": "DuplicatePaymentInformationID",
+      "name": "Duplicate Payment Information ID",
+      "definition": "Payment Information Block is not unique."
+    },
+    "DU03": {
+      "isoName": "DuplicateTransaction",
+      "name": "Duplicate Transaction",
+      "definition": "Transaction is not unique."
+    },
+    "DU04": {
+      "isoName": "DuplicateEndToEndID",
+      "name": "Duplicate End To End ID",
+      "definition": "End To End ID is not unique."
+    },
+    "DU05": {
+      "isoName": "DuplicateInstructionID",
+      "name": "Duplicate Instruction ID",
+      "definition": "Instruction ID is not unique."
+    },
+    "DUPL": {
+      "isoName": "DuplicatePaymentOrCharge",
+      "name": "Duplicate Payment Or Charge",
+      "definition": "Payment or charge is a duplicate of another payment or charge."
+    },
+    "ED01": {
+      "isoName": "CorrespondentBankNotPossible",
+      "name": "Correspondent Bank Not Possible",
+      "definition": "Correspondent bank not possible."
+    },
+    "ED03": {
+      "isoName": "BalanceInfoRequest",
+      "name": "Balance Info Request",
+      "definition": "Balance of payments complementary info is requested"
+    },
+    "ED05": {
+      "isoName": "SettlementFailed",
+      "name": "Settlement Failed",
+      "definition": "Settlement of the transaction has failed."
+    },
+    "ED06": {
+      "isoName": "SettlementSystemNotAvailable",
+      "name": "Settlement System Not Available",
+      "definition": "Interbank settlement system not available."
+    },
+    "ERIN": {
+      "isoName": "ERIOptionNotSupported",
+      "name": "ERI Option Not Supported",
+      "definition": "Extended Remittance Information (ERI) option is not supported."
+    },
+    "FF01": {
+      "isoName": "InvalidFileFormat",
+      "name": "Invalid File Format",
+      "definition": "File Format incomplete or invalid"
+    },
+    "FF02": {
+      "isoName": "SyntaxError",
+      "name": "Syntax Error",
+      "definition": "Syntax error reason is provided as narrative information in the additional reason information."
+    },
+    "FF03": {
+      "isoName": "InvalidPaymentTypeInformation",
+      "name": "Invalid Payment Type Information",
+      "definition": "Payment Type Information is missing or invalid.|Generic usage if cannot specify Service Level or Local Instrument code"
+    },
+    "FF04": {
+      "isoName": "InvalidServiceLevelCode",
+      "name": "Invalid Service Level Code",
+      "definition": "Service Level code is missing or invalid"
+    },
+    "FF05": {
+      "isoName": "InvalidLocalInstrumentCode",
+      "name": "Invalid Local Instrument Code",
+      "definition": "Local Instrument code is missing or invalid"
+    },
+    "FF06": {
+      "isoName": "InvalidCategoryPurposeCode",
+      "name": "Invalid Category Purpose Code",
+      "definition": "Category Purpose code is missing or invalid"
+    },
+    "FF07": {
+      "isoName": "InvalidPurpose",
+      "name": "Invalid Purpose",
+      "definition": "Purpose is missing or invalid"
+    },
+    "FF08": {
+      "isoName": "InvalidEndToEndId",
+      "name": "Invalid End To End Id",
+      "definition": "End to End Id missing or invalid"
+    },
+    "FF09": {
+      "isoName": "InvalidChequeNumber",
+      "name": "Invalid Cheque Number",
+      "definition": "Cheque number missing or invalid"
+    },
+    "FF10": {
+      "isoName": "BankSystemProcessingError",
+      "name": "Bank System Processing Error",
+      "definition": "File or transaction cannot be processed due to technical issues at the bank side"
+    },
+    "FF11": {
+      "isoName": "ClearingRequestAborted",
+      "name": "Clearing Request Aborted",
+      "definition": "Clearing request rejected due it being subject to an abort operation."
+    },
+    "G000": {
+      "isoName": "PaymentTransferredAndTracked",
+      "name": "Payment Transferred And Tracked",
+      "definition": "In an FI To FI Customer Credit Transfer: The Status Originator transferred the payment to the next Agent or to a Market Infrastructure. The payment transfer is tracked. No further updates will follow from the Status Originator.||In a Financial Institution Credit Transfer with cover: The Status Originator performed the account booking and transferred the cover transaction to the next Reimbursement Agent or to a Market Infrastructure. The payment transfer is tracked. No further updates will follow from the Status Originator."
+    },
+    "G001": {
+      "isoName": "PaymentTransferredAndNotTracked",
+      "name": "Payment Transferred And Not Tracked",
+      "definition": "In an FI To FI Customer Credit Transfer: The Status Originator transferred the payment to the next Agent or to a Market Infrastructure. The payment transfer is not tracked. No further updates will follow from the Status Originator.||In a Financial Institution Credit Transfer with cover: The Status Originator performed the account booking and transferred the cover transaction to the next Reimbursement Agent or to a Market Infrastructure. The payment transfer is not tracked. No further updates will follow from the Status Originator."
+    },
+    "G002": {
+      "isoName": "CreditDebitNotConfirmed",
+      "name": "Credit Debit Not Confirmed",
+      "definition": "In a FIToFI Customer Credit Transfer: Credit to the creditor’s account may not be confirmed same day. Update will follow from the Status Originator.|In a Financial Institution Credit Transfer with cover: Debit/credit to nostro account may not be confirmed same day or Financial Institution Credit Transfer may not be transferred same day. Update will follow from the Status Originator."
+    },
+    "G003": {
+      "isoName": "CreditPendingDocuments",
+      "name": "Credit Pending Documents",
+      "definition": "In a FIToFI Customer Credit Transfer: Credit to creditor’s account is pending receipt of required documents. The Status Originator has requested creditor to provide additional documentation. Update will follow from the Status Originator. |In a Financial Institution Credit Transfer with cover: Status Originator has requested a previous Agent to provide additional information/correct information. Update will follow from the Status Originator."
+    },
+    "G004": {
+      "isoName": "CreditPendingFunds",
+      "name": "Credit Pending Funds",
+      "definition": "In a FIToFI Customer Credit Transfer: Credit to the creditor’s account is pending, status Originator is waiting for funds provided via a cover. Update will follow from the Status Originator."
+    },
+    "G005": {
+      "isoName": "DeliveredWithServiceLevel",
+      "name": "Delivered With Service Level",
+      "definition": "Payment has been delivered to creditor agent with service level."
+    },
+    "G006": {
+      "isoName": "DeliveredWIthoutServiceLevel",
+      "name": "Delivered W Ithout Service Level",
+      "definition": "Payment has been delivered to creditor agent without service level."
+    },
+    "ID01": {
+      "isoName": "CorrespondingOriginalFileStillNotSent",
+      "name": "Corresponding Original File Still Not Sent",
+      "definition": "Signature file was sent to the bank but the corresponding original file has not been sent yet."
+    },
+    "MD01": {
+      "isoName": "NoMandate",
+      "name": "No Mandate",
+      "definition": "No Mandate"
+    },
+    "MD02": {
+      "isoName": "MissingMandatoryInformationInMandate",
+      "name": "Missing Mandatory Information In Mandate",
+      "definition": "Mandate related information data required by the scheme is missing."
+    },
+    "MD05": {
+      "isoName": "CollectionNotDue",
+      "name": "Collection Not Due",
+      "definition": "Creditor or creditor's agent should not have collected the direct debit"
+    },
+    "MD06": {
+      "isoName": "RefundRequestByEndCustomer",
+      "name": "Refund Request By End Customer",
+      "definition": "Return of funds requested by end customer"
+    },
+    "MD07": {
+      "isoName": "EndCustomerDeceased",
+      "name": "End Customer Deceased",
+      "definition": "End customer is deceased."
+    },
+    "MS02": {
+      "isoName": "NotSpecifiedReasonCustomerGenerated",
+      "name": "Not Specified Reason Customer Generated",
+      "definition": "Reason has not been specified by end customer"
+    },
+    "MS03": {
+      "isoName": "NotSpecifiedReasonAgentGenerated",
+      "name": "Not Specified Reason Agent Generated",
+      "definition": "Reason has not been specified by agent."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "NERI": {
+      "isoName": "NoERI",
+      "name": "No ERI",
+      "definition": "Credit transfer is tagged as an Extended Remittance Information (ERI) transaction but does not contain ERI."
+    },
+    "RC01": {
+      "isoName": "BankIdentifierIncorrect",
+      "name": "Bank Identifier Incorrect",
+      "definition": "Bank identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode)."
+    },
+    "RC02": {
+      "isoName": "InvalidBankIdentifier",
+      "name": "Invalid Bank Identifier",
+      "definition": "Bank identifier is invalid or missing.|Generic usage if cannot specify between debit or credit account"
+    },
+    "RC03": {
+      "isoName": "InvalidDebtorBankIdentifier",
+      "name": "Invalid Debtor Bank Identifier",
+      "definition": "Debtor bank identifier is invalid or missing"
+    },
+    "RC04": {
+      "isoName": "InvalidCreditorBankIdentifier",
+      "name": "Invalid Creditor Bank Identifier",
+      "definition": "Creditor bank identifier is invalid or missing"
+    },
+    "RC05": {
+      "isoName": "InvalidBICIdentifier",
+      "name": "Invalid BIC Identifier",
+      "definition": "BIC identifier is invalid or missing.|Generic usage if cannot specify between debit or credit account."
+    },
+    "RC06": {
+      "isoName": "InvalidDebtorBICIdentifier",
+      "name": "Invalid Debtor BIC Identifier",
+      "definition": "Debtor BIC identifier is invalid or missing"
+    },
+    "RC07": {
+      "isoName": "InvalidCreditorBICIdentifier",
+      "name": "Invalid Creditor BIC Identifier",
+      "definition": "Creditor BIC identifier is invalid or missing"
+    },
+    "RC08": {
+      "isoName": "InvalidClearingSystemMemberIdentifier",
+      "name": "Invalid Clearing System Member Identifier",
+      "definition": "ClearingSystemMemberidentifier is invalid or missing.|Generic usage if cannot specify between debit or credit account"
+    },
+    "RC09": {
+      "isoName": "InvalidDebtorClearingSystemMemberIdentifier",
+      "name": "Invalid Debtor Clearing System Member Identifier",
+      "definition": "Debtor ClearingSystemMember identifier is invalid or missing"
+    },
+    "RC10": {
+      "isoName": "InvalidCreditorClearingSystemMemberIdentifier",
+      "name": "Invalid Creditor Clearing System Member Identifier",
+      "definition": "Creditor ClearingSystemMember identifier is invalid or missing"
+    },
+    "RC11": {
+      "isoName": "InvalidIntermediaryAgent",
+      "name": "Invalid Intermediary Agent",
+      "definition": "Intermediary Agent is invalid or missing"
+    },
+    "RC12": {
+      "isoName": "MissingCreditorSchemeId",
+      "name": "Missing Creditor Scheme Id",
+      "definition": "Creditor Scheme Id is invalid or  missing"
+    },
+    "RCON": {
+      "isoName": "RMessageConflict",
+      "name": "R Message Conflict",
+      "definition": "Conflict with R-Message"
+    },
+    "RECI": {
+      "isoName": "ReceiverCustomerInformation",
+      "name": "Receiver Customer Information",
+      "definition": "Further information regarding the intended recipient."
+    },
+    "RF01": {
+      "isoName": "NotUniqueTransactionReference",
+      "name": "Not Unique Transaction Reference",
+      "definition": "Transaction reference is not unique within the message."
+    },
+    "RR01": {
+      "isoName": "MissingDebtorAccountOrIdentification",
+      "name": "Missing Debtor Account Or Identification",
+      "definition": "Specification of the debtor’s account or unique identification needed for reasons of regulatory requirements is insufficient or missing"
+    },
+    "RR02": {
+      "isoName": "MissingDebtorNameOrAddress",
+      "name": "Missing Debtor Name Or Address",
+      "definition": "Specification of the debtor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR03": {
+      "isoName": "MissingCreditorNameOrAddress",
+      "name": "Missing Creditor Name Or Address",
+      "definition": "Specification of the creditor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason"
+    },
+    "RR05": {
+      "isoName": "RegulatoryInformationInvalid",
+      "name": "Regulatory Information Invalid",
+      "definition": "Regulatory or Central Bank Reporting information missing, incomplete or invalid."
+    },
+    "RR06": {
+      "isoName": "TaxInformationInvalid",
+      "name": "Tax Information Invalid",
+      "definition": "Tax information missing, incomplete or invalid."
+    },
+    "RR07": {
+      "isoName": "RemittanceInformationInvalid",
+      "name": "Remittance Information Invalid",
+      "definition": "Remittance information structure does not comply with rules for payment type."
+    },
+    "RR08": {
+      "isoName": "RemittanceInformationTruncated",
+      "name": "Remittance Information Truncated",
+      "definition": "Remittance information truncated to comply with rules for payment type."
+    },
+    "RR09": {
+      "isoName": "InvalidStructuredCreditorReference",
+      "name": "Invalid Structured Creditor Reference",
+      "definition": "Structured creditor reference invalid or missing."
+    },
+    "RR10": {
+      "isoName": "InvalidCharacterSet",
+      "name": "Invalid Character Set",
+      "definition": "Character set supplied not valid for the country and payment type."
+    },
+    "RR11": {
+      "isoName": "InvalidDebtorAgentServiceID",
+      "name": "Invalid Debtor Agent Service ID",
+      "definition": "Invalid or missing identification of a bank proprietary service."
+    },
+    "RR12": {
+      "isoName": "InvalidPartyID",
+      "name": "Invalid Party ID",
+      "definition": "Invalid or missing identification required within a particular country or payment type."
+    },
+    "S000": {
+      "isoName": "ValidRequestForCancellationAcknowledged",
+      "name": "Valid Request For Cancellation Acknowledged",
+      "definition": "Request for Cancellation is acknowledged following validation."
+    },
+    "S001": {
+      "isoName": "UETRFlaggedForCancellation",
+      "name": "UETR Flagged For Cancellation",
+      "definition": "Unique End-to-end Transaction Reference (UETR) relating to a payment has been identified as being associated with a Request for Cancellation."
+    },
+    "S002": {
+      "isoName": "NetworkStopOfUETR",
+      "name": "Network Stop Of UETR",
+      "definition": "Unique End-to-end Transaction Reference (UETR) relating to a payment has been prevent from traveling across a messaging network."
+    },
+    "S003": {
+      "isoName": "RequestForCancellationForwarded",
+      "name": "Request For Cancellation Forwarded",
+      "definition": "Request for Cancellation has been forwarded to the payment processing/last payment processing agent."
+    },
+    "S004": {
+      "isoName": "RequestForCancellationDeliveryAcknowledgement",
+      "name": "Request For Cancellation Delivery Acknowledgement",
+      "definition": "Request for Cancellation has been acknowledged as delivered to payment processing/last payment processing agent."
+    },
+    "SL01": {
+      "isoName": "SpecificServiceOfferedByDebtorAgent",
+      "name": "Specific Service Offered By Debtor Agent",
+      "definition": "Due to specific service offered by the Debtor Agent."
+    },
+    "SL02": {
+      "isoName": "SpecificServiceOfferedByCreditorAgent",
+      "name": "Specific Service Offered By Creditor Agent",
+      "definition": "Due to specific service offered by the Creditor Agent."
+    },
+    "SL03": {
+      "isoName": "ServiceofClearingSystem",
+      "name": "Serviceof Clearing System",
+      "definition": "Due to a specific service offered by the clearing system."
+    },
+    "SL11": {
+      "isoName": "CreditorNotOnWhitelistOfDebtor",
+      "name": "Creditor Not On Whitelist Of Debtor",
+      "definition": "Whitelisting service offered by the Debtor Agent; Debtor has not included the Creditor on its “Whitelist” (yet). In the Whitelist the Debtor may list all allowed Creditors to debit Debtor bank account."
+    },
+    "SL12": {
+      "isoName": "CreditorOnBlacklistOfDebtor",
+      "name": "Creditor On Blacklist Of Debtor",
+      "definition": "Blacklisting service offered by the Debtor Agent; Debtor included the Creditor on his “Blacklist”. In the Blacklist the Debtor may list all Creditors not allowed to debit Debtor bank account."
+    },
+    "SL13": {
+      "isoName": "MaximumNumberOfDirectDebitTransactionsExceeded",
+      "name": "Maximum Number Of Direct Debit Transactions Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transactions per period service offered by the Debtor Agent."
+    },
+    "SL14": {
+      "isoName": "MaximumDirectDebitTransactionAmountExceeded",
+      "name": "Maximum Direct Debit Transaction Amount Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transaction amount service offered by the Debtor Agent."
+    },
+    "TA01": {
+      "isoName": "TransmissonAborted",
+      "name": "Transmisson Aborted",
+      "definition": "The transmission of the file was not successful – it had to be aborted (for technical reasons)"
+    },
+    "TD01": {
+      "isoName": "NoDataAvailable",
+      "name": "No Data Available",
+      "definition": "There is no data available (for download)"
+    },
+    "TD02": {
+      "isoName": "FileNonReadable",
+      "name": "File Non Readable",
+      "definition": "The file cannot be read (e.g. unknown format)"
+    },
+    "TD03": {
+      "isoName": "IncorrectFileStructure",
+      "name": "Incorrect File Structure",
+      "definition": "The file format is incomplete or invalid"
+    },
+    "TK01": {
+      "isoName": "TokenInvalid",
+      "name": "Token Invalid",
+      "definition": "Token is invalid."
+    },
+    "TK02": {
+      "isoName": "SenderTokenNotFound",
+      "name": "Sender Token Not Found",
+      "definition": "Token used for the sender does not exist."
+    },
+    "TK03": {
+      "isoName": "ReceiverTokenNotFound",
+      "name": "Receiver Token Not Found",
+      "definition": "Token used for the receiver does not exist."
+    },
+    "TK09": {
+      "isoName": "TokenMissing",
+      "name": "Token Missing",
+      "definition": "Token required for request is missing."
+    },
+    "TKCM": {
+      "isoName": "TokenCounterpartyMismatch",
+      "name": "Token Counterparty Mismatch",
+      "definition": "Token found with counterparty mismatch."
+    },
+    "TKSG": {
+      "isoName": "TokenSingleUse",
+      "name": "Token Single Use",
+      "definition": "Single Use Token already used."
+    },
+    "TKSP": {
+      "isoName": "TokenSuspended",
+      "name": "Token Suspended",
+      "definition": "Token found with suspended status."
+    },
+    "TKVE": {
+      "isoName": "TokenValueLimitExceeded",
+      "name": "Token Value Limit Exceeded",
+      "definition": "Token found with value limit rule violation."
+    },
+    "TKXP": {
+      "isoName": "TokenExpired",
+      "name": "Token Expired",
+      "definition": "Token expired."
+    },
+    "TM01": {
+      "isoName": "InvalidCutOffTime",
+      "name": "Invalid Cut Off Time",
+      "definition": "Associated message, payment information block, or transaction was received after agreed processing cut-off time."
+    },
+    "TS01": {
+      "isoName": "TransmissionSuccessful",
+      "name": "Transmission Successful",
+      "definition": "The (technical) transmission of the file was successful."
+    },
+    "TS04": {
+      "isoName": "TransferToSignByHand",
+      "name": "Transfer To Sign By Hand",
+      "definition": "The order was transferred to pass by accompanying note signed by hand"
+    },
+    "CN01": {
+      "isoName": "AuthorisationCancelled",
+      "name": "Authorisation Cancelled",
+      "definition": "Authorisation is cancelled."
+    },
+    "FOCR": {
+      "isoName": "FollowingCancellationRequest",
+      "name": "Following Cancellation Request",
+      "definition": "Return following a cancellation request."
+    },
+    "FR01": {
+      "isoName": "Fraud",
+      "name": "Fraud",
+      "definition": "Returned as a result of fraud."
+    },
+    "NOAS": {
+      "isoName": "NoAnswerFromCustomer",
+      "name": "No Answer From Customer",
+      "definition": "No response from Beneficiary."
+    },
+    "NOCM": {
+      "isoName": "NotCompliantGeneric",
+      "name": "Not Compliant Generic",
+      "definition": "Customer account is not compliant with regulatory requirements, for example FICA (in South Africa) or any other regulatory requirements which render an account inactive for certain processing."
+    },
+    "RUTA": {
+      "isoName": "ReturnUponUnableToApply",
+      "name": "Return Upon Unable To Apply",
+      "definition": "Return following investigation request and no remediation possible."
+    },
+    "UPAY": {
+      "isoName": "UnduePayment",
+      "name": "Undue Payment",
+      "definition": "Payment is not justified."
+    },
+    "AEXR": {
+      "isoName": "AlreadyExpiredRTP",
+      "name": "Already Expired RTP",
+      "definition": "Request-to-pay Expiry Date and Time has already passed."
+    },
+    "ALAC": {
+      "isoName": "AlreadyAcceptedRTP",
+      "name": "Already Accepted RTP",
+      "definition": "Request-to-pay has already been accepted by the Debtor."
+    },
+    "ARFR": {
+      "isoName": "AlreadyRefusedRTP",
+      "name": "Already Refused RTP",
+      "definition": "Request-to-pay has already been refused by the Debtor."
+    },
+    "ARJR": {
+      "isoName": "AlreadyRejectedRTP",
+      "name": "Already Rejected RTP",
+      "definition": "Request-to-pay has already been rejected."
+    },
+    "ATNS": {
+      "isoName": "AttachementsNotSupported",
+      "name": "Attachements Not Supported",
+      "definition": "Attachments to the request-to-pay are not supported."
+    },
+    "EDTL": {
+      "isoName": "ExpiryDateTooLong",
+      "name": "Expiry Date Too Long",
+      "definition": "Expiry date time of the request-to-pay is too far in the future."
+    },
+    "EDTR": {
+      "isoName": "ExpiryDateTimeReached",
+      "name": "Expiry Date Time Reached",
+      "definition": "Expiry date time of the request-to-pay is already reached."
+    },
+    "FRAD": {
+      "isoName": "FraudulentOrigin",
+      "name": "Fraudulent Origin",
+      "definition": "Cancellation requested following a transaction that was originated fraudulently. The use of the FraudulentOrigin code should be governed by jurisdictions."
+    },
+    "IEDT": {
+      "isoName": "IncorrectExpiryDateTime",
+      "name": "Incorrect Expiry Date Time",
+      "definition": "Expiry date time of the request-to-pay is incorrect."
+    },
+    "IRNR": {
+      "isoName": "InitialRTPNeverReceived",
+      "name": "Initial RTP Never Received",
+      "definition": "No initial request-to-pay has been received."
+    },
+    "NOAR": {
+      "isoName": "NonAgreedRTP",
+      "name": "Non Agreed RTP",
+      "definition": "No existing agreement for receiving request-to-pay messages."
+    },
+    "NOPG": {
+      "isoName": "NoPaymentGuarantee",
+      "name": "No Payment Guarantee",
+      "definition": "Requested payment guarantee (by Creditor) related to a request-to-pay cannot be provided."
+    },
+    "NRCH": {
+      "isoName": "PayerOrPayerRTPSPNotReachable",
+      "name": "Payer Or Payer RTPSP Not Reachable",
+      "definition": "Recipient side of the request-to-pay (payer or its request-to-pay service provider) is not reachable."
+    },
+    "PINS": {
+      "isoName": "TypeOfPaymentInstrumentNotSupported",
+      "name": "Type Of Payment Instrument Not Supported",
+      "definition": "Type of payment requested in the request-to-pay is not supported by the payer."
+    },
+    "REPR": {
+      "isoName": "RTPReceivedCanBeProcessed",
+      "name": "RTP Received Can Be Processed",
+      "definition": "Request-to-pay has been received and can be processed further."
+    },
+    "RTNS": {
+      "isoName": "RTPNotSupportedForDebtor",
+      "name": "RTP Not Supported For Debtor",
+      "definition": "Debtor does not support request-to-pay transactions."
+    },
+    "SPII": {
+      "isoName": "RTPServiceProviderIdentifierIncorrect",
+      "name": "RTP Service Provider Identifier Incorrect",
+      "definition": "Identifier of the request-to-pay service provider is incorrect."
+    },
+    "UCRD": {
+      "isoName": "UnknownCreditor",
+      "name": "Unknown Creditor",
+      "definition": "Unknown Creditor."
+    },
+    "FF12": {
+      "isoName": "OriginalTransactionNotEligibleForRequestedReturn",
+      "name": "Original Transaction Not Eligible For Requested Return",
+      "definition": "Original payment is not eligible to be returned given its current status."
+    },
+    "FF13": {
+      "isoName": "RequestForCancellationNotFound",
+      "name": "Request For Cancellation Not Found",
+      "definition": "No record of request for cancellation found."
+    },
+    "DC02": {
+      "isoName": "SettlementNotReceived",
+      "name": "Settlement Not Received",
+      "definition": "Rejection of a payment due to covering FI settlement not being received."
+    },
+    "APAR": {
+      "isoName": "AlreadyPaidRTP",
+      "name": "Already Paid RTP",
+      "definition": "Request To Pay has already been paid by the Debtor."
+    },
+    "AB26": {
+      "isoName": "InvalidBatchSettlementInstruction",
+      "name": "Invalid Batch Settlement Instruction",
+      "definition": "Settlement Instruction does not exist."
+    },
+    "AB12": {
+      "isoName": "InvalidConcurrentBatch",
+      "name": "Invalid Concurrent Batch",
+      "definition": "Duplicate Concurrent Batch Sequence number– for Settlement Instructions."
+    },
+    "AB13": {
+      "isoName": "InvalidRoutingCodeUtilised",
+      "name": "Invalid Routing Code Utilised",
+      "definition": "Wrong Message Routing Type for Return-of-Funds."
+    },
+    "AB15": {
+      "isoName": "InvalidAccountNumberForSettlementType",
+      "name": "Invalid Account Number For Settlement Type",
+      "definition": "Instruction may not be placed on the Continuous Processing Line settlement processor."
+    },
+    "AB21": {
+      "isoName": "InvalidSettlementAgreementNumberSpecified",
+      "name": "Invalid Settlement Agreement Number Specified",
+      "definition": "Agreement number not valid (beneficiary)."
+    },
+    "BDAY": {
+      "isoName": "NotBusinessDay",
+      "name": "Not Business Day",
+      "definition": "Settlement Cycle Day and Calendar day should be the same."
+    },
+    "DS28": {
+      "isoName": "ReturnForTechnicalReason",
+      "name": "Return For Technical Reason",
+      "definition": "Message routed to the wrong environment."
+    },
+    "INDT": {
+      "isoName": "InvalidDetails",
+      "name": "Invalid Details",
+      "definition": "Details not valid for this field."
+    },
+    "ISWS": {
+      "isoName": "InvalidSettlementWindow",
+      "name": "Invalid Settlement Window",
+      "definition": "Cannot schedule instruction for Night Window."
+    },
+    "MINF": {
+      "isoName": "MissingInformation",
+      "name": "Missing Information",
+      "definition": "Information missing for the field or cannot be empty."
+    },
+    "NOFR": {
+      "isoName": "OutstandingFundingForSettlement",
+      "name": "Outstanding Funding For Settlement",
+      "definition": "Continuous Processing Line on Hold Instruction."
+    },
+    "RC13": {
+      "isoName": "ParticipantNotAnActiveMemberofRTGS",
+      "name": "Participant Not An Active Memberof RTGS",
+      "definition": "Originator not active any more."
+    },
+    "RC15": {
+      "isoName": "ParticipantNotActiveMemberSettlementType",
+      "name": "Participant Not Active Member Settlement Type",
+      "definition": "Settlement agreement required."
+    },
+    "RC16": {
+      "isoName": "ParticipantNotActiveMemberofSADCRTGS",
+      "name": "Participant Not Active Memberof SADCRTGS",
+      "definition": "Participant blocked from SADC-RTGS."
+    },
+    "SBRN": {
+      "isoName": "SettlementBatchRemovalNotification",
+      "name": "Settlement Batch Removal Notification",
+      "definition": "Remove Concurrent Batch Processing Line on hold instruction."
+    },
+    "RQNR": {
+      "isoName": "RequestNotRecognized",
+      "name": "Request Not Recognized",
+      "definition": "Payer did not recognize the request from Payee Participant,"
+    },
+    "SNRD": {
+      "isoName": "ServiceNotRendered",
+      "name": "Service Not Rendered",
+      "definition": "Services are not yet rendered by the Payee Participant (Creditor)."
+    },
+    "OSNS": {
+      "isoName": "OptionalServiceNotSupported",
+      "name": "Optional Service Not Supported",
+      "definition": "Requested optional service (for example instalment payments) is not supported."
+    },
+    "AMSE": {
+      "isoName": "AttachmentMaximumSize",
+      "name": "Attachment Maximum Size",
+      "definition": "Size of the attachment exceeds the allowed maximum."
+    },
+    "INAR": {
+      "isoName": "InvalidActivationReference",
+      "name": "Invalid Activation Reference",
+      "definition": "Payer’s activation reference is invalid."
+    },
+    "EDNA": {
+      "isoName": "ExecutionDateNotAccepted",
+      "name": "Execution Date Not Accepted",
+      "definition": "Requested execution date of the payment is not accepted."
+    },
+    "SL15": {
+      "isoName": "MaximumNumberOfCreditTransactionsExceeded",
+      "name": "Maximum Number Of Credit Transactions Exceeded",
+      "definition": "Maximum number of credit transactions allowed by the account servicer per service period exceeded."
+    },
+    "SL16": {
+      "isoName": "MaximumCreditTransactionsAmountExceeded",
+      "name": "Maximum Credit Transactions Amount Exceeded",
+      "definition": "Maximum total credit amount allowed by the account servicer per service period exceeded."
+    },
+    "SL17": {
+      "isoName": "DebtorNotOnWhitelistOfCreditorSide",
+      "name": "Debtor Not On Whitelist Of Creditor Side",
+      "definition": "Whitelisting service offered by payment system operator or financial institution. Debtor is not included on the Creditor side whitelist."
+    },
+    "SL18": {
+      "isoName": "DebtorOnBlacklistOfCreditorSide",
+      "name": "Debtor On Blacklist Of Creditor Side",
+      "definition": "Blacklisting service offered by payment system operator or financial institution. Debtor included on the Creditor side blacklist."
+    },
+    "CHRG": {
+      "isoName": "UnderlyingChargeBearerWasNotDebt",
+      "name": "Underlying Charge Bearer Was Not Debt",
+      "definition": "Related to a Charge message to convey that the charge bearer code used in the corresponding Payment message was not debt."
+    },
+    "CHCO": {
+      "isoName": "UnacceptedChargeCodeType",
+      "name": "Unaccepted Charge Code Type",
+      "definition": "Related to a Charge message to convey that the code in Charge Breakdown / Type / Code is not accepted by the receiving party."
+    },
+    "IPNS": {
+      "isoName": "InstalmentPaymentsNotSupported",
+      "name": "Instalment Payments Not Supported",
+      "definition": "Payments in instalments are not supported."
+    },
+    "CNNS": {
+      "isoName": "CreditNotesNotSupported",
+      "name": "Credit Notes Not Supported",
+      "definition": "Credit notes are not supported."
+    },
+    "EOL1": {
+      "isoName": "EndOfLife",
+      "name": "End Of Life",
+      "definition": "Expiration of the payment authorisation due to no use for too long."
+    },
+    "PNRT": {
+      "isoName": "PaymentNotAlignedWithRTPRequest",
+      "name": "Payment Not Aligned With RTP Request",
+      "definition": "Error code used for RTP-initiated CTR when the pacs.008 details are not aligned with the pain.013 request."
+    },
+    "OBO1": {
+      "isoName": "SettlementCompletedReportedOnBehalfOfCreditorAgentWithAmount",
+      "name": "Settlement Completed Reported On Behalf Of Creditor Agent With Amount",
+      "definition": "Settlement of the transaction has been completed and is reported by an intermediary agent or Payment Market Infrastructure on behalf of the Creditor Agent. The credited amount is known."
+    },
+    "OBO2": {
+      "isoName": "SettlementCompletedReportedOnBehalfOfCreditorAgentWithoutAmount",
+      "name": "Settlement Completed Reported On Behalf Of Creditor Agent Without Amount",
+      "definition": "Settlement of the transaction has been completed and is reported by an intermediary agent or Payment Market Infrastructure on behalf of the Creditor Agent. The credited amount is not known."
+    },
+    "G007": {
+      "isoName": "PaymentPassedByPaymentMarketInfrastructure",
+      "name": "Payment Passed By Payment Market Infrastructure",
+      "definition": "The payment has been passed by the Payment Market Infrastructure to the next agent in the payment chain; receipt has not yet been confirmed."
+    },
+    "G008": {
+      "isoName": "PaymentReceivedByNextAgentViaPaymentMarketInfrastructure",
+      "name": "Payment Received By Next Agent Via Payment Market Infrastructure",
+      "definition": "The payment has been received by the next agent via the Payment Market Infrastructure."
+    },
+    "IMCC": {
+      "isoName": "InvalidMerchantCategoryCode",
+      "name": "Invalid Merchant Category Code",
+      "definition": "Invalid Merchant Category Code"
+    },
+    "IUCT": {
+      "isoName": "InvalidUseCaseType",
+      "name": "Invalid Use Case Type",
+      "definition": "Invalid Use Case Type"
+    },
+    "INCT": {
+      "isoName": "InvalidChannelType",
+      "name": "Invalid Channel Type",
+      "definition": "Invalid Channel Type"
+    },
+    "AEML": {
+      "isoName": "AmountExceedsMaxLimit",
+      "name": "Amount Exceeds Max Limit",
+      "definition": "Requested amount exceeds the limit set by Debtor (Agent)"
+    },
+    "WGDA": {
+      "isoName": "WrongDebtorAgent",
+      "name": "Wrong Debtor Agent",
+      "definition": "Wrong Debtor Agent in charge request message"
+    },
+    "WGDB": {
+      "isoName": "WrongDebtor",
+      "name": "Wrong Debtor",
+      "definition": "Wrong Debtor in charge request message"
+    },
+    "UTNV": {
+      "isoName": "UnderlyingTransactionNotValid",
+      "name": "Underlying Transaction Not Valid",
+      "definition": "Referenced transaction not found"
+    },
+    "MICT": {
+      "isoName": "MultipleIdenticalChargeTypes",
+      "name": "Multiple Identical Charge Types",
+      "definition": "Multiple identical Charge Types in Charge Breakdown"
+    },
+    "GUAG": {
+      "isoName": "GuaranteedAgreementBreached",
+      "name": "Guaranteed Agreement Breached",
+      "definition": "Guaranteed Agreement with Correspondent, therefore Correspondent is the liable party"
+    }
+  }
+}

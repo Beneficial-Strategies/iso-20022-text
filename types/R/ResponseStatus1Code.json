@@ -1,0 +1,28 @@
+{
+  "isoType": "ResponseStatus1Code",
+  "language": "en",
+  "name": "Response Status 1 Code",
+  "definition": "Specifies the status of the received collateral message (collateral claim, a collateral proposal or a proposal/request for collateral substitution) from a collateral management perspective.",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "PartlyAccepted",
+      "name": "Partly Accepted",
+      "definition": "Part of the collateral is accepted, a part rejected."
+    },
+    "ACCT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Claim, substitution, proposal is fully accepted."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Claim, substitution, proposal is fully rejected."
+    },
+    "SUBR": {
+      "isoName": "SubstitutionAccepted",
+      "name": "Substitution Accepted",
+      "definition": "Party A agrees with the return part of the substitution and accepts to wait for the proposal of the new collateral."
+    }
+  }
+}

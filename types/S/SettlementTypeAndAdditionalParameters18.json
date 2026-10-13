@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters18",
+  "language": "en",
+  "name": "Settlement Type And Additional Parameters 18",
+  "definition": "Provides transaction type and identification information.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "ReconciliationIndicator": {
+      "name": "Reconciliation Indicator",
+      "definition": "Indicates whether the settlement transaction was already sent on the market and that it is only sent by an account owner to an account servicer for reconciliation purposes."
+    }
+  }
+}

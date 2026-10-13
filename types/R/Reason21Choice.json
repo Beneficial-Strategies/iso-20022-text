@@ -1,0 +1,65 @@
+{
+  "isoType": "Reason21Choice",
+  "language": "en",
+  "name": "Reason 21 Choice",
+  "definition": "Choice of reason.",
+  "isoElements": {
+    "RepoCallAcknowledgementReason": {
+      "name": "Repo Call Acknowledgement Reason",
+      "definition": "Specifies additional information on the repurchase agreement call request acknowledgement."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Specifies the reason why the related instruction is cancelled, or the related cancellation request is executed."
+    },
+    "PendingCancellationReason": {
+      "name": "Pending Cancellation Reason",
+      "definition": "Specifies the reason why the cancellation request is pending."
+    },
+    "GeneratedReason": {
+      "name": "Generated Reason",
+      "definition": "Specifies the reason why the transaction was generated."
+    },
+    "DeniedReason": {
+      "name": "Denied Reason",
+      "definition": "Specifies the reason why the request was denied."
+    },
+    "AcknowledgedAcceptedReason": {
+      "name": "Acknowledged Accepted Reason",
+      "definition": "Specifies additional information about the processed instruction."
+    },
+    "PendingReason": {
+      "name": "Pending Reason",
+      "definition": "Specifies the reason why the instruction has a pending status."
+    },
+    "FailingReason": {
+      "name": "Failing Reason",
+      "definition": "Specifies the reason why the instruction has a failing settlement status."
+    },
+    "PendingProcessingReason": {
+      "name": "Pending Processing Reason",
+      "definition": "Specifies the reason why the instruction has a pending processing status."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Specifies the reason why the instruction/request has a rejected status."
+    },
+    "RepairReason": {
+      "name": "Repair Reason",
+      "definition": "Specifies the reason why the instruction is in repair."
+    },
+    "PendingModificationReason": {
+      "name": "Pending Modification Reason",
+      "definition": "Specifies the reason why the modification request is pending."
+    },
+    "UnmatchedReason": {
+      "name": "Unmatched Reason",
+      "definition": "Specifies the reason why the instruction has an unmatched status."
+    }
+  },
+  "isoRules": {
+    "ReasonRule": {
+      "definition": "If the reason is requested, then it must be in line with the reasons available for the message type requested."
+    }
+  }
+}

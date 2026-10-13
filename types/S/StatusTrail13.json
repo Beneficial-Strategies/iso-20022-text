@@ -1,0 +1,52 @@
+{
+  "isoType": "StatusTrail13",
+  "language": "en",
+  "name": "Status Trail 13",
+  "definition": "Provides the history of status and reasons for a pending, posted or cancelled transaction.",
+  "isoElements": {
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "SendingOrganisationIdentification": {
+      "name": "Sending Organisation Identification",
+      "definition": "Unique and unambiguous way to identify the organisation that sent the message instance."
+    },
+    "UserIdentification": {
+      "name": "User Identification",
+      "definition": "Unique and unambiguous way to identify the user that created the message instance."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides details on the processing status of the transaction."
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": "Provides the matching status of an instruction as per the account servicer or the Market Infrastructure based on an allegement. At this time no matching took place on the market (at the CSD/ICSD/MI)."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "ModificationProcessingStatus": {
+      "name": "Modification Processing Status",
+      "definition": "Provides details on the modification processing status of the transaction."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Provides details on the processing status of the cancellation request."
+    },
+    "Settled": {
+      "name": "Settled",
+      "definition": "Status is settled."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

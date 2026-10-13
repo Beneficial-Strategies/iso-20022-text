@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionOption202",
+  "language": "en",
+  "name": "Corporate Action Option 202",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "InstructedQuantity": {
+      "name": "Instructed Quantity",
+      "definition": "Quantity of securities to which this instruction applies."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "For differentiation between options, the OptionNumber must be used (preferred rather than the OptionType for example in the case where two or more offers can be described by the same corporate action option code). Therefore, the OptionNumber value must be different for each option."
+    },
+    "OptionNumber2Rule": {
+      "definition": "When the CorporateActionInstruction is unsolicited, that is, the instruction has not been preceded by an Corporate ActionNotification, then OptionNumber/code must be UNSO (unsolicited)."
+    }
+  }
+}

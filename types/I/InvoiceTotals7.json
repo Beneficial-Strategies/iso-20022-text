@@ -1,0 +1,28 @@
+{
+  "isoType": "InvoiceTotals7",
+  "language": "en",
+  "name": "Invoice Totals 7",
+  "definition": "Specifies totals related to the invoice.",
+  "isoElements": {
+    "Tax": {
+      "name": "Tax",
+      "definition": "Detailed information on tax applied."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on invoice amount taking into account discounts, allowances and charges."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice adjustment amount (discounts, allowances and charges) and total tax amounts."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Due date for the payment of the invoice."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account from which the fees are paid."
+    }
+  }
+}

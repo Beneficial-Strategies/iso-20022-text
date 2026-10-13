@@ -1,0 +1,23 @@
+{
+  "isoType": "OrderOriginatorEligibility1Code",
+  "language": "en",
+  "name": "Order Originator Eligibility 1 Code",
+  "definition": "Specifies the type of the counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties.",
+  "isoCodes": {
+    "ELIG": {
+      "isoName": "Eligible",
+      "name": "Eligible",
+      "definition": "Eligible counterparty - MiFID classification of counterparty. Eligible customers are the most sophisticated level of investor, able to opt out of some the protections afforded by conduct of business rules defined under MiFID."
+    },
+    "RETL": {
+      "isoName": "Retail",
+      "name": "Retail",
+      "definition": "Retail client - MiFID classification of counterparty. Retail customers are the least sophisticated level of investor."
+    },
+    "PROF": {
+      "isoName": "Professional",
+      "name": "Professional",
+      "definition": "Professional client - MiFID classification of counterparty. Professional customers are, for example, investment firms, credit institutions, insurance companies."
+    }
+  }
+}

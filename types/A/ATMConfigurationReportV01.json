@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMConfigurationReportV01",
+  "language": "en",
+  "name": "ATM Configuration Report V 01",
+  "definition": "The ATMConfigurationReport is sent by an ATM to a maintenance host to report the version of the configuration which is active.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMConfigurationReport": {
+      "name": "Protected ATM Configuration Report",
+      "definition": ""
+    },
+    "ATMConfigurationReport": {
+      "name": "ATM Configuration Report",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionPrice96",
+  "language": "en",
+  "name": "Corporate Action Price 96",
+  "definition": "Specifies various prices of a corporate action.",
+  "isoElements": {
+    "MaximumPrice": {
+      "name": "Maximum Price",
+      "definition": "Maximum or cap price at which a holder can bid, for example, on a Dutch auction offer."
+    },
+    "MinimumPrice": {
+      "name": "Minimum Price",
+      "definition": "Minimum or floor price at which a holder can bid, for example, on a Dutch auction offer."
+    },
+    "FirstBidIncrementPrice": {
+      "name": "First Bid Increment Price",
+      "definition": "First acceptable price after the Minimum Price at which a holder can bid, for example on a Dutch auction offer."
+    },
+    "LastBidIncrementPrice": {
+      "name": "Last Bid Increment Price",
+      "definition": "Last acceptable price before the Maximum Price at which a holder can bid, for example on a Dutch auction offer."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "CustomerPaymentReversalV13",
+  "language": "en",
+  "name": "Customer Payment Reversal V 13",
+  "definition": "Scope|The CustomerPaymentReversal message is sent by the initiating party to the next party in the payment chain. It is used to reverse a payment previously executed.|Usage|The CustomerPaymentReversal message is exchanged between a non-financial institution customer and an agent to reverse a CustomerDirectDebitInitiation message that has been settled. The result will be a credit on the debtor account.|The CustomerPaymentReversal message refers to the original CustomerDirectDebitInitiation message by means of references only or by means of references and a set of elements from the original instruction.|The CustomerPaymentReversal message can be used in domestic and cross-border scenarios.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": ""
+    },
+    "OriginalPaymentInformationAndReversal": {
+      "name": "Original Payment Information And Reversal",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "GroupReversalAndPaymentInformationNotPresentRule": {
+      "definition": "If GroupHeader/GroupReversal is true, then OriginalPaymentInformationAndReversal is not allowed."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "If GroupHeader/GroupReversal is true, then OriginalGroupInformation/ReversalReasonInformation/Reason must present."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "If GroupHeader/GroupReversal is false and OriginalPaymentInformationAndReversal[*]/PaymentInformationReversal is false, then NumberOfTransactions must equal the number of occurrences of OriginalPaymentInformationAndReversal[*]/TransactionInformation."
+    },
+    "GroupReversalAndPaymentInformationPresentRule": {
+      "definition": "If GroupHeader/GroupReversal is false, then at least one occurrence of OriginalPaymentInformationAndReversal must be present."
+    },
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}
