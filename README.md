@@ -13,11 +13,8 @@ repository per language, so that the people who care for a language have their o
 
 **[SPECIFICATION.md](SPECIFICATION.md)** is the convention for finding any localized name or definition (draft).
 
-`languages.json` pins the release (a commit) of each language that this hub serves. The hub builds the files a text host serves from those
-pinned versions and the library's source artifact (the English), and deploys them, so that the library can load the text of a language at run
-time from a text host instead of carrying it. The design and the proof of concept are described in
-[Iso20022Headless: docs/text-packs-poc.md](https://github.com/Beneficial-Strategies/Iso20022Headless/blob/poc/text-packs/docs/text-packs-poc.md)
-(on the `poc/text-packs` branch until it is merged).
+Each language repository deploys its own text host; the library and tools load the text of a language at run time from that host instead of carrying it
+(see Deployment below). There is no list of releases here: a language host is whatever its repository's `main` branch built last.
 
 ## What is here
 
