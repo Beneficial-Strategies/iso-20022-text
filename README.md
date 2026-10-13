@@ -40,6 +40,14 @@ so an error message for a malformed BIC is the same in a UI, a C# API or any oth
 
 Coverage so far: `pain.001.001.13` and the 170 types it uses.
 
+## Deployment
+
+Each repository deploys its own text host as a Cloudflare Worker with static assets (no Worker code), using Cloudflare Workers Builds: the `main` branch
+deploys, other branches get preview addresses. The host names are `https://iso-20022-text-{language}.beneficialstrategies.com`, the tag in lower case.
+This repository deploys `en`, the ISO English as published (`wrangler.jsonc`, built by `node build/build.mjs --out site`). The language repositories fetch
+this one when they build, so a change here reaches a language host the next time that language's repository builds (`HUB_REF` and `HUB_REPO` choose another
+version of this repository, for a preview). `iso-20022-text.beneficialstrategies.com` itself is not a language host.
+
 ## Status, license and warranty
 
 This text and everything in these repositories are provided **free of charge and as is**, under the MIT license (see `LICENSE`), without warranty

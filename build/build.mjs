@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Builds a text host: the files a static host serves for one language, at the paths of the convention (no file extensions).
-//   node build/build.mjs --spoke <language repository> --out <folder>
+//   node build/build.mjs [--spoke <language repository>] --out <folder>
 //   /{TypeName}  /{message identifier}  /messages  /areas  /coverage  /manifest  /_headers
 // (`/id/{repositoryId}` is not built yet: the hub does not carry repository ids.)
 import { execFileSync } from 'node:child_process';
@@ -12,9 +12,10 @@ import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const arg = (name, fallback) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : fallback; };
-const spoke = resolve(arg('spoke'));
 const out = resolve(arg('out'));
 const hub = resolve(arg('hub', join(here, '..')));
+// without --spoke: the hub's own language, the ISO English
+const spoke = resolve(arg('spoke', join(hub, 'build', 'en')));
 const read = (f) => JSON.parse(readFileSync(f, 'utf8'));
 const write = (path, value) => { mkdirSync(dirname(path), { recursive: true }); writeFileSync(path, JSON.stringify(value, null, 2) + '\n'); };
 

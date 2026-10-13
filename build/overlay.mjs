@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Builds what a language host serves: the hub's text, then the language repository's glossary rules, then its explicit entries.
-//   node build/overlay.mjs --spoke <language repository> --out <folder> [--hub <hub folder, default: this repository>]
+//   node build/overlay.mjs [--spoke <language repository>] --out <folder> [--hub <hub folder, default: this repository>]
 // Names and dropdown values (code names) are never stored in a language repository: they are computed here, so a change to the glossary reaches all of them.
 // The language tag comes from the spoke's text.config.json. Nothing is read from or written to the hub or the spoke.
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
@@ -9,7 +9,8 @@ import { fileURLToPath } from 'node:url';
 
 const arg = (name, fallback) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : fallback; };
 const hub = resolve(arg('hub', join(dirname(fileURLToPath(import.meta.url)), '..')));
-const spoke = resolve(arg('spoke'));
+// without --spoke: the hub's own language, the ISO English (build/en has only the language tag)
+const spoke = resolve(arg('spoke', join(hub, 'build', 'en')));
 const out = resolve(arg('out'));
 const read = (f) => JSON.parse(readFileSync(f, 'utf8'));
 const lang = read(join(spoke, 'text.config.json')).lang;
