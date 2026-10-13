@@ -1,0 +1,20 @@
+{
+  "isoType": "GetAccountV08",
+  "language": "en",
+  "name": "Get Account V 08",
+  "definition": "Scope|The GetAccount message is sent by a member to the transaction administrator.|It is used to request information on the details of one or more accounts held at the transaction administrator, including information on the balances.|Usage|At any time during the operating hours of the system, the member can query the transaction administrator to get information about the account(s) that the transaction administrator maintains for the member.|For example, this may be necessary in order to perform the appropriate liquidity management and the funds transfers between accounts.|The member can request information about accounts through a series of criteria, corresponding to the known information stored at the transaction administrator.|The query can concern one or more specific accounts, accounts of a particular identification, or a particular type. The purpose of the query may be to obtain one or more types of balance.|The member can request information based on the following elements:|- account identification|- account type (this element can be used to refine the query when the account identification represents, for example, a group of accounts)|- balance type (if not present, all balances are requested)|- type of counterparty: bilateral or multilateral (note that, by default, a balance is multilateral unless a particular counterparty is specified)|- identification of the counterparty when a bilateral balance is requested|- balance value date (if not present in the GetAccount message, the ReturnAccount message will contain the latest available balance)|This message will be answered by a ReturnAccount message.|Additional information on the generic design of the Get/Return messages can be found in the section How to Use the Cash Management Messages.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "AccountQueryDefinition": {
+      "name": "Account Query Definition",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

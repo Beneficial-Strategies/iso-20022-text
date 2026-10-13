@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalChargeType1Code",
+  "language": "en",
+  "name": "External Charge Type 1 Code",
+  "definition": "Specifies the nature, or use, of the charges in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BRKF": {
+      "isoName": "BrokerageFee",
+      "name": "Brokerage Fee",
+      "definition": "Fee paid to a broker for services provided."
+    },
+    "BTCH": {
+      "isoName": "Batch",
+      "name": "Batch",
+      "definition": "Fee paid for processing a batch of transactions."
+    },
+    "COMM": {
+      "isoName": "Commission",
+      "name": "Commission",
+      "definition": "Fee paid for services provided."
+    },
+    "SUMM": {
+      "isoName": "Summation",
+      "name": "Summation",
+      "definition": "Summation of individual fees."
+    },
+    "AMND": {
+      "isoName": "Amendment",
+      "name": "Amendment",
+      "definition": "Payment order was changed based on request to do so from the (original) sending bank or as a result of receiving amended information from the (original) sending bank."
+    },
+    "CFEE": {
+      "isoName": "CancellationFee",
+      "name": "Cancellation Fee",
+      "definition": "Used when fees are assessed for cancellation of a payment."
+    },
+    "CLEF": {
+      "isoName": "ClearingFee",
+      "name": "Clearing Fee",
+      "definition": "Used when fees are assessed for standard processing of financial institution type transfers."
+    },
+    "INVS": {
+      "isoName": "Investigation",
+      "name": "Investigation",
+      "definition": "Charges related to the processing of an investigation case/inquiry."
+    },
+    "INTE": {
+      "isoName": "Interest",
+      "name": "Interest",
+      "definition": "Interest related charges."
+    },
+    "NSTP": {
+      "isoName": "NonSTPCharges",
+      "name": "Non STP Charges",
+      "definition": "Charge for a payment that required an intervention during processing."
+    },
+    "DEBT": {
+      "isoName": "BorneByDebtor",
+      "name": "Borne By Debtor",
+      "definition": "Claim is being submitted in response to receiving a customer credit transfer with DEBT in Charge Bearer code."
+    },
+    "TELE": {
+      "isoName": "TelecommunicationCharges",
+      "name": "Telecommunication Charges",
+      "definition": "Charges relating to the most appropriate and efficient means of telecommunications available, for example, SWIFT, telex, telephone, facsimile, as determined by the party executing the payment instruction."
+    },
+    "ACCM": {
+      "isoName": "AccMaintenanceFee",
+      "name": "Acc Maintenance Fee",
+      "definition": "Account maintenance fee."
+    },
+    "RECH": {
+      "isoName": "ReportingCharges",
+      "name": "Reporting Charges",
+      "definition": "Charge for a reporting message (camt.05X)."
+    }
+  }
+}

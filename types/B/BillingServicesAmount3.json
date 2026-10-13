@@ -1,0 +1,16 @@
+{
+  "isoType": "BillingServicesAmount3",
+  "language": "en",
+  "name": "Billing Services Amount 3",
+  "definition": "Taxable service charge amount conversions to host currency.",
+  "isoElements": {
+    "SourceAmount": {
+      "name": "Source Amount",
+      "definition": "Represents the total of all taxable services in a specific tax region for a specific currency. For example, all taxable services for a tax region in Euro would be totalled here in the Euro currency."
+    },
+    "HostAmount": {
+      "name": "Host Amount",
+      "definition": "Represents the total of all taxable services in a specific tax region for a specific currency and is a one-to-one relationship with total taxable charge of services, but represented in the host currency after conversion."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "CancellationStatusAndReason5",
+  "language": "en",
+  "name": "Cancellation Status And Reason 5",
+  "definition": "Status of a transfer cancellation instruction and reason for the status.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identification of the transfer, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for a transfer cancellation, as assigned by the instructing party."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the transfer cancellation."
+    },
+    "StatusInitiator": {
+      "name": "Status Initiator",
+      "definition": "Party that initiates the status."
+    }
+  }
+}

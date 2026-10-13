@@ -1,0 +1,52 @@
+{
+  "isoType": "CorporateActionDate4",
+  "language": "en",
+  "name": "Corporate Action Date 4",
+  "definition": "Specifies corporate action dates.",
+  "isoElements": {
+    "CouponClippingDate": {
+      "name": "Coupon Clipping Date",
+      "definition": "Date/time at which the coupons are to be/were submitted for payment of interest."
+    },
+    "ConsentExpirationDate": {
+      "name": "Consent Expiration Date",
+      "definition": "Last date/time at which a holder can consent to the changes sought by the corporation."
+    },
+    "ConsentRecordDate": {
+      "name": "Consent Record Date",
+      "definition": "Date/time used by the offeror to determine the beneficiary eligible to participate in a consent based on the registered owner of the securities, eg, beneficial owner of consent record. The consent record date qualifier is used to indicate that a record date only applies to a certain part of the offer, not the entire offer."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time at which the distribution is due to take place (cash and/or securities)."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date/time at which a payment can be made, eg, if payment date is a non-business day or to indicate the first payment date of an offer."
+    },
+    "MarketDeadline": {
+      "name": "Market Deadline",
+      "definition": "Issuer or issuer's agent deadline to respond, with an instruction, to an outstanding offer or privilege."
+    },
+    "ResponseDeadline": {
+      "name": "Response Deadline",
+      "definition": "Date/time at which the account servicer has set as the deadline to respond, with instructions, to an outstanding event. This time is dependent on the reference time zone of the account servicer as specified in an SLA."
+    },
+    "DeadlineToSplit": {
+      "name": "Deadline To Split",
+      "definition": "Deadline by which instructions must be received to split securities, eg, of physical certificates."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date/time at which an order expires or on which a privilege or offer terminates."
+    },
+    "QuotationSettingDate": {
+      "name": "Quotation Setting Date",
+      "definition": "Date/time at which the price of a security is determined."
+    },
+    "SubscriptionCostDebitDate": {
+      "name": "Subscription Cost Debit Date",
+      "definition": "Date/time by which cash must be in place in order to take part in the event."
+    }
+  }
+}

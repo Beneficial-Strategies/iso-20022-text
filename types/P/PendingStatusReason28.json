@@ -1,0 +1,21 @@
+{
+  "isoType": "PendingStatusReason28",
+  "language": "en",
+  "name": "Pending Status Reason 28",
+  "definition": "Specifies reasons for the pending status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Specifies the reason why the instruction's processing is pending."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

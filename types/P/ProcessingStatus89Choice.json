@@ -1,0 +1,20 @@
+{
+  "isoType": "ProcessingStatus89Choice",
+  "language": "en",
+  "name": "Processing Status 89 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction/Request has been rejected for further processing."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "Header20",
+  "language": "en",
+  "name": "Header 20",
+  "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer.",
+  "isoElements": {
+    "MessageFunction": {
+      "name": "Message Function",
+      "definition": "Identifies the type of process related to the message."
+    },
+    "ProtocolVersion": {
+      "name": "Protocol Version",
+      "definition": "Version of the ATM protocol specifications."
+    },
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Unique identification of an exchange occurrence."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Unique identification of the partner that has initiated the exchange."
+    },
+    "RecipientParty": {
+      "name": "Recipient Party",
+      "definition": "Unique identification of the partner that is the recipient of the message exchange."
+    },
+    "ProcessState": {
+      "name": "Process State",
+      "definition": "State of the sender of the message inside the process flow."
+    },
+    "Traceability": {
+      "name": "Traceability",
+      "definition": "Identification of partners involved in exchange from the merchant to the issuer, with the relative timestamp of their exchanges."
+    }
+  }
+}

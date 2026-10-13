@@ -1,0 +1,53 @@
+{
+  "isoType": "CashAccountData1",
+  "language": "en",
+  "name": "Cash Account Data 1",
+  "definition": "Account to or from which a cash entry is made.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature, or use, of the cash account."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency of the cash account."
+    },
+    "Proxy": {
+      "name": "Proxy",
+      "definition": "Specifies an alternate assumed name for the identification of the account."
+    },
+    "CurrentMultilateralLimit": {
+      "name": "Current Multilateral Limit",
+      "definition": "Maximum amount value applied to or by a participant versus a set of counterparts. The multilateral system is taken into account by the transaction administrator to contain the risk in the system.|With the help of the multilateral limit, the direct participant restricts the use of liquidity when clearing payments with all other direct participants for whom no bilateral limit was set."
+    },
+    "Owner": {
+      "name": "Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "Servicer": {
+      "name": "Servicer",
+      "definition": "Servicer of the account which is being queried."
+    },
+    "MultilateralBalance": {
+      "name": "Multilateral Balance",
+      "definition": "Balance is calculated with regard to many members in the system."
+    },
+    "CurrentBilateralLimit": {
+      "name": "Current Bilateral Limit",
+      "definition": "Limit fixed by a party A with regard to a specific counterparty B and corresponding to the maximum amount of traffic that party A may send to party B. The bilateral limit can be expressed as a debit limit or a credit limit. |With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant."
+    },
+    "StandingOrder": {
+      "name": "Standing Order",
+      "definition": "Instruction given by a party that has explicit authority to instruct a debit on the account, that is either the debtor or originating party, to the debtor agent, to process liquidity transfers at specified intervals during an implicit or explicit period of time. A standing order is given once and is valid for an open or closed period of time."
+    }
+  },
+  "isoRules": {
+    "BilateralBalanceRule": {
+      "definition": "If MultilateralBalance is not present, then at least one occurrence of CurrentBilateralLimit/BilateralBalance must be present.|If MultilateralBalance is present, then any occurrence of CurrentBilateralLimit/BilateralBalance is optional."
+    }
+  }
+}

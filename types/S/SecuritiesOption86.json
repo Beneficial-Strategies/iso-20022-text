@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesOption86",
+  "language": "en",
+  "name": "Securities Option 86",
+  "definition": "Provides information about the corporate action security option.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "PostingQuantity": {
+      "name": "Posting Quantity",
+      "definition": "Quantity of securities that have been posted (credit or debit) to the safekeeping account."
+    },
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Date of the posting (credit or debit) to the account."
+    },
+    "OriginalPostingDate": {
+      "name": "Original Posting Date",
+      "definition": "Date/Time of the posting (credit or debit) to the account that was initially communicated in the confirmation."
+    }
+  }
+}

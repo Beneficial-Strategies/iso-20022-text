@@ -1,0 +1,28 @@
+{
+  "isoType": "PaymentStatusCode6Choice",
+  "language": "en",
+  "name": "Payment Status Code 6 Choice",
+  "definition": "Choice between a list of pending statuses or final statuses.",
+  "isoElements": {
+    "Pending": {
+      "name": "Pending",
+      "definition": "Qualifies further the pending status."
+    },
+    "Final": {
+      "name": "Final",
+      "definition": "Qualifies further the final status."
+    },
+    "RTGS": {
+      "name": "RTGS",
+      "definition": "Qualifies further the RTGS status."
+    },
+    "Settlement": {
+      "name": "Settlement",
+      "definition": "Qualifies further the settlement status."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Qualifies further the proprietary status."
+    }
+  }
+}

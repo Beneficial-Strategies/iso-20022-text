@@ -1,0 +1,24 @@
+{
+  "isoType": "EventProcessingStatus7Choice",
+  "language": "en",
+  "name": "Event Processing Status 7 Choice",
+  "definition": "Provides information about the status of a corporate action or the status of a payment.",
+  "isoElements": {
+    "Complete": {
+      "name": "Complete",
+      "definition": "Specifies that a corporate action event processing has been completed."
+    },
+    "Reconciled": {
+      "name": "Reconciled",
+      "definition": "Corporate action event processing specifying that the funds paid have been reconciled with the funds received from the agent (meaning that there is no more risk of payment to be reversed)."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Specifies that a corporate action event processing has not been fully completed and is therefore pending."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Proprietary status related to the event processing."
+    }
+  }
+}

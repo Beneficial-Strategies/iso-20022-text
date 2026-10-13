@@ -1,0 +1,68 @@
+{
+  "isoType": "SecurityOption1",
+  "language": "en",
+  "name": "Security Option 1",
+  "definition": "Provides information about the CA security option.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Quantity of financial instrument."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "name": "Minimum Exercisable Securities Quantity",
+      "definition": "Minimum quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "name": "Minimum Exercisable Multiple Securities Quantity",
+      "definition": "Minimum multiple quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "name": "New Denomination Securities Quantity",
+      "definition": "New denomination of the financial instrument following, eg, an increase or decrease in nominal value."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "name": "New Board Lot Securities Quantity",
+      "definition": "Quantity of equity that makes up the new board lot."
+    },
+    "ShareRanking": {
+      "name": "Share Ranking",
+      "definition": "Specifies whether the shares are ranking for dividend or pari passu."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "name": "Additional Quantity For Subscribed Resultant Securities",
+      "definition": "Quantity of additional intermediate securities/new equities awarded for a given quantity of securities derived from subscription."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a securities movement."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a securities movement."
+    },
+    "TradingPeriod": {
+      "name": "Trading Period",
+      "definition": "Period during which intermediate securities are tradable in a secondary market."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "name": "Additional Quantity For Existing Securities",
+      "definition": "Quantity of additional securities for a given quantity of underlying securities where underlying securities are not exchanged or debited, eg, 1 for 1: 1 new equity credited for every 1 underlying equity = 2 resulting equities."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "name": "Temporary Financial Instrument Indicator",
+      "definition": "Specifies that the security is a temporary security."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    }
+  }
+}

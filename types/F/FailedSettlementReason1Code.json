@@ -1,0 +1,43 @@
+{
+  "isoType": "FailedSettlementReason1Code",
+  "language": "en",
+  "name": "Failed Settlement Reason 1 Code",
+  "definition": "Specifies the reason of a settlement failure.",
+  "isoCodes": {
+    "CANE": {
+      "isoName": "CreditAccountNotEligible",
+      "name": "Credit Account Not Eligible",
+      "definition": "Credit account is not eligible."
+    },
+    "CADI": {
+      "isoName": "CreditAccountDisabled",
+      "name": "Credit Account Disabled",
+      "definition": "Credit account is disabled."
+    },
+    "DANE": {
+      "isoName": "DebitAccountNotEligible",
+      "name": "Debit Account Not Eligible",
+      "definition": "Debit account is not eligible."
+    },
+    "AADI": {
+      "isoName": "DebitAccountDisabled",
+      "name": "Debit Account Disabled",
+      "definition": "Debit account is disabled."
+    },
+    "INSE": {
+      "isoName": "InsufficientSecurities",
+      "name": "Insufficient Securities",
+      "definition": "Insufficient securities on the account to settle."
+    },
+    "INDI": {
+      "isoName": "IncompleteDistribution",
+      "name": "Incomplete Distribution",
+      "definition": "The distribution is incomplete."
+    },
+    "INCA": {
+      "isoName": "InsufficientCash",
+      "name": "Insufficient Cash",
+      "definition": "Insufficient cash on the account to settle."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionEventStage4Code",
+  "language": "en",
+  "name": "Corporate Action Event Stage 4 Code",
+  "definition": "Specifies the stage of the CA lottery event.",
+  "isoCodes": {
+    "FULL": {
+      "isoName": "CancellationAndReRun",
+      "name": "Cancellation And Re Run",
+      "definition": "Cancellation and re-run of an original lottery or an original and supplemental lottery. A subsequent lottery will be performed under a new event."
+    },
+    "PART": {
+      "isoName": "SupplementalCancellationAndReRun",
+      "name": "Supplemental Cancellation And Re Run",
+      "definition": "Cancellation and re-run of a supplemental lottery only. A subsequent new supplemental lottery will be performed under the original event."
+    },
+    "RESC": {
+      "isoName": "SupplementalCancellation",
+      "name": "Supplemental Cancellation",
+      "definition": "A supplemental lottery is being cancelled by the issuer. No subsequent lottery will be performed."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ReferredAgent3",
+  "language": "en",
+  "name": "Referred Agent 3",
+  "definition": "Provides the placement agent identification for a hedge fund if the investor was referred by one.",
+  "isoElements": {
+    "Referred": {
+      "name": "Referred",
+      "definition": "Indicates if the investor was referred by a placement agent."
+    },
+    "ReferredPlacementAgent": {
+      "name": "Referred Placement Agent",
+      "definition": "Placement agent that referred the investor."
+    }
+  },
+  "isoRules": {
+    "ReferredPlacementAgentRule": {
+      "definition": "ReferredPlacementAgent may only be present if Referred is REFR (Referred)."
+    }
+  }
+}

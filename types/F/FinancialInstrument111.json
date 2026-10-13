@@ -1,0 +1,48 @@
+{
+  "isoType": "FinancialInstrument111",
+  "language": "en",
+  "name": "Financial Instrument 111",
+  "definition": "Identification of a security or other asset.",
+  "isoElements": {
+    "LineIdentification": {
+      "name": "Line Identification",
+      "definition": "Identification of the line of holding in the portfolio."
+    },
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Identification of the asset."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transfer allocated by the counterparty."
+    },
+    "TransfereeAccount": {
+      "name": "Transferee Account",
+      "definition": "Account held in the name of the party that is not the name of the beneficial owner of the shares.|(Party and account into which the transferee receives the financial instrument from the transferor.)"
+    },
+    "Transferor": {
+      "name": "Transferor",
+      "definition": "Party and account from which the transferor delivers the financial instrument to the transferee."
+    },
+    "SettlementPartiesDetails": {
+      "name": "Settlement Parties Details",
+      "definition": "Chain of parties involved in the settlement of a transaction."
+    },
+    "AssetsHeldInOwnName": {
+      "name": "Assets Held In Own Name",
+      "definition": "Indicates whether the assets are held in an individual’s own name."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "name": "Transfer Results In Change Of Beneficial Owner",
+      "definition": "Indicates whether the transfer results in a change of beneficial owner."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the financial instrument."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "WithholdingTaxRateType1Code",
+  "language": "en",
+  "name": "Withholding Tax Rate Type 1 Code",
+  "definition": "Specifies the type of withholding tax rate.",
+  "isoCodes": {
+    "BWIT": {
+      "isoName": "BackUpWithholding",
+      "name": "Back Up Withholding",
+      "definition": "Withholding tax related to payments subject to back up withholding."
+    },
+    "FTCA": {
+      "isoName": "FATCATax",
+      "name": "FATCA Tax",
+      "definition": "Withholding tax related to income subject to FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRAT": {
+      "isoName": "NRATax",
+      "name": "NRA Tax",
+      "definition": "Withholding tax related to income subject to NRA (Non Resident Alien)."
+    }
+  }
+}

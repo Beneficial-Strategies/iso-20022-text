@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginatorRole2Code",
+  "language": "en",
+  "name": "Originator Role 2 Code",
+  "definition": "Specifies the role of the trading party in the transaction.",
+  "isoCodes": {
+    "SINT": {
+      "isoName": "SystematicInternaliser",
+      "name": "Systematic Internaliser",
+      "definition": "Firms which, on an organised, frequent and systematic basis deal on their own account by executing client orders outside a regulated market or a Multilateral Trading Facility. SI's will have the obligation to provide, and make public, a definite bid and offer quote for liquid securities. They act as \"mini\"exchanges."
+    },
+    "MLTF": {
+      "isoName": "MultilateralTradingFacility",
+      "name": "Multilateral Trading Facility",
+      "definition": "Multilateral system which brings together multiple third-party buying and selling interests in financial instruments in a way that results in a contract."
+    },
+    "RMKT": {
+      "isoName": "RegulatedMarket",
+      "name": "Regulated Market",
+      "definition": "Market on which financial instruments can be traded according to rules defined by the stock exchange."
+    },
+    "MKTM": {
+      "isoName": "MarketMaker",
+      "name": "Market Maker",
+      "definition": "Dealer or specialist that is trading for their own account in the OTC market. Market makers are expected to maintain an orderly market by being available to buy or sell."
+    },
+    "INVE": {
+      "isoName": "Investor",
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    },
+    "TAGT": {
+      "isoName": "TransfertAgent",
+      "name": "Transfert Agent",
+      "definition": "Party appointed by the fund management company. It updates records of investor accounts to reflect the daily investor purchases, redemptions, switches, transfers, and re-registrations. It ensures the timely settlement of transactions, and may provide tax information to the investor and/or to its intermediaries. It may calculate, collect, and rebate commissions. It prepares and distributes confirmations reflecting transactions, resulting in unit or cash account movements to the investor or the investor's intermediary. It responds to inquiries concerning account status, and processes the income distribution."
+    }
+  }
+}

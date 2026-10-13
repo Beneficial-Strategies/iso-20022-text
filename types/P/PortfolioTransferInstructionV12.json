@@ -1,0 +1,89 @@
+{
+  "isoType": "PortfolioTransferInstructionV12",
+  "language": "en",
+  "name": "Portfolio Transfer Instruction V 12",
+  "definition": "Scope|The PortfolioTransferInstruction message is sent by an instructing party, for example, a (new) plan manager (transferee), to the executing party, for example, a (old) plan manager (transferor), on behalf of the initiating party, for example, an investor (client), to instruct the transfer of financial instruments from the client’s account at the old plan manager (transferor) to the clients account at the new plan manager (transferee). |Usage|The PortfolioTransferInstruction message is used to instruct one or more portfolio transfers for one client. Each portfolio transfer is for delivery to the same account. The account may be owned by one or more individual investors or one or more corporate investors.|If the instructing party does not have enough information to instruct the portfolio transfer, then it must first send an AccountHoldingInformationRequest message to the executing party in order to receive an AccountHoldingInformation message.",
+  "isoElements": {
+    "MessageReference": {
+      "name": "Message Reference",
+      "definition": ""
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "PrimaryIndividualInvestor": {
+      "name": "Primary Individual Investor",
+      "definition": ""
+    },
+    "SecondaryIndividualInvestor": {
+      "name": "Secondary Individual Investor",
+      "definition": ""
+    },
+    "OtherIndividualInvestor": {
+      "name": "Other Individual Investor",
+      "definition": ""
+    },
+    "PrimaryCorporateInvestor": {
+      "name": "Primary Corporate Investor",
+      "definition": ""
+    },
+    "SecondaryCorporateInvestor": {
+      "name": "Secondary Corporate Investor",
+      "definition": ""
+    },
+    "OtherCorporateInvestor": {
+      "name": "Other Corporate Investor",
+      "definition": ""
+    },
+    "TransferorAccount": {
+      "name": "Transferor Account",
+      "definition": ""
+    },
+    "NomineeAccount": {
+      "name": "Nominee Account",
+      "definition": ""
+    },
+    "Transferee": {
+      "name": "Transferee",
+      "definition": ""
+    },
+    "ProductTransfer": {
+      "name": "Product Transfer",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer must be present when and only when different from TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "If PrimaryIndividualInvestor is not present, then SecondaryIndividualInvestor is not allowed.|If PrimaryIndividualInvestor is present, then SecondaryIndividualInvestor may be present."
+    },
+    "Investor2Rule": {
+      "definition": "If PrimaryIndividualInvestor is not present, then OtherIndividualInvestor is not allowed. |If PrimaryIndividualInvestor is present, then OtherIndividualInvestor may be present."
+    },
+    "Corporate2Rule": {
+      "definition": "If PrimaryCorporateInvestor is not present, then OtherCorporateInvestor is not allowed.|If PrimaryCorporateInvestor is present, then OtherCorporateInvestor may be present."
+    },
+    "Corporate1Rule": {
+      "definition": "If PrimaryCorporateInvestor is not present, then SecondaryCorporateInvestor is not allowed.|If PrimaryCorporateInvestor is present, then SecondaryCorporateInvestor may be present."
+    }
+  }
+}

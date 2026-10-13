@@ -1,0 +1,25 @@
+{
+  "isoType": "PartyIdentification318",
+  "language": "en",
+  "name": "Party Identification 318",
+  "definition": "Provides information about identification of the party.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a party."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Reference meaningful to the party identified."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Provides alternate identification for a party using an id type, a country code and a text field."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "The AdditionalInformation field in all elements must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition as in NarrativeVersion."
+    }
+  }
+}

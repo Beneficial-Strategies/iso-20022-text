@@ -1,0 +1,38 @@
+{
+  "isoType": "ProcessedStatus7Code",
+  "language": "en",
+  "name": "Processed Status 7 Code",
+  "definition": "Processing status of the corporate action notification advice coming from the issuer agent.",
+  "isoCodes": {
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "The instruction/request has been received."
+    },
+    "SENT": {
+      "isoName": "SentToMarket",
+      "name": "Sent To Market",
+      "definition": "The advice has been sent to the market."
+    },
+    "SNAV": {
+      "isoName": "SystemNotAvailable",
+      "name": "System Not Available",
+      "definition": "System is not available. Instruction is sent outside of business hours."
+    },
+    "WARN": {
+      "isoName": "AcceptedWithWarning",
+      "name": "Accepted With Warning",
+      "definition": "The announcement has been accepted but another source has provided different information."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "The request is accepted."
+    },
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "The processing of the request is pending."
+    }
+  }
+}

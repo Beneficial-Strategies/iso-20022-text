@@ -1,0 +1,28 @@
+{
+  "isoType": "ShareholdingType1Code",
+  "language": "en",
+  "name": "Shareholding Type 1 Code",
+  "definition": "Specifies the type of shareholding.",
+  "isoCodes": {
+    "BENE": {
+      "isoName": "BeneficialShareholding",
+      "name": "Beneficial Shareholding",
+      "definition": "Shares are held on behalf of the beneficial owner. |Usage: this type should be used to report assets the intermediary holds on behalf of a final beneficial owner."
+    },
+    "NOMI": {
+      "isoName": "NomineeShareholding",
+      "name": "Nominee Shareholding",
+      "definition": "Shares are held on behalf of an intermediary.|Usage: this type should be used to report assets the intermediary holds on behalf of another intermediary."
+    },
+    "OOAC": {
+      "isoName": "OnOwnAccount",
+      "name": "On Own Account",
+      "definition": "Shares are held by the responding intermediary for its own account.|Usage: this type should only be used to report the intermediary’s own assets if and when the intermediary comingles them with the one of their clients.  Within jurisdictions where commingling is not allowed, this type should not be used."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Shareholding type is unknown.|Usage: this type should be used when the intermediary’s client hasn’t been classified."
+    }
+  }
+}

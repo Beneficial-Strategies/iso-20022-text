@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountTax1",
+  "language": "en",
+  "name": "Account Tax 1",
+  "definition": "Describes account taxing parameters.",
+  "isoElements": {
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "Defines the calculation method on how the taxes are applied on the account."
+    },
+    "Region": {
+      "name": "Region",
+      "definition": "Identifies the tax region in which the account resides."
+    },
+    "NonResidenceCountry": {
+      "name": "Non Residence Country",
+      "definition": "Specifies the country of residence, when the account owner does not reside in the account's tax region.||Usage: If present, the account owner does not reside in the account's tax region."
+    }
+  }
+}

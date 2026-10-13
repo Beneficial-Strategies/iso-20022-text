@@ -1,0 +1,33 @@
+{
+  "isoType": "SequenceType3Code",
+  "language": "en",
+  "name": "Sequence Type 3 Code",
+  "definition": "Specifies the type of the current transaction that belongs to a sequence of transactions.",
+  "isoCodes": {
+    "FRST": {
+      "isoName": "First",
+      "name": "First",
+      "definition": "First collection of a series of direct debit instructions."
+    },
+    "RCUR": {
+      "isoName": "Recurring",
+      "name": "Recurring",
+      "definition": "Direct debit instruction where the debtor's authorisation is used for regular direct debit transactions initiated by the creditor."
+    },
+    "FNAL": {
+      "isoName": "Final",
+      "name": "Final",
+      "definition": "Final collection of a series of direct debit instructions."
+    },
+    "OOFF": {
+      "isoName": "OneOff",
+      "name": "One Off",
+      "definition": "Direct debit instruction where the debtor's authorisation is used to initiate one single direct debit transaction."
+    },
+    "RPRE": {
+      "isoName": "Represented",
+      "name": "Represented",
+      "definition": "Collection used to re-present previously reversed or returned direct debit transactions."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "IdentificationVerificationReportV04",
+  "language": "en",
+  "name": "Identification Verification Report V 04",
+  "definition": "Scope|The IdentificationVerificationReport message is sent by an assigner to an assignee. It is used to confirm whether or not the presented party and/or account identification information is correct.|Usage|The IdentificationVerificationReport message is sent as a response to an IdentificationVerificationRequest message.|The IdentificationVerificationReport message can contain one or more reports.|The IdentificationVerificationReport message may include a reason if the presented party and/or account identification information is confirmed to be incorrect.|The IdentificationVerificationReport message may include the correct party and/or account identification information.",
+  "isoElements": {
+    "Assignment": {
+      "name": "Assignment",
+      "definition": ""
+    },
+    "OriginalAssignment": {
+      "name": "Original Assignment",
+      "definition": ""
+    },
+    "Report": {
+      "name": "Report",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

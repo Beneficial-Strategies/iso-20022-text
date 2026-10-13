@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMReconciliationRequestV01",
+  "language": "en",
+  "name": "ATM Reconciliation Request V 01",
+  "definition": "The ATMReconciliationRequest is sent by an ATM to a maintenance host to notify updates to the reconciliation counts.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMReconciliationRequest": {
+      "name": "Protected ATM Reconciliation Request",
+      "definition": ""
+    },
+    "ATMReconciliationRequest": {
+      "name": "ATM Reconciliation Request",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

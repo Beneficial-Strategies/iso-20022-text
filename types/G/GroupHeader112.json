@@ -1,0 +1,32 @@
+{
+  "isoType": "GroupHeader112",
+  "language": "en",
+  "name": "Group Header 112",
+  "definition": "Set of characteristics shared by all individual transactions included in the message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference assigned by the instructing party and sent to the next party in the chain to unambiguously identify the message.||Usage: The instructing party has to make sure that 'MessageIdentification' is unique per instructed party for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Number of individual transactions contained in the message."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the message, irrespective of currencies."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party initiating the creditor payment activation request. This can either be the creditor himself or the party that initiates the request on behalf of the creditor."
+    },
+    "ForwardingAgent": {
+      "name": "Forwarding Agent",
+      "definition": "Financial institution that receives the instruction from the initiating party and forwards it to the next agent in the payment chain for execution."
+    }
+  }
+}

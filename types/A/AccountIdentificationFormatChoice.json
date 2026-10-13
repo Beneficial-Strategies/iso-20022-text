@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountIdentificationFormatChoice",
+  "language": "en",
+  "name": "Account Identification Format Choice",
+  "definition": "Choice between formats for account identification.",
+  "isoElements": {
+    "SimpleIdentification": {
+      "name": "Simple Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "IdentificationAndPurpose": {
+      "name": "Identification And Purpose",
+      "definition": "Identification of the account expressed with an account number and a code."
+    },
+    "IdentificationAsDSS": {
+      "name": "Identification As DSS",
+      "definition": "Identification of the account expressed with a data source scheme, a code used within the data source scheme and the account identification."
+    }
+  }
+}

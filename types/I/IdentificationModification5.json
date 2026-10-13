@@ -1,0 +1,24 @@
+{
+  "isoType": "IdentificationModification5",
+  "language": "en",
+  "name": "Identification Modification 5",
+  "definition": "Provides the details of the identification data that is advised to be modified.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification, as assigned by a sending party, to unambiguously identify the party and account identification information group within the message."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "name": "Original Party And Account Identification",
+      "definition": "Provides party and/or account identification information as given in the original message."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "name": "Updated Party And Account Identification",
+      "definition": "Provides updated party and/or account identification information."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information, in free text form, to complement the modification information."
+    }
+  }
+}

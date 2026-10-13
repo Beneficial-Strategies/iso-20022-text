@@ -1,0 +1,20 @@
+{
+  "isoType": "AdditionalReference2",
+  "language": "en",
+  "name": "Additional Reference 2",
+  "definition": "References a related message or provides another reference, such as a pool reference, linking a set of messages. The party which issued the related reference may be the Sender of the referenced message or a party other than the Sender.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Business reference of a message assigned by the party issuing the message. This reference must be unique amongst all messages of the same name sent by the same party."
+    },
+    "ReferenceIssuer": {
+      "name": "Reference Issuer",
+      "definition": "Issuer of the reference."
+    },
+    "MessageName": {
+      "name": "Message Name",
+      "definition": "Name of a message."
+    }
+  }
+}

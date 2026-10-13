@@ -1,0 +1,29 @@
+{
+  "isoType": "ElectionAdviceFunction1",
+  "language": "en",
+  "name": "Election Advice Function 1",
+  "definition": "Provides information about the type of election advice and linked messages.",
+  "isoElements": {
+    "ElectionType": {
+      "name": "Election Type",
+      "definition": "Type of election advice."
+    },
+    "PreviousAgentCAElectionAdviceIdentification": {
+      "name": "Previous Agent CA Election Advice Identification",
+      "definition": "Identification of the previous Agent Corporate Action Election Advice that is being amended."
+    },
+    "AgentCAElectionStatusAdviceIdentification": {
+      "name": "Agent CA Election Status Advice Identification",
+      "definition": "Identification of the Agent Corporate Action Election Status Advice by which the issuer (agent) accepts the election amendment request."
+    },
+    "AgentCAElectionAmendmentRequestIdentification": {
+      "name": "Agent CA Election Amendment Request Identification",
+      "definition": "Identification of the Agent Corporate Action Election Amendment Request by which the CSD request the authorisation to amend an election."
+    }
+  },
+  "isoRules": {
+    "ElectionTypeRule": {
+      "definition": "If ElectionType is CHAN, then PreviousAgentCAElectionAdviceIdentification and AgentCAElectionStatusAdviceIdentification are mandatory."
+    }
+  }
+}

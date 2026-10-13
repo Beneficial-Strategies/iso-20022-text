@@ -1,0 +1,75 @@
+{
+  "isoType": "NetObligation4",
+  "language": "en",
+  "name": "Net Obligation 4",
+  "definition": "Describes the amount, direction and parties involved in a payment obligation between two participants (and their netting group or trading party) of a netting service.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "name": "Obligation Identification",
+      "definition": "Unique identification for the obligation."
+    },
+    "PreviousSplitIndicator": {
+      "name": "Previous Split Indicator",
+      "definition": "Indicates whether the net obligation is a result of a previously split obligation.||Usage: when absent, default value is false."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the obligation."
+    },
+    "ParticipantNettingIdentification": {
+      "name": "Participant Netting Identification",
+      "definition": "Describes the party or netting group (of the participant receiving the report) involved in the calculation of the obligation."
+    },
+    "ObligationDirection": {
+      "name": "Obligation Direction",
+      "definition": "Specifies the direction of the obligation."
+    },
+    "CounterpartyNettingIdentification": {
+      "name": "Counterparty Netting Identification",
+      "definition": "Describes the party or netting group (of the counterparty in the obligation) involved in the calculation of the obligation."
+    },
+    "NetServiceCounterpartyIdentification": {
+      "name": "Net Service Counterparty Identification",
+      "definition": "Describes the counterparty participant involved in the obligation."
+    },
+    "CounterpartySettlementInstructions": {
+      "name": "Counterparty Settlement Instructions",
+      "definition": "Specifies the standard settlement instructions used to issue a payment to the counterparty in order to settle the obligation."
+    },
+    "PaymentClearingCentre": {
+      "name": "Payment Clearing Centre",
+      "definition": "Specifies the place of clearing for offshore currency trades.||Usage: Used to designate the clearing centre for offshore currency trades. It must not be used for trades that settle onshore."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Specifies the settlement method for the net obligation."
+    },
+    "TransactionsNumber": {
+      "name": "Transactions Number",
+      "definition": "Number of transactions used to calculate the obligation. This is used in reconciliation between the net report obligation and the previously provided transaction status updates."
+    },
+    "SplitIndicator": {
+      "name": "Split Indicator",
+      "definition": "Indicates whether the net obligation is split into multiple child obligations.||Usage: when absent, default value is false."
+    },
+    "TotalNumberOfSplits": {
+      "name": "Total Number Of Splits",
+      "definition": "Number of splits for the net obligation."
+    },
+    "SplitObligationData": {
+      "name": "Split Obligation Data",
+      "definition": "Details of the split."
+    }
+  },
+  "isoRules": {
+    "CounterpartySettlementInstructionRule": {
+      "definition": "The CounterpartySettlementInstructions must not be present when the obligation direction value is DBIT."
+    },
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification must be present at this level in all obligations if one or more counterparties are involved in the calculation of the net report, i.e.NetServiceCounterpartyIdentification is not used in NetReport level."
+    },
+    "SplitIndicatorRule": {
+      "definition": "If SplitIndicator is true, then TotalNumberOfSplits and SplitObligationData must be present."
+    }
+  }
+}

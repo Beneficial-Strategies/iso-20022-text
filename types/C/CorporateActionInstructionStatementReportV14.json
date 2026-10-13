@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionInstructionStatementReportV14",
+  "language": "en",
+  "name": "Corporate Action Instruction Statement Report V 14",
+  "definition": "Scope|The CorporateActionInstructionStatementReport message is sent by an account servicer to an account owner or its designated agent to report balances at the safekeeping account level for one or more corporate action events or at the corporate action event level for one or more safekeeping accounts.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": ""
+    },
+    "AccountAndStatementDetails": {
+      "name": "Account And Statement Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "MultipleAccountAndStatementDetailsRule": {
+      "definition": "If StatementGeneralDetails/ReportingType is MASE (Multiple Accounts) then AccountAndStatementDetails may be repeated and AccountAndStatementDetails/CorporateActionEventAndBalance must not be repeated in any occurrences of AccountAndStatementDetails.|If StatementGeneralDetails/ReportingType is SAME (Multiple Events) then AccountAndStatementDetails must not be repeated, and AccountAndStatementDetails/CorporateActionEventAndBalance may be repeated."
+    },
+    "CorporateActionEventAndBalanceRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is 'true' or '1' (Yes) then at least one occurrence of AccountAndStatementDetails/CorporateActionEventAndBalance must be present.|If StatementGeneralDetails/ActivityIndicator is 'false' or '0' (No) then AccountAndStatementDetails/CorporateActionEventAndBalance must not be present in any occurrences of AccountAndStatementDetails."
+    },
+    "PaginationRule": {
+      "definition": "If pagination is present, then StatementGeneralDetails/StatementIdentification must be present."
+    }
+  }
+}

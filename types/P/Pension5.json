@@ -1,0 +1,149 @@
+{
+  "isoType": "Pension5",
+  "language": "en",
+  "name": "Pension 5",
+  "definition": "Attributes of a pension.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the pension policy, plan or scheme."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of pension policy, plan or scheme."
+    },
+    "TransferScope": {
+      "name": "Transfer Scope",
+      "definition": "Scope of the pension policy, plan or scheme transfer."
+    },
+    "TaxReference": {
+      "name": "Tax Reference",
+      "definition": "Tax reference issued to the pension policy, plan or scheme by a central organisation."
+    },
+    "DrawdownTrancheIdentification": {
+      "name": "Drawdown Tranche Identification",
+      "definition": "Reference of the drawdown."
+    },
+    "DrawdownStatus": {
+      "name": "Drawdown Status",
+      "definition": "Drawdown status of the pension."
+    },
+    "DrawdownType": {
+      "name": "Drawdown Type",
+      "definition": "Type of drawdown tranche."
+    },
+    "NumberOfDrawdownTranches": {
+      "name": "Number Of Drawdown Tranches",
+      "definition": "Number of drawdown tranches."
+    },
+    "EstimatedValue": {
+      "name": "Estimated Value",
+      "definition": "Estimated value of the pension policy, plan or scheme."
+    },
+    "BlockTransfer": {
+      "name": "Block Transfer",
+      "definition": "Indicates whether the transfer forms part of a block transfer."
+    },
+    "BlockTransferReference": {
+      "name": "Block Transfer Reference",
+      "definition": "When the transfer is part of a block transfer, reference to link several items."
+    },
+    "TaxFreeCashProtection": {
+      "name": "Tax Free Cash Protection",
+      "definition": "Indicates whether the tax-free cash is protected when the pension policy, plan or scheme is transferred."
+    },
+    "TaxFreeCashAmount": {
+      "name": "Tax Free Cash Amount",
+      "definition": "Amount of cash that is tax free."
+    },
+    "ValueOfPensionPolicyOrPlanOrScheme": {
+      "name": "Value Of Pension Policy Or Plan Or Scheme",
+      "definition": "Value of the pension policy, plan or scheme."
+    },
+    "RetirementAgeProtection": {
+      "name": "Retirement Age Protection",
+      "definition": "Indicates whether the pension policy, plan or scheme has retirement age protection."
+    },
+    "RetirementAge": {
+      "name": "Retirement Age",
+      "definition": "Age at which the pension policy, plan or scheme holder retires."
+    },
+    "Sharing": {
+      "name": "Sharing",
+      "definition": "Indicates whether the pension benefits are shared."
+    },
+    "LumpSumType": {
+      "name": "Lump Sum Type",
+      "definition": "Type of lump sum paid to a member of the pension policy, plan or scheme."
+    },
+    "PensionOrder": {
+      "name": "Pension Order",
+      "definition": "Order attached to the pension policy, plan or scheme."
+    },
+    "RingFencedDrawdownAssets": {
+      "name": "Ring Fenced Drawdown Assets",
+      "definition": "Indicates whether assets held within the pension are ring-fenced into specific tranches."
+    },
+    "MoneyPurchaseAnnualAllowance": {
+      "name": "Money Purchase Annual Allowance",
+      "definition": "Money Purchase Annual Allowance (MPAA) details."
+    },
+    "SafeguardBenefit": {
+      "name": "Safeguard Benefit",
+      "definition": "Indicates whether the pension policy, plan or scheme is covered by a safeguard benefit."
+    },
+    "NonSafeguardedGuaranteedBenefits": {
+      "name": "Non Safeguarded Guaranteed Benefits",
+      "definition": "Indicates whether the pension policy, plan or scheme has non-safeguarded guaranteed benefits."
+    },
+    "LifetimeAllowanceProtection": {
+      "name": "Lifetime Allowance Protection",
+      "definition": "Indicates whether the pension policy, plan or scheme has lifetime allowance protection."
+    },
+    "ClientLifetimeAllowanceProtection": {
+      "name": "Client Lifetime Allowance Protection",
+      "definition": "Indicates whether the client has any lifetime allowance protection."
+    },
+    "BenefitCrystallisationEventOccurred": {
+      "name": "Benefit Crystallisation Event Occurred",
+      "definition": "Indicates whether a benefit crystallisation event (BCE) has occurred. This includes ‘age 75 checks’."
+    },
+    "NonWrapperTransfer": {
+      "name": "Non Wrapper Transfer",
+      "definition": "Indicates that the transfer is only in relation to underlying assets, and that the wrapper transfer will occur separately."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the pension policy, plan or scheme."
+    }
+  },
+  "isoRules": {
+    "BlockTransferRetirementAgeProtectionRule": {
+      "definition": "If BlockTransfer is \"false\" or \"0\" (No), then RetirementAgeProtection is not allowed.|If BlockTransfer is \"true\" or \"1\" (Yes), then RetirementAgeProtection may be present."
+    },
+    "RetirementAgeRule": {
+      "definition": "If RetirementAgeProtection is \"false\" or \"0\" (No), then RetirementAge is not allowed.|If RetirementAgeProtection is \"true\" or \"1\" (Yes), then RetirementAge may be present."
+    },
+    "BlockTransferTaxFreeCashProtectionRule": {
+      "definition": "If BlockTransfer is \"false\" or \"0\" (No), then TaxFreeCashProtection is not allowed.|If BlockTransfer is \"true\" or \"1\" (Yes), then TaxFreeCashProtection may be present."
+    },
+    "TaxFreeCashAmountRule": {
+      "definition": "If TaxFreeCashProtection is \"false\" or \"0\" (No), then TaxFreeCashAmount is not allowed.|If TaxFreeCashProtection is \"true\" or \"1\" (Yes), then TaxFreeCashAmount may be present."
+    },
+    "RingFencedDrawdownAssets1Rule": {
+      "definition": "If DrawdownStatus/Code/NONE (None) is present, then RingFencedDrawdownAssets is not allowed."
+    },
+    "PensionOrderTypeGuideline": {
+      "definition": "A pension policy, plan or scheme cannot have both an earmark and a sharing order.|If PensionOrder/Type/Code/SHAR is present, then PensionOrder/Type/Code/EARM is not allowed.|If PensionOrder/Type/Code/EARM is present, then PensionOrder/Type/Code/SHAR is not allowed."
+    },
+    "TaxFreeCashAndValueRule": {
+      "definition": "If TaxFreeCashProtection is \"true\" or \"1\" (Yes), then TaxFreeCashAmount and ValueOfPensionPolicyOrPlanOrScheme must be present.|If TaxFreeCashProtection is \"false\" or \"0\" (Yes), then TaxFreeCashAmount and ValueOfPensionPolicyOrPlanOrScheme may be present."
+    },
+    "TransferScopeTrancheIdentification1Rule": {
+      "definition": "If TransferScope/Code/SDDT (DrawdownTranche) is not present, then DrawdownTrancheIdentification is not allowed.|If TransferScope/Code/SDDT (DrawdownTranche) is present, then DrawdownTrancheIdentification may be present."
+    },
+    "RingFencedDrawdownAssets2Rule": {
+      "definition": "If DrawdownStatus/Code/PART (Partial) or FULL (Full) is present, then RingFencedDrawdownAssets must be present."
+    }
+  }
+}

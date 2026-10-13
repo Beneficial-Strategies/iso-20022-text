@@ -1,0 +1,20 @@
+{
+  "isoType": "IntraPositionStatusAndReason4",
+  "language": "en",
+  "name": "Intra Position Status And Reason 4",
+  "definition": "Choice of the movement status types.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides details on the processing status of the transaction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the settlement status of a transaction."
+    },
+    "Settled": {
+      "name": "Settled",
+      "definition": "Specifies the state or the condition."
+    }
+  }
+}

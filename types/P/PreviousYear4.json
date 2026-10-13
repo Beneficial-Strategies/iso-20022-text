@@ -1,0 +1,21 @@
+{
+  "isoType": "PreviousYear4",
+  "language": "en",
+  "name": "Previous Year 4",
+  "definition": "Information about investment plans issued during previous years.",
+  "isoElements": {
+    "PreviousYears": {
+      "name": "Previous Years",
+      "definition": "Investment plans issued during previous years."
+    },
+    "CashComponentIndicator": {
+      "name": "Cash Component Indicator",
+      "definition": "Indicates whether the product contains a cash asset for transfer from previous years."
+    }
+  },
+  "isoRules": {
+    "SpecificPreviousYearsGuideline": {
+      "definition": "SpecificPreviousYears must not contain the current year."
+    }
+  }
+}

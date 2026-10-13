@@ -1,0 +1,61 @@
+{
+  "isoType": "AggregateBalancePerSafekeepingPlace4",
+  "language": "en",
+  "name": "Aggregate Balance Per Safekeeping Place 4",
+  "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities account at a specified place of safekeeping.",
+  "isoElements": {
+    "AggregateBalance": {
+      "name": "Aggregate Balance",
+      "definition": "Total quantity of financial instrument for the referenced holding."
+    },
+    "DaysAccrued": {
+      "name": "Days Accrued",
+      "definition": "Specifies the number of days used for calculating the accrued interest amount."
+    },
+    "HoldingValue": {
+      "name": "Holding Value",
+      "definition": "Total value of a balance of the securities account for a specific financial instrument, expressed in one or more currencies."
+    },
+    "PreviousHoldingValue": {
+      "name": "Previous Holding Value",
+      "definition": "Previous total value of a balance of the securities account for a specific financial instrument, expressed in one or more currencies."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between coupon payment periods."
+    },
+    "AccruedInterestAmountSign": {
+      "name": "Accrued Interest Amount Sign",
+      "definition": "Indicates whether the accrued interest is a positive or negative amount."
+    },
+    "BookValue": {
+      "name": "Book Value",
+      "definition": "Value of a security, as booked in an account. Book value is often different from the current market value of the security."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Securities Depository (ICSD)."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Price of the financial instrument in one or more currencies."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Currency exchange related to a securities order."
+    },
+    "BalanceBreakdownDetails": {
+      "name": "Balance Breakdown Details",
+      "definition": "Net position of a segregated holding of a single security within the overall position held in a securities account, eg, sub-balance per status."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "name": "Additional Balance Breakdown Details",
+      "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities account."
+    }
+  },
+  "isoRules": {
+    "AccruedInterestAmountSignRule": {
+      "definition": "If AccruedInterestAmount is present, then AccruedInterestAmountSign must be present. If AccruedInterestAmount is not present, then AccruedInterestAmountSign may not be present."
+    }
+  }
+}

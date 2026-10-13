@@ -1,0 +1,40 @@
+{
+  "isoType": "AdjustmentCompensation1",
+  "language": "en",
+  "name": "Adjustment Compensation 1",
+  "definition": "Specifies the compensation for a valuation request.",
+  "isoElements": {
+    "InitialAmount": {
+      "name": "Initial Amount",
+      "definition": "Compensation calculated for the request before charges have been added."
+    },
+    "DueCharges": {
+      "name": "Due Charges",
+      "definition": "Charges added to the initial amount."
+    },
+    "AmountDue": {
+      "name": "Amount Due",
+      "definition": "Compensation due for the request after charges have been added."
+    },
+    "CompensationAgent": {
+      "name": "Compensation Agent",
+      "definition": "Financial institution servicing an account for the party or agent to whom compensation is due."
+    },
+    "CompensationAccount": {
+      "name": "Compensation Account",
+      "definition": "Account to which compensation is due."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Date range for which the compensation applies."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate of a financial instrument used to calculate the compensation."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the valuation response."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "DebitAuthorisation2",
+  "language": "en",
+  "name": "Debit Authorisation 2",
+  "definition": "Provides the reason for requesting a debit authorisation as well as the amount of the requested debit.",
+  "isoElements": {
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Specifies the reason for the cancellation request."
+    },
+    "AmountToDebit": {
+      "name": "Amount To Debit",
+      "definition": "Amount of money requested for debit authorisation."
+    },
+    "ValueDateToDebit": {
+      "name": "Value Date To Debit",
+      "definition": "Value date for debiting the amount."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "name": "Additional Cancellation Reason Information",
+      "definition": "Further details on the cancellation request reason."
+    }
+  }
+}

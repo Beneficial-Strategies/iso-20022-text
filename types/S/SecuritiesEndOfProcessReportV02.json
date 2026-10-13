@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesEndOfProcessReportV02",
+  "language": "en",
+  "name": "Securities End Of Process Report V 02",
+  "definition": "Scope|Sent by an executing party or an instructing party to the custodian or an affirming party to notify that all the necessary SecuritiesTradeConfirmation message or any other notification of the process have been sent.|It may also be sent through Central Matching Utility (CMU).|The instructing party is typically the investment manager or an intermediary system/vendor communicating on behalf of the investment manager.|The executing party is typically the broker/dealer or an intermediary system/vendor communicating on behalf of the broker/dealer.|The custodian or an affirming party is typically the custodian, trustee, financial institution, intermediary system/vendor communicating on behalf of them, or their agent.|The ISO 20022 Business Application Header must be used|Usage|Initiator: Executing Party, CMU or Instructing Party|Respondent: Custodian or an affirming party does not need to respond.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "ConfirmationParties": {
+      "name": "Confirmation Parties",
+      "definition": ""
+    },
+    "Investor": {
+      "name": "Investor",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

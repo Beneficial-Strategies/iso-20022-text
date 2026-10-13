@@ -1,0 +1,29 @@
+{
+  "isoType": "PartyIdentificationAndAccount163",
+  "language": "en",
+  "name": "Party Identification And Account 163",
+  "definition": "Provides information about identification and account of the party.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a party."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Reference meaningful to the party identified."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "The AdditionalInformation field in all elements must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition as in NarrativeVersion."
+    }
+  }
+}

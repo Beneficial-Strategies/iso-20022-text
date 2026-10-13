@@ -1,0 +1,73 @@
+{
+  "isoType": "SettlementTransactionCondition3Code",
+  "language": "en",
+  "name": "Settlement Transaction Condition 3 Code",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoCodes": {
+    "ASGN": {
+      "isoName": "Assignement",
+      "name": "Assignement",
+      "definition": "Transfer of ownership of the asset to another party during the closing of an option."
+    },
+    "CLEN": {
+      "isoName": "Clean",
+      "name": "Clean",
+      "definition": "Tax-exempt financial instruments are to be settled."
+    },
+    "DIRT": {
+      "isoName": "Dirty",
+      "name": "Dirty",
+      "definition": "Taxable financial instruments are to be settled."
+    },
+    "DLWM": {
+      "isoName": "DeliveryWithoutMatching",
+      "name": "Delivery Without Matching",
+      "definition": "Matching receipt instruction not required (only for concerned international or national central securities depositories)."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Settlement transactions relates to drawn securities."
+    },
+    "EXER": {
+      "isoName": "Exercised",
+      "name": "Exercised",
+      "definition": "Settlement transaction relates to options, futures or derivatives that are exercised."
+    },
+    "FRCL": {
+      "isoName": "FreeCleanSettlement",
+      "name": "Free Clean Settlement",
+      "definition": "Delivery will be made free of payment but a clean payment order will be sent."
+    },
+    "KNOC": {
+      "isoName": "KnockedOut",
+      "name": "Knocked Out",
+      "definition": "Settlement transaction relates to options, futures or derivatives that are expired worthless."
+    },
+    "PHYS": {
+      "isoName": "Physical",
+      "name": "Physical",
+      "definition": "Securities are to be physically settled."
+    },
+    "RESI": {
+      "isoName": "Residual",
+      "name": "Residual",
+      "definition": "Relates to transaction on a security that is not eligible at the Central Security Depository (CSD) but for which the payment will be enacted by the central securities depository."
+    },
+    "SPDL": {
+      "isoName": "SpecialDelivery",
+      "name": "Special Delivery",
+      "definition": "Settlement transactions to be settled with special delivery."
+    },
+    "SPST": {
+      "isoName": "SplitSettlement",
+      "name": "Split Settlement",
+      "definition": "Money and financial instruments settle in different locations."
+    },
+    "UNEX": {
+      "isoName": "Unexposed",
+      "name": "Unexposed",
+      "definition": "Delivery cannot be performed until money is received."
+    }
+  }
+}

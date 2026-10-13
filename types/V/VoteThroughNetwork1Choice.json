@@ -1,0 +1,16 @@
+{
+  "isoType": "VoteThroughNetwork1Choice",
+  "language": "en",
+  "name": "Vote Through Network 1 Choice",
+  "definition": "Choice between voting directly to issuers or voting via alternate network channels.",
+  "isoElements": {
+    "VoteChannel": {
+      "name": "Vote Channel",
+      "definition": "Voting is performed via message sent through an alternate network channel, that is, either via the chain of intermediaries or via the channel as described in the processing text for next intermediary information field."
+    },
+    "VoteDirectlyToIssuer": {
+      "name": "Vote Directly To Issuer",
+      "definition": "Voting is performed by sending a vote message directly to the issuer."
+    }
+  }
+}

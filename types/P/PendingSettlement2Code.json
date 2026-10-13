@@ -1,0 +1,203 @@
+{
+  "isoType": "PendingSettlement2Code",
+  "language": "en",
+  "name": "Pending Settlement 2 Code",
+  "definition": "Specifies the reason the transaction/instruction is pending settlement, that is, pending delivery or receipt of the financial instrument. Settlement on the instructed settlement date is still possible.",
+  "isoCodes": {
+    "AWMO": {
+      "isoName": "AwaitingMoney",
+      "name": "Awaiting Money",
+      "definition": "Securities have been delivered, but the settlement amount has not been received from the counterparty."
+    },
+    "CAIS": {
+      "isoName": "AwaitingSecurities",
+      "name": "Awaiting Securities",
+      "definition": "Awaiting securities from corporate action issue or other procedures, for example, conversion, dematerialisation, exchange, registration, stamping, splitting, etc."
+    },
+    "REFU": {
+      "isoName": "InstructionRefusedOrNotRecognised",
+      "name": "Instruction Refused Or Not Recognised",
+      "definition": "Instruction that has been refused or not recognised, and is represented automatically."
+    },
+    "AWSH": {
+      "isoName": "AwaitingSharesFromCounterparty",
+      "name": "Awaiting Shares From Counterparty",
+      "definition": "Securities have not yet been received from the counterparty."
+    },
+    "PHSE": {
+      "isoName": "PhysicalDeliveryDelay",
+      "name": "Physical Delivery Delay",
+      "definition": "Settlement is physical and securities are being delivered."
+    },
+    "TAMM": {
+      "isoName": "TradeAmendedInMarket",
+      "name": "Trade Amended In Market",
+      "definition": "Trade is being amended in the market."
+    },
+    "DOCY": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromYou",
+      "name": "Awaiting Documents Or Endorsements From You",
+      "definition": "Awaiting documents or endorsements from you."
+    },
+    "DOCC": {
+      "isoName": "AwaitingDocumentsOrEndorsementsFromCounterparty",
+      "name": "Awaiting Documents Or Endorsements From Counterparty",
+      "definition": "Awaiting documents or endorsements from the counterparty."
+    },
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "CHAS": {
+      "isoName": "EnquirySent",
+      "name": "Enquiry Sent",
+      "definition": "Chaser/enquiry sent to the agent or depository."
+    },
+    "NEWI": {
+      "isoName": "NewIssues",
+      "name": "New Issues",
+      "definition": "Securities are new issues and are not yet available/tradable."
+    },
+    "CLAC": {
+      "isoName": "CounterpartyInsufficientSecurities",
+      "name": "Counterparty Insufficient Securities",
+      "definition": "Insufficient deliverable securities in the counterparty's account, or counterparty does not hold the securities."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementAmount",
+      "name": "Multiple Settlement Amount",
+      "definition": "Securities quantity is not a multiple of an existing settlement amount lot for the instructed financial instrument."
+    },
+    "GLOB": {
+      "isoName": "GlobalFormSecurities",
+      "name": "Global Form Securities",
+      "definition": "Settlement cannot be executed as securities are in global form."
+    },
+    "PREA": {
+      "isoName": "PreadviceInstructed",
+      "name": "Preadvice Instructed",
+      "definition": "Your instruction is a preadvice, that is, matching only."
+    },
+    "GUAD": {
+      "isoName": "GuaranteedDeliveryIndicatorDifference",
+      "name": "Guaranteed Delivery Indicator Difference",
+      "definition": "Guaranteed delivery indicator differs in the counterparty's instruction."
+    },
+    "PART": {
+      "isoName": "TradeSettlesInPartials",
+      "name": "Trade Settles In Partials",
+      "definition": "Trade will settle in partials."
+    },
+    "NMAS": {
+      "isoName": "NoMatchingRequired",
+      "name": "No Matching Required",
+      "definition": "Instruction has not been matched because the matching process is not required."
+    },
+    "CMON": {
+      "isoName": "CounterpartyInsufficientMoney",
+      "name": "Counterparty Insufficient Money",
+      "definition": "Insufficient money in the counterparty's account."
+    },
+    "YCOL": {
+      "isoName": "CollateralShortage",
+      "name": "Collateral Shortage",
+      "definition": "Not enough collateral in your account to execute the transaction."
+    },
+    "COLL": {
+      "isoName": "SecuritiesPledgedAsCollateral",
+      "name": "Securities Pledged As Collateral",
+      "definition": "Securities are not deliverable as they are pledged as collateral."
+    },
+    "DEPO": {
+      "isoName": "RefusedDepositForIssueOfDepositaryReceipts",
+      "name": "Refused Deposit For Issue Of Depositary Receipts",
+      "definition": "Deposit of shares for the issuing of depositary receipts has been refused. The allotment for depositary receipts granted by the issuer is exceeded by the transaction."
+    },
+    "FLIM": {
+      "isoName": "MaximumForeignLimitReached",
+      "name": "Maximum Foreign Limit Reached",
+      "definition": "Insufficient deliverable securities in your account because the maximum foreign limit has been reached."
+    },
+    "NOFX": {
+      "isoName": "NoForeignExchangeInstruction",
+      "name": "No Foreign Exchange Instruction",
+      "definition": "Foreign exchange instruction is missing."
+    },
+    "INCA": {
+      "isoName": "IncomeAdjustementRequired",
+      "name": "Income Adjustement Required",
+      "definition": "Securities require income adjustment, for example, dividend or interest."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "FUTU": {
+      "isoName": "AwaitingSettlementDate",
+      "name": "Awaiting Settlement Date",
+      "definition": "Instruction is awaiting the settlement date, and no settlement problems have been reported."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient deliverable securities in your account."
+    },
+    "LALO": {
+      "isoName": "SecuritiesLoanedOut",
+      "name": "Securities Loaned Out",
+      "definition": "Insufficient deliverable securities in your account because securities are loaned out."
+    },
+    "MONY": {
+      "isoName": "InsufficientMoney",
+      "name": "Insufficient Money",
+      "definition": "Insufficient money in your account."
+    },
+    "NCON": {
+      "isoName": "ConfirmationNotReceived",
+      "name": "Confirmation Not Received",
+      "definition": "Settlement confirmation has not been received."
+    },
+    "REFS": {
+      "isoName": "NotInGoodOrder",
+      "name": "Not In Good Order",
+      "definition": "Delivery/receipt has been refused because the physical securities are not in good order."
+    },
+    "SDUT": {
+      "isoName": "LackOfStampDutyInformation",
+      "name": "Lack Of Stamp Duty Information",
+      "definition": "Instruction is pending as stamp duty information is missing."
+    },
+    "BATC": {
+      "isoName": "ProcessingBatchDifference",
+      "name": "Processing Batch Difference",
+      "definition": "Processing batch differs in the counterparty's instruction, for example, day time/real time versus overnight."
+    },
+    "CYCL": {
+      "isoName": "AwaitingNextSettlementCycle",
+      "name": "Awaiting Next Settlement Cycle",
+      "definition": "Instruction is confirmed in the local market or is ready for settlement, awaiting the next settlement cycle."
+    },
+    "SBLO": {
+      "isoName": "SecuritiesBlocked",
+      "name": "Securities Blocked",
+      "definition": "Settlement is pending. The securities are blocked due to, for example, a corporate action event, re-alignment."
+    },
+    "CPEC": {
+      "isoName": "CounterpartyInReceivership",
+      "name": "Counterparty In Receivership",
+      "definition": "Counterparty is in receivership, that is, the form of bankruptcy where a court appointed person, the receiver, manages the affairs of the business."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementAmount",
+      "name": "Minimum Settlement Amount",
+      "definition": "Securities amount is lower than the minimum existing settlement amount for the instructed financial instrument."
+    },
+    "PCAP": {
+      "isoName": "PendingCAP",
+      "name": "Pending CAP",
+      "definition": "Payment is pending, and does not settle because the actual use of the risk management limit on the counterpart (bilateral limit) prevents settlement."
+    }
+  }
+}

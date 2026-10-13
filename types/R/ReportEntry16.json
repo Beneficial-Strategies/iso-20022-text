@@ -1,0 +1,89 @@
+{
+  "isoType": "ReportEntry16",
+  "language": "en",
+  "name": "Report Entry 16",
+  "definition": "Provides further details on an entry in the report.",
+  "isoElements": {
+    "EntryReference": {
+      "name": "Entry Reference",
+      "definition": "Unique reference for the entry."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money in the cash entry."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the entry is a credit or a debit entry."
+    },
+    "ReversalIndicator": {
+      "name": "Reversal Indicator",
+      "definition": "Indicates whether or not the entry is the result of a reversal.|Usage: This element should only be present if the entry is the result of a reversal.|If the CreditDebitIndicator is CRDT and ReversalIndicator is Yes, the original operation was a debit entry.|If the CreditDebitIndicator is DBIT and ReversalIndicator is Yes, the original operation was a credit entry."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of an entry on the books of the account servicer."
+    },
+    "BookingDate": {
+      "name": "Booking Date",
+      "definition": "Date and time when an entry is posted to an account on the account servicer's books.||Usage: Booking date is the expected booking date, unless the status is booked, in which case it is the actual booking date."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit entry.|Usage: If entry status is pending and value date is present, then the value date refers to an expected/requested value date.|For entries subject to availability/float and for which availability information is provided, the value date must not be used. In this case the availability component identifies the number of availability days."
+    },
+    "AccountServicerReference": {
+      "name": "Account Servicer Reference",
+      "definition": "Unique reference as assigned by the account servicing institution to unambiguously identify the entry."
+    },
+    "Availability": {
+      "name": "Availability",
+      "definition": "Indicates when the booked amount of money will become available, that is can be accessed and starts generating interest. ||Usage: This type of information is used in the US and is linked to particular instruments such as cheques.|Example: When a cheque is deposited, it will be booked on the deposit day, but the amount of money will only be accessible as of the indicated availability day (according to national banking regulations)."
+    },
+    "BankTransactionCode": {
+      "name": "Bank Transaction Code",
+      "definition": "Set of elements used to fully identify the type of underlying transaction resulting in an entry."
+    },
+    "CommissionWaiverIndicator": {
+      "name": "Commission Waiver Indicator",
+      "definition": "Indicates whether the transaction is exempt from commission."
+    },
+    "AdditionalInformationIndicator": {
+      "name": "Additional Information Indicator",
+      "definition": "Indicates whether the underlying transaction details are provided through a separate message, as in the case of aggregate bookings."
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Provides information on the original amount.||Usage: This component (on entry level) should be used when a total original batch or aggregate amount has to be provided. If required, the individual original amounts can be included in the same component on transaction details level."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Provides information on the charges, pre-advised or included in the entry amount.||Usage: This component is used on entry level in case of batch or aggregate bookings."
+    },
+    "TechnicalInputChannel": {
+      "name": "Technical Input Channel",
+      "definition": "Channel used to technically input the instruction related to the entry."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Provides details of the interest amount included in the entry amount.||Usage: This component is used on entry level in the case of batch or aggregate bookings."
+    },
+    "CardTransaction": {
+      "name": "Card Transaction",
+      "definition": "Provides details of the card transaction included in the entry amount, when globalised by the account servicer."
+    },
+    "EntryDetails": {
+      "name": "Entry Details",
+      "definition": "Provides details on the entry."
+    },
+    "AdditionalEntryInformation": {
+      "name": "Additional Entry Information",
+      "definition": "Further details of the entry."
+    }
+  },
+  "isoRules": {
+    "ReferenceGuideline": {
+      "definition": "At least one reference should be present to identify the underlying transaction(s)."
+    }
+  }
+}

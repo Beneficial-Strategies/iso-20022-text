@@ -1,0 +1,40 @@
+{
+  "isoType": "BillingService2",
+  "language": "en",
+  "name": "Billing Service 2",
+  "definition": "Specifies the values used for every line item service in the statement.",
+  "isoElements": {
+    "ServiceDetail": {
+      "name": "Service Detail",
+      "definition": "Specifies further detailed values for this service."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price applied to the service, expressed in the pricing currency."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Code identifying the disposition of the calculated charge."
+    },
+    "OriginalChargePrice": {
+      "name": "Original Charge Price",
+      "definition": "Amount of the calculated charge, expressed in the pricing currency. This value does not include any tax on the service."
+    },
+    "OriginalChargeSettlementAmount": {
+      "name": "Original Charge Settlement Amount",
+      "definition": "Amount of the calculated charge, expressed in the settlement currency."
+    },
+    "BalanceRequiredAccountAmount": {
+      "name": "Balance Required Account Amount",
+      "definition": "Average daily collected balance required to offset a balance compensable service charge, exclusive of taxes, expressed in the account currency."
+    },
+    "TaxDesignation": {
+      "name": "Tax Designation",
+      "definition": "Provides the details of the taxable status of a service."
+    },
+    "TaxCalculation": {
+      "name": "Tax Calculation",
+      "definition": "Provides tax related values for tax calculation methods A, B or D."
+    }
+  }
+}

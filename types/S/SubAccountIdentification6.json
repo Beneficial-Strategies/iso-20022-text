@@ -1,0 +1,25 @@
+{
+  "isoType": "SubAccountIdentification6",
+  "language": "en",
+  "name": "Sub Account Identification 6",
+  "definition": "Account to or from which a securities entry is made.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity reported in the statement."
+    },
+    "TransactionOnSubAccount": {
+      "name": "Transaction On Sub Account",
+      "definition": "Creation/cancellation of investment units on the books of the fund or its designated agent, as a result of executing an investment fund order."
+    }
+  },
+  "isoRules": {
+    "TransactionOnSubAccountRule": {
+      "definition": "If ActivityIndicator is \"true\" or \"1\" (Yes), then TransactionOnSubAccount must be present. If ActivityIndicator is \"false\" or \"0\" (No), then TransactionOnSubAccount is not allowed."
+    }
+  }
+}

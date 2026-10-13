@@ -1,0 +1,83 @@
+{
+  "isoType": "RejectionReason69Code",
+  "language": "en",
+  "name": "Rejection Reason 69 Code",
+  "definition": "Specifies the reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "CAEV": {
+      "isoName": "CorporateActionRejection",
+      "name": "Corporate Action Rejection",
+      "definition": "Corporate action pending on the financial instrument instructed."
+    },
+    "DDAT": {
+      "isoName": "SettlementDateRejection",
+      "name": "Settlement Date Rejection",
+      "definition": "Unrecognised or invalid settlement date."
+    },
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "INVB": {
+      "isoName": "InvalidBalance",
+      "name": "Invalid Balance",
+      "definition": "Instruction aims at using an invalid balance."
+    },
+    "INVL": {
+      "isoName": "InvalidLink",
+      "name": "Invalid Link",
+      "definition": "Invalid or unrecognized link."
+    },
+    "INVN": {
+      "isoName": "InvalidLotNumber",
+      "name": "Invalid Lot Number",
+      "definition": "Invalid or unrecognized lot number."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementQuantity",
+      "name": "Minimum Settlement Quantity",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementQuantity",
+      "name": "Multiple Settlement Quantity",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "VALR": {
+      "isoName": "InvalidRule",
+      "name": "Invalid Rule",
+      "definition": "Account servicer validation rule rejection."
+    }
+  }
+}

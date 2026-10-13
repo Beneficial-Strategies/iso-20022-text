@@ -1,0 +1,36 @@
+{
+  "isoType": "BonusWithdrawal2",
+  "language": "en",
+  "name": "Bonus Withdrawal 2",
+  "definition": "Information about a bonus paid out or a withdrawal.",
+  "isoElements": {
+    "TypeOfAmount": {
+      "name": "Type Of Amount",
+      "definition": "Specifies whether the amount is the result of a bonus paid, a withdrawal or other kind of amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the bonus paid or the claimed amount. For example, a claimed amount for a lifetime ISA (LISA) or a government bonus paid out."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the bonus amount paid to or an amount withdrawn from the investment product."
+    },
+    "UnclaimedAmount": {
+      "name": "Unclaimed Amount",
+      "definition": "Amount of an unclaimed bonus or an unclaimed withdrawal."
+    },
+    "Outstanding": {
+      "name": "Outstanding",
+      "definition": "Indicates whether there is an outstanding bonus or withdrawal amount."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Identification of the withdrawal or bonus."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the monies paid out or withdrawn."
+    }
+  }
+}

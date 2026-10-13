@@ -1,0 +1,33 @@
+{
+  "isoType": "CaseStatus2Code",
+  "language": "en",
+  "name": "Case Status 2 Code",
+  "definition": "Specifies the status of an investigation case.||Note: |The cases that have been rejected (not accepted) are unknown to the Party reporting the status of cases. They will be reported with the CaseStatusCode = Unknown.",
+  "isoCodes": {
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "Case has been closed."
+    },
+    "ASGN": {
+      "isoName": "Assigned",
+      "name": "Assigned",
+      "definition": "Case has been assigned to another party."
+    },
+    "INVE": {
+      "isoName": "UnderInvestigation",
+      "name": "Under Investigation",
+      "definition": "Case is currently under investigation."
+    },
+    "UKNW": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Case has never been assigned before."
+    },
+    "ODUE": {
+      "isoName": "Overdue",
+      "name": "Overdue",
+      "definition": "Investigation is taking too long."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "InstructionProcessingStatus57Choice",
+  "language": "en",
+  "name": "Instruction Processing Status 57 Choice",
+  "definition": "Choice between different instruction processing statuses.",
+  "isoElements": {
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "Instruction is accepted."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction cancelled by client cancellation instruction."
+    },
+    "AcceptedForFurtherProcessing": {
+      "name": "Accepted For Further Processing",
+      "definition": "Provides status information related to an instruction request that is accepted. This means that the instruction has been received, is processable and has been validated for further processing."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction rejected by the receiver."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Instruction has not been completed."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Cancellation instruction is pending."
+    },
+    "Covered": {
+      "name": "Covered",
+      "definition": "Protect Instruction has been full covered."
+    },
+    "Uncovered": {
+      "name": "Uncovered",
+      "definition": "Cover protect instruction accepted but it has not fully covered the protect instruction."
+    },
+    "Returned": {
+      "name": "Returned",
+      "definition": "Instructed units are returned or partially returned to the instructing party."
+    }
+  }
+}

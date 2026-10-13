@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementMethod1Code",
+  "language": "en",
+  "name": "Settlement Method 1 Code",
+  "definition": "Specifies the method used to settle the credit transfer instruction.",
+  "isoCodes": {
+    "INDA": {
+      "isoName": "InstructedAgent",
+      "name": "Instructed Agent",
+      "definition": "Settlement is done by the agent instructed to execute a payment instruction."
+    },
+    "INGA": {
+      "isoName": "InstructingAgent",
+      "name": "Instructing Agent",
+      "definition": "Settlement is done by the agent instructing and forwarding the payment to the next party in the payment chain."
+    },
+    "COVE": {
+      "isoName": "CoverMethod",
+      "name": "Cover Method",
+      "definition": "Settlement is done through a cover payment."
+    },
+    "CLRG": {
+      "isoName": "ClearingSystem",
+      "name": "Clearing System",
+      "definition": "Settlement is done through a payment clearing system."
+    }
+  }
+}

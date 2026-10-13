@@ -1,0 +1,168 @@
+{
+  "isoType": "InstructionProcessingStatus1Code",
+  "language": "en",
+  "name": "Instruction Processing Status 1 Code",
+  "definition": "Specifies the status of an instruction.",
+  "isoCodes": {
+    "CAN1": {
+      "isoName": "Cancellation1",
+      "name": "Cancellation 1",
+      "definition": "Pending cancellation; only one side has been input and a cancellation request has been sent."
+    },
+    "CAN2": {
+      "isoName": "Cancellation2",
+      "name": "Cancellation 2",
+      "definition": "Pending cancellation; both sides have been input, the trade has not yet been matched, and one side has sent a cancellation request."
+    },
+    "CAN3": {
+      "isoName": "Cancellation3",
+      "name": "Cancellation 3",
+      "definition": "Pending cancellation; both sides have been input, the trade is matched, and one side has sent a cancellation request."
+    },
+    "CAND": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "CANO": {
+      "isoName": "CancelledByAnotherParty",
+      "name": "Cancelled By Another Party",
+      "definition": "Instruction has been cancelled by another party than the instructing party, for example, market infrastructure such as a stock exchange."
+    },
+    "CANP": {
+      "isoName": "PendingCancellation",
+      "name": "Pending Cancellation",
+      "definition": "Cancellation request from yourself for this instruction is pending waiting for further processing."
+    },
+    "CGEN": {
+      "isoName": "Generated",
+      "name": "Generated",
+      "definition": "Account servicer or third party created the transaction. It was not instructed directly by the account owner."
+    },
+    "COSE": {
+      "isoName": "FullyExecutedConfirmationSent",
+      "name": "Fully Executed Confirmation Sent",
+      "definition": "Order is fully executed and the confirmation was sent."
+    },
+    "CPRC": {
+      "isoName": "CancellationRequested",
+      "name": "Cancellation Requested",
+      "definition": "Cancellation request from the counterparty is awaiting for your cancellation request or your consent."
+    },
+    "DFLA": {
+      "isoName": "DefaultAction",
+      "name": "Default Action",
+      "definition": "Default action is taken."
+    },
+    "DONE": {
+      "isoName": "Done",
+      "name": "Done",
+      "definition": "Order is partially filled and no further executions forthcoming for the trading day."
+    },
+    "DONF": {
+      "isoName": "PartiallyFilledOrder",
+      "name": "Partially Filled Order",
+      "definition": "Order is partially filled and no further executions will take place."
+    },
+    "EXCH": {
+      "isoName": "ReceivedAtStockExchange",
+      "name": "Received At Stock Exchange",
+      "definition": "Order has been received at the stock exchange."
+    },
+    "EXSE": {
+      "isoName": "FullyExecutedExecutionSent",
+      "name": "Fully Executed Execution Sent",
+      "definition": "Order was fully executed and the execution sent."
+    },
+    "FORC": {
+      "isoName": "ForcedRejection",
+      "name": "Forced Rejection",
+      "definition": "Message has been sent automatically by the service provider to notify that settlement will not take place."
+    },
+    "FUTU": {
+      "isoName": "Future",
+      "name": "Future",
+      "definition": "All checks relative to the instruction (except collateral) are successful."
+    },
+    "INTE": {
+      "isoName": "ReceivedAtIntermediary",
+      "name": "Received At Intermediary",
+      "definition": "Order has been received at the intermediary."
+    },
+    "NOTC": {
+      "isoName": "AlreadyMatchedAndAffirmed",
+      "name": "Already Matched And Affirmed",
+      "definition": "Instruction cannot be cancelled as it has already been matched and affirmed."
+    },
+    "OPOD": {
+      "isoName": "OpenOrder",
+      "name": "Open Order",
+      "definition": "Order is open."
+    },
+    "OVER": {
+      "isoName": "OverAllocated",
+      "name": "Over Allocated",
+      "definition": "Quantity of financial instrument of the block trade has been overallocated."
+    },
+    "PACK": {
+      "isoName": "AcknowledgedAccepted",
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged/accepted for further processing by the account servicer."
+    },
+    "PAFI": {
+      "isoName": "PartialFill",
+      "name": "Partial Fill",
+      "definition": "Order has been partially filled and the remaining quantity is warehoused."
+    },
+    "PART": {
+      "isoName": "PartialCancel",
+      "name": "Partial Cancel",
+      "definition": "Order has been partially cancelled as requested."
+    },
+    "PPRC": {
+      "isoName": "PendingProcessing",
+      "name": "Pending Processing",
+      "definition": "Processing of the instruction is pending."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instruction has been rejected for further processing."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Instruction is accepted but in repair."
+    },
+    "SESE": {
+      "isoName": "SettlementInstructionSent",
+      "name": "Settlement Instruction Sent",
+      "definition": "Settlement instruction has been sent to your custodian."
+    },
+    "STIN": {
+      "isoName": "StandingInstruction",
+      "name": "Standing Instruction",
+      "definition": "Standing instruction has been applied."
+    },
+    "SUSP": {
+      "isoName": "TradingSuspendedByStockExchange",
+      "name": "Trading Suspended By Stock Exchange",
+      "definition": "Trading is suspended by the stock exchange."
+    },
+    "TREA": {
+      "isoName": "Treated",
+      "name": "Treated",
+      "definition": "Transaction has been treated (triparty collateral status)."
+    },
+    "UNDE": {
+      "isoName": "UnderAllocated",
+      "name": "Under Allocated",
+      "definition": "Quantity of financial instrument of the block trade has been under allocated."
+    },
+    "MPRC": {
+      "isoName": "ModificationRequested",
+      "name": "Modification Requested",
+      "definition": "Modification request from the counterparty is awaiting for your modification request or your consent."
+    }
+  }
+}

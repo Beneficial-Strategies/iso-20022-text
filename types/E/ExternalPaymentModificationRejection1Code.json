@@ -1,0 +1,148 @@
+{
+  "isoType": "ExternalPaymentModificationRejection1Code",
+  "language": "en",
+  "name": "External Payment Modification Rejection 1 Code",
+  "definition": "Specifies the reason for the rejection of a modification, as published in an external payment modification rejection code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "UM01": {
+      "isoName": "UnableToModifyRelatedReference",
+      "name": "Unable To Modify Related Reference",
+      "definition": "Related transaction reference cannot be modified."
+    },
+    "UM02": {
+      "isoName": "UnableToModifyPaymentServiceLevel",
+      "name": "Unable To Modify Payment Service Level",
+      "definition": "Service level element of payment type cannot be modified(former UnableToModifyBankOperationCode)."
+    },
+    "UM03": {
+      "isoName": "UnableToModifyCategoryPurpose",
+      "name": "Unable To Modify Category Purpose",
+      "definition": "Category purpose element of payment type cannot be modified (former UnableToModifyInstructionCode)."
+    },
+    "UM04": {
+      "isoName": "UnableToModifyRequestedExecutionDate",
+      "name": "Unable To Modify Requested Execution Date",
+      "definition": "RequestedExecutionDate cannot be modified."
+    },
+    "UM05": {
+      "isoName": "UnableToModifyInterbankSettlementDate",
+      "name": "Unable To Modify Interbank Settlement Date",
+      "definition": "InterbankSettlementDate cannot be modified (former UnableToModifyValueDate)."
+    },
+    "UM06": {
+      "isoName": "UnableToModifyInterbankSettlementAccount",
+      "name": "Unable To Modify Interbank Settlement Account",
+      "definition": "SettlementAccount cannot be modified (former UnableToModifyInterbankSettlementAccount)."
+    },
+    "UM07": {
+      "isoName": "UnableToModifyDebtor",
+      "name": "Unable To Modify Debtor",
+      "definition": "Debtor cannot be modified."
+    },
+    "UM08": {
+      "isoName": "UnableToModifyDebtorAccount",
+      "name": "Unable To Modify Debtor Account",
+      "definition": "DebtorAccount cannot be modified."
+    },
+    "UM09": {
+      "isoName": "UnableToModifyInstructedReimbursementAgent",
+      "name": "Unable To Modify Instructed Reimbursement Agent",
+      "definition": "InstructedReimbursementAgent cannot be modified (former UnableToModifyReceiverCorrespondent)."
+    },
+    "UM10": {
+      "isoName": "UnableToModifyThirdReimbursementAgent",
+      "name": "Unable To Modify Third Reimbursement Agent",
+      "definition": "ThirdReimbursementAgent cannot be modified (former UnableToModifyThirdReimbursementInstitution)."
+    },
+    "UM11": {
+      "isoName": "UnableToModifyPaymentClearingChannel",
+      "name": "Unable To Modify Payment Clearing Channel",
+      "definition": "Clearing Channel element of payment type cannot be modified (former UnableToModifyPaymentScheme)"
+    },
+    "UM12": {
+      "isoName": "UnableToModifyCreditorAgentAccount",
+      "name": "Unable To Modify Creditor Agent Account",
+      "definition": "Creditor agent account cannot be modified (former UnableToModifyAccountOfBeneficiaryInstitution)"
+    },
+    "UM13": {
+      "isoName": "UnableToModifyCreditor",
+      "name": "Unable To Modify Creditor",
+      "definition": "Creditor cannot be modified."
+    },
+    "UM14": {
+      "isoName": "UnableToModifyCreditorAccount",
+      "name": "Unable To Modify Creditor Account",
+      "definition": "Creditor account cannot be modified."
+    },
+    "UM15": {
+      "isoName": "UnableToModifyRemittanceInformation",
+      "name": "Unable To Modify Remittance Information",
+      "definition": "Remittance information cannot be modified."
+    },
+    "UM16": {
+      "isoName": "UnableToModifyPaymentPurpose",
+      "name": "Unable To Modify Payment Purpose",
+      "definition": "PaymentPurpose cannot be modified."
+    },
+    "UM17": {
+      "isoName": "UnableToModifyChargeBearer",
+      "name": "Unable To Modify Charge Bearer",
+      "definition": "Charge bearer cannot be modified (former UnableToModifyDetailsOfCharges)."
+    },
+    "UM18": {
+      "isoName": "UnableToModifyInstructionForNextAgent",
+      "name": "Unable To Modify Instruction For Next Agent",
+      "definition": "Instruction for next agent cannot be modified (former UnableToModifySenderToReceiver)."
+    },
+    "UM19": {
+      "isoName": "UnableToModifyInstructionForCreditorAgent",
+      "name": "Unable To Modify Instruction For Creditor Agent",
+      "definition": "Instruction for creditor agent cannot be modified. (former UnableToModifyInstructionForFinalAgent)."
+    },
+    "UM20": {
+      "isoName": "InstructionCancelledSubmitNewInstruction",
+      "name": "Instruction Cancelled Submit New Instruction",
+      "definition": "Used to inform of cancellation and request a new payment instruction. This should only be used if an agent does not want to modify a pending payment."
+    },
+    "UM21": {
+      "isoName": "UnableToModifySubmitCancellation",
+      "name": "Unable To Modify Submit Cancellation",
+      "definition": "Modification is not possible and the cancellation is requested."
+    },
+    "UM22": {
+      "isoName": "UnableToModifyDebtorAgentAccount",
+      "name": "Unable To Modify Debtor Agent Account",
+      "definition": "Debtor agent account cannot be modified (applicable for direct debits)."
+    },
+    "UM23": {
+      "isoName": "UnableToModifyInterbankSettlementAmount",
+      "name": "Unable To Modify Interbank Settlement Amount",
+      "definition": "Interbank settlement amount cannot be modified."
+    },
+    "UM24": {
+      "isoName": "UnableToModifyInstructionForDebtorAgent",
+      "name": "Unable To Modify Instruction For Debtor Agent",
+      "definition": "Instruction for debtor agent cannot be modified (applicable for direct debits)"
+    },
+    "UM25": {
+      "isoName": "UnableToModifyRequestedCollectionDate",
+      "name": "Unable To Modify Requested Collection Date",
+      "definition": "Requested collection date cannot be modified (applicable for direct debits)"
+    },
+    "UM26": {
+      "isoName": "UnableToModifyPaymentType",
+      "name": "Unable To Modify Payment Type",
+      "definition": "Payment type cannot be modified."
+    },
+    "UM27": {
+      "isoName": "UnableToModifyInstructedAmount",
+      "name": "Unable To Modify Instructed Amount",
+      "definition": "Instructed or equivalent amount cannot be modified."
+    },
+    "UM28": {
+      "isoName": "UnableToModifyPriority",
+      "name": "Unable To Modify Priority",
+      "definition": "Priority of payment message cannot be modified."
+    }
+  }
+}

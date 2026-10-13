@@ -1,0 +1,58 @@
+{
+  "isoType": "ATMCassetteStatus1Code",
+  "language": "en",
+  "name": "ATM Cassette Status 1 Code",
+  "definition": "Status of a cassette in an ATM.",
+  "isoCodes": {
+    "CUOK": {
+      "isoName": "Ok",
+      "name": "Ok",
+      "definition": "The cash unit is in a good state."
+    },
+    "CUFL": {
+      "isoName": "Full",
+      "name": "Full",
+      "definition": "The cash unit is full."
+    },
+    "CUHG": {
+      "isoName": "High",
+      "name": "High",
+      "definition": "The cash unit is high, that is it has reached or exceeded the threshold defined for this cassette."
+    },
+    "CULW": {
+      "isoName": "Low",
+      "name": "Low",
+      "definition": "The cash unit is low, that is it has reached or is below the threshold defined for this cassette."
+    },
+    "CUMT": {
+      "isoName": "Empty",
+      "name": "Empty",
+      "definition": "The cash unit is empty."
+    },
+    "CUNP": {
+      "isoName": "Inoperative",
+      "name": "Inoperative",
+      "definition": "The cash unit is inoperative."
+    },
+    "CUMS": {
+      "isoName": "Missing",
+      "name": "Missing",
+      "definition": "The cash unit is missing."
+    },
+    "CUNA": {
+      "isoName": "NotAvailable",
+      "name": "Not Available",
+      "definition": "The values of this cash unit are not available."
+    },
+    "CUNR": {
+      "isoName": "NoReference",
+      "name": "No Reference",
+      "definition": "There are no reference values available for this cash unit."
+    },
+    "CUMP": {
+      "isoName": "Manipulated",
+      "name": "Manipulated",
+      "definition": "The device has been inserted when the device was not in an exchange state."
+    }
+  }
+}

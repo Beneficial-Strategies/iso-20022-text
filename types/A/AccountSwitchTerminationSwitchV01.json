@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountSwitchTerminationSwitchV01",
+  "language": "en",
+  "name": "Account Switch Termination Switch V 01",
+  "definition": "The AccountSwitchTerminationSwitch message is sent by the new account servicer to the account switch servicer to signal that the account switch must be stopped. The AccountSwitchTerminationSwitch message is only used in exception after the new account servicer has received an AccountSwitchInformationResponse message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

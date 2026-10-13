@@ -1,0 +1,16 @@
+{
+  "isoType": "PaymentInstruction13",
+  "language": "en",
+  "name": "Payment Instruction 13",
+  "definition": "Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. This instruction may have to be forwarded several times to complete the settlement chain.|.",
+  "isoElements": {
+    "RequestedExecutionDateTime": {
+      "name": "Requested Execution Date Time",
+      "definition": "Date at which the initiating party requests that the payment instruction be processed. |."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Type, or nature, of the payment, for example an express payment."
+    }
+  }
+}

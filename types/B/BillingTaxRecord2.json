@@ -1,0 +1,32 @@
+{
+  "isoType": "BillingTaxRecord2",
+  "language": "en",
+  "name": "Billing Tax Record 2",
+  "definition": "Provides details for taxes.",
+  "isoElements": {
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the tax."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Name used to describe the tax (such as the national value added tax)."
+    },
+    "TaxableAmount": {
+      "name": "Taxable Amount",
+      "definition": "Amount subject to tax."
+    },
+    "TaxExemption": {
+      "name": "Tax Exemption",
+      "definition": "Amount exempted from  tax."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Calculated tax amount."
+    },
+    "ChargesAndFees": {
+      "name": "Charges And Fees",
+      "definition": "Further details on the charges and fees realted to the tax data."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "ATMKeyDownloadRequest6",
+  "language": "en",
+  "name": "ATM Key Download Request 6",
+  "definition": "Information related to the request of a key download from an ATM.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the key download."
+    },
+    "CommandResult": {
+      "name": "Command Result",
+      "definition": "Result of a maintenance command performed by the ATM."
+    },
+    "CommandContext": {
+      "name": "Command Context",
+      "definition": "Security command in progress inside which the key download is requested."
+    },
+    "ATMSecurityContext": {
+      "name": "ATM Security Context",
+      "definition": "Context of the ATM for the key download."
+    },
+    "ATMSecurityParameters": {
+      "name": "ATM Security Parameters",
+      "definition": "Security parameters of the ATM for the initiated key download."
+    },
+    "HostChallenge": {
+      "name": "Host Challenge",
+      "definition": "Random value from the host provided during a previous exchange."
+    }
+  }
+}

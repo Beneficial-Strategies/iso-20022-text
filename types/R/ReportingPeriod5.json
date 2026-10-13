@@ -1,0 +1,20 @@
+{
+  "isoType": "ReportingPeriod5",
+  "language": "en",
+  "name": "Reporting Period 5",
+  "definition": "Specifies the requested reporting period.",
+  "isoElements": {
+    "FromToDate": {
+      "name": "From To Date",
+      "definition": "Specifies a date range."
+    },
+    "FromToTime": {
+      "name": "From To Time",
+      "definition": "Specifies a time range."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies whether all matching items need to be reported or only those items that are new or have changed since the last similar request was made."
+    }
+  }
+}

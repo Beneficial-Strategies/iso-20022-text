@@ -1,0 +1,32 @@
+{
+  "isoType": "AgentCAInformationAdviceV01",
+  "language": "en",
+  "name": "Agent CA Information Advice V 01",
+  "definition": "Scope|This message is sent by a CSD to an issuer (or its agent) to provide information about the certification and/or the delivery details to the issuer (or its agent).|Usage|This message can be used in the case of a corporate action event without an election.|This message can also be used in the case of a corporate action event with election when the election details and the additional information cannot be provided in the same message. In this case, the Agent Corporate Action Election Advice Identification must be used to link this message to the election advice for which additional information is provided.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AgentCAElectionAdviceIdentification": {
+      "name": "Agent CA Election Advice Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "CorporateActionAdditionalInformation": {
+      "name": "Corporate Action Additional Information",
+      "definition": ""
+    },
+    "ContactDetails": {
+      "name": "Contact Details",
+      "definition": ""
+    }
+  }
+}

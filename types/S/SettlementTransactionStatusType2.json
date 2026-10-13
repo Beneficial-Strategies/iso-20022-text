@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementTransactionStatusType2",
+  "language": "en",
+  "name": "Settlement Transaction Status Type 2",
+  "definition": "Choice of the securities settlement instruction status type.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides details on the processing status of the transaction."
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": "Provides the matching status of an instruction as known by the account servicer based on an allegement. At this time no matching took place on the market (at the CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the settlement status of a transaction."
+    },
+    "Settled": {
+      "name": "Settled",
+      "definition": "Defines that the transaction has been settled."
+    }
+  }
+}

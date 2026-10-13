@@ -1,0 +1,16 @@
+{
+  "isoType": "ATMSecurityConfiguration5",
+  "language": "en",
+  "name": "ATM Security Configuration 5",
+  "definition": "Configuration of the PIN online verification.",
+  "isoElements": {
+    "PINFormat": {
+      "name": "PIN Format",
+      "definition": "PIN block format the security module is able to manage for online verification of the PIN."
+    },
+    "PINLengthCapabilities": {
+      "name": "PIN Length Capabilities",
+      "definition": "Maximum number of digits the security module is able to accept when the cardholder enters its PIN."
+    }
+  }
+}

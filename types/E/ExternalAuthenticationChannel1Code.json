@@ -1,0 +1,28 @@
+{
+  "isoType": "ExternalAuthenticationChannel1Code",
+  "language": "en",
+  "name": "External Authentication Channel 1 Code",
+  "definition": "Specifies the transaction authentication channel, as published in an external authentication channel code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ATMA": {
+      "isoName": "ATM",
+      "name": "ATM",
+      "definition": "Authentication provided through ATM"
+    },
+    "CARD": {
+      "isoName": "Card",
+      "name": "Card",
+      "definition": "Authentication provided through Card"
+    },
+    "INBA": {
+      "isoName": "InternetBanking",
+      "name": "Internet Banking",
+      "definition": "Authentication provided through Internet Banking"
+    },
+    "MOBI": {
+      "isoName": "Mobile",
+      "name": "Mobile",
+      "definition": "Authentication provided through Mobile"
+    }
+  }
+}

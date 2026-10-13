@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalChequeCancellationReason1Code",
+  "language": "en",
+  "name": "External Cheque Cancellation Reason 1 Code",
+  "definition": "Specifies the external cheque cancellation reason code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code set published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Customer requested to stop/cancel the cheque."
+    },
+    "LOST": {
+      "isoName": "Lost",
+      "name": "Lost",
+      "definition": "Cheque has been stolen/lost."
+    },
+    "FRAD": {
+      "isoName": "Fraud",
+      "name": "Fraud",
+      "definition": "Cheque has been issued fraudulently."
+    },
+    "DUPL": {
+      "isoName": "Duplicate",
+      "name": "Duplicate",
+      "definition": "Cheque has been issued in duplication of another cheque."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "isoType": "CorporateActionCancellationAdvice002V13",
+  "language": "en",
+  "name": "Corporate Action Cancellation Advice 002 V 13",
+  "definition": "Scope|The CorporateActionCancellationAdvice message is sent by an account servicer to an account owner or its designated agent to cancel a previously announced corporate action event in case of error from the account servicer or in case of withdrawal by the issuer.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "CancellationAdviceGeneralInformation": {
+      "name": "Cancellation Advice General Information",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountsDetails": {
+      "name": "Accounts Details",
+      "definition": ""
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": ""
+    },
+    "AdditionalText": {
+      "name": "Additional Text",
+      "definition": "Provides additional information or specifies in more detail the content of a message. This field may only be used when the information to be transmitted, cannot be coded."
+    },
+    "IssuerAgent": {
+      "name": "Issuer Agent",
+      "definition": ""
+    },
+    "PayingAgent": {
+      "name": "Paying Agent",
+      "definition": ""
+    },
+    "SubPayingAgent": {
+      "name": "Sub Paying Agent",
+      "definition": ""
+    },
+    "Registrar": {
+      "name": "Registrar",
+      "definition": ""
+    },
+    "ResellingAgent": {
+      "name": "Reselling Agent",
+      "definition": ""
+    },
+    "PhysicalSecuritiesAgent": {
+      "name": "Physical Securities Agent",
+      "definition": ""
+    },
+    "DropAgent": {
+      "name": "Drop Agent",
+      "definition": ""
+    },
+    "SolicitationAgent": {
+      "name": "Solicitation Agent",
+      "definition": ""
+    },
+    "InformationAgent": {
+      "name": "Information Agent",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

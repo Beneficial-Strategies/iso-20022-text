@@ -1,0 +1,29 @@
+{
+  "isoType": "FinancialInstrumentIdentification6",
+  "language": "en",
+  "name": "Financial Instrument Identification 6",
+  "definition": "Identification of a security.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of a security, assigned under a formal or proprietary identification scheme."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the financial instrument in free format text."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Financial Instrument Short Name (FISN) expressed in conformance with the ISO 18774 standard."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Type of security."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "When an ISIN code exists, it is strongly recommended that the ISIN be used."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMConfigurationReportComponent1",
+  "language": "en",
+  "name": "ATM Configuration Report Component 1",
+  "definition": "Information related to a configuration report of an ATM device.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "ActiveVersion": {
+      "name": "Active Version",
+      "definition": "The configuration version which is active on the terminal."
+    },
+    "NonActiveVersion": {
+      "name": "Non Active Version",
+      "definition": "Configuration versions which are not active on the terminal."
+    }
+  }
+}

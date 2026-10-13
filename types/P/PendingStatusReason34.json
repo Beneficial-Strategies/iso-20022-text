@@ -1,0 +1,21 @@
+{
+  "isoType": "PendingStatusReason34",
+  "language": "en",
+  "name": "Pending Status Reason 34",
+  "definition": "Reasons for a pending instruction status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Reason for the pending status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the pending status."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

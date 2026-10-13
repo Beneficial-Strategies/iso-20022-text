@@ -1,0 +1,33 @@
+{
+  "isoType": "DeniedReason3Code",
+  "language": "en",
+  "name": "Denied Reason 3 Code",
+  "definition": "Specifies the denied reason.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline."
+    },
+    "DCAL": {
+      "isoName": "CallDeniedSinceAlreadyApplied",
+      "name": "Call Denied Since Already Applied",
+      "definition": "Repo call request was denied since another call already applies."
+    },
+    "DFOR": {
+      "isoName": "DeniedSinceNotAllowed",
+      "name": "Denied Since Not Allowed",
+      "definition": "Repo call request was denied. Call not allowed on the concerned repo, for example, out of delay."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    }
+  }
+}

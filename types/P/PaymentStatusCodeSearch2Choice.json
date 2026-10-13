@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentStatusCodeSearch2Choice",
+  "language": "en",
+  "name": "Payment Status Code Search 2 Choice",
+  "definition": "Choice between a list of pending statuses, final statuses or all statuses.",
+  "isoElements": {
+    "PendingStatus": {
+      "name": "Pending Status",
+      "definition": "Qualifies further the pending status."
+    },
+    "FinalStatus": {
+      "name": "Final Status",
+      "definition": "Qualifies further the final status."
+    },
+    "PendingAndFinalStatus": {
+      "name": "Pending And Final Status",
+      "definition": "State of a payment instruction at a specified time."
+    }
+  }
+}

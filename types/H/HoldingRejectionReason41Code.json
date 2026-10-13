@@ -1,0 +1,378 @@
+{
+  "isoType": "HoldingRejectionReason41Code",
+  "language": "en",
+  "name": "Holding Rejection Reason 41 Code",
+  "definition": "Specifies the reason the report item is rejected.",
+  "isoCodes": {
+    "INPR": {
+      "isoName": "InvalidPrice",
+      "name": "Invalid Price",
+      "definition": "Price does not comply with the financial instrument's characteristics."
+    },
+    "INID": {
+      "isoName": "InvalidIdentification",
+      "name": "Invalid Identification",
+      "definition": "Instruction contains an invalid message identification, identification is unknown."
+    },
+    "AGIN": {
+      "isoName": "InvalidAgent",
+      "name": "Invalid Agent",
+      "definition": "Invalid agent identification supplied."
+    },
+    "INTE": {
+      "isoName": "Intermediary",
+      "name": "Intermediary",
+      "definition": "Intermediary is not recognised or is invalid."
+    },
+    "CERT": {
+      "isoName": "IncorrectCertification",
+      "name": "Incorrect Certification",
+      "definition": "Instruction is rejected since the provided certification is incorrect or incomplete."
+    },
+    "BPAR": {
+      "isoName": "BusinessPartnerNumberRejection",
+      "name": "Business Partner Number Rejection",
+      "definition": "Unrecognised or invalid business partner number."
+    },
+    "BREF": {
+      "isoName": "BankReferenceNumberRejection",
+      "name": "Bank Reference Number Rejection",
+      "definition": "Unrecognised or invalid bank reference number."
+    },
+    "DADR": {
+      "isoName": "AddressDetailsRejection",
+      "name": "Address Details Rejection",
+      "definition": "Address details are incorrect or cannot be recognised."
+    },
+    "DCUS": {
+      "isoName": "DeliveringCustodian",
+      "name": "Delivering Custodian",
+      "definition": "Unrecognised or invalid delivering custodian."
+    },
+    "IACT": {
+      "isoName": "IncorrectActivityType",
+      "name": "Incorrect Activity Type",
+      "definition": "Incorrect activity type specified, for example, pre-release conversion."
+    },
+    "INVA": {
+      "isoName": "InvalidForTaxAuthorities",
+      "name": "Invalid For Tax Authorities",
+      "definition": "For tax reclaim, the reclaim is invalid for the tax authorities."
+    },
+    "INDT": {
+      "isoName": "InvalidDetails",
+      "name": "Invalid Details",
+      "definition": "Message details specified in the instruction/request are inconsistent with those that were specified in the relating original message."
+    },
+    "OPTI": {
+      "isoName": "InvalidOption",
+      "name": "Invalid Option",
+      "definition": "Invalid combination of corporate action option code and corporate action option number."
+    },
+    "OPTY": {
+      "isoName": "InvalidOptionType",
+      "name": "Invalid Option Type",
+      "definition": "Invalid option type."
+    },
+    "INMO": {
+      "isoName": "InvalidMovementInformation",
+      "name": "Invalid Movement Information",
+      "definition": "Details specified in the movement general information block are inconsistent with those that were specified in the relating original message."
+    },
+    "INVM": {
+      "isoName": "InvalidModificationRequest",
+      "name": "Invalid Modification Request",
+      "definition": "Invalid or unrecognized modification request."
+    },
+    "INUS": {
+      "isoName": "InvalidUnderlyingSecurity",
+      "name": "Invalid Underlying Security",
+      "definition": "Underlying security identification does not correspond with the corporate action reference supplied."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "ENDP": {
+      "isoName": "MissingPeriodEndDate",
+      "name": "Missing Period End Date",
+      "definition": "Period ending date or code is missing."
+    },
+    "STAR": {
+      "isoName": "MissingPeriodStartDate",
+      "name": "Missing Period Start Date",
+      "definition": "Period starting date or code is missing."
+    },
+    "SECO": {
+      "isoName": "MissingOption",
+      "name": "Missing Option",
+      "definition": "Second option is mandatory."
+    },
+    "NOHO": {
+      "isoName": "NoHolding",
+      "name": "No Holding",
+      "definition": "No holding for the specified underlying security."
+    },
+    "NINS": {
+      "isoName": "NoInstrumentMarket",
+      "name": "No Instrument Market",
+      "definition": "Referred instrument does not exist in combination with the mentioned market."
+    },
+    "NOAP": {
+      "isoName": "NotApplicable",
+      "name": "Not Applicable",
+      "definition": "Instruction type is not applicable for mandatory events."
+    },
+    "NAUT": {
+      "isoName": "NotAuthorised",
+      "name": "Not Authorised",
+      "definition": "Permission to be processed is not granted."
+    },
+    "AGID": {
+      "isoName": "NotDefinedAgent",
+      "name": "Not Defined Agent",
+      "definition": "Party is not defined as an agent."
+    },
+    "DISP": {
+      "isoName": "NotEligibleDisperseSecurity",
+      "name": "Not Eligible Disperse Security",
+      "definition": "Disperse security is not eligible in the (ICSD) service provider owner."
+    },
+    "CORR": {
+      "isoName": "NotIdentifiedCorrespondentBank",
+      "name": "Not Identified Correspondent Bank",
+      "definition": "Unable to identify correspondent bank."
+    },
+    "INPS": {
+      "isoName": "PlaceOfSafekeeping",
+      "name": "Place Of Safekeeping",
+      "definition": "Unrecognised, invalid or missing place of safekeeping."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Unrecognised or invalid place of trade."
+    },
+    "PRIC": {
+      "isoName": "PriceExceeds",
+      "name": "Price Exceeds",
+      "definition": "Price in the execution exceeds the order price."
+    },
+    "IVAG": {
+      "isoName": "ReceivingAgent",
+      "name": "Receiving Agent",
+      "definition": "Receiving agent is not recognised or is invalid."
+    },
+    "QUNP": {
+      "isoName": "QuantityUnitType",
+      "name": "Quantity Unit Type",
+      "definition": "Quantity unit type is not provided."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "EQTY": {
+      "isoName": "QuantityExceeds",
+      "name": "Quantity Exceeds",
+      "definition": "Quantity in the execution exceeds the ordered quantity."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Unrecognised or invalid depository."
+    },
+    "RCUS": {
+      "isoName": "ReceivingCustodian",
+      "name": "Receiving Custodian",
+      "definition": "Unrecognised or invalid receiving agent."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "DMON": {
+      "isoName": "SettlementAmountRejection",
+      "name": "Settlement Amount Rejection",
+      "definition": "Unrecognised or invalid settlement amount."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrencyRejection",
+      "name": "Settlement Amount Currency Rejection",
+      "definition": "Unrecognised or invalid settlement amount currency."
+    },
+    "TQNP": {
+      "isoName": "TradedSecuritiesQuantity",
+      "name": "Traded Securities Quantity",
+      "definition": "Traded securities quantity not provided."
+    },
+    "SETR": {
+      "isoName": "SettlementTransactionRejection",
+      "name": "Settlement Transaction Rejection",
+      "definition": "Unrecognised or invalid settlement transaction type."
+    },
+    "UKWN": {
+      "isoName": "UnknownSymbol",
+      "name": "Unknown Symbol",
+      "definition": "Financial instrument's symbol has not been recognized."
+    },
+    "DDEA": {
+      "isoName": "DealPrice",
+      "name": "Deal Price",
+      "definition": "Unrecognised or invalid deal price."
+    },
+    "TERM": {
+      "isoName": "ClosingDateTimeRejection",
+      "name": "Closing Date Time Rejection",
+      "definition": "Unrecognised or invalid closing date/time."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "NARR": {
+      "isoName": "NarrativeReason",
+      "name": "Narrative Reason",
+      "definition": "See narrative field for reason."
+    },
+    "NRGN": {
+      "isoName": "NotFoundRejection",
+      "name": "Not Found Rejection",
+      "definition": "Instruction could not be found."
+    },
+    "INVB": {
+      "isoName": "InvalidBalance",
+      "name": "Invalid Balance",
+      "definition": "Instruction aims at using an invalid balance."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "CASH": {
+      "isoName": "CashAccount",
+      "name": "Cash Account",
+      "definition": "Unrecognised or invalid cash account."
+    },
+    "COMC": {
+      "isoName": "CommercializationContractRejection",
+      "name": "Commercialization Contract Rejection",
+      "definition": "Unrecognised or invalid commercialisation contract."
+    },
+    "CONL": {
+      "isoName": "ConcentrationLimitExceeded",
+      "name": "Concentration Limit Exceeded",
+      "definition": "Concentration limit was exceeded."
+    },
+    "INHO": {
+      "isoName": "InsufficientBalance",
+      "name": "Insufficient Balance",
+      "definition": "Insufficient balance."
+    },
+    "ICOL": {
+      "isoName": "InsufficientCollateral",
+      "name": "Insufficient Collateral",
+      "definition": "Insufficient collateral proposed."
+    },
+    "INVE": {
+      "isoName": "InvalidInvestorParty",
+      "name": "Invalid Investor Party",
+      "definition": "Unrecognised or invalid investor party. May be used by an executing party to reject an instruction for an investor (or portfolio) for which it is not authorised to act."
+    },
+    "INVN": {
+      "isoName": "InvalidLotNumber",
+      "name": "Invalid Lot Number",
+      "definition": "Invalid or unrecognized lot number."
+    },
+    "INVL": {
+      "isoName": "InvalidLink",
+      "name": "Invalid Link",
+      "definition": "Invalid or unrecognized link."
+    },
+    "VALR": {
+      "isoName": "InvalidRule",
+      "name": "Invalid Rule",
+      "definition": "Account servicer validation rule rejection."
+    },
+    "INUK": {
+      "isoName": "InvestorNameAddressUnknown",
+      "name": "Investor Name Address Unknown",
+      "definition": "Investor name and address is not recognised."
+    },
+    "LATT": {
+      "isoName": "Late",
+      "name": "Late",
+      "definition": "Instruction/Request arrives too late."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementQuantity",
+      "name": "Minimum Settlement Quantity",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "BOIS": {
+      "isoName": "MissingBeneficiaryOwnerDetails",
+      "name": "Missing Beneficiary Owner Details",
+      "definition": "Rejected due to missing beneficiary owner details."
+    },
+    "MCER": {
+      "isoName": "MissingCertification",
+      "name": "Missing Certification",
+      "definition": "Certification has not been filled in."
+    },
+    "IPOA": {
+      "isoName": "MissingOrInvalidPOA",
+      "name": "Missing Or Invalid POA",
+      "definition": "Missing or invalid power of attorney."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementQuantity",
+      "name": "Multiple Settlement Quantity",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "INNA": {
+      "isoName": "NarrativeInformationRejection",
+      "name": "Narrative Information Rejection",
+      "definition": "Unrecognised or invalid service level agreement pre-agreed narrative information."
+    },
+    "NINV": {
+      "isoName": "NoInventory",
+      "name": "No Inventory",
+      "definition": "Requested financial instrument is not available."
+    },
+    "ELIG": {
+      "isoName": "NonEligibleSecurity",
+      "name": "Non Eligible Security",
+      "definition": "Security is not eligible."
+    },
+    "PERI": {
+      "isoName": "PeriodEndDateBeforeStartDate",
+      "name": "Period End Date Before Start Date",
+      "definition": "Period ending date is before period starting date."
+    },
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "SAID": {
+      "isoName": "SameIdentification",
+      "name": "Same Identification",
+      "definition": "Several messages with the same identification."
+    },
+    "OWNT": {
+      "isoName": "TypeOfOwnershipRejection",
+      "name": "Type Of Ownership Rejection",
+      "definition": "Type of ownership indicated is not correct."
+    },
+    "NTAV": {
+      "isoName": "NotAvailable",
+      "name": "Not Available",
+      "definition": "Reason is not available or unknown."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "ErrorHandling1Code",
+  "language": "en",
+  "name": "Error Handling 1 Code",
+  "definition": "Error codes generated when the response to a query exceeds the maximum size or the data is not available.",
+  "isoCodes": {
+    "X020": {
+      "isoName": "DataNotYetAvailable",
+      "name": "Data Not Yet Available",
+      "definition": "Specifies the error code when the data requested are not yet available."
+    },
+    "X030": {
+      "isoName": "MessageSizeLimitExceeded",
+      "name": "Message Size Limit Exceeded",
+      "definition": "Specifies the error code when the data requested generates a message size that exceed the processing capacity."
+    },
+    "X050": {
+      "isoName": "DataNotAvailable",
+      "name": "Data Not Available",
+      "definition": "Specifies the error code when the data requested have not been found."
+    }
+  }
+}

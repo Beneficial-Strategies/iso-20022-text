@@ -1,0 +1,21 @@
+{
+  "isoType": "SupplementaryData1",
+  "language": "en",
+  "name": "Supplementary Data 1",
+  "definition": "Additional information that can not be captured in the structured fields and/or any other specific block.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Unambiguous reference to the location where the supplementary data must be inserted in the message instance.|In the case of XML, this is expressed by a valid XPath."
+    },
+    "Envelope": {
+      "name": "Envelope",
+      "definition": "Technical element wrapping the supplementary data."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "This component may not be used without the explicit approval of a SEG and submission to the RA of ISO 20022 compliant structure(s) to be used in the Envelope element."
+    }
+  }
+}

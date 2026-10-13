@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceInformation27",
+  "language": "en",
+  "name": "Remittance Information 27",
+  "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "name": "Remittance Identification",
+      "definition": "Unique identification, assigned by the originator, to unambiguously identify the remittance information within the message."
+    },
+    "Unstructured": {
+      "name": "Unstructured",
+      "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in an unstructured form."
+    },
+    "Structured": {
+      "name": "Structured",
+      "definition": "Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts' receivable system, in a structured form."
+    },
+    "OriginalPaymentInformation": {
+      "name": "Original Payment Information",
+      "definition": "Set of elements used to provide information on the original transactions, to which the remittance message refers."
+    }
+  }
+}

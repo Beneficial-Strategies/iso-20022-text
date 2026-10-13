@@ -1,0 +1,28 @@
+{
+  "isoType": "RepurchaseType8Code",
+  "language": "en",
+  "name": "Repurchase Type 8 Code",
+  "definition": "Specifies the type of repurchase transaction.",
+  "isoCodes": {
+    "PADJ": {
+      "isoName": "PrincipalExposureAdjustment",
+      "name": "Principal Exposure Adjustment",
+      "definition": "Relates to a principal adjustment."
+    },
+    "ROLP": {
+      "isoName": "RepoContractRollover",
+      "name": "Repo Contract Rollover",
+      "definition": "Relates to a repo rollover of a contract extending the closing or maturity date without the underlying collateral impacted."
+    },
+    "RATE": {
+      "isoName": "RepoRate",
+      "name": "Repo Rate",
+      "definition": "Is part of a pair-off."
+    },
+    "CALL": {
+      "isoName": "RepurchaseCall",
+      "name": "Repurchase Call",
+      "definition": "Relates to the early closing/maturity date for a term repo or a termination date of an open repo with the underlying collateral."
+    }
+  }
+}

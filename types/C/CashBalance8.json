@@ -1,0 +1,37 @@
+{
+  "isoType": "CashBalance8",
+  "language": "en",
+  "name": "Cash Balance 8",
+  "definition": "Set of elements used to define the balance details.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature of a balance."
+    },
+    "CreditLine": {
+      "name": "Credit Line",
+      "definition": "Set of elements used to provide details on the credit line."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money of the cash balance."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the balance is a credit or a debit balance. |Usage: A zero balance is considered to be a credit balance."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Indicates the date (and time) of the balance."
+    },
+    "Availability": {
+      "name": "Availability",
+      "definition": "Set of elements used to indicate when the booked amount of money will become available, that is can be accessed and starts generating interest. ||Usage: This type of information is used in the US and is linked to particular instruments such as cheques.|Example: When a cheque is deposited, it will be booked on the deposit day, but the amount of money will only be accessible as of the indicated availability day (according to national banking regulations)."
+    }
+  },
+  "isoRules": {
+    "ForwardBalanceAndAvailabilityRule": {
+      "definition": "If Type is equal to ForwardAvailable, Availability is not allowed."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "BreakdownByUserDefinedParameter3",
+  "language": "en",
+  "name": "Breakdown By User Defined Parameter 3",
+  "definition": "Specifies the cash-in and cash-out flows by a user defined parameter/s.",
+  "isoElements": {
+    "Party": {
+      "name": "Party",
+      "definition": "Party for which the cash flow is being reported."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country for which the cash flow is being reported."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency for which the cash flow is being reported."
+    },
+    "UserDefined": {
+      "name": "User Defined",
+      "definition": "Parameter for which the cash flow is being reported."
+    },
+    "CashInForecast": {
+      "name": "Cash In Forecast",
+      "definition": "Cash movement into the fund as a result of transactions in shares in an investment fund, for example, subscriptions or switch-ins."
+    },
+    "CashOutForecast": {
+      "name": "Cash Out Forecast",
+      "definition": "Cash movement out of the fund as a result of transactions in shares in an investment fund, for example, redemptions or switch-outs."
+    },
+    "NetCashForecast": {
+      "name": "Net Cash Forecast",
+      "definition": "Net cash as a result of the cash-in and cash-out flows specified for the user defined parameter."
+    }
+  },
+  "isoRules": {
+    "UserDefinedRule": {
+      "definition": "At least one message element in the list (Party, Country, Currency, UserDefined) must be present. More than one element in the list (Party, Country, Currency, UserDefined) may be present."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "isoType": "SecuritiesBalanceType12Code",
+  "language": "en",
+  "name": "Securities Balance Type 12 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of financial instruments that are blocked."
+    },
+    "AWAS": {
+      "isoName": "AvailableWithNoAdditionalStatus",
+      "name": "Available With No Additional Status",
+      "definition": "Balance of financial instruments that are freely available with no specific additional status."
+    },
+    "BLCA": {
+      "isoName": "BlockedCorporateAction",
+      "name": "Blocked Corporate Action",
+      "definition": "Balance of financial instrument blocked following a corporate action, including proxy activities."
+    },
+    "BLOT": {
+      "isoName": "BlockedTrading",
+      "name": "Blocked Trading",
+      "definition": "Balance of financial instruments that are blocked for trading."
+    },
+    "BLOV": {
+      "isoName": "BlockedAuthenticity",
+      "name": "Blocked Authenticity",
+      "definition": "Balance of financial instruments that are blocked for verification of authenticity."
+    },
+    "BORR": {
+      "isoName": "Borrowed",
+      "name": "Borrowed",
+      "definition": "Balance of financial instruments that have been borrowed from another party."
+    },
+    "BODE": {
+      "isoName": "PendingBorrowedDelivery",
+      "name": "Pending Borrowed Delivery",
+      "definition": "Balance of financial instruments that are pending delivery in relation to a borrow transaction."
+    },
+    "BORE": {
+      "isoName": "PendingBorrowedReceipt",
+      "name": "Pending Borrowed Receipt",
+      "definition": "Balance of financial instruments that are pending receipt in relation to a borrow transaction."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation."
+    },
+    "LOAN": {
+      "isoName": "OnLoan",
+      "name": "On Loan",
+      "definition": "Loan for consumption."
+    },
+    "LODE": {
+      "isoName": "PendingOnLoanDelivery",
+      "name": "Pending On Loan Delivery",
+      "definition": "Balance of financial instruments that are pending delivery in relation to a lending transaction."
+    },
+    "LORE": {
+      "isoName": "PendingOnLoanReceipt",
+      "name": "Pending On Loan Receipt",
+      "definition": "Balance of financial instruments that are pending receipt in relation to a lending transaction."
+    },
+    "MARG": {
+      "isoName": "DerivativesMargin",
+      "name": "Derivatives Margin",
+      "definition": "Account is used when financing is by the broker/dealer."
+    },
+    "PECA": {
+      "isoName": "PendingCorporateActionReceipt",
+      "name": "Pending Corporate Action Receipt",
+      "definition": "Balance of financial instrument pending receipt following a corporate action."
+    },
+    "PEDA": {
+      "isoName": "PendingCorporateActionDelivery",
+      "name": "Pending Corporate Action Delivery",
+      "definition": "Balance of financial instrument pending delivery following a corporate action."
+    },
+    "PEND": {
+      "isoName": "PendingDelivery",
+      "name": "Pending Delivery",
+      "definition": "Processing has not been completed."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "The instruction is pending receipt of securities, for example, from a purchase, loan etc."
+    },
+    "PLED": {
+      "isoName": "Pledged",
+      "name": "Pledged",
+      "definition": "Balance of securities that belong to and is kept in the safekeeping account indicated within this message, and that are pledged."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of financial instruments currently being processed by the institution responsible for registering the new beneficial owner (or nominee)."
+    },
+    "RSTR": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of financial instruments that may only be sold under certain conditions or require legal documents."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Other. See Narrative."
+    },
+    "TRAN": {
+      "isoName": "InTransshipment",
+      "name": "In Transshipment",
+      "definition": "Transaction has been generated due to transformation following a corporate action."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Settlement transactions relates to drawn securities."
+    },
+    "WDOC": {
+      "isoName": "WaitingDocumentation",
+      "name": "Waiting Documentation",
+      "definition": "Financial instrument is unavailable due to missing or incomplete documentation pertaining to the account, or due to a missing or incomplete order."
+    },
+    "BTRA": {
+      "isoName": "BeingTransferred",
+      "name": "Being Transferred",
+      "definition": "Financial instrument is unavailable as a result of a transfer order, pending movement in the shareholders' register."
+    }
+  }
+}

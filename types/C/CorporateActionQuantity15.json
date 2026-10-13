@@ -1,0 +1,49 @@
+{
+  "isoType": "CorporateActionQuantity15",
+  "language": "en",
+  "name": "Corporate Action Quantity 15",
+  "definition": "Specifies corporate action quantities.",
+  "isoElements": {
+    "MaximumQuantity": {
+      "name": "Maximum Quantity",
+      "definition": "The maximum number of securities the offeror/issuer is ready to purchase or redeem. This can be a number or the term \"any and all\"."
+    },
+    "MinimumQuantitySought": {
+      "name": "Minimum Quantity Sought",
+      "definition": "Minimum quantity of securities the offeror/issuer is ready to purchase or redeem under the terms of the event. This can be a number or the term \"any and all\"."
+    },
+    "NewBoardLotQuantity": {
+      "name": "New Board Lot Quantity",
+      "definition": "Quantity of equity that makes up the new board lot."
+    },
+    "NewDenominationQuantity": {
+      "name": "New Denomination Quantity",
+      "definition": "New denomination of the equity following, for example, an increase or decrease in nominal value."
+    },
+    "BaseDenomination": {
+      "name": "Base Denomination",
+      "definition": "Minimum integral amount of securities that each account owner must have remaining after the called amounts are applied."
+    },
+    "IncrementalDenomination": {
+      "name": "Incremental Denomination",
+      "definition": "Amount used when the called amount is not met by running the lottery with the base denomination."
+    },
+    "SecurityCalledQuantity": {
+      "name": "Security Called Quantity",
+      "definition": "Total quantity of the underlying securities called, either held or not held at the depository."
+    },
+    "NewOutstandingQuantity": {
+      "name": "New Outstanding Quantity",
+      "definition": "New outstanding quantity of the underlying securities after processing."
+    },
+    "TotalOutstandingQuantity": {
+      "name": "Total Outstanding Quantity",
+      "definition": "Total quantity outstanding of the underlying securities as of the publication date of the notice."
+    }
+  },
+  "isoRules": {
+    "MaximumAndMinimumQuantitySoughtUsageRule": {
+      "definition": "When MaximumQuantity is present, MinimumQuantitySought must be present too. When MinimumQuantitySought is present, MaximumQuantity must be present too.|When MinimumQuantitySought/Code is AnyAndAll, then MaximumQuantity/Code must not be AnyAndAll.|When MaximumQuantity/Code is AnyAndAll, MinimumQuantitySought/code must not be used with the value AnyAndAll."
+    }
+  }
+}

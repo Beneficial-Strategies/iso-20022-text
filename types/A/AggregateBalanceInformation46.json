@@ -1,0 +1,102 @@
+{
+  "isoType": "AggregateBalanceInformation46",
+  "language": "en",
+  "name": "Aggregate Balance Information 46",
+  "definition": "Overall position, in a single security, held in a securities account at a specified place of safekeeping.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": "Elements characterising a financial instrument other than a investment funds."
+    },
+    "InvestmentFundsFinancialInstrumentAttributes": {
+      "name": "Investment Funds Financial Instrument Attributes",
+      "definition": "Elements characterising an investment funds financial instrument."
+    },
+    "ValuationHaircutDetails": {
+      "name": "Valuation Haircut Details",
+      "definition": "Elements used to calculate the valuation haircut."
+    },
+    "AggregateBalance": {
+      "name": "Aggregate Balance",
+      "definition": "Total quantity of financial instruments of the balance."
+    },
+    "AvailableBalance": {
+      "name": "Available Balance",
+      "definition": "Total quantity of financial instruments of the balance that is available."
+    },
+    "NotAvailableBalance": {
+      "name": "Not Available Balance",
+      "definition": "Total quantity of financial instruments of the balance that is not available."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "CorporateActionOptionType": {
+      "name": "Corporate Action Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Price of the financial instrument in one or more currencies."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion."
+    },
+    "DaysAccrued": {
+      "name": "Days Accrued",
+      "definition": "Specifies the number of days used for calculating the accrued interest amount."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "name": "Account Base Currency Amounts",
+      "definition": "Valuation amounts provided in the base currency of the account."
+    },
+    "InstrumentCurrencyAmounts": {
+      "name": "Instrument Currency Amounts",
+      "definition": "Valuation amounts provided in the currency of the financial instrument."
+    },
+    "QuantityBreakdown": {
+      "name": "Quantity Breakdown",
+      "definition": "Breakdown of the aggregate quantity reported into significant lots, for example, tax lots."
+    },
+    "BalanceBreakdown": {
+      "name": "Balance Breakdown",
+      "definition": "Breakdown of the aggregate balance per meaningful sub-balances and availability."
+    },
+    "AdditionalBalanceBreakdown": {
+      "name": "Additional Balance Breakdown",
+      "definition": "Provides additional instrument sub-balance information on all or parts of the reported financial instrument (unregistered, tax exempt, etc.)."
+    },
+    "BalanceAtSafekeepingPlace": {
+      "name": "Balance At Safekeeping Place",
+      "definition": "Breakdown of positions per place of safekeeping (and optionally per place of listing)."
+    },
+    "HoldingAdditionalDetails": {
+      "name": "Holding Additional Details",
+      "definition": "Provides additional information on the holding."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "BalanceAtSafekeepingPlaceRule": {
+      "definition": "If SafekeepingPlace is present, then BalanceAtSafekeepingPlace is not allowed."
+    },
+    "AggregateBalanceGuideline": {
+      "definition": "If AvailableQuantity and NotAvailableQuantity are both present, then the AggregateQuantity should be the sum of AvailableQuantity and NotAvailableQuantity."
+    },
+    "HoldingAdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if SubBalanceAdditionnalDetails is present, then it must not contain information that can be provided in a structured field."
+    },
+    "FinancialInstrumentAttributesRule": {
+      "definition": "If InvestmentFundsFinancialInstrumentAttributes is present, then FinancialInstrumentAttributes is not allowed."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "isoType": "CorporateActionGeneralInformation179",
+  "language": "en",
+  "name": "Corporate Action General Information 179",
+  "definition": "General information about the corporate action event.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "name": "Official Corporate Action Event Identification",
+      "definition": "Official and unique reference assigned by the official central body/entity within each market at the beginning of a corporate action event."
+    },
+    "ClassActionNumber": {
+      "name": "Class Action Number",
+      "definition": "Reference assigned by a court to a class action."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of corporate action event."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the security concerned by the corporate action."
+    },
+    "FractionalQuantity": {
+      "name": "Fractional Quantity",
+      "definition": "Fractional quantity resulting from an event which will be paid with cash in lieu."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the structure and usage of the Official Corporate Action Event Reference (COAF). Those recommendations are|available in the SMPG Global Market Practices Part 1 document on www.smpg.info."
+    }
+  }
+}

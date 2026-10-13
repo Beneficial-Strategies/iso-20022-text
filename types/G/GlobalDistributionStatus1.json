@@ -1,0 +1,24 @@
+{
+  "isoType": "GlobalDistributionStatus1",
+  "language": "en",
+  "name": "Global Distribution Status 1",
+  "definition": "Provides information about the status of the global movement.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "name": "Processed Status",
+      "definition": "Provides information about the processing status of the global movement."
+    },
+    "RejectedStatus": {
+      "name": "Rejected Status",
+      "definition": "Provides information about the rejection status."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "Either ProcessedStatus or RejectedStatus."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "Either ProcessedStatus or RejectedStatus."
+    }
+  }
+}

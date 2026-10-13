@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountStatusUpdateInstruction1Code",
+  "language": "en",
+  "name": "Account Status Update Instruction 1 Code",
+  "definition": "Specifies the type of account status update instructed.",
+  "isoCodes": {
+    "CLOS": {
+      "isoName": "Close",
+      "name": "Close",
+      "definition": "Account is to be closed."
+    },
+    "REAC": {
+      "isoName": "Reactive",
+      "name": "Reactive",
+      "definition": "Account is to be reactivated, any previous instruction to close the account is rescinded."
+    }
+  }
+}

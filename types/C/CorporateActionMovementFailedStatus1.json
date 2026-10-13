@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionMovementFailedStatus1",
+  "language": "en",
+  "name": "Corporate Action Movement Failed Status 1",
+  "definition": "Provides information about the failure of the settlement of a movement.",
+  "isoElements": {
+    "AgentAccountIdentification": {
+      "name": "Agent Account Identification",
+      "definition": "Identification of the agent account."
+    },
+    "ClientAccountIdentification": {
+      "name": "Client Account Identification",
+      "definition": "Identification of the client account."
+    },
+    "AccountOwnerIdentification": {
+      "name": "Account Owner Identification",
+      "definition": "Identification of the party that owns the client account."
+    },
+    "ResourceDetails": {
+      "name": "Resource Details",
+      "definition": "Provides information about the resource movement that failed and the reason of the failure."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SenderBusinessRole1Code",
+  "language": "en",
+  "name": "Sender Business Role 1 Code",
+  "definition": "Specifies whether an account owner or account servicer sends the message.",
+  "isoCodes": {
+    "AOWN": {
+      "isoName": "AccountOwner",
+      "name": "Account Owner",
+      "definition": "Sender is the owner of the safekeeping account. The sender is disclosing the breakdown of the underlying owners of sender’s holdings with the receiver."
+    },
+    "ASER": {
+      "isoName": "AccountServicer",
+      "name": "Account Servicer",
+      "definition": "Sender is the account servicer of an account owned by the receiver."
+    }
+  }
+}

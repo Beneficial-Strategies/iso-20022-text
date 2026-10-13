@@ -1,0 +1,20 @@
+{
+  "isoType": "CashSettlement4",
+  "language": "en",
+  "name": "Cash Settlement 4",
+  "definition": "Cash settlement parties and accounts.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "name": "Modification Scope Indication",
+      "definition": "Specifies the type of modification to be applied."
+    },
+    "CashAccountDetails": {
+      "name": "Cash Account Details",
+      "definition": "Account to credit or debit. When this is an account to debit, this is for the payment of a subscription to an investment fund, a savings plan payment, the purchase of securities or the payment of charges. When this is an account to credit, this is for the payment of an amount as a result of a redemption of investment fund units, the sale of securities, interest and dividend payments. A single account may be specified for all cash movements on the account or cash accounts may be specified for specific types of transactions on the account."
+    },
+    "OtherCashSettlementDetails": {
+      "name": "Other Cash Settlement Details",
+      "definition": "Method of payment other than a cash account."
+    }
+  }
+}

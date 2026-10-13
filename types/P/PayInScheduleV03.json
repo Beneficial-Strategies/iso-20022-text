@@ -1,0 +1,32 @@
+{
+  "isoType": "PayInScheduleV03",
+  "language": "en",
+  "name": "Pay In Schedule V 03",
+  "definition": "The PayInSchedule message is sent by a central settlement system to the participant to provide notification of a series of timed payments scheduled for each currency at the time and date of the schedule generation. The central settlement system may send information about how the timed payments have been calculated.",
+  "isoElements": {
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": ""
+    },
+    "ReportData": {
+      "name": "Report Data",
+      "definition": ""
+    },
+    "PayInScheduleLongBalance": {
+      "name": "Pay In Schedule Long Balance",
+      "definition": ""
+    },
+    "PayInScheduleItem": {
+      "name": "Pay In Schedule Item",
+      "definition": ""
+    },
+    "PayInFactors": {
+      "name": "Pay In Factors",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

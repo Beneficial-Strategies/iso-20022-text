@@ -1,0 +1,29 @@
+{
+  "isoType": "Intermediary11",
+  "language": "en",
+  "name": "Intermediary 11",
+  "definition": "Party that provides services to investors relating to financial products.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of the intermediary."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Business relationship between two entities; one entity is the account owner, the other entity is the account servicer."
+    },
+    "Role": {
+      "name": "Role",
+      "definition": "Function performed by the intermediary."
+    },
+    "ExtendedRole": {
+      "name": "Extended Role",
+      "definition": "Function performed by the intermediary."
+    }
+  },
+  "isoRules": {
+    "RoleOrExtendedRoleRule": {
+      "definition": "Either Role or ExtendedRole may be present, but not both."
+    }
+  }
+}

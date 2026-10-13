@@ -1,0 +1,23 @@
+{
+  "isoType": "AutoBorrowing1Code",
+  "language": "en",
+  "name": "Auto Borrowing 1 Code",
+  "definition": "Specifies the condition under which automatic borrowing is allowed.",
+  "isoCodes": {
+    "LAMI": {
+      "isoName": "LastResort",
+      "name": "Last Resort",
+      "definition": "Only last resort borrowing should be considered to make settlement occur."
+    },
+    "NBOR": {
+      "isoName": "NoAutomatic",
+      "name": "No Automatic",
+      "definition": "No automatic borrowing should take place."
+    },
+    "YBOR": {
+      "isoName": "Automatic",
+      "name": "Automatic",
+      "definition": "Automatic borrowing should take place."
+    }
+  }
+}

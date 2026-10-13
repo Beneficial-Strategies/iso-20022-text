@@ -1,0 +1,33 @@
+{
+  "isoType": "NetCashForecast4",
+  "language": "en",
+  "name": "Net Cash Forecast 4",
+  "definition": "Net cash movement to a fund as a result of investment funds transactions.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Net amount of the cash flow, expressed as an amount of money."
+    },
+    "NetUnitsNumber": {
+      "name": "Net Units Number",
+      "definition": "Net amount, expressed as a number of units."
+    },
+    "FlowDirection": {
+      "name": "Flow Direction",
+      "definition": "Specifies the direction of the cash flow from the perspective of the fund."
+    },
+    "AdditionalBalance": {
+      "name": "Additional Balance",
+      "definition": "Additional balances for cash amounts and number of units. |In an estimated report, the total cash derived from orders placed as a number of units is an estimated cash amount and the total number of units derived from orders placed as a cash amount is an estimated number of units."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "If AdditionalBalance is present, then at least one or more elements in the list (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) must be present."
+    }
+  }
+}

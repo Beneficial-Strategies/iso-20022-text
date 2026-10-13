@@ -1,0 +1,40 @@
+{
+  "isoType": "ATMCommand14",
+  "language": "en",
+  "name": "ATM Command 14",
+  "definition": "Maintenance command the ATM must perform.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of command to be performed by the ATM."
+    },
+    "Urgency": {
+      "name": "Urgency",
+      "definition": "Urgency of the command."
+    },
+    "DateTime": {
+      "name": "Date Time",
+      "definition": "Date time on which the command must be performed."
+    },
+    "CommandIdentification": {
+      "name": "Command Identification",
+      "definition": "Identification of the entity issuing the command."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for sending the command."
+    },
+    "TraceReason": {
+      "name": "Trace Reason",
+      "definition": "Trace of reasons by the entities in the path from the origin of the command to the ATM."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the reason to request this command."
+    },
+    "CommandParameters": {
+      "name": "Command Parameters",
+      "definition": "Specific parameters attached to the command."
+    }
+  }
+}

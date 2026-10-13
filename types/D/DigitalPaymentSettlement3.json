@@ -1,0 +1,20 @@
+{
+  "isoType": "DigitalPaymentSettlement3",
+  "language": "en",
+  "name": "Digital Payment Settlement 3",
+  "definition": "Specifies the information related to the digital payment settlement.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Choice between different quantities related to the payment in digital asset."
+    },
+    "DigitalLedgerIdentification": {
+      "name": "Digital Ledger Identification",
+      "definition": "Place of settlement expressed with a Digital Ledger Identifier. It identifies a digital ledger or distributed ledger system (for example, blockchain or similar platforms)."
+    }
+  }
+}

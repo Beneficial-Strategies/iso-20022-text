@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentIdentification6",
+  "language": "en",
+  "name": "Payment Identification 6",
+  "definition": "Provides further means of referencing a payment transaction.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": "Unique identification as assigned by an instructing party for an instructed party to unambiguously identify the instruction.||Usage: The instruction identification is a point to point reference that can be used between the instructing party and the instructed party to refer to the individual instruction. It can be included in several messages related to the instruction."
+    },
+    "EndToEndIdentification": {
+      "name": "End To End Identification",
+      "definition": "Unique identification assigned by the initiating party to unambiguously identify the transaction. This identification is passed on, unchanged, throughout the entire end-to-end chain.||Usage: The end-to-end identification can be used for reconciliation or to link tasks relating to the transaction. It can be included in several messages related to the transaction."
+    },
+    "UETR": {
+      "name": "UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a payment transaction."
+    }
+  }
+}

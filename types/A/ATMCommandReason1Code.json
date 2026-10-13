@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMCommandReason1Code",
+  "language": "en",
+  "name": "ATM Command Reason 1 Code",
+  "definition": "Reason for sending the command.",
+  "isoCodes": {
+    "DIAG": {
+      "isoName": "Diagnostic",
+      "name": "Diagnostic",
+      "definition": "Request the status of or action from the ATM to perform a diagnostic."
+    },
+    "MONI": {
+      "isoName": "Monitoring",
+      "name": "Monitoring",
+      "definition": "Supervise the ATM."
+    },
+    "SECU": {
+      "isoName": "SecurityError",
+      "name": "Security Error",
+      "definition": "Security error."
+    },
+    "SYNC": {
+      "isoName": "Synchronisation",
+      "name": "Synchronisation",
+      "definition": "Desynchronisation of dialogue between entities."
+    },
+    "UPDT": {
+      "isoName": "Update",
+      "name": "Update",
+      "definition": "Update the ATM."
+    }
+  }
+}

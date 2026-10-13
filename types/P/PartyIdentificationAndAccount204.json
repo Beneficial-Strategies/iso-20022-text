@@ -1,0 +1,42 @@
+{
+  "isoType": "PartyIdentificationAndAccount204",
+  "language": "en",
+  "name": "Party Identification And Account 204",
+  "definition": "Provides information about identification and account of the party.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a party."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Reference meaningful to the party identified."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "The AdditionalInformation field in all elements must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition as in NarrativeVersion."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present then SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "If SafekeepingAccount is present, then BlockChainAddressOrWallet must be absent."
+    }
+  }
+}

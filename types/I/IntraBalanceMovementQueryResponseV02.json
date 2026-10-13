@@ -1,0 +1,38 @@
+{
+  "isoType": "IntraBalanceMovementQueryResponseV02",
+  "language": "en",
+  "name": "Intra Balance Movement Query Response V 02",
+  "definition": "The IntraBalanceMovementQueryResponse message is sent from a settlement infrastructure to an account owner/requestor to provide all intra-balance movement instructions satisfying the selection criteria, as defined within the query, returning current attributes and latest status.|The message may also be used to: |- re-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |- provide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "ReportOrError": {
+      "name": "Report Or Error",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to Yes (true or 1) then ReportOrError must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to No (false or 0) then ReportOrError must be absent."
+    },
+    "QueryTypeFullRule": {
+      "definition": "If ReportGeneralDetails/QueryType is equal to Full, then ReportOrError/Movements(*)/Movement/MovementDetails must be present."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "If ReportGeneralDetails/QueryType is equal to Status, then ReportOrError/Movements(*)/Movement/MovementDetails must be absent."
+    }
+  }
+}

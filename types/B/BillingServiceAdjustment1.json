@@ -1,0 +1,68 @@
+{
+  "isoType": "BillingServiceAdjustment1",
+  "language": "en",
+  "name": "Billing Service Adjustment 1",
+  "definition": "Specifies the billing adjustments for a specific service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type of adjustment."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free-form description and clarification of the adjustment."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the adjustment, expressed in the settlement currency.||Usage: If the amount would reduce charges due then the amount should be negatively signed."
+    },
+    "BalanceRequiredAmount": {
+      "name": "Balance Required Amount",
+      "definition": "Specifies whether the balance amount requires an adjustment."
+    },
+    "ErrorDate": {
+      "name": "Error Date",
+      "definition": "Date on which the situation causing the service adjustment occurred. If the date is not known then used the last day of the month in which the situation occurred or the date of the billing statement which reported the original service to which this adjustment applies."
+    },
+    "AdjustmentIdentification": {
+      "name": "Adjustment Identification",
+      "definition": "Financial institution's own, internal service identification code, used to uniquely identify the service within the financial institution."
+    },
+    "SubService": {
+      "name": "Sub Service",
+      "definition": "Defines the financial institution sub-service identification if the financial institution service identification code is used for more than one service."
+    },
+    "PriceChange": {
+      "name": "Price Change",
+      "definition": "Change in the service price, expressed in the pricing currency. A negative value indicates a price reduction."
+    },
+    "OriginalPrice": {
+      "name": "Original Price",
+      "definition": "Price that was applied to the service, prior to the change, expressed in the pricing currency."
+    },
+    "NewPrice": {
+      "name": "New Price",
+      "definition": "New, adjusted service price, expressed in the pricing currency."
+    },
+    "VolumeChange": {
+      "name": "Volume Change",
+      "definition": "Change in the service volume. A negative value indicates a volume reduction."
+    },
+    "OriginalVolume": {
+      "name": "Original Volume",
+      "definition": "Original service volume."
+    },
+    "NewVolume": {
+      "name": "New Volume",
+      "definition": "New, adjusted service volume."
+    },
+    "OriginalChargeAmount": {
+      "name": "Original Charge Amount",
+      "definition": "Service charge that was applied to the service, prior to the change, expressed in the pricing currency."
+    },
+    "NewChargeAmount": {
+      "name": "New Charge Amount",
+      "definition": "New, adjusted service charge, expressed in the pricing currency."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementParties129",
+  "language": "en",
+  "name": "Settlement Parties 129",
+  "definition": "Specifies settlement parties (delivering/receiving).",
+  "isoElements": {
+    "Depository": {
+      "name": "Depository",
+      "definition": "First receiving party in the settlement chain. In a plain vanilla settlement, it is the central securities depository where the receiving side of the transaction requests to receive the financial instrument."
+    },
+    "Party1": {
+      "name": "Party 1",
+      "definition": "Party that interacts with the depository."
+    },
+    "Party2": {
+      "name": "Party 2",
+      "definition": "Party that interacts with the party1."
+    },
+    "Party3": {
+      "name": "Party 3",
+      "definition": "Party that interacts with the party2."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "If Party 2 is present, then Party 1 must be present."
+    },
+    "Party3PresenceRule": {
+      "definition": "If Party 3 is present, then Party 2 must be present."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "QuantityRange1Choice",
+  "language": "en",
+  "name": "Quantity Range 1 Choice",
+  "definition": "Choice between ranges of values in which a quantity is considered valid or a specified quantity value which has to be matched or unmatched to be valid.",
+  "isoElements": {
+    "FromQuantity": {
+      "name": "From Quantity",
+      "definition": "Lower boundary of a range of quantity values."
+    },
+    "ToQuantity": {
+      "name": "To Quantity",
+      "definition": "Upper boundary of a range of quantity values."
+    },
+    "FromToQuantity": {
+      "name": "From To Quantity",
+      "definition": "Range of valid quantity values."
+    },
+    "EqualQuantity": {
+      "name": "Equal Quantity",
+      "definition": "Exact value a quantity must match to be considered valid."
+    },
+    "NotEqualQuantity": {
+      "name": "Not Equal Quantity",
+      "definition": "Value that a quantity must not match to be considered valid."
+    }
+  }
+}

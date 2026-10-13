@@ -1,0 +1,44 @@
+{
+  "isoType": "PartyIdentification317",
+  "language": "en",
+  "name": "Party Identification 317",
+  "definition": "Provides information about the beneficial owner of the securities.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "name": "Owner Identification",
+      "definition": "Party that is the beneficial owner of the specified quantity of securities."
+    },
+    "LEIIdentification": {
+      "name": "LEI Identification",
+      "definition": "Legal entity identification of the party."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    },
+    "DomicileCountry": {
+      "name": "Domicile Country",
+      "definition": "Country in which a person is permanently domiciled (the place of a person's permanent home)."
+    },
+    "NonDomicileCountry": {
+      "name": "Non Domicile Country",
+      "definition": "Holder of the security certifies, in line with the terms of the corporate action, that it is not domiciled in the country indicated."
+    },
+    "OwnedSecuritiesQuantity": {
+      "name": "Owned Securities Quantity",
+      "definition": "Quantity of securities belonging to the beneficial owner specified."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Type of certification which is required."
+    },
+    "WithholdingTaxRate": {
+      "name": "Withholding Tax Rate",
+      "definition": "Requested percentage of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "CertificationBreakdown": {
+      "name": "Certification Breakdown",
+      "definition": "Provides additional information about the type of certification/breakdown required."
+    }
+  }
+}

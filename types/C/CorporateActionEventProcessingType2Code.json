@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionEventProcessingType2Code",
+  "language": "en",
+  "name": "Corporate Action Event Processing Type 2 Code",
+  "definition": "Specifies the type of event processing.",
+  "isoCodes": {
+    "DISN": {
+      "isoName": "Distribution",
+      "name": "Distribution",
+      "definition": "Holder of the relevant security on a certain date, for example, the record date, will receive a benefit without giving up the underlying security."
+    },
+    "GENL": {
+      "isoName": "General",
+      "name": "General",
+      "definition": "No debit or credit of resources."
+    },
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Indicates that the announcement is for a redemption of securities for events including full and partial calls, maturities partial prerefunding and partial defeasance events."
+    },
+    "REOR": {
+      "isoName": "Reorganisation",
+      "name": "Reorganisation",
+      "definition": "Underlying security will be debited and may be replaced by another resource (or resources)."
+    }
+  }
+}

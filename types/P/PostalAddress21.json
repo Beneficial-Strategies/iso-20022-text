@@ -1,0 +1,85 @@
+{
+  "isoType": "PostalAddress21",
+  "language": "en",
+  "name": "Postal Address 21",
+  "definition": "Information that locates and identifies a specific address, as defined by postal services.",
+  "isoElements": {
+    "AddressType": {
+      "name": "Address Type",
+      "definition": "Type of address."
+    },
+    "MailingIndicator": {
+      "name": "Mailing Indicator",
+      "definition": "Indicates whether mail should be sent to the address."
+    },
+    "RegistrationAddressIndicator": {
+      "name": "Registration Address Indicator",
+      "definition": "Indicates whether the address is the official address of the party."
+    },
+    "CareOf": {
+      "name": "Care Of",
+      "definition": "When the individual resides at another person’s address, the name of the other person."
+    },
+    "AddressLine": {
+      "name": "Address Line",
+      "definition": "Information that locates and identifies a specific address, as defined by postal services, that is presented in free format text."
+    },
+    "StreetName": {
+      "name": "Street Name",
+      "definition": "Name of the street or thoroughfare."
+    },
+    "BuildingNumber": {
+      "name": "Building Number",
+      "definition": "Number that identifies the position of the building on a street."
+    },
+    "BuildingName": {
+      "name": "Building Name",
+      "definition": "Name of the building or house."
+    },
+    "PostBox": {
+      "name": "Post Box",
+      "definition": "Post box number of the addressee within the residential or company building."
+    },
+    "SideInBuilding": {
+      "name": "Side In Building",
+      "definition": "Side or wing of the building, for example, ‘wing A’."
+    },
+    "Floor": {
+      "name": "Floor",
+      "definition": "Floor or storey within the building."
+    },
+    "SuiteIdentification": {
+      "name": "Suite Identification",
+      "definition": "Identification of the suite or apartment."
+    },
+    "PostCode": {
+      "name": "Post Code",
+      "definition": "Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail."
+    },
+    "DistrictName": {
+      "name": "District Name",
+      "definition": "Name of a district, that is, a part of the town or region."
+    },
+    "Village": {
+      "name": "Village",
+      "definition": "Name of the village."
+    },
+    "TownName": {
+      "name": "Town Name",
+      "definition": "Name of the town or city."
+    },
+    "State": {
+      "name": "State",
+      "definition": "Name of the state, county or country sub-division."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the address."
+    }
+  },
+  "isoRules": {
+    "MailingIndicatorRule": {
+      "definition": "If RegistrationAddressIndicator is \"true\" or \"1\" (Yes), then MailingIndicator must be \"true\" or \"1\"."
+    }
+  }
+}

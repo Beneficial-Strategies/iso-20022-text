@@ -1,0 +1,36 @@
+{
+  "isoType": "DirectDebitInstructionDetails3",
+  "language": "en",
+  "name": "Direct Debit Instruction Details 3",
+  "definition": "Instructions, initiated by the creditor, to debit a debtor's account in favour of the creditor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Identification of the mandate for a direct debit instruction."
+    },
+    "AutomatedDirectDebitInstructionIndicator": {
+      "name": "Automated Direct Debit Instruction Indicator",
+      "definition": "Indicates whether the instruction is an automated direct debit instruction.||Usage: Default value for AutomatedDirectDebitInstructionIndicator is false."
+    },
+    "DirectDebitTransferableIndicator": {
+      "name": "Direct Debit Transferable Indicator",
+      "definition": "Indicates whether the direct debit instruction is transferable.||Usage: Default value for DirectDebitTransferableIndicator is false."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "LastCollectionCurrencyAmount": {
+      "name": "Last Collection Currency Amount",
+      "definition": "Amount of the last debit made for the direct debit mandate."
+    },
+    "LastCollectionDate": {
+      "name": "Last Collection Date",
+      "definition": "Date on which the last debit for the direct debit mandate may be made.||Usage: Not included if all limits to the validity of the direct debit mandate have already been specified or if there are no time limits on the validity of the direct debit."
+    },
+    "OtherDetails": {
+      "name": "Other Details",
+      "definition": "Provides further information about the status of a requested transaction schedule transfer."
+    }
+  }
+}

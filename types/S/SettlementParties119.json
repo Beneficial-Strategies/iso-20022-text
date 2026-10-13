@@ -1,0 +1,38 @@
+{
+  "isoType": "SettlementParties119",
+  "language": "en",
+  "name": "Settlement Parties 119",
+  "definition": "Chain of parties involved in the settlement of a transaction, including receipts and deliveries, book transfers, treasury deals, or other activities, resulting in the movement of a security or amount of money from one account to another.",
+  "isoElements": {
+    "Party2": {
+      "name": "Party 2",
+      "definition": "Party that, in a settlement chain interacts with the party 1."
+    },
+    "Party3": {
+      "name": "Party 3",
+      "definition": "Party that, in a settlement chain interacts with the party 2."
+    },
+    "Party4": {
+      "name": "Party 4",
+      "definition": "Party that, in a settlement chain interacts with the party 3."
+    },
+    "Party5": {
+      "name": "Party 5",
+      "definition": "Party that, in a settlement chain interacts with the party 4."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "If Party3 is present, then Party2 must be present."
+    },
+    "Party4PresenceRule": {
+      "definition": "If Party4 is present, then Party3 must be present."
+    },
+    "Party5PresenceRule": {
+      "definition": "If Party5 is present, then Party4 must be present."
+    },
+    "BookTransferGuideline": {
+      "definition": "In case of own account internal transfer, own account external transfer, portfolio transfer and in specie transfer (see SecuritiesTransactionType), the account of (delivering) Party2 at (delivering) Party1 must be provided.|For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

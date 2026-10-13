@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentCommon6",
+  "language": "en",
+  "name": "Payment Common 6",
+  "definition": "Common details for all payment instructions.",
+  "isoElements": {
+    "PaymentFrom": {
+      "name": "Payment From",
+      "definition": "Origin of the payment (be it a member or a system or both)."
+    },
+    "PaymentTo": {
+      "name": "Payment To",
+      "definition": "Destination of the payment (be it a member or a system or both)."
+    },
+    "CommonStatus": {
+      "name": "Common Status",
+      "definition": "Status of a transfer."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date and time at which the cash is at the disposal of the credit account owner, or ceases to be at the disposal of the debit account owner."
+    },
+    "EntryDate": {
+      "name": "Entry Date",
+      "definition": "Date and time at which an entry is posted to an account on the account servicer's books."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the payment instruction is a debit or a credit.|."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Indicates the message or event from which an instruction has been initiated."
+    }
+  }
+}

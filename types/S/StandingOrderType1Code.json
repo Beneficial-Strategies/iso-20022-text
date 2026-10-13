@@ -1,0 +1,18 @@
+{
+  "isoType": "StandingOrderType1Code",
+  "language": "en",
+  "name": "Standing Order Type 1 Code",
+  "definition": "Specifies the type of standing order, such as a user defined standing order or a predefined liquidity transfer.",
+  "isoCodes": {
+    "USTO": {
+      "isoName": "UserDefinedStandingOrder",
+      "name": "User Defined Standing Order",
+      "definition": "Liquidity transfer standing order type, that has been customised or defined to the specific need of the user."
+    },
+    "PSTO": {
+      "isoName": "PredefinedStandingOrder",
+      "name": "Predefined Standing Order",
+      "definition": "Liquidity transfer standing order type, as predefined in the system."
+    }
+  }
+}

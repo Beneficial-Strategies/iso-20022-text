@@ -1,0 +1,32 @@
+{
+  "isoType": "SubBalanceInformation23",
+  "language": "en",
+  "name": "Sub Balance Information 23",
+  "definition": "Net position of a segregated holding of a single security within the overall position held in the securities account, for example sub-balance per status.",
+  "isoElements": {
+    "SubBalanceType": {
+      "name": "Sub Balance Type",
+      "definition": "Reason for the sub-balance."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of securities in the sub-balance."
+    },
+    "SubBalanceAdditionalDetails": {
+      "name": "Sub Balance Additional Details",
+      "definition": "Provides additional subbalance information."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "name": "Additional Balance Breakdown Details",
+      "definition": "Provides additional instrument sub-balance information on all or parts of the reported financial instrument (unregistered, tax exempt, etc.)."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if SubBalanceAdditionnalDetails is used, them it must not contain information that can be provided in a structured field."
+    },
+    "AvailableWithNoStatusRule": {
+      "definition": "If Subbalance type is AvailableWithNoStatus, then QuantityAndAvailability cannot be used."
+    }
+  }
+}

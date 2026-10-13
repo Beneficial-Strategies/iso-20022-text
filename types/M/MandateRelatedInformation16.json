@@ -1,0 +1,56 @@
+{
+  "isoType": "MandateRelatedInformation16",
+  "language": "en",
+  "name": "Mandate Related Information 16",
+  "definition": "Provides further details related to a direct debit mandate signed between the creditor and the debtor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Unique identification, as assigned by the creditor, to unambiguously identify the mandate."
+    },
+    "DateOfSignature": {
+      "name": "Date Of Signature",
+      "definition": "Date on which the direct debit mandate has been signed by the debtor."
+    },
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicator notifying whether the underlying mandate is amended or not."
+    },
+    "AmendmentInformationDetails": {
+      "name": "Amendment Information Details",
+      "definition": "List of mandate elements that have been modified."
+    },
+    "ElectronicSignature": {
+      "name": "Electronic Signature",
+      "definition": "Additional security provisions, such as a digital signature, as provided by the debtor."
+    },
+    "FirstCollectionDate": {
+      "name": "First Collection Date",
+      "definition": "Date of the first collection of a direct debit as per the mandate."
+    },
+    "FinalCollectionDate": {
+      "name": "Final Collection Date",
+      "definition": "Date of the final collection of a direct debit as per the mandate."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which direct debit instructions are to be created and processed."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the direct debit mandate to allow the user to distinguish between different mandates for the same creditor."
+    },
+    "TrackingDays": {
+      "name": "Tracking Days",
+      "definition": "Specifies the number of days the direct debit instruction must be tracked."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorTrueRule": {
+      "definition": "If AmendmentIndicator is true, then AmendmentInformationDetails must be present."
+    },
+    "AmendmentIndicatorFalseRule": {
+      "definition": "If AmendmentIndicator is false, then AmendmentInformationDetails is not allowed."
+    }
+  }
+}

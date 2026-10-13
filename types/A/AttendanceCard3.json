@@ -1,0 +1,25 @@
+{
+  "isoType": "AttendanceCard3",
+  "language": "en",
+  "name": "Attendance Card 3",
+  "definition": "Specifies details related to the attendance card.",
+  "isoElements": {
+    "AttendanceCardLabelling": {
+      "name": "Attendance Card Labelling",
+      "definition": "Information to be indicated on the attendance card."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies where the attendance card must be delivered."
+    },
+    "OtherAddress": {
+      "name": "Other Address",
+      "definition": "Name and address of the party."
+    }
+  },
+  "isoRules": {
+    "OtherAddressCode1Rule": {
+      "definition": "If DeliveryMethod is OtherAddress \"OADR\", then OtherAddress must be present."
+    }
+  }
+}

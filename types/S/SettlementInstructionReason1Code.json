@@ -1,0 +1,78 @@
+{
+  "isoType": "SettlementInstructionReason1Code",
+  "language": "en",
+  "name": "Settlement Instruction Reason 1 Code",
+  "definition": "Specifies the type of transaction.",
+  "isoCodes": {
+    "CSHI": {
+      "isoName": "AllCredits",
+      "name": "All Credits",
+      "definition": "Settlement of all credit amounts."
+    },
+    "ALLL": {
+      "isoName": "AllCreditsAndDebits",
+      "name": "All Credits And Debits",
+      "definition": "Settlement of all credit and debit amounts."
+    },
+    "CSHO": {
+      "isoName": "AllDebits",
+      "name": "All Debits",
+      "definition": "Settlement of all debit amounts."
+    },
+    "CHAR": {
+      "isoName": "Charges",
+      "name": "Charges",
+      "definition": "Settlement of charges."
+    },
+    "DIVI": {
+      "isoName": "Dividend",
+      "name": "Dividend",
+      "definition": "Settlement of dividends."
+    },
+    "INTE": {
+      "isoName": "Interest",
+      "name": "Interest",
+      "definition": "Settlement of interest."
+    },
+    "SAVP": {
+      "isoName": "InvestmentSavingsPlan",
+      "name": "Investment Savings Plan",
+      "definition": "Settlement of investments to a savings plan."
+    },
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Settlement of redemptions or redemption legs of a switch transaction."
+    },
+    "SAVE": {
+      "isoName": "SavingsPlan",
+      "name": "Savings Plan",
+      "definition": "Settlement of investments to a savings plan and withdrawals from a savings plan."
+    },
+    "BUYI": {
+      "isoName": "SecuritiesPurchase",
+      "name": "Securities Purchase",
+      "definition": "Settlement of securities purchases."
+    },
+    "SELL": {
+      "isoName": "SecuritiesSale",
+      "name": "Securities Sale",
+      "definition": "Settlement of securities sales."
+    },
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Settlement of subscriptions or subscription legs of a switch transaction."
+    },
+    "WTHP": {
+      "isoName": "WithdrawalSavingsPlan",
+      "name": "Withdrawal Savings Plan",
+      "definition": "Settlement of withdrawals from a savings plan."
+    },
+    "CORP": {
+      "isoName": "CorporateAction",
+      "name": "Corporate Action",
+      "definition": "Settlement of corporate actions."
+    }
+  }
+}

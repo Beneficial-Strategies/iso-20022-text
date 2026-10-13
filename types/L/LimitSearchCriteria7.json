@@ -1,0 +1,60 @@
+{
+  "isoType": "LimitSearchCriteria7",
+  "language": "en",
+  "name": "Limit Search Criteria 7",
+  "definition": "Defines the criteria used to search for a limit.",
+  "isoElements": {
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Identification of a particular cash clearing system."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "name": "Bilateral Limit Counterparty Identification",
+      "definition": "Unique and unambiguous identification of a member within a system, assigned using the member identification scheme of the system."
+    },
+    "DefaultLimitType": {
+      "name": "Default Limit Type",
+      "definition": "Type of limit as set by default in the system. The default limit is applicable by the system unless otherwise instructed."
+    },
+    "CurrentLimitType": {
+      "name": "Current Limit Type",
+      "definition": "Type of limit applied by the system at the present time."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "UsedAmount": {
+      "name": "Used Amount",
+      "definition": "Actual usage of the limit expressed as an amount."
+    },
+    "UsedPercentage": {
+      "name": "Used Percentage",
+      "definition": "Actual usage of the limit expressed as a percentage."
+    },
+    "LimitCurrency": {
+      "name": "Limit Currency",
+      "definition": "Currency unit used to specify the limit amount."
+    },
+    "LimitAmount": {
+      "name": "Limit Amount",
+      "definition": "Amount of money of the limit, expressed in an eligible currency."
+    },
+    "LimitValidAsOfDate": {
+      "name": "Limit Valid As Of Date",
+      "definition": "Range of dates when the limit becomes valid."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty3Rule": {
+      "definition": "If at least one occurrence of CurrentLimitType is present and is MULT, then no occurrence of BilateralLimitCounterpartyIdentification is allowed.|If no occurrence of CurrentLimitType is MULT, then any occurrence of BilateralLimitCounterpartyIdentification is optional.|If CurrentLimitType is not present, then any occurrence of BilateralLimitCounterpartyIdentification is optional."
+    },
+    "BilateralLimitCounterparty4Rule": {
+      "definition": "If at least one occurrence of DefaultLimitType is present and is MULT, then no occurrence of BilateralLimitCounterpartyIdentification is allowed.|If no occurrence of DefaultLimitType is MULT, then any occurrence of BilateralLimitCounterpartyIdentification is optional.|If DefaultLimitType is not present, then any occurrence of BilateralLimitCounterpartyIdentification is optional."
+    }
+  }
+}

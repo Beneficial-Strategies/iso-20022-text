@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionNarrative63",
+  "language": "en",
+  "name": "Corporate Action Narrative 63",
+  "definition": "Provides additional information such as the taxation conditions.",
+  "isoElements": {
+    "Offeror": {
+      "name": "Offeror",
+      "definition": "Provides the entity making the offer and is different from the issuing company."
+    },
+    "NewCompanyName": {
+      "name": "New Company Name",
+      "definition": "Provides the new name of a company following a name change."
+    },
+    "URLAddress": {
+      "name": "URL Address",
+      "definition": "Provides the web address published for the event, that is, the address for the Universal Resource Locator (URL), for example, used over the www (HTTP) service."
+    },
+    "EventProcessingWebSiteAddress": {
+      "name": "Event Processing Web Site Address",
+      "definition": "Provides web address of an account servicer (or of a service provider) that contains information solely intended for the immediate account holder to enable or facilitate event processing between parties."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "The AdditionalInformation field in all elements must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition."
+    }
+  }
+}

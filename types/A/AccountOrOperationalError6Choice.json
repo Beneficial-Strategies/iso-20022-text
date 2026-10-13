@@ -1,0 +1,16 @@
+{
+  "isoType": "AccountOrOperationalError6Choice",
+  "language": "en",
+  "name": "Account Or Operational Error 6 Choice",
+  "definition": "Choice between account details or an operational error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "AccountReport": {
+      "name": "Account Report",
+      "definition": "Reports either on the account information or on a business error."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

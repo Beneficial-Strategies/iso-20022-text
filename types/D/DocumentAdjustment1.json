@@ -1,0 +1,24 @@
+{
+  "isoType": "DocumentAdjustment1",
+  "language": "en",
+  "name": "Document Adjustment 1",
+  "definition": "Set of elements used to provide information on the amount and reason of the document adjustment.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money of the document adjustment."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the adjustment must be subtracted or added to the total amount."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the adjustment."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides further details on the document adjustment."
+    }
+  }
+}

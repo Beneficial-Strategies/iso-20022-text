@@ -1,0 +1,38 @@
+{
+  "isoType": "PaymentRole1Code",
+  "language": "en",
+  "name": "Payment Role 1 Code",
+  "definition": "Role associated with a specific party in relation to a payment instruction. The role identifies either the specific function of the party, or the party's rights regarding management of the instruction.",
+  "isoCodes": {
+    "LQMG": {
+      "isoName": "LiquidityManager",
+      "name": "Liquidity Manager",
+      "definition": "Party in a financial institution responsible for the management of liquidity for the financial institution. This party has access to some functions available on the system, such as the liquidity transfers ormanagement of standing instructions for liquidity control."
+    },
+    "LMMG": {
+      "isoName": "LimitManager",
+      "name": "Limit Manager",
+      "definition": "Party in a financial institution responsible for the management of the limits. This party is responsible for fixing, modifying, or suspending limits as relevant for the management of counterpart risk or systemic risk containment."
+    },
+    "PYMG": {
+      "isoName": "PaymentManager",
+      "name": "Payment Manager",
+      "definition": "Party in a financial institution responsible for the management of payment processing for the financial institution. This includes authorising, recycling, and modification of payment transactions."
+    },
+    "REDR": {
+      "isoName": "Reader",
+      "name": "Reader",
+      "definition": "Party in a financial institution entitled to obtain information from the system, but not act upon/alter this information."
+    },
+    "BKMG": {
+      "isoName": "BackupManager",
+      "name": "Backup Manager",
+      "definition": "Party responsible for managing the recovery functions related to a system."
+    },
+    "STMG": {
+      "isoName": "SettlementManager",
+      "name": "Settlement Manager",
+      "definition": "Party in a financial institution responsible for the management of settlement processing."
+    }
+  }
+}

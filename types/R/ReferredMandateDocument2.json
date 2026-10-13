@@ -1,0 +1,24 @@
+{
+  "isoType": "ReferredMandateDocument2",
+  "language": "en",
+  "name": "Referred Mandate Document 2",
+  "definition": "Identifies the documents referred to in the remittance information.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of referred document."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "Unique and unambiguous identification of the referred document."
+    },
+    "CreditorReference": {
+      "name": "Creditor Reference",
+      "definition": "Unique and unambiguous identification as assigned by the creditor to the referred document shared with the debtor for its own reference."
+    },
+    "RelatedDate": {
+      "name": "Related Date",
+      "definition": "Date and type associated with the referred document."
+    }
+  }
+}

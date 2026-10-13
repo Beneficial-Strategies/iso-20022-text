@@ -1,0 +1,18 @@
+{
+  "isoType": "MatchingProcess1Code",
+  "language": "en",
+  "name": "Matching Process 1 Code",
+  "definition": "Specifies the action to be performed on the matching process.",
+  "isoCodes": {
+    "UNMT": {
+      "isoName": "Unmatch",
+      "name": "Unmatch",
+      "definition": "The referenced transaction is requested to be unmatched."
+    },
+    "MTRE": {
+      "isoName": "ResumeMatching",
+      "name": "Resume Matching",
+      "definition": "Matching process is to be resumed for the referenced transaction."
+    }
+  }
+}

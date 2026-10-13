@@ -1,0 +1,24 @@
+{
+  "isoType": "Status31Choice",
+  "language": "en",
+  "name": "Status 31 Choice",
+  "definition": "Choice of formats for the specification of the status.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the transfer cancellation is accepted or sent to next party."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status of the transfer cancellation is rejected."
+    },
+    "Complete": {
+      "name": "Complete",
+      "definition": "Status of the transfer cancellation is complete. The cancellation instruction has been accepted and processed, the cancellation is complete."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Status of the transfer cancellation is pending."
+    }
+  }
+}

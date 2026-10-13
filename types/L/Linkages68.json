@@ -1,0 +1,33 @@
+{
+  "isoType": "Linkages68",
+  "language": "en",
+  "name": "Linkages 68",
+  "definition": "Information related to a linked transaction.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "name": "Processing Position",
+      "definition": "Specifies when the transaction is to be executed relative to a linked transaction."
+    },
+    "MessageNumber": {
+      "name": "Message Number",
+      "definition": "Message type number/message identifier of the message referenced in the linkage sequence."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference to the linked transaction."
+    },
+    "LinkedQuantity": {
+      "name": "Linked Quantity",
+      "definition": "Quantity of financial instruments of the linked transaction to be paired-off or turned."
+    },
+    "ReferenceOwner": {
+      "name": "Reference Owner",
+      "definition": "Party that generates the reference."
+    }
+  },
+  "isoRules": {
+    "LinkedQuantityRule": {
+      "definition": "If linked quantity for partial pair-off and turned quantity for partial turns is used, then its usage must be pre-agreed between the message account owner and account servicer."
+    }
+  }
+}

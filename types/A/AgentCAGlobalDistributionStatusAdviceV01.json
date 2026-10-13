@@ -1,0 +1,36 @@
+{
+  "isoType": "AgentCAGlobalDistributionStatusAdviceV01",
+  "language": "en",
+  "name": "Agent CA Global Distribution Status Advice V 01",
+  "definition": "Scope|This message is sent by an issuer (or its agent) to the CSD to authorise/prohibit the CSD to process the entitlement movements.|Usage|This message is used to authorise/prohibit the CSD to process the movements requested in the Global Distribution Authorisation Request message.|Once the amendment request has been accepted by the issuer (or its agent), the CSD will process any resource movement and send an Agent Corporate Action Election Advice message with the function, option change, to confirm that the amendment has been booked at the CSD.|The issuer (or its agent) can provide the status in 2 different ways:|- Provide a global status, in which case the building block Global Movement Status must be present; or|- Provide a status by individual movements, in which case, the building block Individual Movement Status must be present. An individual movement cannot be rejected.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AgentCAGlobalDistributionAuthorisationRequestIdentification": {
+      "name": "Agent CA Global Distribution Authorisation Request Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "GlobalMovementStatus": {
+      "name": "Global Movement Status",
+      "definition": ""
+    },
+    "IndividualMovementStatus": {
+      "name": "Individual Movement Status",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "GlobalMovementStatusOrIndividualMovementStatusRule": {
+      "definition": "Either GlobalMovementStatus or IndividualMovementStatus must be present."
+    },
+    "GlobalMovementStatusOrIndividualMovementStatusRuleNotBoth": {
+      "definition": "Either GlobalMovementStatus or IndividualMovementStatus must be present."
+    }
+  }
+}

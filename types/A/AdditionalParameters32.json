@@ -1,0 +1,24 @@
+{
+  "isoType": "AdditionalParameters32",
+  "language": "en",
+  "name": "Additional Parameters 32",
+  "definition": "Specifies additional parameters to the message or transaction.",
+  "isoElements": {
+    "PreConfirmation": {
+      "name": "Pre Confirmation",
+      "definition": "Specifies whether there exists a pre-confirmation."
+    },
+    "PartialSettlement": {
+      "name": "Partial Settlement",
+      "definition": "Specifies partial settlement information."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Transaction Identification",
+      "definition": "Unique identification identifying the triparty collateral management transaction from the triparty-agent's/service-provider's point of view."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "name": "Client Triparty Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty collateral management transaction from the client's point of view."
+    }
+  }
+}

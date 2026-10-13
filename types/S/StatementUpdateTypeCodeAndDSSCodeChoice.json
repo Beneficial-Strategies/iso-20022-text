@@ -1,0 +1,16 @@
+{
+  "isoType": "StatementUpdateTypeCodeAndDSSCodeChoice",
+  "language": "en",
+  "name": "Statement Update Type Code And DSS Code Choice",
+  "definition": "Choice between formats for the update type.",
+  "isoElements": {
+    "StatementUpdateTypeAsCode": {
+      "name": "Statement Update Type As Code",
+      "definition": "Update type expressed as a code."
+    },
+    "StatementUpdateTypeAsDSS": {
+      "name": "Statement Update Type As DSS",
+      "definition": "Update type expressed as a data source scheme and a code used within the data source scheme."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "PriceValueType1Code",
+  "language": "en",
+  "name": "Price Value Type 1 Code",
+  "definition": "Specifies a type of value of the price.",
+  "isoCodes": {
+    "DISC": {
+      "isoName": "Discount",
+      "name": "Discount",
+      "definition": "Price expressed as a number of percentage points below par, for example, a discount price of 2.0% equals a price of 98 when par is 100."
+    },
+    "PREM": {
+      "isoName": "Premium",
+      "name": "Premium",
+      "definition": "Price expressed as a number of percentage points above par, for example, a premium price of 2.0% equals a price of 102 when par is 100."
+    },
+    "PARV": {
+      "isoName": "Par",
+      "name": "Par",
+      "definition": "Price is the face amount."
+    }
+  }
+}

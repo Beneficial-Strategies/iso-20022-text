@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionOption234",
+  "language": "en",
+  "name": "Corporate Action Option 234",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Provides information about securities movement related to a corporate action option."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Provides information about the cash movement linked to the corporate action option."
+    }
+  },
+  "isoRules": {
+    "MovementDetailsRule": {
+      "definition": "At least one occurrence of SecuritiesMovementDetails or CashMovementDetails must be present."
+    }
+  }
+}

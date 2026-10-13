@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary1Code",
+  "language": "en",
+  "name": "Corporate Action Mandatory Voluntary 1 Code",
+  "definition": "Specifies whether the event is mandatory, mandatory with options or voluntary.",
+  "isoCodes": {
+    "MAND": {
+      "isoName": "Mandatory",
+      "name": "Mandatory",
+      "definition": "Participation in CA event is mandatory. Further instructions from the account owner are not required."
+    },
+    "CHOS": {
+      "isoName": "MandatoryWithOptions",
+      "name": "Mandatory With Options",
+      "definition": "Participation in the corporate action is mandatory and further instructions from the account owner are required, unless a default option has been specified."
+    },
+    "VOLU": {
+      "isoName": "Voluntary",
+      "name": "Voluntary",
+      "definition": "Participation in the corporate action is voluntary. If the owner wishes to take part in the event, instructions from the account owner are required."
+    }
+  }
+}

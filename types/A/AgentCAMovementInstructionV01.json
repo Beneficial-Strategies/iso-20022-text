@@ -1,0 +1,44 @@
+{
+  "isoType": "AgentCAMovementInstructionV01",
+  "language": "en",
+  "name": "Agent CA Movement Instruction V 01",
+  "definition": "Scope|This message is sent by an issuer (or its agent) to a CSD to order:|- the global or individual debit of exercised resources (cash and/or securities), per event and optionally per option and per resource for all or individual CSD client's accounts;|- and/or the individual credits of the outturn resources per event and optionally per option and per resource for a given CSD client's account.|Usage|This message is used to instruct:|- the global debit of the exercised resources from the CSD client's available or sequestered balance, in which case, the order type must be 'global debit order';|- the individual debits and credits:|- the individual debit of the exercised resources from the CSD client's available or sequestered balance and/or|- the individual credit of the outturn resources to the CSD client's account.|The order type must be 'individual order';|- a return order, in the case of a scaleback, i.e. the return of the exercised resources to the CSD client's account. The order type must be either 'global return order' or 'individual return order'; and|change of option, e.g. in the case of the closure of an option, by moving the exercised resources from one option to another option within the sequestered balances in accordance to the new option conditions. The order type must be 'option change order'.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AgentCAElectionAdviceIdentification": {
+      "name": "Agent CA Election Advice Identification",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "MovementGeneralInformation": {
+      "name": "Movement General Information",
+      "definition": ""
+    },
+    "UnderlyingSecuritiesMovementDetails": {
+      "name": "Underlying Securities Movement Details",
+      "definition": ""
+    },
+    "UnderlyingCashMovementDetails": {
+      "name": "Underlying Cash Movement Details",
+      "definition": ""
+    },
+    "ProceedsMovementDetails": {
+      "name": "Proceeds Movement Details",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "OptionRule1": {
+      "definition": "IF MovementGeneralInformation/OrderType is CHAN (OptionChangeOrder) then OptionNumber and OptionType must be present in each occurrence of UnderlyingSecuritiesMovementDetails/CreditAccountDetails and UnderlyingSecuritiesMovement/DebitAccountDetails and OptionNumber and OptionType cannot be present in MovementGeneralInformation."
+    },
+    "OptionRule2": {
+      "definition": "IF MovementGeneralInformation/OrderType is not CHAN (OptionChangeOrder), then OptionNumber and OptionType must be present in MovementGeneralInformation and cannot be present in any occurrence of UnderlyingSecuritiesMovementDetails/CreditAccountDetails neither in UnderlyingSecuritiesMovement/DebitAccountDetails."
+    }
+  }
+}

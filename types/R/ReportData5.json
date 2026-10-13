@@ -1,0 +1,36 @@
+{
+  "isoType": "ReportData5",
+  "language": "en",
+  "name": "Report Data 5",
+  "definition": "Numerical representation of the nett increases and decreases in an account at a specific point in time. A cash balance is calculated from a sum of cash credits minus a sum of cash debits.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the report assigned by the central system."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date by which the amount(s) requested must be settled."
+    },
+    "DateAndTimeStamp": {
+      "name": "Date And Time Stamp",
+      "definition": "Date and time on which the report is generated. The offset with UTC may also be specified."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the Pay In Call."
+    },
+    "PayInCallAmount": {
+      "name": "Pay In Call Amount",
+      "definition": "Specifies the amount requested."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "AccountValue": {
+      "name": "Account Value",
+      "definition": "Specifies the requested amount in multiple currencies."
+    }
+  }
+}

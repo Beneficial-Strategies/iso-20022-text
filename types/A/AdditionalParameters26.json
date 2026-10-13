@@ -1,0 +1,25 @@
+{
+  "isoType": "AdditionalParameters26",
+  "language": "en",
+  "name": "Additional Parameters 26",
+  "definition": "Specifies additional parameters to the message or transaction.",
+  "isoElements": {
+    "PreConfirmation": {
+      "name": "Pre Confirmation",
+      "definition": "Specifies whether there exists a pre-confirmation."
+    },
+    "PartialSettlement": {
+      "name": "Partial Settlement",
+      "definition": "Specifies partial settlement information."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "name": "Previous Partial Confirmation Identification",
+      "definition": "Identification of the confirmation previously sent to confirm the partial settlement of a transaction."
+    }
+  },
+  "isoRules": {
+    "PartialSettlementGuideline": {
+      "definition": "Partial settlement information only applies to markets where partial settlement is allowed.|The PartialSettlement field should be used as follows:|- with code PAIN in the first message(s) (there may be more than one) confirming the partial settlement of an instruction.|- with code PARC in the very last message sent to confirm the settlement of the remaining part.|For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

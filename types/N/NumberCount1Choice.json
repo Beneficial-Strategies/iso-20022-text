@@ -1,0 +1,21 @@
+{
+  "isoType": "NumberCount1Choice",
+  "language": "en",
+  "name": "Number Count 1 Choice",
+  "definition": "Choice of number count type.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "name": "Current Instruction Number",
+      "definition": "Sequential number of the instruction in a range of linked settlement instructions."
+    },
+    "TotalNumber": {
+      "name": "Total Number",
+      "definition": "Total numbers of settlement transactions, receipts and deliveries, and the concerned settlement transaction number."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "If the Sender wants to indicate that this instruction is linked to one or more settlement instruction, then the CurrentInstructionNumber must be specified."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "isoType": "ExternalInvestigationExecutionConfirmation1Code",
+  "language": "en",
+  "name": "External Investigation Execution Confirmation 1 Code",
+  "definition": "Specifies the result of an investigation, as published in an external investigation execution confirmation code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ACDA": {
+      "isoName": "AcceptedDebitAuthorisation",
+      "name": "Accepted Debit Authorisation",
+      "definition": "Used when a creditor accepts the debit authorisation."
+    },
+    "ACNR": {
+      "isoName": "AcceptedClaimNonReceipt",
+      "name": "Accepted Claim Non Receipt",
+      "definition": "The claim for non-receipt of a payment instruction is accepted."
+    },
+    "ACVA": {
+      "isoName": "AcceptedValueDateAdjustment",
+      "name": "Accepted Value Date Adjustment",
+      "definition": "The claim for value date correction is accepted."
+    },
+    "CHRG": {
+      "isoName": "ChargesDetailsProvided",
+      "name": "Charges Details Provided",
+      "definition": "Further charges details are provided to resolve the case."
+    },
+    "CNCL": {
+      "isoName": "CancelledAsPerRequest",
+      "name": "Cancelled As Per Request",
+      "definition": "Used when a requested cancellation is successful."
+    },
+    "CONF": {
+      "isoName": "ConfirmationOfPayment",
+      "name": "Confirmation Of Payment",
+      "definition": "Used when a payment has been checked and was correctly executed without any intervention."
+    },
+    "CVAA": {
+      "isoName": "CorrectValueDateAlreadyApplied",
+      "name": "Correct Value Date Already Applied",
+      "definition": "The original value date was correct."
+    },
+    "CWFW": {
+      "isoName": "CancellationWillFollow",
+      "name": "Cancellation Will Follow",
+      "definition": "Used when a payment will be cancelled to solve an investigation case."
+    },
+    "FTNA": {
+      "isoName": "CancellationRequestForwardedToTheNextAgent",
+      "name": "Cancellation Request Forwarded To The Next Agent",
+      "definition": "The cancellation request has been forwarded to the next agent for execution.|Usage: This code should only be utilised where a Case Id is not present."
+    },
+    "ICOV": {
+      "isoName": "CoverInitiated",
+      "name": "Cover Initiated",
+      "definition": "Used when a transfer of funds has been initiated (a cover payment) to resolve a case."
+    },
+    "IDUP": {
+      "isoName": "InstructionIsDuplicate",
+      "name": "Instruction Is Duplicate",
+      "definition": "Used when the requested check for a possible duplicate instruction is confirmed."
+    },
+    "IPAY": {
+      "isoName": "PaymentInitiated",
+      "name": "Payment Initiated",
+      "definition": "Used when the result of an investigation is, or will be, the initiation of a payment instruction."
+    },
+    "IPYI": {
+      "isoName": "PaymentInstructionInitiated",
+      "name": "Payment Instruction Initiated",
+      "definition": "Used when a payment instruction (eg. MT103) has been initiated to resolve a case."
+    },
+    "MCOV": {
+      "isoName": "CoverModified",
+      "name": "Cover Modified",
+      "definition": "Used when a transfer of funds has been modified (a cover payment) to resolve a case."
+    },
+    "MODI": {
+      "isoName": "ModifiedAsPerRequest",
+      "name": "Modified As Per Request",
+      "definition": "Used when a requested modification is successful."
+    },
+    "MWFW": {
+      "isoName": "ModificationWillFollow",
+      "name": "Modification Will Follow",
+      "definition": "Used when the payment will be modified to solve an investigation case."
+    },
+    "PDCR": {
+      "isoName": "PendingCancellationRequest",
+      "name": "Pending Cancellation Request",
+      "definition": "Used when a requested cancellation is pending."
+    },
+    "PECR": {
+      "isoName": "PartiallyExecutedCancellationRequest",
+      "name": "Partially Executed Cancellation Request",
+      "definition": "Used when a requested cancellation has been partially executed."
+    },
+    "PURP": {
+      "isoName": "PurposeDetailsProvided",
+      "name": "Purpose Details Provided",
+      "definition": "Further purpose details are provided to resolve the case."
+    },
+    "RJCR": {
+      "isoName": "RejectedCancellationRequest",
+      "name": "Rejected Cancellation Request",
+      "definition": "Used when a requested cancellation has been rejected."
+    },
+    "RJNR": {
+      "isoName": "RejectedClaimNonReceipt",
+      "name": "Rejected Claim Non Receipt",
+      "definition": "The claim for non-receipt of a payment instruction is rejected."
+    },
+    "RJVA": {
+      "isoName": "RejectedValueDateAdjustment",
+      "name": "Rejected Value Date Adjustment",
+      "definition": "The claim for value date correction is rejected."
+    },
+    "SMTC": {
+      "isoName": "StatementEntryCorrect",
+      "name": "Statement Entry Correct",
+      "definition": "Used when the entry in the statement is correct."
+    },
+    "SMTI": {
+      "isoName": "StatementEntryIncorrect",
+      "name": "Statement Entry Incorrect",
+      "definition": "Used when the entry in the statement is incorrect and further information is provided with the resolution."
+    },
+    "UWFW": {
+      "isoName": "UnableToApplyWillFollow",
+      "name": "Unable To Apply Will Follow",
+      "definition": "Used when sender wants to respond to an assignment with an Unable To Apply workflow."
+    },
+    "BIAS": {
+      "isoName": "BatchInstructionAlreadySettled",
+      "name": "Batch Instruction Already Settled",
+      "definition": "Process a cancellation request but batch already settled."
+    },
+    "IDNE": {
+      "isoName": "InstructionDoesNotExist",
+      "name": "Instruction Does Not Exist",
+      "definition": "Process a  Batch Cancellation \"using an incorrect batch sequence number”."
+    },
+    "IVCR": {
+      "isoName": "InvalidCancellationRequest",
+      "name": "Invalid Cancellation Request",
+      "definition": "Process a cancellation request with incorrect reference to original batch."
+    },
+    "INFO": {
+      "isoName": "AdditionalInformationSent",
+      "name": "Additional Information Sent",
+      "definition": "Used when additional information has been sent to the beneficiary of a payment."
+    },
+    "NINF": {
+      "isoName": "NoInformationAvailable",
+      "name": "No Information Available",
+      "definition": "Used when no additional information is available."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Used to inform that a response to an investigation is pending."
+    }
+  }
+}

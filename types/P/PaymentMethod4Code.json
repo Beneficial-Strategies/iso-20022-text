@@ -1,0 +1,28 @@
+{
+  "isoType": "PaymentMethod4Code",
+  "language": "en",
+  "name": "Payment Method 4 Code",
+  "definition": "Specifies the transfer method that will be used to transfer an amount of money.",
+  "isoCodes": {
+    "CHK": {
+      "isoName": "Cheque",
+      "name": "Cheque",
+      "definition": "Written order to a bank to pay a certain amount of money from one person to another person."
+    },
+    "TRF": {
+      "isoName": "CreditTransfer",
+      "name": "Credit Transfer",
+      "definition": "Transfer of an amount of money in the books of the account servicer."
+    },
+    "DD": {
+      "isoName": "DirectDebit",
+      "name": "Direct Debit",
+      "definition": "Collection of an amount of money from the debtor's bank account by the creditor. The amount of money and dates of collections may vary."
+    },
+    "TRA": {
+      "isoName": "TransferAdvice",
+      "name": "Transfer Advice",
+      "definition": "Transfer of an amount of money in the books of the account servicer. An advice should be sent back to the account owner."
+    }
+  }
+}

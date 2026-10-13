@@ -1,0 +1,93 @@
+{
+  "isoType": "EstimatedFundCashForecast5",
+  "language": "en",
+  "name": "Estimated Fund Cash Forecast 5",
+  "definition": "Cash movements from or to a fund as a result of investment funds transactions, eg, subscriptions or redemptions.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique technical identifier for an instance of a fund cash forecast within a fund cash forecast report as assigned by the issuer of the report."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and, if required, the time, at which the price will be applied."
+    },
+    "PreviousTradeDateTime": {
+      "name": "Previous Trade Date Time",
+      "definition": "Previous date and time at which the price was applied."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which the cash flow is related."
+    },
+    "EstimatedTotalNAV": {
+      "name": "Estimated Total NAV",
+      "definition": "Estimated total value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "PreviousTotalNAV": {
+      "name": "Previous Total NAV",
+      "definition": "Previous value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "name": "Estimated Total Units Number",
+      "definition": "Estimated total number of investment fund class units that have been issued."
+    },
+    "PreviousTotalUnitsNumber": {
+      "name": "Previous Total Units Number",
+      "definition": "Previous value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "EstimatedTotalNAVChangeRate": {
+      "name": "Estimated Total NAV Change Rate",
+      "definition": "Rate of change of the net asset value."
+    },
+    "InvestmentCurrency": {
+      "name": "Investment Currency",
+      "definition": "Currency of the investment fund class."
+    },
+    "CurrencyStatus": {
+      "name": "Currency Status",
+      "definition": "Information about the designation of the share class currency, that is, whether it is for onshore or offshore purposes and other information that may be required. This is typically only required for CNY funds."
+    },
+    "ExceptionalNetCashFlowIndicator": {
+      "name": "Exceptional Net Cash Flow Indicator",
+      "definition": "Indicates whether the estimated net cash flow is exceptional."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price per unit of the previous trade date."
+    },
+    "ForeignExchangeRate": {
+      "name": "Foreign Exchange Rate",
+      "definition": "Foreign exchange rate."
+    },
+    "EstimatedPercentageOfShareClassTotalNAV": {
+      "name": "Estimated Percentage Of Share Class Total NAV",
+      "definition": "Estimated net cash flow expressed as a percentage of the previous total NAV for the share class."
+    },
+    "BreakdownByParty": {
+      "name": "Breakdown By Party",
+      "definition": "Estimated cash flow by party."
+    },
+    "BreakdownByCountry": {
+      "name": "Breakdown By Country",
+      "definition": "Estimated cash flow by country."
+    },
+    "BreakdownByCurrency": {
+      "name": "Breakdown By Currency",
+      "definition": "Estimated cash flow by currency."
+    },
+    "BreakdownByUserDefinedParameter": {
+      "name": "Breakdown By User Defined Parameter",
+      "definition": "Estimated cash flow by a user defined parameter/s."
+    },
+    "EstimatedNetCashForecastDetails": {
+      "name": "Estimated Net Cash Forecast Details",
+      "definition": "Estimated net cash movements per financial instrument."
+    }
+  },
+  "isoRules": {
+    "ExceptionalCashFlowIndicatorRule": {
+      "definition": "If ExceptionalNetCashFlowIndicator is \"true\" or \"1\" (Yes), then at least one or more of the following must be present:|BreakdownByParty/CashInForecast/ExceptionalCashFlowIndicator, or|BreakdownByParty/CashOutForecast/ExceptionalCashFlowIndicator, or|BreakdownByCountry/CashInForecast/ExceptionalCashFlowIndicator, or|BreakdownByCountry/CashOutForecast/ExceptionalCashFlowIndicator, or|BreakdownByCurrency/CashInForecast/ExceptionalCashFlowIndicator, or|BreakdownByCurrency/CashOutForecast/ExceptionalCashFlowIndicator, or|BreakdownByUserDefinedParameter/CashInForecast/ExceptionalCashFlowIndicator, or|BreakdownByUserDefinedParameter/CashOutForecast/ExceptionalCashFlowIndicator."
+    }
+  }
+}

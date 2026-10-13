@@ -1,0 +1,47 @@
+{
+  "isoType": "SecuritiesAccountPositionResponseV01",
+  "language": "en",
+  "name": "Securities Account Position Response V 01",
+  "definition": "SCOPE|The SecuritiesAccountPositionResponse message is sent by a market infrastructure to an instructing party to report the securities positions for the given date period as requested in the query, for all securities across all accounts satisfying the query criteria.||USAGE|The message SecuritiesAccountPositionResponse will provide CSDs and T2S participants with a report corresponding to the SecuritiesAccountPositionQuery returning balances held in the list of specified securities accounts within the specified period satisfying the defined selection criteria. The Securities Account Position Response will provide the following business attributes:|-\tCSD |-\tAccount owner|-\tSecurities Account Number|-\tSecurities Identifier (e.g. ISIN)|-\tDate|-\tThe total position|-\tThe blocked position|-\tThe free position ||Unless otherwise specified by the sender in the Securities Balance Query, T2S will only return non-zero securities positions in the accounts.||The message may also be used to: ||- re-send a message previously sent (the sub-function of the message is Duplicate) ||- provide a third party with a copy of a message for information (the sub-function of the message is Copy) ||- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": ""
+    },
+    "Balances": {
+      "name": "Balances",
+      "definition": ""
+    },
+    "PartyBaseCurrencyTotalAmounts": {
+      "name": "Party Base Currency Total Amounts",
+      "definition": ""
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "BalancePresenceRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is TRUE (Yes), then Balances must be present. If ReportGeneralDetails/ActivityIndicator is FALSE (No), then Balances must be absent."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is TRUE (Yes) and ReportGeneralDetails/SubAccountIndicator is FALSE (NO), then Balances/BalanceForAccount must be present and Balances/SubAccountDetails must be absent."
+    },
+    "SubAccountReportingRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is TRUE (Yes) and ReportGeneralDetails/SubAccountIndicator is TRUE (YES), then Balances/SubAccountDetails must be present and Balances/BalanceForAccount must be absent."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "BusinessDayReportOrError10Choice",
+  "language": "en",
+  "name": "Business Day Report Or Error 10 Choice",
+  "definition": "Choice between business day information details or a business error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "BusinessDayInformation": {
+      "name": "Business Day Information",
+      "definition": "Requested system details for a specific business day."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "FundConfirmedCashForecastReport3",
+  "language": "en",
+  "name": "Fund Confirmed Cash Forecast Report 3",
+  "definition": "Information about a cash forecast report.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "name": "Fund Or Sub Fund Details",
+      "definition": "Information about the fund/sub fund when the report either specifies cash flow for the fund/sub fund or for a share class of the fund/sub fund."
+    },
+    "FundCashForecastDetails": {
+      "name": "Fund Cash Forecast Details",
+      "definition": "Information related to the cash-in and cash-out flows for a specific trade date as a result of investment fund transactions, for example, subscriptions, redemptions or switches to/from a specified investment fund."
+    },
+    "ConsolidatedNetCashForecast": {
+      "name": "Consolidated Net Cash Forecast",
+      "definition": "Estimated net cash as a result of the cash-in and cash-out flows."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "TradeDate1Rule": {
+      "definition": "If any occurrence of FundCashForecastDetails is present, then any occurrence of FundOrSubFundDetails/TradeDateTime is not allowed."
+    },
+    "PreviousTradeDate1Rule": {
+      "definition": "If any occurrence of FundCashForecastDetails is present, then any occurrence of FundOrSubFundDetails/PreviousTradeDateTime is not allowed."
+    },
+    "TradeDate2Rule": {
+      "definition": "If FundCashForecastDetails is not present, then at least one occurrence of FundOrSubFundDetails/TradeDateTime must be present."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "If ConsolidatedNetCashForecast is present, then at least one occurrence of either FundOrSubFundDetails or FundCashForecastDetails must be present. Both FundOrSubFundDetails and FundCashForecastDetails may be present."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "When using the message to provide cash in and cash out amounts for more than one fund/sub fund, and more than one share classes, (two or more FundOrSubFundDetails sequences and two or more FundCashForecastDetails sequences and used), in this usage there is no way to determine which share class belongs to which fund/sub fund from the message content itself, which may not be desirable and this type of usage should be bilaterally agreed."
+    }
+  }
+}

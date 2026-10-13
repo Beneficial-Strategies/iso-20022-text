@@ -1,0 +1,20 @@
+{
+  "isoType": "ReceiptV09",
+  "language": "en",
+  "name": "Receipt V 09",
+  "definition": "Scope|The Receipt message is sent by a message recipient to the message sender. It is sent to acknowledge the receipt of one or multiple messages sent previously.|The Receipt message is an application receipt acknowledgement and conveys information about the processing of the original message(s).|Usage|The Receipt message is used when the exchange of messages takes place in an asynchronous manner.|This may happen, for instance, when an action is requested from the message sender (a deletion, modification or cancellation). The message sender will first acknowledge the request (with a Receipt message) and then execute it.|The message can contain information based on the following elements: reference of the message(s) it acknowledges, the status code (optional) and further explanation:|- reference of the message it acknowledges|- potentially, a status code and status reason information.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "ReceiptDetails": {
+      "name": "Receipt Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

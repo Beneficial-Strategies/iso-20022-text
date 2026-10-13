@@ -1,0 +1,24 @@
+{
+  "isoType": "Traceability4",
+  "language": "en",
+  "name": "Traceability 4",
+  "definition": "Identification of partners involved in exchange from the ATM to the issuer, with the relative timestamp of their exchanges.",
+  "isoElements": {
+    "RelayIdentification": {
+      "name": "Relay Identification",
+      "definition": "Identification of a partner of a message exchange."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Identification of the relay node in the path, to enable identification of several hosts in parallel."
+    },
+    "TraceDateTimeIn": {
+      "name": "Trace Date Time In",
+      "definition": "Date and time of incoming data exchange for relaying or processing."
+    },
+    "TraceDateTimeOut": {
+      "name": "Trace Date Time Out",
+      "definition": "Date and time of the outgoing exchange for relaying or processing."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "UnableToApplyMissing2",
+  "language": "en",
+  "name": "Unable To Apply Missing 2",
+  "definition": "Specifies the details of missing information.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies which data type is mising in the transaction."
+    },
+    "AdditionalMissingInformation": {
+      "name": "Additional Missing Information",
+      "definition": "Further details about the missing information."
+    }
+  },
+  "isoRules": {
+    "AdditionalMissingInformationRule": {
+      "definition": "If Code is equal to NARR (Narrative), then AdditionalMissingInformation must be present."
+    }
+  }
+}

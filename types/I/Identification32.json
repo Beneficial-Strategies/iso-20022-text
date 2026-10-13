@@ -1,0 +1,68 @@
+{
+  "isoType": "Identification32",
+  "language": "en",
+  "name": "Identification 32",
+  "definition": "Unique identifier of a document, message or transaction.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "name": "Counterparty Market Infrastructure Transaction Identification",
+      "definition": "Identification of a counterparty transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner, the account servicer and the market infrastructure."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    },
+    "MasterIdentification": {
+      "name": "Master Identification",
+      "definition": "Unique and unambiguous identifier for a group of individual transfers as assigned by the instructing party. This identifier links the individual transfers together."
+    },
+    "BasketIdentification": {
+      "name": "Basket Identification",
+      "definition": "Identification of a basket trade."
+    },
+    "IndexIdentification": {
+      "name": "Index Identification",
+      "definition": "Reference identifying an index trade."
+    },
+    "ListIdentification": {
+      "name": "List Identification",
+      "definition": "Unique identifier for a list, as assigned by the trading party. The identifier must be unique within a single trading day."
+    },
+    "ProgramIdentification": {
+      "name": "Program Identification",
+      "definition": "Program reference which identifies a program trade."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    }
+  }
+}

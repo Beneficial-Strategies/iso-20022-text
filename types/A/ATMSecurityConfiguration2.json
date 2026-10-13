@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMSecurityConfiguration2",
+  "language": "en",
+  "name": "ATM Security Configuration 2",
+  "definition": "Configuration of the cryptographic keys.",
+  "isoElements": {
+    "MaximumSymmetricKey": {
+      "name": "Maximum Symmetric Key",
+      "definition": "Maximum number of symmetric keys the security module is able to manage."
+    },
+    "MaximumAsymmetricKey": {
+      "name": "Maximum Asymmetric Key",
+      "definition": "Maximum number of asymmetric keys the security module is able to manage."
+    },
+    "MaximumRSAKeyLength": {
+      "name": "Maximum RSA Key Length",
+      "definition": "Maximum RSA key length (in number of bytes), the security module is able to manage."
+    },
+    "MaximumRootKeyLength": {
+      "name": "Maximum Root Key Length",
+      "definition": "Maximum RSA root key length (in number of bytes), the security module is able to manage, if different from the maximum RSA key length."
+    }
+  }
+}

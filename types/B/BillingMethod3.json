@@ -1,0 +1,16 @@
+{
+  "isoType": "BillingMethod3",
+  "language": "en",
+  "name": "Billing Method 3",
+  "definition": "Provides the details for the tax calculation method D.",
+  "isoElements": {
+    "ServiceTaxPriceAmount": {
+      "name": "Service Tax Price Amount",
+      "definition": "Equivalent amount to the service tax host amount but allows the sender to optionally express the value in the pricing currency."
+    },
+    "TaxIdentification": {
+      "name": "Tax Identification",
+      "definition": "Provides for the specific tax identification within the same tax region. ||Usage: This element allows for a maximum of three regional taxes on the same service."
+    }
+  }
+}

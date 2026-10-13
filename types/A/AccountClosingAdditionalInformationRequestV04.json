@@ -1,0 +1,44 @@
+{
+  "isoType": "AccountClosingAdditionalInformationRequestV04",
+  "language": "en",
+  "name": "Account Closing Additional Information Request V 04",
+  "definition": "The AccountClosingAdditionalInformationRequest message is sent from a financial institution to an organisation as part of the account closing process. This message is sent in response to a closing request message from the organisation, if the business content is valid, but additional information is required.",
+  "isoElements": {
+    "References": {
+      "name": "References",
+      "definition": ""
+    },
+    "From": {
+      "name": "From",
+      "definition": ""
+    },
+    "OrganisationIdentification": {
+      "name": "Organisation Identification",
+      "definition": ""
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": ""
+    },
+    "AccountServicerIdentification": {
+      "name": "Account Servicer Identification",
+      "definition": ""
+    },
+    "BalanceTransferAccount": {
+      "name": "Balance Transfer Account",
+      "definition": ""
+    },
+    "TransferAccountServicerIdentification": {
+      "name": "Transfer Account Servicer Identification",
+      "definition": ""
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

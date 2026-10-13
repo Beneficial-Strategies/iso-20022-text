@@ -1,0 +1,28 @@
+{
+  "isoType": "ExternalDiscountAmountType1Code",
+  "language": "en",
+  "name": "External Discount Amount Type 1 Code",
+  "definition": "Specifies the nature, or use, of the amount in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "APDS": {
+      "isoName": "AdditionalPromotionalDiscount",
+      "name": "Additional Promotional Discount",
+      "definition": "Addition discount based on third-party agreed business promotional activity, i.e., extra 10 percent discount for 15 days)"
+    },
+    "STDS": {
+      "isoName": "StandingDiscount",
+      "name": "Standing Discount",
+      "definition": "Discount based on volume purchased."
+    },
+    "TMDS": {
+      "isoName": "TermsDiscount",
+      "name": "Terms Discount",
+      "definition": "Discount based on terms negotiated for payment within a specified time period, i.e., 2/10 Net 30 (2 percent discount if paid in 10 days; otherwise, net amount is due in 30 days)."
+    },
+    "DISC": {
+      "isoName": "DiscountApplied",
+      "name": "Discount Applied",
+      "definition": "Discount Applied. Generic usage if cannot be specified by any other discount code."
+    }
+  }
+}

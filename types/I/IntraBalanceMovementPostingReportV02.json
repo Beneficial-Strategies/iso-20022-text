@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalanceMovementPostingReportV02",
+  "language": "en",
+  "name": "Intra Balance Movement Posting Report V 02",
+  "definition": "This IntraBalanceMovementPostingReport message is sent from a settlement infrastructure to an account owner/requestor to report the intra-balance movement instructions, previously sent by the account owner, that have a settled status.||The message may also be used to: |-\t- re-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |-\t- provide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |-\t- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": ""
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": ""
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": ""
+    },
+    "SubBalance": {
+      "name": "Sub Balance",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ActivityIndicator is equal to Yes (true or 1) then SubBalances must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ActivityIndicator is equal to No (false or 0) then SubBalances must be absent."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "isoType": "ServiceTaxDesignation1",
+  "language": "en",
+  "name": "Service Tax Designation 1",
+  "definition": "Designates the tax calculation to be applied on a service.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Identifies the taxable status of the service."
+    },
+    "Region": {
+      "name": "Region",
+      "definition": "Defines the tax region associated with the service. This element must be present if taxes are involved with any portion of the statement."
+    },
+    "TaxReason": {
+      "name": "Tax Reason",
+      "definition": "Provides free form explanations of the various tax codes used within the statement."
+    }
+  },
+  "isoRules": {
+    "RegionPresenceRule": {
+      "definition": "If Region is present, then Code must be equal to ZeroRate or Taxable."
+    }
+  }
+}

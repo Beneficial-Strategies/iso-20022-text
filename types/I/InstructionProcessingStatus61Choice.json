@@ -1,0 +1,40 @@
+{
+  "isoType": "InstructionProcessingStatus61Choice",
+  "language": "en",
+  "name": "Instruction Processing Status 61 Choice",
+  "definition": "Choice of formats for an instruction processing status.",
+  "isoElements": {
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Instruction has been acknowledged by the account servicer, but processing of the instruction is pending."
+    },
+    "CancellationRequested": {
+      "name": "Cancellation Requested",
+      "definition": "Cancellation request from your counterparty for this transaction is pending waiting for your cancellation request."
+    },
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "Generated": {
+      "name": "Generated",
+      "definition": "Transaction was created by the account servicer or a third party. It was not instructed directly by the account owner."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction has been acknowledged by the account servicer but is in repair."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Cancellation request from yourself for this instruction is pending waiting for further processing."
+    },
+    "ModificationRequested": {
+      "name": "Modification Requested",
+      "definition": "Modification request from your counterparty for this transaction is pending waiting for your cancellation request or your consent."
+    }
+  }
+}

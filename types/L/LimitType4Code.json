@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitType4Code",
+  "language": "en",
+  "name": "Limit Type 4 Code",
+  "definition": "Specifies the type of risk management limit.",
+  "isoCodes": {
+    "EXGT": {
+      "isoName": "ExternalGuarantee",
+      "name": "External Guarantee",
+      "definition": "Limit is related to a cap amount granted by a national central bank or a settlement bank."
+    },
+    "UCDT": {
+      "isoName": "UnsecuredCredit",
+      "name": "Unsecured Credit",
+      "definition": "Limit is related to a cap amount granted by a national central bank or a settlement bank, but generally unsecured outside of the market infrastructure."
+    },
+    "ACOL": {
+      "isoName": "AutoCollateralisation",
+      "name": "Auto Collateralisation",
+      "definition": "Limit is related to a credit operation that is or can be triggered when a buyer does not have a sufficient amount of money to settle a securities transaction in order to improve its cash position for the next settlement cycle. The credit provided can be secured using securities already held by the buyer (“collateral stocks”) or the securities that are being purchased (“collateral flows”)."
+    }
+  }
+}

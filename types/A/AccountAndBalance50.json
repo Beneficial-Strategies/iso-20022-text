@@ -1,0 +1,31 @@
+{
+  "isoType": "AccountAndBalance50",
+  "language": "en",
+  "name": "Account And Balance 50",
+  "definition": "Provides account and balance information.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "ConfirmedBalance": {
+      "name": "Confirmed Balance",
+      "definition": "Balance to which the payment applies (less or equal to the total eligible balance)."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present then SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "If SafekeepingAccount is present, then BlockChainAddressOrWallet must be absent."
+    }
+  }
+}

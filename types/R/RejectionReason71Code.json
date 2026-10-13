@@ -1,0 +1,53 @@
+{
+  "isoType": "RejectionReason71Code",
+  "language": "en",
+  "name": "Rejection Reason 71 Code",
+  "definition": "Specifies the reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "NRGM": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "More than one instruction match the criteria."
+    },
+    "NRGN": {
+      "isoName": "NotFoundRejection",
+      "name": "Not Found Rejection",
+      "definition": "Instruction could not be found."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "INVM": {
+      "isoName": "InvalidModificationRequest",
+      "name": "Invalid Modification Request",
+      "definition": "Invalid or unrecognized modification request."
+    },
+    "INVL": {
+      "isoName": "InvalidLink",
+      "name": "Invalid Link",
+      "definition": "Invalid or unrecognized link."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "SecuritiesBalanceType7Code",
+  "language": "en",
+  "name": "Securities Balance Type 7 Code",
+  "definition": "Specifies the nature of the securities or investment fund balance.",
+  "isoCodes": {
+    "COLA": {
+      "isoName": "EligibleForCollateralPurposes",
+      "name": "Eligible For Collateral Purposes",
+      "definition": "Balance of securities that are eligible for use for collateral purposes."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Other. See Narrative."
+    },
+    "CLEN": {
+      "isoName": "TaxExempt",
+      "name": "Tax Exempt",
+      "definition": "Tax-exempt financial instruments are to be settled."
+    },
+    "DIRT": {
+      "isoName": "NonTaxExempt",
+      "name": "Non Tax Exempt",
+      "definition": "Taxable financial instruments are to be settled."
+    },
+    "NOMI": {
+      "isoName": "Registered",
+      "name": "Registered",
+      "definition": "Balance of financial instruments that are registered (in nominee name or in the name of the beneficial owner)."
+    },
+    "SPOS": {
+      "isoName": "StreetPosition",
+      "name": "Street Position",
+      "definition": "Balance of financial instruments that remain registered in the name of the prior beneficial owner."
+    },
+    "UNRG": {
+      "isoName": "Unregistered",
+      "name": "Unregistered",
+      "definition": "Balance of securities that could not be registered due to foreign ownership limitation."
+    },
+    "ISSU": {
+      "isoName": "Issued",
+      "name": "Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has been received."
+    },
+    "QUAS": {
+      "isoName": "QuasiIssued",
+      "name": "Quasi Issued",
+      "definition": "In issuer agent / depository communication, balance of issued financial instruments for which legal documentation has not yet been received."
+    }
+  }
+}

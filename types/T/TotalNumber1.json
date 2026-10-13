@@ -1,0 +1,24 @@
+{
+  "isoType": "TotalNumber1",
+  "language": "en",
+  "name": "Total Number 1",
+  "definition": "Settlement transaction numbering information.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "name": "Current Instruction Number",
+      "definition": "Sequential number of the instruction in a range of linked settlement instructions."
+    },
+    "TotalOfLinkedInstructions": {
+      "name": "Total Of Linked Instructions",
+      "definition": "Total number of settlement instructions that are linked together."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "If the Sender wants to indicate that this instruction is linked to one or more settlement instruction, then the CurrentInstructionNumber must be specified."
+    },
+    "BlockTradeGuideline": {
+      "definition": "In a block trade instruction, the total number of children must be provided using TotalOfLinkedInstructions.|The CurrentInstructionNumber of the parent must be 000. The children must have an incremental CurrentInstructionNumber from 001 to 999.|For more details, see the relevant market practice document on www.smpg.info."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "isoType": "Rate51",
+  "language": "en",
+  "name": "Rate 51",
+  "definition": "Provides information about the rates related to securities movement.",
+  "isoElements": {
+    "AdditionalTax": {
+      "name": "Additional Tax",
+      "definition": "Rate used for additional tax that cannot be categorised."
+    },
+    "ChargesFees": {
+      "name": "Charges Fees",
+      "definition": "Rate used to calculate the amount of the charges/fees that cannot be categorised."
+    },
+    "FiscalStamp": {
+      "name": "Fiscal Stamp",
+      "definition": "Percentage of fiscal tax to apply."
+    },
+    "GrossDistributionRate": {
+      "name": "Gross Distribution Rate",
+      "definition": "Distribution rate before tax has been deducted."
+    },
+    "EarlySolicitationFeeRate": {
+      "name": "Early Solicitation Fee Rate",
+      "definition": "Cash rate made available, as an incentive, in addition to the solicitation fee, in order to encourage early participation in an offer."
+    },
+    "ThirdPartyIncentiveRate": {
+      "name": "Third Party Incentive Rate",
+      "definition": "Cash rate made available in an event in order to encourage participation in the offer. As information, Payment is made to a third party who has solicited an entity to take part in the offer."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "name": "Gross Interest Rate Used For Payment",
+      "definition": "Actual interest rate before tax used for the payment of the interest for the specified interest period."
+    },
+    "NetDistributionRate": {
+      "name": "Net Distribution Rate",
+      "definition": "Distribution rate after tax has been deducted."
+    },
+    "ApplicableRate": {
+      "name": "Applicable Rate",
+      "definition": "Rate applicable to the event announced, for example, redemption rate for a redemption event."
+    },
+    "SolicitationFeeRate": {
+      "name": "Solicitation Fee Rate",
+      "definition": "Rate of the cash premium made available if the securities holder consents or participates to an event, for example consent fees or solicitation fee."
+    },
+    "TaxCreditRate": {
+      "name": "Tax Credit Rate",
+      "definition": "Amount of money per equity allocated as the result of a tax credit."
+    },
+    "WithholdingTaxRate": {
+      "name": "Withholding Tax Rate",
+      "definition": "Percentage of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "SecondLevelTax": {
+      "name": "Second Level Tax",
+      "definition": "Rate at which the income will be withheld by a jurisdiction other than the jurisdiction of the issuer’s country of tax incorporation, for which a relief at source and/or reclaim may be possible. It is levied in complement or offset of the withholding tax rate (TAXR) levied by the jurisdiction of the issuer’s tax domicile."
+    },
+    "TaxOnIncome": {
+      "name": "Tax On Income",
+      "definition": "Taxation applied on an amount clearly identified as an income."
+    },
+    "TaxOnProfits": {
+      "name": "Tax On Profits",
+      "definition": "Taxation applied on an amount clearly identified as capital profits, capital gains."
+    },
+    "TaxReclaimRate": {
+      "name": "Tax Reclaim Rate",
+      "definition": "Percentage of cash that was paid in excess of actual tax obligation and was reclaimed."
+    },
+    "EqualisationRate": {
+      "name": "Equalisation Rate",
+      "definition": "Portion of the fund distribution which represents the average accrued income included in the purchase price for units bought during the account period."
+    },
+    "DeemedRate": {
+      "name": "Deemed Rate",
+      "definition": "Rate applied for the calculation of deemed proceeds which are not paid to security holders but on which withholding tax is applicable."
+    }
+  },
+  "isoRules": {
+    "GrossDistributionRate2Rule": {
+      "definition": "If GrossDistributionRate is repeated, then:|- RateTypeAndAmountAndRateStatus/RateType/Code values must all be different in each occurrence of GrossDistributionRate. (MT 566 NVR C4 )."
+    },
+    "NetDistributionRate1Rule": {
+      "definition": "If NetDistributionRate is repeated, then:|- RateTypeAndAmountAndRateStatus/RateType/Code values must all be different in each occurrence of NetDistributionRate. (MT 566 NVR C4 )."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Only a single occurrence of either GrossDistributionRate/Amount or GrossDistributionRate/AmountAndRateStatus may be present. Both elements may not be present together. (MT 566 NVR C3)."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Only a single occurrence of either NetDistributionRate/Amount may be present. Both elements may not be present together. (MT 566 NVR C3)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "If at least one occurrence of SecondLevelTax is present, then at least one occurrence of WithholdingTaxRate must be present. (MT 566 NVR C8)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "If SecondLevelTax is repeated, then SecondLevelTax/RateTypeAndRate/RateType/Code values must all be different in each occurrence of SecondLevelTax. |(MT 566 NVR C4)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Only a single occurrence of either SecondLevelTax/Amount or SecondLevelTax/Rate or SecondLevelTax/NotSpecifiedRate may be present, only one of these elements may be present. |(MT 566 NVR C3)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "If WithholdingTaxRate is repeated, then WithholdingTaxRate/RateTypeAndRate/RateType/Code values must all be different in each occurrence of WithholdingTaxRate. |(MT 566 NVR C4)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Only a single occurrence of either WithholdingTaxRate/Amount or WithholdingTaxRate/Rate or WithholdingTaxRate/NotSpecifiedRate may be present, only one of these elements may be present. |(MT 566 NVR C3)."
+    },
+    "DeemedRate1Rule": {
+      "definition": "If DeemedRate is repeated, then DeemedRate/RateTypeAndAmountAndRateStatus/RateType/Code values and DeemedRate/RateTypeAndRate/RateType/Code values must all be different in each occurrence of DeemedRate. |(MT 566 NVR C4)."
+    },
+    "DeemedRate2Rule": {
+      "definition": "Only a single occurrence of either DeemedRate/Amount or DeemedRate/Rate may be present, only one of those elements may be present. |(MT 566 NVR C3)."
+    }
+  }
+}

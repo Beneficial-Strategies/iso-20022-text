@@ -1,0 +1,40 @@
+{
+  "isoType": "InvestmentFundTransactionsByFund2",
+  "language": "en",
+  "name": "Investment Fund Transactions By Fund 2",
+  "definition": "Investment fund transactions for a specific financial instrument.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a security by an ISIN."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the financial instrument in free format text."
+    },
+    "SupplementaryIdentification": {
+      "name": "Supplementary Identification",
+      "definition": "Additional information about a financial instrument to help identify the instrument."
+    },
+    "SecuritiesForm": {
+      "name": "Securities Form",
+      "definition": "Form, ie, ownership, of the security, eg, registered or bearer."
+    },
+    "ClassType": {
+      "name": "Class Type",
+      "definition": "Features of units offered by a fund. For example, a unit may have a specific load structure, eg, front end or back end, an income policy, eg, pay out or accumulate, or a trailer policy, eg, with or without. Fund classes are typically denoted by a single character, eg, 'Class A', 'Class 2'."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to a class type, ie, if income is paid out or retained in the fund."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Process of buying, selling, switching or transferring fund units."
+    },
+    "BalanceByPage": {
+      "name": "Balance By Page",
+      "definition": "Balance of the financial instrument for this specific statement page."
+    }
+  }
+}

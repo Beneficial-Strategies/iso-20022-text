@@ -1,0 +1,20 @@
+{
+  "isoType": "MessageReference1",
+  "language": "en",
+  "name": "Message Reference 1",
+  "definition": "Business reference(s) to one or more relevant messages previously sent by other parties, or by the same party issuing this message.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Unambiguous reference to a previous message having a business relevance with this message."
+    },
+    "MessageName": {
+      "name": "Message Name",
+      "definition": "Name of the message which contained the given additional reference as its message reference."
+    },
+    "ReferenceIssuer": {
+      "name": "Reference Issuer",
+      "definition": "Party that initially assigned the given additional reference."
+    }
+  }
+}

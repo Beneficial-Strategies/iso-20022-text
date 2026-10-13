@@ -1,0 +1,56 @@
+{
+  "isoType": "DetailedInstructionStatus22",
+  "language": "en",
+  "name": "Detailed Instruction Status 22",
+  "definition": "Information about a meeting instruction vote.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "name": "Single Instruction Identification",
+      "definition": "Identification of the specific individual instruction from the original meeting instruction message for which the confirmation is provided."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the safekeeping account."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SubAccountIdentification": {
+      "name": "Sub Account Identification",
+      "definition": "Identification of the subaccount within the safekeeping account."
+    },
+    "RightsHolder": {
+      "name": "Rights Holder",
+      "definition": "Owner of the voting rights."
+    },
+    "Proxy": {
+      "name": "Proxy",
+      "definition": "Identification of the person appointed by the security holder as the proxy."
+    },
+    "StandingInstruction": {
+      "name": "Standing Instruction",
+      "definition": "Indicates whether standing instructions have been applied or not."
+    },
+    "ModalityOfCounting": {
+      "name": "Modality Of Counting",
+      "definition": "Modality through which the votes that have been recorded and counted were received by the issuer, including whether this is ahead of the meeting or at the meeting."
+    },
+    "VoteReceiptDateTime": {
+      "name": "Vote Receipt Date Time",
+      "definition": "Date or date and time at which the votes that have been recorded and counted were received."
+    },
+    "VotePerResolution": {
+      "name": "Vote Per Resolution",
+      "definition": "Details of the vote."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "It is recommended that RightsHolder is only present more than once if there is joint ownership."
+    },
+    "SubAccount1Rule": {
+      "definition": "If SubAccountIdentification is present, then AccountIdentification must be present."
+    }
+  }
+}

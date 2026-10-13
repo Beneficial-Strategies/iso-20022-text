@@ -1,0 +1,33 @@
+{
+  "isoType": "DateType10Code",
+  "language": "en",
+  "name": "Date Type 10 Code",
+  "definition": "Date is specified as a fixed code value.",
+  "isoCodes": {
+    "MEET": {
+      "isoName": "BlockingTillMeetingDate",
+      "name": "Blocking Till Meeting Date",
+      "definition": "Blocking occurs until and inclusive of the meeting date."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Date is unknown by the sender or has not been established."
+    },
+    "NARR": {
+      "isoName": "NarrativeUnblockingDate",
+      "name": "Narrative Unblocking Date",
+      "definition": "Refer to additional information element for the date until when the securities are blocked."
+    },
+    "RDTE": {
+      "isoName": "BlockingTillRecordDate",
+      "name": "Blocking Till Record Date",
+      "definition": "Blocking occurs until and inclusive of the record date of the event."
+    },
+    "PPYD": {
+      "isoName": "BlockingTillPremiumPaymentDate",
+      "name": "Blocking Till Premium Payment Date",
+      "definition": "Unblocking will occur on payment date of the premium."
+    }
+  }
+}

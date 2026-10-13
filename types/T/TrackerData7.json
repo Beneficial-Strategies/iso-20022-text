@@ -1,0 +1,20 @@
+{
+  "isoType": "TrackerData7",
+  "language": "en",
+  "name": "Tracker Data 7",
+  "definition": "Specifies the detailed information as provided by a payment tracking system.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "name": "Confirmed Date",
+      "definition": "Point in time when an update to the tracking system has been confirmed. ||Usage: |This date can be the point in time when an agent provides a pending status update to the tracking system or when the creditor has been credited and can use the amount of money (as confirmed to the tracking system by the creditor agent)."
+    },
+    "ConfirmedAmount": {
+      "name": "Confirmed Amount",
+      "definition": "Amount of money confirmed to the tracking system by the agent."
+    },
+    "TrackerRecord": {
+      "name": "Tracker Record",
+      "definition": "Provides tracker transaction information for a specific agent involved in the transaction chain."
+    }
+  }
+}

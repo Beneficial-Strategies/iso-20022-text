@@ -1,0 +1,28 @@
+{
+  "isoType": "BusinessDaySearchCriteria2",
+  "language": "en",
+  "name": "Business Day Search Criteria 2",
+  "definition": "Defines the criteria used to search for system business day information.",
+  "isoElements": {
+    "SystemDate": {
+      "name": "System Date",
+      "definition": "Date for which the availability information is provided."
+    },
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Unique and unambiguous identification of the system, as assigned by the system administrator."
+    },
+    "SystemCurrency": {
+      "name": "System Currency",
+      "definition": "Currency which may be processed by the system. A system may process transactions in a single currency or in multiple currencies."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Nature of the event that has occurred."
+    },
+    "ClosurePeriod": {
+      "name": "Closure Period",
+      "definition": "Period of time when the system is closed/not operating."
+    }
+  }
+}

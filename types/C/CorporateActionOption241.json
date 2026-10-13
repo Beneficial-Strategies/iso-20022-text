@@ -1,0 +1,91 @@
+{
+  "isoType": "CorporateActionOption241",
+  "language": "en",
+  "name": "Corporate Action Option 241",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Specifies the features that may apply to a corporate action option."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account on which a securities entry is made."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Location where the financial instruments are/will be safekept."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identifies the financial instrument."
+    },
+    "TotalEligibleBalance": {
+      "name": "Total Eligible Balance",
+      "definition": "Total balance of securities eligible for this corporate action event. The entitlement calculation is based on this balance."
+    },
+    "InstructedBalance": {
+      "name": "Instructed Balance",
+      "definition": "Balance of instructed position."
+    },
+    "UninstructedBalance": {
+      "name": "Uninstructed Balance",
+      "definition": "Balance of uninstructed position."
+    },
+    "ProtectBalance": {
+      "name": "Protect Balance",
+      "definition": "Balance of securities which are in protect status in a CSD operating a protect cover service."
+    },
+    "StatusQuantity": {
+      "name": "Status Quantity",
+      "definition": "Quantity of securities that has been assigned the status indicated."
+    },
+    "StatusCashAmount": {
+      "name": "Status Cash Amount",
+      "definition": "Amount of cash subscribed that has been assigned the status indicated."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "For differentiation between options, the OptionNumber rather than the OptionType must be used, for example, in the case where two or more offers can be described by the same corporate action option code. Therefore, the OptionNumber value must be different for each option."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "SafekeepingPlace must only be used by global custodians that allow their clients to specify where the securities are to be held, for example, in an ICSD account versus an account at the local CSD."
+    },
+    "StatusQuantityOrStatusCashAmount1Rule": {
+      "definition": "If StatusQuantity is present, then StatusCashAmount is not allowed. (MT 567 C5)."
+    },
+    "StatusQuantityOrStatusCashAmount2Rule": {
+      "definition": "If StatusCashAmount is present, then StatusQuantity is not allowed. (MT 567 C5)."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

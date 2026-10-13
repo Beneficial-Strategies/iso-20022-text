@@ -1,0 +1,28 @@
+{
+  "isoType": "CardDataReading4Code",
+  "language": "en",
+  "name": "Card Data Reading 4 Code",
+  "definition": "Capabilities of the ATM terminal performing the transaction.",
+  "isoCodes": {
+    "ECTL": {
+      "isoName": "EMVProximityReader",
+      "name": "EMV Proximity Reader",
+      "definition": "Contactless proximity reader, with application conform to the standard EMV (standard initiated by Europay, Mastercard and Visa)."
+    },
+    "CICC": {
+      "isoName": "ICC",
+      "name": "ICC",
+      "definition": "ICC (Integrated Circuit Card) with contact containing software applications conform to ISO 7816."
+    },
+    "MGST": {
+      "isoName": "MagneticStripe",
+      "name": "Magnetic Stripe",
+      "definition": "Magnetic stripe."
+    },
+    "CTLS": {
+      "isoName": "ProximityReader",
+      "name": "Proximity Reader",
+      "definition": "Contactless proximity reader."
+    }
+  }
+}

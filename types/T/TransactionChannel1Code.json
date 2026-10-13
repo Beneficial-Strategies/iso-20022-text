@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionChannel1Code",
+  "language": "en",
+  "name": "Transaction Channel 1 Code",
+  "definition": "Identifies the type of the communication channels used by the cardholder to the acceptor system.",
+  "isoCodes": {
+    "MAIL": {
+      "isoName": "MailOrder",
+      "name": "Mail Order",
+      "definition": "Mail order."
+    },
+    "TLPH": {
+      "isoName": "TelephoneOrder",
+      "name": "Telephone Order",
+      "definition": "Telephone order."
+    },
+    "ECOM": {
+      "isoName": "ElectronicCommerce",
+      "name": "Electronic Commerce",
+      "definition": "Electronic commerce."
+    },
+    "TVPY": {
+      "isoName": "TelevisionPayment",
+      "name": "Television Payment",
+      "definition": "Payment on television."
+    }
+  }
+}

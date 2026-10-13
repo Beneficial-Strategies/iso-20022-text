@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalanceMovementModificationRequestStatusAdviceV02",
+  "language": "en",
+  "name": "Intra Balance Movement Modification Request Status Advice V 02",
+  "definition": "The IntraBalanceMovementModificationRequestStatusAdvice message is sent from a settlement infrastructure to an account owner/requestor to advise the status of an intra-balance movement modification request previously sent by the account owner/requestor.||Usage: |The message may be used to: |- re-send a message previously sent (the sub-function of the message is \"Duplicate\")|- provide a third party with a copy of a message for information (the sub-function of the message is \"Copy\")|- re-send to a third party a copy of a message for information (the sub-function of the message is \"CopyDuplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "RequestReference": {
+      "name": "Request Reference",
+      "definition": "Reference of the original intra-balance movement modification request."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": ""
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": ""
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": ""
+    },
+    "RequestDetails": {
+      "name": "Request Details",
+      "definition": ""
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": ""
+    },
+    "UnderlyingIntraBalance": {
+      "name": "Underlying Intra Balance",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

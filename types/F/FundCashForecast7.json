@@ -1,0 +1,85 @@
+{
+  "isoType": "FundCashForecast7",
+  "language": "en",
+  "name": "Fund Cash Forecast 7",
+  "definition": "Cash movements from or to a fund as a result of investment funds transactions, eg, subscriptions or redemptions.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique technical identifier for an instance of a fund cash forecast within a fund cash forecast report as assigned by the issuer of the report."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and, if required, the time, at which the price has been applied."
+    },
+    "PreviousTradeDateTime": {
+      "name": "Previous Trade Date Time",
+      "definition": "Previous date and time at which the price was applied."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which a cash flow is related."
+    },
+    "TotalNAV": {
+      "name": "Total NAV",
+      "definition": "Total value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "PreviousTotalNAV": {
+      "name": "Previous Total NAV",
+      "definition": "Previous value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "TotalUnitsNumber": {
+      "name": "Total Units Number",
+      "definition": "Total number of investment fund class units that have been issued."
+    },
+    "PreviousTotalUnitsNumber": {
+      "name": "Previous Total Units Number",
+      "definition": "Previous total number of investment fund class units that have been issued."
+    },
+    "TotalNAVChangeRate": {
+      "name": "Total NAV Change Rate",
+      "definition": "Rate of change of the net asset value."
+    },
+    "InvestmentCurrency": {
+      "name": "Investment Currency",
+      "definition": "Currency of the investment fund class."
+    },
+    "CurrencyStatus": {
+      "name": "Currency Status",
+      "definition": "Information about the designation of the share class currency, that is, whether it is for onshore or offshore purposes and other information that may be required. This is typically only required for CNY funds."
+    },
+    "ExceptionalNetCashFlowIndicator": {
+      "name": "Exceptional Net Cash Flow Indicator",
+      "definition": "Indicates whether the net cash flow is exceptional."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price per unit of the trade date."
+    },
+    "ForeignExchangeRate": {
+      "name": "Foreign Exchange Rate",
+      "definition": "Foreign exchange rate."
+    },
+    "PercentageOfShareClassTotalNAV": {
+      "name": "Percentage Of Share Class Total NAV",
+      "definition": "Net cash flow expressed as a percentage of the total NAV for the share class."
+    },
+    "CashInForecastDetails": {
+      "name": "Cash In Forecast Details",
+      "definition": "Cash movements into the fund as a result of transactions in shares in an investment fund, for example, subscriptions or switch-ins."
+    },
+    "CashOutForecastDetails": {
+      "name": "Cash Out Forecast Details",
+      "definition": "Cash movements out of the fund as a result of transactions in shares in an investment fund, for example, redemptions or switch-outs."
+    },
+    "NetCashForecastDetails": {
+      "name": "Net Cash Forecast Details",
+      "definition": "Net cash as a result of the cash-in and cash-out flows."
+    }
+  },
+  "isoRules": {
+    "ExceptionalCashFlowIndicatorRule": {
+      "definition": "If Exceptional NetCashFlow Indicator is \"true\" or \"1\" (Yes), then CashInForecastDetails/ExceptionalCashFlowIndicator and CashOutForecastDetails/ ExceptionalCashFlowIndicator must be present."
+    }
+  }
+}

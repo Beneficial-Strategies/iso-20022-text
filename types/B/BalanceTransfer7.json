@@ -1,0 +1,20 @@
+{
+  "isoType": "BalanceTransfer7",
+  "language": "en",
+  "name": "Balance Transfer 7",
+  "definition": "Information that enables any payments made in connection with the fulfilment of an account switch to be reconciled by the relevant account servicer with the associated request.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "name": "Balance Transfer Reference",
+      "definition": "Reference that enables the creditor to reconcile a payment received through a different payment channel with the payment request."
+    },
+    "BalanceTransferMethod": {
+      "name": "Balance Transfer Method",
+      "definition": "Contains details of the clearance and settlement method chosen to make the appropriate payment from account servicer to account servicer in order to transfer the positive or negative closing balance of the old account to the new account."
+    },
+    "BalanceTransferFundingLimit": {
+      "name": "Balance Transfer Funding Limit",
+      "definition": "Maximum value that the new account servicer will pay to the old account servicer when the closing balance on the old account is negative."
+    }
+  }
+}

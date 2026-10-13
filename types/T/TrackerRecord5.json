@@ -1,0 +1,24 @@
+{
+  "isoType": "TrackerRecord5",
+  "language": "en",
+  "name": "Tracker Record 5",
+  "definition": "Specifies the agent specific tracking system information of a payment transaction.",
+  "isoElements": {
+    "Agent": {
+      "name": "Agent",
+      "definition": "Identification of an agent in the tracker."
+    },
+    "ChargeBearer": {
+      "name": "Charge Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "ChargesAmount": {
+      "name": "Charges Amount",
+      "definition": "Transaction charges to be paid by the charge bearer."
+    },
+    "ExchangeRateData": {
+      "name": "Exchange Rate Data",
+      "definition": "Provides details of the rate and the currencies used in the foreign exchange."
+    }
+  }
+}

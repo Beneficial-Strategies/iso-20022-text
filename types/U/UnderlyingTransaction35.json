@@ -1,0 +1,31 @@
+{
+  "isoType": "UnderlyingTransaction35",
+  "language": "en",
+  "name": "Underlying Transaction 35",
+  "definition": "Identifies the underlying (group of) transaction(s) to which the resolution of investigation applies.",
+  "isoElements": {
+    "OriginalGroupInformationAndStatus": {
+      "name": "Original Group Information And Status",
+      "definition": "Provides information on the original cancellation message, to which the resolution refers."
+    },
+    "OriginalPaymentInformationAndStatus": {
+      "name": "Original Payment Information And Status",
+      "definition": "Provides information on the original (group of) transactions, to which the cancellation status refers."
+    },
+    "TransactionInformationAndStatus": {
+      "name": "Transaction Information And Status",
+      "definition": "Provides details on the original transactions to which the cancellation request message refers."
+    }
+  },
+  "isoRules": {
+    "GroupOrPaymentInformationResolvedCaseRule": {
+      "definition": "ResolvedCase may be present at either ResolvedCase, OriginalGroupInformationAndStatus level, OriginalPaymentInformationAndStatus or TransactionInformationAndStatus level."
+    },
+    "GroupOrInitiationTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase may be present at either ResolvedCase, OriginalGroupInformationAndStatus level, OriginalPaymentInformationAndStatus or TransactionInformationAndStatus level."
+    },
+    "GroupOrInterbankTransactionResolvedCaseRule": {
+      "definition": "ResolvedCase may be present at either ResolvedCase, OriginalGroupInformationAndStatus level, OriginalPaymentInformationAndStatus or TransactionInformationAndStatus level."
+    }
+  }
+}

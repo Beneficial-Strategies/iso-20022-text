@@ -1,0 +1,143 @@
+{
+  "isoType": "SettlementTransactionCondition16Code",
+  "language": "en",
+  "name": "Settlement Transaction Condition 16 Code",
+  "definition": "Specifies the conditions under which the order/trade is to be settled.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AcceptAfterRegularSettlementDeadline",
+      "name": "Accept After Regular Settlement Deadline",
+      "definition": "Settlement is on a bilaterally accepted transaction that is to be accepted beyond the regular settlement deadline."
+    },
+    "ASGN": {
+      "isoName": "Assignement",
+      "name": "Assignement",
+      "definition": "Transfer of ownership of the asset to another party during the closing of an option."
+    },
+    "BUTC": {
+      "isoName": "BuytoCover",
+      "name": "Buyto Cover",
+      "definition": "Transaction is a buy to cover."
+    },
+    "CLEN": {
+      "isoName": "Clean",
+      "name": "Clean",
+      "definition": "Tax-exempt financial instruments are to be settled."
+    },
+    "DLWM": {
+      "isoName": "DeliveryWithoutMatching",
+      "name": "Delivery Without Matching",
+      "definition": "Matching receipt instruction not required (only for concerned international or national central securities depositories)."
+    },
+    "DIRT": {
+      "isoName": "Dirty",
+      "name": "Dirty",
+      "definition": "Taxable financial instruments are to be settled."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Settlement transactions relates to drawn securities."
+    },
+    "EXER": {
+      "isoName": "Exercised",
+      "name": "Exercised",
+      "definition": "Settlement transaction relates to options, futures or derivatives that are exercised."
+    },
+    "EXPI": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "Settlement transaction relates to options, futures or derivatives that have expired."
+    },
+    "FRCL": {
+      "isoName": "FreeCleanSettlement",
+      "name": "Free Clean Settlement",
+      "definition": "Delivery will be made free of payment but a clean payment order will be sent."
+    },
+    "GATE": {
+      "isoName": "GatingEventParticipation",
+      "name": "Gating Event Participation",
+      "definition": "Gating event participation. Hold until event start time."
+    },
+    "INTS": {
+      "isoName": "InternalisedSettlement",
+      "name": "Internalised Settlement",
+      "definition": "The instruction was settled by the settlement internaliser/account servicer (eg custodian) in its own books and not through a securities settlement system (e.g. CSD system)."
+    },
+    "KNOC": {
+      "isoName": "KnockedOut",
+      "name": "Knocked Out",
+      "definition": "Settlement transaction relates to options, futures or derivatives that are expired worthless."
+    },
+    "NOMC": {
+      "isoName": "NoAutomaticMarketClaim",
+      "name": "No Automatic Market Claim",
+      "definition": "No market claim should be automatically generated."
+    },
+    "NACT": {
+      "isoName": "NotAccountingRelated",
+      "name": "Not Accounting Related",
+      "definition": "Security transaction is not for accounting."
+    },
+    "BPSS": {
+      "isoName": "PartialSuccessfulBuyIn",
+      "name": "Partial Successful Buy In",
+      "definition": "Identification of settlement instructions created as a result of a partial successful buy-in."
+    },
+    "PENS": {
+      "isoName": "PendingSale",
+      "name": "Pending Sale",
+      "definition": "Position to cover the pending sale will be available by contractual settlement date (accounting information)."
+    },
+    "PHYS": {
+      "isoName": "Physical",
+      "name": "Physical",
+      "definition": "Securities are to be physically settled."
+    },
+    "RHYP": {
+      "isoName": "Rehypothecation",
+      "name": "Rehypothecation",
+      "definition": "Collateral position is available for other purposes (for example, onwards delivery)."
+    },
+    "RPTO": {
+      "isoName": "Reporting",
+      "name": "Reporting",
+      "definition": "Relates to a transaction that is for reporting purposes only."
+    },
+    "RESI": {
+      "isoName": "Residual",
+      "name": "Residual",
+      "definition": "Relates to transaction on a security that is not eligible at the Central Security Depository (CSD) but for which the payment will be enacted by the central securities depository."
+    },
+    "SHOR": {
+      "isoName": "ShortSell",
+      "name": "Short Sell",
+      "definition": "Account is used for short sale orders."
+    },
+    "SPDL": {
+      "isoName": "SpecialDelivery",
+      "name": "Special Delivery",
+      "definition": "Settlement transactions to be settled with special delivery."
+    },
+    "SPST": {
+      "isoName": "SplitSettlement",
+      "name": "Split Settlement",
+      "definition": "Money and financial instruments settle in different locations."
+    },
+    "TRAN": {
+      "isoName": "Transformation",
+      "name": "Transformation",
+      "definition": "Transaction resulting from a transformation."
+    },
+    "TRIP": {
+      "isoName": "TripartySegregation",
+      "name": "Triparty Segregation",
+      "definition": "Securities are not be delivered but segregated following triparty collateral transaction."
+    },
+    "UNEX": {
+      "isoName": "Unexposed",
+      "name": "Unexposed",
+      "definition": "Delivery cannot be performed until money is received."
+    }
+  }
+}

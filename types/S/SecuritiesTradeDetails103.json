@@ -1,0 +1,32 @@
+{
+  "isoType": "SecuritiesTradeDetails103",
+  "language": "en",
+  "name": "Securities Trade Details 103",
+  "definition": "Details of the securities trade.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "OpeningSettlementDate": {
+      "name": "Opening Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    }
+  },
+  "isoRules": {
+    "TradeDateTimeUTCRule": {
+      "definition": "If Trade Date/Time is used with a time or a time + UTC indicator, then it must be the local time of the place of trade, for example, of the stock exchange, or of the selling broker for OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if InstructionProcessingAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    }
+  }
+}

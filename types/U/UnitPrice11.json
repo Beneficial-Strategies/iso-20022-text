@@ -1,0 +1,32 @@
+{
+  "isoType": "UnitPrice11",
+  "language": "en",
+  "name": "Unit Price 11",
+  "definition": "Amount of money for which goods or services are offered, sold, or bought.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type and information about a price."
+    },
+    "ExtendedType": {
+      "name": "Extended Type",
+      "definition": "Type and information about a price."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Value of the price, eg, as a currency and value."
+    },
+    "PriceMethod": {
+      "name": "Price Method",
+      "definition": "Type of pricing calculation method."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Either Type or ExtendedType must be present, but not both."
+    },
+    "TypeOrExtendedTypeRuleNotBoth": {
+      "definition": "Either Type or ExtendedType must be present, but not both."
+    }
+  }
+}

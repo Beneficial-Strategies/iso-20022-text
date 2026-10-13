@@ -1,0 +1,34 @@
+{
+  "isoType": "IntraPositionMovementQueryResponseV01",
+  "language": "en",
+  "name": "Intra Position Movement Query Response V 01",
+  "definition": "The IntraPositionMovementQueryResponse message is sent from a settlement infrastructure to an account owner/requestor to provide all intra-position movement instructions satisfying the selection criteria, as defined within the query, returning current attributes and latest status.|The message may also be used to: |- re-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |- provide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "Movements": {
+      "name": "Movements",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to Yes (true or 1) then Movements must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to No (false or 0) then Movements must be absent."
+    },
+    "QueryTypeFullRule": {
+      "definition": "If ReportGeneralDetails/QueryType is equal to Full, then Movements(*)/Movement/MovementDetails must be present."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "If ReportGeneralDetails/QueryType is equal to Status, then Movements(*)/Movement/MovementDetails must be absent."
+    }
+  }
+}

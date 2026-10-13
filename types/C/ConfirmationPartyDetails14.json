@@ -1,0 +1,36 @@
+{
+  "isoType": "ConfirmationPartyDetails14",
+  "language": "en",
+  "name": "Confirmation Party Details 14",
+  "definition": "Parties used for acting parties that apply either to the whole message or to individual sides.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier for an organisation that is allocated by an institution, eg, Dun & Bradstreet Identification."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "CashDetails": {
+      "name": "Cash Details",
+      "definition": "Business relationship between two entities; one entity is the account owner, the other entity is the account servicer."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Unambiguous identification of the transaction for the party identified."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information to a party identification."
+    },
+    "PartyCapacity": {
+      "name": "Party Capacity",
+      "definition": "Capacity of customer placing the order. Primarily used by futures exchanges to indicate the CTI code (customer type indicator) as required by the US CFTC (Commodity Futures Trading Commission)."
+    }
+  }
+}

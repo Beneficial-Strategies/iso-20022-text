@@ -1,0 +1,40 @@
+{
+  "isoType": "AccountSubLevel13",
+  "language": "en",
+  "name": "Account Sub Level 13",
+  "definition": "Account and holding of the next sub-level (Level 3).",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the sub-account between the account owner and the account servicer."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the sub-account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the sub-level account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "BeneficialOwner": {
+      "name": "Beneficial Owner",
+      "definition": "Individual or entity that is ultimately entitled to the benefit of income and rights in a financial instrument, as opposed to a nominal or legal owner."
+    },
+    "BalanceDetails": {
+      "name": "Balance Details",
+      "definition": "Report on the net position of a financial instrument on the sub-account (sub-account level 3), for a certain date. The agent, for example, a trade intermediary, may also be specified."
+    },
+    "AccountSubLevel4": {
+      "name": "Account Sub Level 4",
+      "definition": "Holdings of level 4."
+    },
+    "AccountSubLevel4Difference": {
+      "name": "Account Sub Level 4 Difference",
+      "definition": "Difference in holdings between the sub-account at level 3 and the sub-accounts of level 4."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "isoType": "InvestmentFundTransaction3",
+  "language": "en",
+  "name": "Investment Fund Transaction 3",
+  "definition": "Creation/cancellation of investment units on the books of the fund or its designated agent, as a result of executing an investment fund order.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of investment fund transaction."
+    },
+    "ExtendedTransactionType": {
+      "name": "Extended Transaction Type",
+      "definition": "Type of investment fund transaction."
+    },
+    "CorporateActionEventType": {
+      "name": "Corporate Action Event Type",
+      "definition": "Type of corporate action event."
+    },
+    "ExtendedCorporateActionEventType": {
+      "name": "Extended Corporate Action Event Type",
+      "definition": "Type of corporate action event."
+    },
+    "BookingStatus": {
+      "name": "Booking Status",
+      "definition": "Status of an investment fund transaction."
+    },
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique identifier for an order, as assigned by the sell-side. The identifier must be unique within a single trading day."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for an order execution, as assigned by a confirming party."
+    },
+    "LegIdentification": {
+      "name": "Leg Identification",
+      "definition": "Unique technical identifier for an instance of a leg within a switch."
+    },
+    "LegExecutionIdentification": {
+      "name": "Leg Execution Identification",
+      "definition": "Unique identifier for an instance of a leg execution within a switch confirmation."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time at which the order was placed by the investor."
+    },
+    "SettledTransactionIndicator": {
+      "name": "Settled Transaction Indicator",
+      "definition": "Indicates whether the cash payment with respect to the executed order is settled."
+    },
+    "RegisteredTransactionIndicator": {
+      "name": "Registered Transaction Indicator",
+      "definition": "Indicates whether the executed order has a registered status on the books of the transfer agent."
+    },
+    "UnitsQuantity": {
+      "name": "Units Quantity",
+      "definition": "Number of investment funds units."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Direction of the transaction being reported, ie, securities are received (credited) or delivered (debited)."
+    },
+    "Reversal": {
+      "name": "Reversal",
+      "definition": "Transaction being reported is a reversal of previously reported transaction."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Amount of money to be moved between the debtor and creditor, before deduction of charges, expressed in the currency as ordered by the initiating party."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date on which the debtor expects the amount of money to be available to the creditor."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and time at which a price is applied, according to the terms stated in the prospectus."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, ie, cum-dividend, in the executed price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "PartiallyExecutedIndicator": {
+      "name": "Partially Executed Indicator",
+      "definition": "Indicates whether the order has been partially executed, ie, the confirmed quantity does not match the ordered quantity for a given financial instrument."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Price at which the order was executed."
+    }
+  },
+  "isoRules": {
+    "TransactionTypeLegIdentificationRule": {
+      "definition": "If TransactionType is SWII or SWIO, then LegIdentification is optional. If TransactionType is neither SWII nor SWIO, then LegIdentification is not allowed."
+    },
+    "TransactionTypeLegExecutionIdentificationRule": {
+      "definition": "If TransactionType is SWII or SWIO, then LegExecutionIdentification is optional. If TransactionType is neither SWII nor SWIO, then LegExecutionIdentification is not allowed."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRule": {
+      "definition": "Either TransactionType or ExtendedTransactionType or CorporateActionEventType or ExtendedCorporateActionEventType must be present but not more than one."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth": {
+      "definition": "Either TransactionType or ExtendedTransactionType or CorporateActionEventType or ExtendedCorporateActionEventType must be present but not more than one."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth2": {
+      "definition": "Either TransactionType or ExtendedTransactionType or CorporateActionEventType or ExtendedCorporateActionEventType must be present but not more than one."
+    },
+    "TransactionTypeOrCorporateActionEventTypeRuleNotBoth3": {
+      "definition": "Either TransactionType or ExtendedTransactionType or CorporateActionEventType or ExtendedCorporateActionEventType must be present but not more than one."
+    }
+  }
+}

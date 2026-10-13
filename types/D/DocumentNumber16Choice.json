@@ -1,0 +1,25 @@
+{
+  "isoType": "DocumentNumber16Choice",
+  "language": "en",
+  "name": "Document Number 16 Choice",
+  "definition": "Choice between a short document number, a long document number or a proprietary document number.",
+  "isoElements": {
+    "ShortNumber": {
+      "name": "Short Number",
+      "definition": "Message type number of the document referenced."
+    },
+    "LongNumber": {
+      "name": "Long Number",
+      "definition": "MX Message identifier of the referenced document."
+    },
+    "ProprietaryNumber": {
+      "name": "Proprietary Number",
+      "definition": "Proprietary document identification."
+    }
+  },
+  "isoRules": {
+    "ShortLongNumberRule": {
+      "definition": "ShortNumber must contain the FIN message type number of the linked message. LongNumber must contain the XML message identifier of the linked message."
+    }
+  }
+}

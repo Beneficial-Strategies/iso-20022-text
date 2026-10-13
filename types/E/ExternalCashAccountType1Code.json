@@ -1,0 +1,148 @@
+{
+  "isoType": "ExternalCashAccountType1Code",
+  "language": "en",
+  "name": "External Cash Account Type 1 Code",
+  "definition": "Specifies the nature, or use, of the cash account in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CACC": {
+      "isoName": "Current",
+      "name": "Current",
+      "definition": "Account used to post debits and credits when no specific account has been nominated."
+    },
+    "CARD": {
+      "isoName": "CardAccount",
+      "name": "Card Account",
+      "definition": "Account used for credit card payments."
+    },
+    "CASH": {
+      "isoName": "CashPayment",
+      "name": "Cash Payment",
+      "definition": "Account used for the payment of cash."
+    },
+    "CHAR": {
+      "isoName": "Charges",
+      "name": "Charges",
+      "definition": "Account used for charges if different from the account for|payment."
+    },
+    "CISH": {
+      "isoName": "CashIncome",
+      "name": "Cash Income",
+      "definition": "Account used for payment of income if different from the current cash account"
+    },
+    "COMM": {
+      "isoName": "Commission",
+      "name": "Commission",
+      "definition": "Account used for commission if different from the account|for payment."
+    },
+    "CPAC": {
+      "isoName": "ClearingParticipantSettlementAccount",
+      "name": "Clearing Participant Settlement Account",
+      "definition": "Account used to post settlement debit and credit entries on behalf of a designated Clearing Participant."
+    },
+    "LLSV": {
+      "isoName": "LimitedLiquiditySavingsAccount",
+      "name": "Limited Liquidity Savings Account",
+      "definition": "Account used for savings with special interest and withdrawal terms."
+    },
+    "LOAN": {
+      "isoName": "Loan",
+      "name": "Loan",
+      "definition": "Account used for loans."
+    },
+    "MGLD": {
+      "isoName": "MarginalLending",
+      "name": "Marginal Lending",
+      "definition": "Account used for a marginal lending facility."
+    },
+    "MOMA": {
+      "isoName": "MoneyMarket",
+      "name": "Money Market",
+      "definition": "Account used for money markets if different from the cash|account."
+    },
+    "NREX": {
+      "isoName": "NonResidentExternal",
+      "name": "Non Resident External",
+      "definition": "Account used for non-resident external."
+    },
+    "ODFT": {
+      "isoName": "Overdraft",
+      "name": "Overdraft",
+      "definition": "Account is used for overdrafts."
+    },
+    "ONDP": {
+      "isoName": "OverNightDeposit",
+      "name": "Over Night Deposit",
+      "definition": "Account used for overnight deposits."
+    },
+    "OTHR": {
+      "isoName": "OtherAccount",
+      "name": "Other Account",
+      "definition": "Account not otherwise specified."
+    },
+    "SACC": {
+      "isoName": "Settlement",
+      "name": "Settlement",
+      "definition": "Account used to post debit and credit entries, as a result of transactions cleared and settled through a specific clearing and settlement system."
+    },
+    "SLRY": {
+      "isoName": "Salary",
+      "name": "Salary",
+      "definition": "Accounts used for salary payments."
+    },
+    "SVGS": {
+      "isoName": "Savings",
+      "name": "Savings",
+      "definition": "Account used for savings."
+    },
+    "TAXE": {
+      "isoName": "Tax",
+      "name": "Tax",
+      "definition": "Account used for taxes if different from the account for|payment."
+    },
+    "TRAN": {
+      "isoName": "TransactingAccount",
+      "name": "Transacting Account",
+      "definition": "A transacting account is the most basic type of bank account that you can get. The main difference between transaction and cheque accounts is that you usually do not get a cheque book with your transacting account and neither are you offered an overdraft facility."
+    },
+    "TRAS": {
+      "isoName": "CashTrading",
+      "name": "Cash Trading",
+      "definition": "Account used for trading if different from the current cash account."
+    },
+    "VACC": {
+      "isoName": "VirtualAccount",
+      "name": "Virtual Account",
+      "definition": "Account created virtually to facilitate collection and reconciliation."
+    },
+    "NFCA": {
+      "isoName": "NonResidentForeignCurrencyAccount",
+      "name": "Non Resident Foreign Currency Account",
+      "definition": "Non-Resident Individual / Entity Foreign Current held domestically."
+    },
+    "RFCA": {
+      "isoName": "ResidentIndividualForeignCurrencyAccount",
+      "name": "Resident Individual Foreign Currency Account",
+      "definition": "Resident Individual Foreign Currency held domestically."
+    },
+    "REFC": {
+      "isoName": "ResidentEntityForeignCurrency",
+      "name": "Resident Entity Foreign Currency",
+      "definition": "Resident Entity Foreign Currency held domestically."
+    },
+    "NLCY": {
+      "isoName": "NonResidentLocalDomesticCurrencyAccount",
+      "name": "Non Resident Local Domestic Currency Account",
+      "definition": "Non-Resident domestic currency account."
+    },
+    "RLCY": {
+      "isoName": "ResidentLocalDomesticCurrency",
+      "name": "Resident Local Domestic Currency",
+      "definition": "Resident domestic currency account."
+    },
+    "ODEP": {
+      "isoName": "OrdinaryDeposit",
+      "name": "Ordinary Deposit",
+      "definition": "Account used as ordinary deposit for everyday deposits and withdrawals."
+    }
+  }
+}

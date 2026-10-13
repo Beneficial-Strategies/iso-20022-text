@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementStatus1Code",
+  "language": "en",
+  "name": "Securities Settlement Status 1 Code",
+  "definition": "Provides the status of settlement of an instruction.",
+  "isoCodes": {
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Instruction is pending. Settlement at the instructed settlement date is still possible."
+    },
+    "PENF": {
+      "isoName": "Failing",
+      "name": "Failing",
+      "definition": "Instruction is failing. Settlement at the instructed settlement date is no longer possible."
+    }
+  }
+}

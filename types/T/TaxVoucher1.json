@@ -1,0 +1,100 @@
+{
+  "isoType": "TaxVoucher1",
+  "language": "en",
+  "name": "Tax Voucher 1",
+  "definition": "Provides information about the tax voucher.",
+  "isoElements": {
+    "TaxVoucherRate": {
+      "name": "Tax Voucher Rate",
+      "definition": "Distribution rate per share."
+    },
+    "TaxCredit": {
+      "name": "Tax Credit",
+      "definition": "Amount of tax that have been previously paid."
+    },
+    "TaxDeduction": {
+      "name": "Tax Deduction",
+      "definition": "Amount of tax that have been previously deducted."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Cash amount before any deductions and allowances have been made."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Cash amount after any deductions and allowances have been made."
+    },
+    "RecordDateHolding": {
+      "name": "Record Date Holding",
+      "definition": "Securities holding on record date."
+    },
+    "TaxCreditRate": {
+      "name": "Tax Credit Rate",
+      "definition": "Applicable tax rate on the tax credit amount."
+    },
+    "WithholdingTaxAmount": {
+      "name": "Withholding Tax Amount",
+      "definition": "Cash amount that will be withheld by a tax authority."
+    },
+    "WithholdingTaxRate": {
+      "name": "Withholding Tax Rate",
+      "definition": "Rate of a cash distribution that wil be withheld by a tax authority."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "name": "Scrip Dividend Reinvestment Price Per Share",
+      "definition": "Cost per share of new shares allotted."
+    },
+    "CashAmountBroughtForward": {
+      "name": "Cash Amount Brought Forward",
+      "definition": "Cash amount retained from previous dividend or interest payment."
+    },
+    "AllotedSharesCost": {
+      "name": "Alloted Shares Cost",
+      "definition": "Total cash amount required to purchase shares allotted."
+    },
+    "CashAmountCarriedForward": {
+      "name": "Cash Amount Carried Forward",
+      "definition": "Cash amount carried forward to next dividend or interest payment."
+    },
+    "NotionalTax": {
+      "name": "Notional Tax",
+      "definition": "Where new securities are issued in lieu of a cash dividend, the notional tax is the tax on the amount of cash that would have been paid. For scrips only."
+    },
+    "NotionalDividendPayable": {
+      "name": "Notional Dividend Payable",
+      "definition": "Amount of cash that would have been payable if the dividend had been taken in the form of cash rather than shares. For scrip only."
+    },
+    "BargainDate": {
+      "name": "Bargain Date",
+      "definition": "Date on which DRIP purchase completed."
+    },
+    "BargainSettlementDate": {
+      "name": "Bargain Settlement Date",
+      "definition": "Settlement date of the DRIP purchase transaction."
+    },
+    "StampDutyAmount": {
+      "name": "Stamp Duty Amount",
+      "definition": "Amount of stamp duty."
+    },
+    "ChargeAmount": {
+      "name": "Charge Amount",
+      "definition": "Amount of charges/fees charged to the client."
+    },
+    "CommissionAmount": {
+      "name": "Commission Amount",
+      "definition": "Amount due to the paying agent."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Provides information about the foreign exchange transaction."
+    }
+  },
+  "isoRules": {
+    "TaxCreditOrTaxDeductionRule": {
+      "definition": "Either TaxCredit orTaxDeduction must be present."
+    },
+    "TaxCreditOrTaxDeductionRuleNotBoth": {
+      "definition": "Either TaxCredit orTaxDeduction must be present."
+    }
+  }
+}

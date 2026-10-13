@@ -1,0 +1,16 @@
+{
+  "isoType": "TransactionReportOrError7Choice",
+  "language": "en",
+  "name": "Transaction Report Or Error 7 Choice",
+  "definition": "Choice between transactions and booked entries held at the transaction administrator or an operational error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Reports on payment transactions."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "isoType": "CustodyStatementOfHoldings2",
+  "language": "en",
+  "name": "Custody Statement Of Holdings 2",
+  "definition": "Information about a custody statement of holdings.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": "General information related to the custody statement of holdings that is being cancelled."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Safekeeping or investment account of the statement that is being cancelled."
+    },
+    "BalanceForAccount": {
+      "name": "Balance For Account",
+      "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities account."
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": "Sub-account of the safekeeping or investment account."
+    },
+    "TotalValues": {
+      "name": "Total Values",
+      "definition": "Value of total holdings reported."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is \"true\" or \"1\" (Yes), then either BalanceForAccount or SubAccountDetails is mandatory. If StatementGeneralDetails/ActivityIndicator is \"false\" or \"0\" (No), then BalanceForAccount and SubAccountDetails may be present."
+    }
+  }
+}

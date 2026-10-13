@@ -1,0 +1,63 @@
+{
+  "isoType": "ExternalInvestigationInstrument1Code",
+  "language": "en",
+  "name": "External Investigation Instrument 1 Code",
+  "definition": "Specifies the type of instrument or product to which the investigation refers, as published in an external investigation instrument code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "isoName": "Cheque",
+      "name": "Cheque",
+      "definition": "Investigation is related to a cheque."
+    },
+    "INST": {
+      "isoName": "InstantCreditTransfer",
+      "name": "Instant Credit Transfer",
+      "definition": "Investigation is related to an instant credit transfer."
+    },
+    "XBCT": {
+      "isoName": "CrossBorderCreditTransfer",
+      "name": "Cross Border Credit Transfer",
+      "definition": "Investigation is related to a cross border payment."
+    },
+    "ACHP": {
+      "isoName": "ACHOrMass",
+      "name": "ACH Or Mass",
+      "definition": "Investigation is related to an ACH or mass payment."
+    },
+    "DDTP": {
+      "isoName": "DirectDebit",
+      "name": "Direct Debit",
+      "definition": "Investigation is related to a direct debit."
+    },
+    "CARD": {
+      "isoName": "Card",
+      "name": "Card",
+      "definition": "Investigation is related to a card transaction."
+    },
+    "URGP": {
+      "isoName": "HVPOrWire",
+      "name": "HVP Or Wire",
+      "definition": "Investigation is related to a wire/high value payment."
+    },
+    "STAT": {
+      "isoName": "StatementEntry",
+      "name": "Statement Entry",
+      "definition": "Investigation is related to a statement entry."
+    },
+    "DRFT": {
+      "isoName": "Draft",
+      "name": "Draft",
+      "definition": "Investigation is related to a draft."
+    },
+    "SRTP": {
+      "isoName": "RequestToPay",
+      "name": "Request To Pay",
+      "definition": "Investigation is related to a request to pay."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other underlying instrument."
+    }
+  }
+}

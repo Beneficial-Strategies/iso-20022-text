@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentStatusReason1Choice",
+  "language": "en",
+  "name": "Payment Status Reason 1 Choice",
+  "definition": "Reason for the status of the payment transaction.",
+  "isoElements": {
+    "Unmatched": {
+      "name": "Unmatched",
+      "definition": "Reason why the payment status is unmatched."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Reason why the payment status is cancelled."
+    },
+    "Suspended": {
+      "name": "Suspended",
+      "definition": "Reason why the payment status is suspended."
+    },
+    "PendingFailingSettlement": {
+      "name": "Pending Failing Settlement",
+      "definition": "Reason why the payment status is pending (failing settlement)."
+    },
+    "PendingSettlement": {
+      "name": "Pending Settlement",
+      "definition": "Reason why the payment status is pending (settlement)."
+    },
+    "ProprietaryRejection": {
+      "name": "Proprietary Rejection",
+      "definition": "Defines the reason that has been used by the system to reject the transaction."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Defines a free text proprietary reason."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "BillingReport6",
+  "language": "en",
+  "name": "Billing Report 6",
+  "definition": "Report on specific billing data.",
+  "isoElements": {
+    "RegulatoryData": {
+      "name": "Regulatory Data",
+      "definition": "Information about legal and regulatory data exchanged between invoicing and paying party."
+    },
+    "Service": {
+      "name": "Service",
+      "definition": "Identification of the service or system for which the billing information is provided."
+    },
+    "InvoiceDate": {
+      "name": "Invoice Date",
+      "definition": "Date at which the billing report was created."
+    },
+    "BillingIdentification": {
+      "name": "Billing Identification",
+      "definition": "Unique identification of the billing report."
+    },
+    "BillingPeriod": {
+      "name": "Billing Period",
+      "definition": "Date period for which the report data is valid."
+    },
+    "ResponsiblePartyIdentification": {
+      "name": "Responsible Party Identification",
+      "definition": "Unique identification of the party responsible for the referenced party (that is, which has a contractual responsibility for the billed customer)."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification to unambiguously identify the billed party."
+    },
+    "AccountInvoiceTotals": {
+      "name": "Account Invoice Totals",
+      "definition": "Specifies totals related to the invoice per account."
+    },
+    "InvoiceTotals": {
+      "name": "Invoice Totals",
+      "definition": "Specifies totals related to the invoice."
+    },
+    "ServiceCategoryTotals": {
+      "name": "Service Category Totals",
+      "definition": "Specifies totals related to the service category."
+    }
+  }
+}

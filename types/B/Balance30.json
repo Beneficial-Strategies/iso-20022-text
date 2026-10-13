@@ -1,0 +1,29 @@
+{
+  "isoType": "Balance30",
+  "language": "en",
+  "name": "Balance 30",
+  "definition": "Report on the net position of a security, on a single securities account, for a certain date.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BalanceForAccount": {
+      "name": "Balance For Account",
+      "definition": "Report on the net position of a security, on a single securities account, for a certain date."
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": "Sub-account of the safekeeping or investment account."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "name": "Account Base Currency Total Amounts",
+      "definition": "Total valuation amounts provided in the base currency of the account."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountRule": {
+      "definition": "BalanceForAccount must be present or SubAccountDetails must be present, both may be present."
+    }
+  }
+}

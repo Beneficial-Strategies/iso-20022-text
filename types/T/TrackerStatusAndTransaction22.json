@@ -1,0 +1,21 @@
+{
+  "isoType": "TrackerStatusAndTransaction22",
+  "language": "en",
+  "name": "Tracker Status And Transaction 22",
+  "definition": "Provides detailed information on the transaction and its status to be updated in the tracker.",
+  "isoElements": {
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Provides detailed information on the transaction status to be updated in the tracker."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Key elements used to identify the original transaction(s) that is being referred to."
+    }
+  },
+  "isoRules": {
+    "RejectReturnReasonRule": {
+      "definition": "TransactionStatus/RejectReturnReason must be absent or Transaction/RejectReturnReason must be absent."
+    }
+  }
+}

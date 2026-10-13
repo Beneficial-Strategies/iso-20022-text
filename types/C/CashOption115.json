@@ -1,0 +1,78 @@
+{
+  "isoType": "CashOption115",
+  "language": "en",
+  "name": "Cash Option 115",
+  "definition": "Provides information about the cash option.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or a credit."
+    },
+    "NonEligibleProceedsIndicator": {
+      "name": "Non Eligible Proceeds Indicator",
+      "definition": "Specifies information regarding outturn resources that cannot be processed by the Central Securities Depository (CSD). Special delivery instruction is required from the account owner for the corporate action outcome to be credited."
+    },
+    "IncomeType": {
+      "name": "Income Type",
+      "definition": "Specifies the type of income."
+    },
+    "OtherIncomeType": {
+      "name": "Other Income Type",
+      "definition": "Type of income to be used under another tax regime."
+    },
+    "ExemptionType": {
+      "name": "Exemption Type",
+      "definition": "Specifies the basis for the reduced rate of withholding."
+    },
+    "PriceCalculationMethod": {
+      "name": "Price Calculation Method",
+      "definition": "Specifies the method applied for the calculation of the price."
+    },
+    "CountryOfIncomeSource": {
+      "name": "Country Of Income Source",
+      "definition": "Indicates the country from which the income originates."
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Provides information about the amounts related to a cash movement."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a cash movement."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Exchange rate between the amount and the resulting amount."
+    },
+    "EstimatedRateIndicator": {
+      "name": "Estimated Rate Indicator",
+      "definition": "Indicates whether the rate is approximate.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "NRATaxReportableIndicator": {
+      "name": "NRA Tax Reportable Indicator",
+      "definition": "Indicates whether the income event is subject to withholding tax if paid to a non-U.S. resident alien (NRA).|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about the corporate action option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action option."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct and GenericCashPricePaidPerProduct are prices received or paid in the course of an event. The specific meaning (redemption price, subscription price, reinvestment price.) is derived from the event type."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "The lists of exemption type codes to be used in ExemptionType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "The lists of income type codes to be used in IncomeType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "If at least one occurrence of OtherIncomeType is present, then IncomeType must be present."
+    }
+  }
+}

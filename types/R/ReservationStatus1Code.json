@@ -1,0 +1,33 @@
+{
+  "isoType": "ReservationStatus1Code",
+  "language": "en",
+  "name": "Reservation Status 1 Code",
+  "definition": "Specifies the current status of a limit.",
+  "isoCodes": {
+    "ENAB": {
+      "isoName": "Enabled",
+      "name": "Enabled",
+      "definition": "Reservation is currently in effect."
+    },
+    "DISA": {
+      "isoName": "Disabled",
+      "name": "Disabled",
+      "definition": "Reservation is not currently in effect.|."
+    },
+    "DELD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Reservation has been deleted or suspended."
+    },
+    "REQD": {
+      "isoName": "Requested",
+      "name": "Requested",
+      "definition": "Reservation has been asked for and is not yet enabled.|."
+    },
+    "BLKD": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Reservation is blocked or frozen due to external circumstances such as a court order, death of beneficiary or account owner, or bankruptcy."
+    }
+  }
+}

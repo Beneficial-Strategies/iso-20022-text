@@ -1,0 +1,32 @@
+{
+  "isoType": "TransferInstruction1",
+  "language": "en",
+  "name": "Transfer Instruction 1",
+  "definition": "Provides further information required for the account switch.",
+  "isoElements": {
+    "TransferIndicator": {
+      "name": "Transfer Indicator",
+      "definition": "Indicates whether a payment arrangement is transferable.||Usage: Default value for TransferIndicator is false."
+    },
+    "Code": {
+      "name": "Code",
+      "definition": "Specifies an additional parameter to be applied to the requested transaction schedule."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies an additional parameter to be applied to the transaction schedule in a proprietary format."
+    },
+    "StartDateTime": {
+      "name": "Start Date Time",
+      "definition": "The date and time at which the event specified by Code commences."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "The date on which the event specified by Code commences."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Additional switch parameters in a free text format."
+    }
+  }
+}

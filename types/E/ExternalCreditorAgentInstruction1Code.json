@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalCreditorAgentInstruction1Code",
+  "language": "en",
+  "name": "External Creditor Agent Instruction 1 Code",
+  "definition": "Specifies further instructions concerning the processing of a payment instruction, as provided to the creditor agent.",
+  "isoCodes": {
+    "CHQB": {
+      "isoName": "PayCreditorByCheque",
+      "name": "Pay Creditor By Cheque",
+      "definition": "(Ultimate) creditor must be paid by cheque."
+    },
+    "HOLD": {
+      "isoName": "HoldCashForCreditor",
+      "name": "Hold Cash For Creditor",
+      "definition": "Amount of money must be held for the (ultimate) creditor, who will call. Pay on identification."
+    },
+    "PHOB": {
+      "isoName": "PhoneBeneficiary",
+      "name": "Phone Beneficiary",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by phone."
+    },
+    "PRTK": {
+      "isoName": "PayerTokenRequested",
+      "name": "Payer Token Requested",
+      "definition": "Indicates that a payer token is requested/used."
+    },
+    "RECI": {
+      "isoName": "ReceiverCustomerInformation",
+      "name": "Receiver Customer Information",
+      "definition": "Further information regarding the intended recipient."
+    },
+    "TELB": {
+      "isoName": "Telecom",
+      "name": "Telecom",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by the most efficient means of telecommunication."
+    },
+    "TKCM": {
+      "isoName": "TokenCounterpartyMismatch",
+      "name": "Token Counterparty Mismatch",
+      "definition": "Token found with counterparty mismatch."
+    },
+    "TKSG": {
+      "isoName": "TokenSingleUse",
+      "name": "Token Single Use",
+      "definition": "Single Use Token already used."
+    },
+    "TKSP": {
+      "isoName": "TokenSuspended",
+      "name": "Token Suspended",
+      "definition": "Token found with suspended status."
+    },
+    "TKVE": {
+      "isoName": "TokenValueLimitExceeded",
+      "name": "Token Value Limit Exceeded",
+      "definition": "Token found with value limit rule violation."
+    },
+    "TKXP": {
+      "isoName": "TokenExpired",
+      "name": "Token Expired",
+      "definition": "Token expired."
+    },
+    "TOKN": {
+      "isoName": "Token",
+      "name": "Token",
+      "definition": "Token information."
+    },
+    "VLTK": {
+      "isoName": "TokenValidation",
+      "name": "Token Validation",
+      "definition": "Additional validation information to be used in conjunction with the token."
+    },
+    "SEID": {
+      "isoName": "SecondaryIdentification",
+      "name": "Secondary Identification",
+      "definition": "Use of Secondary Identification of Creditor Account (which may relate to Head Office Collection Account, Building Society Roll Number or Credit Card Primary Account Number)."
+    }
+  }
+}

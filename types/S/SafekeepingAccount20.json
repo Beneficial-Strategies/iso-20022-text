@@ -1,0 +1,53 @@
+{
+  "isoType": "SafekeepingAccount20",
+  "language": "en",
+  "name": "Safekeeping Account 20",
+  "definition": "Identification and information about a securities account and balance.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification of the securities account between the account owner and the account servicer."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SubAccountIdentification": {
+      "name": "Sub Account Identification",
+      "definition": "Identification of a subaccount within the safekeeping account."
+    },
+    "InstructedBalance": {
+      "name": "Instructed Balance",
+      "definition": "Quantity of securities to which this instruction applies."
+    },
+    "RightsHolder": {
+      "name": "Rights Holder",
+      "definition": "Owner of the voting rights."
+    },
+    "PledgeDetails": {
+      "name": "Pledge Details",
+      "definition": "Detailed information about the pledge."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "It is recommended that RightsHolder is only present more than once if there is joint ownership."
+    },
+    "BalanceQall1Rule": {
+      "definition": "If SubAccountIdentification is present, then InstructedBalance/Balance/Code \"QALL\" (AllSecurities) is not allowed in any occurrence of InstructedBalance."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Either AccountIdentification or BlockChainAddressOrWallet must be present but not both."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present then AccountIdentification must be absent."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "If AccountIdentification is present, then BlockChainAddressOrWallet must be absent."
+    }
+  }
+}

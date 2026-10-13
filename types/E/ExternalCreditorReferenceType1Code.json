@@ -1,0 +1,43 @@
+{
+  "isoType": "ExternalCreditorReferenceType1Code",
+  "language": "en",
+  "name": "External Creditor Reference Type 1 Code",
+  "definition": "Specifies the type of creditor reference as published in an external creditor reference type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "DISP": {
+      "isoName": "DispatchAdvice",
+      "name": "Dispatch Advice",
+      "definition": "Document is a dispatch advice."
+    },
+    "FXDR": {
+      "isoName": "ForeignExchangeDealReference",
+      "name": "Foreign Exchange Deal Reference",
+      "definition": "Document is a pre-agreed or pre-arranged foreign exchange transaction to which the payment transaction refers."
+    },
+    "PUOR": {
+      "isoName": "PurchaseOrder",
+      "name": "Purchase Order",
+      "definition": "Document is a purchase order."
+    },
+    "RPIN": {
+      "isoName": "RelatedPaymentInstruction",
+      "name": "Related Payment Instruction",
+      "definition": "Document is a linked payment instruction to which the current payment instruction is related, for example, in a cover scenario."
+    },
+    "RADM": {
+      "isoName": "RemittanceAdviceMessage",
+      "name": "Remittance Advice Message",
+      "definition": "Document is a remittance advice sent separately from the current transaction."
+    },
+    "SCOR": {
+      "isoName": "StructuredCommunicationReference",
+      "name": "Structured Communication Reference",
+      "definition": "Document is a structured communication reference provided by the creditor to identify the referred transaction."
+    },
+    "PRNB": {
+      "isoName": "PaymentReferenceNumber",
+      "name": "Payment Reference Number",
+      "definition": "Document is a payment reference number used to identify, match, or reconcile the referred contribution payment or related remittance information."
+    }
+  }
+}

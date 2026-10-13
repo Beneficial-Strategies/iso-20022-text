@@ -1,0 +1,24 @@
+{
+  "isoType": "CreateMemberV01",
+  "language": "en",
+  "name": "Create Member V 01",
+  "definition": "Scope|The ModifyMember message is sent by a member to the transaction administrator.|It is used to create the profile of a member that the transaction administrator maintains.|Usage|Based on the criteria defined in the CreateLimit message, the transaction administrator will execute or reject the requested creation and respond with a Receipt message as a reply to the request.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "MemberIdentification": {
+      "name": "Member Identification",
+      "definition": ""
+    },
+    "ValueSet": {
+      "name": "Value Set",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

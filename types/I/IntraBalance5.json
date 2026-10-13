@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalance5",
+  "language": "en",
+  "name": "Intra Balance 5",
+  "definition": "Details of the intra-balance movement.",
+  "isoElements": {
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be settled."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the amount of money is to be moved."
+    },
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the amount of money is moved."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the amount of money is moved."
+    },
+    "CashSubBalanceIdentification": {
+      "name": "Cash Sub Balance Identification",
+      "definition": "Number identifying a lot constituting the sub-balance."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and the receiver, if InstructionProcessingAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    },
+    "BalanceFromToRule": {
+      "definition": "The cash balance type of BalanceFrom must be different from the cash balance type of BalanceTo."
+    }
+  }
+}

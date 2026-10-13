@@ -1,0 +1,124 @@
+{
+  "isoType": "SettlementInstructionQueryCriteria4",
+  "language": "en",
+  "name": "Settlement Instruction Query Criteria 4",
+  "definition": "Defines the criteria based on which information is included.",
+  "isoElements": {
+    "References": {
+      "name": "References",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "SecuritiesTransactionType": {
+      "name": "Securities Transaction Type",
+      "definition": "Identifies the type of securities transaction."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account in which cash is maintained."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SettledQuantity": {
+      "name": "Settled Quantity",
+      "definition": "Total quantity of securities settled."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities."
+    },
+    "SettledAmount": {
+      "name": "Settled Amount",
+      "definition": "Total amount of money paid or received in exchange for the securities."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Date on which a transaction is expected to settle. That is, the intended day on which transfer of cash or assets is completed."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared, that is a payment is effected and securities are delivered."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency in which the instructed amount is expressed."
+    },
+    "SafekeepingAccountOwner": {
+      "name": "Safekeeping Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CounterpartSettlementParties": {
+      "name": "Counterpart Settlement Parties",
+      "definition": "Identifies the chain of counterparty settlement parties."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Provides the conditions under which the order/trade is to be/was executed."
+    },
+    "SecuritiesTransactionCondition": {
+      "name": "Securities Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "name": "Conditional Securities Delivery",
+      "definition": "Specifies whether the transaction is under Conditional Securities Delivery (CoSD)."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Primary market or country where a security is issued by the issuer or its agent."
+    },
+    "IssuerCSD": {
+      "name": "Issuer CSD",
+      "definition": "Central securities depository (CSD) in which financial instruments are issued (or immobilised). The issuer CSD opens accounts allowing investors (in a direct holding system) and/or intermediaries (including investor CSDs) to hold these financial instruments."
+    },
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Specifies whether the transaction is on hold, blocked or frozen."
+    }
+  }
+}

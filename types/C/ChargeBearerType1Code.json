@@ -1,0 +1,28 @@
+{
+  "isoType": "ChargeBearerType1Code",
+  "language": "en",
+  "name": "Charge Bearer Type 1 Code",
+  "definition": "Specifies which party(ies) will pay charges due for processing of the instruction.",
+  "isoCodes": {
+    "DEBT": {
+      "isoName": "BorneByDebtor",
+      "name": "Borne By Debtor",
+      "definition": "All transaction charges are to be borne by the debtor."
+    },
+    "CRED": {
+      "isoName": "BorneByCreditor",
+      "name": "Borne By Creditor",
+      "definition": "All transaction charges are to be borne by the creditor."
+    },
+    "SHAR": {
+      "isoName": "Shared",
+      "name": "Shared",
+      "definition": "In a credit transfer context, means that transaction charges on the sender side are to be borne by the debtor, transaction charges on the receiver side are to be borne by the creditor. In a direct debit context, means that transaction charges on the sender side are to be borne by the creditor, transaction charges on the receiver side are to be borne by the debtor."
+    },
+    "SLEV": {
+      "isoName": "FollowingServiceLevel",
+      "name": "Following Service Level",
+      "definition": "Charges are to be applied following the rules agreed in the service level and/or scheme."
+    }
+  }
+}

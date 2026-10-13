@@ -1,0 +1,43 @@
+{
+  "isoType": "ExternalMandateStatus1Code",
+  "language": "en",
+  "name": "External Mandate Status 1 Code",
+  "definition": "Specifies the external mandate status code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "The mandate is active."
+    },
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "The mandate is cancelled."
+    },
+    "EXPI": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "The mandate has passed the end date."
+    },
+    "SUSP": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "The mandate is put on hold."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "The mandate data has been received by the related agent."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "The mandate data has been rejected."
+    },
+    "PATC": {
+      "isoName": "PartiallyAcceptedTechnicalCorrect",
+      "name": "Partially Accepted Technical Correct",
+      "definition": "The mandate initiation needs multiple authentications, where some but not yet all have been performed. Syntactical and semantical validations are successful."
+    }
+  }
+}

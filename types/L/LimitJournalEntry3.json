@@ -1,0 +1,40 @@
+{
+  "isoType": "LimitJournalEntry3",
+  "language": "en",
+  "name": "Limit Journal Entry 3",
+  "definition": "Journal entries track changes to the utilisation of the limit. Entries exist for all activity impacting the limit.",
+  "isoElements": {
+    "JournalDate": {
+      "name": "Journal Date",
+      "definition": "Date and time for which the limit journal entry applies."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the entry is a credit or a debit entry."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money of individual entry impacting the limit."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique reference as assigned by the account owner institution to unambiguously identify the entry."
+    },
+    "AccountServicerReference": {
+      "name": "Account Servicer Reference",
+      "definition": "Unique reference as assigned by the account servicing institution to unambiguously identify the entry."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor."
+    },
+    "AdditionalEntryInformation": {
+      "name": "Additional Entry Information",
+      "definition": "Further details of the entry."
+    }
+  }
+}

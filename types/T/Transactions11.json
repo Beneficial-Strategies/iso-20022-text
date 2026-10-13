@@ -1,0 +1,31 @@
+{
+  "isoType": "Transactions11",
+  "language": "en",
+  "name": "Transactions 11",
+  "definition": "Reports on transactions.",
+  "isoElements": {
+    "PaymentCommonInformation": {
+      "name": "Payment Common Information",
+      "definition": "Common detailed payment instruction information."
+    },
+    "TransactionsSummary": {
+      "name": "Transactions Summary",
+      "definition": "Indicates the total number and sum of the transactions."
+    },
+    "TransactionReport": {
+      "name": "Transaction Report",
+      "definition": "Reports either on the transaction information or on a business error."
+    }
+  },
+  "isoRules": {
+    "PaymentInstructionStatusRule": {
+      "definition": "If PaymentCommonInformation/PaymentInstructionStatus is present, then TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus is not allowed.|If PaymentCommonInformation/PaymentInstructionStatus is not present, then TransactionReport/Transaction/Payment/InstructionStatus/PaymentInstructionStatus is optional."
+    },
+    "TransferValueDateRule": {
+      "definition": "If PaymentCommonInformation/RequestedExecutionDate is present, then TransactionReport/Transaction/Payment/RequestedExecutionDate is not allowed.|If PaymentCommonInformation/RequestedExecutionDate is not present, then TransactionReport/Transaction/Payment/RequestedExecutionDate is optional."
+    },
+    "CreditDebitIndicator1Rule": {
+      "definition": "If PaymentCommonInformation/CreditDebitIndicator is present, then TransactionReport/Transaction/CreditDebitIndicator is not allowed.|If PaymentCommonInformation/CreditDebitIndicator is not present, then TransactionReport/Transaction/CreditDebitIndicator is optional."
+    }
+  }
+}

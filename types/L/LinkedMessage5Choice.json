@@ -1,0 +1,24 @@
+{
+  "isoType": "LinkedMessage5Choice",
+  "language": "en",
+  "name": "Linked Message 5 Choice",
+  "definition": "Reference to a message.",
+  "isoElements": {
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "OtherReference": {
+      "name": "Other Reference",
+      "definition": "Reference to a linked message sent in a proprietary way or reference of a system."
+    }
+  },
+  "isoRules": {
+    "PreviousReferenceGuideline": {
+      "definition": "If PreviousReference/MessageName is present, it must start with acmt.001 or acmt.003 and PreviousReference/Reference must contain the business reference of a message."
+    },
+    "OtherReferenceGuideline": {
+      "definition": "OtherReference should be used for an account opening or an account modification instruction sent in a proprietary way or for system references. |If OtherReference is present, OtherReference/MessageName must contain, for example, 'fax' or 'phone' or 'email'."
+    }
+  }
+}

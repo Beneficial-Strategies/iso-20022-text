@@ -1,0 +1,20 @@
+{
+  "isoType": "UnableToApplyJustification4Choice",
+  "language": "en",
+  "name": "Unable To Apply Justification 4 Choice",
+  "definition": "Specifies the details of missing or incorrect information or the complete set of available information.",
+  "isoElements": {
+    "AnyInformation": {
+      "name": "Any Information",
+      "definition": "Indicates whether or not all available information on the underlying payment instruction is requested."
+    },
+    "MissingOrIncorrectInformation": {
+      "name": "Missing Or Incorrect Information",
+      "definition": "Set of elements used to indicate which information is missing or incorrect."
+    },
+    "PossibleDuplicateInstruction": {
+      "name": "Possible Duplicate Instruction",
+      "definition": "Indicates whether or not the referred item is a possible duplicate of a previous instruction or entry."
+    }
+  }
+}

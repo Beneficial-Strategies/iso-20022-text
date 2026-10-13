@@ -1,0 +1,68 @@
+{
+  "isoType": "ChargesPerTransactionRecord6",
+  "language": "en",
+  "name": "Charges Per Transaction Record 6",
+  "definition": "Provides a detailed breakdown of the charges per payment transaction.",
+  "isoElements": {
+    "RecordIdentification": {
+      "name": "Record Identification",
+      "definition": "Unique and unambiguous identification of the charges record for reconciliation purpose."
+    },
+    "ChargesRequestor": {
+      "name": "Charges Requestor",
+      "definition": "Agent that requests the charges, if other than the sender."
+    },
+    "SettlementInstruction": {
+      "name": "Settlement Instruction",
+      "definition": "Specifies the details on how the settlement of the subsequent transaction(s) is completed.||Usage: this agent and party data should be mapped as-is onto the resulting message for the payment of the charges."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Identifies the underlying transaction(s) to which the charges apply."
+    },
+    "TotalChargesPerRecord": {
+      "name": "Total Charges Per Record",
+      "definition": "Total charges claimed for the transaction record."
+    },
+    "ChargesBreakdown": {
+      "name": "Charges Breakdown",
+      "definition": "Provides the detailed breakdown of the charges per type."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the charges are or will be available."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Specifies the debtor of the initial payment transaction."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Specifies the account of the debtor of the initial payment transaction."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Specifies the debtor agent of the initial payment transaction, if different from the charges account agent."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Specifies the account of the debtor agent of the initial payment transaction, when instructing agent is different from the charges account owner."
+    },
+    "ChargesAccountAgent": {
+      "name": "Charges Account Agent",
+      "definition": "Agent that services the charges account.||Usage: this element should be used where the charge being claimed does not relate to the processing of a payment transaction e.g. it relates to an investigation or other process. This identifies the agent that services the account from which charges are to be settled from."
+    },
+    "ChargesAccountAgentAccount": {
+      "name": "Charges Account Agent Account",
+      "definition": "Account of the agent that services the charges account.||Usage: this element should be used where the charge being claimed does not relate to the processing of a payment transaction e.g. it relates to an investigation or other process. This identifies the account from which charges are to be settled from."
+    },
+    "InstructionForInstructedAgent": {
+      "name": "Instruction For Instructed Agent",
+      "definition": "Further information related to the processing of the payment adjustment instruction that may need to be acted upon by the next agent."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the reason for the charges."
+    }
+  }
+}

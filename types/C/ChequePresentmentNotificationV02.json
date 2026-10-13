@@ -1,0 +1,20 @@
+{
+  "isoType": "ChequePresentmentNotificationV02",
+  "language": "en",
+  "name": "Cheque Presentment Notification V 02",
+  "definition": "The ChequePresentmentNotification message is sent by a drawer bank, or a bank acting on behalf of the drawer bank to the bank on which a/several cheque(s) has been drawn (the drawee bank).|It is used to advise the drawee bank, or confirm to an enquiring bank, the details concerning the cheque(s) referred to in the message.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "Cheque": {
+      "name": "Cheque",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

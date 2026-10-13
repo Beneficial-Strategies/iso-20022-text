@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionEventProcessingType1Code",
+  "language": "en",
+  "name": "Corporate Action Event Processing Type 1 Code",
+  "definition": "Specifies the type of event processing.",
+  "isoCodes": {
+    "GENL": {
+      "isoName": "General",
+      "name": "General",
+      "definition": "No debit or credit of resources."
+    },
+    "DISN": {
+      "isoName": "Distribution",
+      "name": "Distribution",
+      "definition": "Holder of the relevant security on a certain date, for example, the record date, will receive a benefit without giving up the underlying security."
+    },
+    "REOR": {
+      "isoName": "Reorganisation",
+      "name": "Reorganisation",
+      "definition": "Underlying security will be debited and may be replaced by another resource (or resources)."
+    }
+  }
+}

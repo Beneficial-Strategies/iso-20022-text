@@ -1,0 +1,28 @@
+{
+  "isoType": "MemberStatus1Code",
+  "language": "en",
+  "name": "Member Status 1 Code",
+  "definition": "Specifies the live status of a member of a system.",
+  "isoCodes": {
+    "ENBL": {
+      "isoName": "Enabled",
+      "name": "Enabled",
+      "definition": "Member is live on the system."
+    },
+    "DSBL": {
+      "isoName": "Disabled",
+      "name": "Disabled",
+      "definition": "Member is temporarily not live on the system."
+    },
+    "DLTD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Member is no longer live on the system."
+    },
+    "JOIN": {
+      "isoName": "Joining",
+      "name": "Joining",
+      "definition": "Member is joining and will soon be enabled on the system."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SystemEventAcknowledgementV01",
+  "language": "en",
+  "name": "System Event Acknowledgement V 01",
+  "definition": "The SystemEventAcknowledgement message is sent by a participant of a central system to the central system to acknowledge the notification of an occurrence of an event in a central system.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for the message, as assigned by the sender."
+    },
+    "OriginatorReference": {
+      "name": "Originator Reference",
+      "definition": "Represents the original reference of the system event notification for which the acknowledgement is given, as assigned by the central system."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "AcknowledgementDetails": {
+      "name": "Acknowledgement Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "SettlementDetails103",
+  "language": "en",
+  "name": "Settlement Details 103",
+  "definition": "Details of settlement of a transaction.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade is to be settled."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Specifies whether registration should occur upon receipt."
+    },
+    "LegalRestrictions": {
+      "name": "Legal Restrictions",
+      "definition": "Regulatory restrictions applicable to a security."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "SettlementSystemMethod": {
+      "name": "Settlement System Method",
+      "definition": "Specifies whether the settlement instruction is to be settled through the default or the alternate settlement system."
+    },
+    "TaxCapacity": {
+      "name": "Tax Capacity",
+      "definition": "Tax role capacity of the instructing party."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "If SettlementDetails elements are used, then their conditions of use must be pre-agreed between account owner and account servicer."
+    }
+  }
+}

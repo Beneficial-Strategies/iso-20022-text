@@ -1,0 +1,81 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestV04",
+  "language": "en",
+  "name": "Shareholders Identification Disclosure Request V 04",
+  "definition": "The ShareholdersIdentificationDisclosureRequest message is sent by an issuer or by a third party nominated by the issuer (such as an issuer's agent) to the first intermediaries in a custody chain or is sent by any intermediaries in a custody chain to the next intermediary down the chain of intermediaries (towards the investor side of the chain) in order to request the disclosure of shareholders identity and provides information on the receiving party to whom responses must be sent, on the financial instrument concerned and on the deadline to respond.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "name": "Issuer Disclosure Request Identification",
+      "definition": "Official and unique identification assigned to a shareholder identification disclosure request process by the issuer or third party nominated by it."
+    },
+    "DisclosureRequestType": {
+      "name": "Disclosure Request Type",
+      "definition": "Specifies the type of disclosure request."
+    },
+    "PreviousDisclosureRequestIdentification": {
+      "name": "Previous Disclosure Request Identification",
+      "definition": "Identification of a previously sent shareholder identification disclosure request message."
+    },
+    "ForwardRequestIndicator": {
+      "name": "Forward Request Indicator",
+      "definition": "Indicates whether the request is to be forwarded to and responded by the other intermediaries down the chain of intermediaries or not. If the request is not to be forwarded, the indicator may not be present."
+    },
+    "ResponseThroughChainIndicator": {
+      "name": "Response Through Chain Indicator",
+      "definition": "Indicates whether the shareholder identification disclosure response is to be sent back down the chain of intermediaries or directly to the identified response recipient. |If \"true\" or \"1\", the response must be sent back through the chain of intermediaries.|If \"false\" or \"0\" or if the indicator is not present, the response must be sent directly to the identified response recipient."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "name": "Shareholder Rights Directive Indicator",
+      "definition": "Indicates whether the request was initiated by the first intermediary in the custody chain in accordance with SRD II."
+    },
+    "PlaceOfJurisdiction": {
+      "name": "Place Of Jurisdiction",
+      "definition": "Governing law or place of jurisdiction where the disclosure request relates to."
+    },
+    "ApplicableLaw": {
+      "name": "Applicable Law",
+      "definition": "Identification of the law which relates to the disclosure request."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "ShareholdersDisclosureRecordDate": {
+      "name": "Shareholders Disclosure Record Date",
+      "definition": ""
+    },
+    "SharesQuantityThreshold": {
+      "name": "Shares Quantity Threshold",
+      "definition": "Minimum number of shares held by a shareholder above which the identification must be disclosed."
+    },
+    "RequestShareHeldDate": {
+      "name": "Request Share Held Date",
+      "definition": ""
+    },
+    "DisclosureResponseRecipient": {
+      "name": "Disclosure Response Recipient",
+      "definition": ""
+    },
+    "IssuerDisclosureDeadline": {
+      "name": "Issuer Disclosure Deadline",
+      "definition": ""
+    },
+    "DisclosureResponseDeadline": {
+      "name": "Disclosure Response Deadline",
+      "definition": ""
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "PreviousDisclosureRequestIdentificationRule": {
+      "definition": "If DisclosureRequestType is REPL (Replacement), then PreviousDisclosureRequestIdentification must be present."
+    }
+  }
+}

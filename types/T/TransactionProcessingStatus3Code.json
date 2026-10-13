@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionProcessingStatus3Code",
+  "language": "en",
+  "name": "Transaction Processing Status 3 Code",
+  "definition": "Provides the processing status of a transaction (at account servicer level).",
+  "isoCodes": {
+    "CAND": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "PACK": {
+      "isoName": "AcknowledgedAccepted",
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged/accepted for further processing by the account servicer."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instruction has been rejected for further processing."
+    },
+    "REPR": {
+      "isoName": "InRepair",
+      "name": "In Repair",
+      "definition": "Instruction is accepted but in repair."
+    }
+  }
+}

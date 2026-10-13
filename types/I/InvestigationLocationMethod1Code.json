@@ -1,0 +1,38 @@
+{
+  "isoType": "InvestigationLocationMethod1Code",
+  "language": "en",
+  "name": "Investigation Location Method 1 Code",
+  "definition": "Specifies the method used to deliver/retrieve the investigation information.",
+  "isoCodes": {
+    "EDIC": {
+      "isoName": "ElectronicDataInterchange",
+      "name": "Electronic Data Interchange",
+      "definition": "Investigation related data must be sent through Electronic Data Interchange (EDI)."
+    },
+    "EMAL": {
+      "isoName": "EMail",
+      "name": "E Mail",
+      "definition": "Investigation related data must be sent through e-mail."
+    },
+    "FAXI": {
+      "isoName": "Fax",
+      "name": "Fax",
+      "definition": "Investigation related data must be faxed."
+    },
+    "POST": {
+      "isoName": "Post",
+      "name": "Post",
+      "definition": "Investigation related data must be sent through postal services."
+    },
+    "SMSM": {
+      "isoName": "SMS",
+      "name": "SMS",
+      "definition": "Investigation related data must be sent through by phone as a short message service (SMS)."
+    },
+    "URID": {
+      "isoName": "UniformResourceIdentifier",
+      "name": "Uniform Resource Identifier",
+      "definition": "Investigation related data needs to be sent to a Uniform Resource Identifier (URI). URI is a compact string of characters that uniquely identify an abstract or physical resource. URI's are the super-set of identifiers, such as URLs, email addresses, ftp sites, etc, and as such, provide the syntax for all of the identification schemes."
+    }
+  }
+}

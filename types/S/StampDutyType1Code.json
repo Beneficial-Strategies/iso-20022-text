@@ -1,0 +1,28 @@
+{
+  "isoType": "StampDutyType1Code",
+  "language": "en",
+  "name": "Stamp Duty Type 1 Code",
+  "definition": "Specifies if the stamp duty is applicable.",
+  "isoCodes": {
+    "SDRU": {
+      "isoName": "OutsideCSD",
+      "name": "Outside CSD",
+      "definition": "SDRT paid outside of CSD on corporate action."
+    },
+    "SDRT": {
+      "isoName": "Paid",
+      "name": "Paid",
+      "definition": "SDRT paid on another transaction."
+    },
+    "SDRN": {
+      "isoName": "NotApplicable",
+      "name": "Not Applicable",
+      "definition": "Stamp duty not applicable."
+    },
+    "SDRQ": {
+      "isoName": "Exemption",
+      "name": "Exemption",
+      "definition": "Exempt, for any other reason."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingRate1",
+  "language": "en",
+  "name": "Billing Rate 1",
+  "definition": "Specifies the billing rate.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Defines the type of rate or factor."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Value of the rate or factor identified in the rate identification."
+    },
+    "DaysInPeriod": {
+      "name": "Days In Period",
+      "definition": "Number of days in the statement period. ||Usage: Used along with DaysInYear for time dependent per annum rate value."
+    },
+    "DaysInYear": {
+      "name": "Days In Year",
+      "definition": "Number of days in the year.||Usage: Used along with DaysInPeriod for time dependent per annum rate value."
+    }
+  }
+}

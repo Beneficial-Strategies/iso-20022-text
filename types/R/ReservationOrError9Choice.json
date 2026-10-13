@@ -1,0 +1,16 @@
+{
+  "isoType": "ReservationOrError9Choice",
+  "language": "en",
+  "name": "Reservation Or Error 9 Choice",
+  "definition": "Reports either on the reservation or on a business error.",
+  "isoElements": {
+    "Reservation": {
+      "name": "Reservation",
+      "definition": "Requested information on the limit."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    }
+  }
+}

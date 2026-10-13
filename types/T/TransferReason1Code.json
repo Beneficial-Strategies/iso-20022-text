@@ -1,0 +1,63 @@
+{
+  "isoType": "TransferReason1Code",
+  "language": "en",
+  "name": "Transfer Reason 1 Code",
+  "definition": "Specifies the reason for the assets transfer.",
+  "isoCodes": {
+    "TRAU": {
+      "isoName": "UndividedPossession",
+      "name": "Undivided Possession",
+      "definition": "Transfer is an undivided possession."
+    },
+    "TRAC": {
+      "isoName": "TransferBetweenSpouses",
+      "name": "Transfer Between Spouses",
+      "definition": "Transfer is between spouses."
+    },
+    "TRAT": {
+      "isoName": "Trade",
+      "name": "Trade",
+      "definition": "Transfer is a trade."
+    },
+    "TRAO": {
+      "isoName": "OrdinaryTransfer",
+      "name": "Ordinary Transfer",
+      "definition": "Transfer is ordinary."
+    },
+    "TRAI": {
+      "isoName": "Heritage",
+      "name": "Heritage",
+      "definition": "Transfer is a heritage."
+    },
+    "TRAG": {
+      "isoName": "Gift",
+      "name": "Gift",
+      "definition": "Transfer is a gift."
+    },
+    "TPLD": {
+      "isoName": "PledgedAccountTransfer",
+      "name": "Pledged Account Transfer",
+      "definition": "Transfer to pledged account (in certain circumstances distributors have to freeze and transfer total or partial holding to separate omnibus account e.g. investigation required by fiscal authority or police)."
+    },
+    "TTDT": {
+      "isoName": "TDTFrameworkTransfer",
+      "name": "TDT Framework Transfer",
+      "definition": "Transfer instruction executed within TDT framework (TDT framework is the operation model promoted by the Italian Banking Association for transfer and most of transfers, but not all, will be executed in accordance with that process)."
+    },
+    "TRPE": {
+      "isoName": "TransferBetweenDifferentBeneficiaries",
+      "name": "Transfer Between Different Beneficiaries",
+      "definition": "Transfer between different beneficiaries with taxation to be applied (accounts with different owner)."
+    },
+    "TRAF": {
+      "isoName": "Demerger",
+      "name": "Demerger",
+      "definition": "Transfer is the result of a demerger or division."
+    },
+    "TRAN": {
+      "isoName": "BetweenOwnAccounts",
+      "name": "Between Own Accounts",
+      "definition": "Transfer is between own accounts."
+    }
+  }
+}

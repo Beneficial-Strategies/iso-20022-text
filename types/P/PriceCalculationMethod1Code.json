@@ -1,0 +1,33 @@
+{
+  "isoType": "PriceCalculationMethod1Code",
+  "language": "en",
+  "name": "Price Calculation Method 1 Code",
+  "definition": "Standard code to specify the method applied for the calculation of the price.",
+  "isoCodes": {
+    "VWAP": {
+      "isoName": "VolumeWeightedAveragePrice",
+      "name": "Volume Weighted Average Price",
+      "definition": "The price is based on a volume-weighted average price which is a ratio of the cumulative share price to the cumulative volume traded over a given time period."
+    },
+    "NAVF": {
+      "isoName": "FinalAssetValue",
+      "name": "Final Asset Value",
+      "definition": "Final asset value at the liquidation of the fund."
+    },
+    "MIMP": {
+      "isoName": "MidMarketPrice",
+      "name": "Mid Market Price",
+      "definition": "Price at a certain amount of time prior to the date it is announced."
+    },
+    "NAVA": {
+      "isoName": "NetAssetValue",
+      "name": "Net Asset Value",
+      "definition": "Net value of an investment fund's assets less its liabilities, divided by the number of shares outstanding."
+    },
+    "AVCL": {
+      "isoName": "AverageClosingPrice",
+      "name": "Average Closing Price",
+      "definition": "Price of the asset at close of a given day."
+    }
+  }
+}

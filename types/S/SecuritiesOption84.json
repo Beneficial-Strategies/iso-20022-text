@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesOption84",
+  "language": "en",
+  "name": "Securities Option 84",
+  "definition": "Specifies the security option of a corporate event.",
+  "isoElements": {
+    "MaximumQuantityToInstruct": {
+      "name": "Maximum Quantity To Instruct",
+      "definition": "Maximum quantity of financial instrument that may be instructed."
+    },
+    "MinimumQuantityToInstruct": {
+      "name": "Minimum Quantity To Instruct",
+      "definition": "Minimum quantity of financial instrument that may be instructed."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "name": "Minimum Multiple Quantity To Instruct",
+      "definition": "Minimum multiple quantity of financial instrument that may be instructed."
+    },
+    "NewBoardLotQuantity": {
+      "name": "New Board Lot Quantity",
+      "definition": "Quantity of equity that makes up the new board lot."
+    },
+    "NewDenominationQuantity": {
+      "name": "New Denomination Quantity",
+      "definition": "New denomination of the equity following, for example, an increase or decrease in nominal value."
+    },
+    "FrontEndOddLotQuantity": {
+      "name": "Front End Odd Lot Quantity",
+      "definition": "Specifies that if an order is prorated holders of odd lots who tender their full position will not have tendered position prorated but rather accepted in full."
+    },
+    "BackEndOddLotQuantity": {
+      "name": "Back End Odd Lot Quantity",
+      "definition": "Represents the presence of a back end odd lot provision and the quantity of equity required after proration to be eligible for this privilege."
+    }
+  }
+}

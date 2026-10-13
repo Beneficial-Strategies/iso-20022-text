@@ -1,0 +1,28 @@
+{
+  "isoType": "CashWithdrawal1",
+  "language": "en",
+  "name": "Cash Withdrawal 1",
+  "definition": "Withdrawal of an amount of money defined in cash notes and or cash coins.",
+  "isoElements": {
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicates whether the denominations in the original cash withdrawal request have been amended.||Usage: where this element is not used the denominations match the original cash withdrawal request or no denominations were included in the original cash withdrawal request."
+    },
+    "NoteDetails": {
+      "name": "Note Details",
+      "definition": "Specifies the details of the requested withdrawal in notes."
+    },
+    "CoinDetails": {
+      "name": "Coin Details",
+      "definition": "Specifies the details of the requested withdrawal in coins."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of all notes and coins being withdrawn."
+    },
+    "DiscrepancyIdentification": {
+      "name": "Discrepancy Identification",
+      "definition": "Unique identification for any discrepancy."
+    }
+  }
+}

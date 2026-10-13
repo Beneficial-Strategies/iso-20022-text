@@ -1,0 +1,32 @@
+{
+  "isoType": "IdentificationAssignment4",
+  "language": "en",
+  "name": "Identification Assignment 4",
+  "definition": "Provides the details of the identification assignment.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the assigner, and sent to the next party in the chain to unambiguously identify the message.||Usage: The assigner has to make sure that MessageIdentification is unique per assignee for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the identification assignment was created."
+    },
+    "Creator": {
+      "name": "Creator",
+      "definition": "Party that created the identification assignment."
+    },
+    "FirstAgent": {
+      "name": "First Agent",
+      "definition": "Identifies the first agent in the identification chain, following the payment initiating party."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Party that assigns the identification assignment to another party. This is also the sender of the message."
+    },
+    "Assignee": {
+      "name": "Assignee",
+      "definition": "Party that the identification assignment is assigned to. This is also the receiver of the message."
+    }
+  }
+}

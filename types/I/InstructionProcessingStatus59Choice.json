@@ -1,0 +1,24 @@
+{
+  "isoType": "InstructionProcessingStatus59Choice",
+  "language": "en",
+  "name": "Instruction Processing Status 59 Choice",
+  "definition": "Choice between different instruction processing statuses.",
+  "isoElements": {
+    "AcceptedAndConfirmed": {
+      "name": "Accepted And Confirmed",
+      "definition": "Provides status information related to a buyer instruction request that is accepted and confirmed (matched by the counterparty)."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Provides status information related to an instruction request rejected for further processing due to system reasons."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Provides status information related to a pending instruction."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Proprietary status related to an instruction."
+    }
+  }
+}

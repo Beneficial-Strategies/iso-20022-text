@@ -1,0 +1,40 @@
+{
+  "isoType": "OperationMandate7",
+  "language": "en",
+  "name": "Operation Mandate 7",
+  "definition": "Information specifying the mandate.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification of the mandate."
+    },
+    "ApplicableChannel": {
+      "name": "Applicable Channel",
+      "definition": "Channel for which the operation mandate is valid. If ApplicableChannel equals Fax, this means that a bank operation instruction sent by fax will be processed according to the mandates exchanged in this message."
+    },
+    "RequiredSignatureNumber": {
+      "name": "Required Signature Number",
+      "definition": "Number of required and necessary signatures by the mandate."
+    },
+    "SignatureOrderIndicator": {
+      "name": "Signature Order Indicator",
+      "definition": "Indicator whether a certain order of signatures has to be respected or not."
+    },
+    "MandateHolder": {
+      "name": "Mandate Holder",
+      "definition": "Holder of the mandate."
+    },
+    "BankOperation": {
+      "name": "Bank Operation",
+      "definition": "Bank operation allowed by a mandate."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Specifies the date when the mandate becomes valid."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "Specifies the date when the mandate stops to be valid."
+    }
+  }
+}

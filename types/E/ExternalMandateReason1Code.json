@@ -1,0 +1,248 @@
+{
+  "isoType": "ExternalMandateReason1Code",
+  "language": "en",
+  "name": "External Mandate Reason 1 Code",
+  "definition": "Specifies the external mandate processing reason code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "isoName": "IncorrectAccountNumber",
+      "name": "Incorrect Account Number",
+      "definition": "Format of the account number specified is not correct"
+    },
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the Receiver's books"
+    },
+    "AC06": {
+      "isoName": "BlockedAccount",
+      "name": "Blocked Account",
+      "definition": "Account specified is blocked, prohibiting posting of transactions against it."
+    },
+    "AG01": {
+      "isoName": "TransactionForbidden",
+      "name": "Transaction Forbidden",
+      "definition": "Transaction forbidden on this type of account (formerly NoAgreement)"
+    },
+    "AG02": {
+      "isoName": "InvalidBankOperationCode",
+      "name": "Invalid Bank Operation Code",
+      "definition": "Bank Operation code specified in the message is not valid for receiver"
+    },
+    "AM02": {
+      "isoName": "NotAllowedAmount",
+      "name": "Not Allowed Amount",
+      "definition": "Specific transaction/message amount is greater than allowed maximum"
+    },
+    "AM03": {
+      "isoName": "NotAllowedCurrency",
+      "name": "Not Allowed Currency",
+      "definition": "Specified message amount is a non processable currency outside of existing agreement"
+    },
+    "AM05": {
+      "isoName": "Duplication",
+      "name": "Duplication",
+      "definition": "Duplication."
+    },
+    "BE01": {
+      "isoName": "InconsistentWithEndCustomer",
+      "name": "Inconsistent With End Customer",
+      "definition": "Identification of end customer is not consistent with associated account number. (formerly CreditorConsistency)."
+    },
+    "BE04": {
+      "isoName": "MissingCreditorAddress",
+      "name": "Missing Creditor Address",
+      "definition": "Specification of creditor's address, which is required for payment, is missing/not correct (formerly IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "isoName": "UnrecognisedInitiatingParty",
+      "name": "Unrecognised Initiating Party",
+      "definition": "Party who initiated the message is not recognised by the end customer"
+    },
+    "BE06": {
+      "isoName": "UnknownEndCustomer",
+      "name": "Unknown End Customer",
+      "definition": "End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books"
+    },
+    "BE07": {
+      "isoName": "MissingDebtorAddress",
+      "name": "Missing Debtor Address",
+      "definition": "Specification of debtor's address, which is required for payment, is missing/not correct."
+    },
+    "DT01": {
+      "isoName": "InvalidDate",
+      "name": "Invalid Date",
+      "definition": "Invalid date (eg, wrong settlement date)"
+    },
+    "FF01": {
+      "isoName": "InvalidFileFormat",
+      "name": "Invalid File Format",
+      "definition": "File format incomplete or invalid"
+    },
+    "MD01": {
+      "isoName": "NoMandate",
+      "name": "No Mandate",
+      "definition": "No Mandate"
+    },
+    "MD02": {
+      "isoName": "MissingMandatoryInformationInMandate",
+      "name": "Missing Mandatory Information In Mandate",
+      "definition": "Mandate related information data required by the scheme is missing."
+    },
+    "MD07": {
+      "isoName": "EndCustomerDeceased",
+      "name": "End Customer Deceased",
+      "definition": "End customer is deceased."
+    },
+    "MD08": {
+      "isoName": "NoMandateServiceByAgent",
+      "name": "No Mandate Service By Agent",
+      "definition": "Receiving agent does not offer specified Mandate services"
+    },
+    "MD09": {
+      "isoName": "NoMandateServiceOnCustomer",
+      "name": "No Mandate Service On Customer",
+      "definition": "Account is not open to specified Mandates services"
+    },
+    "MD10": {
+      "isoName": "NoMandateServiceForSpecified",
+      "name": "No Mandate Service For Specified",
+      "definition": "Account is not open to specified Mandates services for this particular creditor"
+    },
+    "MD11": {
+      "isoName": "UnrecognisedAgent",
+      "name": "Unrecognised Agent",
+      "definition": "Agent to whom the message needs to be forwarded cannot be located"
+    },
+    "MD12": {
+      "isoName": "NotUniqueMandateReference",
+      "name": "Not Unique Mandate Reference",
+      "definition": "Mandate identification is not unique to the creditor"
+    },
+    "MD13": {
+      "isoName": "IncorrectCustomerAuthentication",
+      "name": "Incorrect Customer Authentication",
+      "definition": "There is a problem with the customer authentication"
+    },
+    "MD14": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent in the payment workflow is incorrect"
+    },
+    "MD15": {
+      "isoName": "IncorrectCurrency",
+      "name": "Incorrect Currency",
+      "definition": "Currency of the transaction is incorrect"
+    },
+    "MD16": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation/amendment requested by the debtor"
+    },
+    "MD17": {
+      "isoName": "RequestedByInitiatingParty",
+      "name": "Requested By Initiating Party",
+      "definition": "Cancellation/amendment requested by the creditor"
+    },
+    "MD18": {
+      "isoName": "RequestedByInitiatingPartyAndCustomer",
+      "name": "Requested By Initiating Party And Customer",
+      "definition": "Cancellation/amendment requested by the creditor and the debtor"
+    },
+    "MD19": {
+      "isoName": "MandateCancelledDueToEarlySettlement",
+      "name": "Mandate Cancelled Due To Early Settlement",
+      "definition": "Mandate cancellation following early reimbursement of the debit by the debtor"
+    },
+    "MD20": {
+      "isoName": "MandateExpired",
+      "name": "Mandate Expired",
+      "definition": "Mandate cancellation following validity expiration"
+    },
+    "MD21": {
+      "isoName": "MandateCancelledDueToFraud",
+      "name": "Mandate Cancelled Due To Fraud",
+      "definition": "Mandate cancellation due to suspected fraud"
+    },
+    "MD22": {
+      "isoName": "MandateInitiationCancelled",
+      "name": "Mandate Initiation Cancelled",
+      "definition": "Mandate cancellation following mandate initiation cancellation"
+    },
+    "MD23": {
+      "isoName": "MandateAmendmentCancelled",
+      "name": "Mandate Amendment Cancelled",
+      "definition": "Mandate cancellation following mandate amendment cancellation"
+    },
+    "MS02": {
+      "isoName": "NotSpecifiedReasonCustomerGenerated",
+      "name": "Not Specified Reason Customer Generated",
+      "definition": "Reason has not been specified by end customer"
+    },
+    "MS03": {
+      "isoName": "NotSpecifiedReasonAgentGenerated",
+      "name": "Not Specified Reason Agent Generated",
+      "definition": "Reason has not been specified by agent."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "RC01": {
+      "isoName": "BankIdentifierIncorrect",
+      "name": "Bank Identifier Incorrect",
+      "definition": "Bank Identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode)."
+    },
+    "RF01": {
+      "isoName": "NotUniqueTransactionReference",
+      "name": "Not Unique Transaction Reference",
+      "definition": "Transaction reference is not unique within the message."
+    },
+    "RR01": {
+      "isoName": "MissingDebtorAccountOrIdentification",
+      "name": "Missing Debtor Account Or Identification",
+      "definition": "Specification of the debtor’s account or unique identification needed for reasons of regulatory requirements is insufficient or missing"
+    },
+    "RR02": {
+      "isoName": "MissingDebtorNameOrAddress",
+      "name": "Missing Debtor Name Or Address",
+      "definition": "Specification of the debtor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR03": {
+      "isoName": "MissingCreditorNameOrAddress",
+      "name": "Missing Creditor Name Or Address",
+      "definition": "Specification of the creditor’s name and/or address needed for regulatory requirements is insufficient or missing."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason"
+    },
+    "SL01": {
+      "isoName": "SpecificServiceOfferedByDebtorAgent",
+      "name": "Specific Service Offered By Debtor Agent",
+      "definition": "Due to specific service offered by the Debtor Agent"
+    },
+    "SL11": {
+      "isoName": "CreditorNotOnWhitelistOfDebtor",
+      "name": "Creditor Not On Whitelist Of Debtor",
+      "definition": "Whitelisting service offered by the Debtor Agent; Debtor has not included the Creditor on its “Whitelist” (yet). In the Whitelist the Debtor may list all allowed Creditors to debit Debtor bank account."
+    },
+    "SL12": {
+      "isoName": "CreditorOnBlacklistOfDebtor",
+      "name": "Creditor On Blacklist Of Debtor",
+      "definition": "Blacklisting service offered by the Debtor Agent; Debtor included the Creditor on his “Blacklist”. In the Blacklist the Debtor may list all Creditors not allowed to debit Debtor bank account."
+    },
+    "SL13": {
+      "isoName": "MaximumNumberOfDirectDebitTransactionsExceeded",
+      "name": "Maximum Number Of Direct Debit Transactions Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transactions per period service offered by the Debtor Agent."
+    },
+    "SL14": {
+      "isoName": "MaximumDirectDebitTransactionAmountExceeded",
+      "name": "Maximum Direct Debit Transaction Amount Exceeded",
+      "definition": "Due to Maximum allowed Direct Debit Transaction amount service offered by the Debtor Agent."
+    }
+  }
+}

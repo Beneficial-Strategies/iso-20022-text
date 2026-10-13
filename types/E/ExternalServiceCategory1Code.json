@@ -1,0 +1,98 @@
+{
+  "isoType": "ExternalServiceCategory1Code",
+  "language": "en",
+  "name": "External Service Category 1 Code",
+  "definition": "Specifies the service category, as published in an external status reason code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ACMS": {
+      "isoName": "AccountManagementServices",
+      "name": "Account Management Services",
+      "definition": "Agreement under which or rules under which the transaction should be processed expressed as a code.|This category encompasses the reporting of fees related to account management services including, inter alia, membership fees and minimum fees (i.e. fees added to small invoices in order to reach the minimum fees agreed for each participant)."
+    },
+    "BICM": {
+      "isoName": "BilateralCollateralManagement",
+      "name": "Bilateral Collateral Management",
+      "definition": "This category encompasses the reporting of all fees related to the management of collateral subject to bilateral agreements (covering central bank financing for marketable and non-marketable assets, non-cleared OTC derivatives and securities financing)."
+    },
+    "CALM": {
+      "isoName": "CashAndLiquidityManagementServices",
+      "name": "Cash And Liquidity Management Services",
+      "definition": "This category encompasses the reporting of all fees related to cash and liquidity management services."
+    },
+    "CLEA": {
+      "isoName": "ClearingServices",
+      "name": "Clearing Services",
+      "definition": "This category encompasses the reporting of fees related to the provision of clearing services."
+    },
+    "CUST": {
+      "isoName": "CustodyServices",
+      "name": "Custody Services",
+      "definition": "This category encompasses the reporting of all fees that are charged per operation such as election instructions. The category is also used to report fees on tax services related to assets under custody together with the processing of corporate actions and meetings events."
+    },
+    "INSV": {
+      "isoName": "InformationServices",
+      "name": "Information Services",
+      "definition": "This category encompasses the reporting of all fees related to the provision of information through any kind of means and to the provision of connectivity tools. This includes ISO messaging (inbound or outbound), graphical user interface (GUI) access, connectivity, recharge of security tokens, report subscriptions and the provision of data by any other means (e.g. paper based formats)."
+    },
+    "INVS": {
+      "isoName": "InvestmentFundServices",
+      "name": "Investment Fund Services",
+      "definition": "This category encompasses the reporting of all related to specific services provided for investment funds, such as order routing or holder reporting.  The safekeeping and settlement of investment funds and exchange-traded funds should be reported under the Safekeeping Services and Settlement Services categories respectively."
+    },
+    "ISSU": {
+      "isoName": "IssuerServices",
+      "name": "Issuer Services",
+      "definition": "This category encompasses the reporting of fees related to the provision of issuer services by a CSD. This includes fees such as issuance and redemptions of securities and management of corporate actions."
+    },
+    "OTHR": {
+      "isoName": "OtherServices",
+      "name": "Other Services",
+      "definition": "This category encompasses the reporting of fees related to other services provided which might not be set in a general tariff applicable to all clients, but bilaterally agreed with clients individually. This includes the provision of customised service requests and other support provided to clients such as training and testing access as well as out-of-pocket expenses."
+    },
+    "PENM": {
+      "isoName": "PenaltyMechanism",
+      "name": "Penalty Mechanism",
+      "definition": "This category encompasses the reporting of fees related to the recovery of costs associated with the development and maintenance of the penalty mechanism. Note: this category should not be used for the reporting of the penalty itself."
+    },
+    "REGI": {
+      "isoName": "RegistrationServices",
+      "name": "Registration Services",
+      "definition": "This category encompasses the reporting of all fees related to the registration of securities."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingServices",
+      "name": "Safekeeping Services",
+      "definition": "This category encompasses the reporting of all fees that are calculated as basis points applied to the assets under custody. This includes notary, central maintenance and asset servicing fees."
+    },
+    "SECL": {
+      "isoName": "SecuritiesLendingServices",
+      "name": "Securities Lending Services",
+      "definition": "This category encompasses the reporting of all fees related to securities lending services."
+    },
+    "PENA": {
+      "isoName": "SettlementPenalties",
+      "name": "Settlement Penalties",
+      "definition": "This category encompasses the reporting of all fees related to the cost recovery of settlement penalties applied by non-EU settlement systems (outside the scope of CSDR settlement discipline)."
+    },
+    "SETT": {
+      "isoName": "SettlementServices",
+      "name": "Settlement Services",
+      "definition": "This category encompasses the reporting of all fees related to the settlement of securities and/or cash. This includes fees related to the settlement of market claims and transformations. Taxes applied on settled transactions (such as financial transaction taxes) and ancillary settlement services are also reported under this category."
+    },
+    "SHDT": {
+      "isoName": "ShareholdersDataTransmissionServices",
+      "name": "Shareholders Data Transmission Services",
+      "definition": "This category encompasses the reporting of fees related to the provision of services allowing intermediaries to send shareholders' data to issuers. This includes costs related to the provision of service for the calculation and settlement of fees applied by intermediaries to issuers for the notification of shareholders' data."
+    },
+    "STEX": {
+      "isoName": "StockExchangeServices",
+      "name": "Stock Exchange Services",
+      "definition": "This category encompasses the reporting of fees related to the provision of stock exchange services. This includes transaction fees."
+    },
+    "TPCM": {
+      "isoName": "TripartyCollateralManagementServices",
+      "name": "Triparty Collateral Management Services",
+      "definition": "This category encompasses the reporting of all fees related to the provision of services to collateral giver and/or collateral takers involved in a triparty collateral management transaction."
+    }
+  }
+}

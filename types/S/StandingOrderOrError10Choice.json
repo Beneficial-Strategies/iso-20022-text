@@ -1,0 +1,16 @@
+{
+  "isoType": "StandingOrderOrError10Choice",
+  "language": "en",
+  "name": "Standing Order Or Error 10 Choice",
+  "definition": "Choice between the standing order details or a business error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "StandingOrder": {
+      "name": "Standing Order",
+      "definition": "Requested information on the account."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    }
+  }
+}

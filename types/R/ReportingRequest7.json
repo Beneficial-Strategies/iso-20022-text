@@ -1,0 +1,44 @@
+{
+  "isoType": "ReportingRequest7",
+  "language": "en",
+  "name": "Reporting Request 7",
+  "definition": "Provides further details on the reporting request.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification, as assigned by the account owner, to unambiguously identify the account reporting request."
+    },
+    "RequestedMessageNameIdentification": {
+      "name": "Requested Message Name Identification",
+      "definition": "Specifies the type of the requested reporting message."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account to which the reporting request refers."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "Specifies the requested reporting period."
+    },
+    "ReportingSequence": {
+      "name": "Reporting Sequence",
+      "definition": "Specifies the range of identification sequence numbers which are being requested."
+    },
+    "RequestedTransactionType": {
+      "name": "Requested Transaction Type",
+      "definition": "Identifies the transactions to be reported."
+    },
+    "RequestedBalanceType": {
+      "name": "Requested Balance Type",
+      "definition": "Provides details on the requested balance reporting."
+    }
+  }
+}

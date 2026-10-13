@@ -1,0 +1,33 @@
+{
+  "isoType": "InvestorClassificationType1Code",
+  "language": "en",
+  "name": "Investor Classification Type 1 Code",
+  "definition": "Classification of an investor in relation to a corporate action.",
+  "isoCodes": {
+    "ELIG": {
+      "isoName": "Eligible",
+      "name": "Eligible",
+      "definition": "Investors eligible for participation in the event."
+    },
+    "NLIG": {
+      "isoName": "NonEligible",
+      "name": "Non Eligible",
+      "definition": "Investors not eligible for participation in the event."
+    },
+    "NQIB": {
+      "isoName": "NonQIB",
+      "name": "Non QIB",
+      "definition": "Investors not eligible for participation in the event under US regulation."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Investors that may/may not be eligible to participate in the event as described by the issuer."
+    },
+    "QUIB": {
+      "isoName": "QIB",
+      "name": "QIB",
+      "definition": "Investors eligible for participation in the event as deemed qualified under US regulation."
+    }
+  }
+}

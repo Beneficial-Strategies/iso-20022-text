@@ -1,0 +1,24 @@
+{
+  "isoType": "UnderlyingGroupInformation1",
+  "language": "en",
+  "name": "Underlying Group Information 1",
+  "definition": "Unique identification, as assigned by the first instructing agent, to unambiguously identify the group of transactions.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message."
+    },
+    "OriginalMessageNameIdentification": {
+      "name": "Original Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Date and time at which the original message was created."
+    },
+    "OriginalMessageDeliveryChannel": {
+      "name": "Original Message Delivery Channel",
+      "definition": "Original channel used for the delivery of the message, to allow the receiver of the request to locate the payment with greater ease."
+    }
+  }
+}

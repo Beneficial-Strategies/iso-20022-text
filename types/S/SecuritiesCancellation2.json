@@ -1,0 +1,35 @@
+{
+  "isoType": "SecuritiesCancellation2",
+  "language": "en",
+  "name": "Securities Cancellation 2",
+  "definition": "Provides the transactions in the report.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Identifies the individual transaction."
+    }
+  },
+  "isoRules": {
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus must be present or Cancellation(*)/ProcessingStatus must be present, but not both."
+    },
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount must be present or Cancellation(*)/SafekeepingAccount must be present, but not both."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner must be present or Cancellation(*)/AccountOwner must be present, but not both."
+    }
+  }
+}

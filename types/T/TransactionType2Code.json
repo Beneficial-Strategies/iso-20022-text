@@ -1,0 +1,58 @@
+{
+  "isoType": "TransactionType2Code",
+  "language": "en",
+  "name": "Transaction Type 2 Code",
+  "definition": "Specifies the type of transaction.",
+  "isoCodes": {
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Transaction is a redemption of an investment fund."
+    },
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Transaction is a subscription to an investment fund."
+    },
+    "SSPL": {
+      "isoName": "SubscriptionSavingsPlan",
+      "name": "Subscription Savings Plan",
+      "definition": "Transaction is a subscription for a savings plan, that is, money set aside by individuals in the framework of a structured plan for a special purpose, for example, retirement."
+    },
+    "RWPL": {
+      "isoName": "RedemptionWithdrawingPlan",
+      "name": "Redemption Withdrawing Plan",
+      "definition": "Transaction is a withdrawal by individuals in the framework of a structured plan for investments made in the past."
+    },
+    "TRIN": {
+      "isoName": "TransferIn",
+      "name": "Transfer In",
+      "definition": "Transaction is an incoming credit to an account on the shareholders register, and is not linked to a shift in investment (subscription or switch), but to account management."
+    },
+    "TOUT": {
+      "isoName": "TransferOut",
+      "name": "Transfer Out",
+      "definition": "Transaction is a debit to an account on the shareholders register, and is not linked to a shift in investment (redemption or switch), but to account management."
+    },
+    "SWII": {
+      "isoName": "SwitchIn",
+      "name": "Switch In",
+      "definition": "Transaction is a subscription leg of a switch order execution."
+    },
+    "SWIO": {
+      "isoName": "SwitchOut",
+      "name": "Switch Out",
+      "definition": "Transaction is a subscription leg of a switch order execution."
+    },
+    "SUAA": {
+      "isoName": "SubscriptionAssetAllocation",
+      "name": "Subscription Asset Allocation",
+      "definition": "Transaction is a subscription in an asset allocation plan that enables investors to allocate, by percentage a certain amount of cash into several sub-funds of a same umbrella structure."
+    },
+    "REAA": {
+      "isoName": "RedemptionAssetAllocation",
+      "name": "Redemption Asset Allocation",
+      "definition": "Transaction is a redemption in an asset allocation plan which enables investors to withdraw, by percentage a certain amount of cash from several sub-funds of a same umbrella structure."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "TotalFeesAndTaxes44",
+  "language": "en",
+  "name": "Total Fees And Taxes 44",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "TotalOverheadApplied": {
+      "name": "Total Overhead Applied",
+      "definition": "Total amount of overhead applied to the transaction that impacts the settlement amount."
+    },
+    "TotalFees": {
+      "name": "Total Fees",
+      "definition": "Total amount of fees (charge/commissions) applied to the transaction that impacts the settlement amount."
+    },
+    "TotalTaxes": {
+      "name": "Total Taxes",
+      "definition": "Total amount of taxes applied to the transaction that impacts the settlement amount."
+    },
+    "CommercialAgreementReference": {
+      "name": "Commercial Agreement Reference",
+      "definition": "Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions."
+    },
+    "IndividualFee": {
+      "name": "Individual Fee",
+      "definition": "Individual fee (charge/commission)."
+    },
+    "IndividualTax": {
+      "name": "Individual Tax",
+      "definition": "Individual tax."
+    },
+    "DigitalNetworkFee": {
+      "name": "Digital Network Fee",
+      "definition": "Digital network fee assigned to a transaction."
+    }
+  },
+  "isoRules": {
+    "NonStandardSLAReferenceRule": {
+      "definition": "For each value of IndividualFee/Type, NonStandardSLAReference may only be present once."
+    },
+    "TransactionOverheadElementRule": {
+      "definition": "One of the elements (TotalOverheadApplied, TotalFees, TotalTaxes, CommercialAgreementReference, IndividualFee, IndividualTax) must be present."
+    }
+  }
+}

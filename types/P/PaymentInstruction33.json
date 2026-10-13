@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentInstruction33",
+  "language": "en",
+  "name": "Payment Instruction 33",
+  "definition": "Provides details on the payment instruction.",
+  "isoElements": {
+    "Instruction": {
+      "name": "Instruction",
+      "definition": "Further information related to the processing of the payment instruction. The instruction can relate to a level of service between the bank and the customer, or give instructions to and for specific parties in the payment chain.|."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type, or nature, of the payment, for example an express payment."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Urgency or order of importance that the originator would like the recipient of the payment instruction to apply to the processing of the payment instruction.|."
+    },
+    "ProcessingValidityTime": {
+      "name": "Processing Validity Time",
+      "definition": "Date and time range within which the payment instruction must be processed.|."
+    }
+  }
+}

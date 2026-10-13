@@ -1,0 +1,16 @@
+{
+  "isoType": "TransactionOrError6Choice",
+  "language": "en",
+  "name": "Transaction Or Error 6 Choice",
+  "definition": "Choice between the transaction details or a business error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Requested information on the payment transaction."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason why the requested business information is not given."
+    }
+  }
+}

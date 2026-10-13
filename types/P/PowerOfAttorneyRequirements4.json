@@ -1,0 +1,25 @@
+{
+  "isoType": "PowerOfAttorneyRequirements4",
+  "language": "en",
+  "name": "Power Of Attorney Requirements 4",
+  "definition": "Conditions to get power of attorney.",
+  "isoElements": {
+    "LegalRequirement": {
+      "name": "Legal Requirement",
+      "definition": "Authority that must validate the power of attorney."
+    },
+    "OtherDocumentation": {
+      "name": "Other Documentation",
+      "definition": "Documents needed to obtain a valid power of attorney."
+    },
+    "DocumentSubmissionDeadline": {
+      "name": "Document Submission Deadline",
+      "definition": "Date by which the requested documents must be provided."
+    }
+  },
+  "isoRules": {
+    "OtherDocumentation1Guideline": {
+      "definition": "If power of attorney specific deadlines are announced, it is recommended that OtherDocumentation is used."
+    }
+  }
+}

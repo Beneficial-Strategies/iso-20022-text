@@ -1,0 +1,25 @@
+{
+  "isoType": "SafekeepingPlaceAsCodeAndPartyIdentification",
+  "language": "en",
+  "name": "Safekeeping Place As Code And Party Identification",
+  "definition": "Identification of the place of safekeeping expressed as a code and a BIC.",
+  "isoElements": {
+    "PlaceSafekeeping": {
+      "name": "Place Safekeeping",
+      "definition": "Place of safekeeping as a code."
+    },
+    "Narrative": {
+      "name": "Narrative",
+      "definition": "Additional information about the place of safekeeping."
+    },
+    "Party": {
+      "name": "Party",
+      "definition": "Place of safekeeping."
+    }
+  },
+  "isoRules": {
+    "Party1Rule": {
+      "definition": "If PlaceSafekeeping is not SHHE, then Party is mandatory. If PlaceSafekeeping is SHHE, then Party is optional."
+    }
+  }
+}

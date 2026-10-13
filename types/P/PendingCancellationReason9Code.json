@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingCancellationReason9Code",
+  "language": "en",
+  "name": "Pending Cancellation Reason 9 Code",
+  "definition": "Specifies the reason why the cancellation request has a pending status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "DQCS": {
+      "isoName": "AmountRejection",
+      "name": "Amount Rejection",
+      "definition": "Unrecognised or invalid instructed cash amount."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    }
+  }
+}

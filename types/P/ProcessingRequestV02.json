@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessingRequestV02",
+  "language": "en",
+  "name": "Processing Request V 02",
+  "definition": "The Processing Request message is sent by a participant to a central system to request the initiation of a system process supported by a central system.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for the message, as assigned by the sender."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "Indicates the requested CLS Settlement Session that the related trade is part of."
+    },
+    "Request": {
+      "name": "Request",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

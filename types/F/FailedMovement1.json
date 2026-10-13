@@ -1,0 +1,32 @@
+{
+  "isoType": "FailedMovement1",
+  "language": "en",
+  "name": "Failed Movement 1",
+  "definition": "Provides information about a movement that failed the settlement.",
+  "isoElements": {
+    "CashAmount": {
+      "name": "Cash Amount",
+      "definition": "Amount of cash."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Quantity of the financial instrument."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "The reason for the settlement failure."
+    }
+  },
+  "isoRules": {
+    "CashAmountOrSecuritiesQuantityRule": {
+      "definition": "Either CashAmount or SecuritiesQuantity must be present."
+    },
+    "CashAmountOrSecuritiesQuantityRuleNotBoth": {
+      "definition": "Either CashAmount or SecuritiesQuantity must be present."
+    }
+  }
+}

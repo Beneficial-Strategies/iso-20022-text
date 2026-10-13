@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentConditionStatus2",
+  "language": "en",
+  "name": "Payment Condition Status 2",
+  "definition": "Specifies the details on the status of the payment conditions.",
+  "isoElements": {
+    "AcceptedAmount": {
+      "name": "Accepted Amount",
+      "definition": "Amount accepted to be paid.||Usage:|May only be present when AmountModificationAllowed is present in the request."
+    },
+    "GuaranteedPayment": {
+      "name": "Guaranteed Payment",
+      "definition": "Indicates if the DebtorAgent guarantees the payment, assuming a payment guarantee contract exists between the different actors.||Usage: When element is not present, the default value is \"Not Applicable\"."
+    },
+    "EarlyPayment": {
+      "name": "Early Payment",
+      "definition": "Indicates if the debtor will pay before the requested execution date.||Usage: When element is not present, the default value is \"Not Applicable\"."
+    }
+  }
+}

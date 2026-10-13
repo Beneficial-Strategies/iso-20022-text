@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountReport36",
+  "language": "en",
+  "name": "Account Report 36",
+  "definition": "Reports to a corporate on the actual set-up of the account, related services and mandates.",
+  "isoElements": {
+    "Account": {
+      "name": "Account",
+      "definition": "Characteristics of the account."
+    },
+    "UnderlyingMasterAgreement": {
+      "name": "Underlying Master Agreement",
+      "definition": "Account contract established between the organisation or the group to which the organisation belongs, and the account servicer. This contract has to be applied for the new account to be opened and maintained."
+    },
+    "ContractDates": {
+      "name": "Contract Dates",
+      "definition": "Specifies target and actual dates."
+    },
+    "Mandate": {
+      "name": "Mandate",
+      "definition": "Information specifying the account mandate."
+    },
+    "Group": {
+      "name": "Group",
+      "definition": "Definition of a group of parties."
+    },
+    "ReferenceAccount": {
+      "name": "Reference Account",
+      "definition": "Unique and unambiguous identification of the account used as a reference for the opening of another account."
+    },
+    "BalanceTransferAccount": {
+      "name": "Balance Transfer Account",
+      "definition": "Unique and unambiguous identification of the account where to transfer the balance."
+    },
+    "TransferAccountServicerIdentification": {
+      "name": "Transfer Account Servicer Identification",
+      "definition": "Identification of the transfer account servicer."
+    }
+  },
+  "isoRules": {
+    "ContractDates1Rule": {
+      "definition": "ContractDates/TargetGoLiveDate and ContractDates/GoLiveDate should not be used as part of an account closing process."
+    },
+    "ContractDates2Rule": {
+      "definition": "ContractDates/ClosingDate should not be used as part of an account opening and maintenance process."
+    }
+  }
+}

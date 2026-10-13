@@ -1,0 +1,23 @@
+{
+  "isoType": "CancellationStatus5Code",
+  "language": "en",
+  "name": "Cancellation Status 5 Code",
+  "definition": "Specifies the cancellation status.",
+  "isoCodes": {
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Cancellation instruction/request has been received, that is, technical validation of the message is ok, and the message is now at the receiving side."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Cancellation instruction / request has been received and has been acknowledged / accepted for further processing."
+    },
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Cancellation instruction/request has been sent to the next party, that is, the next intermediary."
+    }
+  }
+}

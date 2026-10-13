@@ -1,0 +1,43 @@
+{
+  "isoType": "ExternalDebtorAgentInstruction1Code",
+  "language": "en",
+  "name": "External Debtor Agent Instruction 1 Code",
+  "definition": "Specifies further instructions concerning the processing of a payment instruction, as provided to the creditor agent.",
+  "isoCodes": {
+    "HOLD": {
+      "isoName": "HoldCashForCreditor",
+      "name": "Hold Cash For Creditor",
+      "definition": "Amount of money must be held for the (ultimate) creditor, who will call. Pay on identification."
+    },
+    "CHQB": {
+      "isoName": "PayCreditorByCheque",
+      "name": "Pay Creditor By Cheque",
+      "definition": "(Ultimate) creditor must be paid by cheque."
+    },
+    "PRTK": {
+      "isoName": "PayerTokenRequested",
+      "name": "Payer Token Requested",
+      "definition": "Indicates that a payer token is requested/used."
+    },
+    "PHOB": {
+      "isoName": "PhoneBeneficiary",
+      "name": "Phone Beneficiary",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by phone."
+    },
+    "TELB": {
+      "isoName": "Telecom",
+      "name": "Telecom",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by the most efficient means of telecommunication."
+    },
+    "TOKN": {
+      "isoName": "Token",
+      "name": "Token",
+      "definition": "Token information."
+    },
+    "VLTK": {
+      "isoName": "TokenValidation",
+      "name": "Token Validation",
+      "definition": "Additional validation information to be used in conjunction with the token."
+    }
+  }
+}

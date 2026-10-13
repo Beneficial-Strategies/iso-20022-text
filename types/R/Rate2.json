@@ -1,0 +1,21 @@
+{
+  "isoType": "Rate2",
+  "language": "en",
+  "name": "Rate 2",
+  "definition": "Set of elements qualifying the interest rate.",
+  "isoElements": {
+    "Sign": {
+      "name": "Sign",
+      "definition": "Indicates the sign of the rate."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Percentage charged for the use of an amount of money, usually expressed at an annual rate. The interest rate is the ratio of the amount of interest paid during a certain period of time compared to the principal amount of the interest bearing financial instrument."
+    }
+  },
+  "isoRules": {
+    "SignRule": {
+      "definition": "When Sign is present, rate must not be zero."
+    }
+  }
+}

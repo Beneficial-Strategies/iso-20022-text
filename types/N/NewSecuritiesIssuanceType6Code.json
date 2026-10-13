@@ -1,0 +1,28 @@
+{
+  "isoType": "NewSecuritiesIssuanceType6Code",
+  "language": "en",
+  "name": "New Securities Issuance Type 6 Code",
+  "definition": "Specifies the type of securities proceeds; whether they are defeased or non-defeased.",
+  "isoCodes": {
+    "DEFE": {
+      "isoName": "DefeasedSecurityIndicator",
+      "name": "Defeased Security Indicator",
+      "definition": "Funds have been placed in escrow by a trustee or agent to ensure payment on a portion of the outstanding balance of the original security on maturity date. Applicable only in the frame of a Partial Defeasance PDEF corporate action event."
+    },
+    "NDEF": {
+      "isoName": "NonDefeasedSecurityIndicator",
+      "name": "Non Defeased Security Indicator",
+      "definition": "Funds will not be guaranteed at maturity by the issuer or paying agent for this newly issued non-defeased security. Applicable only in the frame of a Partial Defeasance PDEF corporate action event."
+    },
+    "REFU": {
+      "isoName": "RefundedSecurityIndicator",
+      "name": "Refunded Security Indicator",
+      "definition": "New security issued that has been refunded to an earlier maturity date. Applicable only in the frame of a partial defeasance PDEF corporate action event."
+    },
+    "NREF": {
+      "isoName": "NonRefundedSecurityIndicator",
+      "name": "Non Refunded Security Indicator",
+      "definition": "New Security issued that has not been refunded and the maturity date of the original underlying security is unchanged. Applicable only in the frame of a Partial Defeasance PDEF corporate action event."
+    }
+  }
+}

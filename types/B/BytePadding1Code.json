@@ -1,0 +1,33 @@
+{
+  "isoType": "BytePadding1Code",
+  "language": "en",
+  "name": "Byte Padding 1 Code",
+  "definition": "Byte padding for a cypher block chaining mode encryption, if the padding is not implicit.",
+  "isoCodes": {
+    "LNGT": {
+      "isoName": "LengthPadding",
+      "name": "Length Padding",
+      "definition": "Message to encrypt is completed by a byte value containing the total number of added bytes."
+    },
+    "NUL8": {
+      "isoName": "Null80Padding",
+      "name": "Null 80 Padding",
+      "definition": "Message to encrypt is completed by one bit of value 1, followed by null bits until the encryption block length is reached."
+    },
+    "NULG": {
+      "isoName": "NullLengthPadding",
+      "name": "Null Length Padding",
+      "definition": "Message to encrypt is completed by null byte values, the last byte containing the total number of added bytes."
+    },
+    "NULL": {
+      "isoName": "NullPadding",
+      "name": "Null Padding",
+      "definition": "Message to encrypt is completed by null bytes."
+    },
+    "RAND": {
+      "isoName": "RandomPadding",
+      "name": "Random Padding",
+      "definition": "Message to encrypt is completed by random value, the last byte containing the total number of added bytes."
+    }
+  }
+}

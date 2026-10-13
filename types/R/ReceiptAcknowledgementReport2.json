@@ -1,0 +1,16 @@
+{
+  "isoType": "ReceiptAcknowledgementReport2",
+  "language": "en",
+  "name": "Receipt Acknowledgement Report 2",
+  "definition": "Provides details on the original request. Identifies the message being acknowledged and its status",
+  "isoElements": {
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference of the request."
+    },
+    "RequestHandling": {
+      "name": "Request Handling",
+      "definition": "Gives the status of the request."
+    }
+  }
+}

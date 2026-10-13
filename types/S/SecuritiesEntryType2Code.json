@@ -1,0 +1,83 @@
+{
+  "isoType": "SecuritiesEntryType2Code",
+  "language": "en",
+  "name": "Securities Entry Type 2 Code",
+  "definition": "Specifies the type of securities entry on an account.",
+  "isoCodes": {
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of securities that are blocked or frozen. A financial instrument may be unavailable due to external circumstances such as a court order, death of beneficiary or account owner, or bankruptcy."
+    },
+    "ELIG": {
+      "isoName": "Eligible",
+      "name": "Eligible",
+      "definition": "Total number of securities eligible for this event."
+    },
+    "PEND": {
+      "isoName": "PendingDelivery",
+      "name": "Pending Delivery",
+      "definition": "Balance of securities that are pending delivery."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "Balance of securities that are pending receipt."
+    },
+    "NOMI": {
+      "isoName": "Registered",
+      "name": "Registered",
+      "definition": "Balance of securities that are registered (in the name of a nominee or of the beneficial owner)."
+    },
+    "SETD": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Balance of securities representing only settled transactions."
+    },
+    "BORR": {
+      "isoName": "Borrowed",
+      "name": "Borrowed",
+      "definition": "Balance of securities that have been borrowed from another party."
+    },
+    "LOAN": {
+      "isoName": "OnLoan",
+      "name": "On Loan",
+      "definition": "Balance of securities that have been loaned to a third party."
+    },
+    "SPOS": {
+      "isoName": "StreetPosition",
+      "name": "Street Position",
+      "definition": "Balance of securities that remain registered in the name of the prior beneficial owner of securities."
+    },
+    "TRAD": {
+      "isoName": "Traded",
+      "name": "Traded",
+      "definition": "Balance of securities representing traded transactions."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation."
+    },
+    "UNBA": {
+      "isoName": "UninstructedBalance",
+      "name": "Uninstructed Balance",
+      "definition": "Balance of uninstructed position."
+    },
+    "INBA": {
+      "isoName": "InstructedBalance",
+      "name": "Instructed Balance",
+      "definition": "Balance of instructed position."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of securities currently being processed by the institution responsible for registering the new beneficial owner (or nominee) of securities after a transaction has settled."
+    }
+  }
+}

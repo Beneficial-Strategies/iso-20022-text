@@ -1,0 +1,98 @@
+{
+  "isoType": "PendingReason27Code",
+  "language": "en",
+  "name": "Pending Reason 27 Code",
+  "definition": "Specifies the reason why the instruction has a pending status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Instruction was received after the account servicer's deadline. Processed on best effort basis."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "FULL": {
+      "isoName": "PendingBeneficiaryOwnerDetails",
+      "name": "Pending Beneficiary Owner Details",
+      "definition": "Pending receipt of beneficiary owner details."
+    },
+    "MCER": {
+      "isoName": "MissingCertification",
+      "name": "Missing Certification",
+      "definition": "Awaiting receipt of adequate certification."
+    },
+    "MONY": {
+      "isoName": "InsufficientMoney",
+      "name": "Insufficient Money",
+      "definition": "Insufficient money in your account."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Instruction was received after market deadline."
+    },
+    "DQUA": {
+      "isoName": "QuantityDisagreement",
+      "name": "Quantity Disagreement",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "The instruction is pending receipt of securities, for example, from a purchase or loan."
+    },
+    "CERT": {
+      "isoName": "WrongCertificatesNumbers",
+      "name": "Wrong Certificates Numbers",
+      "definition": "Certificate number error."
+    },
+    "DQCS": {
+      "isoName": "DisagreementOnCashAmount",
+      "name": "Disagreement On Cash Amount",
+      "definition": "Unrecognised or invalid instructed cash amount."
+    },
+    "ITAX": {
+      "isoName": "IncorrectTaxRate",
+      "name": "Incorrect Tax Rate",
+      "definition": "Tax rate provided is incorrect. It falls outside the acceptable values for that investment country."
+    },
+    "NTAX": {
+      "isoName": "InconsistentTaxRate",
+      "name": "Inconsistent Tax Rate",
+      "definition": "Tax rate is not consistent with the documentation in place."
+    },
+    "MTAX": {
+      "isoName": "MissingTaxRate",
+      "name": "Missing Tax Rate",
+      "definition": "Tax rate is missing."
+    },
+    "SNAV": {
+      "isoName": "SystemNotAvailable",
+      "name": "System Not Available",
+      "definition": "System is not available. Instruction is sent outside of business hours."
+    },
+    "BSTR": {
+      "isoName": "BeforeInstructionPeriod",
+      "name": "Before Instruction Period",
+      "definition": "Instruction is submitted before instruction start date."
+    },
+    "IPAW": {
+      "isoName": "InvalidPaperwork",
+      "name": "Invalid Paperwork",
+      "definition": "Required paperwork is invalid, incomplete or missing."
+    },
+    "IPED": {
+      "isoName": "InstructionPriorToEntitlementDate",
+      "name": "Instruction Prior To Entitlement Date",
+      "definition": "Instruction was received prior to entitlement date."
+    }
+  }
+}

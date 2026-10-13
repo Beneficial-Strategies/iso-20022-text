@@ -1,0 +1,21 @@
+{
+  "isoType": "PoliticallyExposedPerson1",
+  "language": "en",
+  "name": "Politically Exposed Person 1",
+  "definition": "Politically exposed person checks.",
+  "isoElements": {
+    "PoliticallyExposedPersonType": {
+      "name": "Politically Exposed Person Type",
+      "definition": "Specifies if due diligence checks on the political exposure of the investor have been carried out. (A politically exposed person is someone who has been entrusted with a prominent public function, or an individual who is closely related to such a person.)"
+    },
+    "PoliticallyExposedPersonStatus": {
+      "name": "Politically Exposed Person Status",
+      "definition": "Status of the politically exposed person."
+    }
+  },
+  "isoRules": {
+    "PoliticallyExposedPersonTypeRule": {
+      "definition": "If PoliticallyExposedPersonType/Code is 'NoPoliticalExposure' (NPEX) then PoliticallyExposedPersonStatus is not allowed."
+    }
+  }
+}

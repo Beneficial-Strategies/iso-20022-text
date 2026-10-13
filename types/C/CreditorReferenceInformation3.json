@@ -1,0 +1,16 @@
+{
+  "isoType": "CreditorReferenceInformation3",
+  "language": "en",
+  "name": "Creditor Reference Information 3",
+  "definition": "Reference information provided by the creditor to allow the identification of the underlying documents.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of creditor reference."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Unique reference, as assigned by the creditor, to unambiguously refer to the payment transaction.||Usage: If available, the initiating party should provide this reference in the structured remittance information, to enable reconciliation by the creditor upon receipt of the amount of money.||If the business context requires the use of a creditor reference or a payment remit identification, and only one identifier can be passed through the end-to-end chain, the creditor's reference or payment remittance identification should be quoted in the end-to-end transaction identification."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "AccountRequestAcknowledgementV04",
+  "language": "en",
+  "name": "Account Request Acknowledgement V 04",
+  "definition": "The AccountRequestAcknowledgement message is sent from a financial institution to an organisation. This message is sent in response to a request message from the organisation. It is sent after the request has been validated from an authentication and authorisation point of view. The business content has not yet been validated at this stage.",
+  "isoElements": {
+    "References": {
+      "name": "References",
+      "definition": ""
+    },
+    "From": {
+      "name": "From",
+      "definition": ""
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": ""
+    },
+    "OrganisationIdentification": {
+      "name": "Organisation Identification",
+      "definition": ""
+    },
+    "AccountServicerIdentification": {
+      "name": "Account Servicer Identification",
+      "definition": ""
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

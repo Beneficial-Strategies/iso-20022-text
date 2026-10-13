@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountContract2",
+  "language": "en",
+  "name": "Account Contract 2",
+  "definition": "Specifies target dates dates related to account opening and closing.",
+  "isoElements": {
+    "TargetGoLiveDate": {
+      "name": "Target Go Live Date",
+      "definition": "Date on which the account and related basic services are expected to be operational for the account owner."
+    },
+    "TargetClosingDate": {
+      "name": "Target Closing Date",
+      "definition": "Date on which the account and related services are expected to cease to be operational for the account owner."
+    },
+    "UrgencyFlag": {
+      "name": "Urgency Flag",
+      "definition": "Indicator that the account opening/maintenance/closing process needs to be treated urgently, that is, sooner than the terms established by the service level agreed between the account holder customer and the account servicing institution."
+    }
+  }
+}

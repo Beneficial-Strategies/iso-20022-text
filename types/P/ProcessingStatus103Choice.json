@@ -1,0 +1,44 @@
+{
+  "isoType": "ProcessingStatus103Choice",
+  "language": "en",
+  "name": "Processing Status 103 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Instruction has been acknowledged by the account servicer, but processing of the instruction is pending."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction/Request has been rejected for further processing."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction has been acknowledged by the account servicer but is in repair."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Cancellation request from yourself for this instruction is pending waiting for further processing."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    },
+    "CancellationRequested": {
+      "name": "Cancellation Requested",
+      "definition": "Cancellation request from your counterparty for this transaction is pending waiting for your cancellation request or consent."
+    },
+    "ModificationRequested": {
+      "name": "Modification Requested",
+      "definition": "Modification request from your counterparty for this transaction is pending waiting for your cancellation request or your consent."
+    }
+  }
+}

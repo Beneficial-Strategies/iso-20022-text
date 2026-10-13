@@ -1,0 +1,44 @@
+{
+  "isoType": "IntraBalanceMovementPendingReportV02",
+  "language": "en",
+  "name": "Intra Balance Movement Pending Report V 02",
+  "definition": "This IntraBalanceMovementPendingReport message is sent from a settlement infrastructure to an account owner/request to report the intra-balance movement instructions, previously sent by the account owner, that have a pending status.||The message may also be used to: |-\tre-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |-\tprovide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |-\t- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": ""
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": ""
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": ""
+    },
+    "Movements": {
+      "name": "Movements",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to Yes (true or 1) then Movements must be present."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "If ReportGeneralDetails/ActivityIndicator is equal to No (false or 0) then Movements must be absent."
+    }
+  }
+}

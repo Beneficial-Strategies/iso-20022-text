@@ -1,0 +1,28 @@
+{
+  "isoType": "ChequePartyRole1Code",
+  "language": "en",
+  "name": "Cheque Party Role 1 Code",
+  "definition": "Specifies the roles of the parties linked to a cheque.",
+  "isoCodes": {
+    "DWEA": {
+      "isoName": "DraweeAgent",
+      "name": "Drawee Agent",
+      "definition": "Specifies the agent on which a cheque is drawn, that is the financial institution that services the account of the payee that issued the cheque."
+    },
+    "DWRA": {
+      "isoName": "DrawerAgent",
+      "name": "Drawer Agent",
+      "definition": "Specifies the agent servicing the account of the cheque payer."
+    },
+    "PAYE": {
+      "isoName": "Payee",
+      "name": "Payee",
+      "definition": "Party that receives an amount of money as specified in the cheque."
+    },
+    "PAYR": {
+      "isoName": "Payer",
+      "name": "Payer",
+      "definition": "Party that issues a cheque ordering the drawee agent to pay a specific amount, upon demand, to the payee."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "UpdatedAdditionalInformation26",
+  "language": "en",
+  "name": "Updated Additional Information 26",
+  "definition": "Additional information with update description and date.",
+  "isoElements": {
+    "Language": {
+      "name": "Language",
+      "definition": "Language used to provide additional information and using the ISO 639-1 language code standard."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional textual information."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "The Additionalnformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

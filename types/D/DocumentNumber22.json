@@ -1,0 +1,21 @@
+{
+  "isoType": "DocumentNumber22",
+  "language": "en",
+  "name": "Document Number 22",
+  "definition": "Identification of the status being requested.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Number used to identify a message or document."
+    },
+    "References": {
+      "name": "References",
+      "definition": "References of transaction for which the status is requested."
+    }
+  },
+  "isoRules": {
+    "ReferenceRule": {
+      "definition": "The reference used to identify the transaction must be in line with the identification available for the status advice requested by the SecuritiesTransactionStatusQuery. For example, a SecuritiesTransactionStatusQuery must not request a SecuritiesSettlementTransactionStatusAdvice using a CorporateActionEventIdentification."
+    }
+  }
+}

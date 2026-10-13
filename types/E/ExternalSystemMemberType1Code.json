@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalSystemMemberType1Code",
+  "language": "en",
+  "name": "External System Member Type 1 Code",
+  "definition": "Specifies the nature of the membership of a party in a system, as published in an external system member type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "DRCT": {
+      "isoName": "Direct",
+      "name": "Direct",
+      "definition": "Member has full rights in the system. In principle, this membership status entails financial responsibility for its own operations and sponsored members' operations submitted to the system."
+    },
+    "IDRT": {
+      "isoName": "Indirect",
+      "name": "Indirect",
+      "definition": "Member has limited rights in the system specifications. In principle, this membership status entails no financial responsibility for its operations submitted to the system."
+    },
+    "RMTE": {
+      "isoName": "Remote",
+      "name": "Remote",
+      "definition": "Member has access to the system from a remote location or through remote technical means."
+    },
+    "EURO": {
+      "isoName": "EURO1",
+      "name": "EURO 1",
+      "definition": "Member is entitled to access the Euro1 system of the Euro Banking Association (EBA)."
+    },
+    "STEP": {
+      "isoName": "STEP1",
+      "name": "STEP 1",
+      "definition": "Member is entitled to access the Step1 system of the Euro Banking Association (EBA)."
+    }
+  }
+}

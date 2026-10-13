@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalInvestigationActionReason1Code",
+  "language": "en",
+  "name": "External Investigation Action Reason 1 Code",
+  "definition": "Specifies the requested action, as published in an external investigation action code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "IRSI": {
+      "isoName": "InvestigationRequestSentInError",
+      "name": "Investigation Request Sent In Error",
+      "definition": "Closure is requested as the investigation request was sent in error."
+    },
+    "IRRR": {
+      "isoName": "InvestigationRequestResolved",
+      "name": "Investigation Request Resolved",
+      "definition": "Closure is requested as the investigation request has been resolved by requestor."
+    },
+    "IRCD": {
+      "isoName": "InvestigationResponseCompensationDisputed",
+      "name": "Investigation Response Compensation Disputed",
+      "definition": "Objection is raised as the compensation amount quoted on the investigation response appears incorrect."
+    },
+    "IRIC": {
+      "isoName": "InvestigationResponseIncomplete",
+      "name": "Investigation Response Incomplete",
+      "definition": "Objection is raised as the data provided on the investigation response is insufficent to address the original request."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "See AdditionalInformation element for action reason."
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "isoType": "CorporateActionOption12Code",
+  "language": "en",
+  "name": "Corporate Action Option 12 Code",
+  "definition": "Specifies the type of corporate action options.",
+  "isoCodes": {
+    "ABST": {
+      "isoName": "Abstain",
+      "name": "Abstain",
+      "definition": "Vote expressed as abstain. In this case, the issuing company will add the number of shares to the quorum of the meeting.|If the voting right is not executed, it will not be added to the quorum. In this case, code NOAC should be used."
+    },
+    "BSPL": {
+      "isoName": "BonusSharePlan",
+      "name": "Bonus Share Plan",
+      "definition": "Receive equities from the share premium reserve of the company and considered as a capital distribution rather than a disbursement of income with different tax implications (typically found in Australia)."
+    },
+    "BUYA": {
+      "isoName": "BuyUp",
+      "name": "Buy Up",
+      "definition": "Buy additional securities to round up position."
+    },
+    "CASE": {
+      "isoName": "CashAndSecurity",
+      "name": "Cash And Security",
+      "definition": "Option to choose between different security and cash options."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Option to choose cash."
+    },
+    "CEXC": {
+      "isoName": "ConsentAndExchange",
+      "name": "Consent And Exchange",
+      "definition": "Vote to consent to change the terms of the securities agreement and to exchange securities."
+    },
+    "CONN": {
+      "isoName": "ConsentDenied",
+      "name": "Consent Denied",
+      "definition": "Vote not to approve the event or proposal."
+    },
+    "CONY": {
+      "isoName": "ConsentGranted",
+      "name": "Consent Granted",
+      "definition": "Vote to approve the event or proposal."
+    },
+    "CTEN": {
+      "isoName": "ConsentAndTender",
+      "name": "Consent And Tender",
+      "definition": "Vote to consent to change the terms of the securities agreement and to tender securities for cash."
+    },
+    "EXER": {
+      "isoName": "Exercise",
+      "name": "Exercise",
+      "definition": "Exercise intermediate securities or warrants."
+    },
+    "LAPS": {
+      "isoName": "Lapse",
+      "name": "Lapse",
+      "definition": "Allow event or entitled security to expire."
+    },
+    "MKDW": {
+      "isoName": "MarkDown",
+      "name": "Mark Down",
+      "definition": "Mark down the global certificate as a result of a corporate action (instruction from International Central Securities Depositories (ICSDs) to common depositories who are holding the global certificate on behalf of the International Central Securities Depositories (ICSDs))."
+    },
+    "MKUP": {
+      "isoName": "MarkUp",
+      "name": "Mark Up",
+      "definition": "Mark up the global certificate as a result of a corporate action (instruction from International Central Securities Depositories (ICSDs) to common depositories who are holding the global certificate on behalf of the International Central Securities Depositories (ICSDs))."
+    },
+    "MPUT": {
+      "isoName": "Retain",
+      "name": "Retain",
+      "definition": "Option that allows a holder to elect to retain their holding, for example, a putable bond."
+    },
+    "NOAC": {
+      "isoName": "NoAction",
+      "name": "No Action",
+      "definition": "Option for the account owner not to take part in the event. This would include opt-out for class actions and lodging of dissenters' rights."
+    },
+    "NOQU": {
+      "isoName": "NonQualifiedInvestor",
+      "name": "Non Qualified Investor",
+      "definition": "Account owner is a non-qualified investor."
+    },
+    "OFFR": {
+      "isoName": "ProposedRate",
+      "name": "Proposed Rate",
+      "definition": "In a remarketing of variable notes, the margin that shareholders can propose in respect of the next interest period."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Generic corporate action option to be used in case that no other specific code is appropriate."
+    },
+    "OVER": {
+      "isoName": "Oversubscribe",
+      "name": "Oversubscribe",
+      "definition": "Subscribe to more equities than underlying securities position allows."
+    },
+    "QINV": {
+      "isoName": "QualifiedInvestor",
+      "name": "Qualified Investor",
+      "definition": "Account owner is a qualified investor."
+    },
+    "SECU": {
+      "isoName": "Security",
+      "name": "Security",
+      "definition": "Distribution of securities to holders."
+    },
+    "SLLE": {
+      "isoName": "SellEntitlement",
+      "name": "Sell Entitlement",
+      "definition": "Sell the intermediate securities."
+    },
+    "PRUN": {
+      "isoName": "UnknownProceeds",
+      "name": "Unknown Proceeds",
+      "definition": "Proceeds not known during election period. The option can result in cash and/or securities."
+    }
+  }
+}

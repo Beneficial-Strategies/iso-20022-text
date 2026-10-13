@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementTypeAndIdentification22",
+  "language": "en",
+  "name": "Settlement Type And Identification 22",
+  "definition": "Provides transaction type and identification information.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Provides unambiguous transaction identification information."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    }
+  }
+}

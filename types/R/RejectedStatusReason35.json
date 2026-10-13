@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectedStatusReason35",
+  "language": "en",
+  "name": "Rejected Status Reason 35",
+  "definition": "Specifies reasons for the rejected status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Specifies the reason why the instruction or instruction cancellation has been rejected."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

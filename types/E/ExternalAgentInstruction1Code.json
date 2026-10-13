@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalAgentInstruction1Code",
+  "language": "en",
+  "name": "External Agent Instruction 1 Code",
+  "definition": "Specifies further instructions for the agent concerning the processing of an instruction.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "isoName": "PayCreditorByCheque",
+      "name": "Pay Creditor By Cheque",
+      "definition": "(Ultimate) creditor must be paid by cheque."
+    },
+    "HOLD": {
+      "isoName": "HoldCashForCreditor",
+      "name": "Hold Cash For Creditor",
+      "definition": "Amount of money must be held for the (ultimate) creditor, who will call. Pay on identification."
+    },
+    "INQR": {
+      "isoName": "InquiryReason",
+      "name": "Inquiry Reason",
+      "definition": "Additional Information to an inquiry reason must be provided."
+    },
+    "PBEN": {
+      "isoName": "PayTheBeneficiary",
+      "name": "Pay The Beneficiary",
+      "definition": "(Ultimate) creditor to be paid only after verification of identity."
+    },
+    "PHOA": {
+      "isoName": "PhoneNextAgent",
+      "name": "Phone Next Agent",
+      "definition": "Please advise/contact next agent by phone."
+    },
+    "PHOB": {
+      "isoName": "PhoneBeneficiary",
+      "name": "Phone Beneficiary",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by phone."
+    },
+    "TELA": {
+      "isoName": "TelecomNextAgent",
+      "name": "Telecom Next Agent",
+      "definition": "Please advise/contact next agent by the most efficient means of telecommunication."
+    },
+    "TELB": {
+      "isoName": "Telecom",
+      "name": "Telecom",
+      "definition": "Please advise/contact (ultimate) creditor/claimant by the most efficient means of telecommunication."
+    },
+    "TFRO": {
+      "isoName": "TimeFrom",
+      "name": "Time From",
+      "definition": "Payment instruction will be valid and eligible for execution from the date and time stipulated."
+    },
+    "TTIL": {
+      "isoName": "TimeTill",
+      "name": "Time Till",
+      "definition": "Payment instruction is valid and eligible for execution until the date and time stipulated. Otherwise, the payment instruction will be rejected."
+    }
+  }
+}

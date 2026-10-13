@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingServiceParameters2",
+  "language": "en",
+  "name": "Billing Service Parameters 2",
+  "definition": "Specifies the detailed parameters a service to be billed.",
+  "isoElements": {
+    "BankService": {
+      "name": "Bank Service",
+      "definition": "Specifies the details to fully identify the bank service."
+    },
+    "Volume": {
+      "name": "Volume",
+      "definition": "Count or number of items (volume) involved in the charge."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price per item or unit used to calculate the charge expressed in the pricing currency."
+    },
+    "ServiceChargeAmount": {
+      "name": "Service Charge Amount",
+      "definition": "Amount of the calculated charge expressed in the pricing currency, exclusive of any tax."
+    }
+  }
+}

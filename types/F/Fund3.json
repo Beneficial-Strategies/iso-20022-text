@@ -1,0 +1,55 @@
+{
+  "isoType": "Fund3",
+  "language": "en",
+  "name": "Fund 3",
+  "definition": "Information about an investment fund.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the fund/sub fund."
+    },
+    "LegalEntityIdentifier": {
+      "name": "Legal Entity Identifier",
+      "definition": "Identification of the fund/sub fund with a Legal Entity Identifier. This is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier for the fund/sub fund, assigned under a formal or proprietary identification scheme."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the fund/sub fund."
+    },
+    "EstimatedTotalNAV": {
+      "name": "Estimated Total NAV",
+      "definition": "Estimated total value of all the holdings, less the fund's liabilities, of the fund/sub fund."
+    },
+    "PreviousTotalNAV": {
+      "name": "Previous Total NAV",
+      "definition": "Previous total value of all the holdings, less the fund's liabilities, of the fund/sub fund."
+    },
+    "EstimatedTotalUnitsNumber": {
+      "name": "Estimated Total Units Number",
+      "definition": "Estimated total number of units of the fund/sub fund."
+    },
+    "PreviousTotalUnitsNumber": {
+      "name": "Previous Total Units Number",
+      "definition": "Previous total number of units of the fund/sub fund."
+    },
+    "EstimatedPercentageOfFundTotalNAV": {
+      "name": "Estimated Percentage Of Fund Total NAV",
+      "definition": "Estimated consolidated net cash flow expressed as a percentage of the previous total NAV for the fund/sub fund."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "If Identification is not present, then Name or LegalEntityIdentifier must be present. Identification, Name and Legal Entity Identifier may all be present."
+    },
+    "FundIdentification2Rule": {
+      "definition": "If Name is not present, then Identification or Legal Entity Identifier must be present. Identification, Name and Legal Entity Identifier may all be present."
+    },
+    "FundIdentification3Rule": {
+      "definition": "If Legal Entity Identifier is not present, then Identification or Name must be present. Identification, Name and Legal Entity Identifier may all be present."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "PartyIdentificationAndAccount209",
+  "language": "en",
+  "name": "Party Identification And Account 209",
+  "definition": "Party and account details.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the party."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification as an alternate identification for a party."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Unambiguous identification of the transaction for the party identified."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information regarding the party."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

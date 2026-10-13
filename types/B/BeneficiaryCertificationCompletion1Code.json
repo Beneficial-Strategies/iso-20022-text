@@ -1,0 +1,23 @@
+{
+  "isoType": "BeneficiaryCertificationCompletion1Code",
+  "language": "en",
+  "name": "Beneficiary Certification Completion 1 Code",
+  "definition": "Specifies the type of certification completion required for a beneficiary.",
+  "isoCodes": {
+    "NCER": {
+      "isoName": "CertificationNotRequired",
+      "name": "Certification Not Required",
+      "definition": "Certification is not required for this fund."
+    },
+    "ELEC": {
+      "isoName": "ElectronicCertification",
+      "name": "Electronic Certification",
+      "definition": "Electronic certification is acceptable."
+    },
+    "PHYS": {
+      "isoName": "PhysicalCertification",
+      "name": "Physical Certification",
+      "definition": "Electronic certification is not acceptable and is required in physical form."
+    }
+  }
+}

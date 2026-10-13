@@ -1,0 +1,72 @@
+{
+  "isoType": "IntraBalanceMovement6",
+  "language": "en",
+  "name": "Intra Balance Movement 6",
+  "definition": "Provides additional details of the intra-balance movements data.",
+  "isoElements": {
+    "BalanceFrom": {
+      "name": "Balance From",
+      "definition": "Balance from which the amount of money is moved."
+    },
+    "BalanceTo": {
+      "name": "Balance To",
+      "definition": "Balance to which the amount of money is moved."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Amount of money effectively settled and which will be credited to/debited from the account owner's cash account. It may differ from the instructed settlement amount based on market tolerance level."
+    },
+    "SettledAmount": {
+      "name": "Settled Amount",
+      "definition": "Amount of money effectively settled and which will be credited to/debited from the account owner's cash account. It may differ from the instructed settlement amount based on market tolerance level."
+    },
+    "PreviouslySettledAmount": {
+      "name": "Previously Settled Amount",
+      "definition": "Amount of money previously settled."
+    },
+    "RemainingSettlementAmount": {
+      "name": "Remaining Settlement Amount",
+      "definition": "Amount of money remaining to be settled."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Date and time at which the amount of money is intended to be moved."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which the amount of money is moved."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "CashSubBalanceIdentification": {
+      "name": "Cash Sub Balance Identification",
+      "definition": "Number identifying a lot constituting the sub-balance."
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": "Link to another transaction that must be processed after, before or at the same time."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that originated the message, if other than the sender."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "name": "Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

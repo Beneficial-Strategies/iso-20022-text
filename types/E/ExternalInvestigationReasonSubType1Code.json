@@ -1,0 +1,473 @@
+{
+  "isoType": "ExternalInvestigationReasonSubType1Code",
+  "language": "en",
+  "name": "External Investigation Reason Sub Type 1 Code",
+  "definition": "Specifies the investigation reason sub type, as published in an external investigation reason code sub type set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "MMNA": {
+      "isoName": "MismatchNameAndAccount",
+      "name": "Mismatch Name And Account",
+      "definition": "Name and account are not matching."
+    },
+    "RQAC": {
+      "isoName": "RequestAccount",
+      "name": "Request Account",
+      "definition": "Account is requested."
+    },
+    "RQPP": {
+      "isoName": "RequestPassportCopy",
+      "name": "Request Passport Copy",
+      "definition": "Copy of passport is requested."
+    },
+    "RQIN": {
+      "isoName": "RequestInvoiceCopy",
+      "name": "Request Invoice Copy",
+      "definition": "Copy of invoice is requested."
+    },
+    "RQOW": {
+      "isoName": "RequestOwnershipConfirmation",
+      "name": "Request Ownership Confirmation",
+      "definition": "Confirmation of ownership is requested."
+    },
+    "RQDB": {
+      "isoName": "RequestDateOfBirth",
+      "name": "Request Date Of Birth",
+      "definition": "Date of birth is requested."
+    },
+    "RQCB": {
+      "isoName": "RequestCityOfBirth",
+      "name": "Request City Of Birth",
+      "definition": "City of birth is requested."
+    },
+    "RQPO": {
+      "isoName": "RequestProvinceOfBirth",
+      "name": "Request Province Of Birth",
+      "definition": "Province of birth is requested."
+    },
+    "RQCO": {
+      "isoName": "RequestCountryOfBirth",
+      "name": "Request Country Of Birth",
+      "definition": "Country of birth is requested."
+    },
+    "RQAT": {
+      "isoName": "RequestPostalAddressType",
+      "name": "Request Postal Address Type",
+      "definition": "Postal address type is requested."
+    },
+    "RQDE": {
+      "isoName": "RequestPostalAddressDepartment",
+      "name": "Request Postal Address Department",
+      "definition": "Postal address department is requested."
+    },
+    "RQAS": {
+      "isoName": "RequestPostalAddressSubDepartment",
+      "name": "Request Postal Address Sub Department",
+      "definition": "Postal address sub department is requested."
+    },
+    "RQSN": {
+      "isoName": "RequestPostalAddressStreetName",
+      "name": "Request Postal Address Street Name",
+      "definition": "Postal address street name is requested."
+    },
+    "RQB1": {
+      "isoName": "RequestPostalAddressBuildingNumber",
+      "name": "Request Postal Address Building Number",
+      "definition": "Postal address building number is requested."
+    },
+    "RQBN": {
+      "isoName": "RequestPostalAddressBuildingName",
+      "name": "Request Postal Address Building Name",
+      "definition": "Postal address building name is requested."
+    },
+    "RQFL": {
+      "isoName": "RequestPostalAddressFloor",
+      "name": "Request Postal Address Floor",
+      "definition": "Postal address floor is requested."
+    },
+    "RQPB": {
+      "isoName": "RequestPostalAddressPostBox",
+      "name": "Request Postal Address Post Box",
+      "definition": "Postal address post box is requested."
+    },
+    "RQRO": {
+      "isoName": "RequestPostalAddressRoom",
+      "name": "Request Postal Address Room",
+      "definition": "Postal address room is requested."
+    },
+    "RQPC": {
+      "isoName": "RequestPostalAddressPostCode",
+      "name": "Request Postal Address Post Code",
+      "definition": "Postal address post code is requested."
+    },
+    "RQTN": {
+      "isoName": "RequestPostalAddressTownName",
+      "name": "Request Postal Address Town Name",
+      "definition": "Postal address town name is requested."
+    },
+    "RQTL": {
+      "isoName": "RequestPostalAddressTownLocationName",
+      "name": "Request Postal Address Town Location Name",
+      "definition": "Postal address town location name is requested."
+    },
+    "RQDN": {
+      "isoName": "RequestPostalAddressDistrictName",
+      "name": "Request Postal Address District Name",
+      "definition": "Postal address district name is requested."
+    },
+    "RQCS": {
+      "isoName": "RequestPostalAddressCountrySubDivision",
+      "name": "Request Postal Address Country Sub Division",
+      "definition": "Postal address country sub division is requested."
+    },
+    "RQCC": {
+      "isoName": "RequestPostalAddressCountry",
+      "name": "Request Postal Address Country",
+      "definition": "Postal address country is requested."
+    },
+    "RQAL": {
+      "isoName": "RequestPostalAddressLine",
+      "name": "Request Postal Address Line",
+      "definition": "Postal address line is requested."
+    },
+    "RQPA": {
+      "isoName": "RequestFullPostalAddress",
+      "name": "Request Full Postal Address",
+      "definition": "Full postal address is requested."
+    },
+    "RQNM": {
+      "isoName": "RequestFullName",
+      "name": "Request Full Name",
+      "definition": "Full name is requested."
+    },
+    "ARNU": {
+      "isoName": "RequestAlienRegistrationNumber",
+      "name": "Request Alien Registration Number",
+      "definition": "Alien Registration Number is requested."
+    },
+    "CCPT": {
+      "isoName": "RequestPassportNumber",
+      "name": "Request Passport Number",
+      "definition": "Passport Number is requested."
+    },
+    "DRLC": {
+      "isoName": "RequestDriversLicenseNumber",
+      "name": "Request Drivers License Number",
+      "definition": "Drivers License Number is requested."
+    },
+    "EMPL": {
+      "isoName": "RequestEmployeeIdentificationNumber",
+      "name": "Request Employee Identification Number",
+      "definition": "Employee Identification Number is requested."
+    },
+    "NIDN": {
+      "isoName": "RequestNationalIdentityNumber",
+      "name": "Request National Identity Number",
+      "definition": "National Identity Number is requested."
+    },
+    "SOSE": {
+      "isoName": "RequestSocialSecurityNumber",
+      "name": "Request Social Security Number",
+      "definition": "Social Security Number is requested."
+    },
+    "TELE": {
+      "isoName": "RequestTelephoneNumber",
+      "name": "Request Telephone Number",
+      "definition": "Telephone Number is requested."
+    },
+    "TXID": {
+      "isoName": "RequestTaxIdentificationNumber",
+      "name": "Request Tax Identification Number",
+      "definition": "Tax Identification Number is requested."
+    },
+    "POID": {
+      "isoName": "RequestPersonCommercialIdentification",
+      "name": "Request Person Commercial Identification",
+      "definition": "Person Commercial Identification is requested."
+    },
+    "BANK": {
+      "isoName": "RequestBankPartyIdentification",
+      "name": "Request Bank Party Identification",
+      "definition": "Bank party identification is requested. This is a unique and unambiguous assignment made by a specific bank or similar financial institution to identify a relationship as defined between the bank and its client."
+    },
+    "CBID": {
+      "isoName": "RequestCentralBankIdentificationNumber",
+      "name": "Request Central Bank Identification Number",
+      "definition": "Central bank identification number is requested. This is a unique identification number assigned by a central bank to identify an organisation."
+    },
+    "CHID": {
+      "isoName": "RequestClearingIdentificationNumber",
+      "name": "Request Clearing Identification Number",
+      "definition": "Clearing identification number is requested. This is a unique identification number assigned by a clearing house to identify an organisation"
+    },
+    "CINC": {
+      "isoName": "RequestCertificateOfIncorporationNumber",
+      "name": "Request Certificate Of Incorporation Number",
+      "definition": "Certificate of incorporation number is requested. This is a unique identification number assigned by a designated authority to a certificate of incorporation and used to identify an organisation."
+    },
+    "COID": {
+      "isoName": "RequestCountryIdentificationCode",
+      "name": "Request Country Identification Code",
+      "definition": "Country identification code is requested. This is a country authority given organisation identification (e.g., corporate registration number)"
+    },
+    "CUST": {
+      "isoName": "RequestCustomerNumber",
+      "name": "Request Customer Number",
+      "definition": "Customer number is requested. This is a number assigned by an issuer to identify a customer or a number assigned by a party to identify a creditor or debtor relationship."
+    },
+    "DUNS": {
+      "isoName": "RequestDataUniversalNumberingSystem",
+      "name": "Request Data Universal Numbering System",
+      "definition": "Data universal number is requested. This is a unique identification number provided by Dun & Bradstreet to identify an organisation."
+    },
+    "GS1G": {
+      "isoName": "RequestGS1GLNIdentifier",
+      "name": "Request GS 1 GLN Identifier",
+      "definition": "GS1GLN (Global location number) identifier is requested. This is a non-significant reference number used to identify legal entities, functional entities, or physical entities according to GS1 numbering scheme rules.The number is used to retrieve detailed information that is linked to it."
+    },
+    "SREN": {
+      "isoName": "RequestSIREN",
+      "name": "Request SIREN",
+      "definition": "SIREN number is requested. This is a 9 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation in France."
+    },
+    "SRET": {
+      "isoName": "RequestSIRET",
+      "name": "Request SIRET",
+      "definition": "SIRET number is requested. This is a 14 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation unit in France. It consists of the SIREN number, followed by a five digit classification number, to identify the local geographical unit of that entity"
+    },
+    "BDID": {
+      "isoName": "RequestBusinessDomainIdentifier",
+      "name": "Request Business Domain Identifier",
+      "definition": "Identifier of the business domain in which the organisation is active is requested."
+    },
+    "BOID": {
+      "isoName": "RequestBusinessOtherIdentification",
+      "name": "Request Business Other Identification",
+      "definition": "Other identification of the organisation is requested."
+    },
+    "RQLE": {
+      "isoName": "RequestLEI",
+      "name": "Request LEI",
+      "definition": "Legal entity identifier is requested."
+    },
+    "RQNA": {
+      "isoName": "RequestNationality",
+      "name": "Request Nationality",
+      "definition": "Nationality is requested."
+    },
+    "RQCZ": {
+      "isoName": "RequestCitizenship",
+      "name": "Request Citizenship",
+      "definition": "Citizenship is requested."
+    },
+    "RQRE": {
+      "isoName": "RequestDebtorAndCreditorRelationship",
+      "name": "Request Debtor And Creditor Relationship",
+      "definition": "Relationship between Debtor and Creditor is requested."
+    },
+    "RQOC": {
+      "isoName": "RequestOccupation",
+      "name": "Request Occupation",
+      "definition": "Occupation is requested."
+    },
+    "RQID": {
+      "isoName": "RequestIndustry",
+      "name": "Request Industry",
+      "definition": "Industry is requested."
+    },
+    "RICD": {
+      "isoName": "RequestIncorporationDate",
+      "name": "Request Incorporation Date",
+      "definition": "Incorporation date is requested."
+    },
+    "RICC": {
+      "isoName": "RequestIncorporationCountry",
+      "name": "Request Incorporation Country",
+      "definition": "Incorporation country/country of registration is requested."
+    },
+    "RCBL": {
+      "isoName": "RequestCountriesofAllBusinessLocations",
+      "name": "Request Countriesof All Business Locations",
+      "definition": "Countries of all business/operations locations are requested."
+    },
+    "RQLB": {
+      "isoName": "RequestLineOfBusiness",
+      "name": "Request Line Of Business",
+      "definition": "Line of business is requested."
+    },
+    "RQON": {
+      "isoName": "RequestLocationOfAnyOnwardTradeOfGoodsOrServices",
+      "name": "Request Location Of Any Onward Trade Of Goods Or Services",
+      "definition": "Location of any onward trade of goods or services is requested."
+    },
+    "RQCI": {
+      "isoName": "RequestCountriesInvolvedInTransaction",
+      "name": "Request Countries Involved In Transaction",
+      "definition": "Details of all countries involved in the transaction are requested."
+    },
+    "RQDS": {
+      "isoName": "RequestDetailsOfServices",
+      "name": "Request Details Of Services",
+      "definition": "Details of services are requested."
+    },
+    "RQDG": {
+      "isoName": "RequestDetailsOfGoods",
+      "name": "Request Details Of Goods",
+      "definition": "Details of goods are requested."
+    },
+    "RQLS": {
+      "isoName": "RequestServicesLocation",
+      "name": "Request Services Location",
+      "definition": "Location of where services are carried out is requested."
+    },
+    "RQGF": {
+      "isoName": "RequestGoodsFinalDestination",
+      "name": "Request Goods Final Destination",
+      "definition": "Final destination of goods is requested."
+    },
+    "RQSD": {
+      "isoName": "RequestServicesDate",
+      "name": "Request Services Date",
+      "definition": "Date upon which services are carried out is requested."
+    },
+    "RQGD": {
+      "isoName": "RequestGoodsDate",
+      "name": "Request Goods Date",
+      "definition": "Date upon which goods officially change ownership is requested."
+    },
+    "RQUS": {
+      "isoName": "RequestUSNexusStatus",
+      "name": "Request US Nexus Status",
+      "definition": "Confirmation of whether US is nexus to transaction is requested."
+    },
+    "RQBL": {
+      "isoName": "RequestBillOfLading",
+      "name": "Request Bill Of Lading",
+      "definition": "Bill of lading is requested."
+    },
+    "RQCD": {
+      "isoName": "RequestCustomsDeclaration",
+      "name": "Request Customs Declaration",
+      "definition": "Customs declaration is requested."
+    },
+    "RQTD": {
+      "isoName": "RequestTransportDocumentation",
+      "name": "Request Transport Documentation",
+      "definition": "Transport documentation is requested."
+    },
+    "RQHS": {
+      "isoName": "RequestHSCodesOfGoodsProvided",
+      "name": "Request HS Codes Of Goods Provided",
+      "definition": "HS code of goods is requested."
+    },
+    "RQAB": {
+      "isoName": "RequestAirwayBill",
+      "name": "Request Airway Bill",
+      "definition": "Airway bill is requested."
+    },
+    "RQIM": {
+      "isoName": "RequestIMOVesselInvolved",
+      "name": "Request IMO Vessel Involved",
+      "definition": "Vessel IMO is requested."
+    },
+    "RQTA": {
+      "isoName": "RequestTailNumberAircraftInvolved",
+      "name": "Request Tail Number Aircraft Involved",
+      "definition": "Aircraft tail number is requested."
+    },
+    "RCOO": {
+      "isoName": "RequestCountryOfOrigination",
+      "name": "Request Country Of Origination",
+      "definition": "Country of origination is requested."
+    },
+    "RQUO": {
+      "isoName": "RequestUnderlyingOwner",
+      "name": "Request Underlying Owner",
+      "definition": "Underlying owner is requested."
+    },
+    "RQCT": {
+      "isoName": "RequestCountriesOfTransitBetweenDebtorAndCreditorInTransaction",
+      "name": "Request Countries Of Transit Between Debtor And Creditor In Transaction",
+      "definition": "Countries of transit between the debtor and creditor are requested."
+    },
+    "RQDV": {
+      "isoName": "RequestDatesOfVoyageForGoodServicesReferenceInTransaction",
+      "name": "Request Dates Of Voyage For Good Services Reference In Transaction",
+      "definition": "Dates of voyage for goods or services are requested."
+    },
+    "RPOC": {
+      "isoName": "RequestPortsOfCall",
+      "name": "Request Ports Of Call",
+      "definition": "Ports of call are requested."
+    },
+    "RQCM": {
+      "isoName": "RequestIfPaymentCivilOrMilitaryInNature",
+      "name": "Request If Payment Civil Or Military In Nature",
+      "definition": "Confirmation of whether transaction is civil or military in nature is requested."
+    },
+    "RQUP": {
+      "isoName": "RequestUltimatePartiesInvolvedIncludingSourceOfFunds",
+      "name": "Request Ultimate Parties Involved Including Source Of Funds",
+      "definition": "Ultimate parties and source of funds are requested."
+    },
+    "RQLP": {
+      "isoName": "RequestIfLicenceApplicableOrRequiredForPayment",
+      "name": "Request If Licence Applicable Or Required For Payment",
+      "definition": "Licence applicable or required for payment is requested."
+    },
+    "RQIC": {
+      "isoName": "RequestIfInvolvementOfCharitySector",
+      "name": "Request If Involvement Of Charity Sector",
+      "definition": "Confirmation of whether charitable sector is involved with transaction is requested."
+    },
+    "RQKC": {
+      "isoName": "RequestKimberleyCertification",
+      "name": "Request Kimberley Certification",
+      "definition": "Kimberley certification is requested."
+    },
+    "RQGL": {
+      "isoName": "RequestGeneralLicenseCopy",
+      "name": "Request General License Copy",
+      "definition": "General license copy is requested."
+    },
+    "RQSL": {
+      "isoName": "RequestSpecificLicenseCopy",
+      "name": "Request Specific License Copy",
+      "definition": "Specific license copy is requested."
+    },
+    "RQDP": {
+      "isoName": "RequestDetailedPurposeOfPayment",
+      "name": "Request Detailed Purpose Of Payment",
+      "definition": "Detailed purpose of payment requested."
+    },
+    "RQBW": {
+      "isoName": "RequestBusinessWebsite",
+      "name": "Request Business Website",
+      "definition": "Business website requested."
+    },
+    "RQOG": {
+      "isoName": "RequestOriginOfGoods",
+      "name": "Request Origin Of Goods",
+      "definition": "Origin of goods requested."
+    },
+    "RQUU": {
+      "isoName": "RequestFinalUserAndUsageOfGoodsOrServices",
+      "name": "Request Final User And Usage Of Goods Or Services",
+      "definition": "Final user and usage of goods or services requested."
+    },
+    "MISS": {
+      "isoName": "Missing",
+      "name": "Missing",
+      "definition": "Information is missing."
+    },
+    "INVA": {
+      "isoName": "Invalid",
+      "name": "Invalid",
+      "definition": "Information is invalid."
+    },
+    "ICOM": {
+      "isoName": "Incomplete",
+      "name": "Incomplete",
+      "definition": "Information is incomplete."
+    }
+  }
+}

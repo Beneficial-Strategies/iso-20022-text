@@ -1,0 +1,28 @@
+{
+  "isoType": "Registration2Code",
+  "language": "en",
+  "name": "Registration 2 Code",
+  "definition": "Specifies whether registration should occur upon receipt.",
+  "isoCodes": {
+    "PTYH": {
+      "isoName": "PartyHold",
+      "name": "Party Hold",
+      "definition": "You or your party set the instruction in a hold/frozen/preadvice mode."
+    },
+    "CSDH": {
+      "isoName": "CSDHold",
+      "name": "CSD Hold",
+      "definition": "Central securities depository sets the instruction in a hold/frozen/preadvice mode."
+    },
+    "CDEL": {
+      "isoName": "ConditionalDelivery",
+      "name": "Conditional Delivery",
+      "definition": "Instruction is in a hold/frozen/preadvice mode as it fulfils predefined conditional delivery rules in the market infrastructure platform for conditional delivery."
+    },
+    "CVAL": {
+      "isoName": "CSDValidation",
+      "name": "CSD Validation",
+      "definition": "Instruction is in a hold/frozen/preadvice mode as it fulfils predefined conditions of a restriction processing type in the market infrastructure platform."
+    }
+  }
+}

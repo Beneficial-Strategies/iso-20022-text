@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceLocation9",
+  "language": "en",
+  "name": "Remittance Location 9",
+  "definition": "Provides information on the remittance advice.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "name": "Remittance Identification",
+      "definition": "Unique identification, as assigned by the initiating party, to unambiguously identify the remittance information sent separately from the payment instruction, such as a remittance advice."
+    },
+    "RemittanceLocationMethod": {
+      "name": "Remittance Location Method",
+      "definition": "Method used to deliver the remittance advice information."
+    },
+    "RemittanceLocationElectronicAddress": {
+      "name": "Remittance Location Electronic Address",
+      "definition": "Electronic address to which an agent is to send the remittance information."
+    },
+    "RemittanceLocationPostalAddress": {
+      "name": "Remittance Location Postal Address",
+      "definition": "Postal address to which an agent is to send the remittance information."
+    }
+  }
+}

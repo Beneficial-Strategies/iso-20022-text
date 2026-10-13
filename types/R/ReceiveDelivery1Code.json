@@ -1,0 +1,18 @@
+{
+  "isoType": "ReceiveDelivery1Code",
+  "language": "en",
+  "name": "Receive Delivery 1 Code",
+  "definition": "Specifies whether the settlement transaction is a delivery or receipt.",
+  "isoCodes": {
+    "DELI": {
+      "isoName": "Delivery",
+      "name": "Delivery",
+      "definition": "Financial instruments will be debited from the safekeeping account."
+    },
+    "RECE": {
+      "isoName": "Receive",
+      "name": "Receive",
+      "definition": "Financial instruments will be credited to the safekeeping account."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "RateType1Code",
+  "language": "en",
+  "name": "Rate Type 1 Code",
+  "definition": "Specifies whether the rate is fixed or variable or a forfeit.",
+  "isoCodes": {
+    "FIXE": {
+      "isoName": "Fixed",
+      "name": "Fixed",
+      "definition": "Rate is fixed."
+    },
+    "FORF": {
+      "isoName": "Forfeit",
+      "name": "Forfeit",
+      "definition": "No specific repurchase rate applies to the transaction Repo, only a forfeit."
+    },
+    "VARI": {
+      "isoName": "Variable",
+      "name": "Variable",
+      "definition": "Rate is variable."
+    }
+  }
+}

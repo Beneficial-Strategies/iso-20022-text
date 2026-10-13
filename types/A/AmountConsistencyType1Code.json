@@ -1,0 +1,33 @@
+{
+  "isoType": "AmountConsistencyType1Code",
+  "language": "en",
+  "name": "Amount Consistency Type 1 Code",
+  "definition": "Specifies a type of amount inconsistencies, that the amount type provided matches the reference amount or not.",
+  "isoCodes": {
+    "CONS": {
+      "isoName": "ConsistentAmount",
+      "name": "Consistent Amount",
+      "definition": "Amount information matches the reference data record."
+    },
+    "ICNS": {
+      "isoName": "InconsistentAmount",
+      "name": "Inconsistent Amount",
+      "definition": "Amount information does not match the reference data record."
+    },
+    "ICGA": {
+      "isoName": "InconsistentChargesAmount",
+      "name": "Inconsistent Charges Amount",
+      "definition": "Charges amount information does not match the reference data record."
+    },
+    "ICFA": {
+      "isoName": "InconsistentConfirmedAmount",
+      "name": "Inconsistent Confirmed Amount",
+      "definition": "Amount information confirmed to the creditor does not match the reference data record."
+    },
+    "IISA": {
+      "isoName": "InconsistentInterbankSettlementAmount",
+      "name": "Inconsistent Interbank Settlement Amount",
+      "definition": "Interbank settlement amount information does not match the reference data record."
+    }
+  }
+}

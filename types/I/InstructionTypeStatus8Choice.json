@@ -1,0 +1,16 @@
+{
+  "isoType": "InstructionTypeStatus8Choice",
+  "language": "en",
+  "name": "Instruction Type Status 8 Choice",
+  "definition": "Choice of instruction type status.",
+  "isoElements": {
+    "InstructionStatus": {
+      "name": "Instruction Status",
+      "definition": "Status of each individual meeting instruction(s) included in the instruction message identified in InstructionType/InstructionIdentification."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Status of the meeting instruction cancellation request message or of the individual meeting instruction cancellation request(s). The message is identified in InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

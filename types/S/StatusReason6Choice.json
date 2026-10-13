@@ -1,0 +1,16 @@
+{
+  "isoType": "StatusReason6Choice",
+  "language": "en",
+  "name": "Status Reason 6 Choice",
+  "definition": "Specifies the reason for the status of the transaction.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Reason for the status, as published in an external reason code list."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Reason for the status, in a proprietary form."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementSystemMethod1Code",
+  "language": "en",
+  "name": "Settlement System Method 1 Code",
+  "definition": "Specifies whether the settlement instruction is to be settled through the default or the alternate settlement system.",
+  "isoCodes": {
+    "NSET": {
+      "isoName": "Default",
+      "name": "Default",
+      "definition": "Settle through the default settlement system/method. If there is a standing instruction in place for settlement through the alternate settlement system/method, then this standing instruction is to be ignored."
+    },
+    "YSET": {
+      "isoName": "Alternative",
+      "name": "Alternative",
+      "definition": "Settle through the alternate settlement system/method. If there is a standing instruction in place for settlement through the default settlement system/method, then this standing instruction is to be ignored."
+    }
+  }
+}

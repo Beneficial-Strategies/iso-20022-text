@@ -1,0 +1,40 @@
+{
+  "isoType": "Transaction159",
+  "language": "en",
+  "name": "Transaction 159",
+  "definition": "Information related to the payment transaction.",
+  "isoElements": {
+    "PaymentTo": {
+      "name": "Payment To",
+      "definition": "Destination of the payment (be it a member or a system or both)."
+    },
+    "PaymentFrom": {
+      "name": "Payment From",
+      "definition": "Origin of the payment (be it a member or a system or both)."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the payment transaction is a debit or credit transaction. |."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. This instruction may have to be forwarded several times to complete the settlement chain."
+    },
+    "AccountEntry": {
+      "name": "Account Entry",
+      "definition": "Posting of an item to a cash account, in the context of a cash transaction, that results in an increase or decrease to the balance of the account."
+    },
+    "SecuritiesTransactionReferences": {
+      "name": "Securities Transaction References",
+      "definition": "Provides the references of the underlying securities transaction."
+    }
+  },
+  "isoRules": {
+    "CreditDebitIndicatorGuideline": {
+      "definition": "The CreditDebitIndicator may be omitted for optimisation reason if the CreditDebitIndicator is used in the search criteria of the related query."
+    },
+    "TransactionCreditDebitIndicatorRule": {
+      "definition": "If CreditDebitIndicator is present, then AccountEntry/Entry/Amount or Payment/InstructedAmount or Payment/InterbankSettlementAmount must be present.|If CreditDebitIndicator is not present, then any Message Elements in the list (AccountEntry/Entry/Amount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) is optional."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "ProcessingType1Code",
+  "language": "en",
+  "name": "Processing Type 1 Code",
+  "definition": "Specifies the type of processing restrictions the central system must apply.",
+  "isoCodes": {
+    "RJCT": {
+      "isoName": "Rejection",
+      "name": "Rejection",
+      "definition": "Restriction is the rejection during the settlement instruction validation."
+    },
+    "CVHD": {
+      "isoName": "CSDValidationHold",
+      "name": "CSD Validation Hold",
+      "definition": "Restriction is setting the CSD validation automatically to hold when accepting a settlement instruction."
+    },
+    "RSVT": {
+      "isoName": "Reservation",
+      "name": "Reservation",
+      "definition": "Restriction is the creation of a reservation of a cash balance or a securities position for a specific purpose."
+    },
+    "BLCK": {
+      "isoName": "Blocking",
+      "name": "Blocking",
+      "definition": "Restriction is the blocking of a party, securities account, security or cash account from settlement, blocking of securities position or cash balance for a specific purpose."
+    },
+    "EARM": {
+      "isoName": "Earmarking",
+      "name": "Earmarking",
+      "definition": "Restriction of linked to the balance type that defines and manages position types for securities positions."
+    },
+    "EFAC": {
+      "isoName": "EarmarkingForAutoCollateralisation",
+      "name": "Earmarking For Auto Collateralisation",
+      "definition": "Restriction of linked to the balance type that defines and manages position types for securities positions for auto-collateralisation."
+    },
+    "DLVR": {
+      "isoName": "Deliverable",
+      "name": "Deliverable",
+      "definition": "No restriction has been defined."
+    },
+    "COLD": {
+      "isoName": "Collateralised",
+      "name": "Collateralised",
+      "definition": "Restriction is linked to a sub-pledged collateral transaction."
+    },
+    "CSDB": {
+      "isoName": "CoSDBlocking",
+      "name": "Co SD Blocking",
+      "definition": "Restriction does not support any partial execution."
+    }
+  }
+}

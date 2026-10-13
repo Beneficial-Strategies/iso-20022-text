@@ -1,0 +1,20 @@
+{
+  "isoType": "CashAvailability1",
+  "language": "en",
+  "name": "Cash Availability 1",
+  "definition": "Indicates when the amount of money will become available, that is can be accessed and start generating interest.",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Indicates when the amount of money will become available."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Identifies the available amount."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the availability balance is a credit or a debit balance. |Usage: A zero balance is considered to be a credit balance."
+    }
+  }
+}

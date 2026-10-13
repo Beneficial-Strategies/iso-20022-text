@@ -1,0 +1,72 @@
+{
+  "isoType": "PaymentTransaction170",
+  "language": "en",
+  "name": "Payment Transaction 170",
+  "definition": "Provides further details on the reference and status on the original transactions, included in the original instruction, to which the cancellation request message applies.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "name": "Cancellation Status Identification",
+      "definition": "Unique and unambiguous identifier of a cancellation request status, as assigned by the assigner.||Usage: The cancellation status identification can be used for reconciliation or to link tasks relating to the cancellation request."
+    },
+    "ResolvedCase": {
+      "name": "Resolved Case",
+      "definition": "Identifies the resolved case."
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Provides information on the original message."
+    },
+    "OriginalInstructionIdentification": {
+      "name": "Original Instruction Identification",
+      "definition": "Unique identification, as assigned by the original instructing party for the original instructed party, to unambiguously identify the original instruction."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Unique identification, as assigned by the original initiating party, to unambiguously identify the original transaction."
+    },
+    "OriginalTransactionIdentification": {
+      "name": "Original Transaction Identification",
+      "definition": "Unique identification, as assigned by the original first instructing agent, to unambiguously identify the transaction."
+    },
+    "OriginalClearingSystemReference": {
+      "name": "Original Clearing System Reference",
+      "definition": "Unique reference, as assigned by the original clearing system, to unambiguously identify the original instruction."
+    },
+    "OriginalUETR": {
+      "name": "Original UETR",
+      "definition": "Universally unique identifier to provide the original end-to-end reference of a payment transaction."
+    },
+    "TransactionCancellationStatus": {
+      "name": "Transaction Cancellation Status",
+      "definition": "Specifies the status of the transaction cancellation request."
+    },
+    "CancellationStatusReasonInformation": {
+      "name": "Cancellation Status Reason Information",
+      "definition": "Provides detailed information on the cancellation status reason."
+    },
+    "ResolutionRelatedInformation": {
+      "name": "Resolution Related Information",
+      "definition": "Reference of a return or a reversal transaction that is initiated to fix the case under investigation as part of the resolution."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "name": "Original Interbank Settlement Amount",
+      "definition": "Amount of money moved between the instructing agent and the instructed agent, as provided in the original instruction."
+    },
+    "OriginalInterbankSettlementDate": {
+      "name": "Original Interbank Settlement Date",
+      "definition": "Date, as provided in the original transaction, on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Party who assigns the case.|Usage: This is also the agent that instructs the next party in the chain to carry out the (set of) cancellation request(s)."
+    },
+    "Assignee": {
+      "name": "Assignee",
+      "definition": "Party to which the case is assigned.|Usage: This is also the agent that is instructed by the previous party in the chain to carry out the (set of) cancellation request(s)."
+    },
+    "OriginalTransactionReference": {
+      "name": "Original Transaction Reference",
+      "definition": "Key elements used to identify the original transaction that is being referred to."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementQueryType1Code",
+  "language": "en",
+  "name": "Settlement Query Type 1 Code",
+  "definition": "Specifies the type of settlement instruction query to be executed.",
+  "isoCodes": {
+    "INST": {
+      "isoName": "Instruction",
+      "name": "Instruction",
+      "definition": "Queries settlement instructions based on criteria excluding statuses."
+    },
+    "STTS": {
+      "isoName": "Status",
+      "name": "Status",
+      "definition": "Queries settlement instructions based on criteria that includes statuses."
+    },
+    "STPD": {
+      "isoName": "StatusPeriod",
+      "name": "Status Period",
+      "definition": "Queries settlement instructions based on criteria that includes statuses during a period."
+    }
+  }
+}

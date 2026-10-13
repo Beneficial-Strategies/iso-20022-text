@@ -1,0 +1,158 @@
+{
+  "isoType": "SecuritiesBalanceType14Code",
+  "language": "en",
+  "name": "Securities Balance Type 14 Code",
+  "definition": "Specifies the type of the securities or investment fund balance.",
+  "isoCodes": {
+    "AWAS": {
+      "isoName": "AvailableWithNoAdditionalStatus",
+      "name": "Available With No Additional Status",
+      "definition": "Balance of financial instruments that are freely available with no specific additional status."
+    },
+    "BTRA": {
+      "isoName": "BeingTransferred",
+      "name": "Being Transferred",
+      "definition": "Financial instrument is unavailable as a result of a transfer order, pending movement in the shareholders' register."
+    },
+    "BLOK": {
+      "isoName": "Blocked",
+      "name": "Blocked",
+      "definition": "Balance of financial instruments that are blocked."
+    },
+    "BLOV": {
+      "isoName": "BlockedAuthenticity",
+      "name": "Blocked Authenticity",
+      "definition": "Balance of financial instruments that are blocked for verification of authenticity."
+    },
+    "BLCA": {
+      "isoName": "BlockedCorporateAction",
+      "name": "Blocked Corporate Action",
+      "definition": "Balance of financial instrument blocked following a corporate action, including proxy activities."
+    },
+    "BLOT": {
+      "isoName": "BlockedTrading",
+      "name": "Blocked Trading",
+      "definition": "Balance of financial instruments that are blocked for trading."
+    },
+    "BORR": {
+      "isoName": "Borrowed",
+      "name": "Borrowed",
+      "definition": "Balance of financial instruments that have been borrowed from another party."
+    },
+    "OPNT": {
+      "isoName": "OverdueNetPending",
+      "name": "Overdue Net Pending",
+      "definition": "Net balance of financial instrument that is traded pending settlement and settlement is overdue."
+    },
+    "PNET": {
+      "isoName": "NetPending",
+      "name": "Net Pending",
+      "definition": "Net balance of financial instrument that is traded pending settlement."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation."
+    },
+    "MARG": {
+      "isoName": "DerivativesMargin",
+      "name": "Derivatives Margin",
+      "definition": "Account is used when financing is by the broker/dealer."
+    },
+    "DRAW": {
+      "isoName": "Drawn",
+      "name": "Drawn",
+      "definition": "Settlement transactions relates to drawn securities."
+    },
+    "TRAN": {
+      "isoName": "InTransshipment",
+      "name": "In Transshipment",
+      "definition": "Transaction has been generated due to transformation following a corporate action."
+    },
+    "LOAN": {
+      "isoName": "OnLoan",
+      "name": "On Loan",
+      "definition": "Loan for consumption."
+    },
+    "REGO": {
+      "isoName": "OutForRegistration",
+      "name": "Out For Registration",
+      "definition": "Balance of financial instruments currently being processed by the institution responsible for registering the new beneficial owner (or nominee)."
+    },
+    "BODE": {
+      "isoName": "PendingBorrowedDelivery",
+      "name": "Pending Borrowed Delivery",
+      "definition": "Balance of financial instruments that are pending delivery in relation to a borrow transaction."
+    },
+    "BORE": {
+      "isoName": "PendingBorrowedReceipt",
+      "name": "Pending Borrowed Receipt",
+      "definition": "Balance of financial instruments that are pending receipt in relation to a borrow transaction."
+    },
+    "PEDA": {
+      "isoName": "PendingCorporateActionDelivery",
+      "name": "Pending Corporate Action Delivery",
+      "definition": "Balance of financial instrument pending delivery following a corporate action."
+    },
+    "PECA": {
+      "isoName": "PendingCorporateActionReceipt",
+      "name": "Pending Corporate Action Receipt",
+      "definition": "Balance of financial instrument pending receipt following a corporate action."
+    },
+    "PEND": {
+      "isoName": "PendingDelivery",
+      "name": "Pending Delivery",
+      "definition": "Processing has not been completed."
+    },
+    "LODE": {
+      "isoName": "PendingOnLoanDelivery",
+      "name": "Pending On Loan Delivery",
+      "definition": "Balance of financial instruments that are pending delivery in relation to a lending transaction."
+    },
+    "LORE": {
+      "isoName": "PendingOnLoanReceipt",
+      "name": "Pending On Loan Receipt",
+      "definition": "Balance of financial instruments that are pending receipt in relation to a lending transaction."
+    },
+    "PENR": {
+      "isoName": "PendingReceipt",
+      "name": "Pending Receipt",
+      "definition": "The instruction is pending receipt of securities, for example, from a purchase, loan etc."
+    },
+    "PLED": {
+      "isoName": "Pledged",
+      "name": "Pledged",
+      "definition": "Balance of securities that belong to and is kept in the safekeeping account indicated within this message, and that are pledged."
+    },
+    "RSTR": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of financial instruments that may only be sold under certain conditions or require legal documents."
+    },
+    "OTHR": {
+      "isoName": "Unclassified",
+      "name": "Unclassified",
+      "definition": "Other. See Narrative."
+    },
+    "WDOC": {
+      "isoName": "WaitingDocumentation",
+      "name": "Waiting Documentation",
+      "definition": "Financial instrument is unavailable due to missing or incomplete documentation pertaining to the account, or due to a missing or incomplete order."
+    },
+    "GRP1": {
+      "isoName": "PurchasedInvestmentFundTaxGroupUnit1",
+      "name": "Purchased Investment Fund Tax Group Unit 1",
+      "definition": "Purchased investment fund units that were purchased prior to the last ex-div date."
+    },
+    "GRP2": {
+      "isoName": "PurchasedInvestmentFundTaxGroupUnit2",
+      "name": "Purchased Investment Fund Tax Group Unit 2",
+      "definition": "Purchased investment fund units that were purchased since the ex-div date, and that benefit from the tax exemption."
+    }
+  }
+}

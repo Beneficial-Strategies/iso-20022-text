@@ -1,0 +1,38 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity2Code",
+  "language": "en",
+  "name": "Proration Below Minimum Quantity 2 Code",
+  "definition": "Specifies the type of proration when below the minimum quantity to instruct.",
+  "isoCodes": {
+    "FULL": {
+      "isoName": "AcceptedInFull",
+      "name": "Accepted In Full",
+      "definition": "Instructions will be accepted in full (with their original quantity of securities instructed)."
+    },
+    "MIEX": {
+      "isoName": "MinimumQuantity",
+      "name": "Minimum Quantity",
+      "definition": "Instructions will be accepted but prorated to the minimum quantity to instruct."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instructions will be rejected."
+    },
+    "MILD": {
+      "isoName": "RoundDown",
+      "name": "Round Down",
+      "definition": "Instructions will be accepted but rounded down to the specified minimum multiple quantity to instruct."
+    },
+    "MILU": {
+      "isoName": "RoundUp",
+      "name": "Round Up",
+      "definition": "Instructions will be accepted but rounded up to the specified minimum multiple quantity to instruct."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Processing of instructions prorated below the minimum quantity to instruct is unknown."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "TransferOfProceedsType1Code",
+  "language": "en",
+  "name": "Transfer Of Proceeds Type 1 Code",
+  "definition": "Specifies the type of transfer for the market claim proceeds.",
+  "isoCodes": {
+    "CLFT": {
+      "isoName": "FullTransferOfReceivedProceeds",
+      "name": "Full Transfer Of Received Proceeds",
+      "definition": "Market Claim is to transfer proceeds received from the issuer to the entitled party."
+    },
+    "CLPT": {
+      "isoName": "NoTransferOfReceivedProceeds",
+      "name": "No Transfer Of Received Proceeds",
+      "definition": "Market Claim is to compensate the entitled party in cash by the party that failed to fulfil its obligation. No proceeds have been received from the issuer."
+    },
+    "CLNT": {
+      "isoName": "PartialTransferOfReceivedProceeds",
+      "name": "Partial Transfer Of Received Proceeds",
+      "definition": "Market Claim is to transfer proceeds partially received from the issuer to the entitled party. Part is compensated in cash by the party that failed to fulfil its obligation."
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "isoType": "RepairReason5Code",
+  "language": "en",
+  "name": "Repair Reason 5 Code",
+  "definition": "Specifies the reason why the securities financing instruction has a repair status.",
+  "isoCodes": {
+    "BATC": {
+      "isoName": "ProcessingBatch",
+      "name": "Processing Batch",
+      "definition": "Unrecognised or invalid processing batch, that is, daytime/real-time while only possible to settle in overnight batch."
+    },
+    "CAEV": {
+      "isoName": "CorporateAction",
+      "name": "Corporate Action",
+      "definition": "Corporate action pending on the financial instrument instructed."
+    },
+    "CASH": {
+      "isoName": "CashAccount",
+      "name": "Cash Account",
+      "definition": "Unrecognised or invalid cash account."
+    },
+    "CASY": {
+      "isoName": "ImpossibleCashSettlementSystem",
+      "name": "Impossible Cash Settlement System",
+      "definition": "Impossible standing arrangements override instruction for the cash settlement system."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Unrecognised or invalid settlement date."
+    },
+    "DDEA": {
+      "isoName": "DealPrice",
+      "name": "Deal Price",
+      "definition": "Unrecognised or invalid deal price."
+    },
+    "DMON": {
+      "isoName": "SettlementAmount",
+      "name": "Settlement Amount",
+      "definition": "Unrecognised or invalid settlement amount."
+    },
+    "DQUA": {
+      "isoName": "Quantity",
+      "name": "Quantity",
+      "definition": "Unrecognised or invalid settlement quantity."
+    },
+    "DSEC": {
+      "isoName": "Security",
+      "name": "Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date."
+    },
+    "IIND": {
+      "isoName": "CommonReference",
+      "name": "Common Reference",
+      "definition": "Unrecognised, invalid or missing common reference."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementQuantity",
+      "name": "Minimum Settlement Quantity",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementQuantity",
+      "name": "Multiple Settlement Quantity",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrency",
+      "name": "Settlement Amount Currency",
+      "definition": "Unrecognised or invalid settlement amount currency."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlementImpossible",
+      "name": "Physical Settlement Impossible",
+      "definition": "Physical settlement is impossible for the instructed financial instrument."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Unrecognised or invalid place of trade."
+    },
+    "REFE": {
+      "isoName": "Reference",
+      "name": "Reference",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "RTGS": {
+      "isoName": "ImpossibleToUseTheRTGSSystemInstructed",
+      "name": "Impossible To Use The RTGS System Instructed",
+      "definition": "Impossible to use the RTGS system instructed (NRTG or YRTG)."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccount",
+      "name": "Safekeeping Account",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "SETR": {
+      "isoName": "SettlementTransaction",
+      "name": "Settlement Transaction",
+      "definition": "Unrecognised or invalid settlement transaction type."
+    },
+    "SETS": {
+      "isoName": "SettlementSystemMethod",
+      "name": "Settlement System Method",
+      "definition": "Unrecognised or invalid settlement system/method instructed."
+    },
+    "TXST": {
+      "isoName": "TaxStatus",
+      "name": "Tax Status",
+      "definition": "Unrecognised or invalid tax status of the securities instructed."
+    },
+    "INPS": {
+      "isoName": "PlaceOfSafekeeping",
+      "name": "Place Of Safekeeping",
+      "definition": "Unrecognised, invalid or missing Place of Safekeeping."
+    },
+    "SDUT": {
+      "isoName": "StampDuty",
+      "name": "Stamp Duty",
+      "definition": "Required stamp duty information is missing."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "IEXE": {
+      "isoName": "ReceivingDeliveringParty3",
+      "name": "Receiving Delivering Party 3",
+      "definition": "Client of delivering or receiving party 2 mismatch."
+    },
+    "ICAG": {
+      "isoName": "ReceivingDeliveringParty1",
+      "name": "Receiving Delivering Party 1",
+      "definition": "Participant of delivering or receiving depository mismatch."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Depository mismatch."
+    },
+    "ICUS": {
+      "isoName": "ReceivingDeliveringParty2",
+      "name": "Receiving Delivering Party 2",
+      "definition": "Client of delivering or receiving party 1 mismatch."
+    },
+    "REPA": {
+      "isoName": "TerminationTransactionAmount",
+      "name": "Termination Transaction Amount",
+      "definition": "Unrecognised or invalid termination transaction amount."
+    },
+    "CADE": {
+      "isoName": "TransactionCallDelay",
+      "name": "Transaction Call Delay",
+      "definition": "Unrecognised or invalid transaction call delay."
+    },
+    "RERT": {
+      "isoName": "RepurchaseRateType",
+      "name": "Repurchase Rate Type",
+      "definition": "Unrecognised or invalid repurchase rate type."
+    },
+    "RSPR": {
+      "isoName": "SpreadRate",
+      "name": "Spread Rate",
+      "definition": "Unrecognised or invalid spread rate."
+    },
+    "VASU": {
+      "isoName": "VariableRateSupport",
+      "name": "Variable Rate Support",
+      "definition": "Unrecognised or invalid variable rate support (repurchase agreement)."
+    },
+    "REPO": {
+      "isoName": "RepurchaseRate",
+      "name": "Repurchase Rate",
+      "definition": "Unrecognised or invalid repurchase rate."
+    },
+    "REPP": {
+      "isoName": "PremiumAmount",
+      "name": "Premium Amount",
+      "definition": "Unrecognised or invalid premium amount."
+    },
+    "TERM": {
+      "isoName": "ClosingDateTime",
+      "name": "Closing Date Time",
+      "definition": "Unrecognised or invalid closing date/time."
+    },
+    "FORF": {
+      "isoName": "ForfeitAmount",
+      "name": "Forfeit Amount",
+      "definition": "Unrecognised or invalid forfeit amount."
+    }
+  }
+}

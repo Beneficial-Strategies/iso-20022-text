@@ -1,0 +1,24 @@
+{
+  "isoType": "CharacterSearch1Choice",
+  "language": "en",
+  "name": "Character Search 1 Choice",
+  "definition": "Set of characters to be matched to be considered as valid.",
+  "isoElements": {
+    "Equal": {
+      "name": "Equal",
+      "definition": "Exact set of characters to be matched to be considered valid."
+    },
+    "NotEqual": {
+      "name": "Not Equal",
+      "definition": "Exact set of characters that cannot match to be considered valid."
+    },
+    "Contain": {
+      "name": "Contain",
+      "definition": "Set of characters to be matched to be considered valid."
+    },
+    "NotContain": {
+      "name": "Not Contain",
+      "definition": "Set of characters that cannot match to be considered valid."
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "isoType": "UnmatchedReason11Code",
+  "language": "en",
+  "name": "Unmatched Reason 11 Code",
+  "definition": "Specifies the reason the transaction, transfer or settlement instruction is unmatched.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline. Processed on best effort basis."
+    },
+    "ACRU": {
+      "isoName": "AccruedInterestAmount1",
+      "name": "Accrued Interest Amount 1",
+      "definition": "Accrued interest amount does not match."
+    },
+    "IIND": {
+      "isoName": "CommonReference",
+      "name": "Common Reference",
+      "definition": "Common reference does not match."
+    },
+    "CPCA": {
+      "isoName": "CounterpartyCancelled",
+      "name": "Counterparty Cancelled",
+      "definition": "Counterparty cancelled their instruction."
+    },
+    "CLAT": {
+      "isoName": "CounterpartyTooLateForMatching",
+      "name": "Counterparty Too Late For Matching",
+      "definition": "Counterparty's instruction was too late for matching."
+    },
+    "NCRR": {
+      "isoName": "CurrencySettlementAmount",
+      "name": "Currency Settlement Amount",
+      "definition": "Settlement amount currency does not match."
+    },
+    "DDEA": {
+      "isoName": "DealPrice",
+      "name": "Deal Price",
+      "definition": "Deal price does not match."
+    },
+    "DMCT": {
+      "isoName": "AutomaticGeneration",
+      "name": "Automatic Generation",
+      "definition": "Disagreement on automatic generation of market claim or transformation."
+    },
+    "DCMX": {
+      "isoName": "CumEx",
+      "name": "Cum Ex",
+      "definition": "Disagreement if trade was executed cum or ex."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrument",
+      "name": "Financial Instrument",
+      "definition": "Financial instrument identification does not match, for example, ISIN, financial instrument attributes differs."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "INVE": {
+      "isoName": "InvestorParty",
+      "name": "Investor Party",
+      "definition": "Investor party does not match."
+    },
+    "LEOG": {
+      "isoName": "LetterOfGuarantee",
+      "name": "Letter Of Guarantee",
+      "definition": "Counterparty is for settlement through letter of guarantee, your instruction is not, or vice versa."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Your instruction was too late for matching."
+    },
+    "MIME": {
+      "isoName": "MissingMarketSide",
+      "name": "Missing Market Side",
+      "definition": "Missing market execution details."
+    },
+    "CMIS": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "A matching instruction from your counterparty could not be found."
+    },
+    "NMAS": {
+      "isoName": "NoMatchingStarted",
+      "name": "No Matching Started",
+      "definition": "Matching process has not yet started."
+    },
+    "DTRA": {
+      "isoName": "NotRecognised",
+      "name": "Not Recognised",
+      "definition": "Counterparty has been contacted or contacted us, and does not recognise the transaction."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Proprietary unmatched reason code described in a narrative field."
+    },
+    "FRAP": {
+      "isoName": "PaymentCode",
+      "name": "Payment Code",
+      "definition": "Payment type does not match: your instruction is free of payment, your counterparty's instruction is against payment or vice versa."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlement",
+      "name": "Physical Settlement",
+      "definition": "Counterparty's instruction is physical settlement, your instruction is not, or vice versa."
+    },
+    "PLIS": {
+      "isoName": "PlaceOfListing",
+      "name": "Place Of Listing",
+      "definition": "Place of listing does not match."
+    },
+    "INPS": {
+      "isoName": "PlaceOfSafekeeping",
+      "name": "Place Of Safekeeping",
+      "definition": "Place of safekeeping information does not allow matching to take place."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Place of trade does not match."
+    },
+    "PODU": {
+      "isoName": "PossibleDuplicate",
+      "name": "Possible Duplicate",
+      "definition": "Instruction has not been matched. It is a possible duplicate instruction."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Depository does not match."
+    },
+    "ICAG": {
+      "isoName": "ReceivingDeliveringParty1",
+      "name": "Receiving Delivering Party 1",
+      "definition": "Participant of delivering or receiving depository does not match."
+    },
+    "ICUS": {
+      "isoName": "ReceivingDeliveringParty2",
+      "name": "Receiving Delivering Party 2",
+      "definition": "Client of delivering or receiving party 1 does not match."
+    },
+    "IEXE": {
+      "isoName": "ReceivingDeliveringParty3",
+      "name": "Receiving Delivering Party 3",
+      "definition": "Client of delivering or receiving party 2 does not match."
+    },
+    "REGD": {
+      "isoName": "RegistrationDetails",
+      "name": "Registration Details",
+      "definition": "Registration details linked to the transaction are incorrect."
+    },
+    "RTGS": {
+      "isoName": "RTGSSystem",
+      "name": "RTGS System",
+      "definition": "Counterparty is for Real Time Gross Settlement (RTGS) system, you are for non-RTGS or vice versa."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccount",
+      "name": "Safekeeping Account",
+      "definition": "Safekeeping account used as matching criteria on the market concerned does not match. This includes Buyer/seller's account, direct client's account at the receiving/delivering agent, or receiving/delivering agent's account at the CSD."
+    },
+    "DMON": {
+      "isoName": "SettlementAmount",
+      "name": "Settlement Amount",
+      "definition": "Settlement amount does not match."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Settlement date/time does not match."
+    },
+    "SETS": {
+      "isoName": "SettlementSystemMethod",
+      "name": "Settlement System Method",
+      "definition": "Settlement system/method does not match (for example, instruction is to settle using settlement system/method A. Counterparty expects settlement to occur using settlement system/method B)."
+    },
+    "SETR": {
+      "isoName": "SettlementTransaction",
+      "name": "Settlement Transaction",
+      "definition": "Settlement transaction type does not match (relates to the settlement transaction type codes available for field: 22F:: SETR.)."
+    },
+    "TXST": {
+      "isoName": "TaxStatus",
+      "name": "Tax Status",
+      "definition": "Disagreement on the tax status of the financial instruments to be settled."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Trade date does not match."
+    },
+    "DELN": {
+      "isoName": "TransactionDirection",
+      "name": "Transaction Direction",
+      "definition": "Direction of the trade does not match. Counterparty expects a delivery from you, not a receipt or vice versa."
+    },
+    "UNBR": {
+      "isoName": "UnmatchedMarketSide",
+      "name": "Unmatched Market Side",
+      "definition": "Market side trade is unmatched."
+    }
+  }
+}

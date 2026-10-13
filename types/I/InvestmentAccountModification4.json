@@ -1,0 +1,33 @@
+{
+  "isoType": "InvestmentAccountModification4",
+  "language": "en",
+  "name": "Investment Account Modification 4",
+  "definition": "Information about the modification of an account.",
+  "isoElements": {
+    "ModificationReason": {
+      "name": "Modification Reason",
+      "definition": "Reason for the modification to the investment account information."
+    },
+    "AccountApplicationIdentification": {
+      "name": "Account Application Identification",
+      "definition": "Unique and unambiguous identifier of the account modification request."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of a transfer."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transaction, for example, a transfer, as allocated by the counterparty."
+    },
+    "ExistingAccountIdentification": {
+      "name": "Existing Account Identification",
+      "definition": "Account to which the account opening is related."
+    }
+  },
+  "isoRules": {
+    "InstructionDetailsElementRule": {
+      "definition": "One of the elements (ModificationReason, AccountApplicationIdentification, ClientReference, CounterpartyReference, ExistingAccountIdentification) must be present."
+    }
+  }
+}

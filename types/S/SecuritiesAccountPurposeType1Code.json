@@ -1,0 +1,38 @@
+{
+  "isoType": "SecuritiesAccountPurposeType1Code",
+  "language": "en",
+  "name": "Securities Account Purpose Type 1 Code",
+  "definition": "Specifies the purpose of the securities account.",
+  "isoCodes": {
+    "MARG": {
+      "isoName": "Margin",
+      "name": "Margin",
+      "definition": "Account is used when financing is done by the broker."
+    },
+    "SHOR": {
+      "isoName": "ShortSale",
+      "name": "Short Sale",
+      "definition": "Account is used for short sale orders."
+    },
+    "ABRD": {
+      "isoName": "Abroad",
+      "name": "Abroad",
+      "definition": "Account is located in a financial institution outside the country where the transaction is taking place."
+    },
+    "CEND": {
+      "isoName": "Centralised",
+      "name": "Centralised",
+      "definition": "Account and all its related positions are held in one location."
+    },
+    "DVPA": {
+      "isoName": "CashDVP",
+      "name": "Cash DVP",
+      "definition": "Account is used for settlement upon delivery, or a collection on a delivery basis."
+    },
+    "PHYS": {
+      "isoName": "Physical",
+      "name": "Physical",
+      "definition": "Account is used for physical domestic safekeeping."
+    }
+  }
+}

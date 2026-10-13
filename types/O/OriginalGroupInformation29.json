@@ -1,0 +1,20 @@
+{
+  "isoType": "OriginalGroupInformation29",
+  "language": "en",
+  "name": "Original Group Information 29",
+  "definition": "Unique and unambiguous identifier of the group of transactions as assigned by the original instructing party.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference assigned by the original instructing party to unambiguously identify the original message."
+    },
+    "OriginalMessageNameIdentification": {
+      "name": "Original Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers, for example, pacs.003.001.01 or MT103."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Original date and time at which the message was created."
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "isoType": "RejectionReason75Code",
+  "language": "en",
+  "name": "Rejection Reason 75 Code",
+  "definition": "Specifies the reason why the settlement instruction has a rejected status.",
+  "isoCodes": {
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "CASH": {
+      "isoName": "CashAccount",
+      "name": "Cash Account",
+      "definition": "Unrecognised or invalid cash account."
+    },
+    "DDEA": {
+      "isoName": "DealPrice",
+      "name": "Deal Price",
+      "definition": "Unrecognised or invalid deal price."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date or requested trade date or future trade date."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Unrecognised or invalid place of trade."
+    },
+    "RTGS": {
+      "isoName": "ImpossibleToUseTheRTGSSystemInstructed",
+      "name": "Impossible To Use The RTGS System Instructed",
+      "definition": "Not possible to use the RTGS system instructed (NRTG or YRTG)."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrencyRejection",
+      "name": "Settlement Amount Currency Rejection",
+      "definition": "Unrecognised or invalid settlement amount currency."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlementImpossible",
+      "name": "Physical Settlement Impossible",
+      "definition": "Physical settlement is impossible for the instructed financial instrument."
+    },
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "DMON": {
+      "isoName": "SettlementAmountRejection",
+      "name": "Settlement Amount Rejection",
+      "definition": "Unrecognised or invalid settlement amount."
+    },
+    "MINO": {
+      "isoName": "MinimumSettlementQuantity",
+      "name": "Minimum Settlement Quantity",
+      "definition": "Quantity instructed is lower than the minimum existing settlement quantity for the financial instrument."
+    },
+    "BATC": {
+      "isoName": "ProcessingBatchRejection",
+      "name": "Processing Batch Rejection",
+      "definition": "Unrecognised or invalid processing batch, that is, daytime/real-time while only possible to settle in overnight batch."
+    },
+    "MUNO": {
+      "isoName": "MultipleSettlementQuantity",
+      "name": "Multiple Settlement Quantity",
+      "definition": "Quantity instructed is not a multiple of an existing settlement quantity lot for the financial instrument."
+    },
+    "TXST": {
+      "isoName": "TaxStatusRejection",
+      "name": "Tax Status Rejection",
+      "definition": "Unrecognised or invalid tax status of the securities instructed."
+    },
+    "SETS": {
+      "isoName": "SettlementSystemMethodRejection",
+      "name": "Settlement System Method Rejection",
+      "definition": "Unrecognised or invalid settlement system/method instructed."
+    },
+    "IIND": {
+      "isoName": "CommonReferenceRejection",
+      "name": "Common Reference Rejection",
+      "definition": "Unrecognised, invalid or missing common reference."
+    },
+    "CAEV": {
+      "isoName": "CorporateActionRejection",
+      "name": "Corporate Action Rejection",
+      "definition": "Corporate action pending on the financial instrument instructed."
+    },
+    "CASY": {
+      "isoName": "ImpossibleCashSettlementSystem",
+      "name": "Impossible Cash Settlement System",
+      "definition": "Impossible standing arrangements override instruction for the cash settlement system."
+    },
+    "DDAT": {
+      "isoName": "SettlementDateRejection",
+      "name": "Settlement Date Rejection",
+      "definition": "Unrecognised or invalid settlement date."
+    },
+    "SETR": {
+      "isoName": "SettlementTransactionRejection",
+      "name": "Settlement Transaction Rejection",
+      "definition": "Unrecognised or invalid settlement transaction type."
+    },
+    "SDUT": {
+      "isoName": "LackOfStampDuty",
+      "name": "Lack Of Stamp Duty",
+      "definition": "Required stamp duty information is missing."
+    },
+    "INPS": {
+      "isoName": "PlaceOfSafekeeping",
+      "name": "Place Of Safekeeping",
+      "definition": "Unrecognised, invalid or missing place of safekeeping."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "ICUS": {
+      "isoName": "ReceivingDeliveringParty2",
+      "name": "Receiving Delivering Party 2",
+      "definition": "Unrecognised or invalid client of delivering or receiving party 1."
+    },
+    "ICAG": {
+      "isoName": "ReceivingDeliveringParty1",
+      "name": "Receiving Delivering Party 1",
+      "definition": "Unrecognised or invalid participant of delivering or receiving depository."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Unrecognised or invalid depository."
+    },
+    "IEXE": {
+      "isoName": "ReceivingDeliveringParty3",
+      "name": "Receiving Delivering Party 3",
+      "definition": "Unrecognised or invalid client of delivering or receiving party 2."
+    },
+    "INVB": {
+      "isoName": "InvalidBalance",
+      "name": "Invalid Balance",
+      "definition": "Instruction aims at using an invalid balance."
+    },
+    "INVL": {
+      "isoName": "InvalidLink",
+      "name": "Invalid Link",
+      "definition": "Invalid or unrecognized link."
+    },
+    "INVN": {
+      "isoName": "InvalidLotNumber",
+      "name": "Invalid Lot Number",
+      "definition": "Invalid or unrecognized lot number."
+    },
+    "VALR": {
+      "isoName": "InvalidRule",
+      "name": "Invalid Rule",
+      "definition": "Account servicer validation rule rejection."
+    },
+    "INVE": {
+      "isoName": "InvalidInvestorParty",
+      "name": "Invalid Investor Party",
+      "definition": "Unrecognised or invalid investor party. May be used by an executing party to reject an instruction for an investor (or portfolio) for which it is not authorised to act."
+    },
+    "PLIS": {
+      "isoName": "PlaceOfListing",
+      "name": "Place Of Listing",
+      "definition": "Unrecognised or invalid place of listing. Used when the security identified is not listed on the market supplied."
+    }
+  }
+}

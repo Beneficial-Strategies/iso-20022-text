@@ -1,0 +1,21 @@
+{
+  "isoType": "TransferType2Choice",
+  "language": "en",
+  "name": "Transfer Type 2 Choice",
+  "definition": "Choice of formats for a transfer type.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Transfer type expressed as a code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Transfer type expressed as a proprietary code."
+    }
+  },
+  "isoRules": {
+    "SECUGuideline": {
+      "definition": "The code SECU (Asset) is used when a financial instrument such as units of a fund are to be transferred. |The code SECU is also used when assets such as equities or bonds are to be transferred. The code SECU is also used for assets such as property, moveable property and other similar types of other asset."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "TrackerHeader5",
+  "language": "en",
+  "name": "Tracker Header 5",
+  "definition": "Set of characteristics shared by all individual transactions included in the message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the tracker informing party and sent by the tracker to unambiguously identify the message."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Number of individual transactions contained in the message."
+    },
+    "TrackerInformingParty": {
+      "name": "Tracker Informing Party",
+      "definition": "Party that provides information on the status and related details of a transaction."
+    },
+    "TrackerInformedParty": {
+      "name": "Tracker Informed Party",
+      "definition": "Party that is updated on the status and related details of a transaction."
+    },
+    "OriginalTrackerUpdate": {
+      "name": "Original Tracker Update",
+      "definition": "Original reference, as assigned by the informer and sent to the tracker to unambiguously identify the tracker update message.||Usage: this element may only be present when the alert notification is related to a payment status tracker update."
+    },
+    "ServiceLevel": {
+      "name": "Service Level",
+      "definition": "Agreement under which or rules under which the tracker update should be processed."
+    }
+  }
+}

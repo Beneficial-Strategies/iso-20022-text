@@ -1,0 +1,52 @@
+{
+  "isoType": "PaymentContext3",
+  "language": "en",
+  "name": "Payment Context 3",
+  "definition": "Payment context in which the transaction is performed.",
+  "isoElements": {
+    "CardPresent": {
+      "name": "Card Present",
+      "definition": "Indicates whether the transaction has been initiated by a card physically present or not."
+    },
+    "CardholderPresent": {
+      "name": "Cardholder Present",
+      "definition": "Indicates whether the transaction has been initiated in presence of the cardholder or not."
+    },
+    "OnLineContext": {
+      "name": "On Line Context",
+      "definition": "On-line or off-line context of the transaction."
+    },
+    "AttendanceContext": {
+      "name": "Attendance Context",
+      "definition": "Human attendance at the POI location during the transaction."
+    },
+    "TransactionEnvironment": {
+      "name": "Transaction Environment",
+      "definition": "Indicates the environment of the transaction."
+    },
+    "TransactionChannel": {
+      "name": "Transaction Channel",
+      "definition": "Identifies the type of the communication channels used by the cardholder to the acceptor system."
+    },
+    "AttendantMessageCapable": {
+      "name": "Attendant Message Capable",
+      "definition": "Indicates whether a message can be sent or not on an attendant display (attendant display present or not)."
+    },
+    "AttendantLanguage": {
+      "name": "Attendant Language",
+      "definition": "Language used to display messages to the attendant."
+    },
+    "CardDataEntryMode": {
+      "name": "Card Data Entry Mode",
+      "definition": "Entry mode of the card data."
+    },
+    "FallbackIndicator": {
+      "name": "Fallback Indicator",
+      "definition": "Indicator of a card entry mode fallback."
+    },
+    "AuthenticationMethod": {
+      "name": "Authentication Method",
+      "definition": "Method used to authenticate a cardholder."
+    }
+  }
+}

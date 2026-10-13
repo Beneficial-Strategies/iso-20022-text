@@ -1,0 +1,88 @@
+{
+  "isoType": "RejectionReason12Code",
+  "language": "en",
+  "name": "Rejection Reason 12 Code",
+  "definition": "Specifies the reason of a rejection of a deactivation instruction.",
+  "isoCodes": {
+    "DEAC": {
+      "isoName": "EventAlreadyDeactivated",
+      "name": "Event Already Deactivated",
+      "definition": "Rejected as the deactivation of the event is already completed."
+    },
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    },
+    "SAME": {
+      "isoName": "SameCAIdentification",
+      "name": "Same CA Identification",
+      "definition": "An Agent Corporate Action Deactivation Instruction with the same identification already exists."
+    },
+    "REFI": {
+      "isoName": "InvalidCAIdentification",
+      "name": "Invalid CA Identification",
+      "definition": "Invalid corporate action identification supplied."
+    },
+    "AGIN": {
+      "isoName": "InvalidAgent",
+      "name": "Invalid Agent",
+      "definition": "Invalid agent identification supplied."
+    },
+    "MAIN": {
+      "isoName": "NotMainAgent",
+      "name": "Not Main Agent",
+      "definition": "Agent Identification specified does not correspond to the main Agent of the relating event."
+    },
+    "OPTI": {
+      "isoName": "InvalidOption",
+      "name": "Invalid Option",
+      "definition": "Invalid combination of CA option code and CA option number."
+    },
+    "PEDA": {
+      "isoName": "PendingDeactivation",
+      "name": "Pending Deactivation",
+      "definition": "The specified Corporate Action option already has a pending deactivation instruction."
+    },
+    "NORO": {
+      "isoName": "NoRemainingOption",
+      "name": "No Remaining Option",
+      "definition": "Specified Corporate Action has no remaining options to disable."
+    },
+    "INET": {
+      "isoName": "InvalidEventType",
+      "name": "Invalid Event Type",
+      "definition": "CA Event Type does not correspond with the relating Corporate Action."
+    },
+    "INUS": {
+      "isoName": "InvalidUnderlyingSecurity",
+      "name": "Invalid Underlying Security",
+      "definition": "Underlying Security Identification does not correspond with the Corporate Action Reference supplied."
+    },
+    "INPT": {
+      "isoName": "InvalidEventProcessingType",
+      "name": "Invalid Event Processing Type",
+      "definition": "Event Processing Type does not correspond with the relating Corporate Action."
+    },
+    "INMV": {
+      "isoName": "InvalidMandatoryVoluntaryEventType",
+      "name": "Invalid Mandatory Voluntary Event Type",
+      "definition": "Mandatory/Voluntary Event Type does not correspond with the relating Corporate Action."
+    },
+    "SAID": {
+      "isoName": "SameIdentification",
+      "name": "Same Identification",
+      "definition": "Several message with the same identification."
+    },
+    "MICA": {
+      "isoName": "MismatchedCAIdentification",
+      "name": "Mismatched CA Identification",
+      "definition": "Issuer CA Identification does not correspond with the Corporate Action Identification supplied."
+    },
+    "NOAP": {
+      "isoName": "NotApplicable",
+      "name": "Not Applicable",
+      "definition": "This instruction type is not applicable for mandatory events."
+    }
+  }
+}

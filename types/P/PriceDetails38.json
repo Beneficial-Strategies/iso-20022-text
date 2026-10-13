@@ -1,0 +1,25 @@
+{
+  "isoType": "PriceDetails38",
+  "language": "en",
+  "name": "Price Details 38",
+  "definition": "Provides information about the prices related to a corporate action option.",
+  "isoElements": {
+    "GenericCashPricePaidPerProduct": {
+      "name": "Generic Cash Price Paid Per Product",
+      "definition": "Generic cash price paid per product by the underlying security holder either as a percentage or an amount or a number of points above an index, for example, reinvestment price, strike price and exercise price."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "name": "Generic Cash Price Received Per Product",
+      "definition": "Generic cash price received per product by the underlying security holder either as a percentage or an amount, for example, redemption price."
+    },
+    "CashInLieuOfSharePrice": {
+      "name": "Cash In Lieu Of Share Price",
+      "definition": "Cash disbursement in lieu of equities; usually in lieu of fractional quantity."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct and GenericCashPricePaidPerProduct are prices received or paid in the course of an event. The specific meaning (redemption price, subscription price, reinvestment price, ETC.) is derived from the event type."
+    }
+  }
+}

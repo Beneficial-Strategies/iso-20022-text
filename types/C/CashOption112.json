@@ -1,0 +1,32 @@
+{
+  "isoType": "CashOption112",
+  "language": "en",
+  "name": "Cash Option 112",
+  "definition": "Provides information about the cash option.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or credit."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Choice between a cash account, a charges account or a tax account."
+    },
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Date/Time of the posting (credit or debit) to the account."
+    },
+    "OriginalPostingDate": {
+      "name": "Original Posting Date",
+      "definition": "Date/Time of the posting (credit or debit) to the account that was initially communicated in the confirmation."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time when calculating economic benefit for a cash amount."
+    },
+    "PostingAmount": {
+      "name": "Posting Amount",
+      "definition": "Amount of money that is to be/was posted to the account."
+    }
+  }
+}

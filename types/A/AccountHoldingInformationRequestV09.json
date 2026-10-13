@@ -1,0 +1,93 @@
+{
+  "isoType": "AccountHoldingInformationRequestV09",
+  "language": "en",
+  "name": "Account Holding Information Request V 09",
+  "definition": "Scope|The AccountHoldingInformationRequest message is sent by an instructing party, for example, a (new) plan manager (transferee), to the executing party, for example, a (old) plan manager (transferor), on behalf of the initiating party, for example, an investor (client), to request information about financial instruments held on behalf of the client.|Usage|The AccountHoldingInformationRequest message is used to request information about assets held on behalf of the client for which it intends to instruct a portfolio transfer at a later time.",
+  "isoElements": {
+    "MessageReference": {
+      "name": "Message Reference",
+      "definition": ""
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": ""
+    },
+    "BusinessFlowDirectionType": {
+      "name": "Business Flow Direction Type",
+      "definition": "Business flow direction (assets to be delivered or received)."
+    },
+    "PrimaryIndividualInvestor": {
+      "name": "Primary Individual Investor",
+      "definition": ""
+    },
+    "SecondaryIndividualInvestor": {
+      "name": "Secondary Individual Investor",
+      "definition": ""
+    },
+    "OtherIndividualInvestor": {
+      "name": "Other Individual Investor",
+      "definition": ""
+    },
+    "PrimaryCorporateInvestor": {
+      "name": "Primary Corporate Investor",
+      "definition": ""
+    },
+    "SecondaryCorporateInvestor": {
+      "name": "Secondary Corporate Investor",
+      "definition": ""
+    },
+    "OtherCorporateInvestor": {
+      "name": "Other Corporate Investor",
+      "definition": ""
+    },
+    "TransferorAccount": {
+      "name": "Transferor Account",
+      "definition": ""
+    },
+    "NomineeAccount": {
+      "name": "Nominee Account",
+      "definition": ""
+    },
+    "Transferee": {
+      "name": "Transferee",
+      "definition": ""
+    },
+    "ProductTransfer": {
+      "name": "Product Transfer",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer must be present when and only when different from TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "If PrimaryIndividualInvestor is not present, then SecondaryIndividualInvestor is not allowed.|If PrimaryIndividualInvestor is present, then SecondaryIndividualInvestor may be present."
+    },
+    "Investor2Rule": {
+      "definition": "If PrimaryIndividualInvestor is not present, then OtherIndividualInvestor is not allowed. |If PrimaryIndividualInvestor is present, then OtherIndividualInvestor may be present."
+    },
+    "Corporate2Rule": {
+      "definition": "If PrimaryCorporateInvestor is not present, then OtherCorporateInvestor is not allowed.|If PrimaryCorporateInvestor is present, then OtherCorporateInvestor may be present."
+    },
+    "Corporate1Rule": {
+      "definition": "If PrimaryCorporateInvestor is not present, then SecondaryCorporateInvestor is not allowed.|If PrimaryCorporateInvestor is present, then SecondaryCorporateInvestor may be present."
+    }
+  }
+}

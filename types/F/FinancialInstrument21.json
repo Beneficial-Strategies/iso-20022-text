@@ -1,0 +1,52 @@
+{
+  "isoType": "FinancialInstrument21",
+  "language": "en",
+  "name": "Financial Instrument 21",
+  "definition": "Security that is a sub-set of an investment fund, and is governed by the same investment fund policy, for example, dividend option or valuation currency.",
+  "isoElements": {
+    "ClassType": {
+      "name": "Class Type",
+      "definition": "Features of units offered by a fund. For example, a unit may have a specific load structure, for example, front end or back end, an income policy, eg, pay out or accumulate, or a trailer policy, eg, with or without. Fund classes are typically denoted by a single character, for example, 'Class A', 'Class 2'."
+    },
+    "SecuritiesForm": {
+      "name": "Securities Form",
+      "definition": "Specifies the form, that is, ownership, of the security."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to a class type, that is, if income is paid out or retained in the fund."
+    },
+    "ProductGroup": {
+      "name": "Product Group",
+      "definition": "Company specific description of a group of funds."
+    },
+    "UmbrellaName": {
+      "name": "Umbrella Name",
+      "definition": "Name of the umbrella fund in which financial instrument is contained."
+    },
+    "BaseCurrency": {
+      "name": "Base Currency",
+      "definition": "Currency of the investment fund class."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "DualFundIndicator": {
+      "name": "Dual Fund Indicator",
+      "definition": "Indicates whether the fund has two prices."
+    },
+    "CountryOfDomicile": {
+      "name": "Country Of Domicile",
+      "definition": "Country where the fund has legal domicile as reflected in the ISIN classification."
+    },
+    "RegisteredDistributionCountry": {
+      "name": "Registered Distribution Country",
+      "definition": "Countries where the fund is registered for distribution."
+    }
+  }
+}

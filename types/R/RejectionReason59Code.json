@@ -1,0 +1,73 @@
+{
+  "isoType": "RejectionReason59Code",
+  "language": "en",
+  "name": "Rejection Reason 59 Code",
+  "definition": "Specifies the reason why the instruction request has a rejected status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "OPTY": {
+      "isoName": "InvalidOptionType",
+      "name": "Invalid Option Type",
+      "definition": "Invalid option type."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "NMTY": {
+      "isoName": "Mismatch",
+      "name": "Mismatch",
+      "definition": "Mismatch between option number and option type."
+    },
+    "OPNM": {
+      "isoName": "OptionNumberRejection",
+      "name": "Option Number Rejection",
+      "definition": "Unrecognised option number."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "DQCS": {
+      "isoName": "AmountRejection",
+      "name": "Amount Rejection",
+      "definition": "Unrecognised or invalid instructed cash amount."
+    },
+    "DQCC": {
+      "isoName": "CurrencyRejection",
+      "name": "Currency Rejection",
+      "definition": "Invalid instructed currency."
+    }
+  }
+}

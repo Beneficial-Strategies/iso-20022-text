@@ -1,0 +1,53 @@
+{
+  "isoType": "AuthenticationMethod7Code",
+  "language": "en",
+  "name": "Authentication Method 7 Code",
+  "definition": "Method to authenticate the customer or its card.",
+  "isoCodes": {
+    "TOKA": {
+      "isoName": "AuthenticationToken",
+      "name": "Authentication Token",
+      "definition": "A token is used to verify an already performed authentication."
+    },
+    "BIOM": {
+      "isoName": "Biometry",
+      "name": "Biometry",
+      "definition": "Biometric authentication of the cardholder."
+    },
+    "MOBL": {
+      "isoName": "Mobile",
+      "name": "Mobile",
+      "definition": "Customer mobile device."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other customer authentication."
+    },
+    "FPIN": {
+      "isoName": "OfflinePIN",
+      "name": "Offline PIN",
+      "definition": "Off-line PIN authentication (Personal Identification Number)."
+    },
+    "NPIN": {
+      "isoName": "OnLinePIN",
+      "name": "On Line PIN",
+      "definition": "On-line PIN authentication (Personal Identification Number)."
+    },
+    "PSWD": {
+      "isoName": "Password",
+      "name": "Password",
+      "definition": "Authentication by a password."
+    },
+    "SCRT": {
+      "isoName": "SecureCertificate",
+      "name": "Secure Certificate",
+      "definition": "Electronic commerce transaction secured with the X.509 certificate of a customer."
+    },
+    "SCNL": {
+      "isoName": "SecuredChannel",
+      "name": "Secured Channel",
+      "definition": "Channel-encrypted transaction."
+    }
+  }
+}

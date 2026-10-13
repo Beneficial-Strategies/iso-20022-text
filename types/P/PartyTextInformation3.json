@@ -1,0 +1,25 @@
+{
+  "isoType": "PartyTextInformation3",
+  "language": "en",
+  "name": "Party Text Information 3",
+  "definition": "Provides additional information regarding the party, for example, the contact unit or person responsible for the transaction identified in the message.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Provides declaration details narrative relative to the party."
+    },
+    "PartyContactDetails": {
+      "name": "Party Contact Details",
+      "definition": "Provides additional information regarding the party, for example, the contact unit or person responsible for the transaction identified in the message."
+    },
+    "RegistrationDetails": {
+      "name": "Registration Details",
+      "definition": "Provides information required for the registration."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, DeclarationlDetails, RegistrationDetails and PartyContactDetails must not contain information that can be provided in a structured field."
+    }
+  }
+}

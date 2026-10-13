@@ -1,0 +1,63 @@
+{
+  "isoType": "FailingReason6Code",
+  "language": "en",
+  "name": "Failing Reason 6 Code",
+  "definition": "Specifies the reason the transaction/instruction is failing settlement. Settlement on the instructed settlement date is no longer possible.",
+  "isoCodes": {
+    "BLOC": {
+      "isoName": "AccountBlocked",
+      "name": "Account Blocked",
+      "definition": "Your account is blocked, no instruction can settle over the account."
+    },
+    "PART": {
+      "isoName": "TradeSettlesInPartials",
+      "name": "Trade Settles In Partials",
+      "definition": "Trade will settle in partials."
+    },
+    "LINK": {
+      "isoName": "PendingLinkedInstruction",
+      "name": "Pending Linked Instruction",
+      "definition": "Your instruction is pending settlement because the instruction linked to it is pending."
+    },
+    "LACK": {
+      "isoName": "LackOfSecurities",
+      "name": "Lack Of Securities",
+      "definition": "Insufficient financial instruments in your account."
+    },
+    "CYCL": {
+      "isoName": "AwaitingNextSettlementCycle",
+      "name": "Awaiting Next Settlement Cycle",
+      "definition": "Your instruction is confirmed in the local market or is ready for settlement, awaiting next settlement cycle."
+    },
+    "SBLO": {
+      "isoName": "SecuritiesBlocked",
+      "name": "Securities Blocked",
+      "definition": "Financial instruments are blocked due to a corporate action event, realignment, etc."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Instruction was received after market deadline."
+    },
+    "CERT": {
+      "isoName": "WrongCertificatesNumbers",
+      "name": "Wrong Certificates Numbers",
+      "definition": "Certificate number error."
+    },
+    "PRSY": {
+      "isoName": "SystemOnHold",
+      "name": "System On Hold",
+      "definition": "Transaction was put on hold/frozen by the system."
+    },
+    "INBC": {
+      "isoName": "IncompleteNumberCount",
+      "name": "Incomplete Number Count",
+      "definition": "Not all the instructions part of a pool have been received."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "ServiceItemTotals12",
+  "language": "en",
+  "name": "Service Item Totals 12",
+  "definition": "Specifies totals related to the invoice.",
+  "isoElements": {
+    "ItemType": {
+      "name": "Item Type",
+      "definition": "Specifies a classification for the service items such as query, report, securities account, etc…."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the service item."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Sum of total number units per service item."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Specifies the price per unit of the service item."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Detailed information on tax applied."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice adjustment amount (discounts, allowances and charges) and total tax amounts."
+    }
+  }
+}

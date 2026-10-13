@@ -1,0 +1,75 @@
+{
+  "isoType": "SecuritiesBalanceAccountingReportV12",
+  "language": "en",
+  "name": "Securities Balance Accounting Report V 12",
+  "definition": "Scope |An account servicer sends a SecuritiesBalanceAccountingReport to an account owner to provide, at a moment in time, valuations of the portfolio together with details of each financial instrument holding.|The account servicer/owner relationship may be:|- an accounting agent acting on behalf of an account owner, or|- a transfer agent acting on behalf of a fund manager or an account owner's designated agent.||Usage|The message should be sent at a frequency agreed bi-laterally between the account servicer and the account owner.|The message can be sent either audited or un-audited and may be provided on a trade date, contractual or settlement date basis. |This message can only be used to list the holdings of a single (master) account. However, it is possible to break down these holdings into one or several sub-accounts. Therefore, the message can be used to either specify holdings at|- the main account level, or, |- the sub-account level.|This message can be used to report where the financial instruments are safe-kept, physically or notionally. If a security is held in more than one safekeeping place, this can also be indicated. |The SecuritiesBalanceAccountingReport message should not be used for trading purposes.|There may be one or more intermediary parties, for example, an intermediary or a concentrator between the account owner and account servicer.|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": ""
+    },
+    "IntermediaryInformation": {
+      "name": "Intermediary Information",
+      "definition": ""
+    },
+    "BalanceForAccount": {
+      "name": "Balance For Account",
+      "definition": ""
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": ""
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "name": "Account Base Currency Total Amounts",
+      "definition": ""
+    },
+    "AlternateReportingCurrencyTotalAmounts": {
+      "name": "Alternate Reporting Currency Total Amounts",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is TRUE (Yes), then either BalanceForAccount or SubAccountDetails must be present. If StatementGeneralDetails/ActivityIndicator is FALSE (No), then BalanceForAccount and SubAccountDetails must be absent."
+    },
+    "BalanceForAccountReportingRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is TRUE (Yes) and SubAccountIndicator is FALSE (NO), then BalanceForAccount must be present and Sub Account Details must be absent."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the use of this message.|These market practices are available on www.smpg.info."
+    },
+    "SubAccountDetailsBalanceForAccountPresenceRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is TRUE (Yes) and SubAccountIndicator is TRUE (YES), then SubAccountDetails must be present and BalanceForAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

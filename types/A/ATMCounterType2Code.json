@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMCounterType2Code",
+  "language": "en",
+  "name": "ATM Counter Type 2 Code",
+  "definition": "Type of ATM cassette counters.",
+  "isoCodes": {
+    "BDAY": {
+      "isoName": "BusinessDay",
+      "name": "Business Day",
+      "definition": "Counters since the beginning of the business day."
+    },
+    "INQU": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Counters since the last counters inquiry."
+    },
+    "CTOF": {
+      "isoName": "CutOff",
+      "name": "Cut Off",
+      "definition": "Counters since the last cut-off."
+    },
+    "OPER": {
+      "isoName": "OperatorAdjust",
+      "name": "Operator Adjust",
+      "definition": "Counters since the last update by an operator on the ATM."
+    }
+  }
+}

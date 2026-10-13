@@ -1,0 +1,89 @@
+{
+  "isoType": "Transaction126",
+  "language": "en",
+  "name": "Transaction 126",
+  "definition": "Specifies the details of the transaction.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "name": "Counterparty Market Infrastructure Transaction Identification",
+      "definition": "Identification of a counterparty transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner, the account servicer and the market infrastructure."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Transaction Identification",
+      "definition": "Unique identification identifying the triparty collateral management transaction from the triparty-agent's/service-provider's point of view."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "name": "Client Triparty Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty collateral management transaction from the client's point of view."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "name": "Client Collateral Instruction Identification",
+      "definition": "Unique identification assigned to the instruction by the client."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Instruction Identification",
+      "definition": "Unique identification assigned to the instruction by the triparty-agent/service-provider."
+    },
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "AccountOwnerLegIdentification": {
+      "name": "Account Owner Leg Identification",
+      "definition": "Unique technical identifier for the instance of the leg within a switch."
+    },
+    "AccountServicerLegIdentification": {
+      "name": "Account Servicer Leg Identification",
+      "definition": "Unique identifier for the instance of the leg execution within a switch confirmation."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Identifies the details of the transaction."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, for example, the transaction was sent by fax, then the AccountOwnerTransactionIdentification must be NONREF."
+    }
+  }
+}

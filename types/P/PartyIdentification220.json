@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification220",
+  "language": "en",
+  "name": "Party Identification 220",
+  "definition": "Identification of a person or an organisation.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the organisation."
+    },
+    "LegalEntityIdentifier": {
+      "name": "Legal Entity Identifier",
+      "definition": "Identification of the organisation with a Legal Entity Identifier. This is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    }
+  },
+  "isoRules": {
+    "OrganisationIdentificationRule": {
+      "definition": "Either Identification or Legal Entity Identifier must be present. Both Identification and Legal Entity Identifier may be present."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "TaxWithholdingMethod3Code",
+  "language": "en",
+  "name": "Tax Withholding Method 3 Code",
+  "definition": "Specifies the method by which the tax on the interests is to be processed i.e. either withheld at source or reported to tax authorities or a tax certificate has been provided by the beneficiary.",
+  "isoCodes": {
+    "MITX": {
+      "isoName": "MinorityInterestTax",
+      "name": "Minority Interest Tax",
+      "definition": "Minority interest tax is withheld."
+    },
+    "INVE": {
+      "isoName": "InvestmentCompany",
+      "name": "Investment Company",
+      "definition": "Withholding tax is applied to an investment company."
+    },
+    "ACCT": {
+      "isoName": "Accountant",
+      "name": "Accountant",
+      "definition": "Dividend tax is exempt according to the accountant."
+    },
+    "EXMT": {
+      "isoName": "Exempt",
+      "name": "Exempt",
+      "definition": "Dividend tax is exempt."
+    },
+    "REPT": {
+      "isoName": "ReportTax",
+      "name": "Report Tax",
+      "definition": "Tax information is reported to the tax authorities and therefore not withheld at source."
+    },
+    "CRTF": {
+      "isoName": "TaxCertificate",
+      "name": "Tax Certificate",
+      "definition": "Tax certificate is provided by the beneficiary from its tax authority in its country of residence. Therefore, the obligation of withholding tax is waived and tax information will be reported to the tax authorities."
+    },
+    "WHCO": {
+      "isoName": "WithholdingCorporateTax",
+      "name": "Withholding Corporate Tax",
+      "definition": "Withholding tax is applied to a corporate."
+    },
+    "WTHD": {
+      "isoName": "WithholdTax",
+      "name": "Withhold Tax",
+      "definition": "Tax is withheld at source."
+    },
+    "WTRE": {
+      "isoName": "WithholdTaxAndReport",
+      "name": "Withhold Tax And Report",
+      "definition": "Tax is withheld at source and the tax information is also reported to the tax authorities."
+    }
+  }
+}

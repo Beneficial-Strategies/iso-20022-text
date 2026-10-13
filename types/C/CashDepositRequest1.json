@@ -1,0 +1,60 @@
+{
+  "isoType": "CashDepositRequest1",
+  "language": "en",
+  "name": "Cash Deposit Request 1",
+  "definition": "Specifies the details of a cash deposit request.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique identification for the order."
+    },
+    "CashSenderReference": {
+      "name": "Cash Sender Reference",
+      "definition": "Unique identification, as assigned by the cash sender for the cash deposit."
+    },
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicates whether this message is amending an earlier request message.||Usage: Where the value Yes is indicated the OrderReference and CashSenderReference must remain the same as the original message. Where this element is not used the message is not considered an amendment."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "Date on which the cash sender expects the cash to arrive at the cash receiver and be credited to their account."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account to which cash will be deposited."
+    },
+    "CashDeposit": {
+      "name": "Cash Deposit",
+      "definition": "Provides the details of a cash deposit for an amount of money in cash notes and/or coins."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies the delivery method for the cash deposit."
+    },
+    "DeliveryAddress": {
+      "name": "Delivery Address",
+      "definition": "Specifies the address to which the cash desposit is delivered to."
+    },
+    "DepositContact": {
+      "name": "Deposit Contact",
+      "definition": "Party that is bringing the cash to be deposited."
+    },
+    "SecureCarrierName": {
+      "name": "Secure Carrier Name",
+      "definition": "Identification of the secure carrier."
+    },
+    "SecureCarrierReference": {
+      "name": "Secure Carrier Reference",
+      "definition": "Unique identification, as assigned by the secure carrier for the deposit."
+    },
+    "InsuranceIndicator": {
+      "name": "Insurance Indicator",
+      "definition": "Indicates whether the deposit in transit is insured.||Usage: where this element is not used, the deposit is not insured."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details of the cash deposit."
+    }
+  }
+}

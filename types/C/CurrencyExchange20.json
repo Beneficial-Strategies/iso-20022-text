@@ -1,0 +1,28 @@
+{
+  "isoType": "CurrencyExchange20",
+  "language": "en",
+  "name": "Currency Exchange 20",
+  "definition": "Information needed to process a currency exchange or conversion.",
+  "isoElements": {
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the base currency is converted, in a currency exchange."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which an exchange rate is quoted."
+    },
+    "LowLimit": {
+      "name": "Low Limit",
+      "definition": "Lowest limit defined for the exchange rate.||Usage: The currency authority publishes the exchange rate based on the price formed in the foreign exchange market, allowing it to float up and down within the prescribed fluctuation range. It is the lowest exchange rate supported in foreign exchange market transactions."
+    },
+    "HighLimit": {
+      "name": "High Limit",
+      "definition": "Highest limit defined for the exchange rate.||Usage: The currency authority publishes the exchange rate based on the price formed in the foreign exchange market, allowing it to float up and down within the prescribed fluctuation range. It is the highest exchange rate supported in foreign exchange market transactions."
+    }
+  }
+}

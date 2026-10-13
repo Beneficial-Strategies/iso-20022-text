@@ -1,0 +1,49 @@
+{
+  "isoType": "Statement82",
+  "language": "en",
+  "name": "Statement 82",
+  "definition": "Characteristics of the statement.",
+  "isoElements": {
+    "ReportNumber": {
+      "name": "Report Number",
+      "definition": "Sequential number of the report."
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Reference common to all pages of a statement."
+    },
+    "StatementPeriod": {
+      "name": "Statement Period",
+      "definition": "Period for the statement."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the statement is complete or contains changes only."
+    },
+    "StatementBasis": {
+      "name": "Statement Basis",
+      "definition": "Type of balance on which the statement is prepared."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    },
+    "SubAccountIndicator": {
+      "name": "Sub Account Indicator",
+      "definition": "Indicates whether the statement reports holdings at sub-safekeeping account level."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "If ReportNumber/Long number (Exact5NumericTest) is used, then the report must be a delta reports (UpdateType: DELT).|If the report has multiple pages, then the ReportNumber must remain the same through all the pages. It is a unique number to the report.|Two reports of the same type sent one after the other to the same receiver in relation to the same safekeeping account must have different ReportNumbers. For example, a daily report sent on day 1 would have ReportNumber 001, on day 2, 002."
+    }
+  }
+}

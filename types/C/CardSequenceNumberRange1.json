@@ -1,0 +1,16 @@
+{
+  "isoType": "CardSequenceNumberRange1",
+  "language": "en",
+  "name": "Card Sequence Number Range 1",
+  "definition": "Range of sequence numbers related to card transactions.",
+  "isoElements": {
+    "FirstTransaction": {
+      "name": "First Transaction",
+      "definition": "CardSequenceNumberRange1: FirstTransactionSequenceNumberMessage element to be finalised once feedback from Card SEG has been received."
+    },
+    "LastTransaction": {
+      "name": "Last Transaction",
+      "definition": "CardSequenceNumberRange1: LastTransactionSequenceNumberMessage element to be finalised once feedback from Card SEG has been received."
+    }
+  }
+}

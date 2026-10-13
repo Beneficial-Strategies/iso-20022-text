@@ -1,0 +1,52 @@
+{
+  "isoType": "MeetingInstructionV11",
+  "language": "en",
+  "name": "Meeting Instruction V 11",
+  "definition": "Scope|The MeetingInstruction message is sent by a party holding the right to vote to an intermediary, the issuer or its agent to request the receiving party to act upon one or several instructions.|Usage|The MeetingInstruction message is used to vote, to require attendance to a meeting, to request registration of securities, and assign a proxy. One instruction or multiple instructions can be carried within the same message.|Once the message is sent, it cannot be modified. It must be cancelled by a MeetingInstructionCancellationRequest. Only after receipt of a confirmed cancelled status via the|MeetingInstructionStatus message, a new MeetingInstruction message can be sent.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "MeetingInstructionIdentification": {
+      "name": "Meeting Instruction Identification",
+      "definition": "Unique identification of the group of meeting instruction messages when the instruction is split in multiple (paginated) messages."
+    },
+    "MeetingReference": {
+      "name": "Meeting Reference",
+      "definition": ""
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "InstructionCancellationRequestIdentification": {
+      "name": "Instruction Cancellation Request Identification",
+      "definition": ""
+    },
+    "CancelledInstructionIdentification": {
+      "name": "Cancelled Instruction Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "Instruction": {
+      "name": "Instruction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "If pagination is present, then MeetingInstructionIdentification must be present."
+    },
+    "EntitlementFixingDate1Rule": {
+      "definition": "If Confirmation of Holding Required in MeetingNotification is set to Y, then Entitlement Fixing Date must be provided."
+    }
+  }
+}

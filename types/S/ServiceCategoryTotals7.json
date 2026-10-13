@@ -1,0 +1,32 @@
+{
+  "isoType": "ServiceCategoryTotals7",
+  "language": "en",
+  "name": "Service Category Totals 7",
+  "definition": "Specifies totals related to the invoice.",
+  "isoElements": {
+    "BilledCustomerIdentification": {
+      "name": "Billed Customer Identification",
+      "definition": "Identification of the customer which is invoiced."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Detailed information on tax applied."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice adjustment amount (discounts, allowances and charges) and total tax amounts."
+    },
+    "ServiceCategory": {
+      "name": "Service Category",
+      "definition": "Agreement under which or rules under which the transaction should be processed."
+    },
+    "ServiceItemTotals": {
+      "name": "Service Item Totals",
+      "definition": "Totals related to the invoice."
+    },
+    "ServiceItemCorrection": {
+      "name": "Service Item Correction",
+      "definition": "Correction applied to the invoice."
+    }
+  }
+}

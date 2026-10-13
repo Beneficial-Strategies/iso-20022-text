@@ -1,0 +1,28 @@
+{
+  "isoType": "SystemStatus2Code",
+  "language": "en",
+  "name": "System Status 2 Code",
+  "definition": "Specifies the status of a system.",
+  "isoCodes": {
+    "SUSP": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "System is suspended, that is, not operational."
+    },
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "System is functioning normally, that is, operational."
+    },
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "System is closed (eg. normal closure of an RTGS)."
+    },
+    "CLSG": {
+      "isoName": "Closing",
+      "name": "Closing",
+      "definition": "System needs to wait for completion of intermediate internal activities before going to a status Closed."
+    }
+  }
+}

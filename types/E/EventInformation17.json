@@ -1,0 +1,28 @@
+{
+  "isoType": "EventInformation17",
+  "language": "en",
+  "name": "Event Information 17",
+  "definition": "Provides information about event of a corporate action.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "name": "Official Corporate Action Event Identification",
+      "definition": "Provides the reference of the linked official corporate action event."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of corporate action event."
+    },
+    "MandatoryVoluntaryEventType": {
+      "name": "Mandatory Voluntary Event Type",
+      "definition": "Specifies whether the event is mandatory, mandatory with options or voluntary."
+    },
+    "LastNotificationIdentification": {
+      "name": "Last Notification Identification",
+      "definition": "Provides information about the identification of the last notification."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Code",
+  "language": "en",
+  "name": "Investment Fund Transaction In Type 1 Code",
+  "definition": "Specifies the type of investment fund transaction that results in a cash movement into a fund.",
+  "isoCodes": {
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Transaction is a subscription to an investment fund."
+    },
+    "SWII": {
+      "isoName": "SwitchIn",
+      "name": "Switch In",
+      "definition": "Transaction is a subscription leg of a switch order execution."
+    },
+    "INSP": {
+      "isoName": "InSpecie",
+      "name": "In Specie",
+      "definition": "Transaction is an InSpecie."
+    },
+    "CROI": {
+      "isoName": "CrossIn",
+      "name": "Cross In",
+      "definition": "Transaction is a cross-in."
+    },
+    "RDIV": {
+      "isoName": "ReinvestmentOfDividend",
+      "name": "Reinvestment Of Dividend",
+      "definition": "Transaction is a reinvestment of dividend."
+    }
+  }
+}

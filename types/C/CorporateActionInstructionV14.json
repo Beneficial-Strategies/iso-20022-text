@@ -1,0 +1,76 @@
+{
+  "isoType": "CorporateActionInstructionV14",
+  "language": "en",
+  "name": "Corporate Action Instruction V 14",
+  "definition": "Scope|The CorporateActionInstruction message is sent by an account owner to an account servicer to instruct election on a corporate action event.||This message is used to provide the custodian with instructions on how the account owner wishes to proceed with a corporate action event. Instructions include investment decisions regarding the exercise of rights issues, the election of stock or cash when the option is available, and decisions on the conversion or tendering of securities.|Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "name": "Change Instruction Indicator",
+      "definition": "Indicates that the current instruction is replacing a previous one that was cancelled earlier."
+    },
+    "CancelledInstructionIdentification": {
+      "name": "Cancelled Instruction Identification",
+      "definition": ""
+    },
+    "InstructionCancellationRequestIdentification": {
+      "name": "Instruction Cancellation Request Identification",
+      "definition": ""
+    },
+    "OtherDocumentIdentification": {
+      "name": "Other Document Identification",
+      "definition": ""
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": ""
+    },
+    "BeneficialOwnerDetails": {
+      "name": "Beneficial Owner Details",
+      "definition": ""
+    },
+    "CorporateActionInstruction": {
+      "name": "Corporate Action Instruction",
+      "definition": ""
+    },
+    "ProtectInstruction": {
+      "name": "Protect Instruction",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "InstructionCancellationRequestIdentificationRule": {
+      "definition": "If ChangeInstructionIndicator is 'true' or '1' (Yes), then InstructionCancellationRequestIdentification must be present."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "If the CorporateActionInstruction message is unsolicited (that is, this instruction has not been preceded by an CorporateActionNotification), then, CorporateActionGeneralInformation/CorporateActionEventIdentification must be NONREF."
+    },
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator may only be used if CorporateActionOptionDetails/WithdrawalAllowedIndicator was set to 'false' or '0' (No) in the CorporateActionNotification message previously received and if CorporateActionOptionDetails/ChangeAllowedIndicator was set to 'true' or '1' (Yes) in the CorporateActionNotification message previously received."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Elements in AdditionalInformation and CorporateActionInstruction/AdditionalInformation must not contain information that can be provided in a structured field unless bilaterally agreed or advised differently in the element definition."
+    },
+    "OptionTypeRule": {
+      "definition": "If CorporateActionInstruction/OptionType/Code value is TAXI (Tax Instruction), then at least one occurrence of BeneficialOwnerDetails must be present."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "If CorporateActionInstruction/OptionType/Code value is BOBD (BeneficialOwnerBreakdownRequest), then CorporateActionGeneralInformation/EventType/Code value must be WTRC (Withholding Tax Relief Certification).|(MT565 NVR C8)"
+    }
+  }
+}

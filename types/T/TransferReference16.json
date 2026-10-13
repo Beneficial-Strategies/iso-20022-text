@@ -1,0 +1,32 @@
+{
+  "isoType": "TransferReference16",
+  "language": "en",
+  "name": "Transfer Reference 16",
+  "definition": "Reference of a transfer and of a transfer confirmation.",
+  "isoElements": {
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identifier for the transfer instruction for which the confirmation reversal is sent, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "TransferConfirmationReference": {
+      "name": "Transfer Confirmation Reference",
+      "definition": "Unique and unambiguous identifier for the transfer execution for which the confirmation reversal is sent, as assigned by the confirming party."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transfer allocated by the counterparty."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the reversal as assigned by the confirming party."
+    },
+    "ReversalReason": {
+      "name": "Reversal Reason",
+      "definition": "Reason for the reversal of confirmation."
+    }
+  }
+}

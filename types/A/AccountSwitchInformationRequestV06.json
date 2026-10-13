@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountSwitchInformationRequestV06",
+  "language": "en",
+  "name": "Account Switch Information Request V 06",
+  "definition": "The AccountSwitchInformationRequest message is sent by the new account servicer to the account servicer which previously held the account to initiate the account switch process. It provides information sufficient for the old account servicer to identify the old account and validate the account parties. The new account servicer is able to inform the old bank of the maximum funding the new account will provide to settle a negative closing balance and the proposed balance transfer window.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "NewAccount": {
+      "name": "New Account",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "BalanceTransfer": {
+      "name": "Balance Transfer",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

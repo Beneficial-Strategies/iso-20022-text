@@ -1,0 +1,37 @@
+{
+  "isoType": "CorrespondenceNotification1",
+  "language": "en",
+  "name": "Correspondence Notification 1",
+  "definition": "Specifies the details of a notification, including identification and type.",
+  "isoElements": {
+    "SenderNotificationIdentification": {
+      "name": "Sender Notification Identification",
+      "definition": "Point to point reference, as assigned by the sender, and sent to the receiver to unambiguously identify the notification.||Usage: The sender has to make sure that SenderNotificationIdentification is unique per receiver for a pre-agreed period."
+    },
+    "NotificationType": {
+      "name": "Notification Type",
+      "definition": "Identifies the type of notification and what the message content relates to."
+    },
+    "NotificationSubType": {
+      "name": "Notification Sub Type",
+      "definition": "Sub type of a notification.||Usage: The notification sub type element may be used to identify a department within a party to whom the notification can be directed to, for routing purposes. It should only be used when the notification type could logically be directed to different departments within a party, for example account terms and conditions."
+    },
+    "NotificationNarrative": {
+      "name": "Notification Narrative",
+      "definition": "Provides information about the notification in narrative form."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document enclosed in the message, such as account terms and conditions.||Usage: The use of the EnclosedFile element must be bilaterally agreed."
+    },
+    "RelatedNotificationData": {
+      "name": "Related Notification Data",
+      "definition": "Additional information related to the notification that will be sent or made available seperately, such as account terms and conditions."
+    }
+  },
+  "isoRules": {
+    "NotificationNarrativeOrEnclosedFilePresenceRule": {
+      "definition": "NotificationNarrative must be present or EnclosedFile must be present. Both may be present."
+    }
+  }
+}

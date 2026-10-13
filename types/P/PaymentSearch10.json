@@ -1,0 +1,104 @@
+{
+  "isoType": "PaymentSearch10",
+  "language": "en",
+  "name": "Payment Search 10",
+  "definition": "Defines the criteria used to search for a payment.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the original initiating party, to unambiguously identify the original payment transaction message. |Usage: this is the former transaction reference."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date and time at which the cash is at the disposal of the credit account owner, or ceases to be at the disposal of the debit account owner."
+    },
+    "PaymentIdentification": {
+      "name": "Payment Identification",
+      "definition": "Unique and unambiguous identifier for a payment instruction, as assigned by the clearing agent or the initiating party."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Detailed information about the status of a transfer."
+    },
+    "InstructedAmount": {
+      "name": "Instructed Amount",
+      "definition": "Specifies the instructed amount(s) on which the query is performed."
+    },
+    "InstructedAmountCurrency": {
+      "name": "Instructed Amount Currency",
+      "definition": "Currency in which the instructed amount is expressed."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the payment instruction is a debit or a credit."
+    },
+    "InterbankSettlementAmount": {
+      "name": "Interbank Settlement Amount",
+      "definition": "Specifies the interbank settlement amount(s) on which the query is performed."
+    },
+    "InterbankSettlementAmountCurrency": {
+      "name": "Interbank Settlement Amount Currency",
+      "definition": "Currency in which the interbank settlement amount is expressed."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Indicates the message or event from which an instruction has been initiated."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Instruction to pay an amount of money to an ultimate beneficiary, on behalf of an originator. This instruction may have to be forwarded several times to complete the settlement chain."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Urgency or order of importance that the originator would like the recipient of the payment instruction to apply to the processing of the payment instruction."
+    },
+    "ProcessingValidityTime": {
+      "name": "Processing Validity Time",
+      "definition": "Date and time range within which the payment instruction must be processed."
+    },
+    "Instruction": {
+      "name": "Instruction",
+      "definition": "Further information related to the processing of the payment instruction. The instruction can relate to a level of service between the bank and the customer, or give instructions to and for specific parties in the payment chain."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification, as assigned by the first instructing agent, to unambiguously identify the transaction that is passed on, unchanged, throughout the entire interbank chain.|Usage: The transaction identification can be used for reconciliation, tracking or to link tasks relating to the transaction on the interbank level. The instructing agent has to make sure that the transaction identification is unique for a pre-agreed period.|Usage: this is the former PaymentInstructionReference."
+    },
+    "UETR": {
+      "name": "UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a payment transaction."
+    },
+    "InterbankSettlementDate": {
+      "name": "Interbank Settlement Date",
+      "definition": "Date on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due.|Usage: this is the former InterbankValueDate."
+    },
+    "EndToEndIdentification": {
+      "name": "End To End Identification",
+      "definition": "Unique identification, as assigned by the initiating party, to unambiguously identify the transaction. This identification is passed on, unchanged, throughout the entire end-to-end chain.|Usage: The end-to-end identification can be used for reconciliation or to link tasks relating to the transaction.|It can be included in several messages related to the transaction.|Usage: this is the former RelatedReference."
+    },
+    "Parties": {
+      "name": "Parties",
+      "definition": "Defines the party fields used to search for a payment."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountCurrencyRule": {
+      "definition": "If at least one occurrence of InterbankSettlementAmount/CurrencyAndAmountRange is present, then no occurrence of InterbankSettlementAmountCurrency is allowed.|If InterbankSettlementAmount/CurrencyAndAmountRange is not present, then any occurrence of InterbankSettlementAmountCurrency is optional."
+    },
+    "InstructedAmountCurrencyRule": {
+      "definition": "If at least one occurrence of InstructedAmount/CurrencyAndAmountRange is present, then no occurrence of InstructedAmountCurrency is allowed.|If InstructedAmount/CurrencyAndAmountRange is not present, then any occurrence of InstructedAmountCurrency is optional."
+    },
+    "InstructedAmountCreditDebitIndicator1Rule": {
+      "definition": "If at least one occurrence of InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed.|If InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional."
+    },
+    "InstructedAmountCreditDebitIndicator2Rule": {
+      "definition": "If at least one occurrence of InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed.|If InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional."
+    },
+    "SettlementAmountCreditDebitIndicator1Rule": {
+      "definition": "If at least one occurrence of InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed.|If InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional."
+    },
+    "SettlementAmountCreditDebitIndicator2Rule": {
+      "definition": "If at least one occurrence of InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is present, then CreditDebitIndicator is not allowed.|If InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator is not present, then CreditDebitIndicator is optional."
+    }
+  }
+}

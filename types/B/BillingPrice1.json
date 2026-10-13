@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingPrice1",
+  "language": "en",
+  "name": "Billing Price 1",
+  "definition": "Specifies the billing price of a service.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code in which the unit price and original charge price are expressed."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price per item or unit used to calculate the charge expressed in the pricing currency."
+    },
+    "Method": {
+      "name": "Method",
+      "definition": "Identifies how the charge was calculated. ||Usage: The absence of this code assumes that the charge is calculated as the product of (volume x unit price)."
+    },
+    "Rule": {
+      "name": "Rule",
+      "definition": "Indicates that the charge calculation is based on a particular rule. The rule name is carried here and is defined by the trading partners."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "isoType": "RepurchaseType10Code",
+  "language": "en",
+  "name": "Repurchase Type 10 Code",
+  "definition": "Specifies the type of repurchase transaction.",
+  "isoCodes": {
+    "PAIR": {
+      "isoName": "Pairoff",
+      "name": "Pairoff",
+      "definition": "Relates to a transaction that is paired off and netted against one or more previous transactions. A paired off transaction is a buyback to offset and effectively liquidate a prior sale of securities or a sellback to offset and effectively liquidate a prior buy of securities."
+    },
+    "ROLP": {
+      "isoName": "RepoContractRollover",
+      "name": "Repo Contract Rollover",
+      "definition": "Relates to a repo rollover of a contract extending the closing or maturity date without the underlying collateral impacted."
+    },
+    "RATE": {
+      "isoName": "RepoRate",
+      "name": "Repo Rate",
+      "definition": "Is part of a pair-off."
+    },
+    "CALL": {
+      "isoName": "RepurchaseCall",
+      "name": "Repurchase Call",
+      "definition": "Relates to the early closing/maturity date for a term repo or a termination date of an open repo with the underlying collateral."
+    },
+    "CADJ": {
+      "isoName": "Swap",
+      "name": "Swap",
+      "definition": "Relates to a swap/substitution."
+    },
+    "TOPU": {
+      "isoName": "TopUp",
+      "name": "Top Up",
+      "definition": "Relates to a repo rollover of a position extending the closing or maturity date."
+    },
+    "WTHD": {
+      "isoName": "Withdrawal",
+      "name": "Withdrawal",
+      "definition": "Relates to a repo rollover of a position extending the closing or maturity date."
+    }
+  }
+}

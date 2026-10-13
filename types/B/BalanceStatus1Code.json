@@ -1,0 +1,18 @@
+{
+  "isoType": "BalanceStatus1Code",
+  "language": "en",
+  "name": "Balance Status 1 Code",
+  "definition": "Specifies the balance of transactions with a certain status.",
+  "isoCodes": {
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Balance corresponding to the pending transactions."
+    },
+    "STLD": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Final status of a transaction when the associated transfer of cash has been successfully processed."
+    }
+  }
+}

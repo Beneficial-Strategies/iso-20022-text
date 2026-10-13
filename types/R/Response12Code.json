@@ -1,0 +1,28 @@
+{
+  "isoType": "Response12Code",
+  "language": "en",
+  "name": "Response 12 Code",
+  "definition": "Result of the performed service.",
+  "isoCodes": {
+    "APPR": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Service has been successfuly provided."
+    },
+    "DECL": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Service is declined."
+    },
+    "PART": {
+      "isoName": "PartialApproved",
+      "name": "Partial Approved",
+      "definition": "Service has been partialy provided."
+    },
+    "ASUP": {
+      "isoName": "ApprovalSuspended",
+      "name": "Approval Suspended",
+      "definition": "To provide this service additional information needs to be provided by the customer."
+    }
+  }
+}

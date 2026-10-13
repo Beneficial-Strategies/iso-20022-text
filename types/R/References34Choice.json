@@ -1,0 +1,36 @@
+{
+  "isoType": "References34Choice",
+  "language": "en",
+  "name": "References 34 Choice",
+  "definition": "Choice of references.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "name": "Securities Settlement Transaction Identification",
+      "definition": "Unambiguous identification of a securities settlement transaction as known by the account owner (or instructing party acting on its behalf)."
+    },
+    "IntraPositionMovementIdentification": {
+      "name": "Intra Position Movement Identification",
+      "definition": "Unambiguous identification of the intra-position movement transaction as known by the account owner (or instructing party acting on its behalf)."
+    },
+    "IntraBalanceMovementIdentification": {
+      "name": "Intra Balance Movement Identification",
+      "definition": "Unambiguous identification of the intra-balance movement transaction as known by the account owner (or instructing party acting on its behalf)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "OtherTransactionIdentification": {
+      "name": "Other Transaction Identification",
+      "definition": "Identification of a transaction that cannot be identified using a standard reference element present in the message."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "isoType": "ExternalPaymentCancellationRejection1Code",
+  "language": "en",
+  "name": "External Payment Cancellation Rejection 1 Code",
+  "definition": "Specifies the reason for the rejection of a cancellation, as published in an external payment cancellation rejection code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the receiver’s books."
+    },
+    "ADAC": {
+      "isoName": "AwaitingDebitAuthorityFromCustomer",
+      "name": "Awaiting Debit Authority From Customer",
+      "definition": "Reported when the cancellation request cannot be processed because customer has not yet provided the debit authority on its account."
+    },
+    "AGNT": {
+      "isoName": "AgentDecision",
+      "name": "Agent Decision",
+      "definition": "Reported when the cancellation cannot be accepted because of an agent refuses to cancel."
+    },
+    "AM04": {
+      "isoName": "InsufficientFunds",
+      "name": "Insufficient Funds",
+      "definition": "Amount of funds available to cover specified message amount is insufficient."
+    },
+    "ARDT": {
+      "isoName": "AlreadyReturned",
+      "name": "Already Returned",
+      "definition": "Cancellation not accepted as the transaction has already been returned."
+    },
+    "ARPL": {
+      "isoName": "AwaitinReply",
+      "name": "Awaitin Reply",
+      "definition": "Reported when the cancellation request cannot be processed because no reply has been  received yet from the receiver of the request message."
+    },
+    "CUST": {
+      "isoName": "CustomerDecision",
+      "name": "Customer Decision",
+      "definition": "Reported when the cancellation cannot be accepted because of a customer decision (Creditor)."
+    },
+    "LEGL": {
+      "isoName": "LegalDecision",
+      "name": "Legal Decision",
+      "definition": "Reported when the cancellation cannot be accepted because of regulatory rules."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "NOAS": {
+      "isoName": "NoAnswerFromCustomer",
+      "name": "No Answer From Customer",
+      "definition": "No response from beneficiary (to the cancellation request)."
+    },
+    "NOOR": {
+      "isoName": "NoOriginalTransactionReceived",
+      "name": "No Original Transaction Received",
+      "definition": "Original transaction (subject to cancellation) never received."
+    },
+    "PTNA": {
+      "isoName": "PassedToTheNextAgent",
+      "name": "Passed To The Next Agent",
+      "definition": "Reported when the cancellation request cannot be accepted because the payment instruction has been passed to the next agent."
+    },
+    "RQDA": {
+      "isoName": "RequestingDebitAuthority",
+      "name": "Requesting Debit Authority",
+      "definition": "Reported when authority is required by the Creditor to return the payment."
+    },
+    "WSEQ": {
+      "isoName": "WrongSequence",
+      "name": "Wrong Sequence",
+      "definition": "Reported when the cancellation request cannot be processed because the sequence referred to in the request is not valid."
+    },
+    "INDM": {
+      "isoName": "CancellationIndemnityRequired",
+      "name": "Cancellation Indemnity Required",
+      "definition": "Complementing a Pending or Reject Status. Payment cancellation request cannot be accepted until an indemnity agreement is established."
+    },
+    "ACLR": {
+      "isoName": "AlreadyCancelledRTP",
+      "name": "Already Cancelled RTP",
+      "definition": "Request-to-pay has already been cancelled."
+    },
+    "AEXR": {
+      "isoName": "AlreadyExpiredRTP",
+      "name": "Already Expired RTP",
+      "definition": "Request-to-pay Expiry Date and Time has already passed."
+    },
+    "ARFR": {
+      "isoName": "AlreadyRefusedRTP",
+      "name": "Already Refused RTP",
+      "definition": "Request-to-pay has already been refused by the Debtor."
+    },
+    "ARJR": {
+      "isoName": "AlreadyRejectedRTP",
+      "name": "Already Rejected RTP",
+      "definition": "Request-to-pay has already been rejected."
+    },
+    "PATE": {
+      "isoName": "PaymentAlreadyTransmittedExecution",
+      "name": "Payment Already Transmitted Execution",
+      "definition": "Payment related to the request-to-pay has already been transmitted for execution."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason."
+    },
+    "RCAR": {
+      "isoName": "RfCAlreadyRejected",
+      "name": "Rf C Already Rejected",
+      "definition": "Request for cancellation of the request-to-pay has already been rejected."
+    },
+    "RCNR": {
+      "isoName": "RfCNeverReceived",
+      "name": "Rf C Never Received",
+      "definition": "Request for cancellation of the request-to-pay has never been received."
+    },
+    "RCPR": {
+      "isoName": "RfCReceivedAndProcessed",
+      "name": "Rf C Received And Processed",
+      "definition": "Request for cancellation of the request-to-pay has already been received and processed."
+    },
+    "URTP": {
+      "isoName": "UnknownRTP",
+      "name": "Unknown RTP",
+      "definition": "Request-to-pay is unknown."
+    },
+    "AACR": {
+      "isoName": "AlreadyAcceptedRTP",
+      "name": "Already Accepted RTP",
+      "definition": "Request-to-pay (RTP) has already been accepted."
+    },
+    "ARJT": {
+      "isoName": "AlreadyRejectedTransaction",
+      "name": "Already Rejected Transaction",
+      "definition": "Underlying transaction already rejected."
+    }
+  }
+}

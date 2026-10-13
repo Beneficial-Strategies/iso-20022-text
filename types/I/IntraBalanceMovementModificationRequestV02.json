@@ -1,0 +1,36 @@
+{
+  "isoType": "IntraBalanceMovementModificationRequestV02",
+  "language": "en",
+  "name": "Intra Balance Movement Modification Request V 02",
+  "definition": "The IntraBalanceMovementModificationRequest message is sent from an account owner/requestor to a settlement infrastructure to request the modification of a processing indicator on a previously sent IntraBalanceMovementInstruction message.||Usage: |The message may be used to:|- re-send a message previously sent (the sub-function of the message is \"Duplicate\")|- provide a third party with a copy of a message for information (the sub-function of the message is \"Copy\")|- re-send to a third party a copy of a message for information (the sub-function of the message is \"CopyDuplicate\").",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": ""
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": ""
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": ""
+    },
+    "RequestDetails": {
+      "name": "Request Details",
+      "definition": ""
+    },
+    "UnderlyingIntraBalance": {
+      "name": "Underlying Intra Balance",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

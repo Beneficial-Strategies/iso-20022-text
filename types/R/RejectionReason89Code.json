@@ -1,0 +1,243 @@
+{
+  "isoType": "RejectionReason89Code",
+  "language": "en",
+  "name": "Rejection Reason 89 Code",
+  "definition": "Specifies the reason why the instruction request has a rejected status.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "CERT": {
+      "isoName": "IncorrectCertification",
+      "name": "Incorrect Certification",
+      "definition": "Instruction is rejected since the provided certification is incorrect or incomplete."
+    },
+    "INVA": {
+      "isoName": "InvalidForTaxAuthorities",
+      "name": "Invalid For Tax Authorities",
+      "definition": "For tax reclaim, the reclaim is invalid for the tax authorities."
+    },
+    "OPTY": {
+      "isoName": "InvalidOptionType",
+      "name": "Invalid Option Type",
+      "definition": "Invalid option type."
+    },
+    "ULNK": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Linked reference is unknown."
+    },
+    "LACK": {
+      "isoName": "LackofSecurities",
+      "name": "Lackof Securities",
+      "definition": "Instructed position exceeds the eligible balance."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "NMTY": {
+      "isoName": "Mismatch",
+      "name": "Mismatch",
+      "definition": "Mismatch between option number and option type."
+    },
+    "FULL": {
+      "isoName": "MissingBeneficiaryOwnerDetails",
+      "name": "Missing Beneficiary Owner Details",
+      "definition": "Rejected due to missing beneficiary owner details."
+    },
+    "CANC": {
+      "isoName": "OptionCancelled",
+      "name": "Option Cancelled",
+      "definition": "Option is not valid; it has been cancelled by the market or service provider, and cannot be responded to. Any responses already processed against this option are considered void and new responses will be required."
+    },
+    "INTV": {
+      "isoName": "OptionInactive",
+      "name": "Option Inactive",
+      "definition": "Option is not active and can no longer be responded to. Any responses already processed against this option will remain valid, for example, expired option."
+    },
+    "OPNM": {
+      "isoName": "OptionNumberRejection",
+      "name": "Option Number Rejection",
+      "definition": "Unrecognised option number."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "DQUA": {
+      "isoName": "QuantityRejection",
+      "name": "Quantity Rejection",
+      "definition": "Unrecognised or invalid instructed quantity."
+    },
+    "REFT": {
+      "isoName": "RefusedByTaxAuthorities",
+      "name": "Refused By Tax Authorities",
+      "definition": "Reclaim is refused by the tax authorities."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccountRejection",
+      "name": "Safekeeping Account Rejection",
+      "definition": "Unrecognised or invalid message sender's safekeeping account."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "DQCS": {
+      "isoName": "AmountRejection",
+      "name": "Amount Rejection",
+      "definition": "Unrecognised or invalid instructed cash amount."
+    },
+    "DQCC": {
+      "isoName": "CurrencyRejection",
+      "name": "Currency Rejection",
+      "definition": "Invalid instructed currency."
+    },
+    "DQAM": {
+      "isoName": "InstructionTypeRejection",
+      "name": "Instruction Type Rejection",
+      "definition": "Invalid use of instructed amount (QCAS) or of instructed quantity (QINS) qualifiers."
+    },
+    "IRDQ": {
+      "isoName": "InvalidUseRoundUpQuantity",
+      "name": "Invalid Use Round Up Quantity",
+      "definition": "Instruction is rejected due to invalid use of the additional round up quantity."
+    },
+    "DQBV": {
+      "isoName": "InvalidBidValue",
+      "name": "Invalid Bid Value",
+      "definition": "Bid price / basis points / percentage falls outside of bid range for the event (generally used in Dutch Auctions or Bid Tenders)."
+    },
+    "DQBI": {
+      "isoName": "InvalidBidIncrement",
+      "name": "Invalid Bid Increment",
+      "definition": "Bid price / basis points / percentage increments rejected due to invalid bid increment for the event (generally used in Dutch Auctions or Bid Tenders)."
+    },
+    "SHAR": {
+      "isoName": "ShareholderNumberRejection",
+      "name": "Shareholder Number Rejection",
+      "definition": "Unrecognised, missing or invalid shareholder number."
+    },
+    "ITAX": {
+      "isoName": "IncorrectTaxRate",
+      "name": "Incorrect Tax Rate",
+      "definition": "Tax rate provided is incorrect. It falls outside the acceptable values for that investment country."
+    },
+    "NTAX": {
+      "isoName": "InconsistentTaxRate",
+      "name": "Inconsistent Tax Rate",
+      "definition": "Tax rate is not consistent with the documentation in place."
+    },
+    "MTAX": {
+      "isoName": "MissingTaxRate",
+      "name": "Missing Tax Rate",
+      "definition": "Tax rate is missing."
+    },
+    "ISOL": {
+      "isoName": "InvalidSolicitationDealerFeeUse",
+      "name": "Invalid Solicitation Dealer Fee Use",
+      "definition": "Invalid use of solicitation dealer fee indicator."
+    },
+    "BSTR": {
+      "isoName": "BeforeInstructionPeriod",
+      "name": "Before Instruction Period",
+      "definition": "Instruction is submitted before instruction start date."
+    },
+    "CTCT": {
+      "isoName": "MissingContact",
+      "name": "Missing Contact",
+      "definition": "Contact information is missing."
+    },
+    "DUPL": {
+      "isoName": "DuplicateInstruction",
+      "name": "Duplicate Instruction",
+      "definition": "Instruction is rejected due to duplicate business message identifier."
+    },
+    "PROI": {
+      "isoName": "MissingProtectIdentification",
+      "name": "Missing Protect Identification",
+      "definition": "Protect identification is required for cover protect instructions."
+    },
+    "PRON": {
+      "isoName": "NoProtectPrivilege",
+      "name": "No Protect Privilege",
+      "definition": "No protect privilege for this event."
+    },
+    "PROT": {
+      "isoName": "MissingProtectDate",
+      "name": "Missing Protect Date",
+      "definition": "Protect date is required for cover protect instructions."
+    },
+    "TRTI": {
+      "isoName": "MissingTransactionType",
+      "name": "Missing Transaction Type",
+      "definition": "Transaction type is missing or invalid for protect or cover protect instructions."
+    },
+    "IPAW": {
+      "isoName": "InvalidPaperwork",
+      "name": "Invalid Paperwork",
+      "definition": "Required paperwork is invalid, incomplete or missing."
+    },
+    "REJA": {
+      "isoName": "RejectedByIssuerAgent",
+      "name": "Rejected By Issuer Agent",
+      "definition": "Instruction rejected by the issuer agent."
+    },
+    "IPED": {
+      "isoName": "InstructionPriorToEntitlementDate",
+      "name": "Instruction Prior To Entitlement Date",
+      "definition": "Instruction was received prior to entitlement date."
+    },
+    "BUMM": {
+      "isoName": "BuyerProtectionMismatch",
+      "name": "Buyer Protection Mismatch",
+      "definition": "Counterparty disagreement on the chosen corporate action outturn."
+    },
+    "TRTY": {
+      "isoName": "IncorrectTransactionType",
+      "name": "Incorrect Transaction Type",
+      "definition": "Transaction type is incorrect."
+    },
+    "DSNA": {
+      "isoName": "NoBuyerProtectionAllowed",
+      "name": "No Buyer Protection Allowed",
+      "definition": "Underlying transaction type/status does not allow for a buyer protection."
+    },
+    "DUCK": {
+      "isoName": "UnderlyingTransactionCancelled",
+      "name": "Underlying Transaction Cancelled",
+      "definition": "Buyer Protection instruction rejected since underlying settlement transaction has been cancelled."
+    },
+    "DUST": {
+      "isoName": "UnderlyingTransactionAlreadySettled",
+      "name": "Underlying Transaction Already Settled",
+      "definition": "Buyer Protection instruction was rejected, because the underlying settlement transaction has already been settled."
+    },
+    "ECMD": {
+      "isoName": "ElectionToCounterpartyMarketDeadlineMissed",
+      "name": "Election To Counterparty Market Deadline Missed",
+      "definition": "Received after the election to counterparty market deadline."
+    },
+    "ECRD": {
+      "isoName": "ElectionToCounterpartyResponseDeadlineMissed",
+      "name": "Election To Counterparty Response Deadline Missed",
+      "definition": "Received after the election to counterparty response market deadline."
+    },
+    "INSA": {
+      "isoName": "InstructionNotSupportedOrAllowed",
+      "name": "Instruction Not Supported Or Allowed",
+      "definition": "Instruction is not supported or allowed."
+    },
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    }
+  }
+}

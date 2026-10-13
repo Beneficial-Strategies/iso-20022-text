@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMStatus2",
+  "language": "en",
+  "name": "ATM Status 2",
+  "definition": "Global status of the ATM.",
+  "isoElements": {
+    "CurrentStatus": {
+      "name": "Current Status",
+      "definition": "Actual status of the ATM."
+    },
+    "CurrentStatusReason": {
+      "name": "Current Status Reason",
+      "definition": "Description of the cause of the ATM's status. This would typically be populated with a value when CurrentStatus is OutOfService (OUTS)."
+    },
+    "DemandedStatus": {
+      "name": "Demanded Status",
+      "definition": "Present if the status required by the ATM manager is different from the current status."
+    }
+  }
+}

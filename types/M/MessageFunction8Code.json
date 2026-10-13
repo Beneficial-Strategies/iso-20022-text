@@ -1,0 +1,38 @@
+{
+  "isoType": "MessageFunction8Code",
+  "language": "en",
+  "name": "Message Function 8 Code",
+  "definition": "Identifies the type of process requested by the host to an ATM.",
+  "isoCodes": {
+    "BALN": {
+      "isoName": "ATMBalance",
+      "name": "ATM Balance",
+      "definition": "Provide the ATM counters resettting those that are applicable."
+    },
+    "GSTS": {
+      "isoName": "ATMGlobalStatus",
+      "name": "ATM Global Status",
+      "definition": "Global status of the ATM."
+    },
+    "DSEC": {
+      "isoName": "SecurityDetails",
+      "name": "Security Details",
+      "definition": "Security detailed report."
+    },
+    "INQC": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Request the value of the ATM counters."
+    },
+    "KEYQ": {
+      "isoName": "KeyExchangeRequest",
+      "name": "Key Exchange Request",
+      "definition": "Request of a key exchange."
+    },
+    "SSTS": {
+      "isoName": "SecurityKeyStatus",
+      "name": "Security Key Status",
+      "definition": "Status of cryptographic keys."
+    }
+  }
+}

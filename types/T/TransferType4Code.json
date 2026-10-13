@@ -1,0 +1,28 @@
+{
+  "isoType": "TransferType4Code",
+  "language": "en",
+  "name": "Transfer Type 4 Code",
+  "definition": "Specifies whether a financial instrument is transferred as an asset or as cash.",
+  "isoCodes": {
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Transfer as cash."
+    },
+    "CONV": {
+      "isoName": "Conversion",
+      "name": "Conversion",
+      "definition": "ISIN is converted to another ISIN and then transferred."
+    },
+    "EXCL": {
+      "isoName": "Excluded",
+      "name": "Excluded",
+      "definition": "Asset excluded from transfer."
+    },
+    "SECU": {
+      "isoName": "InSpecie",
+      "name": "In Specie",
+      "definition": "Transfer the security as an asset in specie, that is, 'in its actual form'."
+    }
+  }
+}

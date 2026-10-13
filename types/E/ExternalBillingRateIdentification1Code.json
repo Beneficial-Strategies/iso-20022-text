@@ -1,0 +1,103 @@
+{
+  "isoType": "ExternalBillingRateIdentification1Code",
+  "language": "en",
+  "name": "External Billing Rate Identification 1 Code",
+  "definition": "Specifies the type of billing rate or factor, as published in an external billing rate identification code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AEAR": {
+      "isoName": "AdjustedEarningsAllowanceRate",
+      "name": "Adjusted Earnings Allowance Rate",
+      "definition": "Per annum earnings rate, adjusted for reserves, applied to the current analysis period’s investable balance for calculation of the earnings allowance credit.  The ECR, Net of Reserves, is calculated as:    ECR, Net of Reserves  =  ECR, Not Net (00 01 22) * (1 – Reserve Rate)"
+    },
+    "ANXE": {
+      "isoName": "AdjustedNextMonthEarningsRate",
+      "name": "Adjusted Next Month Earnings Rate",
+      "definition": "The anticpated earnings allowance rate, as adjusted, to be used next month in the calculation of the earnings allowance. See AEAR AdjustedEarningsAllowance Rate"
+    },
+    "CDRA": {
+      "isoName": "CDRate",
+      "name": "CD Rate",
+      "definition": "The current CD (Certificate of Deposit) rate as published by the bank."
+    },
+    "DINR": {
+      "isoName": "DeficiencyInterestRate",
+      "name": "Deficiency Interest Rate",
+      "definition": "The per annum rate used to calculate the Deficiency Interest amount to be paid to the bank."
+    },
+    "DSCR": {
+      "isoName": "DeficiencySurchargeRate",
+      "name": "Deficiency Surcharge Rate",
+      "definition": "The per annum rate used to calculate a surcharge based on the Deficiency Interest amount to be paid to the bank."
+    },
+    "EALR": {
+      "isoName": "EarningsAllowanceRate",
+      "name": "Earnings Allowance Rate",
+      "definition": "Per annum earnings rate applied to the current statement period’s investable balance for calculation of the earnings allowance credit. The earnings allowance credit is used to offset the charges for balance compensable services. This rate has NOT been adjusted for reserves. The ECR, Not Net of Reserves, is calculated as:    ECR, Not Net  =  ECR, Net of Reserves (00 01 20)  /  (1 – Reserve Rate)"
+    },
+    "FDIC": {
+      "isoName": "FDICRate",
+      "name": "FDIC Rate",
+      "definition": "The current FDIC rate used in the US to calculate the Federal Deposit Insurance premium paid by the banks to the FDIC."
+    },
+    "ICDR": {
+      "isoName": "InterestCreditedRate",
+      "name": "Interest Credited Rate",
+      "definition": "Per annum interest rate used to calculate the interest amount credited to a designated account. The amount of interest credited, if any, is reported in a Compensation Section with a Compensation Identifier of TtlInterestCredited"
+    },
+    "MULT": {
+      "isoName": "Multiplier",
+      "name": "Multiplier",
+      "definition": "The collected balance required to offset $1.00 of balance compensable service charges.  This factor can be used to calculate the balance equivalent of balance compensable service charges.  The multiplier is calculated in one of three different ways depending on whether the Earnings Allowance Rate (ECR) is adjusted for reserves or not (net of reserves or not)  and, in the case where the ECR is not adjusted for reserves, whether the multiplier is adjusted for reserves or not."
+    },
+    "NCBO": {
+      "isoName": "NetCollectedBalanceOverdraftRate",
+      "name": "Net Collected Balance Overdraft Rate",
+      "definition": "Per annum interest rate used to calculate overdraft compensation on an average net collected balance which is negative (AFP balance 00 00 10).  An average NET balance is negative when the sum of the daily ending POSITIVE and NEGATIVE balances is negative."
+    },
+    "NGCO": {
+      "isoName": "NegativeCollectedOverdraftRate",
+      "name": "Negative Collected Overdraft Rate",
+      "definition": "Per annum interest rate applied to NEGATIVE collected balances (AFP balance 00 00 13) for calculation of overdraft compensation."
+    },
+    "NGLO": {
+      "isoName": "NegativeLedgerOverdraftRate",
+      "name": "Negative Ledger Overdraft Rate",
+      "definition": "Per annum interest rate applied to NEGATIVE ledger balances (AFP balance 00 00 03) for calculation of overdraft compensation."
+    },
+    "NLBO": {
+      "isoName": "NetLedgerBalanceOverdraftRate",
+      "name": "Net Ledger Balance Overdraft Rate",
+      "definition": "Per annum interest rate used to calculate overdraft compensation on an average net ledger balance which is negative (AFP balance 00 00 00).  An average NET balance is negative when the sum of the daily ending POSITIVE and NEGATIVE balances is negative."
+    },
+    "NXME": {
+      "isoName": "NextMonthEarningsAllowanceRate",
+      "name": "Next Month Earnings Allowance Rate",
+      "definition": "The anticpated earnings allowance rate to be used next month in the calculation of the earnings allowance. See EALR EarningsAllowance Rate"
+    },
+    "NXMU": {
+      "isoName": "NextMonthMultiplier",
+      "name": "Next Month Multiplier",
+      "definition": "The anticipated Multiplier to be used next month. See MULT Multiplier."
+    },
+    "PRIR": {
+      "isoName": "PrimeRate",
+      "name": "Prime Rate",
+      "definition": "The current per annum Prime rate as published by the bank."
+    },
+    "RRQR": {
+      "isoName": "ReserveRequirementRateNonDDA",
+      "name": "Reserve Requirement Rate Non DDA",
+      "definition": "The per annum reserve rate as applied to non demand deposit accounts such as time deposit or CD accounts."
+    },
+    "RSRV": {
+      "isoName": "ReserveRequirementRate",
+      "name": "Reserve Requirement Rate",
+      "definition": "Per annum interest rate used to calculate that portion of the CollectedBal-AvgPositive that US banks must keep on deposit at the US Federal Reserve."
+    },
+    "UFUR": {
+      "isoName": "UncollectedFundsUsageRate",
+      "name": "Uncollected Funds Usage Rate",
+      "definition": "Per annum interest rate assessed on that portion of the account balance which is the difference between the average negative ledger and the average negative collected balance (AFP balance 00 00 15).  This rate is used to assess compensation on the portion of the negative collected balance that represents the use of uncollected funds."
+    }
+  }
+}

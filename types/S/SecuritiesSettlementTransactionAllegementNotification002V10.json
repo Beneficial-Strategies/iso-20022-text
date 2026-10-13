@@ -1,0 +1,96 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAllegementNotification002V10",
+  "language": "en",
+  "name": "Securities Settlement Transaction Allegement Notification 002 V 10",
+  "definition": "Scope|An account servicer sends a SecuritiesSettlementTransactionAllegementNotification to an account owner to advise the account owner that a counterparty has alleged an instruction against the account owner's account at the account servicer and that the account servicer could not find the corresponding instruction of the account owner.|The account servicer/owner relationship may be:|- a central securities depository or another settlement market infrastructure acting on behalf of their participants|- an agent (sub-custodian) acting on behalf of their global custodian customer, or|- a custodian acting on behalf of an investment management institution or a broker/dealer.||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the instructing party."
+    },
+    "SettlementTypeAndAdditionalParameters": {
+      "name": "Settlement Type And Additional Parameters",
+      "definition": ""
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "name": "Counterparty Market Infrastructure Transaction Identification",
+      "definition": "Identification of a counterparty transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "TradeDetails": {
+      "name": "Trade Details",
+      "definition": ""
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": ""
+    },
+    "QuantityAndAccountDetails": {
+      "name": "Quantity And Account Details",
+      "definition": ""
+    },
+    "SecuritiesFinancingDetails": {
+      "name": "Securities Financing Details",
+      "definition": ""
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": ""
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": ""
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": ""
+    },
+    "CashParties": {
+      "name": "Cash Parties",
+      "definition": ""
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": ""
+    },
+    "OtherAmounts": {
+      "name": "Other Amounts",
+      "definition": ""
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "If the instruction is against payment, then SettlementAmount must be present."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "If the instruction is a delivery, then ReceivingParty1 must be present."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "If the instruction is a receive, then DeliveringParty1 must be present."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the use of this message.|These market practices are available on www.smpg.info."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "For settlement of two part transactions (Securities Financing), the opening/initiation and closing/return of the transaction is confirmed by sending the following combination of TransactionIdentificationDetails/SecuritiesMovementType codes and SettlementParameters/SecuritiesTransactionType codes:||Repo Opening|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Repo Closing|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Reverse Repo Opening|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Reverse Repo Closing|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||TriParty Repo Opening|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|TriParty Repo Closing|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||TriParty Reverse Repo Opening|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|TriParty Reverse Repo Closing|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Securities Lending Initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Securities Lending Return|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Securities Borrowing Initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Securities Borrowing Return|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "For settlement of two part transactions (buy-sell back, sell buy-back, collateral in and out), the opening/initiation and closing/return of the transaction is alleged by sending the following combination of SettlementTypeAndAdditionalParameters/SecuritiesMovementType codes and SettlementParameters/SecuritiesTransactionType codes:||Sell-Buy Back: Sell|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: Buy Back|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: Buy|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: Sell Back|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Collateral (giver) Out Initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Collateral (giver) Out Return|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Collateral (taker) In Initiation|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Receive (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Collateral (taker) In Return|SettlementTypeAndAdditionalParameters/SecuritiesMovementType: Delivery (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

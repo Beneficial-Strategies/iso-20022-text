@@ -1,0 +1,136 @@
+{
+  "isoType": "InvestmentAccountOwnershipInformation16",
+  "language": "en",
+  "name": "Investment Account Ownership Information 16",
+  "definition": "Characteristics of the ownership of a securities account.",
+  "isoElements": {
+    "Party": {
+      "name": "Party",
+      "definition": "Information about the organisation or individual person."
+    },
+    "MoneyLaunderingCheck": {
+      "name": "Money Laundering Check",
+      "definition": "Status of an identity check to prevent money laundering. This includes the counter-terrorism check."
+    },
+    "InvestorProfileValidation": {
+      "name": "Investor Profile Validation",
+      "definition": "Information to support Know Your Customer (KYC) processes."
+    },
+    "OwnershipBeneficiaryRate": {
+      "name": "Ownership Beneficiary Rate",
+      "definition": "Percentage of ownership or of beneficial ownership of the shares/units in the account. All subsequent subscriptions or purchases and or redemptions or sells will be allocated using the same percentage."
+    },
+    "ClientIdentification": {
+      "name": "Client Identification",
+      "definition": "Unique identification, as assigned by an organisation, to unambiguously identify a party."
+    },
+    "FiscalExemption": {
+      "name": "Fiscal Exemption",
+      "definition": "Indicates whether an owner of the account may benefit from a fiscal exemption or amnesty, for example, when declaring overseas investments."
+    },
+    "SignatoryRightIndicator": {
+      "name": "Signatory Right Indicator",
+      "definition": "Indicates whether the signature of the account owner is required to authorise transactions on the account."
+    },
+    "MiFIDClassification": {
+      "name": "Mi FID Classification",
+      "definition": "Details about the MiFID classification of the account owner."
+    },
+    "Notification": {
+      "name": "Notification",
+      "definition": "Type of information that must be provided to the account holder."
+    },
+    "FATCAFormType": {
+      "name": "FATCA Form Type",
+      "definition": "Type of Foreign Account Tax Compliance Act (FATCA) form submitted by the investor or account owner."
+    },
+    "FATCAStatus": {
+      "name": "FATCA Status",
+      "definition": "Foreign Account Tax Compliance Act (FATCA) status of the investor or account owner."
+    },
+    "FATCAReportingDate": {
+      "name": "FATCA Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    },
+    "CRSFormType": {
+      "name": "CRS Form Type",
+      "definition": "Type of Common Reporting Standard (CRS) form submitted by the investor or account owner."
+    },
+    "CRSStatus": {
+      "name": "CRS Status",
+      "definition": "Common Reporting Standard (CRS) status of the investor or account owner."
+    },
+    "CRSReportingDate": {
+      "name": "CRS Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Alternative identification, for example, national registration identification number, passport number, tax identification number. This may be an account number used to further identify the beneficial owner, for example, a Central Provident Fund (CFP) account as required for Singapore."
+    },
+    "TaxExemption": {
+      "name": "Tax Exemption",
+      "definition": "Tax advantage specific to the account party."
+    },
+    "TaxReporting": {
+      "name": "Tax Reporting",
+      "definition": "Details for the reporting of tax, for example, the country of taxation."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language in which the organisation or person communicates."
+    },
+    "MailType": {
+      "name": "Mail Type",
+      "definition": "Method used for postal mailing."
+    },
+    "CountryAndResidentialStatus": {
+      "name": "Country And Residential Status",
+      "definition": "Country and residential status of the organisation or individual person."
+    },
+    "MonetaryWealth": {
+      "name": "Monetary Wealth",
+      "definition": "Annual wealth of the individual person or share capital value of the legal entity and date on which the annual wealth of the individual person was registered or declared or the date the stock value of the organisation was registered."
+    },
+    "EquityValue": {
+      "name": "Equity Value",
+      "definition": "Amount of total assets minus liabilities of the individual person or the amount of the difference between assets and liabilities plus rights over obligations (net equity) of the organisation and the date on which the equity value was registered."
+    },
+    "WorkingCapital": {
+      "name": "Working Capital",
+      "definition": "Resource or value owned or used by a third-party company and the date on which the working capital amount was registered."
+    },
+    "CompanyLink": {
+      "name": "Company Link",
+      "definition": "Account owner's connection with the trading party or broker."
+    },
+    "ElectronicMailingServiceReference": {
+      "name": "Electronic Mailing Service Reference",
+      "definition": "Reference to be specified when a letter, for example, an order confirmation, is sent by an automated mailing system."
+    },
+    "PrimaryCommunicationAddress": {
+      "name": "Primary Communication Address",
+      "definition": "Communication device number or electronic address used for communication."
+    },
+    "SecondaryCommunicationAddress": {
+      "name": "Secondary Communication Address",
+      "definition": "Communication device number or electronic address used for communication."
+    },
+    "AdditionalRegulatoryInformation": {
+      "name": "Additional Regulatory Information",
+      "definition": "Additional regulatory information about the investor or account owner that is required in some markets to support anti-money laundering laws."
+    },
+    "AccountingStatus": {
+      "name": "Accounting Status",
+      "definition": "Specifies if the account party is regarded as domestic or non-domestic for reporting purposes."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information such as remarks or notes that must be conveyed about the party and or limitations and restrictions."
+    },
+    "ControllingParty": {
+      "name": "Controlling Party",
+      "definition": "Party is the controlling person. |(For an Entity that is a legal person, the term “Controlling Persons” means the natural person(s) who exercises control over the Entity. “Control” over an Entity is generally exercised by the natural person(s) who ultimately has a controlling ownership interest in the Entity. A “control ownership interest” depends on the ownership structure of the legal person and is usually identified on the basis of a threshold applying a risk-based approach (e.g. any person(s) owning more than a certain percentage of the legal person, such as 25%). Where no natural person(s) exercises control through ownership interests, the Controlling Person(s) of the Entity will be the natural person(s) who exercises control of the Entity through other means. Where no natural person(s) is identified as exercising control of the Entity, the Controlling Person(s) of the Entity will be the natural person(s) who holds the position of senior managing official.)."
+    }
+  }
+}

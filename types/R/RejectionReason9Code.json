@@ -1,0 +1,28 @@
+{
+  "isoType": "RejectionReason9Code",
+  "language": "en",
+  "name": "Rejection Reason 9 Code",
+  "definition": "Specifies the reason of a rejection of an election cancellation request.",
+  "isoCodes": {
+    "NCAN": {
+      "isoName": "CancellationNotAllowed",
+      "name": "Cancellation Not Allowed",
+      "definition": "Cancellation is not allowed."
+    },
+    "LATT": {
+      "isoName": "Late",
+      "name": "Late",
+      "definition": "Instruction/Request arrives too late."
+    },
+    "ELEC": {
+      "isoName": "ElectionAlreadyCancelled",
+      "name": "Election Already Cancelled",
+      "definition": "The election advice is already cancelled."
+    },
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    }
+  }
+}

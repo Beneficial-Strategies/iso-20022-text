@@ -1,0 +1,43 @@
+{
+  "isoType": "ATMOperation2Code",
+  "language": "en",
+  "name": "ATM Operation 2 Code",
+  "definition": "Type of logical or physical operation on an ATM.",
+  "isoCodes": {
+    "ADJU": {
+      "isoName": "Adjust",
+      "name": "Adjust",
+      "definition": "Adjust logical counters of the cassette."
+    },
+    "INSR": {
+      "isoName": "InsertMedia",
+      "name": "Insert Media",
+      "definition": "Add physically media to cassette."
+    },
+    "LOAD": {
+      "isoName": "Loading",
+      "name": "Loading",
+      "definition": "Loading cassette."
+    },
+    "REMV": {
+      "isoName": "RemoveMedia",
+      "name": "Remove Media",
+      "definition": "Substract physically media from cassette."
+    },
+    "UNLD": {
+      "isoName": "Unloading",
+      "name": "Unloading",
+      "definition": "Unloading cassette."
+    },
+    "RCUP": {
+      "isoName": "RemoteCounterUpdate",
+      "name": "Remote Counter Update",
+      "definition": "Remotely updating an ATM counter."
+    },
+    "SWAP": {
+      "isoName": "Swap",
+      "name": "Swap",
+      "definition": "Unload all cassettes, and load a new set of cassettes to replace these. The Cassette structures determines what was removed and what was added."
+    }
+  }
+}

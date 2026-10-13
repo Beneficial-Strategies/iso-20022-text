@@ -1,0 +1,44 @@
+{
+  "isoType": "CashOption106",
+  "language": "en",
+  "name": "Cash Option 106",
+  "definition": "Provides information about the cash option.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or a credit."
+    },
+    "CashAccountIdentification": {
+      "name": "Cash Account Identification",
+      "definition": "Identification of the account in which cash is maintained."
+    },
+    "GrossCashAmount": {
+      "name": "Gross Cash Amount",
+      "definition": "Amount of money before any deductions and allowances have been made."
+    },
+    "NetCashAmount": {
+      "name": "Net Cash Amount",
+      "definition": "Amount of money after deductions and allowances have been made, if any, that is, the total amount +/- charges/fees."
+    },
+    "EntitledAmount": {
+      "name": "Entitled Amount",
+      "definition": "Cash amount based on the terms of the corporate action event and balance of underlying securities, entitled to/from account owner (which may be positive or negative)."
+    },
+    "WithholdingTaxRate": {
+      "name": "Withholding Tax Rate",
+      "definition": "Percentage of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "WithholdingTaxAmount": {
+      "name": "Withholding Tax Amount",
+      "definition": "Amount of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date/time on which a payment can be made, for example, if the payment date is a non-business day or to indicate the first payment date of an offer."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time on which the movement is due to take place (cash and/or securities)."
+    }
+  }
+}

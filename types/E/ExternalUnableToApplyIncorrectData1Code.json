@@ -1,0 +1,213 @@
+{
+  "isoType": "ExternalUnableToApplyIncorrectData1Code",
+  "language": "en",
+  "name": "External Unable To Apply Incorrect Data 1 Code",
+  "definition": "Specifies the reason of an unable to apply due to incorrect data, as published in an external unable to apply incorrect data code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "IN01": {
+      "isoName": "IncorrectRelatedReference",
+      "name": "Incorrect Related Reference",
+      "definition": "Related transaction reference is incorrect."
+    },
+    "IN02": {
+      "isoName": "IncorrectPaymentServiceLevel",
+      "name": "Incorrect Payment Service Level",
+      "definition": "Payment type service level is incorrect (former IncorrectBankOperationCode)."
+    },
+    "IN03": {
+      "isoName": "IncorrectCategoryPurpose",
+      "name": "Incorrect Category Purpose",
+      "definition": "Payment type category purpose is incorrect (former IncorrectInstructionCode)."
+    },
+    "IN04": {
+      "isoName": "IncorrectRequestedExecutionDate",
+      "name": "Incorrect Requested Execution Date",
+      "definition": "RequestedExecutionDate is incorrect."
+    },
+    "IN05": {
+      "isoName": "IncorrectInterbankSettlementDate",
+      "name": "Incorrect Interbank Settlement Date",
+      "definition": "Interbank settlement date is incorrect (former IncorrectValueDate)."
+    },
+    "IN06": {
+      "isoName": "IncorrectInterbankSettlementAmount",
+      "name": "Incorrect Interbank Settlement Amount",
+      "definition": "Interbank settlement amount is incorrect (former IncorrectSettledAmount)."
+    },
+    "IN07": {
+      "isoName": "IncorrectDebtor",
+      "name": "Incorrect Debtor",
+      "definition": "Debtor is incorrect."
+    },
+    "IN08": {
+      "isoName": "IncorrectDebtorAccount",
+      "name": "Incorrect Debtor Account",
+      "definition": "DebtorAccount is incorrect."
+    },
+    "IN09": {
+      "isoName": "IncorrectInstructedReimbursementAgent",
+      "name": "Incorrect Instructed Reimbursement Agent",
+      "definition": "InstructedReimbursementAgent is incorrect (former IncorrectReceiverCorrespondent)."
+    },
+    "IN10": {
+      "isoName": "IncorrectThirdReimbursementAgent",
+      "name": "Incorrect Third Reimbursement Agent",
+      "definition": "ThirdReimbursementAgent is incorrect (former IncorrectThirdReimbursementInstitution)."
+    },
+    "IN11": {
+      "isoName": "IncorrectPaymentClearingChannel",
+      "name": "Incorrect Payment Clearing Channel",
+      "definition": "Payment type clearing channel is incorrect (former PaymentScheme)."
+    },
+    "IN12": {
+      "isoName": "IncorrectCreditorAgentAccount",
+      "name": "Incorrect Creditor Agent Account",
+      "definition": "CreditorAgentAccount is incorrect (former IncorrectAccountOfBeneficiaryInstitution)."
+    },
+    "IN13": {
+      "isoName": "IncorrectCreditor",
+      "name": "Incorrect Creditor",
+      "definition": "Creditor is incorrect."
+    },
+    "IN14": {
+      "isoName": "IncorrectCreditorAccount",
+      "name": "Incorrect Creditor Account",
+      "definition": "Creditor account is incorrect."
+    },
+    "IN15": {
+      "isoName": "IncorrectRemittanceInformation",
+      "name": "Incorrect Remittance Information",
+      "definition": "RemittanceInformation is incorrect."
+    },
+    "IN16": {
+      "isoName": "IncorrectPaymentPurpose",
+      "name": "Incorrect Payment Purpose",
+      "definition": "Transaction payment purpose is incorrect."
+    },
+    "IN17": {
+      "isoName": "IncorrectChargeBearer",
+      "name": "Incorrect Charge Bearer",
+      "definition": "ChargeBearer is incorrect (former IncorrectDetailsOfCharges)."
+    },
+    "IN18": {
+      "isoName": "IncorrectInstructionForNextAgent",
+      "name": "Incorrect Instruction For Next Agent",
+      "definition": "Instruction for next agent is incorrect (former IncorrectSenderToReceiverInformation)."
+    },
+    "IN19": {
+      "isoName": "IncorrectInstructionForCreditorAgent",
+      "name": "Incorrect Instruction For Creditor Agent",
+      "definition": "Instruction for creditor agent is incorrect (former IncorrectInstructionForFinalAgent)."
+    },
+    "IN33": {
+      "isoName": "IncorrectReportEntryAmount",
+      "name": "Incorrect Report Entry Amount",
+      "definition": "Amount in statement entry is incorrect."
+    },
+    "IN36": {
+      "isoName": "IncorrectSettlementAccount",
+      "name": "Incorrect Settlement Account",
+      "definition": "SettlementAccount is incorrect."
+    },
+    "IN37": {
+      "isoName": "IncorrectInstructingReimbursementAgent",
+      "name": "Incorrect Instructing Reimbursement Agent",
+      "definition": "Instructing reimbursement agent is incorrect."
+    },
+    "IN38": {
+      "isoName": "IncorrectDebtorAddress",
+      "name": "Incorrect Debtor Address",
+      "definition": "Debtor's address is incorrect."
+    },
+    "IN39": {
+      "isoName": "IncorrectCreditorAddress",
+      "name": "Incorrect Creditor Address",
+      "definition": "Creditor's address is incorrect."
+    },
+    "IN40": {
+      "isoName": "IncorrectRelatedRemittanceInformation",
+      "name": "Incorrect Related Remittance Information",
+      "definition": "RelatedRemittanceInformation is incorrect."
+    },
+    "MM20": {
+      "isoName": "MismatchCreditorNameAccount",
+      "name": "Mismatch Creditor Name Account",
+      "definition": "Name and account of creditor are not matching."
+    },
+    "MM21": {
+      "isoName": "MismatchDebtorNameAccount",
+      "name": "Mismatch Debtor Name Account",
+      "definition": "Name and account of debtor are not matching."
+    },
+    "MM22": {
+      "isoName": "MismatchCreditorAgentNameAccount",
+      "name": "Mismatch Creditor Agent Name Account",
+      "definition": "Name and account of creditor agent (former FinalAgent) are not matching."
+    },
+    "MM23": {
+      "isoName": "InsufficientDebtorDetails",
+      "name": "Insufficient Debtor Details",
+      "definition": "Insufficient or incoherent details about the debtor with respect to regulatory requirements."
+    },
+    "MM24": {
+      "isoName": "InsufficientCreditorDetails",
+      "name": "Insufficient Creditor Details",
+      "definition": "Insufficient or incoherent details about the creditor with respect to regulatory requirements."
+    },
+    "MM25": {
+      "isoName": "PendingExecutionDebtorAccountOrIdentification",
+      "name": "Pending Execution Debtor Account Or Identification",
+      "definition": "Payment is pending execution. For reasons of regulatory requirements we request further information on the account number or unique identification of the debtor."
+    },
+    "MM26": {
+      "isoName": "PendingExecutionDebtorNameOrAddress",
+      "name": "Pending Execution Debtor Name Or Address",
+      "definition": "Payment is pending execution. For reasons of regulatory requirements we request further information on the name and/or address of the debtor."
+    },
+    "MM27": {
+      "isoName": "PaymentExecutedDebtorAccountOrIdentification",
+      "name": "Payment Executed Debtor Account Or Identification",
+      "definition": "Payment has been executed. For reasons of regulatory requirements we request further information on the account number or unique identification of the debtor."
+    },
+    "MM28": {
+      "isoName": "PaymentExecutedDebtorNameOrAddress",
+      "name": "Payment Executed Debtor Name Or Address",
+      "definition": "Payment has been executed. For reasons of regulatory requirements we request further information on the name and/or address of the debtor."
+    },
+    "MM29": {
+      "isoName": "PendingExecutionCreditorAccountOrIdentification",
+      "name": "Pending Execution Creditor Account Or Identification",
+      "definition": "Payment is pending execution. For reasons of regulatory requirements we request further information on the account number or unique identification of the creditor."
+    },
+    "MM30": {
+      "isoName": "PendingExecutionCreditorNameOrAddress",
+      "name": "Pending Execution Creditor Name Or Address",
+      "definition": "Payment is pending execution. For reasons of regulatory requirements we request further information on the name and/or address of the creditor."
+    },
+    "MM31": {
+      "isoName": "PaymentExecutedCreditorAccountOrIdentification",
+      "name": "Payment Executed Creditor Account Or Identification",
+      "definition": "Payment has been executed. For reasons of regulatory requirements we request further information on the account number or unique identification of the creditor."
+    },
+    "MM32": {
+      "isoName": "PaymentExecutedCreditorNameOrAddress",
+      "name": "Payment Executed Creditor Name Or Address",
+      "definition": "Payment has been executed. For reasons of regulatory requirements we request further information on the name and/or address of the creditor."
+    },
+    "MM34": {
+      "isoName": "InsufficientChargesDetails",
+      "name": "Insufficient Charges Details",
+      "definition": "Insufficient charges details provided."
+    },
+    "MM35": {
+      "isoName": "InsufficientPaymentPurpose",
+      "name": "Insufficient Payment Purpose",
+      "definition": "Payment purpose needs to be further specified."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "See narrative field for additional information."
+    }
+  }
+}

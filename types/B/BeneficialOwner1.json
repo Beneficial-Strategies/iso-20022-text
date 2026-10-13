@@ -1,0 +1,48 @@
+{
+  "isoType": "BeneficialOwner1",
+  "language": "en",
+  "name": "Beneficial Owner 1",
+  "definition": "Provides information about the beneficial owner of the securities.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "name": "Beneficial Owner Identification",
+      "definition": "Identification of the party that is the beneficial owner of the specified securities."
+    },
+    "AdditionalIdentification": {
+      "name": "Additional Identification",
+      "definition": "Additional identification of the party that is the beneficial owner of the specified securities."
+    },
+    "Nationality": {
+      "name": "Nationality",
+      "definition": "Nationality of the beneficial owner."
+    },
+    "DomicileCountry": {
+      "name": "Domicile Country",
+      "definition": "Country in which a person is permanently domiciled (the place of a persons permanent home)."
+    },
+    "NonDomicileCountry": {
+      "name": "Non Domicile Country",
+      "definition": "The holder of the security has to certify, in line with the terms of the corporate action, that it is not domiciled in the country indicated."
+    },
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Whether or not certification is required from the account owner. |Yes: certification required |No: no certification required."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Type of certification which is required."
+    },
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Provides declaration details narrative relative to the financial instrument, eg, beneficial ownership."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of the financial instrument."
+    },
+    "ElectedSecuritiesQuantity": {
+      "name": "Elected Securities Quantity",
+      "definition": "Quantity of securities elected by to the beneficial owner."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "BuyerProtectionInstructionStatusAdviceV01",
+  "language": "en",
+  "name": "Buyer Protection Instruction Status Advice V 01",
+  "definition": "Scope|The BuyerProtectionInstructionStatusAdvice message is sent by an account servicer to an account owner or its designated agent, to report the status of a received Buyer Protection Instruction.||This message is used to advise the status, or a change in status, of a Buyer Protection Instruction previously instructed by, or processed on behalf of, the account owner. This will include the acknowledgement/rejection of a Buyer Protection Instruction.||Usage|The message may also be used to:|- re-send a message previously sent (the sub-function of the message is Duplicate),|- provide a third party with a copy of a message for information (the sub-function of the message is Copy),|- re-send to a third party a copy of a message for information (the sub-function of the message is Copy Duplicate), using the relevant elements in the business application header (BAH).",
+  "isoElements": {
+    "BuyerProtectionInstruction": {
+      "name": "Buyer Protection Instruction",
+      "definition": ""
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": ""
+    },
+    "RelatedSettlementInstruction": {
+      "name": "Related Settlement Instruction",
+      "definition": ""
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": ""
+    },
+    "CorporateActionElection": {
+      "name": "Corporate Action Election",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

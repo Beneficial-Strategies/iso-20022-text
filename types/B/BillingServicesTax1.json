@@ -1,0 +1,28 @@
+{
+  "isoType": "BillingServicesTax1",
+  "language": "en",
+  "name": "Billing Services Tax 1",
+  "definition": "Provides for regional taxes on the service.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Identification number of the specific region tax used to calculate the tax."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Name used to describe the tax (such as the national value added tax)."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the tax."
+    },
+    "HostAmount": {
+      "name": "Host Amount",
+      "definition": "Amount of the tax obligation expressed in the tax region's host currency."
+    },
+    "PricingAmount": {
+      "name": "Pricing Amount",
+      "definition": "Amount of the tax obligation expressed in the tax region's pricing currency."
+    }
+  }
+}

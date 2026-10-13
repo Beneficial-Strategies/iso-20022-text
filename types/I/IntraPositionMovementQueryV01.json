@@ -1,0 +1,16 @@
+{
+  "isoType": "IntraPositionMovementQueryV01",
+  "language": "en",
+  "name": "Intra Position Movement Query V 01",
+  "definition": "The IntraPositionMovementQuery message is sent from an account owner/requestor to a settlement infrastructure to query intra-position movement instructions, along with their current status, based on a set of search criteria.|The message may also be used to: |- re-send a message sent by the account owner to the account servicer (the sub-function of the message is \"Duplicate\") |- provide a third party with a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy\") |- re-send to a third party a copy of a message being sent by the account owner for information (the sub-function of the message is \"Copy Duplicate\").",
+  "isoElements": {
+    "QueryDefinition": {
+      "name": "Query Definition",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

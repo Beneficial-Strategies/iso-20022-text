@@ -1,0 +1,60 @@
+{
+  "isoType": "SecuritiesSettlementTransactionStatusAdvice002V12",
+  "language": "en",
+  "name": "Securities Settlement Transaction Status Advice 002 V 12",
+  "definition": "Scope|An account servicer sends a SecuritiesSettlementTransactionStatusAdvice to an account owner to advise the status of a securities settlement transaction instruction previously sent by the account owner or the status of a settlement transaction existing in the books of the servicer for the account of the owner. The status may be a processing, pending processing, internal matching, matching and/or settlement status.|The status advice may be sent as a response to the request of the account owner or not.|The account servicer/owner relationship may be:|- a central securities depository or another settlement market infrastructure acting on behalf of their participants|- an agent (sub-custodian) acting on behalf of their global custodian customer, or|- a custodian acting on behalf of an investment management institution or a broker/dealer.||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": ""
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": ""
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": ""
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": ""
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": ""
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": ""
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "ProcessingStatusPresenceRule": {
+      "definition": "If InferredMatchingStatus, MatchingStatus and SettlementStatus are absent, then ProcessingStatus must be present."
+    },
+    "MatchingStatusPresenceRule": {
+      "definition": "If ProcessingStatus, InferredMatchingStatus and SettlementStatus are absent, then MatchingStatus must be present."
+    },
+    "SettlementStatusPresenceRule": {
+      "definition": "If ProcessingStatus, InferredMatchingStatus and MatchingStatus are absent, then SettlementStatus must be present."
+    },
+    "InferredMatchingStatusStatusPresenceRule": {
+      "definition": "If ProcessingStatus, MatchingStatus and SettlementStatus are absent, then InferredMatchingStatus must be present."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "If settlement status/reason is used alone, then it means that the transaction is matched (if a matching process exists in the concerned market or at the concerned account servicer)."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the use of this message.|These market practices are available on www.smpg.info."
+    }
+  }
+}

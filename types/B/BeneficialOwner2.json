@@ -1,0 +1,40 @@
+{
+  "isoType": "BeneficialOwner2",
+  "language": "en",
+  "name": "Beneficial Owner 2",
+  "definition": "Provides information about the beneficial owner of the securities.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "name": "Beneficial Owner Identification",
+      "definition": "Identification of the party that is the beneficial owner of the specified financial instrument."
+    },
+    "AdditionalIdentification": {
+      "name": "Additional Identification",
+      "definition": "Additional identification of the party that is the beneficial owner of the specified financial instrument."
+    },
+    "Nationality": {
+      "name": "Nationality",
+      "definition": "Nationality of the beneficial owner."
+    },
+    "DomicileCountry": {
+      "name": "Domicile Country",
+      "definition": "Country in which the person is permanently domiciled (the place of a person's permanent home)."
+    },
+    "NonDomicileCountry": {
+      "name": "Non Domicile Country",
+      "definition": "Country for which the holder of the financial instrument must specify that it is not domiciled. (The holder must certify, in line with the terms of the corporate action, that it is not domiciled in the country indicated.)."
+    },
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Indicates whether certification is required from the account owner. (Yes means that certification is required. No means certification is not required.)."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Type of beneficial owner certification that is required."
+    },
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Declaration details related to the financial instrument, for example, beneficial ownership."
+    }
+  }
+}

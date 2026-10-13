@@ -1,0 +1,74 @@
+{
+  "isoType": "AdditionalInformation26",
+  "language": "en",
+  "name": "Additional Information 26",
+  "definition": "Additional specific modification criteria.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Identification of the transaction as known by the account owner. Will be used in a unilateral split to provide the executing party with the account owner identification of each split transaction."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Type of instrument involved in the transactions on which the modification request should apply."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the financial instrument to which the modification request applied."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of financial instrument concerned by the settlement condition modification request."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date/time when the request should take effect."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date/time when the request should cease to be in effect."
+    },
+    "CutOffDate": {
+      "name": "Cut Off Date",
+      "definition": "Date/time of the release."
+    },
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    },
+    "DeliveringParty1": {
+      "name": "Delivering Party 1",
+      "definition": "Party that, in a settlement chain, interacts with the depository."
+    },
+    "ReceivingParty1": {
+      "name": "Receiving Party 1",
+      "definition": "Party that, in a settlement chain, interacts with the depository."
+    },
+    "TransactionSubjectToBuyIn": {
+      "name": "Transaction Subject To Buy In",
+      "definition": "The transaction relates to a buy-in by the market following a delivery transaction failure."
+    }
+  },
+  "isoRules": {
+    "QuantityRule": {
+      "definition": "If pre-agreed between account servicer and account owner, then Quantity will be used to instruct the quantity of securities that should be partially processed, for example, partially authorised."
+    },
+    "PartyRule": {
+      "definition": "Investor, DeliveringParty1 and ReceivingParty1 cannot be requested to be modified using the SecuritiesSettlementConditionModificationRequest. These fields are made available in the SecuritiesSettlementConditionModificationRequest to enable the processing of the request vis-a-vis the transaction requested to be modified."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

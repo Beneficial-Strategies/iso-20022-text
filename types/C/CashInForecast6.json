@@ -1,0 +1,33 @@
+{
+  "isoType": "CashInForecast6",
+  "language": "en",
+  "name": "Cash In Forecast 6",
+  "definition": "Cash movements into a fund as a result of investment funds transactions, eg, subscriptions or switch-in.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "SubTotalAmount": {
+      "name": "Sub Total Amount",
+      "definition": "Sub-total amount of the cash flow in, expressed as an amount of money."
+    },
+    "SubTotalUnitsNumber": {
+      "name": "Sub Total Units Number",
+      "definition": "Sub-total amount of the cash flow in, expressed as a number of units."
+    },
+    "ExceptionalCashFlowIndicator": {
+      "name": "Exceptional Cash Flow Indicator",
+      "definition": "Indicates whether the cash flow in is exceptional."
+    },
+    "AdditionalBalance": {
+      "name": "Additional Balance",
+      "definition": "Additional balances for cash amounts and number of units. |In an estimated report, the total cash derived from orders placed as a number of units is an estimated cash amount and the total number of units derived from orders placed as a cash amount is an estimated number of units."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "If AdditionalBalance is present, then at least one or more elements in the list (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) must be present."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "BillingSubServiceQualifier1Code",
+  "language": "en",
+  "name": "Billing Sub Service Qualifier 1 Code",
+  "definition": "Qualifies the content of the subservice code.",
+  "isoCodes": {
+    "LBOX": {
+      "isoName": "Lockbox",
+      "name": "Lockbox",
+      "definition": "Subservice code contains a lockbox number which identifies the lockbox using the service."
+    },
+    "STOR": {
+      "isoName": "Store",
+      "name": "Store",
+      "definition": "Subservice code contains a store number which identifies the store using the service."
+    },
+    "BILA": {
+      "isoName": "BilaterallyAgreed",
+      "name": "Bilaterally Agreed",
+      "definition": "Meaning of the subservice code is established by the trading partners."
+    },
+    "SEQN": {
+      "isoName": "SequenceNumber",
+      "name": "Sequence Number",
+      "definition": "Subservice code is an arbitrary sequence number used to uniquely identify this Service and prevent duplicate services within this statement."
+    },
+    "MACT": {
+      "isoName": "MemberAccount",
+      "name": "Member Account",
+      "definition": "Subservice code is the account number of a member of a relationship structure. This allows a parent statement to include the same service as rolled up from its member accounts and still avoid duplicate service identification within the statement."
+    }
+  }
+}

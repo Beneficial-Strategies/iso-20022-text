@@ -1,0 +1,43 @@
+{
+  "isoType": "PendingOpeningStatusReason1Code",
+  "language": "en",
+  "name": "Pending Opening Status Reason 1 Code",
+  "definition": "Specifies the reason for a pending account opening status.",
+  "isoCodes": {
+    "ATHR": {
+      "isoName": "Authorisation",
+      "name": "Authorisation",
+      "definition": "Authorisation is required."
+    },
+    "ATHP": {
+      "isoName": "AuthorisedButPending",
+      "name": "Authorised But Pending",
+      "definition": "Authorisation is provided but account opening is still pending."
+    },
+    "FRDM": {
+      "isoName": "FATCAReportingDateMissing",
+      "name": "FATCA Reporting Date Missing",
+      "definition": "FATCA reporting date is missing."
+    },
+    "KYCM": {
+      "isoName": "KnowYourCustomerDocumentMissing",
+      "name": "Know Your Customer Document Missing",
+      "definition": "Know Your Customer (KYC) document is missing."
+    },
+    "NOTO": {
+      "isoName": "NotOpened",
+      "name": "Not Opened",
+      "definition": "Account is not yet open, even for partial use."
+    },
+    "REST": {
+      "isoName": "Restrictions",
+      "name": "Restrictions",
+      "definition": "Account will be opened when restrictions are addressed."
+    },
+    "RIGH": {
+      "isoName": "RightsHolderMissing",
+      "name": "Rights Holder Missing",
+      "definition": "Rights holder information is missing."
+    }
+  }
+}

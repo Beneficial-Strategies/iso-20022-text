@@ -1,0 +1,41 @@
+{
+  "isoType": "CorporateActionInformation1",
+  "language": "en",
+  "name": "Corporate Action Information 1",
+  "definition": "General information about the corporate action event.",
+  "isoElements": {
+    "AgentIdentification": {
+      "name": "Agent Identification",
+      "definition": "Identification of the issuer agent."
+    },
+    "IssuerCorporateActionIdentification": {
+      "name": "Issuer Corporate Action Identification",
+      "definition": "Reference given to the event by the CA event issuer (agent)."
+    },
+    "CorporateActionProcessingIdentification": {
+      "name": "Corporate Action Processing Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of corporate action event."
+    },
+    "MandatoryVoluntaryEventType": {
+      "name": "Mandatory Voluntary Event Type",
+      "definition": "Specifies whether the event is mandatory, mandatory with options or voluntary."
+    },
+    "EventProcessingType": {
+      "name": "Event Processing Type",
+      "definition": "Type of processing involved by a Corporate Action."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Identification of the underlying financial instrument, ie, the financial instrument affected by the corporate action event."
+    }
+  },
+  "isoRules": {
+    "CorporateActionIdentificationRule": {
+      "definition": "At least one element in the list (IssuerCorporateActionReference, OfficialCorporateActionReference, CorporateActionProcessingIdentifier) must be present. They may all be may be present."
+    }
+  }
+}

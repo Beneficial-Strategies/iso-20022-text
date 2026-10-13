@@ -1,0 +1,52 @@
+{
+  "isoType": "AgentCAStandingInstructionStatusAdviceV01",
+  "language": "en",
+  "name": "Agent CA Standing Instruction Status Advice V 01",
+  "definition": "Scope|This message is sent by an issuer (or its agent) to the CSD to report the status, or a change in status, of a standing instruction request or the status of a standing instruction cancellation request.|Usage|When this message is used to report the status of a standing instruction request, the building block Standing Instruction Request Identification must be present.|When this message is used to report the status of a standing instruction cancellation request, the building block Standing Instruction Cancellation Request Identification must be present.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": ""
+    },
+    "AgentCAStandingInstructionRequestIdentification": {
+      "name": "Agent CA Standing Instruction Request Identification",
+      "definition": ""
+    },
+    "AgentCAStandingInstructionCancellationRequestIdentification": {
+      "name": "Agent CA Standing Instruction Cancellation Request Identification",
+      "definition": ""
+    },
+    "StandingInstructionGeneralInformation": {
+      "name": "Standing Instruction General Information",
+      "definition": ""
+    },
+    "StandingInstructionRequestStatus": {
+      "name": "Standing Instruction Request Status",
+      "definition": ""
+    },
+    "StandingInstructionCancellationRequestStatus": {
+      "name": "Standing Instruction Cancellation Request Status",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRule": {
+      "definition": "Either AgentCAStandingInstructionRequestIdentification or AgentCAStandingInstructionCancellationRequestIdentification must be present, but not both."
+    },
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRuleNotBoth": {
+      "definition": "Either AgentCAStandingInstructionRequestIdentification or AgentCAStandingInstructionCancellationRequestIdentification must be present, but not both."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRule": {
+      "definition": "Either StandingInstructionRequestStatus or StandingInstructionCancellationRequestStatus must be present, but not both."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRuleNotBoth": {
+      "definition": "Either StandingInstructionRequestStatus or StandingInstructionCancellationRequestStatus must be present, but not both."
+    },
+    "StandingInstructionCancellationRequestStatusRule": {
+      "definition": "If AgentCAStandingInstructionCancellationRequestIdentification is present, then StandingInstructionCancellationRequestStatus must be present."
+    },
+    "StandingInstructionRequestStatusRule": {
+      "definition": "If AgentCAStandingInstructionRequestIdentification is present, then StandingInstructionRequestStatus must be present."
+    }
+  }
+}

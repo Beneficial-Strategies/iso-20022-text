@@ -1,0 +1,38 @@
+{
+  "isoType": "BillingTaxCalculationMethod1Code",
+  "language": "en",
+  "name": "Billing Tax Calculation Method 1 Code",
+  "definition": "Defines the tax calculation method.",
+  "isoCodes": {
+    "NTAX": {
+      "isoName": "NoTaxes",
+      "name": "No Taxes",
+      "definition": "No taxes are calculated or due on this account."
+    },
+    "MTDA": {
+      "isoName": "MethodA",
+      "name": "Method A",
+      "definition": "Line-by-line per service calculation and settlement currency translation."
+    },
+    "MTDB": {
+      "isoName": "MethodB",
+      "name": "Method B",
+      "definition": "Line-by-line per service calculation with settlement currency translation performed on the statement tax total."
+    },
+    "MTDC": {
+      "isoName": "MethodC",
+      "name": "Method C",
+      "definition": "Group tax calculation with group settlement currency translation."
+    },
+    "MTDD": {
+      "isoName": "MethodD",
+      "name": "Method D",
+      "definition": "Line-by-line per service calculation with all charges and taxes due in the pricing currency."
+    },
+    "UDFD": {
+      "isoName": "Undefined",
+      "name": "Undefined",
+      "definition": "Tax calculation method is not defined or unknown."
+    }
+  }
+}

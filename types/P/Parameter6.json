@@ -1,0 +1,20 @@
+{
+  "isoType": "Parameter6",
+  "language": "en",
+  "name": "Parameter 6",
+  "definition": "Parameters associated to a cryptographic encryption algorithm.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "name": "Encryption Format",
+      "definition": "Format of data before encryption, if the format is not plaintext or implicit."
+    },
+    "InitialisationVector": {
+      "name": "Initialisation Vector",
+      "definition": "Initialisation vector of a cipher block chaining (CBC) mode encryption."
+    },
+    "BytePadding": {
+      "name": "Byte Padding",
+      "definition": "Byte padding for a cypher block chaining mode encryption, if the padding is not implicit."
+    }
+  }
+}

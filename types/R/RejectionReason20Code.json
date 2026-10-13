@@ -1,0 +1,33 @@
+{
+  "isoType": "RejectionReason20Code",
+  "language": "en",
+  "name": "Rejection Reason 20 Code",
+  "definition": "Specifies the reason of a rejection of the standing instruction request.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    },
+    "CASA": {
+      "isoName": "NotIdentifiedCashAccount",
+      "name": "Not Identified Cash Account",
+      "definition": "Unable to identify cash account."
+    },
+    "CORR": {
+      "isoName": "NotIdentifiedCorrespondentBank",
+      "name": "Not Identified Correspondent Bank",
+      "definition": "Unable to identify correspondent bank."
+    },
+    "STAN": {
+      "isoName": "InvalidStandingInstructionType",
+      "name": "Invalid Standing Instruction Type",
+      "definition": "Invalid standing instruction type for the specified underlying security."
+    },
+    "NOHO": {
+      "isoName": "NoHolding",
+      "name": "No Holding",
+      "definition": "No holding for the specified underlying security."
+    }
+  }
+}

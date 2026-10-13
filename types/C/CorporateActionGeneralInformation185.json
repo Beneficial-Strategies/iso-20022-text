@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionGeneralInformation185",
+  "language": "en",
+  "name": "Corporate Action General Information 185",
+  "definition": "General information about the corporate action event.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "name": "Official Corporate Action Event Identification",
+      "definition": "Official and unique reference assigned by the official central body/entity within each market at the beginning of a corporate action event."
+    },
+    "ClassActionNumber": {
+      "name": "Class Action Number",
+      "definition": "Reference assigned by a court to a class action."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of corporate action event."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "EventType/Code OTHR must only be used in case no other corporate action event code is appropriate. |EventType/Code CHAN must only be used in case no other corporate action event code is appropriate and only for an event which relates to a change. |EventType/Code REDM must only be used when the redemption is decided by the issuer and not by the securities holders."
+    },
+    "OfficialCorporateActionEventReference": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the structure and usage of the Official Corporate Action Event Reference (COAF). Those recommendations are|available in the SMPG Global Market Practices Part 1 document on www.smpg.info."
+    }
+  }
+}

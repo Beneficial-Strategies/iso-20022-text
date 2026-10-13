@@ -1,0 +1,64 @@
+{
+  "isoType": "ChargesPerTypeRecord5",
+  "language": "en",
+  "name": "Charges Per Type Record 5",
+  "definition": "Provides further individual record details on the charges related to the payment transaction.",
+  "isoElements": {
+    "RecordIdentification": {
+      "name": "Record Identification",
+      "definition": "Unique and unambiguous identification of the charges record for reconciliation purpose."
+    },
+    "ChargesRequestor": {
+      "name": "Charges Requestor",
+      "definition": "Agent that requests the charges, if other than the sender."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Identifies the underlying transaction(s) to which the charges apply."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of transaction charges to be paid by the charge bearer."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the charges amount is a credit or a debit amount. |Usage: A zero amount is considered to be a credit."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the charges are or will be available."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Specifies the debtor of the initial payment transaction."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Specifies the account of the debtor of the initial payment transaction."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Specifies the debtor agent of the initial payment transaction, if different from the charges account owner."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Specifies the account of the debtor agent of the initial payment transaction, when instructing agent is different from the charges account owner."
+    },
+    "ChargesAccount": {
+      "name": "Charges Account",
+      "definition": "Identifies the account that has been debited or credited for the charges, interest or other|adjustment(s)."
+    },
+    "ChargesAccountOwner": {
+      "name": "Charges Account Owner",
+      "definition": "Agent that owns the charges account."
+    },
+    "InstructionForInstructedAgent": {
+      "name": "Instruction For Instructed Agent",
+      "definition": "Further information related to the processing of the payment adjustment instruction that may need to be acted upon by the next agent."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the reason for the charges."
+    }
+  }
+}

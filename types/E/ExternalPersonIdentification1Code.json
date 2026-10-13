@@ -1,0 +1,63 @@
+{
+  "isoType": "ExternalPersonIdentification1Code",
+  "language": "en",
+  "name": "External Person Identification 1 Code",
+  "definition": "Specifies the external person identification scheme name code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ARNU": {
+      "isoName": "AlienRegistrationNumber",
+      "name": "Alien Registration Number",
+      "definition": "Number assigned by a social security agency to identify a non-resident person."
+    },
+    "CCPT": {
+      "isoName": "PassportNumber",
+      "name": "Passport Number",
+      "definition": "Number assigned by an authority to identify the passport number of a person."
+    },
+    "CUST": {
+      "isoName": "CustomerIdentificationNumber",
+      "name": "Customer Identification Number",
+      "definition": "Number assigned by an issuer to identify a customer."
+    },
+    "DRLC": {
+      "isoName": "DriversLicenseNumber",
+      "name": "Drivers License Number",
+      "definition": "Number assigned by an authority to identify a driver's license."
+    },
+    "EMPL": {
+      "isoName": "EmployeeIdentificationNumber",
+      "name": "Employee Identification Number",
+      "definition": "Number assigned by a registration authority to an employee."
+    },
+    "NIDN": {
+      "isoName": "NationalIdentityNumber",
+      "name": "National Identity Number",
+      "definition": "Number assigned by an authority to identify the national identity number of a person."
+    },
+    "SOSE": {
+      "isoName": "SocialSecurityNumber",
+      "name": "Social Security Number",
+      "definition": "Number assigned by an authority to identify the social security number of a person."
+    },
+    "TELE": {
+      "isoName": "TelephoneNumber",
+      "name": "Telephone Number",
+      "definition": "Number assigned by a telephone or mobile phone operator to identify a person. A person may have multiple phone numbers."
+    },
+    "TXID": {
+      "isoName": "TaxIdentificationNumber",
+      "name": "Tax Identification Number",
+      "definition": "Number assigned by a tax authority to identify a person."
+    },
+    "POID": {
+      "isoName": "PersonCommercialIdentification",
+      "name": "Person Commercial Identification",
+      "definition": "Commercial identification of the person."
+    },
+    "BANK": {
+      "isoName": "BankPartyIdentification",
+      "name": "Bank Party Identification",
+      "definition": "Unique and unambiguous assignment made by a specific bank or similar financial institution to identify a relationship as defined between the bank and its client."
+    }
+  }
+}

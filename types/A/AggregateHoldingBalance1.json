@@ -1,0 +1,28 @@
+{
+  "isoType": "AggregateHoldingBalance1",
+  "language": "en",
+  "name": "Aggregate Holding Balance 1",
+  "definition": "Overall holding position, in a single financial instrument, held in a securities account at a specified place of safekeeping.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the financial instrument for which the balance information is specified."
+    },
+    "HoldingForm": {
+      "name": "Holding Form",
+      "definition": "Form of ownership of the holding."
+    },
+    "HoldingPhysicalType": {
+      "name": "Holding Physical Type",
+      "definition": "Specifies whether the holding is physically delivered or is a book entry only."
+    },
+    "BalanceForFinancialInstrument": {
+      "name": "Balance For Financial Instrument",
+      "definition": "Balance breakdown on the net position of the financial instrument."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

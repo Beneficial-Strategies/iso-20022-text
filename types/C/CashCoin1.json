@@ -1,0 +1,28 @@
+{
+  "isoType": "CashCoin1",
+  "language": "en",
+  "name": "Cash Coin 1",
+  "definition": "Withdrawal or deposit of an amount of money defined in cash coins.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of cash."
+    },
+    "BoxReference": {
+      "name": "Box Reference",
+      "definition": "Reference for the box holding these coins."
+    },
+    "CoinDenomination": {
+      "name": "Coin Denomination",
+      "definition": "Specifies the coin denomination, including the currency, such as a euro 50 cent coin."
+    },
+    "NumberOfCoins": {
+      "name": "Number Of Coins",
+      "definition": "Specifies the number of coins of the same denomination."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies the total amount of money for this coin denomination, that is the coin denomination times the number of coins."
+    }
+  }
+}

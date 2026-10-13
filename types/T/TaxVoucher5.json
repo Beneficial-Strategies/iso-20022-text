@@ -1,0 +1,20 @@
+{
+  "isoType": "TaxVoucher5",
+  "language": "en",
+  "name": "Tax Voucher 5",
+  "definition": "Specifies tax vouchers in the framework of a corporate action event.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique reference for the tax voucher required by the relevant tax authorities to ensure that any claim relating to this particular tax voucher cannot be duplicated."
+    },
+    "BargainDate": {
+      "name": "Bargain Date",
+      "definition": "Date on which a dividend reinvestment purchase was completed. If there is only one bargain involved, the time it was struck needs to be included."
+    },
+    "BargainSettlementDate": {
+      "name": "Bargain Settlement Date",
+      "definition": "Settlement date of the dividend reinvestment purchase transaction."
+    }
+  }
+}

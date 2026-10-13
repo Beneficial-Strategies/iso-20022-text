@@ -1,0 +1,32 @@
+{
+  "isoType": "ProcessingStatus106Choice",
+  "language": "en",
+  "name": "Processing Status 106 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Request has been acknowledged by the account servicer."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Modification Request has been rejected for further processing."
+    },
+    "Completed": {
+      "name": "Completed",
+      "definition": "Modification request was completed."
+    },
+    "Denied": {
+      "name": "Denied",
+      "definition": "Modification request will not be executed."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Modification is pending. It is not known at this time whether modification can be affected."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    }
+  }
+}

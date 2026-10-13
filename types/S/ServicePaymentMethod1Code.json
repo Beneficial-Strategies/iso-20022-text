@@ -1,0 +1,38 @@
+{
+  "isoType": "ServicePaymentMethod1Code",
+  "language": "en",
+  "name": "Service Payment Method 1 Code",
+  "definition": "Defines the method for the payment of the services charge.",
+  "isoCodes": {
+    "BCMP": {
+      "isoName": "BalanceCompensable",
+      "name": "Balance Compensable",
+      "definition": "Allows the bank to offset a service charge with interest earned on the deposit account balance. The actual charges arising from balance compensable services are always calculated and charged at month end. Used in the USA."
+    },
+    "FLAT": {
+      "isoName": "HardCharge",
+      "name": "Hard Charge",
+      "definition": "Charge is not balance compensable and is due. In the absence of balance compensable charges in Europe, this would be the most commonly used code for services that are billed at month end."
+    },
+    "PVCH": {
+      "isoName": "PreviouslyCharged",
+      "name": "Previously Charged",
+      "definition": "Charge was previously assessed and is not part of the amount due as of this statement. This code is used for charges that were debited as the chargeable event took place."
+    },
+    "INVS": {
+      "isoName": "InvoicedSeparately",
+      "name": "Invoiced Separately",
+      "definition": "Charge was previously invoiced and is not part of the amount due as of this statement. This code is used for charges that were invoiced as the chargeable event took place."
+    },
+    "WVED": {
+      "isoName": "Waived",
+      "name": "Waived",
+      "definition": "Charge is waived and not due. The waived amount must be placed in original charge amount."
+    },
+    "FREE": {
+      "isoName": "Free",
+      "name": "Free",
+      "definition": "Service is free, no charge, to the customer."
+    }
+  }
+}

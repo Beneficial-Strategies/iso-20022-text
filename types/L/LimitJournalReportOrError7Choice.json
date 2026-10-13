@@ -1,0 +1,16 @@
+{
+  "isoType": "LimitJournalReportOrError7Choice",
+  "language": "en",
+  "name": "Limit Journal Report Or Error 7 Choice",
+  "definition": "Defines the limit report as either an operational error or a business report.",
+  "isoElements": {
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Specifies the business report either as a limit utilisation journal or a business error."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Specifies the operational error resulting from the processing of a request."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PendingCancellationStatusReason14",
+  "language": "en",
+  "name": "Pending Cancellation Status Reason 14",
+  "definition": "Reason for a pending cancellation status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Reason for the pending status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the pending status."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "AdditionalReasonInformation must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

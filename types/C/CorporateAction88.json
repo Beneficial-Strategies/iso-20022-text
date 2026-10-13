@@ -1,0 +1,169 @@
+{
+  "isoType": "CorporateAction88",
+  "language": "en",
+  "name": "Corporate Action 88",
+  "definition": "Provides information about the corporate action event.",
+  "isoElements": {
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a corporate action event."
+    },
+    "EventBalanceDetails": {
+      "name": "Event Balance Details",
+      "definition": "Balances related to the corporate action event."
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Provides information about the amounts related to a corporate action event."
+    },
+    "PeriodDetails": {
+      "name": "Period Details",
+      "definition": "Provides information about the periods related to a corporate action event."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about rates and amounts related to a corporate action event."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action event."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Provides information about securities quantity linked to a corporate action."
+    },
+    "InterestAccruedNumberOfDays": {
+      "name": "Interest Accrued Number Of Days",
+      "definition": "Number of days used for calculating the accrued interest amount."
+    },
+    "AcceptancePriorityLevel": {
+      "name": "Acceptance Priority Level",
+      "definition": "Level of priority of the given offer which will be accepted by the issuer/agent within the tiered structure of the event.|Offer events in many cases are subject to proration."
+    },
+    "ChargesAppliedIndicator": {
+      "name": "Charges Applied Indicator",
+      "definition": "Indicates whether charges apply to the holder, for instance redemption charges."
+    },
+    "RestrictionIndicator": {
+      "name": "Restriction Indicator",
+      "definition": "Indicates whether restrictions apply to the corporate action event or not."
+    },
+    "AccruedInterestIndicator": {
+      "name": "Accrued Interest Indicator",
+      "definition": "Indicates whether the holder is entitled to accrued interest."
+    },
+    "SupplementaryIndicators": {
+      "name": "Supplementary Indicators",
+      "definition": "Identification of a supplementary data element."
+    },
+    "ForfeitureOfInterestIndicator": {
+      "name": "Forfeiture Of Interest Indicator",
+      "definition": "Indicates that bondholders who convert between record date and payable date will forfeit their interest."
+    },
+    "DividendType": {
+      "name": "Dividend Type",
+      "definition": "Specifies the conditions in which a dividend is paid."
+    },
+    "OccurrenceType": {
+      "name": "Occurrence Type",
+      "definition": "Specifies the conditions in which the instructions and/or payment of the proceeds occurs."
+    },
+    "OfferType": {
+      "name": "Offer Type",
+      "definition": "Specifies the conditions that apply to the offer."
+    },
+    "RenounceableEntitlementStatusType": {
+      "name": "Renounceable Entitlement Status Type",
+      "definition": "Specifies whether terms of the event allow resale of the rights."
+    },
+    "EventStage": {
+      "name": "Event Stage",
+      "definition": "Stage in the corporate action event life cycle."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "name": "Additional Business Process Indicator",
+      "definition": "Specifies the type of the additional business process linked to the corporate action event such as a claim compensation or tax refund."
+    },
+    "ChangeType": {
+      "name": "Change Type",
+      "definition": "Specifies the type of change announced."
+    },
+    "FollowingEventTypeIndicator": {
+      "name": "Following Event Type Indicator",
+      "definition": "Specifies the event type of the following event."
+    },
+    "CapitalGainInOutIndicator": {
+      "name": "Capital Gain In Out Indicator",
+      "definition": "Specifies whether the capital gain is in the scope of the EU Savings directive for the income realised upon the sale, refund or redemption of shares and units (.) (Article 6(1d))."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "name": "Taxable Income Per Share Calculated",
+      "definition": "Specifies whether the financial instrument calculates the taxable income per dividend/taxable income per share."
+    },
+    "LotteryEventInformation": {
+      "name": "Lottery Event Information",
+      "definition": "Specifies the details of a lottery."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Specifies the certification format required, this is, physical or electronic format."
+    },
+    "ConsentType": {
+      "name": "Consent Type",
+      "definition": "Specifies the type of consent announced."
+    },
+    "InformationType": {
+      "name": "Information Type",
+      "definition": "Specifies the type of information event."
+    },
+    "TaxOnNonDistributedProceedsIndicator": {
+      "name": "Tax On Non Distributed Proceeds Indicator",
+      "definition": "Specifies the tax regulation being attributed to the non-distributed proceeds event or to any other event."
+    },
+    "DutchAuctionType": {
+      "name": "Dutch Auction Type",
+      "definition": "Specifies whether a Dutch auction is modified or unmodified."
+    },
+    "ReverseDutchAuctionIndicator": {
+      "name": "Reverse Dutch Auction Indicator",
+      "definition": "Indicates that the Dutch Auction event is a Reverse Dutch Auction."
+    },
+    "NewPlaceOfIncorporation": {
+      "name": "New Place Of Incorporation",
+      "definition": "New company's place of incorporation."
+    },
+    "NoticeType": {
+      "name": "Notice Type",
+      "definition": "Specifies whether a redemption announcement refers to certificates held only at depository or also outside of depository."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "name": "Proration Return Minimum Quantity Treatment",
+      "definition": "Indicates how prorated instructions will be handled when the prorated entitlement results in less than the minimum denomination."
+    },
+    "CertificateDetails": {
+      "name": "Certificate Details",
+      "definition": "Details of certificates that have been called for redemption."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information. This field may only be used when the information to be transmitted, cannot be coded."
+    }
+  },
+  "isoRules": {
+    "DissenterRights1UGRule": {
+      "definition": "If OfferType/Code value is equal to DISS (DissenterRights), then OfferType/Code value equal to NDIS (DissenterRightsNotApplicable) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "If OfferType/Code value is equal to NDIS (DissenterRightsNotApplicable), then OfferType/Code value equal to DISS (DissenterRights) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1Rule": {
+      "definition": "If OfferType/Code value is equal to DISS (DissenterRights), then OfferType/Code value equal to NDIS (DissenterRightsNotApplicable) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "If OfferType/Code value is equal to NDISS (DissenterRightsNotApplicable), then OfferType/Code value equal to DISS (DissenterRights) is not allowed in any occurrence of OfferType.|(MT 564 NVR C27)"
+    },
+    "AcceptancePriorityLevelUGRule": {
+      "definition": "If OfferType/Code is equal to AcceptancePriority (ACPR), then AcceptancePriorityLevel must be present."
+    }
+  }
+}

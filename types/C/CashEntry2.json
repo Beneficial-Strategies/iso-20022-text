@@ -1,0 +1,36 @@
+{
+  "isoType": "CashEntry2",
+  "language": "en",
+  "name": "Cash Entry 2",
+  "definition": "Posting of an item to a cash account, in the context of a cash transaction, that results in an increase or decrease to the balance of the account.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money in the cash entry."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date at which an entry is posted to an account on the account servicer's books."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of an entry on the books of the account servicer."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier for an entry, as assigned by the account servicer."
+    },
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Unique identification, as assigned by the account servicer, to unambiguously identify the account statement."
+    },
+    "AccountServicerReference": {
+      "name": "Account Servicer Reference",
+      "definition": "Sequential number of the statement, as assigned by the account servicer.|Usage: The sequential number is increased incrementally for each statement sent electronically."
+    },
+    "AdditionalEntryInformation": {
+      "name": "Additional Entry Information",
+      "definition": "Further details of the entry."
+    }
+  }
+}

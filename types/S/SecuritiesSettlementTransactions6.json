@@ -1,0 +1,32 @@
+{
+  "isoType": "SecuritiesSettlementTransactions6",
+  "language": "en",
+  "name": "Securities Settlement Transactions 6",
+  "definition": "Provides the transactions in the report.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": "Status and status reason of the transaction."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Identifies the individual transaction."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount must be present or Transaction(*)/SafekeepingAccount must be present, but not both."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner must be present or Transaction(*)/AccountOwner must be present, but not both."
+    }
+  }
+}

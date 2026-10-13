@@ -1,0 +1,18 @@
+{
+  "isoType": "MatchingStatus1Code",
+  "language": "en",
+  "name": "Matching Status 1 Code",
+  "definition": "Provides the matching status of the instruction at the time the settlement instruction was sent.",
+  "isoCodes": {
+    "MACH": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Instruction has been matched."
+    },
+    "NMAT": {
+      "isoName": "Unmatched",
+      "name": "Unmatched",
+      "definition": "Instruction has not been matched."
+    }
+  }
+}

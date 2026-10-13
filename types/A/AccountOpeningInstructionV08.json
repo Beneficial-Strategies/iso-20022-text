@@ -1,0 +1,80 @@
+{
+  "isoType": "AccountOpeningInstructionV08",
+  "language": "en",
+  "name": "Account Opening Instruction V 08",
+  "definition": "Scope|The AccountOpeningInstruction message is sent by an account owner, for example, an investor or its designated agent to the account servicer, for example, a registrar, transfer agent, custodian or securities depository, to instruct the opening of an account or the opening of an account and the establishment of an investment plan.|Usage|The AccountOpeningInstruction is used to open an account directly or indirectly with the account servicer or an intermediary.|In some markets, for example, Australia, and for some products in the United Kingdom, a first order (also known as a deposit instruction) is placed at the same time as the account opening. To cater for this scenario, an order message can be linked (via references in the message) to the AccountOpeningInstruction message when needed.|Execution of the AccountOpeningInstruction is confirmed via an AccountDetailsConfirmation message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": ""
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": ""
+    },
+    "InstructionDetails": {
+      "name": "Instruction Details",
+      "definition": ""
+    },
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": ""
+    },
+    "AccountParties": {
+      "name": "Account Parties",
+      "definition": ""
+    },
+    "Intermediaries": {
+      "name": "Intermediaries",
+      "definition": ""
+    },
+    "Placement": {
+      "name": "Placement",
+      "definition": ""
+    },
+    "NewIssueAllocation": {
+      "name": "New Issue Allocation",
+      "definition": ""
+    },
+    "SavingsInvestmentPlan": {
+      "name": "Savings Investment Plan",
+      "definition": ""
+    },
+    "WithdrawalInvestmentPlan": {
+      "name": "Withdrawal Investment Plan",
+      "definition": ""
+    },
+    "CashSettlement": {
+      "name": "Cash Settlement",
+      "definition": ""
+    },
+    "ServiceLevelAgreement": {
+      "name": "Service Level Agreement",
+      "definition": ""
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": ""
+    },
+    "MarketPracticeVersion": {
+      "name": "Market Practice Version",
+      "definition": ""
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "InvestmentAccountIdentificationRule": {
+      "definition": "If InstructionDetails/OpeningType/Code is SUPA (SupplementaryAccountOpening), then InvestmentAccount/Identification must be present and must contain the identification of the main account to which the supplementary account is related."
+    },
+    "UnitRule": {
+      "definition": "If SavingsInvestmentPlan is present, then SavingsInvestmentPlan/Quantity/Unit is not allowed."
+    }
+  }
+}

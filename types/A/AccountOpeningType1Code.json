@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountOpeningType1Code",
+  "language": "en",
+  "name": "Account Opening Type 1 Code",
+  "definition": "Specifies the type of account to which an account opening request is related, eg, a new account.",
+  "isoCodes": {
+    "NEWA": {
+      "isoName": "NewAccountOpening",
+      "name": "New Account Opening",
+      "definition": "Account request is to open a new account."
+    },
+    "SUPA": {
+      "isoName": "SupplementaryAccountOpening",
+      "name": "Supplementary Account Opening",
+      "definition": "Account request is to open a supplementary account, that is, based on an existing account."
+    }
+  }
+}

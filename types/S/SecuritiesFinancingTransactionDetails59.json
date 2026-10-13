@@ -1,0 +1,181 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails59",
+  "language": "en",
+  "name": "Securities Financing Transaction Details 59",
+  "definition": "Details of the closing of the securities financing transaction.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "name": "Securities Financing Trade Identification",
+      "definition": "Unambiguous identification of the underlying securities financing trade as assigned by the instructing party. The identification is common to all collateral pieces (one or many)."
+    },
+    "SecuritiesFinancingUniqueTransactionIdentifier": {
+      "name": "Securities Financing Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    },
+    "ClosingLegIdentification": {
+      "name": "Closing Leg Identification",
+      "definition": "Unambiguous identification of the second leg of the transaction as known by the account owner (or the instructing party acting on its behalf)."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Transaction Identification",
+      "definition": "Unique identification identifying the triparty collateral management transaction from the triparty-agent's/service-provider's point of view."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "name": "Client Triparty Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty collateral management transaction from the client's point of view."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "OpeningSettlementAmount": {
+      "name": "Opening Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities at the opening of a securities financing transaction."
+    },
+    "TerminationTransactionAmount": {
+      "name": "Termination Transaction Amount",
+      "definition": "Total amount of money to be settled to terminate the transaction."
+    },
+    "DigitalPaymentSettlement": {
+      "name": "Digital Payment Settlement",
+      "definition": "Amount of digital asset that is to be/was posted to the account as a means of payment."
+    },
+    "OpeningSettlementDate": {
+      "name": "Opening Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Closing date/time or maturity date/time of the transaction."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "ExpectedSettlementDate": {
+      "name": "Expected Settlement Date",
+      "definition": "Date/time at which the sender expects settlement."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "For against payment transactions, the value date/time at which the account servicer expects the settlement amount to be credited or debited."
+    },
+    "LateDeliveryDate": {
+      "name": "Late Delivery Date",
+      "definition": "Date and time after the settlement date specified in the trade, used for pool trades resulting from the original To Be Assigned (TBA) securities."
+    },
+    "RateChangeDate": {
+      "name": "Rate Change Date",
+      "definition": "Date/Time at which rate change has taken place."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "name": "Securities Financing Transaction Type",
+      "definition": "Specifies the type of securities financing transaction, that is, repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": "Parameters applied to the settlement of a security transfer."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies whether the rate is fixed or variable."
+    },
+    "VariableRateSupport": {
+      "name": "Variable Rate Support",
+      "definition": "Index or support rate used together with the spread to calculate the repurchase rate."
+    },
+    "RepurchaseRate": {
+      "name": "Repurchase Rate",
+      "definition": "Rate to be used to recalculate the repurchase amount."
+    },
+    "StockLoanMargin": {
+      "name": "Stock Loan Margin",
+      "definition": "Percentage mark-up on a loan consideration used to reflect the lender's risk."
+    },
+    "SecuritiesHaircut": {
+      "name": "Securities Haircut",
+      "definition": "Haircut or valuation factor on the security expressed as a percentage."
+    },
+    "PricingRate": {
+      "name": "Pricing Rate",
+      "definition": "Interest rate to be paid on the transaction amount, as agreed between the counterparties."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Repurchase spread expressed as a rate; margin over or under an index that determines the repurchase rate."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party, either an individual or organisation, whose assets are being invested."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "name": "Settlement Instruction Processing Additional Details",
+      "definition": "Provides additional settlement processing information which can not be included within the structured fields of the message."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "For transactions settling in two legs (Securities Financing), the opening/initiation and closing/return information of the transaction is provided by sending the following combination of SecuritiesMovementType codes and SecuritiesFinancingTransactionType codes:||Repo Opening|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Repo Closing|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Reverse Repo Opening|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Reverse Repo Closing|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Securities Lending Initiation|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Securities Lending Return|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Securities Borrowing Initiation|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Securities Borrowing Return|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the sender and receiver, if SettlementInstructionProcessingAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

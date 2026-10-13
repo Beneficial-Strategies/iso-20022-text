@@ -1,0 +1,24 @@
+{
+  "isoType": "InvestigationRequestAction1",
+  "language": "en",
+  "name": "Investigation Request Action 1",
+  "definition": "Specifies the type of action requested and reason for action.",
+  "isoElements": {
+    "Action": {
+      "name": "Action",
+      "definition": "Specifies the type of action requested."
+    },
+    "ActionReason": {
+      "name": "Action Reason",
+      "definition": "Provides detailed information on the action reason."
+    }
+  },
+  "isoRules": {
+    "ObjectionActionReasonRule": {
+      "definition": "If Action/Code is equal to RQOB for Request Objection, ActionReason must be present."
+    },
+    "ObjectionActionRule": {
+      "definition": "External code RQOB for Request Objection can only be populated in Action/Code when Requestor has already received a response from the Responder."
+    }
+  }
+}

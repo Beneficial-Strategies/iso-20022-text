@@ -1,0 +1,82 @@
+{
+  "isoType": "CashOption118",
+  "language": "en",
+  "name": "Cash Option 118",
+  "definition": "Provides information about the cash option.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or credit."
+    },
+    "ContractualPaymentIndicator": {
+      "name": "Contractual Payment Indicator",
+      "definition": "Indicates whether the cash payment occurs or will occur in advance of receipt of proceeds from the issuer and based on a contractual agreement established with the account servicer or upon receipt of proceeds from the issuer."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "name": "Issuer Offeror Taxability Indicator",
+      "definition": "Proceeds are taxable according to the information provided by the issuer / offeror."
+    },
+    "IncomeType": {
+      "name": "Income Type",
+      "definition": "Specifies the type of income.|The lists of income type codes to be used, are available on the SMPG website at www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "name": "Other Income Type",
+      "definition": "Type of income to be used under another tax regime."
+    },
+    "ExemptionType": {
+      "name": "Exemption Type",
+      "definition": "Specifies the basis for the reduced rate of withholding."
+    },
+    "CountryOfIncomeSource": {
+      "name": "Country Of Income Source",
+      "definition": "Indicates the country from which the income originates."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Choice between a cash account, a charges account or a tax account."
+    },
+    "CashParties": {
+      "name": "Cash Parties",
+      "definition": "Provides information about cash parties."
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Provides information about the amounts related to a cash movement."
+    },
+    "DateDetails": {
+      "name": "Date Details",
+      "definition": "Provides information about the dates related to a cash movement."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Exchange rate between the amount and the resulting amount."
+    },
+    "TaxDocumentationDetails": {
+      "name": "Tax Documentation Details",
+      "definition": "Provides information about the tax voucher related to a cash movement."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about the corporate action option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action option."
+    }
+  },
+  "isoRules": {
+    "ExemptionTypeUsageRule": {
+      "definition": "The lists of exemption type codes to be used in ExemptionType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "The lists of income type codes to be used in IncomeType are provided in the document \"ETYP-ITYP Exemption & Income Type Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "The IssuerOfferorTaxabilityIndicator may only be used when no tax rate is provided in the message and it must not be used in events such as dividend or interest.|The list of proprietary IssuerOfferorTaxabilityIndicator codes that may be used are provided in the document \" TXAP Taxability Codes\" available on the SMPG website at www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "If at least one occurrence of OtherIncomeType is present, then IncomeType must be present."
+    }
+  }
+}

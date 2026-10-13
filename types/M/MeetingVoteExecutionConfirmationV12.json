@@ -1,0 +1,45 @@
+{
+  "isoType": "MeetingVoteExecutionConfirmationV12",
+  "language": "en",
+  "name": "Meeting Vote Execution Confirmation V 12",
+  "definition": "Scope|The MeetingVoteExecutionConfirmation message is sent by an issuer, its agent, or an intermediary to another intermediary, a party holding the right to vote, a registered security holder or to a beneficial holder to confirm, to the Sender of the MeetingInstruction message, that their vote has been recorded and counted by the Issuer.|Usage|This message is sent after the shareholders meeting has taken place. The Sender of this message confirms the execution of the vote at the meeting.|This messages is sent if the Sender of the MeetingInstruction message has requested such a confirmation or if market practice or regulation stipulates the need for a full audit trail.|This message definition is intended for use with the Business Application Header (BAH).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": ""
+    },
+    "VoteExecutionConfirmationIdentification": {
+      "name": "Vote Execution Confirmation Identification",
+      "definition": "Unique identification of the group of vote execution confirmation messages when the vote execution confirmation is split in multiple (paginated) messages."
+    },
+    "MeetingInstructionIdentification": {
+      "name": "Meeting Instruction Identification",
+      "definition": "Identification of the original meeting instruction message for which the vote execution  confirmation is provided."
+    },
+    "MeetingReference": {
+      "name": "Meeting Reference",
+      "definition": ""
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "VoteInstructions": {
+      "name": "Vote Instructions",
+      "definition": ""
+    },
+    "VoteInstructionsConfirmationURLAddress": {
+      "name": "Vote Instructions Confirmation URL Address",
+      "definition": "Address to use over the www (HTTP) service where the confirmations of the vote instructions can be found."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "If pagination is present, then VoteExecutionConfirmationIdentification must be present."
+    }
+  }
+}

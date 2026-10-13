@@ -1,0 +1,24 @@
+{
+  "isoType": "References59Choice",
+  "language": "en",
+  "name": "References 59 Choice",
+  "definition": "Choice of reference.",
+  "isoElements": {
+    "OtherTransactionIdentification": {
+      "name": "Other Transaction Identification",
+      "definition": "Reference to a transaction that cannot be identified using a standard reference element present in the message."
+    },
+    "SecuritiesFinancingTransactionIdentification": {
+      "name": "Securities Financing Transaction Identification",
+      "definition": "Unambiguous identification of the underlying securities financing transaction (not the underlying securities financing trade) as assigned by the instructing party."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "name": "Securities Settlement Transaction Identification",
+      "definition": "Unambiguous identification of the securities settlement transaction."
+    },
+    "IntraPositionMovementIdentification": {
+      "name": "Intra Position Movement Identification",
+      "definition": "Reference to the intra-position movement transaction requested to be cancelled as known by the account owner (or instructing party acting on its behalf)."
+    }
+  }
+}

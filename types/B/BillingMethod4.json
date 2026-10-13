@@ -1,0 +1,16 @@
+{
+  "isoType": "BillingMethod4",
+  "language": "en",
+  "name": "Billing Method 4",
+  "definition": "Provides the details for the tax calculation method C.",
+  "isoElements": {
+    "ServiceDetail": {
+      "name": "Service Detail",
+      "definition": "Specifies the details of the taxable services using tax calculation method C."
+    },
+    "TaxCalculation": {
+      "name": "Tax Calculation",
+      "definition": "Total amount of service charge to be taxed in the tax region’s host currency along with the supporting tax calculations. ||Usage: Used for tax calculation method C only, and only one per tax region may be specified."
+    }
+  }
+}

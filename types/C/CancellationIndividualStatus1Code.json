@@ -1,0 +1,23 @@
+{
+  "isoType": "CancellationIndividualStatus1Code",
+  "language": "en",
+  "name": "Cancellation Individual Status 1 Code",
+  "definition": "Specifies the status of a cancellation request.",
+  "isoCodes": {
+    "RJCR": {
+      "isoName": "RejectedCancellationRequest",
+      "name": "Rejected Cancellation Request",
+      "definition": "Cancellation request is rejected"
+    },
+    "ACCR": {
+      "isoName": "AcceptedCancellationRequest",
+      "name": "Accepted Cancellation Request",
+      "definition": "Cancellation is accepted."
+    },
+    "PDCR": {
+      "isoName": "PendingCancellationRequest",
+      "name": "Pending Cancellation Request",
+      "definition": "Cancellation request is pending."
+    }
+  }
+}

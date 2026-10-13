@@ -1,0 +1,21 @@
+{
+  "isoType": "Vote18Choice",
+  "language": "en",
+  "name": "Vote 18 Choice",
+  "definition": "Determines how the voting instructions are specified.",
+  "isoElements": {
+    "VoteInstruction": {
+      "name": "Vote Instruction",
+      "definition": "Instruction specifying the instructed quantity of voting rights per resolution."
+    },
+    "GlobalVoteInstruction": {
+      "name": "Global Vote Instruction",
+      "definition": "Instruction specifying a vote instruction per resolution for the entire entitlement."
+    }
+  },
+  "isoRules": {
+    "InFavourListingGroup1Rule": {
+      "definition": "If two or more occurrences of the element VoteInstruction/ListingGroupResolutionLabel have the exact same textual value, then only a single occurrence of the VoteInstruction sequence amongst these occurrences may have the element “For” (vote in favour) being present."
+    }
+  }
+}

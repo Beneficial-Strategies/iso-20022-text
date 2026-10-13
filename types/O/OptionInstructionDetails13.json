@@ -1,0 +1,56 @@
+{
+  "isoType": "OptionInstructionDetails13",
+  "language": "en",
+  "name": "Option Instruction Details 13",
+  "definition": "Instructions information received for a given option.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": "Identifies the instruction or protect instruction."
+    },
+    "InstructionSequenceNumber": {
+      "name": "Instruction Sequence Number",
+      "definition": "Provides the sequence number of the instruction."
+    },
+    "ProtectIndicator": {
+      "name": "Protect Indicator",
+      "definition": "Indicates whether the instruction is a protect or a cover protect instruction."
+    },
+    "InstructionQuantity": {
+      "name": "Instruction Quantity",
+      "definition": "Securities quantity instructed in the instruction."
+    },
+    "InstructionDate": {
+      "name": "Instruction Date",
+      "definition": "Date of the instruction."
+    },
+    "ProtectDate": {
+      "name": "Protect Date",
+      "definition": "Date of the client protect instruction."
+    },
+    "CoverProtectDate": {
+      "name": "Cover Protect Date",
+      "definition": "Date of the cover protect Instruction"
+    },
+    "BidPrice": {
+      "name": "Bid Price",
+      "definition": "Bid price of the instruction."
+    },
+    "ConditionalQuantity": {
+      "name": "Conditional Quantity",
+      "definition": "Conditional quantity of the instruction."
+    },
+    "CustomerReference": {
+      "name": "Customer Reference",
+      "definition": "Customer related narrative information."
+    },
+    "InstructionNarrative": {
+      "name": "Instruction Narrative",
+      "definition": "Narrative information from the submitted instruction."
+    },
+    "InstructionStatus": {
+      "name": "Instruction Status",
+      "definition": "Status of a particular instruction."
+    }
+  }
+}

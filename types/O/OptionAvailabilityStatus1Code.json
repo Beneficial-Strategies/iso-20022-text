@@ -1,0 +1,18 @@
+{
+  "isoType": "OptionAvailabilityStatus1Code",
+  "language": "en",
+  "name": "Option Availability Status 1 Code",
+  "definition": "Specifies the status of the option availability.",
+  "isoCodes": {
+    "INTV": {
+      "isoName": "Inactive",
+      "name": "Inactive",
+      "definition": "Option is not active and can no longer be responded to. Any responses already processed against this option will remain valid, for example, expired option."
+    },
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Option is not valid; it has been cancelled by the market or service provider, and cannot be responded to. Any responses already processed against this option are considered void and new responses will be required."
+    }
+  }
+}

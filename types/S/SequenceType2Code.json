@@ -1,0 +1,18 @@
+{
+  "isoType": "SequenceType2Code",
+  "language": "en",
+  "name": "Sequence Type 2 Code",
+  "definition": "Specifies whether a once off transaction is covered or whether recurring transactions are covered.",
+  "isoCodes": {
+    "RCUR": {
+      "isoName": "Recurring",
+      "name": "Recurring",
+      "definition": "Direct debit instruction where the debtor's authorisation is used for regular direct debit transactions initiated by the creditor."
+    },
+    "OOFF": {
+      "isoName": "OneOff",
+      "name": "One Off",
+      "definition": "Direct debit instruction where the debtor's authorisation is used to initiate one single direct debit transaction."
+    }
+  }
+}

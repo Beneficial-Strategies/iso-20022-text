@@ -1,0 +1,18 @@
+{
+  "isoType": "BlockTrade1Code",
+  "language": "en",
+  "name": "Block Trade 1 Code",
+  "definition": "Specifies whether the instruction is the parent or a children of a block trade.",
+  "isoCodes": {
+    "BLPA": {
+      "isoName": "Parent",
+      "name": "Parent",
+      "definition": "Transaction is a block trade parent."
+    },
+    "BLCH": {
+      "isoName": "Child",
+      "name": "Child",
+      "definition": "Transaction is a block trade child."
+    }
+  }
+}

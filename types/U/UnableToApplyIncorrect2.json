@@ -1,0 +1,21 @@
+{
+  "isoType": "UnableToApplyIncorrect2",
+  "language": "en",
+  "name": "Unable To Apply Incorrect 2",
+  "definition": "Specifies the details of incorrect information.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies which data type is incorrect in the transaction."
+    },
+    "AdditionalIncorrectInformation": {
+      "name": "Additional Incorrect Information",
+      "definition": "Further details about the incorrect information."
+    }
+  },
+  "isoRules": {
+    "AdditionalIncorrectInformationRule": {
+      "definition": "If Code is equal to NARR (Narrative), then AdditionalIncorrectInformation must be present."
+    }
+  }
+}

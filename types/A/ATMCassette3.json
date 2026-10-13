@@ -1,0 +1,40 @@
+{
+  "isoType": "ATMCassette3",
+  "language": "en",
+  "name": "ATM Cassette 3",
+  "definition": "Information on the cassette of an ATM.",
+  "isoElements": {
+    "PhysicalIdentification": {
+      "name": "Physical Identification",
+      "definition": "Physical identification of the cassette for the ATM."
+    },
+    "LogicalIdentification": {
+      "name": "Logical Identification",
+      "definition": "Logical identification of the cassette for the ATM."
+    },
+    "SerialNumber": {
+      "name": "Serial Number",
+      "definition": "Serial number or unique identification of the cassette hardware."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of cassette."
+    },
+    "SubType": {
+      "name": "Sub Type",
+      "definition": "Type of items the cash-in takes."
+    },
+    "MediaType": {
+      "name": "Media Type",
+      "definition": "Type of media inside the cassette."
+    },
+    "MediaCounters": {
+      "name": "Media Counters",
+      "definition": "Counter per unit value or globally."
+    },
+    "CassetteStatus": {
+      "name": "Cassette Status",
+      "definition": "Status of the cassette. This element may not be provided if the status has not changed from the previous time the cassette information has been provided."
+    }
+  }
+}

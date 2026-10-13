@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMSecurityContext3",
+  "language": "en",
+  "name": "ATM Security Context 3",
+  "definition": "Context of the ATM for the key download.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "name": "Current Security Scheme",
+      "definition": "Key exchange security scheme in activation on the ATM for the host manager."
+    },
+    "DeviceProperty": {
+      "name": "Device Property",
+      "definition": "Hardware security module information, so called EPP for Encrypted PIN Pad."
+    },
+    "CurrentConfiguration": {
+      "name": "Current Configuration",
+      "definition": "Configuration parameters in use by the security device."
+    }
+  }
+}

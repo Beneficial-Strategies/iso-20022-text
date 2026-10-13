@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesOption79",
+  "language": "en",
+  "name": "Securities Option 79",
+  "definition": "Specifies securities quantities for corporate action instruction.",
+  "isoElements": {
+    "ConditionalQuantity": {
+      "name": "Conditional Quantity",
+      "definition": "Minimum quantity of securities to be accepted (used in the framework of conditional privilege on election). In case of proration, if this minimum quantity is not reached then the instruction is void."
+    },
+    "InstructedQuantity": {
+      "name": "Instructed Quantity",
+      "definition": "Quantity of securities to which this instruction applies."
+    },
+    "AdditionalRoundUpQuantity": {
+      "name": "Additional Round Up Quantity",
+      "definition": "Quantity of additional shares requested due to the difference of “round-up against payment” practice between the account servicer and the account holder (for instance for French dividend option)."
+    }
+  }
+}

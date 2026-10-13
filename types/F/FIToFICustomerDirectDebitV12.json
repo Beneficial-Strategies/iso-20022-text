@@ -1,0 +1,46 @@
+{
+  "isoType": "FIToFICustomerDirectDebitV12",
+  "language": "en",
+  "name": "FI To FI Customer Direct Debit V 12",
+  "definition": "Scope|The FinancialInstitutionToFinancialInstitutionCustomerDirectDebit message is sent by the creditor agent to the debtor agent, directly or through other agents and/or a payment clearing and settlement system.|It is used to collect funds from a debtor account for a creditor.|Usage|The FItoFICustomerDirectDebit message can contain one or more customer direct debit instructions.|The FIToFICustomerDirectDebit message does not allow for grouping.|The FItoFICustomerDirectDebit message may or may not contain mandate related information, that is extracts from a mandate, such as the MandateIdentification or DateOfSignature. The FIToFICustomerDirectDebit message must not be considered as a mandate.|The FItoFICustomerDirectDebit message can be used in domestic and cross-border scenarios.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "DirectDebitTransactionInformation": {
+      "name": "Direct Debit Transaction Information",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "InstructedAgentRule": {
+      "definition": "If GroupHeader/InstructedAgent is present, then DirectDebitTransactionInformation/InstructedAgent is not allowed."
+    },
+    "InstructingAgentRule": {
+      "definition": "If GroupHeader/InstructingAgent is present, then DirectDebitTransactionInformation/InstructingAgent is not allowed."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "If GroupHeader/TotalInterbankSettlementAmount is present, then all occurrences of DirectDebitTransactionInformation/InterbankSettlementAmount must have the same currency as the currency of GroupHeader/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "If GroupHeader/TotalInterbankSettlementAmount is present, then it must equal the sum of all occurrences of DirectDebitTransactionInformation/InterbankSettlementAmount."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "If GroupHeader/InterbankSettlementDate is present, then DirectDebitTransactionInformation/InterbankSettlementDate is not allowed."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "If GroupHeader/InterbankSettlementDate is not present, then DirectDebitTransactionInformation/InterbankSettlementDate must be present."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "If GroupHeader/PaymentTypeInformation is present, then DirectDebitTransactionInformation/PaymentTypeInformation is not allowed."
+    },
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}

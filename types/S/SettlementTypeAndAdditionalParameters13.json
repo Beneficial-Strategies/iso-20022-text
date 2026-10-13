@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters13",
+  "language": "en",
+  "name": "Settlement Type And Additional Parameters 13",
+  "definition": "Provides transaction type and identification information.",
+  "isoElements": {
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Identification assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "ReconciliationIndicator": {
+      "name": "Reconciliation Indicator",
+      "definition": "Indicates whether the settlement transaction was already sent on the market and that it is only sent by an account owner to an account servicer for reconciliation purposes."
+    }
+  }
+}

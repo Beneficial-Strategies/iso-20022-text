@@ -1,0 +1,60 @@
+{
+  "isoType": "SettlementDetails191",
+  "language": "en",
+  "name": "Settlement Details 191",
+  "definition": "Details of settlement of a transaction.",
+  "isoElements": {
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Indicates whether the transaction is on hold/blocked/frozen."
+    },
+    "SecuritiesTransactionType": {
+      "name": "Securities Transaction Type",
+      "definition": "Identifies the type of securities transaction."
+    },
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade is to be settled."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "BeneficialOwnership": {
+      "name": "Beneficial Ownership",
+      "definition": "Specifies whether there is change of beneficial ownership."
+    },
+    "CashClearingSystem": {
+      "name": "Cash Clearing System",
+      "definition": "Specifies the category of cash clearing system, for example, cheque clearing."
+    },
+    "MarketClientSide": {
+      "name": "Market Client Side",
+      "definition": "Specifies if an instruction is for a market side or a client side transaction."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Specifies whether registration should occur upon receipt."
+    },
+    "RepurchaseType": {
+      "name": "Repurchase Type",
+      "definition": "Specifies whether the rate is fixed, variable or a forfeit."
+    },
+    "SecuritiesRTGS": {
+      "name": "Securities RTGS",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "If SettlementDetails elements are used, then their conditions of use must be pre-agreed between account owner and account servicer."
+    },
+    "CashClearingSystemRule": {
+      "definition": "The CashSettlementSystem codes are to be used only by agents directly involved in the settlement process, such as local settlement agents, CSD's and central banks."
+    }
+  }
+}

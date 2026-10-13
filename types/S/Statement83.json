@@ -1,0 +1,36 @@
+{
+  "isoType": "Statement83",
+  "language": "en",
+  "name": "Statement 83",
+  "definition": "Characteristics of the statement.",
+  "isoElements": {
+    "StatementDateOrPeriod": {
+      "name": "Statement Date Or Period",
+      "definition": "Date or period of the statement."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the statement is complete or contains changes only."
+    },
+    "StatementBasis": {
+      "name": "Statement Basis",
+      "definition": "Type of balance on which the statement is prepared."
+    },
+    "StatementType": {
+      "name": "Statement Type",
+      "definition": "Type of balance on which the statement is prepared."
+    }
+  },
+  "isoRules": {
+    "StatementTypeRule": {
+      "definition": "If StatementType is used, then the statement requested must be a SecuritiesBalanceAccountingReport, a SecuritiesBalanceCustodyReport or a SecuritiesTransactionPostingReport."
+    },
+    "StatementBasisRule": {
+      "definition": "If StatementBasis is used, then the statement requested must be a SecuritiesBalanceAccountingReport or a SecuritiesBalanceCustodyReport."
+    }
+  }
+}

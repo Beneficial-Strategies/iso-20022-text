@@ -1,0 +1,193 @@
+{
+  "isoType": "UnmatchedStatusReason1Code",
+  "language": "en",
+  "name": "Unmatched Status Reason 1 Code",
+  "definition": "Specifies the reason the transaction/instruction is unmatched.",
+  "isoCodes": {
+    "CMIS": {
+      "isoName": "MatchingInstructionNotFound",
+      "name": "Matching Instruction Not Found",
+      "definition": "Matching instruction from the counterparty could not be found."
+    },
+    "DDAT": {
+      "isoName": "DisagreementSettlementDate",
+      "name": "Disagreement Settlement Date",
+      "definition": "Counterparty disagrees with the settlement date/time."
+    },
+    "DELN": {
+      "isoName": "DisagreementDirectionOfTrade",
+      "name": "Disagreement Direction Of Trade",
+      "definition": "Counterparty expects a delivery not a receipt, or counterparty expects a receipt not a delivery."
+    },
+    "DEPT": {
+      "isoName": "DisagreementPlaceOfSettlement",
+      "name": "Disagreement Place Of Settlement",
+      "definition": "Counterparty disagrees with the place of settlement."
+    },
+    "DMON": {
+      "isoName": "DisagreementSettlementAmount",
+      "name": "Disagreement Settlement Amount",
+      "definition": "Counterparty disagrees with the settlement amount."
+    },
+    "DDEA": {
+      "isoName": "DisagreementDealPrice",
+      "name": "Disagreement Deal Price",
+      "definition": "Counterparty disagrees with the deal price."
+    },
+    "DQUA": {
+      "isoName": "DisagreementQuantity",
+      "name": "Disagreement Quantity",
+      "definition": "Counterparty disagrees with the quantity of the financial instrument."
+    },
+    "CADE": {
+      "isoName": "DisagreementRepurchaseCallDelay",
+      "name": "Disagreement Repurchase Call Delay",
+      "definition": "Repurchase call delay does not match."
+    },
+    "SETR": {
+      "isoName": "DisagreementSettlementTransaction",
+      "name": "Disagreement Settlement Transaction",
+      "definition": "Settlement transaction type does not match."
+    },
+    "DSEC": {
+      "isoName": "DisagreementSecurity",
+      "name": "Disagreement Security",
+      "definition": "Counterparty disagrees with the security/issue, for example, ISIN or a financial instrument attribute differs."
+    },
+    "VASU": {
+      "isoName": "DisagreementVariableRateSupport",
+      "name": "Disagreement Variable Rate Support",
+      "definition": "Variable rate support does not match."
+    },
+    "DTRA": {
+      "isoName": "NotRecognised",
+      "name": "Not Recognised",
+      "definition": "Counterparty does not recognise the transaction."
+    },
+    "RSPR": {
+      "isoName": "DisagreementRepurchaseSpreadRate",
+      "name": "Disagreement Repurchase Spread Rate",
+      "definition": "Repurchase spread rate does not match."
+    },
+    "REPO": {
+      "isoName": "DisagreementRepurchaseRate",
+      "name": "Disagreement Repurchase Rate",
+      "definition": "Repurchase rate does not match."
+    },
+    "CLAT": {
+      "isoName": "CounterpartyTooLateForMatching",
+      "name": "Counterparty Too Late For Matching",
+      "definition": "Counterparty's instruction was too late."
+    },
+    "RERT": {
+      "isoName": "DisagreementRepurchaseRateType",
+      "name": "Disagreement Repurchase Rate Type",
+      "definition": "Repurchase rate type does not match."
+    },
+    "REPA": {
+      "isoName": "DisagreementRepurchaseAmount",
+      "name": "Disagreement Repurchase Amount",
+      "definition": "Repurchase amount does not match."
+    },
+    "REPP": {
+      "isoName": "DisagreementRepurchasePremiumAmount",
+      "name": "Disagreement Repurchase Premium Amount",
+      "definition": "Repurchase premium amount does not match."
+    },
+    "PHYS": {
+      "isoName": "DisagreementPhysicalSettlement",
+      "name": "Disagreement Physical Settlement",
+      "definition": "Counterparty's instructions is for physical settlement, and yours is not, or vice versa."
+    },
+    "IIND": {
+      "isoName": "DisagreementCommonReference",
+      "name": "Disagreement Common Reference",
+      "definition": "Counterparty disagrees with the common reference."
+    },
+    "FRAP": {
+      "isoName": "DisagreementPaymentCode",
+      "name": "Disagreement Payment Code",
+      "definition": "Counterparty's instructions is for free settlement, and yours is for settlement against payment, or vice versa."
+    },
+    "PLCE": {
+      "isoName": "DisagreementPlaceOfTrade",
+      "name": "Disagreement Place Of Trade",
+      "definition": "Place of trade does not match."
+    },
+    "PODU": {
+      "isoName": "PossibleDuplicateInstruction",
+      "name": "Possible Duplicate Instruction",
+      "definition": "Instruction is a possible duplicate."
+    },
+    "FORF": {
+      "isoName": "DisagreementForfeitRepurchaseamount",
+      "name": "Disagreement Forfeit Repurchaseamount",
+      "definition": "Repurchase forfeit amount does not match."
+    },
+    "REGD": {
+      "isoName": "DisagreementRegistrationDetails",
+      "name": "Disagreement Registration Details",
+      "definition": "Discrepancies exist in the registration details linked to the transaction."
+    },
+    "RTGS": {
+      "isoName": "DisagreementRTGSSystem",
+      "name": "Disagreement RTGS System",
+      "definition": "Counterparty indicates a settlement via RTGS system and you indicate non-RTGS settlement, or vice versa."
+    },
+    "ICAG": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Counterparty indicated an incorrect delivery or receiving agent."
+    },
+    "CPCA": {
+      "isoName": "CounterpartyCancelledInstruction",
+      "name": "Counterparty Cancelled Instruction",
+      "definition": "Counterparty has cancelled the transaction/instruction."
+    },
+    "CHAR": {
+      "isoName": "DisagreementChargesAmount",
+      "name": "Disagreement Charges Amount",
+      "definition": "Counterparty disagrees on the amount of charges."
+    },
+    "IEXE": {
+      "isoName": "IncorrectBuyerOrSeller",
+      "name": "Incorrect Buyer Or Seller",
+      "definition": "Instruction indicates an incorrect buyer (receiver) or seller (deliverer)."
+    },
+    "NCRR": {
+      "isoName": "DisagreementCurrencySettlementAmount",
+      "name": "Disagreement Currency Settlement Amount",
+      "definition": "Counterparty disagrees with the currency of the settlement amount."
+    },
+    "NMAS": {
+      "isoName": "NoMatchingStarted",
+      "name": "No Matching Started",
+      "definition": "Matching process has not yet started."
+    },
+    "SAFE": {
+      "isoName": "DisagreementSafekeepingAccount",
+      "name": "Disagreement Safekeeping Account",
+      "definition": "Safekeeping account used as a matching criteria on the market concerned does not match."
+    },
+    "DTRD": {
+      "isoName": "DisagreementTradeDate",
+      "name": "Disagreement Trade Date",
+      "definition": "Counterparty disagrees with the trade date."
+    },
+    "LATE": {
+      "isoName": "YourInstructionTooLateForMatching",
+      "name": "Your Instruction Too Late For Matching",
+      "definition": "Instruction received too late for matching."
+    },
+    "TERM": {
+      "isoName": "DisagreementClosingDateTime",
+      "name": "Disagreement Closing Date Time",
+      "definition": "Closing date/time does not match."
+    },
+    "ICUS": {
+      "isoName": "DisagreementReceivingOrDeliveringCustodian",
+      "name": "Disagreement Receiving Or Delivering Custodian",
+      "definition": "Incorrect delivering or receiving custodian."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "PartyType4Code",
+  "language": "en",
+  "name": "Party Type 4 Code",
+  "definition": "Entity assigning an identification (for example merchant, acceptor, acquirer, tax authority, etc.).",
+  "isoCodes": {
+    "MERC": {
+      "isoName": "Merchant",
+      "name": "Merchant",
+      "definition": "Merchant providing goods and service in the card payment transaction."
+    },
+    "ACCP": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Card acceptor, party accepting the card and presenting transaction data to the acquirer."
+    },
+    "ITAG": {
+      "isoName": "IntermediaryAgent",
+      "name": "Intermediary Agent",
+      "definition": "Party acting on behalf of other parties to process or forward data to other parties."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "TAXH": {
+      "isoName": "TaxAuthority",
+      "name": "Tax Authority",
+      "definition": "Tax authority."
+    }
+  }
+}

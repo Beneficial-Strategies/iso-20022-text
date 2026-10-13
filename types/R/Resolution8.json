@@ -1,0 +1,73 @@
+{
+  "isoType": "Resolution8",
+  "language": "en",
+  "name": "Resolution 8",
+  "definition": "Resolutions at the agenda of a meeting and type of resolution.",
+  "isoElements": {
+    "IssuerLabel": {
+      "name": "Issuer Label",
+      "definition": "Number of the resolution as specified by the issuer or its agent."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Language, title and textual description of an agenda resolution."
+    },
+    "ListingGroupResolutionLabel": {
+      "name": "Listing Group Resolution Label",
+      "definition": "Identifies under the same label a group of agenda resolutions for which a vote in favour can be assigned to only one resolution of that group."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of resolution."
+    },
+    "ForInformationOnly": {
+      "name": "For Information Only",
+      "definition": "Indicates whether the resolution is listed for information or for voting."
+    },
+    "VoteType": {
+      "name": "Vote Type",
+      "definition": "Impact of vote results on an agenda resolution."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies whether the resolution is active or withdrawn."
+    },
+    "SubmittedBySecurityHolder": {
+      "name": "Submitted By Security Holder",
+      "definition": "Indicates whether the resolution has been submitted by the security holder."
+    },
+    "RightToWithdrawIndicator": {
+      "name": "Right To Withdraw Indicator",
+      "definition": "Indicates whether a client who has not voted in favour of the resolutions which is finally approved, has the right to withdraw from a related corporate action event."
+    },
+    "VoteInstructionType": {
+      "name": "Vote Instruction Type",
+      "definition": "Vote options allowed at the resolution level. When specified, it supersedes the vote options given for the meeting."
+    },
+    "ManagementRecommendation": {
+      "name": "Management Recommendation",
+      "definition": "Specifies how the management of the issuing company wishes the security holders to vote."
+    },
+    "NotifyingPartyRecommendation": {
+      "name": "Notifying Party Recommendation",
+      "definition": "Specifies how the notifying party recommends that the security holders vote."
+    },
+    "Entitlement": {
+      "name": "Entitlement",
+      "definition": "Number of votes assigned per resolution to one security."
+    },
+    "VotingRightsThresholdForApproval": {
+      "name": "Voting Rights Threshold For Approval",
+      "definition": "Voting rights threshold and threshold basis to have a meeting resolution approved."
+    },
+    "URLAddress": {
+      "name": "URL Address",
+      "definition": "Address to use over the www (HTTP) service where specific additional information on meeting resolutions may be found."
+    }
+  },
+  "isoRules": {
+    "VotingRightsTresholdForApproval1Rule": {
+      "definition": "If VotingRightThresholdForApproval is present more than once, then ThresholdBasis is mandatory in each occurrence of VotingRightThresholdForApproval and the value of the ThresholdBasis/Code element must be different in each occurrence."
+    }
+  }
+}

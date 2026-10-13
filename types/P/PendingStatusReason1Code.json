@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingStatusReason1Code",
+  "language": "en",
+  "name": "Pending Status Reason 1 Code",
+  "definition": "Specifies the reason for a pending status.",
+  "isoCodes": {
+    "KYCM": {
+      "isoName": "KnowYourCustomerDocumentMissing",
+      "name": "Know Your Customer Document Missing",
+      "definition": "Know Your Customer (KYC) document is missing."
+    },
+    "FRDM": {
+      "isoName": "FATCAReportingDateMissing",
+      "name": "FATCA Reporting Date Missing",
+      "definition": "FATCA reporting date is missing."
+    },
+    "RIGH": {
+      "isoName": "RightsHolderMissing",
+      "name": "Rights Holder Missing",
+      "definition": "Rights holder information is missing."
+    },
+    "ATHR": {
+      "isoName": "Authorisation",
+      "name": "Authorisation",
+      "definition": "Authorisation is required."
+    },
+    "ATHP": {
+      "isoName": "AuthorisedButPending",
+      "name": "Authorised But Pending",
+      "definition": "Authorisation is provided but the account change is still pending."
+    },
+    "MODI": {
+      "isoName": "ModificationInProcess",
+      "name": "Modification In Process",
+      "definition": "Modification to the account data is in process."
+    }
+  }
+}

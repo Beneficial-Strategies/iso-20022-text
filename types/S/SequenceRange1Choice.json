@@ -1,0 +1,28 @@
+{
+  "isoType": "SequenceRange1Choice",
+  "language": "en",
+  "name": "Sequence Range 1 Choice",
+  "definition": "Specifies a choice of sequences.",
+  "isoElements": {
+    "FromSequence": {
+      "name": "From Sequence",
+      "definition": "Start sequence of the range."
+    },
+    "ToSequence": {
+      "name": "To Sequence",
+      "definition": "End sequence of the range."
+    },
+    "FromToSequence": {
+      "name": "From To Sequence",
+      "definition": "Particular sequence range specified between a start sequence and an end sequence."
+    },
+    "EqualSequence": {
+      "name": "Equal Sequence",
+      "definition": "Specified sequence to match."
+    },
+    "NotEqualSequence": {
+      "name": "Not Equal Sequence",
+      "definition": "Specified sequence to be excluded."
+    }
+  }
+}

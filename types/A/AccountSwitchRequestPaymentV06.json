@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountSwitchRequestPaymentV06",
+  "language": "en",
+  "name": "Account Switch Request Payment V 06",
+  "definition": "The AccountSwitchRequestPayment message is sent by the old account servicer to the new account servicer after the completion of the account switch to request the transfer of funds for a payment that the previous account servicer has had to make from the old account (for example: the settlement of a card transaction that was authorised offline).",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "CreditInstruction": {
+      "name": "Credit Instruction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

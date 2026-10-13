@@ -1,0 +1,53 @@
+{
+  "isoType": "TerminalManagementActionResult2Code",
+  "language": "en",
+  "name": "Terminal Management Action Result 2 Code",
+  "definition": "Final result of the processed command at the ATM.",
+  "isoCodes": {
+    "CNTE": {
+      "isoName": "ConnectionError",
+      "name": "Connection Error",
+      "definition": "Problem to connect while performing the action."
+    },
+    "FMTE": {
+      "isoName": "FormatError",
+      "name": "Format Error",
+      "definition": "Data transferred has a wrong format."
+    },
+    "HRDW": {
+      "isoName": "Hardware",
+      "name": "Hardware",
+      "definition": "Hardware error."
+    },
+    "NSUP": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "Action is not supported."
+    },
+    "SECR": {
+      "isoName": "Security",
+      "name": "Security",
+      "definition": "Security error."
+    },
+    "SUCC": {
+      "isoName": "Success",
+      "name": "Success",
+      "definition": "Action was successfully performed."
+    },
+    "SYNE": {
+      "isoName": "SyntaxError",
+      "name": "Syntax Error",
+      "definition": "Data transferred has a wrong syntax."
+    },
+    "TIMO": {
+      "isoName": "Timeout",
+      "name": "Timeout",
+      "definition": "Timeout expired during the data transfer."
+    },
+    "UKRF": {
+      "isoName": "UnknownKeyReference",
+      "name": "Unknown Key Reference",
+      "definition": "Cryptographic key reference used for the data signature is not valid."
+    }
+  }
+}

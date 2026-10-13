@@ -1,0 +1,28 @@
+{
+  "isoType": "RequestIdentificationAndStatus1",
+  "language": "en",
+  "name": "Request Identification And Status 1",
+  "definition": "Original request details and status.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Provides information on the original message."
+    },
+    "OriginalRequestIdentification": {
+      "name": "Original Request Identification",
+      "definition": "Identification of the original CashDepositRequest or CashWithdrawalRequest or CashDepositOrWithdrawalCancellationRequest."
+    },
+    "RequestHandling": {
+      "name": "Request Handling",
+      "definition": "Provides the status of the request."
+    },
+    "CashDepositValidation": {
+      "name": "Cash Deposit Validation",
+      "definition": "Confirmation of how the cash receiver has validated the cash deposit."
+    },
+    "CashWithdrawalConfirmation": {
+      "name": "Cash Withdrawal Confirmation",
+      "definition": "Confirmation of the note and cash denominations used by the cash sender for the cash withdrawal."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "Authorisation1Code",
+  "language": "en",
+  "name": "Authorisation 1 Code",
+  "definition": "Specifies the level of approval depending on a number of factors, including payment type, threshold amount or local country or operations practice.",
+  "isoCodes": {
+    "AUTH": {
+      "isoName": "PreAuthorisedFile",
+      "name": "Pre Authorised File",
+      "definition": "Indicates a file has been pre authorised or approved within the originating customer environment and no further approval is required."
+    },
+    "FDET": {
+      "isoName": "FileLevelAuthorisationDetails",
+      "name": "File Level Authorisation Details",
+      "definition": "Indicates that a file requires additional file level approval, with the ability to view both the payment information block and supporting customer credit transaction detail."
+    },
+    "FSUM": {
+      "isoName": "FileLevelAuthorisationSummary",
+      "name": "File Level Authorisation Summary",
+      "definition": "Indicates that a file requires additional file level approval, with the ability to view only the payment information block level information."
+    },
+    "ILEV": {
+      "isoName": "InstructionLevelAuthorisation",
+      "name": "Instruction Level Authorisation",
+      "definition": "Indicates that a file requires all customer transactions to be authorised or approved."
+    }
+  }
+}

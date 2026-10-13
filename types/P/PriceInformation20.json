@@ -1,0 +1,33 @@
+{
+  "isoType": "PriceInformation20",
+  "language": "en",
+  "name": "Price Information 20",
+  "definition": "Amount of money for which goods or services are offered, sold, or bought.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of price and information about the price."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Value of the price, for example, as a currency and value."
+    },
+    "ValueType": {
+      "name": "Value Type",
+      "definition": "Type of value in which the price is expressed."
+    },
+    "SourceOfPrice": {
+      "name": "Source Of Price",
+      "definition": "Place from which the price was obtained."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date on which the price is obtained. With an investment fund, this is as stated in the prospectus."
+    }
+  },
+  "isoRules": {
+    "ValueRule": {
+      "definition": "If TypeOfPriceCode is not MRKT, then Value  may not be expressed with UnknownIndicator."
+    }
+  }
+}

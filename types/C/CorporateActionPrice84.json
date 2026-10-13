@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPrice84",
+  "language": "en",
+  "name": "Corporate Action Price 84",
+  "definition": "Specifies prices.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "name": "Cash In Lieu Of Share Price",
+      "definition": "Cash disbursement in lieu of equities; usually in lieu of fractional quantity."
+    },
+    "OverSubscriptionDepositPrice": {
+      "name": "Over Subscription Deposit Price",
+      "definition": "Amount of money required per over-subscribed equity as defined by the issuer."
+    }
+  },
+  "isoRules": {
+    "GenericCashPriceReceivedPerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct is the price received in the course of an event. The specific meaning (redemption price, subscription price, reinvestment price, ETC.) is derived from the event type."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "ModificationProcessingStatus12Choice",
+  "language": "en",
+  "name": "Modification Processing Status 12 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Modification is pending processing."
+    },
+    "Denied": {
+      "name": "Denied",
+      "definition": "Modification request will not be executed."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Modification request has been rejected for further processing."
+    },
+    "Repaired": {
+      "name": "Repaired",
+      "definition": "Modification request is accepted but in repair."
+    },
+    "Modified": {
+      "name": "Modified",
+      "definition": "Instruction has been modified."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary status."
+    }
+  }
+}

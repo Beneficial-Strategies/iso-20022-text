@@ -1,0 +1,16 @@
+{
+  "isoType": "GeneralBusinessOrError7Choice",
+  "language": "en",
+  "name": "General Business Or Error 7 Choice",
+  "definition": "It is used to provide some or all of the members with information related to the processing of the system.",
+  "isoElements": {
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    },
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Reports either on the business information or on a business error."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "PaginationBalance1",
+  "language": "en",
+  "name": "Pagination Balance 1",
+  "definition": "Balance of a financial instrument for a specific statement page.",
+  "isoElements": {
+    "FirstOpeningBalance": {
+      "name": "First Opening Balance",
+      "definition": "Opening balance of the financial instrument in the statement."
+    },
+    "IntermediaryOpeningBalance": {
+      "name": "Intermediary Opening Balance",
+      "definition": "Opening balance of this page only. It must be the interemdiary closing balance of the previous page (part of the same statement)."
+    },
+    "FinalClosingBalance": {
+      "name": "Final Closing Balance",
+      "definition": "Closing balance of the financial instrument in the statement."
+    },
+    "IntermediaryClosingBalance": {
+      "name": "Intermediary Closing Balance",
+      "definition": "Closing Balance of this page only. Must be the interemdiary opening balance of the next page (part of the same statement)."
+    }
+  },
+  "isoRules": {
+    "FirstOpeningBalanceOrIntermediaryOpeningBalanceRule": {
+      "definition": "Either FirstOpeningBalance or IntermediaryOpeningBalance may be present, but not both."
+    },
+    "FinalClosingBalanceOrIntermediaryClosingBalanceRule": {
+      "definition": "Either FinalClosingBalance or IntermediaryClosingBalance may be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "DeniedReason6Code",
+  "language": "en",
+  "name": "Denied Reason 6 Code",
+  "definition": "Specifies the denied reason.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline."
+    },
+    "CDCY": {
+      "isoName": "ConditionalCurrency",
+      "name": "Conditional Currency",
+      "definition": "Execution is denied due to a process linked to the currency of the transaction."
+    },
+    "CDRE": {
+      "isoName": "ConditionalRealignement",
+      "name": "Conditional Realignement",
+      "definition": "Execution is denied due to the execution of a process of realignment at the issuer CSD."
+    },
+    "DCAN": {
+      "isoName": "DeniedSinceCancelled",
+      "name": "Denied Since Cancelled",
+      "definition": "Request was denied since the instruction has been cancelled."
+    },
+    "DSET": {
+      "isoName": "DeniedSinceSettled",
+      "name": "Denied Since Settled",
+      "definition": "Request was denied because the instruction was settled."
+    },
+    "DPRG": {
+      "isoName": "DeniedSinceInProgress",
+      "name": "Denied Since In Progress",
+      "definition": "Request was denied because the process of settlement is in progress."
+    },
+    "DREP": {
+      "isoName": "DeniedSinceRepoEnded",
+      "name": "Denied Since Repo Ended",
+      "definition": "Request was denied because the repo was cancelled."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "CDRG": {
+      "isoName": "ConditionalRegistrar",
+      "name": "Conditional Registrar",
+      "definition": "Execution is denied due to the execution of a process at the registrar."
+    }
+  }
+}

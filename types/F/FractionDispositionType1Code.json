@@ -1,0 +1,38 @@
+{
+  "isoType": "FractionDispositionType1Code",
+  "language": "en",
+  "name": "Fraction Disposition Type 1 Code",
+  "definition": "Specifies how fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate.",
+  "isoCodes": {
+    "BUYU": {
+      "isoName": "BuyUp",
+      "name": "Buy Up",
+      "definition": "Buy securities up to next whole number."
+    },
+    "CINL": {
+      "isoName": "CashInLieuOfFraction",
+      "name": "Cash In Lieu Of Fraction",
+      "definition": "Fractional part of cash. Take cash in lieu of fractions."
+    },
+    "DIST": {
+      "isoName": "IssueFraction",
+      "name": "Issue Fraction",
+      "definition": "Take distribution of fractions in the form of securities."
+    },
+    "RDDN": {
+      "isoName": "RoundDown",
+      "name": "Round Down",
+      "definition": "Round down to the nearest whole number."
+    },
+    "RDUP": {
+      "isoName": "RoundUp",
+      "name": "Round Up",
+      "definition": "Round up to the nearest whole number."
+    },
+    "STAN": {
+      "isoName": "RoundToNearest",
+      "name": "Round To Nearest",
+      "definition": "If the fraction is greater than or equal to 0.5 of the resulting security then round up, else round down."
+    }
+  }
+}

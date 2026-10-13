@@ -1,0 +1,578 @@
+{
+  "isoType": "ExternalLocalInstrument1Code",
+  "language": "en",
+  "name": "External Local Instrument 1 Code",
+  "definition": "Specifies the external local instrument code in the format of character string with a maximum length of 35 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "19": {
+      "isoName": "BusinessToCustomerDirectDebit",
+      "name": "Business To Customer Direct Debit",
+      "definition": "Transaction is related to a business-to-customer direct debit (CSB19)."
+    },
+    "58": {
+      "isoName": "BusinessToBusinessDirectDebit",
+      "name": "Business To Business Direct Debit",
+      "definition": "Transaction is related to a business-to-business direct debit (CSB58)."
+    },
+    "60": {
+      "isoName": "RecoveredBillofExchangeorPromissoryNote",
+      "name": "Recovered Billof Exchangeor Promissory Note",
+      "definition": "LCR - Lettre de Change Relevé (Recovered Bill of Exchange) and BOR - Billet à Orde Relevé (Promissory Note)"
+    },
+    "82": {
+      "isoName": "NonPreauthorisedDirectDebitAT",
+      "name": "Non Preauthorised Direct Debit AT",
+      "definition": "Transaction is related to a direct debit that is not pre authorised (Einzugsermächtigung)."
+    },
+    "83": {
+      "isoName": "PreauthorisedDirectDebitAT",
+      "name": "Preauthorised Direct Debit AT",
+      "definition": "Transaction is related to a direct debit that is pre authorised (Abbuchungsauftrag)."
+    },
+    "85": {
+      "isoName": "PreauthorisedDirectDebitAccéléréAcceleratedClearing2DayOrdinaireNormalClearing4Day",
+      "name": "Preauthorised Direct Debit AccéléréAccelerated Clearing 2 Day Ordinaire Normal Clearing 4 Day",
+      "definition": "Transaction is related to an urgent direct debit that is pre authorised (Avis de Prélèvement accéléré)."
+    },
+    "89": {
+      "isoName": "PreauthorisedDirectDebitVérifiéVerifiedClearing",
+      "name": "Preauthorised Direct Debit VérifiéVerified Clearing",
+      "definition": "Transaction is related to an urgent direct debit that is pre authorised (Avis de Prélèvement vérifié)."
+    },
+    "0090": {
+      "isoName": "MassPaymentBeneficiary",
+      "name": "Mass Payment Beneficiary",
+      "definition": "Transaction is related to mass payment beneficiary."
+    },
+    "0091": {
+      "isoName": "MassPaymentOurs",
+      "name": "Mass Payment Ours",
+      "definition": "Transaction is related to mass payment ours."
+    },
+    "0092": {
+      "isoName": "MassPaymentShared",
+      "name": "Mass Payment Shared",
+      "definition": "Transaction is related to mass payment shared."
+    },
+    "0002": {
+      "isoName": "StandingOrder",
+      "name": "Standing Order",
+      "definition": "Transaction is related to standing order."
+    },
+    "0221": {
+      "isoName": "OneOffAuthorisation",
+      "name": "One Off Authorisation",
+      "definition": "Transaction is related to one-off authorisation."
+    },
+    "0224": {
+      "isoName": "OneOffAuthorisationCharities",
+      "name": "One Off Authorisation Charities",
+      "definition": "Transaction is related to one-off authorisation charities."
+    },
+    "0226": {
+      "isoName": "OneOffAuthorisationConstructionIndustry",
+      "name": "One Off Authorisation Construction Industry",
+      "definition": "Transaction is related to one-off authorisation construction industry."
+    },
+    "0225": {
+      "isoName": "OneOffAuthorisationTuitionFees",
+      "name": "One Off Authorisation Tuition Fees",
+      "definition": "Transaction is related to one-off authorisation tuition fees."
+    },
+    "0222": {
+      "isoName": "StandingAuthorisationCompanies",
+      "name": "Standing Authorisation Companies",
+      "definition": "Transaction is related to standing authorisation companies."
+    },
+    "0227": {
+      "isoName": "StandingAuthorisationCompaniesWithoutDebtorRevocationRight",
+      "name": "Standing Authorisation Companies Without Debtor Revocation Right",
+      "definition": "Transaction is related to standing authorisation companies without debtor revocation right."
+    },
+    "0220": {
+      "isoName": "StandingAuthorisationGeneral",
+      "name": "Standing Authorisation General",
+      "definition": "Transaction is related to standing authorisation general."
+    },
+    "0223": {
+      "isoName": "StandingAuthorisationLotteries",
+      "name": "Standing Authorisation Lotteries",
+      "definition": "Transaction is related to standing authorisation lotteries."
+    },
+    "0001": {
+      "isoName": "ConvertedBankPayment",
+      "name": "Converted Bank Payment",
+      "definition": "Transaction is related to converted (bank) payment.|Conversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process.The instrument rules change upon conversion."
+    },
+    "0000": {
+      "isoName": "BusinessPayment",
+      "name": "Business Payment",
+      "definition": "Transaction is related to business payment"
+    },
+    "BTR": {
+      "isoName": "BankTransfer",
+      "name": "Bank Transfer",
+      "definition": "Transaction is related to a bank transfer."
+    },
+    "CKS": {
+      "isoName": "CheckSameDaySettlementWire",
+      "name": "Check Same Day Settlement Wire",
+      "definition": "Transaction is related to check same day settlement wire."
+    },
+    "CTR": {
+      "isoName": "CustomerTransfer",
+      "name": "Customer Transfer",
+      "definition": "Transaction is related to customer transfer."
+    },
+    "CTP": {
+      "isoName": "CustomerTransferPlus",
+      "name": "Customer Transfer Plus",
+      "definition": "Transaction is related to a customer transfer, which may include information related to a cover payment or extended remittance information."
+    },
+    "DEP": {
+      "isoName": "DepositToSendersAccount",
+      "name": "Deposit To Senders Account",
+      "definition": "Transaction is related to deposit to sender's account."
+    },
+    "FFR": {
+      "isoName": "FedFundsReturned",
+      "name": "Fed Funds Returned",
+      "definition": "Transaction is related to Fed funds returned."
+    },
+    "FFS": {
+      "isoName": "FedFundsSold",
+      "name": "Fed Funds Sold",
+      "definition": "Transaction is related to Fed funds sold."
+    },
+    "SVC": {
+      "isoName": "NonValueServiceMessage",
+      "name": "Non Value Service Message",
+      "definition": "Transaction is related to non-value service message."
+    },
+    "DRW": {
+      "isoName": "DrawdownResponseValueToHonorADrawdownRequest",
+      "name": "Drawdown Response Value To Honor A Drawdown Request",
+      "definition": "Transaction is related to drawdown response (value) to honor a drawdown request."
+    },
+    "DRB": {
+      "isoName": "BankToBankDrawdownRequestOrResponseNonvalue",
+      "name": "Bank To Bank Drawdown Request Or Response Nonvalue",
+      "definition": "Transaction is related to bank-to-bank drawdown request or response (non-value)"
+    },
+    "DRC": {
+      "isoName": "CustomerOrCorporateDrawdownRequestOrResponseNonvalue",
+      "name": "Customer Or Corporate Drawdown Request Or Response Nonvalue",
+      "definition": "Transaction is related to customer or corporate drawdown request or response (non-value)."
+    },
+    "DDMC": {
+      "isoName": "DirectDebitConfirmedElectronicMandate",
+      "name": "Direct Debit Confirmed Electronic Mandate",
+      "definition": "Transaction is related to a direct debit instruction authorized under a confirmed electronic mandate."
+    },
+    "DDMP": {
+      "isoName": "DirectDebitPaperMandateWithPaperAuthorization",
+      "name": "Direct Debit Paper Mandate With Paper Authorization",
+      "definition": "Transaction is related to a direct debit instruction authorized under a paper based mandate, supported by paper authorization signed by the debtor."
+    },
+    "DDMU": {
+      "isoName": "DirectDebitUnconfirmedElectronicMandate",
+      "name": "Direct Debit Unconfirmed Electronic Mandate",
+      "definition": "Transaction is related to a direct debit instruction authorized under an unconfirmed electronic mandate requiring confirmation by the debtor."
+    },
+    "BPA": {
+      "isoName": "BatchPaymentsAruba",
+      "name": "Batch Payments Aruba",
+      "definition": "Transaction is related to an Instant Credit Transfer under the rules of the Centrale Bank van Aruba, based on the EPC SCT Inst scheme, with a specific batch time-out delay."
+    },
+    "IPA": {
+      "isoName": "InstantPaymentsAruba",
+      "name": "Instant Payments Aruba",
+      "definition": "Transaction is related to an Instant Credit Transfer under the rules of the Centrale Bank van Aruba, based on the EPC SCT Inst scheme."
+    },
+    "TRF": {
+      "isoName": "CreditTransfers",
+      "name": "Credit Transfers",
+      "definition": "Transaction is related to credit transfers"
+    },
+    "CPP": {
+      "isoName": "CashPerPost",
+      "name": "Cash Per Post",
+      "definition": "Transaction is related to cash per post.|Transaction to ultimate recipient having no bank account. Primary beneficiary is a postal service provider. Funds are paid out by cash. Additional necessary information for address and delivery options need to be attached."
+    },
+    "RTR": {
+      "isoName": "ReturnedCreditTransfers",
+      "name": "Returned Credit Transfers",
+      "definition": "Transaction is related to returned credit transfers."
+    },
+    "GST": {
+      "isoName": "TruncatedCreditTransfers",
+      "name": "Truncated Credit Transfers",
+      "definition": "Transaction is related to truncated credit transfers.|Conversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process..The original instrument rules are retained throughout the life of the instrument.|Transaction triggered by specific marked and populated paper slip.|Reconciliation reference is secured by check digits supporting secure optical recognition. All other remittance information is truncated prior transmission."
+    },
+    "DDT": {
+      "isoName": "DirectDebits",
+      "name": "Direct Debits",
+      "definition": "Transaction is related to direct debits."
+    },
+    "RDD": {
+      "isoName": "ReturnedDirectDebits",
+      "name": "Returned Direct Debits",
+      "definition": "Transaction is related to returned direct debits."
+    },
+    "CHN": {
+      "isoName": "TruncatedChecks",
+      "name": "Truncated Checks",
+      "definition": "Transaction is related to truncated checks.|Conversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process..The original instrument rules are retained throughout the life of the instrument."
+    },
+    "STR": {
+      "isoName": "RevokedCreditTransfers",
+      "name": "Revoked Credit Transfers",
+      "definition": "Transaction is related to revoked credit transfers"
+    },
+    "SDD": {
+      "isoName": "RevokedDirectDebits",
+      "name": "Revoked Direct Debits",
+      "definition": "Transaction is related to revoked direct debits."
+    },
+    "SRT": {
+      "isoName": "RevokedReturnedCreditTransfers",
+      "name": "Revoked Returned Credit Transfers",
+      "definition": "Transaction is related to revoked returned credit transfers"
+    },
+    "SRD": {
+      "isoName": "RevokedReturnedDirectDebits",
+      "name": "Revoked Returned Direct Debits",
+      "definition": "Transaction is related to revoked returned direct debits."
+    },
+    "SCN": {
+      "isoName": "RevokedTruncatedChecks",
+      "name": "Revoked Truncated Checks",
+      "definition": "Transaction is related to revoked truncated checks."
+    },
+    "SGT": {
+      "isoName": "RevokedTruncatedCreditTransfers",
+      "name": "Revoked Truncated Credit Transfers",
+      "definition": "Transaction is related to revoked truncated credit transfers."
+    },
+    "CARD": {
+      "isoName": "CardClearing",
+      "name": "Card Clearing",
+      "definition": "Transaction is related to card clearing."
+    },
+    "05": {
+      "isoName": "NonPreauthorisedDirectDebitDE",
+      "name": "Non Preauthorised Direct Debit DE",
+      "definition": "Transaction is related to a direct debit that is not pre authorised (Einzugsermächtigung)."
+    },
+    "04": {
+      "isoName": "PreauthorisedDirectDebitDE",
+      "name": "Preauthorised Direct Debit DE",
+      "definition": "Transaction is related to a direct debit that is pre authorised (Abbuchungsauftrag)."
+    },
+    "ISE": {
+      "isoName": "ImageBasedChequeCollection",
+      "name": "Image Based Cheque Collection",
+      "definition": "Transaction is related to the German Image-based Cheque Collection Procedure “Imagegestützter Scheckeinzug - ISE”"
+    },
+    "BSE": {
+      "isoName": "PaperlessChequeCollection",
+      "name": "Paperless Cheque Collection",
+      "definition": "Transaction is related to the German Paperless Cheque Collection procedure “Belegloser Scheckeinzug - BSE”"
+    },
+    "ASTI": {
+      "isoName": "AncillarySystemTransferInitiation",
+      "name": "Ancillary System Transfer Initiation",
+      "definition": "Indicates that the payment is sent by an authorized third party on behalf of the participant."
+    },
+    "BACP": {
+      "isoName": "BackupPayment",
+      "name": "Backup Payment",
+      "definition": "Indicates that the payment was initiated manually using a GUI (Graphical User Interface)."
+    },
+    "MANP": {
+      "isoName": "MandatedPayment",
+      "name": "Mandated Payment",
+      "definition": "Indicates that the payment is sent by responsible Central Bank on behalf of the participant in case of contingency."
+    },
+    "SBTI": {
+      "isoName": "SettlementBankTransferInitiation",
+      "name": "Settlement Bank Transfer Initiation",
+      "definition": "Indicates that the payment is submitted to move  liquidity to the technical account - dedicated to real-time settlement in an external system (for example ancillary system) . The payment is processed in a separate payment queue besides the normal processing."
+    },
+    "08": {
+      "isoName": "PreauthorisedDirectDebitOrdinaireNormalClearing4Day",
+      "name": "Preauthorised Direct Debit Ordinaire Normal Clearing 4 Day",
+      "definition": "Transaction is related to a direct debit that is pre authorised (Avis de Prélèvement)."
+    },
+    "RIBA": {
+      "isoName": "NonPreauthorisedDirectDebitRIBA",
+      "name": "Non Preauthorised Direct Debit RIBA",
+      "definition": "Transaction is related to a non-pre authorised collection (RIBA)."
+    },
+    "RIDO": {
+      "isoName": "PreauthorisedRevocableDirectDebit",
+      "name": "Preauthorised Revocable Direct Debit",
+      "definition": "Transaction is related to a direct debit that is pre authorised and revocable (RID Ordinario)."
+    },
+    "RIDV": {
+      "isoName": "PreauthorisedRevocableUrgentDirectDebit",
+      "name": "Preauthorised Revocable Urgent Direct Debit",
+      "definition": "Transaction is related to an urgent direct debit that is pre authorised and revocable (RID Veloce)."
+    },
+    "IDEAL": {
+      "isoName": "PaymentsViaInternetOwnedByCurrence",
+      "name": "Payments Via Internet Owned By Currence",
+      "definition": "Transaction is related to payments via internet owned by Currence."
+    },
+    "INSTNT01": {
+      "isoName": "InstantCreditTransferNotTimeCritical",
+      "name": "Instant Credit Transfer Not Time Critical",
+      "definition": "The transaction is related to a regular  Credit Transfer and will be instantly processed under the Dutch AOS on top of the EPC SCT scheme."
+    },
+    "INSTTC01": {
+      "isoName": "InstantCreditTransferTimeCritical",
+      "name": "Instant Credit Transfer Time Critical",
+      "definition": "The transaction is related to an Instant Credit Transfer under the rules of the Dutch AOS on top of the EPC SCT Inst scheme."
+    },
+    "INSTIDEAL": {
+      "isoName": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransfer",
+      "name": "Payments Via Internet Owned By Currence Using Instant Credit Transfer",
+      "definition": "Transaction is related to payments via internet owned by Currence which uses an Instant Credit Transfer."
+    },
+    "INSTNT01IDEAL": {
+      "isoName": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransferNotTimeCritical",
+      "name": "Payments Via Internet Owned By Currence Using Instant Credit Transfer Not Time Critical",
+      "definition": "Transaction is related to payments via internet owned by Currence which uses a regular  Credit Transfer and will be instantly processed under the Dutch AOS on top of the EPC SCT scheme."
+    },
+    "INSTTC01IDEAL": {
+      "isoName": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransferTimeCritical",
+      "name": "Payments Via Internet Owned By Currence Using Instant Credit Transfer Time Critical",
+      "definition": "Transaction is related to payments via internet owned by Currence which uses an Instant Credit Transfer under the rules of the Dutch AOS on top of the EPC SCT Inst scheme."
+    },
+    "NLDO": {
+      "isoName": "DutchDomesticBulkPayment",
+      "name": "Dutch Domestic Bulk Payment",
+      "definition": "Transaction is related to a Domestic payment initiated by PAIN.001"
+    },
+    "NLUP": {
+      "isoName": "DutchUrgentPayment",
+      "name": "Dutch Urgent Payment",
+      "definition": "Transaction is related to a Domestic payment initiated by PAIN.001"
+    },
+    "SDN": {
+      "isoName": "PaymentsViaStandaardDigitaleNota",
+      "name": "Payments Via Standaard Digitale Nota",
+      "definition": "Transaction is related to payments via a ‘Standaard Digitale Nota’ InvoiceAcceptgiro payment."
+    },
+    "ACCEPT": {
+      "isoName": "PaymentViaAcceptgiroOwnedByCurrence",
+      "name": "Payment Via Acceptgiro Owned By Currence",
+      "definition": "Transaction is related to payments via Acceptgiro owned by Currence."
+    },
+    "ICMC": {
+      "isoName": "IncidentManagementCorrection",
+      "name": "Incident Management Correction",
+      "definition": "Transaction is related to an Incident Management Correction procedure based on the DD infrastructure."
+    },
+    "NLGOV": {
+      "isoName": "DirectDebitInitiatedByTheGovernmentWithSpecialConditions",
+      "name": "Direct Debit Initiated By The Government With Special Conditions",
+      "definition": "Transaction is related to direct debit scheme owned by the NVB."
+    },
+    "IN": {
+      "isoName": "CrossBorderCustomerCreditTransfer",
+      "name": "Cross Border Customer Credit Transfer",
+      "definition": "Transaction is related to cross border customer credit transfer."
+    },
+    "ONCL": {
+      "isoName": "Overnight",
+      "name": "Overnight",
+      "definition": "Transaction is related to overnight clearing."
+    },
+    "PERI": {
+      "isoName": "PaymentWithERI",
+      "name": "Payment With ERI",
+      "definition": "Credit transfer contains Extended Remittance Information (ERI) as defined within the applicable scheme."
+    },
+    "SDCL": {
+      "isoName": "SameDayClearedPayments",
+      "name": "Same Day Cleared Payments",
+      "definition": "Transaction is related to New Zealand High Value Clearing System (HVCS) same day clearing payments."
+    },
+    "DDNR": {
+      "isoName": "CoreNoRefund",
+      "name": "Core No Refund",
+      "definition": "SEPA Core Direct Debit with ‘no refund’ option"
+    },
+    "DDFA": {
+      "isoName": "DirectDebitFixedAmount",
+      "name": "Direct Debit Fixed Amount",
+      "definition": "SEPA Fixed Amount Direct Debit"
+    },
+    "CORE": {
+      "isoName": "SEPADirectDebitCore",
+      "name": "SEPA Direct Debit Core",
+      "definition": "Transaction is related to SEPA direct debit -core."
+    },
+    "B2BAMIPM": {
+      "isoName": "SEPAB2BDirectDebitAMI",
+      "name": "SEPAB 2 B Direct Debit AMI",
+      "definition": "SEPA B2B Direct Debit AMI based on a paper mandate"
+    },
+    "B2B": {
+      "isoName": "SEPABusinessToBusinessDirectDebit",
+      "name": "SEPA Business To Business Direct Debit",
+      "definition": "Transaction is related to SEPA business to business direct debit."
+    },
+    "CR1AMIPM": {
+      "isoName": "SEPACoreD1DirectDebitAMI",
+      "name": "SEPA Core D 1 Direct Debit AMI",
+      "definition": "Optional shorter time cycle (D-1) for SEPA Core Direct Debit AMI based on a paper mandate"
+    },
+    "CORAMIPM": {
+      "isoName": "SEPACoreDirectDebitAMI",
+      "name": "SEPA Core Direct Debit AMI",
+      "definition": "SEPA Core Direct Debit AMI based on a paper mandate"
+    },
+    "COR1": {
+      "isoName": "SEPADirectDebit1DaySettlement",
+      "name": "SEPA Direct Debit 1 Day Settlement",
+      "definition": "Optional shorter time cycle (D-1) for SEPA Core Direct Debit"
+    },
+    "FADAMIPM": {
+      "isoName": "SEPAFADirectDebitAMI",
+      "name": "SEPAFA Direct Debit AMI",
+      "definition": "SEPA Fixed Amount Direct Debit AMI based on a paper mandate"
+    },
+    "CLSCCPERX": {
+      "isoName": "CLSClearedFXForEurex",
+      "name": "CLS Cleared FX For Eurex",
+      "definition": "Transaction is related to the CLSClearedFX service for Eurex.  |Usage: The code is mandatory for all pacs.009 payments to this service."
+    },
+    "CLSCCPLCH": {
+      "isoName": "CLSClearedFXForLCH",
+      "name": "CLS Cleared FX For LCH",
+      "definition": "Transaction is related to the CLSClearedFX service for London Exchange Clearing House. |Usage: The code is mandatory for all pacs.009 payments to this service."
+    },
+    "INST": {
+      "isoName": "InstantCreditTransfer",
+      "name": "Instant Credit Transfer",
+      "definition": "Transaction is related to an Instant Credit Transfer.|Use case example: SEPA Instant Credit Transfer (SCT Inst)"
+    },
+    "ADD": {
+      "isoName": "AuthenticatedDirectDebit",
+      "name": "Authenticated Direct Debit",
+      "definition": "Transaction is authenticated direct debit for domestic use."
+    },
+    "UDD": {
+      "isoName": "UnauthenticatedDirectDebit",
+      "name": "Unauthenticated Direct Debit",
+      "definition": "Transaction is unauthenticated direct debit for domestic use."
+    },
+    "CCI": {
+      "isoName": "CashConcentrationIntragroup",
+      "name": "Cash Concentration Intragroup",
+      "definition": "Transaction is related to an intra-group bank initiated cash management payment"
+    },
+    "IAT": {
+      "isoName": "InternationalACH",
+      "name": "International ACH",
+      "definition": "Transaction is related to international ACH."
+    },
+    "CCD": {
+      "isoName": "CashConcentrationOrDisbursementCorporateCounterparty",
+      "name": "Cash Concentration Or Disbursement Corporate Counterparty",
+      "definition": "Transaction is related to cash concentration or disbursement corporate counterparty."
+    },
+    "CTX": {
+      "isoName": "CorporateTradeExchange",
+      "name": "Corporate Trade Exchange",
+      "definition": "Transaction is related to corporate trade exchange."
+    },
+    "PPD": {
+      "isoName": "PrearrangedPaymentOrDepositConsumerCounterparty",
+      "name": "Prearranged Payment Or Deposit Consumer Counterparty",
+      "definition": "Transaction is related to prearranged payment or deposit consumer counterparty."
+    },
+    "CIE": {
+      "isoName": "CustomerInitiatedEntry",
+      "name": "Customer Initiated Entry",
+      "definition": "A credit entry initiated by or on behalf of the holder of a consumer account"
+    },
+    "RCK": {
+      "isoName": "RepresentedCheckEntry",
+      "name": "Represented Check Entry",
+      "definition": "Transaction is related to re-presented check entry."
+    },
+    "ARC": {
+      "isoName": "AccountsReceivableCheck",
+      "name": "Accounts Receivable Check",
+      "definition": "Transaction is related to accounts receivable check."
+    },
+    "WEB": {
+      "isoName": "InternetInitiatedEntry",
+      "name": "Internet Initiated Entry",
+      "definition": "Transaction is related to internet initiated entry."
+    },
+    "POP": {
+      "isoName": "PointOfPurchase",
+      "name": "Point Of Purchase",
+      "definition": "Transaction is related to point-of-purchase."
+    },
+    "POS": {
+      "isoName": "PointOfSale",
+      "name": "Point Of Sale",
+      "definition": "Transaction is related to point-of-sale."
+    },
+    "TEL": {
+      "isoName": "TelephoneInitiatedEntry",
+      "name": "Telephone Initiated Entry",
+      "definition": "Transaction is related to telephone initiated entry."
+    },
+    "ITP": {
+      "isoName": "InstantCreditTransferPreferred",
+      "name": "Instant Credit Transfer Preferred",
+      "definition": "Payment via Instant Credit Transfer but Credit Transfer is also possible."
+    },
+    "MDP": {
+      "isoName": "MultiDayPayment",
+      "name": "Multi Day Payment",
+      "definition": "Type of New Payments Architecture (NPA) payment. Payments are processed over a three-day cycle and available to customers early in the morning of Day 3."
+    },
+    "IMD": {
+      "isoName": "ImmediatePayment",
+      "name": "Immediate Payment",
+      "definition": "Type of Payment used within the New Payments Architecture (UK). Immediate Payments are used for payments initiated by customers using channels such as internet, mobile or telephone banking, where the customer wants the payment to be effected immediately."
+    },
+    "SOP": {
+      "isoName": "StandingOrderPayment",
+      "name": "Standing Order Payment",
+      "definition": "Standing Orders are regular payments of a fixed amount paid to the same recipient on a specified date, for example, to pay rent."
+    },
+    "FDP": {
+      "isoName": "ForwardDatedPayment",
+      "name": "Forward Dated Payment",
+      "definition": "Type of Payment used within the New Payments Architecture (UK). Forward-dated payments are one-off payments sent and received on a pre-arranged date, set-up by the customer in advance, for example, to pay a bill."
+    },
+    "NACH": {
+      "isoName": "NACHClearing",
+      "name": "NACH Clearing",
+      "definition": "Payment via the Indian NACH clearing (net settlement)."
+    },
+    "NEFT": {
+      "isoName": "NEFTClearing",
+      "name": "NEFT Clearing",
+      "definition": "Payment via the Indian NEFT clearing (net settlement)."
+    },
+    "IMPS": {
+      "isoName": "IMPSClearing",
+      "name": "IMPS Clearing",
+      "definition": "Instant payment via the Indian IMPS clearing system."
+    },
+    "IUPI": {
+      "isoName": "UPIClearing",
+      "name": "UPI Clearing",
+      "definition": "Instant payment via the Indian UPI clearing system."
+    }
+  }
+}

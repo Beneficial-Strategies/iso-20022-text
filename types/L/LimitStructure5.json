@@ -1,0 +1,29 @@
+{
+  "isoType": "LimitStructure5",
+  "language": "en",
+  "name": "Limit Structure 5",
+  "definition": "Limit details of one particular limit set by the member and managed by the transaction administrator.",
+  "isoElements": {
+    "LimitIdentification": {
+      "name": "Limit Identification",
+      "definition": "Identification of the default limit."
+    },
+    "NewLimitValueSet": {
+      "name": "New Limit Value Set",
+      "definition": "New limit values."
+    },
+    "OldLimitValueSet": {
+      "name": "Old Limit Value Set",
+      "definition": "Old limit values."
+    },
+    "LimitValueAmendment": {
+      "name": "Limit Value Amendment",
+      "definition": "Difference between new limit value and old limit value."
+    }
+  },
+  "isoRules": {
+    "OldLimitOrLimitAmendmentPresenceRule": {
+      "definition": "OldLimitValueSet or LimitValueAmendment must be absent, both can be absent."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionStandingInstruction1",
+  "language": "en",
+  "name": "Corporate Action Standing Instruction 1",
+  "definition": "Provides information about the standing instruction.",
+  "isoElements": {
+    "NetOrGross": {
+      "name": "Net Or Gross",
+      "definition": "Identifies whether the account Holders want their income to be paid net or gross of income tax (default is gross)."
+    },
+    "CashDistributionDetails": {
+      "name": "Cash Distribution Details",
+      "definition": "Provides information about the cash distribution standing instruction."
+    },
+    "SecuritiesDistributionDetails": {
+      "name": "Securities Distribution Details",
+      "definition": "Provides information about the securities distribution standing instruction."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the standing instruction."
+    }
+  },
+  "isoRules": {
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRule": {
+      "definition": "Either NetOrGross, CashDistributionDetails or SecuritiesDistributionDetails must be present."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth": {
+      "definition": "Either NetOrGross, CashDistributionDetails or SecuritiesDistributionDetails must be present."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth2": {
+      "definition": "Either NetOrGross, CashDistributionDetails or SecuritiesDistributionDetails must be present."
+    }
+  }
+}

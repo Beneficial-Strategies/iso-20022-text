@@ -1,0 +1,37 @@
+{
+  "isoType": "PartyIdentification266",
+  "language": "en",
+  "name": "Party Identification 266",
+  "definition": "Identification of a party. The party can be identified by providing the party's name and optionally, the BIC, account number, address, clearing system identification or LEI can also be provided.",
+  "isoElements": {
+    "PartyName": {
+      "name": "Party Name",
+      "definition": "Identification of the party expressed as the party's name."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Identification of the party expressed as a BIC and an optional alternative identifier."
+    },
+    "AccountNumber": {
+      "name": "Account Number",
+      "definition": "Provides the party's account number."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Provides the party's address."
+    },
+    "ClearingSystemIdentification": {
+      "name": "Clearing System Identification",
+      "definition": "Choice of a clearing system identifier."
+    },
+    "LegalEntityIdentifier": {
+      "name": "Legal Entity Identifier",
+      "definition": "Provides the Legal Entity Identifier. This is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    }
+  },
+  "isoRules": {
+    "PartyNameOrLEIRule": {
+      "definition": "PartyName must be present or LegalEntityIdentifier must be present."
+    }
+  }
+}

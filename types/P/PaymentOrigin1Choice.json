@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentOrigin1Choice",
+  "language": "en",
+  "name": "Payment Origin 1 Choice",
+  "definition": "Specifies the format under which the payment that generated the entry was transmitted.",
+  "isoElements": {
+    "FINMessageType": {
+      "name": "FIN Message Type",
+      "definition": "Specifies that the payment was included in a SWIFT FIN format message, for example, MT 103."
+    },
+    "XMLMessageName": {
+      "name": "XML Message Name",
+      "definition": "Specifies that the payment was included in a SWIFT XML message."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies that the payment was included in a proprietary format message."
+    },
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Specifies the type of payment when not included in a SWIFT or proprietary format."
+    }
+  }
+}

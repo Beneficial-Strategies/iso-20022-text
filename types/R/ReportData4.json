@@ -1,0 +1,32 @@
+{
+  "isoType": "ReportData4",
+  "language": "en",
+  "name": "Report Data 4",
+  "definition": "Numerical representation of the nett increases and decreases in an account at a specific point in time. A cash balance is calculated from a sum of cash credits minus a sum of cash debits.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the report as assigned by the sender."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Value date for which the pay-in schedule is generated."
+    },
+    "DateAndTimeStamp": {
+      "name": "Date And Time Stamp",
+      "definition": "Date and time on which the report is generated. The offset with UTC may also be specified."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of pay-in schedule."
+    },
+    "ScheduleType": {
+      "name": "Schedule Type",
+      "definition": "Defines the schedule timing that is, whether it is an initial or a revised schedule."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    }
+  }
+}

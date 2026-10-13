@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDeviceReportV05",
+  "language": "en",
+  "name": "ATM Device Report V 05",
+  "definition": "The ATMDeviceReport message is sent to an acquirer by an ATM, or forwarded by an agent, to report:|- The result of maintenance commands performed by the ATM,|- The components of the ATM,|- The status of the ATM components.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMDeviceReport": {
+      "name": "Protected ATM Device Report",
+      "definition": ""
+    },
+    "ATMDeviceReport": {
+      "name": "ATM Device Report",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

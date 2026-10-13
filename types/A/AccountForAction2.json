@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountForAction2",
+  "language": "en",
+  "name": "Account For Action 2",
+  "definition": "Account to or from which a cash entry is made.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account. In case of conflict between the Account Identification and the Account Name, it is recommended that the Account Servicer ask for clarification by means of the Request for Additional Information message."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Medium of exchange of value."
+    }
+  }
+}

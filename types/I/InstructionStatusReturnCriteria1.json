@@ -1,0 +1,20 @@
+{
+  "isoType": "InstructionStatusReturnCriteria1",
+  "language": "en",
+  "name": "Instruction Status Return Criteria 1",
+  "definition": "Defines the criteria which are used to report on the payment status.",
+  "isoElements": {
+    "PaymentInstructionStatusIndicator": {
+      "name": "Payment Instruction Status Indicator",
+      "definition": "Indicates if the instruction status is requested."
+    },
+    "PaymentInstructionStatusDateTimeIndicator": {
+      "name": "Payment Instruction Status Date Time Indicator",
+      "definition": "Indicates if the status date and time are requested."
+    },
+    "PaymentInstructionStatusReasonIndicator": {
+      "name": "Payment Instruction Status Reason Indicator",
+      "definition": "Indicates if the status reason is requested."
+    }
+  }
+}

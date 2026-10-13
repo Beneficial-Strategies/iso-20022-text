@@ -1,0 +1,23 @@
+{
+  "isoType": "SettlementStandingInstructionDatabase1Code",
+  "language": "en",
+  "name": "Settlement Standing Instruction Database 1 Code",
+  "definition": "Indicates what settlement standing instruction database is to be used to derive the settlement parties involved in the transaction.",
+  "isoCodes": {
+    "INTE": {
+      "isoName": "InternalDatabase",
+      "name": "Internal Database",
+      "definition": "The settlement standing instruction database to be used is the receiver's internal database."
+    },
+    "BRKR": {
+      "isoName": "BrokerDatabase",
+      "name": "Broker Database",
+      "definition": "The settlement standing instruction database to be used is the broker's database."
+    },
+    "VEND": {
+      "isoName": "VendorDatabase",
+      "name": "Vendor Database",
+      "definition": "The settlement standing instruction database to be used is the database of the vendor."
+    }
+  }
+}

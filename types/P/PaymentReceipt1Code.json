@@ -1,0 +1,23 @@
+{
+  "isoType": "PaymentReceipt1Code",
+  "language": "en",
+  "name": "Payment Receipt 1 Code",
+  "definition": "Specifies if an operation is a payment, or a receipt or none.",
+  "isoCodes": {
+    "PAYM": {
+      "isoName": "Payment",
+      "name": "Payment",
+      "definition": "Operation is a payment."
+    },
+    "RECE": {
+      "isoName": "Receipt",
+      "name": "Receipt",
+      "definition": "Operation is a receipt."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "Operation is null."
+    }
+  }
+}

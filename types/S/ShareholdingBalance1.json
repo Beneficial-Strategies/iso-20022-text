@@ -1,0 +1,28 @@
+{
+  "isoType": "ShareholdingBalance1",
+  "language": "en",
+  "name": "Shareholding Balance 1",
+  "definition": "Provides detailed shareholding balance information for an account.",
+  "isoElements": {
+    "ShareholdingType": {
+      "name": "Shareholding Type",
+      "definition": "Identifies the category of shareholding."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Number of shares of this type of shareholding or with this date of shareholding held by the account owner."
+    },
+    "InitialDateOfShareholding": {
+      "name": "Initial Date Of Shareholding",
+      "definition": "Date as from when the shares have been held by the shareholder on its account."
+    },
+    "ThirdParty": {
+      "name": "Third Party",
+      "definition": "Third party who is authorised to take specific actions on behalf of the shareholder."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

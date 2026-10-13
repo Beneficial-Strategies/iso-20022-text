@@ -1,0 +1,29 @@
+{
+  "isoType": "SubscriptionInformation2",
+  "language": "en",
+  "name": "Subscription Information 2",
+  "definition": "Information about cumulative subscriptions.",
+  "isoElements": {
+    "DateOfFirstSubscription": {
+      "name": "Date Of First Subscription",
+      "definition": "Date of the first subscription in the current year."
+    },
+    "EquityComponent": {
+      "name": "Equity Component",
+      "definition": "Amount subscribed in the current tax year into equities (not including dividends)."
+    },
+    "CashComponent": {
+      "name": "Cash Component",
+      "definition": "Amount subscribed in the current tax year into cash."
+    },
+    "TotalAmountYearToDate": {
+      "name": "Total Amount Year To Date",
+      "definition": "Total amount subscribed in the current tax year."
+    }
+  },
+  "isoRules": {
+    "TotalAmountYearToDateRule": {
+      "definition": "TotalAmountYearToDate must be equal to the sum of EquityComponent and CashComponent if present."
+    }
+  }
+}

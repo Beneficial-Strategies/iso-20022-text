@@ -1,0 +1,63 @@
+{
+  "isoType": "TransferUnmatchedReason3Code",
+  "language": "en",
+  "name": "Transfer Unmatched Reason 3 Code",
+  "definition": "Specifies the reason the transaction, transfer or settlement instruction is unmatched.",
+  "isoCodes": {
+    "CMIS": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "No potential match has been found."
+    },
+    "CPCA": {
+      "isoName": "CounterpartyCancelled",
+      "name": "Counterparty Cancelled",
+      "definition": "Counterparty has cancelled the transaction/instruction."
+    },
+    "DELN": {
+      "isoName": "TransactionDirection",
+      "name": "Transaction Direction",
+      "definition": "Direction of transaction does not match: delivery instead of receipt or vice versa."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrument",
+      "name": "Financial Instrument",
+      "definition": "Financial instrument identification does not match or a financial instrument attribute differs."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlement",
+      "name": "Physical Settlement",
+      "definition": "Settlement does not match: counterparty's instruction is for physical settlement, your instruction is not, or vice versa."
+    },
+    "PODU": {
+      "isoName": "Duplicate",
+      "name": "Duplicate",
+      "definition": "Instruction has not been matched: it is a possible duplicate instruction."
+    },
+    "DEPT": {
+      "isoName": "SettlementPlace",
+      "name": "Settlement Place",
+      "definition": "Place of settlement does not match."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Settlement date or transfer date does not match."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Financial instrument quantity does not match."
+    },
+    "ICUS": {
+      "isoName": "ReceivingOrDeliveringCustodian",
+      "name": "Receiving Or Delivering Custodian",
+      "definition": "Delivering or receiving custodian does not match."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccount",
+      "name": "Safekeeping Account",
+      "definition": "Safekeeping account used as a matching criteria on the market concerned does not match."
+    }
+  }
+}

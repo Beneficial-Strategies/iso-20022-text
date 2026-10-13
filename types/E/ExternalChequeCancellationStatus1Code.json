@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalChequeCancellationStatus1Code",
+  "language": "en",
+  "name": "External Cheque Cancellation Status 1 Code",
+  "definition": "Specifies the external cheque cancellation status code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code set published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "RJCR": {
+      "isoName": "RejectedCancellationOrStopChequeRequest",
+      "name": "Rejected Cancellation Or Stop Cheque Request",
+      "definition": "Cheque cancellation request or request to stop the cheque is rejected."
+    },
+    "ACCR": {
+      "isoName": "AcceptedCancellationOrStopChequeRequest",
+      "name": "Accepted Cancellation Or Stop Cheque Request",
+      "definition": "Cheque cancellation request or request to stop the cheque is accepted."
+    }
+  }
+}

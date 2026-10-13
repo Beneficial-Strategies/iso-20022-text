@@ -1,0 +1,84 @@
+{
+  "isoType": "CorporateActionOption243",
+  "language": "en",
+  "name": "Corporate Action Option 243",
+  "definition": "Provides information about the corporate action option.",
+  "isoElements": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Specifies the features that may apply to a corporate action option."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Specifies how fractional amount/quantities are treated."
+    },
+    "ChangeType": {
+      "name": "Change Type",
+      "definition": "Type of changes affecting the security form."
+    },
+    "EligibleForCollateralIndicator": {
+      "name": "Eligible For Collateral Indicator",
+      "definition": "Indicates that the corporate action instruction is to be processed using the Available-for-Collateral pool."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "name": "Solicitation Dealer Fee Indicator",
+      "definition": "Indicates whether there is a solicitation fee on the event. This fee is paid by the soliciting dealer."
+    },
+    "CurrencyToBuy": {
+      "name": "Currency To Buy",
+      "definition": "Account servicer is instructed to buy the indicated currency after the receipt of cash proceeds."
+    },
+    "CurrencyToSell": {
+      "name": "Currency To Sell",
+      "definition": "Account servicer is instructed to sell the indicated currency in order to obtain the necessary currency to fund the transaction within this instruction message."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency in which cash proceeds are to be credited or debited."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identifies the financial instrument."
+    },
+    "SecuritiesQuantityOrInstructedAmount": {
+      "name": "Securities Quantity Or Instructed Amount",
+      "definition": "Provides information about securities quantity linked to a corporate action option."
+    },
+    "ExecutionRequestedDateTime": {
+      "name": "Execution Requested Date Time",
+      "definition": "Date/time at which the instructing party requests the instruction to be executed."
+    },
+    "RateAndAmountDetails": {
+      "name": "Rate And Amount Details",
+      "definition": "Provides information about rates and amounts related to a corporate action option."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Provides information about the prices related to a corporate action option."
+    },
+    "ShareholderNumber": {
+      "name": "Shareholder Number",
+      "definition": "Reference number assigned to identify an investor or a shareholder with the issuer or the registration provider (for instance allocation code)."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "For differentiation between options, the OptionNumber rather than the OptionType must be used, for example, in the case where two or more offers can be described by the same corporate action option code. Therefore, the OptionNumber value must be different for each option."
+    },
+    "OptionNumber2Rule": {
+      "definition": "When the CorporateActionInstruction is unsolicited, that is, the instruction has not been preceded by a Corporate ActionNotification, then OptionNumber/code must be UNSO (unsolicited)."
+    }
+  }
+}

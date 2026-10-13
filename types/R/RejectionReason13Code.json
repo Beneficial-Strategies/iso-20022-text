@@ -1,0 +1,33 @@
+{
+  "isoType": "RejectionReason13Code",
+  "language": "en",
+  "name": "Rejection Reason 13 Code",
+  "definition": "Specifies the reason of a rejection of a movement.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "FailedValidation",
+      "name": "Failed Validation",
+      "definition": "The validation of the advice/instruction/request failed."
+    },
+    "SAID": {
+      "isoName": "SameIdentification",
+      "name": "Same Identification",
+      "definition": "Several message with the same identification."
+    },
+    "INID": {
+      "isoName": "InvalidIdentification",
+      "name": "Invalid Identification",
+      "definition": "Instruction contains an invalid message identification, identification is unknown."
+    },
+    "REFI": {
+      "isoName": "InvalidCAIdentification",
+      "name": "Invalid CA Identification",
+      "definition": "Invalid corporate action identification supplied."
+    },
+    "MICA": {
+      "isoName": "MismatchedCAIdentification",
+      "name": "Mismatched CA Identification",
+      "definition": "Issuer CA Identification does not correspond with the Corporate Action Identification supplied."
+    }
+  }
+}

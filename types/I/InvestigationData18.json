@@ -1,0 +1,45 @@
+{
+  "isoType": "InvestigationData18",
+  "language": "en",
+  "name": "Investigation Data 18",
+  "definition": "Provides the detailed information for the investigation response.",
+  "isoElements": {
+    "OriginalInvestigationSequence": {
+      "name": "Original Investigation Sequence",
+      "definition": "Original investigation sequence as provided in the investigation request."
+    },
+    "OriginalInvestigationReason": {
+      "name": "Original Investigation Reason",
+      "definition": "Original investigation reason as provided in the investigation request."
+    },
+    "OriginalInvestigationReasonSubType": {
+      "name": "Original Investigation Reason Sub Type",
+      "definition": "Original investigation reason sub type as provided in the investigation request."
+    },
+    "ResponseData": {
+      "name": "Response Data",
+      "definition": "Response to the investigation, as provided by the responder."
+    },
+    "RelatedInvestigationData": {
+      "name": "Related Investigation Data",
+      "definition": "Additional information that will be sent seperately to the message such as a copy of a passport."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document or template enclosed in the message.||Usage: The use of the EnclosedFile element must be bilaterally agreed."
+    },
+    "RelatedFileData": {
+      "name": "Related File Data",
+      "definition": "Details of a document not enclosed in the message that will be sent or made available seperately."
+    },
+    "ResponseOriginator": {
+      "name": "Response Originator",
+      "definition": "Identification of the agent or party who has originated the response.||Usage: The element should only be provided when different from the Responder."
+    }
+  },
+  "isoRules": {
+    "InvestigationDataGuideline": {
+      "definition": "InvestigationData should only be repeated when the original investigation request contained multiple occurences of the InvestigationData block."
+    }
+  }
+}

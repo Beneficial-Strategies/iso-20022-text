@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason1",
+  "language": "en",
+  "name": "Account Status Update Instruction Reason 1",
+  "definition": "Reason for an update to an account status.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Reason for the instruction to change the account status."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the reason for the instruction to change the account status."
+    }
+  },
+  "isoRules": {
+    "ReasonElementRule": {
+      "definition": "Either Code or AdditionalInformation must be present. Both may be present."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "isoType": "SecuritiesFinancingInstruction002V11",
+  "language": "en",
+  "name": "Securities Financing Instruction 002 V 11",
+  "definition": "Scope|An account owner sends a SecuritiesFinancingInstruction to a securities financing transaction account servicer to notify the securities financing transaction account servicer of the details of a repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing transaction to allow the account servicer to manage the settlement and follow-up of the opening and closing leg of the transaction.|The account owner/servicer relationship may be:|- a global custodian which has an account with a local custodian, or|- an investment management institution which manage a fund account opened at a custodian, or|- a broker which has an account with a custodian, or|- a central securities depository participant which has an account with a central securities depository, or|- a central securities depository which has an account with a custodian, another central securities depository or another settlement market infrastructure, or|- a central counterparty or a stock exchange or a trade matching utility which need to instruct the settlement of securities financing transactions to a central securities depository or another settlement market infrastructure.||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the instructing party."
+    },
+    "TransactionTypeAndAdditionalParameters": {
+      "name": "Transaction Type And Additional Parameters",
+      "definition": ""
+    },
+    "NumberCounts": {
+      "name": "Number Counts",
+      "definition": ""
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": ""
+    },
+    "TradeDetails": {
+      "name": "Trade Details",
+      "definition": ""
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": ""
+    },
+    "QuantityAndAccountDetails": {
+      "name": "Quantity And Account Details",
+      "definition": ""
+    },
+    "SecuritiesFinancingDetails": {
+      "name": "Securities Financing Details",
+      "definition": ""
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": ""
+    },
+    "StandingSettlementInstructionDetails": {
+      "name": "Standing Settlement Instruction Details",
+      "definition": ""
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": ""
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": ""
+    },
+    "CashParties": {
+      "name": "Cash Parties",
+      "definition": ""
+    },
+    "OpeningSettlementAmount": {
+      "name": "Opening Settlement Amount",
+      "definition": ""
+    },
+    "OtherAmounts": {
+      "name": "Other Amounts",
+      "definition": ""
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "If the Transaction is against payment, then OpeningSettlementAmount must be present."
+    },
+    "SellerSSI2Rule": {
+      "definition": "If standing settlement instruction applies and the transaction is a securities borrowing, then Seller must be present."
+    },
+    "BuyerSSI2Rule": {
+      "definition": "If standing settlement instruction applies and the transaction is a securities lending, then Buyer must be present."
+    },
+    "DeliveringDepositoryAndParty1Part1Rule": {
+      "definition": "If the transaction is a reverse repo and no standing settlement instruction applies, then DeliveringDepository and Party1 must be present."
+    },
+    "ReceivingDepositoryAndParty1Part1Rule": {
+      "definition": "If the transaction is a repo and no standing settlement instruction applies, then ReceivingDepository and Party1 must be present."
+    },
+    "DeliveringDepositoryAndParty1Part2Rule": {
+      "definition": "If the transaction is a securities borrowing and no standing settlement instruction applies, then DeliveringDepository and Party1 must be present."
+    },
+    "ReceivingDepositoryAndParty1Part2Rule": {
+      "definition": "If the transaction is a securities lending and no standing settlement instruction applies, then ReceivingDepository and Party1 must be present."
+    },
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "The Securities Market Practice Group (SMPG) has published market practice recommendations on the use of this message.|These market practices are available on www.smpg.info."
+    },
+    "SellerSSI1Rule": {
+      "definition": "If standing settlement instruction applies and the transaction is a reverse repo, then Seller must be present."
+    },
+    "BuyerSSI1Rule": {
+      "definition": "If standing settlement instruction applies and the transaction is a repo, then Buyer must be present."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "InvestigationDataRecord12Choice",
+  "language": "en",
+  "name": "Investigation Data Record 12 Choice",
+  "definition": "Specifies the data elements related to the response to an investigation request.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "name": "Debit Authorisation",
+      "definition": "Indicates if the debit authorisation is granted or not."
+    },
+    "Compensation": {
+      "name": "Compensation",
+      "definition": "Indicates the compensation due for the request."
+    },
+    "Valuation": {
+      "name": "Valuation",
+      "definition": "Indicates the compensation due for the request."
+    },
+    "Confirmation": {
+      "name": "Confirmation",
+      "definition": "Provides confirmation that a payment has debited or credited an account."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Provides the status of a payment that has not yet debited or credited an account."
+    },
+    "TransactionData": {
+      "name": "Transaction Data",
+      "definition": "Provides data related to a request."
+    },
+    "ResponseNarrative": {
+      "name": "Response Narrative",
+      "definition": "Provides additional information about the response in narrative form."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "SwitchStatus1Code",
+  "language": "en",
+  "name": "Switch Status 1 Code",
+  "definition": "Specifies the status of a given account switch.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Account switch is accepted.||Usage: Accepted status should be used when account switch service receives and validates an information response request accepting the switch."
+    },
+    "BTRQ": {
+      "isoName": "BalanceTransferRequested",
+      "name": "Balance Transfer Requested",
+      "definition": "Account balance transfer is requested.||Usage: Balance transfer requested status should be used when account switch service receives and validates a request balance transfer request."
+    },
+    "BTRS": {
+      "isoName": "BalanceTransferResponse",
+      "name": "Balance Transfer Response",
+      "definition": "Balance transfer responded.||Usage: Balance transfer responded staus should be used when the account switch service receives and validates an acknowledge balance transfer request."
+    },
+    "COMP": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "Account switch is completed.||Usage: Completed status should be used when account switch service receives and validates a notify account switch complete request."
+    },
+    "REDT": {
+      "isoName": "Redirection",
+      "name": "Redirection",
+      "definition": "Request for redirection. ||Usage: Redirection status should be used when the account switch service receives and validates the first redirection request."
+    },
+    "REDE": {
+      "isoName": "RedirectionEnded",
+      "name": "Redirection Ended",
+      "definition": "Redirection ended at the end of the redirection period. ||Usage: Indicates the cessation of account redirection by a particular service."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Account switch is rejected. ||Usage: Rejected status should be used when account switch service receives and validates an information response request rejecting the account switch."
+    },
+    "REQU": {
+      "isoName": "Requested",
+      "name": "Requested",
+      "definition": "Information is requested for the account switch. ||Usage: Requested status should be used when the account switch service receives and validates an information request."
+    },
+    "TMTN": {
+      "isoName": "Termination",
+      "name": "Termination",
+      "definition": "Account switch is terminated. ||Usage: Terminated status should be used when the account switch service receives and validates a terminate switch request."
+    }
+  }
+}

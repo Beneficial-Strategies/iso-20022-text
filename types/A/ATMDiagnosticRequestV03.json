@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDiagnosticRequestV03",
+  "language": "en",
+  "name": "ATM Diagnostic Request V 03",
+  "definition": "The ATMDiagnosticRequest message is sent from an ATM to an acquirer to verify the availability of the acquirer. The acquirer will also validate that this ATM is a valid ATM for its particular network.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": ""
+    },
+    "ProtectedATMDiagnosticRequest": {
+      "name": "Protected ATM Diagnostic Request",
+      "definition": ""
+    },
+    "ATMDiagnosticRequest": {
+      "name": "ATM Diagnostic Request",
+      "definition": ""
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": ""
+    }
+  }
+}

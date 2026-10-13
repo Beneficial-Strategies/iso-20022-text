@@ -1,0 +1,93 @@
+{
+  "isoType": "KeyUsage1Code",
+  "language": "en",
+  "name": "Key Usage 1 Code",
+  "definition": "Allowed usages of the key.",
+  "isoCodes": {
+    "ENCR": {
+      "isoName": "Encryption",
+      "name": "Encryption",
+      "definition": "Key may encrypt."
+    },
+    "DCPT": {
+      "isoName": "Decryption",
+      "name": "Decryption",
+      "definition": "Key may decrypt."
+    },
+    "DENC": {
+      "isoName": "DataEncryption",
+      "name": "Data Encryption",
+      "definition": "Key may encrypt data."
+    },
+    "DDEC": {
+      "isoName": "DataDecryption",
+      "name": "Data Decryption",
+      "definition": "Key may decrypt data."
+    },
+    "TRNI": {
+      "isoName": "TranslateInput",
+      "name": "Translate Input",
+      "definition": "Key may encrypt information before translation."
+    },
+    "TRNX": {
+      "isoName": "TranslateOutput",
+      "name": "Translate Output",
+      "definition": "Key may encrypt information after translation."
+    },
+    "MACG": {
+      "isoName": "MessageAuthenticationCodeGeneration",
+      "name": "Message Authentication Code Generation",
+      "definition": "Key may generate message authentication codes (MAC)."
+    },
+    "MACV": {
+      "isoName": "MessageAuthenticationCodeVerification",
+      "name": "Message Authentication Code Verification",
+      "definition": "Key may verify message authentication codes (MAC)."
+    },
+    "SIGG": {
+      "isoName": "SignatureGeneration",
+      "name": "Signature Generation",
+      "definition": "Key may generate digital signatures."
+    },
+    "SUGV": {
+      "isoName": "SignatureVerification",
+      "name": "Signature Verification",
+      "definition": "Key may verify digital signatures."
+    },
+    "PINE": {
+      "isoName": "PINEncryption",
+      "name": "PIN Encryption",
+      "definition": "Key may encrypt personal identification numbers (PIN)."
+    },
+    "PIND": {
+      "isoName": "PINDecryption",
+      "name": "PIN Decryption",
+      "definition": "Key may decrypt personal identification numbers (PIN)."
+    },
+    "PINV": {
+      "isoName": "PINVerification",
+      "name": "PIN Verification",
+      "definition": "Key may verify personal identification numbers (PIN)."
+    },
+    "KEYG": {
+      "isoName": "KeyGeneration",
+      "name": "Key Generation",
+      "definition": "Key may generate keys."
+    },
+    "KEYI": {
+      "isoName": "KeyImport",
+      "name": "Key Import",
+      "definition": "Key may import keys."
+    },
+    "KEYX": {
+      "isoName": "KeyExport",
+      "name": "Key Export",
+      "definition": "Key may export keys."
+    },
+    "KEYD": {
+      "isoName": "KeyDerivation",
+      "name": "Key Derivation",
+      "definition": "Key may derive keys."
+    }
+  }
+}

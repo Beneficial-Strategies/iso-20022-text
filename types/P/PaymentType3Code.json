@@ -1,0 +1,128 @@
+{
+  "isoType": "PaymentType3Code",
+  "language": "en",
+  "name": "Payment Type 3 Code",
+  "definition": "Specifies the type, or nature, of the payment.",
+  "isoCodes": {
+    "CBS": {
+      "isoName": "CrossBorderPayment",
+      "name": "Cross Border Payment",
+      "definition": "Payment has an origin in one country, a destination in another, and is made in the currency of either the origin or destination country."
+    },
+    "BCK": {
+      "isoName": "BackUp",
+      "name": "Back Up",
+      "definition": "Payment is made under the recovery procedure to move liquidity to/from the settlement account of a member according to the specifications of the system."
+    },
+    "BAL": {
+      "isoName": "BalanceRetail",
+      "name": "Balance Retail",
+      "definition": "Transaction is a payment offsetting the net cash balance owed/due in a retail payment system."
+    },
+    "CLS": {
+      "isoName": "CLSPayment",
+      "name": "CLS Payment",
+      "definition": "Payment is linked to CLS activities."
+    },
+    "CTR": {
+      "isoName": "CentralBankOperation",
+      "name": "Central Bank Operation",
+      "definition": "Payment is made to settle an operation made with the central bank."
+    },
+    "CBH": {
+      "isoName": "CrossBorderHighValuePayment",
+      "name": "Cross Border High Value Payment",
+      "definition": "Transaction is a high value payment that has an origin in one country and a destination in another country and is made in the currency of either the origin or destination country."
+    },
+    "CBP": {
+      "isoName": "CrossBorderPriorityPayment",
+      "name": "Cross Border Priority Payment",
+      "definition": "Transaction is a priority payment that has an origin in one country and a destination in another and is made in the currency of either the origin or destination country."
+    },
+    "DPG": {
+      "isoName": "DVPGross",
+      "name": "DVP Gross",
+      "definition": "Gross cash payment offsetting the amount owed/due for a securities transaction settlement."
+    },
+    "DPN": {
+      "isoName": "DVPNet",
+      "name": "DVP Net",
+      "definition": "Net payment offsetting the cash balance due/owed for a series of securities transactions settlement."
+    },
+    "EXP": {
+      "isoName": "ExpressPayment",
+      "name": "Express Payment",
+      "definition": "Transaction is a payment that is processed whenever liquidity is available on the settlement account of a member of the RTGSPlus system."
+    },
+    "TCH": {
+      "isoName": "ThirdCurrencyHighValuePayment",
+      "name": "Third Currency High Value Payment",
+      "definition": "Transaction is a high value payment that is made in a third currency to the origin and destination countries. The origin and destination countries may be one and the same country."
+    },
+    "LMT": {
+      "isoName": "LimitPayment",
+      "name": "Limit Payment",
+      "definition": "Transaction is a payment that is processed when the pool of liquidity exceeds the minimum value reserved for an express payment in the RTGSPlus system."
+    },
+    "LIQ": {
+      "isoName": "LiquidityTransfer",
+      "name": "Liquidity Transfer",
+      "definition": "Payment is made to transfer liquidity to/from the settlement account of a member, to/from the current account held at the central institution or any other institution."
+    },
+    "DPP": {
+      "isoName": "DomesticPriorityPayment",
+      "name": "Domestic Priority Payment",
+      "definition": "Transaction is a priority payment that has an origin and a destination in the same country and is made in the currency of that country."
+    },
+    "DPH": {
+      "isoName": "DomesticHighValuePayment",
+      "name": "Domestic High Value Payment",
+      "definition": "Transaction is a high value payment that has an origin and a destination in the same country and is made in the currency of that country."
+    },
+    "DPS": {
+      "isoName": "DomesticPayment",
+      "name": "Domestic Payment",
+      "definition": "Payment has an origin and a destination in the same country, and is made in the currency of that country."
+    },
+    "STF": {
+      "isoName": "StandingFacilities",
+      "name": "Standing Facilities",
+      "definition": "Payment is linked to overnight deposits and the marginal lending facility."
+    },
+    "TRP": {
+      "isoName": "TreasuryStatePayment",
+      "name": "Treasury State Payment",
+      "definition": "Payment is linked to the Treasury State."
+    },
+    "TCS": {
+      "isoName": "ThirdCurrencyPayment",
+      "name": "Third Currency Payment",
+      "definition": "Transaction is a payment that is made in a third currency to the origin and destination countries. The origin and destination countries may be one and the same country."
+    },
+    "LOA": {
+      "isoName": "Loan",
+      "name": "Loan",
+      "definition": "Transaction is the payment of a specific amount of money lent by a creditor/lender."
+    },
+    "LOR": {
+      "isoName": "LoanRepayment",
+      "name": "Loan Repayment",
+      "definition": "Transaction is an amount of money transferred in repayment of loan."
+    },
+    "TCP": {
+      "isoName": "ThirdCurrencyPriorityPayment",
+      "name": "Third Currency Priority Payment",
+      "definition": "Payment is made in a third currency to the origin and destination countries. The origin and destination countries may be the same country."
+    },
+    "OND": {
+      "isoName": "OvernightDeposit",
+      "name": "Overnight Deposit",
+      "definition": "Transaction is linked to an overnight deposit."
+    },
+    "MGL": {
+      "isoName": "MarginalLending",
+      "name": "Marginal Lending",
+      "definition": "Transaction is linked to the marginal lending facility."
+    }
+  }
+}

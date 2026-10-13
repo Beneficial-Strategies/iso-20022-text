@@ -1,0 +1,44 @@
+{
+  "isoType": "TransferStatus5Choice",
+  "language": "en",
+  "name": "Transfer Status 5 Choice",
+  "definition": "Choice of statuses for the status of a transfer.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the transfer is received, accepted, sent to next party, matched, already executed, or settled."
+    },
+    "PendingSettlement": {
+      "name": "Pending Settlement",
+      "definition": "Status of the transfer is pending settlement."
+    },
+    "Unmatched": {
+      "name": "Unmatched",
+      "definition": "Status of the transfer is unmatched."
+    },
+    "InRepair": {
+      "name": "In Repair",
+      "definition": "Status of the transfer is in repair."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status of the transfer is rejected."
+    },
+    "FailedSettlement": {
+      "name": "Failed Settlement",
+      "definition": "Status of the transfer is failed settlement, that is, settlement in the International Central Securities Depository (ICSD) or Central Securities Depository (CSD) failed."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Status of the transfer is cancelled."
+    },
+    "Reversed": {
+      "name": "Reversed",
+      "definition": "Status of the transfer is reversed."
+    },
+    "CancellationPending": {
+      "name": "Cancellation Pending",
+      "definition": "Status of the transfer is cancellation pending."
+    }
+  }
+}

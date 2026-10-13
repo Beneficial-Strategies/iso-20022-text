@@ -1,0 +1,28 @@
+{
+  "isoType": "SystemEvent3",
+  "language": "en",
+  "name": "System Event 3",
+  "definition": "Provides details on an event occurring in a system, whether planned or unplanned as stipulated in the specifications of the system.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the event that has occurred."
+    },
+    "ScheduledTime": {
+      "name": "Scheduled Time",
+      "definition": "Date and time at which the event is foreseen to occur."
+    },
+    "EffectiveTime": {
+      "name": "Effective Time",
+      "definition": "Date and time at which the event effectively takes place."
+    },
+    "StartTime": {
+      "name": "Start Time",
+      "definition": "Time at which the event starts."
+    },
+    "EndTime": {
+      "name": "End Time",
+      "definition": "Time at which the event ends."
+    }
+  }
+}

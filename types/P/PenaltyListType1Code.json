@@ -1,0 +1,23 @@
+{
+  "isoType": "PenaltyListType1Code",
+  "language": "en",
+  "name": "Penalty List Type 1 Code",
+  "definition": "Specifies the type of report for the penalties.",
+  "isoCodes": {
+    "CURR": {
+      "isoName": "Current",
+      "name": "Current",
+      "definition": "To report the new penalties and the modified penalties in one single message /report."
+    },
+    "FWAM": {
+      "isoName": "ForwardAmend",
+      "name": "Forward Amend",
+      "definition": "To report a penalty list that has been amended (that is the penalty list contains only updated and/or removed penalties that have already been previously reported in a FWIS Penalty List)."
+    },
+    "FWIS": {
+      "isoName": "ForwardInitialSubmission",
+      "name": "Forward Initial Submission",
+      "definition": "To report a daily penalty list created for the first time (that is the penalty list contains only newly computed penalties)"
+    }
+  }
+}

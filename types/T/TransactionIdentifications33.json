@@ -1,0 +1,36 @@
+{
+  "isoType": "TransactionIdentifications33",
+  "language": "en",
+  "name": "Transaction Identifications 33",
+  "definition": "Unique identifier of a document, message or transaction.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Reference to a transaction that cannot be identified using a standard reference element present in the message."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "If no reference is available for the AccountOwnerTransactionIdentification, then the AccountOwnerTransactionIdentification must be NONREF."
+    },
+    "AccountOwnerTransactionIdentificationRule": {
+      "definition": "If AccountOwnerTransactionIdentification is NONREF then at least one of the other references must be present."
+    }
+  }
+}

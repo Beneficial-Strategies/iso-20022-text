@@ -1,0 +1,89 @@
+{
+  "isoType": "OriginalNotificationReference15",
+  "language": "en",
+  "name": "Original Notification Reference 15",
+  "definition": "Provides details on the account notification.",
+  "isoElements": {
+    "Account": {
+      "name": "Account",
+      "definition": "Identifies the account to be credited with the incoming amount of money."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "RelatedAccount": {
+      "name": "Related Account",
+      "definition": "Identifies the parent account of the account to be credited with the incoming amount of money."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Sum of the amounts in all the item entries."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "Date on which the first agent expects the cash to be available to the final agent."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "IntermediaryAgent": {
+      "name": "Intermediary Agent",
+      "definition": "Agent between the debtor's agent and the creditor's agent."
+    },
+    "OriginalItemAndStatus": {
+      "name": "Original Item And Status",
+      "definition": "Provides details of the expected amount on the account serviced by the account servicer."
+    }
+  },
+  "isoRules": {
+    "DebtorRule": {
+      "definition": "Either Debtor or OriginalItem/Debtor may be present but not both."
+    },
+    "DebtorAgentRule": {
+      "definition": "Either DebtorAgent or OriginalItem/DebtorAgent may be present but not both."
+    },
+    "IntermediaryAgentRule": {
+      "definition": "Either IntermediaryAgent or OriginalItem/IntermediaryAgent may be present but not both."
+    },
+    "MandatoryDebtorRule": {
+      "definition": "Either Debtor must be present or OriginalItem/Debtor must be present."
+    },
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "If IntermediaryAgent is present then DebtorAgent must be present."
+    },
+    "TotalAmountAndAmount1Rule": {
+      "definition": "If TotalAmount is present, then all occurrences of OriginalItem/Amount must have the same currency as the currency of TotalAmount."
+    },
+    "AccountAndCurrencyRule": {
+      "definition": "If Account is present, then all occurrences of OriginalItem/Amount must have the same currency."
+    },
+    "TotalAmountAndAmount2Rule": {
+      "definition": "If TotalAmount is present, then it must equal the sum of all occurrences of OriginalItem/Amount."
+    },
+    "AccountRule": {
+      "definition": "Either Account or OriginalItem/Account may be present but not both."
+    },
+    "AccountOwnerRule": {
+      "definition": "Either AccountOwner or OriginalItem/AccountOwner may be present but not both."
+    },
+    "AccountServicerRule": {
+      "definition": "Either AccountServicer or OriginalItem/AccountServicer may be present but not both."
+    },
+    "ExpectedValueDateRule": {
+      "definition": "Either ExpectedValueDate or OriginalItem/ExpectedValueDate may be present but not both."
+    },
+    "RelatedAccountRule": {
+      "definition": "Either RelatedAccount or OriginalItem/RelatedAccount may be present but not both."
+    }
+  }
+}

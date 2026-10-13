@@ -1,0 +1,23 @@
+{
+  "isoType": "CancellationStatus6Code",
+  "language": "en",
+  "name": "Cancellation Status 6 Code",
+  "definition": "Specifies the cancellation status.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Cancellation instruction / request has been received and has been acknowledged / accepted for further processing."
+    },
+    "CAND": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "Cancellation instruction / request has been accepted and processed, the cancellation is complete."
+    },
+    "RCIS": {
+      "isoName": "ReceivedByIssuerOrRegistrar",
+      "name": "Received By Issuer Or Registrar",
+      "definition": "Cancellation instruction / request has been received by issuer or registrar."
+    }
+  }
+}

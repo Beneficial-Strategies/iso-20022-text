@@ -1,0 +1,56 @@
+{
+  "isoType": "CardIndividualTransaction2",
+  "language": "en",
+  "name": "Card Individual Transaction 2",
+  "definition": "Individual card transaction entry details.",
+  "isoElements": {
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to an integrated circuit card application."
+    },
+    "PaymentContext": {
+      "name": "Payment Context",
+      "definition": "Context of the card payment transaction."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Service in addition to the main service."
+    },
+    "TransactionCategory": {
+      "name": "Transaction Category",
+      "definition": "Category code conform to ISO 18245, related to the type of services or goods the merchant provides for the transaction.|This element is also known as the MerchantCategoryCode."
+    },
+    "SaleReconciliationIdentification": {
+      "name": "Sale Reconciliation Identification",
+      "definition": "Unique identification of the sales reconciliation period between the acceptor and the acquirer. This identification might be linked to the identification of the settlement for further verification by the merchant."
+    },
+    "SaleReferenceNumber": {
+      "name": "Sale Reference Number",
+      "definition": "Unique reference of the sales as provided by the merchant."
+    },
+    "RePresentmentReason": {
+      "name": "Re Presentment Reason",
+      "definition": "Reason for representment of a card transaction."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Sequential number of the card transaction, as assigned by the POI (Point of Interaction). |Usage: The sequential number is increased incrementally for each transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "Product": {
+      "name": "Product",
+      "definition": "Product purchased with the transaction."
+    },
+    "ValidationDate": {
+      "name": "Validation Date",
+      "definition": "Date when the deposit was validated by the financial institution that collected the cash."
+    },
+    "ValidationSequenceNumber": {
+      "name": "Validation Sequence Number",
+      "definition": "Sequential number of the validation of the cash deposit.|Usage: The sequential number is increased incrementally for each transaction."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTransaction30",
+  "language": "en",
+  "name": "ATM Transaction 30",
+  "definition": "Information about reconciliation.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "name": "Type Of Operation",
+      "definition": "Type of logical or physical operation on the ATM for which the counters are computed."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the reconciliation transaction."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period assigned by the ATM."
+    },
+    "Cassette": {
+      "name": "Cassette",
+      "definition": "Information on the cassettes of the ATM."
+    }
+  }
+}

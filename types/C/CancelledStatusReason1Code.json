@@ -1,0 +1,23 @@
+{
+  "isoType": "CancelledStatusReason1Code",
+  "language": "en",
+  "name": "Cancelled Status Reason 1 Code",
+  "definition": "Specifies the underlying reason for cancellation of the associated transaction.",
+  "isoCodes": {
+    "CANI": {
+      "isoName": "CancelledByYourself",
+      "name": "Cancelled By Yourself",
+      "definition": "Transaction is cancelled by yourself."
+    },
+    "CANS": {
+      "isoName": "CancelledBySystem",
+      "name": "Cancelled By System",
+      "definition": "Transaction is cancelled by the system."
+    },
+    "CSUB": {
+      "isoName": "CancelledByAgent",
+      "name": "Cancelled By Agent",
+      "definition": "Transaction is cancelled by the agent."
+    }
+  }
+}

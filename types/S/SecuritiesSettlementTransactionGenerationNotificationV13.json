@@ -1,0 +1,104 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotificationV13",
+  "language": "en",
+  "name": "Securities Settlement Transaction Generation Notification V 13",
+  "definition": "Scope|An account servicer sends a SecuritiesSettlementTransactionGenerationNotification to an account owner to advise the account owner of a securities settlement transaction that has been generated/created by the account servicer for the account owner. The reason for creation can range from the automatic transformation of pending settlement instructions following a corporate event to the recovery of an account owner transactions' database initiated by its account servicer.|The account servicer/owner relationship may be:|- a central securities depository or another settlement market infrastructure acting on behalf of their participants|- an agent (sub-custodian) acting on behalf of their global custodian customer, or|- a custodian acting on behalf of an investment management institution or a broker/dealer||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "TransactionIdentificationDetails": {
+      "name": "Transaction Identification Details",
+      "definition": ""
+    },
+    "NumberCounts": {
+      "name": "Number Counts",
+      "definition": ""
+    },
+    "Linkages": {
+      "name": "Linkages",
+      "definition": ""
+    },
+    "TradeDetails": {
+      "name": "Trade Details",
+      "definition": ""
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": ""
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": ""
+    },
+    "QuantityAndAccountDetails": {
+      "name": "Quantity And Account Details",
+      "definition": ""
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": ""
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": ""
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": ""
+    },
+    "CashParties": {
+      "name": "Cash Parties",
+      "definition": ""
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": ""
+    },
+    "OtherAmounts": {
+      "name": "Other Amounts",
+      "definition": ""
+    },
+    "DigitalPaymentSettlement": {
+      "name": "Digital Payment Settlement",
+      "definition": ""
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": ""
+    },
+    "AdditionalPhysicalOrRegistrationDetails": {
+      "name": "Additional Physical Or Registration Details",
+      "definition": ""
+    },
+    "GeneratedReason": {
+      "name": "Generated Reason",
+      "definition": ""
+    },
+    "StatusAndReason": {
+      "name": "Status And Reason",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "If the TransactionIdentificationDetails/Payment equal to \"Against Payment Settlement\" (APMT) then SettlementAmount must be present."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "If the TransactionIdentificationDetails/SecuritiesMovementType is equal to \"Delivery\" (DELI) then ReceivingSettlementParties/Depository and ReceivingSettlementParties/Party1 must be present."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "If AdditionalPhysicalOrRegistrationDetails is present then the transaction must be free of payment."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "If the TransactionIdentificationDetails/SecuritiesMovementType is equal to \"Receive\" (RECE) then DeliveringSettlementParties/Depository and DeliveringSettlementParties/Party1 must be present."
+    },
+    "CurrencyToSellRule": {
+      "definition": "If CurrencyToSell is present, then the transaction must be a receive."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "If CurrencyToBuy is present, then the transaction must be a delivery."
+    }
+  }
+}

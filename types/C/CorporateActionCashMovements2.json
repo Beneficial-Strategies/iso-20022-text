@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionCashMovements2",
+  "language": "en",
+  "name": "Corporate Action Cash Movements 2",
+  "definition": "Provides information about the cash movement resulting from the election instruction.",
+  "isoElements": {
+    "PostingIdentification": {
+      "name": "Posting Identification",
+      "definition": "Posting identification of the cash movement."
+    },
+    "PostingDateTime": {
+      "name": "Posting Date Time",
+      "definition": "Posting date of the cash movement."
+    },
+    "PostingAmount": {
+      "name": "Posting Amount",
+      "definition": "Amount posted as a result of the cash movement."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Provides information about the account which is debited/credited as a result of the movement."
+    }
+  }
+}

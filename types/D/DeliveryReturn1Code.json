@@ -1,0 +1,43 @@
+{
+  "isoType": "DeliveryReturn1Code",
+  "language": "en",
+  "name": "Delivery Return 1 Code",
+  "definition": "Specifies the type of delivery return.",
+  "isoCodes": {
+    "UNRE": {
+      "isoName": "UnrecognisedDelivery",
+      "name": "Unrecognised Delivery",
+      "definition": "Original delivery is not recognized."
+    },
+    "DQUA": {
+      "isoName": "WrongQuantity",
+      "name": "Wrong Quantity",
+      "definition": "Wrong quantity delivered in the original instruction."
+    },
+    "DMON": {
+      "isoName": "WrongSettlementAmount",
+      "name": "Wrong Settlement Amount",
+      "definition": "Wrong settlement amount settled in the original delivery."
+    },
+    "PART": {
+      "isoName": "PartialDelivery",
+      "name": "Partial Delivery",
+      "definition": "Only a portion of the original transaction quantity was delivered by the Central Securities Depository (CSD)."
+    },
+    "SAFE": {
+      "isoName": "AccountMissing",
+      "name": "Account Missing",
+      "definition": "Account information is missing in the original delivery."
+    },
+    "DUEB": {
+      "isoName": "DueBiillMissing",
+      "name": "Due Biill Missing",
+      "definition": "Due bill information missing in the original delivery."
+    },
+    "PARD": {
+      "isoName": "PartialReturn",
+      "name": "Partial Return",
+      "definition": "Portion of the original transaction quantity was returned by the receiver."
+    }
+  }
+}

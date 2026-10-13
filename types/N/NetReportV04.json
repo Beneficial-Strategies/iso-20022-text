@@ -1,0 +1,33 @@
+{
+  "isoType": "NetReportV04",
+  "language": "en",
+  "name": "Net Report V 04",
+  "definition": "The Net Report message is sent to a participant by a central system to provide details of the bi-lateral payment obligations, calculated by the central system per currency.",
+  "isoElements": {
+    "NetReportData": {
+      "name": "Net Report Data",
+      "definition": ""
+    },
+    "NetServiceParticipantIdentification": {
+      "name": "Net Service Participant Identification",
+      "definition": ""
+    },
+    "NetServiceCounterpartyIdentification": {
+      "name": "Net Service Counterparty Identification",
+      "definition": ""
+    },
+    "NetObligation": {
+      "name": "Net Obligation",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification must only be used at this level if all of the underlying obligations are with a single counterparty."
+    }
+  }
+}

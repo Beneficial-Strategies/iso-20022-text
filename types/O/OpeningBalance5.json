@@ -1,0 +1,21 @@
+{
+  "isoType": "OpeningBalance5",
+  "language": "en",
+  "name": "Opening Balance 5",
+  "definition": "Opening balance for the statement period (first opening balance) or of this page (intermediary opening balance).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "name": "Short Long Indicator",
+      "definition": "Indication that the position is short or long."
+    },
+    "OpeningBalance": {
+      "name": "Opening Balance",
+      "definition": "Opening balance for the statement period (first opening balance) or of this page (intermediary opening balance)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "If Shortlong is absent, then the default is long, that is, balance is positive."
+    }
+  }
+}

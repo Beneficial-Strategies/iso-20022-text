@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters18",
+  "language": "en",
+  "name": "Transaction Type And Additional Parameters 18",
+  "definition": "Securities financing transaction identification information, type (repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing) and other parameters.",
+  "isoElements": {
+    "SecuritiesFinancingTransactionType": {
+      "name": "Securities Financing Transaction Type",
+      "definition": "Specifies the type of securities financing transaction, that is, repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "ReconciliationIndicator": {
+      "name": "Reconciliation Indicator",
+      "definition": "Settlement transaction has already been sent on the market. It is sent by an account owner to an account servicer for reconciliation purposes."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "CorporateActionPeriod18",
+  "language": "en",
+  "name": "Corporate Action Period 18",
+  "definition": "Specifies periods related to a corporate action option.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "name": "Price Calculation Period",
+      "definition": "Period during which the price of a security is determined."
+    },
+    "ParallelTradingPeriod": {
+      "name": "Parallel Trading Period",
+      "definition": "Period during which both old and new equity may be traded simultaneously, for example, consolidation of equity or splitting of equity."
+    },
+    "ActionPeriod": {
+      "name": "Action Period",
+      "definition": "Period during which the specified option, or all options of the event, remains valid, for example, offer period."
+    },
+    "RevocabilityPeriod": {
+      "name": "Revocability Period",
+      "definition": "Period during which the shareholder can revoke, change or withdraw its instruction."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "name": "Privilege Suspension Period",
+      "definition": "Period during which the privilege is not available, for example, this can happen whenever a meeting takes place or whenever a coupon payment is due."
+    },
+    "AccountServicerRevocabilityPeriod": {
+      "name": "Account Servicer Revocability Period",
+      "definition": "Period during which the participant of the account servicer can revoke change or withdraw its instructions."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "name": "Depository Suspension Period For Withdrawal",
+      "definition": "Period defining the last date on which withdrawal in street name requests on the outturn security will be accepted and the date on which the suspension will be released and withdrawal by transfer processing on the outturn security will resume."
+    }
+  }
+}

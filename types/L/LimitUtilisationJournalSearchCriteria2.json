@@ -1,0 +1,32 @@
+{
+  "isoType": "LimitUtilisationJournalSearchCriteria2",
+  "language": "en",
+  "name": "Limit Utilisation Journal Search Criteria 2",
+  "definition": "Defines the criteria used to search for a limit.",
+  "isoElements": {
+    "LimitType": {
+      "name": "Limit Type",
+      "definition": "Type of limit applied by the system at the present time."
+    },
+    "JournalActivityDate": {
+      "name": "Journal Activity Date",
+      "definition": "Date upon which journal activity takes place."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "LimitCurrency": {
+      "name": "Limit Currency",
+      "definition": "Currency unit used to specify the limit amount."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Owner of the account which is being queried."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "name": "Bilateral Limit Counterparty Identification",
+      "definition": "Identification of the system member for which the limit is established."
+    }
+  }
+}

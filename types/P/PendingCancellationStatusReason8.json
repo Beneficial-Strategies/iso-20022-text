@@ -1,0 +1,24 @@
+{
+  "isoType": "PendingCancellationStatusReason8",
+  "language": "en",
+  "name": "Pending Cancellation Status Reason 8",
+  "definition": "Specifies reasons for the pending cancellation status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Specifies the reason why the cancellation request is pending."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    },
+    "AccountServicerDeadlineMissedGuideline": {
+      "definition": "When ReasonCode/Code is ADEA (Account Servicer Deadline Missed), the instruction is assumed to be processed “on a best effort basis” by the account servicer."
+    }
+  }
+}

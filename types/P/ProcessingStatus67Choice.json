@@ -1,0 +1,28 @@
+{
+  "isoType": "ProcessingStatus67Choice",
+  "language": "en",
+  "name": "Processing Status 67 Choice",
+  "definition": "Choice of format for the processing status.",
+  "isoElements": {
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction or request has been rejected for further processing."
+    },
+    "Repair": {
+      "name": "Repair",
+      "definition": "Instruction or request is accepted but in repair."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled. The status on the processing of a cancellation request must be provided using a cancellation request report message."
+    },
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the account servicer."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies a choice of status for the processing of an intra-balance movement."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "UnderlyingTransaction37",
+  "language": "en",
+  "name": "Underlying Transaction 37",
+  "definition": "Identifies the underlying (group of) transaction(s) to which the investigation applies.",
+  "isoElements": {
+    "OriginalGroupInformationAndCancellation": {
+      "name": "Original Group Information And Cancellation",
+      "definition": "Provides information on the original message, to which the cancellation refers."
+    },
+    "OriginalPaymentInformationAndCancellation": {
+      "name": "Original Payment Information And Cancellation",
+      "definition": "Provides information on the original (group of) transactions, to which the cancellation request refers."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndNumberOfTransactionsRule": {
+      "definition": "If OriginalGroupInformationAndCancellation/GroupCancellation is false, then NumberOfTransactions must equal the number of occurrences of TransactionInformation."
+    },
+    "GroupCancellationTrueAndPaymentInformationRule": {
+      "definition": "If OriginalGroupInformationAndCancellation/GroupCancellation is true, then OriginalPaymentInformationAndCancellation is not allowed."
+    },
+    "GroupCancellationFalseAndPaymentInformationRule": {
+      "definition": "If OriginalGroupInformationAndCancellation/GroupCancellation is false, then OriginalPaymentInformationAndCancellation must be present."
+    },
+    "GroupOrPaymentInformationCaseRule": {
+      "definition": "Case may be present at either Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation or TransactionInformation level."
+    },
+    "GroupOrTransactionCaseRule": {
+      "definition": "Case may be present at either Case, OriginalGroupInformationAndCancellation, OriginalPaymentInformationAndCancellation or TransactionInformation level."
+    }
+  }
+}

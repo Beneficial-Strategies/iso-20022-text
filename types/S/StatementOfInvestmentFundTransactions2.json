@@ -1,0 +1,33 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactions2",
+  "language": "en",
+  "name": "Statement Of Investment Fund Transactions 2",
+  "definition": "Information about a statement of investment fund transactions.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": "General information related to the investment fund statement of transactions that is being cancelled."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Information related to an investment account of the statement that is being cancelled."
+    },
+    "TransactionOnAccount": {
+      "name": "Transaction On Account",
+      "definition": "Creation/cancellation of investment units on the books of the fund or its designated agent, as a result of executing an investment fund order."
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": "Sub-account of the safekeeping or investment account."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "If StatementGeneralDetails/ActivityIndicator is \"true\" or \"1\" (Yes), then either TransactionOnAccount or SubAccountDetails must be present. If StatementGeneralDetails/ActivityIndicator is \"false\" or \"0\" (No), then TransactionOnAccount and SubAccountDetails are not allowed."
+    }
+  }
+}

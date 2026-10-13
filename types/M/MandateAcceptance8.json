@@ -1,0 +1,29 @@
+{
+  "isoType": "MandateAcceptance8",
+  "language": "en",
+  "name": "Mandate Acceptance 8",
+  "definition": "Identifies the mandate, which is being accepted.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "name": "Original Message Information",
+      "definition": "Provides information on the original message."
+    },
+    "AcceptanceResult": {
+      "name": "Acceptance Result",
+      "definition": "Provides detailed information on the acceptance result."
+    },
+    "OriginalMandate": {
+      "name": "Original Mandate",
+      "definition": "Provides the original mandate data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "OriginalMandateIdentificationPresenceRule": {
+      "definition": "When AcceptanceResults/Accepted is \"true\" then OriginalMandate/OriginalMandateIdentification must be present or OriginalMandate/OriginalMandate/OriginalMandateIdentification must be present."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "UKTaxGroupUnit1Code",
+  "language": "en",
+  "name": "UK Tax Group Unit 1 Code",
+  "definition": "Specifies the UK tax group to which units belong. For UK tax, the first dividend that an investor receives from a funds investment is deemed to be part income and part return of capital. The capital element is 'equalisation', and is exempt from income tax.",
+  "isoCodes": {
+    "GRP1": {
+      "isoName": "Group1",
+      "name": "Group 1",
+      "definition": "The units that were purchased prior to the last ex-div date."
+    },
+    "GRP2": {
+      "isoName": "Group2",
+      "name": "Group 2",
+      "definition": "The units that were purchased since the ex-div date, and that benefit from the tax exemption."
+    }
+  }
+}

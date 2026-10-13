@@ -1,0 +1,118 @@
+{
+  "isoType": "InvestmentFundTransactionType1Code",
+  "language": "en",
+  "name": "Investment Fund Transaction Type 1 Code",
+  "definition": "Specifies the type of transaction.",
+  "isoCodes": {
+    "ALLL": {
+      "isoName": "All",
+      "name": "All",
+      "definition": "All types of transactions."
+    },
+    "SELL": {
+      "isoName": "SecuritiesSale",
+      "name": "Securities Sale",
+      "definition": "Sale of securities."
+    },
+    "BUYI": {
+      "isoName": "SecuritiesPurchase",
+      "name": "Securities Purchase",
+      "definition": "Purchase of securities."
+    },
+    "SWIO": {
+      "isoName": "SwitchOut",
+      "name": "Switch Out",
+      "definition": "Transaction is a subscription leg of a switch order execution."
+    },
+    "TRIN": {
+      "isoName": "TransferIn",
+      "name": "Transfer In",
+      "definition": "Transaction is an incoming credit to an account on the shareholders register, and is not linked to a shift in investment (subscription or switch), but to account management."
+    },
+    "TOUT": {
+      "isoName": "TransferOut",
+      "name": "Transfer Out",
+      "definition": "Transaction is a debit to an account on the shareholders register, and is not linked to a shift in investment (redemption or switch), but to account management."
+    },
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Transaction is a subscription to an investment fund."
+    },
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Transaction is a redemption of an investment fund."
+    },
+    "CDEP": {
+      "isoName": "CashDeposit",
+      "name": "Cash Deposit",
+      "definition": "Transaction is a cash deposit."
+    },
+    "CWIT": {
+      "isoName": "CashWithdrawal",
+      "name": "Cash Withdrawal",
+      "definition": "Transaction is a cash withdrawal."
+    },
+    "DIVP": {
+      "isoName": "DividendPayment",
+      "name": "Dividend Payment",
+      "definition": "Transaction is the payment of dividends and other proceeds."
+    },
+    "CAEV": {
+      "isoName": "CorporationActionEvent",
+      "name": "Corporation Action Event",
+      "definition": "Transaction is the result of a corporate action."
+    },
+    "CROI": {
+      "isoName": "CrossIn",
+      "name": "Cross In",
+      "definition": "Transaction is a cross-in."
+    },
+    "CROO": {
+      "isoName": "CrossOut",
+      "name": "Cross Out",
+      "definition": "Transaction is a cross out."
+    },
+    "DIVI": {
+      "isoName": "Dividend",
+      "name": "Dividend",
+      "definition": "Transaction is a dividend."
+    },
+    "INSP": {
+      "isoName": "InSpecie",
+      "name": "In Specie",
+      "definition": "Transaction is an InSpecie."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Transaction is another type of transaction."
+    },
+    "REAA": {
+      "isoName": "RedemptionAssetAllocation",
+      "name": "Redemption Asset Allocation",
+      "definition": "Transaction is a redemption in an asset allocation plan which enables investors to withdraw, by percentage a certain amount of cash from several sub-funds of a same umbrella structure."
+    },
+    "RWPL": {
+      "isoName": "RedemptionWithdrawingPlan",
+      "name": "Redemption Withdrawing Plan",
+      "definition": "Transaction is a withdrawal by individuals in the framework of a structured plan for investments made in the past."
+    },
+    "RDIV": {
+      "isoName": "ReinvestmentOfDividend",
+      "name": "Reinvestment Of Dividend",
+      "definition": "Transaction is a reinvestment of dividend."
+    },
+    "SSPL": {
+      "isoName": "SubscriptionSavingsPlan",
+      "name": "Subscription Savings Plan",
+      "definition": "Transaction is a subscription for a savings plan, that is, money set aside by individuals in the framework of a structured plan for a special purpose, for example, retirement."
+    },
+    "SUAA": {
+      "isoName": "SubscriptionAssetAllocation",
+      "name": "Subscription Asset Allocation",
+      "definition": "Transaction is a subscription in an asset allocation plan that enables investors to allocate, by percentage a certain amount of cash into several sub-funds of a same umbrella structure."
+    }
+  }
+}

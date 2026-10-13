@@ -1,0 +1,23 @@
+{
+  "isoType": "CancelledStatusReason3Code",
+  "language": "en",
+  "name": "Cancelled Status Reason 3 Code",
+  "definition": "Specifies the underlying reason for cancellation of the associated transaction.",
+  "isoCodes": {
+    "CNTA": {
+      "isoName": "CancelledByTransferAgent",
+      "name": "Cancelled By Transfer Agent",
+      "definition": "Transaction is cancelled by the transfer agent."
+    },
+    "CNCL": {
+      "isoName": "CancelledByClient",
+      "name": "Cancelled By Client",
+      "definition": "Transaction is cancelled by the client."
+    },
+    "CNIN": {
+      "isoName": "CancelledByIntermediary",
+      "name": "Cancelled By Intermediary",
+      "definition": "Transaction is cancelled by the intermediary."
+    }
+  }
+}

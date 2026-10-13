@@ -1,0 +1,32 @@
+{
+  "isoType": "PriceFormat94Choice",
+  "language": "en",
+  "name": "Price Format 94 Choice",
+  "definition": "Choice between a percentage price or an amount price or an unspecified price or an amount price per amount or an amount price per financial instrument quantity.",
+  "isoElements": {
+    "PercentagePrice": {
+      "name": "Percentage Price",
+      "definition": "Price expressed as a percentage."
+    },
+    "AmountPrice": {
+      "name": "Amount Price",
+      "definition": "Price expressed as a currency and amount."
+    },
+    "NotSpecifiedPrice": {
+      "name": "Not Specified Price",
+      "definition": "Value of the price not specified."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "name": "Amount Price Per Financial Instrument Quantity",
+      "definition": "Price expressed as a ratio: amount price per financial instrument quantity."
+    },
+    "AmountPricePerAmount": {
+      "name": "Amount Price Per Amount",
+      "definition": "Price expressed as a ratio: amount price per amount."
+    },
+    "IndexPoints": {
+      "name": "Index Points",
+      "definition": "Price expressed in index points."
+    }
+  }
+}

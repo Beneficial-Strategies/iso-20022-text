@@ -1,0 +1,44 @@
+{
+  "isoType": "CreditTransferMandateData1",
+  "language": "en",
+  "name": "Credit Transfer Mandate Data 1",
+  "definition": "Provides further details related to a credit transfer mandate signed between the creditor and the debtor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Unique identification, as assigned by the creditor, to unambiguously identify the mandate."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of mandate, such as paper, electronic or scheme."
+    },
+    "DateOfSignature": {
+      "name": "Date Of Signature",
+      "definition": "Date on which the credit transfer mandate has been signed by the debtor."
+    },
+    "DateOfVerification": {
+      "name": "Date Of Verification",
+      "definition": "Date on which the credit transfer mandate has been verified."
+    },
+    "ElectronicSignature": {
+      "name": "Electronic Signature",
+      "definition": "Additional security provisions, such as a digital signature, as provided by the debtor."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date of the first payment of a recurrent credit transfer as per the mandate."
+    },
+    "FinalPaymentDate": {
+      "name": "Final Payment Date",
+      "definition": "Date of the final payment of a recurrent credit transfer as per the mandate."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which credit transfer instructions are to be created and processed."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the setup of the credit transfer mandate.||Usage: |The reason will allow the user to distinguish between different mandates for the same creditor."
+    }
+  }
+}

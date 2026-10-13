@@ -1,0 +1,113 @@
+{
+  "isoType": "ExternalInvestigationStatusReason1Code",
+  "language": "en",
+  "name": "External Investigation Status Reason 1 Code",
+  "definition": "Specifies the reason for the investigation status, as published in an external investigation status reason code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AGNT": {
+      "isoName": "IncorrectAgentOrParty",
+      "name": "Incorrect Agent Or Party",
+      "definition": "Request message has been directed at an incorrect agent or party."
+    },
+    "DU01": {
+      "isoName": "DuplicateRequest",
+      "name": "Duplicate Request",
+      "definition": "Request message is duplicate, duplicate request message is rejected."
+    },
+    "NARR": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "See ResponseData element for additional information."
+    },
+    "FTNA": {
+      "isoName": "InvestigationRequestForwardedToAgentOrParty",
+      "name": "Investigation Request Forwarded To Agent Or Party",
+      "definition": "Request message forwarded to another agent or party, these may be indicated in NextResponder element."
+    },
+    "CAPR": {
+      "isoName": "ClosedAsPerRequest",
+      "name": "Closed As Per Request",
+      "definition": "Investigation closed as per the request message."
+    },
+    "CACR": {
+      "isoName": "ClosedAsCancellationRequestSent",
+      "name": "Closed As Cancellation Request Sent",
+      "definition": "Investigation closed as cancellation request for underlying transaction has been sent."
+    },
+    "ADAC": {
+      "isoName": "AwaitingDebitAuthorityFromCustomer",
+      "name": "Awaiting Debit Authority From Customer",
+      "definition": "Awaiting debit authorisation from customer."
+    },
+    "ARPL": {
+      "isoName": "AwaitingReplyFromCustomer",
+      "name": "Awaiting Reply From Customer",
+      "definition": "Awaiting reply from customer."
+    },
+    "NOAS": {
+      "isoName": "NoAnswerFromCustomer",
+      "name": "No Answer From Customer",
+      "definition": "No reply from customer."
+    },
+    "INPO": {
+      "isoName": "InProgress",
+      "name": "In Progress",
+      "definition": "Collation of response data is still ongoing."
+    },
+    "NOOR": {
+      "isoName": "NoOriginalTransactionReceived",
+      "name": "No Original Transaction Received",
+      "definition": "Underlying transaction never received."
+    },
+    "ARJT": {
+      "isoName": "AlreadyRejectedTransaction",
+      "name": "Already Rejected Transaction",
+      "definition": "Underlying transaction already rejected."
+    },
+    "ARDT": {
+      "isoName": "AlreadyReturned",
+      "name": "Already Returned",
+      "definition": "Investigation request not accepted as the transaction has already been returned."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason."
+    },
+    "LEGL": {
+      "isoName": "LegalDecision",
+      "name": "Legal Decision",
+      "definition": "Reported when the request cannot be accepted because of regulatory rules."
+    },
+    "ESCA": {
+      "isoName": "Escalation",
+      "name": "Escalation",
+      "definition": "Special follow-up is taking place."
+    },
+    "INIT": {
+      "isoName": "IncorrectInvestigationType",
+      "name": "Incorrect Investigation Type",
+      "definition": "Incorrect investigation type used in request message."
+    },
+    "PARE": {
+      "isoName": "PartialResponse",
+      "name": "Partial Response",
+      "definition": "Response message partially addresses the request, a further response message will follow."
+    },
+    "NOAD": {
+      "isoName": "NoAdditionalInformationAvailable",
+      "name": "No Additional Information Available",
+      "definition": "No additional information in relation to the request can be provided."
+    },
+    "G004": {
+      "isoName": "WaitingForCover",
+      "name": "Waiting For Cover",
+      "definition": "Indicates that the credit claim non receipt investigation is pending as the cover creditor is waiting for the credit of the cover."
+    },
+    "CMPI": {
+      "isoName": "CorrectionMadeAsPerInquiry",
+      "name": "Correction Made As Per Inquiry",
+      "definition": "Is related to a Correction Made as Per Inquiry procedure for investigation status Closed (CLSD)."
+    }
+  }
+}

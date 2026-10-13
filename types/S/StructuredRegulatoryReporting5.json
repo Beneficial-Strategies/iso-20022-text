@@ -1,0 +1,37 @@
+{
+  "isoType": "StructuredRegulatoryReporting5",
+  "language": "en",
+  "name": "Structured Regulatory Reporting 5",
+  "definition": "Information needed due to regulatory and statutory requirements.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the information supplied in the regulatory reporting details."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date related to the specified type of regulatory reporting details."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country related to the specified type of regulatory reporting details."
+    },
+    "ReportingCode": {
+      "name": "Reporting Code",
+      "definition": "Specifies the nature, purpose, and reason for the transaction to be reported for regulatory and statutory requirements in a coded form."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money to be reported for regulatory and statutory requirements."
+    },
+    "Information": {
+      "name": "Information",
+      "definition": "Additional details that cater for specific domestic regulatory requirements."
+    }
+  },
+  "isoRules": {
+    "ReportingCodeAndInformationRule": {
+      "definition": "Reporting code or information must be present. Both may be present."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "DetailedInstructionCancellationStatus16",
+  "language": "en",
+  "name": "Detailed Instruction Cancellation Status 16",
+  "definition": "Status applying to individual cancellation instructions of a meeting instruction cancellation request message.",
+  "isoElements": {
+    "SingleInstructionCancellationIdentification": {
+      "name": "Single Instruction Cancellation Identification",
+      "definition": "Identification of the specific individual instruction cancellation request from the original meeting instruction cancellation request message identified in InstructionType/ InstructionCancellationIdentification, for which the status is provided."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the securities account."
+    },
+    "SubAccountIdentification": {
+      "name": "Sub Account Identification",
+      "definition": "Identification of the subaccount within the safekeeping account."
+    },
+    "InstructionCancellationStatus": {
+      "name": "Instruction Cancellation Status",
+      "definition": "Status of an individual meeting instruction cancellation request."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "If SubAccountIdentification is present, then AccountIdentification must be present."
+    }
+  }
+}

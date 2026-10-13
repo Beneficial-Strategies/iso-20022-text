@@ -1,0 +1,20 @@
+{
+  "isoType": "CashDepositOrWithdrawalStatusUpdateV01",
+  "language": "en",
+  "name": "Cash Deposit Or Withdrawal Status Update V 01",
+  "definition": "The CashDepositOrWithdrawalStatusUpdate message reports the status of a cash deposit request or cash withdrawal request.|Where reporting on the status of a cash deposit request, it is sent by a cash receiver to a cash sender.|Where reporting on the status of a cash withdrawal request, it is sent by a cash sender to a cash receiver.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "RequestInformationAndStatus": {
+      "name": "Request Information And Status",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

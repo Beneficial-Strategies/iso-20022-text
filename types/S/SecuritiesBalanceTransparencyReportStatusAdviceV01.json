@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesBalanceTransparencyReportStatusAdviceV01",
+  "language": "en",
+  "name": "Securities Balance Transparency Report Status Advice V 01",
+  "definition": "SCOPE||An account owner, such as a custodian, central securities depository, international securities depository or transfer agent, sends the SecuritiesBalanceTransparencyReportStatusAdvice message in response to a SecuritiesBalanceTransparencyReport, to accept or reject the statement of holdings as sent in a SecuritiesBalanceTransparencyReport.||USAGE|The SecuritiesBalanceTransparencyReportStatusAdvice is used to accept (Accepted), partially accept (Accepted With Exception) or reject (Rejected) a previously received SecuritiesBalanceTransparencyReport.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "SenderIdentification": {
+      "name": "Sender Identification",
+      "definition": ""
+    },
+    "ReceiverIdentification": {
+      "name": "Receiver Identification",
+      "definition": ""
+    },
+    "RelatedStatement": {
+      "name": "Related Statement",
+      "definition": ""
+    },
+    "Status": {
+      "name": "Status",
+      "definition": ""
+    },
+    "NumberOfItemsPerStatus": {
+      "name": "Number Of Items Per Status",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

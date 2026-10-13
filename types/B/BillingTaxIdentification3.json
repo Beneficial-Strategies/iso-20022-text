@@ -1,0 +1,20 @@
+{
+  "isoType": "BillingTaxIdentification3",
+  "language": "en",
+  "name": "Billing Tax Identification 3",
+  "definition": "Specifies the tax identification related to a service to be billed.",
+  "isoElements": {
+    "VATRegistrationNumber": {
+      "name": "VAT Registration Number",
+      "definition": "Value added tax (VAT) registration number as provided by the region’s local taxing authority."
+    },
+    "TaxRegistrationNumber": {
+      "name": "Tax Registration Number",
+      "definition": "Tax registration number (TRN) as provided by the tax region’s local taxing authority."
+    },
+    "TaxContact": {
+      "name": "Tax Contact",
+      "definition": "Specifies financial institution's contact details for the tax region. This contact works for the financial institution, not the tax region."
+    }
+  }
+}

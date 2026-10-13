@@ -1,0 +1,33 @@
+{
+  "isoType": "ChequeType2Code",
+  "language": "en",
+  "name": "Cheque Type 2 Code",
+  "definition": "Specifies the type of cheque.",
+  "isoCodes": {
+    "CCHQ": {
+      "isoName": "CustomerCheque",
+      "name": "Customer Cheque",
+      "definition": "Cheque drawn on the account of the debtor, and debited on the debtor's account when the cheque is cashed. Synonym is 'corporate cheque'."
+    },
+    "CCCH": {
+      "isoName": "CertifiedCustomerCheque",
+      "name": "Certified Customer Cheque",
+      "definition": "Cheque drawn on the account of the debtor, and debited on the debtor's account when the cheque is cashed. The financial institution prints and certifies the cheque, guaranteeing the payment."
+    },
+    "BCHQ": {
+      "isoName": "BankCheque",
+      "name": "Bank Cheque",
+      "definition": "Cheque drawn on the account of the debtor's financial institution, which is debited on the debtor's account when the cheque is issued.These cheques are printed by the debtor's financial institution and payment is guaranteed by the financial institution. Synonym is 'cashier's cheque'."
+    },
+    "DRFT": {
+      "isoName": "Draft",
+      "name": "Draft",
+      "definition": "A guaranteed bank cheque with a future value date (do not pay before], which in commercial terms is a 'negotiatable instrument': the beneficiary can receive early payment from any bank under subtraction of a discount. The ordering customer's account is debited on value date."
+    },
+    "ELDR": {
+      "isoName": "ElectronicDraft",
+      "name": "Electronic Draft",
+      "definition": "An instrument with a future value date (do not pay before], which in commercial terms is a 'negotiatable instrument': the beneficiary can receive early payment from any bank under subtraction of a discount. The ordering customer's account is debited on value date."
+    }
+  }
+}

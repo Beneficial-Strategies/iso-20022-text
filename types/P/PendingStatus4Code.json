@@ -1,0 +1,93 @@
+{
+  "isoType": "PendingStatus4Code",
+  "language": "en",
+  "name": "Pending Status 4 Code",
+  "definition": "Indicates that the state of a payment at the clearing agent side is pending.",
+  "isoCodes": {
+    "ACPD": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Transaction has been accepted by the clearing agent."
+    },
+    "VALD": {
+      "isoName": "Validated",
+      "name": "Validated",
+      "definition": "Transaction has been validated by the clearing agent."
+    },
+    "MATD": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Transaction has been matched with a corresponding transaction by the clearing agent."
+    },
+    "AUTD": {
+      "isoName": "Authorised",
+      "name": "Authorised",
+      "definition": "Transaction has been authorised by the transaction administrator or authorised party."
+    },
+    "INVD": {
+      "isoName": "Invalid",
+      "name": "Invalid",
+      "definition": "Transaction is invalid."
+    },
+    "UMAC": {
+      "isoName": "Unmatched",
+      "name": "Unmatched",
+      "definition": "Clearing agent attempted to match the transaction with a corresponding transaction but failed."
+    },
+    "STLE": {
+      "isoName": "SettlementEligible",
+      "name": "Settlement Eligible",
+      "definition": "Transaction is eligible for future settlement."
+    },
+    "STLM": {
+      "isoName": "SettlementMature",
+      "name": "Settlement Mature",
+      "definition": "Transaction is eligible for immediate settlement."
+    },
+    "SSPD": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "Transaction has been suspended by the clearing agent."
+    },
+    "PCAN": {
+      "isoName": "PendingCancellation",
+      "name": "Pending Cancellation",
+      "definition": "Clearing agent has received a cancellation request for the transaction, and needs either a matching request for cancellation from the counterparty or a confirmation from an authorised party."
+    },
+    "PSTL": {
+      "isoName": "PendingSettlement",
+      "name": "Pending Settlement",
+      "definition": "Transaction is eligible for settlement, but is pending."
+    },
+    "PFST": {
+      "isoName": "PendingFailingSettlement",
+      "name": "Pending Failing Settlement",
+      "definition": "Transaction eligible for immediate settlement, has failed to settle."
+    },
+    "SMLR": {
+      "isoName": "SenderMultilateralLimitRelated",
+      "name": "Sender Multilateral Limit Related",
+      "definition": "Transaction causes the 'Sender multilateral limit' to be exceeded and cannot currently be processed."
+    },
+    "RMLR": {
+      "isoName": "ReceiverMultilateralLimitRelated",
+      "name": "Receiver Multilateral Limit Related",
+      "definition": "Transaction causes the 'Receiver multilateral limit' to be exceeded and cannot currently be processed."
+    },
+    "SRBL": {
+      "isoName": "SenderReceiverBilateralLimitRelated",
+      "name": "Sender Receiver Bilateral Limit Related",
+      "definition": "Transaction causes the bilateral limit fixed between Sender and Receiver to be exceeded and cannot currently be processed."
+    },
+    "AVLB": {
+      "isoName": "HeldForServiceAvailability",
+      "name": "Held For Service Availability",
+      "definition": "Specifies that the message is queued to the receiving payment system and is awaiting processing because the receiving payment system is not operational (open) at that point in time."
+    },
+    "SRML": {
+      "isoName": "SenderReceiverMultilateralLimitRelated",
+      "name": "Sender Receiver Multilateral Limit Related",
+      "definition": "Transaction causes the multilateral limits fixed between Sender and Receiver to be exceeded by the total amount of submitted payments at the end of the day and cannot currently be processed."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "ATMSecurityDevice2",
+  "language": "en",
+  "name": "ATM Security Device 2",
+  "definition": "Hardware security module of the ATM.",
+  "isoElements": {
+    "DeviceProperty": {
+      "name": "Device Property",
+      "definition": "Hardware security module information, so called EPP for Encrypted PIN Pad."
+    },
+    "CurrentConfiguration": {
+      "name": "Current Configuration",
+      "definition": "Configuration parameters in use by the security device."
+    },
+    "SupportedConfiguration": {
+      "name": "Supported Configuration",
+      "definition": "Configuration parameters supported by the security device."
+    },
+    "CurrentStatus": {
+      "name": "Current Status",
+      "definition": "Current status of the security device."
+    },
+    "Incident": {
+      "name": "Incident",
+      "definition": "Incident occurring on the device."
+    },
+    "BindingState": {
+      "name": "Binding State",
+      "definition": "Binding state of the security device."
+    }
+  }
+}

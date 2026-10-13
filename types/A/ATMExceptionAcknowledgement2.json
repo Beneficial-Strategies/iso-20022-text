@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMExceptionAcknowledgement2",
+  "language": "en",
+  "name": "ATM Exception Acknowledgement 2",
+  "definition": "Information related to the acknowledgement of an ATM exception.",
+  "isoElements": {
+    "ATM": {
+      "name": "ATM",
+      "definition": "ATM information."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed, if any."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Acknowledgement of the exception advice."
+    }
+  }
+}

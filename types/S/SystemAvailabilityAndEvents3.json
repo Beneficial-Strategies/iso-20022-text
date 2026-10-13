@@ -1,0 +1,24 @@
+{
+  "isoType": "SystemAvailabilityAndEvents3",
+  "language": "en",
+  "name": "System Availability And Events 3",
+  "definition": "Specifies the details about the system availability and the related system events that might impact the availability.",
+  "isoElements": {
+    "SystemCurrency": {
+      "name": "System Currency",
+      "definition": "Currency which may be processed by the system. A system may process transactions in a single currency or in multiple currencies."
+    },
+    "SessionPeriod": {
+      "name": "Session Period",
+      "definition": "Time window of system activity."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Detailed information about an event occurring on a system, whether planned, such as the cut-off time for a specific type of eligible transfer, or unplanned (an unsolicited failure), as stipulated in the specifications of the system."
+    },
+    "ClosureInformation": {
+      "name": "Closure Information",
+      "definition": "Information regarding the closure time of a system."
+    }
+  }
+}

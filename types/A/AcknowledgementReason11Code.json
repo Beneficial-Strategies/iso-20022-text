@@ -1,0 +1,23 @@
+{
+  "isoType": "AcknowledgementReason11Code",
+  "language": "en",
+  "name": "Acknowledgement Reason 11 Code",
+  "definition": "Specifies additional information about the processed instruction.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline. Processed on best effort basis."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    },
+    "SMPG": {
+      "isoName": "MarketPracticeRuleDiscrepency",
+      "name": "Market Practice Rule Discrepency",
+      "definition": "Instruction is accepted but does not comply with the market practice rule published for the concerned market or process."
+    }
+  }
+}

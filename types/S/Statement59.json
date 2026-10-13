@@ -1,0 +1,53 @@
+{
+  "isoType": "Statement59",
+  "language": "en",
+  "name": "Statement 59",
+  "definition": "General characteristics related to a statement which reports information for a precise date.",
+  "isoElements": {
+    "SenderBusinessRole": {
+      "name": "Sender Business Role",
+      "definition": "Specifies the business role of the message sender and, therefore, the business relationship between the sender and the receiver (or the interests represented by them, in those cases where another entity is acting on behalf of the sender or receiver). The message is exchanged between two entities, one being the account servicer and the other the account owner, and the message can be used with either one as the sender."
+    },
+    "StatementNumber": {
+      "name": "Statement Number",
+      "definition": "Sequential number of the report."
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the query message sent to request this statement."
+    },
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Reference common to all pages of the statement."
+    },
+    "StatementDateTime": {
+      "name": "Statement Date Time",
+      "definition": "Date and time when the statement was created."
+    },
+    "StatementPeriod": {
+      "name": "Statement Period",
+      "definition": "Date period for which the statement was created."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "FrequencyGranularity": {
+      "name": "Frequency Granularity",
+      "definition": "Granularity of the frequency used for the reporting."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Specifies whether the statement is complete or contains changes only."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or updated information reported in the statement."
+    }
+  },
+  "isoRules": {
+    "FrequencyGranularityGuideline": {
+      "definition": "FrequencyGranularity should be within the limits of the Frequency, such as Frequency equals Monthly and FrequencyGranularity equals Daily."
+    }
+  }
+}

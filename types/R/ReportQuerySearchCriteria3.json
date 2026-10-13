@@ -1,0 +1,44 @@
+{
+  "isoType": "ReportQuerySearchCriteria3",
+  "language": "en",
+  "name": "Report Query Search Criteria 3",
+  "definition": "Defines the criteria used to search for a report.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Numerical representation of the net increases and decreases in an account at a specific point in time. A cash balance is calculated from a sum of cash credits minus a sum of cash debits."
+    },
+    "ReportName": {
+      "name": "Report Name",
+      "definition": "Values of possible reports."
+    },
+    "MessageNameIdentification": {
+      "name": "Message Name Identification",
+      "definition": "Specifies the query message name identifier to which the message refers."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Report owning party."
+    },
+    "ResponsiblePartyIdentification": {
+      "name": "Responsible Party Identification",
+      "definition": "Responsible Party of the report owning party."
+    },
+    "DateSearch": {
+      "name": "Date Search",
+      "definition": "Date and time when the report was created."
+    },
+    "ScheduledTime": {
+      "name": "Scheduled Time",
+      "definition": "Time when the (business) event, which triggered the report, was scheduled."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Execution type is executed based on an event driven trigger."
+    }
+  }
+}

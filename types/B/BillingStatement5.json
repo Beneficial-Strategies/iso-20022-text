@@ -1,0 +1,60 @@
+{
+  "isoType": "BillingStatement5",
+  "language": "en",
+  "name": "Billing Statement 5",
+  "definition": "Details of the statement reporting the bank services billing.",
+  "isoElements": {
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Identification of the customer billing statement."
+    },
+    "FromToDate": {
+      "name": "From To Date",
+      "definition": "Date range between the start date and the end date for which the statement is issued."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date the statement message was created."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Defines the status of the statement."
+    },
+    "AccountCharacteristics": {
+      "name": "Account Characteristics",
+      "definition": "Specifies the details of the account characteristics."
+    },
+    "RateData": {
+      "name": "Rate Data",
+      "definition": "Identifies the non tax per annum rate and factor values used within the statement along with any time dependent charge basis."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Specifies details related to currency exchange data."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Identifies the average value of balances held within the statement period."
+    },
+    "Compensation": {
+      "name": "Compensation",
+      "definition": "Identifies the set of values and totals that are used to provide compensation information, service and tax totals."
+    },
+    "Service": {
+      "name": "Service",
+      "definition": "Specifies the values used for every line item service in the statement."
+    },
+    "TaxRegion": {
+      "name": "Tax Region",
+      "definition": "Tax region that levy a tax on the services within this statement."
+    },
+    "BalanceAdjustment": {
+      "name": "Balance Adjustment",
+      "definition": "One or more sections that identify balance or float adjustments to the account. They can reflect either adjustments to the current statement or adjustments to statements from prior reporting periods."
+    },
+    "ServiceAdjustment": {
+      "name": "Service Adjustment",
+      "definition": "One or more sections that identify line item service adjustments to the account. They reflect adjustments to statements from prior reporting periods."
+    }
+  }
+}

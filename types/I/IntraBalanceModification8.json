@@ -1,0 +1,40 @@
+{
+  "isoType": "IntraBalanceModification8",
+  "language": "en",
+  "name": "Intra Balance Modification 8",
+  "definition": "Provides the details of the modification requests.",
+  "isoElements": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that owns the account."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the cash account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status and status reason of the transaction."
+    },
+    "RequestReference": {
+      "name": "Request Reference",
+      "definition": "Unambiguous identification of the modification request."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "RequestDetails": {
+      "name": "Request Details",
+      "definition": "Details of the request providing the changes and references of the instruction for which the modification is requested."
+    },
+    "UnderlyingIntraBalance": {
+      "name": "Underlying Intra Balance",
+      "definition": "Identifies additional details of the transaction."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionActivity1Code",
+  "language": "en",
+  "name": "Transaction Activity 1 Code",
+  "definition": "Specifies the type of activity to which this transaction relates.",
+  "isoCodes": {
+    "BOLE": {
+      "isoName": "BorrowingLendingActivity",
+      "name": "Borrowing Lending Activity",
+      "definition": "Transaction relates to lending/borrowing."
+    },
+    "CLAI": {
+      "isoName": "MarketClaim",
+      "name": "Market Claim",
+      "definition": "Transaction relates to a market claim following a corporate action."
+    },
+    "COLL": {
+      "isoName": "CollateralActivity",
+      "name": "Collateral Activity",
+      "definition": "Transaction relates to collateral."
+    },
+    "CORP": {
+      "isoName": "CorporateActionActivity",
+      "name": "Corporate Action Activity",
+      "definition": "Transaction relates to corporate action."
+    },
+    "SETT": {
+      "isoName": "SettlementandClearingActivity",
+      "name": "Settlementand Clearing Activity",
+      "definition": "Transaction relates to settlement and clearing."
+    }
+  }
+}

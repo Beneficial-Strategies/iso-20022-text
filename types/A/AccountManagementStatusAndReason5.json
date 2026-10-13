@@ -1,0 +1,44 @@
+{
+  "isoType": "AccountManagementStatusAndReason5",
+  "language": "en",
+  "name": "Account Management Status And Reason 5",
+  "definition": "Status information.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the account management instruction that was previously received."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Reason for the status of the account management instruction."
+    },
+    "AccountApplicationIdentification": {
+      "name": "Account Application Identification",
+      "definition": "Unique and unambiguous identifier of the account opening or modification instruction at application level."
+    },
+    "ExistingAccountIdentification": {
+      "name": "Existing Account Identification",
+      "definition": "Account to which the account opening is related."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountStatus": {
+      "name": "Account Status",
+      "definition": "Status of the account."
+    },
+    "BlockedStatus": {
+      "name": "Blocked Status",
+      "definition": "Specifies the account is blocked and other factors for the blocked account."
+    },
+    "FATCAReportingDate": {
+      "name": "FATCA Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    },
+    "CRSReportingDate": {
+      "name": "CRS Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "PartyIdentificationAndAccount220",
+  "language": "en",
+  "name": "Party Identification And Account 220",
+  "definition": "Entity involved in an activity.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Information related to an identification, eg, party identification or account identification."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Unambiguous identification of the transaction for the party identified."
+    },
+    "CountryOfResidence": {
+      "name": "Country Of Residence",
+      "definition": "Country in which a person resides (the place of a person's home). In the case of a company, it is the country from which the affairs of that company are directed."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information regarding the party."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Alternate identification for a party."
+    }
+  },
+  "isoRules": {
+    "IdentificationUsageRule": {
+      "definition": "The presence of Identification and/or CountryOfResidence is mandatory."
+    }
+  }
+}

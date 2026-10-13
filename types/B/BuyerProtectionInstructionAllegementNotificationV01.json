@@ -1,0 +1,32 @@
+{
+  "isoType": "BuyerProtectionInstructionAllegementNotificationV01",
+  "language": "en",
+  "name": "Buyer Protection Instruction Allegement Notification V 01",
+  "definition": "Scope|An account servicer sends a BuyerProtectionInstructionAllegementNotification to an account owner to advise the account owner that a counterparty has alleged a Buyer Protection Instruction against the account owner's account at the account servicer. An action may be required by the account owner.||Usage|The message may also be used to:|- re-send a message previously sent,|- provide a third party with a copy of a message for information,|- re-send to a third party a copy of a message for information using the relevant elements in the Business Application Header.",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": ""
+    },
+    "RelatedSettlementInstruction": {
+      "name": "Related Settlement Instruction",
+      "definition": ""
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": ""
+    },
+    "CorporateActionElection": {
+      "name": "Corporate Action Election",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

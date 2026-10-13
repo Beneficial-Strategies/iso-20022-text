@@ -1,0 +1,20 @@
+{
+  "isoType": "InstructionStatus14Choice",
+  "language": "en",
+  "name": "Instruction Status 14 Choice",
+  "definition": "Status applying globally to the instruction received.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Status advising on the processing of the instruction."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status advising on the rejection of the instruction and on the reason for the rejection."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Status advising that the instruction is pending and advising on the reason for the pending status."
+    }
+  }
+}

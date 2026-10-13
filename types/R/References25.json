@@ -1,0 +1,20 @@
+{
+  "isoType": "References25",
+  "language": "en",
+  "name": "References 25",
+  "definition": "Provides a set of identifications to reference to a securities settlement transaction.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the transaction other than the account holder, the account servicer and the non-CSD market infrastructure."
+    }
+  }
+}

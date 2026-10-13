@@ -1,0 +1,16 @@
+{
+  "isoType": "AgentDocumentIdentificationAndStatus2Choice",
+  "language": "en",
+  "name": "Agent Document Identification And Status 2 Choice",
+  "definition": "Choice between the Identification and status of the corporate action notification advice or the notification cancellation request sent by the agent.",
+  "isoElements": {
+    "AgentCANotificationAdviceIdentificationAndStatus": {
+      "name": "Agent CA Notification Advice Identification And Status",
+      "definition": "Identification of the linked Agent CA Notification Advice for which a status is given."
+    },
+    "AgentCANotificationCancellationRequestIdentificationAndStatus": {
+      "name": "Agent CA Notification Cancellation Request Identification And Status",
+      "definition": "Identification of the linked Agent CA Notification Cancellation Request for which a status is given."
+    }
+  }
+}

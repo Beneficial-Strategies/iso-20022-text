@@ -1,0 +1,28 @@
+{
+  "isoType": "ProtectInstruction4",
+  "language": "en",
+  "name": "Protect Instruction 4",
+  "definition": "Provides detailed information on protect and cover protect instructions.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Indicates whether the instruction is a protect or a cover protect instruction."
+    },
+    "ProtectTransactionStatus": {
+      "name": "Protect Transaction Status",
+      "definition": "Status of the protect transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique reference of the protect transaction assigned by the depository and used for cover protect validation."
+    },
+    "ProtectDate": {
+      "name": "Protect Date",
+      "definition": "Date at which the protect instruction was created and used for cover protect validation."
+    },
+    "UncoveredProtectQuantity": {
+      "name": "Uncovered Protect Quantity",
+      "definition": "Remaining quantity of protect instruction which has not been covered."
+    }
+  }
+}

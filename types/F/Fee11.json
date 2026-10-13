@@ -1,0 +1,53 @@
+{
+  "isoType": "Fee11",
+  "language": "en",
+  "name": "Fee 11",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of fee (charge/commission)."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Method used to calculate the fee (charge/commission)."
+    },
+    "StandardAmount": {
+      "name": "Standard Amount",
+      "definition": "Standard fee (charge/commission) amount as specified in the fund prospectus or agreed for the account."
+    },
+    "StandardRate": {
+      "name": "Standard Rate",
+      "definition": "Standard fee (charge/commission) rate used to calculate the amount of the charge or fee, as specified in the fund prospectus or agreed for the account."
+    },
+    "DiscountDetails": {
+      "name": "Discount Details",
+      "definition": "Discount or waiver applied to the fee (charge/commission)."
+    },
+    "AppliedAmount": {
+      "name": "Applied Amount",
+      "definition": "Fee (charge/commission) amount applied to the transaction."
+    },
+    "AppliedRate": {
+      "name": "Applied Rate",
+      "definition": "Final rate used to calculate the fee (charge/commission) amount."
+    },
+    "NonStandardSLAReference": {
+      "name": "Non Standard SLA Reference",
+      "definition": "Reference to a sales agreement that overrides normal processing or the Service Level Agreement (SLA), such as a fee (charge/commission)."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Party entitled to the amount of money resulting from a fee (charge/commission)."
+    },
+    "InformativeIndicator": {
+      "name": "Informative Indicator",
+      "definition": "Indicates the information is provided for information purposes only. When the value is ‘false’ or ‘0’ the amount provided is taken into consideration in the transaction overhead. When the value is ‘true’ or ‘1’ the amount provided is not taken into consideration in the transaction overhead."
+    }
+  },
+  "isoRules": {
+    "AppliedAmountRule": {
+      "definition": "If InformativeIndicator is \"false\" or \"0\" (No), then AppliedAmount must be present."
+    }
+  }
+}

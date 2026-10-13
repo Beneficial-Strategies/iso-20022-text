@@ -1,0 +1,28 @@
+{
+  "isoType": "InvestmentAccountOpening4",
+  "language": "en",
+  "name": "Investment Account Opening 4",
+  "definition": "Information about the type of opening instruction and identification of the application request.",
+  "isoElements": {
+    "OpeningType": {
+      "name": "Opening Type",
+      "definition": "Specifies if the account opening instruction is about a newly created account or a supplementary account."
+    },
+    "AccountApplicationIdentification": {
+      "name": "Account Application Identification",
+      "definition": "Unique and unambiguous identifier of the account opening request at application level."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous identification of a transaction, for example, a transfer, as assigned by the investor or account owner."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transaction, for example, a transfer, as allocated by the counterparty."
+    },
+    "ExistingAccountIdentification": {
+      "name": "Existing Account Identification",
+      "definition": "Account to which the account opening is related."
+    }
+  }
+}

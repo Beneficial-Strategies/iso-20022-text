@@ -1,0 +1,32 @@
+{
+  "isoType": "TrackerRecord8",
+  "language": "en",
+  "name": "Tracker Record 8",
+  "definition": "Specifies the agent specific tracking system information of a payment transaction.",
+  "isoElements": {
+    "PartyOrAgentIdentification": {
+      "name": "Party Or Agent Identification",
+      "definition": "Identification of a party or agent in the tracker."
+    },
+    "InterbankSettlementAmount": {
+      "name": "Interbank Settlement Amount",
+      "definition": "Amount of money moved between the instructing agent and the instructed agent."
+    },
+    "ChargeBearer": {
+      "name": "Charge Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "ChargesAmount": {
+      "name": "Charges Amount",
+      "definition": "Transaction charges to be paid by the charge bearer."
+    },
+    "ExchangeRateData": {
+      "name": "Exchange Rate Data",
+      "definition": "Provides details of the rate and the currencies used in the foreign exchange."
+    },
+    "ProcessingDateTime": {
+      "name": "Processing Date Time",
+      "definition": "Date/time at which the instruction was processed by the specified party."
+    }
+  }
+}

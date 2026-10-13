@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementInstruction14",
+  "language": "en",
+  "name": "Settlement Instruction 14",
+  "definition": "Provides further details on the settlement of the instruction.",
+  "isoElements": {
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method used to settle the (batch of) payment instructions."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "A specific purpose account used to post debit and credit entries as a result of the transaction."
+    },
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Specification of a pre-agreed offering between clearing agents or the channel through which the payment instruction is processed."
+    }
+  },
+  "isoRules": {
+    "SettlementMethodAgentRule": {
+      "definition": "If SettlementMethod is equal to INDA or INGA, then ClearingSystem is not allowed."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "If SettlementMethod is equal to CLRG, then ClearingSystem must be present and SettlementAccount is not allowed."
+    }
+  }
+}

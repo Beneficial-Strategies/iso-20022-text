@@ -1,0 +1,243 @@
+{
+  "isoType": "RejectedStatusReason13Code",
+  "language": "en",
+  "name": "Rejected Status Reason 13 Code",
+  "definition": "Specifies the reason for a transfer or settlement instruction rejected status.",
+  "isoCodes": {
+    "BLCA": {
+      "isoName": "AccountBlockedForCorporateAction",
+      "name": "Account Blocked For Corporate Action",
+      "definition": "Investment account is blocked due to a corporate action."
+    },
+    "DOCC": {
+      "isoName": "AccountBlockedMissingDocuments",
+      "name": "Account Blocked Missing Documents",
+      "definition": "Investment account is blocked until certain legal proceedings are completed, for example, legal documents from the successor, legal proceedings due to bankruptcy."
+    },
+    "IAQD": {
+      "isoName": "AcquisitionDate",
+      "name": "Acquisition Date",
+      "definition": "Acquisition date is not recognised or is invalid."
+    },
+    "ICTN": {
+      "isoName": "CertificateNumber",
+      "name": "Certificate Number",
+      "definition": "Certificate number is not recognised or is invalid."
+    },
+    "CYPA": {
+      "isoName": "CurrentYearPartial",
+      "name": "Current Year Partial",
+      "definition": "Partial transfer of current year is not allowed, that is, it is not possible to transfer one asset for the current year as other assets are held for the current year."
+    },
+    "TREF": {
+      "isoName": "DuplicateTransferReference",
+      "name": "Duplicate Transfer Reference",
+      "definition": "Transfer reference is a duplicate of a previously received transfer."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrumentIdentification",
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the security is not recognised or is invalid."
+    },
+    "IDNA": {
+      "isoName": "FinancialInstrumentIdentificationAndName",
+      "name": "Financial Instrument Identification And Name",
+      "definition": "Identification of the security and the security name are not the same."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Financial instrument quantity is invalid."
+    },
+    "FTAX": {
+      "isoName": "FinancialInstrumentTaxYear",
+      "name": "Financial Instrument Tax Year",
+      "definition": "Financial instrument is not valid for the requested tax year."
+    },
+    "INID": {
+      "isoName": "InsufficientInvestorData",
+      "name": "Insufficient Investor Data",
+      "definition": "Investor data is insufficient. Applicable when the mandated market practice is not followed."
+    },
+    "INAC": {
+      "isoName": "InvalidAccountServicer",
+      "name": "Invalid Account Servicer",
+      "definition": "Account servicer is not recognised or is invalid."
+    },
+    "CASH": {
+      "isoName": "InvalidCashAccount",
+      "name": "Invalid Cash Account",
+      "definition": "Cash account is not recognised or invalid."
+    },
+    "INPM": {
+      "isoName": "InvalidNewPlanManager",
+      "name": "Invalid New Plan Manager",
+      "definition": "New plan manager is not recognised or is invalid."
+    },
+    "INNA": {
+      "isoName": "InvalidNomineeAccount",
+      "name": "Invalid Nominee Account",
+      "definition": "Nominee account is not recognised or is invalid."
+    },
+    "SAFE": {
+      "isoName": "InvestmentAccount",
+      "name": "Investment Account",
+      "definition": "Investment account identification is not recognised or is invalid."
+    },
+    "INUK": {
+      "isoName": "InvestorNameAddressUnknown",
+      "name": "Investor Name Address Unknown",
+      "definition": "Investor name and address is not recognised."
+    },
+    "LEGL": {
+      "isoName": "LegallyImpossible",
+      "name": "Legally Impossible",
+      "definition": "Legally impossible to cancel."
+    },
+    "NSLA": {
+      "isoName": "NotCompliantWithSLA",
+      "name": "Not Compliant With SLA",
+      "definition": "Instruction is not compliant with the service level agreement."
+    },
+    "SECU": {
+      "isoName": "NotEnoughFinancialInstrument",
+      "name": "Not Enough Financial Instrument",
+      "definition": "There are not enough securities in the account to process the instruction."
+    },
+    "PTNS": {
+      "isoName": "PartialNotSupported",
+      "name": "Partial Not Supported",
+      "definition": "Partial transfer is not supported. Applicable when tax years are rolled up and because, for example, a transfer request for tax year 2000 only is received, it is not possible to process the transfer as the investor holds other tax years as well."
+    },
+    "DLVY": {
+      "isoName": "PhysicalDeliveryImpossible",
+      "name": "Physical Delivery Impossible",
+      "definition": "Order contains physical delivery details but the fund can not be physically delivered."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Cash settlement date is not recognised or is invalid."
+    },
+    "ISTP": {
+      "isoName": "SettlementParties",
+      "name": "Settlement Parties",
+      "definition": "One or several settlement parties are not recognised or are invalid."
+    },
+    "DEPT": {
+      "isoName": "SettlementPlace",
+      "name": "Settlement Place",
+      "definition": "Place of settlement is not recognised or is invalid."
+    },
+    "ISAT": {
+      "isoName": "InvalidISAType",
+      "name": "Invalid ISA Type",
+      "definition": "ISA type is not recognised or invalid."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Another reason for the status rejected."
+    },
+    "NCON": {
+      "isoName": "NotConvertable",
+      "name": "Not Convertable",
+      "definition": "The two share classes are not part of the same fund."
+    },
+    "ACLO": {
+      "isoName": "AssetClosed",
+      "name": "Asset Closed",
+      "definition": "Asset instructed for transfer is closed."
+    },
+    "NASS": {
+      "isoName": "AssetNotSupported",
+      "name": "Asset Not Supported",
+      "definition": "Asset does not support reregistration."
+    },
+    "NQTY": {
+      "isoName": "QuantityBelowMinimum",
+      "name": "Quantity Below Minimum",
+      "definition": "Transfer quantity is too small."
+    },
+    "BLTR": {
+      "isoName": "AccountBlockedForTransfer",
+      "name": "Account Blocked For Transfer",
+      "definition": "Investment account is blocked due to a transfer out of investment funds."
+    },
+    "COSE": {
+      "isoName": "AlreadyExecuted",
+      "name": "Already Executed",
+      "definition": "Order or transfer has already been executed and confirmation has been sent."
+    },
+    "ILLI": {
+      "isoName": "AssetsIlliquid",
+      "name": "Assets Illiquid",
+      "definition": "Assets are illiquid."
+    },
+    "BMRV": {
+      "isoName": "BelowMinimumRetainedAmount",
+      "name": "Below Minimum Retained Amount",
+      "definition": "Holding will be below the minimum retained value."
+    },
+    "DINV": {
+      "isoName": "DataInvalid",
+      "name": "Data Invalid",
+      "definition": "Data in the order or transfer instruction is invalid."
+    },
+    "ICAG": {
+      "isoName": "DeliveringAgent",
+      "name": "Delivering Agent",
+      "definition": "Delivering agent is not recognised or is invalid."
+    },
+    "IPAC": {
+      "isoName": "InstructingPartyNotAllowedForAccount",
+      "name": "Instructing Party Not Allowed For Account",
+      "definition": "Instructing party is not allowed to instruct for this investment account."
+    },
+    "INTE": {
+      "isoName": "Intermediary",
+      "name": "Intermediary",
+      "definition": "Intermediary is not recognised or is invalid."
+    },
+    "DMON": {
+      "isoName": "InvalidSettlementAmount",
+      "name": "Invalid Settlement Amount",
+      "definition": "Unrecognised or invalid settlement amount."
+    },
+    "PRCT": {
+      "isoName": "PercentageHoldingBreach",
+      "name": "Percentage Holding Breach",
+      "definition": "Percentage holding breach, for example, PPM rules; taxation rules (ERISA)."
+    },
+    "IVAG": {
+      "isoName": "ReceivingAgent",
+      "name": "Receiving Agent",
+      "definition": "Receiving agent is not recognised or is invalid."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrency",
+      "name": "Settlement Amount Currency",
+      "definition": "Unrecognised or invalid Settlement Amount Currency."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date or requested trade date or future trade date."
+    },
+    "UPAY": {
+      "isoName": "UnacceptedPaymentMethod",
+      "name": "Unaccepted Payment Method",
+      "definition": "Payment method, for example, cheque or payment card, is not accepted."
+    },
+    "URSC": {
+      "isoName": "UnacceptedRequestedSettlementCurrency",
+      "name": "Unaccepted Requested Settlement Currency",
+      "definition": "Settlement currency requested is not supported."
+    },
+    "NCMP": {
+      "isoName": "NotCompliantWithMarketPractice",
+      "name": "Not Compliant With Market Practice",
+      "definition": "Instruction is not compliant with the relevant market practice."
+    }
+  }
+}

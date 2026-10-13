@@ -1,0 +1,41 @@
+{
+  "isoType": "CreditorPaymentActivationRequestStatusReportV12",
+  "language": "en",
+  "name": "Creditor Payment Activation Request Status Report V 12",
+  "definition": "The CreditorPaymentActivationRequestStatusReport message is sent by a party to the next party in the creditor payment activation request chain. It is used to inform the latter about the positive or negative status of a creditor payment activation request (either single or file).",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": ""
+    },
+    "OriginalGroupInformationAndStatus": {
+      "name": "Original Group Information And Status",
+      "definition": ""
+    },
+    "OriginalPaymentInformationAndStatus": {
+      "name": "Original Payment Information And Status",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "GroupStatusAcceptedRule": {
+      "definition": "If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to ACTC (AcceptedTechnicalValidation), ACCP (AcceptedCustomerProfile), ACSP (AcceptedSettlementInProcess), ACSC (AcceptedSettlementCompleted) or ACWC (AcceptedWithChange), then OriginalPaymentInformationAndStatus/PaymentInformationStatus must be different from RJCT (Rejected)."
+    },
+    "GroupStatusPendingRule": {
+      "definition": "If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to PDNG (Pending), then OriginalPaymentInformationAndStatus/PaymentInformationStatus must be different from RJCT (Rejected)."
+    },
+    "GroupStatusRejectedRule": {
+      "definition": "If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to RJCT (Rejected), then OriginalPaymentInformationAndStatus/PaymentInformationStatus, if present, must be equal to RJCT (Rejected)."
+    },
+    "GroupStatusReceivedRule": {
+      "definition": "If OriginalGroupInformationAndStatus/GroupStatus is present and is equal to RCVD (Received), then OriginalPaymentInformationAndStatus/PaymentInformationStatus is not allowed."
+    },
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "CashDepositConfirmation1",
+  "language": "en",
+  "name": "Cash Deposit Confirmation 1",
+  "definition": "Confirmation of how the cash receiver will settle the cash deposit.",
+  "isoElements": {
+    "ValidCashDepositReceived": {
+      "name": "Valid Cash Deposit Received",
+      "definition": "Confirms the cash received by the cash receiver for a cash deposit request that will be credited to the account."
+    },
+    "InvalidCashDepositReceived": {
+      "name": "Invalid Cash Deposit Received",
+      "definition": "Confirms the cash received by the cash receiver for a CashDepositRequest that will not be credited to an account, for example the cash is counterfeit."
+    },
+    "DiscrepancyIdentification": {
+      "name": "Discrepancy Identification",
+      "definition": "Unique identification for the discrepancy."
+    }
+  }
+}

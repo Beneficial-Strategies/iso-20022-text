@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingServicesTax3",
+  "language": "en",
+  "name": "Billing Services Tax 3",
+  "definition": "Provides for regional taxes on the service.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Identification number of the specific region tax used to calculate the tax."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Name used to describe the tax (such as the national value added tax)."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the tax."
+    },
+    "TotalTaxAmount": {
+      "name": "Total Tax Amount",
+      "definition": "Specifies the tax obligation for taxable services within a tax region for a specific tax identifier (such as national value added tax equals 34,00), and expressed in the tax region’s host currency."
+    }
+  }
+}

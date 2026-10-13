@@ -1,0 +1,16 @@
+{
+  "isoType": "TransactionCriteria8Choice",
+  "language": "en",
+  "name": "Transaction Criteria 8 Choice",
+  "definition": "Defines the information that is searched either implicitly by recalling a previous query or explicitly by defining the criteria.",
+  "isoElements": {
+    "QueryName": {
+      "name": "Query Name",
+      "definition": "Recalls the criteria (search and return criteria) defined in a preceding query."
+    },
+    "NewCriteria": {
+      "name": "New Criteria",
+      "definition": "Explicitly defines the query criteria."
+    }
+  }
+}

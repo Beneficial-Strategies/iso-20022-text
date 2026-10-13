@@ -1,0 +1,18 @@
+{
+  "isoType": "DeliveryReceiptType2Code",
+  "language": "en",
+  "name": "Delivery Receipt Type 2 Code",
+  "definition": "Specifies how the transaction is to be settled.",
+  "isoCodes": {
+    "FREE": {
+      "isoName": "SeparateSettlement",
+      "name": "Separate Settlement",
+      "definition": "Settlement of the financial instrument and cash is separate."
+    },
+    "APMT": {
+      "isoName": "AgainstPaymentSettlement",
+      "name": "Against Payment Settlement",
+      "definition": "Settlement of the financial instrument and cash takes place in a delivery versus payment (DVP) environment, that is, through an International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    }
+  }
+}

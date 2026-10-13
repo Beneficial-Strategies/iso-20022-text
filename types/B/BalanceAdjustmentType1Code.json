@@ -1,0 +1,23 @@
+{
+  "isoType": "BalanceAdjustmentType1Code",
+  "language": "en",
+  "name": "Balance Adjustment Type 1 Code",
+  "definition": "Defines the type of allowed balance adjustment.",
+  "isoCodes": {
+    "LDGR": {
+      "isoName": "Ledger",
+      "name": "Ledger",
+      "definition": "Adjustment applies to the average ledger (book) balance."
+    },
+    "FLOT": {
+      "isoName": "Float",
+      "name": "Float",
+      "definition": "Adjustment applies to the average float (unavailable) balance."
+    },
+    "CLLD": {
+      "isoName": "Collected",
+      "name": "Collected",
+      "definition": "Adjustment applies to the average collected (book less float) balance."
+    }
+  }
+}

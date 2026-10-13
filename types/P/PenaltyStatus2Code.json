@@ -1,0 +1,23 @@
+{
+  "isoType": "PenaltyStatus2Code",
+  "language": "en",
+  "name": "Penalty Status 2 Code",
+  "definition": "Specifies the status of the penalty.",
+  "isoCodes": {
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "Penalty is active for the party."
+    },
+    "NCOM": {
+      "isoName": "NotComputed",
+      "name": "Not Computed",
+      "definition": "Penalty could not be computed."
+    },
+    "REMO": {
+      "isoName": "Removed",
+      "name": "Removed",
+      "definition": "Removal of a cash penalty where settlement cannot be performed for reasons that are independent from any of the CSD participants or the CSD."
+    }
+  }
+}

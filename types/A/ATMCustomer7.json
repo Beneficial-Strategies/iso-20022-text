@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMCustomer7",
+  "language": "en",
+  "name": "ATM Customer 7",
+  "definition": "Customer involved in a withdrawal transaction.",
+  "isoElements": {
+    "Profile": {
+      "name": "Profile",
+      "definition": "Profile of the customer selected to perform the service."
+    },
+    "SelectedLanguage": {
+      "name": "Selected Language",
+      "definition": "Language selected by the customer at the ATM for the customer session. Reference ISO 639-1 (alpha-2) et ISO 639-2 (alpha-3)."
+    },
+    "AuthenticationResult": {
+      "name": "Authentication Result",
+      "definition": "Result of the customer authentication for this transaction."
+    }
+  }
+}

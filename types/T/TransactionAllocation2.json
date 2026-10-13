@@ -1,0 +1,37 @@
+{
+  "isoType": "TransactionAllocation2",
+  "language": "en",
+  "name": "Transaction Allocation 2",
+  "definition": "Set of elements used to identify each underlying allocation.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money in the allocation."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the allocation is a debit or credit."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account to which the allocation is due or from."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Underlying reason for the allocation.||Usage: This applies to the allocation only, this is not the underlying reason for the payment."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference for the allocation."
+    },
+    "RelatedReferences": {
+      "name": "Related References",
+      "definition": "Reference relating to the allocation which is meaningful to both parties (for example the original Securities Settlement Transaction Identification)."
+    }
+  },
+  "isoRules": {
+    "UnderlyingAllocationGuideline": {
+      "definition": "UnderlyingAllocation may only be present if bilaterally agreed."
+    }
+  }
+}

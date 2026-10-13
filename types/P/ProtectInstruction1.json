@@ -1,0 +1,24 @@
+{
+  "isoType": "ProtectInstruction1",
+  "language": "en",
+  "name": "Protect Instruction 1",
+  "definition": "Provides detailed information on protect and cover protect instructions.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Indicates whether the instruction is a protect or a cover protect instruction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique reference of the protect transaction assigned by the depository and used for cover protect validation."
+    },
+    "ProtectSafekeepingAccount": {
+      "name": "Protect Safekeeping Account",
+      "definition": "Account which submitted the original protect instruction used for cover protect instructions whereby one safekeeping account is covering on behalf of another safekeeping account."
+    },
+    "ProtectDate": {
+      "name": "Protect Date",
+      "definition": "Date at which the protect instruction was created and used for cover protect validation."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ReturnedStatusReason1",
+  "language": "en",
+  "name": "Returned Status Reason 1",
+  "definition": "Reason for a returned instruction status.",
+  "isoElements": {
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Reason for the returned status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the returned status."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

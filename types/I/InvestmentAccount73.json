@@ -1,0 +1,171 @@
+{
+  "isoType": "InvestmentAccount73",
+  "language": "en",
+  "name": "Investment Account 73",
+  "definition": "Information about a securities account and its characteristics.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "Designation": {
+      "name": "Designation",
+      "definition": "Supplementary registration information applying to a specific block of units for dealing and reporting purposes. The supplementary registration information may be used when all the units are registered, for example, to a funds supermarket, but holdings for each investor have to be reconciled individually."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of account."
+    },
+    "OwnershipType": {
+      "name": "Ownership Type",
+      "definition": "Ownership status of the account, for example, joint owners."
+    },
+    "TaxExemption": {
+      "name": "Tax Exemption",
+      "definition": "Tax advantage specific to the account."
+    },
+    "StatementFrequency": {
+      "name": "Statement Frequency",
+      "definition": "Frequency at which a statement is issued."
+    },
+    "ReferenceCurrency": {
+      "name": "Reference Currency",
+      "definition": "Currency chosen for reporting purposes by the account owner in agreement with the account servicer."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language for all communication concerning the account."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "ReinvestmentDetails": {
+      "name": "Reinvestment Details",
+      "definition": "Specifies, for income on the fund or security that is to be reinvested, parameters for the reinvestment. If the reinvestment percentage is less than one hundred percent, the remaining percentage will be invested according to the investor’s or account owner's subsequent instructions."
+    },
+    "TaxWithholdingMethod": {
+      "name": "Tax Withholding Method",
+      "definition": "Method by which the tax (withholding tax) is to be processed, that is, either withheld at source or tax information is reported to tax authorities or tax information is reported due to the provision of a tax certificate."
+    },
+    "TaxReporting": {
+      "name": "Tax Reporting",
+      "definition": "Details for the reporting of tax, for example, the country of taxation."
+    },
+    "LetterIntentDetails": {
+      "name": "Letter Intent Details",
+      "definition": "Details of the letter of intent."
+    },
+    "AccumulationRightReference": {
+      "name": "Accumulation Right Reference",
+      "definition": "Reference of an accumulation rights program, in which sales commissions are based on a customer's present purchases of shares and the aggregate quantity previously purchased by the customer. An accumulation rights program is mainly used in the US market."
+    },
+    "RequiredSignatoriesNumber": {
+      "name": "Required Signatories Number",
+      "definition": "Number of account owners or related parties required to authorise transactions on the account."
+    },
+    "FundFamilyName": {
+      "name": "Fund Family Name",
+      "definition": "Name of the investment fund family."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Detailed information about the investment fund or security associated to the account."
+    },
+    "RoundingDetails": {
+      "name": "Rounding Details",
+      "definition": "Parameters to be applied on deal amount for orders when the amount is a fractional number."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "BlockedStatus": {
+      "name": "Blocked Status",
+      "definition": "Specifies the account is blocked and other factors for the blocked account."
+    },
+    "AccountUsageType": {
+      "name": "Account Usage Type",
+      "definition": "Type of usage of the account."
+    },
+    "ForeignStatusCertification": {
+      "name": "Foreign Status Certification",
+      "definition": "Specifies if documentary evidence has been provided for the foreign resident."
+    },
+    "AccountSignatureDateTime": {
+      "name": "Account Signature Date Time",
+      "definition": "Date the investor or account owner signs the open account form."
+    },
+    "TransactionChannelType": {
+      "name": "Transaction Channel Type",
+      "definition": "Means by which the investor or account owner submits the open account form."
+    },
+    "InvestmentAccountCategory": {
+      "name": "Investment Account Category",
+      "definition": "Category of the account."
+    },
+    "Pledging": {
+      "name": "Pledging",
+      "definition": "Specifies whether the holdings in the account are eligible for pledging."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Specifies whether the holdings in the account are used as collateral."
+    },
+    "ThirdPartyRights": {
+      "name": "Third Party Rights",
+      "definition": "Details of third party rights."
+    },
+    "PowerOfAttorneyLevelOfControl": {
+      "name": "Power Of Attorney Level Of Control",
+      "definition": "Functionality permitted to a third party in the actions that may be taken on an account on behalf of the investor."
+    },
+    "AccountingStatus": {
+      "name": "Accounting Status",
+      "definition": "Specifies if the account is regarded as domestic or non-domestic for reporting purposes."
+    },
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Legal opening date for the account."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Legal closing date for the account."
+    },
+    "NegativeIndicator": {
+      "name": "Negative Indicator",
+      "definition": "Indicates whether the account can hold a negative position in a security."
+    },
+    "ProcessingOrder": {
+      "name": "Processing Order",
+      "definition": "Order in which securities are moved from the account."
+    },
+    "Liability": {
+      "name": "Liability",
+      "definition": "Specifies whether the investor assumes responsibility for the liability."
+    },
+    "InvestorProfile": {
+      "name": "Investor Profile",
+      "definition": "Information used to determine fees and types of operations that can be carried out on the account."
+    },
+    "FiscalYear": {
+      "name": "Fiscal Year",
+      "definition": "Fiscal year, when not the same as the calendar year."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentDetailsGuideline": {
+      "definition": "FinancialInstrumentDetails may be present if a single investment fund is associated to the investment account. If several investment funds are associated to the investment account, the FundFamilyName only should be specified."
+    },
+    "ReinvestmentPercentage1Rule": {
+      "definition": "Sum of all occurrences of ReinvestmentDetails/ReinvestmentPercentage must not be greater than 100."
+    },
+    "IncomePreferenceReinvestment1Rule": {
+      "definition": "If IncomePreference is CASH (Cash), then ReinvestmentDetails is not allowed."
+    }
+  }
+}

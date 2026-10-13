@@ -1,0 +1,120 @@
+{
+  "isoType": "TransactionParties11",
+  "language": "en",
+  "name": "Transaction Parties 11",
+  "definition": "Provides further details on the parties specific to the individual transaction.",
+  "isoElements": {
+    "UltimateDebtor": {
+      "name": "Ultimate Debtor",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Unambiguous identification of the account of the debtor to which a debit entry will be made as a result of the transaction."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party that initiates the payment.|Usage: This can be either the debtor or a party that initiates the credit transfer on behalf of the debtor."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Unambiguous identification of the account of the debtor agent at its servicing agent in the payment chain."
+    },
+    "PreviousInstructingAgent1": {
+      "name": "Previous Instructing Agent 1",
+      "definition": "Agent between the debtor's agent and the instructing agent.||Usage: If more than one previous instructing agent is present, then PreviousInstructingAgent1 identifies the agent between the DebtorAgent and the PreviousInstructingAgent2."
+    },
+    "PreviousInstructingAgent1Account": {
+      "name": "Previous Instructing Agent 1 Account",
+      "definition": "Unambiguous identification of the account of the previous instructing agent at its servicing agent in the payment chain."
+    },
+    "PreviousInstructingAgent2": {
+      "name": "Previous Instructing Agent 2",
+      "definition": "Agent between the debtor's agent and the instructing agent.||Usage: If more than two previous instructing agent are present, then PreviousInstructingAgent2 identifies the agent between the PreviousInstructingAgent1 and the PreviousInstructingAgent3."
+    },
+    "PreviousInstructingAgent2Account": {
+      "name": "Previous Instructing Agent 2 Account",
+      "definition": "Unambiguous identification of the account of the previous instructing agent at its servicing agent in the payment chain."
+    },
+    "PreviousInstructingAgent3": {
+      "name": "Previous Instructing Agent 3",
+      "definition": "Agent between the debtor's agent and the instructing agent.||Usage: If PreviousInstructingAgent3 is present, then PreviousInstructingAgent3 identifies the agent between the PreviousInstructingAgent2 and the InstructingAgent."
+    },
+    "PreviousInstructingAgent3Account": {
+      "name": "Previous Instructing Agent 3 Account",
+      "definition": "Unambiguous identification of the account of the previous instructing agent at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent1": {
+      "name": "Intermediary Agent 1",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than one intermediary agent is present, then IntermediaryAgent1 identifies the agent between the DebtorAgent and the IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "name": "Intermediary Agent 1 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 1 at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent2": {
+      "name": "Intermediary Agent 2",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If more than two intermediary agents are present, then IntermediaryAgent2 identifies the agent between the IntermediaryAgent1 and the IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "name": "Intermediary Agent 2 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 2 at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent3": {
+      "name": "Intermediary Agent 3",
+      "definition": "Agent between the debtor's agent and the creditor's agent.||Usage: If IntermediaryAgent3 is present, then it identifies the agent between the IntermediaryAgent 2 and the CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "name": "Intermediary Agent 3 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 3 at its servicing agent in the payment chain."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgent1AccountRule": {
+      "definition": "If IntermediaryAgent1Account is present, then IntermediaryAgent1 must be present."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "If IntermediaryAgent2Account is present, then IntermediaryAgent2 must be present."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "If IntermediaryAgent3Account is present, then IntermediaryAgent3 must be present."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "If PreviousInstructingAgent1Account is present, then PreviousInstructingAgent1 must be present."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "If PreviousInstructingAgent2Account is present, then PreviousInstructingAgent2 must be present."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "If PreviousInstructingAgent3Account is present, then PreviousInstructingAgent3 must be present."
+    }
+  }
+}

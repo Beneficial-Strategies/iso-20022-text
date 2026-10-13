@@ -1,0 +1,23 @@
+{
+  "isoType": "RateType12Code",
+  "language": "en",
+  "name": "Rate Type 12 Code",
+  "definition": "Specifies the type of rate.",
+  "isoCodes": {
+    "OPEN": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Rate has not been established."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Rate is unknown by the sender or has not been established."
+    },
+    "NILP": {
+      "isoName": "NilPayment",
+      "name": "Nil Payment",
+      "definition": "Rate will not be paid."
+    }
+  }
+}

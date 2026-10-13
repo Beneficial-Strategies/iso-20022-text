@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyIdentification134Choice",
+  "language": "en",
+  "name": "Party Identification 134 Choice",
+  "definition": "Choice of formats for an identification of a party.",
+  "isoElements": {
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Code allocated to a financial or non-financial institution by the ISO 9362 Registration Authority, as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    },
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Name and address of a party."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country in which a person resides (the place of a person's home). In the case of a company, it is the country from which the affairs of that company are directed."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "BuyerProtectionSelectionCriteria1",
+  "language": "en",
+  "name": "Buyer Protection Selection Criteria 1",
+  "definition": "Selection criteria for buyer protection query.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "name": "Financial Institution Identification",
+      "definition": "Unique and unambiguous identification of a financial institution, as assigned under an internationally recognised or proprietary identification scheme."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Selected safekeeping accounts list to which the corporate action event applies."
+    },
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "CorporateActionEventIdentification": {
+      "name": "Corporate Action Event Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a corporate action event."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    }
+  }
+}

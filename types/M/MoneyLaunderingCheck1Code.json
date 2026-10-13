@@ -1,0 +1,38 @@
+{
+  "isoType": "MoneyLaunderingCheck1Code",
+  "language": "en",
+  "name": "Money Laundering Check 1 Code",
+  "definition": "Specifies the status of money laundering identification procedures.",
+  "isoCodes": {
+    "PASS": {
+      "isoName": "Passed",
+      "name": "Passed",
+      "definition": "Money laundering identification procedures have been carried out by the intermediary."
+    },
+    "NOTC": {
+      "isoName": "NotChecked",
+      "name": "Not Checked",
+      "definition": "Money laundering identification procedures have not been carried out."
+    },
+    "EXEM": {
+      "isoName": "ExemptBelowLimit",
+      "name": "Exempt Below Limit",
+      "definition": "Money laundering identification procedures have not been carried out because the transaction is below the prescribed limit."
+    },
+    "CLMO": {
+      "isoName": "ClientMoneyTypeExempt",
+      "name": "Client Money Type Exempt",
+      "definition": "Money laundering identification procedures have not been carried out because of the transaction type, for example, switch, or because the transaction is being funded from an existing investor account held by the intermediary."
+    },
+    "AUTH": {
+      "isoName": "AuthorisedCredit",
+      "name": "Authorised Credit",
+      "definition": "Money laundering identification procedures have not been carried out because the investor is an authorised credit or financial institution."
+    },
+    "POEP": {
+      "isoName": "PostalOrElectronicPaymentExempt",
+      "name": "Postal Or Electronic Payment Exempt",
+      "definition": "Limited money laundering identification procedures have been carried out because it is a one time only transaction and the payment is being made by postal, telephone or electronic transfers from an existing account with an authorised credit or financial institution."
+    }
+  }
+}

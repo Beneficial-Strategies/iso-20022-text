@@ -1,0 +1,53 @@
+{
+  "isoType": "Frequency7Code",
+  "language": "en",
+  "name": "Frequency 7 Code",
+  "definition": "Specifies the regularity of an event.",
+  "isoCodes": {
+    "YEAR": {
+      "isoName": "Annual",
+      "name": "Annual",
+      "definition": "Event takes place every year or once a year."
+    },
+    "DAIL": {
+      "isoName": "Daily",
+      "name": "Daily",
+      "definition": "Event takes place every day."
+    },
+    "MNTH": {
+      "isoName": "Monthly",
+      "name": "Monthly",
+      "definition": "Event takes place every month or once a month."
+    },
+    "QURT": {
+      "isoName": "Quarterly",
+      "name": "Quarterly",
+      "definition": "Event takes place every three months or four times a year."
+    },
+    "MIAN": {
+      "isoName": "SemiAnnual",
+      "name": "Semi Annual",
+      "definition": "Event takes place every six months or two times a year."
+    },
+    "TEND": {
+      "isoName": "TenDays",
+      "name": "Ten Days",
+      "definition": "Event takes place every ten business days."
+    },
+    "MOVE": {
+      "isoName": "TriggeredByMovement",
+      "name": "Triggered By Movement",
+      "definition": "Event takes place at the end of the day if there was a movement on the account, otherwise nothing is sent that day."
+    },
+    "WEEK": {
+      "isoName": "Weekly",
+      "name": "Weekly",
+      "definition": "Event takes place once a week."
+    },
+    "INDA": {
+      "isoName": "IntraDay",
+      "name": "Intra Day",
+      "definition": "Event takes place several times a day."
+    }
+  }
+}

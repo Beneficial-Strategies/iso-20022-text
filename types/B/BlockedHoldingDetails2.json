@@ -1,0 +1,34 @@
+{
+  "isoType": "BlockedHoldingDetails2",
+  "language": "en",
+  "name": "Blocked Holding Details 2",
+  "definition": "Information about a blocked holding.",
+  "isoElements": {
+    "BlockedHolding": {
+      "name": "Blocked Holding",
+      "definition": "Specifies how the blocked account holding is defined."
+    },
+    "PartialHoldingUnits": {
+      "name": "Partial Holding Units",
+      "definition": "When an account is blocked at the level of fund or security, partially, this is the number of units blocked."
+    },
+    "HoldingCertificateNumber": {
+      "name": "Holding Certificate Number",
+      "definition": "When an account is blocked at the level of fund or security, this specifies the certificate number of the blocked units."
+    }
+  },
+  "isoRules": {
+    "PartialHoldingUnits1Rule": {
+      "definition": "If BlockHolding is NPRH (NonPartialHolding) then PartialHoldingUnits must not be present."
+    },
+    "PartialHoldingUnits2Rule": {
+      "definition": "If BlockHolding is PRTH (PartialHolding) then PartialHoldingUnits is mandatory."
+    },
+    "PartialHoldingUnits3Rule": {
+      "definition": "If BlockHolding is CERT (Certificate) then PartialHoldingUnits must not be present."
+    },
+    "HoldingCertificateNumberRule": {
+      "definition": "If BlockHolding is CERT (Certificate) then HoldingCertificateNumber is mandatory."
+    }
+  }
+}

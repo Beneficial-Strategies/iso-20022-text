@@ -1,0 +1,29 @@
+{
+  "isoType": "StatusAndReason29",
+  "language": "en",
+  "name": "Status And Reason 29",
+  "definition": "Status and reason of a transaction.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides the status of an instruction."
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": "Provides the matching status of an instruction as known by the account servicer based on an allegement. At this time no matching took place on the market (at the CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of a transaction."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "If settlement status/reason is used alone, then it means that the transaction is matched (if a matching process exists in the concerned market or at the concerned account servicer)."
+    }
+  }
+}

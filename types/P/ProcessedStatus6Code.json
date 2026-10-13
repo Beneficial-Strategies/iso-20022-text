@@ -1,0 +1,23 @@
+{
+  "isoType": "ProcessedStatus6Code",
+  "language": "en",
+  "name": "Processed Status 6 Code",
+  "definition": "Specifies the processing status of a deactivation instruction.",
+  "isoCodes": {
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "The instruction/request has been received."
+    },
+    "DEAC": {
+      "isoName": "WaitingDeactivationDate",
+      "name": "Waiting Deactivation Date",
+      "definition": "Awaiting the deactivation date."
+    },
+    "COMP": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "The request has been completed."
+    }
+  }
+}

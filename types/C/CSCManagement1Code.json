@@ -1,0 +1,28 @@
+{
+  "isoType": "CSCManagement1Code",
+  "language": "en",
+  "name": "CSC Management 1 Code",
+  "definition": "CSC (Card Security Code) management associated with the transaction.",
+  "isoCodes": {
+    "PRST": {
+      "isoName": "CSCPresent",
+      "name": "CSC Present",
+      "definition": "Card security code present."
+    },
+    "BYPS": {
+      "isoName": "CSCByPass",
+      "name": "CSC By Pass",
+      "definition": "Card security code by-passed or not provided by the merchant."
+    },
+    "UNRD": {
+      "isoName": "CSCUnread",
+      "name": "CSC Unread",
+      "definition": "Card security code unreadable."
+    },
+    "NCSC": {
+      "isoName": "NoCSC",
+      "name": "No CSC",
+      "definition": "No card security code imprint."
+    }
+  }
+}

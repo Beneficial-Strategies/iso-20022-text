@@ -1,0 +1,24 @@
+{
+  "isoType": "AggregatedPenaltyAmount1",
+  "language": "en",
+  "name": "Aggregated Penalty Amount 1",
+  "definition": "Specifies the aggregated penalties amounts.",
+  "isoElements": {
+    "AggregatedDebitAmount": {
+      "name": "Aggregated Debit Amount",
+      "definition": "Sum of all debit amounts."
+    },
+    "AggregatedCreditAmount": {
+      "name": "Aggregated Credit Amount",
+      "definition": "Sum of all credit amounts."
+    },
+    "GlobalNetAmount": {
+      "name": "Global Net Amount",
+      "definition": "Net of all amounts."
+    },
+    "CounterpartyCSDAggregatedAmount": {
+      "name": "Counterparty CSD Aggregated Amount",
+      "definition": "Aggregated amounts provided per CSD of the counterparty."
+    }
+  }
+}

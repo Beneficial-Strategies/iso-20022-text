@@ -1,0 +1,23 @@
+{
+  "isoType": "BusinessFlowType1Code",
+  "language": "en",
+  "name": "Business Flow Type 1 Code",
+  "definition": "Identifies the business process in which the actors are involved. This is important to trigger the right business process, according to the market business model, which may require matching instructions in a CSD environment (double leg process) or not (single leg process).",
+  "isoCodes": {
+    "SLDP": {
+      "isoName": "SingleLegDeliveringParty",
+      "name": "Single Leg Delivering Party",
+      "definition": "Single leg process initiated by the delivering party."
+    },
+    "SLRP": {
+      "isoName": "SingleLegReceivingParty",
+      "name": "Single Leg Receiving Party",
+      "definition": "Single leg process initiated by the receiving party."
+    },
+    "DLPR": {
+      "isoName": "DoubleLegProcess",
+      "name": "Double Leg Process",
+      "definition": "Double leg process."
+    }
+  }
+}

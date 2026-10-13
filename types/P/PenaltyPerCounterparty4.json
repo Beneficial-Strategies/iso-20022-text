@@ -1,0 +1,24 @@
+{
+  "isoType": "PenaltyPerCounterparty4",
+  "language": "en",
+  "name": "Penalty Per Counterparty 4",
+  "definition": "Specifies the penalties for a given party.",
+  "isoElements": {
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the sub-level account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification of the party within the system."
+    },
+    "AggregatedNetAmount": {
+      "name": "Aggregated Net Amount",
+      "definition": "Bilateral net amount per party and counterparty."
+    },
+    "PenaltyDetails": {
+      "name": "Penalty Details",
+      "definition": "Further details on the penalty."
+    }
+  }
+}

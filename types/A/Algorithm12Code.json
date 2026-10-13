@@ -1,0 +1,38 @@
+{
+  "isoType": "Algorithm12Code",
+  "language": "en",
+  "name": "Algorithm 12 Code",
+  "definition": "Cryptographic algorithms for the MAC (Message Authentication Code).",
+  "isoCodes": {
+    "MACC": {
+      "isoName": "RetailCBCMAC",
+      "name": "Retail CBCMAC",
+      "definition": "Retail CBC (Chaining Block Cypher) MAC (Message Authentication Code) (cf. ISO 9807, ANSI X9.19) - (ASN.1 Object Identifier: id-retail-cbc-mac)."
+    },
+    "MCCS": {
+      "isoName": "RetailSHA256MAC",
+      "name": "Retail SHA 256 MAC",
+      "definition": "Retail-CBC-MAC with SHA-256 (Secure HAsh standard) - (ASN.1 Object Identifier: id-retail-cbc-mac-sha-256)."
+    },
+    "CMA1": {
+      "isoName": "SHA256CMACwithAES128",
+      "name": "SHA 256 CMA Cwith AES 128",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 128 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-256 digest of the message."
+    },
+    "MCC1": {
+      "isoName": "RetailSHA1MAC",
+      "name": "Retail SHA 1 MAC",
+      "definition": "The DEPRECATED Retail-CBC-MAC with SHA-1 (Secure Hash standard) - (ASN.1 Object Identifier: id-retail-cbc-mac-sha-1)."
+    },
+    "CMA9": {
+      "isoName": "SHA384CMACwithAES192",
+      "name": "SHA 384 CMA Cwith AES 192",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 192 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-384 digest of the message."
+    },
+    "CMA5": {
+      "isoName": "SHA512CMACwithAES256",
+      "name": "SHA 512 CMA Cwith AES 256",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 256 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-512 digest of the message."
+    }
+  }
+}

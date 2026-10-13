@@ -1,0 +1,28 @@
+{
+  "isoType": "FailureReason6Code",
+  "language": "en",
+  "name": "Failure Reason 6 Code",
+  "definition": "Reason for which the key has been stopped.",
+  "isoCodes": {
+    "CMPR": {
+      "isoName": "Compromised",
+      "name": "Compromised",
+      "definition": "Key is compromised."
+    },
+    "EXPR": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "Key has expired."
+    },
+    "KCVE": {
+      "isoName": "InvalidKCV",
+      "name": "Invalid KCV",
+      "definition": "Key check value is incorrect."
+    },
+    "KLOD": {
+      "isoName": "KeyLoadError",
+      "name": "Key Load Error",
+      "definition": "Error during the key download in the security device."
+    }
+  }
+}

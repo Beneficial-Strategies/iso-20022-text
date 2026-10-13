@@ -1,0 +1,53 @@
+{
+  "isoType": "Status11Code",
+  "language": "en",
+  "name": "Status 11 Code",
+  "definition": "Specifies the status of an instruction.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Instruction has been accepted and is validated for further processing."
+    },
+    "ATTC": {
+      "isoName": "AttendanceConfirmed",
+      "name": "Attendance Confirmed",
+      "definition": "Attendance is confirmed at the meeting."
+    },
+    "CAND": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "CSUB": {
+      "isoName": "CancelledBySubcustodian",
+      "name": "Cancelled By Subcustodian",
+      "definition": "Instruction has been cancelled by the agent, for example, due to an event deadline extension."
+    },
+    "FRWD": {
+      "isoName": "Forwarded",
+      "name": "Forwarded",
+      "definition": "Accepted and sent along the chain."
+    },
+    "RCIS": {
+      "isoName": "ReceivedByIssuerOrRegistrar",
+      "name": "Received By Issuer Or Registrar",
+      "definition": "Instruction has been received by Issuer, equivalent to the confirmation of receipt of votes cast electronically."
+    },
+    "REGM": {
+      "isoName": "RegisteredToParticipateAtMeeting",
+      "name": "Registered To Participate At Meeting",
+      "definition": "Rights holder has been registered to participate to the meeting."
+    },
+    "STIN": {
+      "isoName": "StandingInstruction",
+      "name": "Standing Instruction",
+      "definition": "Standing instruction is applied."
+    },
+    "DREG": {
+      "isoName": "DeregistrationCompleted",
+      "name": "Deregistration Completed",
+      "definition": "Rights holder has been deregistered from the meeting participants list."
+    }
+  }
+}

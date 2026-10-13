@@ -1,0 +1,21 @@
+{
+  "isoType": "ReportHeader6",
+  "language": "en",
+  "name": "Report Header 6",
+  "definition": "Provides header details on the report.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identification of a report billing statement."
+    },
+    "MessagePagination": {
+      "name": "Message Pagination",
+      "definition": "Provides details on the page number of the message.||Usage: The pagination of the message is only allowed when agreed between the parties."
+    }
+  },
+  "isoRules": {
+    "MessagePaginationRule": {
+      "definition": "If MessagePagination is present, then ReportIdentification must be identical for all pages."
+    }
+  }
+}

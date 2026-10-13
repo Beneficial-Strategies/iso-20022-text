@@ -1,0 +1,51 @@
+{
+  "isoType": "OriginalPaymentInstruction53",
+  "language": "en",
+  "name": "Original Payment Instruction 53",
+  "definition": "Provides detailed information on the original transaction, to which the status report message refers.",
+  "isoElements": {
+    "ReversalPaymentInformationIdentification": {
+      "name": "Reversal Payment Information Identification",
+      "definition": "Unique identification, as assigned by an instructing party for an instructed party, to unambiguously identify the reversed payment information group.|Usage: The instructing party is the party sending the reversal message and not the party that sent the original instruction that is being reversed."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "name": "Original Payment Information Identification",
+      "definition": "Unique identification, as assigned by the original sending party, to unambiguously identify the original payment information group."
+    },
+    "OriginalNumberOfTransactions": {
+      "name": "Original Number Of Transactions",
+      "definition": "Number of individual transactions contained in the original payment information group."
+    },
+    "OriginalControlSum": {
+      "name": "Original Control Sum",
+      "definition": "Total of all individual amounts included in the original payment information group, irrespective of currencies."
+    },
+    "BatchBooking": {
+      "name": "Batch Booking",
+      "definition": "Identifies whether a single entry per individual transaction or a batch entry for the sum of the amounts of all transactions within the group of a message is requested.|Usage: Batch booking is used to request and not order a possible batch booking."
+    },
+    "PaymentInformationReversal": {
+      "name": "Payment Information Reversal",
+      "definition": "Indicates whether or not the reversal applies to the complete original payment information group or to individual transactions within that group."
+    },
+    "ReversalReasonInformation": {
+      "name": "Reversal Reason Information",
+      "definition": "Provides detailed information on the reversal reason."
+    },
+    "TransactionInformation": {
+      "name": "Transaction Information",
+      "definition": "Provides information on the original transactions to which the reversal message refers."
+    }
+  },
+  "isoRules": {
+    "PaymentInformationReversalAndTransactionInformationNotPresentRule": {
+      "definition": "If PaymentInformationReversal is true, then TransactionInformation is not allowed."
+    },
+    "PaymentInformationReversalAndTransactionInformationPresentRule": {
+      "definition": "If PaymentInformationReversal is false, then at least one occurrence of TransactionInformation must be present."
+    },
+    "PaymentInformationReversalAndReasonRule": {
+      "definition": "If PaymentInformationReversal is true, then ReversalReasonInformation/ReversalReason must present."
+    }
+  }
+}

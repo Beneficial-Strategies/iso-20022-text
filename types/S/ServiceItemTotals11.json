@@ -1,0 +1,40 @@
+{
+  "isoType": "ServiceItemTotals11",
+  "language": "en",
+  "name": "Service Item Totals 11",
+  "definition": "Specifies totals related to the invoice.",
+  "isoElements": {
+    "ItemType": {
+      "name": "Item Type",
+      "definition": "Specifies a classification for the service items such as query, report, securities account, etc…."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the service item."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the correction is a debit or credit."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Sum of total number units per service item."
+    },
+    "BalanceCurrency": {
+      "name": "Balance Currency",
+      "definition": "Currency of the balance. Should be present only if quantity is a balance."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Specifies the price per unit of the service item."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Detailed information on tax applied."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice adjustment amount (discounts, allowances and charges) and total tax amounts."
+    }
+  }
+}

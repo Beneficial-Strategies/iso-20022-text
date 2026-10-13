@@ -1,0 +1,41 @@
+{
+  "isoType": "UnderlyingStatementEntry11",
+  "language": "en",
+  "name": "Underlying Statement Entry 11",
+  "definition": "Provides further details on the underlying statement entry to which the investigation message refers.",
+  "isoElements": {
+    "OriginalAccount": {
+      "name": "Original Account",
+      "definition": "Provides details of the account, for which the original statement was generated."
+    },
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Provides information on the original message."
+    },
+    "OriginalStatementIdentification": {
+      "name": "Original Statement Identification",
+      "definition": "Unique identification, as assigned by the account servicer, to unambiguously identify the original statement."
+    },
+    "OriginalEntryReference": {
+      "name": "Original Entry Reference",
+      "definition": "Original unique reference, as assigned by the account servicer, to unambiguously identify the original entry."
+    },
+    "OriginalUETR": {
+      "name": "Original UETR",
+      "definition": "Universally unique identifier to provide the original end-to-end reference of a payment transaction."
+    },
+    "OriginalEntryAmount": {
+      "name": "Original Entry Amount",
+      "definition": "Amount of money in the cash entry."
+    },
+    "OriginalEntryValueDate": {
+      "name": "Original Entry Value Date",
+      "definition": "Date and time at which assets become available to the account owner in case of a credit entry, or cease to be available to the account owner in case of a debit entry.|Usage: If entry status is pending and value date is present, then the value date refers to an expected/requested value date.|For entries subject to availability/float and for which availability information is provided, the value date must not be used. In this case the availability component identifies the number of availability days."
+    }
+  },
+  "isoRules": {
+    "OriginalStatementIdentificationOrEntryReferencePresenceRule": {
+      "definition": "OriginalStatementIdentification or OriginalEntryReference must be present, both may be present."
+    }
+  }
+}

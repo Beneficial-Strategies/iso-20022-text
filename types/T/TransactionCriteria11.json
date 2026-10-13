@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionCriteria11",
+  "language": "en",
+  "name": "Transaction Criteria 11",
+  "definition": "Defines the criteria which are used to search for a transaction and to report on the transaction. A name may be given to the new query.",
+  "isoElements": {
+    "NewQueryName": {
+      "name": "New Query Name",
+      "definition": "Name of the query defined by the search criteria and return criteria."
+    },
+    "SearchCriteria": {
+      "name": "Search Criteria",
+      "definition": "Defines the criteria on which the information is extracted."
+    },
+    "StatementReport": {
+      "name": "Statement Report",
+      "definition": "Indicates the format of the requested report."
+    },
+    "ReturnCriteria": {
+      "name": "Return Criteria",
+      "definition": "Defines the expected payment transaction report."
+    }
+  },
+  "isoRules": {
+    "SearchAndReturnCriteriaAndStatementReportRule": {
+      "definition": "The following combinations are allowed: only Search Criteria, or only Return Criteria, or only a Statement Report, or a combination of Search and Return criteria, or a combination of Search criteria and a Statement Report.|Rule rationale: |- If ReturnCriteria are present, they define the expected report.|- If StatementReport is present, it indicates that a statement-type report needs to be returned. In this case, the return message will contain information equivalent to that present in field 61 (Statement Line) of FIN standards, for example, value date, entry date, debit/credit indicator, amount, transaction type identification code, reference for the account owner, reference of the account servicing institution and supplementary details.|- If the StatementReportIndicator equals \"false\" or \"0\" (No), this means that the report type is pre-defined between the transaction administrator and the member."
+    }
+  }
+}

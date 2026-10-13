@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountSwitchCancelExistingPaymentV06",
+  "language": "en",
+  "name": "Account Switch Cancel Existing Payment V 06",
+  "definition": "The AccountSwitchCancelExistingPayment message is sent by the new account servicer to the previous account servicer to identify which payment arrangements are to be cancelled on the account owner's account and when they are to be cancelled. This message is used during a partial switch of the account and may be sent multiple times to allow for the account parties to transfer different payment arrangements at different times during the switch.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "PaymentInstruction": {
+      "name": "Payment Instruction",
+      "definition": ""
+    },
+    "DirectDebitInstruction": {
+      "name": "Direct Debit Instruction",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesTransactionPenaltiesReportV01",
+  "language": "en",
+  "name": "Securities Transaction Penalties Report V 01",
+  "definition": "The SecuritiesTransactionPenaltiesReport V01 message is sent by the Executing/Servicing Party to the instructing party to inform about the cash penalties: |- Newly computed cash penalties. For example, in case of a CSD, the information shall include the cash penalties that are either imposed or credited to all of its participants and the CSD itself; in case of a CSD participant, the information shall include the cash penalties that are either imposed or credited to the CSD participant itself.|- Modified penalties: to inform about the modifications occurred in existing cash penalties since the previous reporting.|- Aggregated amounts of cash penalties: to inform about the aggregated amounts of the cash penalties computed for the business days of a given period, for example the previous month.",
+  "isoElements": {
+    "ReportPagination": {
+      "name": "Report Pagination",
+      "definition": ""
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": ""
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": ""
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": ""
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": ""
+    },
+    "Penalty": {
+      "name": "Penalty",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

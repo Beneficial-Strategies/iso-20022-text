@@ -1,0 +1,33 @@
+{
+  "isoType": "AttributeType1Code",
+  "language": "en",
+  "name": "Attribute Type 1 Code",
+  "definition": "Type of attribute of a distinguished name (DN).",
+  "isoCodes": {
+    "CNAT": {
+      "isoName": "CommonName",
+      "name": "Common Name",
+      "definition": "Common name of the attribute (ASN.1 Object Identifier: id-at-commonName)."
+    },
+    "LATT": {
+      "isoName": "Locality",
+      "name": "Locality",
+      "definition": "Locality of the attribute (ASN.1 Object Identifier: id-at-localityName)."
+    },
+    "OATT": {
+      "isoName": "OrganisationName",
+      "name": "Organisation Name",
+      "definition": "Organization name of the attribute (ASN.1 Object Identifier: id-at-organizationName)."
+    },
+    "OUAT": {
+      "isoName": "OrganisationUnitName",
+      "name": "Organisation Unit Name",
+      "definition": "Organization unit name of the attribute (ASN.1 Object Identifier: id-at-organizationalUnitName)."
+    },
+    "CATT": {
+      "isoName": "CountryName",
+      "name": "Country Name",
+      "definition": "Country name of the attribute (ASN.1 Object Identifier: id-at-countryName)."
+    }
+  }
+}

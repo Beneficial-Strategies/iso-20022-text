@@ -1,0 +1,20 @@
+{
+  "isoType": "ChequeCancellationStatus1",
+  "language": "en",
+  "name": "Cheque Cancellation Status 1",
+  "definition": "Provides further details on the status of the cheque presentment cancellation request.",
+  "isoElements": {
+    "Originator": {
+      "name": "Originator",
+      "definition": "Party that issues the cancellation request."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status for the cancellation request."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the cancellation request reason."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "Status39Choice",
+  "language": "en",
+  "name": "Status 39 Choice",
+  "definition": "Choice between statuses.",
+  "isoElements": {
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary status."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "InferredMatchingStatus": {
+      "name": "Inferred Matching Status",
+      "definition": "Provides the matching status of an instruction as known by the account servicer based on an allegement. At this time no matching took place on the market (at the CSD/ICSD)."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of a transaction."
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": "Provides the status of an instruction."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "A pending transaction (PEND) becomes a failing transaction (PENF) on the settlement date instructed in the message, during the end of day reporting."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "If settlement status/reason is used alone, then it means that the transaction is matched (if a matching process exists in the concerned market or at the concerned account servicer)."
+    }
+  }
+}

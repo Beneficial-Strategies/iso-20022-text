@@ -1,0 +1,35 @@
+{
+  "isoType": "SubAccountIdentification75",
+  "language": "en",
+  "name": "Sub Account Identification 75",
+  "definition": "Account to or from which a securities entry is made.",
+  "isoElements": {
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    },
+    "BalanceForSubAccount": {
+      "name": "Balance For Sub Account",
+      "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities subaccount."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "Use of consolidated reports on a sub-safekeeping account must be bilaterally agreed between sender and receiver."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "If the ActivityIndicator is \"true\" (Yes), then at least one occurrence of BalanceForSubAccount must be present."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "If the ActivityIndicator is \"false\" (No), then BalanceForSubAccount must be absent."
+    }
+  }
+}

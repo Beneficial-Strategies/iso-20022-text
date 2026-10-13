@@ -1,0 +1,73 @@
+{
+  "isoType": "ExternalPaymentGroupStatus1Code",
+  "language": "en",
+  "name": "External Payment Group Status 1 Code",
+  "definition": "Specifies the status of a group of payment instructions, as published in an external payment group status code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "AcceptedCustomerProfile",
+      "name": "Accepted Customer Profile",
+      "definition": "Preceding check of technical validation was successful. Customer profile check was also successful."
+    },
+    "ACCC": {
+      "isoName": "AcceptedSettlementCompletedCreditorAccount",
+      "name": "Accepted Settlement Completed Creditor Account",
+      "definition": "Settlement on the creditor's account has been completed."
+    },
+    "ACSC": {
+      "isoName": "AcceptedSettlementCompletedDebitorAccount",
+      "name": "Accepted Settlement Completed Debitor Account",
+      "definition": "Settlement on the debtor's account has been completed.|Usage : this can be used by the first agent to report to the debtor that the transaction has been completed. |Warning : this status is provided for transaction status reasons, not for financial information. It can only be used after bilateral agreement"
+    },
+    "ACSP": {
+      "isoName": "AcceptedSettlementInProcess",
+      "name": "Accepted Settlement In Process",
+      "definition": "All preceding checks such as technical validation and customer profile were successful and therefore the payment initiation has been accepted for execution."
+    },
+    "ACTC": {
+      "isoName": "AcceptedTechnicalValidation",
+      "name": "Accepted Technical Validation",
+      "definition": "Authentication and syntactical and semantical validation are successful"
+    },
+    "ACWC": {
+      "isoName": "AcceptedWithChange",
+      "name": "Accepted With Change",
+      "definition": "Instruction is accepted but a change will be made, such as date or remittance not sent."
+    },
+    "PART": {
+      "isoName": "PartiallyAccepted",
+      "name": "Partially Accepted",
+      "definition": "A number of transactions have been accepted, whereas another number of transactions have not yet achieved|'accepted' status."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Payment initiation or individual transaction included in the payment initiation is pending. Further checks and status update will be performed."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Payment initiation has been received by the receiving agent"
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Payment initiation or individual transaction included in the payment initiation has been rejected."
+    },
+    "RCVC": {
+      "isoName": "ReceivedVerificationCompleted",
+      "name": "Received Verification Completed",
+      "definition": "Verification of Payee check have been applied to received transactions stating to be complete without mismatching data."
+    },
+    "RVCM": {
+      "isoName": "ReceivedVerificationCompletedWithMismatches",
+      "name": "Received Verification Completed With Mismatches",
+      "definition": "Verification of Payee checks have been applied to received transactions stating to be complete containing mismatching data."
+    },
+    "RVNC": {
+      "isoName": "ReceivedVerificationNotCompleted",
+      "name": "Received Verification Not Completed",
+      "definition": "Verification of party check on transactions received is not yet completed."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionType2",
+  "language": "en",
+  "name": "Transaction Type 2",
+  "definition": "Set of elements used to identify the transactions to be reported.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status on the books of the account servicer of the transactions to be reported."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the reporting request refers to credit or debit entries."
+    },
+    "FloorLimit": {
+      "name": "Floor Limit",
+      "definition": "Specifies the minimum value of entries to be reported in the requested message."
+    }
+  }
+}

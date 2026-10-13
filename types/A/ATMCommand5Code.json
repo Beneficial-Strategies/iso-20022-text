@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMCommand5Code",
+  "language": "en",
+  "name": "ATM Command 5 Code",
+  "definition": "Type of command performed by the ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "isoName": "ATMBalance",
+      "name": "ATM Balance",
+      "definition": "Provide the ATM counters, resetting those that are applicable."
+    },
+    "CCNT": {
+      "isoName": "CountersInquiry",
+      "name": "Counters Inquiry",
+      "definition": "Request the value of the ATM counters."
+    },
+    "RPTC": {
+      "isoName": "CountersReport",
+      "name": "Counters Report",
+      "definition": "Provide the value of the ATM counters, no reinitialisation of the counters."
+    }
+  }
+}

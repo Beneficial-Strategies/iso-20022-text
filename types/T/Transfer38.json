@@ -1,0 +1,117 @@
+{
+  "isoType": "Transfer38",
+  "language": "en",
+  "name": "Transfer 38",
+  "definition": "Parameters applied to the settlement of a security transfer.",
+  "isoElements": {
+    "TransferConfirmationReference": {
+      "name": "Transfer Confirmation Reference",
+      "definition": "Unique and unambiguous identifier for the transfer execution, as assigned by the confirming party."
+    },
+    "TransferReference": {
+      "name": "Transfer Reference",
+      "definition": "Unique and unambiguous identifier for the transfer instruction, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the transfer. This reference can typically be used in a hub scenario to give the reference of the transfer as assigned by the underlying client."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the transfer allocated by the counterparty."
+    },
+    "BusinessFlowType": {
+      "name": "Business Flow Type",
+      "definition": "Identifies the business process in which the actors are involved. This is important to trigger the right business process, according to the market business model, which may require matching instructions in a CSD environment (double leg process) or not (single leg process)."
+    },
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date and time at which the securities are to be exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "name": "Effective Transfer Date",
+      "definition": "Date and time at which the transfer was executed."
+    },
+    "EffectiveSettlementDate": {
+      "name": "Effective Settlement Date",
+      "definition": "Date and time at which the securities were exchanged at the International Central Securities Depository (ICSD) or Central Securities Depository (CSD)."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date and time at which the transaction is completed and cleared, that is, securities are delivered."
+    },
+    "TransferOrderDateForm": {
+      "name": "Transfer Order Date Form",
+      "definition": "Date on which the investor signed the transfer order form."
+    },
+    "TransferReason": {
+      "name": "Transfer Reason",
+      "definition": "Reason for the transfer."
+    },
+    "HoldingsPlanType": {
+      "name": "Holdings Plan Type",
+      "definition": "Specifies information about investment plans included in the holding."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Information related to the financial instrument transferred."
+    },
+    "TotalUnitsNumber": {
+      "name": "Total Units Number",
+      "definition": "Number of units transferred."
+    },
+    "TransferRate": {
+      "name": "Transfer Rate",
+      "definition": "Quantity of securities transferred as a percentage of the holding."
+    },
+    "UnitsDetails": {
+      "name": "Units Details",
+      "definition": "Breakdown of units transferred."
+    },
+    "Rounding": {
+      "name": "Rounding",
+      "definition": "Rounding direction applied to nearest unit."
+    },
+    "OriginalCost": {
+      "name": "Original Cost",
+      "definition": "Original amount paid for the asset at the point of purchase. May also be known as the book cost."
+    },
+    "AveragePrice": {
+      "name": "Average Price",
+      "definition": "Weighted average price of the units in the account before the transfer was executed."
+    },
+    "NewAveragePrice": {
+      "name": "New Average Price",
+      "definition": "Weighted average price of the units in the account after the transfer was executed."
+    },
+    "AverageDate": {
+      "name": "Average Date",
+      "definition": "Trade date of the average weighted data of units in the account before the transfer was executed."
+    },
+    "NewAverageDate": {
+      "name": "New Average Date",
+      "definition": "Trade date of the average weighted data of units in the account after the transfer was executed."
+    },
+    "TransferCurrency": {
+      "name": "Transfer Currency",
+      "definition": "Currency used to transfer the holdings. Some transfer agents register holdings grouped by currency in addition to using the ISIN for multi-currency fund shares."
+    },
+    "OwnAccountTransferIndicator": {
+      "name": "Own Account Transfer Indicator",
+      "definition": "Indicates whether the transfer results in a change of beneficial owner."
+    },
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "TransferExpensesPaymentType": {
+      "name": "Transfer Expenses Payment Type",
+      "definition": "Specifies how the payment of fees and taxes as a result of the transfer is covered, that is, whether by cash or the redemption of units."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "TotalUnitsNumber must be the sum of all occurrences of UnitsDetails/UnitsNumber when UnitsDetails is present."
+    }
+  }
+}

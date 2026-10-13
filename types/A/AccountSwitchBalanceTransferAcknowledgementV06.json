@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountSwitchBalanceTransferAcknowledgementV06",
+  "language": "en",
+  "name": "Account Switch Balance Transfer Acknowledgement V 06",
+  "definition": "The AccountSwitchBalanceTransferAcknowledgement message is sent by the previous account servicer to the new account servicer in response to the AccountSwitchRequestBalanceTransfer message. It confirms the status of the old account and the balance of the account on closure. In the case of a negative closing balance, the old account servicer provides details of the nominated account to which payment should be made from the new account servicer.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": ""
+    },
+    "AccountSwitchDetails": {
+      "name": "Account Switch Details",
+      "definition": ""
+    },
+    "OldAccount": {
+      "name": "Old Account",
+      "definition": ""
+    },
+    "OldAccountBalance": {
+      "name": "Old Account Balance",
+      "definition": ""
+    },
+    "BalanceTransfer": {
+      "name": "Balance Transfer",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  }
+}

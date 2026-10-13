@@ -1,0 +1,21 @@
+{
+  "isoType": "OwnershipBeneficiaryRate1",
+  "language": "en",
+  "name": "Ownership Beneficiary Rate 1",
+  "definition": "Percentage of ownership or of beneficial ownership of the shares/units in the account.",
+  "isoElements": {
+    "Rate": {
+      "name": "Rate",
+      "definition": "Ownership or beneficial ownership expressed as a percentage."
+    },
+    "Fraction": {
+      "name": "Fraction",
+      "definition": "Ownership or beneficial ownership expressed as a fraction or another form."
+    }
+  },
+  "isoRules": {
+    "OwnershipBeneficiaryRateRule": {
+      "definition": "Either Rate or Fraction must be present. Both may be present."
+    }
+  }
+}

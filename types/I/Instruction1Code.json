@@ -1,0 +1,23 @@
+{
+  "isoType": "Instruction1Code",
+  "language": "en",
+  "name": "Instruction 1 Code",
+  "definition": "Specifies further instructions concerning the processing of a payment instruction, provided by the sending clearing agent to the next agent(s).",
+  "isoCodes": {
+    "PBEN": {
+      "isoName": "PayTheBeneficiary",
+      "name": "Pay The Beneficiary",
+      "definition": "(Ultimate) creditor to be paid only after verification of identity."
+    },
+    "TTIL": {
+      "isoName": "TimeTill",
+      "name": "Time Till",
+      "definition": "Payment instruction is valid and eligible for execution until the date and time stipulated. Otherwise, the payment instruction will be rejected."
+    },
+    "TFRO": {
+      "isoName": "TimeFrom",
+      "name": "Time From",
+      "definition": "Payment instruction will be valid and eligible for execution from the date and time stipulated."
+    }
+  }
+}

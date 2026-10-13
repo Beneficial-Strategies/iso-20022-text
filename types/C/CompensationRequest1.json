@@ -1,0 +1,32 @@
+{
+  "isoType": "CompensationRequest1",
+  "language": "en",
+  "name": "Compensation Request 1",
+  "definition": "Provides the time period for the request and account compensation should be credited to.",
+  "isoElements": {
+    "CompensationAccount": {
+      "name": "Compensation Account",
+      "definition": "Account to which compensation is due."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Date range for which the compensation applies."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Estimated compensation due for the request as calculated by the requestor."
+    },
+    "ExpectedValueDate": {
+      "name": "Expected Value Date",
+      "definition": "Value date on which the compensation is requested to be paid."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate of a financial instrument used to estimate the compensation."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the compensation."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "BusinessDayConvention2Code",
+  "language": "en",
+  "name": "Business Day Convention 2 Code",
+  "definition": "Specifies how a date is adjusted when it falls on a non-business day.",
+  "isoCodes": {
+    "FWNG": {
+      "isoName": "Following",
+      "name": "Following",
+      "definition": "Date will be the first following day that is a business day."
+    },
+    "FRNC": {
+      "isoName": "FloatingRateNoteConvention",
+      "name": "Floating Rate Note Convention",
+      "definition": "Floating rate note convention."
+    },
+    "MODF": {
+      "isoName": "ModifiedFollowing",
+      "name": "Modified Following",
+      "definition": "Date will be the first following day that is a business day unless that day falls in the next calendar month, in which case that date will be the first preceding day that is a business day."
+    },
+    "NEAR": {
+      "isoName": "Nearest",
+      "name": "Nearest",
+      "definition": "Date will be the first preceding day that is a business day unless that day falls on a day other than a sunday or a monday, and will be the first following day that is a business day, if the relevant date otherwise falls on a Sunday or a Monday."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other business day convention."
+    },
+    "PREC": {
+      "isoName": "Preceding",
+      "name": "Preceding",
+      "definition": "Non-business day will be adjusted to the first preceding day that is a business day."
+    }
+  }
+}

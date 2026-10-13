@@ -1,0 +1,20 @@
+{
+  "isoType": "CashDeposit1",
+  "language": "en",
+  "name": "Cash Deposit 1",
+  "definition": "Deposit of an amount of money defined in cash notes and/or coins.",
+  "isoElements": {
+    "NoteDenomination": {
+      "name": "Note Denomination",
+      "definition": "Specifies the note or coin denomination, including the currency, such as a 50 euro note."
+    },
+    "NumberOfNotes": {
+      "name": "Number Of Notes",
+      "definition": "Specifies the number of notes of the same denomination in the deposit."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies the total amount of money in the cash deposit, that is the note denomination times the number of notes."
+    }
+  }
+}

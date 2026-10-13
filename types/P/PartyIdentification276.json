@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification276",
+  "language": "en",
+  "name": "Party Identification 276",
+  "definition": "Identification of a party.",
+  "isoElements": {
+    "LegalPerson": {
+      "name": "Legal Person",
+      "definition": "Legal entity."
+    },
+    "NaturalPerson": {
+      "name": "Natural Person",
+      "definition": "Private person."
+    }
+  },
+  "isoRules": {
+    "LegalPersonOrNaturalPersonRule": {
+      "definition": "At least one occurrence of either NaturalPerson or LegalPerson must be present."
+    }
+  }
+}

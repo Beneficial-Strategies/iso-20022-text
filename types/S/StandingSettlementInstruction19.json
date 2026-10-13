@@ -1,0 +1,33 @@
+{
+  "isoType": "StandingSettlementInstruction19",
+  "language": "en",
+  "name": "Standing Settlement Instruction 19",
+  "definition": "Details of the standing settlement instruction to be applied.",
+  "isoElements": {
+    "SettlementStandingInstructionDatabase": {
+      "name": "Settlement Standing Instruction Database",
+      "definition": "Specifies what settlement standing instruction database is to be used to derive the settlement parties involved in the transaction."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Identification of the buyer or seller in a standing settlement instruction enabling to derive the Standing Settlement Instruction."
+    },
+    "Vendor": {
+      "name": "Vendor",
+      "definition": "Vendor of the settlement standing instruction database that is to be consulted."
+    },
+    "OtherDeliveringSettlementParties": {
+      "name": "Other Delivering Settlement Parties",
+      "definition": "Delivering parties, other than the seller, needed for deriving the standing settlement instruction (for example, depository) or provided for information purposes (for example, instructing party settlement chain)."
+    },
+    "OtherReceivingSettlementParties": {
+      "name": "Other Receiving Settlement Parties",
+      "definition": "Receiving parties, other than the buyer, needed for deriving the standing settlement instruction (for example, depository) or provided for information purposes (for example, instructing party settlement chain)."
+    }
+  },
+  "isoRules": {
+    "VendorPresenceRule": {
+      "definition": "If the settlement standing instruction database is a vendor database, then the vendor must be identified."
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "isoType": "CorporateActionAmounts74",
+  "language": "en",
+  "name": "Corporate Action Amounts 74",
+  "definition": "Specifies amounts in the framework of a corporate action event.",
+  "isoElements": {
+    "PostingAmount": {
+      "name": "Posting Amount",
+      "definition": "Amount of money that is to be/was posted to the account."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money before any tax deductions have been made."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money after tax deductions have been made."
+    },
+    "SolicitationFees": {
+      "name": "Solicitation Fees",
+      "definition": "Cash premium made available if the securities holder consents or participates to an event, for example consent fees or solicitation fees."
+    },
+    "CashInLieuOfShare": {
+      "name": "Cash In Lieu Of Share",
+      "definition": "Cash disbursement in lieu of a fractional quantity of, for example, equity."
+    },
+    "CapitalGain": {
+      "name": "Capital Gain",
+      "definition": "Amount of money distributed as the result of a capital gain."
+    },
+    "InterestAmount": {
+      "name": "Interest Amount",
+      "definition": "Amount of money representing a coupon payment."
+    },
+    "MarketClaimAmount": {
+      "name": "Market Claim Amount",
+      "definition": "Amount of money resulting from a market claim."
+    },
+    "IndemnityAmount": {
+      "name": "Indemnity Amount",
+      "definition": "(Unique to France) Amount due to a buyer of securities dealt prior to ex date which may be subject to different rate of taxation."
+    },
+    "ManufacturedDividendPaymentAmount": {
+      "name": "Manufactured Dividend Payment Amount",
+      "definition": "Amount of money that the borrower pays to the lender as a compensation. It does not entitle the lender to reclaim any tax credit and is sometimes treated differently by the local tax authorities of the lender. Also covers compensation/indemnity of missed dividend concerning early/late settlements if applicable to a market."
+    },
+    "ReinvestmentAmount": {
+      "name": "Reinvestment Amount",
+      "definition": "Amount of money reinvested in additional securities."
+    },
+    "FullyFrankedAmount": {
+      "name": "Fully Franked Amount",
+      "definition": "Amount resulting from a fully franked dividend paid by a company; amount includes tax credit for companies that have made sufficient tax payments during the fiscal period."
+    },
+    "UnfrankedAmount": {
+      "name": "Unfranked Amount",
+      "definition": "Amount resulting from an unfranked dividend paid by a company; the amount does not include tax credit and is subject to withholding tax."
+    },
+    "SundryOrOtherAmount": {
+      "name": "Sundry Or Other Amount",
+      "definition": "Amount of money related to taxable income that cannot be categorised."
+    },
+    "TaxFreeAmount": {
+      "name": "Tax Free Amount",
+      "definition": "Amount of money that has not been subject to taxation."
+    },
+    "TaxDeferredAmount": {
+      "name": "Tax Deferred Amount",
+      "definition": "Amount of income eligible for deferred taxation."
+    },
+    "ValueAddedTaxAmount": {
+      "name": "Value Added Tax Amount",
+      "definition": "Tax on value added."
+    },
+    "StampDutyAmount": {
+      "name": "Stamp Duty Amount",
+      "definition": "Amount of stamp duty."
+    },
+    "TaxReclaimAmount": {
+      "name": "Tax Reclaim Amount",
+      "definition": "Amount that was paid in excess of actual tax obligation and was reclaimed."
+    },
+    "TaxCreditAmount": {
+      "name": "Tax Credit Amount",
+      "definition": "Amount of taxes that have been previously paid in relation to the taxable event."
+    },
+    "AdditionalTaxAmount": {
+      "name": "Additional Tax Amount",
+      "definition": "Amount of additional taxes that cannot be categorised."
+    },
+    "WithholdingTaxAmount": {
+      "name": "Withholding Tax Amount",
+      "definition": "Amount of a cash distribution that will be withheld by the tax authorities of the jurisdiction of the issuer, for which a relief at source and/or reclaim may be possible."
+    },
+    "SecondLevelTaxAmount": {
+      "name": "Second Level Tax Amount",
+      "definition": "Amount of money withheld by the jurisdiction other than the jurisdiction of the issuer’s country of tax incorporation, for which a relief at source and/or reclaim may be possible. It is levied in complement or offset of the withholding tax rate levied by the jurisdiction of the issuer’s tax domicile."
+    },
+    "FiscalStampAmount": {
+      "name": "Fiscal Stamp Amount",
+      "definition": "Amount of fiscal tax to apply."
+    },
+    "ExecutingBrokerAmount": {
+      "name": "Executing Broker Amount",
+      "definition": "Amount of money paid to an executing broker as a commission."
+    },
+    "PayingAgentCommissionAmount": {
+      "name": "Paying Agent Commission Amount",
+      "definition": "Amount of paying/sub-paying agent commission."
+    },
+    "LocalBrokerCommissionAmount": {
+      "name": "Local Broker Commission Amount",
+      "definition": "Local broker's commission."
+    },
+    "RegulatoryFeesAmount": {
+      "name": "Regulatory Fees Amount",
+      "definition": "Amount of money charged by a regulatory authority, for example, Securities and Exchange fees."
+    },
+    "ShippingFeesAmount": {
+      "name": "Shipping Fees Amount",
+      "definition": "All costs related to the physical delivery of documents such as stamps, postage, carrier fees, insurances or messenger services."
+    },
+    "ChargesAmount": {
+      "name": "Charges Amount",
+      "definition": "Amount of money paid for the provision of financial services that cannot be categorised by another qualifier."
+    },
+    "CashAmountBroughtForward": {
+      "name": "Cash Amount Brought Forward",
+      "definition": "Indicates cash retained from previous dividend."
+    },
+    "CashAmountCarriedForward": {
+      "name": "Cash Amount Carried Forward",
+      "definition": "Indicates the balance carried forward to next dividend."
+    },
+    "NotionalDividendPayableAmount": {
+      "name": "Notional Dividend Payable Amount",
+      "definition": "Amount of cash that would have been payable if the dividend had been taken in the form of cash rather than shares."
+    },
+    "NotionalTaxAmount": {
+      "name": "Notional Tax Amount",
+      "definition": "Where new securities are issued in lieu of a cash dividend, the notional tax is the tax on the amount of cash that would have been paid."
+    },
+    "TaxArrearsAmount": {
+      "name": "Tax Arrears Amount",
+      "definition": "Amount of money paid by the tax authorities in addition to the payment of the tax refund itself."
+    },
+    "OriginalAmount": {
+      "name": "Original Amount",
+      "definition": "Posting/settlement Amount in its original currency when conversion from/into another currency has occurred."
+    },
+    "PrincipalOrCorpus": {
+      "name": "Principal Or Corpus",
+      "definition": "Amount of money representing a distribution of a bond's principal, for example, repayment of outstanding debt."
+    },
+    "RedemptionPremiumAmount": {
+      "name": "Redemption Premium Amount",
+      "definition": "Amount of money (not interest) in addition to the principal at the redemption of a bond."
+    },
+    "IncomePortion": {
+      "name": "Income Portion",
+      "definition": "Amount relating to the underlying security for which income is distributed."
+    },
+    "StockExchangeTax": {
+      "name": "Stock Exchange Tax",
+      "definition": "Amount of stock exchange tax."
+    },
+    "EUTaxRetentionAmount": {
+      "name": "EU Tax Retention Amount",
+      "definition": "Total amount of tax withheld at source in conformance with the EU Savings Directive."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Amount of interest that has been accrued in between coupon payment periods."
+    },
+    "EqualisationAmount": {
+      "name": "Equalisation Amount",
+      "definition": "Portion of the fund distribution amount which represents the average accrued income included in the purchase price for units bought during the account period."
+    },
+    "FATCATaxAmount": {
+      "name": "FATCA Tax Amount",
+      "definition": "FATCA (Foreign Account Tax Compliance Act) related tax amount."
+    },
+    "NRATaxAmount": {
+      "name": "NRA Tax Amount",
+      "definition": "Amount of tax related income subject to NRA (Non Resident Alien)."
+    },
+    "BackUpWithholdingTaxAmount": {
+      "name": "Back Up Withholding Tax Amount",
+      "definition": "Amount of tax related to back up withholding."
+    },
+    "TaxOnIncomeAmount": {
+      "name": "Tax On Income Amount",
+      "definition": "Amount of overall tax withheld at source by fund managers prior to considering the tax obligation of each unit holder."
+    },
+    "TransactionTax": {
+      "name": "Transaction Tax",
+      "definition": "Amount of transaction tax."
+    },
+    "DeemedAmount": {
+      "name": "Deemed Amount",
+      "definition": "Amount of proceeds which is not actually paid to the security holder but on which withholding tax is applicable."
+    },
+    "ForeignIncomeAmount": {
+      "name": "Foreign Income Amount",
+      "definition": "Amount relating to a foreign income such as a conduit foreign income."
+    },
+    "DeemedDividendAmount": {
+      "name": "Deemed Dividend Amount",
+      "definition": "Deemed amount resulting from the difference between the rate of dividend proceeds attributed to the security holder for the taxable year and the rate of dividend proceeds previously notified to the security holder in relation to cash distributions for the year."
+    },
+    "DeemedFundAmount": {
+      "name": "Deemed Fund Amount",
+      "definition": "Deemed amount resulting from the difference between the rate of the proceeds components comprising a fund payment attributed to the security holder for the taxable year and the rate of the fund proceeds previously notified to the security holder in relation to cash distributions for the year."
+    },
+    "DeemedInterestAmount": {
+      "name": "Deemed Interest Amount",
+      "definition": "Deemed amount resulting from the difference between the rate of interest proceeds attributed to the security holder for the taxable year and the rate of interest proceeds previously notified to the security holder in relation to cash distributions for the year."
+    },
+    "DeemedRoyaltiesAmount": {
+      "name": "Deemed Royalties Amount",
+      "definition": "Deemed amount resulting from the difference between the rate of royalty proceeds attributed to the security holder for the taxable year and the rate of royalty proceeds previously notified to the security holder in relation to cash distributions for the year."
+    },
+    "AdjustedSubscriptionAmount": {
+      "name": "Adjusted Subscription Amount",
+      "definition": "Amount of money debited or credited to adjust for the difference between the estimated and the final subscription rate for Rights Exercise events."
+    },
+    "RefundedSubscriptionAmount": {
+      "name": "Refunded Subscription Amount",
+      "definition": "Amount of money refunded from the original subscription cost for a Rights Exercise event.  This occurs when the event is prorated and the subscription cost relating to the unaffected (unaccepted) balance is returned to the holder."
+    },
+    "BuyUpAmount": {
+      "name": "Buy Up Amount",
+      "definition": "Amount of cash debited in the context of a buy up option."
+    }
+  }
+}

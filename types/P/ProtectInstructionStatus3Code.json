@@ -1,0 +1,23 @@
+{
+  "isoType": "ProtectInstructionStatus3Code",
+  "language": "en",
+  "name": "Protect Instruction Status 3 Code",
+  "definition": "Specifies the status of the protect transaction.",
+  "isoCodes": {
+    "OPEN": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Protect instruction which has not been fully covered. Will include partial covers."
+    },
+    "COVR": {
+      "isoName": "FullyCovered",
+      "name": "Fully Covered",
+      "definition": "Protect instruction has been fully covered."
+    },
+    "EXPI": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "Protect instruction has expired."
+    }
+  }
+}

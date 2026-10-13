@@ -1,0 +1,23 @@
+{
+  "isoType": "TransactionEnvironment3Code",
+  "language": "en",
+  "name": "Transaction Environment 3 Code",
+  "definition": "Indicates the entity hosting the terminal performing the transaction.",
+  "isoCodes": {
+    "BRCH": {
+      "isoName": "Branch",
+      "name": "Branch",
+      "definition": "Bank environment."
+    },
+    "MERC": {
+      "isoName": "Merchant",
+      "name": "Merchant",
+      "definition": "Merchant environment."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other environments, for instance a mall or an airport."
+    }
+  }
+}

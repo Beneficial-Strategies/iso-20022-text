@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalMandateSuspensionReason1Code",
+  "language": "en",
+  "name": "External Mandate Suspension Reason 1 Code",
+  "definition": "Specifies the external mandate suspension reason code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CTAM": {
+      "isoName": "ContractAmended",
+      "name": "Contract Amended",
+      "definition": "Mandate suspended due to amendment of the contract."
+    },
+    "CTCA": {
+      "isoName": "ContractCancellationInitiatedByDebtor",
+      "name": "Contract Cancellation Initiated By Debtor",
+      "definition": "Mandate suspended due to cancellation of the contract, requested by the debtor."
+    },
+    "CTEX": {
+      "isoName": "ContractExpired",
+      "name": "Contract Expired",
+      "definition": "Mandate suspended due to the contract that expired."
+    },
+    "MCFC": {
+      "isoName": "MandateSuspendedFinalCollection",
+      "name": "Mandate Suspended Final Collection",
+      "definition": "Mandate suspended as final collection took place."
+    },
+    "MCOC": {
+      "isoName": "MandateSuspendedOnceOffCollection",
+      "name": "Mandate Suspended Once Off Collection",
+      "definition": "Mandate suspended as the once off collection took place."
+    },
+    "MSUC": {
+      "isoName": "MandateSuspended7ConsecutiveUnsuccessfulCollections",
+      "name": "Mandate Suspended 7 Consecutive Unsuccessful Collections",
+      "definition": "Mandate suspended after 7 consecutive unsuccessful collections."
+    }
+  }
+}

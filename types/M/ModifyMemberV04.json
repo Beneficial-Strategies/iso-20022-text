@@ -1,0 +1,29 @@
+{
+  "isoType": "ModifyMemberV04",
+  "language": "en",
+  "name": "Modify Member V 04",
+  "definition": "Scope|The ModifyMember message is sent by a member to the transaction administrator.|It is used to request modifications to the static data related to the profile of a member that the transaction administrator maintains.|Usage|The transaction administrator is in charge of providing the members with business information. The term business information covers all information related to the management of the system, that is, not related to the transactions entered into the system. The type of business information available can vary depending on the system. Among other things, it can, refer to information about the membership of the system.|At any time during the operating hours of the system, the member can request the transaction administrator to modify the information it maintains about the member.|The member will submit a message requesting modifications in one or more of the following criteria:|- identification of the member|- contact information for the member organization: postal address, e-mail address, telephone or fax number|- identification of contact persons for the member, their role and/or details (postal address, e-mail address, telephone or fax number)|Based on the criteria received within the Modify Member message, the transaction administrator will execute or reject the requested modifications.|In principle, the transaction administrator may send a Receipt message as a reply to the ModifyMember request. To verify the outcome of the request, the member may submit a GetMember message with the appropriate search criteria.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": ""
+    },
+    "MemberIdentification": {
+      "name": "Member Identification",
+      "definition": ""
+    },
+    "NewMemberValueSet": {
+      "name": "New Member Value Set",
+      "definition": ""
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": ""
+    }
+  },
+  "isoRules": {
+    "MandatoryValueRule": {
+      "definition": "The NewMemberValueSet consists of a MemberReturnAddress, a CommunicationAddress or a ContactReference. At a minimum, one of these elements must be present."
+    }
+  }
+}

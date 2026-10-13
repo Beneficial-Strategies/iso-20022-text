@@ -1,0 +1,21 @@
+{
+  "isoType": "ClosingBalance5",
+  "language": "en",
+  "name": "Closing Balance 5",
+  "definition": "Closing balance for the statement period (final closing balance) or of this page (intermediary closing balance).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "name": "Short Long Indicator",
+      "definition": "Indication that the position is short or long."
+    },
+    "ClosingBalance": {
+      "name": "Closing Balance",
+      "definition": "Closing balance for the statement period (final closing balance) or of this page (intermediary closing balance)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "If Shortlong is absent, then the default is long, that is, balance is positive."
+    }
+  }
+}

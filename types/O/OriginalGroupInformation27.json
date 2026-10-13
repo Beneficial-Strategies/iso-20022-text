@@ -1,0 +1,28 @@
+{
+  "isoType": "OriginalGroupInformation27",
+  "language": "en",
+  "name": "Original Group Information 27",
+  "definition": "Set of elements used to provide information on the original group, to which the message refers.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference, as assigned by the original instructing party, to unambiguously identify the original message."
+    },
+    "OriginalMessageNameIdentification": {
+      "name": "Original Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Date and time at which the original message was created."
+    },
+    "OriginalNumberOfTransactions": {
+      "name": "Original Number Of Transactions",
+      "definition": "Number of individual transactions contained in the original message."
+    },
+    "OriginalControlSum": {
+      "name": "Original Control Sum",
+      "definition": "Total of all individual amounts included in the original message, irrespective of currencies."
+    }
+  }
+}
