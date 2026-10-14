@@ -1,0 +1,43 @@
+name: The English text differs from ISO's
+description: A name, definition or format in the hub does not match ISO's standard, or a `format` or `name` that our tools generate reads wrongly
+title: "Base text: "
+labels: ["base-text", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The hub holds ISO's English exactly as the specification has it, plus the `format` and `name` texts our tools generate. A difference from ISO's repository is a bug here.
+        If it is only a translation problem, use the language's repository instead.
+  - type: input
+    id: type
+    attributes:
+      label: Type, element or code
+      placeholder: PostalAddress27
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What differs
+      options:
+        - A definition does not match ISO's
+        - A name does not match ISO's
+        - A generated `format` is wrong or unclear
+        - A generated `name` (the words form) reads wrongly
+        - Something is missing (a type, element, code or message)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: ours
+    attributes:
+      label: What the hub says
+    validations:
+      required: true
+  - type: textarea
+    id: iso
+    attributes:
+      label: What ISO says
+      description: Link ISO's page, for example https://www.iso20022.org/standardsrepository/type/PostalAddress27, and paste the text.
+    validations:
+      required: true

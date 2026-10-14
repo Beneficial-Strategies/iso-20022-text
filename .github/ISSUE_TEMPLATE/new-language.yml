@@ -1,0 +1,30 @@
+name: Propose a new language
+description: A language or a regional text that does not have a repository yet
+title: "New language: "
+labels: ["new-language", "tracking", "needs-triage"]
+body:
+  - type: input
+    id: tag
+    attributes:
+      label: BCP 47 tag
+      placeholder: "it, ja, pt-BR"
+    validations:
+      required: true
+  - type: input
+    id: base
+    attributes:
+      label: Based on
+      description: "`en` (ISO English) for a translation, or the language it differs slightly from (`pt` for `pt-BR`)."
+    validations:
+      required: true
+  - type: textarea
+    id: people
+    attributes:
+      label: Who will review it
+      description: A language nobody reviews stays a machine draft. Name the people or the institution.
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Who will use it
