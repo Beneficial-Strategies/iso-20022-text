@@ -1,0 +1,22 @@
+name: Change to the convention or the tools
+description: A proposal for SPECIFICATION.md, the build, the coverage, or a new language
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What this would let someone do that they cannot now.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and open points it touches
+      description: SPECIFICATION.md lists the open points.

@@ -45,6 +45,20 @@ This repository deploys `en`, the ISO English as published (`wrangler.jsonc`, bu
 this one when they build, so a change here reaches a language host the next time that language's repository builds (`HUB_REF` and `HUB_REPO` choose another
 version of this repository, for a preview). `iso-20022-text.beneficialstrategies.com` itself is not a language host.
 
+## Help keep the text maintained
+
+The base text here is ISO's, and each language is cared for in its own repository. Every one has the same forms: a **glossary entry** ("when ISO 20022 says `Cheque` it should say `Check` in my language"), a correction to a definition, and an offer to review or maintain. They also ask which **variety** of the language (Brazil, Portugal, Quebec, Switzerland...) a term belongs to, so that regional differences are captured and a variety that needs it can get its own text.
+
+| Language | Glossary entry | Offer to help |
+|---|---|---|
+| Portuguese | [open](https://github.com/Beneficial-Strategies/iso-20022-text-pt/issues/new?template=glossary.yml) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-pt/issues/new?template=volunteer.yml) |
+| Spanish | [open](https://github.com/Beneficial-Strategies/iso-20022-text-es/issues/new?template=glossary.yml) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-es/issues/new?template=volunteer.yml) |
+| French | [open](https://github.com/Beneficial-Strategies/iso-20022-text-fr/issues/new?template=glossary.yml) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-fr/issues/new?template=volunteer.yml) |
+| German | [open](https://github.com/Beneficial-Strategies/iso-20022-text-de/issues/new?template=glossary.yml) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-de/issues/new?template=volunteer.yml) |
+| English (US) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-en-US/issues/new?template=glossary.yml) | [open](https://github.com/Beneficial-Strategies/iso-20022-text-en-US/issues/new?template=volunteer.yml) |
+
+A language that is not here yet: **[propose it](https://github.com/Beneficial-Strategies/iso-20022-text/issues/new?template=new-language.yml)**. Co-maintainers and sponsors change what this text can become: contact support@beneficialstrategies.com. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Status, license and warranty
 
 This text and everything in these repositories are provided **free of charge and as is**, under the MIT license (see `LICENSE`), without warranty
