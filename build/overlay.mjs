@@ -72,8 +72,8 @@ const rewrite = (entry) => {
 
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
-for (const d of ['types', 'messages']) cpSync(join(hub, d), join(out, d), { recursive: true });
-cpSync(join(hub, 'coverage.json'), join(out, 'coverage.json'));
+cpSync(join(hub, 'types'), join(out, 'types'), { recursive: true });
+for (const f of ['messages.json', 'coverage.json']) cpSync(join(hub, f), join(out, f));
 
 let rewritten = 0, explicit = 0;
 const typesDir = join(out, 'types');

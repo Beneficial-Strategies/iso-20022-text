@@ -25,9 +25,9 @@ holds only what differs from it.
 |---|---|
 | `types/<first letter>/<Type>.json` | one file per type: its `name` and `definition`, and the `isoElements`, `isoCodes` and `isoRules` of it; data types also carry `format`, the text that says what a value must look like |
 | `areas.json` | the business areas (pain, camt, ...): name and definition of each, served at `/areas` |
-| `messages/<identifier>.json` | a message: its root type and the types it uses (its name and description are the root type's; `/messages` lists every message's name) |
+| `messages.json` | every message's identifier and root type (a message's name and description are its root type's; served at `/messages` with each name) |
 | `tools/<tool>/<name>.json` | the text of an application that uses this text, key -> text (today: the ISO 20022 Explorer, `tools/explorer/page.json` and `controls.json`); served at `/tools/<tool>/<name>` |
-| `coverage.json` | what is published so far (the types of the listed messages and everything they use) |
+| `coverage.json` | whether the publication is complete, and the source of the English (the messages and types published are counted by the build) |
 | `build/glossary.mjs` | lists the words of the names, and the ones a language's glossary does not cover yet |
 | `build/overlay.mjs` | builds what a language host serves: this text, then the language repository's `glossary.json` rules, then its explicit entries |
 

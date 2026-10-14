@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Builds a text host: the files a static host serves for one language, at the paths of the convention (no file extensions).
 //   node build/build.mjs [--spoke <language repository>] --out <folder>
-//   /{TypeName}  /{message identifier}  /messages  /areas  /coverage  /manifest  /_headers
+//   /{TypeName}  /messages  /areas  /coverage  /manifest  /_headers
 // (`/id/{repositoryId}` is not built yet: the hub does not carry repository ids.)
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -31,17 +31,15 @@ for (const letter of readdirSync(join(work, 'types'))) for (const file of readdi
   types[t.isoType] = t;
   write(join(out, t.isoType), t);
 }
-// a message has no text of its own: its name and description are those of its root type (the name without the version, "Customer Credit Transfer Initiation")
-const messages = {};
-for (const file of readdirSync(join(work, 'messages'))) {
-  const m = read(join(work, 'messages', file));
-  const root = types[m.isoType];
-  const message = { identifier: m.identifier, isoType: m.isoType, name: root.name.replace(/\s+V\s*\d+$/, ''), definition: root.definition };
-  messages[m.identifier] = { isoType: m.isoType, name: message.name };
-  write(join(out, m.identifier), { message, types: Object.fromEntries(m.types.map((n) => [n, types[n]])) });
+// a message has no text of its own: its name is that of its root type, without the version ("Customer Credit Transfer Initiation"), and its description is the root type's definition
+const isoMessages = {};
+for (const [identifier, { isoType }] of Object.entries(read(join(work, 'messages.json')).isoMessages)) {
+  const root = types[isoType];
+  if (!root) throw new Error(`message ${identifier}: root type ${isoType} is not in types/`);
+  isoMessages[identifier] = { isoType, name: root.name.replace(/\s+V\s*\d+$/, '') };
 }
-// /messages: every message's name, for a list to choose from (one file instead of one per message); /areas: the business areas
-write(join(out, 'messages'), { isoMessages: Object.fromEntries(Object.entries(messages).sort(([a], [b]) => a.localeCompare(b))) });
+// /messages: every message's name, for a list to choose from; /areas: the business areas
+write(join(out, 'messages'), { isoMessages: Object.fromEntries(Object.entries(isoMessages).sort(([a], [b]) => a.localeCompare(b))) });
 if (existsSync(join(work, 'areas.json'))) write(join(out, 'areas'), read(join(work, 'areas.json')));
 
 // tools/{tool}/{name}: the text of the apps that use this text (not ISO text)
@@ -54,7 +52,7 @@ for (const tool of existsSync(join(work, 'tools')) ? readdirSync(join(work, 'too
     tools[tool].push(name);
   }
 }
-write(join(out, 'coverage'), { complete: false, messages: coverage.messages, types: coverage.types, ...(Object.keys(tools).length ? { tools } : {}) });
+write(join(out, 'coverage'), { complete: coverage.complete, messages: Object.keys(isoMessages).sort(), types: Object.keys(types).length, ...(Object.keys(tools).length ? { tools } : {}) });
 
 const files = [];
 const walk = (d) => readdirSync(d, { withFileTypes: true }).forEach((e) => (e.isDirectory() ? walk(join(d, e.name)) : files.push(join(d, e.name))));

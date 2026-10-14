@@ -38,7 +38,6 @@ charset=utf-8` for every path below, and ignore query strings (a client may appe
 | Path | Returns | Required |
 |---|---|---|
 | `/{TypeName}` | the **type resource** | yes |
-| `/{message identifier}` | the **message bundle** | recommended |
 | `/messages` | the **message index**: the name of every message, by identifier | recommended |
 | `/areas` | the **business areas** (`pain`, `pacs`, ...): name and definition of each | recommended |
 | `/id/{repositoryId}` | the resource of exactly that item (type, element, code, rule or message) | yes |
@@ -144,18 +143,15 @@ A message has no text of its own: its name and its description are those of its 
 
 `/messages` is the index a list of messages is made from, one file instead of one per message:
 `{ "isoMessages": { "pain.001.001.13": { "isoType": "CustomerCreditTransferInitiationV13", "name": "Customer Credit Transfer Initiation" } } }`. The `name` is the root
-type's name without its version. The description (the root type's `definition`) is in the type resource and in the message bundle.
+type's name without its version. The description (the root type's `definition`) is in the type resource.
+
+Which types a message uses is not text and is not published here: it is a function of the ISO data, which a consumer already has (its own model of the message, or the
+ISO 20022 MCP: `iso20022://element/{message identifier}/downward-dependency-requirements`). A consumer fetches `/{TypeName}` for each type it shows; every resource is
+small, static and cacheable, and a type used by many messages is fetched once.
 
 `/areas` has the business areas of ISO 20022, which are ISO's own names and definitions, not a tool's:
 `{ "isoAreas": { "pain": { "name": "Payments Initiation", "definition": "Messages that support the initiation of a payment..." } } }`. The keys of `isoAreas` and
 `isoMessages` are ISO's identifiers and are never translated.
-
-## The message bundle
-
-`/{identifier}` returns the message and every type it uses, as `{ "message": { "identifier", "isoType", "name", "definition" },
-"types": { "{TypeName}": <type resource>, ... } }`, where `name` and `definition` are those of the root type (see above). It is derived (the closure of types of the message definition, which is a function of the ISO
-data), so a form can fetch one file instead of one per type. The repositories keep it as an index (`messages/{identifier}.json`: the identifier, the root type and
-the names of its types); the host embeds the type resources. A host that does not publish bundles answers `404` and the consumer fetches the types.
 
 ## Names that are not unique
 
@@ -197,8 +193,8 @@ returning a pointer with an element, is left open.
 Not part of the convention; a repository may keep its text any way it likes as long as the host publishes the resources above. The intended shape, so that
 people can care for a language without knowing Headless or any other consumer:
 
-* **The hub** (`iso-20022-text`) holds the base: the business areas (`areas.json`), the text of each tool (`tools/{tool}/{name}.json`), one file per type named for the type and grouped by its first letter (`types/P/PostalAddress27.json`), a
-  file per message (`messages/pain.001.001.13.json`) and `coverage.json`. Its definitions are ISO's, exactly. It also holds the tool that builds what a host serves.
+* **The hub** (`iso-20022-text`) holds the base: the business areas (`areas.json`), the text of each tool (`tools/{tool}/{name}.json`), one file per type named for the type and grouped by its first letter (`types/P/PostalAddress27.json`), `messages.json`
+  (every message's identifier and root type) and `coverage.json`. Its definitions are ISO's, exactly. It also holds the tool that builds what a host serves.
 * **A language repository** (`iso-20022-text-{language}`) holds **only what differs**. It never repeats a structure to change one text:
   * `glossary.json`: rules applied automatically, as word stems (`authoris` -> `authoriz`), whole words (`cheque` -> `check`) and phrases
     (`Town Name` -> `City Name`), plus `keep`, the words the language leaves as they are (`BIC`). `applyTo` says where they apply: `names` (the names of types,
@@ -230,7 +226,6 @@ Review and approval are the repository's own (pull requests, code owners, histor
 * The `format` of types whose pattern cannot be described in words, and of types whose rules are not a pattern; the wording of every `format` is open for revision.
 * Whether a per-text review marker is added later, and how a client would tell an untranslated entry from a translated one.
 * The spelling of the language tag in a hostname (`en-us`) and how a client finds out which tags exist (a list at the hub?).
-* Whether `/{identifier}` bundles are required once coverage includes messages.
 * How the MCP makes clients aware of the convention (documentation only, or a pointer in its answers).
 * Storage once coverage outgrows free static hosting (object storage behind the same hostname and paths: nothing published changes).
 * ISO's terms for republishing its text and its definitions.
