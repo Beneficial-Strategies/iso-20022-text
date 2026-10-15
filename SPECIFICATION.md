@@ -17,7 +17,8 @@ This document is the contract. It says nothing about any one consumer: a tool th
 
 | Term | Meaning |
 |---|---|
-| **Type** | Any entry of the ISO dictionary that has a name: a message component, a choice component, a code set, or a data type (text, amount, date, ...). Its name is unique across all kinds (23,501 entries; two exceptions, below). |
+| **Type** | Any entry of the ISO dictionary that has a name: a message component, a choice component, a code set, a data type (text, amount, date, ...), or a business component of the business domain (`RegisteredContract`). Its name is unique across all kinds (23,501 entries without the business domain, plus its 791 business components; two exceptions, below). |
+| **Business component** | An entry of ISO's business domain model (`RegisteredContract`, `Agreement`, `Document`): a type that has business attributes and business associations instead of elements. Not a message component: those carry a version number (`Agreement2`). |
 | **Element** | A member of a component or a choice, named by its ISO element name (`Name`, `PostalAddress`). |
 | **Code** | A value of a code set, named by its code value (`CHK`, `BIZZ`). |
 | **Rule** | A constraint of a type, named by its ISO constraint name. |
@@ -98,7 +99,7 @@ A data type (it has `format` and no children):
 
 * `isoType`, the keys of `isoElements`, `isoCodes` and `isoRules`, and `isoName` are ISO's own identifiers and are never translated. `isoType` is the ISO name of the type (the name in the address), each key of `isoElements` is the ISO name of an element of the type, each key of `isoCodes` is a code value of the code set, each key of `isoRules` is an ISO constraint name, and `isoName` is the ISO long name of that code. The `iso` prefix says that these values must match something in the ISO 20022 specification.
 * `isoElements`, `isoCodes` and `isoRules` are separate maps, because an element and a rule of one type can share a name (it happens, in two types). A
-  type has isoElements (a component or choice) or isoCodes (a code set), and any number of isoRules. An empty map may be left out.
+  type has isoElements (a component or choice), isoCodes (a code set), or isoAttributes and isoAssociations (a business component), and any number of isoRules. An empty map may be left out.
 * `name` and `definition` are present together; a rule has only a `definition`.
 * A code carries `isoName`, ISO's own long name for it (`NewAccountOpening` for the code `NEWA`), next to its `name` (the long name in words, "New Account Opening")
   and `definition`. A consumer finds a code by its value **or** by its `isoName`: it indexes both. `isoName` is never translated and the glossary never touches it.
@@ -127,6 +128,38 @@ application that detects a malformed value reports the `format` of the field's t
   it differently, and otherwise inherits the hub's (translated by the language's glossary where it has one).
 * The convention does not say how a consumer finds out which type a field has; it is the type named by the element, as in the message definition.
 
+
+## The business domain
+
+ISO 20022 has a business model apart from its messages. Its business components (`RegisteredContract`, `Agreement`, `Document`), with their business attributes and business
+associations, are **types** like any other: they are served at `/{TypeName}`, by the exact ISO name, with no separate path. This is how iso20022.org addresses them
+too (`/standardsrepository/type/{exactIsoName}` for `BatchResponse7`, `ISODateTime` and `CardPaymentAcquiring` alike). The text of the business domain is complete in intent like
+the rest: every component, attribute and association the specification has.
+
+The type resource of a business component has the usual `isoType`, `language`, `name` and `definition`, and two maps of its children, both keyed by ISO's own names (never translated):
+
+* `isoAttributes`: each business attribute, with `name` and `definition`.
+* `isoAssociations`: each business association, with `name` and `definition`.
+
+```json
+{
+  "isoType": "RegisteredContract",
+  "language": "en",
+  "name": "Registered Contract",
+  "definition": "(ISO's text)",
+  "isoAttributes": { "ClosureDate": { "name": "Closure Date", "definition": "(ISO's text)" } },
+  "isoAssociations": { }
+}
+```
+
+The data type of an attribute, its cardinality and the component an association points to are not text and are not published here, like the types a message uses: a
+consumer has them from the ISO data. A data type or component it refers to is a type, fetched by name; nothing a business component refers to answers `404` once the
+domain is published.
+
+**Names stay unique.** A business component shares its name with no message component, choice, code set, data type or message definition (checked on the snapshot of
+2026-09-04: 791 business components, no clash; a message component carries a version number, `Agreement2`, where the business component is `Agreement`; elements named like a business component
+are children of a type, not types). The hub's build fails when a name occurs in two kinds, apart from the exceptions below, so a future clash is found when it appears.
+If one ever does, the domain moves to its own path (`/domains/{name}`); no consumer needs to be written for that until it happens.
 
 ## Text of tools
 
