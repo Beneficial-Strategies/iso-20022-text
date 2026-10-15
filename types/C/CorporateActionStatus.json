@@ -1,0 +1,66 @@
+{
+  "isoType": "CorporateActionStatus",
+  "language": "en",
+  "name": "Corporate Action Status",
+  "definition": "Status of the corporate action process.",
+  "isoAttributes": {
+    "AgentStandingInstructionStatus": {
+      "name": "Agent Standing Instruction Status",
+      "definition": "Specifies the state or the condition."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Specifies the status of the details of the event."
+    },
+    "EventProcessingStatus": {
+      "name": "Event Processing Status",
+      "definition": "Processing status of the corporate action event."
+    },
+    "InstructionCancellationStatus": {
+      "name": "Instruction Cancellation Status",
+      "definition": "Status of the instruction cancellation process."
+    },
+    "CorporateActionInstructionProcessingStatus": {
+      "name": "Corporate Action Instruction Processing Status",
+      "definition": "Status of the corporate action instruction process."
+    },
+    "RateStatus": {
+      "name": "Rate Status",
+      "definition": "Specifies whether the rate is indicative or actual."
+    },
+    "OptionAvailabilityStatus": {
+      "name": "Option Availability Status",
+      "definition": "Availability status of the option."
+    },
+    "EventStatus": {
+      "name": "Event Status",
+      "definition": "Status of the corporate action event."
+    },
+    "RelatedInstructionProcessedStatus": {
+      "name": "Related Instruction Processed Status",
+      "definition": "Information on the status of the processing of an instruction related to a corporate action."
+    },
+    "DeactivationDateAndTime": {
+      "name": "Deactivation Date And Time",
+      "definition": "Date and time at which the the corporate action event or the option is deactivated."
+    },
+    "EventConfirmationStatus": {
+      "name": "Event Confirmation Status",
+      "definition": "Indicates the status of the occurrence of an event."
+    },
+    "EventCompletenessStatus": {
+      "name": "Event Completeness Status",
+      "definition": "Indicates whether the details provided about an event are complete or incomplete."
+    }
+  },
+  "isoAssociations": {
+    "CorporateActionStatusReason": {
+      "name": "Corporate Action Status Reason",
+      "definition": "Specifies the reasons for the status. It is derived from the relationship between Status and Status Reason."
+    },
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Corporate event for which a status is provided."
+    }
+  }
+}

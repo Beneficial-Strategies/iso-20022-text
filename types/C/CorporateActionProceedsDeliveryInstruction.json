@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionProceedsDeliveryInstruction",
+  "language": "en",
+  "name": "Corporate Action Proceeds Delivery Instruction",
+  "definition": "Specifies the delivery instructions for the securities and cash proceeds at any stage of the Corporate Action process.",
+  "isoAssociations": {
+    "RelatedDistribution": {
+      "name": "Related Distribution",
+      "definition": "Parameters of the distribution of the proceeds of a CA event."
+    },
+    "SecuritiesProceedsMovement": {
+      "name": "Securities Proceeds Movement",
+      "definition": "Instructions for the movement of securities related to a corporate action."
+    },
+    "CashProceedsMovement": {
+      "name": "Cash Proceeds Movement",
+      "definition": "Instructions for the movement of cash related to a corporate action."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "Information relative to the account(s) to be used for the delivery of the proceeds (cash or securities)"
+    },
+    "CorporateActionStandingInstruction": {
+      "name": "Corporate Action Standing Instruction",
+      "definition": "Standing instruction related to a corporate action."
+    }
+  }
+}

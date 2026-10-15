@@ -1,0 +1,66 @@
+{
+  "isoType": "PointOfInteraction",
+  "language": "en",
+  "name": "Point Of Interaction",
+  "definition": "Point of interaction (POI) is the entry point to a card payment system. It could be a physical or logical card payment terminal containing software and hardware components, it could be a payment system including a set of card payment terminals linked to a local or remote server, or it could be just an interface to make payments as telephone or Internet browser.",
+  "isoAttributes": {
+    "CardReadingCapabilities": {
+      "name": "Card Reading Capabilities",
+      "definition": "Card reading capabilities of the POI performing the transaction."
+    },
+    "CardholderVerificationCapabilities": {
+      "name": "Cardholder Verification Capabilities",
+      "definition": "Type of cardholder verification that could be performed during a transaction."
+    },
+    "OnLineCapabilities": {
+      "name": "On Line Capabilities",
+      "definition": "On-line and off-line capabilities of the POI."
+    },
+    "DisplayCapabilities": {
+      "name": "Display Capabilities",
+      "definition": "Display interfaces components."
+    },
+    "PrintLineWidth": {
+      "name": "Print Line Width",
+      "definition": "Number of columns of the printer component."
+    },
+    "Component": {
+      "name": "Component",
+      "definition": "Type of components belonging to a POI."
+    },
+    "ComponentIdentification": {
+      "name": "Component Identification",
+      "definition": "Identification of the POI component assigned by its provider."
+    },
+    "GroupIdentifier": {
+      "name": "Group Identifier",
+      "definition": "Identifier assigned by the merchant identifying a set of POI terminals performing some categories of transactions."
+    },
+    "LineWidth": {
+      "name": "Line Width",
+      "definition": "Number of columns of the display component."
+    },
+    "NumberOfLines": {
+      "name": "Number Of Lines",
+      "definition": "Number of lines of the display component."
+    },
+    "ErrorLog": {
+      "name": "Error Log",
+      "definition": "Error logging transferred by the point of interaction to the terminal management system."
+    },
+    "ComponentVersionNumber": {
+      "name": "Component Version Number",
+      "definition": "Identification of a version of component belonging to a given model."
+    }
+  },
+  "isoAssociations": {
+    "CardPaymentAcquiring": {
+      "name": "Card Payment Acquiring",
+      "definition": "Process which uses the point of interaction."
+    },
+    "ControllingTerminalManagementSystem": {
+      "name": "Controlling Terminal Management System",
+      "definition": "Terminal management system for which a point of interaction is specified."
+    }
+  }
+}

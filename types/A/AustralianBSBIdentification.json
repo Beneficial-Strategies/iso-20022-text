@@ -1,0 +1,26 @@
+{
+  "isoType": "AustralianBSBIdentification",
+  "language": "en",
+  "name": "Australian BSB Identification",
+  "definition": "Australian Bank State Branch (BSB) Code - identifies Australian financial institutions on the Australian national clearing system. The code is assigned by the Australian Payments Clearing Association (APCA).",
+  "isoAttributes": {
+    "ExtensiveBranchNetworkIdentification": {
+      "name": "Extensive Branch Network Identification",
+      "definition": "Extensive branch network list of the Australian Bank State Branch (BSB) Code. The codes are used for identifying Australian financial institutions, as assigned by the Australian Payments Clearing Association (APCA)."
+    },
+    "SmallNetworkIdentification": {
+      "name": "Small Network Identification",
+      "definition": "Small network list of the Australian Bank State Branch (BSB) Code. The codes are used for identifying Australian financial institutions , as assigned by the Australian Payments Clearing Association (APCA)."
+    },
+    "ClearingSystemMember": {
+      "name": "Clearing System Member",
+      "definition": "Clearing system for which an Australian code is provided."
+    }
+  },
+  "isoAssociations": {
+    "ClearingSystemMemberIdentificationType": {
+      "name": "Clearing System Member Identification Type",
+      "definition": "Clearing system member identification for which an Australian BSB identification is provided."
+    }
+  }
+}

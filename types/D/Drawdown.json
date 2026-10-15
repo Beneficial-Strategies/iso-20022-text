@@ -1,0 +1,78 @@
+{
+  "isoType": "Drawdown",
+  "language": "en",
+  "name": "Drawdown",
+  "definition": "Details of a drawdown tranche.",
+  "isoAttributes": {
+    "BeneficiaryType": {
+      "name": "Beneficiary Type",
+      "definition": "Information about the recipient of the drawdown, when not the original pension holder."
+    },
+    "CrystallisedUnitsNumber": {
+      "name": "Crystallised Units Number",
+      "definition": "Number of units crystallised."
+    },
+    "CrystallisationAmount": {
+      "name": "Crystallisation Amount",
+      "definition": "Amount that was originally designated for crystallisation."
+    },
+    "DrawdownStatus": {
+      "name": "Drawdown Status",
+      "definition": "Drawdown status of the pension."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Type of crystallisation event."
+    },
+    "TrancheType": {
+      "name": "Tranche Type",
+      "definition": "Type of drawdown tranche."
+    },
+    "PercentageOfTotalTransferValue": {
+      "name": "Percentage Of Total Transfer Value",
+      "definition": "Percentage of the total transfer value covered by the drawdown."
+    },
+    "ApplicableRules": {
+      "name": "Applicable Rules",
+      "definition": "Specifies the rules that are applicable to the drawdown. For example, in the UK market, the pre-A-day rule that was introduced on 6 April 2006.)"
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Information about the recipient of the drawdown, when not the original pension holder."
+    },
+    "TriggeredDate": {
+      "name": "Triggered Date",
+      "definition": "Date on which the drawdown was triggered when the drawdown type is flexible."
+    },
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the crystallisation event was triggered."
+    },
+    "DrawdownAmount": {
+      "name": "Drawdown Amount",
+      "definition": "Amount that was originally designated for drawdown."
+    },
+    "LifetimeAllowance": {
+      "name": "Lifetime Allowance",
+      "definition": "Percentage of the lifetime allowance (LTA) used."
+    },
+    "DrawdownTrancheIdentification": {
+      "name": "Drawdown Tranche Identification",
+      "definition": "Reference of the drawdown."
+    },
+    "NumberOfDrawdownTranches": {
+      "name": "Number Of Drawdown Tranches",
+      "definition": "Number of drawdown tranches."
+    }
+  },
+  "isoAssociations": {
+    "CappedLimit": {
+      "name": "Capped Limit",
+      "definition": "Limits of the capped drawdown."
+    },
+    "Pension": {
+      "name": "Pension",
+      "definition": "Attributes of a pension."
+    }
+  }
+}

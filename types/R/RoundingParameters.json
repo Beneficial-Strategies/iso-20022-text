@@ -1,0 +1,26 @@
+{
+  "isoType": "RoundingParameters",
+  "language": "en",
+  "name": "Rounding Parameters",
+  "definition": "Parameters applied to a fractional number.",
+  "isoAttributes": {
+    "RoundingModulus": {
+      "name": "Rounding Modulus",
+      "definition": "Float value specifying the value to which rounding is required, eg, 10 means round to a multiple of 10 units/shares, 0.5 means round to a multiple of 0.5 units/shares."
+    },
+    "RoundingDirection": {
+      "name": "Rounding Direction",
+      "definition": "Rounding direction applied to fractional numbers, eg, round up."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccountService": {
+      "name": "Investment Account Service",
+      "definition": "Investment account services for which rounding parameters are specified."
+    },
+    "RelatedPegOrderInstruction": {
+      "name": "Related Peg Order Instruction",
+      "definition": "Peg order for which a rounding direction is provided."
+    }
+  }
+}

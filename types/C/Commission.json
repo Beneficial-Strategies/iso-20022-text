@@ -1,0 +1,70 @@
+{
+  "isoType": "Commission",
+  "language": "en",
+  "name": "Commission",
+  "definition": "Amount of money due to a party as compensation for a service.",
+  "isoAttributes": {
+    "CommissionType": {
+      "name": "Commission Type",
+      "definition": "Service for which the commission is asked or paid."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Basis upon which a commission is charged, eg, flat fee."
+    },
+    "CommercialAgreementReference": {
+      "name": "Commercial Agreement Reference",
+      "definition": "Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions."
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Date/time at which the commission is calculated."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Commission expressed as a percentage."
+    },
+    "CommissionAmount": {
+      "name": "Commission Amount",
+      "definition": "Commission expressed as an amount of money."
+    },
+    "SplitRate": {
+      "name": "Split Rate",
+      "definition": "Percentage of the total commission received by an intermediary."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency in which the commission has to be settled."
+    }
+  },
+  "isoAssociations": {
+    "CommissionWaiving": {
+      "name": "Commission Waiving",
+      "definition": "Voluntary non-enforcement of the right to all or part of a commission."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade for which commission parameters are specified."
+    },
+    "Broker": {
+      "name": "Broker",
+      "definition": "Broker to which a commission is paid."
+    },
+    "CommissionPartyRole": {
+      "name": "Commission Party Role",
+      "definition": "Role played by a party in the context of commissions."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account used for the commission fees."
+    },
+    "RelatedQuote": {
+      "name": "Related Quote",
+      "definition": "Quote which includes a commission."
+    },
+    "CorporateActionFeesAndCharges": {
+      "name": "Corporate Action Fees And Charges",
+      "definition": "Corporate action fees to which commission fees are added."
+    }
+  }
+}

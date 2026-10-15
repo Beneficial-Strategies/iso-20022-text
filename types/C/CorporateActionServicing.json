@@ -1,0 +1,36 @@
+{
+  "isoType": "CorporateActionServicing",
+  "language": "en",
+  "name": "Corporate Action Servicing",
+  "definition": "Services which consists in notifying the investor or its agent of a corporate event and calculating its proceeds based on its holdings.",
+  "isoAssociations": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Account on which the entitlement is calculated."
+    },
+    "CorporateActionEventNotification": {
+      "name": "Corporate Action Event Notification",
+      "definition": "Service which consists in notifying the investor or its agent of a corporate event."
+    },
+    "CorporateActionDistribution": {
+      "name": "Corporate Action Distribution",
+      "definition": "Distribution of cash or securities as a result of a corporate action election."
+    },
+    "CorporateActionOptionServicing": {
+      "name": "Corporate Action Option Servicing",
+      "definition": "Service which consists in notifying the investor or its entitlement per option."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Specifies the event which is at the origin of the action."
+    },
+    "CorporateActionElection": {
+      "name": "Corporate Action Election",
+      "definition": "Service which consists in validating, calculating and transferring the investor's instruction."
+    },
+    "CorporateActionEntitlement": {
+      "name": "Corporate Action Entitlement",
+      "definition": "Calculation of the proceeds based on the balance in the account."
+    }
+  }
+}

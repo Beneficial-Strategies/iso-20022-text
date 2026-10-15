@@ -1,0 +1,38 @@
+{
+  "isoType": "PaymentInvestigationCaseRejection",
+  "language": "en",
+  "name": "Payment Investigation Case Rejection",
+  "definition": "Specifies the rejection of an activity linked to a payment. The rejected activity may be the assignment of an investigation case, the cancellation or  the modification of a payment.",
+  "isoAttributes": {
+    "RejectedModification": {
+      "name": "Rejected Modification",
+      "definition": "Reason for the rejection of a modification request."
+    },
+    "RejectedCancellation": {
+      "name": "Rejected Cancellation",
+      "definition": "Justification for the rejection of the cancellation."
+    },
+    "RejectedCancellationReason": {
+      "name": "Rejected Cancellation Reason",
+      "definition": "Free text justification for rejecting a cancellation."
+    },
+    "AssignmentCancellationConfirmation": {
+      "name": "Assignment Cancellation Confirmation",
+      "definition": "If yes, it means the cancellation of the assignment is confirmed.|If no, it means the cancellation of the assignment is rejected and the investigation process will continue."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason for the rejection of a case assignment, in a coded form."
+    },
+    "InvestigationRejection": {
+      "name": "Investigation Rejection",
+      "definition": "Reason for the rejection of a case assignment."
+    }
+  },
+  "isoAssociations": {
+    "RelatedInvestigationCaseResolution": {
+      "name": "Related Investigation Case Resolution",
+      "definition": "Resolution which consists in rejecting the case."
+    }
+  }
+}

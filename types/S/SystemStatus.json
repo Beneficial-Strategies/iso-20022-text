@@ -1,0 +1,26 @@
+{
+  "isoType": "SystemStatus",
+  "language": "en",
+  "name": "System Status",
+  "definition": "Status of a system and the period of time during which the status is valid.",
+  "isoAttributes": {
+    "Status": {
+      "name": "Status",
+      "definition": "Current status of a system."
+    },
+    "MemberStatus": {
+      "name": "Member Status",
+      "definition": "Status of a member in a system, eg, enabled or deleted."
+    }
+  },
+  "isoAssociations": {
+    "System": {
+      "name": "System",
+      "definition": "System for which a status is specified."
+    },
+    "SystemMemberRole": {
+      "name": "System Member Role",
+      "definition": "System member role for which a member status is specified."
+    }
+  }
+}

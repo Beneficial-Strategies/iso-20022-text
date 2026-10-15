@@ -1,0 +1,70 @@
+{
+  "isoType": "RegulatoryDocument",
+  "language": "en",
+  "name": "Regulatory Document",
+  "definition": "Type of document used in relation with regulatory transactions.",
+  "isoAttributes": {
+    "OriginalOrTranslated": {
+      "name": "Original Or Translated",
+      "definition": "Indicates whether the information provided is in the original language or is a translated version."
+    },
+    "SubmissionType": {
+      "name": "Submission Type",
+      "definition": "Indication as to whether the report is new or a previous report is amended or cancelled."
+    },
+    "Voluntary": {
+      "name": "Voluntary",
+      "definition": "Indication as to whether the information is submitted on a voluntary basis."
+    },
+    "HistoricalData": {
+      "name": "Historical Data",
+      "definition": "Information whether the regulatory data is historical data."
+    },
+    "PersonalData": {
+      "name": "Personal Data",
+      "definition": "Indication whether the information contains personal data."
+    },
+    "SubmissionDateTime": {
+      "name": "Submission Date Time",
+      "definition": "Date and time when the regulatory data was submitted by the submitting entity to the collection body."
+    },
+    "HomeCountry": {
+      "name": "Home Country",
+      "definition": "Home member state as defined in the legal framework for the type of information."
+    },
+    "HostCountry": {
+      "name": "Host Country",
+      "definition": "Host member state as defined in the legal framework for the type of information."
+    },
+    "ElectronicSealReference": {
+      "name": "Electronic Seal Reference",
+      "definition": "URL or path to an electronic seal."
+    }
+  },
+  "isoAssociations": {
+    "RelatedEntity": {
+      "name": "Related Entity",
+      "definition": "Entity to which the information relates."
+    },
+    "RegulatoryDataType": {
+      "name": "Regulatory Data Type",
+      "definition": "Type of information in accordance with a taxonomy relevant for a legal act."
+    },
+    "RelatedPeriod": {
+      "name": "Related Period",
+      "definition": "Period to which the information relates."
+    },
+    "PublicationPeriod": {
+      "name": "Publication Period",
+      "definition": "Period during which the regulatory data should be published."
+    },
+    "RelatedProductIdentifier": {
+      "name": "Related Product Identifier",
+      "definition": "ISIN or other product identifier to which the regulatory data relates."
+    },
+    "RelatedRegulatoryData": {
+      "name": "Related Regulatory Data",
+      "definition": "Identifier of related regulatory data."
+    }
+  }
+}

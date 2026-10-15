@@ -1,0 +1,66 @@
+{
+  "isoType": "CardPayment",
+  "language": "en",
+  "name": "Card Payment",
+  "definition": "Payment through an electronic money product.",
+  "isoAttributes": {
+    "DetailedAmount": {
+      "name": "Detailed Amount",
+      "definition": "Detailed amount value."
+    },
+    "AmountQualifier": {
+      "name": "Amount Qualifier",
+      "definition": "Identification of the type of amount."
+    },
+    "DetailedAmountLabel": {
+      "name": "Detailed Amount Label",
+      "definition": "Short description of the amount."
+    },
+    "TransactionCategory": {
+      "name": "Transaction Category",
+      "definition": "Specifies the category to which the card transaction belongs."
+    },
+    "CashBackAmount": {
+      "name": "Cash Back Amount",
+      "definition": "Amount added to the total price of the transaction and received in cash by the customer."
+    },
+    "Gratuity": {
+      "name": "Gratuity",
+      "definition": "Amount tendered for a service performed."
+    },
+    "DebitCreditDirection": {
+      "name": "Debit Credit Direction",
+      "definition": "Specifies the direction of a payment."
+    }
+  },
+  "isoAssociations": {
+    "PaymentCard": {
+      "name": "Payment Card",
+      "definition": "Specifies the card which is used in a payment by card."
+    },
+    "Product": {
+      "name": "Product",
+      "definition": "Product purchased with the transaction."
+    },
+    "CardPaymentAcquiring": {
+      "name": "Card Payment Acquiring",
+      "definition": "Parameters of the process of acquiring a card payment."
+    },
+    "PaymentCardPartyRole": {
+      "name": "Payment Card Party Role",
+      "definition": "Specifies each role played by a party in the process of a payment by card."
+    },
+    "CardPaymentStatus": {
+      "name": "Card Payment Status",
+      "definition": "Status of the payment by card."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Total of a certain type of transaction."
+    },
+    "ATMTotal": {
+      "name": "ATM Total",
+      "definition": "Current totals of the ATM."
+    }
+  }
+}

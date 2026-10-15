@@ -1,0 +1,38 @@
+{
+  "isoType": "Presentation",
+  "language": "en",
+  "name": "Presentation",
+  "definition": "Presentation of documents.",
+  "isoAttributes": {
+    "CommunicationMethod": {
+      "name": "Communication Method",
+      "definition": "Method by which the document is to be delivered."
+    },
+    "Medium": {
+      "name": "Medium",
+      "definition": "Medium through which the presentation can be submitted such as paper, electronic or both."
+    },
+    "PresentationDate": {
+      "name": "Presentation Date",
+      "definition": "Date on which the presentation is made."
+    },
+    "ApplicableChannel": {
+      "name": "Applicable Channel",
+      "definition": "Channel used for the transmission of a document."
+    }
+  },
+  "isoAssociations": {
+    "PresentedUndertaking": {
+      "name": "Presented Undertaking",
+      "definition": "Specifies the undertaking which is presented and its associated documents."
+    },
+    "PresentedDocument": {
+      "name": "Presented Document",
+      "definition": "Documents which are presented."
+    },
+    "ElectronicPresentationAddress": {
+      "name": "Electronic Presentation Address",
+      "definition": "Electronic address for the presentation of documents."
+    }
+  }
+}

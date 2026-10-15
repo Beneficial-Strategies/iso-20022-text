@@ -1,0 +1,22 @@
+{
+  "isoType": "Loan",
+  "language": "en",
+  "name": "Loan",
+  "definition": "Act of provding an amount of money, a property or other material goods to a another party in exchange for future repayment of the principal amount along with interest or other finance charges.",
+  "isoAttributes": {
+    "PrincipalAmount": {
+      "name": "Principal Amount",
+      "definition": "Amount of money borrowed, or part of that amount which remains unpaid (excluding interest)."
+    },
+    "IntraCompanyLoanIndicator": {
+      "name": "Intra Company Loan Indicator",
+      "definition": "Loan is an intra-company loan."
+    }
+  },
+  "isoAssociations": {
+    "InterestPaymentsSchedule": {
+      "name": "Interest Payments Schedule",
+      "definition": "Schedule for the payment of the interests due on the loan."
+    }
+  }
+}

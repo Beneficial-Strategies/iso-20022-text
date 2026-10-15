@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxPartyRole",
+  "language": "en",
+  "name": "Tax Party Role",
+  "definition": "Role played by a party in the context of a tax due.",
+  "isoAttributes": {
+    "VATRegistrationNumber": {
+      "name": "VAT Registration Number",
+      "definition": "Value added tax (VAT) registration number."
+    }
+  },
+  "isoAssociations": {
+    "Tax": {
+      "name": "Tax",
+      "definition": "Identifies the taxfor which a party plays a role."
+    }
+  }
+}

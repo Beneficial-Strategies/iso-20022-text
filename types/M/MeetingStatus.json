@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingStatus",
+  "language": "en",
+  "name": "Meeting Status",
+  "definition": "Status of the instructions related to a meeting.",
+  "isoAttributes": {
+    "MeetingResolutionStatus": {
+      "name": "Meeting Resolution Status",
+      "definition": "Indicates whether the resolution is active or withdrawn."
+    },
+    "InstructionCancellationStatus": {
+      "name": "Instruction Cancellation Status",
+      "definition": "Status of the request for cancellation of an instruction."
+    },
+    "NotificationStatus": {
+      "name": "Notification Status",
+      "definition": "Specifies the status of the related notification."
+    }
+  },
+  "isoAssociations": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the underlying reason for a status of a meeting or related instructions."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which a status is provided."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "Party",
+  "language": "en",
+  "name": "Party",
+  "definition": "Entity involved in an activity.",
+  "isoAttributes": {
+    "MoneyLaunderingCheck": {
+      "name": "Money Laundering Check",
+      "definition": "Status of an identity check to prevent money laundering. This includes the counter-terrorism check."
+    },
+    "CreditQuality": {
+      "name": "Credit Quality",
+      "definition": "Credit quality for the clearing member."
+    },
+    "ShareholdingType": {
+      "name": "Shareholding Type",
+      "definition": "Specifies the type of shareholding."
+    }
+  },
+  "isoAssociations": {
+    "ContactPoint": {
+      "name": "Contact Point",
+      "definition": "Number, physical or virtual address, used for communication."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Specific identification assigned to a party."
+    },
+    "TaxationConditions": {
+      "name": "Taxation Conditions",
+      "definition": "Taxation parameters which apply to an individual person or to an organisation."
+    },
+    "Domicile": {
+      "name": "Domicile",
+      "definition": "Location in which a person is permanently domiciled (the place of a person's permanent home)."
+    },
+    "Residence": {
+      "name": "Residence",
+      "definition": "Location from which the affairs of a company are directed or location in which a person resides (the place of a person's home)."
+    },
+    "PowerOfAttorney": {
+      "name": "Power Of Attorney",
+      "definition": "Power of attorney which is held by the party."
+    },
+    "Location": {
+      "name": "Location",
+      "definition": "Location of the taxable party."
+    },
+    "CloseLinkSecurity": {
+      "name": "Close Link Security",
+      "definition": "Security for which a close link with a party is identified."
+    },
+    "RelatedCareOf": {
+      "name": "Related Care Of",
+      "definition": "<span style=\"color:#ff8040;\"></span>Identifies a Postal address of the addressee that is accepting the correspondence for an intended recipient."
+    }
+  }
+}

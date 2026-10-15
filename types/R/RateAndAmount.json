@@ -1,0 +1,90 @@
+{
+  "isoType": "RateAndAmount",
+  "language": "en",
+  "name": "Rate And Amount",
+  "definition": "Specifies the value expressed as a rate or an amount. For example, the value of a tax or a commission.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Value expressed as an amount."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Value expressed as a rate."
+    },
+    "AbsoluteValue": {
+      "name": "Absolute Value",
+      "definition": "Absolute value determined with a number."
+    },
+    "Operator": {
+      "name": "Operator",
+      "definition": "Provides the relationship between a variable and a fixed value."
+    }
+  },
+  "isoAssociations": {
+    "FinalDividendParameters": {
+      "name": "Final Dividend Parameters",
+      "definition": "Dividend information for which a final dividend rate is specified."
+    },
+    "FullyFrankedRateAndAmountDividendParameters": {
+      "name": "Fully Franked Rate And Amount Dividend Parameters",
+      "definition": "Dividend information for which a fully franked rate and amount is specified."
+    },
+    "GrossDividendParameters": {
+      "name": "Gross Dividend Parameters",
+      "definition": "Dividend information for which a gross dividend rate is specified."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Index for which a factor is specified."
+    },
+    "NetDividendParameters": {
+      "name": "Net Dividend Parameters",
+      "definition": "Dividend information for which a net dividend rate is specified."
+    },
+    "MaximumAllowedBiddingConditions": {
+      "name": "Maximum Allowed Bidding Conditions",
+      "definition": "Bidding conditions for which a maximum amount is specified."
+    },
+    "ProvisionalDividendParameters": {
+      "name": "Provisional Dividend Parameters",
+      "definition": "Dividend information for which a provisional dividend rate is specified."
+    },
+    "SolicitationFeeCorporateActionParameters": {
+      "name": "Solicitation Fee Corporate Action Parameters",
+      "definition": "Corporate event for which a solicitation fee is specified."
+    },
+    "RateBiddingConditions": {
+      "name": "Rate Bidding Conditions",
+      "definition": "Bidding conditions for which a rate is specified."
+    },
+    "SecuritiesTax": {
+      "name": "Securities Tax",
+      "definition": "Tax for which a percentage of the gross dividend rate is specified."
+    },
+    "EarlySolicitationFeeCorporateActionParameters": {
+      "name": "Early Solicitation Fee Corporate Action Parameters",
+      "definition": "Corporate event for which an early solicitation fee is specified."
+    },
+    "InterestRelatedIssuance": {
+      "name": "Interest Related Issuance",
+      "definition": "Issuance for which an interest shortfall has been specified."
+    },
+    "LossRelatedIssuance": {
+      "name": "Loss Related Issuance",
+      "definition": "Issuance for which a realised loss has been specified."
+    },
+    "RelatedYieldCalculation": {
+      "name": "Related Yield Calculation",
+      "definition": "Yield calculation which uses a yield range."
+    },
+    "ConduitForeignIncomeAmountDividendParameters": {
+      "name": "Conduit Foreign Income Amount Dividend Parameters",
+      "definition": "Dividend information for which a conduit foreign income amount is specified."
+    },
+    "DeemedAmountDividendParameters": {
+      "name": "Deemed Amount Dividend Parameters",
+      "definition": "Dividend information for which a deemed amount is specified."
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "isoType": "SecuritiesConversion",
+  "language": "en",
+  "name": "Securities Conversion",
+  "definition": "Conversion exchange of securities, generally convertible bonds or preferred equities, into another form of securities, usually common equities.",
+  "isoAttributes": {
+    "ConversionDate": {
+      "name": "Conversion Date",
+      "definition": "Deadline by which a convertible security must be converted according to the terms of the issue."
+    },
+    "ConversionType": {
+      "name": "Conversion Type",
+      "definition": "Specifies the conversion type of an instrument."
+    },
+    "BusinessDayConvention": {
+      "name": "Business Day Convention",
+      "definition": "Convention used for adjusting a date when it is not a business day."
+    },
+    "ConversionChoice": {
+      "name": "Conversion Choice",
+      "definition": "Specifies whether the conversion is mandatory or optional."
+    },
+    "ConversionFixedExchangeRate": {
+      "name": "Conversion Fixed Exchange Rate",
+      "definition": "Currency exchange rate between the bond currency and the underlying equity currency used to calculate the convertion ratio."
+    },
+    "ConversionMarginAmount": {
+      "name": "Conversion Margin Amount",
+      "definition": "Amount of cash needed for the conversion."
+    },
+    "ConversionOption": {
+      "name": "Conversion Option",
+      "definition": "Specifies information about the choices offered to the holder of a conversion."
+    },
+    "ConversionQuotedCurrency": {
+      "name": "Conversion Quoted Currency",
+      "definition": "Currency into which the base currency is converted, in a currency exchange."
+    },
+    "FinancialCenter": {
+      "name": "Financial Center",
+      "definition": "Financial place  taken into account to adjust the date and time, as defined within the business day convention."
+    },
+    "MinimumNoticeDays": {
+      "name": "Minimum Notice Days",
+      "definition": "Minimum number of days that must be given by either the issuer or the holder before conversion can take place."
+    },
+    "NoticePeriodType": {
+      "name": "Notice Period Type",
+      "definition": "Specifies the type of notice period."
+    },
+    "ProtectionAgainstDilutionIndicator": {
+      "name": "Protection Against Dilution Indicator",
+      "definition": "Indicates whether the security is protected against dilution with regards to capital events."
+    },
+    "ReverseConversionIndicator": {
+      "name": "Reverse Conversion Indicator",
+      "definition": "Indicates whether the bond is convertible into an equity and back to the bond."
+    },
+    "PartyType": {
+      "name": "Party Type",
+      "definition": "Specifies if the issuer or the holder are allowed to convert the security into another one."
+    },
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a quantity."
+    }
+  },
+  "isoAssociations": {
+    "ConversionPrice": {
+      "name": "Conversion Price",
+      "definition": "Price of one target security in the conversion."
+    },
+    "MinimumExercisableQuantity": {
+      "name": "Minimum Exercisable Quantity",
+      "definition": "Minimum quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "MinimumExercisableMultipleQuantity": {
+      "name": "Minimum Exercisable Multiple Quantity",
+      "definition": "Minimum multiple quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "MaximumExercisableQuantity": {
+      "name": "Maximum Exercisable Quantity",
+      "definition": "Indicates the maximum quantity of financial instrument that may be exercised in the event."
+    },
+    "ConversionPeriod": {
+      "name": "Conversion Period",
+      "definition": "Period during which a convertible security may be converted according to the terms of the issue."
+    },
+    "ConversionRatioDenominator": {
+      "name": "Conversion Ratio Denominator",
+      "definition": "Number of held securities for the conversion."
+    },
+    "ConversionRatioNumerator": {
+      "name": "Conversion Ratio Numerator",
+      "definition": "Number of target securities for the conversion."
+    },
+    "Ratio": {
+      "name": "Ratio",
+      "definition": "Ratio applied to convert the related security."
+    },
+    "ConversionUnitCurrency": {
+      "name": "Conversion Unit Currency",
+      "definition": "Currency in which the rate of exchange is expressed in a currency exchange. In the example 1GBP = xxxCUR, the unit currency is GBP."
+    },
+    "RelatedOption": {
+      "name": "Related Option",
+      "definition": "Option for which securities conversion information is provided."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "ISIN identification of the related financial instrument into which this security can be converted."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "RolePlayer",
+  "language": "en",
+  "name": "Role Player",
+  "definition": "Type of entity that plays a specific role in a specific context.",
+  "isoAssociations": {
+    "Role": {
+      "name": "Role",
+      "definition": "Role of the entity in the activity."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Specifies the period during which a role player is valid"
+    }
+  }
+}

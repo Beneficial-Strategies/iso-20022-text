@@ -1,0 +1,26 @@
+{
+  "isoType": "PortfolioStrategyDefinition",
+  "language": "en",
+  "name": "Portfolio Strategy Definition",
+  "definition": "Additional information on the definition of the strategy.",
+  "isoAttributes": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the defined strategy."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free text description of the strategy definition."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the defined strategy is valid."
+    }
+  },
+  "isoAssociations": {
+    "Strategy": {
+      "name": "Strategy",
+      "definition": "Stategy attached to the portfolio."
+    }
+  }
+}

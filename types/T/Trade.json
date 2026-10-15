@@ -1,0 +1,102 @@
+{
+  "isoType": "Trade",
+  "language": "en",
+  "name": "Trade",
+  "definition": "Result of an order between at least two parties. A trade relates to the delivery of goods and services, cash or securities.",
+  "isoAttributes": {
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date on which the trade is settled, ie, the amounts are due."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "End date of the trade, such as a treasury trade or a derivative trade."
+    },
+    "AllocationIndicator": {
+      "name": "Allocation Indicator",
+      "definition": "Specifies the type of allocation for a trade."
+    },
+    "CollateralisationType": {
+      "name": "Collateralisation Type",
+      "definition": "Specifies the type of collateralisation."
+    },
+    "BlockIndicator": {
+      "name": "Block Indicator",
+      "definition": "Indicates whether the trade is a block or single trade."
+    },
+    "SettlementNetting": {
+      "name": "Settlement Netting",
+      "definition": "Indicates to the clearing member whether the trade is eligible for settlement netting or not."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date of the trade, such as a treasury trade or a derivative trade."
+    }
+  },
+  "isoAssociations": {
+    "TradeCommission": {
+      "name": "Trade Commission",
+      "definition": "Commission parameters associated with a trade."
+    },
+    "TradeRelatedIdentifications": {
+      "name": "Trade Related Identifications",
+      "definition": "Specifies the different identifications associated with a trade."
+    },
+    "TradePartyRole": {
+      "name": "Trade Party Role",
+      "definition": "Role played by a party in relation with a trade."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Specifies the trade which originates the obligation to deliver a product, cash or securities.."
+    },
+    "RelatedNegotiation": {
+      "name": "Related Negotiation",
+      "definition": "Negotiation process which is the source of the treasury trade."
+    },
+    "GoverningDocument": {
+      "name": "Governing Document",
+      "definition": "Legal agreement applicable to a trade."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System involved in the processing of a trade such as clearing, settlement or matching system."
+    },
+    "Asset": {
+      "name": "Asset",
+      "definition": "Asset which is the object of a trade."
+    },
+    "Market": {
+      "name": "Market",
+      "definition": "Market where a trade is negotiated and executed."
+    },
+    "Guarantee": {
+      "name": "Guarantee",
+      "definition": "Guarantee which covers a trade."
+    },
+    "Settlement": {
+      "name": "Settlement",
+      "definition": "Transfer of proceeds."
+    },
+    "Order": {
+      "name": "Order",
+      "definition": "Specifies the order related to a trade."
+    },
+    "Leg": {
+      "name": "Leg",
+      "definition": "Separate transactions which combined together form a trade."
+    },
+    "FinancialTransaction": {
+      "name": "Financial Transaction",
+      "definition": "Financial transaction to which the trade belongs."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Process which compares and matches trade information with entries in an account."
+    }
+  }
+}

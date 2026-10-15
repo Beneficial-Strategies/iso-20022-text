@@ -1,0 +1,102 @@
+{
+  "isoType": "SecuritiesIdentification",
+  "language": "en",
+  "name": "Securities Identification",
+  "definition": "Unique and unambiguous identifier of a security, assigned under a formal or proprietary identification scheme.",
+  "isoAttributes": {
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of a security by an ISIN."
+    },
+    "RIC": {
+      "name": "RIC",
+      "definition": "Reuters Identification Code (RIC). A numbering system used within the Reuters system to identify instruments worldwide. The RIC contains an X-character market specific code (can be the CUSIP or EPIC codes) followed by a full stop, then the two-digit ISO country code, eg, IBM in UK is IBM.UK."
+    },
+    "TickerSymbol": {
+      "name": "Ticker Symbol",
+      "definition": "Letters that identify a stock traded on a stock exchange. The Ticker Symbol is a short and convenient way of identifying a stock, eg, RTR.L for Reuters quoted in London."
+    },
+    "Bloomberg": {
+      "name": "Bloomberg",
+      "definition": "Identifier of a security assigned by the Bloomberg organisation."
+    },
+    "CTA": {
+      "name": "CTA",
+      "definition": "Identifier of a security assigned by the Consolidated Tape Association."
+    },
+    "Common": {
+      "name": "Common",
+      "definition": "Identifier of securities issued in Luxembourg.  The common code is a 9-digit code that replaces the CEDEL (Clearstream) and Euroclear codes."
+    },
+    "SEDOL": {
+      "name": "SEDOL",
+      "definition": "Stock Exchange Daily Official List (SEDOL) number.  A code used by the London Stock Exchange to identify foreign stocks, especially those that aren't actively traded in the US and don't have a CUSIP number."
+    },
+    "CUSIP": {
+      "name": "CUSIP",
+      "definition": "Committee on Uniform Securities and Identification Procedures (CUSIP). The standards body that created and maintains the securities classification system in the US. The CUSIP is composed of a 9-character number that uniquely identifies a particular security.  Non-US securities have a similar number called the CINS number."
+    },
+    "QUICK": {
+      "name": "QUICK",
+      "definition": "Identifier of a security assigned by the Japanese QUICK identification scheme for financial instruments."
+    },
+    "Wertpapier": {
+      "name": "Wertpapier",
+      "definition": "Wertpapier Kenn-nummer.  A number issued in Germany by the Wertpapier Mitteilungen. The Wertpapier Kenn-nummer, sometimes called WPK, contains 6-digits, but no check digit. There are different ranges of numbers representing different classes of securities."
+    },
+    "Dutch": {
+      "name": "Dutch",
+      "definition": "Identifier for Dutch securities."
+    },
+    "Valoren": {
+      "name": "Valoren",
+      "definition": "Identifier for Swiss securities assigned by Telekurs Financial, the Swiss numbering agency."
+    },
+    "Sicovam": {
+      "name": "Sicovam",
+      "definition": "Identifier for French securities assigned by the Societe Interprofessionnelle Pour La Compensation des Valeurs Mobilieres in France.  The Sicovam is composed of 5-digits."
+    },
+    "Belgian": {
+      "name": "Belgian",
+      "definition": "Identifier for Belgian securities."
+    },
+    "IdentificationSuffix": {
+      "name": "Identification Suffix",
+      "definition": "Identifies the suffix of the security identification."
+    },
+    "TradingIdentification": {
+      "name": "Trading Identification",
+      "definition": "Security identifier specific to a trading market or markets, for example, Ticker."
+    }
+  },
+  "isoAssociations": {
+    "IdentifiedSecurity": {
+      "name": "Identified Security",
+      "definition": "Security for which an identification is provided."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the financial instrument in free format text."
+    },
+    "GenericIdentification": {
+      "name": "Generic Identification",
+      "definition": "Proprietary identification of a security assigned by an institution or organisation."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Specifies the period during which an identification is valid."
+    },
+    "ApplicableTradingMarket": {
+      "name": "Applicable Trading Market",
+      "definition": "Market(s) on which the trading identification is used."
+    },
+    "PrimeIdentification": {
+      "name": "Prime Identification",
+      "definition": "Specifies the main identification of a security."
+    },
+    "RelatedOtherIdentification": {
+      "name": "Related Other Identification",
+      "definition": "Alternate security identification(s) related to the security trading identification."
+    }
+  }
+}

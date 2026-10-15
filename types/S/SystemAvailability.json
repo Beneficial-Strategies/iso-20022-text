@@ -1,0 +1,30 @@
+{
+  "isoType": "SystemAvailability",
+  "language": "en",
+  "name": "System Availability",
+  "definition": "information about the periods of activity and non-activity of a system.",
+  "isoAttributes": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date for which the availability information is provided."
+    }
+  },
+  "isoAssociations": {
+    "AvailableSessionPeriod": {
+      "name": "Available Session Period",
+      "definition": "Time window of system activity."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System for which the system availability is provided."
+    },
+    "ClosureInformation": {
+      "name": "Closure Information",
+      "definition": "System availability parameters which contain closure information."
+    },
+    "ClosurePeriod": {
+      "name": "Closure Period",
+      "definition": "Period for which the system is closed/not operating."
+    }
+  }
+}

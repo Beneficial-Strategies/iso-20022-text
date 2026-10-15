@@ -1,0 +1,38 @@
+{
+  "isoType": "SystemIdentification",
+  "language": "en",
+  "name": "System Identification",
+  "definition": "Parameters that identify a system.",
+  "isoAttributes": {
+    "Model": {
+      "name": "Model",
+      "definition": "Identification of a model for a given manufacturer."
+    },
+    "SerialNumber": {
+      "name": "Serial Number",
+      "definition": "Serial number of a component."
+    },
+    "ApprovalNumber": {
+      "name": "Approval Number",
+      "definition": "Unique approval number for a component, delivered by a certification body."
+    },
+    "SystemVersion": {
+      "name": "System Version",
+      "definition": "Version of the system, eg, \"4.0.1\" to indicate version 4.0.1."
+    }
+  },
+  "isoAssociations": {
+    "IdentificationForSystem": {
+      "name": "Identification For System",
+      "definition": "System which is identified."
+    },
+    "SystemName": {
+      "name": "System Name",
+      "definition": "Name by which a system is known."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a system."
+    }
+  }
+}

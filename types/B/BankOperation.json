@@ -1,0 +1,20 @@
+{
+  "isoType": "BankOperation",
+  "language": "en",
+  "name": "Bank Operation",
+  "definition": "Operation on a bank account. It may be limited in time, amount or type of operation.",
+  "isoAssociations": {
+    "OperationThreshold": {
+      "name": "Operation Threshold",
+      "definition": "Threshold related to a bank account operation."
+    },
+    "OperationType": {
+      "name": "Operation Type",
+      "definition": "Specifies the type of the operation related to a bank account."
+    },
+    "ApplicablePeriod": {
+      "name": "Applicable Period",
+      "definition": "Specifies the period, for instance a number of days, for which the bank operations are permitted."
+    }
+  }
+}

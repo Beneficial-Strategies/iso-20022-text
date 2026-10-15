@@ -1,0 +1,22 @@
+{
+  "isoType": "TimePeriod",
+  "language": "en",
+  "name": "Time Period",
+  "definition": "Particular time span specified between a start time and an end time. The time period cannot exceed 24 hours.",
+  "isoAttributes": {
+    "FromTime": {
+      "name": "From Time",
+      "definition": "Time at which the time span starts."
+    },
+    "ToTime": {
+      "name": "To Time",
+      "definition": "Time at which the time span ends."
+    }
+  },
+  "isoAssociations": {
+    "SystemAvailability": {
+      "name": "System Availability",
+      "definition": "System for which a session period is specified."
+    }
+  }
+}

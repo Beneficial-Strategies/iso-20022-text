@@ -1,0 +1,30 @@
+{
+  "isoType": "ReportingService",
+  "language": "en",
+  "name": "Reporting Service",
+  "definition": "Specifies the reporting parameters that are included in the account contract which specifies the services linked to the account..",
+  "isoAttributes": {
+    "StatementFrequency": {
+      "name": "Statement Frequency",
+      "definition": "Specifies the frequency at which a statement must be created by the account servicer."
+    },
+    "FloorNotificationAmount": {
+      "name": "Floor Notification Amount",
+      "definition": "Specifies the balance amount of an account under which a notification should be sent from the account servicer to the account owner."
+    },
+    "CeilingNotificationAmount": {
+      "name": "Ceiling Notification Amount",
+      "definition": "Specifies the balance amount of an account above which a notification should be sent from the account servicer to the account owner."
+    }
+  },
+  "isoAssociations": {
+    "ReportingChannel": {
+      "name": "Reporting Channel",
+      "definition": "Specifies the channel through which the statement must be made available to the account owner or to the information recipient."
+    },
+    "RelatedInvestmentAccountService": {
+      "name": "Related Investment Account Service",
+      "definition": "Investment account services which include reporting services."
+    }
+  }
+}

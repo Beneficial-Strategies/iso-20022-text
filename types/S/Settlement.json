@@ -1,0 +1,26 @@
+{
+  "isoType": "Settlement",
+  "language": "en",
+  "name": "Settlement",
+  "definition": "Process which consists in transferring the proceeds related to a trade from one party to the next one.",
+  "isoAttributes": {
+    "CentralCounterpartyEligibilityIndicator": {
+      "name": "Central Counterparty Eligibility Indicator",
+      "definition": "Specifies whether the settlement transaction is CCP (Central Counterparty) eligible."
+    }
+  },
+  "isoAssociations": {
+    "StandingSettlementInstruction": {
+      "name": "Standing Settlement Instruction",
+      "definition": "Settlement Standing Instruction database to be used for settlement."
+    },
+    "SettlementPartyRole": {
+      "name": "Settlement Party Role",
+      "definition": "Specifies roles played by a party in the settlement process."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade for which settlement information is provided."
+    }
+  }
+}

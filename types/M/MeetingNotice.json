@@ -1,0 +1,22 @@
+{
+  "isoType": "MeetingNotice",
+  "language": "en",
+  "name": "Meeting Notice",
+  "definition": "Information about the general meeting, specifying the participation requirements and the voting procedures. Alternatively, it may indicate where such information may be obtained.",
+  "isoAttributes": {
+    "BeneficialOwnerExclusiveIndicator": {
+      "name": "Beneficial Owner Exclusive Indicator",
+      "definition": "Indicates that only the beneficial owner may participate in the event, ie no proxy or nominee voting is allowed."
+    },
+    "ParticipationMethod": {
+      "name": "Participation Method",
+      "definition": "Method of voting participation to the general meeting and related voting deadline per method of participation."
+    }
+  },
+  "isoAssociations": {
+    "RelatedServicing": {
+      "name": "Related Servicing",
+      "definition": "Meeting servicing process which comprises the notification of a meeting."
+    }
+  }
+}

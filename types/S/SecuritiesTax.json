@@ -1,0 +1,78 @@
+{
+  "isoType": "SecuritiesTax",
+  "language": "en",
+  "name": "Securities Tax",
+  "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters such as thresholds or income.",
+  "isoAttributes": {
+    "TaxableIncomePerShare": {
+      "name": "Taxable Income Per Share",
+      "definition": "Amount included in the NAV that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "name": "Taxable Income Per Share Calculated",
+      "definition": "Specifies whether the fund calculates a taxable interest per share (TIS)."
+    },
+    "EUCapitalGain": {
+      "name": "EU Capital Gain",
+      "definition": "Specifies whether capital gain is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "EUDividendStatus": {
+      "name": "EU Dividend Status",
+      "definition": "Specifies whether dividend is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "TaxableIncomePerDividend": {
+      "name": "Taxable Income Per Dividend",
+      "definition": "Amount included in the dividend that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "StampDutyType": {
+      "name": "Stamp Duty Type",
+      "definition": "Indicates how the stamp duty should be applied."
+    },
+    "StampDutyTaxBasis": {
+      "name": "Stamp Duty Tax Basis",
+      "definition": "Specifies the stamp duty type or exemption reason applicable to the settlement transaction."
+    },
+    "TaxableIncomePerDividendShare": {
+      "name": "Taxable Income Per Dividend Share",
+      "definition": "Amount included in the dividend/NAV that is identified as gains directly or indirectly derived from interest payments within the scope of the EU Savings directive"
+    },
+    "TaxLotNumber": {
+      "name": "Tax Lot Number",
+      "definition": "Identification, for tax purposes, of a lot of identical securities that are bought at a certain date and at a certain price."
+    },
+    "TaxRuleExemptIndicator": {
+      "name": "Tax Rule Exempt Indicator",
+      "definition": "Indicates whether the tax rule applies within the jurisdiction as a condition of this security."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the tax rule applies within the jurisdiction."
+    },
+    "FrankedRate": {
+      "name": "Franked Rate",
+      "definition": "Percentage of dividend for which tax is already paid."
+    },
+    "TEFRARule": {
+      "name": "TEFRA Rule",
+      "definition": "Indicates the TEFRA rule under which the security is issued."
+    }
+  },
+  "isoAssociations": {
+    "TaxVoucher": {
+      "name": "Tax Voucher",
+      "definition": "Tax voucher which is related to a securities tax."
+    },
+    "RelatedTax": {
+      "name": "Related Tax",
+      "definition": "Percentage of the gross dividend rate on which tax must be paid ."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security on which the tax applies."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Jurisdiction in which the tax rule applies."
+    }
+  }
+}

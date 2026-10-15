@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesTrade",
+  "language": "en",
+  "name": "Securities Trade",
+  "definition": "Specifies trades linked to securities operations such as the exchange of securities, the lending of securities and the transactions related to investment funds.",
+  "isoAttributes": {
+    "TradeAmount": {
+      "name": "Trade Amount",
+      "definition": "Total amount of the trade. Is equal to the executed trade quantity multiplied by the executed trade price."
+    },
+    "OpeningClosingIndicator": {
+      "name": "Opening Closing Indicator",
+      "definition": "Specifies additional information relative to the processing of the trade."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "Activity": {
+      "name": "Activity",
+      "definition": "Specifies the type of activity to which the trade relates."
+    },
+    "TradeOriginationDate": {
+      "name": "Trade Origination Date",
+      "definition": "Indicates the date and time of the agreement in principal between counter-parties prior to actual trade date.|Used with fixed income for municipal new issue markets."
+    },
+    "ClearingFeeType": {
+      "name": "Clearing Fee Type",
+      "definition": "Indicates the type of fee for trade executions at an exchange."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Indicates the type of transaction of which the order is a component."
+    },
+    "LegalFramework": {
+      "name": "Legal Framework",
+      "definition": "Legal framework of the transaction."
+    },
+    "SecuritiesTransactionType": {
+      "name": "Securities Transaction Type",
+      "definition": "Underlying information about the settlement transaction."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesTradeRelatedIdentifications": {
+      "name": "Securities Trade Related Identifications",
+      "definition": "Specifies the different identifications associated with a securities trade."
+    },
+    "SecuritiesTradeStatus": {
+      "name": "Securities Trade Status",
+      "definition": "Specifies the status of a trade."
+    },
+    "TradeQuantity": {
+      "name": "Trade Quantity",
+      "definition": "Specifies the total quantity of a financial instrument involved in a trade. It is derived from the ordered quantity or from the quantity specified in a leg of a financing agreement."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security involved in a trade."
+    },
+    "TradePrice": {
+      "name": "Trade Price",
+      "definition": "Specifies the executed trade price which is derived from the different deal prices."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to a securities trade and played by a party at that step in a securities transaction flow."
+    },
+    "SecuritiesFinancingClosingData": {
+      "name": "Securities Financing Closing Data",
+      "definition": "Financing process for which a closing leg is specified."
+    },
+    "TradingExecution": {
+      "name": "Trading Execution",
+      "definition": "The realisation of the trade over one or more transactions."
+    },
+    "TradeAllocation": {
+      "name": "Trade Allocation",
+      "definition": "Information about the allocation of the trade."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order which is executed by a trade."
+    },
+    "SecuritiesFinancingOpeningData": {
+      "name": "Securities Financing Opening Data",
+      "definition": "Financing process for which an opening leg is specified."
+    }
+  }
+}

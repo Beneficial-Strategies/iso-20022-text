@@ -1,0 +1,46 @@
+{
+  "isoType": "Discretion",
+  "language": "en",
+  "name": "Discretion",
+  "definition": "Indicates on an order that the trader wishes to display one price in the market but will accept trades at another price.",
+  "isoAttributes": {
+    "Offset": {
+      "name": "Offset",
+      "definition": "Amount added to the 'related to' price."
+    },
+    "OffsetSign": {
+      "name": "Offset Sign",
+      "definition": "Indicates whether the offset should be added or subtracted from the related price."
+    },
+    "RelatedPriceType": {
+      "name": "Related Price Type",
+      "definition": "Identify the type of price an offset is related to. The offset can either be added or subtracted."
+    },
+    "MoveType": {
+      "name": "Move Type",
+      "definition": "Describes whether discretion price is static/fixed or floats."
+    },
+    "LimitType": {
+      "name": "Limit Type",
+      "definition": "Specifies the nature of the resulting discretion price (e.g. or better limit, strict limit etc)."
+    },
+    "RoundDirection": {
+      "name": "Round Direction",
+      "definition": "If the calculated discretion price is not a valid tick price, specifies how to round the price (e.g. to be more or less aggressive)"
+    },
+    "Scope": {
+      "name": "Scope",
+      "definition": "The scope of \"related to\" price of the discretion (e.g. local, global etc)"
+    },
+    "OffsetType": {
+      "name": "Offset Type",
+      "definition": "Describes the type of Discretion Offset ."
+    }
+  },
+  "isoAssociations": {
+    "RelatedOrderExecution": {
+      "name": "Related Order Execution",
+      "definition": "Order instruction for which a discretion is specified."
+    }
+  }
+}

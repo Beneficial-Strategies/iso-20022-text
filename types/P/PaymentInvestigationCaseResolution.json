@@ -1,0 +1,42 @@
+{
+  "isoType": "PaymentInvestigationCaseResolution",
+  "language": "en",
+  "name": "Payment Investigation Case Resolution",
+  "definition": "Specifies the status of an investigation case and the actions taken as a result of this status.",
+  "isoAttributes": {
+    "InvestigationStatus": {
+      "name": "Investigation Status",
+      "definition": "Status of the investigation."
+    }
+  },
+  "isoAssociations": {
+    "DebitAuthorisationConfirmation": {
+      "name": "Debit Authorisation Confirmation",
+      "definition": "Permission given by an account owner to debit its account as the result of a cancelled payment. The authoriser is the party whose account was credited as the result of a payment instruction."
+    },
+    "CoverCorrection": {
+      "name": "Cover Correction",
+      "definition": "Elements provided to correct the cover instruction for the resolution of the claim non receipt initiated case."
+    },
+    "EntryCorrection": {
+      "name": "Entry Correction",
+      "definition": "The case resolution leads to the correction of a cash entry into an account."
+    },
+    "PaymentCorrection": {
+      "name": "Payment Correction",
+      "definition": "The case resolution leads to the correction of a payment."
+    },
+    "PaymentExecutionCorrection": {
+      "name": "Payment Execution Correction",
+      "definition": "The case resolution leads to the correction of a payment execution."
+    },
+    "InvestigationCaseRejection": {
+      "name": "Investigation Case Rejection",
+      "definition": "Specifies the rejection of an activity linked to a payment. The rejected activity may be the assignment of an investigation case, the cancellation or  the modification of a payment."
+    },
+    "DuplicateCase": {
+      "name": "Duplicate Case",
+      "definition": "Outcome that results in closing a case as duplicate because the same issue has been reported by another party."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CreditTransfer",
+  "language": "en",
+  "name": "Credit Transfer",
+  "definition": "Payment made by transferring an amount of money from a debtor to a creditor. The payment flows through one or more financial institutions or systems.",
+  "isoAttributes": {
+    "StandingOrder": {
+      "name": "Standing Order",
+      "definition": "Transaction is a standing order. This information is derived from the presence of detailed standing order specification."
+    }
+  },
+  "isoAssociations": {
+    "RelatedStandingOrder": {
+      "name": "Related Standing Order",
+      "definition": "Standing order which creates the credit transfers."
+    }
+  }
+}

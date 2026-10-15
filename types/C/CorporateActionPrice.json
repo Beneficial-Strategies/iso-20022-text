@@ -1,0 +1,52 @@
+{
+  "isoType": "CorporateActionPrice",
+  "language": "en",
+  "name": "Corporate Action Price",
+  "definition": "Prices related to a corporate action.",
+  "isoAssociations": {
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Corporate event for which a price is specified."
+    },
+    "CorporateActionExercisePrice": {
+      "name": "Corporate Action Exercise Price",
+      "definition": "1. Price at which security will be purchased/sold if warrant is exercised, either as an actual amount or a percentage.|2. Price at which a bond is converted to underlying security either as an actual amount or a percentage.|3. Strike price of an option, represented either as an actual amount or a percentage."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "name": "Generic Cash Price Received Per Product",
+      "definition": "Generic cash price received per product by the underlying security holder either as a percentage or an amount, eg, redemption price."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "name": "Generic Cash Price Paid Per Product",
+      "definition": "Amount included in the dividend/NAV that is identified as gains directly or indirectly derived from interest payments within the scope of the EU Savings directive."
+    },
+    "CashInLieuOfSharePrice": {
+      "name": "Cash In Lieu Of Share Price",
+      "definition": "Cash disbursement in lieu of equities; usually in lieu of fractional quantity."
+    },
+    "OverSubscriptionDepositPrice": {
+      "name": "Over Subscription Deposit Price",
+      "definition": "Amount of money required per over-subscribed equity as defined by the issuer."
+    },
+    "CashValueForTax": {
+      "name": "Cash Value For Tax",
+      "definition": "Cash value of resulting securities proceeds for tax calculation and/or reporting."
+    },
+    "PricingCalculation": {
+      "name": "Pricing Calculation",
+      "definition": "Specifies the parameters taken into account to calculate the price."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "name": "Minimum Multiple Cash To Instruct",
+      "definition": "Mimimum multiple of a cash amount that may be instructed."
+    },
+    "MaximumCashToInstruct": {
+      "name": "Maximum Cash To Instruct",
+      "definition": "Maximum cash amount that may be instructed."
+    },
+    "MinimumCashToInstruct": {
+      "name": "Minimum Cash To Instruct",
+      "definition": "Minimum cash amount that may be instructed."
+    }
+  }
+}

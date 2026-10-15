@@ -1,0 +1,34 @@
+{
+  "isoType": "Entitlement",
+  "language": "en",
+  "name": "Entitlement",
+  "definition": "Financial instrument providing the holder the privilege to subscribe to or to receive specific assets on terms specified.",
+  "isoAttributes": {
+    "CoveredIndicator": {
+      "name": "Covered Indicator",
+      "definition": "Indicates whether the underlying security is owned by the writer of the entitlement."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset)."
+    },
+    "CappedValue": {
+      "name": "Capped Value",
+      "definition": "Limit on the pay-out on the expiration of the entitlement. The positive difference between the cap value and the strike price is the maximum amount that would be paid off at expiration."
+    },
+    "CappedIndicator": {
+      "name": "Capped Indicator",
+      "definition": "Indicates whether an entitlement is capped."
+    }
+  },
+  "isoAssociations": {
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Predetermined price at which the holder buys or sells the underlying assets."
+    }
+  }
+}

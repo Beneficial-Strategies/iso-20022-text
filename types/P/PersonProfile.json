@@ -1,0 +1,58 @@
+{
+  "isoType": "PersonProfile",
+  "language": "en",
+  "name": "Person Profile",
+  "definition": "Information to support Know Your Customer (KYC) processes.",
+  "isoAttributes": {
+    "ForeignStatusCertification": {
+      "name": "Foreign Status Certification",
+      "definition": "Specifies if documentary evidence has been provided for the foreign resident."
+    },
+    "EmployeeTerminationIndicator": {
+      "name": "Employee Termination Indicator",
+      "definition": "Indicates if the employment of the person has been terminated."
+    },
+    "KnowYourCustomerCheckType": {
+      "name": "Know Your Customer Check Type",
+      "definition": "Specifies the type of due diligence checks carried out on a party. For definitions of ordinary, simple and enhanced know your customer checks, local market regulations should be consulted."
+    },
+    "RiskLevel": {
+      "name": "Risk Level",
+      "definition": "Specifies the customer’s money laundering risk."
+    },
+    "PoliticalExposureType": {
+      "name": "Political Exposure Type",
+      "definition": "Specifies if due diligence checks on the political exposure of the investor have been carried out and whether these checks are national or foreign. (A politically exposed person is someone who has been entrusted with a prominent public function, or an individual who is closely related to such a person.)"
+    },
+    "CustomerConductClassification": {
+      "name": "Customer Conduct Classification",
+      "definition": "Assessment of the customer’s behaviour at the time of the account opening application."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "name": "Family Medical Insurance Indicator",
+      "definition": "Indicates if the person has family medical insurance coverage available."
+    },
+    "SourceOfWealth": {
+      "name": "Source Of Wealth",
+      "definition": "Indicates the main sources of the money."
+    },
+    "SalaryRange": {
+      "name": "Salary Range",
+      "definition": "Specifies the level of salary."
+    },
+    "PoliticallyExposedStatus": {
+      "name": "Politically Exposed Status",
+      "definition": "Status of the politically exposed person."
+    }
+  },
+  "isoAssociations": {
+    "Person": {
+      "name": "Person",
+      "definition": "Person for which the profile parameters are described."
+    },
+    "ProfileCertification": {
+      "name": "Profile Certification",
+      "definition": "Information to support the Know Your Customer processes."
+    }
+  }
+}

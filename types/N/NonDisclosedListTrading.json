@@ -1,0 +1,28 @@
+{
+  "isoType": "NonDisclosedListTrading",
+  "language": "en",
+  "name": "Non Disclosed List Trading",
+  "definition": "List trading by which the buy-side provides details to the sell-side information about the sector, country, index and potential market impact of the financial instrument to be bought or sold. Using this information, the sell-side firms bid for the trade.",
+  "isoAttributes": {
+    "BidByCurrency": {
+      "name": "Bid By Currency",
+      "definition": "Identifies a type of bid based on a common characteristic (the currency) of all securities of a list."
+    },
+    "BidBySector": {
+      "name": "Bid By Sector",
+      "definition": "Identifies a type of bid based on a common characteristic (the sector) of all securities of a list."
+    },
+    "BidByIndex": {
+      "name": "Bid By Index",
+      "definition": "Identifies a type of bid based on a common characteristic (the index) of all securities of a list."
+    },
+    "NumberOfBidders": {
+      "name": "Number Of Bidders",
+      "definition": "Indicates the total number of bidders participating to a list trade."
+    },
+    "SideValue": {
+      "name": "Side Value",
+      "definition": "Indicates the monetary value in either direction (buy or sell) without revealing whether it is the intention to buy or sell."
+    }
+  }
+}

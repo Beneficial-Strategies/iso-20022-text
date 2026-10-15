@@ -1,0 +1,54 @@
+{
+  "isoType": "Balance",
+  "language": "en",
+  "name": "Balance",
+  "definition": "Numerical representation of the net increases and decreases in an account at a specific point in time.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature of a balance."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time at which the balance is or will be available."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the balance is a credit or a debit balance. A zero balance is considered to be a credit balance"
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Specifies the date and time at which the balance is calculated."
+    },
+    "ProcessingRestriction": {
+      "name": "Processing Restriction",
+      "definition": "Specifies the type of balance processing restrictions that must be applied."
+    },
+    "OpeningClosingCode": {
+      "name": "Opening Closing Code",
+      "definition": "Specifies whether the balance is an opening or a closing one."
+    }
+  },
+  "isoAssociations": {
+    "AssetHolding": {
+      "name": "Asset Holding",
+      "definition": "Specifies in terms of value and quantity the assets held in a balance."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the balance adjustments."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account or sub-account for which a balance is calculated."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Set of elements used to provide interest information that applies to the balance."
+    },
+    "BalanceEntry": {
+      "name": "Balance Entry",
+      "definition": "Credit or debit postings used to calculate a balance."
+    }
+  }
+}

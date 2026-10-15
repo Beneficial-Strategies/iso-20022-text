@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionNotification",
+  "language": "en",
+  "name": "Corporate Action Notification",
+  "definition": "The process of notifying of an upcoming corporate action. It provides corporate action details including the different options.",
+  "isoAttributes": {
+    "CorporateActionNotificationIdentification": {
+      "name": "Corporate Action Notification Identification",
+      "definition": "Identifies the corporate action notification."
+    },
+    "NotificationType": {
+      "name": "Notification Type",
+      "definition": "Specifies the type of notification."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Specifies the date and time when the notification was issued."
+    }
+  },
+  "isoAssociations": {
+    "RelatedServicing": {
+      "name": "Related Servicing",
+      "definition": "Process which groups the activities related to corporate action servicing."
+    }
+  }
+}

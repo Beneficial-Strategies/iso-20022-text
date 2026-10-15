@@ -1,0 +1,26 @@
+{
+  "isoType": "AttendanceCard",
+  "language": "en",
+  "name": "Attendance Card",
+  "definition": "Information about the attendance card which is issued for the requestor, for its underlying client or for the appointed proxy person or meeting attendee when an attendance request is included in the meeting instruction. |The instructing party can specify which information must be indicated on the attendance card and to which location the attendance card must be delivered.",
+  "isoAttributes": {
+    "AttendanceCardLabelling": {
+      "name": "Attendance Card Labelling",
+      "definition": "Information to be indicated on the attendance card."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies where the attendance card must be delivered."
+    }
+  },
+  "isoAssociations": {
+    "MeetingAttendance": {
+      "name": "Meeting Attendance",
+      "definition": "Attendance card which is required to attend the meeting."
+    },
+    "DeliveryPlace": {
+      "name": "Delivery Place",
+      "definition": "Address where the attendance card should be delivered."
+    }
+  }
+}

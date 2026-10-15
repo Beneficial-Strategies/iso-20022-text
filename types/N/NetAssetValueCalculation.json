@@ -1,0 +1,94 @@
+{
+  "isoType": "NetAssetValueCalculation",
+  "language": "en",
+  "name": "Net Asset Value Calculation",
+  "definition": "Calculation of the net asset value for an investment fund/fund class.",
+  "isoAttributes": {
+    "ValuationFrequency": {
+      "name": "Valuation Frequency",
+      "definition": "Frequency of the valuation."
+    },
+    "ValuationDateTime": {
+      "name": "Valuation Date Time",
+      "definition": "Date and time of the price valuation for the investment fund/fund class."
+    },
+    "NetAssetValue": {
+      "name": "Net Asset Value",
+      "definition": "Value of all the holdings, less the fund's liabilities, attributable to a specific investment fund class."
+    },
+    "ValuationType": {
+      "name": "Valuation Type",
+      "definition": "Specifies how the valuation is done, based on the schedule stated in the prospectus."
+    },
+    "SuspendedIndicator": {
+      "name": "Suspended Indicator",
+      "definition": "Indicates whether the valuation of the investment fund class is suspended."
+    },
+    "ForExecutionIndicator": {
+      "name": "For Execution Indicator",
+      "definition": "Indicates whether the price information can be used for the execution of a transaction."
+    },
+    "OfficialValuationIndicator": {
+      "name": "Official Valuation Indicator",
+      "definition": "Indicates whether the valuation is an official valuation."
+    },
+    "EstimatedPriceIndicator": {
+      "name": "Estimated Price Indicator",
+      "definition": "Indicates whether the price is an estimated price."
+    },
+    "DeclarationChannel": {
+      "name": "Declaration Channel",
+      "definition": "Means of the net asset value publication, for example, a newspaper."
+    },
+    "DeclarationDate": {
+      "name": "Declaration Date",
+      "definition": "Date/time of the net asset value publication."
+    },
+    "FirstValuationDate": {
+      "name": "First Valuation Date",
+      "definition": "Date on which the investment fund class was first priced."
+    },
+    "HistoricPricingIndicator": {
+      "name": "Historic Pricing Indicator",
+      "definition": "Indicates whether the price is historic or forward."
+    }
+  },
+  "isoAssociations": {
+    "RelatedFund": {
+      "name": "Related Fund",
+      "definition": "Specifies the fund for which the NAV is calculated (per fund unit)."
+    },
+    "TaxLiability": {
+      "name": "Tax Liability",
+      "definition": "Information related to taxes that are due."
+    },
+    "TaxRefund": {
+      "name": "Tax Refund",
+      "definition": "Information related to taxes that are paid back."
+    },
+    "ValuationStatistics": {
+      "name": "Valuation Statistics",
+      "definition": "Information related to the price variations of an investment fund class."
+    },
+    "InvestmentFundPerformanceFactors": {
+      "name": "Investment Fund Performance Factors",
+      "definition": "Factors that give indications about the performance of a fund."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price derived from the net asset value."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Quantity on which the NAV is calculated."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest that has accumulated between the most recent payment of interest and the sale of the financial instrument."
+    },
+    "FundsCashFlow": {
+      "name": "Funds Cash Flow",
+      "definition": "Net cash flow for a valuation date, which is incorporated in the NAV."
+    }
+  }
+}

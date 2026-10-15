@@ -1,0 +1,26 @@
+{
+  "isoType": "DisputeManagement",
+  "language": "en",
+  "name": "Dispute Management",
+  "definition": "Provides the dispute details on the variation margin and/or the segregated independent amount.",
+  "isoAttributes": {
+    "DisputedAmount": {
+      "name": "Disputed Amount",
+      "definition": "Disputed amount."
+    },
+    "DisputeDate": {
+      "name": "Dispute Date",
+      "definition": "Date of dispute."
+    },
+    "DisputeResolutionType": {
+      "name": "Dispute Resolution Type",
+      "definition": "Specifies the type of dispute that is to be resolved regarding the disputed collateral amount."
+    }
+  },
+  "isoAssociations": {
+    "RelatedManagementProcess": {
+      "name": "Related Management Process",
+      "definition": "Process which groups the activities related to collateral."
+    }
+  }
+}

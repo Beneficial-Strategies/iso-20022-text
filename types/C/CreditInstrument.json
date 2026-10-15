@@ -1,0 +1,30 @@
+{
+  "isoType": "CreditInstrument",
+  "language": "en",
+  "name": "Credit Instrument",
+  "definition": "Specifies the instrument to be used for the credit of a payment.",
+  "isoAttributes": {
+    "Method": {
+      "name": "Method",
+      "definition": "Transfer method to be used for the transfer."
+    },
+    "CreditInstrumentIdentification": {
+      "name": "Credit Instrument Identification",
+      "definition": "Identifies the credit instrument."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount less fees and charges, that will be exchanged on settlement date of the trade."
+    },
+    "Deadline": {
+      "name": "Deadline",
+      "definition": "Time by which the amount must be paid in."
+    }
+  },
+  "isoAssociations": {
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Payment which uses the credit instrument."
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "isoType": "TradingMarket",
+  "language": "en",
+  "name": "Trading Market",
+  "definition": "Context or geographic environment in which trading parties may meet in order to negotiate and execute trades among themselves. It also identifies the primary market where an asset is issued.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of a market in which transactions take place."
+    },
+    "ListingDate": {
+      "name": "Listing Date",
+      "definition": "Date/time at which the security is listed at the specific exchange."
+    },
+    "TradingCurrency": {
+      "name": "Trading Currency",
+      "definition": "Currency of the trading."
+    },
+    "DefaultCurrency": {
+      "name": "Default Currency",
+      "definition": "Default currency for the securities trading on this market."
+    },
+    "FirstTradingDate": {
+      "name": "First Trading Date",
+      "definition": "First date/time at which the security is eligible for trading."
+    },
+    "LastTradingDate": {
+      "name": "Last Trading Date",
+      "definition": "Last date/time at which the security is eligible for trading."
+    }
+  },
+  "isoAssociations": {
+    "TradedSecurity": {
+      "name": "Traded Security",
+      "definition": "Security which is traded on a specific market."
+    },
+    "ListedSecurity": {
+      "name": "Listed Security",
+      "definition": "Security whch is listed on a specific market."
+    },
+    "SourceOfPrice": {
+      "name": "Source Of Price",
+      "definition": "Party which provides a price on a market."
+    },
+    "TradeLotSize": {
+      "name": "Trade Lot Size",
+      "definition": "Specifies the number of securities that have to be traded in one lot ."
+    },
+    "MinimumTradedNominalQuantity": {
+      "name": "Minimum Traded Nominal Quantity",
+      "definition": "Minimum number of securities that can be traded."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order for which a place of trade is requested."
+    },
+    "MaximumTradedNominalQuantity": {
+      "name": "Maximum Traded Nominal Quantity",
+      "definition": "Miaximum number of securities that can be traded."
+    },
+    "StockExchange": {
+      "name": "Stock Exchange",
+      "definition": "Stock exchange which operates on a specific market."
+    },
+    "QuoteLot": {
+      "name": "Quote Lot",
+      "definition": "Lot size associated with the price. Most exchanges require that pricing be quoted in round lot size. However, some exchanges have pricing quoted in many different lot sizes, for example, Latin America, some Asian markets, Turkey."
+    },
+    "RoundLot": {
+      "name": "Round Lot",
+      "definition": "Minimum quantity of securities that can be purchased without incurring a larger fee. For example, if the round lot size is 100 and the trade is for 125  shares, then 100 will be processed without a fee and the remaining 25 will incur a service fee for being an odd lot size."
+    },
+    "TradingSession": {
+      "name": "Trading Session",
+      "definition": "Trading session associated with a market."
+    },
+    "ListedSecurityTradingIdentification": {
+      "name": "Listed Security Trading Identification",
+      "definition": "Trading identification used on this trading market."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Issuance for which the place has been defined."
+    },
+    "RelatedPlaceOfSettlement": {
+      "name": "Related Place Of Settlement",
+      "definition": "Place of settlement for which a settlement market is specified."
+    }
+  }
+}

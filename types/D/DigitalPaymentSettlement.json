@@ -1,0 +1,36 @@
+{
+  "isoType": "DigitalPaymentSettlement",
+  "language": "en",
+  "name": "Digital Payment Settlement",
+  "definition": "Specifies the information related to the digital payment settlement.",
+  "isoAttributes": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "NetworkFeeQuantity": {
+      "name": "Network Fee Quantity",
+      "definition": "Quantity of digital assets for network fee assigned to a transaction on a DLT network."
+    },
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "name": "Electronic Money Token Settlement Quantity",
+      "definition": "Quantity of E-money token for the settlement payment."
+    },
+    "DigitalLedgerIdentification": {
+      "name": "Digital Ledger Identification",
+      "definition": "Place of safekeeping expressed with a Digital Ledger Identifier. It identifies a digital ledger or distributed ledger system (for example, blockchain or similar platforms)."
+    },
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Unique and unambiguous way to identify an organisation."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification as an alternate identification for a place of safekeeping."
+    }
+  }
+}

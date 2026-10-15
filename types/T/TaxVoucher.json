@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxVoucher",
+  "language": "en",
+  "name": "Tax Voucher",
+  "definition": "Statement showing the amount or value of a distribution and either the tax credit to which the recipient is entitled in respect of that distribution; or the amount of tax deducted from the distribution.",
+  "isoAttributes": {
+    "RequestedTaxationRate": {
+      "name": "Requested Taxation Rate",
+      "definition": "Requested tax rate in case of breakdown of tax rate, for example, used for adjustment of tax rate. This is the new requested applicable rate."
+    },
+    "CreditRate": {
+      "name": "Credit Rate",
+      "definition": "Applicable tax rate on the tax credit amount."
+    },
+    "SundryOrOtherAmount": {
+      "name": "Sundry Or Other Amount",
+      "definition": "Amount of money related to taxable income that cannot be categorised."
+    },
+    "CreditAmount": {
+      "name": "Credit Amount",
+      "definition": "Amount of money per equity allocated as the result of a tax credit."
+    },
+    "CashAmountBroughtForward": {
+      "name": "Cash Amount Brought Forward",
+      "definition": "Cash amount retained from previous dividend or interest payment."
+    },
+    "CashAmountCarriedForward": {
+      "name": "Cash Amount Carried Forward",
+      "definition": "Cash amount carried forward to next dividend or interest payment."
+    },
+    "NotionalTaxAmount": {
+      "name": "Notional Tax Amount",
+      "definition": "Tax on the amount of cash that would have been paid when new securities are issued in lieu of a cash dividend."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the tax voucher."
+    },
+    "BargainDate": {
+      "name": "Bargain Date",
+      "definition": "Date on which DRIP purchase completed."
+    },
+    "BargainSettlementDate": {
+      "name": "Bargain Settlement Date",
+      "definition": "Settlement date of the DRIP purchase transaction."
+    },
+    "TaxVoucherRate": {
+      "name": "Tax Voucher Rate",
+      "definition": "Distribution rate per share."
+    },
+    "AllotedSharesCost": {
+      "name": "Alloted Shares Cost",
+      "definition": "Total cash amount required to purchase shares allotted."
+    }
+  },
+  "isoAssociations": {
+    "RelatedSecurityTax": {
+      "name": "Related Security Tax",
+      "definition": "Specifies tax elements on the security which is involved in the corporate event."
+    },
+    "Distribution": {
+      "name": "Distribution",
+      "definition": "Corporate action distribution process for which tax voucher information is provided."
+    },
+    "RecordDateHolding": {
+      "name": "Record Date Holding",
+      "definition": "Securities holding on record date."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "name": "Scrip Dividend Reinvestment Price Per Share",
+      "definition": "Cost per share of new shares allotted."
+    },
+    "ForeignExchangeTransaction": {
+      "name": "Foreign Exchange Transaction",
+      "definition": "Provides information about the foreign exchange transaction."
+    }
+  }
+}

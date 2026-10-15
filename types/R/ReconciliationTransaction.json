@@ -1,0 +1,38 @@
+{
+  "isoType": "ReconciliationTransaction",
+  "language": "en",
+  "name": "Reconciliation Transaction",
+  "definition": "Totals performed during the reconciliation period, for a certain type of transaction.",
+  "isoAttributes": {
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer. This identification might be linked to the identification of the settlement for further verification by the merchant."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency associated with thecumulative amount."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Identification of the type of transaction."
+    },
+    "TotalNumber": {
+      "name": "Total Number",
+      "definition": "Total number of transactions during a reconciliation period."
+    },
+    "CumulativeAmount": {
+      "name": "Cumulative Amount",
+      "definition": "Total amount of a collection of transactions."
+    },
+    "ClosePeriod": {
+      "name": "Close Period",
+      "definition": "Indicates if the exchange requires a closure of the reconciliation period."
+    }
+  },
+  "isoAssociations": {
+    "CardPaymentTotal": {
+      "name": "Card Payment Total",
+      "definition": "Specifies the card payments which are part of the transaction reconciliation."
+    }
+  }
+}

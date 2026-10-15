@@ -1,0 +1,30 @@
+{
+  "isoType": "CashClearingSystem",
+  "language": "en",
+  "name": "Cash Clearing System",
+  "definition": "Clearing system that processes only cash transfers.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Information used to identify a cash clearing system."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the category of cash clearing system, eg, cheque clearing."
+    },
+    "CashSettlementSystem": {
+      "name": "Cash Settlement System",
+      "definition": "Specifies the cash settlement system used."
+    }
+  },
+  "isoAssociations": {
+    "TransactionAdministrator": {
+      "name": "Transaction Administrator",
+      "definition": "Set of integrated applications that provides centralised services such as clearing and settlement."
+    },
+    "SystemRole": {
+      "name": "System Role",
+      "definition": "Specifies the role played by the cash clearing system."
+    }
+  }
+}

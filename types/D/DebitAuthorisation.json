@@ -1,0 +1,34 @@
+{
+  "isoType": "DebitAuthorisation",
+  "language": "en",
+  "name": "Debit Authorisation",
+  "definition": "Permission given by an account owner to debit its account as the result of a cancelled payment. The authoriser is the party whose account was credited as the result of a payment instruction.",
+  "isoAttributes": {
+    "ValueDateToDebit": {
+      "name": "Value Date To Debit",
+      "definition": "Value date for debiting the amount."
+    },
+    "DebitAuthorisationDecision": {
+      "name": "Debit Authorisation Decision",
+      "definition": "Code expressing the decision taken by the account owner relative to the request for debit authorization."
+    },
+    "AmountToDebit": {
+      "name": "Amount To Debit",
+      "definition": "Specifies the amount to debit when the amount is lower than the amount of the underlying transaction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Justification of the (partial) debit authorisation."
+    }
+  },
+  "isoAssociations": {
+    "AuthorisedReturn": {
+      "name": "Authorised Return",
+      "definition": "Authorisation given by a credited party to return the payment which was the reason for the credit and therefore to debit its account."
+    },
+    "RelatedInvestigationCaseResolution": {
+      "name": "Related Investigation Case Resolution",
+      "definition": "Payment investigation case resolution which is the source of the debit authorisation."
+    }
+  }
+}

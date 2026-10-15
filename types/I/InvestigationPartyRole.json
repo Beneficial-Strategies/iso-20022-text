@@ -1,0 +1,16 @@
+{
+  "isoType": "InvestigationPartyRole",
+  "language": "en",
+  "name": "Investigation Party Role",
+  "definition": "Role played by a party in the context of an investigation process.",
+  "isoAssociations": {
+    "InvestigationCase": {
+      "name": "Investigation Case",
+      "definition": "Identifies the case for which a party plays a role."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status for which a party plays a role."
+    }
+  }
+}

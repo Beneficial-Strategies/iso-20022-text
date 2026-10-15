@@ -1,0 +1,26 @@
+{
+  "isoType": "EnergyDelivery",
+  "language": "en",
+  "name": "Energy Delivery",
+  "definition": "Information related to energy commodities delivery attributes.",
+  "isoAttributes": {
+    "PointOrZone": {
+      "name": "Point Or Zone",
+      "definition": "Identification of delivery/interconnection point or zone as a code."
+    },
+    "Capacity": {
+      "name": "Capacity",
+      "definition": "Specifies delivery capacity."
+    },
+    "Interval": {
+      "name": "Interval",
+      "definition": "Specifies delivery intervals."
+    }
+  },
+  "isoAssociations": {
+    "RelatedEnergy": {
+      "name": "Related Energy",
+      "definition": "Specifies corresponding energy delivery."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "PortfolioStrategy",
+  "language": "en",
+  "name": "Portfolio Strategy",
+  "definition": "Rough allocation of the portfolio.",
+  "isoAttributes": {
+    "InclusionIndicator": {
+      "name": "Inclusion Indicator",
+      "definition": "Indicates whether the referred strategy is included."
+    },
+    "MinimumInvestmentAmount": {
+      "name": "Minimum Investment Amount",
+      "definition": "Minimum amount that has to be invested in the specified strategy."
+    },
+    "MinimumInvestmentRate": {
+      "name": "Minimum Investment Rate",
+      "definition": "Minimum percentage that has to be invested in the specified strategy."
+    },
+    "MaximumInvestmentAmount": {
+      "name": "Maximum Investment Amount",
+      "definition": "Maximum amount that may be invested in the specified strategy."
+    },
+    "MaximumInvestmentRate": {
+      "name": "Maximum Investment Rate",
+      "definition": "Maximum percentage that may be invested in the specified strategy."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the investment guideline is valid."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to the fund, ie, if income is paid out or retained in the fund."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free text description of the investment guideline, for example, rating requirements."
+    }
+  },
+  "isoAssociations": {
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Portfolio for which a strategy is specified."
+    },
+    "Definition": {
+      "name": "Definition",
+      "definition": "Definition of the portfolio strategy."
+    }
+  }
+}

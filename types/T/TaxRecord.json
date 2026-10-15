@@ -1,0 +1,42 @@
+{
+  "isoType": "TaxRecord",
+  "language": "en",
+  "name": "Tax Record",
+  "definition": "Record of tax details.",
+  "isoAttributes": {
+    "TaxRecordType": {
+      "name": "Tax Record Type",
+      "definition": "High level code to identify the type of tax details."
+    },
+    "Category": {
+      "name": "Category",
+      "definition": "Description of the tax that is being paid, including specific representation (code) required by the tax authority."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Code provided by local authority to identify the status of the party that has drawn up the settlement document."
+    },
+    "FormsCode": {
+      "name": "Forms Code",
+      "definition": "Code to identify on which template the tax report is to be provided"
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the tax record."
+    },
+    "CategoryDescription": {
+      "name": "Category Description",
+      "definition": "Description of the tax that is being paid, including specific representation required by taxing authority."
+    }
+  },
+  "isoAssociations": {
+    "Tax": {
+      "name": "Tax",
+      "definition": "Tax for which tax record information is provided."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Period of time details related to the tax payment."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "SecuritiesSwapLeg",
+  "language": "en",
+  "name": "Securities Swap Leg",
+  "definition": "Contains the details of one of the legs of a swap, both in time (spot versus [partial] forward details) and the side (sell versus buy).",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Contains the currency and amount of a buy or sell leg of a swap for the spot or the forward."
+    },
+    "Benchmark": {
+      "name": "Benchmark",
+      "definition": "Contains the benchmark used for a buy or sell leg of a swap for the spot or the forward."
+    },
+    "CurvePoint": {
+      "name": "Curve Point",
+      "definition": "Identifies a point on a benchmark curve."
+    },
+    "BenchmarkYield": {
+      "name": "Benchmark Yield",
+      "definition": "Contains the yield against a benchmark for a buy or sell leg of a swap for the spot or the forward."
+    },
+    "BenchmarkOffset": {
+      "name": "Benchmark Offset",
+      "definition": "Contains the offset in basis points against a benchmark for a buy or sell leg of a swap for the spot or the forward."
+    }
+  },
+  "isoAssociations": {
+    "SpotSellSwap": {
+      "name": "Spot Sell Swap",
+      "definition": "Swap for which a spot sell leg is specified."
+    },
+    "SpotBuySwap": {
+      "name": "Spot Buy Swap",
+      "definition": "Swap for which a spot buy leg is specified."
+    },
+    "ForwardBuyBackSwap": {
+      "name": "Forward Buy Back Swap",
+      "definition": "Swap for which a forward buy back leg is specified."
+    },
+    "ForwardSellBackSwap": {
+      "name": "Forward Sell Back Swap",
+      "definition": "Swap for which a forward sell back leg is specified."
+    }
+  }
+}

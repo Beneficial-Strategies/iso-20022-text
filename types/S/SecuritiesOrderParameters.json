@@ -1,0 +1,102 @@
+{
+  "isoType": "SecuritiesOrderParameters",
+  "language": "en",
+  "name": "Securities Order Parameters",
+  "definition": "Parameters of the transfer of a financial instrument.",
+  "isoAttributes": {
+    "AutoRouting": {
+      "name": "Auto Routing",
+      "definition": "Indicates whether an automatic routing system is involved."
+    },
+    "CorporateActionOptionIndicator": {
+      "name": "Corporate Action Option Indicator",
+      "definition": "Indicates the possible options or choices available to account owner (for investment funds)."
+    },
+    "ExecutionTimeLimit": {
+      "name": "Execution Time Limit",
+      "definition": "Indicates from/until when an order must be executed."
+    },
+    "PreAllocationConditionIndicator": {
+      "name": "Pre Allocation Condition Indicator",
+      "definition": "Indicates the conditions that apply to a pre-allocation."
+    },
+    "PriorityIndicator": {
+      "name": "Priority Indicator",
+      "definition": "Indicates the execution priority of the trade."
+    },
+    "RequestedDealCurrency": {
+      "name": "Requested Deal Currency",
+      "definition": "Currency in which a trade should be executed."
+    },
+    "OrderHandlingInstruction": {
+      "name": "Order Handling Instruction",
+      "definition": "Specifies instructions for order handling on the broker trading floor."
+    },
+    "StockLocateRequired": {
+      "name": "Stock Locate Required",
+      "definition": "Indicates whether the broker is to locate the stock in conjunction with a short sell order.|This information is mandatory in case of short sales. When executed, the report will then mention the securities location."
+    },
+    "WorkingIndicator": {
+      "name": "Working Indicator",
+      "definition": "Indicates if the order is currently being worked. For open outcry markets this indicates that the order is being worked in the crowd.  For electronic markets it indicates that the order has transitioned from a contingent order to a market order."
+    },
+    "BookPriorityIndicator": {
+      "name": "Book Priority Indicator",
+      "definition": "Indicates if a Cancel/Replace has caused an order to lose book priority."
+    },
+    "MaxPriceLevels": {
+      "name": "Max Price Levels",
+      "definition": "Allows an order to specify a maximum number of price levels to trade through."
+    },
+    "PreTradeAnonymity": {
+      "name": "Pre Trade Anonymity",
+      "definition": "Allows trader to explicitly request anonymity or disclosure in pre-trade market data feeds. Anonymity is relevant in markets where counterparties are regularly disclosed in order depth feeds. Disclosure is relevant when counterparties are not normally visible."
+    },
+    "GoodTillBooking": {
+      "name": "Good Till Booking",
+      "definition": "For partially good till orders, the specification of whether to book each execution, or to accumulate the executions."
+    },
+    "ManualOrderIndicator": {
+      "name": "Manual Order Indicator",
+      "definition": "Indicates if the order was initially received manually (as opposed to electronically)."
+    },
+    "DirectedOrder": {
+      "name": "Directed Order",
+      "definition": "Indicates if the customer directed this order to a specific execution venue (Y) or not (N)."
+    },
+    "ReceivedDepartment": {
+      "name": "Received Department",
+      "definition": "Identifies the Broker / Dealer Department that first took the order."
+    },
+    "CustomerHandlingInstruction": {
+      "name": "Customer Handling Instruction",
+      "definition": "Codes that apply special information that the Broker / Dealer needs to report, as specified by the customer."
+    },
+    "ProcessCode": {
+      "name": "Process Code",
+      "definition": "Used to identify soft trades at order entry."
+    }
+  },
+  "isoAssociations": {
+    "MinimumQuantity": {
+      "name": "Minimum Quantity",
+      "definition": "Minimum quantity of financial instrument to be bought or sold if the entire order cannot be executed."
+    },
+    "MatchIncrement": {
+      "name": "Match Increment",
+      "definition": "Allows orders to specify a minimum quantity that applies to every execution. (one execution could be for multiple counter-orders). The order may still fill against smaller orders, but the cumulative quantity of the execution must be in multiples of the MatchIncrement."
+    },
+    "PegInstructions": {
+      "name": "Peg Instructions",
+      "definition": "Additional instructions if the order is pegged."
+    },
+    "PreviousClosingPrice": {
+      "name": "Previous Closing Price",
+      "definition": "Previous closing price of security."
+    },
+    "RelatedSecuritiesOrder": {
+      "name": "Related Securities Order",
+      "definition": "Securities order for which parameters are specified."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountReportedMovement",
+  "language": "en",
+  "name": "Account Reported Movement",
+  "definition": "Provides statistical information on the number of movements and their value for a particular account.",
+  "isoAttributes": {
+    "MonthlyPaymentValue": {
+      "name": "Monthly Payment Value",
+      "definition": "Monthly average of the payment amounts (that is, payments going out) over a year."
+    },
+    "MonthlyReceivedValue": {
+      "name": "Monthly Received Value",
+      "definition": "Monthly average of the received amounts over a year (that is, payments coming in)."
+    },
+    "MonthlyTransactionNumber": {
+      "name": "Monthly Transaction Number",
+      "definition": "Monthly average of the number of payments (coming in and going out) over a year."
+    },
+    "AverageBalance": {
+      "name": "Average Balance",
+      "definition": "Sum of the end of day balances over a month divided by the number of business days in the month."
+    }
+  },
+  "isoAssociations": {
+    "ReportedCashAccount": {
+      "name": "Reported Cash Account",
+      "definition": "Cash account for which reported movements are calculated."
+    }
+  }
+}

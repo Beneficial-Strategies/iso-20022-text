@@ -1,0 +1,50 @@
+{
+  "isoType": "Status",
+  "language": "en",
+  "name": "Status",
+  "definition": "The status of an instruction, advice or request.",
+  "isoAttributes": {
+    "StatusDateTime": {
+      "name": "Status Date Time",
+      "definition": "Date and time at which the status was assigned."
+    },
+    "StatusDescription": {
+      "name": "Status Description",
+      "definition": "Specifies the state or the condition."
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": "Status of the processing of an instruction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Status of settlement of a transaction."
+    },
+    "CancellationProcessingStatus": {
+      "name": "Cancellation Processing Status",
+      "definition": "Specifies the status of a cancellation request."
+    },
+    "TransactionProcessingStatus": {
+      "name": "Transaction Processing Status",
+      "definition": "Status of processing of a transaction at account servicer level."
+    },
+    "ModificationProcessingStatus": {
+      "name": "Modification Processing Status",
+      "definition": "Provides the status of a modification request."
+    }
+  },
+  "isoAssociations": {
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Specifies the reasons for the status."
+    },
+    "ValidityTime": {
+      "name": "Validity Time",
+      "definition": "Period of time during which the status is valid."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Role played by a party in the context of assigning a status."
+    }
+  }
+}

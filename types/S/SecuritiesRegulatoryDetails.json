@@ -1,0 +1,22 @@
+{
+  "isoType": "SecuritiesRegulatoryDetails",
+  "language": "en",
+  "name": "Securities Regulatory Details",
+  "definition": "Information related to order and required for regulatory purposes.",
+  "isoAttributes": {
+    "OrderRestrictions": {
+      "name": "Order Restrictions",
+      "definition": "Classification and restrictions linked to an order (for regulatory purpose)."
+    },
+    "BrokerSolicitedTrade": {
+      "name": "Broker Solicited Trade",
+      "definition": "Indicates whether the trading party has suggested to his client to buy/sell a financial instrument or whether the investor acts on its own without advice from its trading party."
+    }
+  },
+  "isoAssociations": {
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order for which legal parameters are provided."
+    }
+  }
+}

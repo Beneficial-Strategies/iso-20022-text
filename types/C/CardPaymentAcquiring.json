@@ -1,0 +1,134 @@
+{
+  "isoType": "CardPaymentAcquiring",
+  "language": "en",
+  "name": "Card Payment Acquiring",
+  "definition": "Payment processes initiated by a payment card.",
+  "isoAttributes": {
+    "CardPaymentService": {
+      "name": "Card Payment Service",
+      "definition": "Type of service provided by the transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "TransactionDateTime": {
+      "name": "Transaction Date Time",
+      "definition": "Local date and time of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to the interface of an integrated circuit card application."
+    },
+    "CardPresent": {
+      "name": "Card Present",
+      "definition": "Indicates whether the transaction has been initiated by a card physically present or not."
+    },
+    "CardholderPresent": {
+      "name": "Cardholder Present",
+      "definition": "Indicates whether the transaction has been initiated in presence of the cardholder or not."
+    },
+    "OnLineContext": {
+      "name": "On Line Context",
+      "definition": "On-line or off-line context of the transaction."
+    },
+    "AttendanceContext": {
+      "name": "Attendance Context",
+      "definition": "Human attendance at the POI location during the transaction."
+    },
+    "TransactionEnvironment": {
+      "name": "Transaction Environment",
+      "definition": "Indicates the environment of the transaction."
+    },
+    "TransactionChannel": {
+      "name": "Transaction Channel",
+      "definition": "Identifies the type of the communication channels used by the cardholder to the acceptor system."
+    },
+    "AttendantMessageCapable": {
+      "name": "Attendant Message Capable",
+      "definition": "Indicates whether a message can be sent or not on an attendant display (attendant display present or not)."
+    },
+    "AttendantLanguage": {
+      "name": "Attendant Language",
+      "definition": "Language used to display messages to the attendant."
+    },
+    "CardDataEntryMode": {
+      "name": "Card Data Entry Mode",
+      "definition": "Entry mode of the card data."
+    },
+    "FallbackIndicator": {
+      "name": "Fallback Indicator",
+      "definition": "Indicator of a transaction fallback."
+    },
+    "InitiatorTransactionIdentifier": {
+      "name": "Initiator Transaction Identifier",
+      "definition": "Identification of the transaction assigned by the initiating party for the recipient party."
+    },
+    "Reversal": {
+      "name": "Reversal",
+      "definition": "Notify that a previous transaction has to be reversed if this original transaction has been approved by the acquirer."
+    },
+    "InterchangeData": {
+      "name": "Interchange Data",
+      "definition": "Interchange information related to the card scheme."
+    },
+    "UnattendedLevelCategory": {
+      "name": "Unattended Level Category",
+      "definition": "Transaction category level on an unattended POI (Point Of Interaction)."
+    },
+    "CompletionRequired": {
+      "name": "Completion Required",
+      "definition": "Indicates whether the acquirer requires a further exchange after the completion of the transaction."
+    },
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action to be performed by the POI (Point Of Interaction) system."
+    },
+    "ActionMessage": {
+      "name": "Action Message",
+      "definition": "Message to be displayed or printed to the cardholder or the cashier."
+    },
+    "CaptureIndicator": {
+      "name": "Capture Indicator",
+      "definition": "Indicates whether the transaction is captured or not."
+    },
+    "RecipientTransactionIdentification": {
+      "name": "Recipient Transaction Identification",
+      "definition": "Identification of the transaction assigned by the recipient party for the initiating party."
+    },
+    "Location": {
+      "name": "Location",
+      "definition": "Location category of the place where the merchant actually performed the transaction."
+    },
+    "ReSubmissionCounter": {
+      "name": "Re Submission Counter",
+      "definition": "In case a message is sent after the consumption of goods or service, it indicates the number of times the authorisation has been sent to the Acquirer in order to get an approval."
+    },
+    "BusinessArea": {
+      "name": "Business Area",
+      "definition": "Defines the business context of this transaction that could imply specific scheme rules."
+    }
+  },
+  "isoAssociations": {
+    "PointOfInteraction": {
+      "name": "Point Of Interaction",
+      "definition": "Describes the Point of Interaction through which the payment by card was initiated."
+    },
+    "RelatedCardPayment": {
+      "name": "Related Card Payment",
+      "definition": "Card payment which is at the origin of the acquiring process."
+    },
+    "TMSTrigger": {
+      "name": "TMS Trigger",
+      "definition": "Instructs the POI (Point Of Interaction) how to contact the host of the terminal management system (TMS), to initiate the maintenance of the terminal."
+    },
+    "Validation": {
+      "name": "Validation",
+      "definition": "Results and parameters of the card payment verification."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the merchant where the transaction took place."
+    }
+  }
+}

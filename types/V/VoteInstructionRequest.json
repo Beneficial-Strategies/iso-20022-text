@@ -1,0 +1,38 @@
+{
+  "isoType": "VoteInstructionRequest",
+  "language": "en",
+  "name": "Vote Instruction Request",
+  "definition": "Decision of the voting party for one resolution. Several types of decisions can be indicated to allow for split vote specification.",
+  "isoAttributes": {
+    "Discretionary": {
+      "name": "Discretionary",
+      "definition": "Number of votes for which decision is left to the party that will exercise the voting right."
+    },
+    "GlobalVoteInstruction": {
+      "name": "Global Vote Instruction",
+      "definition": "Vote instruction per resolution is cast for the entire entitlement."
+    },
+    "VoteForMeetingResolution": {
+      "name": "Vote For Meeting Resolution",
+      "definition": "Specifies the vote recommendation for resolutions added during the meeting."
+    },
+    "VoteExecutionConfirmation": {
+      "name": "Vote Execution Confirmation",
+      "definition": "Indicates that a Vote execution confirmation is requested."
+    }
+  },
+  "isoAssociations": {
+    "MeetingInstruction": {
+      "name": "Meeting Instruction",
+      "definition": "Meeting instruction which contains a vote instruction."
+    },
+    "VotePerResolution": {
+      "name": "Vote Per Resolution",
+      "definition": "Specifies the number of votes to be cast for a specific resolution."
+    },
+    "RelatedProxyAppointment": {
+      "name": "Related Proxy Appointment",
+      "definition": "Proxy appointment to which instructions are attached."
+    }
+  }
+}

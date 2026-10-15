@@ -1,0 +1,46 @@
+{
+  "isoType": "Portfolio",
+  "language": "en",
+  "name": "Portfolio",
+  "definition": "Wrapper for a specific product or a specific sub-product owned by a set of beneficial owners.",
+  "isoAttributes": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the portfolio."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the portfolio."
+    }
+  },
+  "isoAssociations": {
+    "Valuation": {
+      "name": "Valuation",
+      "definition": "Valuation process for the portfolio."
+    },
+    "Transfer": {
+      "name": "Transfer",
+      "definition": "Transfer information related to a portfolio."
+    },
+    "AssetDescription": {
+      "name": "Asset Description",
+      "definition": "Specifies the assets included in the portfolio together with their value."
+    },
+    "Strategy": {
+      "name": "Strategy",
+      "definition": "Strategy set for the portfolio."
+    },
+    "Benchmark": {
+      "name": "Benchmark",
+      "definition": "Information on the benchmark set for the portfolio."
+    },
+    "InvestmentPlan": {
+      "name": "Investment Plan",
+      "definition": "Investment plan associated with a portfolio."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account on which the portfolio is held."
+    }
+  }
+}

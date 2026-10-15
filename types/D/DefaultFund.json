@@ -1,0 +1,22 @@
+{
+  "isoType": "DefaultFund",
+  "language": "en",
+  "name": "Default Fund",
+  "definition": "Assets posted by participants in a clearing fund that can be used in the event of a default by a participant to compensate non-defaulting participants for losses they suffer due to this default.",
+  "isoAttributes": {
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount required by the Clearing Member to participate to the Default Fund."
+    }
+  },
+  "isoAssociations": {
+    "Contribution": {
+      "name": "Contribution",
+      "definition": "Contribution information for a default fund."
+    },
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Clearing system for which assets are posted by participants in the default fund."
+    }
+  }
+}

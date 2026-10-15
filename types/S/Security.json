@@ -1,0 +1,238 @@
+{
+  "isoType": "Security",
+  "language": "en",
+  "name": "Security",
+  "definition": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer.",
+  "isoAttributes": {
+    "RegisteredDistributionCountry": {
+      "name": "Registered Distribution Country",
+      "definition": "Country in which the processing characteristic applies."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "RegistrationForm": {
+      "name": "Registration Form",
+      "definition": "Specifies the form, ie, ownership, of the security."
+    },
+    "DematerialisedIndicator": {
+      "name": "Dematerialised Indicator",
+      "definition": "Indicates whether a security exists only as an electronic record, ie, there is no physical document representing the security."
+    },
+    "EUSavingsDirective": {
+      "name": "EU Savings Directive",
+      "definition": "Indicates whether the investment fund class is subject to the European Union Saving Directive."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "name": "Temporary Financial Instrument Indicator",
+      "definition": "Specifies that the security is a temporary security."
+    },
+    "AvailableDate": {
+      "name": "Available Date",
+      "definition": "Date on which securities become available for sale."
+    },
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Provides declaration details narrative relative to the financial instrument, eg, beneficial ownership."
+    },
+    "FungibleIndicator": {
+      "name": "Fungible Indicator",
+      "definition": "Indicates whether a security is interchangeable, ie, the security is allowed to be replaced by another security, without loss of value."
+    },
+    "Appearance": {
+      "name": "Appearance",
+      "definition": "Specifies the deliverability of a security."
+    },
+    "NearTermPositionLimit": {
+      "name": "Near Term Position Limit",
+      "definition": "Position limit in the near-term contract for a given exchange-traded product."
+    },
+    "ContractSettlementMonth": {
+      "name": "Contract Settlement Month",
+      "definition": "Specifies when the contract (i.e. MBS/TBA) will settle."
+    },
+    "MinimumTradingPricingIncrement": {
+      "name": "Minimum Trading Pricing Increment",
+      "definition": "Minimum price increase for a given exchange-traded Instrument"
+    },
+    "WarrantAttachedOnDelivery": {
+      "name": "Warrant Attached On Delivery",
+      "definition": "Indicates whether the warrants on a financial instrument (which has been traded cum warrants) will be attached on delivery."
+    },
+    "StrippableIndicator": {
+      "name": "Strippable Indicator",
+      "definition": "Indicates whether the interest is separable from the principal."
+    },
+    "FirstDealingDate": {
+      "name": "First Dealing Date",
+      "definition": "Date on which new securities begin trading."
+    },
+    "RecompositionIndicator": {
+      "name": "Recomposition Indicator",
+      "definition": "Indicates whether the interest and the principal can be recomposed. This is the reverse operation of stripping."
+    },
+    "Series": {
+      "name": "Series",
+      "definition": "Identifier that links multiple security classes."
+    },
+    "PercentageOfDebtClaim": {
+      "name": "Percentage Of Debt Claim",
+      "definition": "Percentage of the underlying assets of a fund that represents a debt and is in the scope of the EU Savings directive."
+    },
+    "CoverRate": {
+      "name": "Cover Rate",
+      "definition": "Amount of dividends the issuer intends to pay out the following year based on their normalised earnings."
+    },
+    "MaturityRedemption": {
+      "name": "Maturity Redemption",
+      "definition": "Return of an investor's principal in a security at maturity."
+    },
+    "PotentialEuroSystemEligibility": {
+      "name": "Potential Euro System Eligibility",
+      "definition": "Indicates that the security is intended to be held in a manner that could allow the Eurosystem eligibility."
+    },
+    "RestrictedIndicator": {
+      "name": "Restricted Indicator",
+      "definition": "Identifies if the securities is restricted or not (as per Rule 144 of the Securities and Exchange Commission,that sets the conditions under which restricted, unregistered and control securities can be sold)."
+    }
+  },
+  "isoAssociations": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Way(s) of identifying the security."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Specifies the quantity associated with a security."
+    },
+    "Fees": {
+      "name": "Fees",
+      "definition": "Fees related to securities."
+    },
+    "Pricing": {
+      "name": "Pricing",
+      "definition": "Information on the price of the security."
+    },
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Account on which the security is held."
+    },
+    "TradingMarket": {
+      "name": "Trading Market",
+      "definition": "Market(s) on which the security is traded."
+    },
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Market(s) on which the security is listed."
+    },
+    "Registration": {
+      "name": "Registration",
+      "definition": "Information related to registration of securities."
+    },
+    "Restriction": {
+      "name": "Restriction",
+      "definition": "Regulatory restriction(s) linked to the security."
+    },
+    "CorporateEvent": {
+      "name": "Corporate Event",
+      "definition": "Corporate event linked to the security"
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Spread that uses the security as benchmark reference."
+    },
+    "Dividend": {
+      "name": "Dividend",
+      "definition": "Dividend per financial instrument."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Balance of the account which holds a specific security."
+    },
+    "Rating": {
+      "name": "Rating",
+      "definition": "Rating(s) of the security."
+    },
+    "CouponAttached": {
+      "name": "Coupon Attached",
+      "definition": "Coupon information of the security."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "Indicates the market sector the security is classified as pharmaceuticals, automobile, housing, etc."
+    },
+    "TaxDetails": {
+      "name": "Tax Details",
+      "definition": "Tax details of the security."
+    },
+    "SecuritiesTrade": {
+      "name": "Securities Trade",
+      "definition": "Trade in which the security is involved."
+    },
+    "RegistrationJurisdiction": {
+      "name": "Registration Jurisdiction",
+      "definition": "Jurisdiction (country, county, state, province, city) in which the security is legally recorded for regulatory and/or tax purposes."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies roles played by a party that are linked to the handling of securities but not related to a specific process."
+    },
+    "SecurityStatus": {
+      "name": "Security Status",
+      "definition": "Specifies the status of the security within its lifecycle."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Modification process which applies to a specific security."
+    },
+    "RedemptionSchedule": {
+      "name": "Redemption Schedule",
+      "definition": "RedemptionSchedule(s) linked to the security."
+    },
+    "SecuritiesSettlement": {
+      "name": "Securities Settlement",
+      "definition": "Settlement of a specific security."
+    },
+    "SecuritiesTransfer": {
+      "name": "Securities Transfer",
+      "definition": "Transfer process in which that security is transferred.."
+    },
+    "CorporateActionStandingInstructions": {
+      "name": "Corporate Action Standing Instructions",
+      "definition": "Standing instructions related to the security in the context of corporate action."
+    },
+    "Quote": {
+      "name": "Quote",
+      "definition": "Quote of a security."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Order for which a specific security is indicated."
+    },
+    "RelatedVariableInterest": {
+      "name": "Related Variable Interest",
+      "definition": "Variable interest parameters specified for interest related to a financial instrument."
+    },
+    "Conversion": {
+      "name": "Conversion",
+      "definition": "Information on the conversion exchange of an entitlement or of preferred equities or of convertible bonds, into another form of securities, usually common equities."
+    },
+    "ComponentSecurity": {
+      "name": "Component Security",
+      "definition": "The security is part of the component security."
+    },
+    "RelatedMarginCall": {
+      "name": "Related Margin Call",
+      "definition": "Margin call for which the associated securities are specified."
+    },
+    "CloseLink": {
+      "name": "Close Link",
+      "definition": "Situation in which two entities are linked because one of these entities owns some of the capital of the other one, or has a control relationship with it."
+    },
+    "MinimumQuantity": {
+      "name": "Minimum Quantity",
+      "definition": "Indicates the minimum tradable quantity of a security."
+    }
+  }
+}

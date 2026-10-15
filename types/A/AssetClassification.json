@@ -1,0 +1,38 @@
+{
+  "isoType": "AssetClassification",
+  "language": "en",
+  "name": "Asset Classification",
+  "definition": "Other classification type of the security, ie, other than ISO 10962.",
+  "isoAttributes": {
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language in which the asset classification is expressed."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Identifies the product type."
+    },
+    "ClassificationSubType": {
+      "name": "Classification Sub Type",
+      "definition": "Provides information about the sub-class according to one of the segmentation criteria."
+    }
+  },
+  "isoAssociations": {
+    "Asset": {
+      "name": "Asset",
+      "definition": "Asset for which classification information is provided."
+    },
+    "AssetClassScheme": {
+      "name": "Asset Class Scheme",
+      "definition": "Information regarding the entity that assigns the asset classification."
+    },
+    "Strategy": {
+      "name": "Strategy",
+      "definition": "Strategy related to a class of assets."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "TaxEfficientProduct",
+  "language": "en",
+  "name": "Tax Efficient Product",
+  "definition": "Characteristics of a tax efficient product.",
+  "isoAttributes": {
+    "EstimatedValue": {
+      "name": "Estimated Value",
+      "definition": "Estimated value of the assets of the tax efficient product to be transferred."
+    },
+    "PreviousYears": {
+      "name": "Previous Years",
+      "definition": "Investment plans issued during previous years."
+    },
+    "CurrentInvestmentAmount": {
+      "name": "Current Investment Amount",
+      "definition": "Amount of money invested."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Bonus paid out or withdrawn."
+    },
+    "UnusedTaxDeduction": {
+      "name": "Unused Tax Deduction",
+      "definition": "Unused tax deduction amount."
+    },
+    "TaxCalculationBase": {
+      "name": "Tax Calculation Base",
+      "definition": "Amount of money from which the tax deduction is calculated."
+    },
+    "LowestInvestedAmountCurrentYear": {
+      "name": "Lowest Invested Amount Current Year",
+      "definition": "Lowest investment amount in the current year, used to calculate a tax deduction amount."
+    },
+    "InvestorTaxReference": {
+      "name": "Investor Tax Reference",
+      "definition": "Identification of the investor as assigned by a tax authority."
+    },
+    "TaxEfficientProductType": {
+      "name": "Tax Efficient Product Type",
+      "definition": "Type of tax efficient product, for example, an individual savings account (ISA) in the UK."
+    },
+    "AmountType": {
+      "name": "Amount Type",
+      "definition": "Specifies if it is a Bonus paid out or Withdrawn."
+    },
+    "InvestmentsToFollowValue": {
+      "name": "Investments To Follow Value",
+      "definition": "Value of the investments to follow."
+    },
+    "InvestorTaxReferenceType": {
+      "name": "Investor Tax Reference Type",
+      "definition": "Identification of the type of investor as assigned by a tax authority."
+    }
+  },
+  "isoAssociations": {
+    "RelatedInvestmentPlan": {
+      "name": "Related Investment Plan",
+      "definition": "Investment plan to what the characteristics of the tax efficient product relate to."
+    },
+    "CurrentYearSubscription": {
+      "name": "Current Year Subscription",
+      "definition": "Amounts already subscribed for the current year."
+    }
+  }
+}

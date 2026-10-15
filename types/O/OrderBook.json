@@ -1,0 +1,18 @@
+{
+  "isoType": "OrderBook",
+  "language": "en",
+  "name": "Order Book",
+  "definition": "Record of orders to buy and sell a financial instrument.",
+  "isoAttributes": {
+    "PriceTimePriority": {
+      "name": "Price Time Priority",
+      "definition": "Priority given to an order based on its price and/or time specification."
+    }
+  },
+  "isoAssociations": {
+    "Order": {
+      "name": "Order",
+      "definition": "Instruction to a broker or dealer to buy or sell a specific security."
+    }
+  }
+}

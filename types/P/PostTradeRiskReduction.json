@@ -1,0 +1,30 @@
+{
+  "isoType": "PostTradeRiskReduction",
+  "language": "en",
+  "name": "Post Trade Risk Reduction",
+  "definition": "Multilateral portfolio compression but also rebalancing and other types of risk mitigating techniques used in the market.",
+  "isoAttributes": {
+    "Technique": {
+      "name": "Technique",
+      "definition": "Indicator of a type of a post trade risk reduction operation for the purpose of reporting."
+    }
+  },
+  "isoAssociations": {
+    "Structurer": {
+      "name": "Structurer",
+      "definition": "Identification of the structurer of the post trade risk reduction identifier."
+    },
+    "PTRRIdentifier": {
+      "name": "PTRR Identifier",
+      "definition": "Identification of the post trade risk reduction."
+    },
+    "RelatedDerivativeEvent": {
+      "name": "Related Derivative Event",
+      "definition": "Derivative event for which the risk has been reduced."
+    },
+    "ServiceProvider": {
+      "name": "Service Provider",
+      "definition": "Service provider for the post trade risk reduction."
+    }
+  }
+}

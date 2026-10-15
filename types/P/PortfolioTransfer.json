@@ -1,0 +1,62 @@
+{
+  "isoType": "PortfolioTransfer",
+  "language": "en",
+  "name": "Portfolio Transfer",
+  "definition": "Transfer by the delivering account servicer to the receiving account servicer of a retail or institutional client portfolio. A portfolio can be any grouping of  investments, for example  stocks, bonds, options, warrants. held by an institution or an individual.",
+  "isoAttributes": {
+    "TransferredYear": {
+      "name": "Transferred Year",
+      "definition": "Specifies the year during which the investment plan to be transferred was issued."
+    },
+    "CashComponentIndicator": {
+      "name": "Cash Component Indicator",
+      "definition": "Indicates whether an ISA investment plan contains a cash component asset for transfer."
+    },
+    "TransferredAmount": {
+      "name": "Transferred Amount",
+      "definition": "Quantity of financial instrument to transfer expressed as an amount of money."
+    },
+    "TransferredPercentage": {
+      "name": "Transferred Percentage",
+      "definition": "Quantity of financial instrument to transfer expressed as a percentage of the investor's total holding."
+    },
+    "TransferDate": {
+      "name": "Transfer Date",
+      "definition": "Execution date of the transfer instruction."
+    },
+    "PEPOrISAPlan": {
+      "name": "PEP Or ISA Plan",
+      "definition": "Specifies whether the investment plan is a PEP or ISA type."
+    },
+    "CurrentYearISAType": {
+      "name": "Current Year ISA Type",
+      "definition": "Current year ISA is an ISA that was issued during the current fiscal year."
+    }
+  },
+  "isoAssociations": {
+    "AccountFrom": {
+      "name": "Account From",
+      "definition": "Specifies the account owned by an investor and from which the assets are transferred."
+    },
+    "AccountTo": {
+      "name": "Account To",
+      "definition": "Specifies the account owned by an investor and to which the assets are transferred."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Specifies the cash amount to be transferred in relation with a portfolio transfer."
+    },
+    "TransferredPortfolio": {
+      "name": "Transferred Portfolio",
+      "definition": "Specifies the portfolio which has to be transferred."
+    },
+    "SecuritiesDeliveryObligation": {
+      "name": "Securities Delivery Obligation",
+      "definition": "Specifies the financial instrument to be transferred in relation with a portfolio transfer."
+    },
+    "NomineeAccount": {
+      "name": "Nominee Account",
+      "definition": "Account held in the name of a party that is not the name of the beneficial owner of the shares."
+    }
+  }
+}

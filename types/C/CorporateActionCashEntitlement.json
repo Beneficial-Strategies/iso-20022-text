@@ -1,0 +1,34 @@
+{
+  "isoType": "CorporateActionCashEntitlement",
+  "language": "en",
+  "name": "Corporate Action Cash Entitlement",
+  "definition": "Rights for cash entitled to the account owner based on the terms of the corporate action event and the balance of underlying securities.",
+  "isoAttributes": {
+    "GrossCashAmount": {
+      "name": "Gross Cash Amount",
+      "definition": "Amount of money before any deductions and allowances have been made."
+    },
+    "NetCashAmount": {
+      "name": "Net Cash Amount",
+      "definition": "Amount of money after deductions and allowances have been made, if any, ie, the total amount +/- charges/fees."
+    },
+    "CashInLieuOfShare": {
+      "name": "Cash In Lieu Of Share",
+      "definition": "Cash disbursement in lieu of a fractional quantity of, eg, equity."
+    },
+    "CapitalGain": {
+      "name": "Capital Gain",
+      "definition": "Amount of money distributed as the result of a capital gain."
+    },
+    "EntitledCashAmount": {
+      "name": "Entitled Cash Amount",
+      "definition": "Cash amount based on terms of corporate action event and balance of underlying securities, entitled to/from account owner (which may be positive or negative)."
+    }
+  },
+  "isoAssociations": {
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Specifies the exchange rate used to convert the cash entitlement value in another currency."
+    }
+  }
+}

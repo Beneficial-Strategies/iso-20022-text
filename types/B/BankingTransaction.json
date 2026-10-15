@@ -1,0 +1,24 @@
+{
+  "isoType": "BankingTransaction",
+  "language": "en",
+  "name": "Banking Transaction",
+  "definition": "Transaction executed by the client of a financial institution from/to the account serviced by the financial institution, such as mortgage payment.",
+  "isoAssociations": {
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Payment obligation resulting from a banking transaction."
+    },
+    "FinancialTransaction": {
+      "name": "Financial Transaction",
+      "definition": "Financial transaction to which the banking transaction is associated."
+    },
+    "CashDelivery": {
+      "name": "Cash Delivery",
+      "definition": "Specifies the cash which is delivered by a financial institution."
+    },
+    "CashDeposit": {
+      "name": "Cash Deposit",
+      "definition": "Specifies the cash which is received by a financial institution."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "PowerOfAttorneyRequirements",
+  "language": "en",
+  "name": "Power Of Attorney Requirements",
+  "definition": "Specifies the conditions to be filled in to obtain a valid power of attorney.",
+  "isoAttributes": {
+    "LegalRequirement": {
+      "name": "Legal Requirement",
+      "definition": "Specifies whether the power of attorney needs to be validated by some authority."
+    },
+    "OtherDocumentation": {
+      "name": "Other Documentation",
+      "definition": "Specifies the documents needed to obtain a valid power of attorney."
+    }
+  },
+  "isoAssociations": {
+    "PowerOfAttorney": {
+      "name": "Power Of Attorney",
+      "definition": "Power of attorney for which the requirements are provided."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting to which the power  of attorney requirements apply."
+    }
+  }
+}

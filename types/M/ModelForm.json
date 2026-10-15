@@ -1,0 +1,34 @@
+{
+  "isoType": "ModelForm",
+  "language": "en",
+  "name": "Model Form",
+  "definition": "Identification of a model form.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the model form."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the model form."
+    },
+    "RequestedWordingLanguage": {
+      "name": "Requested Wording Language",
+      "definition": "Language of the standard wording provided by the issuer."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date on which the use of the model form is effective."
+    }
+  },
+  "isoAssociations": {
+    "GovernanceRules": {
+      "name": "Governance Rules",
+      "definition": "Rules governing an undertaking such as a guarantee or standby letter of credit."
+    },
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which the model form is used."
+    }
+  }
+}

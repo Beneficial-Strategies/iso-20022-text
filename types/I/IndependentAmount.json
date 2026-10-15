@@ -1,0 +1,26 @@
+{
+  "isoType": "IndependentAmount",
+  "language": "en",
+  "name": "Independent Amount",
+  "definition": "Amount applied as an add-on to the exposure usually intended to cover a possible increase in exposure before the next valuation date.",
+  "isoAttributes": {
+    "IndependentAmountPerTrade": {
+      "name": "Independent Amount Per Trade",
+      "definition": "Independent amounts that are related to specific trades or groups of trades."
+    },
+    "IndependentAmountValueAtRisk": {
+      "name": "Independent Amount Value At Risk",
+      "definition": "Portfolio level independent amount which reflects portfolio change over a short time period using statistical techniques such as volatility and risk factor correlations."
+    },
+    "IndependentAmountNetOpenPosition": {
+      "name": "Independent Amount Net Open Position",
+      "definition": "Portfolio level independent amount related to FX net open position, i.e. to the difference between assets and liabilities in a particular currency. This may be measured on a per currency basis or the position of all currencies when calculated in base currency."
+    }
+  },
+  "isoAssociations": {
+    "RelatedRiskCalculation": {
+      "name": "Related Risk Calculation",
+      "definition": "Risk coverage for which an independent amount is provided."
+    }
+  }
+}

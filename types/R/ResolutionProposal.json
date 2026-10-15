@@ -1,0 +1,22 @@
+{
+  "isoType": "ResolutionProposal",
+  "language": "en",
+  "name": "Resolution Proposal",
+  "definition": "Conditions that must be met to propose a resolution.",
+  "isoAttributes": {
+    "ResolutionProposalThreshold": {
+      "name": "Resolution Proposal Threshold",
+      "definition": "Specifies the minimum stake in share capital or cash value or number of security holders required to table resolutions."
+    },
+    "ResolutionProposalThresholdPercentage": {
+      "name": "Resolution Proposal Threshold Percentage",
+      "definition": "Specifies the minimum stake in share capital or cash value or number of security holders required to table resolutions. This minimum is expressed as a percentage."
+    }
+  },
+  "isoAssociations": {
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which conditions for proposing a resolution are specified."
+    }
+  }
+}

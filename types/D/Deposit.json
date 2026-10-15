@@ -1,0 +1,18 @@
+{
+  "isoType": "Deposit",
+  "language": "en",
+  "name": "Deposit",
+  "definition": "An arrangement in which a lender gives money or property to a borrower, and the borrower agrees to return the property or repay the money, usually along with interest, at some future point(s) in time.",
+  "isoAttributes": {
+    "DepositType": {
+      "name": "Deposit Type",
+      "definition": "Specifies whether the deposit is fixed term or call/notice."
+    }
+  },
+  "isoAssociations": {
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest amount linked to a deposit. It is derived from the relationship between AssetHolding and Interest."
+    }
+  }
+}

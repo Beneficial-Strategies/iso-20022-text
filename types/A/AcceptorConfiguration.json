@@ -1,0 +1,62 @@
+{
+  "isoType": "AcceptorConfiguration",
+  "language": "en",
+  "name": "Acceptor Configuration",
+  "definition": "Acceptor parameters to be downloaded from the terminal management system.",
+  "isoAttributes": {
+    "ApplicationIdentification": {
+      "name": "Application Identification",
+      "definition": "Identification of the payment application."
+    },
+    "FinancialCapture": {
+      "name": "Financial Capture",
+      "definition": "Mode for the financial capture of the transaction by the acquirer."
+    },
+    "BatchTransferContent": {
+      "name": "Batch Transfer Content",
+      "definition": "Types of transaction to include in the batch."
+    },
+    "ExchangePolicy": {
+      "name": "Exchange Policy",
+      "definition": "Exchange policy between parties."
+    },
+    "MaximumNumber": {
+      "name": "Maximum Number",
+      "definition": "Maximum number of transactions without exchange."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum cumulative amount of the transactions without exchange."
+    },
+    "ReconciliationByAcquirer": {
+      "name": "Reconciliation By Acquirer",
+      "definition": "Indicates the reconciliation period is assigned by the acquirer instead of the acceptor."
+    },
+    "TotalsPerCurrency": {
+      "name": "Totals Per Currency",
+      "definition": "Indicates the reconciliation total amounts are computed per currency."
+    },
+    "ProtectCardData": {
+      "name": "Protect Card Data",
+      "definition": "Indicator to require protection of sensitive card data in messages."
+    },
+    "RetailerParameters": {
+      "name": "Retailer Parameters",
+      "definition": "Acceptor parameters dedicated to the retailer."
+    },
+    "ApplicationParameters": {
+      "name": "Application Parameters",
+      "definition": "Configuration parameters attached to the payment application."
+    },
+    "ApplicationVersion": {
+      "name": "Application Version",
+      "definition": "Version of the application."
+    }
+  },
+  "isoAssociations": {
+    "TerminalManagementSystem": {
+      "name": "Terminal Management System",
+      "definition": "Terminal management system for which an acceptor configuration is provided."
+    }
+  }
+}

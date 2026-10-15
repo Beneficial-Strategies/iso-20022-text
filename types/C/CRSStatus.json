@@ -1,0 +1,30 @@
+{
+  "isoType": "CRSStatus",
+  "language": "en",
+  "name": "CRS Status",
+  "definition": "Common Reporting Standard (CRS) status and the status source of the investor.",
+  "isoAttributes": {
+    "CRSStatus": {
+      "name": "CRS Status",
+      "definition": "Common Reporting Standard (CRS) status of the investor."
+    },
+    "ExceptionalReportingCountry": {
+      "name": "Exceptional Reporting Country",
+      "definition": "Reporting country for the CRS status when there is an exception at the country level."
+    },
+    "CRSSourceStatus": {
+      "name": "CRS Source Status",
+      "definition": "Source of the Common Reporting Standard (CRS) status expressed as a code."
+    },
+    "CRSReportingDate": {
+      "name": "CRS Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccountParty": {
+      "name": "Investment Account Party",
+      "definition": "Common Reporting Standard (CRS) status linked to an investment account and played by a party in that context."
+    }
+  }
+}

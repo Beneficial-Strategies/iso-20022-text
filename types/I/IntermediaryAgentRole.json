@@ -1,0 +1,22 @@
+{
+  "isoType": "IntermediaryAgentRole",
+  "language": "en",
+  "name": "Intermediary Agent Role",
+  "definition": "Agent between the debtor's agent and the creditor's agent. There can be several intermediary agents specified for the execution of a payment.",
+  "isoAttributes": {
+    "Position": {
+      "name": "Position",
+      "definition": "Number used to show the relative position of an intermediary in the payment."
+    }
+  },
+  "isoAssociations": {
+    "IntermediaryAgentRole": {
+      "name": "Intermediary Agent Role",
+      "definition": "Specifies the settlement party which is followed by another party."
+    },
+    "NextParty": {
+      "name": "Next Party",
+      "definition": "Next intermediary in the payment."
+    }
+  }
+}

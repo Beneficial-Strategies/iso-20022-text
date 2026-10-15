@@ -1,0 +1,22 @@
+{
+  "isoType": "ClearingBrokerIdentification",
+  "language": "en",
+  "name": "Clearing Broker Identification",
+  "definition": "Reference number assigned by the clearing broker. A distinction can be made between the reference for the Central Counterparty (CCP) leg and the reference for the client leg of the transaction.",
+  "isoAttributes": {
+    "SideIndicator": {
+      "name": "Side Indicator",
+      "definition": "Distinguishes the client leg from the central counterpatry (CCP) leg in the clearing broker identification."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification assigned by the clearing broker."
+    }
+  },
+  "isoAssociations": {
+    "RelatedTradeIdentification": {
+      "name": "Related Trade Identification",
+      "definition": "Other identifications of a trade for which clearing broker identifications are provided."
+    }
+  }
+}

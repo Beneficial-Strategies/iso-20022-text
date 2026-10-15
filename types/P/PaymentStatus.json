@@ -1,0 +1,70 @@
+{
+  "isoType": "PaymentStatus",
+  "language": "en",
+  "name": "Payment Status",
+  "definition": "Specifies the status of a payment at a specified time.",
+  "isoAttributes": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of the payment execution."
+    },
+    "UnmatchedStatusReason": {
+      "name": "Unmatched Status Reason",
+      "definition": "Reason the transaction/instruction is unmatched."
+    },
+    "SuspendedStatusReason": {
+      "name": "Suspended Status Reason",
+      "definition": "Reason the transaction/instruction is suspended."
+    },
+    "PendingSettlement": {
+      "name": "Pending Settlement",
+      "definition": "Reason the instruction is pending settlement, ie, delivery or receipt of the financial instrument. Settlement on the instructed settlement date is still possible."
+    },
+    "InstructionStatus": {
+      "name": "Instruction Status",
+      "definition": "Specifies the state of a payment instruction."
+    },
+    "TransactionRejectionReason": {
+      "name": "Transaction Rejection Reason",
+      "definition": "Specifies the reason to reject, return or reverse the transaction."
+    },
+    "NotificationStatus": {
+      "name": "Notification Status",
+      "definition": "Specifies the status of the payment in comparison with the notification to receive."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Specifies the processing status of an investment fund transaction."
+    },
+    "CashPaymentStatus": {
+      "name": "Cash Payment Status",
+      "definition": "Specifies a generic status of a payment at a specified time."
+    },
+    "UnsuccessfulStatusReason": {
+      "name": "Unsuccessful Status Reason",
+      "definition": "Reason provided for the status of a transaction.The reason may be in coded or free text form."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Reason for the cancellation of the payment."
+    },
+    "MandateRejectionReason": {
+      "name": "Mandate Rejection Reason",
+      "definition": "Reason for requesting the cancellation or the amendment of a mandate."
+    },
+    "PendingFailingSettlement": {
+      "name": "Pending Failing Settlement",
+      "definition": "Reason the transaction/instruction is pending due to failing settlement."
+    }
+  },
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment for which a status is provided."
+    },
+    "RelatedInvestigationCase": {
+      "name": "Related Investigation Case",
+      "definition": "Specifies an investigation case in relation with the payment status."
+    }
+  }
+}

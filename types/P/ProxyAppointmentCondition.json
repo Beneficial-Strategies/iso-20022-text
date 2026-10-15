@@ -1,0 +1,26 @@
+{
+  "isoType": "ProxyAppointmentCondition",
+  "language": "en",
+  "name": "Proxy Appointment Condition",
+  "definition": "Conditions that must be met to appoint a proxy.",
+  "isoAttributes": {
+    "RegistrationMethod": {
+      "name": "Registration Method",
+      "definition": "Indicates how to register a proxy."
+    },
+    "AllowedProxyType": {
+      "name": "Allowed Proxy Type",
+      "definition": "Specifies who can be assigned as a proxy."
+    }
+  },
+  "isoAssociations": {
+    "NotificationAddress": {
+      "name": "Notification Address",
+      "definition": "Address where the information on the proxy should be sent."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Specifies the meeting to which the proxy appointment conditions aplly."
+    }
+  }
+}

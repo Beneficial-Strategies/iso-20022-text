@@ -1,0 +1,70 @@
+{
+  "isoType": "InvestigationCase",
+  "language": "en",
+  "name": "Investigation Case",
+  "definition": "Set of activities performed to handle an exception to a normal transaction flow..",
+  "isoAttributes": {
+    "AssignmentIdentification": {
+      "name": "Assignment Identification",
+      "definition": "Uniquely identifies the case assignment."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Creation date and time of the case."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Uniquely identifies the case."
+    },
+    "EIR": {
+      "name": "EIR",
+      "definition": "Unique identifier to provide the end-to-end reference of an investigation."
+    },
+    "RequestorInvestigationIdentification": {
+      "name": "Requestor Investigation Identification",
+      "definition": "Unique identification, as assigned by the requestor, to unambiguously identify the investigation for the requestor."
+    },
+    "InvestigationSubType": {
+      "name": "Investigation Sub Type",
+      "definition": "Sub type of an investigation."
+    },
+    "InvestigationType": {
+      "name": "Investigation Type",
+      "definition": "Type of investigation."
+    },
+    "ResponderInvestigationIdentification": {
+      "name": "Responder Investigation Identification",
+      "definition": "Unique identification, as assigned by the responder, to unambiguously identify the investigation for the responder."
+    }
+  },
+  "isoAssociations": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of the case together with the reason and the date and time."
+    },
+    "InvestigationPartyRole": {
+      "name": "Investigation Party Role",
+      "definition": "Role played by a party in the context of an investigation process."
+    },
+    "DuplicateCaseResolution": {
+      "name": "Duplicate Case Resolution",
+      "definition": "Solution which consists in closing the case as it is a duplicate of an original one."
+    },
+    "InvestigationResolution": {
+      "name": "Investigation Resolution",
+      "definition": "Specifies the actions taken as a result of an investigation."
+    },
+    "OriginalInvestigationCase": {
+      "name": "Original Investigation Case",
+      "definition": "Original case to which another one is linked."
+    },
+    "LinkedCase": {
+      "name": "Linked Case",
+      "definition": "Step in the resolution process of an investigation case. The assigned case is linked to the investigation case in the previous step."
+    },
+    "Reassignment": {
+      "name": "Reassignment",
+      "definition": "Action which is taken to forward the case to another party."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SwitchSubscriptionLeg",
+  "language": "en",
+  "name": "Switch Subscription Leg",
+  "definition": "Subscription leg, or switch-in, of a switch order.",
+  "isoAttributes": {
+    "PercentageOfTotalRedemptionAmount": {
+      "name": "Percentage Of Total Redemption Amount",
+      "definition": "Percentage of the total redemption amount used for the subscription in an investment fund or investment fund class."
+    }
+  },
+  "isoAssociations": {
+    "SubscriptionRelatedSwitchOrder": {
+      "name": "Subscription Related Switch Order",
+      "definition": "Switch order to which the subscription leg refers."
+    }
+  }
+}

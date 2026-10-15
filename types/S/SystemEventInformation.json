@@ -1,0 +1,22 @@
+{
+  "isoType": "SystemEventInformation",
+  "language": "en",
+  "name": "System Event Information",
+  "definition": "Detailed information about an event occurring on a system, whether planned, for example, cut-off time for a specific type of eligible transfer, or unplanned, for example, an unsolicited failure, as stipulated in the specifications of the system.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the event that has occurred."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Date and time at which the event occurred."
+    }
+  },
+  "isoAssociations": {
+    "System": {
+      "name": "System",
+      "definition": "System for which event information is provided."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TradePartyRole",
+  "language": "en",
+  "name": "Trade Party Role",
+  "definition": "Trading party in a commercial, securities, treasury trade. This role may also represent parties which play different intermediary roles in a trade.",
+  "isoAttributes": {
+    "TradingPartyCapacity": {
+      "name": "Trading Party Capacity",
+      "definition": "Specifies the role of a trading party in a transaction."
+    },
+    "BuyerOrSeller": {
+      "name": "Buyer Or Seller",
+      "definition": "Specifies the party which is the buyer or the seller."
+    }
+  },
+  "isoAssociations": {
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account used in the context of the party role."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade in which a party plays a role."
+    }
+  }
+}

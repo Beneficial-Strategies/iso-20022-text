@@ -1,0 +1,22 @@
+{
+  "isoType": "QuoteStatus",
+  "language": "en",
+  "name": "Quote Status",
+  "definition": "Status of a quote and if required, the rejection reason.",
+  "isoAttributes": {
+    "Status": {
+      "name": "Status",
+      "definition": "Identifies the status of a quote acknowledgement."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason why the quote is rejected."
+    }
+  },
+  "isoAssociations": {
+    "RelatedQuote": {
+      "name": "Related Quote",
+      "definition": "Quote for wich the status is provided."
+    }
+  }
+}

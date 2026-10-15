@@ -1,0 +1,94 @@
+{
+  "isoType": "LineItem",
+  "language": "en",
+  "name": "Line Item",
+  "definition": "Unit of information  showing the related  provision of products and/or services and monetary summations reported as a discrete line item.",
+  "isoAttributes": {
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Monetary value of the line amount total being reported for this settlement."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Uniquely identifies a line item."
+    },
+    "MeasureDateTimeStart": {
+      "name": "Measure Date Time Start",
+      "definition": "Date/time on which the clock time measure started for a line item."
+    },
+    "MeasureDateTimeEnd": {
+      "name": "Measure Date Time End",
+      "definition": "Date/time on which the clock time measure ended for a line item."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Total amount resulting from the gross amount plus freight charges, tax and plus/minus Adjustments."
+    },
+    "DeliveryDateTime": {
+      "name": "Delivery Date Time",
+      "definition": "Actual delivery date/time of the products and/or services for this line item."
+    }
+  },
+  "isoAssociations": {
+    "FinancialAdjustment": {
+      "name": "Financial Adjustment",
+      "definition": "Modification on the value of goods and / or services taking into account discounts, allowances and charges."
+    },
+    "LogisticsCharge": {
+      "name": "Logistics Charge",
+      "definition": "Logistics service charge for this line item."
+    },
+    "InvoicedProduct": {
+      "name": "Invoiced Product",
+      "definition": "Specifies the product and the quantity for which an invoice is generated."
+    },
+    "NetWeight": {
+      "name": "Net Weight",
+      "definition": "Net weight of the physical item which is invoiced."
+    },
+    "BilledQuantity": {
+      "name": "Billed Quantity",
+      "definition": "Quantity billed for this line item."
+    },
+    "ChargeFreeQuantity": {
+      "name": "Charge Free Quantity",
+      "definition": "Quantity that is free of charge for this line item."
+    },
+    "MeasureQuantityStartRelatedLineItem": {
+      "name": "Measure Quantity Start Related Line Item",
+      "definition": "Line item for which a measure quantity end is specified."
+    },
+    "MeasureQuantityEndRelatedLineItem": {
+      "name": "Measure Quantity End Related Line Item",
+      "definition": "Line item for which a measure quantity end is specified."
+    },
+    "Invoice": {
+      "name": "Invoice",
+      "definition": "Specifies the invoice in which the line item is included."
+    },
+    "Packaging": {
+      "name": "Packaging",
+      "definition": "Physical packaging of the product."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Charges specified for this line item."
+    },
+    "NetPriceCharge": {
+      "name": "Net Price Charge",
+      "definition": "Allowance or charge applied to the net price. When the charge amount is added (credit)"
+    },
+    "GrossPriceQuantity": {
+      "name": "Gross Price Quantity",
+      "definition": "Quantity and conversion factor on which the gross price is based for this line item product and/or service."
+    },
+    "NetPriceQuantity": {
+      "name": "Net Price Quantity",
+      "definition": "Quantity and conversion factor on which the net price is based for this line item product and/or service."
+    },
+    "GrossWeight": {
+      "name": "Gross Weight",
+      "definition": "Gross weight of the physical item which is invoiced."
+    }
+  }
+}

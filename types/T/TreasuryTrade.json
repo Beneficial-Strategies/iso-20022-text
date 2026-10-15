@@ -1,0 +1,30 @@
+{
+  "isoType": "TreasuryTrade",
+  "language": "en",
+  "name": "Treasury Trade",
+  "definition": "Specifies trades linked to treasury operations such as the exchange of currencies, the lending of cash amounts and the related derivatives trades (options and non deliverable trades).",
+  "isoAttributes": {
+    "PaymentClearingCentre": {
+      "name": "Payment Clearing Centre",
+      "definition": "Specifies the place of clearing for offshore currency trades."
+    }
+  },
+  "isoAssociations": {
+    "TreasuryTradeSettlementStatus": {
+      "name": "Treasury Trade Settlement Status",
+      "definition": "Specifies the settlement status of a treasury trade."
+    },
+    "InformationPartyRole": {
+      "name": "Information Party Role",
+      "definition": "Party which provides prices, interest rates or exchange rates."
+    },
+    "TreasurySettlementPartyRole": {
+      "name": "Treasury Settlement Party Role",
+      "definition": "Role played by a party in the context of the settlement of a treasury trade."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role played by a party in a treasury trade."
+    }
+  }
+}

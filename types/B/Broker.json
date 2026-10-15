@@ -1,0 +1,18 @@
+{
+  "isoType": "Broker",
+  "language": "en",
+  "name": "Broker",
+  "definition": "Party that identifies a broker when required (for example, authorised broker, prime broker, etc).",
+  "isoAttributes": {
+    "RemunerationAmount": {
+      "name": "Remuneration Amount",
+      "definition": "Amount of any remuneration other than commission received or to be received by the broker in connection with a trade."
+    }
+  },
+  "isoAssociations": {
+    "Commission": {
+      "name": "Commission",
+      "definition": "Amount of money paid to a broker as a commission."
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "isoType": "SecuritiesFinancing",
+  "language": "en",
+  "name": "Securities Financing",
+  "definition": "Process of lending or borrowing cash or securities against securities or cash collateral. It aims at optimising liquidity, support a trading strategy, or increase settlement efficiency.",
+  "isoAttributes": {
+    "ReturnLegInstruction": {
+      "name": "Return Leg Instruction",
+      "definition": "Specifies whether, for a securities lending/borrowing settlement transaction, the lender will instruct the return leg as agreed with the borrower."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of securities financing transaction, that is, repurchase agreement, reverse repurchase agreement, securities lending or securities borrowing."
+    },
+    "TerminationDateTime": {
+      "name": "Termination Date Time",
+      "definition": "Closing date/time or maturity date/time of the repo transaction."
+    },
+    "RateChangeDateTime": {
+      "name": "Rate Change Date Time",
+      "definition": "Date/Time at which rate change has taken place."
+    },
+    "RevaluationIndicator": {
+      "name": "Revaluation Indicator",
+      "definition": "Specifies whether the collateral position should be subject to automatic revaluation by the account servicer."
+    },
+    "InterestPayment": {
+      "name": "Interest Payment",
+      "definition": "Specifies whether the interest is to be paid to the collateral taker. If set to no, the interest is paid to the collateral giver."
+    },
+    "VariableRateSupport": {
+      "name": "Variable Rate Support",
+      "definition": "Index or support rate used together with the spread to calculate the repurchase rate."
+    },
+    "RepurchaseRate": {
+      "name": "Repurchase Rate",
+      "definition": "Rate to be used to recalculate the repurchase amount."
+    },
+    "StockLoanMargin": {
+      "name": "Stock Loan Margin",
+      "definition": "Percentage mark-up on a loan consideration used to reflect the lender's risk."
+    },
+    "TransactionCallDelay": {
+      "name": "Transaction Call Delay",
+      "definition": "Minimum number of days' notice a counterparty needs for terminating the transaction."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "name": "Total Number Of Collateral Instructions",
+      "definition": "Indicates the total Number of collateral instructions involved in the transaction."
+    },
+    "DealAmount": {
+      "name": "Deal Amount",
+      "definition": "Deal amount of the second leg."
+    },
+    "ForfeitRepurchaseAmount": {
+      "name": "Forfeit Repurchase Amount",
+      "definition": "Fixed amount which has to be paid (instead of interest) in the case of a recall."
+    },
+    "PremiumAmount": {
+      "name": "Premium Amount",
+      "definition": "Difference between the cash amount of the first leg and the cash amount of the |second leg of the repurchase agreement."
+    },
+    "TerminationAmountPerPieceOfCollateral": {
+      "name": "Termination Amount Per Piece Of Collateral",
+      "definition": "Amount of money to be settled per piece of collateral to terminate the transaction."
+    },
+    "TerminationTransactionAmount": {
+      "name": "Termination Transaction Amount",
+      "definition": "Total amount of money to be settled to terminate the transaction."
+    },
+    "MaturityDateModification": {
+      "name": "Maturity Date Modification",
+      "definition": "Specifies whether the maturity date of the securities financing transaction may be modified."
+    },
+    "EarliestCallBackDate": {
+      "name": "Earliest Call Back Date",
+      "definition": "Earliest date/time at which the call back can take place."
+    },
+    "OpeningSettlementDate": {
+      "name": "Opening Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "RepurchaseType": {
+      "name": "Repurchase Type",
+      "definition": "Specifies the type of repurchase transaction."
+    },
+    "SpreadTransaction": {
+      "name": "Spread Transaction",
+      "definition": "Specifies that there will be one price and one transaction when two contracts are carried out simultaneously, one to buy and the other one to sell with two different expiration dates."
+    },
+    "OpeningSettlementAmount": {
+      "name": "Opening Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities at the opening of a securities financing transaction."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification of the repurchase agreement."
+    },
+    "TerminationOption": {
+      "name": "Termination Option",
+      "definition": "Indicates the termination option for a repurchase agreement."
+    }
+  },
+  "isoAssociations": {
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest to be paid on the transaction amount."
+    },
+    "RepurchaseSpread": {
+      "name": "Repurchase Spread",
+      "definition": "Repurchase spread expressed as a rate; margin over or under an index that determines the repurchase rate."
+    },
+    "EndPrice": {
+      "name": "End Price",
+      "definition": "Negotiated fixed price of the security to buy it back."
+    },
+    "FinancingAgreement": {
+      "name": "Financing Agreement",
+      "definition": "Provides the contractual details related to the agreement between parties."
+    },
+    "ClosingLegExecution": {
+      "name": "Closing Leg Execution",
+      "definition": "Repayment of the previously received cash by one party in exchange of the return of the security by the counterparty."
+    },
+    "OpeningLegExecution": {
+      "name": "Opening Leg Execution",
+      "definition": "Transfer of cash to a party against the legal transfer of securities. The cash receiver agrees to buy the same security from the counterparty at a fixed price at some later date."
+    },
+    "RelatedIndicationOfInterest": {
+      "name": "Related Indication Of Interest",
+      "definition": "Indication of interest process which is the source of a securities financing process."
+    }
+  }
+}

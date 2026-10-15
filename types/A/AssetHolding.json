@@ -1,0 +1,102 @@
+{
+  "isoType": "AssetHolding",
+  "language": "en",
+  "name": "Asset Holding",
+  "definition": "Specifies in terms of value and quantity the assets.",
+  "isoAttributes": {
+    "HoldingValue": {
+      "name": "Holding Value",
+      "definition": "Value of the balance of an individual securities holding."
+    },
+    "BookValue": {
+      "name": "Book Value",
+      "definition": "Value of a security, as booked/acquired in an account. Book value is often different from the current market value of the security."
+    },
+    "FaceAmount": {
+      "name": "Face Amount",
+      "definition": "Quantity expressed as an amount representing the face amount, ie, the principal, of a debt instrument."
+    },
+    "AmortisedFaceValue": {
+      "name": "Amortised Face Value",
+      "definition": "Quantity expressed as an amount representing the current amortised face amount of a bond, for example, a periodic reduction/increase of a bond's principal amount."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Value of the asset holding based on current market prices."
+    },
+    "UnrealisedGainOrLoss": {
+      "name": "Unrealised Gain Or Loss",
+      "definition": "Difference between the holding value and the book value of the asset."
+    },
+    "EligibleCollateralValue": {
+      "name": "Eligible Collateral Value",
+      "definition": "Value of the position eligible for collateral purposes. This corresponds to the sub balance with a type AvailableForCollateral."
+    },
+    "CapValue": {
+      "name": "Cap Value",
+      "definition": "Maximum notional value for a financial instrument that is capped."
+    },
+    "RiskAdjustedValue": {
+      "name": "Risk Adjusted Value",
+      "definition": "Value of the asset holding after deduction of a percentage (the haircut) that reflects the perceived risk associated with holding this asset."
+    },
+    "RealisedGainOrLoss": {
+      "name": "Realised Gain Or Loss",
+      "definition": "Difference between the realised value caused by the actual trade/re-evaluation and the book value of the asset."
+    },
+    "UnrealisedType": {
+      "name": "Unrealised Type",
+      "definition": "Specifies whether the unrealised amount is a gain or a loss."
+    },
+    "PostHaircutValue": {
+      "name": "Post Haircut Value",
+      "definition": "Value of the collateral after deduction of a percentage (the haircut) that reflects the perceived risk associated with holding this collateral."
+    },
+    "FinancialAssetType": {
+      "name": "Financial Asset Type",
+      "definition": "Specifies the asset type."
+    },
+    "HoldingType": {
+      "name": "Holding Type",
+      "definition": "Specifies the type of holding."
+    },
+    "GuaranteeAmount": {
+      "name": "Guarantee Amount",
+      "definition": "Amount of the bank guarantee."
+    }
+  },
+  "isoAssociations": {
+    "Balance": {
+      "name": "Balance",
+      "definition": "Specifies the balance of the asset holding."
+    },
+    "Asset": {
+      "name": "Asset",
+      "definition": "Specifies the asset included in the holding."
+    },
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Percentage by which an asset's market value is reduced for the purpose of calculating capital requirement, margin and collateral levels."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Specifies the exchange rate between the currency of the asset and the reporting currency."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "interest relative to the asset and the parameters used to calculate it."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Specifies the collateral information in relation with some assets."
+    },
+    "VariationMarginCollateral": {
+      "name": "Variation Margin Collateral",
+      "definition": "Specifies the collateral information in relation with the segregated independent amount asset holding."
+    },
+    "IndependentAmountCollateral": {
+      "name": "Independent Amount Collateral",
+      "definition": "Specifies the collateral information in relation with the segregated independent amount asset holding."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "SystemClosureInformation",
+  "language": "en",
+  "name": "System Closure Information",
+  "definition": "Information about inactivity of a system.",
+  "isoAttributes": {
+    "Period": {
+      "name": "Period",
+      "definition": "Period of time when the system is closed/not operating."
+    },
+    "ClosureReason": {
+      "name": "Closure Reason",
+      "definition": "Reason the system is closed/not operating."
+    }
+  },
+  "isoAssociations": {
+    "SystemAvailability": {
+      "name": "System Availability",
+      "definition": "System for which closure information is specified."
+    }
+  }
+}

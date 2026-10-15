@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingParticipation",
+  "language": "en",
+  "name": "Meeting Participation",
+  "definition": "Specifies the number of voting rights and of outstanding securities.",
+  "isoAttributes": {
+    "TotalNumberOfSecuritiesOutstanding": {
+      "name": "Total Number Of Securities Outstanding",
+      "definition": "Number of securities admitted to the vote, expressed as an amount and a currency."
+    },
+    "TotalNumberOfVotingRights": {
+      "name": "Total Number Of Voting Rights",
+      "definition": "Number of rights admitted to the vote."
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Date of calculation of the total number of oustanding securities."
+    },
+    "TotalNumberOfSecurities": {
+      "name": "Total Number Of Securities",
+      "definition": "Number of securities admitted to the vote, expressed as a number of securities."
+    }
+  },
+  "isoAssociations": {
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which participation conditions are specified."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "FATCAStatus",
+  "language": "en",
+  "name": "FATCA Status",
+  "definition": "Foreign Account Tax Compliance Act (FATCA) status and the status source of the investor.",
+  "isoAttributes": {
+    "FATCAStatus": {
+      "name": "FATCA Status",
+      "definition": "Foreign Account Tax Compliance Act (FATCA) status of the investor."
+    },
+    "FATCASourceStatus": {
+      "name": "FATCA Source Status",
+      "definition": "Source of the Foreign Account Tax Compliance Act (FATCA) status."
+    },
+    "FATCAReportingDate": {
+      "name": "FATCA Reporting Date",
+      "definition": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccountParty": {
+      "name": "Investment Account Party",
+      "definition": "Foreign Account Tax Compliance Act (FATCA) status linked to an investment account and played by a party in that context."
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "isoType": "GenericIdentification",
+  "language": "en",
+  "name": "Generic Identification",
+  "definition": "Information related to a non-standardised identification, such as a proprietary party identification or account identification.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Name or number assigned by an entity to enable recognition of that entity, for example account identifier, identification assigned by a provider to identify its customers."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date at which the identification was issued."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date at which the identification expires."
+    }
+  },
+  "isoAssociations": {
+    "IdentificationForContactPoint": {
+      "name": "Identification For Contact Point",
+      "definition": "Contact point which uses a generic identification as identification."
+    },
+    "IdentificationForAccount": {
+      "name": "Identification For Account",
+      "definition": "Account Identification which uses a generic identification as proprietary identification."
+    },
+    "RelatedPartyIdentification": {
+      "name": "Related Party Identification",
+      "definition": "Party identified with a scheme."
+    },
+    "Scheme": {
+      "name": "Scheme",
+      "definition": "Information regarding an enumerated code list and its owner."
+    },
+    "IdentificationForSecuritiesCertificate": {
+      "name": "Identification For Securities Certificate",
+      "definition": "Securities certificate which uses a generic identification as certificate number."
+    },
+    "IdentificationForLot": {
+      "name": "Identification For Lot",
+      "definition": "Lot breakdown which uses a generic identification as lot number."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Entity that assigns the identification."
+    },
+    "IdentificationForCashProceedsIncome": {
+      "name": "Identification For Cash Proceeds Income",
+      "definition": "Cash proceeds definition which uses a generic identification as type of income."
+    },
+    "RelatedStatusReason": {
+      "name": "Related Status Reason",
+      "definition": "Specifies the status reason for which a data source scheme is specified."
+    },
+    "IdentificationForBankTransaction": {
+      "name": "Identification For Bank Transaction",
+      "definition": "Bank transaction which uses a generic identification as proprietary identification."
+    },
+    "IdentificationForAccountCostReferencePattern": {
+      "name": "Identification For Account Cost Reference Pattern",
+      "definition": "Account identification for which a cost reference pattern is provided."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account for which a type is specified"
+    },
+    "RelatedSystemIdentification": {
+      "name": "Related System Identification",
+      "definition": "System identification which uses a generic identification."
+    },
+    "IdentificationForInterestName": {
+      "name": "Identification For Interest Name",
+      "definition": "Interest which uses a generic identification as name."
+    },
+    "RelatedCashAccountService": {
+      "name": "Related Cash Account Service",
+      "definition": "Cash account service identified in a generic way."
+    },
+    "IdentificationForInvestmentFundClass": {
+      "name": "Identification For Investment Fund Class",
+      "definition": "Investment fund class which uses a generic identification as fund classification."
+    },
+    "IdentifiedLocation": {
+      "name": "Identified Location",
+      "definition": "Location for which an identification is provided."
+    },
+    "RelatedSecuritiesIdentification": {
+      "name": "Related Securities Identification",
+      "definition": "Securities identification for which generic identification elements and scheme are provided."
+    },
+    "IdentifiedDocument": {
+      "name": "Identified Document",
+      "definition": "Document for which an identification is provided."
+    },
+    "RelatedPurchaseOrder": {
+      "name": "Related Purchase Order",
+      "definition": "Purchase order for which an identification is provided."
+    },
+    "RelatedCertificate": {
+      "name": "Related Certificate",
+      "definition": "Related certificate against which all transactions in the scope of the regulatory requirements are registered."
+    }
+  }
+}

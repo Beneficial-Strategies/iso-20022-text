@@ -1,0 +1,30 @@
+{
+  "isoType": "PhysicalDelivery",
+  "language": "en",
+  "name": "Physical Delivery",
+  "definition": "Parameters of a physical delivery.",
+  "isoAttributes": {
+    "RegisteredAddressIndicator": {
+      "name": "Registered Address Indicator",
+      "definition": "Indicates whether the address for the physical delivery is the registered address."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of delivery."
+    }
+  },
+  "isoAssociations": {
+    "RelatedTransfer": {
+      "name": "Related Transfer",
+      "definition": "Transfer process which requires physical delivery of the securities."
+    },
+    "IssuedCertificateNumber": {
+      "name": "Issued Certificate Number",
+      "definition": "Certificate representing a security that is delivered."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address for physical delivery."
+    }
+  }
+}

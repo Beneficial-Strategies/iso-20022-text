@@ -1,0 +1,30 @@
+{
+  "isoType": "Expiry",
+  "language": "en",
+  "name": "Expiry",
+  "definition": "Expiry parameters.",
+  "isoAttributes": {
+    "ExpiryDateTime": {
+      "name": "Expiry Date Time",
+      "definition": "Date and time when the expiry of the undertaking takes effect."
+    },
+    "ExpiryCondition": {
+      "name": "Expiry Condition",
+      "definition": "Condition that indicates when the undertaking will cease to be available at the place for presentation."
+    },
+    "OpenEndedIndicator": {
+      "name": "Open Ended Indicator",
+      "definition": "Specifies whether the expiry period is open ended."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which expiry information is specified."
+    },
+    "ExpiryPlace": {
+      "name": "Expiry Place",
+      "definition": "Place where the expiry of the undertaking takes effect."
+    }
+  }
+}

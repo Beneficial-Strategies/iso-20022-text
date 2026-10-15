@@ -1,0 +1,62 @@
+{
+  "isoType": "CashDistribution",
+  "language": "en",
+  "name": "Cash Distribution",
+  "definition": "Distribution of cash pay-out.",
+  "isoAttributes": {
+    "AmortisedRate": {
+      "name": "Amortised Rate",
+      "definition": "Rate that will be applicable as of the next factor date and defines the outstanding principal of the factored security."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Amount of cash, expressed as a percentage, disbursed per financial instrument."
+    },
+    "CashIndemnityRate": {
+      "name": "Cash Indemnity Rate",
+      "definition": "Ratio of compensation for damage/loss versus value of insured entity"
+    },
+    "DividendReinvestmentIndicator": {
+      "name": "Dividend Reinvestment Indicator",
+      "definition": "Indicates whether a cash dividend can be rolled over into shares of the issuing company."
+    },
+    "InterestAmount": {
+      "name": "Interest Amount",
+      "definition": "Amount of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Ratio of the amount of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "LoyaltyPremiumIndicator": {
+      "name": "Loyalty Premium Indicator",
+      "definition": "Indicates whether dividends, in addition to regular dividends, are payable to loyal (time, size, amount) investors."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Provides information about the whether the payment will be before or after tax."
+    },
+    "SelectionDate": {
+      "name": "Selection Date",
+      "definition": "Date/time at which securities are selected for redemption prior to maturity."
+    },
+    "CashDistributionRate": {
+      "name": "Cash Distribution Rate",
+      "definition": "Amount, expressed as a percentage, of cash disbursed per financial instrument."
+    },
+    "CashDistributionAmount": {
+      "name": "Cash Distribution Amount",
+      "definition": "Amount of cash disbursed per financial instrument."
+    }
+  },
+  "isoAssociations": {
+    "DistributionCurrencyExchangeInformation": {
+      "name": "Distribution Currency Exchange Information",
+      "definition": "Detailed information about the currency exchange in a distribution event."
+    },
+    "SecuritiesAndCashDistribution": {
+      "name": "Securities And Cash Distribution",
+      "definition": "Distribution for which the cash distribution elements are provided."
+    }
+  }
+}

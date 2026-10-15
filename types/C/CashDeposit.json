@@ -1,0 +1,26 @@
+{
+  "isoType": "CashDeposit",
+  "language": "en",
+  "name": "Cash Deposit",
+  "definition": "Amount of money representing a value paid by a debtor to an agent bank.",
+  "isoAttributes": {
+    "NoteDenomination": {
+      "name": "Note Denomination",
+      "definition": "Specifies the note or coin denomination, including the currency, such as a 50 euro note."
+    },
+    "NumberOfNotes": {
+      "name": "Number Of Notes",
+      "definition": "Specifies the number of notes of the same denomination in the deposit."
+    },
+    "DepositAmount": {
+      "name": "Deposit Amount",
+      "definition": "Specifies the total amount of money in the cash deposit, that is the note denomination times the number of notes."
+    }
+  },
+  "isoAssociations": {
+    "RelatedBankingTransaction": {
+      "name": "Related Banking Transaction",
+      "definition": "Describes the type of transaction associated with a cash deposit."
+    }
+  }
+}

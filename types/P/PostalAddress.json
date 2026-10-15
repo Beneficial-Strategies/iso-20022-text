@@ -1,0 +1,102 @@
+{
+  "isoType": "PostalAddress",
+  "language": "en",
+  "name": "Postal Address",
+  "definition": "Information that locates and identifies a specific address.",
+  "isoAttributes": {
+    "AddressType": {
+      "name": "Address Type",
+      "definition": "Specifies the type of address."
+    },
+    "StreetName": {
+      "name": "Street Name",
+      "definition": "Name of a street or thoroughfare."
+    },
+    "StreetBuildingIdentification": {
+      "name": "Street Building Identification",
+      "definition": "Number that identifies the position of a building on a street."
+    },
+    "PostCodeIdentification": {
+      "name": "Post Code Identification",
+      "definition": "Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail."
+    },
+    "TownName": {
+      "name": "Town Name",
+      "definition": "Name of a built-up area, with defined boundaries, and a local government."
+    },
+    "BuildingName": {
+      "name": "Building Name",
+      "definition": "Name of the building or house."
+    },
+    "Floor": {
+      "name": "Floor",
+      "definition": "Floor or storey within a building."
+    },
+    "PostOfficeBox": {
+      "name": "Post Office Box",
+      "definition": "Numbered box in a post office, assigned to a person or organisation, where letters are kept until called for."
+    },
+    "Department": {
+      "name": "Department",
+      "definition": "Identification of a division of a large organisation or building."
+    },
+    "SubDepartment": {
+      "name": "Sub Department",
+      "definition": "Identification of a sub-division of a large organisation or building."
+    },
+    "SuiteIdentification": {
+      "name": "Suite Identification",
+      "definition": "Identification of a suite or apartment."
+    },
+    "BuildingIdentification": {
+      "name": "Building Identification",
+      "definition": "Identification of a building, within a group of buildings, that have the same street number identifier."
+    },
+    "MailDeliverySubLocation": {
+      "name": "Mail Delivery Sub Location",
+      "definition": "Specific place to deliver mail within a pre-defined postal address."
+    },
+    "Block": {
+      "name": "Block",
+      "definition": "Area of land bounded by streets."
+    },
+    "Lot": {
+      "name": "Lot",
+      "definition": "Identification of an allotment of land."
+    },
+    "UnitNumber": {
+      "name": "Unit Number",
+      "definition": "Identifies a flat or dwelling within the building."
+    }
+  },
+  "isoAssociations": {
+    "Location": {
+      "name": "Location",
+      "definition": "Specifies a place."
+    },
+    "ChequeIssue": {
+      "name": "Cheque Issue",
+      "definition": "Cheque issue information for which a delivery address is specified."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the address."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Specifies the period during which a postal address is valid."
+    },
+    "MailingInstructions": {
+      "name": "Mailing Instructions",
+      "definition": "Specifies the characteristics of an address."
+    },
+    "PhysicalDelivery": {
+      "name": "Physical Delivery",
+      "definition": "Physical delivery information related to an address."
+    },
+    "CareOf": {
+      "name": "Care Of",
+      "definition": "Identifies an addressee that is accepting the correspondence for the intended recipient. Using care of ensures the correspondence reaches the right recipient rather than getting returned to the sender."
+    }
+  }
+}

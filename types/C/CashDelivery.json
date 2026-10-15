@@ -1,0 +1,18 @@
+{
+  "isoType": "CashDelivery",
+  "language": "en",
+  "name": "Cash Delivery",
+  "definition": "Amount of money representing a value paid by an agent bank to a creditor.",
+  "isoAttributes": {
+    "CashAmount": {
+      "name": "Cash Amount",
+      "definition": "Amount of money to be physically delivered."
+    }
+  },
+  "isoAssociations": {
+    "RelatedBankingTransaction": {
+      "name": "Related Banking Transaction",
+      "definition": "Describes the type of transaction associated with a cash delivery."
+    }
+  }
+}

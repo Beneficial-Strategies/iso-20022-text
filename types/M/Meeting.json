@@ -1,0 +1,106 @@
+{
+  "isoType": "Meeting",
+  "language": "en",
+  "name": "Meeting",
+  "definition": "Specifies the physical parameters of a general meeting. Several dates and places can be defined for a  meeting.",
+  "isoAttributes": {
+    "DateAndTime": {
+      "name": "Date And Time",
+      "definition": "Date and time at which the meeting will take place."
+    },
+    "DateStatus": {
+      "name": "Date Status",
+      "definition": "Indicates the status of a meeting date."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification assigned to a general meeting by the party notifying the meeting. It must be unique for the party notifying the meeting."
+    },
+    "AttendanceRequired": {
+      "name": "Attendance Required",
+      "definition": "Indicates whether physical participation to a meeting is required in order to be allowed to vote."
+    },
+    "AttendanceConfirmation": {
+      "name": "Attendance Confirmation",
+      "definition": "Indicates how to order the attendance card or to give notice of attendance."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of meeting for which an invitation is sent."
+    },
+    "MeetingEventClassification": {
+      "name": "Meeting Event Classification",
+      "definition": "Classifies the meeting."
+    },
+    "AttendanceAdmissionConditions": {
+      "name": "Attendance Admission Conditions",
+      "definition": "Conditions for physical admittance to general meeting."
+    }
+  },
+  "isoAssociations": {
+    "MeetingLocation": {
+      "name": "Meeting Location",
+      "definition": "Place of the company meeting for the scheduled meeting date."
+    },
+    "Deadline": {
+      "name": "Deadline",
+      "definition": "Specifies the different deadlines available for the different processes related to meeting attendance, proxy voting and entitlement assessment."
+    },
+    "MeetingServicing": {
+      "name": "Meeting Servicing",
+      "definition": "Servicing processes related to the organisation of a meeting."
+    },
+    "Person": {
+      "name": "Person",
+      "definition": "Specifies the person who is the contact for a meeting."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies the role played by a party in the context of a meeting."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the imeeting and of the related nstructions."
+    },
+    "CorporateEvent": {
+      "name": "Corporate Event",
+      "definition": "Corporate event for which a meeting is organised."
+    },
+    "Quorum": {
+      "name": "Quorum",
+      "definition": "Specifies whether a quorum is required or not together with the quorum parameters."
+    },
+    "VotingCondition": {
+      "name": "Voting Condition",
+      "definition": "Specifies the different voting types, channels and premium."
+    },
+    "IncentivePremium": {
+      "name": "Incentive Premium",
+      "definition": "Cash premium made available to encourage participation by a certain deadline (avoids to have a second call)."
+    },
+    "Participation": {
+      "name": "Participation",
+      "definition": "Potential participation to the voting process."
+    },
+    "ResolutionProposalConditions": {
+      "name": "Resolution Proposal Conditions",
+      "definition": "Specifies the conditions to fulfill in order to be able to propose a resolution."
+    },
+    "AgendaItem": {
+      "name": "Agenda Item",
+      "definition": "Item proposed for the vote or presented for information only."
+    },
+    "ProxyAppointmentConditions": {
+      "name": "Proxy Appointment Conditions",
+      "definition": "Information on how to appoint proxy."
+    },
+    "AdditionalRight": {
+      "name": "Additional Right",
+      "definition": "Specifies how the additional rights can be granted to the shareholder. These rights can be exercised at shareholders meetings (for example, the right to ask questions, the right to add items to the agenda or table draft resolutions)."
+    },
+    "PowerOfAttorneyRequirements": {
+      "name": "Power Of Attorney Requirements",
+      "definition": "Specifies the conditions to be filled in to obtain a valid power of attorney."
+    }
+  }
+}

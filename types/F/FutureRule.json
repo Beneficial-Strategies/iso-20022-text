@@ -1,0 +1,30 @@
+{
+  "isoType": "FutureRule",
+  "language": "en",
+  "name": "Future Rule",
+  "definition": "Timing characteristics of the maturity of the future.",
+  "isoAttributes": {
+    "TimeType": {
+      "name": "Time Type",
+      "definition": "Indicates whether the time to maturity is measured in months or years."
+    },
+    "MaximumTimeToMaturity": {
+      "name": "Maximum Time To Maturity",
+      "definition": "Maximum number of time types up to maturity or first redemption option."
+    },
+    "MinimumTimeToMaturity": {
+      "name": "Minimum Time To Maturity",
+      "definition": "Minimum number of time types up to maturity or first redemption option."
+    },
+    "BaseInterestRate": {
+      "name": "Base Interest Rate",
+      "definition": "Nominal interest rate of synthetic bond."
+    }
+  },
+  "isoAssociations": {
+    "RelatedFutureInstrument": {
+      "name": "Related Future Instrument",
+      "definition": "Future instrument for which a rule is specified."
+    }
+  }
+}

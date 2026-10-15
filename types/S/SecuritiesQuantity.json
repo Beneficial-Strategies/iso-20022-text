@@ -1,0 +1,370 @@
+{
+  "isoType": "SecuritiesQuantity",
+  "language": "en",
+  "name": "Securities Quantity",
+  "definition": "Quantity of a security.",
+  "isoAttributes": {
+    "Unit": {
+      "name": "Unit",
+      "definition": "Quantity of a security."
+    },
+    "Group1Or2Units": {
+      "name": "Group 1 Or 2 Units",
+      "definition": "Tax group to which the purchased units belong."
+    },
+    "Code": {
+      "name": "Code",
+      "definition": "Quantity expressed as a code."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Quantity expressed as an amount, eg,  in the investment fund business, a quantity of a financial instrument may be expressed as an amount of money."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Quantity expressed as a percentage rate, eg,  in the investment fund business, a quantity of a financial instrument may be expressed as percentage of the investor's total holding."
+    },
+    "DigitalTokenUnit": {
+      "name": "Digital Token Unit",
+      "definition": "Quantity of digital tokens expressed as a number, for example, a number of blockchain tokens."
+    },
+    "AcceptedQuantity": {
+      "name": "Accepted Quantity",
+      "definition": "Quantity of instructed securities that has been accepted for further processing."
+    },
+    "PendingQuantity": {
+      "name": "Pending Quantity",
+      "definition": "Quantity of instructed securities for which processing is pending."
+    },
+    "RejectedQuantity": {
+      "name": "Rejected Quantity",
+      "definition": "Quantity of instructed securities for which processing is rejected."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesTransfer": {
+      "name": "Securities Transfer",
+      "definition": "Transfer of a specific quantity of securities."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identifies the security."
+    },
+    "Order": {
+      "name": "Order",
+      "definition": "Order for which a number of units is specified."
+    },
+    "RelatedOrderExecution": {
+      "name": "Related Order Execution",
+      "definition": "Order execution process for which a number of units is specified."
+    },
+    "SecuritiesSettlement": {
+      "name": "Securities Settlement",
+      "definition": "Settlement of a specific amount of securities."
+    },
+    "MinimumQuantityDebt": {
+      "name": "Minimum Quantity Debt",
+      "definition": "Security for which a minimum quantity is specified."
+    },
+    "LotBreakdown": {
+      "name": "Lot Breakdown",
+      "definition": "Number of securities purchased or sold in one transaction. In terms of options, a lot represents the number of contracts contained in one derivative security."
+    },
+    "MinimumExercisableQuantitySecuritiesConversion": {
+      "name": "Minimum Exercisable Quantity Securities Conversion",
+      "definition": "Securities conversion process for which a minimum exercisable quantity is specified."
+    },
+    "MinimumExercisableMultipleQuantitySecuritiesConversion": {
+      "name": "Minimum Exercisable Multiple Quantity Securities Conversion",
+      "definition": "Securities conversion process for which a minimum exercisable multiple quantity is specified."
+    },
+    "AggregateQuantityBalance": {
+      "name": "Aggregate Quantity Balance",
+      "definition": "Securities balance which contains the aggregate quantity."
+    },
+    "SecuritiesProceedsDefinition": {
+      "name": "Securities Proceeds Definition",
+      "definition": "Securities proceeds for which an amount of securities is posted."
+    },
+    "ConditionalQuantitySecuritiesProceeds": {
+      "name": "Conditional Quantity Securities Proceeds",
+      "definition": "Securities proceeds for which a conditional quantity has been defined."
+    },
+    "OverAndAboveQuantitySecuritiesProceeds": {
+      "name": "Over And Above Quantity Securities Proceeds",
+      "definition": "Securities proceeds for which an over and above normal endured quantity has been provided."
+    },
+    "Entry": {
+      "name": "Entry",
+      "definition": "Entry in a securities account of a specific quantity of securities."
+    },
+    "ExpectedQuantitySecuritiesProceeds": {
+      "name": "Expected Quantity Securities Proceeds",
+      "definition": "Securities proceeds for which a quantity of securities to receive has been specified."
+    },
+    "StatusRelatedSecuritiesProceeds": {
+      "name": "Status Related Securities Proceeds",
+      "definition": "Securities proceeds related to securities with a specific status."
+    },
+    "CorporateActionDistribution": {
+      "name": "Corporate Action Distribution",
+      "definition": "Corporate action distribution process for which a quantity of securities has been posted."
+    },
+    "RelatedEventForFractionalQuantity": {
+      "name": "Related Event For Fractional Quantity",
+      "definition": "Event for which the resulting fractional quantity will be paid with cash in lieu."
+    },
+    "MaximumExercisableQuantitySecuritiesConversion": {
+      "name": "Maximum Exercisable Quantity Securities Conversion",
+      "definition": "Securities conversion process for which a maximum exercisable quantity is specified."
+    },
+    "BoardLotSecuritiesProceeds": {
+      "name": "Board Lot Securities Proceeds",
+      "definition": "Securities proceeds related to a board lot."
+    },
+    "NewDenominationSecuritiesProceeds": {
+      "name": "New Denomination Securities Proceeds",
+      "definition": "Securities proceeds related to a quantity of redenominated securities."
+    },
+    "BackEndOddLotBiddingConditions": {
+      "name": "Back End Odd Lot Bidding Conditions",
+      "definition": "BiddingConditions for which a back end odd lot is provided."
+    },
+    "SecuritiesEntitlement": {
+      "name": "Securities Entitlement",
+      "definition": "Specifies the entitlement parameters relative to the securities entitlement."
+    },
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Corporate action for which a quantity of securities is specified."
+    },
+    "BiddingConditions": {
+      "name": "Bidding Conditions",
+      "definition": "Bidding conditions related to the base denomination quantity."
+    },
+    "Lottery": {
+      "name": "Lottery",
+      "definition": "Lottery for which an incremental denomination is specified."
+    },
+    "RelatedSubBalance": {
+      "name": "Related Sub Balance",
+      "definition": "Sub balance which contains a quantity of securities."
+    },
+    "AvailableQuantityBalance": {
+      "name": "Available Quantity Balance",
+      "definition": "Securities balance which contains the securities quantity."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade for which a quantity is specified."
+    },
+    "RatioDenominatorSecuritiesConversion": {
+      "name": "Ratio Denominator Securities Conversion",
+      "definition": "Securities conversion process for which a conversion ratio denominator quantity is specified."
+    },
+    "RatioNumeratorSecuritiesConversion": {
+      "name": "Ratio Numerator Securities Conversion",
+      "definition": "Securities conversion process for which a conversion ratio denominator quantity is specified."
+    },
+    "MinimumTradedQuantityMarket": {
+      "name": "Minimum Traded Quantity Market",
+      "definition": "Market for which a minimum traded quantity is specified."
+    },
+    "MinimumDenominationDebt": {
+      "name": "Minimum Denomination Debt",
+      "definition": "Debt for which a minimum denomination is specified."
+    },
+    "MinimumIncrementDebt": {
+      "name": "Minimum Increment Debt",
+      "definition": "Debt for which a minimum increment is specified."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order for which a specific quantity is requested."
+    },
+    "Allocation": {
+      "name": "Allocation",
+      "definition": "Allocation process for which a quantity is specified."
+    },
+    "DenominatorRatio": {
+      "name": "Denominator Ratio",
+      "definition": "Ratio for which a denominator is specified."
+    },
+    "NumeratorRatio": {
+      "name": "Numerator Ratio",
+      "definition": "Ratio for which a numerator is specified."
+    },
+    "SecuritiesTradeExecution": {
+      "name": "Securities Trade Execution",
+      "definition": "Trade for which settlement takes place."
+    },
+    "RelatedCorporateActionEvent": {
+      "name": "Related Corporate Action Event",
+      "definition": "Corporate action for which the offeror/issuer has specified a quantity of securities to purchase or redeem under the terms of the event."
+    },
+    "CorporateActionElection": {
+      "name": "Corporate Action Election",
+      "definition": "Election process which selected a quantity of securities."
+    },
+    "TaxVoucher": {
+      "name": "Tax Voucher",
+      "definition": "Tax voucher for which the calculation of holdings at record date took place."
+    },
+    "RelatedBuyIn": {
+      "name": "Related Buy In",
+      "definition": "Buy-in process for which a compensation amount of securities is specified."
+    },
+    "PreviousDayOrder": {
+      "name": "Previous Day Order",
+      "definition": "Securities order which uses information on a day order quantity."
+    },
+    "Liquidity": {
+      "name": "Liquidity",
+      "definition": "Liquidity information related to a quantity of a financial instrument."
+    },
+    "MinimumQuantityOrderParameters": {
+      "name": "Minimum Quantity Order Parameters",
+      "definition": "Securities order for which a minimum quantity to execute is specified."
+    },
+    "MaximumQuantityRelatedQuote": {
+      "name": "Maximum Quantity Related Quote",
+      "definition": "Quote process for which a maximum quantity of securities is specified."
+    },
+    "UnavailableQuantityBalance": {
+      "name": "Unavailable Quantity Balance",
+      "definition": "Securities balance which contains the unavailable quantity."
+    },
+    "MatchIncrementOrderParameters": {
+      "name": "Match Increment Order Parameters",
+      "definition": "Securities order parameters for which a match increment quantity is provided."
+    },
+    "RelatedIssuance": {
+      "name": "Related Issuance",
+      "definition": "Issuance for which a minimum subscription quantity of securities is specified."
+    },
+    "Pairoff": {
+      "name": "Pairoff",
+      "definition": "Pair off process for which a quantity has been specified."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Issuance for which the nominal amount is specified."
+    },
+    "IntermediateToUnderlyingDenominatorDistributionInformation": {
+      "name": "Intermediate To Underlying Denominator Distribution Information",
+      "definition": "Cash and securities distribution information for which an intermediate to underlying denominator quantity is specified."
+    },
+    "MaximumHoldingDistributionInformation": {
+      "name": "Maximum Holding Distribution Information",
+      "definition": "Cash and securities distribution information for which a maximum holding quantity is specified."
+    },
+    "MaximumExercisableQuantityDistributionInformation": {
+      "name": "Maximum Exercisable Quantity Distribution Information",
+      "definition": "Cash and securities distribution information for which a maximum exercisable quantity is specified."
+    },
+    "MinimumExercisableQuantityDistributionInformation": {
+      "name": "Minimum Exercisable Quantity Distribution Information",
+      "definition": "Cash and securities distribution information for which a minimum exercisable quantity is specified."
+    },
+    "DistributedToUnderlyingDenominatorDistributionInformation": {
+      "name": "Distributed To Underlying Denominator Distribution Information",
+      "definition": "Cash and securities distribution information for which a distributed to underlying denominator quantity is specified."
+    },
+    "IntermediateToUnderlyingNumeratorDistributionInformation": {
+      "name": "Intermediate To Underlying Numerator Distribution Information",
+      "definition": "Cash and securities distribution information for which an intermediate to underlying numerator quantity is specified."
+    },
+    "MinimumHoldingDistributionInformation": {
+      "name": "Minimum Holding Distribution Information",
+      "definition": "Cash and securities distribution information for which a minimum holding quantity is specified."
+    },
+    "DistributedToUnderlyingNumeratorDistributionInformation": {
+      "name": "Distributed To Underlying Numerator Distribution Information",
+      "definition": "Cash and securities distribution information for which a distributed to underlying numerator quantity is specified."
+    },
+    "MaximumHoldingRelatedSecuritiesDistribution": {
+      "name": "Maximum Holding Related Securities Distribution",
+      "definition": "Securities distribution for which a maximum holding quantity is provided."
+    },
+    "IntermediateToUnderlyingNumeratorRelatedSecuritiesDistribution": {
+      "name": "Intermediate To Underlying Numerator Related Securities Distribution",
+      "definition": "Securities distribution for which an intermediate to underlying numerator quantity is provided."
+    },
+    "IntermediateToUnderlyingDenominatorRelatedSecuritiesDistribution": {
+      "name": "Intermediate To Underlying Denominator Related Securities Distribution",
+      "definition": "Securities distribution for which an intermediate to underlying denominator quantity is provided."
+    },
+    "DistributedToUnderlyingDenominatorRelatedSecuritiesDistribution": {
+      "name": "Distributed To Underlying Denominator Related Securities Distribution",
+      "definition": "Securities distribution for which a distributed to underlying denominator quantity is provided."
+    },
+    "DistributedToUnderlyingNumeratorRelatedSecuritiesDistribution": {
+      "name": "Distributed To Underlying Numerator Related Securities Distribution",
+      "definition": "Securities distribution for which a distributed to underlying numerator quantity is provided."
+    },
+    "MinimumHoldingRelatedSecuritiesDistribution": {
+      "name": "Minimum Holding Related Securities Distribution",
+      "definition": "Securities distribution for which a minimum holding quantity is provided."
+    },
+    "MaximumTradedQuantityMarket": {
+      "name": "Maximum Traded Quantity Market",
+      "definition": "Market for which a maximum traded quantity is specified."
+    },
+    "QuantityRelatedQuote": {
+      "name": "Quantity Related Quote",
+      "definition": "Quote process for which a quantity of securities is specified."
+    },
+    "MinimumQuantityRelatedQuote": {
+      "name": "Minimum Quantity Related Quote",
+      "definition": "Quote process for which a minimum quantity of securities is specified."
+    },
+    "NetAssetValueCalculation": {
+      "name": "Net Asset Value Calculation",
+      "definition": "Net asset value calculation parameters."
+    },
+    "SidePocket": {
+      "name": "Side Pocket",
+      "definition": "Side pocket for which a quantity is specified."
+    },
+    "Netting": {
+      "name": "Netting",
+      "definition": "Netting process for which a net quantity of securities has been calculated."
+    },
+    "RelatedOrderStatus": {
+      "name": "Related Order Status",
+      "definition": "Order status for which a remaining quantity is specified."
+    },
+    "SecuritiesOrderStatus": {
+      "name": "Securities Order Status",
+      "definition": "Order status for which a cumulative quantity is specified."
+    },
+    "RelatedTurnaroundSettlement": {
+      "name": "Related Turnaround Settlement",
+      "definition": "Securities settlement process for which a turned quantity is specified."
+    },
+    "RelatedCashFlow": {
+      "name": "Related Cash Flow",
+      "definition": "Cash flow for which quantities are specified."
+    },
+    "Position": {
+      "name": "Position",
+      "definition": "Position which contains the net quantity."
+    },
+    "MaximumQuantityBiddingConditions": {
+      "name": "Maximum Quantity Bidding Conditions",
+      "definition": "Bidding conditions for which a maximum quantity is specified."
+    },
+    "FrontEndOddLotBiddingConditions": {
+      "name": "Front End Odd Lot Bidding Conditions",
+      "definition": "Bidding conditions for which a front end odd lot is specified."
+    },
+    "MinimumQuantityBiddingConditions": {
+      "name": "Minimum Quantity Bidding Conditions",
+      "definition": "Bidding conditions for which a minimum quantity is specified."
+    },
+    "RelatedCorporateActionProtectProcess": {
+      "name": "Related Corporate Action Protect Process",
+      "definition": "Protect process which selected a quantity of securities."
+    }
+  }
+}

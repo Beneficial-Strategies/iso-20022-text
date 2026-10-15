@@ -1,0 +1,46 @@
+{
+  "isoType": "InvestmentFundTransaction",
+  "language": "en",
+  "name": "Investment Fund Transaction",
+  "definition": "Process of buying, selling, switching or transferring fund units.",
+  "isoAttributes": {
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order assigned by a client."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of investment fund transaction."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Direction of the transaction, ie, securities are received (credited) or delivered (debited)."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentFundOrder": {
+      "name": "Investment Fund Order",
+      "definition": "An investor's instruction to either subscribe or redeem an amount of money or its equivalent, eg, other assets, into or out of an investment fund."
+    },
+    "TransactionCharge": {
+      "name": "Transaction Charge",
+      "definition": "Charge for the placement of an order and/or for its execution."
+    },
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Account related to an investment fund transaction."
+    },
+    "InvestmentFundClass": {
+      "name": "Investment Fund Class",
+      "definition": "Investment fund class to which an investment fund order and its execution are related."
+    },
+    "TransactionTax": {
+      "name": "Transaction Tax",
+      "definition": "Tax applicable to an investment fund order and/or to its execution."
+    },
+    "InvestmentFundOrderExecution": {
+      "name": "Investment Fund Order Execution",
+      "definition": "Creation/cancellation of investment units on the books of the fund or its designated agent, as a result of executing an investment fund order."
+    }
+  }
+}

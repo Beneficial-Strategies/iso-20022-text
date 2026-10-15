@@ -1,0 +1,28 @@
+{
+  "isoType": "MeetingServicing",
+  "language": "en",
+  "name": "Meeting Servicing",
+  "definition": "Services which consists in notifying the investor or its agent of a meeting, in validating and relaying its instructions and in calculating its entitlement based on its holdings.",
+  "isoAssociations": {
+    "MeetingSpecification": {
+      "name": "Meeting Specification",
+      "definition": "Meeting for which services are provided."
+    },
+    "MeetingNotice": {
+      "name": "Meeting Notice",
+      "definition": "Service which consists in notifying the investor of a meeting. It may contain details of the meeting as defined by the agent in addition to the details defined by the issuer."
+    },
+    "MeetingEntitlement": {
+      "name": "Meeting Entitlement",
+      "definition": "Calculation of the entitlementbased on the balance in the account."
+    },
+    "MeetingInstruction": {
+      "name": "Meeting Instruction",
+      "definition": "Service which consists in validating, calculating and transferring the investor's instruction."
+    },
+    "MeetingResultDissemination": {
+      "name": "Meeting Result Dissemination",
+      "definition": "Service which consists in distributing the results of the meeting to the investor."
+    }
+  }
+}

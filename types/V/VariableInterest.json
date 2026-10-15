@@ -1,0 +1,62 @@
+{
+  "isoType": "VariableInterest",
+  "language": "en",
+  "name": "Variable Interest",
+  "definition": "Specifies the estimated interest rate and the parameters used for determining its value.",
+  "isoAttributes": {
+    "VariableRateChangeFrequency": {
+      "name": "Variable Rate Change Frequency",
+      "definition": "Specifies the frequency of change to the variable rate of an interest bearing instrument."
+    },
+    "FixingDate": {
+      "name": "Fixing Date",
+      "definition": "Date/time at which the rate determination is made, also called determination date, for instance the date the interest rate of a floating rate note will be/was calculated, according to the terms of the issue."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Last date the new interest rate must be reported to the market."
+    },
+    "ResetDate": {
+      "name": "Reset Date",
+      "definition": "Date/time at which the interest rate of an interest bearing instrument will be reset, according to the terms of the issue."
+    },
+    "Arrears": {
+      "name": "Arrears",
+      "definition": "Indicates that the rate reset will occur at the end of the payment period (True case)"
+    },
+    "EstimatedInterestRate": {
+      "name": "Estimated Interest Rate",
+      "definition": "Estimated per annum ratio of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "VariableRateValueDate": {
+      "name": "Variable Rate Value Date",
+      "definition": "Date/time as of which the variable rate is valid."
+    }
+  },
+  "isoAssociations": {
+    "InterestCalculation": {
+      "name": "Interest Calculation",
+      "definition": "Interest calculation for which a variable interest is used."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Identifies the index used for calculating the interest"
+    },
+    "YieldCalculation": {
+      "name": "Yield Calculation",
+      "definition": "Yield calculation for which a variable interest is used."
+    },
+    "BenchmarkReference": {
+      "name": "Benchmark Reference",
+      "definition": "Benchmark rate against which variable rate instruments are measured to determine the interest rate, for example, LIBOR."
+    },
+    "LifeCalculation": {
+      "name": "Life Calculation",
+      "definition": "Lfe calculation for which a variable interest is used."
+    },
+    "DurationCalculation": {
+      "name": "Duration Calculation",
+      "definition": "Duration calculation for which a variable interest is used."
+    }
+  }
+}

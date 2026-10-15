@@ -1,0 +1,30 @@
+{
+  "isoType": "CouponAttached",
+  "language": "en",
+  "name": "Coupon Attached",
+  "definition": "Physical certificates representing rights attached to the physical certificates representing a security.",
+  "isoAttributes": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date of the coupon attached to the physical security."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "Number of the coupon attached to the physical security."
+    },
+    "CouponClippingDate": {
+      "name": "Coupon Clipping Date",
+      "definition": "Date on which the coupons are to be/were submitted for payment of interest."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the coupon."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Instrument to which a coupon is specified."
+    }
+  }
+}

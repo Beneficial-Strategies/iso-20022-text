@@ -1,0 +1,26 @@
+{
+  "isoType": "ChequeIssue",
+  "language": "en",
+  "name": "Cheque Issue",
+  "definition": "Action to issue a cheque in order to settle an amount due to a creditor.",
+  "isoAttributes": {
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Specifies the delivery method of the cheque by the debtor's agent."
+    },
+    "PrintLocation": {
+      "name": "Print Location",
+      "definition": "Specifies the print location of the cheque."
+    }
+  },
+  "isoAssociations": {
+    "Cheque": {
+      "name": "Cheque",
+      "definition": "Specifies the characteristics of the cheque used to pay an amount to a creditor."
+    },
+    "DeliverTo": {
+      "name": "Deliver To",
+      "definition": "Identifies the party to whom the debtor's agent should send the cheque."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "UndertakingDocument",
+  "language": "en",
+  "name": "Undertaking Document",
+  "definition": "Document presented.",
+  "isoAttributes": {
+    "DocumentType": {
+      "name": "Document Type",
+      "definition": "Type of document."
+    },
+    "Format": {
+      "name": "Format",
+      "definition": "Format of the document."
+    },
+    "CopyIndicator": {
+      "name": "Copy Indicator",
+      "definition": "Indicates whether the document is a copy."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which document content is specified."
+    },
+    "Demand": {
+      "name": "Demand",
+      "definition": "Demand for which associated documents are specified."
+    }
+  }
+}

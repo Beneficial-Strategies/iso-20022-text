@@ -1,0 +1,22 @@
+{
+  "isoType": "ObligationFulfilment",
+  "language": "en",
+  "name": "Obligation Fulfilment",
+  "definition": "Processes by which an obligation is extinguished fully or partially.",
+  "isoAttributes": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date and time on which assets become available."
+    }
+  },
+  "isoAssociations": {
+    "ObligationOffset": {
+      "name": "Obligation Offset",
+      "definition": "Specifies the obligation which has been offset for instance a payment obligation or a securities delivery."
+    },
+    "ResultingObligation": {
+      "name": "Resulting Obligation",
+      "definition": "Specifies the obligation which result from a settlement process, for instance the remaining obligation when the obligations are netted."
+    }
+  }
+}

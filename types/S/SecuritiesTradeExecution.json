@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesTradeExecution",
+  "language": "en",
+  "name": "Securities Trade Execution",
+  "definition": "Transaction between two counterparties in which they agree to buy and sell a financial instrument. A trade transaction occurs with the matching of the two counterparties orders. There could be several trade transactions necessary to execute the trade.",
+  "isoAttributes": {
+    "StampDutyIndicator": {
+      "name": "Stamp Duty Indicator",
+      "definition": "Whether the net proceeds include stamp duty amount."
+    },
+    "ProcessingPosition": {
+      "name": "Processing Position",
+      "definition": "When the transaction is to be executed relative to a linked transaction."
+    },
+    "MarginAmount": {
+      "name": "Margin Amount",
+      "definition": "Difference in prices at which a dealer will buy and sell."
+    },
+    "OffMarketReason": {
+      "name": "Off Market Reason",
+      "definition": "Reason for which the trade was executed off-market."
+    },
+    "DealExecutionAmount": {
+      "name": "Deal Execution Amount",
+      "definition": "Deal price multiplied by the quantity of a financial instrument traded for the specific trade transaction i.e. the partially filled quantity."
+    },
+    "ReportingType": {
+      "name": "Reporting Type",
+      "definition": "Specifies that a trade is to be reported to a third party."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesSettlement": {
+      "name": "Securities Settlement",
+      "definition": "Process of settling securities."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Specifies the price of the traded financial instrument.|This is the deal price of the individual trade transaction. |If there is only one trade transaction for the execution of the trade, then the deal price could equal the executed trade price (unless, for example, the price includes commissions or rounding, or some other factor has been applied to the deal price or the executed trade price, or both)."
+    },
+    "ExecutedTradeQuantity": {
+      "name": "Executed Trade Quantity",
+      "definition": "Quantity of financial instrument executed by the trading party."
+    },
+    "RelatedTrade": {
+      "name": "Related Trade",
+      "definition": "Trade which is executed through one or more execution trades."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Specifies the cash delivery obligations resulting from the trade."
+    },
+    "SecuritiesDeliveryObligation": {
+      "name": "Securities Delivery Obligation",
+      "definition": "Specifies the securities delivery obligations resulting from the trade."
+    }
+  }
+}

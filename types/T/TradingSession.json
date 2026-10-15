@@ -1,0 +1,46 @@
+{
+  "isoType": "TradingSession",
+  "language": "en",
+  "name": "Trading Session",
+  "definition": "Established constraints under which a market operates",
+  "isoAttributes": {
+    "TradingSessionName": {
+      "name": "Trading Session Name",
+      "definition": "Identification of a specific execution time bracket code through its trading session name or description."
+    },
+    "TradingSessionIndicator": {
+      "name": "Trading Session Indicator",
+      "definition": "Indicates the trading phase at the stock exchange, eg, opening auction phase, main trading phase, closing auction phase, etc."
+    },
+    "TradingSessionPhase": {
+      "name": "Trading Session Phase",
+      "definition": "Specific execution time period expressed through its trading session identifier. This identifier is for example used by exchanges, electronic communication networks (ECNs) and alternative trading systems (ATSs) to identify opening and closing hours of a trading session."
+    },
+    "USFuturesTradingSession": {
+      "name": "US Futures Trading Session",
+      "definition": "Identification of a specific execution time bracket code, required by US regulations. This only applies to the US futures market."
+    }
+  },
+  "isoAssociations": {
+    "TimeBracket": {
+      "name": "Time Bracket",
+      "definition": "Specifies the time bracket of a trading session in actual date and time format."
+    },
+    "Market": {
+      "name": "Market",
+      "definition": "Market for which trading session information is specified.."
+    },
+    "Quote": {
+      "name": "Quote",
+      "definition": "Quote to which a trading session is associated."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Securities order associated with a trading session."
+    },
+    "ListTrading": {
+      "name": "List Trading",
+      "definition": "List trading process for which a trading session is specified."
+    }
+  }
+}

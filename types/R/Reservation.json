@@ -1,0 +1,26 @@
+{
+  "isoType": "Reservation",
+  "language": "en",
+  "name": "Reservation",
+  "definition": "Liquidity set aside by the payer for specific purposes.",
+  "isoAttributes": {
+    "ReservationType": {
+      "name": "Reservation Type",
+      "definition": "Nature of the reservation."
+    }
+  },
+  "isoAssociations": {
+    "RelatedIntraPositionTransfer": {
+      "name": "Related Intra Position Transfer",
+      "definition": "Transfer process for which reservation information is provided."
+    },
+    "SettlementInstruction": {
+      "name": "Settlement Instruction",
+      "definition": "Specifies the instruction which originated the reservation."
+    },
+    "AccountService": {
+      "name": "Account Service",
+      "definition": "Account services for which reservation information is specified."
+    }
+  }
+}

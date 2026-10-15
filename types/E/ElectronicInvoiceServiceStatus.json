@@ -1,0 +1,30 @@
+{
+  "isoType": "ElectronicInvoiceServiceStatus",
+  "language": "en",
+  "name": "Electronic Invoice Service Status",
+  "definition": "Specifies the status and the reason of the enrolment request.",
+  "isoAttributes": {
+    "ServiceStatus": {
+      "name": "Service Status",
+      "definition": "Provides detailed information on the acceptance result."
+    },
+    "ActivationStatusReason": {
+      "name": "Activation Status Reason",
+      "definition": "Provides detailed information on the activation result."
+    },
+    "EnrolmentStatusReason": {
+      "name": "Enrolment Status Reason",
+      "definition": "Specifies the status reason for the enrolment request."
+    }
+  },
+  "isoAssociations": {
+    "StatusReasonOriginator": {
+      "name": "Status Reason Originator",
+      "definition": "Specifies the provider of the enrolment request for wich the status and the reason are provided."
+    },
+    "RelatedElectronicinvoiceProcessingService": {
+      "name": "Related Electronicinvoice Processing Service",
+      "definition": "Specifies the processing service of the status and the reason."
+    }
+  }
+}

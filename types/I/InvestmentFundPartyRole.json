@@ -1,0 +1,16 @@
+{
+  "isoType": "InvestmentFundPartyRole",
+  "language": "en",
+  "name": "Investment Fund Party Role",
+  "definition": "Specifies roles played by a party that are linked to the handling of investment funds but not related to a specific process.",
+  "isoAssociations": {
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account used in the context of the investment fund party role such as intermediary's account, beneficiary's account..."
+    },
+    "InvestmentFund": {
+      "name": "Investment Fund",
+      "definition": "Specifies the fund for which the party plays a role."
+    }
+  }
+}

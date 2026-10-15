@@ -1,0 +1,32 @@
+{
+  "isoType": "ElectronicInvoiceProcessingService",
+  "language": "en",
+  "name": "Electronic Invoice Processing Service",
+  "definition": "Specifies the attributes for the electronic invoice processing.",
+  "isoAssociations": {
+    "RelatedInvoice": {
+      "name": "Related Invoice",
+      "definition": "Specifies the details for the invoice for the service."
+    },
+    "ElectronicInvoiceSolutionProvider": {
+      "name": "Electronic Invoice Solution Provider",
+      "definition": "Organisation servicing the e-invoicing for the debtor."
+    },
+    "CreditorEnrolment": {
+      "name": "Creditor Enrolment",
+      "definition": "Specifies the details for the enrolment of the service."
+    },
+    "ElectronicInvoiceDirectoryProvider": {
+      "name": "Electronic Invoice Directory Provider",
+      "definition": "Organisation servicing the e-invoicing for the debtor."
+    },
+    "DebtorActivation": {
+      "name": "Debtor Activation",
+      "definition": "Creditor's EIPP provider address to which the debtor activation has to be delivered."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Specifies the status and the reason of the processing service."
+    }
+  }
+}

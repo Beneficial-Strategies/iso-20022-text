@@ -1,0 +1,26 @@
+{
+  "isoType": "DirectDebit",
+  "language": "en",
+  "name": "Direct Debit",
+  "definition": "Payment, initiated by the creditor, to debit a debtor's account in favour of the creditor. A direct debit can be pre-authorised or not. In most countries, authorisation is in the form of a mandate between the debtor and creditor.",
+  "isoAttributes": {
+    "RegistrationIdentification": {
+      "name": "Registration Identification",
+      "definition": "Reference assigned to a creditor by its financial institution, or relevant authority, authorising the creditor to take part in a direct debit scheme."
+    },
+    "PreNotificationIdentification": {
+      "name": "Pre Notification Identification",
+      "definition": "Unique and unambiguous identification of the pre-notification which is sent separately from the direct debit instruction.|Usage: the direct debit pre-notification is used to reconcile separately sent collection information with the direct debit transaction information."
+    },
+    "PreNotificationDate": {
+      "name": "Pre Notification Date",
+      "definition": "Date on which the creditor notifies the debtor about the amount and date on which the direct debit instruction will be presented to the debtor's agent."
+    }
+  },
+  "isoAssociations": {
+    "DirectDebitMandate": {
+      "name": "Direct Debit Mandate",
+      "definition": "Set of elements providing information specific to the direct debit mandate."
+    }
+  }
+}

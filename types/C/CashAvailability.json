@@ -1,0 +1,34 @@
+{
+  "isoType": "CashAvailability",
+  "language": "en",
+  "name": "Cash Availability",
+  "definition": "Indicates when the amount of money will become available, ie can be accessed and start generating interest.",
+  "isoAttributes": {
+    "Date": {
+      "name": "Date",
+      "definition": "Identifies the availability date."
+    },
+    "NumberOfDays": {
+      "name": "Number Of Days",
+      "definition": "Indicates the number of float days attached to the balance."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Available amount."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the availability balance is a credit or a debit balance. A zero balance is considered to be a credit balance."
+    }
+  },
+  "isoAssociations": {
+    "CashBalance": {
+      "name": "Cash Balance",
+      "definition": "Cash balance for which the availability is provided."
+    },
+    "CashEntry": {
+      "name": "Cash Entry",
+      "definition": "Specifies the cash entry for which the availability information is provided."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExpectedCollateralType",
+  "language": "en",
+  "name": "Expected Collateral Type",
+  "definition": "Expected collateral type.",
+  "isoAttributes": {
+    "Delivery": {
+      "name": "Delivery",
+      "definition": "Type of collateral that will be delivered."
+    },
+    "Return": {
+      "name": "Return",
+      "definition": "Type of collateral that will be returned."
+    }
+  },
+  "isoAssociations": {
+    "VariationMarginRelatedCall": {
+      "name": "Variation Margin Related Call",
+      "definition": "Call for which a variation margin type is specified."
+    },
+    "SegregatedIndependentAmountRelatedCall": {
+      "name": "Segregated Independent Amount Related Call",
+      "definition": "Call for which a segregated independent amount type is specified."
+    }
+  }
+}

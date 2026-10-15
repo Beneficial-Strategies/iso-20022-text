@@ -1,0 +1,150 @@
+{
+  "isoType": "Tax",
+  "language": "en",
+  "name": "Tax",
+  "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters such as thresholds or income.",
+  "isoAttributes": {
+    "ExemptionReason": {
+      "name": "Exemption Reason",
+      "definition": "Reason for a tax exemption."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of tax applied."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money resulting from the calculation of the tax."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used for calculation of the tax."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Basis used to determine the capital gain or loss, eg, the purchase price."
+    },
+    "TaxRateType": {
+      "name": "Tax Rate Type",
+      "definition": "Specifies the type of tax rate."
+    },
+    "TaxationConditions": {
+      "name": "Taxation Conditions",
+      "definition": "Specifies other taxation conditions."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Reference used to identify the nature of tax levied, such as Value Added Tax (VAT)."
+    },
+    "TaxableBaseAmount": {
+      "name": "Taxable Base Amount",
+      "definition": "Amount of money on which the tax is based."
+    },
+    "TaxDate": {
+      "name": "Tax Date",
+      "definition": "Date by which tax is due."
+    },
+    "CertificateIdentification": {
+      "name": "Certificate Identification",
+      "definition": "Document issued by taxing authority identifying the tax payer."
+    },
+    "AdministrationZone": {
+      "name": "Administration Zone",
+      "definition": "Territorial part of a country to which the tax payment is related."
+    },
+    "Method": {
+      "name": "Method",
+      "definition": "Method used to indicate the underlying business or how the tax is paid."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency in which the tax must be settled."
+    },
+    "TaxDeduction": {
+      "name": "Tax Deduction",
+      "definition": "Amount of tax that have been previously deducted."
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Date on which the tax is calculated."
+    },
+    "WithholdingTaxType": {
+      "name": "Withholding Tax Type",
+      "definition": "Type of withholding tax rate."
+    },
+    "TaxIdentificationType": {
+      "name": "Tax Identification Type",
+      "definition": "Type of tax identification number or identifier."
+    },
+    "TaxRateMarker": {
+      "name": "Tax Rate Marker",
+      "definition": "Specifies the rate of tax levied."
+    }
+  },
+  "isoAssociations": {
+    "Country": {
+      "name": "Country",
+      "definition": "Place of taxation of an individual person or an organisation, where the tax is due."
+    },
+    "TaxLiabilityValueCalculation": {
+      "name": "Tax Liability Value Calculation",
+      "definition": "Net asset value calculation for which tax liability information is provided."
+    },
+    "TaxableParty": {
+      "name": "Taxable Party",
+      "definition": "Party which is taxable at a specific location"
+    },
+    "TaxRefundValueCalculation": {
+      "name": "Tax Refund Value Calculation",
+      "definition": "Net asset value calculation for which tax refund information is provided."
+    },
+    "SecuritiesTransfer": {
+      "name": "Securities Transfer",
+      "definition": "Transfer process for which a tax is specified."
+    },
+    "TaxAccount": {
+      "name": "Tax Account",
+      "definition": "Account to be used for taxes."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the adjustments subject to a tax."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest for which a tax is specified."
+    },
+    "RelatedPaymentSettlement": {
+      "name": "Related Payment Settlement",
+      "definition": "Payment to which the tax applies."
+    },
+    "Record": {
+      "name": "Record",
+      "definition": "Record of tax details."
+    },
+    "Product": {
+      "name": "Product",
+      "definition": "Product on which a tax is applied."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Currency exchange applicable to a tax"
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to a tax and played by a party in that context."
+    },
+    "RelatedCorporateActionDistribution": {
+      "name": "Related Corporate Action Distribution",
+      "definition": "Distribution process for which a tax is specified."
+    },
+    "Dividend": {
+      "name": "Dividend",
+      "definition": "Dividend for which a tax is specified."
+    },
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Event for which a transaction tax is specified."
+    }
+  }
+}

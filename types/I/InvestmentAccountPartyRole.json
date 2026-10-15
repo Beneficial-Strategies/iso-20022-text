@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentAccountPartyRole",
+  "language": "en",
+  "name": "Investment Account Party Role",
+  "definition": "Specifies roles played by a party that are related to an investment account.",
+  "isoAttributes": {
+    "OwnershipBeneficiaryRate": {
+      "name": "Ownership Beneficiary Rate",
+      "definition": "Percentage of ownership or of beneficial ownership of the shares/units in the account. All subsequent subscriptions and or redemptions will be allocated using the same percentage."
+    },
+    "FATCAFormType": {
+      "name": "FATCA Form Type",
+      "definition": "Type of Foreign Account Tax Compliance Act (FATCA) form submitted by the investor."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Specifies the account for which the party plays a role. It is derived from the association between AccountPartyRole and Account."
+    },
+    "FATCAStatus": {
+      "name": "FATCA Status",
+      "definition": "Foreign Account Tax Compliance Act (FATCA) status of the investor."
+    },
+    "CRSStatus": {
+      "name": "CRS Status",
+      "definition": "Common Reporting Standard (CRS) status of the investor."
+    }
+  }
+}

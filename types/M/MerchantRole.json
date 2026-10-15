@@ -1,0 +1,16 @@
+{
+  "isoType": "MerchantRole",
+  "language": "en",
+  "name": "Merchant Role",
+  "definition": "Party performing the card payment transaction.",
+  "isoAttributes": {
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code conform to ISO 18245, related to the type of services or goods the merchant provides for the transaction."
+    },
+    "MerchantIdentification": {
+      "name": "Merchant Identification",
+      "definition": "Number that identifies the merchant to the card issuer."
+    }
+  }
+}

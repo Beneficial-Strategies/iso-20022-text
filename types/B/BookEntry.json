@@ -1,0 +1,38 @@
+{
+  "isoType": "BookEntry",
+  "language": "en",
+  "name": "Book Entry",
+  "definition": "Movement of cash between two accounts. One account is debited and the other account is credited.",
+  "isoAttributes": {
+    "TransferAdvice": {
+      "name": "Transfer Advice",
+      "definition": "Indicates that when an amount of money has been transferred in the books of the account servicer, an advice should be sent back to the account owner."
+    }
+  },
+  "isoAssociations": {
+    "CashEntry": {
+      "name": "Cash Entry",
+      "definition": "Specifies the amount transferred on the account. An account entry may result in several cash entries for instance net amount (credited) and charges (debited)."
+    },
+    "DebitEntry": {
+      "name": "Debit Entry",
+      "definition": "Specifies the debit entry resuling from a settlement instruction."
+    },
+    "CreditEntry": {
+      "name": "Credit Entry",
+      "definition": "Specifies the credit entry resuling from a settlement instruction."
+    },
+    "FundSubscriptionCashInFlow": {
+      "name": "Fund Subscription Cash In Flow",
+      "definition": "Amount of money received from investors as a result of a subscription."
+    },
+    "FundRedemptionCashOutFlow": {
+      "name": "Fund Redemption Cash Out Flow",
+      "definition": "Amount of money paid to investors as a result of a redemption."
+    },
+    "RelatedSettlementInstruction": {
+      "name": "Related Settlement Instruction",
+      "definition": "Related settlement instruction wich is the source of the book entry."
+    }
+  }
+}

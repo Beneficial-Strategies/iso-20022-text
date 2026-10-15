@@ -1,0 +1,26 @@
+{
+  "isoType": "ServiceLevel",
+  "language": "en",
+  "name": "Service Level",
+  "definition": "Agreement under which or rules under which the transaction should be processed.",
+  "isoAttributes": {
+    "Code": {
+      "name": "Code",
+      "definition": "Identification of a pre-agreed level of service between the parties in a coded form."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "SWIFT defined service level applies to the payment instruction."
+    },
+    "Bilateral": {
+      "name": "Bilateral",
+      "definition": "Unambiguous identification of a pre-agreed level of service between the parties."
+    }
+  },
+  "isoAssociations": {
+    "PaymentProcessing": {
+      "name": "Payment Processing",
+      "definition": "Payment process for which a service level is specified."
+    }
+  }
+}

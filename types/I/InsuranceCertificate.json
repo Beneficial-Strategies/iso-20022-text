@@ -1,0 +1,50 @@
+{
+  "isoType": "InsuranceCertificate",
+  "language": "en",
+  "name": "Insurance Certificate",
+  "definition": "Formal document used to record a fact and used as proof of the fact that goods have been insured under an insurance policy.",
+  "isoAttributes": {
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date upon which cover under an insurance policy becomes effective."
+    },
+    "InsuredAmount": {
+      "name": "Insured Amount",
+      "definition": "Value of the goods as insured under the insurance policy."
+    },
+    "InsuranceConditions": {
+      "name": "Insurance Conditions",
+      "definition": "Description of the conditions and exclusion clauses under which insurance is granted."
+    },
+    "InsuranceClauses": {
+      "name": "Insurance Clauses",
+      "definition": "Standard insurance clauses defined by the Institute of London Underwriters (or the American Institute of marine Underwriters)."
+    },
+    "ClaimsPayableIn": {
+      "name": "Claims Payable In",
+      "definition": "Currency in which claims, if valid, will be paid."
+    },
+    "InsuranceType": {
+      "name": "Insurance Type",
+      "definition": "Specifies the type of insurance."
+    }
+  },
+  "isoAssociations": {
+    "ClaimsPayableAt": {
+      "name": "Claims Payable At",
+      "definition": "Place where claims under the insurance policy will be paid."
+    },
+    "InsurancePartyRole": {
+      "name": "Insurance Party Role",
+      "definition": "Role played by a party in the context of insurance."
+    },
+    "ProductDelivery": {
+      "name": "Product Delivery",
+      "definition": "Delivery parameters of a trade."
+    },
+    "RelatedInvestmentPlan": {
+      "name": "Related Investment Plan",
+      "definition": "Investment plan covered by an insurance contract."
+    }
+  }
+}

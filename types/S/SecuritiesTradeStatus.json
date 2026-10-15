@@ -1,0 +1,74 @@
+{
+  "isoType": "SecuritiesTradeStatus",
+  "language": "en",
+  "name": "Securities Trade Status",
+  "definition": "Status of a securities trade.",
+  "isoAttributes": {
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Status of matching of a trade."
+    },
+    "AffirmationStatus": {
+      "name": "Affirmation Status",
+      "definition": "Status of affirmation of a trade."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Status of an investment fund transaction."
+    },
+    "ReplacementProcessingStatus": {
+      "name": "Replacement Processing Status",
+      "definition": "Provides the processing status of the replacement request."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Status of the cancellation of a trade."
+    },
+    "CancellationRight": {
+      "name": "Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an order."
+    },
+    "TransferStatus": {
+      "name": "Transfer Status",
+      "definition": "Status of the transfer is accepted, sent to next party, matched, already executed, or settled."
+    },
+    "AllegedStatus": {
+      "name": "Alleged Status",
+      "definition": "Provides the status of an allegement."
+    },
+    "CollateralAllocationStatus": {
+      "name": "Collateral Allocation Status",
+      "definition": "Provides the status of allocation of collateral to cover the instruction."
+    },
+    "RepoCallRequestStatus": {
+      "name": "Repo Call Request Status",
+      "definition": "Specifies additional information about the status of the repurchase agreement call processed instruction."
+    },
+    "SettlementConditionModificationStatus": {
+      "name": "Settlement Condition Modification Status",
+      "definition": "Provides the status of the securities settlement condition modification request."
+    },
+    "MatchingProcess": {
+      "name": "Matching Process",
+      "definition": "Specifies the matching status of a trade."
+    },
+    "TradeConfirmationStatus": {
+      "name": "Trade Confirmation Status",
+      "definition": "Specifies whether the contract was electronically confirmed, non-electronically confirmed or remains unconfirmed."
+    }
+  },
+  "isoAssociations": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reasons for the status. It is derived from the relationship between Status and Status Reason."
+    },
+    "SecuritiesTrade": {
+      "name": "Securities Trade",
+      "definition": "Specifies the trade which has a specific status."
+    },
+    "RelatedSecuritiesTransfer": {
+      "name": "Related Securities Transfer",
+      "definition": "Transfer operation for which a status is provided"
+    }
+  }
+}

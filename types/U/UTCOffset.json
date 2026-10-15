@@ -1,0 +1,22 @@
+{
+  "isoType": "UTCOffset",
+  "language": "en",
+  "name": "UTC Offset",
+  "definition": "Offset of the time before or after 00:00 hour UTC.",
+  "isoAttributes": {
+    "Sign": {
+      "name": "Sign",
+      "definition": "Indicates whether the offset is before or after 00:00 hour UTC."
+    },
+    "NumberOfHours": {
+      "name": "Number Of Hours",
+      "definition": "Offset of the reporting time, in hours,  before or after 00:00 hour UTC."
+    }
+  },
+  "isoAssociations": {
+    "Location": {
+      "name": "Location",
+      "definition": "Location to which the time zone applies."
+    }
+  }
+}

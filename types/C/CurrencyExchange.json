@@ -1,0 +1,134 @@
+{
+  "isoType": "CurrencyExchange",
+  "language": "en",
+  "name": "Currency Exchange",
+  "definition": "Information needed to process a currency exchange or conversion.",
+  "isoAttributes": {
+    "OriginalAmount": {
+      "name": "Original Amount",
+      "definition": "Amount in its original currency when conversion from/into another currency has occurred."
+    },
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency in which the rate of exchange is expressed in a currency exchange. In the example 1GBP = xxxCUR, the unit currency is GBP."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the base currency is converted, in a currency exchange."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "ResultingAmount": {
+      "name": "Resulting Amount",
+      "definition": "Amount of money resulting from a foreign exchange transaction."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which an exchange rate is quoted."
+    },
+    "SourceCurrency": {
+      "name": "Source Currency",
+      "definition": "Currency of the amount to be converted in a currency conversion."
+    },
+    "TargetCurrency": {
+      "name": "Target Currency",
+      "definition": "Currency into which an amount is to be converted in a currency conversion."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies the type used to complete the currency exchange."
+    },
+    "ExchangeRateBase": {
+      "name": "Exchange Rate Base",
+      "definition": "Expresses the ratio between the base of the denomination of the Unit Currency to the base of the denomination of the Quoted Currency."
+    },
+    "QuoteIdentification": {
+      "name": "Quote Identification",
+      "definition": "Unique identification to unambiguously identify the quote issued by the ForeignExchangeAgent."
+    }
+  },
+  "isoAssociations": {
+    "CurrencyExchangeForForeignExchangeTrade": {
+      "name": "Currency Exchange For Foreign Exchange Trade",
+      "definition": "Trade which uses the specified exchange rate."
+    },
+    "RelatedCorporateActionEvent": {
+      "name": "Related Corporate Action Event",
+      "definition": "Corporate action for which the offeror/issuer has specified an exchange rate for the payment in a currency different from the announced one."
+    },
+    "CurrencyExchangeForSecuritiesBalance": {
+      "name": "Currency Exchange For Securities Balance",
+      "definition": "Specifies a securities balance which used a specific exchange rate."
+    },
+    "CalculatedAssetValue": {
+      "name": "Calculated Asset Value",
+      "definition": "Asset value calculated in a different currency."
+    },
+    "CurrencyExchangeForCashEntry": {
+      "name": "Currency Exchange For Cash Entry",
+      "definition": "Cash entry to which the currency exchange parameters apply."
+    },
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Payment for which currency exchange parameters are specified."
+    },
+    "RelatedLimitManagement": {
+      "name": "Related Limit Management",
+      "definition": "Limit for which an exchange rate is specified."
+    },
+    "FixingConditions": {
+      "name": "Fixing Conditions",
+      "definition": "Set of parameters used to calculate a rate for instance, the fixing rate to be applied to a non-deliverable agreement."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Tax for which exchange information is provided."
+    },
+    "RelatedInvoice": {
+      "name": "Related Invoice",
+      "definition": "Invoice for which currency exchange information is specified."
+    },
+    "CurrencyExchangeForTransactionAdministrator": {
+      "name": "Currency Exchange For Transaction Administrator",
+      "definition": "Set of applications which use currency exchange information."
+    },
+    "ReportedAccount": {
+      "name": "Reported Account",
+      "definition": "Specifies the account which uses an exchange rate to report entries and balances."
+    },
+    "CurrencyExchangeForCorporateActionCashEntitlement": {
+      "name": "Currency Exchange For Corporate Action Cash Entitlement",
+      "definition": "Cash entitlement for which an exchange rate is specified."
+    },
+    "PaymentExecution": {
+      "name": "Payment Execution",
+      "definition": "Payment execution process for which currrency exchange information is provided."
+    },
+    "CurrencyExchangeForSecuritiesQuote": {
+      "name": "Currency Exchange For Securities Quote",
+      "definition": "Quote which uses currency exchange information."
+    },
+    "CurrencyExchangeForSecuritiesConversion": {
+      "name": "Currency Exchange For Securities Conversion",
+      "definition": "Securities conversion for which a conversion currency is specified."
+    },
+    "CurrencyExchangeForCashDistribution": {
+      "name": "Currency Exchange For Cash Distribution",
+      "definition": "Cash distribution for which a conversion currency is specified."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Fees or commission applied to the currency exchange."
+    },
+    "RelatedPaymentTracker": {
+      "name": "Related Payment Tracker",
+      "definition": "Payment tracker to what the Informations of the currency exchange are related to."
+    },
+    "ForeignExchangeAgent": {
+      "name": "Foreign Exchange Agent",
+      "definition": "Agent who undertakes the conversion of funds from the unit currency to the quoted currency."
+    }
+  }
+}

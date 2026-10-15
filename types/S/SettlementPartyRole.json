@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementPartyRole",
+  "language": "en",
+  "name": "Settlement Party Role",
+  "definition": "Role played by a party in a settlement process.",
+  "isoAssociations": {
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "Account which is used for settlement."
+    },
+    "Settlement": {
+      "name": "Settlement",
+      "definition": "Specifies the settlement process for which the party plays a role."
+    }
+  }
+}

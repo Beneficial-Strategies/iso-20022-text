@@ -1,0 +1,46 @@
+{
+  "isoType": "ClearingMemberRole",
+  "language": "en",
+  "name": "Clearing Member Role",
+  "definition": "Member of an exchange's clearing corporation, responsible for executing client trades and involved in the clearing of trades.",
+  "isoAttributes": {
+    "Side": {
+      "name": "Side",
+      "definition": "Specifies the side of the clearing member."
+    },
+    "ClearingFee": {
+      "name": "Clearing Fee",
+      "definition": "Charges related to the clearing."
+    }
+  },
+  "isoAssociations": {
+    "ClearingSystemMemberIdentification": {
+      "name": "Clearing System Member Identification",
+      "definition": "Unique and unambiguous identifier of a clearing system member, assigned by the system or system administrator."
+    },
+    "ClearingAccount": {
+      "name": "Clearing Account",
+      "definition": "Identifies the clearing member account at the CCP through which the trade must be cleared (sometimes called position account)."
+    },
+    "MarginAccount": {
+      "name": "Margin Account",
+      "definition": "Margin account where the negociation and liquidation risks will be calculated."
+    },
+    "DeliveryAccount": {
+      "name": "Delivery Account",
+      "definition": "Account opened by the central counterparty in the name of the clearing member within the account structure, for settlement purposes (gives information about the clearing member account at central counterparty)."
+    },
+    "DefaultFundAccount": {
+      "name": "Default Fund Account",
+      "definition": "Specifies the account identification of the clearing member at the ICSD (International Central Securities Depository) or at the Central Bank."
+    },
+    "ClearingSegment": {
+      "name": "Clearing Segment",
+      "definition": "Clearing segment within a clearing organisation that allows the segregation of flows coming from clearing counterparty's clearing system."
+    },
+    "RelatedClearingMemberRole": {
+      "name": "Related Clearing Member Role",
+      "definition": "Clearing member for which a clearing segment is specified."
+    }
+  }
+}

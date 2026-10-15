@@ -1,0 +1,26 @@
+{
+  "isoType": "AdditionalLEIAttributes",
+  "language": "en",
+  "name": "Additional LEI Attributes",
+  "definition": "Additional LEI attributes belonging to the LEI of an organisation.",
+  "isoAttributes": {
+    "RelationshipType": {
+      "name": "Relationship Type",
+      "definition": "Unique code designating the specific category of a directional relationship between two legal entities."
+    },
+    "RelationshipStatus": {
+      "name": "Relationship Status",
+      "definition": "Status of the legal entities' relationship itself: ACTIVE or INACTIVE."
+    },
+    "ManagingLOU": {
+      "name": "Managing LOU",
+      "definition": "LEI of the LEI Issuer that is responsible for administering this LEI Record."
+    }
+  },
+  "isoAssociations": {
+    "RelatedOrganisationIdentification": {
+      "name": "Related Organisation Identification",
+      "definition": "Identification of the organisation for wich the LEI attributes belongs to."
+    }
+  }
+}

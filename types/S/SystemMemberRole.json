@@ -1,0 +1,30 @@
+{
+  "isoType": "SystemMemberRole",
+  "language": "en",
+  "name": "System Member Role",
+  "definition": "Information about the members of a system.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the relationship a member has with a system."
+    }
+  },
+  "isoAssociations": {
+    "CashBalance": {
+      "name": "Cash Balance",
+      "definition": "Cash balance for which a counterparty is specified."
+    },
+    "MemberStatus": {
+      "name": "Member Status",
+      "definition": "Specifies the status of a member."
+    },
+    "Limit": {
+      "name": "Limit",
+      "definition": "Cash management feature limiting the maximum risk a party accepts to take with respect to a counterparty or a set of counterparties. A risk management limit is either bilateral, ie, for a counterparty, or multilateral, ie, for a set of counterparties or all other members in a system.The limit may also apply to sponsored members, ie, indirect members. In principle, a risk management limit is calculated on the net position between two members and is expressed as a credit or debit limit, from the point of view of the party setting the limit."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account owned by the member of a system with the system."
+    }
+  }
+}

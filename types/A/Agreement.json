@@ -1,0 +1,38 @@
+{
+  "isoType": "Agreement",
+  "language": "en",
+  "name": "Agreement",
+  "definition": "Contractual details related to an agreement between parties.",
+  "isoAttributes": {
+    "DateSigned": {
+      "name": "Date Signed",
+      "definition": "Date on which the agreement was signed by all parties."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Full name of an agreement, annexes and amendments in place between the principals."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version number of a contract or of a  legal agreement."
+    }
+  },
+  "isoAssociations": {
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Period during which the agreement is valid"
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "Document which materialises the agreement."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Specifies the type of trade that is the subject of an agreement. The agreement contains the clauses that will govern each trade between the signing parties."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Jurisdiction where an agreement applies."
+    }
+  }
+}

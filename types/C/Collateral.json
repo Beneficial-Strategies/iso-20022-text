@@ -1,0 +1,94 @@
+{
+  "isoType": "Collateral",
+  "language": "en",
+  "name": "Collateral",
+  "definition": "Assets pledged by a debtor to secure a loan or an exposure and subject to seizure in the event of default.",
+  "isoAttributes": {
+    "CollateralAmount": {
+      "name": "Collateral Amount",
+      "definition": "Value of the collateral as an amount."
+    },
+    "CollateralType": {
+      "name": "Collateral Type",
+      "definition": "Specifies the type of collateral."
+    },
+    "BaseCurrencyAmount": {
+      "name": "Base Currency Amount",
+      "definition": "Value of the collateral in the currency used for reporting."
+    },
+    "CollateralPurpose": {
+      "name": "Collateral Purpose",
+      "definition": "Specifies whether the collateral has been posted against the variation margin or the segregated independent amount."
+    },
+    "CollateralOwnership": {
+      "name": "Collateral Ownership",
+      "definition": "Specifies who is the owner of the collateral."
+    },
+    "CollateralDeliveryMethod": {
+      "name": "Collateral Delivery Method",
+      "definition": "Specifies whether the collateral is subject to a title transfer collateral arrangement, a securities interest collateral arrangement, or a securities interest with the right of use."
+    },
+    "CollateralQualityType": {
+      "name": "Collateral Quality Type",
+      "definition": "Risk classification of the security used as collateral."
+    },
+    "DeliveryByValue": {
+      "name": "Delivery By Value",
+      "definition": "Specifies whether the transaction was settled using the Delivery-by-Value (DBV) mechanism."
+    },
+    "CollateralTransactionType": {
+      "name": "Collateral Transaction Type",
+      "definition": "Collateral  transaction type."
+    }
+  },
+  "isoAssociations": {
+    "Valuation": {
+      "name": "Valuation",
+      "definition": "Valuation process of specific collateral elements."
+    },
+    "CollateralBalance": {
+      "name": "Collateral Balance",
+      "definition": "Collateral balance which contain specific collateral elements."
+    },
+    "CollateralAccount": {
+      "name": "Collateral Account",
+      "definition": "Account from or to which collateral is delivered."
+    },
+    "CollateralManagement": {
+      "name": "Collateral Management",
+      "definition": "Series of processes which are related to the collateral processes."
+    },
+    "CollateralPartyRole": {
+      "name": "Collateral Party Role",
+      "definition": "Specifies the roles played by a party in the context of collateral processes."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of the collateral or of an event related to collateral."
+    },
+    "AssetHolding": {
+      "name": "Asset Holding",
+      "definition": "Specifies the securities or physical entities given as collateral."
+    },
+    "VariationMarginAssetHolding": {
+      "name": "Variation Margin Asset Holding",
+      "definition": "Specifies in terms of value and quantity the assets held as collateral against the variation margin."
+    },
+    "SegregatedIndependentAmountAssetHolding": {
+      "name": "Segregated Independent Amount Asset Holding",
+      "definition": "Specifies in terms of value and quantity the assets held as collateral against the segregated independent amount."
+    },
+    "CollateralAgreement": {
+      "name": "Collateral Agreement",
+      "definition": "Collateral agreement which governs the collateral."
+    },
+    "RelatedCollateralSubstitution": {
+      "name": "Related Collateral Substitution",
+      "definition": "Collateral substitution for which new collateral is replacing the returned one."
+    },
+    "CollateralReinvestment": {
+      "name": "Collateral Reinvestment",
+      "definition": "Provides details on the type of the cash reinvestment in a given currency and on the cash reinvestment rate."
+    }
+  }
+}

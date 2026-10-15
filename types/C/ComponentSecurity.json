@@ -1,0 +1,34 @@
+{
+  "isoType": "ComponentSecurity",
+  "language": "en",
+  "name": "Component Security",
+  "definition": "Security which forms a component of another security, for example, underlying.",
+  "isoAttributes": {
+    "SeparationChoice": {
+      "name": "Separation Choice",
+      "definition": "Defines if the separation of the security is optional or mandatory."
+    },
+    "QuantityNumerator": {
+      "name": "Quantity Numerator",
+      "definition": "Number of related securities for the exercise."
+    },
+    "QuantityDenominator": {
+      "name": "Quantity Denominator",
+      "definition": "Number of held securities for the exercise."
+    },
+    "SeparationDate": {
+      "name": "Separation Date",
+      "definition": "Date/time at which the related security can (optional) or must (mandatory) be separated."
+    }
+  },
+  "isoAssociations": {
+    "SeparationPeriod": {
+      "name": "Separation Period",
+      "definition": "Period during which the related security can (optional) or must (mandatory) be separated."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which a component security is specified."
+    }
+  }
+}

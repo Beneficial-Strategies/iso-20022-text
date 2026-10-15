@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesStatus",
+  "language": "en",
+  "name": "Securities Status",
+  "definition": "Specifies the status of the security within its lifecycle.",
+  "isoAttributes": {
+    "PaymentStatus": {
+      "name": "Payment Status",
+      "definition": "Status of payment of a security at a particular time."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of the security within its lifecycle."
+    },
+    "RegistrationStatus": {
+      "name": "Registration Status",
+      "definition": "Specifies the status of the registration of the securities."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which a status is provided."
+    }
+  }
+}

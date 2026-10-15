@@ -1,0 +1,22 @@
+{
+  "isoType": "Reinvestment",
+  "language": "en",
+  "name": "Reinvestment",
+  "definition": "Parameters of the reinvestment of the income on the fund.",
+  "isoAttributes": {
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Percentage on the income on the fund to be reinvested."
+    }
+  },
+  "isoAssociations": {
+    "RelatedinvestmentAccountService": {
+      "name": "Relatedinvestment Account Service",
+      "definition": "Investment account services which include reinvestment information."
+    },
+    "InvestmentFundClass": {
+      "name": "Investment Fund Class",
+      "definition": "Investment fund class which is the fund in which the income must be reinvested."
+    }
+  }
+}

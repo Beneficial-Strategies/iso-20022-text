@@ -1,0 +1,86 @@
+{
+  "isoType": "InterestCalculation",
+  "language": "en",
+  "name": "Interest Calculation",
+  "definition": "Set of parameters used to calculate an interest amount.",
+  "isoAttributes": {
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Identifies the computation method of accrued interest of the related financial instrument."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Percentage charged for the use of an amount of money, usually expressed at an annual rate. The interest rate is the ratio of the amount of interest paid during a certain period of time compared to the principal amount of the interest bearing financial instrument."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies the type of rate used to calculate the interest."
+    },
+    "RelatedIndex": {
+      "name": "Related Index",
+      "definition": "Index rate related to the interest rate of the forthcoming interest payment."
+    },
+    "InterestAccrualDate": {
+      "name": "Interest Accrual Date",
+      "definition": "Start date used for calculating accrued interest on debt instruments which are being sold between interest payment dates. Often but not always the same as the issue date and the dated date."
+    },
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "Specifies whether the interest is simple or compounded."
+    },
+    "InterestType": {
+      "name": "Interest Type",
+      "definition": "Specifies the type of interest."
+    },
+    "InterestMethod": {
+      "name": "Interest Method",
+      "definition": "Indicates whether the interest will be settled in cash or rolled in the existing collateral balance."
+    },
+    "CalculationFrequency": {
+      "name": "Calculation Frequency",
+      "definition": "Specifies the periodicity of the calculation of the interest."
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Indicates the calculation date of the interest amount."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the frequency of an interest payment."
+    }
+  },
+  "isoAssociations": {
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest resulting from the interest calculation."
+    },
+    "InterestPeriod": {
+      "name": "Interest Period",
+      "definition": "Period during which the interest rate has been applied."
+    },
+    "VariableInterest": {
+      "name": "Variable Interest",
+      "definition": "Specifies the parameters to be used for variable interest payments."
+    },
+    "RateValidityRange": {
+      "name": "Rate Validity Range",
+      "definition": "Specifies the amount range for which the interest rate is applicable."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Specifies the charges on interest."
+    },
+    "DebtInstrument": {
+      "name": "Debt Instrument",
+      "definition": "Debt for which a next interest is specified."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Specifies the difference between two interests."
+    },
+    "RelatedInterestManagement": {
+      "name": "Related Interest Management",
+      "definition": "Interest management process which requires interest calculation."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "SwitchOrder",
+  "language": "en",
+  "name": "Switch Order",
+  "definition": "Transfer from one investment fund/fund class to another investment fund or investment fund class by the investor. A switch is composed of one or several subscription legs, and one or several redemption legs.",
+  "isoAttributes": {
+    "AdditionalCashIn": {
+      "name": "Additional Cash In",
+      "definition": "Additional amount of money paid by the investor in addition to the switch redemption amount."
+    },
+    "ResultingCashOut": {
+      "name": "Resulting Cash Out",
+      "definition": "Amount of money that results from a switch-out, that is not reinvested in another investment fund, and is repaid to the investor."
+    },
+    "TotalRedemptionAmount": {
+      "name": "Total Redemption Amount",
+      "definition": "Amount of money used to derive the quantity of investment fund units to be redeemed."
+    },
+    "TotalSubscriptionAmount": {
+      "name": "Total Subscription Amount",
+      "definition": "Amount of money used to derive the quantity of investment fund units to be subscribed."
+    }
+  },
+  "isoAssociations": {
+    "RedemptionLeg": {
+      "name": "Redemption Leg",
+      "definition": "Part of an investment fund switch order that is a redemption."
+    },
+    "SubscriptionLeg": {
+      "name": "Subscription Leg",
+      "definition": "Part of an investment fund switch order that is a subscription."
+    }
+  }
+}

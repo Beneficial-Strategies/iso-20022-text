@@ -1,0 +1,38 @@
+{
+  "isoType": "Negotiation",
+  "language": "en",
+  "name": "Negotiation",
+  "definition": "Decision making on the transfer of a financial instrument.",
+  "isoAttributes": {
+    "TradingMethod": {
+      "name": "Trading Method",
+      "definition": "Method used by the trading parties to negotiate and/or execute a deal."
+    },
+    "NegotiationIdentification": {
+      "name": "Negotiation Identification",
+      "definition": "Reference of a negotiation."
+    }
+  },
+  "isoAssociations": {
+    "TradeExecution": {
+      "name": "Trade Execution",
+      "definition": "Execution of a trade as a result of a successful negotiation between two trading parties."
+    },
+    "TradingSystem": {
+      "name": "Trading System",
+      "definition": "Electronic system through which parties are able to negotiate trades."
+    },
+    "Quote": {
+      "name": "Quote",
+      "definition": "Quote details shown in a negotiation process."
+    },
+    "IndicationOfInterest": {
+      "name": "Indication Of Interest",
+      "definition": "Indication of interest process which is the start of the negotiation."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Result of a successful negotiation."
+    }
+  }
+}

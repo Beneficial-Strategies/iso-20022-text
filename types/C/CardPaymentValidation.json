@@ -1,0 +1,66 @@
+{
+  "isoType": "CardPaymentValidation",
+  "language": "en",
+  "name": "Card Payment Validation",
+  "definition": "Results and parameters of the card payment verification.",
+  "isoAttributes": {
+    "TransactionSuccess": {
+      "name": "Transaction Success",
+      "definition": "Outcome of the transaction at the acceptor."
+    },
+    "MerchantOverride": {
+      "name": "Merchant Override",
+      "definition": "Indicate that the acceptor has forced the transaction in spite of the authorisation result (online or offline), or incident to complete the transaction."
+    },
+    "ValidityDate": {
+      "name": "Validity Date",
+      "definition": "Transaction authorisation deadline to complete the related payment."
+    },
+    "AuthorisationCode": {
+      "name": "Authorisation Code",
+      "definition": "Value assigned by the authorising party."
+    },
+    "OnLineReason": {
+      "name": "On Line Reason",
+      "definition": "Reason to process an online authorisation."
+    },
+    "CardholderAddressVerificationResult": {
+      "name": "Cardholder Address Verification Result",
+      "definition": "Result of the cardholder verification address checks on the street number and the postal code."
+    },
+    "CSCResult": {
+      "name": "CSC Result",
+      "definition": "Result of the printed CSC (Card Security Code) validation."
+    },
+    "ElectronicCommerceAuthenticationResult": {
+      "name": "Electronic Commerce Authentication Result",
+      "definition": "Result of an e-commerce authentication process."
+    },
+    "FailureReason": {
+      "name": "Failure Reason",
+      "definition": "Incident occuring during the transaction."
+    }
+  },
+  "isoAssociations": {
+    "CardPayment": {
+      "name": "Card Payment",
+      "definition": "Card payment to which the validation process applies."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Response to an authorisation request."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Balance of the account attached to the payment card."
+    },
+    "DeclinedProductCode": {
+      "name": "Declined Product Code",
+      "definition": "Product code for which the payment authorisation was declined."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Signature of the message to display or print."
+    }
+  }
+}

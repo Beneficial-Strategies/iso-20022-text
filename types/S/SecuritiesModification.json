@@ -1,0 +1,34 @@
+{
+  "isoType": "SecuritiesModification",
+  "language": "en",
+  "name": "Securities Modification",
+  "definition": "Modification of the reference data of a security or of the organisation that issued it.",
+  "isoAttributes": {
+    "ChangeType": {
+      "name": "Change Type",
+      "definition": "Type of changes affecting the security form."
+    },
+    "NumberOfSharesIssued": {
+      "name": "Number Of Shares Issued",
+      "definition": "The number of shares the issuer is creating as part of the event"
+    },
+    "LastTradingDate": {
+      "name": "Last Trading Date",
+      "definition": "Date/time at which the securities to be reorganised will cease to be tradeable."
+    }
+  },
+  "isoAssociations": {
+    "NewOrganisationInformation": {
+      "name": "New Organisation Information",
+      "definition": "New name of a company following a name change."
+    },
+    "RelatedCorporateEvent": {
+      "name": "Related Corporate Event",
+      "definition": "Specifies the parameters of the event related to the modification of the securities."
+    },
+    "NewSecurityReferenceData": {
+      "name": "New Security Reference Data",
+      "definition": "Specifies the updated information of the new security."
+    }
+  }
+}

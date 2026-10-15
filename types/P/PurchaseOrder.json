@@ -1,0 +1,26 @@
+{
+  "isoType": "PurchaseOrder",
+  "language": "en",
+  "name": "Purchase Order",
+  "definition": "Document issued by a buyer and containing the details of a purchase, including description of goods, transport information, payment terms, etc.",
+  "isoAttributes": {
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Line items total amount."
+    }
+  },
+  "isoAssociations": {
+    "ResultingCommercialTrade": {
+      "name": "Resulting Commercial Trade",
+      "definition": "Execution of the purchase order."
+    },
+    "Product": {
+      "name": "Product",
+      "definition": "Specifies the items which are sold by the seller to the buyer in a commercial trade."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the purchase order that can be used for reconciliation or to link tasks relating to the commercial trade."
+    }
+  }
+}

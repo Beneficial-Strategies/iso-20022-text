@@ -1,0 +1,50 @@
+{
+  "isoType": "Derivative",
+  "language": "en",
+  "name": "Derivative",
+  "definition": "Specifies the parameters of a derivative instrument based on a specific asset.",
+  "isoAttributes": {
+    "NotionalCurrencyAndAmount": {
+      "name": "Notional Currency And Amount",
+      "definition": "Amount underlying a financial derivatives contract necessary for calculating payments or receipts."
+    },
+    "DerivativeCovered": {
+      "name": "Derivative Covered",
+      "definition": "Indicates whether the derivative product is covered or not by an underlying financial instrument position."
+    },
+    "ExerciseDate": {
+      "name": "Exercise Date",
+      "definition": "Date on which the derivative is exercised."
+    },
+    "InterestIncludedInPrice": {
+      "name": "Interest Included In Price",
+      "definition": "Indicates whether the given derivative price includes a prorated accrued interest component."
+    },
+    "NotionalCurrency": {
+      "name": "Notional Currency",
+      "definition": "Currency of the underlying a financial derivatives contract necessary for calculating payments or receipts."
+    },
+    "VersionNumber": {
+      "name": "Version Number",
+      "definition": "Number allocated by options exchanges to record that an option has undergone a change in its contract specifications (particularly adjustment of the strike price)"
+    }
+  },
+  "isoAssociations": {
+    "UnderlyingAsset": {
+      "name": "Underlying Asset",
+      "definition": "Specifies the underlying asset of the derivative."
+    },
+    "Tick": {
+      "name": "Tick",
+      "definition": "Minimum price increment with which the contract may be traded."
+    },
+    "ExercisePrice": {
+      "name": "Exercise Price",
+      "definition": "Predetermined price at which the holder of a derivative will have to buy or sell the underlying instrument."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Describes the state transition of the derivative."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "SafekeepingPlace",
+  "language": "en",
+  "name": "Safekeeping Place",
+  "definition": "Organisation used as the safekeeping place for the securities.",
+  "isoAttributes": {
+    "SafekeepingPlaceType": {
+      "name": "Safekeeping Place Type",
+      "definition": "Place of safekeeping."
+    },
+    "DigitalLedgerIdentification": {
+      "name": "Digital Ledger Identification",
+      "definition": "Place of settlement expressed with a Digital Ledger Identifier. It identifies a digital ledger or distributed ledger system (for example, blockchain or similar platforms)."
+    }
+  },
+  "isoAssociations": {
+    "Country": {
+      "name": "Country",
+      "definition": "Country where the financial instruments are/will be safekept."
+    },
+    "RelatedSecuritiesAccount": {
+      "name": "Related Securities Account",
+      "definition": "Account at the safekeeping place where financial instruments are safekept."
+    },
+    "SecuritiesBalance": {
+      "name": "Securities Balance",
+      "definition": "Balance which is held at a safekeeping place."
+    },
+    "SecuritiesSettlement": {
+      "name": "Securities Settlement",
+      "definition": "Specifies the settlement operation which uses the safekeeping place."
+    }
+  }
+}

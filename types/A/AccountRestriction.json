@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountRestriction",
+  "language": "en",
+  "name": "Account Restriction",
+  "definition": "Restriction on capability or operations allowed.",
+  "isoAttributes": {
+    "RestrictionType": {
+      "name": "Restriction Type",
+      "definition": "Type of the restriction."
+    }
+  },
+  "isoAssociations": {
+    "Account": {
+      "name": "Account",
+      "definition": "Account on which restrictions are specified."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Period during which the restriction is effective."
+    }
+  }
+}

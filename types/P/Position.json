@@ -1,0 +1,34 @@
+{
+  "isoType": "Position",
+  "language": "en",
+  "name": "Position",
+  "definition": "Specifies the status of trades and their value inside a system.",
+  "isoAttributes": {
+    "NetPositionAmount": {
+      "name": "Net Position Amount",
+      "definition": "Specifies the net position amount of the trade legs of one member within the system."
+    },
+    "InitialPositionAmount": {
+      "name": "Initial Position Amount",
+      "definition": "Specifies the position at the beginning of a reporting period."
+    }
+  },
+  "isoAssociations": {
+    "NetQuantity": {
+      "name": "Net Quantity",
+      "definition": "Specifies the net quantity position of the trade legs of one member within the system."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System for which trades position is specified."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price applied to the position."
+    },
+    "SecuritiesSettlement": {
+      "name": "Securities Settlement",
+      "definition": "Information related to the settlement of the position."
+    }
+  }
+}

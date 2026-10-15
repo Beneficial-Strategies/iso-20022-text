@@ -1,0 +1,26 @@
+{
+  "isoType": "Rating",
+  "language": "en",
+  "name": "Rating",
+  "definition": "Assessment of securities credit and investment risk.",
+  "isoAttributes": {
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time as from which the rating is valid."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Specifies the rating, which has been assigned to a security by a rating agency."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which a rating is provided."
+    },
+    "RatingScheme": {
+      "name": "Rating Scheme",
+      "definition": "Information regarding the entity that assigns the rating."
+    }
+  }
+}

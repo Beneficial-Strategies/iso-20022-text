@@ -1,0 +1,42 @@
+{
+  "isoType": "TimeFrame",
+  "language": "en",
+  "name": "Time Frame",
+  "definition": "TimeFrame or period concept that allows definition of a period as number of days before or after a defined activity.",
+  "isoAttributes": {
+    "TradeMinus": {
+      "name": "Trade Minus",
+      "definition": "An agreed number of days before the Trade date (T) used to define standard timeframes e.g. T-1 Dealing cut off or T-2 prepayment condition|Where = T is the date that the price is applied to a transaction,"
+    },
+    "RenunciationMinus": {
+      "name": "Renunciation Minus",
+      "definition": "An agreed number of days before the Renunciation of Title documents are received used to define standard timeframes in redemption."
+    },
+    "TradePlus": {
+      "name": "Trade Plus",
+      "definition": "An agreed number of days after the Trade date (T) used to define standard timeframes e.g T+3 settlement period. |Where = T is the date that the price is applied to a transaction."
+    },
+    "RenunciationPlus": {
+      "name": "Renunciation Plus",
+      "definition": "An agreed number of days after the renunciation of title documents are received used to define standard timeframes in Redemption e.g R+3 Redemption settlement cycle."
+    },
+    "Prepayment": {
+      "name": "Prepayment",
+      "definition": "Indicates whether pre-payment is necessary."
+    },
+    "OtherTimeFrameDescription": {
+      "name": "Other Time Frame Description",
+      "definition": "Specifies a description of any other TimeFrame that may be used for the DealingCutOffTimeFrame"
+    }
+  },
+  "isoAssociations": {
+    "SubscriptionSettlementRelatedFundProcessing": {
+      "name": "Subscription Settlement Related Fund Processing",
+      "definition": "Fund processing characteristics related to a subscription cycle."
+    },
+    "RelatedProcessingCharacteristics": {
+      "name": "Related Processing Characteristics",
+      "definition": "Processing characteristics for which a cut off time frame is specified."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "ProceedsDefinition",
+  "language": "en",
+  "name": "Proceeds Definition",
+  "definition": "Definition of exchanges of cash and/or securities available in the processing of corporate actions.",
+  "isoAttributes": {
+    "SpecialConcessionAmount": {
+      "name": "Special Concession Amount",
+      "definition": "Amount of drawdown or other reduction from or in addition to the deal price."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the value is a debit or credit."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date on which a payment can be made, eg, if payment date is a non-business day or to indicate the first payment date of an offer."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time at which assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry)."
+    },
+    "NonEligibleProceedsIndicator": {
+      "name": "Non Eligible Proceeds Indicator",
+      "definition": "Specifies information regarding outturn resources that cannot be processed by the CSD. Special delivery instruction is required from the account owner for the CA outcome to be credited."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "name": "Issuer Offeror Taxability Indicator",
+      "definition": "Proceeds are taxable according to the information provided by the issuer / offeror."
+    },
+    "OfferPriceFixingDate": {
+      "name": "Offer Price Fixing Date",
+      "definition": "Date/time at which an offer price is determined (as compared to its reset date if applicable)."
+    },
+    "CountryOfIncomeSource": {
+      "name": "Country Of Income Source",
+      "definition": "Indicates the country from which the income originates."
+    }
+  },
+  "isoAssociations": {
+    "Option": {
+      "name": "Option",
+      "definition": "Option for which proceeds are specified."
+    },
+    "CorporateAction": {
+      "name": "Corporate Action",
+      "definition": "Corporate action for which the proceeds are specified."
+    }
+  }
+}

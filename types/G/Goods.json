@@ -1,0 +1,30 @@
+{
+  "isoType": "Goods",
+  "language": "en",
+  "name": "Goods",
+  "definition": "Good is a physical product that can be delivered to a purchaser and that involves the transfer of ownership from seller to customer.",
+  "isoAttributes": {
+    "Analysis": {
+      "name": "Analysis",
+      "definition": "Analysis of the goods, as proven by the trade certificate."
+    },
+    "HealthCheck": {
+      "name": "Health Check",
+      "definition": "Indicates if the goods have passed the health check."
+    },
+    "PhytosanitaryInspection": {
+      "name": "Phytosanitary Inspection",
+      "definition": "Indicates if the goods have passed the phytosanitary inspection."
+    }
+  },
+  "isoAssociations": {
+    "Transport": {
+      "name": "Transport",
+      "definition": "Specifies the transport information related to the delivery of goods."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Role played by a party in the context of producing goods."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "DeliveringSettlementParty",
+  "language": "en",
+  "name": "Delivering Settlement Party",
+  "definition": "Party that is responsible for delivering securities as part of a chain of settlement parties or as party that sells them.",
+  "isoAssociations": {
+    "DeliveringSettlementParty": {
+      "name": "Delivering Settlement Party",
+      "definition": "Specifies the settlement party which is followed by another party."
+    },
+    "NextParty": {
+      "name": "Next Party",
+      "definition": "Next party in the delivering side of the settlement the transaction chain."
+    }
+  }
+}

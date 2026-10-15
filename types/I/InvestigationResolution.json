@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationResolution",
+  "language": "en",
+  "name": "Investigation Resolution",
+  "definition": "Specifies the actions taken as a result of an investigation.",
+  "isoAttributes": {
+    "InvestigationCaseReference": {
+      "name": "Investigation Case Reference",
+      "definition": "Identifies the case for which a resolution is provided."
+    }
+  },
+  "isoAssociations": {
+    "InvestigationCase": {
+      "name": "Investigation Case",
+      "definition": "Case for which a resolution is provided."
+    }
+  }
+}

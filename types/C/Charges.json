@@ -1,0 +1,90 @@
+{
+  "isoType": "Charges",
+  "language": "en",
+  "name": "Charges",
+  "definition": "Amount of money associated with a service.",
+  "isoAttributes": {
+    "ChargeType": {
+      "name": "Charge Type",
+      "definition": "Type of service for which a charge is asked or paid."
+    },
+    "CalculationBasis": {
+      "name": "Calculation Basis",
+      "definition": "Calculation basis for the charge or fee."
+    },
+    "BearerType": {
+      "name": "Bearer Type",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether a charge is a credit or a debit."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount of money asked or paid for the charge for example depending on the type of investors."
+    },
+    "BaseAmount": {
+      "name": "Base Amount",
+      "definition": "Amount on which the charges are calculated."
+    },
+    "MaximumRate": {
+      "name": "Maximum Rate",
+      "definition": "Maximum rate used to calculate the amount of the charge or fee for example depending on the type of investors."
+    },
+    "MinimumRate": {
+      "name": "Minimum Rate",
+      "definition": "Minimum rate used to calculate the amount of the charge or fee for example depending on the type of investors."
+    },
+    "MinimumAmount": {
+      "name": "Minimum Amount",
+      "definition": "Minimum amount of money asked or paid for the charge for example depending on the type of investors."
+    },
+    "ChargePaymentMethod": {
+      "name": "Charge Payment Method",
+      "definition": "Specifies how charges are paid."
+    }
+  },
+  "isoAssociations": {
+    "ChargesDebitAccount": {
+      "name": "Charges Debit Account",
+      "definition": "Account from which a charge is debited."
+    },
+    "CashEntry": {
+      "name": "Cash Entry",
+      "definition": "Entry which contains the charges."
+    },
+    "InvestmentFundTransaction": {
+      "name": "Investment Fund Transaction",
+      "definition": "Investment fund transaction for which charges are specified."
+    },
+    "LogisticsChargeLineItem": {
+      "name": "Logistics Charge Line Item",
+      "definition": "Specifies the line item to which the logistics charge applies."
+    },
+    "Transport": {
+      "name": "Transport",
+      "definition": "Specifies the transport process to which the charges apply."
+    },
+    "Services": {
+      "name": "Services",
+      "definition": "Account services for which account administration charges are specified."
+    },
+    "RelatedUndertaking": {
+      "name": "Related Undertaking",
+      "definition": "Undertaking for which charges are specified."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Line item for which charges are specified"
+    },
+    "NetPriceChargeLineItem": {
+      "name": "Net Price Charge Line Item",
+      "definition": "Specifies the line item to which the net price charge applies."
+    },
+    "RelatedInterest": {
+      "name": "Related Interest",
+      "definition": "Interest on which charges are applied."
+    }
+  }
+}

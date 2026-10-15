@@ -1,0 +1,34 @@
+{
+  "isoType": "BasicSecuritiesRegistration",
+  "language": "en",
+  "name": "Basic Securities Registration",
+  "definition": "Information related to registration of securities.",
+  "isoAttributes": {
+    "RegistrationInstruction": {
+      "name": "Registration Instruction",
+      "definition": "Specifies whether registration should occur upon receipt."
+    },
+    "CertificationIdentification": {
+      "name": "Certification Identification",
+      "definition": "Identification assigned to a deposit."
+    },
+    "CertificationDate": {
+      "name": "Certification Date",
+      "definition": "Date/time at which the certificates in the deposit were validated by the agent."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which registration information is provided."
+    },
+    "SecuritiesCertificate": {
+      "name": "Securities Certificate",
+      "definition": "Unique and unambiguous identification of a certificate assigned by the issuer."
+    },
+    "SplitPeriod": {
+      "name": "Split Period",
+      "definition": "Period during which a physical certificate can be split."
+    }
+  }
+}

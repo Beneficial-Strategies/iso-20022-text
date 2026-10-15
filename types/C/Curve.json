@@ -1,0 +1,26 @@
+{
+  "isoType": "Curve",
+  "language": "en",
+  "name": "Curve",
+  "definition": "Describes a benchmark curve.",
+  "isoAttributes": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Identifies the currency used for the benchmark curve."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Identifies the name of the benchmark curve."
+    },
+    "Point": {
+      "name": "Point",
+      "definition": "Identifies a point on a benchmark curve. The point can be stated via a combination of maturity month/year and coupon."
+    }
+  },
+  "isoAssociations": {
+    "Spread": {
+      "name": "Spread",
+      "definition": "Spread for which a benchmark curve is specified."
+    }
+  }
+}

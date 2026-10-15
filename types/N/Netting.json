@@ -1,0 +1,34 @@
+{
+  "isoType": "Netting",
+  "language": "en",
+  "name": "Netting",
+  "definition": "Offset of payables against receivables to reduce credit exposure to a counterparty.",
+  "isoAttributes": {
+    "NetPositionAmount": {
+      "name": "Net Position Amount",
+      "definition": "Calculated position."
+    },
+    "AmountDirection": {
+      "name": "Amount Direction",
+      "definition": "Specifies whether the amount is a debit or a credit."
+    },
+    "PositionAmount": {
+      "name": "Position Amount",
+      "definition": "Intra-position amount."
+    }
+  },
+  "isoAssociations": {
+    "AverageDealPrice": {
+      "name": "Average Deal Price",
+      "definition": "Average price of the netted trades."
+    },
+    "RelatedSecuritiesClearingProcess": {
+      "name": "Related Securities Clearing Process",
+      "definition": "Clearing process which includes the netting."
+    },
+    "NetQuantity": {
+      "name": "Net Quantity",
+      "definition": "Calculated net quantity of securities."
+    }
+  }
+}

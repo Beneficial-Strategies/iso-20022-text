@@ -1,0 +1,34 @@
+{
+  "isoType": "CashStandingOrder",
+  "language": "en",
+  "name": "Cash Standing Order",
+  "definition": "Instruction given by a party that has explicit authority to instruct a debit on the account, ie, either the debit account owner or originating party, to a first agent, to process cash transfers at specified intervals during an implicit or explicit period of time. A standing order is given once and is valid for an open or closed period of time.",
+  "isoAttributes": {
+    "ZeroSweepIndicator": {
+      "name": "Zero Sweep Indicator",
+      "definition": "Indicates whether the liquidity transfer standing order is defined as a zero sweeping order. When true, the liquidity transfer standing order will transfer all amount of money out of the account so the resulting balance is  zero."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies if the account is debited or credited by the standing order."
+    },
+    "FloorAmount": {
+      "name": "Floor Amount",
+      "definition": "Minimum amount of money that should remain on the debtor's account, for cash management purposes."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCashServices": {
+      "name": "Related Cash Services",
+      "definition": "Cash management services which provide standing order facilities."
+    },
+    "CreditTransfer": {
+      "name": "Credit Transfer",
+      "definition": "Standing order causes a payment instruction at regular intervals, eg, as specified by its frequency."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account for which a standing order applies."
+    }
+  }
+}

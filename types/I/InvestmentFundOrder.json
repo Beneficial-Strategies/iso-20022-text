@@ -1,0 +1,94 @@
+{
+  "isoType": "InvestmentFundOrder",
+  "language": "en",
+  "name": "Investment Fund Order",
+  "definition": "An investor's instruction to either subscribe or redeem an amount of money or its equivalent, for example other assets, into or out of an investment fund.",
+  "isoAttributes": {
+    "GrossAmountIndicator": {
+      "name": "Gross Amount Indicator",
+      "definition": "Indicates whether an ordered amount is a gross amount (including all charges, commissions, tax). If it is not a gross amount, the ordered amount is a net amount (amount to be invested or redeemed from the fund to which other elements will be added)."
+    },
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Specifies the category of the investment fund order."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money used to derive the quantity of investment fund units sold or subscribed, before deduction of charges, commissions, and taxes, expressed in the currency requested by the investor.|[Quantity * Price] + (Charges + Commissions +Taxes)]"
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money used to determine the quantity of investment fund units to be subscribed or to be sold."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time at which the order was placed by the investor."
+    },
+    "ExpiryDateTime": {
+      "name": "Expiry Date Time",
+      "definition": "Date on which the order expires."
+    },
+    "CancellationRight": {
+      "name": "Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an investment fund order."
+    },
+    "RequestedSettlementCurrency": {
+      "name": "Requested Settlement Currency",
+      "definition": "Currency requested for settlement of cash proceeds."
+    },
+    "RequestedExecutionDateTime": {
+      "name": "Requested Execution Date Time",
+      "definition": "Date and time at which the investor requests the order to be executed."
+    },
+    "FinancialAdvice": {
+      "name": "Financial Advice",
+      "definition": "Specifies if advice has been received from an independent financial advisor."
+    },
+    "NegotiatedTrade": {
+      "name": "Negotiated Trade",
+      "definition": "Specifies whether the trade is negotiated."
+    },
+    "HoldingsRate": {
+      "name": "Holdings Rate",
+      "definition": "Percentage of the financial quantity to be invested or redeemed."
+    },
+    "OrderWaiverReason": {
+      "name": "Order Waiver Reason",
+      "definition": "Reason why an order has to be handled differently, probably in a manual fashion, because for example, the investment manager has agreed a waiver to the extended terms."
+    },
+    "InitialOrderIndicator": {
+      "name": "Initial Order Indicator",
+      "definition": "Indicates whether the subscription order is an initial order."
+    },
+    "OrderBookingDate": {
+      "name": "Order Booking Date",
+      "definition": "Date and time an investment fund order is registered on the books of either the fund or its designated agent, eg, transfer agent."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount subscribed in the current tax year."
+    }
+  },
+  "isoAssociations": {
+    "RelatedTransaction": {
+      "name": "Related Transaction",
+      "definition": "Transaction which is the source of the order."
+    },
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Quantity of investment fund units to be subscribed or redeemed."
+    },
+    "InvestmentFundOrderExecution": {
+      "name": "Investment Fund Order Execution",
+      "definition": "Execution of an investment fund order."
+    },
+    "InvestmentPlan": {
+      "name": "Investment Plan",
+      "definition": "Investment plan which triggers the standing orders."
+    },
+    "OrderStatus": {
+      "name": "Order Status",
+      "definition": "Status of an investment fund order."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "isoType": "InvestmentFund",
+  "language": "en",
+  "name": "Investment Fund",
+  "definition": "Distinct pool of financial instruments managed by a single investment policy. May or not be part of an umbrella fund. The pool is issued in at least one investment fund class.",
+  "isoAttributes": {
+    "FundType": {
+      "name": "Fund Type",
+      "definition": "Legal form of the fund, eg, UCITS, SICAV, OEIC, Unit Trust, and FCP."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the investment fund."
+    },
+    "Structure": {
+      "name": "Structure",
+      "definition": "Structure of the subfund, eg, single fund, multi-class."
+    },
+    "LegalForm": {
+      "name": "Legal Form",
+      "definition": "Legal form of a fund, eg, corporation or trust."
+    },
+    "SubFundIndicator": {
+      "name": "Sub Fund Indicator",
+      "definition": "Indicates whether the investment fund is a subfund, when it is a compartment of an umbrella fund. In this case, subfund is a synonym of investment fund and therefore has the same attributes as investment fund."
+    },
+    "EndOfFiscalYear": {
+      "name": "End Of Fiscal Year",
+      "definition": "Date at which the books are closed and profit and loss is determined."
+    },
+    "AccountingYearEndDate": {
+      "name": "Accounting Year End Date",
+      "definition": "Last day of the accounting year for the fund."
+    },
+    "FirstAccountingYearEndDate": {
+      "name": "First Accounting Year End Date",
+      "definition": "Last day of the first accounting year for the fund."
+    },
+    "AuthorisedCountry": {
+      "name": "Authorised Country",
+      "definition": "Country in which it is authorised to commercialise the fund."
+    }
+  },
+  "isoAssociations": {
+    "DomicileCountry": {
+      "name": "Domicile Country",
+      "definition": "Country in which the investment fund is domiciled."
+    },
+    "OrderDesk": {
+      "name": "Order Desk",
+      "definition": "Entity appointed by the fund, to which orders should be submitted."
+    },
+    "InvestmentFundClass": {
+      "name": "Investment Fund Class",
+      "definition": "Sub-set of an investment fund."
+    },
+    "TreasuryTradingParty": {
+      "name": "Treasury Trading Party",
+      "definition": "Party which executes a treasury trade on behalf of an investment fund."
+    },
+    "Custodian": {
+      "name": "Custodian",
+      "definition": "Party which settles the trades for the account of the fund."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to an investment fund and played by a party in that context."
+    },
+    "Family": {
+      "name": "Family",
+      "definition": "Family to which the investment fund belongs."
+    },
+    "UmbrellaFund": {
+      "name": "Umbrella Fund",
+      "definition": "Umbrella fund for which compartments are specified."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "UndertakingExtension",
+  "language": "en",
+  "name": "Undertaking Extension",
+  "definition": "Specifies information related to the extension of an undertaking.",
+  "isoAttributes": {
+    "AutoExtensionPeriod": {
+      "name": "Auto Extension Period",
+      "definition": "Requirement for a clause covering an automatic extension of the validity expiry date."
+    },
+    "AutoExtensionFinalExpiryDate": {
+      "name": "Auto Extension Final Expiry Date",
+      "definition": "Date after which the undertaking will no longer be subject to automatic extension."
+    },
+    "NonExtensionNoticePeriod": {
+      "name": "Non Extension Notice Period",
+      "definition": "Minimum number of days of advance notification that must be given to indicate the undertaking  will no longer be extended."
+    },
+    "NonExtensionIndicator": {
+      "name": "Non Extension Indicator",
+      "definition": "Indicates whether the undertaking can be extended."
+    },
+    "AutoExtensionNotificationPeriod": {
+      "name": "Auto Extension Notification Period",
+      "definition": "Minimum number of days of advance notification given to indicate the undertaking will no longer be automatically extended."
+    },
+    "NotificationRecipientType": {
+      "name": "Notification Recipient Type",
+      "definition": "Type of party to whom the notice of non-extension is intended to be delivered, such as the applicant or beneficiary."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which extension parameters are provided."
+    }
+  }
+}

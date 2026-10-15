@@ -1,0 +1,218 @@
+{
+  "isoType": "CorporateActionEvent",
+  "language": "en",
+  "name": "Corporate Action Event",
+  "definition": "An event determined by a corporation's board of directors, that changes the existing corporate capital structure or financial condition.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of corporate action event."
+    },
+    "MandatoryVoluntaryEventType": {
+      "name": "Mandatory Voluntary Event Type",
+      "definition": "Specifies whether the event is mandatory, mandatory with options or voluntary."
+    },
+    "RegistrationDetails": {
+      "name": "Registration Details",
+      "definition": "Provides information required for the registration."
+    },
+    "BasketOrIndexInformation": {
+      "name": "Basket Or Index Information",
+      "definition": "Provides additional information on the basket or index underlying a security, for example a warrant."
+    },
+    "AdditionalBusinessProcess": {
+      "name": "Additional Business Process",
+      "definition": "Specifies the type of the additional business process linked to a corporate action event such as a claim compensation or tax refund."
+    },
+    "TradingDate": {
+      "name": "Trading Date",
+      "definition": "Date/time at which the deal (rights) was agreed."
+    },
+    "PariPassuDate": {
+      "name": "Pari Passu Date",
+      "definition": "Date on which security will assimilate, become fungible, or have the same rights to dividends as the parent issue."
+    },
+    "InformationConditions": {
+      "name": "Information Conditions",
+      "definition": "Provides conditional information related to the event, eg, an offer is subject to 50% acceptance, the offeror allows the securities holder to set some conditions."
+    },
+    "EventProcessingType": {
+      "name": "Event Processing Type",
+      "definition": "Type of processing involved by a Corporate Action."
+    },
+    "AnnouncementDate": {
+      "name": "Announcement Date",
+      "definition": "Date/time at which the issuer announced that a corporate action event will occur such as the issue of securities or an official meeting."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date/time at which an event is officially effective from the issuer's perspective."
+    },
+    "FurtherDetailsAnnouncementDate": {
+      "name": "Further Details Announcement Date",
+      "definition": "Date/time at which additional information on the event will be announced, for instance exchange ratio announcement date."
+    },
+    "MarginFixingDate": {
+      "name": "Margin Fixing Date",
+      "definition": "Date/time at which the margin rate will be determined ."
+    },
+    "ResultPublicationDate": {
+      "name": "Result Publication Date",
+      "definition": "Date on which results are published, eg, results of an offer, of a meeting."
+    },
+    "UnconditionalDate": {
+      "name": "Unconditional Date",
+      "definition": "Date upon which the terms of the take-over become unconditional as to acceptances."
+    },
+    "WhollyUnconditionalDate": {
+      "name": "Wholly Unconditional Date",
+      "definition": "Date on which all conditions, including regulatory, legal etc. pertaining to the take-over, have been met."
+    },
+    "LapsedDate": {
+      "name": "Lapsed Date",
+      "definition": "Date/time at which an event/offer is terminated or lapsed."
+    },
+    "RestrictionIndicator": {
+      "name": "Restriction Indicator",
+      "definition": "Indicates whether there are legal or other restrictions associated with a rights offer or other corporate event, for example, domicile, citizenship, residency, type of investor.|Yes = There are restrictions.|No = There are no restrictions."
+    },
+    "EventStage": {
+      "name": "Event Stage",
+      "definition": "Stage in the corporate action event life cycle."
+    },
+    "PartialElectionIndicator": {
+      "name": "Partial Election Indicator",
+      "definition": "Specifies if the issuer will allow the agent to accept partial elections. It is to allow split voting over options. It allows the client to elect more than one option to be selected per designated holding."
+    },
+    "MarginType": {
+      "name": "Margin Type",
+      "definition": "Specifies the margin type for a remarketing procedure."
+    },
+    "ConsentType": {
+      "name": "Consent Type",
+      "definition": "Corporate actions may be approved by shareholders without a meeting or a vote by means of execution of a consent by a majority of shareholders entitled to vote."
+    },
+    "TaxOnNonDistributedProceedsIndicator": {
+      "name": "Tax On Non Distributed Proceeds Indicator",
+      "definition": "Specifies the tax regulation being attributed to the  non- distributed proceeds event."
+    },
+    "AcceptancePriorityLevel": {
+      "name": "Acceptance Priority Level",
+      "definition": "Level of priority of the given offer which will be accepted by the issuer/agent within the tiered structure of the event.|Offer events in many cases are subject to proration."
+    },
+    "DutchAuctionType": {
+      "name": "Dutch Auction Type",
+      "definition": "Specifies whether a Dutch auction is modified or unmodified."
+    },
+    "ReverseDutchAuctionIndicator": {
+      "name": "Reverse Dutch Auction Indicator",
+      "definition": "Indicates that the Dutch Auction event is a Reverse Dutch Auction."
+    }
+  },
+  "isoAssociations": {
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Security to which this instruction or event applies."
+    },
+    "CorporateActionPrice": {
+      "name": "Corporate Action Price",
+      "definition": "Specifies prices related to a corporate action."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Rate, specified by the issuer, when the paid amount is not in the same currency as the specified amount."
+    },
+    "Deadline": {
+      "name": "Deadline",
+      "definition": "Specifies the different deadlines related to a corporate event."
+    },
+    "CorporateActionCharge": {
+      "name": "Corporate Action Charge",
+      "definition": "Specifies the charges relative to a corporate action event."
+    },
+    "FractionalQuantity": {
+      "name": "Fractional Quantity",
+      "definition": "Fractional quantity resulting from an event which will be paid with cash in lieu."
+    },
+    "CorporateActionStatus": {
+      "name": "Corporate Action Status",
+      "definition": "Status of the corporate action process."
+    },
+    "BookClosurePeriod": {
+      "name": "Book Closure Period",
+      "definition": "Period defining the last date on which shareholder registration will be accepted by the issuer and the date on which shareholder registration will resume."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Provides information about securities quantity linked to a corporate action."
+    },
+    "DocumentationLocation": {
+      "name": "Documentation Location",
+      "definition": "Information on where additional information published for the event, can be received. for instance the address for the Universal Resource Locator (URL), eg, used over the www (HTTP) service."
+    },
+    "SecuritiesQuantitySought": {
+      "name": "Securities Quantity Sought",
+      "definition": "Quantity of securities the offeror/issuer will purchase or redeem under the terms of the event. This can be a number or the term \"any and all\"."
+    },
+    "CorporateActionPartyRole": {
+      "name": "Corporate Action Party Role",
+      "definition": "Specifies the role played by a party in the context of a corporate action."
+    },
+    "MarketClaim": {
+      "name": "Market Claim",
+      "definition": "Market claim information."
+    },
+    "BiddingConditions": {
+      "name": "Bidding Conditions",
+      "definition": "Specifies the conditions under which securities can be acquired as part of a corporate action."
+    },
+    "RelatedClassAction": {
+      "name": "Related Class Action",
+      "definition": "Specifies the underlying class action related to the event."
+    },
+    "CorporateActionEventRegistration": {
+      "name": "Corporate Action Event Registration",
+      "definition": "Official registration of the event."
+    },
+    "SuspensionPeriod": {
+      "name": "Suspension Period",
+      "definition": "Period defining the last date for which an action will be accepted and the date on which the suspension will be released and normal processing will resume."
+    },
+    "Lottery": {
+      "name": "Lottery",
+      "definition": "Organisation of draws for cash prizes on bonds (instead of coupon payments). Every issued bond (similar to a lottery ticket) has an equal opportunity at winning payments in the draws."
+    },
+    "RelatedMeeting": {
+      "name": "Related Meeting",
+      "definition": "Provides information on the meeting  related to the corporate event."
+    },
+    "Services": {
+      "name": "Services",
+      "definition": "Specifies the different services linked to a corporate action event."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Information specified when the corporate event relates to the issuance of securities."
+    },
+    "SecuritiesModification": {
+      "name": "Securities Modification",
+      "definition": "Modification of the reference data of a security or of the organisation that issued it."
+    },
+    "TradingPeriod": {
+      "name": "Trading Period",
+      "definition": "Period during which a financial instrument is available for trading."
+    },
+    "TransactionTax": {
+      "name": "Transaction Tax",
+      "definition": "Tax rate of financial transactions related to an event."
+    },
+    "ProceedsDefinition": {
+      "name": "Proceeds Definition",
+      "definition": "Specifies the proceeds of a corporate action."
+    },
+    "FiscalYearPeriod": {
+      "name": "Fiscal Year Period",
+      "definition": "Period defining the fiscal or tax year the dividend pertains to in order to correctly deduct taxes for residents."
+    }
+  }
+}

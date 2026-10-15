@@ -1,0 +1,16 @@
+{
+  "isoType": "InvoiceFinancingPartyRole",
+  "language": "en",
+  "name": "Invoice Financing Party Role",
+  "definition": "Role played by a party in the context of financing an invoice.",
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account used in the financing process."
+    },
+    "InvoiceFinancingTransaction": {
+      "name": "Invoice Financing Transaction",
+      "definition": "Identifies the invoice financing transaction for which a party plays a role."
+    }
+  }
+}

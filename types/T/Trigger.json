@@ -1,0 +1,22 @@
+{
+  "isoType": "Trigger",
+  "language": "en",
+  "name": "Trigger",
+  "definition": "Trigger that causes the variation to come into effect.",
+  "isoAttributes": {
+    "TriggerDate": {
+      "name": "Trigger Date",
+      "definition": "Date on which the variation comes into effect."
+    },
+    "TriggerEvent": {
+      "name": "Trigger Event",
+      "definition": "Event that causes the variation to come into effect."
+    }
+  },
+  "isoAssociations": {
+    "AutomaticVariation": {
+      "name": "Automatic Variation",
+      "definition": "Variation which was triggered by the event."
+    }
+  }
+}

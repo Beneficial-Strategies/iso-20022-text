@@ -1,0 +1,62 @@
+{
+  "isoType": "ForeignExchangeTrade",
+  "language": "en",
+  "name": "Foreign Exchange Trade",
+  "definition": "Agreement between two parties in which one party buys a currency and the other party sells a different currency.",
+  "isoAttributes": {
+    "TypeOfProduct": {
+      "name": "Type Of Product",
+      "definition": "Specifies the type of trade."
+    },
+    "BuyAmount": {
+      "name": "Buy Amount",
+      "definition": "Currency and amount bought in a foreign exchange trade."
+    },
+    "SellAmount": {
+      "name": "Sell Amount",
+      "definition": "Currency and amount sold in a foreign exchange trade."
+    },
+    "ExchangeForwardPoint": {
+      "name": "Exchange Forward Point",
+      "definition": "Difference between the foreign exchange spot rate and the foreign exchange forward rate expressed in basis points quoted in accordance with the prevailing market conventions for the currency pair."
+    }
+  },
+  "isoAssociations": {
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Exchange rate between two currencies. The rate is agreed by the trading parties during the negotiation process."
+    },
+    "ResultingSettlement": {
+      "name": "Resulting Settlement",
+      "definition": "Payment of the settlement amount to the account(s) of the final beneficiary. A payment may be settled gross, through split amounts at several agents of the buyer, or netted with several other treasury agreements."
+    },
+    "CurrencyExchangeForSecuritiesSettlement": {
+      "name": "Currency Exchange For Securities Settlement",
+      "definition": "Securities settlement process for which a currency exchange is provided."
+    },
+    "OpeningLegRelatedNonDeliverableTrade": {
+      "name": "Opening Leg Related Non Deliverable Trade",
+      "definition": "Non deliverable trade for which an opening closing leg is specified."
+    },
+    "ClosingLegRelatedNonDeliverableTrade": {
+      "name": "Closing Leg Related Non Deliverable Trade",
+      "definition": "Non deliverable trade for which a closing leg is specified."
+    },
+    "RelatedSwap": {
+      "name": "Related Swap",
+      "definition": "FX swap for which the FX trade is one leg."
+    },
+    "RelatedOption": {
+      "name": "Related Option",
+      "definition": "Option which is executed by one (or more) FX trade."
+    },
+    "CurrencyExchangeForTaxVoucher": {
+      "name": "Currency Exchange For Tax Voucher",
+      "definition": "Tax voucher for which currency exchange information is specified."
+    },
+    "PostTradeEvent": {
+      "name": "Post Trade Event",
+      "definition": "Information relating to post-trade lifecycle events."
+    }
+  }
+}

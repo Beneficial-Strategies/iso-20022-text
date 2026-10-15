@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesAccount",
+  "language": "en",
+  "name": "Securities Account",
+  "definition": "Account to or from which a securities entry is made.",
+  "isoAttributes": {
+    "SecuritiesAccountType": {
+      "name": "Securities Account Type",
+      "definition": "Specifies the type of securities account."
+    },
+    "ClearingAccountType": {
+      "name": "Clearing Account Type",
+      "definition": "Specifies the clearing account type."
+    }
+  },
+  "isoAssociations": {
+    "RelatedInvestmentAccount": {
+      "name": "Related Investment Account",
+      "definition": "Investment account which contains a securities account to make securities movements."
+    },
+    "RelatedTransfer": {
+      "name": "Related Transfer",
+      "definition": "Specifies the process which moves securities out of an account to another one."
+    },
+    "SecuritiesPartyRole": {
+      "name": "Securities Party Role",
+      "definition": "Specifies the role which uses a securities account."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security which is held on the securities account."
+    },
+    "RelatedRegistrar": {
+      "name": "Related Registrar",
+      "definition": "Specifies where the financial instruments are registered."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Location where the financial instruments are safekept."
+    },
+    "SecuritiesBalance": {
+      "name": "Securities Balance",
+      "definition": "Value of financial assets held by a person or an organisation. It is derived from the association between Account and Balance."
+    },
+    "CorporateActionServicing": {
+      "name": "Corporate Action Servicing",
+      "definition": "Actions taken in relation with the securities account in the context of the corporate action."
+    },
+    "RelatedAllocation": {
+      "name": "Related Allocation",
+      "definition": "Allocation process for which an account is specified."
+    },
+    "SecuritiesEntry": {
+      "name": "Securities Entry",
+      "definition": "Record of the movements into or out of an account."
+    },
+    "ClearingAccountOwner": {
+      "name": "Clearing Account Owner",
+      "definition": "Clearing member which holds a clearing account at a CCP."
+    },
+    "MarginAccountOwner": {
+      "name": "Margin Account Owner",
+      "definition": "Clearing member which holds a margin account at a CCP."
+    },
+    "DeliveryAccountOwner": {
+      "name": "Delivery Account Owner",
+      "definition": "Clearing member which holds a delivery account at a CCP."
+    },
+    "RelatedPowerOfAttorney": {
+      "name": "Related Power Of Attorney",
+      "definition": "Power of attorney related to the securities account."
+    },
+    "RelatedMeetingInstruction": {
+      "name": "Related Meeting Instruction",
+      "definition": "Meeting instruction which specifies an account."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order process for which an ordering account is specified."
+    },
+    "DisclosedListTrading": {
+      "name": "Disclosed List Trading",
+      "definition": "Disclosed list trading process for which a trading account is specified."
+    },
+    "AccountLink": {
+      "name": "Account Link",
+      "definition": "Defines the link between a cash account and a securities account."
+    }
+  }
+}

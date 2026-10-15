@@ -1,0 +1,54 @@
+{
+  "isoType": "Authentication",
+  "language": "en",
+  "name": "Authentication",
+  "definition": "Data related to the authentication of the cardholder.",
+  "isoAttributes": {
+    "AuthenticationMethod": {
+      "name": "Authentication Method",
+      "definition": "Method used to authenticate a person."
+    },
+    "AuthenticationEntity": {
+      "name": "Authentication Entity",
+      "definition": "Entity or object in charge of verifying the person authenticity."
+    },
+    "AuthenticationValue": {
+      "name": "Authentication Value",
+      "definition": "Value used to authenticate the owner of the payment card."
+    },
+    "PINFormat": {
+      "name": "PIN Format",
+      "definition": "Encrypted personal identification number (PIN) format."
+    },
+    "PIN": {
+      "name": "PIN",
+      "definition": "Personal Identification Number (PIN) for authentication."
+    },
+    "AuthenticationSupport": {
+      "name": "Authentication Support",
+      "definition": "This indicator identifies whether person authentication is supported and data is available."
+    },
+    "CollectionIndicator": {
+      "name": "Collection Indicator",
+      "definition": "Identifies in electronic commerce transactions whether customer authentication is supported and data is available."
+    },
+    "AuthenticationResult": {
+      "name": "Authentication Result",
+      "definition": "Specifies the result of the authentication."
+    },
+    "Exemption": {
+      "name": "Exemption",
+      "definition": "If Strong Customer Authentication is not mandated to process the transaction, this message element must identify the reason of exemption."
+    }
+  },
+  "isoAssociations": {
+    "Cardholder": {
+      "name": "Cardholder",
+      "definition": "Cardholder for which an authentication is provided."
+    },
+    "Mandate": {
+      "name": "Mandate",
+      "definition": "Specifies the mandate related to the transport authentication details mandate."
+    }
+  }
+}

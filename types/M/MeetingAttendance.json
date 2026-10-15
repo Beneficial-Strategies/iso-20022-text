@@ -1,0 +1,22 @@
+{
+  "isoType": "MeetingAttendance",
+  "language": "en",
+  "name": "Meeting Attendance",
+  "definition": "Information on the participation of the security holder or of its assigned representative.",
+  "isoAttributes": {
+    "PercentageOfVotingRights": {
+      "name": "Percentage Of Voting Rights",
+      "definition": "Percentage of rights participating to the vote versus total voting rights."
+    }
+  },
+  "isoAssociations": {
+    "AttendanceCard": {
+      "name": "Attendance Card",
+      "definition": "Specifies details linked to the attendance card."
+    },
+    "RelatedMeeting": {
+      "name": "Related Meeting",
+      "definition": "Instruction in which the meeting attendance conditions are specified."
+    }
+  }
+}

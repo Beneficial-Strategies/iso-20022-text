@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestmentFundFamily",
+  "language": "en",
+  "name": "Investment Fund Family",
+  "definition": "Group of investment funds under the same fund management company.",
+  "isoAttributes": {
+    "FundFamilyName": {
+      "name": "Fund Family Name",
+      "definition": "Name of the investment fund family."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentFund": {
+      "name": "Investment Fund",
+      "definition": "Pool of financial instruments managed by a professional asset manager and belonging to one or several investment fund families that are part of the same investment fund network."
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "isoType": "SecuritiesSettlement",
+  "language": "en",
+  "name": "Securities Settlement",
+  "definition": "Settlement of the securities in a securities transaction, that is, the instruction to deliver or receive securities, involving the payment of an amount of money or not.",
+  "isoAttributes": {
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which a transaction is completed and cleared. |It can be an effective settlement date, that is, payment is effected and securities are delivered or an intended settlement date that is, the date and time at which the amount of money is intended to be moved."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Amount of money settled or to be settled."
+    },
+    "HoldingsPlanType": {
+      "name": "Holdings Plan Type",
+      "definition": "Identifies whether or not saving plan or withdrawal or switch plan are included in the holdings."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies if the movement on a securities account results from a deliver or a receive instruction."
+    },
+    "CurrencyToBuy": {
+      "name": "Currency To Buy",
+      "definition": "Account servicer is instructed to buy the indicated currency after the receipt of cash proceeds."
+    },
+    "CurrencyToSell": {
+      "name": "Currency To Sell",
+      "definition": "Account servicer is instructed to sell a currency in order to obtain the currency needed to fund the transaction."
+    },
+    "DenominationChoice": {
+      "name": "Denomination Choice",
+      "definition": "Denomination (stated value found on financial instruments) of the security to be received or delivered."
+    },
+    "SettlementTransactionCondition": {
+      "name": "Settlement Transaction Condition",
+      "definition": "Conditions under which the order/trade is to be settled."
+    },
+    "BeneficialOwnershipIndicator": {
+      "name": "Beneficial Ownership Indicator",
+      "definition": "Specifies whether there is change of beneficial ownership."
+    },
+    "MarketClientSide": {
+      "name": "Market Client Side",
+      "definition": "Specifies if an instruction is for a market side or a client side transaction."
+    },
+    "Tracking": {
+      "name": "Tracking",
+      "definition": "Specifies whether the loan and/or collateral is tracked."
+    },
+    "LetterOfGuarantee": {
+      "name": "Letter Of Guarantee",
+      "definition": "Specifies whether physical settlement may be executed using a letter of guarantee or if the physical certificates should be used."
+    },
+    "EligibleForCollateral": {
+      "name": "Eligible For Collateral",
+      "definition": "Specifies whether securities should be included in the pool of securities eligible for collateral purposes."
+    },
+    "AccruedInterestIndicator": {
+      "name": "Accrued Interest Indicator",
+      "definition": "Indicates whether the net proceeds include interest accrued on the financial instrument."
+    },
+    "PreConfirmation": {
+      "name": "Pre Confirmation",
+      "definition": "Pre-confirmation of the cash transfer pending the securities transfer, or vice versa."
+    },
+    "SecuritiesRealTimeGrossSettlement": {
+      "name": "Securities Real Time Gross Settlement",
+      "definition": "Specifies whether the settlement transaction is to be settled through an RTGS or a non RTGS system."
+    },
+    "BlockTrade": {
+      "name": "Block Trade",
+      "definition": "Specifies whether the settlement instruction is a block parent or child."
+    },
+    "SettlementSystemMethod": {
+      "name": "Settlement System Method",
+      "definition": "Specifies whether the settlement instruction is to be settled through the default or the alternate settlement system."
+    },
+    "AutomaticBorrowing": {
+      "name": "Automatic Borrowing",
+      "definition": "Condition for automatic borrowing."
+    },
+    "PartialSettlementIndicator": {
+      "name": "Partial Settlement Indicator",
+      "definition": "Specifies whether partial settlement is allowed."
+    },
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Specifies whether the transaction is on hold/blocked/frozen."
+    },
+    "SettlementReason": {
+      "name": "Settlement Reason",
+      "definition": "Specifies the reason for the settlement related to the type of underlying trade."
+    },
+    "SettlementType": {
+      "name": "Settlement Type",
+      "definition": "Specifies how the transaction is to be settled, eg, against payment."
+    },
+    "BuyInState": {
+      "name": "Buy In State",
+      "definition": "Status of the buy-in transaction."
+    },
+    "BuyInDeferral": {
+      "name": "Buy In Deferral",
+      "definition": "Specifies if the buy-in transaction was deferred or not."
+    },
+    "CashCompensationAmount": {
+      "name": "Cash Compensation Amount",
+      "definition": "Amount of money that has to be paid by the failing trading party in case of an unsuccessful or partially successful buy-in transaction."
+    },
+    "ForfeitureOfInterestIndicator": {
+      "name": "Forfeiture Of Interest Indicator",
+      "definition": "Indicates that bondholders who convert between record date and payable date will forfeit their interest."
+    }
+  },
+  "isoAssociations": {
+    "TransferOperation": {
+      "name": "Transfer Operation",
+      "definition": "Set of processes resulting in a securities transfer."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to the settlement of securities and played by a party at that step in a securities transaction flow."
+    },
+    "SettlementQuantity": {
+      "name": "Settlement Quantity",
+      "definition": "Total quantity of securities to be settled."
+    },
+    "SecuritiesTradeExecution": {
+      "name": "Securities Trade Execution",
+      "definition": "Specifies the trade which originates the settlement process."
+    },
+    "RequestedSafekeepingPlace": {
+      "name": "Requested Safekeeping Place",
+      "definition": "Place requested as the place of safekeeping."
+    },
+    "PairOff": {
+      "name": "Pair Off",
+      "definition": "Buy and sell trades are settled in cash, based on the difference in the prices between the off-setting trades."
+    },
+    "AccruedInterest": {
+      "name": "Accrued Interest",
+      "definition": "Interest included in the settlement."
+    },
+    "SecuritiesClearing": {
+      "name": "Securities Clearing",
+      "definition": "Clearing process which triggers the settlement process."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies the cash payment information of a securities settlement."
+    },
+    "SettledAllocation": {
+      "name": "Settled Allocation",
+      "definition": "Allocation which is settled."
+    },
+    "RelatedForeignExchangeOperation": {
+      "name": "Related Foreign Exchange Operation",
+      "definition": "Entry details related to currency exchange information."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security which is settled."
+    },
+    "Position": {
+      "name": "Position",
+      "definition": "Information on the quantities and amounts to be settled in a position."
+    },
+    "Rollover": {
+      "name": "Rollover",
+      "definition": "Process whereby a financial instrument is reinvested at maturity."
+    },
+    "TurnedQuantity": {
+      "name": "Turned Quantity",
+      "definition": "Relates to a turnaround: the same security is bought and sold to settle the same day, to or from different brokers."
+    }
+  }
+}

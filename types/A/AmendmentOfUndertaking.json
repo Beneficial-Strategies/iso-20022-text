@@ -1,0 +1,30 @@
+{
+  "isoType": "AmendmentOfUndertaking",
+  "language": "en",
+  "name": "Amendment Of Undertaking",
+  "definition": "Modification of an undertaking such as an guarantee or standby letter of credit.",
+  "isoAttributes": {
+    "DateOfIssuance": {
+      "name": "Date Of Issuance",
+      "definition": "Date the amendment is issued."
+    },
+    "ChangeOfAmount": {
+      "name": "Change Of Amount",
+      "definition": "Decrease (negative) or increase (positive) of the undertaking as a result of the amendment."
+    },
+    "BeneficiaryConsentRequestIndicator": {
+      "name": "Beneficiary Consent Request Indicator",
+      "definition": "Indicates whether or not a request for consent is required from the beneficiary."
+    },
+    "AmendmentIdentification": {
+      "name": "Amendment Identification",
+      "definition": "Identification of the amendment."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Contents of an UndertakingAmendmentResponse message."
+    }
+  }
+}

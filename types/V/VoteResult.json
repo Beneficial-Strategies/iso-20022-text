@@ -1,0 +1,30 @@
+{
+  "isoType": "VoteResult",
+  "language": "en",
+  "name": "Vote Result",
+  "definition": "Specifies whether an agenda item of a general meeting has been accepted or rejected, together with the number of votes.",
+  "isoAttributes": {
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "Specifies whether a resolution is accepted or not."
+    },
+    "TotalVotesCast": {
+      "name": "Total Votes Cast",
+      "definition": "Total number of votes cast per resolution."
+    },
+    "ModalityOfCounting": {
+      "name": "Modality Of Counting",
+      "definition": "Modality through which the votes that have been recorded and counted were received by the issuer, including whether this is ahead of the meeting or at the meeting."
+    }
+  },
+  "isoAssociations": {
+    "Vote": {
+      "name": "Vote",
+      "definition": "Number of votes per type of vote and per resolution."
+    },
+    "VoteDissemination": {
+      "name": "Vote Dissemination",
+      "definition": "Disemination process through which the results are propagated."
+    }
+  }
+}

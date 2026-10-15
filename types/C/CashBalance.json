@@ -1,0 +1,50 @@
+{
+  "isoType": "CashBalance",
+  "language": "en",
+  "name": "Cash Balance",
+  "definition": "Numerical representation of the net increases and decreases in an account at a specific point in time. A cash balance is calculated from a sum of cash credits minus a sum of cash debits.",
+  "isoAttributes": {
+    "CalculationType": {
+      "name": "Calculation Type",
+      "definition": "Specifies whether the balance is calculated against one other party or against a group of parties."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Currency and amount of money of the cash balance."
+    },
+    "BalanceAdjustmentCode": {
+      "name": "Balance Adjustment Code",
+      "definition": "Defines the type of allowed balance adjustment."
+    },
+    "CutOffDate": {
+      "name": "Cut Off Date",
+      "definition": "Predetermined date in a billing or processing cycle when account activity for the previous reporting period is summarized (when checks written against an account are collected and summarized in a monthly statement). Checks paid or deposits received after the cut-off date are included in the next month's statement."
+    }
+  },
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account for which a balance is calculated."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Party against which a balance is calculated (from the point of view of the account owner).  A bilateral balance is calculated against one other party; a multilateral balance is calculated against a group of parties."
+    },
+    "Availability": {
+      "name": "Availability",
+      "definition": "Elements used to indicate when the booked amount of money will become available, that is can be accessed and start generating interest."
+    },
+    "CashBalanceEntry": {
+      "name": "Cash Balance Entry",
+      "definition": "Credit or debit postings used to calculate a balance."
+    },
+    "RelatedCardPaymentValidationProcess": {
+      "name": "Related Card Payment Validation Process",
+      "definition": "Validation process which verifies the balance attached to the card."
+    },
+    "RelatedRegisteredContract": {
+      "name": "Related Registered Contract",
+      "definition": "Related contract balance on date of contract registration."
+    }
+  }
+}

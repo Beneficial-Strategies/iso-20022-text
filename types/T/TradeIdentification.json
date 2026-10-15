@@ -1,0 +1,46 @@
+{
+  "isoType": "TradeIdentification",
+  "language": "en",
+  "name": "Trade Identification",
+  "definition": "Specifies the different identifications associated with a trade.",
+  "isoAttributes": {
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Unambiguous identification of the trade allocated by the counterparty."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "MatchingReference": {
+      "name": "Matching Reference",
+      "definition": "Reference assigned by a matching system when the trade is matched."
+    },
+    "UniqueTradeIdentifier": {
+      "name": "Unique Trade Identifier",
+      "definition": "This field specifies the unique transaction identifier (UTI) to be created at the time a transaction is first executed, shared with all registered entities and counterparties involved in the transaction, and used to track that particular transaction over its life. This identifier can also be known as the Unique Swap Identifier (USI)."
+    }
+  },
+  "isoAssociations": {
+    "Trade": {
+      "name": "Trade",
+      "definition": "Specifies the trade for which identifications are provided."
+    },
+    "ClearingBrokerIdentification": {
+      "name": "Clearing Broker Identification",
+      "definition": "Reference number assigned by the clearing broker."
+    },
+    "RelatedPostTradeRiskReduction": {
+      "name": "Related Post Trade Risk Reduction",
+      "definition": "Post trade risk reduction for which the trade has been created."
+    },
+    "RelatedEventIdentifier": {
+      "name": "Related Event Identifier",
+      "definition": "Derivative event linked to the trade."
+    }
+  }
+}

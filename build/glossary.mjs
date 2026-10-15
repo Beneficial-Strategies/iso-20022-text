@@ -26,7 +26,7 @@ function vocabulary() {
   for (const letter of readdirSync(dir)) for (const file of readdirSync(join(dir, letter))) {
     const t = read(join(dir, letter, file));
     add(t.name);
-    for (const map of ['isoElements', 'isoCodes']) for (const e of Object.values(t[map] ?? {})) add(e.name);
+    for (const map of ['isoElements', 'isoCodes', 'isoAttributes', 'isoAssociations']) for (const e of Object.values(t[map] ?? {})) add(e.name);
   }
   return words;
 }

@@ -1,0 +1,54 @@
+{
+  "isoType": "Obligation",
+  "language": "en",
+  "name": "Obligation",
+  "definition": "Specifies the assets (quantity of securities, goods, services, and cash amounts) that have to be delivered.",
+  "isoAttributes": {
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date and time at which a trade must be executed. For a direct debit, it is the date and time at which the creditor requests that the amount of money is to be collected from the debtor. For a credit transfer, it is the date and time at which the debtor requests the clearing agent to process the payment. For a securities trade, it is the date and time at which the securities are to be delivered or received."
+    },
+    "RequestedSettlementAmount": {
+      "name": "Requested Settlement Amount",
+      "definition": "Total amount of money to be paid or received."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies whether the transaction is to be executed with a high priority."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Type of exposure related to this obligation."
+    }
+  },
+  "isoAssociations": {
+    "Trade": {
+      "name": "Trade",
+      "definition": "Specifies the trade which originates the obligation to deliver a product, cash or securities.."
+    },
+    "TransactionRisk": {
+      "name": "Transaction Risk",
+      "definition": "Transaction risk calculated per obligation type."
+    },
+    "ParentObligation": {
+      "name": "Parent Obligation",
+      "definition": "Obligation which is divided into several sub-obligations."
+    },
+    "SubObligation": {
+      "name": "Sub Obligation",
+      "definition": "Specifies an obligation resulting from another existing obligation, for instance each leg of a financing agreement is a sub-obligation of the global financing obligation."
+    },
+    "Offset": {
+      "name": "Offset",
+      "definition": "Specifies the method used to settle a specific obligation."
+    },
+    "OriginalObligationProcess": {
+      "name": "Original Obligation Process",
+      "definition": "Obligation fulfilment process which did not extinguish the obligation but replaced it by a new one, for instance in case of netting."
+    },
+    "TreasuryTrade": {
+      "name": "Treasury Trade",
+      "definition": "Specifies trades linked to treasury operations such as the exchange of currencies, the lending of cash amounts and the related derivatives trades (options and non deliverable trades)."
+    }
+  }
+}

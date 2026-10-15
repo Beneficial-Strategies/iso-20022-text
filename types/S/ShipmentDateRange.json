@@ -1,0 +1,26 @@
+{
+  "isoType": "ShipmentDateRange",
+  "language": "en",
+  "name": "Shipment Date Range",
+  "definition": "Specifies a shipment period or a shipment date.",
+  "isoAttributes": {
+    "LatestShipmentDate": {
+      "name": "Latest Shipment Date",
+      "definition": "Latest date whereby the goods must be shipped."
+    },
+    "EarliestShipmentDate": {
+      "name": "Earliest Shipment Date",
+      "definition": "Earliest date whereby the items must be shipped."
+    },
+    "ShipmentDate": {
+      "name": "Shipment Date",
+      "definition": "Date at which the goods are shipped."
+    }
+  },
+  "isoAssociations": {
+    "RelatedTransport": {
+      "name": "Related Transport",
+      "definition": "Specifies the transport process to which the dates apply."
+    }
+  }
+}

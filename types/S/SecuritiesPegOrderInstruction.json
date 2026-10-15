@@ -1,0 +1,46 @@
+{
+  "isoType": "SecuritiesPegOrderInstruction",
+  "language": "en",
+  "name": "Securities Peg Order Instruction",
+  "definition": "Instructions specific to pegged orders, which consist in an investor buying large amounts of  the underlying asset of a derivative it holds.",
+  "isoAttributes": {
+    "Offset": {
+      "name": "Offset",
+      "definition": "Amount (signed) added to the peg for a pegged order."
+    },
+    "PriceType": {
+      "name": "Price Type",
+      "definition": "Defines the type of peg."
+    },
+    "MoveType": {
+      "name": "Move Type",
+      "definition": "Describes whether peg is static/fixed or floats."
+    },
+    "OffsetType": {
+      "name": "Offset Type",
+      "definition": "Type of peg offset."
+    },
+    "LimitType": {
+      "name": "Limit Type",
+      "definition": "Specifies nature of resulting pegged price."
+    },
+    "Scope": {
+      "name": "Scope",
+      "definition": "The scope of \"related to\" price of the peg (for example, local, global etc)."
+    },
+    "OffsetSign": {
+      "name": "Offset Sign",
+      "definition": "Indicates whether the offset should be added to or subtracted from the peg for a pegged order."
+    }
+  },
+  "isoAssociations": {
+    "Order": {
+      "name": "Order",
+      "definition": "Order which is pegged."
+    },
+    "RoundDirection": {
+      "name": "Round Direction",
+      "definition": "If the calculated peg price is not a valid tick price, specifies how to round the price."
+    }
+  }
+}

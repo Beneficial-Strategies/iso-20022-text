@@ -1,0 +1,46 @@
+{
+  "isoType": "PaymentInvestigationCase",
+  "language": "en",
+  "name": "Payment Investigation Case",
+  "definition": "Set of activities performed to handle an exception to a normal payment transaction flow, such as: - a payment has not been received. - a payment has been received but is incorrect. - a payment must be corrected or cancelled (requested by the party which ordered the payment).",
+  "isoAttributes": {
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Indicates the reason for cancellation."
+    },
+    "MissingCoverIndication": {
+      "name": "Missing Cover Indication",
+      "definition": "Indicates whether or not the claim is related to a missing cover."
+    },
+    "IncorrectInformationReason": {
+      "name": "Incorrect Information Reason",
+      "definition": "Indicates, in a coded form, the incorrect information."
+    },
+    "MissingInformationReason": {
+      "name": "Missing Information Reason",
+      "definition": "Indicates the missing information."
+    },
+    "CaseType": {
+      "name": "Case Type",
+      "definition": "Specifies the type of investigation case."
+    }
+  },
+  "isoAssociations": {
+    "PaymentStatus": {
+      "name": "Payment Status",
+      "definition": "Status of a payment which is the reason or the result of an investigation case."
+    },
+    "UnderlyingPayment": {
+      "name": "Underlying Payment",
+      "definition": "Identifies the end to end payment which is the subject of the investigation"
+    },
+    "UnderlyingInstruction": {
+      "name": "Underlying Instruction",
+      "definition": "Identifies the payment instruction under investigation."
+    },
+    "UnderlyingCashEntry": {
+      "name": "Underlying Cash Entry",
+      "definition": "Identifies the cash entry under investigation."
+    }
+  }
+}

@@ -23,7 +23,8 @@ holds only what differs from it.
 
 | Path | What |
 |---|---|
-| `types/<first letter>/<Type>.json` | one file per type: its `name` and `definition`, and the `isoElements`, `isoCodes` and `isoRules` of it; data types also carry `format`, the text that says what a value must look like |
+| `types/<first letter>/<Type>.json` | one file per type: its `name` and `definition`, and the `isoElements`, `isoCodes`, `isoRules`, or (a business component) `isoAttributes` and `isoAssociations` of it; data types also carry `format`, the text that says what a value must look like |
+| `build/domain.mjs` | writes the business domain (every business component with its attributes and associations) into `types/` from the ISO 20022 repository file: `node build/domain.mjs --repository <file.iso20022>`; `--check` says whether anything would change |
 | `areas.json` | the business areas (pain, camt, ...): name and definition of each, served at `/areas` |
 | `messages.json` | every message's identifier and root type (a message's name and description are its root type's; served at `/messages` with each name) |
 | `tools/<tool>/<name>.json` | the text of an application that uses this text, key -> text (today: the ISO 20022 Explorer, `tools/explorer/page.json` and `controls.json`); served at `/tools/<tool>/<name>` |
@@ -35,7 +36,7 @@ Definitions are ISO's, word for word (with `|` for a line break, as ISO writes i
 `format` is generated from the ISO pattern of the type; both are ours, not ISO's. A text is written once here and reused by every application that needs it,
 so an error message for a malformed BIC is the same in a UI, a C# API or any other consumer.
 
-Coverage so far: the most recent version of each message, and every type it uses. The business domain is not published yet. `/coverage` says whether the publication is complete.
+Coverage so far: the most recent version of each message and every type it uses, and the entirety of the domain model (the business components, with their business attributes and associations). `/coverage` says whether the publication is complete.
 
 ## Deployment
 

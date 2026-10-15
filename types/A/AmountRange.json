@@ -1,0 +1,38 @@
+{
+  "isoType": "AmountRange",
+  "language": "en",
+  "name": "Amount Range",
+  "definition": "Range of amount values.",
+  "isoAttributes": {
+    "EqualAmount": {
+      "name": "Equal Amount",
+      "definition": "Exact value an amount must match to be considered valid."
+    },
+    "NotEqualAmount": {
+      "name": "Not Equal Amount",
+      "definition": "Value that an amount must not match to be considered valid."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the amount is a credited or debited amount."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Medium of exchange of value, used to qualify an amount."
+    }
+  },
+  "isoAssociations": {
+    "FromAmount": {
+      "name": "From Amount",
+      "definition": "Lower boundary of a range of amount values."
+    },
+    "ToAmount": {
+      "name": "To Amount",
+      "definition": "Upper boundary of a range of amount values."
+    },
+    "RelatedInterest": {
+      "name": "Related Interest",
+      "definition": "Interest which applies on a specific amount range."
+    }
+  }
+}

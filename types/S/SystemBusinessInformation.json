@@ -1,0 +1,34 @@
+{
+  "isoType": "SystemBusinessInformation",
+  "language": "en",
+  "name": "System Business Information",
+  "definition": "Details about business information related to a system.",
+  "isoAttributes": {
+    "Subject": {
+      "name": "Subject",
+      "definition": "Subject line of an item of general business information, summarizing the topic and intended destination of the information."
+    },
+    "SubjectDetails": {
+      "name": "Subject Details",
+      "definition": "General business information, in unstructured form."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification of a general business information system, as assigned by the system transaction administrator."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Unique and unambiguous reference assigned to a general business information system."
+    }
+  },
+  "isoAssociations": {
+    "Qualifier": {
+      "name": "Qualifier",
+      "definition": "Further information about the criticality or importance of a general business information system."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System for which business information is generated."
+    }
+  }
+}

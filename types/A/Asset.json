@@ -1,0 +1,90 @@
+{
+  "isoType": "Asset",
+  "language": "en",
+  "name": "Asset",
+  "definition": "Tangible items of value to a business.",
+  "isoAttributes": {
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which an order, a privilege, an entitlement or an offer terminates. For an interest bearing asset, it is the date/time at which it becomes due and has to be repaid."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned date, at the time of issuance, on which an interest bearing financial instrument becomes due and principal is repaid by the issuer to the investor."
+    },
+    "FinancialAssetCategory": {
+      "name": "Financial Asset Category",
+      "definition": "Categorization of financial asset type."
+    },
+    "InvestmentAmount": {
+      "name": "Investment Amount",
+      "definition": "Invested amount of the portfolio asset."
+    },
+    "InvestmentRate": {
+      "name": "Investment Rate",
+      "definition": "Invested percentage of the portfolio asset."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Cut off date/time for the information of the specified portfolio asset."
+    },
+    "FinancialInstrumentSubStructure": {
+      "name": "Financial Instrument Sub Structure",
+      "definition": "Indicates the type of deal for structured finance."
+    },
+    "GenericAssetIdentification": {
+      "name": "Generic Asset Identification",
+      "definition": "Identifies the asset."
+    },
+    "ClearedGrossNotionalAmount": {
+      "name": "Cleared Gross Notional Amount",
+      "definition": "Gross notional amount that was cleared for that product on the report date."
+    }
+  },
+  "isoAssociations": {
+    "Derivative": {
+      "name": "Derivative",
+      "definition": "Specifies the parameters of a derivative instrument based on a specific asset."
+    },
+    "AssetValue": {
+      "name": "Asset Value",
+      "definition": "Specifies the different values of an asset."
+    },
+    "AssetClassification": {
+      "name": "Asset Classification",
+      "definition": "Classification of the asset."
+    },
+    "AssetPartyRole": {
+      "name": "Asset Party Role",
+      "definition": "Party which plays a role for a specific asset."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Details regarding the issuance of an asset."
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Asset which is part of a portfolio."
+    },
+    "InvestmentPlan": {
+      "name": "Investment Plan",
+      "definition": "Investment plan that invests in a specific asset."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade which which involves a specific asset."
+    },
+    "Tranche": {
+      "name": "Tranche",
+      "definition": "One of a number of related assets offered as part of the same transaction."
+    },
+    "LegAdditionalInformation": {
+      "name": "Leg Additional Information",
+      "definition": "Provides details about the leg."
+    },
+    "StandingSettlementInstruction": {
+      "name": "Standing Settlement Instruction",
+      "definition": "Standing settlement instruction for which an asset is specified."
+    }
+  }
+}

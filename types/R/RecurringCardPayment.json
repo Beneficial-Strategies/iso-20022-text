@@ -1,0 +1,28 @@
+{
+  "isoType": "RecurringCardPayment",
+  "language": "en",
+  "name": "Recurring Card Payment",
+  "definition": "Specifies the attributes of a recurring card payment.",
+  "isoAttributes": {
+    "NumberOfPayments": {
+      "name": "Number Of Payments",
+      "definition": "Specifies the number of recurring payments."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Indicates the frequency of the recurring payment."
+    },
+    "RegistrationReferenceNumber": {
+      "name": "Registration Reference Number",
+      "definition": "Reference number of the recurring payment agreement assigned by the merchant."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Specifies the maximum amount for all recurring payments."
+    },
+    "AgreementValidated": {
+      "name": "Agreement Validated",
+      "definition": "Specifies whether the recurring payment agreement is validated or not."
+    }
+  }
+}

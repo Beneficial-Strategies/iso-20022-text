@@ -1,0 +1,46 @@
+{
+  "isoType": "DirectDebitMandate",
+  "language": "en",
+  "name": "Direct Debit Mandate",
+  "definition": "Authorisation in favour of the creditor given by the debtor to debit its own account.",
+  "isoAttributes": {
+    "FinalCollectionDate": {
+      "name": "Final Collection Date",
+      "definition": "Date of the final collection of a direct debit as per the mandate."
+    },
+    "FirstCollectionDate": {
+      "name": "First Collection Date",
+      "definition": "Date of the first collection of a direct debit as per the mandate."
+    },
+    "CollectionAmount": {
+      "name": "Collection Amount",
+      "definition": "Fixed amount that the debtor has agreed will be collected from their account."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount that may be collected from the debtor's account, per instruction."
+    },
+    "PreNotification": {
+      "name": "Pre Notification",
+      "definition": "Indicates wether a pre-notification must be sent by the creditor to the debtor before a direct debit occurs"
+    },
+    "PreNotificationThreshold": {
+      "name": "Pre Notification Threshold",
+      "definition": "Specifies the number of days before the direct debit for notifying the debtor."
+    },
+    "Classification": {
+      "name": "Classification",
+      "definition": "Type of direct debit instruction."
+    },
+    "PointInTime": {
+      "name": "Point In Time",
+      "definition": "Specifies a frequency in terms of an exact point in time or moment within a specified period type."
+    }
+  },
+  "isoAssociations": {
+    "RelatedDirectDebit": {
+      "name": "Related Direct Debit",
+      "definition": "Direct debit to which a mandate applies."
+    }
+  }
+}

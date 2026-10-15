@@ -1,0 +1,26 @@
+{
+  "isoType": "DisclosedListTrading",
+  "language": "en",
+  "name": "Disclosed List Trading",
+  "definition": "List trading by which the buy-side details the exact stocks and sizes to be traded and the sell-side offers the buy-side a two-way price, to buy or to sell the indicated stocks. All sell-side firms see all of the stocks and quantities in the portfolio during the bidding phase regardless of whether or not they win the business.",
+  "isoAttributes": {
+    "BuyAmount": {
+      "name": "Buy Amount",
+      "definition": "Total trade value for which a party is willing to purchase financial instruments."
+    },
+    "SellAmount": {
+      "name": "Sell Amount",
+      "definition": "Total trade value for which a party is willing to sell financial instruments."
+    },
+    "RequestedSettlementDateCode": {
+      "name": "Requested Settlement Date Code",
+      "definition": "Requested date of trade settlement in coded form (eg, trade date +1)."
+    }
+  },
+  "isoAssociations": {
+    "DisclosedListTradingAccount": {
+      "name": "Disclosed List Trading Account",
+      "definition": "Securities account used for the trade of a disclosed list of securities, eg, in basket or program trading."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "AnalyticsCalculation",
+  "language": "en",
+  "name": "Analytics Calculation",
+  "definition": "Characteristics related to the analytics.",
+  "isoAttributes": {
+    "CalculationType": {
+      "name": "Calculation Type",
+      "definition": "Specifies the type of calculation."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date/time on which the calculation is based. For example: valuation on October 1 (price date) based on price of September 19 ( value date)."
+    },
+    "ValuePeriod": {
+      "name": "Value Period",
+      "definition": "Period on which the calculation is based."
+    },
+    "EstimatedInterestRate": {
+      "name": "Estimated Interest Rate",
+      "definition": "Estimated per annum ratio of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "VariableRateValueDate": {
+      "name": "Variable Rate Value Date",
+      "definition": "Date/time as of which the variable rate is valid."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesPricing": {
+      "name": "Securities Pricing",
+      "definition": "Pricing for which an analytics calculation is specified."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Result of the defined analytics calculation."
+    }
+  }
+}

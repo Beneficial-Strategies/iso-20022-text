@@ -1,0 +1,18 @@
+{
+  "isoType": "CardPaymentPartyRole",
+  "language": "en",
+  "name": "Card Payment Party Role",
+  "definition": "Role played by a party in the context of a payment by card.",
+  "isoAttributes": {
+    "PartyType": {
+      "name": "Party Type",
+      "definition": "Specifies the type of party which plays a role in the context od a card payment process."
+    }
+  },
+  "isoAssociations": {
+    "CardPayment": {
+      "name": "Card Payment",
+      "definition": "Identifies the payment by card for which a party plays a role."
+    }
+  }
+}
