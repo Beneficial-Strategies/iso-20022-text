@@ -35,7 +35,7 @@ Definitions are ISO's, word for word (with `|` for a line break, as ISO writes i
 `format` is generated from the ISO pattern of the type; both are ours, not ISO's. A text is written once here and reused by every application that needs it,
 so an error message for a malformed BIC is the same in a UI, a C# API or any other consumer.
 
-Coverage so far: `pain.001.001.13` and the 170 types it uses.
+Coverage so far: the most recent version of each message, and every type it uses. The business domain is not published yet. `/coverage` says whether the publication is complete.
 
 ## Deployment
 
