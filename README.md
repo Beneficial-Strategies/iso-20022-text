@@ -68,5 +68,4 @@ of any kind. We make our best-faith effort toward accurate text, but it is not v
 repositories. We intend to improve them over time (named maintainers per language and area, required reviews, release checks) should the libraries
 gain adoption and sponsorship. Taking over the care of a language, or of an area of one, is welcome.
 
-ISO 20022 and its text belong to ISO, and ISO's own terms apply to them. The license covers what is written in these repositories, not ISO's text.
-This is not legal advice.
+**ISO 20022 material.** The ISO 20022 specification, its schemas, code sets and their text are ISO's. ISO and its Registration Authority publish them to be used and reproduced freely under the [ISO 20022 Terms of use](https://www.iso20022.org/terms-use) and the [Intellectual Property Rights Policy](https://www.iso20022.org/intellectual-property-rights). **This is not the official ISO 20022 site. The sole source of up-to-date material is <https://www.iso20022.org/>.** ISO's material is provided "as is", without warranty. The license of these repositories covers what we wrote, not ISO's material. This is not legal advice.
