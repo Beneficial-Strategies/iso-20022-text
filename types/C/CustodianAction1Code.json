@@ -1,0 +1,28 @@
+{
+  "isoType": "CustodianAction1Code",
+  "language": "en",
+  "name": "Custodian Action 1 Code",
+  "definition": "Specifies custodian activity codes.",
+  "isoCodes": {
+    "RSCH": {
+      "isoName": "Research",
+      "name": "Research",
+      "definition": "Custodian is researching pending issues raised by the validation service."
+    },
+    "SEND": {
+      "isoName": "SendInfo",
+      "name": "Send Info",
+      "definition": "Custodian is expected to send updated information."
+    },
+    "DISS": {
+      "isoName": "Disagrees",
+      "name": "Disagrees",
+      "definition": "Custodian disagrees with the validation service and will take no further action."
+    },
+    "NOAC": {
+      "isoName": "NoAction",
+      "name": "No Action",
+      "definition": "No action required by the custodian."
+    }
+  }
+}

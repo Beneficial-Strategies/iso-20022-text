@@ -1,0 +1,44 @@
+{
+  "isoType": "CardPaymentTransactionDetails8",
+  "language": "en",
+  "name": "Card Payment Transaction Details 8",
+  "definition": "Details of the transaction in the authorisation request.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amounts associated with the total amount of transaction."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to an integrated circuit card application."
+    },
+    "PaymentContext": {
+      "name": "Payment Context",
+      "definition": "Context of the card payment transaction."
+    },
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code conform to ISO 18245, related to the type of services or goods the merchant provides for the transaction."
+    },
+    "TransactionDateTime": {
+      "name": "Transaction Date Time",
+      "definition": "Local date and time of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "SaleReferenceNumber": {
+      "name": "Sale Reference Number",
+      "definition": "Identification of a sale transaction assigned by the sale system."
+    },
+    "RePresentmentReason": {
+      "name": "Re Presentment Reason",
+      "definition": "Reason for representment of a card transaction."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Service in addition to the main service."
+    },
+    "TransactionReference": {
+      "name": "Transaction Reference",
+      "definition": "Identification of the transaction that has to be unique for a time period."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "SecuritiesExitReason1Code",
+  "language": "en",
+  "name": "Securities Exit Reason 1 Code",
+  "definition": "Specifies the reason for DTC (The Depository Trust Company) to exit the shares.",
+  "isoCodes": {
+    "REST": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Shares are restricted."
+    },
+    "NTRN": {
+      "isoName": "NonTransferable",
+      "name": "Non Transferable",
+      "definition": "Shares are non transferable."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other reason."
+    }
+  }
+}

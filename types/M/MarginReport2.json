@@ -1,0 +1,32 @@
+{
+  "isoType": "MarginReport2",
+  "language": "en",
+  "name": "Margin Report 2",
+  "definition": "Provides the details on the margin report per margin account, and optionally per non-clearing member.",
+  "isoElements": {
+    "MarginProduct": {
+      "name": "Margin Product",
+      "definition": "Specifies if the margin is related to equities or fixed income."
+    },
+    "MarginAccount": {
+      "name": "Margin Account",
+      "definition": "Identifies the clearing member's account."
+    },
+    "CollateralisedMarginAccountIndicator": {
+      "name": "Collateralised Margin Account Indicator",
+      "definition": "Used to indicate whether the reported margin account is collateralised or not. If not collateralised, the account is configured for informational reporting."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides details about the non clearing member identification and account."
+    },
+    "MarginCalculationSummary": {
+      "name": "Margin Calculation Summary",
+      "definition": "Provides the margin calculation summary per margin account."
+    },
+    "MarginCalculation": {
+      "name": "Margin Calculation",
+      "definition": "Provides the margin details such as the exposure amount and the initial margin."
+    }
+  }
+}

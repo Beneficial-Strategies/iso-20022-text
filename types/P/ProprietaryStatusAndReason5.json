@@ -1,0 +1,25 @@
+{
+  "isoType": "ProprietaryStatusAndReason5",
+  "language": "en",
+  "name": "Proprietary Status And Reason 5",
+  "definition": "Proprietary status and reason of an instruction or an instruction cancellation.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Proprietary identification of the status of the instruction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Proprietary identification of the reason for the status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInformationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

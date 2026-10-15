@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesTransactionPrice5",
+  "language": "en",
+  "name": "Securities Transaction Price 5",
+  "definition": "Price with notation.",
+  "isoElements": {
+    "Value": {
+      "name": "Value",
+      "definition": "Value of the price."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Notation of the price."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 2 elements must be present."
+    }
+  }
+}

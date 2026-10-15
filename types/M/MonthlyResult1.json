@@ -1,0 +1,32 @@
+{
+  "isoType": "MonthlyResult1",
+  "language": "en",
+  "name": "Monthly Result 1",
+  "definition": "Results of backtesting analysis used to test the performance of a risk model.",
+  "isoElements": {
+    "NumberOfObservations": {
+      "name": "Number Of Observations",
+      "definition": "Total number of accounts subject to backtesting in the month."
+    },
+    "NumberOfExceptions": {
+      "name": "Number Of Exceptions",
+      "definition": "Number of times that margin coverage held against any account fell below the marked‐to‐market exposure of that member account, based on the backtesting results."
+    },
+    "Coverage": {
+      "name": "Coverage",
+      "definition": "Achieved coverage level."
+    },
+    "LargestException": {
+      "name": "Largest Exception",
+      "definition": "Largest marked-to-market exposure on any account that exceeds the margin coverage held against that account. The difference between the size of the exposure and the margin held."
+    },
+    "AverageException": {
+      "name": "Average Exception",
+      "definition": "Average marked‐to‐market exposure on accounts that exceeds the margin coverage held against those accounts."
+    },
+    "LargestExceptionIdentification": {
+      "name": "Largest Exception Identification",
+      "definition": "Unique internal identifier for the backtested account experiencing the largest exception."
+    }
+  }
+}

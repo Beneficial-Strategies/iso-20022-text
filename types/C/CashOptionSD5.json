@@ -1,0 +1,28 @@
+{
+  "isoType": "CashOptionSD5",
+  "language": "en",
+  "name": "Cash Option SD 5",
+  "definition": "Provides additional information regarding corporate action option cash movement details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "PayoutNumber": {
+      "name": "Payout Number",
+      "definition": "Unique number associated with a payout within an option."
+    },
+    "PayoutType": {
+      "name": "Payout Type",
+      "definition": "Describes the type of payout associated with the event."
+    },
+    "PayoutStatus": {
+      "name": "Payout Status",
+      "definition": "Workflow status of the payout."
+    },
+    "MaximumWithholdingTaxPercentage": {
+      "name": "Maximum Withholding Tax Percentage",
+      "definition": "Maximum withholding rate based on the country of the sourced income."
+    }
+  }
+}

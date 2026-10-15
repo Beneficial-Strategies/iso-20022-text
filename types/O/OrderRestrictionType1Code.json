@@ -1,0 +1,23 @@
+{
+  "isoType": "OrderRestrictionType1Code",
+  "language": "en",
+  "name": "Order Restriction Type 1 Code",
+  "definition": "Code indicating information about order restriction, such as the trading phase when the order becomes active.",
+  "isoCodes": {
+    "SESR": {
+      "isoName": "GoodForClosingPriceCrossingSession",
+      "name": "Good For Closing Price Crossing Session",
+      "definition": "Order qualifying for the closing price crossing session."
+    },
+    "VFAR": {
+      "isoName": "ValidForAuction",
+      "name": "Valid For Auction",
+      "definition": "Order being only active and can only be executed at auction phases (which can be pre-defined by the member or, participant of the trading venue who submitted the order, e.g. opening and/closing auctions and/or intraday auction)."
+    },
+    "VFCR": {
+      "isoName": "ValidForContinuousTradingOnly",
+      "name": "Valid For Continuous Trading Only",
+      "definition": "Order being only active during continuous trading."
+    }
+  }
+}

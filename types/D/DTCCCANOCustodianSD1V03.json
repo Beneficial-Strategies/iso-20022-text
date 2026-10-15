@@ -1,0 +1,16 @@
+{
+  "isoType": "DTCCCANOCustodianSD1V03",
+  "language": "en",
+  "name": "DTCCCANO Custodian SD 1 V 03",
+  "definition": "The DTCCCANOCustodianSD1 message extends ISO corporate action notification (CANO) message with DTCC validation custodian service specific data elements that are not covered by the standard message.",
+  "isoElements": {
+    "CustodianDetails": {
+      "name": "Custodian Details",
+      "definition": "Information to be extended as custodian details supplementary data to corporate action notification."
+    },
+    "CustodianOptionDateDetails": {
+      "name": "Custodian Option Date Details",
+      "definition": "Information to be extended as custodian service supplementary data to option details."
+    }
+  }
+}

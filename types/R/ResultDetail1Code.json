@@ -1,0 +1,448 @@
+{
+  "isoType": "ResultDetail1Code",
+  "language": "en",
+  "name": "Result Detail 1 Code",
+  "definition": "Detail of the result.",
+  "isoCodes": {
+    "ACTF": {
+      "isoName": "AccountNotFound",
+      "name": "Account Not Found",
+      "definition": "Account of the cardholder or the customer is not found."
+    },
+    "ACQS": {
+      "isoName": "AcquirerNotSupported",
+      "name": "Acquirer Not Supported",
+      "definition": "Acquirer is not supported."
+    },
+    "AMLV": {
+      "isoName": "AMLValidation",
+      "name": "AML Validation",
+      "definition": "Error on AML (Anti Money Laundering) validation."
+    },
+    "AMTA": {
+      "isoName": "AmountNotFound",
+      "name": "Amount Not Found",
+      "definition": "Amount not found."
+    },
+    "BANK": {
+      "isoName": "BankNotFound",
+      "name": "Bank Not Found",
+      "definition": "Bank not found."
+    },
+    "CRDR": {
+      "isoName": "CardError",
+      "name": "Card Error",
+      "definition": "Card error, for instance invalid ARQC (Authorisation ReQuest Cryptogram)."
+    },
+    "CRDF": {
+      "isoName": "CardVerificationFailed",
+      "name": "Card Verification Failed",
+      "definition": "Identification of the card is invalid."
+    },
+    "CSHI": {
+      "isoName": "CasbackNotAllowed",
+      "name": "Casback Not Allowed",
+      "definition": "Cashback is not permitted."
+    },
+    "CSHE": {
+      "isoName": "CashbackAmountExceeded",
+      "name": "Cashback Amount Exceeded",
+      "definition": "Cashback amount is higher than permitted."
+    },
+    "ACTC": {
+      "isoName": "ClosedAccount",
+      "name": "Closed Account",
+      "definition": "Account is no more usable for the transaction."
+    },
+    "CTVG": {
+      "isoName": "CutoverInProcess",
+      "name": "Cutover In Process",
+      "definition": "Cutover is in progress, transaction could not be processed."
+    },
+    "DBER": {
+      "isoName": "DatabaseError",
+      "name": "Database Error",
+      "definition": "Database access error."
+    },
+    "FEES": {
+      "isoName": "DisputedFees",
+      "name": "Disputed Fees",
+      "definition": "Transaction fees are disputed by the issuer."
+    },
+    "TXNL": {
+      "isoName": "ExceededTransactionLifeCycle",
+      "name": "Exceeded Transaction Life Cycle",
+      "definition": "Validity period of the transaction is exceeded."
+    },
+    "CRDX": {
+      "isoName": "ExpiredCard",
+      "name": "Expired Card",
+      "definition": "Card has expired."
+    },
+    "FMTR": {
+      "isoName": "FormatError",
+      "name": "Format Error",
+      "definition": "Invalid format of the message or its content."
+    },
+    "ACEF": {
+      "isoName": "FromAccountError",
+      "name": "From Account Error",
+      "definition": "From account status error."
+    },
+    "TXNG": {
+      "isoName": "InProgress",
+      "name": "In Progress",
+      "definition": "Original request is in progress."
+    },
+    "FNDI": {
+      "isoName": "InsufficientFunds",
+      "name": "Insufficient Funds",
+      "definition": "Account balance is not sufficient."
+    },
+    "ACPI": {
+      "isoName": "InvalidAcceptor",
+      "name": "Invalid Acceptor",
+      "definition": "Issuer denies the acceptor."
+    },
+    "AMTI": {
+      "isoName": "InvalidAmount",
+      "name": "Invalid Amount",
+      "definition": "Requested amount is outside the card limits, or the currency is invalid."
+    },
+    "CHDI": {
+      "isoName": "InvalidCardholderIdentification",
+      "name": "Invalid Cardholder Identification",
+      "definition": "Identification of the cardholder or the customer does not match."
+    },
+    "CRDI": {
+      "isoName": "InvalidCardNumber",
+      "name": "Invalid Card Number",
+      "definition": "Identification of the card is invalid."
+    },
+    "CTFV": {
+      "isoName": "InvalidCertificate",
+      "name": "Invalid Certificate",
+      "definition": "Digital certificate cannot be authenticated, is expired or revoked."
+    },
+    "NPRA": {
+      "isoName": "NotPermittedToAcceptor",
+      "name": "Not Permitted To Acceptor",
+      "definition": "Process not permitted to the acceptor (for example fall back)."
+    },
+    "PINA": {
+      "isoName": "NotAbleToValidatePIN",
+      "name": "Not Able To Validate PIN",
+      "definition": "PIN could not be validated."
+    },
+    "LBLU": {
+      "isoName": "NoLiabilityAccepted",
+      "name": "No Liability Accepted",
+      "definition": "Transaction is processed, but liability is not accepted."
+    },
+    "CRDA": {
+      "isoName": "NoCardRecord",
+      "name": "No Card Record",
+      "definition": "No card file record."
+    },
+    "PINN": {
+      "isoName": "NewPINInvalid",
+      "name": "New PIN Invalid",
+      "definition": "New PIN is invalid (PIN change)."
+    },
+    "MACK": {
+      "isoName": "MACKeyError",
+      "name": "MAC Key Error",
+      "definition": "MAC key error."
+    },
+    "MACR": {
+      "isoName": "MACError",
+      "name": "MAC Error",
+      "definition": "MAC error."
+    },
+    "CRDL": {
+      "isoName": "LostCard",
+      "name": "Lost Card",
+      "definition": "Card has been declared lost."
+    },
+    "LBLA": {
+      "isoName": "LiabilityAccepted",
+      "name": "Liability Accepted",
+      "definition": "Transaction is processed and liability is accepted."
+    },
+    "ISSU": {
+      "isoName": "IssuerUnavailable",
+      "name": "Issuer Unavailable",
+      "definition": "Transaction could not be processed as Issuer is unavailable."
+    },
+    "ISST": {
+      "isoName": "IssuerTimeOut",
+      "name": "Issuer Time Out",
+      "definition": "Transaction could not be processed as Issuer times out."
+    },
+    "ISSO": {
+      "isoName": "IssuerSignedOff",
+      "name": "Issuer Signed Off",
+      "definition": "Transaction could not be processed as Issuer is signed off."
+    },
+    "ISSF": {
+      "isoName": "IssuerNotFound",
+      "name": "Issuer Not Found",
+      "definition": "Issuer is not found."
+    },
+    "ISSP": {
+      "isoName": "IssuerInoperative",
+      "name": "Issuer Inoperative",
+      "definition": "Issuer is inoperative."
+    },
+    "DATI": {
+      "isoName": "InvalidTransactionDateTime",
+      "name": "Invalid Transaction Date Time",
+      "definition": "Date time of the transaction is invalid."
+    },
+    "TXNV": {
+      "isoName": "InvalidTransaction",
+      "name": "Invalid Transaction",
+      "definition": "Transaction is invalid."
+    },
+    "TKID": {
+      "isoName": "InvalidTokenIdentification",
+      "name": "Invalid Token Identification",
+      "definition": "Identification of the token provider or the token requestor is invalid."
+    },
+    "TKKO": {
+      "isoName": "InvalidToken",
+      "name": "Invalid Token",
+      "definition": "Token cannot be used to surrogate a PAN (Primary Account Number)."
+    },
+    "CSCV": {
+      "isoName": "InvalidSecurityCode",
+      "name": "Invalid Security Code",
+      "definition": "Security code validation fails."
+    },
+    "PINV": {
+      "isoName": "InvalidPIN",
+      "name": "Invalid PIN",
+      "definition": "PIN is invalid."
+    },
+    "AMTO": {
+      "isoName": "InvalidOriginalAmount",
+      "name": "Invalid Original Amount",
+      "definition": "Original amount is invalid."
+    },
+    "NPRC": {
+      "isoName": "NotPermittedToCardholder",
+      "name": "Not Permitted To Cardholder",
+      "definition": "Transaction not permitted to the cardholder or the customer."
+    },
+    "OFFL": {
+      "isoName": "OffLineProcess",
+      "name": "Off Line Process",
+      "definition": "Transaction has been processed offline by the terminal."
+    },
+    "ONLP": {
+      "isoName": "OffLineProcessAfterReferral",
+      "name": "Off Line Process After Referral",
+      "definition": "Transaction has been processed offline after referral."
+    },
+    "TXNM": {
+      "isoName": "OriginalDoesNotMatch",
+      "name": "Original Does Not Match",
+      "definition": "Original is found, but transaction does not match."
+    },
+    "OTHR": {
+      "isoName": "OtherError",
+      "name": "Other Error",
+      "definition": "Other error."
+    },
+    "BALO": {
+      "isoName": "OutOfBalance",
+      "name": "Out Of Balance",
+      "definition": "Out of balance."
+    },
+    "SEQO": {
+      "isoName": "OutOfSequence",
+      "name": "Out Of Sequence",
+      "definition": "Message is out of sequence."
+    },
+    "AMTL": {
+      "isoName": "PaymentAmountLimit",
+      "name": "Payment Amount Limit",
+      "definition": "Amount of payment transactions exceeds card limit."
+    },
+    "NMBL": {
+      "isoName": "PaymentNumberLimit",
+      "name": "Payment Number Limit",
+      "definition": "Number of payment transactions exceeds card limit."
+    },
+    "PINC": {
+      "isoName": "PINChangeRequired",
+      "name": "PIN Change Required",
+      "definition": "Cardholder must change the PIN to be able to perform the transaction."
+    },
+    "PIND": {
+      "isoName": "PINDataRequired",
+      "name": "PIN Data Required",
+      "definition": "Additional information are required to verify the PIN."
+    },
+    "PINE": {
+      "isoName": "PINEncryptionError",
+      "name": "PIN Encryption Error",
+      "definition": "Decrypted PIN block is invalid."
+    },
+    "PINS": {
+      "isoName": "PINSecurityError",
+      "name": "PIN Security Error",
+      "definition": "PIN length or PIN key is invalid."
+    },
+    "PINX": {
+      "isoName": "PINTriesExceeded",
+      "name": "PIN Tries Exceeded",
+      "definition": "Last attempt of the PIN verification fails."
+    },
+    "QMAX": {
+      "isoName": "QueueMaximumExceeded",
+      "name": "Queue Maximum Exceeded",
+      "definition": "Store and forward queue maximum exceeded."
+    },
+    "RECD": {
+      "isoName": "RecurringDataError",
+      "name": "Recurring Data Error",
+      "definition": "Recurring Error on Data."
+    },
+    "CRDT": {
+      "isoName": "RestrictedCard",
+      "name": "Restricted Card",
+      "definition": "Requested service not allowed by the card."
+    },
+    "SECV": {
+      "isoName": "SecurityViolation",
+      "name": "Security Violation",
+      "definition": "Security violation, for instance invalid ARPC (Authorisation ResPonse Cryptogram)."
+    },
+    "SFWE": {
+      "isoName": "SoftwareOrHardwareError",
+      "name": "Software Or Hardware Error",
+      "definition": "Security software or hardware error."
+    },
+    "SPCC": {
+      "isoName": "SpecialConditions",
+      "name": "Special Conditions",
+      "definition": "Special card conditions not respected."
+    },
+    "CRDW": {
+      "isoName": "WrongCard",
+      "name": "Wrong Card",
+      "definition": "Other card used for the original transaction."
+    },
+    "NMBW": {
+      "isoName": "WithdrawalNumberLimit",
+      "name": "Withdrawal Number Limit",
+      "definition": "Number of withdrawal transactions exceeds card limit."
+    },
+    "AMTW": {
+      "isoName": "WithdrawalAmountLimit",
+      "name": "Withdrawal Amount Limit",
+      "definition": "Amount of withdrawal transactions exceeds card limit."
+    },
+    "VNDF": {
+      "isoName": "VendorNotFound",
+      "name": "Vendor Not Found",
+      "definition": "Vendor not found."
+    },
+    "VNDR": {
+      "isoName": "VendorFormatError",
+      "name": "Vendor Format Error",
+      "definition": "Vendor format has an error."
+    },
+    "SVSU": {
+      "isoName": "UnsupportedService",
+      "name": "Unsupported Service",
+      "definition": "Requested service not supported."
+    },
+    "CRDU": {
+      "isoName": "UneffectiveCard",
+      "name": "Uneffective Card",
+      "definition": "Card is not active yet."
+    },
+    "CMKY": {
+      "isoName": "UnavailablecommunicationKey",
+      "name": "Unavailablecommunication Key",
+      "definition": "Communication keys are not available."
+    },
+    "UNBC": {
+      "isoName": "UnacceptableCurrency",
+      "name": "Unacceptable Currency",
+      "definition": "Currency is unacceptable for the Issuer or the processor."
+    },
+    "UNBP": {
+      "isoName": "UnableToProcessOffLine",
+      "name": "Unable To Process Off Line",
+      "definition": "Transaction cannot be processed offline."
+    },
+    "UNBO": {
+      "isoName": "UnableToGoOnLine",
+      "name": "Unable To Go On Line",
+      "definition": "Transaction cannot be processed online by the terminal."
+    },
+    "ORGF": {
+      "isoName": "UnableToFindOriginal",
+      "name": "Unable To Find Original",
+      "definition": "Transaction could not be processed as original is not found."
+    },
+    "TXND": {
+      "isoName": "TransactionDuplicate",
+      "name": "Transaction Duplicate",
+      "definition": "Transaction identification already used for another transaction."
+    },
+    "TXNU": {
+      "isoName": "TransactionDidNotComplete",
+      "name": "Transaction Did Not Complete",
+      "definition": "Transaction did not complete at the terminal."
+    },
+    "TTLV": {
+      "isoName": "TotalsNotAvailable",
+      "name": "Totals Not Available",
+      "definition": "Totals are not available."
+    },
+    "ACTT": {
+      "isoName": "ToAccountError",
+      "name": "To Account Error",
+      "definition": "To account status error."
+    },
+    "SYSM": {
+      "isoName": "SystemMalfunction",
+      "name": "System Malfunction",
+      "definition": "System Malfunction."
+    },
+    "SYSP": {
+      "isoName": "SystemInoperative",
+      "name": "System Inoperative",
+      "definition": "Processing temporary not available."
+    },
+    "FRDS": {
+      "isoName": "SuspectedFraud",
+      "name": "Suspected Fraud",
+      "definition": "Fraudulent transaction is suspected by the issuer or the processor."
+    },
+    "CNTC": {
+      "isoName": "SuspectedCounterfeitCard",
+      "name": "Suspected Counterfeit Card",
+      "definition": "Counterfeit card suspected by the issuer or the processor."
+    },
+    "SRCH": {
+      "isoName": "SurchargeNotPermitted",
+      "name": "Surcharge Not Permitted",
+      "definition": "Surcharging is not permitted."
+    },
+    "CRDS": {
+      "isoName": "StolenCard",
+      "name": "Stolen Card",
+      "definition": "Card has been declared stolen."
+    },
+    "ACKO": {
+      "isoName": "AcknowledgementOnly",
+      "name": "Acknowledgement Only",
+      "definition": "Message is acknowledged only without processing the service, for instance the reconciliation is not performed, acknowledged only."
+    }
+  }
+}

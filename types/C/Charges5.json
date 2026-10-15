@@ -1,0 +1,28 @@
+{
+  "isoType": "Charges5",
+  "language": "en",
+  "name": "Charges 5",
+  "definition": "Charges related to a payment obligation contracted between two financial institutions related to the financing of a commercial transaction.",
+  "isoElements": {
+    "ChargesPayer": {
+      "name": "Charges Payer",
+      "definition": "Bank which will pay the charges."
+    },
+    "ChargesPayee": {
+      "name": "Charges Payee",
+      "definition": "Bank which will receive the charges."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the charges taken by the payer."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Amount of the charges expressed as a percentage of the amount paid by the obligor bank."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of charges. For example: transaction charges, financing charges, deferred payment, interests."
+    }
+  }
+}

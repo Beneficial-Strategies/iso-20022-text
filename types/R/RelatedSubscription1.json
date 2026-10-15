@@ -1,0 +1,32 @@
+{
+  "isoType": "RelatedSubscription1",
+  "language": "en",
+  "name": "Related Subscription 1",
+  "definition": "Reference to the related subscription order the performance fee is based on.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference to the related subscription order the performance fee is based on."
+    },
+    "RelatedQuantity": {
+      "name": "Related Quantity",
+      "definition": "Number of investment fund units from the related subscription order."
+    },
+    "RelatedAmount": {
+      "name": "Related Amount",
+      "definition": "Amount of money paid by the investor for the related subscription order."
+    },
+    "ContingentLiquidationPerUnit": {
+      "name": "Contingent Liquidation Per Unit",
+      "definition": "Performance fee to be paid by the investor when the value of the investment fund units were below their applicable high-watermark on subscription date, and above the high-watermark on redemption date."
+    },
+    "DepreciationDepositPerUnit": {
+      "name": "Depreciation Deposit Per Unit",
+      "definition": "Performance fee to be paid by the investor when the net asset value reaches the high-watermark if the net asset value was under the high-watermark on subscription date."
+    },
+    "EqualisationCreditPerUnit": {
+      "name": "Equalisation Credit Per Unit",
+      "definition": "Prepayment amount to be paid by the investor at the moment of the subscription.  The amount is based on the positive difference between the gross asset value at subscription and the high-watermark, when the investment fund units are subscribed to above their high-watermark."
+    }
+  }
+}

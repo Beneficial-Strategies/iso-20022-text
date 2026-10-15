@@ -1,0 +1,52 @@
+{
+  "isoType": "SubMerchant1",
+  "language": "en",
+  "name": "Sub Merchant 1",
+  "definition": "Merchant using the payment services of the card acceptor. The submerchant is not acting as the card acceptor.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the party."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Entity in charge of assigning an identification to a party."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the party."
+    },
+    "Foreign": {
+      "name": "Foreign",
+      "definition": "Identify the type of foreign sponsored merchant marketplace relationship."
+    },
+    "BusinessName": {
+      "name": "Business Name",
+      "definition": "Contains the full name of the sponsored merchant."
+    },
+    "LegalCorporateName": {
+      "name": "Legal Corporate Name",
+      "definition": "Legal Corporate Name of the sponsored merchant."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the sponsored merchant."
+    },
+    "GeographicLocation": {
+      "name": "Geographic Location",
+      "definition": "Location of the acceptor in latitude/longitude decimal degrees."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains local language equivalent(s) of data in the current component."
+    }
+  }
+}

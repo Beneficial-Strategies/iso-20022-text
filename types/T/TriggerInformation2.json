@@ -1,0 +1,24 @@
+{
+  "isoType": "TriggerInformation2",
+  "language": "en",
+  "name": "Trigger Information 2",
+  "definition": "Element containing all information needed to identify who triggered the request.",
+  "isoElements": {
+    "TriggerSource": {
+      "name": "Trigger Source",
+      "definition": "Actor who trigger the request."
+    },
+    "SourceIdentification": {
+      "name": "Source Identification",
+      "definition": "Identification of the trigger source."
+    },
+    "TriggerType": {
+      "name": "Trigger Type",
+      "definition": "Identification of the type of the call."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to request."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalSystemPartyType1Code",
+  "language": "en",
+  "name": "External System Party Type 1 Code",
+  "definition": "Specifies the system party type, as published in an external system party type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "SYMG": {
+      "isoName": "SystemManager",
+      "name": "System Manager",
+      "definition": "Party that defines the eligibility criteria of the system and is responsible for monitoring, controlling and, if necessary, operating the system. All authorizations are available to the system manager when interacting with the system."
+    },
+    "SYOP": {
+      "isoName": "SystemOperator",
+      "name": "System Operator",
+      "definition": "Party that operates the system on behalf of the system manager (if different from the system manager) and is provided with specific authorizations by the system manager for this purpose."
+    },
+    "STPU": {
+      "isoName": "StandardParticipantUnrestricted",
+      "name": "Standard Participant Unrestricted",
+      "definition": "Party that owns an account in the system and can interact with the system or counterparties using all use cases available to standard participants."
+    },
+    "STPR": {
+      "isoName": "StandardParticipantRestricted",
+      "name": "Standard Participant Restricted",
+      "definition": "Party that owns an account in the system, but only supports a limited range of available use cases in interaction with counterparties."
+    },
+    "NCBK": {
+      "isoName": "NationalCentralBank",
+      "name": "National Central Bank",
+      "definition": "As system participant, the national central bank is the principal monetary authority of a nation and performs several key functions, including issuing currency and regulating the supply of credit in the economy."
+    },
+    "PMBK": {
+      "isoName": "PaymentBank",
+      "name": "Payment Bank",
+      "definition": "Commercial bank used to effect money settlements."
+    },
+    "ANSY": {
+      "isoName": "AncillarySystem",
+      "name": "Ancillary System",
+      "definition": "System in which payments and/or financial instruments are exchanged and/or cleared or recorded, while the ensuing monetary obligations are settled in another system, typically an RTGS system"
+    },
+    "CSDY": {
+      "isoName": "CentralSecuritiesDepository",
+      "name": "Central Securities Depository",
+      "definition": "Infrastructure that holds or controls the holding of physical or dematerialized financial instruments belonging to all, or a large portion of, the investors in a securities market. This effects the centralized transfer of ownership of such securities by entries on its books and records."
+    },
+    "CSDP": {
+      "isoName": "CentralSecuritiesDepositoryParticipant",
+      "name": "Central Securities Depository Participant",
+      "definition": "Legal entity or, as the case may be, an individual having a contractual relationship with the CSD for the processing of its securities settlement-related activities in T2S."
+    },
+    "ECSD": {
+      "isoName": "ExternalCentralSecuritiesDepository",
+      "name": "External Central Securities Depository",
+      "definition": "Infrastructure that holds or controls the holding of physical or dematerialized financial instruments belonging to all, or a large portion of, the investors in a securities market. This effects the centralized transfer of ownership of such securities by entries on its books and records. The infrastructure is external to the system executing the instruction."
+    }
+  }
+}

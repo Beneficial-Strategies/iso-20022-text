@@ -1,0 +1,77 @@
+{
+  "isoType": "UnitPrice24",
+  "language": "en",
+  "name": "Unit Price 24",
+  "definition": "Amount of money for which goods or services are offered, sold, or bought.",
+  "isoElements": {
+    "PriceType": {
+      "name": "Price Type",
+      "definition": "Type and information about a price."
+    },
+    "PriceMethod": {
+      "name": "Price Method",
+      "definition": "Type of pricing calculation method."
+    },
+    "ValueInInvestmentCurrency": {
+      "name": "Value In Investment Currency",
+      "definition": "Value of the price, eg, as a currency and value."
+    },
+    "ValueInAlternativeCurrency": {
+      "name": "Value In Alternative Currency",
+      "definition": "Value of the price, eg, as a currency and value."
+    },
+    "ForExecutionIndicator": {
+      "name": "For Execution Indicator",
+      "definition": "Indicates whether the price information can be used for the execution of a transaction."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, ie, cum-dividend, in the price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "CalculationBasis": {
+      "name": "Calculation Basis",
+      "definition": "Ratio applied on the non-adjusted price."
+    },
+    "EstimatedPriceIndicator": {
+      "name": "Estimated Price Indicator",
+      "definition": "Indicates whether the price is an estimated price."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Specifies the number of days from trade date that the counterparty on the other side of the trade should \"given up\" or divulged."
+    },
+    "TaxableIncomePerShare": {
+      "name": "Taxable Income Per Share",
+      "definition": "Amount included in the NAV that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "name": "Taxable Income Per Share Calculated",
+      "definition": "Specifies whether the fund calculates a taxable interest per share (TIS)."
+    },
+    "TaxableIncomePerDividend": {
+      "name": "Taxable Income Per Dividend",
+      "definition": "Amount included in the dividend that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "EUDividendStatus": {
+      "name": "EU Dividend Status",
+      "definition": "Specifies whether dividend is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "ChargeDetails": {
+      "name": "Charge Details",
+      "definition": "Amount of money associated with a service."
+    },
+    "TaxLiabilityDetails": {
+      "name": "Tax Liability Details",
+      "definition": "Information related to taxes that are due."
+    },
+    "TaxRefundDetails": {
+      "name": "Tax Refund Details",
+      "definition": "Information related to taxes that are paid back."
+    }
+  },
+  "isoRules": {
+    "CalculationBasisRule": {
+      "definition": "If Type is not NonAdjustedUnpublished, then CalculationBasis is not allowed. If Type is NonAdjustedUnpublished, then CalculationBasis may be present."
+    }
+  }
+}

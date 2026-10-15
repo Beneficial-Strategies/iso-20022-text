@@ -1,0 +1,16 @@
+{
+  "isoType": "DeviceSendApplicationProtocolDataUnitCardReaderResponse1",
+  "language": "en",
+  "name": "Device Send Application Protocol Data Unit Card Reader Response 1",
+  "definition": "Content of the Card Reader Application Protocol Data Unit Response message.",
+  "isoElements": {
+    "Data": {
+      "name": "Data",
+      "definition": "Class field of the Application Protocol Data Unit command (CLA)."
+    },
+    "CardStatus": {
+      "name": "Card Status",
+      "definition": "Status of a smartcard response to a command (SW1-SW2). Reference: ISO 7816-4."
+    }
+  }
+}

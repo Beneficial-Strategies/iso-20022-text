@@ -1,0 +1,24 @@
+{
+  "isoType": "InvoiceFinancingDetails1",
+  "language": "en",
+  "name": "Invoice Financing Details 1",
+  "definition": "Detailed information about single invoice/instalment financing result, such as result of request (financed or not financed), amount, percentage applied.",
+  "isoElements": {
+    "OriginalInvoiceInformation": {
+      "name": "Original Invoice Information",
+      "definition": "General information that unambiguously identifies the invoice contained in the original request."
+    },
+    "Supplier": {
+      "name": "Supplier",
+      "definition": "Person or organization that represents the creditor for the invoice to be financed."
+    },
+    "InvoiceFinancingResult": {
+      "name": "Invoice Financing Result",
+      "definition": "Information about result of invoice financing request."
+    },
+    "InstalmentFinancingInformation": {
+      "name": "Instalment Financing Information",
+      "definition": "Includes details about a single instalment within an invoice, such as identification and amount."
+    }
+  }
+}

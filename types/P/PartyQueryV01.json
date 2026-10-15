@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyQueryV01",
+  "language": "en",
+  "name": "Party Query V 01",
+  "definition": "Scope:|The PartyQuery message is sent by a central securities depository, a national central bank, a central securities depository participant, a central counter party, a payment bank, a trading party or a stock exchange to the executing party to query for the party reference data of a party defined in the system.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Point to point reference elements, as assigned by the instructing party, to unambiguously identify the query message."
+    },
+    "SearchCriteria": {
+      "name": "Search Criteria",
+      "definition": "Defines the criteria to be used to query the party reference data by the executing system."
+    },
+    "ReturnCriteria": {
+      "name": "Return Criteria",
+      "definition": "Defines the expected party reference data to be returned."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

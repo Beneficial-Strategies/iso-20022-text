@@ -1,0 +1,43 @@
+{
+  "isoType": "TradingVenueAttributes2",
+  "language": "en",
+  "name": "Trading Venue Attributes 2",
+  "definition": "Traded venue related fields.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Segment MIC for the trading venue or systematic internaliser, where applicable, otherwise the operating MIC."
+    },
+    "IssuerRequest": {
+      "name": "Issuer Request",
+      "definition": "Indicates whether the issuer of the financial instrument has requested or approved the trading or admission to trading of their financial instruments on a trading venue.||Usage: when not present, the indicator in not applicable."
+    },
+    "AdmissionApprovalDateByIssuer": {
+      "name": "Admission Approval Date By Issuer",
+      "definition": "Date and time the issuer has approved the admission to trading or trading of its financial instruments on the trading venue."
+    },
+    "RequestForAdmissionDate": {
+      "name": "Request For Admission Date",
+      "definition": "Date and time when the request for admission on the trading venue was made for the instrument."
+    },
+    "FirstTradeDate": {
+      "name": "First Trade Date",
+      "definition": "Date and time of the admission to trading on the trading venue or the date and time when the instrument was first traded or an order or quote was first received by the trading venue."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Date and time when the financial instrument ceases to be traded or to be admitted to trading on the trading venue. Where this date and time is unavailable, the field shall not be populated."
+    }
+  },
+  "isoRules": {
+    "ValidateAdmissionIssuerRule": {
+      "definition": "When IssuerRequest is equal to true, then AdmissionApprovalDateByIssuer must be present."
+    },
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    },
+    "ValidTerminationDateRule": {
+      "definition": "TerminationDate cannot be a date earlier than FirstTradeDate, RequestForAdmissionDate or AdmissionApprovalDate."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancialInstrument53",
+  "language": "en",
+  "name": "Financial Instrument 53",
+  "definition": "Specify the ISIN(s) and / or LEI(s) that are present in a basket.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "The LEI code of the issuer where the instrument is referring to an issuer rather than one single instrument."
+    }
+  },
+  "isoRules": {
+    "BasketInstrumentUniquenessRule": {
+      "definition": "Where an underlying instrument basket is populated, all ISINs or LEIs must be unique."
+    },
+    "OneElementPresentRule": {
+      "definition": "At least one of 5 elements must be present."
+    }
+  }
+}

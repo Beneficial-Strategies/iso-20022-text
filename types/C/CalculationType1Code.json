@@ -1,0 +1,173 @@
+{
+  "isoType": "CalculationType1Code",
+  "language": "en",
+  "name": "Calculation Type 1 Code",
+  "definition": "Specifies the yield computation method.",
+  "isoCodes": {
+    "AFTX": {
+      "isoName": "AfterTax",
+      "name": "After Tax",
+      "definition": "The yield on the bond net of any tax consequences from holding the bond. The discount on municipal securities can be subject to both capital gains taxes and ordinary income taxes. Calculated from dollar price."
+    },
+    "ANNU": {
+      "isoName": "Annual",
+      "name": "Annual",
+      "definition": "The annual interest or dividend income an investment earns, expressed as a percentage of the investment's total value."
+    },
+    "ISSU": {
+      "isoName": "AtIssue",
+      "name": "At Issue",
+      "definition": "The yield of the bond offered on the issue date."
+    },
+    "AVMA": {
+      "isoName": "ToAverageMaturity",
+      "name": "To Average Maturity",
+      "definition": "The yield achieved by substituting a bond's average maturity for the issue's final maturity date."
+    },
+    "BOOK": {
+      "isoName": "Book",
+      "name": "Book",
+      "definition": "The yield of a security calculated by using its book value instead of the current market price. This term is typically used in the US domestic market."
+    },
+    "YTNC": {
+      "isoName": "YieldToNextCall",
+      "name": "Yield To Next Call",
+      "definition": "Yield of a bond to the next possible call date."
+    },
+    "CHCL": {
+      "isoName": "ChangeSinceClose",
+      "name": "Change Since Close",
+      "definition": "The change in the yield since the previous day's closing yield."
+    },
+    "CLOS": {
+      "isoName": "Closing",
+      "name": "Closing",
+      "definition": "The yield of a bond based on the closing price."
+    },
+    "CMPD": {
+      "isoName": "Compound",
+      "name": "Compound",
+      "definition": "The yield of certain Japanese bonds based on its price. Certain Japanese bonds have irregular first or last coupons, and the yield is calculated compound for these irregular periods."
+    },
+    "CUYI": {
+      "isoName": "CurrentYield",
+      "name": "Current Yield",
+      "definition": "The ratio of the interest payment amount to the clean price."
+    },
+    "TRGR": {
+      "isoName": "TrueGross",
+      "name": "True Gross",
+      "definition": "Yield calculated using the price including accrued interest, where coupon dates are moved from holidays and weekends to the next trading day."
+    },
+    "GVEQ": {
+      "isoName": "GovernmentEquivalent",
+      "name": "Government Equivalent",
+      "definition": "Ask yield based on semi-annual coupons compounding in all periods and actual/actual calendar."
+    },
+    "FLAS": {
+      "isoName": "InflationAssumption",
+      "name": "Inflation Assumption",
+      "definition": "Based on price, the return an investor would require on a normal bond that would make the real return equal to that of the inflation-indexed bond, assuming a constant inflation rate."
+    },
+    "NVFL": {
+      "isoName": "InverseFloater",
+      "name": "Inverse Floater",
+      "definition": "Inverse Floater Bond Yield - Inverse floater semi-annual bond equivalent rate."
+    },
+    "LSCL": {
+      "isoName": "LastClose",
+      "name": "Last Close",
+      "definition": "Most Recent Closing Yield - The last available yield stored in history, computed using price."
+    },
+    "LSMT": {
+      "isoName": "LastMonth",
+      "name": "Last Month",
+      "definition": "Closing Yield Most Recent Month - The yield of a bond based on the closing price as of the most recent month's end."
+    },
+    "LSQR": {
+      "isoName": "LastQuarter",
+      "name": "Last Quarter",
+      "definition": "Closing Yield Most Recent Quarter - The yield of a bond based on the closing price as of the most recent quarter's end."
+    },
+    "LSYR": {
+      "isoName": "LastYear",
+      "name": "Last Year",
+      "definition": "Closing Yield Most Recent Year - The yield of a bond based on the closing price as of the most recent year's end."
+    },
+    "LGAL": {
+      "isoName": "LongestAverageLife",
+      "name": "Longest Average Life",
+      "definition": "The yield assuming only mandatory sinks are taken. This results in a lower paydown of debt; the yield is then calculated to the final payment date."
+    },
+    "MARK": {
+      "isoName": "MarkToMarket",
+      "name": "Mark To Market",
+      "definition": "An adjustment in the valuation of a securities portfolio to reflect the current market values of the respective securities in the portfolio."
+    },
+    "YTMA": {
+      "isoName": "YieldToMaturity",
+      "name": "Yield To Maturity",
+      "definition": "Internal rate of return an investor would achieve if he or she purchased that bond at its current dirty price, and held it to maturity, assuming all coupon and principal payments are received as scheduled."
+    },
+    "NXRF": {
+      "isoName": "ToNextRefund",
+      "name": "To Next Refund",
+      "definition": "Yield To Next Refund (Sinking Fund Bonds) - Yield assuming all bonds are redeemed at the next refund date at the redemption price."
+    },
+    "PNAV": {
+      "isoName": "OpenAverage",
+      "name": "Open Average",
+      "definition": "The average yield of the respective securities in the portfolio."
+    },
+    "NXPT": {
+      "isoName": "ToNextPut",
+      "name": "To Next Put",
+      "definition": "The yield to the date at which the bond holder can next put the bond to the issuer."
+    },
+    "PRCL": {
+      "isoName": "PreviousClose",
+      "name": "Previous Close",
+      "definition": "The yield of a bond based on the closing price 1 day ago."
+    },
+    "PRYL": {
+      "isoName": "Proceeds",
+      "name": "Proceeds",
+      "definition": "The CD equivalent yield when the remaining time to maturity is less than two years."
+    },
+    "SEMI": {
+      "isoName": "SemiAnnual",
+      "name": "Semi Annual",
+      "definition": "The yield of a bond whose coupon payments are reinvested semi-annually."
+    },
+    "SHLF": {
+      "isoName": "ShortestAverageLife",
+      "name": "Shortest Average Life",
+      "definition": "The yield assuming that all sinks (mandatory and voluntary) are taken at par. This results in a faster paydown of debt; the yield is then calculated to the shortest average life date."
+    },
+    "SPLL": {
+      "isoName": "Simple",
+      "name": "Simple",
+      "definition": "The yield of a bond assuming no reinvestment of coupon payments. (Act/360 day count)."
+    },
+    "TXQV": {
+      "isoName": "TaxEquivalent",
+      "name": "Tax Equivalent",
+      "definition": "The after tax yield grossed up by the maximum federal tax rate of 39.6%. For comparison to taxable yields."
+    },
+    "TTDT": {
+      "isoName": "ToTenderDate",
+      "name": "To Tender Date",
+      "definition": "The yield on a Municipal bond to its mandatory tender date."
+    },
+    "TRYL": {
+      "isoName": "True",
+      "name": "True",
+      "definition": "The yield calculated with coupon dates moved from a weekend or holiday to the next valid settlement date."
+    },
+    "WRST": {
+      "isoName": "ToWorstConvention",
+      "name": "To Worst Convention",
+      "definition": "The lowest yield to all possible redemption date scenarios."
+    }
+  }
+}

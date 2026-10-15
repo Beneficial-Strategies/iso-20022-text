@@ -1,0 +1,20 @@
+{
+  "isoType": "AccountBalanceSD10",
+  "language": "en",
+  "name": "Account Balance SD 10",
+  "definition": "Provides additional information regarding account balance. Contains transaction details of the stock loans, repurchase agreements (REPOs) and undelivered trades (FAILs).",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "TransactionPosition": {
+      "name": "Transaction Position",
+      "definition": "Position that is concerned in transaction."
+    },
+    "ContraParticipantNumber": {
+      "name": "Contra Participant Number",
+      "definition": "Transaction contra participant identification for stock loans, repurchase agreements (REPOs)."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "isoType": "DTCCPayoutType1Code",
+  "language": "en",
+  "name": "DTCC Payout Type 1 Code",
+  "definition": "Specifies DTCC (The Depository Trust and Clearing Corporation) defined payout types.",
+  "isoCodes": {
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Payout consisting of cash."
+    },
+    "DIVI": {
+      "isoName": "Dividend",
+      "name": "Dividend",
+      "definition": "Distribution of earnings to shareholders categorised by company as dividend."
+    },
+    "ROCA": {
+      "isoName": "ReturnOfCapital",
+      "name": "Return Of Capital",
+      "definition": "Distribution that doesn't represent earnings and is categorised by the company as return of capital."
+    },
+    "STCG": {
+      "isoName": "ShortTermCapitalGains",
+      "name": "Short Term Capital Gains",
+      "definition": "Distribution of earnings to shareholders categorised by the company as short-term capital gains."
+    },
+    "LTCG": {
+      "isoName": "LongTermCapitalGains",
+      "name": "Long Term Capital Gains",
+      "definition": "Distribution of earnings to shareholders categorised by the company as long-term capital gains."
+    },
+    "CAPG": {
+      "isoName": "CapitalGains",
+      "name": "Capital Gains",
+      "definition": "Distribution of earnings to shareholders categorised by the company as capital gains."
+    },
+    "PREM": {
+      "isoName": "Premium",
+      "name": "Premium",
+      "definition": "Cash payment that is categorised by the issuer as premium, usually offered as incentive for early participation in an offer."
+    },
+    "PRPL": {
+      "isoName": "Principal",
+      "name": "Principal",
+      "definition": "Cash payment on a debt instrument that represents a return of principal to the holder."
+    },
+    "INTR": {
+      "isoName": "Interest",
+      "name": "Interest",
+      "definition": "Cash payment on a debt instrument calculated using the coupon rate, principal and period of time."
+    },
+    "FLFR": {
+      "isoName": "Franked",
+      "name": "Franked",
+      "definition": "In some markets, companies further categorize dividends as franked or unfranked. \"Franked\" means that a tax credit is attached to that part of the dividend."
+    },
+    "UNFR": {
+      "isoName": "Unfranked",
+      "name": "Unfranked",
+      "definition": "In some markets, companies further categorize dividends as franked or unfranked. \"Unfranked\" means that there is no tax credit attached to the dividend."
+    }
+  }
+}

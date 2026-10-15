@@ -1,0 +1,20 @@
+{
+  "isoType": "InitialMarginExposure1",
+  "language": "en",
+  "name": "Initial Margin Exposure 1",
+  "definition": "Liability a clearing member has to a central counterparty with respect to potential future exposures.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Initial margin requirement for margin account."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of component used in the calculation of the total initial margin requirement."
+    },
+    "CoreIndicator": {
+      "name": "Core Indicator",
+      "definition": "Indicates whether the component is considered a core part of the margin model. Usage: In the context of European central counterparties, if the component is included in backtesting procedures in order to assess the performance of the initial margin model as required by EMIR RTS Article (49)(1)."
+    }
+  }
+}

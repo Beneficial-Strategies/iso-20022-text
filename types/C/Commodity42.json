@@ -1,0 +1,33 @@
+{
+  "isoType": "Commodity42",
+  "language": "en",
+  "name": "Commodity 42",
+  "definition": "Data specific to commodities and related informations used as a collateral.",
+  "isoElements": {
+    "Classification": {
+      "name": "Classification",
+      "definition": "Specifies whether the values defined asset class commodity are matching or not."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies whether the values defined as decimal number are matching or not."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Specifies whether the the unit prices are matching or not."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Specifies whether the values defined as unit of measure code are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

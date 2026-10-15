@@ -25,7 +25,7 @@ function vocabulary() {
   const dir = join(hub, 'types');
   for (const letter of readdirSync(dir)) for (const file of readdirSync(join(dir, letter))) {
     const t = read(join(dir, letter, file));
-    add(t.name);
+    if (t.name) add(t.name); // a type whose name two items share has an `ambiguous` list and no name
     for (const map of ['isoElements', 'isoCodes', 'isoAttributes', 'isoAssociations']) for (const e of Object.values(t[map] ?? {})) add(e.name);
   }
   return words;

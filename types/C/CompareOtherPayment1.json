@@ -1,0 +1,33 @@
+{
+  "isoType": "CompareOtherPayment1",
+  "language": "en",
+  "name": "Compare Other Payment 1",
+  "definition": "Specifies two values to compare related to payment data attributes not reported in dedicated fields.",
+  "isoElements": {
+    "OtherPaymentType": {
+      "name": "Other Payment Type",
+      "definition": "Specifies whether the information on the other payment types are matching or not."
+    },
+    "OtherPaymentAmount": {
+      "name": "Other Payment Amount",
+      "definition": "Specifies whether the information on the other payment amounts are matching or not."
+    },
+    "OtherPaymentDate": {
+      "name": "Other Payment Date",
+      "definition": "Specifies whether the information on the other payment dates are matching or not."
+    },
+    "OtherPaymentPayer": {
+      "name": "Other Payment Payer",
+      "definition": "Specifies whether the information on the other payment payers are matching or not."
+    },
+    "OtherPaymentReceiver": {
+      "name": "Other Payment Receiver",
+      "definition": "Specifies whether the information on the other payment receivers are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

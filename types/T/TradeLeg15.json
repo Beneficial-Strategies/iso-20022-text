@@ -1,0 +1,152 @@
+{
+  "isoType": "TradeLeg15",
+  "language": "en",
+  "name": "Trade Leg 15",
+  "definition": "Provides the trade leg details.",
+  "isoElements": {
+    "MarginAccount": {
+      "name": "Margin Account",
+      "definition": "Margin account where the negotiation and liquidation risks will be calculated."
+    },
+    "DeliveryAccount": {
+      "name": "Delivery Account",
+      "definition": "Account opened by the central counterparty in the name of the clearing member or its settlement agent within the account structure, for settlement purposes (gives information about the clearing member/its settlement agent account at the central securities depository)."
+    },
+    "TradeLegIdentification": {
+      "name": "Trade Leg Identification",
+      "definition": "Unambiguous identification of the transaction (that is the trade leg) as known by the instructing party."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details."
+    },
+    "TradeExecutionIdentification": {
+      "name": "Trade Execution Identification",
+      "definition": "Unique reference assigned by the trading venue when the trade is executed."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    },
+    "OrderIdentification": {
+      "name": "Order Identification",
+      "definition": "Identifies the order sent by the final investor to an intermediary in order to initiate a trade in the former's name. This identification is then matched with the equivalent trade by the clearing."
+    },
+    "AllocationIdentification": {
+      "name": "Allocation Identification",
+      "definition": "Identifies the portion of assets within a determined trade that shall be allocated to different clients."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides details about the non clearing member identification and account."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Provides the date or date and time of trade transaction."
+    },
+    "TransactionDateAndTime": {
+      "name": "Transaction Date And Time",
+      "definition": "Date and time used to determine the price applicable to a trade. If the trade is registered \"after market\" hours, the trading price will the price of the day but the actual trade date will be the next working day."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Provides the contractual settlement date."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "TradingCurrency": {
+      "name": "Trading Currency",
+      "definition": "Specifies the ISO code of the trade currency."
+    },
+    "BuySellIndicator": {
+      "name": "Buy Sell Indicator",
+      "definition": "Identifies the trade leg indicator which gives the trade side (buy or sell)."
+    },
+    "TradeQuantity": {
+      "name": "Trade Quantity",
+      "definition": "Identifies the quantity of the trade leg."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Specifies the price of the traded financial instrument."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest that has accumulated on a bond since the last interest payment up to, but not including, the settlement date."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Place at which the security is traded."
+    },
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Place at which the security is listed."
+    },
+    "TradeType": {
+      "name": "Trade Type",
+      "definition": "Identifies the type of trade transaction."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was excuted."
+    },
+    "DerivativeRelatedTrade": {
+      "name": "Derivative Related Trade",
+      "definition": "Indicates that the trade is for settlement of an exercised derivatives contract."
+    },
+    "Broker": {
+      "name": "Broker",
+      "definition": "Party that identifies a broker when required (for example, authorised broker or prime broker)."
+    },
+    "TradingParty": {
+      "name": "Trading Party",
+      "definition": "Provides the identification of the trading party."
+    },
+    "TradeRegistrationOrigin": {
+      "name": "Trade Registration Origin",
+      "definition": "Indicates in which session the transaction/operation was executed by the final investor or an intermediary."
+    },
+    "TradingPartyAccount": {
+      "name": "Trading Party Account",
+      "definition": "Identifier of the trading participant's account at the trading venue using the venue's coding system."
+    },
+    "TradingCapacity": {
+      "name": "Trading Capacity",
+      "definition": "Specifies the role of the trading party in the transaction."
+    },
+    "TradePostingCode": {
+      "name": "Trade Posting Code",
+      "definition": "Indicates how a trade is maintained in the clearing account."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": "Provides settlement details such as the settlement amount or the place of settlement."
+    },
+    "ClearingDetails": {
+      "name": "Clearing Details",
+      "definition": "Provides clearing details such as the non clearing member identification or the settlement netting (or not) eligibility code."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Principal amount of a trade (price multiplied by quantity)."
+    }
+  },
+  "isoRules": {
+    "DepositoryOrPlaceOfListingPresenceRule": {
+      "definition": "Depository or PlaceOfListing must be present."
+    },
+    "TradeIdentificationPresenceRule": {
+      "definition": "TradeIdentification Or TradeExecutionIdentification Or UniqueTransactionIdentifier Must be present."
+    }
+  }
+}

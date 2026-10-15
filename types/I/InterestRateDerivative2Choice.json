@@ -1,0 +1,16 @@
+{
+  "isoType": "InterestRateDerivative2Choice",
+  "language": "en",
+  "name": "Interest Rate Derivative 2 Choice",
+  "definition": "Choice element specifying the underlying types of an interest rate derivative.",
+  "isoElements": {
+    "SwapRelated": {
+      "name": "Swap Related",
+      "definition": "Underlying interest rate type is a swap, swaption, a future on a swap or a forward on a swap with regard to the underlying swap."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Where contract type is different from swaps, swaptions, futures on swaps and forwards on a swap, this field is used."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ForeignExchangeTradeWithdrawalNotificationV03",
+  "language": "en",
+  "name": "Foreign Exchange Trade Withdrawal Notification V 03",
+  "definition": "Scope|The ForeignExchangeTradeWithdrawalNotification message is sent by a central system to notify the withdrawal of a foreign exchange trade which was previously notified to the receiver as an alleged trade.|Usage|The ForeignExchangeTradeWithdrawalNotification message is used to confirm the cancellation of a previously notified trade.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the present message assigned by the party issuing the message. This identification must be unique amongst all messages of same type sent by the same party."
+    },
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference to the unique system identification assigned to the trade by the central matching system."
+    },
+    "WithdrawalReason": {
+      "name": "Withdrawal Reason",
+      "definition": "Reason for the withdrawal notification."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

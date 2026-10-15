@@ -1,0 +1,108 @@
+{
+  "isoType": "BatchTransferResponseV04",
+  "language": "en",
+  "name": "Batch Transfer Response V 04",
+  "definition": "The BatchTransferResponse message is sent by any party to any party (acquirer, agent or issuer) in response to a BatchTransferInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "BatchIdentification": {
+      "name": "Batch Identification",
+      "definition": "Identification of a batch.|All the messages included within the batch will have the same batch identification value."
+    },
+    "OriginalBatchIdentification": {
+      "name": "Original Batch Identification",
+      "definition": "Identification of the original batch to answer.|Mandatory when the batch response has not the same identification as the batch initiation."
+    },
+    "NumberOfMessages": {
+      "name": "Number Of Messages",
+      "definition": "Number of messages.||For a start of a collection, this is the number of expected messages in the collection if known. This is also the last expected message sequence number in the collection.||For a start of a batch, this is the number of expected messages in the batch if known. This is also the last expected message sequence number in the batch.||For a start of a batch acknowledgement, this is the maximum number of messages that can be received in the batch.||For an intermediate acknowledgement, this is the last message sequence number received in sequence.||For an intermediate checkpoint, this is the message sequence number of the last received message.||For an end of batch this is the last message sequence number sent in the closing batch, equal to the number of messages sent in the batch.||For an end of batch acknowledgement, this is the last sequence number received in the sequence."
+    },
+    "BatchChecksum": {
+      "name": "Batch Checksum",
+      "definition": "Checksum of the series of messages received in the batch or until a checkpoint."
+    },
+    "RequestAcknowledgement": {
+      "name": "Request Acknowledgement",
+      "definition": "Indicator to request acknowledgement.|True: Acknowledgement requested|False: Acknowledgement not requested."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "ClearingBatchData": {
+      "name": "Clearing Batch Data",
+      "definition": "Clearing data at batch level allowing clearing in different currencies."
+    },
+    "ClearingControlTotals": {
+      "name": "Clearing Control Totals",
+      "definition": "Gross amount clearing totals."
+    },
+    "Record": {
+      "name": "Record",
+      "definition": "Record in batch."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "OriginalResponseCode": {
+      "name": "Original Response Code",
+      "definition": "Original Response code defined in ISO 8583."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of processing."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

@@ -2,5 +2,10 @@
   "isoType": "LanguageCode",
   "language": "en",
   "name": "Language Code",
-  "definition": "Specifies a language."
+  "definition": "Specifies a language.",
+  "isoRules": {
+    "ValidationByTable": {
+      "definition": "Must be a valid terrestrial language."
+    }
+  }
 }

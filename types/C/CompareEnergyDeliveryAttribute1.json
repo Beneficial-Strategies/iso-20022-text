@@ -1,0 +1,41 @@
+{
+  "isoType": "CompareEnergyDeliveryAttribute1",
+  "language": "en",
+  "name": "Compare Energy Delivery Attribute 1",
+  "definition": "Specifies two values to compare related energy derivatives attributes.",
+  "isoElements": {
+    "EnergyDeliveryInterval": {
+      "name": "Energy Delivery Interval",
+      "definition": "Specifies whether the information on the delivery intervals are matching or not."
+    },
+    "EnergyDate": {
+      "name": "Energy Date",
+      "definition": "Specifies whether the information on the delivery start date and end date are matching or not."
+    },
+    "EnergyDuration": {
+      "name": "Energy Duration",
+      "definition": "Specifies whether the information on the energy durations are matching or not."
+    },
+    "EnergyWeekDay": {
+      "name": "Energy Week Day",
+      "definition": "Specifies whether the information on the week days are matching or not."
+    },
+    "EnergyDeliveryCapacity": {
+      "name": "Energy Delivery Capacity",
+      "definition": "Specifies whether the information on the delivery capacity are matching or not."
+    },
+    "EnergyQuantityUnit": {
+      "name": "Energy Quantity Unit",
+      "definition": "Specifies whether the information on the energy quantity units are matching or not."
+    },
+    "EnergyPriceTimeIntervalQuantity": {
+      "name": "Energy Price Time Interval Quantity",
+      "definition": "Specifies whether the information on the price time interval quantity are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CAPEExchangeMode1Code",
+  "language": "en",
+  "name": "CAPE Exchange Mode 1 Code",
+  "definition": "Type of exchange supported by a host.",
+  "isoCodes": {
+    "APIE": {
+      "isoName": "ExchangeByAPI",
+      "name": "Exchange By API",
+      "definition": "With this protocol, the communication is done through calls to API."
+    },
+    "MSGE": {
+      "isoName": "ExchangeByMessage",
+      "name": "Exchange By Message",
+      "definition": "With this protocol, the communication is done through message exchanges."
+    }
+  }
+}

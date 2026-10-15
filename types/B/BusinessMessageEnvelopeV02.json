@@ -1,0 +1,20 @@
+{
+  "isoType": "BusinessMessageEnvelopeV02",
+  "language": "en",
+  "name": "Business Message Envelope V 02",
+  "definition": "The BusinessMessageEnvelope is a technical message container used to bundle a business application header with a message definition, typically to support processing or transport. It may contain and define additional data elements that apply to the message instance container.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "ISO 20022 Business Application Header instance.|Rule: The external schema must be an official ISO 20022 Business Application Header."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "ISO 20022 Message Definition instance.|Rule: The external schema must be an official ISO 20022 Message Definition."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference related to the delivery of the business message whilst in transit from sending to receiving business application."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "TradingMethodType1Code",
+  "language": "en",
+  "name": "Trading Method Type 1 Code",
+  "definition": "Identifies the type of trading method.",
+  "isoCodes": {
+    "BITR": {
+      "isoName": "BilateralTrade",
+      "name": "Bilateral Trade",
+      "definition": "Taker submits a bilateral request, maker replys the quotation, and taker accepts the quotation to complete a bilateral trade."
+    },
+    "CERB": {
+      "isoName": "CentralizedPriceBidding",
+      "name": "Centralized Price Bidding",
+      "definition": "Members submit orders, and trading system uses matchmaking mechanism of Centralized Price Bidding to match orders."
+    },
+    "CUMA": {
+      "isoName": "ContinuousMatching",
+      "name": "Continuous Matching",
+      "definition": "Members submit orders, and trading system uses continuous matchmaking mechanism to match orders."
+    },
+    "LIOR": {
+      "isoName": "LimitOrder",
+      "name": "Limit Order",
+      "definition": "Member activate an order, and if order matches with market maker's quotationa, the order will be filled automatically."
+    },
+    "NETR": {
+      "isoName": "NegotiationTrade",
+      "name": "Negotiation Trade",
+      "definition": "Member completes product elements and submits, and the counterpart just confirms the deal to complete a negotiation trade."
+    },
+    "ONCT": {
+      "isoName": "OneClickTrade",
+      "name": "One Click Trade",
+      "definition": "When market makers quote continuously, members could just click the quotation to make a deal with market makers."
+    },
+    "QUAU": {
+      "isoName": "QuotationAuction",
+      "name": "Quotation Auction",
+      "definition": "Market members can click the predetermined price setted by issuer to make a deal， and then the subscription amount will deduct in time."
+    },
+    "TEAU": {
+      "isoName": "TenderingAuction",
+      "name": "Tendering Auction",
+      "definition": "Administrator reviews the deposit that filled by issuer, and sends it to the tenderers as reference. Atfer this, the issuer confirms the tendering result."
+    },
+    "ANCL": {
+      "isoName": "AnonymousClick",
+      "name": "Anonymous Click",
+      "definition": "Trades are executed any click anonymously."
+    }
+  }
+}

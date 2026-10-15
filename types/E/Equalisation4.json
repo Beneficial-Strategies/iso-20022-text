@@ -1,0 +1,51 @@
+{
+  "isoType": "Equalisation4",
+  "language": "en",
+  "name": "Equalisation 4",
+  "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money resulting from the calculation of the equalisation."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used for calculation of the equalisation."
+    },
+    "EqualisationMethodologyType": {
+      "name": "Equalisation Methodology Type",
+      "definition": "Methodology used for the allocation of the performance fees."
+    },
+    "ContingentLiquidationPerUnit": {
+      "name": "Contingent Liquidation Per Unit",
+      "definition": "Performance fee to be paid by the investor when the value of the investment fund units were below their applicable high-watermark on subscription date, and above the high-watermark on redemption date."
+    },
+    "DepreciationDepositPerUnit": {
+      "name": "Depreciation Deposit Per Unit",
+      "definition": "Performance fee to be paid by the investor when the net asset value reaches the high-watermark if the net asset value was under the high-watermark on subscription date."
+    },
+    "EqualisationCreditPerUnit": {
+      "name": "Equalisation Credit Per Unit",
+      "definition": "Prepayment amount to be paid by the investor at the moment of the subscription.  The amount is based on the positive difference between the gross asset value at subscription and the high-watermark, when the investment fund units are subscribed to above their high-watermark."
+    },
+    "HighWatermark": {
+      "name": "High Watermark",
+      "definition": "The highest net asset value at the end of any previous calculation period, when a performance fee was payable (after the deduction of any such performance fee); or the initial net asset value."
+    },
+    "GrossAssetValue": {
+      "name": "Gross Asset Value",
+      "definition": "Value of the investment fund on subscription date before accruals for performance fees."
+    }
+  },
+  "isoRules": {
+    "ContingentLiquidationMethodologyTypeRule": {
+      "definition": "Contingent Liquidation per Unit can only be used with Contingent Liquidation Methodology Type."
+    },
+    "DepreciationDepositMethodologyTypeRule": {
+      "definition": "Depreciation Deposit per Unit can only be used with Depreciation Deposit Methodology Type."
+    },
+    "EqualisationCreditMethodologyTypeRule": {
+      "definition": "Equalisation Credit per Unit can only be used with Equalisation Credit Methodology Type."
+    }
+  }
+}

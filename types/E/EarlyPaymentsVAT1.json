@@ -1,0 +1,25 @@
+{
+  "isoType": "EarlyPaymentsVAT1",
+  "language": "en",
+  "name": "Early Payments VAT 1",
+  "definition": "Specifies the payment terms of the underlying transaction.",
+  "isoElements": {
+    "TaxRate": {
+      "name": "Tax Rate",
+      "definition": "Tax rate to be applied for early payment."
+    },
+    "DiscountTaxType": {
+      "name": "Discount Tax Type",
+      "definition": "Type of tax applied."
+    },
+    "DiscountTaxAmount": {
+      "name": "Discount Tax Amount",
+      "definition": "Early payment discount tax amount calculated using defined tax rate."
+    }
+  },
+  "isoRules": {
+    "R8": {
+      "definition": "Value according to external codelist."
+    }
+  }
+}

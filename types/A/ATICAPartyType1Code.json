@@ -1,0 +1,58 @@
+{
+  "isoType": "ATICAPartyType1Code",
+  "language": "en",
+  "name": "ATICA Party Type 1 Code",
+  "definition": "Type of entity acting as a Payment Initiation Service Provider.",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Card acceptor, party accepting the card and presenting transaction data to the acquirer."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "ICCA": {
+      "isoName": "CardApplication",
+      "name": "Card Application",
+      "definition": "Application in the smart card."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "DLIS": {
+      "isoName": "DelegateIssuer",
+      "name": "Delegate Issuer",
+      "definition": "Party to whom the card issuer delegates to authorise card payment transactions."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between an acquirer and an issuer."
+    },
+    "ACQP": {
+      "isoName": "AcquirerProcessor",
+      "name": "Acquirer Processor",
+      "definition": "Entity providing acquiring card payment processing services on behalf on an acquirer."
+    },
+    "CISP": {
+      "isoName": "CardIssuerProcessor",
+      "name": "Card Issuer Processor",
+      "definition": "Entity providing issuing card payment processing services on behalf on an issuer."
+    },
+    "WLPR": {
+      "isoName": "WalletProvider",
+      "name": "Wallet Provider",
+      "definition": "Provider of an electronic wallet"
+    },
+    "PASP": {
+      "isoName": "PaymentServiceProvider",
+      "name": "Payment Service Provider",
+      "definition": "Entity provding payments services."
+    }
+  }
+}

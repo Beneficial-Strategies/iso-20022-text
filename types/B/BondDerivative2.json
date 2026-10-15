@@ -1,0 +1,20 @@
+{
+  "isoType": "BondDerivative2",
+  "language": "en",
+  "name": "Bond Derivative 2",
+  "definition": "Transparency calculation specific details on a bond derivative.",
+  "isoElements": {
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Legal Entity Identifier (LEI) code of the issuer of the direct or ultimate underlying bond."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date of maturity of the underlying bond. This field applies to debt instruments with defined maturity."
+    },
+    "IssuanceDate": {
+      "name": "Issuance Date",
+      "definition": "Populated with the issuance date of the underlying bond."
+    }
+  }
+}

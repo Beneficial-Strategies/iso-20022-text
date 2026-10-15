@@ -1,0 +1,40 @@
+{
+  "isoType": "CancellationRequestInformation1",
+  "language": "en",
+  "name": "Cancellation Request Information 1",
+  "definition": "Set of information related to the cancellation request, such as actors involved and identification of the original multiple invoice financing request to which the cancellation request is referring.",
+  "isoElements": {
+    "OriginalGroupIdentification": {
+      "name": "Original Group Identification",
+      "definition": "Unique and unambiguous identifier of the original financing request message as assigned by the original sending party."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Date and time at which the original financing request message was created."
+    },
+    "NumberOfInvoiceRequests": {
+      "name": "Number Of Invoice Requests",
+      "definition": "Specifies the number of single invoice financing requests included in the original financing request message."
+    },
+    "TotalBulkInvoiceAmount": {
+      "name": "Total Bulk Invoice Amount",
+      "definition": "Total amount of the bulk invoice financing request. It is composed by the sum of the total amounts of all invoices included in the original financing request message."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Further details on the cancellation request information, in an uncoded form."
+    },
+    "FinancingRequestor": {
+      "name": "Financing Requestor",
+      "definition": "Party that requests the cancellation of a financing request previously sent."
+    },
+    "IntermediaryAgent": {
+      "name": "Intermediary Agent",
+      "definition": "Financial institution that receives the request from the financing requestor and forwards it to the first agent for execution."
+    },
+    "FirstAgent": {
+      "name": "First Agent",
+      "definition": "Financial institution of financing requestor to which an invoice financing cancellation request is addressed."
+    }
+  }
+}

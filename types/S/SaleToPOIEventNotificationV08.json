@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIEventNotificationV08",
+  "language": "en",
+  "name": "Sale To POI Event Notification V 08",
+  "definition": "The SaleToPOIEventNotification message is sent by a POI or a sale terminal to inform the other about the happening of an event.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "EventNotification": {
+      "name": "Event Notification",
+      "definition": "Information related to the notification of an event."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

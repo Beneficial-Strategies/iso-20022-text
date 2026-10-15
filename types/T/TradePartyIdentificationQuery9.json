@@ -1,0 +1,33 @@
+{
+  "isoType": "TradePartyIdentificationQuery9",
+  "language": "en",
+  "name": "Trade Party Identification Query 9",
+  "definition": "Query of a trade party based on the identification.",
+  "isoElements": {
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identifier code used to recognise the counterparty of the reporting agent for the reported transaction."
+    },
+    "CountryCode": {
+      "name": "Country Code",
+      "definition": "Country where the registered office of the counterparty is located or country of residence in case that the counterparty is a natural person."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Business identifier code used to identify the trade party."
+    },
+    "ClientIdentification": {
+      "name": "Client Identification",
+      "definition": "Unique and unambiguous identification of the client counterparty."
+    },
+    "NotReported": {
+      "name": "Not Reported",
+      "definition": "Field can be queried for not reported value."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 3 elements must be present."
+    }
+  }
+}

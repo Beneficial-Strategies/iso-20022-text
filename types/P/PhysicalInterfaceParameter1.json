@@ -1,0 +1,32 @@
+{
+  "isoType": "PhysicalInterfaceParameter1",
+  "language": "en",
+  "name": "Physical Interface Parameter 1",
+  "definition": "Configuration parameters for physical interface.",
+  "isoElements": {
+    "InterfaceName": {
+      "name": "Interface Name",
+      "definition": "Identification of the interface."
+    },
+    "InterfaceType": {
+      "name": "Interface Type",
+      "definition": "Identification of the physical link layer."
+    },
+    "UserName": {
+      "name": "User Name",
+      "definition": "Optional user name to provide to use this interface."
+    },
+    "AccessCode": {
+      "name": "Access Code",
+      "definition": "Optional access code to provide to use this interface."
+    },
+    "SecurityProfile": {
+      "name": "Security Profile",
+      "definition": "Identification of the optional security profile to use with this interface."
+    },
+    "AdditionalParameters": {
+      "name": "Additional Parameters",
+      "definition": "Any other parameters relevant for this interface."
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "isoType": "RejectionReason63Code",
+  "language": "en",
+  "name": "Rejection Reason 63 Code",
+  "definition": "Specifies the reason why a cancellation request has a rejected status.",
+  "isoCodes": {
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "CCIX": {
+      "isoName": "ClientCollateralInstructionIdentification",
+      "name": "Client Collateral Instruction Identification",
+      "definition": "Unrecognised or invalid client collateral instruction identification."
+    },
+    "CCTI": {
+      "isoName": "ClientCollateralTransactionIdentification",
+      "name": "Client Collateral Transaction Identification",
+      "definition": "Unrecognised or invalid Client Collateral Transaction Identification."
+    },
+    "IIND": {
+      "isoName": "CommonReferenceRejection",
+      "name": "Common Reference Rejection",
+      "definition": "Unrecognised, invalid or missing common reference."
+    },
+    "PTYA": {
+      "isoName": "InvalidPartyA",
+      "name": "Invalid Party A",
+      "definition": "Unrecognised or Invalid Party A."
+    },
+    "PTYB": {
+      "isoName": "InvalidPartyB",
+      "name": "Invalid Party B",
+      "definition": "Unrecognised or Invalid Party B"
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "ITPA": {
+      "isoName": "InvalidTripartyAgent",
+      "name": "Invalid Triparty Agent",
+      "definition": "Unrecognised or Invalid Triparty Agent"
+    },
+    "SAFA": {
+      "isoName": "PartyASafekeepingAccount",
+      "name": "Party A Safekeeping Account",
+      "definition": "Unrecognised or invalid Party A Safekeeping Account"
+    },
+    "SAFB": {
+      "isoName": "PartyBSafekeepingAccount",
+      "name": "Party B Safekeeping Account",
+      "definition": "Unrecognised or Invalid Party B Safekeeping Account."
+    },
+    "REDT": {
+      "isoName": "RequestedExecutionDateTime",
+      "name": "Requested Execution Date Time",
+      "definition": "Invalid execution date/time"
+    },
+    "DCAN": {
+      "isoName": "RejectedSinceAlreadyCancelled",
+      "name": "Rejected Since Already Cancelled",
+      "definition": "Cancellation request was rejected since the instruction has already been cancelled."
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Cancellation request has been rejected because the instruction process is in progress or has been processed."
+    },
+    "RSET": {
+      "isoName": "RejectedSinceAlreadySettled",
+      "name": "Rejected Since Already Settled",
+      "definition": "Cancellation request was rejected because the instruction was already settled."
+    },
+    "RREP": {
+      "isoName": "RejectedSinceRepoEnded",
+      "name": "Rejected Since Repo Ended",
+      "definition": "Cancellation request was rejected because the repurchase was cancelled."
+    },
+    "NRJN": {
+      "isoName": "NotFoundRejectionForCancellationModificationOrTermination",
+      "name": "Not Found Rejection For Cancellation Modification Or Termination",
+      "definition": "Cancellation, modification or termination request has been rejected since the instruction could not be found."
+    }
+  }
+}

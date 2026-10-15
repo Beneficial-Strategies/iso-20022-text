@@ -1,0 +1,53 @@
+{
+  "isoType": "Exemption2Code",
+  "language": "en",
+  "name": "Exemption 2 Code",
+  "definition": "Strong customer authentication exemption.",
+  "isoCodes": {
+    "PKGE": {
+      "isoName": "TransportFareOrParkingFeeUnattendedPaymentExemption",
+      "name": "Transport Fare Or Parking Fee Unattended Payment Exemption",
+      "definition": "Payment is processed in a environment where strong customer authentication is inappropriate."
+    },
+    "TMBE": {
+      "isoName": "TrustedMerchantBeneficiaryExemption",
+      "name": "Trusted Merchant Beneficiary Exemption",
+      "definition": "Cardholder has enrolled the Card Acceptor in the exemption list of strong customer authentication."
+    },
+    "RECP": {
+      "isoName": "RecurringPayment",
+      "name": "Recurring Payment",
+      "definition": "Transaction is one of a series of recurring payment."
+    },
+    "LOWA": {
+      "isoName": "LowAmountExemption",
+      "name": "Low Amount Exemption",
+      "definition": "Transaction's amount is low and could be processed without strong customer authentication."
+    },
+    "SCPE": {
+      "isoName": "SecureCorporatePaymentExemption",
+      "name": "Secure Corporate Payment Exemption",
+      "definition": "Transaction is a secure corporate payment."
+    },
+    "TRAE": {
+      "isoName": "TransactionRiskAnalysisExemption",
+      "name": "Transaction Risk Analysis Exemption",
+      "definition": "According to the transaction risk analysis the strong customer authentication is not mandated."
+    },
+    "CTLS": {
+      "isoName": "ContactlessExemption",
+      "name": "Contactless Exemption",
+      "definition": "Contactless payment at point of sale exemption."
+    },
+    "PAAC": {
+      "isoName": "PaymentAccountExemption",
+      "name": "Payment Account Exemption",
+      "definition": "Payment account information exemption."
+    },
+    "TRSP": {
+      "isoName": "TransferSamePersonExemption",
+      "name": "Transfer Same Person Exemption",
+      "definition": "Credit transfer between accounts held by the same natural or legal person exemption."
+    }
+  }
+}

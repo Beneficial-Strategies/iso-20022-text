@@ -1,0 +1,21 @@
+{
+  "isoType": "CounterpartyIdentification10",
+  "language": "en",
+  "name": "Counterparty Identification 10",
+  "definition": "Set of information identifying the reporting counterparty.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the counterparty in the transaction."
+    },
+    "Side": {
+      "name": "Side",
+      "definition": "Identifies whether the reporting counterparty is a collateral provider or a collateral taker."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

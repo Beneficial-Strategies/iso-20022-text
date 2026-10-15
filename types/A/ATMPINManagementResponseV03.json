@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMPINManagementResponseV03",
+  "language": "en",
+  "name": "ATMPIN Management Response V 03",
+  "definition": "The ATMPINManagementResponse message is sent by an ATM manager or its agent to the ATM to provide the information and the outcome of the cardholder PIN operation requested in the ATMPINManagementRequest.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMPINManagementResponse": {
+      "name": "Protected ATMPIN Management Response",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMPINManagementResponse": {
+      "name": "ATMPIN Management Response",
+      "definition": "Information related to the response of an ATM PIN Management from an ATM manager."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

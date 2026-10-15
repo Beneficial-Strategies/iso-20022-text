@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionCertificateRecord2",
+  "language": "en",
+  "name": "Transaction Certificate Record 2",
+  "definition": "Certificate record in which all currency control transactions are registered.",
+  "isoElements": {
+    "CertificateRecordIdentification": {
+      "name": "Certificate Record Identification",
+      "definition": "Unique and unambiguous identification of the certificate record."
+    },
+    "DocumentSubmittingProcedure": {
+      "name": "Document Submitting Procedure",
+      "definition": "Indication of procedure for submitting documents."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Details of the transaction for which the record has been generated."
+    },
+    "Contract": {
+      "name": "Contract",
+      "definition": "Contract registration details related to the certificate record."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the registered contract."
+    }
+  }
+}

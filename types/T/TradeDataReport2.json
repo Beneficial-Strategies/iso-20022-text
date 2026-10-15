@@ -1,0 +1,16 @@
+{
+  "isoType": "TradeDataReport2",
+  "language": "en",
+  "name": "Trade Data Report 2",
+  "definition": "Identifies the associated trades and optionally, the linked report.",
+  "isoElements": {
+    "LinkedReportIdentification": {
+      "name": "Linked Report Identification",
+      "definition": "The identification that links the quoted trades with a submitted Report issued by a central system."
+    },
+    "TradeData": {
+      "name": "Trade Data",
+      "definition": "Identifies one or more trades for which the status notification is sent."
+    }
+  }
+}

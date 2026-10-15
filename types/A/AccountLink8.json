@@ -1,0 +1,35 @@
+{
+  "isoType": "AccountLink8",
+  "language": "en",
+  "name": "Account Link 8",
+  "definition": "Defines how the securities account is linked to the cash account.",
+  "isoElements": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Defines the date since when the securities account is linked to the cash account."
+    }
+  },
+  "isoRules": {
+    "SecuritiesAccountOrBlockChainAddress1Rule": {
+      "definition": "If SecuritiesAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SecuritiesAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SecuritiesAccount must be absent."
+    },
+    "SecuritiesAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SecuritiesAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

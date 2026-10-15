@@ -1,0 +1,24 @@
+{
+  "isoType": "ManifestData4",
+  "language": "en",
+  "name": "Manifest Data 4",
+  "definition": "Describes the related items or attachments (such as message types and number of messages types) within the file.",
+  "isoElements": {
+    "MessageDefinitionIdentifier": {
+      "name": "Message Definition Identifier",
+      "definition": "Specifies the type of items contained in the document set. An initial list of values can be found in the ISO20022 message type catalogue such as admi, camt, pacs, sese, semt etc. ISO messages."
+    },
+    "Format": {
+      "name": "Format",
+      "definition": "Identification of the format of the Business Message.|Usage: recommended by regulatory requirements."
+    },
+    "NumberOfBusinessMessages": {
+      "name": "Number Of Business Messages",
+      "definition": "Number of instances (messages) for each declared type."
+    },
+    "MarketPractice": {
+      "name": "Market Practice",
+      "definition": "Specifies the market practice to which the message conforms. The market practices are a set of rules agreed between parties that restricts the usage of the messages in order to achieve better STP (Straight Through Processing) rates.|A market practice specification may also extend the underlying message specification by using extensions or supplementary data of this underlying message."
+    }
+  }
+}

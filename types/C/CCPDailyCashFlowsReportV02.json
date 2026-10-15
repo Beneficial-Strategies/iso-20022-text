@@ -1,0 +1,20 @@
+{
+  "isoType": "CCPDailyCashFlowsReportV02",
+  "language": "en",
+  "name": "CCP Daily Cash Flows Report V 02",
+  "definition": "The CCPDailyCashFlowsReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority of the operational performance and exposures that occurred in a central counterparty payment system.",
+  "isoElements": {
+    "ConcentrationAgent": {
+      "name": "Concentration Agent",
+      "definition": "Deposit taking institution with which a central counterparty has accounts used to concentrate cash funds before or after investment."
+    },
+    "SettlementAgent": {
+      "name": "Settlement Agent",
+      "definition": "Agent used by a central counterparty to allow for the convenient settlement of obligations between a central counterparty and a clearing member, typically in commercial bank money."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

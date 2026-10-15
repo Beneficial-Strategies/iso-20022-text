@@ -1,0 +1,36 @@
+{
+  "isoType": "OtherParties32",
+  "language": "en",
+  "name": "Other Parties 32",
+  "definition": "Provides details about business parties involved in the transaction.",
+  "isoElements": {
+    "Investor": {
+      "name": "Investor",
+      "definition": "Party that identifies the underlying investor."
+    },
+    "StockExchange": {
+      "name": "Stock Exchange",
+      "definition": "Party that identifies the stock exchange."
+    },
+    "TradeRegulator": {
+      "name": "Trade Regulator",
+      "definition": "Party that identifies the trade regulator."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Party that handles tri-party transactions."
+    },
+    "QualifiedForeignIntermediary": {
+      "name": "Qualified Foreign Intermediary",
+      "definition": "Foreign Financial Institution which has been authorised by local authorities to act as account management institution in the country."
+    }
+  },
+  "isoRules": {
+    "InvestorUsageRule": {
+      "definition": "When investor is used with a country code, the country code specifies the nationality of the investor, for the settlement of certain securities (i.e. airlines, defence manufacturers) under the EU legislation."
+    },
+    "QualifiedForeignIntermediaryRule": {
+      "definition": "If Qualified Foreign Intermediary is used, then the instruction must be a delivery."
+    }
+  }
+}

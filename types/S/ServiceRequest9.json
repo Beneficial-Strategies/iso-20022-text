@@ -1,0 +1,56 @@
+{
+  "isoType": "ServiceRequest9",
+  "language": "en",
+  "name": "Service Request 9",
+  "definition": "Defines the service to be called.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ServiceContent": {
+      "name": "Service Content",
+      "definition": "Define the type of service requested."
+    },
+    "PaymentRequest": {
+      "name": "Payment Request",
+      "definition": "Content of the payment request."
+    },
+    "ReversalRequest": {
+      "name": "Reversal Request",
+      "definition": "Content of the reversal request."
+    },
+    "BalanceInquiryRequest": {
+      "name": "Balance Inquiry Request",
+      "definition": "Content of a Balance Inquiry Request."
+    },
+    "LoyaltyRequest": {
+      "name": "Loyalty Request",
+      "definition": "Content of the Loyalty Request."
+    },
+    "StoredValueRequest": {
+      "name": "Stored Value Request",
+      "definition": "Content of a Stored Value Request."
+    },
+    "BatchRequest": {
+      "name": "Batch Request",
+      "definition": "Content of the Batch Request."
+    },
+    "EnableServiceRequest": {
+      "name": "Enable Service Request",
+      "definition": "Content of the Enable Service Request."
+    },
+    "CardAcquisitionRequest": {
+      "name": "Card Acquisition Request",
+      "definition": "Content of the Card Acquisition Request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "DocumentType7Code",
+  "language": "en",
+  "name": "Document Type 7 Code",
+  "definition": "Specifies a type of financial or commercial document.",
+  "isoCodes": {
+    "JNRL": {
+      "isoName": "Journal",
+      "name": "Journal",
+      "definition": "When the POI or the Sale System wants to store a message on the journal printer or electronic journal of the Sale Terminal (it is sometimes a Sale Logging/Journal Printer)."
+    },
+    "CRCP": {
+      "isoName": "CustomerReceipt",
+      "name": "Customer Receipt",
+      "definition": "When the Sale System requires the POI system to print the Customer receipt."
+    },
+    "HRCP": {
+      "isoName": "CashierReceipt",
+      "name": "Cashier Receipt",
+      "definition": "When the Sale system print the Cashier copy of the Payment receipt."
+    },
+    "SRCP": {
+      "isoName": "SaleReceipt",
+      "name": "Sale Receipt",
+      "definition": "When the Sale System requires the POI system to print the Sale receipt."
+    },
+    "RPIN": {
+      "isoName": "RelatedPaymentInstruction",
+      "name": "Related Payment Instruction",
+      "definition": "Document is a linked payment instruction to which the current payment instruction is related, for example, in a cover scenario."
+    },
+    "VCHR": {
+      "isoName": "Voucher",
+      "name": "Voucher",
+      "definition": "Document is an electronic payment document."
+    }
+  }
+}

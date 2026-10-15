@@ -1,0 +1,36 @@
+{
+  "isoType": "OriginalRequestInformation1",
+  "language": "en",
+  "name": "Original Request Information 1",
+  "definition": "Set of characteristics that unambiguously identify the original global invoice financing request.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of the original request message as assigned by the original sending party."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the original request message was created."
+    },
+    "FinancingRequestor": {
+      "name": "Financing Requestor",
+      "definition": "Party that requests the invoice financing, on behalf of a creditor, as indicated in the original request message."
+    },
+    "IntermediaryAgent": {
+      "name": "Intermediary Agent",
+      "definition": "Financial institution that receives the request from the financing requestor and forwards it to the first agent for execution, as indicated in the original request message."
+    },
+    "FirstAgent": {
+      "name": "First Agent",
+      "definition": "Financial institution of financing requestor to which an invoice financing request is addressed, as indicated in the original request message."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Information about the validation status of the request message."
+    },
+    "CancellationStatusInformation": {
+      "name": "Cancellation Status Information",
+      "definition": "Information on the business status of the cancellation."
+    }
+  }
+}

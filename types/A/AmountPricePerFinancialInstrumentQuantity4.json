@@ -1,0 +1,25 @@
+{
+  "isoType": "AmountPricePerFinancialInstrumentQuantity4",
+  "language": "en",
+  "name": "Amount Price Per Financial Instrument Quantity 4",
+  "definition": "Specifies a ratio: amount price per financial instrument quantity.",
+  "isoElements": {
+    "AmountPriceType": {
+      "name": "Amount Price Type",
+      "definition": "Type of amount price."
+    },
+    "PriceValue": {
+      "name": "Price Value",
+      "definition": "Value of the price."
+    },
+    "FinancialInstrumentQuantity": {
+      "name": "Financial Instrument Quantity",
+      "definition": "Quantity of financial instrument."
+    }
+  },
+  "isoRules": {
+    "CoexistenceQuantityRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Quantity length must not be greater than 15, including the decimal point. In this message subset, a restricted data type was implemented to comply with this coexistence rule."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "CertificateManagementRequestV08",
+  "language": "en",
+  "name": "Certificate Management Request V 08",
+  "definition": "The CertificateManagementRequest message is sent by a POI terminal or any intermediary entity either to a terminal manager acting as a certificate authority for managing X.509 certificate of a public key owned by the initiating party, or for requesting the inclusion or the removal of the POI to a white list of the terminal manager.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "CertificateManagementRequest": {
+      "name": "Certificate Management Request",
+      "definition": "Information related to the request of certificate management."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

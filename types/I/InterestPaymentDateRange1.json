@@ -1,0 +1,20 @@
+{
+  "isoType": "InterestPaymentDateRange1",
+  "language": "en",
+  "name": "Interest Payment Date Range 1",
+  "definition": "Specifies an expected date and a due date for the interest payment.",
+  "isoElements": {
+    "InterestScheduleIdentification": {
+      "name": "Interest Schedule Identification",
+      "definition": "Unique and unambiguous identification of the interest payment schedule."
+    },
+    "ExpectedDate": {
+      "name": "Expected Date",
+      "definition": "Expected interest payment date."
+    },
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Latest date whereby the interest must be paid."
+    }
+  }
+}

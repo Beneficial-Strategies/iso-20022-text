@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementInternaliserReportV01",
+  "language": "en",
+  "name": "Settlement Internaliser Report V 01",
+  "definition": "The SettlementInternaliserReport message is sent by the settlement internalisers to the relevant competent authority to report aggregated information on all securities transactions that they settle outside securities settlement systems, on a quarterly basis. The report contains aggregated information on the value and volume of all internalised settlement instructions (settled and failed) that have been performed during the period covered by the report, for financial instruments, types of transactions, types of clients and cash transfers.||Usage: |This report may be used by settlement internalisers to provide aggregated information (volume and value) on internalised settlement instructions (settled and failed) to their competent authorities.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Specifies parameters of the report."
+    },
+    "SettlementInternaliser": {
+      "name": "Settlement Internaliser",
+      "definition": "Identifies the settlement internaliser for which data is reported."
+    },
+    "IssuerCSD": {
+      "name": "Issuer CSD",
+      "definition": "Identifies each issuer CSD (central securities depository) included in the report."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

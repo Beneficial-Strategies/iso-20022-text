@@ -1,0 +1,16 @@
+{
+  "isoType": "ActivityReportSetUpRequestV02",
+  "language": "en",
+  "name": "Activity Report Set Up Request V 02",
+  "definition": "Scope|The ActivityReportSetUpRequest message is sent by any party involved in a transaction to the matching application.|The ActivityReportSetUpRequest message can be sent to request the reset of the pre-determined time at which the daily production of the activity report should take place.|Usage|This message is sent to the matching application by a bank, in order to set the UTC offset specifying the hour when the matching application will generate every day an activity report covering the last 24 hours and send it. By default, this offset is equal to 0.",
+  "isoElements": {
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identifies the request message."
+    },
+    "UTCOffset": {
+      "name": "UTC Offset",
+      "definition": "Specifies the parameters to calculate the local reporting time."
+    }
+  }
+}

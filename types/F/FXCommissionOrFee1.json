@@ -1,0 +1,20 @@
+{
+  "isoType": "FXCommissionOrFee1",
+  "language": "en",
+  "name": "FX Commission Or Fee 1",
+  "definition": "Specifies the foreign exchange commissions and fees amounts.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the commission or fee."
+    },
+    "AmountOrRate": {
+      "name": "Amount Or Rate",
+      "definition": "Amount or rate of the commissions and fees."
+    },
+    "Sign": {
+      "name": "Sign",
+      "definition": "Indicates that the amount or rate value is positive or negative.||Usage: when absent, it means that amount value is 0 or positive."
+    }
+  }
+}

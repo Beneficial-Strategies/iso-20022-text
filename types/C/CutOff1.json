@@ -1,0 +1,24 @@
+{
+  "isoType": "CutOff1",
+  "language": "en",
+  "name": "Cut Off 1",
+  "definition": "Information that describes a netting cut off held at a central system.",
+  "isoElements": {
+    "CutOffUpdateIdentification": {
+      "name": "Cut Off Update Identification",
+      "definition": "Identification for the updated netting cut off."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency linked to the netting cut off."
+    },
+    "CutOffTime": {
+      "name": "Cut Off Time",
+      "definition": "Cut off time value for the netting cut off."
+    },
+    "ValueDateOffset": {
+      "name": "Value Date Offset",
+      "definition": "Specifies the offset in business days from the value date from which the netting cut off is to be applied."
+    }
+  }
+}

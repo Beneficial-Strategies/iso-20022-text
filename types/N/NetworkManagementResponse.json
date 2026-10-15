@@ -1,0 +1,20 @@
+{
+  "isoType": "NetworkManagementResponse",
+  "language": "en",
+  "name": "Network Management Response",
+  "definition": "The NetworkManagementResponse message is sent by an acquirer, an issuer or an agent to answer to an NetworkManagementInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "NetworkManagementResponse": {
+      "name": "Network Management Response",
+      "definition": "Information related to the response to the network management."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

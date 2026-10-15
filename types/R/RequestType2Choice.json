@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestType2Choice",
+  "language": "en",
+  "name": "Request Type 2 Choice",
+  "definition": "Defines the type of action to be performed in the request.",
+  "isoElements": {
+    "PaymentControl": {
+      "name": "Payment Control",
+      "definition": "Request type is a control command on a set of transactions."
+    },
+    "Enquiry": {
+      "name": "Enquiry",
+      "definition": "Request type is an enquiry on a position or a transaction."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Request type is in proprietary format."
+    }
+  }
+}

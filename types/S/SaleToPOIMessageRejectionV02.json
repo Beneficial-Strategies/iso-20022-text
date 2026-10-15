@@ -1,0 +1,16 @@
+{
+  "isoType": "SaleToPOIMessageRejectionV02",
+  "language": "en",
+  "name": "Sale To POI Message Rejection V 02",
+  "definition": "The SaleToPOIMessageRejection message is sent by one of the parties when it detects a technical or functional error in a previous received message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "Reject": {
+      "name": "Reject",
+      "definition": "Information related to the reject."
+    }
+  }
+}

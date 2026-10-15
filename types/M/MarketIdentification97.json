@@ -1,0 +1,27 @@
+{
+  "isoType": "MarketIdentification97",
+  "language": "en",
+  "name": "Market Identification 97",
+  "definition": "Context, or geographic environment, in which trading parties may meet in order to negotiate and execute trades among themselves.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Code allocated to places of trade, ie, stock exchanges, regulated markets, eg, Electronic Trading Platforms (ECN), and unregulated markets, eg, Automated Trading Systems (ATS), as sources of prices and related information, in order to facilitate automated processing."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of a market in which transactions take place."
+    }
+  },
+  "isoRules": {
+    "MarketTypeAndIdentificationRule": {
+      "definition": "If Type/Code is OverTheCounter (OTCO) and if Identification is present, then Identification/Description must specify a system.|If Type/Code is Exchange (EXCH) and if Identification is present, then Identification/MarketIdentifierCode must be present."
+    },
+    "IdentificationPresenceRule": {
+      "definition": "If Type/Code is not Various (VARI) OR Over The Counter (OTCO) then Identification must be present."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "If the trade was executed on multiple places of trade and the place of trade field is used, code VARI must be used."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ExtendedEventType6Code",
+  "language": "en",
+  "name": "Extended Event Type 6 Code",
+  "definition": "Specifies DTCC (The Depository Trust and Clearing Corporation) defined corporate action event type.",
+  "isoCodes": {
+    "TMTN": {
+      "isoName": "Termination",
+      "name": "Termination",
+      "definition": "Security, usually a form of a derivative, for which the agent or issuer has decided to terminate the derivative based on a change to the underlying security(ies) or a change in strategy. Distinguishes from Mandatory Exchange, Exchange Offer event types mapped to the same ISO event type code."
+    },
+    "FPAY": {
+      "isoName": "FinalPaydown",
+      "name": "Final Paydown",
+      "definition": "Final distribution of principal due on a security, typically Collateralised Mortgage Obligations."
+    },
+    "CDRD": {
+      "isoName": "CertificateOfDepositEarlyRedemption",
+      "name": "Certificate Of Deposit Early Redemption",
+      "definition": "Feature of a security that allows an issuer to make a payment to the security holder. This event will be used for securities subject to redemptions other than those categorised as full and partial calls (for example early Certificate of Deposit redemptions)."
+    },
+    "REDW": {
+      "isoName": "RedemptionOfWarrant",
+      "name": "Redemption Of Warrant",
+      "definition": "Event is a redemption of warrant."
+    }
+  }
+}

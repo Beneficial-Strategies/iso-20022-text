@@ -1,0 +1,29 @@
+{
+  "isoType": "Commodity43",
+  "language": "en",
+  "name": "Commodity 43",
+  "definition": "Data specific to commodities and related informations used as a collateral.",
+  "isoElements": {
+    "Classification": {
+      "name": "Classification",
+      "definition": "Details on commodities assignments to sectors."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of the commodity."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price of unit of asset or collateral component, including accrued interest for interest-bearing securities, used to value the commodity ."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Market value of asset or collateral component."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

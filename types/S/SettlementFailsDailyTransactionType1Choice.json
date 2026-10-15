@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementFailsDailyTransactionType1Choice",
+  "language": "en",
+  "name": "Settlement Fails Daily Transaction Type 1 Choice",
+  "definition": "Specifies the transaction type as defined in the relevant regulation or explicit no data report.",
+  "isoElements": {
+    "DataSetAction": {
+      "name": "Data Set Action",
+      "definition": "Where no transaction was concluded, this field should be set so that a valid transaction data file can be submitted to the regulator as per submission requirements."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Aggregated data of settlement instructions."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactionAmounts4",
+  "language": "en",
+  "name": "Transaction Amounts 4",
+  "definition": "Amounts of the card transaction.",
+  "isoElements": {
+    "AmountQualifier": {
+      "name": "Amount Qualifier",
+      "definition": "Qualifier or type of amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the transaction expressed in the currency of the terminal or as a reversed amount of a previous authorisation."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code associated with the transaction amount.  ISO 4217 \"Codes for the representation of currencies and funds\""
+    },
+    "CardholderBillingAmount": {
+      "name": "Cardholder Billing Amount",
+      "definition": "Amount of the transaction in cardholder billing currency."
+    },
+    "CardholderBillingCurrency": {
+      "name": "Cardholder Billing Currency",
+      "definition": "Currency code of Cardholder and associated with cardholder billing amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "CardholderBillingEffectiveExchangeRate": {
+      "name": "Cardholder Billing Effective Exchange Rate",
+      "definition": "Effective exchange rate used in the conversion from transaction amount to cardholder billing amount."
+    },
+    "ReconciliationAmount": {
+      "name": "Reconciliation Amount",
+      "definition": "Amount of the transaction in Reconciliation currency"
+    },
+    "ReconciliationCurrency": {
+      "name": "Reconciliation Currency",
+      "definition": "Currency code of Reconciliation and associated with Reconciliation amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "ReconciliationEffectiveExchangeRate": {
+      "name": "Reconciliation Effective Exchange Rate",
+      "definition": "Effective exchange rate used in the conversion from transaction amount to reconciliation amount."
+    },
+    "DetailedAmount": {
+      "name": "Detailed Amount",
+      "definition": "Further details of some or all amounts in the transaction amount."
+    }
+  }
+}

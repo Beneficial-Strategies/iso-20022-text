@@ -1,0 +1,52 @@
+{
+  "isoType": "Commission10",
+  "language": "en",
+  "name": "Commission 10",
+  "definition": "Amount of money due to a party as compensation for a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Service for which the commission is asked or paid."
+    },
+    "ExtendedType": {
+      "name": "Extended Type",
+      "definition": "Service for which the commission is asked or paid."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Basis upon which a commission is charged, eg, flat fee."
+    },
+    "ExtendedBasis": {
+      "name": "Extended Basis",
+      "definition": "Basis upon which a commission is charged, eg, flat fee."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Commission expressed as an amount of money."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Commission expressed as a percentage."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Party entitled to the amount of money resulting from a commission."
+    },
+    "CommercialAgreementReference": {
+      "name": "Commercial Agreement Reference",
+      "definition": "Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions."
+    },
+    "WaivingDetails": {
+      "name": "Waiving Details",
+      "definition": "Voluntary non-enforcement of the right to all or part of a commission."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Either Type or ExtendedType may be present, but not both."
+    },
+    "BasisOrExtendedBasisRule": {
+      "definition": "Either Basis oe ExtendedBasis may be present but not both."
+    }
+  }
+}

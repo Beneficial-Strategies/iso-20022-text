@@ -1,0 +1,56 @@
+{
+  "isoType": "SecuritiesSearchCriteria4",
+  "language": "en",
+  "name": "Securities Search Criteria 4",
+  "definition": "Criteria for a query about securities reference data.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Way(s) of identifying the security."
+    },
+    "ClassificationFinancialInstrument": {
+      "name": "Classification Financial Instrument",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date/time at which the security was made available."
+    },
+    "IssueCurrency": {
+      "name": "Issue Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Primary market or country where a security is issued by the issuer or its agent."
+    },
+    "SecurityStatus": {
+      "name": "Security Status",
+      "definition": "Specifies the status of the security within its lifecycle."
+    },
+    "MaintainingCSD": {
+      "name": "Maintaining CSD",
+      "definition": "Entity involved in an activity."
+    },
+    "InvestorCSD": {
+      "name": "Investor CSD",
+      "definition": "Entity involved in an activity."
+    },
+    "IssuerCSD": {
+      "name": "Issuer CSD",
+      "definition": "Entity involved in an activity."
+    },
+    "TechnicalIssuerCSD": {
+      "name": "Technical Issuer CSD",
+      "definition": "Technical issuer of a security."
+    },
+    "CSD": {
+      "name": "CSD",
+      "definition": "CSD of a security."
+    }
+  }
+}

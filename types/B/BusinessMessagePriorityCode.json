@@ -2,5 +2,10 @@
   "isoType": "BusinessMessagePriorityCode",
   "language": "en",
   "name": "Business Message Priority Code",
-  "definition": "Specifies the priority levels for the BusinessMessage.|The different priorities are typically user / service / implementation dependent. The semantics of the different values for a Mesage (Set) need to be defined by the relevant user community (SEG.)."
+  "definition": "Specifies the priority levels for the BusinessMessage.|The different priorities are typically user / service / implementation dependent. The semantics of the different values for a Mesage (Set) need to be defined by the relevant user community (SEG.).",
+  "isoRules": {
+    "ValidationByTable": {
+      "definition": ""
+    }
+  }
 }

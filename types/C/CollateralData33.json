@@ -1,0 +1,57 @@
+{
+  "isoType": "CollateralData33",
+  "language": "en",
+  "name": "Collateral Data 33",
+  "definition": "Provides the details of the collateral used in the transaction.",
+  "isoElements": {
+    "NetExposureCollateralisationIndicator": {
+      "name": "Net Exposure Collateralisation Indicator",
+      "definition": "Indicates whether the collateral has been provided for a net exposure, rather than for a single transaction."
+    },
+    "ComponentType": {
+      "name": "Component Type",
+      "definition": "Indication of the type of collateral component."
+    },
+    "CashCollateralCurrency": {
+      "name": "Cash Collateral Currency",
+      "definition": "Currency of unit of cash collateral component."
+    },
+    "PriceCurrency": {
+      "name": "Price Currency",
+      "definition": "Currency of price of unit of collateral component."
+    },
+    "Quality": {
+      "name": "Quality",
+      "definition": "Code that classifies the risk of the security."
+    },
+    "Maturity": {
+      "name": "Maturity",
+      "definition": "Maturity of the security."
+    },
+    "IssuerJurisdiction": {
+      "name": "Issuer Jurisdiction",
+      "definition": "Jurisdiction of the issuer of the security used as collateral."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of the type of the security."
+    },
+    "TradeRepository": {
+      "name": "Trade Repository",
+      "definition": "Trade Repository to which the other counterparty reported."
+    },
+    "ReconciliationFlag": {
+      "name": "Reconciliation Flag",
+      "definition": "List of possible values for TRs reconciliation purposes."
+    },
+    "ReinvestedCash": {
+      "name": "Reinvested Cash",
+      "definition": "Provides details on the type and amount of the cash reinvestment in a given currency."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/NetExposureCollateralisationIndicator Must be present| Or\t/ComponentType Must be present| Or\t/CashCollateralCurrency Must be present| Or\t/PriceCurrency Must be present| Or /Quality Must be present| Or /Maturity Must be present| Or /IssuerJurisdiction Must be present| Or /Type Must be present| Or /TradeRepository Must be present| Or /ReconciliationFlag Must be present| Or /ReinvestedCash Must be present"
+    }
+  }
+}

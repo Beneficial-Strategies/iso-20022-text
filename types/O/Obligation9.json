@@ -1,0 +1,48 @@
+{
+  "isoType": "Obligation9",
+  "language": "en",
+  "name": "Obligation 9",
+  "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date.",
+  "isoElements": {
+    "PartyA": {
+      "name": "Party A",
+      "definition": "Defines one of the entities associated with the collateral agreement."
+    },
+    "ServicingPartyA": {
+      "name": "Servicing Party A",
+      "definition": "Specifies the party that is acting on behalf of party A and that offers collateral management services."
+    },
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Defines the other entity associated with the collateral agreement."
+    },
+    "ServicingPartyB": {
+      "name": "Servicing Party B",
+      "definition": "Specifies the party that is acting on behalf of party B and that offers collateral management services."
+    },
+    "CollateralAccountIdentification": {
+      "name": "Collateral Account Identification",
+      "definition": "Provides additional information on the collateral account of the party delivering/receiving the collateral."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area or type of trade causing the collateral movement."
+    },
+    "ValuationDate": {
+      "name": "Valuation Date",
+      "definition": "Indicates the close of business date on which the initiating party is valuing the margin call."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    }
+  }
+}

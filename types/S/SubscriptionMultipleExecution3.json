@@ -1,0 +1,73 @@
+{
+  "isoType": "SubscriptionMultipleExecution3",
+  "language": "en",
+  "name": "Subscription Multiple Execution 3",
+  "definition": "Execution of a subscription order.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which the advised trade transaction was executed."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time at which the order was placed by the investor."
+    },
+    "RequestedFutureTradeDate": {
+      "name": "Requested Future Trade Date",
+      "definition": "Future date at which the investor requests the order to be executed.|The specification of a requested future trade date is not allowed in some markets. The date must be a date in the future."
+    },
+    "CancellationRight": {
+      "name": "Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an investment fund order."
+    },
+    "ExtendedCancellationRight": {
+      "name": "Extended Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an investment fund order."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account impacted by an investment fund order."
+    },
+    "BeneficiaryDetails": {
+      "name": "Beneficiary Details",
+      "definition": "Additional information about the investor."
+    },
+    "IndividualExecutionDetails": {
+      "name": "Individual Execution Details",
+      "definition": "Execution of a subscription order."
+    },
+    "TotalSettlementAmount": {
+      "name": "Total Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the multiple order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "BulkCashSettlementDetails": {
+      "name": "Bulk Cash Settlement Details",
+      "definition": "Payment transaction resulting from the investment fund order execution."
+    }
+  },
+  "isoRules": {
+    "BulkCashSettlementDetails2Rule": {
+      "definition": "Either IndividualExecutionDetails/CashSettlementDetails or BulkCashSettlementDetails may be present, but not both."
+    },
+    "SettlementCurrency4Rule": {
+      "definition": "If BulkCashSettlementDetails is present, then Currency in IndividualExecutionDetails/SettlementAmount must be the same in all occurrences of IndividualOrderDetails."
+    },
+    "CashSettlementDateRule": {
+      "definition": "Either CashSettlementDate is present or all occurrences of IndividualExecutionDetails/CashSettlementDate are present, but not both."
+    },
+    "OrderOriginatorEligibility3Rule": {
+      "definition": "Either InvestmentAccountDetails/OrderOriginatorEligibility or (one or more instances of IndividualExecutionDetails/RelatedPartiesDetails/OrderOriginatorEligibility) may be present, but not both."
+    },
+    "CancellationRightOrExtendedCancellationRightRule": {
+      "definition": "Either CancellationRight or ExtendedCancellationRight may be present but not both."
+    }
+  }
+}

@@ -6,23 +6,23 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Unique identification for the message."
     },
     "AccountSwitchDetails": {
       "name": "Account Switch Details",
-      "definition": ""
+      "definition": "Contains information about the details of the account switch and a response code to the original payment request."
     },
     "OldAccount": {
       "name": "Old Account",
-      "definition": ""
+      "definition": "Account held at the old account servicer being switched to the new account servicer."
     },
     "CreditInstruction": {
       "name": "Credit Instruction",
-      "definition": ""
+      "definition": "Specific information relating to a request for payment, including details that enable the receiving account servicer to reconcile the payment to be received with the original payment request."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

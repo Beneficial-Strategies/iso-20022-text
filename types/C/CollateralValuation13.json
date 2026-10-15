@@ -1,0 +1,64 @@
+{
+  "isoType": "CollateralValuation13",
+  "language": "en",
+  "name": "Collateral Valuation 13",
+  "definition": "Valuation details of each piece of collateral posted.",
+  "isoElements": {
+    "CollateralIdentification": {
+      "name": "Collateral Identification",
+      "definition": "Identification of the valued collateral."
+    },
+    "CollateralType": {
+      "name": "Collateral Type",
+      "definition": "Type of collateral used."
+    },
+    "CollateralDirection": {
+      "name": "Collateral Direction",
+      "definition": "Direction of the collateral being reported."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Settlement status of the instruction/financial instrument movement."
+    },
+    "AppliedExcessIndicator": {
+      "name": "Applied Excess Indicator",
+      "definition": "Indicates if the collateral being reported is applied or in excess."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days used for interest calculation."
+    },
+    "ValuationAmounts": {
+      "name": "Valuation Amounts",
+      "definition": "Details of the collateral valuation."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Computation method of (accrued) interest of the security."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Exchange rate between the currency of the collateral and the reporting currency."
+    },
+    "CurrencyHaircut": {
+      "name": "Currency Haircut",
+      "definition": "Haircut or valuation factor on the currency of the collateral expressed as a percentage."
+    },
+    "AdjustedRate": {
+      "name": "Adjusted Rate",
+      "definition": "Percentage by which the collateral amount needs to be adjusted."
+    },
+    "SecuritiesCollateral": {
+      "name": "Securities Collateral",
+      "definition": "Provides details on the securities collateral."
+    },
+    "CashCollateral": {
+      "name": "Cash Collateral",
+      "definition": "Details of the cash collateral valuation."
+    },
+    "OtherCollateral": {
+      "name": "Other Collateral",
+      "definition": "Details of other collateral."
+    }
+  }
+}

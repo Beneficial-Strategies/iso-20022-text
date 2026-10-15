@@ -1,0 +1,24 @@
+{
+  "isoType": "AmountAndTax1",
+  "language": "en",
+  "name": "Amount And Tax 1",
+  "definition": "Describes each adjustment made to the original price.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Code that describes the type of amount or fee. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Contains the amount."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "A code to indicate the tax amount is credit or debit"
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes related to the products or services."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "ExtendOrPayQuery1",
+  "language": "en",
+  "name": "Extend Or Pay Query 1",
+  "definition": "Undertaking extend or pay query details.",
+  "isoElements": {
+    "UndertakingIdentification": {
+      "name": "Undertaking Identification",
+      "definition": "Details related to the identification of the undertaking."
+    },
+    "DemandDetails": {
+      "name": "Demand Details",
+      "definition": "Details related to the demand."
+    },
+    "RequestedExpiryDate": {
+      "name": "Requested Expiry Date",
+      "definition": "Requested new expiry date as an alternative to payment of the demand."
+    },
+    "BankInstructions": {
+      "name": "Bank Instructions",
+      "definition": "Details of the instructions from the bank."
+    },
+    "BankContact": {
+      "name": "Bank Contact",
+      "definition": "Contact at the issuing bank."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document or template enclosed in the request."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the request."
+    }
+  }
+}

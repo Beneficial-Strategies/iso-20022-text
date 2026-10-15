@@ -1,0 +1,33 @@
+{
+  "isoType": "PairedReconciled3Code",
+  "language": "en",
+  "name": "Paired Reconciled 3 Code",
+  "definition": "Common report status for all individual reports sent / received.",
+  "isoCodes": {
+    "CLRC": {
+      "isoName": "CollateralReconciled",
+      "name": "Collateral Reconciled",
+      "definition": "Collateral associated with the loan(s) matched."
+    },
+    "LNRC": {
+      "isoName": "LoanReconciled",
+      "name": "Loan Reconciled",
+      "definition": "Loan paired and matched."
+    },
+    "PARD": {
+      "isoName": "Paired",
+      "name": "Paired",
+      "definition": "Loan is paired, but not reconciled."
+    },
+    "RECO": {
+      "isoName": "Reconciled",
+      "name": "Reconciled",
+      "definition": "Both loan and collateral matched."
+    },
+    "UNPR": {
+      "isoName": "Unpaired",
+      "name": "Unpaired",
+      "definition": "Loan is unpaired."
+    }
+  }
+}

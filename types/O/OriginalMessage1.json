@@ -1,0 +1,32 @@
+{
+  "isoType": "OriginalMessage1",
+  "language": "en",
+  "name": "Original Message 1",
+  "definition": "Identification of a message previously sent.",
+  "isoElements": {
+    "MessageDefinitionIdentifier": {
+      "name": "Message Definition Identifier",
+      "definition": "XML schema-instance namespace, for example \"tsin.008.001.01\"."
+    },
+    "From": {
+      "name": "From",
+      "definition": "Message sender specified in the original message."
+    },
+    "To": {
+      "name": "To",
+      "definition": "Message recipient specified in the original message."
+    },
+    "BusinessMessageIdentifier": {
+      "name": "Business Message Identifier",
+      "definition": "Message identification specified in the original message."
+    },
+    "CreationDate": {
+      "name": "Creation Date",
+      "definition": "Message creation date and time specified in the original message."
+    },
+    "CopyDuplicate": {
+      "name": "Copy Duplicate",
+      "definition": "Indicates whether the message is a copy, a duplicate or a copy of a duplicate of a previously sent ISO 20022 message."
+    }
+  }
+}

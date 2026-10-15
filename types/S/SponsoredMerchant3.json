@@ -1,0 +1,60 @@
+{
+  "isoType": "SponsoredMerchant3",
+  "language": "en",
+  "name": "Sponsored Merchant 3",
+  "definition": "Merchant using the payment services of the card acceptor. The sponsored merchant is not acting as the card acceptor; the latter remaining the only party liable for the transaction vis-à-vis the acquirer.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the party."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Entity in charge of assigning an identification to a party."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the party."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Short name of the party."
+    },
+    "AdditionalIdentification": {
+      "name": "Additional Identification",
+      "definition": "Additional identification of the party."
+    },
+    "Foreign": {
+      "name": "Foreign",
+      "definition": "Identify when the sponsored merchant is not located in the same country as the marketplace or sponsor."
+    },
+    "CommonName": {
+      "name": "Common Name",
+      "definition": "Contains the full name of the sponsored merchant."
+    },
+    "LegalCorporateName": {
+      "name": "Legal Corporate Name",
+      "definition": "Legal Corporate Name of the sponsored merchant."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the sponsored merchant."
+    },
+    "AdditionalAddress": {
+      "name": "Additional Address",
+      "definition": "Additional information used when card acceptor street address is insufficient."
+    },
+    "GeographicLocation": {
+      "name": "Geographic Location",
+      "definition": "Location of the acceptor in latitude/longitude decimal degrees."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional sponsored merchant data."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains local language equivalent(s) of data in the current component."
+    }
+  }
+}

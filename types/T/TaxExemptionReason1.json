@@ -1,0 +1,21 @@
+{
+  "isoType": "TaxExemptionReason1",
+  "language": "en",
+  "name": "Tax Exemption Reason 1",
+  "definition": "Specification of the tax exemption reason.",
+  "isoElements": {
+    "Structured": {
+      "name": "Structured",
+      "definition": "Structured format."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the type of tax."
+    }
+  },
+  "isoRules": {
+    "OtherCodeRule": {
+      "definition": "If Structured is OTHR, then AdditionalInformation is mandatory."
+    }
+  }
+}

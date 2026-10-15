@@ -1,0 +1,23 @@
+{
+  "isoType": "CollateralStatus1Code",
+  "language": "en",
+  "name": "Collateral Status 1 Code",
+  "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions covered in the message as a code",
+  "isoCodes": {
+    "EXCS": {
+      "isoName": "CollateralExcess",
+      "name": "Collateral Excess",
+      "definition": "Excess of collateral."
+    },
+    "DEFI": {
+      "isoName": "CollateralShortage",
+      "name": "Collateral Shortage",
+      "definition": "Shortage of collateral."
+    },
+    "FLAT": {
+      "isoName": "NoExcessCollateral",
+      "name": "No Excess Collateral",
+      "definition": "Collateral covers the exposure and there is no excess."
+    }
+  }
+}

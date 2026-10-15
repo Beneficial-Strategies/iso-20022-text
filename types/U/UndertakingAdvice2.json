@@ -1,0 +1,70 @@
+{
+  "isoType": "UndertakingAdvice2",
+  "language": "en",
+  "name": "Undertaking Advice 2",
+  "definition": "Details of the advice for the issuance of an undertaking.",
+  "isoElements": {
+    "ApplicantReferenceNumber": {
+      "name": "Applicant Reference Number",
+      "definition": "Unique and unambiguous identifier assigned by the applicant to the undertaking."
+    },
+    "Obligor": {
+      "name": "Obligor",
+      "definition": "Party obligated to reimburse the issuer."
+    },
+    "UndertakingIssuanceMessage": {
+      "name": "Undertaking Issuance Message",
+      "definition": "Contents of the related UndertakingIssuance message."
+    },
+    "OriginalIssuedMedium": {
+      "name": "Original Issued Medium",
+      "definition": "Medium used to issue the original undertaking."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document or template enclosed in the notification."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the undertaking notification."
+    }
+  },
+  "isoRules": {
+    "Applicant1Rule": {
+      "definition": "If IssuanceType is \"ISSU\" then Applicant must be present."
+    },
+    "Applicant2Rule": {
+      "definition": "If IssuanceType is \"ISAD\" then Applicant must be present."
+    },
+    "Applicant3Rule": {
+      "definition": "If IssuanceType is \"ISCO\" then Applicant must be present."
+    },
+    "Applicant4Rule": {
+      "definition": "If IssuanceType is \"CRQL\" then Applicant must not be present."
+    },
+    "Applicant5Rule": {
+      "definition": "If IssuanceType is \"QRQC\" then Applicant must not be present."
+    },
+    "Applicant6Rule": {
+      "definition": "If IssuanceType is \"CRQB\" then Applicant must not be present."
+    },
+    "IssuanceType1Rule": {
+      "definition": "If IssuanceType is \"CRQL\" then LocalUndertakingDetails must be present."
+    },
+    "IssuanceType2Rule": {
+      "definition": "If IssuanceType is \"QRQC\" then LocalUndertakingDetails must be present."
+    },
+    "IssuanceType3Rule": {
+      "definition": "If IssuanceType is \"CRQB\" then LocalUndertakingDetails must be present."
+    },
+    "IssuanceType4Rule": {
+      "definition": "If IssuanceType is \"ISSU\" then LocalUndertakingDetails must not be present."
+    },
+    "IssuanceType5Rule": {
+      "definition": "If IssuanceType is \"ISAD\" then LocalUndertakingDetails must not be present."
+    },
+    "IssuanceType6Rule": {
+      "definition": "If IssuanceType is \"ISCO\" then LocalUndertakingDetails must not be present."
+    }
+  }
+}

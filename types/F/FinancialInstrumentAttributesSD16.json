@@ -1,0 +1,32 @@
+{
+  "isoType": "FinancialInstrumentAttributesSD16",
+  "language": "en",
+  "name": "Financial Instrument Attributes SD 16",
+  "definition": "Provides additional information regarding corporate action option securities movement security details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "DTCSecurityTransferableFlag": {
+      "name": "DTC Security Transferable Flag",
+      "definition": "Indicates whether or not the newly issued securities are transferable by the agent. This flag is specific to DTC (The Depository Trust Corporation)."
+    },
+    "DeclaredDisbursedSecurityDetails": {
+      "name": "Declared Disbursed Security Details",
+      "definition": "Details of security that is being distributed as a result of a corporate action as declared by the issuer or offeror on the market."
+    },
+    "DTCDisbursedSecurityAssetType": {
+      "name": "DTC Disbursed Security Asset Type",
+      "definition": "Further classification of DTC disbursed security instruments into (issue) asset types at DTC (The Depository Trust Corporation)."
+    },
+    "DTCDisbursedSecurityAssetClass": {
+      "name": "DTC Disbursed Security Asset Class",
+      "definition": "Classification of DTC disbursed security instruments into asset classes at DTC (The Depository Trust Corporation)."
+    },
+    "BabyBondDenomination": {
+      "name": "Baby Bond Denomination",
+      "definition": "Dollar amount attributed to the bond when the par value is less than 1000."
+    }
+  }
+}

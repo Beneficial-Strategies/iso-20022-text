@@ -1,0 +1,21 @@
+{
+  "isoType": "InflationIndex1Choice",
+  "language": "en",
+  "name": "Inflation Index 1 Choice",
+  "definition": "Choice of an inflation index identification.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN) of the inflation index."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Standardised name of the index."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "TravelAgency5",
+  "language": "en",
+  "name": "Travel Agency 5",
+  "definition": "Travel agency component provides details of travel agency, airline, or railway transactions.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Contains an agency code or name."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Assigner of the agency code."
+    },
+    "IATACode": {
+      "name": "IATA Code",
+      "definition": "Contains the International Air Transport Association (IATA) code identifying the company that purchased the ticket."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the travel agency."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Short name of the travel agency."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the travel agency."
+    },
+    "Contact": {
+      "name": "Contact",
+      "definition": "Contact information related to the travel agency."
+    },
+    "TravelPackage": {
+      "name": "Travel Package",
+      "definition": "Provides detailed information about the travel package, excluding specific itinerary data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

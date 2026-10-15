@@ -1,0 +1,48 @@
+{
+  "isoType": "CertificateManagementResponse3",
+  "language": "en",
+  "name": "Certificate Management Response 3",
+  "definition": "Information related to the result of the certificate management request.",
+  "isoElements": {
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identification of the terminal or system using the certificate management service."
+    },
+    "TMIdentification": {
+      "name": "TM Identification",
+      "definition": "Identification of the TM or the MTM providing the Certificate Authority service."
+    },
+    "CertificateService": {
+      "name": "Certificate Service",
+      "definition": "Requested certificate management service."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Outcome of the certificate service processing."
+    },
+    "SecurityProfile": {
+      "name": "Security Profile",
+      "definition": "Identification of the security profile, for creation, renewal or revocation of certificate."
+    },
+    "POIChallengeValue": {
+      "name": "POI Challenge Value",
+      "definition": "Challenge value sends by the POI to be received back in a message response."
+    },
+    "TMSDateTime": {
+      "name": "TMS Date Time",
+      "definition": "Date and Time of the TMS."
+    },
+    "ClientCertificate": {
+      "name": "Client Certificate",
+      "definition": "Created or renewed certificate. The certificate is ASN.1/DER encoded."
+    },
+    "ClientCertificatePath": {
+      "name": "Client Certificate Path",
+      "definition": "Certificate of the client certificate path, from the CA (Certificate Authority) certificate, to the root certificate, for renewal or revocation of certificate."
+    },
+    "ServerCertificatePath": {
+      "name": "Server Certificate Path",
+      "definition": "Certificate of the server certificate path, from the CA (Certificate Authority) certificate, to the root certificate, for renewal or revocation of certificate."
+    }
+  }
+}

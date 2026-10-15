@@ -1,0 +1,113 @@
+{
+  "isoType": "TerminalManagementActionResult5Code",
+  "language": "en",
+  "name": "Terminal Management Action Result 5 Code",
+  "definition": "Final result of the processed terminal management action.",
+  "isoCodes": {
+    "ACCD": {
+      "isoName": "AccessDenied",
+      "name": "Access Denied",
+      "definition": "Access is denied while performing the action."
+    },
+    "CNTE": {
+      "isoName": "ConnectionError",
+      "name": "Connection Error",
+      "definition": "Problem to connect while performing the action."
+    },
+    "FMTE": {
+      "isoName": "FormatError",
+      "name": "Format Error",
+      "definition": "Data transferred has a wrong format."
+    },
+    "INVC": {
+      "isoName": "InvalidContent",
+      "name": "Invalid Content",
+      "definition": "Content of the data is invalid."
+    },
+    "LENE": {
+      "isoName": "LengthError",
+      "name": "Length Error",
+      "definition": "Data transferred has a wrong length."
+    },
+    "OVER": {
+      "isoName": "MemoryOverflow",
+      "name": "Memory Overflow",
+      "definition": "Memory to store the date exceeded."
+    },
+    "MISS": {
+      "isoName": "MissingFile",
+      "name": "Missing File",
+      "definition": "Data set to be maintained is missing."
+    },
+    "NSUP": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "Action is not supported."
+    },
+    "SIGE": {
+      "isoName": "SignatureError",
+      "name": "Signature Error",
+      "definition": "Data transferred has a wrong digital signature."
+    },
+    "WARN": {
+      "isoName": "SuccessWithWarning",
+      "name": "Success With Warning",
+      "definition": "Action was performed but some warnings arose."
+    },
+    "SYNE": {
+      "isoName": "SyntaxError",
+      "name": "Syntax Error",
+      "definition": "Data transferred has a wrong syntax."
+    },
+    "TIMO": {
+      "isoName": "Timeout",
+      "name": "Timeout",
+      "definition": "Timeout expired during the data transfer."
+    },
+    "UKDT": {
+      "isoName": "UnknownData",
+      "name": "Unknown Data",
+      "definition": "Data set identification invalid."
+    },
+    "UKRF": {
+      "isoName": "UnknownKeyReference",
+      "name": "Unknown Key Reference",
+      "definition": "Cryptographic key reference used for the data signature is not valid."
+    },
+    "INDP": {
+      "isoName": "InvalidDelegationProof",
+      "name": "Invalid Delegation Proof",
+      "definition": "Delegation Proof transmitted by the delegated TMS is not the one expected."
+    },
+    "IDMP": {
+      "isoName": "InvalidDelegationInManagementPlan",
+      "name": "Invalid Delegation In Management Plan",
+      "definition": "One action of the AcceptorManagementPlan refers to an update unauthorized by the delegation."
+    },
+    "DPRU": {
+      "isoName": "DelegationParametersReceivedUnauthorized",
+      "name": "Delegation Parameters Received Unauthorized",
+      "definition": "The content analysis of the AcceptorConfigurationUpdate reveals unexpected parameters."
+    },
+    "AERR": {
+      "isoName": "AnyError",
+      "name": "Any Error",
+      "definition": "This code value means all TerminalManagementActionResultCode except \"Any Error\" and \"Unlisted Error\"."
+    },
+    "CMER": {
+      "isoName": "CommunicationError",
+      "name": "Communication Error",
+      "definition": "Error in communication once the connection has been established."
+    },
+    "ULER": {
+      "isoName": "UnlistedError",
+      "name": "Unlisted Error",
+      "definition": "Any error that is not defined by a code value inside the TerminalManagementActionResultCode."
+    },
+    "SUCC": {
+      "isoName": "Success",
+      "name": "Success",
+      "definition": "Action was successfully performed."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CashBalanceType1Code",
+  "language": "en",
+  "name": "Cash Balance Type 1 Code",
+  "definition": "Specifies the type of cash balance.",
+  "isoCodes": {
+    "AVLB": {
+      "isoName": "Available",
+      "name": "Available",
+      "definition": "Balance of money or securities that is at the disposal of the account owner on the date specified."
+    },
+    "REST": {
+      "isoName": "Restricted",
+      "name": "Restricted",
+      "definition": "Balance of cash that may only be used under certain conditions.||Balance type is used to block securities/cash in the client account e.g., in relation to elections relating to certain corporate actions. The holding is under the direct control of the system paying agent, who us the only one who can transfer securities out of this balance type.|Also known as the \"escrow balance\" or \"sequestered balance\"."
+    }
+  }
+}

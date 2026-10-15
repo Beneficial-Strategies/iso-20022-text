@@ -1,0 +1,21 @@
+{
+  "isoType": "TradingVenueIdentification4Choice",
+  "language": "en",
+  "name": "Trading Venue Identification 4 Choice",
+  "definition": "Trade venue related fields.",
+  "isoElements": {
+    "MarketIdentificationCode": {
+      "name": "Market Identification Code",
+      "definition": "Identification used where reporting entity uses a market identification code (MIC)."
+    },
+    "SystematicInternaliser": {
+      "name": "Systematic Internaliser",
+      "definition": "Code used when a transaction on a financial instrument is executed on a Systematic Internaliser."
+    }
+  },
+  "isoRules": {
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    }
+  }
+}

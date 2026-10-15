@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementFailsDailyTransactionType3",
+  "language": "en",
+  "name": "Settlement Fails Daily Transaction Type 3",
+  "definition": "Specifies the transaction type as defined in the relevant regulation.",
+  "isoElements": {
+    "SecuritiesBuyOrSell": {
+      "name": "Securities Buy Or Sell",
+      "definition": "Purchase or sale of securities."
+    },
+    "CollateralManagementOperation": {
+      "name": "Collateral Management Operation",
+      "definition": "Relates to securities transfers aiming to provide or to return collateral."
+    },
+    "SecuritiesLendingOrBorrowing": {
+      "name": "Securities Lending Or Borrowing",
+      "definition": "Relates to a securities lending or borrowing operation."
+    },
+    "RepurchaseAgreement": {
+      "name": "Repurchase Agreement",
+      "definition": "Repurchase transactions."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Covers any securities transactions type not covered as a dedicated type."
+    }
+  }
+}

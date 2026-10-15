@@ -1,0 +1,73 @@
+{
+  "isoType": "ExternalPostTradeEquity1Code",
+  "language": "en",
+  "name": "External Post Trade Equity 1 Code",
+  "definition": "Information related to the post trade of equities.",
+  "isoCodes": {
+    "ALGO": {
+      "isoName": "AlgorithmicTransaction",
+      "name": "Algorithmic Transaction",
+      "definition": "Flag for transactions executed as a result of an investment firm engaging in  algorithmic trading"
+    },
+    "AMND": {
+      "isoName": "Amendment",
+      "name": "Amendment",
+      "definition": "Flag when a previously published transaction is amended."
+    },
+    "BENC": {
+      "isoName": "BenchmarkTransaction",
+      "name": "Benchmark Transaction",
+      "definition": "Flag for transactions executed in reference to a price that is calculated over |multiple time instances according to a given benchmark."
+    },
+    "CANC": {
+      "isoName": "Cancellation",
+      "name": "Cancellation",
+      "definition": "Flag when a previously published transaction is cancelled."
+    },
+    "CONT": {
+      "isoName": "ContingentTransaction",
+      "name": "Contingent Transaction",
+      "definition": "Flag for transactions that are contingent on the purchase, sale, creation or redemption of a derivative contract or other financial instrument where all the components of the trade are meant to be executed as a single lot."
+    },
+    "OILQ": {
+      "isoName": "NegotiatedTransactionInIlliquidFinancialInstruments",
+      "name": "Negotiated Transaction In Illiquid Financial Instruments",
+      "definition": "Flag for transactions in an illiquid instrument traded at a system-set percentage of a reference price."
+    },
+    "NLIQ": {
+      "isoName": "NegotiatedTransactionInLiquidFinancialInstruments",
+      "name": "Negotiated Transaction In Liquid Financial Instruments",
+      "definition": "Flag for transactions made within the current volume weighted spread reflected on the order book or the quotes of the market makers of the trading venue operating that system."
+    },
+    "PRIC": {
+      "isoName": "NegotiatedTransactionSubjectToConditionsOtherThanTheCurrentMarketPrice",
+      "name": "Negotiated Transaction Subject To Conditions Other Than The Current Market Price",
+      "definition": "Flag for transactions executed subject to conditions other than the current market price of that financial instrument."
+    },
+    "NPFT": {
+      "isoName": "NonPriceFormingTransaction",
+      "name": "Non Price Forming Transaction",
+      "definition": "Flag for non-price forming transactions"
+    },
+    "PORT": {
+      "isoName": "PortfolioTransaction",
+      "name": "Portfolio Transaction",
+      "definition": "Flag for transactions in five or more different financial instruments where those transactions are traded at the same time by the same client.||It is used as a single lot price and that is not a ‘package transaction'."
+    },
+    "LRGS": {
+      "isoName": "PostTradeLISTransaction",
+      "name": "Post Trade LIS Transaction",
+      "definition": "Flag for transactions large in scale relative to normal market size, executed under a permitted post-trade deferral."
+    },
+    "RFPT": {
+      "isoName": "ReferencePriceTransaction",
+      "name": "Reference Price Transaction",
+      "definition": "Flag for transactions which are executed under systems."
+    },
+    "SDIV": {
+      "isoName": "SpecialDividendTransaction",
+      "name": "Special Dividend Transaction",
+      "definition": "Flag for transactions where dividends accrue to the non-entitled party due to ex- or cum-dividend timing."
+    }
+  }
+}

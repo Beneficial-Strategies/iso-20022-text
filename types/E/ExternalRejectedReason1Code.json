@@ -1,0 +1,133 @@
+{
+  "isoType": "ExternalRejectedReason1Code",
+  "language": "en",
+  "name": "External Rejected Reason 1 Code",
+  "definition": "Specifies the reason for a rejected status|The list of valid codes is an external code list published separately. External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "ServicerDeadlineMissed",
+      "name": "Servicer Deadline Missed",
+      "definition": "Received after the servicer's deadline"
+    },
+    "BDAY": {
+      "isoName": "NotBusinessDay",
+      "name": "Not Business Day",
+      "definition": "Date is not a business day"
+    },
+    "CTRC": {
+      "isoName": "ClosingTransaction",
+      "name": "Closing Transaction",
+      "definition": "Unrecognised or invalid client"
+    },
+    "DPRG": {
+      "isoName": "RejectedSinceInProgress",
+      "name": "Rejected Since In Progress",
+      "definition": "Request has been rejected because the instruction process is in progress or has been processed"
+    },
+    "INDT": {
+      "isoName": "InvalidDetails",
+      "name": "Invalid Details",
+      "definition": "Some message details specified in the instruction/request are inconsistent with those that expected"
+    },
+    "MISM": {
+      "isoName": "InvalidRequest",
+      "name": "Invalid Request",
+      "definition": "The request cannot be executed. The message requested is not valid"
+    },
+    "NAUT": {
+      "isoName": "NotAuthorised",
+      "name": "Not Authorised",
+      "definition": "Permission to be processed is not granted"
+    },
+    "NINS": {
+      "isoName": "NoInstrument",
+      "name": "No Instrument",
+      "definition": "Referred instrument does not exist"
+    },
+    "NOAC": {
+      "isoName": "NoAccessToService",
+      "name": "No Access To Service",
+      "definition": "Client has no access to the service"
+    },
+    "TERM": {
+      "isoName": "ClosingDateTimeRejection",
+      "name": "Closing Date Time Rejection",
+      "definition": "Unrecognised or invalid effective date/time"
+    },
+    "ASBR": {
+      "isoName": "AcknowledgementOfSettlementBatchReceived",
+      "name": "Acknowledgement Of Settlement Batch Received",
+      "definition": "Acknowledgement of settlement batch received from PSO for settlement."
+    },
+    "AB15": {
+      "isoName": "InvalidAccountNumberForSettlementType",
+      "name": "Invalid Account Number For Settlement Type",
+      "definition": "Settlement Instruction with invalid account number or specific settlement type."
+    },
+    "AB26": {
+      "isoName": "InvalidBatchSettlementInstruction",
+      "name": "Invalid Batch Settlement Instruction",
+      "definition": "Invalid batch Settlement Instruction received."
+    },
+    "AB12": {
+      "isoName": "InvalidConcurrentBatchSettlementInstructionSequenceNumber",
+      "name": "Invalid Concurrent Batch Settlement Instruction Sequence Number",
+      "definition": "Process a Batch Removal Instruction with an incorrect Batch Concurrent Sequence."
+    },
+    "DT07": {
+      "isoName": "InvalidCreationDate",
+      "name": "Invalid Creation Date",
+      "definition": "Process a Batch Removal Instruction with an incorrect \"Original Creation Date and Time\" for the batch."
+    },
+    "AB13": {
+      "isoName": "InvalidRoutingCodeUtilised",
+      "name": "Invalid Routing Code Utilised",
+      "definition": "Invalid routing code send by participant to settlement operator."
+    },
+    "AB21": {
+      "isoName": "InvalidSettlementAgreementNumberSpecified",
+      "name": "Invalid Settlement Agreement Number Specified",
+      "definition": "Processing interbank batch settlement instruction with invalid agreement number for settlement type."
+    },
+    "ISWS": {
+      "isoName": "InvalidSettlementWindow",
+      "name": "Invalid Settlement Window",
+      "definition": "Invalid settlement window for settlement instruction."
+    },
+    "MISN": {
+      "isoName": "MissingISIN",
+      "name": "Missing ISIN",
+      "definition": "Missing ISIN on settlement instruction."
+    },
+    "NOFR": {
+      "isoName": "OutstandingFundingForSettlement",
+      "name": "Outstanding Funding For Settlement",
+      "definition": "Warning messages that is send to participants when settlement account must be funded."
+    },
+    "RC14": {
+      "isoName": "ParticipantInBCPNoCLSInstructionsAllowed",
+      "name": "Participant In BCP No CLS Instructions Allowed",
+      "definition": "Participant is in BCP no settlement instruction for CLS."
+    },
+    "RC16": {
+      "isoName": "ParticipantNotActiveMemberOfSADCRTGS",
+      "name": "Participant Not Active Member Of SADCRTGS",
+      "definition": "Originator of the instruction is not an active participant in SADC RTGS."
+    },
+    "RC15": {
+      "isoName": "ParticipantNotActiveMemberSettlementType",
+      "name": "Participant Not Active Member Settlement Type",
+      "definition": "Participant is not an active member of a specific settlement type."
+    },
+    "RC13": {
+      "isoName": "ParticipantNotAnActiveMemberOfRTGS",
+      "name": "Participant Not An Active Member Of RTGS",
+      "definition": "Originator of the instruction is not an active participant in RTGS."
+    },
+    "SBRN": {
+      "isoName": "SettlementBatchRemovalNotification",
+      "name": "Settlement Batch Removal Notification",
+      "definition": "Settlement batch removal notification due to batch not funded at window closure by participants."
+    }
+  }
+}

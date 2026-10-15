@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingTradingVolumeCapDataReportV01",
+  "language": "en",
+  "name": "Financial Instrument Reporting Trading Volume Cap Data Report V 01",
+  "definition": "The FinancialInstrumentReportingTradingVolumeCapDataReport message is sent by the trading venue to the national competent authority to report the total volume of trading and volumes of trading under reference price waiver and negotiated transactions waiver.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header information related to the global report."
+    },
+    "VolumeCapData": {
+      "name": "Volume Cap Data",
+      "definition": "Provides details on the volume of trades of financial instruments."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionReconciliation5",
+  "language": "en",
+  "name": "Transaction Reconciliation 5",
+  "definition": "Reconciliation transaction between an acceptor and an acquirer.",
+  "isoElements": {
+    "ClosePeriod": {
+      "name": "Close Period",
+      "definition": "Indicates if the transaction requires a closure of the reconciliation period."
+    },
+    "ReconciliationTransactionIdentification": {
+      "name": "Reconciliation Transaction Identification",
+      "definition": "Unique identification of a reconciliation transaction."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer."
+    },
+    "TransactionTotals": {
+      "name": "Transaction Totals",
+      "definition": "Transaction totals during the reconciliation period for a certain type of transaction."
+    },
+    "AdditionalTransactionData": {
+      "name": "Additional Transaction Data",
+      "definition": "Additional information related to the reconciliation transaction."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "DemandRefusalNotificationV01",
+  "language": "en",
+  "name": "Demand Refusal Notification V 01",
+  "definition": "The DemandRefusalNotification message is sent to the beneficiary or presenter by the party obligated on the undertaking and to whom a demand for payment has been made, either directly or via one or more advising parties. It notifies the beneficiary or presenter that the demand has been refused.",
+  "isoElements": {
+    "DemandRefusalNotificationDetails": {
+      "name": "Demand Refusal Notification Details",
+      "definition": "Details of the demand refusal notification."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the notification."
+    }
+  }
+}

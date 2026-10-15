@@ -1,0 +1,76 @@
+{
+  "isoType": "Cardholder23",
+  "language": "en",
+  "name": "Cardholder 23",
+  "definition": "Detailed information about the cardholder.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the cardholder, which is usually the full name."
+    },
+    "GivenName": {
+      "name": "Given Name",
+      "definition": "First name of the cardholder."
+    },
+    "LastName": {
+      "name": "Last Name",
+      "definition": "Family name of the cardholder."
+    },
+    "MiddleName": {
+      "name": "Middle Name",
+      "definition": "Middle name or initials present in the name of a person."
+    },
+    "Designation": {
+      "name": "Designation",
+      "definition": "Identifies the specific cardholder when multiple cardholders are associated with the same account."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the cardholder."
+    },
+    "BillingAddress": {
+      "name": "Billing Address",
+      "definition": "Complete billing address of the cardholder."
+    },
+    "CompressedAddress": {
+      "name": "Compressed Address",
+      "definition": "Compressed billing address of the cardholder"
+    },
+    "ShippingAddress": {
+      "name": "Shipping Address",
+      "definition": "Complete shipping address of the cardholder."
+    },
+    "ContactInformation": {
+      "name": "Contact Information",
+      "definition": "Contact information of the cardholder."
+    },
+    "DateOfBirth": {
+      "name": "Date Of Birth",
+      "definition": "Date of birth of the party."
+    },
+    "HighValue": {
+      "name": "High Value",
+      "definition": "Identifies a cardholder that is a highly valued individual (e.g., Very Important Person)."
+    },
+    "AliasName": {
+      "name": "Alias Name",
+      "definition": "Alias name of the payer."
+    },
+    "Occupation": {
+      "name": "Occupation",
+      "definition": "The occupation of the payer."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains text fields in the local language."
+    }
+  }
+}

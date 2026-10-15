@@ -1,0 +1,24 @@
+{
+  "isoType": "AdditionalFeeReconciliation4",
+  "language": "en",
+  "name": "Additional Fee Reconciliation 4",
+  "definition": "Contains additional fee reconciliation data.",
+  "isoElements": {
+    "Impact": {
+      "name": "Impact",
+      "definition": "Reconciliation credit or debit indicator."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "contains the list of additional fee types."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Cumulative amount of all financial transactions.||ISO 8583:87 bit 82, 83, 84 & 85|ISO 8583:93/2003 bit 109 & 110"
+    },
+    "Count": {
+      "name": "Count",
+      "definition": "Number of transactions."
+    }
+  }
+}

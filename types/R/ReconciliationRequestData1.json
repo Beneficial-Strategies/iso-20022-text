@@ -1,0 +1,20 @@
+{
+  "isoType": "ReconciliationRequestData1",
+  "language": "en",
+  "name": "Reconciliation Request Data 1",
+  "definition": "Content of the Reconciliation Request message.",
+  "isoElements": {
+    "ReconciliationType": {
+      "name": "Reconciliation Type",
+      "definition": "Type of Reconciliation requested by the Sale to the POI."
+    },
+    "AcquirerIdentification": {
+      "name": "Acquirer Identification",
+      "definition": "Identification of the Acquirer."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Identification of the reconciliation period between Sale and POI."
+    }
+  }
+}

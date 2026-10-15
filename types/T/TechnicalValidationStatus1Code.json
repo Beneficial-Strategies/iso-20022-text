@@ -1,0 +1,18 @@
+{
+  "isoType": "TechnicalValidationStatus1Code",
+  "language": "en",
+  "name": "Technical Validation Status 1 Code",
+  "definition": "Specifies the result of the technical validation carried out by the receiver (forwarding or first agent).",
+  "isoCodes": {
+    "RCCF": {
+      "isoName": "ReceptionConfirmation",
+      "name": "Reception Confirmation",
+      "definition": "Indicates that the request has been correctly received and that the technical validation was successful."
+    },
+    "RCER": {
+      "isoName": "ReceptionError",
+      "name": "Reception Error",
+      "definition": "Indicates there was an error in the reception of the request or that the technical validation was not successful."
+    }
+  }
+}

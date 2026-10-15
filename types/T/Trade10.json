@@ -1,0 +1,68 @@
+{
+  "isoType": "Trade10",
+  "language": "en",
+  "name": "Trade 10",
+  "definition": "Details of the foreign exchange trade including Spot\\Forward\\NDF that is captured.",
+  "isoElements": {
+    "ExecutionPrice": {
+      "name": "Execution Price",
+      "definition": "Price of the execution of the trade."
+    },
+    "LastQuantity": {
+      "name": "Last Quantity",
+      "definition": "Amount of trade in trading currency."
+    },
+    "SettlementType": {
+      "name": "Settlement Type",
+      "definition": "Specifies the settlment period of the foreign exchange trade."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Specifies the date on which the trade will be settled."
+    },
+    "ValuationRate": {
+      "name": "Valuation Rate",
+      "definition": "Specifies the valuation rate used for the trade."
+    },
+    "ForwardPoints": {
+      "name": "Forward Points",
+      "definition": "Specifies the forward points of the trade if needed."
+    },
+    "CalculatedCounterpartyCurrencyLastQuantity": {
+      "name": "Calculated Counterparty Currency Last Quantity",
+      "definition": "Amount of trade in corresponding currency."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Specifies the value date of spot transaction."
+    },
+    "RiskAmount": {
+      "name": "Risk Amount",
+      "definition": "Measurement of the amount of the trade values converted in the US dollars."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Security identification of the trade."
+    },
+    "FixingCurrency": {
+      "name": "Fixing Currency",
+      "definition": "Specifies the ISO code of the fixing currency."
+    },
+    "FixingDate": {
+      "name": "Fixing Date",
+      "definition": "Date at which the rate determination is made in the NDF trade."
+    },
+    "OptionIndicator": {
+      "name": "Option Indicator",
+      "definition": "Indicates whether the spot trade is produced by the option."
+    },
+    "DeltaIndicator": {
+      "name": "Delta Indicator",
+      "definition": "Indicate the trade whether it's exchange delta."
+    },
+    "AssociatedTradeReference": {
+      "name": "Associated Trade Reference",
+      "definition": "Some associated trade reference needs to be specified."
+    }
+  }
+}

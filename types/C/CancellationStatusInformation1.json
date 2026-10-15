@@ -1,0 +1,20 @@
+{
+  "isoType": "CancellationStatusInformation1",
+  "language": "en",
+  "name": "Cancellation Status Information 1",
+  "definition": "Information about the business status of a cancellation request message.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Information on the business status of the cancellation."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "The reason for the cancellation status."
+    },
+    "AdditionalStatusReasonInformation": {
+      "name": "Additional Status Reason Information",
+      "definition": "Further details on the cancellation status reason."
+    }
+  }
+}

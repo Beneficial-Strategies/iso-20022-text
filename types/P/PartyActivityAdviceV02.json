@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyActivityAdviceV02",
+  "language": "en",
+  "name": "Party Activity Advice V 02",
+  "definition": "The PartyActivityReport message is sent by the executing party to an instructing party containing information about changes on party reference data.||Scope and usage:|It aims at informing about the changes occurred during a business date for party reference data.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "PartyActivity": {
+      "name": "Party Activity",
+      "definition": "Activity report of changes occurred for a party defined in the system."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

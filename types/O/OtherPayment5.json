@@ -1,0 +1,33 @@
+{
+  "isoType": "OtherPayment5",
+  "language": "en",
+  "name": "Other Payment 5",
+  "definition": "Payment related to elements not reported in dedicated fields.",
+  "isoElements": {
+    "PaymentAmount": {
+      "name": "Payment Amount",
+      "definition": "Amount of money of any payment the reporting counterparty made or received.||Usage: The negative symbol to be used to indicate that the payment was made, not received."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Indicates the type of other payment."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Indicates the unadjusted date on which the other payment is paid."
+    },
+    "PaymentPayer": {
+      "name": "Payment Payer",
+      "definition": "Identifies the payer of the other payment amount."
+    },
+    "PaymentReceiver": {
+      "name": "Payment Receiver",
+      "definition": "Identifies the receiver of the other payment amount."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

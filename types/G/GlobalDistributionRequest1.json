@@ -1,0 +1,41 @@
+{
+  "isoType": "GlobalDistributionRequest1",
+  "language": "en",
+  "name": "Global Distribution Request 1",
+  "definition": "Provides information about the global distribution.",
+  "isoElements": {
+    "PreadviceIndicator": {
+      "name": "Preadvice Indicator",
+      "definition": "Indicates wether is message is an advice or pre-advice."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the corporate action options available to the account owner."
+    },
+    "RecordDate": {
+      "name": "Record Date",
+      "definition": "Date on which the holders of securities are/will be recorded for the income being paid or for entitlement to the rights or offer/privilege."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date on which securities/cash will be paid."
+    },
+    "SecuritiesMovement": {
+      "name": "Securities Movement",
+      "definition": "Provides information about the securities movement."
+    },
+    "CashMovement": {
+      "name": "Cash Movement",
+      "definition": "Provides information about the cash movement."
+    }
+  },
+  "isoRules": {
+    "MovementRule": {
+      "definition": "At least one occurrence of either CashMovement or SecuritiesMovement must be present. Both may be present."
+    }
+  }
+}

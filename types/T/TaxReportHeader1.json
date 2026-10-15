@@ -1,0 +1,20 @@
+{
+  "isoType": "TaxReportHeader1",
+  "language": "en",
+  "name": "Tax Report Header 1",
+  "definition": "Defines message level identification, number of individual tax reports and tax authority.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique message identification."
+    },
+    "NumberOfTaxReports": {
+      "name": "Number Of Tax Reports",
+      "definition": "Number of TaxReports in this message. Seller can send all TaxReports in the same file."
+    },
+    "TaxAuthority": {
+      "name": "Tax Authority",
+      "definition": "Party to which the TaxReport is delivered. This message block contains party details for a specific tax authority."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "CashMarginOrder1Code",
+  "language": "en",
+  "name": "Cash Margin Order 1 Code",
+  "definition": "Identifies whether an order is a non-margin, an opening margin or a closing margin order.",
+  "isoCodes": {
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "The principal owns the cash in case of a purchase, or the securities in case of a sale so the execution, if it occurs, will not generate any margin account opening or margin call."
+    },
+    "MRGO": {
+      "isoName": "MarginOpen",
+      "name": "Margin Open",
+      "definition": "The principal order, if executed, will generate a margin account opening or margin call because the principal does not have the cash in case of a purchase or the securities in case of a sale."
+    },
+    "MRGC": {
+      "isoName": "MarginClose",
+      "name": "Margin Close",
+      "definition": "The principal order, if executed, will enable the margin position to be closed and the positions to be covered (for example: purchase of securities that have previously been short-sold, or sale of securities that have been bought on margin)."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPClearedProductReportV03",
+  "language": "en",
+  "name": "CCP Cleared Product Report V 03",
+  "definition": "The CCPClearedProductReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about the financial instruments cleared by the central counterparty.||V02 adds cleared gross notional amount, defined as the gross notional amount that was cleared for that product on the report date.",
+  "isoElements": {
+    "ClearedProduct": {
+      "name": "Cleared Product",
+      "definition": "Financial instrument cleared by a central counterparty."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

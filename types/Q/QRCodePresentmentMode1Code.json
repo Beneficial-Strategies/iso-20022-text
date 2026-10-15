@@ -1,0 +1,28 @@
+{
+  "isoType": "QRCodePresentmentMode1Code",
+  "language": "en",
+  "name": "QR Code Presentment Mode 1 Code",
+  "definition": "Identifies the mode used to present a QR Code for a transaction.",
+  "isoCodes": {
+    "CPMD": {
+      "isoName": "ConsumerPresented",
+      "name": "Consumer Presented",
+      "definition": "The consumer presented a QR Code at the point of service for the transaction."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other nationally defined method for QR Code presentment for the transaction."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other QR Code presentment mode defined by bilateral agreement."
+    },
+    "MPMD": {
+      "isoName": "MerchantPresented",
+      "name": "Merchant Presented",
+      "definition": "The acceptor presented a QR Code to the consumer for the transaction."
+    }
+  }
+}

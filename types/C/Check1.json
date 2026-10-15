@@ -1,0 +1,36 @@
+{
+  "isoType": "Check1",
+  "language": "en",
+  "name": "Check 1",
+  "definition": "Identification of check as payment instrument.",
+  "isoElements": {
+    "BankIdentification": {
+      "name": "Bank Identification",
+      "definition": "Identification of the institution (bank) issuing the check."
+    },
+    "AccountNumber": {
+      "name": "Account Number",
+      "definition": "Identification of the account linked to the check."
+    },
+    "CheckNumber": {
+      "name": "Check Number",
+      "definition": "Identification of the check."
+    },
+    "CheckCardNumber": {
+      "name": "Check Card Number",
+      "definition": "Check guarantee card number.|The human readable number from the Check Guarantee Card that is presented during the check tendering process."
+    },
+    "CheckTrackData2": {
+      "name": "Check Track Data 2",
+      "definition": "Track Data of the check to digitally identify the data."
+    },
+    "CheckType": {
+      "name": "Check Type",
+      "definition": "Type of the check (personal or professional)."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the check."
+    }
+  }
+}

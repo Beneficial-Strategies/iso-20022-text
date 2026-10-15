@@ -1,0 +1,25 @@
+{
+  "isoType": "SecurityCommodityCash4",
+  "language": "en",
+  "name": "Security Commodity Cash 4",
+  "definition": "Indication of the type of assets subject of the transaction.",
+  "isoElements": {
+    "Security": {
+      "name": "Security",
+      "definition": "Data specific to securities being subject to the transaction."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Data specific to commodities being subject to the transaction."
+    },
+    "Cash": {
+      "name": "Cash",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

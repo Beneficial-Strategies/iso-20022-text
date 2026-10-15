@@ -1,0 +1,32 @@
+{
+  "isoType": "AmendNonDeliverableForwardValuationV02",
+  "language": "en",
+  "name": "Amend Non Deliverable Forward Valuation V 02",
+  "definition": "Scope|The AmendNonDeliverableForwardValuation message is sent by a participant to a central system or to a counterparty to notify the amendment of the valuation of a non deliverable trade previously confirmed by the sender.|Usage|The message is sent from a participant to a central settlement system to advise of the update of a previously sent notification and it contains a \"Related Reference\" to link it to the previous notification.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides references and date of the valuation of the non deliverable trade which is amended."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the valuation of the non deliverable trade which is amended."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the valuation of the non deliverable trade which is amended."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the valuation of the non deliverable trade which is amended."
+    },
+    "ValuationRate": {
+      "name": "Valuation Rate",
+      "definition": "Specifies the valuation rate of the valuation of the non deliverable trade which is amended."
+    },
+    "ValuationInformation": {
+      "name": "Valuation Information",
+      "definition": "Specifies the valuation information of the valuation of the non deliverable trade which is amended."
+    }
+  }
+}

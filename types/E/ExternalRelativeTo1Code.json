@@ -1,0 +1,23 @@
+{
+  "isoType": "ExternalRelativeTo1Code",
+  "language": "en",
+  "name": "External Relative To 1 Code",
+  "definition": "Specifies the external relative to code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "GOOD": {
+      "isoName": "ValueOfGoods",
+      "name": "Value Of Goods",
+      "definition": "Percentage rate expressed relative to the value of goods."
+    },
+    "PAYM": {
+      "isoName": "PaymentAmount",
+      "name": "Payment Amount",
+      "definition": "Percentage rate expressed relative to the payment amount."
+    },
+    "UNDG": {
+      "isoName": "UndertakingAmount",
+      "name": "Undertaking Amount",
+      "definition": "Percentage rate expressed relative to the undertaking amount."
+    }
+  }
+}

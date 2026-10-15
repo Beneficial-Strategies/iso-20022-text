@@ -1,0 +1,33 @@
+{
+  "isoType": "OrderWaiverReason1Code",
+  "language": "en",
+  "name": "Order Waiver Reason 1 Code",
+  "definition": "Relates to non-standard orders, to handle them differently, probably in a manual fashion.",
+  "isoCodes": {
+    "LATE": {
+      "isoName": "LateTradeDealing",
+      "name": "Late Trade Dealing",
+      "definition": "Dealing of the trade is outside the normal limit."
+    },
+    "FEND": {
+      "isoName": "FrontEndLoadCharge",
+      "name": "Front End Load Charge",
+      "definition": "Front end load charge differs from PPM."
+    },
+    "BMIN": {
+      "isoName": "BelowMinimumInvestmentAmount",
+      "name": "Below Minimum Investment Amount",
+      "definition": "Amount of subscription is below the minimum initial investment amount."
+    },
+    "CUTO": {
+      "isoName": "CutOffDate",
+      "name": "Cut Off Date",
+      "definition": "Cut off date has been passed."
+    },
+    "COMW": {
+      "isoName": "CommissionWaiver",
+      "name": "Commission Waiver",
+      "definition": "Standard commission is waived."
+    }
+  }
+}

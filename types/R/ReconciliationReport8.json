@@ -1,0 +1,24 @@
+{
+  "isoType": "ReconciliationReport8",
+  "language": "en",
+  "name": "Reconciliation Report 8",
+  "definition": "Data on transaction requiring reconciliation or pairing.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Set of information related to transactions that are subject of reconciliation."
+    },
+    "Modified": {
+      "name": "Modified",
+      "definition": "Indication whether information was modified."
+    },
+    "ReconciliationStatus": {
+      "name": "Reconciliation Status",
+      "definition": "Indication whether the reconciliation is required."
+    }
+  }
+}

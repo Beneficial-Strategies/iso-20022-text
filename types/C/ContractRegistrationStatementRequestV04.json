@@ -1,0 +1,20 @@
+{
+  "isoType": "ContractRegistrationStatementRequestV04",
+  "language": "en",
+  "name": "Contract Registration Statement Request V 04",
+  "definition": "The ContractRegistrationStatementRequest message is sent by the reporting party to the registration agent to request for a statement of the operations related to the registered contract subject to currency control.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": "Characteristics shared by all individual items included in the message."
+    },
+    "StatementRequest": {
+      "name": "Statement Request",
+      "definition": "Details on the information requested for the contract registration statement."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

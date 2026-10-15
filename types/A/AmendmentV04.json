@@ -1,0 +1,76 @@
+{
+  "isoType": "AmendmentV04",
+  "language": "en",
+  "name": "Amendment V 04",
+  "definition": "The Amendment message can be initiated by any party and received by any party (acquirer, agent or issuer). ||This message is used to inform the originator that the original message has been corrected/amended and then forwarded to the destination on behalf of the originator. It contains a copy of the original message and any errors found. It may also contain any corrections and/or amendments that were made to the original message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "AmendedData": {
+      "name": "Amended Data",
+      "definition": "Detailed description of an error that caused the message to be corrected/amended. Transmitted for further analysis."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "OriginalMessage": {
+      "name": "Original Message",
+      "definition": "Original message before correction/amendment."
+    },
+    "MessageAmended": {
+      "name": "Message Amended",
+      "definition": "Message amended."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

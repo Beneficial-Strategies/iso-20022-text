@@ -1,0 +1,41 @@
+{
+  "isoType": "Counterparty45",
+  "language": "en",
+  "name": "Counterparty 45",
+  "definition": "Information related to counterparty identification.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique code identifying the reporting counterparty of the contract."
+    },
+    "Nature": {
+      "name": "Nature",
+      "definition": "Indicates if the reporting counterparty is a central counterparty, a financial, non-financial counterparty or other type of counterparty in accordance with regulation."
+    },
+    "TradingCapacity": {
+      "name": "Trading Capacity",
+      "definition": "Identifies the trading capacity of the seller."
+    },
+    "DirectionOrSide": {
+      "name": "Direction Or Side",
+      "definition": "Indicates the direction or side of the derivative transaction from the perspective of the reporting counterparty. ||Usage:|CounterpartySide should be used for the instruments such as most forwards and forward-like contracts (except for foreign exchange forwards and foreign exchange non-deliverable forwards); most options and option-like contracts including swaptions, caps and floors; credit default swaps; variance, volatility and correlation swaps; contracts for difference and spreadbets."
+    },
+    "TraderLocation": {
+      "name": "Trader Location",
+      "definition": "Location of the trading desk or trader responsible for the decision of entering into or execution of the transaction."
+    },
+    "BookingLocation": {
+      "name": "Booking Location",
+      "definition": "Location of the trade party or the branch/office of the trade party to which the transaction is booked."
+    },
+    "ReportingExemption": {
+      "name": "Reporting Exemption",
+      "definition": "Provides details on the reporting exemption of a counterparty."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

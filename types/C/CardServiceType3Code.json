@@ -1,0 +1,23 @@
+{
+  "isoType": "CardServiceType3Code",
+  "language": "en",
+  "name": "Card Service Type 3 Code",
+  "definition": "Type of key exchange.",
+  "isoCodes": {
+    "KYDL": {
+      "isoName": "DeliverKey",
+      "name": "Deliver Key",
+      "definition": "Convey the key to the receiver."
+    },
+    "KYCG": {
+      "isoName": "KeyChange",
+      "name": "Key Change",
+      "definition": "Request the keys that the receiver must send in the response."
+    },
+    "KYVF": {
+      "isoName": "KeyVerification",
+      "name": "Key Verification",
+      "definition": "Request the receiver to verify the key check value."
+    }
+  }
+}

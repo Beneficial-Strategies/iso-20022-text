@@ -1,0 +1,60 @@
+{
+  "isoType": "Token3",
+  "language": "en",
+  "name": "Token 3",
+  "definition": "Unencrypted sensitive data of a token.",
+  "isoElements": {
+    "PaymentToken": {
+      "name": "Payment Token",
+      "definition": "Surrogate value of the PAN."
+    },
+    "TokenExpiryDate": {
+      "name": "Token Expiry Date",
+      "definition": "Expiry date of the payment token.|ISO 8583 bit 14."
+    },
+    "TokenRequestorIdentification": {
+      "name": "Token Requestor Identification",
+      "definition": "Identification of a party requesting a token."
+    },
+    "TokenAssuranceData": {
+      "name": "Token Assurance Data",
+      "definition": "Supporting information for the Token Assurance Method."
+    },
+    "TokenAssuranceMethod": {
+      "name": "Token Assurance Method",
+      "definition": "Value that allows a Token Service Provider to indicate the identification and verification performed representing the binding of the payment token to the underlying PAN and cardholder."
+    },
+    "TokenReferenceIdentification": {
+      "name": "Token Reference Identification",
+      "definition": "A reference to the token."
+    },
+    "TokenInitiatedIndicator": {
+      "name": "Token Initiated Indicator",
+      "definition": "Original transaction was initiated by Token."
+    },
+    "StorageLocation": {
+      "name": "Storage Location",
+      "definition": "Storage location of the token."
+    },
+    "OtherStorageLocation": {
+      "name": "Other Storage Location",
+      "definition": "Other private or national storage location code."
+    },
+    "ProtectionMethod": {
+      "name": "Protection Method",
+      "definition": "Method used to protect the token."
+    },
+    "OtherProtectionMethod": {
+      "name": "Other Protection Method",
+      "definition": "Other national or private protection method code."
+    },
+    "OriginalToken": {
+      "name": "Original Token",
+      "definition": "Original token."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional token data."
+    }
+  }
+}

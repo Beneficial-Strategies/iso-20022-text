@@ -1,0 +1,24 @@
+{
+  "isoType": "BackTestingMethodology1",
+  "language": "en",
+  "name": "Back Testing Methodology 1",
+  "definition": "Specifies the characteristics of a backtesting methodology used to test the performance of a risk model.",
+  "isoElements": {
+    "RiskModelType": {
+      "name": "Risk Model Type",
+      "definition": "Specifies the core model type, excluding any modifications for pro-cyclicality."
+    },
+    "ModelConfidenceLevel": {
+      "name": "Model Confidence Level",
+      "definition": "Specifies the confidence interval used on a daily basis to assess the performance of the model."
+    },
+    "VariationMarginCleanIndicator": {
+      "name": "Variation Margin Clean Indicator",
+      "definition": "Indicates whether the CCP model calculates mark-to-market changes on fixed portfolios when backtesting."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of backtesting methodology."
+    }
+  }
+}

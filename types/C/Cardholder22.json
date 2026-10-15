@@ -1,0 +1,40 @@
+{
+  "isoType": "Cardholder22",
+  "language": "en",
+  "name": "Cardholder 22",
+  "definition": "Detailed information about the cardholder.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Contains the registered cardholder name that issuer knows to be correct."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the cardholder."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Complete address of the cardholder."
+    },
+    "ContactInformation": {
+      "name": "Contact Information",
+      "definition": "Contact information.||ISO 8583:87 bit 56 (TLV tag 02/dataset 72)|ISO 8583:93 bit 112 (TLV tag 02/dataset 72)|ISO 8583:2003 bit 51 (TLV tag 02/dataset 72)"
+    },
+    "DateOfBirth": {
+      "name": "Date Of Birth",
+      "definition": "Date of birth of the party."
+    },
+    "HighValue": {
+      "name": "High Value",
+      "definition": "Identifies a cardholder that is a highly valued individual (e.g., Very Important Person)."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional cardholder data."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains text fields in the local language."
+    }
+  }
+}

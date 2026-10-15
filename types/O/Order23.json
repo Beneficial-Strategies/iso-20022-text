@@ -1,0 +1,195 @@
+{
+  "isoType": "Order23",
+  "language": "en",
+  "name": "Order 23",
+  "definition": "Intention to transfer an ownership of a financial instrument.",
+  "isoElements": {
+    "BusinessProcessType": {
+      "name": "Business Process Type",
+      "definition": "Specifies the type of business process."
+    },
+    "OrderIdentification": {
+      "name": "Order Identification",
+      "definition": "Unique identifier for Order as assigned by sell-side."
+    },
+    "ClientOrderIdentification": {
+      "name": "Client Order Identification",
+      "definition": "Unique identifier for the order as assigned by the buy-side. Uniqueness must be guaranteed within a single trading day. Firms, particularly those that electronically submit multi-day orders, trade globally or throughout market close periods, should ensure uniqueness across days, for example by embedding a date within the ClientOrderIdentification element."
+    },
+    "SecondaryClientOrderIdentification": {
+      "name": "Secondary Client Order Identification",
+      "definition": "Assigned by the party that originates the order. Can be used to provide the ClientOrderIdentification used by an exchange or executing system."
+    },
+    "ListIdentification": {
+      "name": "List Identification",
+      "definition": "Unique identifier for a list, as assigned by the trading party. The identifier must be unique within a single trading day."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Unique and unambiguous identifier of a financial instrument, assigned under a formal or proprietary identification scheme."
+    },
+    "Side": {
+      "name": "Side",
+      "definition": "Coded list to specify the side of the order."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies how the transaction is to be settled, for example, against payment."
+    },
+    "TradeTransactionType": {
+      "name": "Trade Transaction Type",
+      "definition": "Specifies the type of transaction of which the order is a component."
+    },
+    "TradeTransactionCondition": {
+      "name": "Trade Transaction Condition",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "PreAdvice": {
+      "name": "Pre Advice",
+      "definition": "Transaction is a pre-advice, that is, for matching purposes only."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction is to be or has been executed."
+    },
+    "OrderBookingDate": {
+      "name": "Order Booking Date",
+      "definition": "Date and time when an entry is posted to an account on the account servicer's books."
+    },
+    "TradeOriginationDate": {
+      "name": "Trade Origination Date",
+      "definition": "Indicates the date and time of the agreement in principal between counter-parties prior to actual trade date.|Used with fixed income for municipal new issue markets."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "ProcessingDate": {
+      "name": "Processing Date",
+      "definition": "Processing date of the trading session."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "NAVDate": {
+      "name": "NAV Date",
+      "definition": "Valuation point, or valuation date of the portfolio (underlying assets). This is also known as price date."
+    },
+    "PartialFillDetails": {
+      "name": "Partial Fill Details",
+      "definition": "Quantity of financial instrument bought or sold which is less than the quantity of financial instrument ordered."
+    },
+    "ConfirmationQuantity": {
+      "name": "Confirmation Quantity",
+      "definition": "Quantity of financial instrument that is being confirmed for the account.The quantity of the security to be settled."
+    },
+    "QuantityBreakdown": {
+      "name": "Quantity Breakdown",
+      "definition": "Breakdown of a quantity into lots such as tax lots, instrument series, etc."
+    },
+    "GrossTradeAmount": {
+      "name": "Gross Trade Amount",
+      "definition": "Principal amount of a trade (price multiplied by quantity)."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Amount of money for which goods or services are offered, sold, or bought."
+    },
+    "TypeOfPrice": {
+      "name": "Type Of Price",
+      "definition": "Specifies the type of transaction price."
+    },
+    "CashMargin": {
+      "name": "Cash Margin",
+      "definition": "Identifies whether an order is a margin order or a non-margin order. This is primarily used when sending orders to Japanese exchanges to indicate sell margin or buy to cover. The same tag could be assigned also by buy-side to indicate the intent to sell or buy margin and the sell-side to accept or reject (base on some validation criteria) the margin request."
+    },
+    "Commission": {
+      "name": "Commission",
+      "definition": "Amount of money due to a party as compensation for a service."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days on which the interest rate accrues (daily accrual note)."
+    },
+    "GiveUpNumberOfDays": {
+      "name": "Give Up Number Of Days",
+      "definition": "Specifies the number of days from trade date that the counterparty on the other side of the trade should be \"given up\" or divulged."
+    },
+    "InterestType": {
+      "name": "Interest Type",
+      "definition": "Indicates whether the trade is cum interest or ex interest."
+    },
+    "AccruedInterestPercentage": {
+      "name": "Accrued Interest Percentage",
+      "definition": "Interest rate that has been accrued in between coupon payment periods."
+    },
+    "TradeRegulatoryConditionsType": {
+      "name": "Trade Regulatory Conditions Type",
+      "definition": "Specifies the regulatory conditions type of the trade."
+    },
+    "CurrencyToBuyOrSell": {
+      "name": "Currency To Buy Or Sell",
+      "definition": "Account servicer is instructed to buy the indicated currency after the receipt of cash proceeds or to sell the indicated currency in order to obtain the necessary currency to fund the transaction."
+    },
+    "OrderOriginatorEligibility": {
+      "name": "Order Originator Eligibility",
+      "definition": "Counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties."
+    },
+    "PositionEffect": {
+      "name": "Position Effect",
+      "definition": "Indicates whether the resulting position after a trade should be an opening position or closing position. Used for omnibus accounting - where accounts are held on a gross basis instead of being netted together."
+    },
+    "DerivativeCovered": {
+      "name": "Derivative Covered",
+      "definition": "Indicates whether the derivative product is covered or not by an underlying financial instrument position."
+    },
+    "ChargeTaxBasisType": {
+      "name": "Charge Tax Basis Type",
+      "definition": "Type of charge/tax basis."
+    },
+    "CapitalGainType": {
+      "name": "Capital Gain Type",
+      "definition": "Specifies the type of capital gain."
+    },
+    "MatchStatus": {
+      "name": "Match Status",
+      "definition": "Provides the matching status of the trade confirmation."
+    },
+    "CallInType": {
+      "name": "Call In Type",
+      "definition": "Specifies the type of pay-in call report."
+    },
+    "YieldType": {
+      "name": "Yield Type",
+      "definition": "Type of yield at which the transaction was effected."
+    },
+    "Reporting": {
+      "name": "Reporting",
+      "definition": "Specifies that a trade is to be reported to a third party."
+    },
+    "AdditionalPhysicalOrRegistrationDetails": {
+      "name": "Additional Physical Or Registration Details",
+      "definition": "Provides information required for the registration or physical settlement."
+    },
+    "AdditionalTradeInstructionProcessingInformation": {
+      "name": "Additional Trade Instruction Processing Information",
+      "definition": "Provides additional details of the trade process not included within structured fields of this message."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between two periods, for example, in between interest payment periods."
+    }
+  },
+  "isoRules": {
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuyOrSell in the TradeDetails message component, provides an instruction to the account servicer to execute a foreign exchange deal on behalf of the account owner. The purpose of the forex deal is to fund the purchase of securities. This field is not to be used when standing instructions have been established. ||If CurrencyToSell is used, then it implies the following:|- the instruction is to receive.|- the currency required for funding a purchase of securities, eg, the currency to be purchased, is the currency of the settlement amount. The currency to be sold to obtain settlement currency is provided by the currency to sell message element. Normally, this is the base currency of the portfolio. |- the amount of currency to be bought is equal to the settlement amount of the transaction. This implies the forex will not be used for other transactions and that a bulk forex deal must be instructed by other means. |- a forex deal to fund the purchase of securities should be executed in time for the currency to be available on the settlement date of the securities transaction. |- a bilateral agreement regarding the use of this field has been established.||If CurrencyToBuy is used, then it implies the following:|- the instruction is to delivery|- the currency received as proceeds from the sale of securities, eg, the currency to be sold, is the currency of the settlement amount. The currency to be bought is provided by the currency to buy message element. If proceeds are repatriated, this is in the base currency of the portfolio. |- the amount of currency to be sold is equal to the settlement amount of the transaction. This implies a bulk forex deal must be instructed by other means. |- a forex deal to repatriate proceeds after the sale of securities should be executed for the soonest possible value date after settlement of the securities, as permitted by market convention. |- a bilateral agreement regarding the use of this field has been established."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "If PlaceOfTrade is used and a ISO 10383 MIC exists for the market to be identified, then the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "If Trade Date/Time is used with a time or a time + UTC indicator, then it must be the local time of the place of trade, eg, of the stock exchange, or of the selling broker for OTC."
+    }
+  }
+}

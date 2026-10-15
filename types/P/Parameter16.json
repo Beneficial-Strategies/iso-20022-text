@@ -1,0 +1,28 @@
+{
+  "isoType": "Parameter16",
+  "language": "en",
+  "name": "Parameter 16",
+  "definition": "Parameters of the RSASSA-PSS digital signature algorithm (RSA signature algorithm with appendix: Probabilistic Signature Scheme).",
+  "isoElements": {
+    "DigestAlgorithm": {
+      "name": "Digest Algorithm",
+      "definition": "Identification of the digest algorithm."
+    },
+    "MaskGeneratorAlgorithm": {
+      "name": "Mask Generator Algorithm",
+      "definition": "Mask generator function cryptographic algorithm and parameters."
+    },
+    "SaltLength": {
+      "name": "Salt Length",
+      "definition": "Length of the salt to include in the signature."
+    },
+    "TrailerField": {
+      "name": "Trailer Field",
+      "definition": "Trailer field number."
+    },
+    "OIDCurveName": {
+      "name": "OID Curve Name",
+      "definition": "Name of the Elliptic Curve according to the OID notation."
+    }
+  }
+}

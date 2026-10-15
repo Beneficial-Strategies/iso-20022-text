@@ -1,0 +1,36 @@
+{
+  "isoType": "CorporateActionInstructedBalanceOptionInstructionSD5",
+  "language": "en",
+  "name": "Corporate Action Instructed Balance Option Instruction SD 5",
+  "definition": "Provides additional information regarding corporate action instructed balance details at option level.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "ProtectIdentification": {
+      "name": "Protect Identification",
+      "definition": "Instruction reference number assigned by DTC to the uncovered protect instruction."
+    },
+    "TransactionContraCUSIP": {
+      "name": "Transaction Contra CUSIP",
+      "definition": "Contra CUSIP Identification of the option instruction."
+    },
+    "TransactionIdentificationOversubscriptionQuantity": {
+      "name": "Transaction Identification Oversubscription Quantity",
+      "definition": "Quantity relating only to the oversubscription."
+    },
+    "TransactionIdentificationStatus": {
+      "name": "Transaction Identification Status",
+      "definition": "Status of the instruction."
+    },
+    "TaxCategory": {
+      "name": "Tax Category",
+      "definition": "Tax category number assigned on the announcement to provide a breakdown at a category level on the inbound instruction to determine tax treatment as required by issuers, their agents, or tax authorities."
+    }
+  }
+}

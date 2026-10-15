@@ -1,0 +1,20 @@
+{
+  "isoType": "KeyExchangeResponse",
+  "language": "en",
+  "name": "Key Exchange Response",
+  "definition": "The KeyExchangeResponse message is sent by an acquirer, an issuer or an agent to answer to a KeyExchangeInitiation message and complete a cryptographic key exchange.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "KeyExchangeResponse": {
+      "name": "Key Exchange Response",
+      "definition": "Information related to the response to a key exchange."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

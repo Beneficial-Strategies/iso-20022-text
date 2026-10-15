@@ -1,0 +1,32 @@
+{
+  "isoType": "AmendNonDeliverableForwardOpeningV02",
+  "language": "en",
+  "name": "Amend Non Deliverable Forward Opening V 02",
+  "definition": "Scope|The AmendNonDeliverableForwardOpening message is sent by a participant to a central system or to a counterparty to notify the amendment of the opening of a non deliverable trade previously confirmed by the sender.|Usage|The message is sent from a participant to a central settlement system to advise of the update of a previously sent notification and it contains a \"Related Reference\" to link it to the previous notification.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides references and date of the non deliverable trade which is amended."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the non deliverable trade which is amended."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the non deliverable trade which is amended."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the non deliverable trade which is amended."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Specifies the rate of the non deliverable trade which is amended."
+    },
+    "ValuationConditions": {
+      "name": "Valuation Conditions",
+      "definition": "Specifies the valuation conditions of the non deliverable trade which is amended."
+    }
+  }
+}

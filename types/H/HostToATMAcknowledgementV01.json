@@ -6,19 +6,19 @@
   "isoElements": {
     "Header": {
       "name": "Header",
-      "definition": ""
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
     },
     "ProtectedHostToATMAcknowledgement": {
       "name": "Protected Host To ATM Acknowledgement",
-      "definition": ""
+      "definition": "Encrypted body of the message."
     },
     "HostToATMAcknowledgement": {
       "name": "Host To ATM Acknowledgement",
-      "definition": ""
+      "definition": "Information related to the acknowledgement from an ATM to contact the ATM manager."
     },
     "SecurityTrailer": {
       "name": "Security Trailer",
-      "definition": ""
+      "definition": "Trailer of the message containing a MAC."
     }
   }
 }

@@ -1,0 +1,83 @@
+{
+  "isoType": "ExternalCollateralReferenceDataStatusReason1Code",
+  "language": "en",
+  "name": "External Collateral Reference Data Status Reason 1 Code",
+  "definition": "Specifies the status reason, as published in an external collateral reference data status reason code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "MFNS": {
+      "isoName": "AllFieldsNotSupported",
+      "name": "All Fields Not Supported",
+      "definition": "All fields in message format are not supported."
+    },
+    "ESPN": {
+      "isoName": "EligibilitySetProfileNotFound",
+      "name": "Eligibility Set Profile Not Found",
+      "definition": "Eligibility set profile not found."
+    },
+    "EXTN": {
+      "isoName": "ExtensionNotAllowed",
+      "name": "Extension Not Allowed",
+      "definition": "Extension not allowed as there is no end date for original instruction."
+    },
+    "INDX": {
+      "isoName": "IndexDoesNotExist",
+      "name": "Index Does Not Exist",
+      "definition": "Index does not exist."
+    },
+    "IPNS": {
+      "isoName": "InputParametersNotSupported",
+      "name": "Input Parameters Not Supported",
+      "definition": "Input parameters not supported (when the instruction comes at  thet transaction level)."
+    },
+    "COMB": {
+      "isoName": "InstructingPartyCounterpartyCombination",
+      "name": "Instructing Party Counterparty Combination",
+      "definition": "Instructing party/counterparty combination is not configured for the instruction type."
+    },
+    "NCFG": {
+      "isoName": "InstructingPartyNotConfigured",
+      "name": "Instructing Party Not Configured",
+      "definition": "Instructing party not configured for the instruction type."
+    },
+    "LIST": {
+      "isoName": "ListIdentificationDoesNotExist",
+      "name": "List Identification Does Not Exist",
+      "definition": "List identification does not exist for the instructing party."
+    },
+    "NRGN": {
+      "isoName": "OriginalInstructionNotFound",
+      "name": "Original Instruction Not Found",
+      "definition": "Original instruction not found."
+    },
+    "OIEX": {
+      "isoName": "OriginalIntructionExpired",
+      "name": "Original Intruction Expired",
+      "definition": "Original instruction already expired."
+    },
+    "RMVL": {
+      "isoName": "RemovalType",
+      "name": "Removal Type",
+      "definition": "Does not support this removal type."
+    },
+    "SIDN": {
+      "isoName": "SecurityIdentificationNotSupported",
+      "name": "Security Identification Not Supported",
+      "definition": "Security identification is not supported."
+    },
+    "SITN": {
+      "isoName": "SecurityIdentificationType",
+      "name": "Security Identification Type",
+      "definition": "Security identification type not supported."
+    },
+    "SDNM": {
+      "isoName": "StartDateOriginalInstruction",
+      "name": "Start Date Original Instruction",
+      "definition": "Start date of original instruction does not match."
+    },
+    "SYST": {
+      "isoName": "SystemError",
+      "name": "System Error",
+      "definition": "System error."
+    }
+  }
+}

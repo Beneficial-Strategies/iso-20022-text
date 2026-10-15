@@ -1,0 +1,72 @@
+{
+  "isoType": "Obligation8",
+  "language": "en",
+  "name": "Obligation 8",
+  "definition": "General information about the collateral agreement.",
+  "isoElements": {
+    "PartyA": {
+      "name": "Party A",
+      "definition": "One of the entities associated with the collateral agreement"
+    },
+    "ServicingPartyA": {
+      "name": "Servicing Party A",
+      "definition": "Party that is acting on behalf of party A and that offers collateral management services."
+    },
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Other entity associated with the collateral agreement"
+    },
+    "ServicingPartyB": {
+      "name": "Servicing Party B",
+      "definition": "Party that is acting on behalf of party B and that offers collateral management services."
+    },
+    "CollateralAccountIdentification": {
+      "name": "Collateral Account Identification",
+      "definition": "Provides additional information on the collateral account of the party delivering/receiving the collateral."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Underlying business area or type of trade causing the collateral movement."
+    },
+    "CollateralTransactionType": {
+      "name": "Collateral Transaction Type",
+      "definition": "Type of collateral instruction."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the client is the collateral taker or giver."
+    },
+    "ExposureAmount": {
+      "name": "Exposure Amount",
+      "definition": "Amount of the principal."
+    },
+    "ValuationDate": {
+      "name": "Valuation Date",
+      "definition": "Close of business date on which the initiating party is valuing the margin call."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Closing date/time or maturity date/time of the transaction."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date/time at which the instructing party requests the instruction to be executed."
+    },
+    "SettlementProcess": {
+      "name": "Settlement Process",
+      "definition": "Specifies the settlement process in which the collateral will be settled."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    }
+  }
+}

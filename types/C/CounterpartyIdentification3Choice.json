@@ -1,0 +1,28 @@
+{
+  "isoType": "CounterpartyIdentification3Choice",
+  "language": "en",
+  "name": "Counterparty Identification 3 Choice",
+  "definition": "Provides the identification of the reporting agent counterparty.",
+  "isoElements": {
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identifier code used to recognise the counterparty of the reporting agent for the reported transaction."
+    },
+    "SectorAndLocation": {
+      "name": "Sector And Location",
+      "definition": "Identification of the counterparty through the sector and the location."
+    },
+    "NameAndLocation": {
+      "name": "Name And Location",
+      "definition": "Identification of the counterparty through the name and the location."
+    }
+  },
+  "isoRules": {
+    "InterbankReportingRule": {
+      "definition": "When the reported transaction is an interbank transaction or when the counterparty is a supranational authority or when transaction is conducted via a central clearing counterparty (CCP), the counterparty must be identified with the LEI only. In the latter case, this variable must specify the LEI of the CCP."
+    },
+    "NonInterbankReportingRule": {
+      "definition": "When the reported transaction is not an interbank transaction and the counterparty is not a supranational authority and the transaction is not conducted via a central clearing counterparty, please refer to the relevant reporting instructions."
+    }
+  }
+}

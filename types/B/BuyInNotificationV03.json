@@ -1,0 +1,33 @@
+{
+  "isoType": "BuyInNotificationV03",
+  "language": "en",
+  "name": "Buy In Notification V 03",
+  "definition": "Scope|The BuyInNotification message is sent by the central counterparty (CCP) to a clearing member to notify the start of the buy in process.||The message definition is intended for use with the ISO 20022 Business Application Header.||Usage|The buy in process is a process by which the CCP buys in stocks to cover failed transactions; the clearing member is notified that this process has started. Depending on each CCP internal rules, this message can also be sent, as a warning, by the central counterparty to the clearing member some days before the buy in process starts.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the instructing party."
+    },
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Provides the identification of the clearing member (individual clearing member or general clearing member)."
+    },
+    "NotificationDetails": {
+      "name": "Notification Details",
+      "definition": "Indicates if the message is a notification or a warning and gives the option to specify the buy in date."
+    },
+    "OriginalSettlementObligation": {
+      "name": "Original Settlement Obligation",
+      "definition": "Provides details about the original settlement obligation that did not settle and for which the buy in process will be launched."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "If NotificationDetails/WarningIndicator is \"false\" or \"0\" (No), then TransactionIdentification must be present."
+    }
+  }
+}

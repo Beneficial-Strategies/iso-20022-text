@@ -1,0 +1,16 @@
+{
+  "isoType": "UndertakingTerminationNotificationV01",
+  "language": "en",
+  "name": "Undertaking Termination Notification V 01",
+  "definition": "The UndertakingTerminationNotification message is sent to the applicant by the party that issued the undertaking to give notification of the termination or cancelation of the referenced undertaking.",
+  "isoElements": {
+    "UndertakingTerminationNotificationDetails": {
+      "name": "Undertaking Termination Notification Details",
+      "definition": "Details of the termination notification."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the notification."
+    }
+  }
+}

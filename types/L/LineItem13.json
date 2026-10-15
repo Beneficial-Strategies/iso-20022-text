@@ -1,0 +1,78 @@
+{
+  "isoType": "LineItem13",
+  "language": "en",
+  "name": "Line Item 13",
+  "definition": "Commercial details of a trade transaction between a buyer and a seller.",
+  "isoElements": {
+    "GoodsAndOrServicesDescription": {
+      "name": "Goods And Or Services Description",
+      "definition": "Information about the goods and/or services of a trade transaction."
+    },
+    "PartialShipment": {
+      "name": "Partial Shipment",
+      "definition": "Indicates whether or not partial shipments are allowed."
+    },
+    "TransShipment": {
+      "name": "Trans Shipment",
+      "definition": "Indicates whether or not transshipment of goods is allowed."
+    },
+    "ShipmentDateRange": {
+      "name": "Shipment Date Range",
+      "definition": "Specifies an earliest shipment date and a latest shipment date."
+    },
+    "LineItemDetails": {
+      "name": "Line Item Details",
+      "definition": "Goods or services that are purchased."
+    },
+    "LineItemsTotalAmount": {
+      "name": "Line Items Total Amount",
+      "definition": "Specifies the total amount of all line items (incl. their adjustments)."
+    },
+    "RoutingSummary": {
+      "name": "Routing Summary",
+      "definition": "Information related to the conveyance of goods."
+    },
+    "Incoterms": {
+      "name": "Incoterms",
+      "definition": "Specifies the applicable Incoterms and associated location. Latest version of Incoterms in effect at the date of message creation."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on price for the goods."
+    },
+    "FreightCharges": {
+      "name": "Freight Charges",
+      "definition": "Maximum charges related to the conveyance of goods."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters linked to the value of the goods in a trade transaction."
+    },
+    "TotalNetAmount": {
+      "name": "Total Net Amount",
+      "definition": "Total net amount of a trade transaction. Total amount resulting from the gross amount plus freight charges, tax and plus/minus Adjustments."
+    },
+    "BuyerDefinedInformation": {
+      "name": "Buyer Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    },
+    "SellerDefinedInformation": {
+      "name": "Seller Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    }
+  },
+  "isoRules": {
+    "LatestShipmentDateRule": {
+      "definition": "If LatestShipmentDate is present, then LatestShipmentDate is not allowed within each occurrence of LineItemDetails. If LatestShipmentDate is not present, then LatestShipmentDate is allowed within each occurrence of LineItemDetails."
+    },
+    "RoutingSummaryRule": {
+      "definition": "If RoutingSummary is present, then RoutingSummary is not allowed within each occurrence of LineItemDetails. If RoutingSummary is not present, then RoutingSummary is allowed within each occurrence of LineItemDetails."
+    },
+    "IncotermsRule": {
+      "definition": "If Incoterms is present, then Incoterms is not allowed within each occurrence of LineItemDetails. If Incoterms is not present, then Incoterms is allowed within each occurrence of LineItemDetails."
+    },
+    "AdjustmentFreightChargesAndTaxRule": {
+      "definition": "Adjustments, freight charges and taxes must be entered at this level, or adjustments, freight charges and taxes must be entered at line item level."
+    }
+  }
+}

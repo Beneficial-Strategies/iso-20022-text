@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionSpecificData2",
+  "language": "en",
+  "name": "Transaction Specific Data 2",
+  "definition": "Addendum data structure is applicable to certain merchant verticals that require industry-specific data within transaction messages.",
+  "isoElements": {
+    "PurchaseRestriction": {
+      "name": "Purchase Restriction",
+      "definition": "Contain issuer's purchase restriction applied at POS. Refer to Connexus standard DF32."
+    },
+    "FleetLineItem": {
+      "name": "Fleet Line Item",
+      "definition": "It is designed to carry detail level fleet data and to enable issuers to supply more transaction information to their consumer and corporate clients pertaining to fleet transactions."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

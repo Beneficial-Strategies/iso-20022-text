@@ -1,0 +1,38 @@
+{
+  "isoType": "AccountChoiceMethod1Code",
+  "language": "en",
+  "name": "Account Choice Method 1 Code",
+  "definition": "Method used by the cardholder and the terminal for the choice of the account.",
+  "isoCodes": {
+    "ACSL": {
+      "isoName": "AccountSelected",
+      "name": "Account Selected",
+      "definition": "Account selected in an account list."
+    },
+    "ENTR": {
+      "isoName": "Entered",
+      "name": "Entered",
+      "definition": "Account identification is entered by the customer."
+    },
+    "IMAC": {
+      "isoName": "ImplicitAccount",
+      "name": "Implicit Account",
+      "definition": "Account is selected according to the configuration."
+    },
+    "IMPL": {
+      "isoName": "ImplicitType",
+      "name": "Implicit Type",
+      "definition": "Type of account is selected according to the configuration."
+    },
+    "NOSL": {
+      "isoName": "NoSelection",
+      "name": "No Selection",
+      "definition": "Account is not selected by the customer or a profile, but by the issuer."
+    },
+    "TPSL": {
+      "isoName": "TypeSelected",
+      "name": "Type Selected",
+      "definition": "Type of account selected in a list."
+    }
+  }
+}

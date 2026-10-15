@@ -1,0 +1,56 @@
+{
+  "isoType": "ATMDepositedMediaItem1",
+  "language": "en",
+  "name": "ATM Deposited Media Item 1",
+  "definition": "Information related to media item that are deposited.",
+  "isoElements": {
+    "MediaIdentification": {
+      "name": "Media Identification",
+      "definition": "Within a list of MediaItems uniquely identifies a specific item. Typically will be an integer index 0..n, where there are n Items in the list of MediaItems."
+    },
+    "Count": {
+      "name": "Count",
+      "definition": "Number of deposit media."
+    },
+    "UnitValue": {
+      "name": "Unit Value",
+      "definition": "Amount or denomination of one media item, if the media type is valued or entered by the customer."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of media items, if valued and different from base currency."
+    },
+    "CodeLineFormat": {
+      "name": "Code Line Format",
+      "definition": "Format of the check code line."
+    },
+    "CodeLine": {
+      "name": "Code Line",
+      "definition": "Check code line."
+    },
+    "ScannedValue": {
+      "name": "Scanned Value",
+      "definition": "Check amount scanned by the check reader."
+    },
+    "ConfidenceLevel": {
+      "name": "Confidence Level",
+      "definition": "Percentage of the confidence in the check amount."
+    },
+    "MediaStatus": {
+      "name": "Media Status",
+      "definition": "Status of the deposit transaction."
+    },
+    "RejectedReason": {
+      "name": "Rejected Reason",
+      "definition": "The reason a media item (such as a check) has been rejected. This may be used to inform the cardholder."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "String that uniquely identifies the media item in the FI's bank system. This may be used for traceability reasons."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Key value pair which is associated with the media item. This provides flexibility to model some ad hoc data a FI wishes to pass through to the ATM."
+    }
+  }
+}

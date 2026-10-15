@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuredCollateral2Choice",
+  "language": "en",
+  "name": "Secured Collateral 2 Choice",
+  "definition": "Provides the collateral details for the secured markets.",
+  "isoElements": {
+    "SingleCollateral": {
+      "name": "Single Collateral",
+      "definition": "Identifies the security pledged via a single ISIN."
+    },
+    "MultipleCollateral": {
+      "name": "Multiple Collateral",
+      "definition": "Identifies all securities pledged when the transaction is collateralised with more than one security. |Usage:|In case of multi-collateral repo, the nominal amount of each collateralised security must be provided."
+    },
+    "PoolCollateral": {
+      "name": "Pool Collateral",
+      "definition": "Identifies the pooling of repos in which the collateral basket is identified by an ISIN. ||Usage: When the collateral basket is identified by an ISIN, the basket ISIN shall be reported."
+    },
+    "OtherCollateral": {
+      "name": "Other Collateral",
+      "definition": "Identifies the collateral when the asset class pledged as collateral does not correspond to an ISIN."
+    }
+  }
+}

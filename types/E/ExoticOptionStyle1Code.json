@@ -1,0 +1,28 @@
+{
+  "isoType": "ExoticOptionStyle1Code",
+  "language": "en",
+  "name": "Exotic Option Style 1 Code",
+  "definition": "Specifies the option style.",
+  "isoCodes": {
+    "BINA": {
+      "isoName": "BinaryOption",
+      "name": "Binary Option",
+      "definition": "Agreement under which a fixed amount is paid out if a specific condition is met at any time during the exercise period. The expiration style is European or American. The binary option has only \"payment triggers\"."
+    },
+    "DIGI": {
+      "isoName": "DigitalOption",
+      "name": "Digital Option",
+      "definition": "Agreement under which a fixed amount is paid out if a specific condition is met on expiration date. The digital option has only \"payment triggers\" which may be single or double trigger level."
+    },
+    "NOTO": {
+      "isoName": "NoTouchOption",
+      "name": "No Touch Option",
+      "definition": "Agreement under which a fixed amount is paid unless a specific condition is met. The notouch option has only \"no payment triggers\" which may be single or double trigger levels."
+    },
+    "VANI": {
+      "isoName": "VanillaOption",
+      "name": "Vanilla Option",
+      "definition": "Contract that provides the buyer the right but not the obligation to buy or sell the underlying currency at a predetermined rate with expiration determined by the expiration style. The expiration style is European, American, Asian or Bermudan."
+    }
+  }
+}

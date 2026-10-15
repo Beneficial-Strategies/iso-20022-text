@@ -1,0 +1,21 @@
+{
+  "isoType": "MarginPortfolio4",
+  "language": "en",
+  "name": "Margin Portfolio 4",
+  "definition": "Specifies the margin portfolio unique codes.",
+  "isoElements": {
+    "InitialMarginPortfolioCode": {
+      "name": "Initial Margin Portfolio Code",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the portfolio if the collateral is posted on a portfolio basis.||Usage:|NoPortfolio is reported if the collateralisation was performed on a transaction level basis, or if there is no collateral agreement or if no collateral is posted or received."
+    },
+    "VariationMarginPortfolioCode": {
+      "name": "Variation Margin Portfolio Code",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the portfolio if the collateral is posted on a portfolio basis.||Usage:|NoPortfolio is reported if the collateralisation was performed on a transaction level basis, or if there is no collateral agreement or if no collateral is posted or received."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

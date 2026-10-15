@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementTotalData1Choice",
+  "language": "en",
+  "name": "Settlement Total Data 1 Choice",
+  "definition": "Specifies the aggregated data of settlement instructions or explicit no data report.",
+  "isoElements": {
+    "DataSetAction": {
+      "name": "Data Set Action",
+      "definition": "Where no transaction was concluded, this field should be set so that a valid transaction data file can be submitted to ESMA as per daily submission requirements."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Aggregated data of settlement instructions."
+    }
+  }
+}

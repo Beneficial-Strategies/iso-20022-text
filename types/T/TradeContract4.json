@@ -1,0 +1,60 @@
+{
+  "isoType": "TradeContract4",
+  "language": "en",
+  "name": "Trade Contract 4",
+  "definition": "Agreement between the parties, stipulating the terms and conditions of the delivery of goods or services.",
+  "isoElements": {
+    "ContractDocumentIdentification": {
+      "name": "Contract Document Identification",
+      "definition": "Contract document referenced from this trade agreement."
+    },
+    "TradeTypeIdentification": {
+      "name": "Trade Type Identification",
+      "definition": "Type code of the trade contract."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the trade contract."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that is specified as the buyer for this trade agreement."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that is specified as the seller for this trade agreement."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final payment date at the time of issuance."
+    },
+    "ProlongationFlag": {
+      "name": "Prolongation Flag",
+      "definition": "Indicates whether the contract duration is extended or not.|When absent, the flag meaning is NotApplicable."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date of the trade contract."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency in which the trade is being settled."
+    },
+    "ExchangeRateInformation": {
+      "name": "Exchange Rate Information",
+      "definition": "Provides details on the currency exchange rate and contract."
+    },
+    "PaymentSchedule": {
+      "name": "Payment Schedule",
+      "definition": "Schedule of the payments defined for the trade contract."
+    },
+    "ShipmentSchedule": {
+      "name": "Shipment Schedule",
+      "definition": "Schedule of the shipment."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the trade contract."
+    }
+  }
+}

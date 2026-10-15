@@ -1,0 +1,37 @@
+{
+  "isoType": "UnderlyingPaymentTransaction1",
+  "language": "en",
+  "name": "Underlying Payment Transaction 1",
+  "definition": "Reference information concerning the original transaction, to which the investigation message refers.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "name": "Original Group Information",
+      "definition": "Set of elements used to provide information on the original messsage."
+    },
+    "OriginalInstructionIdentification": {
+      "name": "Original Instruction Identification",
+      "definition": "Unique identification, as assigned by the original instructing party for the original instructed party, to unambiguously identify the original instruction."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Unique identification, as assigned by the original initiating party, to unambiguously identify the original transaction."
+    },
+    "OriginalTransactionIdentification": {
+      "name": "Original Transaction Identification",
+      "definition": "Unique identification, as assigned by the original first instructing agent, to unambiguously identify the transaction."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "name": "Original Interbank Settlement Amount",
+      "definition": "Amount of money, as provided in the original transaction, to be moved between the instructing agent and the instructed agent."
+    },
+    "OriginalInterbankSettlementDate": {
+      "name": "Original Interbank Settlement Date",
+      "definition": "Date, as provided in the original transaction, on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Either OriginalInstructionIdentification, OriginalEndToEndIdentification, OriginalTransactionIdentification or any combination of the three must be present."
+    }
+  }
+}

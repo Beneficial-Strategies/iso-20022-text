@@ -1,0 +1,33 @@
+{
+  "isoType": "SettledStatusReason2Code",
+  "language": "en",
+  "name": "Settled Status Reason 2 Code",
+  "definition": "Partial settlement status information or information about gating.",
+  "isoCodes": {
+    "CPST": {
+      "isoName": "CashPartiallySettled",
+      "name": "Cash Partially Settled",
+      "definition": "Cash is partially settled."
+    },
+    "GATM": {
+      "isoName": "GatedMultipleNAV",
+      "name": "Gated Multiple NAV",
+      "definition": "Redemption has been gated. Multiple redemptions and multiple prices will be required."
+    },
+    "GAT1": {
+      "isoName": "GatedOneNAV",
+      "name": "Gated One NAV",
+      "definition": "Redemption has been gated, all settlement will be done at the same price."
+    },
+    "UCPS": {
+      "isoName": "UnitsCashPartiallySettled",
+      "name": "Units Cash Partially Settled",
+      "definition": "Units and cash are both partially settled."
+    },
+    "UPST": {
+      "isoName": "UnitsPartiallySettled",
+      "name": "Units Partially Settled",
+      "definition": "Units are partially settled."
+    }
+  }
+}

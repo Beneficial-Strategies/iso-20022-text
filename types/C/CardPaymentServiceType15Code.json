@@ -1,0 +1,48 @@
+{
+  "isoType": "CardPaymentServiceType15Code",
+  "language": "en",
+  "name": "Card Payment Service Type 15 Code",
+  "definition": "Additional attributes of the service provided by the card payment transaction.",
+  "isoCodes": {
+    "IRES": {
+      "isoName": "InitialReservation",
+      "name": "Initial Reservation",
+      "definition": "Initial reservation."
+    },
+    "URES": {
+      "isoName": "UpdateReservation",
+      "name": "Update Reservation",
+      "definition": "Update reservation."
+    },
+    "PRES": {
+      "isoName": "PaymentReservation",
+      "name": "Payment Reservation",
+      "definition": "Payment after reservation."
+    },
+    "ARES": {
+      "isoName": "AdditionalPayment",
+      "name": "Additional Payment",
+      "definition": "Additional payment after reservation."
+    },
+    "FREC": {
+      "isoName": "FirstRecurring",
+      "name": "First Recurring",
+      "definition": "Initial recurring payment."
+    },
+    "RREC": {
+      "isoName": "FollowingRecurring",
+      "name": "Following Recurring",
+      "definition": "Repeat recurring payment."
+    },
+    "GOPT": {
+      "isoName": "GuaranteeOfPayment",
+      "name": "Guarantee Of Payment",
+      "definition": "Acceptor claims for guarantee of payment."
+    },
+    "DFCL": {
+      "isoName": "DeferredClearing",
+      "name": "Deferred Clearing",
+      "definition": "DeferredClearing identifies transactions, like ones related to health care system, that allows a delay in clearing which ensure the payer to be refunded by a system, for example an insurance, before its bank account is debited."
+    }
+  }
+}

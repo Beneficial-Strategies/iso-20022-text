@@ -1,0 +1,23 @@
+{
+  "isoType": "CardFallback1Code",
+  "language": "en",
+  "name": "Card Fallback 1 Code",
+  "definition": "Information about card entry mode fallback.",
+  "isoCodes": {
+    "FFLB": {
+      "isoName": "FallbackAfterFailure",
+      "name": "Fallback After Failure",
+      "definition": "Card fall-back occurred during the transaction in progress. The previous transaction on the terminal failed."
+    },
+    "SFLB": {
+      "isoName": "FallbackAfterSuccess",
+      "name": "Fallback After Success",
+      "definition": "Card fall-back occurred during the transaction in progress. The previous transaction on the terminal was successful."
+    },
+    "NFLB": {
+      "isoName": "NoFallback",
+      "name": "No Fallback",
+      "definition": "No card fall-back during the transaction in progress."
+    }
+  }
+}

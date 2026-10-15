@@ -1,0 +1,52 @@
+{
+  "isoType": "CompareInterestRate1",
+  "language": "en",
+  "name": "Compare Interest Rate 1",
+  "definition": "Specifies whether the values defined as part of the Margin Loan Attribute are matching or not.",
+  "isoElements": {
+    "MarginLoanAmount": {
+      "name": "Margin Loan Amount",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "FixedInterestRate": {
+      "name": "Fixed Interest Rate",
+      "definition": "Specifies whether the values defined as percentage rate are matching or not."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies whether the values defined as number with max 5 characters are matching or not."
+    },
+    "FloatingInterestReferenceRate": {
+      "name": "Floating Interest Reference Rate",
+      "definition": "Specifies whether the values defined as benchmark curve name are matching or not."
+    },
+    "FloatingInterestRateTermUnit": {
+      "name": "Floating Interest Rate Term Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRateTermValue": {
+      "name": "Floating Interest Rate Term Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingInterestRatePaymentFrequencyUnit": {
+      "name": "Floating Interest Rate Payment Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRatePaymentFrequencyValue": {
+      "name": "Floating Interest Rate Payment Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingInterestRateResetFrequencyUnit": {
+      "name": "Floating Interest Rate Reset Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRateResetFrequencyValue": {
+      "name": "Floating Interest Rate Reset Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "BasisPointSpread": {
+      "name": "Basis Point Spread",
+      "definition": "Specifies whether the values defined as number with max 5 characters are matching or not."
+    }
+  }
+}

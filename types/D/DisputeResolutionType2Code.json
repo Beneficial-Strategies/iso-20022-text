@@ -1,0 +1,43 @@
+{
+  "isoType": "DisputeResolutionType2Code",
+  "language": "en",
+  "name": "Dispute Resolution Type 2 Code",
+  "definition": "Specifies the nature of the disputed collateral amount.",
+  "isoCodes": {
+    "RECO": {
+      "isoName": "ReconcileCollateral",
+      "name": "Reconcile Collateral",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the collateral."
+    },
+    "REEX": {
+      "isoName": "ReconcileExposure",
+      "name": "Reconcile Exposure",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the exposure."
+    },
+    "RETH": {
+      "isoName": "ReconcileThreshold",
+      "name": "Reconcile Threshold",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the threshold."
+    },
+    "RMTA": {
+      "isoName": "ReconcileMinimumTransferAmount",
+      "name": "Reconcile Minimum Transfer Amount",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the minimum transfer amount."
+    },
+    "RERO": {
+      "isoName": "ReconcileRounding",
+      "name": "Reconcile Rounding",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the rounding."
+    },
+    "REVF": {
+      "isoName": "ReconcileValuationFrequency",
+      "name": "Reconcile Valuation Frequency",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the valuation frequency."
+    },
+    "RNIA": {
+      "isoName": "ReconcileNettedIndependentAmount",
+      "name": "Reconcile Netted Independent Amount",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the independent amount."
+    }
+  }
+}

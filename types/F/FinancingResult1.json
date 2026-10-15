@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancingResult1",
+  "language": "en",
+  "name": "Financing Result 1",
+  "definition": "The final result of a single invoice financing request.",
+  "isoElements": {
+    "FinancingRequestStatus": {
+      "name": "Financing Request Status",
+      "definition": "Specifies the status of the financing request (e.g. financed. not financed)."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Indicates the reasons that have determined the result of the single request."
+    },
+    "AdditionalStatusReasonInformation": {
+      "name": "Additional Status Reason Information",
+      "definition": "Further details on the status reason."
+    },
+    "FinancedAmount": {
+      "name": "Financed Amount",
+      "definition": "Indicates amount financed related to the request."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "Issuance5",
+  "language": "en",
+  "name": "Issuance 5",
+  "definition": "Preparation/bringing to market of a security (also known as primary market or Initial Public Offering (IPO) issuance).",
+  "isoElements": {
+    "IssuePlace": {
+      "name": "Issue Place",
+      "definition": "Indicates where the financial instrument was issued."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Country where a security is issued by the issuer or its agent."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date/time at which the security was made available."
+    },
+    "AnnouncementDate": {
+      "name": "Announcement Date",
+      "definition": "Date/time, as announced by the issuer, at which the securities will be issued."
+    },
+    "ISINValidFrom": {
+      "name": "ISIN Valid From",
+      "definition": "Defines the date from which the instrument code is valid. This date can be before the actual issue date of an instrument for 'when-issued' securities, but may not be a date in the future for a new security."
+    },
+    "IssuerOrganisation": {
+      "name": "Issuer Organisation",
+      "definition": "Legal entity that has the right to issue securities."
+    },
+    "IssueNominalAmount": {
+      "name": "Issue Nominal Amount",
+      "definition": "Total original amount or quantity published."
+    },
+    "FullIssuedAmount": {
+      "name": "Full Issued Amount",
+      "definition": "Figure used as a control to verify whether the information provided is correct. It represents the issue size multiplied by the issue price."
+    },
+    "IssueSize": {
+      "name": "Issue Size",
+      "definition": "Represents the total amount/quantity of the proceeds from the sale of all securities in the initial offering. This amount/quantity is known after the new issue is priced."
+    },
+    "IssuePrice": {
+      "name": "Issue Price",
+      "definition": "Initial issue price of the asset."
+    },
+    "IssuanceDistribution": {
+      "name": "Issuance Distribution",
+      "definition": "Way in which the issue will be marketed to the primary market, via individual dealers (so called non syndicated distribution) or via a syndicate of managers, underwriters and selling group members (so called syndicated distribution)."
+    },
+    "GoverningLaw": {
+      "name": "Governing Law",
+      "definition": "Jurisdiction (country, county, state, province, city) of the issue."
+    }
+  }
+}

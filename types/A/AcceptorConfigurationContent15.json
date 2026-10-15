@@ -1,0 +1,57 @@
+{
+  "isoType": "AcceptorConfigurationContent15",
+  "language": "en",
+  "name": "Acceptor Configuration Content 15",
+  "definition": "Content of the acceptor configuration.",
+  "isoElements": {
+    "ReplaceConfiguration": {
+      "name": "Replace Configuration",
+      "definition": "True if the whole configuration related to the terminal manager has to be replaced by the configuration included in the message content.| Usage: When absent, default value is False."
+    },
+    "TMSProtocolParameters": {
+      "name": "TMS Protocol Parameters",
+      "definition": "Configuration parameters of the TMS protocol between a POI and a terminal manager."
+    },
+    "AcquirerProtocolParameters": {
+      "name": "Acquirer Protocol Parameters",
+      "definition": "Acceptor parameters dedicated to an acquirer protocol."
+    },
+    "ServiceProviderParameters": {
+      "name": "Service Provider Parameters",
+      "definition": "Acceptor parameters dedicated to a service provider."
+    },
+    "MerchantParameters": {
+      "name": "Merchant Parameters",
+      "definition": "Acceptor parameters dedicated to the merchant."
+    },
+    "TerminalParameters": {
+      "name": "Terminal Parameters",
+      "definition": "Manufacturer configuration parameters of the point of interaction."
+    },
+    "ApplicationParameters": {
+      "name": "Application Parameters",
+      "definition": "Acceptor parameters dedicated to a payment application of the point of interaction."
+    },
+    "HostCommunicationParameters": {
+      "name": "Host Communication Parameters",
+      "definition": "Acceptor parameters dedicated to the communication with an acquirer host or a terminal manager host."
+    },
+    "SecurityParameters": {
+      "name": "Security Parameters",
+      "definition": "Point of interaction parameters related to the security of software application and application protocol."
+    },
+    "SaleToPOIParameters": {
+      "name": "Sale To POI Parameters",
+      "definition": "Parameters dedicated to protocols between a sale system and the POI."
+    },
+    "TerminalPackage": {
+      "name": "Terminal Package",
+      "definition": "Group of software packages to transfer to a group of POIComponent of the POI System."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "At least one of these subelements mut be present."
+    }
+  }
+}

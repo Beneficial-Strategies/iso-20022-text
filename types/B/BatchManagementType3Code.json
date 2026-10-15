@@ -1,0 +1,38 @@
+{
+  "isoType": "BatchManagementType3Code",
+  "language": "en",
+  "name": "Batch Management Type 3 Code",
+  "definition": "Type of batch management activity.",
+  "isoCodes": {
+    "AKRQ": {
+      "isoName": "AcknowledgementRequest",
+      "name": "Acknowledgement Request",
+      "definition": "Acknowledgement requested by the originator to the destination (used with a notification message exclusively)."
+    },
+    "AKRP": {
+      "isoName": "AcknowledgementResponse",
+      "name": "Acknowledgement Response",
+      "definition": "Acknowledgement response by the destination to the originator (used with a notification message exclusively)."
+    },
+    "ENDB": {
+      "isoName": "End",
+      "name": "End",
+      "definition": "End of a collection or batch by the originator (used with a request message exclusively)."
+    },
+    "IDNT": {
+      "isoName": "IdentificationList",
+      "name": "Identification List",
+      "definition": "Contains a list of batch or collection identifications."
+    },
+    "RERQ": {
+      "isoName": "ResendRequest",
+      "name": "Resend Request",
+      "definition": "A request to resend a batch or collection."
+    },
+    "STRT": {
+      "isoName": "Start",
+      "name": "Start",
+      "definition": "Initiation of a collection or batch by the originator (used with a request message exclusively)."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionAdviceResponseV07",
+  "language": "en",
+  "name": "Transaction Advice Response V 07",
+  "definition": "The TransactionAdviceResponse message is sent by the POI to acknowledge the Acquirer (or its agent) about the notification of the transaction advice.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Completion advice message management information."
+    },
+    "TransactionAdviceResponse": {
+      "name": "Transaction Advice Response",
+      "definition": "Information related to the transaction advice response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "ProcessingResult30",
+  "language": "en",
+  "name": "Processing Result 30",
+  "definition": "Outcome of the processing of the transaction.",
+  "isoElements": {
+    "ResponseSourceIdentification": {
+      "name": "Response Source Identification",
+      "definition": "Identification of response source."
+    },
+    "ResponseSourceType": {
+      "name": "Response Source Type",
+      "definition": "Type of response source."
+    },
+    "ResponseSourceCountry": {
+      "name": "Response Source Country",
+      "definition": "Country of the response source"
+    },
+    "ResponseSourceName": {
+      "name": "Response Source Name",
+      "definition": "Name of the response source"
+    },
+    "ResponseCode": {
+      "name": "Response Code",
+      "definition": "Response code defined in ISO 8583."
+    },
+    "ResponseReason": {
+      "name": "Response Reason",
+      "definition": "Contains the reason of the response."
+    },
+    "ActionCode": {
+      "name": "Action Code",
+      "definition": "Action to be performed based on ISO8583 Action Code."
+    },
+    "ErrorDetail": {
+      "name": "Error Detail",
+      "definition": "Error detail information."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

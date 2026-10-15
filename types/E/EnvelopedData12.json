@@ -1,0 +1,20 @@
+{
+  "isoType": "EnvelopedData12",
+  "language": "en",
+  "name": "Enveloped Data 12",
+  "definition": "Encrypted data with encryption key.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Session key or identification of the protection key used by the recipient."
+    },
+    "EncryptedContent": {
+      "name": "Encrypted Content",
+      "definition": "Encrypted data with an encryption key."
+    }
+  }
+}

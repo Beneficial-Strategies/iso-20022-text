@@ -1,0 +1,28 @@
+{
+  "isoType": "AmendmentAcceptanceV02",
+  "language": "en",
+  "name": "Amendment Acceptance V 02",
+  "definition": "Scope|The AmendmentAcceptance message is sent by the party requested to accept or reject an amendment to the matching application.|The message is used to accept an amendment request.|Usage|The AmendmentAcceptance message can be sent by the party requested to accept or reject an amendment to inform that it accepts the requested amendment.|The message can be sent in response to a FullPushThroughReport and DeltaReport message conveying the details of a BaselineAmendmentRequest message.|The rejection of an amendment request can be achieved by sending an AmendmentRejection message.",
+  "isoElements": {
+    "AcceptanceIdentification": {
+      "name": "Acceptance Identification",
+      "definition": "Identifies the acceptance message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "SubmitterTransactionReference": {
+      "name": "Submitter Transaction Reference",
+      "definition": "Reference to the identification of the transaction for the requesting financial institution."
+    },
+    "DeltaReportReference": {
+      "name": "Delta Report Reference",
+      "definition": "Reference to the identification of the delta report that contained the amendment."
+    },
+    "AcceptedAmendmentNumber": {
+      "name": "Accepted Amendment Number",
+      "definition": "Sequence number of the accepted baseline amendment."
+    }
+  }
+}

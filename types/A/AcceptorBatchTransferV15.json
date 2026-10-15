@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorBatchTransferV15",
+  "language": "en",
+  "name": "Acceptor Batch Transfer V 15",
+  "definition": "The AcceptorBatchTransfer is sent by an acceptor (or its agent) to transfer the financial data of a collection of transactions to the acquirer (or its agent).",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Batch capture message management information."
+    },
+    "BatchTransfer": {
+      "name": "Batch Transfer",
+      "definition": "Card payment transactions from one or several data set of transactions."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorTransactionLogReportResponseV06",
+  "language": "en",
+  "name": "Acceptor Transaction Log Report Response V 06",
+  "definition": "This AcceptorTransactionLogReportResponse message is sent by an Acquirer or its IntermediaryAgent to provide the report previously expected by a POI.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "ReportResponse": {
+      "name": "Report Response",
+      "definition": "Information related to the response of a report request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

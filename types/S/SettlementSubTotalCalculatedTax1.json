@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementSubTotalCalculatedTax1",
+  "language": "en",
+  "name": "Settlement Sub Total Calculated Tax 1",
+  "definition": "Specifies the subtotal calculated tax applicable for this settlement.",
+  "isoElements": {
+    "TypeCode": {
+      "name": "Type Code",
+      "definition": "Type of tax applied."
+    },
+    "CategoryCode": {
+      "name": "Category Code",
+      "definition": "Reference used to identify the nature of tax levied, such as Value Added Tax (VAT)."
+    },
+    "CalculatedAmount": {
+      "name": "Calculated Amount",
+      "definition": "Monetary value resulting from the calculation of this tax, levy or duty."
+    },
+    "BasisAmount": {
+      "name": "Basis Amount",
+      "definition": "Monetary value used as the basis on which this tax, levy or duty is calculated."
+    },
+    "CalculatedRate": {
+      "name": "Calculated Rate",
+      "definition": "Rate used to calculate the amount of this tax, levy or duty."
+    },
+    "ExemptionReason": {
+      "name": "Exemption Reason",
+      "definition": "Reason for a tax exemption."
+    }
+  }
+}

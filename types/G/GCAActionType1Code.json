@@ -1,0 +1,43 @@
+{
+  "isoType": "GCAActionType1Code",
+  "language": "en",
+  "name": "GCA Action Type 1 Code",
+  "definition": "Specifies what action needs to be taken by the validation service for this particular record.",
+  "isoCodes": {
+    "RCON": {
+      "isoName": "ContactCustodian",
+      "name": "Contact Custodian",
+      "definition": "Custodian needs to be contacted."
+    },
+    "FREA": {
+      "isoName": "ResearchRequired",
+      "name": "Research Required",
+      "definition": "Further research is required."
+    },
+    "CDCU": {
+      "isoName": "CustodianContacted",
+      "name": "Custodian Contacted",
+      "definition": "Custodian has been contacted."
+    },
+    "NQCU": {
+      "isoName": "DoNotContactCustodian",
+      "name": "Do Not Contact Custodian",
+      "definition": "Custodian does not need to be contacted."
+    },
+    "NFAC": {
+      "isoName": "NoFurtherActionRequired",
+      "name": "No Further Action Required",
+      "definition": "No further action is required."
+    },
+    "NSUP": {
+      "isoName": "NotSupportedByGCA",
+      "name": "Not Supported By GCA",
+      "definition": "Not supported by the GCA VA (Global Corporate Actions Validation service)."
+    },
+    "INVA": {
+      "isoName": "Invalid",
+      "name": "Invalid",
+      "definition": "Invalid."
+    }
+  }
+}

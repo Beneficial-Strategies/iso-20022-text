@@ -1,0 +1,72 @@
+{
+  "isoType": "ExchangeRateInformation5",
+  "language": "en",
+  "name": "Exchange Rate Information 5",
+  "definition": "Further detailed information on the exchange rate that has been used in or is related to the transaction.",
+  "isoElements": {
+    "Provider": {
+      "name": "Provider",
+      "definition": "Identifies the source of the rate information."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the specific rate, table or file that contains the rate information."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "The date the exchange rate data is effective."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "The time the exchange rate data is effective."
+    },
+    "EndPoint": {
+      "name": "End Point",
+      "definition": "Identifies the party to which this detail applies."
+    },
+    "OtherEndPoint": {
+      "name": "Other End Point",
+      "definition": "Other nationally or privately defined endpoint."
+    },
+    "CounterCurrencyCode": {
+      "name": "Counter Currency Code",
+      "definition": "Identifies the counter currency used for currency conversion for the transaction party."
+    },
+    "BaseCurrencyCode": {
+      "name": "Base Currency Code",
+      "definition": "Identifies the base currency used for currency conversion for the transaction party."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Contains the exchange rate."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Identifies the type of rate."
+    },
+    "OtherRateType": {
+      "name": "Other Rate Type",
+      "definition": "Other type of rate defined privately or at national level."
+    },
+    "AgreementType": {
+      "name": "Agreement Type",
+      "definition": "Type of exchange rate agreement."
+    },
+    "OtherAgreementType": {
+      "name": "Other Agreement Type",
+      "definition": "Other type of exchange rate agreement."
+    },
+    "RateLockRequested": {
+      "name": "Rate Lock Requested",
+      "definition": "Indicates if a rate lock is or was requested."
+    },
+    "RateLockEligible": {
+      "name": "Rate Lock Eligible",
+      "definition": "Indicates if the transaction is rate lock eligible."
+    },
+    "RateLockApplied": {
+      "name": "Rate Lock Applied",
+      "definition": "Indicates if a rate lock was applied."
+    }
+  }
+}

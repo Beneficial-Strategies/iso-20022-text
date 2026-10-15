@@ -1,0 +1,21 @@
+{
+  "isoType": "FundOrderType3",
+  "language": "en",
+  "name": "Fund Order Type 3",
+  "definition": "Specifies the category of the investment fund order.",
+  "isoElements": {
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Specifies the category of the investment fund order."
+    },
+    "ExtendedOrderType": {
+      "name": "Extended Order Type",
+      "definition": "Specifies the category of the investment fund order."
+    }
+  },
+  "isoRules": {
+    "OrderTypeOrExtendedOrderTypeRule": {
+      "definition": "Either OrderType or ExtendedOrderType may be present but not both."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "CustodianRecordAgreementType1Code",
+  "language": "en",
+  "name": "Custodian Record Agreement Type 1 Code",
+  "definition": "Specifies the state of the agreement of the custodian record when compared to composite record.",
+  "isoCodes": {
+    "AGRE": {
+      "isoName": "Agree",
+      "name": "Agree",
+      "definition": "Custodian record agrees with the composite record."
+    },
+    "DAGR": {
+      "isoName": "Disagree",
+      "name": "Disagree",
+      "definition": "Custodian record disagrees with the composite record."
+    },
+    "NCOP": {
+      "isoName": "NoComposite",
+      "name": "No Composite",
+      "definition": "No composite record available."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorAuthorisationResponseV15",
+  "language": "en",
+  "name": "Acceptor Authorisation Response V 15",
+  "definition": "The AcceptorAuthorisationResponse message is sent by the acquirer (or its agent) to an acceptor (or its agent), to return the result of the validation made by issuer about the payment transaction.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Authorisation response message management information."
+    },
+    "AuthorisationResponse": {
+      "name": "Authorisation Response",
+      "definition": "Information related to the response of the authorisation."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

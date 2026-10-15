@@ -1,0 +1,36 @@
+{
+  "isoType": "FleetTransactionDetail2",
+  "language": "en",
+  "name": "Fleet Transaction Detail 2",
+  "definition": "Payment transaction invoiced to customer.",
+  "isoElements": {
+    "PurchaseType": {
+      "name": "Purchase Type",
+      "definition": "List of codes representing type of fleet purchases."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "DiscountTotalAmount": {
+      "name": "Discount Total Amount",
+      "definition": "Total amount of the transaction, inclusive of all applicable taxes and fees."
+    },
+    "DiscountTotalFuelAmount": {
+      "name": "Discount Total Fuel Amount",
+      "definition": "Total amount."
+    },
+    "DiscountTotalNonFuelAmount": {
+      "name": "Discount Total Non Fuel Amount",
+      "definition": "Fuel amount."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the transaction, inclusive of all applicable taxes and fees."
+    },
+    "TaxTotal": {
+      "name": "Tax Total",
+      "definition": "Total taxes related to the products or services."
+    }
+  }
+}

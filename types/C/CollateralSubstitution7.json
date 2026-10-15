@@ -1,0 +1,45 @@
+{
+  "isoType": "CollateralSubstitution7",
+  "language": "en",
+  "name": "Collateral Substitution 7",
+  "definition": "Provides details about the collateral that will be substituted.",
+  "isoElements": {
+    "CollateralSubstitutionSequence": {
+      "name": "Collateral Substitution Sequence",
+      "definition": "Indicates whether the collateral substitution request is new or updated."
+    },
+    "SubstitutionRequirement": {
+      "name": "Substitution Requirement",
+      "definition": "Cash value of the requested collateral substitution transfer in the base currency."
+    },
+    "CollateralSubstitutionType": {
+      "name": "Collateral Substitution Type",
+      "definition": "Specifies if the collateral that is substituted was posted against the variation margin or the independent amount."
+    },
+    "StandardSettlementInstructions": {
+      "name": "Standard Settlement Instructions",
+      "definition": "Identifies the standard settlement instructions."
+    },
+    "SecuritiesCollateral": {
+      "name": "Securities Collateral",
+      "definition": "Collateral type is securities."
+    },
+    "CashCollateral": {
+      "name": "Cash Collateral",
+      "definition": "Collateral type is cash."
+    },
+    "OtherCollateral": {
+      "name": "Other Collateral",
+      "definition": "Collateral type is other than securities or cash for example letter of credit."
+    },
+    "LinkedReferences": {
+      "name": "Linked References",
+      "definition": "Provides details on the identification of previously sent and/or received message(s), in case of updated substitution request."
+    }
+  },
+  "isoRules": {
+    "SubstitutionRequestSequenceRule": {
+      "definition": "If CollateralSubstitutionRequestSequence equals \"Updated\" (UPDD) then LinkedReferences must be present."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "RegulatoryTransactionReportV02",
+  "language": "en",
+  "name": "Regulatory Transaction Report V 02",
+  "definition": "Scope|A reporting institution, eg, an investment bank, sends the RegulatoryTransactionReport to a regulator or an intermediary (eg a reporting agent), to report the transaction details of a trade that has been executed on or off-exchange.|Usage|The message definition can be used to report more than one transaction. The message definition can also be used to specify, on a trade by trade basis, to which authorities the transaction report(s) need to be sent using the TransactionReportMarker.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the RegulatoryTransactionReport."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Provides details of the trade for which the transaction report is being sent."
+    },
+    "ReportingInstitution": {
+      "name": "Reporting Institution",
+      "definition": "Identification of the firm that is legally responsible for sending the transaction report.|."
+    },
+    "ReportingAgent": {
+      "name": "Reporting Agent",
+      "definition": "Identifies the intermediary which is reporting on behalf on the ReportingInstitution. If there is a reporting chain, then the last party should override the previous one."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

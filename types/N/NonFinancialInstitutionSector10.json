@@ -1,0 +1,24 @@
+{
+  "isoType": "NonFinancialInstitutionSector10",
+  "language": "en",
+  "name": "Non Financial Institution Sector 10",
+  "definition": "Provides detailed information concerning non financial counterparties.",
+  "isoElements": {
+    "Sector": {
+      "name": "Sector",
+      "definition": "Taxonomy for non-financial counterparties. The categories correspond to the main sections of NACE classification as defined in the regulation."
+    },
+    "ClearingThreshold": {
+      "name": "Clearing Threshold",
+      "definition": "Information whether the counterparty is above the clearing threshold.||Usage: If the element is not present, the ClearingThreshold is False."
+    },
+    "DirectlyLinkedActivity": {
+      "name": "Directly Linked Activity",
+      "definition": "Directly linked to commercial activity or treasury financing: Information on whether the contract is objectively measurable as directly linked to the counterparty's commercial or treasury financing activity.||Usage: If the element is not present, the DirectlyLinkedActivity is False."
+    },
+    "FederalInstitution": {
+      "name": "Federal Institution",
+      "definition": "Indicates whether the counterparty is an entity established pursuant to federal law like for example a federal authority or a government corporation.||Usage: If the element is not present, the FederalInstitution is False."
+    }
+  }
+}

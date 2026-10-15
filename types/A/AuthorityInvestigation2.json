@@ -1,0 +1,24 @@
+{
+  "isoType": "AuthorityInvestigation2",
+  "language": "en",
+  "name": "Authority Investigation 2",
+  "definition": "Specifies the requested authority investigation information details.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type requested information as a code."
+    },
+    "InvestigatedRoles": {
+      "name": "Investigated Roles",
+      "definition": "Identifies the roles the customer plays in the requested information."
+    },
+    "AdditionalInvestigatedParties": {
+      "name": "Additional Investigated Parties",
+      "definition": "Specifies the additional investigated parties."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information, in free text form, to complement the requested information."
+    }
+  }
+}

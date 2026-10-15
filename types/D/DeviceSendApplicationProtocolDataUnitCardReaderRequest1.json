@@ -1,0 +1,32 @@
+{
+  "isoType": "DeviceSendApplicationProtocolDataUnitCardReaderRequest1",
+  "language": "en",
+  "name": "Device Send Application Protocol Data Unit Card Reader Request 1",
+  "definition": "Content of the Card Reader Application Protocol Data Unit Request message.",
+  "isoElements": {
+    "Class": {
+      "name": "Class",
+      "definition": "Class field of the Application Protocol Data Unit command (CLA)."
+    },
+    "Instruction": {
+      "name": "Instruction",
+      "definition": "Instruction field of the Application Protocol Data Unit command (INS)."
+    },
+    "Parameter1": {
+      "name": "Parameter 1",
+      "definition": "Parameter 1 field of the Application Protocol Data Unit command"
+    },
+    "Parameter2": {
+      "name": "Parameter 2",
+      "definition": "Parameter 2 field of the Application Protocol Data Unit command"
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Data field of the Application Protocol Data Unit command to send including the length."
+    },
+    "ExpectedLength": {
+      "name": "Expected Length",
+      "definition": "Expected length of the data field of the Application Protocol Data Unit response to the command."
+    }
+  }
+}

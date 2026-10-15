@@ -1,0 +1,33 @@
+{
+  "isoType": "CollateralMatchingCriteria6",
+  "language": "en",
+  "name": "Collateral Matching Criteria 6",
+  "definition": "Compares information related to both sides of a collateral.",
+  "isoElements": {
+    "UncollateralisedFlag": {
+      "name": "Uncollateralised Flag",
+      "definition": "Specifies whether the values defined as true/false indicator are matching or not."
+    },
+    "NetExposureCollateralisationIndicator": {
+      "name": "Net Exposure Collateralisation Indicator",
+      "definition": "Specifies whether the values defined as true/false indicator are matching or not."
+    },
+    "CollateralValueDate": {
+      "name": "Collateral Value Date",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "AssetType": {
+      "name": "Asset Type",
+      "definition": "Specifies whether the information on the component type is matching or not."
+    },
+    "BasketIdentifier": {
+      "name": "Basket Identifier",
+      "definition": "Specifies whether the values defined as security identification are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

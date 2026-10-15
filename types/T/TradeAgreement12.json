@@ -1,0 +1,56 @@
+{
+  "isoType": "TradeAgreement12",
+  "language": "en",
+  "name": "Trade Agreement 12",
+  "definition": "Date and identification of a trade together with references to previous events in its life.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date on which the trading parties agreed on the trade."
+    },
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the present message assigned by the party issuing the message. This identification must be unique amongst all messages of same type sent by the same party."
+    },
+    "OriginatorReference": {
+      "name": "Originator Reference",
+      "definition": "Represents the original reference of the instruction for which the status is given, as assigned by the participant that submitted the foreign exchange trade."
+    },
+    "CommonReference": {
+      "name": "Common Reference",
+      "definition": "Reference common to both parties of the trade."
+    },
+    "AmendOrCancelReason": {
+      "name": "Amend Or Cancel Reason",
+      "definition": "Specifies the reason for the cancellation or the amendment."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to the identification of a previous event in the life of a trade which is amended or cancelled."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Specifies the product for which the status of the confirmation is reported."
+    },
+    "OperationType": {
+      "name": "Operation Type",
+      "definition": "Specifies the type of underlying transaction, for example cancellation (CANC)."
+    },
+    "OperationScope": {
+      "name": "Operation Scope",
+      "definition": "Specifies the business role between the submitter and the trade party, for example, agent (AGNT)."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS settlement session that the related trade is part of."
+    },
+    "SplitTradeIndicator": {
+      "name": "Split Trade Indicator",
+      "definition": "To indicate if the trade is split."
+    },
+    "PaymentVersusPaymentIndicator": {
+      "name": "Payment Versus Payment Indicator",
+      "definition": "Specifies if the FX transaction is PVP settlement. Payment versus payment (PvP) settlement arrangement allows for two currencies in a foreign exchange (FX) contract to exchange simultaneously on a central settlement platform to eliminate the settlement risk. To apply PvP, the two parties in the FX contract need to have a pre-agreement with the central settlement platform, for example, USD/MYR FX deals require both parties to have an agreement to settle via HK Interbank Clearing Ltd settlement platform."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "CollateralValueSearchCriteria4",
+  "language": "en",
+  "name": "Collateral Value Search Criteria 4",
+  "definition": "Defines the criteria used to search for an account.",
+  "isoElements": {
+    "CashAccountIdentification": {
+      "name": "Cash Account Identification",
+      "definition": "Unique and unambiguous identification for the cash account between the account owner and the account servicer."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Medium of exchange of value."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that legally owns the account being queried."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, which is being queried."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "ISIN identification of the related financial instrument into which this security can be converted."
+    },
+    "SecuritiesAccountOwner": {
+      "name": "Securities Account Owner",
+      "definition": "Unique and unambiguous identification of the securities account owner."
+    },
+    "SecuritiesAccountServicer": {
+      "name": "Securities Account Servicer",
+      "definition": "Party that manages the securities account on behalf of the account owner."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "If the account identification identifies a group of accounts with different types or in different currencies, the currency and/or the account type can be used as additional search criteria."
+    }
+  }
+}

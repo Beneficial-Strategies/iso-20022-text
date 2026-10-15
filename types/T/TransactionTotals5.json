@@ -1,0 +1,36 @@
+{
+  "isoType": "TransactionTotals5",
+  "language": "en",
+  "name": "Transaction Totals 5",
+  "definition": "Total of credit or debit transactions.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Cumulative amount of all financial transactions."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "Number of all financial transactions."
+    },
+    "ChargeBackAmount": {
+      "name": "Charge Back Amount",
+      "definition": "Cumulative amount of all chargeback transactions exclusive of any fees."
+    },
+    "ChargeBackNumber": {
+      "name": "Charge Back Number",
+      "definition": "Total number of chargeback transactions."
+    },
+    "ReversalAmount": {
+      "name": "Reversal Amount",
+      "definition": "Cumulative amount of all reversal transactions exclusive of any fees."
+    },
+    "ReversalNumber": {
+      "name": "Reversal Number",
+      "definition": "Total number of reversal transactions."
+    },
+    "FeeAmounts": {
+      "name": "Fee Amounts",
+      "definition": "Sum amount of all fees."
+    }
+  }
+}

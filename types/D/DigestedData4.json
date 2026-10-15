@@ -1,0 +1,24 @@
+{
+  "isoType": "DigestedData4",
+  "language": "en",
+  "name": "Digested Data 4",
+  "definition": "Digest computed on the identified data.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "DigestAlgorithm": {
+      "name": "Digest Algorithm",
+      "definition": "Identification of the digest algorithm."
+    },
+    "EncapsulatedContent": {
+      "name": "Encapsulated Content",
+      "definition": "Data on which the digest is computed."
+    },
+    "Digest": {
+      "name": "Digest",
+      "definition": "Result of data-digesting process."
+    }
+  }
+}

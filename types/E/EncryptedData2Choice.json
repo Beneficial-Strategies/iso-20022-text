@@ -1,0 +1,16 @@
+{
+  "isoType": "EncryptedData2Choice",
+  "language": "en",
+  "name": "Encrypted Data 2 Choice",
+  "definition": "Choice between binary and hexadecimal binary for encrypted data of the transaction.",
+  "isoElements": {
+    "Binary": {
+      "name": "Binary",
+      "definition": "BASE-64 encoded encrypted data."
+    },
+    "HexadecimalBinary": {
+      "name": "Hexadecimal Binary",
+      "definition": "Hexadecimal binary encoded encrypted data."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "isoType": "ExternalUnderlyingTradeTransactionType1Code",
+  "language": "en",
+  "name": "External Underlying Trade Transaction Type 1 Code",
+  "definition": "Specifies the external commercial reference type code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CONT": {
+      "isoName": "Contract",
+      "name": "Contract",
+      "definition": "Underlying transaction is a contract."
+    },
+    "DELV": {
+      "isoName": "DeliveryOrder",
+      "name": "Delivery Order",
+      "definition": "Underlying transaction is a delivery order."
+    },
+    "PROF": {
+      "isoName": "ProformaInvoice",
+      "name": "Proforma Invoice",
+      "definition": "Underlying transaction is a proforma invoice."
+    },
+    "PROJ": {
+      "isoName": "Project",
+      "name": "Project",
+      "definition": "Underlying transaction is a project."
+    },
+    "PUOR": {
+      "isoName": "PurchaseOrder",
+      "name": "Purchase Order",
+      "definition": "Underlying transaction is a purchase order."
+    },
+    "QUOT": {
+      "isoName": "Quotation",
+      "name": "Quotation",
+      "definition": "Underlying transaction is a quotation."
+    },
+    "TEND": {
+      "isoName": "Tender",
+      "name": "Tender",
+      "definition": "Underlying transaction is a tender."
+    }
+  }
+}

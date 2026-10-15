@@ -1,0 +1,44 @@
+{
+  "isoType": "MessageStatusResponseData10",
+  "language": "en",
+  "name": "Message Status Response Data 10",
+  "definition": "Content of the Message status Response.",
+  "isoElements": {
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Identification of the requested previous message."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party that has initiated the previous message."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Specific response of the Repeated Message sent back by the POI System."
+    },
+    "RepeatedLoyaltyResponse": {
+      "name": "Repeated Loyalty Response",
+      "definition": "Content of the requested Loyalty Message Response."
+    },
+    "RepeatedPaymentResponse": {
+      "name": "Repeated Payment Response",
+      "definition": "Content of the requested Payment Message Response."
+    },
+    "RepeatedReversalResponse": {
+      "name": "Repeated Reversal Response",
+      "definition": "Content of the requested Reversal Message Response."
+    },
+    "RepeatedStoredValueResponse": {
+      "name": "Repeated Stored Value Response",
+      "definition": "Content of the requested StoredValue Message Response."
+    },
+    "RepeatedCardAcquisitionResponse": {
+      "name": "Repeated Card Acquisition Response",
+      "definition": "Content of the requested CardAcquisition Message Response."
+    },
+    "RepeatedSendApplicationProtocolDataUnitCardReaderResponse": {
+      "name": "Repeated Send Application Protocol Data Unit Card Reader Response",
+      "definition": "Content of the requested SendApplicationProtocolDataUnitCardReader Message Response."
+    }
+  }
+}

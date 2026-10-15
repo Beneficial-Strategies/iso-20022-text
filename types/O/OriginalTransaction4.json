@@ -1,0 +1,164 @@
+{
+  "isoType": "OriginalTransaction4",
+  "language": "en",
+  "name": "Original Transaction 4",
+  "definition": "Data related to an original transaction",
+  "isoElements": {
+    "TransactionCharacteristics": {
+      "name": "Transaction Characteristics",
+      "definition": "Transaction characteristics of the original transaction."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Identification of the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "AccountFrom": {
+      "name": "Account From",
+      "definition": "Identifies a customer account or a relationship to its account affected for debit, inquiries and the source of funding for transfers."
+    },
+    "AccountTo": {
+      "name": "Account To",
+      "definition": "Identifies a customer account or a relationship to its account affected for credits, inquiries and the destination account for funds transfers."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "ConversionDateTime": {
+      "name": "Conversion Date Time",
+      "definition": "Date and Time of currency conversion."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Further detailed information on the exchange rates that have been used in or are related to the transaction."
+    },
+    "TransactionAmounts": {
+      "name": "Transaction Amounts",
+      "definition": "Amounts of the card transaction."
+    },
+    "AdditionalAmount": {
+      "name": "Additional Amount",
+      "definition": "Amounts that are not part of the transaction amount and not included in reconciliation."
+    },
+    "Acceptor": {
+      "name": "Acceptor",
+      "definition": "Card acceptor performing the card transaction."
+    },
+    "Terminal": {
+      "name": "Terminal",
+      "definition": "Payment terminal or ATM performing the transaction."
+    },
+    "POIComponent": {
+      "name": "POI Component",
+      "definition": "Data related to the components of the POI (Point Of Interaction) performing the transactions."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Contains or describes conditions and characteristics of the transaction."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "The party providing source of funds."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "The party receiving funds."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "CustomerDevice": {
+      "name": "Customer Device",
+      "definition": "Identification of the customer device performing the transaction."
+    },
+    "Wallet": {
+      "name": "Wallet",
+      "definition": "Container for tenders used by the customer to perform the payment transaction."
+    },
+    "Cardholder": {
+      "name": "Cardholder",
+      "definition": "Cardholder performing the card payment transaction."
+    },
+    "Verification": {
+      "name": "Verification",
+      "definition": "Contain validation result and/or data to be validated."
+    },
+    "Risk": {
+      "name": "Risk",
+      "definition": "Context of risk associated with the transaction."
+    },
+    "SpecialProgrammeQualification": {
+      "name": "Special Programme Qualification",
+      "definition": "Data to qualify for incentive or other related programmes."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Additional functions or services to be performed in conjunction with the transaction."
+    },
+    "FundsServices": {
+      "name": "Funds Services",
+      "definition": "Financial services related to the account."
+    },
+    "DepositDetails": {
+      "name": "Deposit Details",
+      "definition": "Contains ATM deposit details."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "DisputeData": {
+      "name": "Dispute Data",
+      "definition": "Information about the dispute."
+    },
+    "Documentation": {
+      "name": "Documentation",
+      "definition": "Additional information related to the dispute."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation."
+    }
+  }
+}

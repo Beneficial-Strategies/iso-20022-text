@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareAmountAndDirection3",
+  "language": "en",
+  "name": "Compare Amount And Direction 3",
+  "definition": "Specifies two values to compare for an active or historic currency and amount and direction.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 5 elements must be present."
+    }
+  }
+}

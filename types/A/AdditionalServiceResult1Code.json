@@ -1,0 +1,33 @@
+{
+  "isoType": "AdditionalServiceResult1Code",
+  "language": "en",
+  "name": "Additional Service Result 1 Code",
+  "definition": "Identifies the result of the service performed.",
+  "isoCodes": {
+    "NOPF": {
+      "isoName": "NotPerformed",
+      "name": "Not Performed",
+      "definition": "The service was not performed."
+    },
+    "NOSP": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "The service is not supported and could not be performed."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other nationally defined code."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other privately defined code."
+    },
+    "PERF": {
+      "isoName": "Performed",
+      "name": "Performed",
+      "definition": "The service was performed."
+    }
+  }
+}

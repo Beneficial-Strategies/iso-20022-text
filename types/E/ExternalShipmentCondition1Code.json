@@ -1,0 +1,23 @@
+{
+  "isoType": "ExternalShipmentCondition1Code",
+  "language": "en",
+  "name": "External Shipment Condition 1 Code",
+  "definition": "Specifies a shipment conditions code, as published in the external ISO 20022 external code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ADVN": {
+      "isoName": "AdvancePayment",
+      "name": "Advance Payment",
+      "definition": "Goods/service delivered after payment"
+    },
+    "PMNT": {
+      "isoName": "DeliveryversusPayment",
+      "name": "Deliveryversus Payment",
+      "definition": "Goods/service delivered at the same time as payment."
+    },
+    "TRLN": {
+      "isoName": "TradeLoan",
+      "name": "Trade Loan",
+      "definition": "Goods/service delivered before payment"
+    }
+  }
+}

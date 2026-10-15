@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPClearingMemberReportV01",
+  "language": "en",
+  "name": "CCP Clearing Member Report V 01",
+  "definition": "The CCPClearingMemberReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about the central counterparties clearing members and their clients, and the related account structures.",
+  "isoElements": {
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Legal counterpart to trades cleared through a central counterparty."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

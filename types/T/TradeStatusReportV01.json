@@ -1,0 +1,16 @@
+{
+  "isoType": "TradeStatusReportV01",
+  "language": "en",
+  "name": "Trade Status Report V 01",
+  "definition": "The TradeStatusReport message is exchanged between parties involved in the trade finance domain to report the transaction level status of a transaction previously received. It informs the sender about the positive or negative status of the referenced transaction, such as acceptance or rejection resulting from technical validation performed by the parser and/or front-office applications. It can be used, for example, to acknowledge receipt of a transaction, to report a syntactical error, to report an unrecognised digital signature, to indicate that further processing is pending, and to indicate that a transaction has been technically accepted for processing by the back-office application. Multiple TradeStatusReport messages may be progressively sent in response to the incremental processing of a single transaction.",
+  "isoElements": {
+    "TradeStatusAdviceDetails": {
+      "name": "Trade Status Advice Details",
+      "definition": "Details of the trade status report."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the report."
+    }
+  }
+}

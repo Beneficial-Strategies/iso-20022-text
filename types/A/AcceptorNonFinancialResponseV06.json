@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorNonFinancialResponseV06",
+  "language": "en",
+  "name": "Acceptor Non Financial Response V 06",
+  "definition": "The AcceptorNonFinancialResponse message is sent by the Acquirer (or its Agent) to the POI to provide addintional information.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Non Financial response message management information."
+    },
+    "NonFinancialResponse": {
+      "name": "Non Financial Response",
+      "definition": "Information related to the non financial response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "isoType": "TransactionCounterpartyData11",
+  "language": "en",
+  "name": "Transaction Counterparty Data 11",
+  "definition": "Specifies the details related to the parties involved in the securities lending transaction.",
+  "isoElements": {
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Identification of the beneficiary who is subject to the rights and obligations arising from the contract."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Identification of the third party that administers the transaction."
+    },
+    "Broker": {
+      "name": "Broker",
+      "definition": "Identification of the broker involved in the securities lending transaction."
+    },
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Identification of the clearing member in the case where the trade is cleared."
+    },
+    "SettlementParties": {
+      "name": "Settlement Parties",
+      "definition": "Identification of the parties settling the contract on behalf of the deliverer or receiver."
+    },
+    "AgentLender": {
+      "name": "Agent Lender",
+      "definition": "Identification of the agent lender involved in the securities lending transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/Beneficiary Must be present| Or\t/TripartyAgent Must be present| Or\t/Broker Must be present| Or\t/ClearingMember Must be present| Or /SettlementParties Must be present| Or  /AgentLender Must be present"
+    }
+  }
+}

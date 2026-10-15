@@ -1,0 +1,28 @@
+{
+  "isoType": "Investment2Choice",
+  "language": "en",
+  "name": "Investment 2 Choice",
+  "definition": "Specifies the financial instrument purchased by a central counterparty using clearing member assets.",
+  "isoElements": {
+    "UnsecuredCashDeposit": {
+      "name": "Unsecured Cash Deposit",
+      "definition": "Indicates that the investment was made in an unsecured deposit at a commercial deposit taking institution."
+    },
+    "CentralBankDeposit": {
+      "name": "Central Bank Deposit",
+      "definition": "Indicates that the bank deposit is placed at a central bank."
+    },
+    "RepurchaseAgreement": {
+      "name": "Repurchase Agreement",
+      "definition": "Indicates that the investment was made in a repurchase agreement."
+    },
+    "OtherInvestments": {
+      "name": "Other Investments",
+      "definition": "Indicates that the investment is not covered by other available investment options."
+    },
+    "OutrightInvestment": {
+      "name": "Outright Investment",
+      "definition": "Indicates that the investment was an outright purchase of a financial instrument or security as an investment."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "CapitalRequirement1",
+  "language": "en",
+  "name": "Capital Requirement 1",
+  "definition": "Report of the breakdown of the components for the capital requirement for central counterparty.",
+  "isoElements": {
+    "WindingDownOrRestructuringRisk": {
+      "name": "Winding Down Or Restructuring Risk",
+      "definition": "Indicates the capital necessary to cover the winding down or restructuring of activities."
+    },
+    "OperationalAndLegalRisk": {
+      "name": "Operational And Legal Risk",
+      "definition": "Indicates the capital necessary to cover the overall operational and legal risks."
+    },
+    "CreditRisk": {
+      "name": "Credit Risk",
+      "definition": "Indicates the capital necessary to cover credit risks not already covered by other financial resources, such as risks stemming from clearing activity."
+    },
+    "CounterPartyRisk": {
+      "name": "Counter Party Risk",
+      "definition": "Indicates the capital necessary to cover counterparty credit risks not already covered by other financial resources, such as risks stemming from clearing activity."
+    },
+    "MarketRisk": {
+      "name": "Market Risk",
+      "definition": "Indicates the capital necessary to cover counterparty market risks not already covered by other financial resources, such as risks stemming from clearing activity."
+    },
+    "BusinessRisk": {
+      "name": "Business Risk",
+      "definition": "Indicates the capital necessary to cover business risk."
+    },
+    "NotificationBuffer": {
+      "name": "Notification Buffer",
+      "definition": "Indicates the percentage above 100 percent of the CCP’s required capital requiring notification to the CCP’s National Competent Authority threshold."
+    }
+  }
+}

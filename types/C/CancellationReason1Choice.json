@@ -1,0 +1,16 @@
+{
+  "isoType": "CancellationReason1Choice",
+  "language": "en",
+  "name": "Cancellation Reason 1 Choice",
+  "definition": "Reason for the cancellation request of the transaction.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Reason for the cancellation request in a coded form."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Reason for the cancellation request not catered for by the available codes."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "isoType": "CryptographicKey19",
+  "language": "en",
+  "name": "Cryptographic Key 19",
+  "definition": "Cryptographic Key.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Name of the cryptographic key."
+    },
+    "KeyIdentification": {
+      "name": "Key Identification",
+      "definition": "Name of the cryptographic key."
+    },
+    "AdditionalIdentification": {
+      "name": "Additional Identification",
+      "definition": "Additional identification of the key.|Usage|For derived unique key per transaction (DUKPT) keys, the key serial number (KSN) with the 21 bits of the transaction counter set to zero."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the Cryptographic Element."
+    },
+    "SecurityProfile": {
+      "name": "Security Profile",
+      "definition": "Identification of the set of security elements to which this element belongs."
+    },
+    "ItemNumber": {
+      "name": "Item Number",
+      "definition": "Hierarchical identification of a key inside all the key system. It is composed of all item numbers of the upper level components, separated by the '.' character, ended by the item number of the current component."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Sequence number of the cryptographic key."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the cryptographic key."
+    },
+    "KeyVersion": {
+      "name": "Key Version",
+      "definition": "Version of the cryptographic key."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of algorithm used by the cryptographic key."
+    },
+    "Function": {
+      "name": "Function",
+      "definition": "Allowed usage of the key."
+    },
+    "ActivationDate": {
+      "name": "Activation Date",
+      "definition": "Date and time on which the key must be activated."
+    },
+    "DeactivationDate": {
+      "name": "Deactivation Date",
+      "definition": "Date and time on which the key must be deactivated."
+    },
+    "KeyValue": {
+      "name": "Key Value",
+      "definition": "Encrypted cryptographic key."
+    },
+    "ComponentWithAuthorisedAccess": {
+      "name": "Component With Authorised Access",
+      "definition": "Identification of components which are allowed to access this cryptographic key."
+    },
+    "ProtectedComponentWithAuthorisedAccess": {
+      "name": "Protected Component With Authorised Access",
+      "definition": "Protection of Identification of components which are allowed to access this cryptographic key."
+    },
+    "KeyCheckValue": {
+      "name": "Key Check Value",
+      "definition": "Value for checking a cryptographic key security parameter."
+    },
+    "AdditionalManagementInformation": {
+      "name": "Additional Management Information",
+      "definition": "Additional Information needed by the receiver to securely process the management of the security element."
+    },
+    "DerivationAlgorithmIdentifier": {
+      "name": "Derivation Algorithm Identifier",
+      "definition": "Identification of the derivation algorithm that must be used."
+    },
+    "AlgorithmIdentifier": {
+      "name": "Algorithm Identifier",
+      "definition": "Identification of the algorithm and mode that must be used."
+    }
+  }
+}

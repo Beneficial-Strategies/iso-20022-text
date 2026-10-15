@@ -1,0 +1,193 @@
+{
+  "isoType": "DTCUnallocatedAdjustmentReason4Code",
+  "language": "en",
+  "name": "DTC Unallocated Adjustment Reason 4 Code",
+  "definition": "DTC Unallocated reason codes for payment adjustments.",
+  "isoCodes": {
+    "LFID": {
+      "isoName": "AfterCycleCutOff",
+      "name": "After Cycle Cut Off",
+      "definition": "Issues funded and/or identified after the cycle cut off."
+    },
+    "APRR": {
+      "isoName": "ApproximateRate",
+      "name": "Approximate Rate",
+      "definition": "Rate is not final. Rate is approximate."
+    },
+    "ANNG": {
+      "isoName": "BadAnnouncement",
+      "name": "Bad Announcement",
+      "definition": "Incorrect announcement."
+    },
+    "BDPD": {
+      "isoName": "BadPayableDate",
+      "name": "Bad Payable Date",
+      "definition": "Incorrect payable date."
+    },
+    "RESC": {
+      "isoName": "CallRescinded",
+      "name": "Call Rescinded",
+      "definition": "Reason is due to a call rescinded."
+    },
+    "CDIN": {
+      "isoName": "CanadianDepositoryInventory",
+      "name": "Canadian Depository Inventory",
+      "definition": "Reason is due to a Canadian depository inventory."
+    },
+    "CSHR": {
+      "isoName": "CashRateUnknown",
+      "name": "Cash Rate Unknown",
+      "definition": "Cash rate for allocation is unknown."
+    },
+    "ERLY": {
+      "isoName": "CDAcceleratedMaturity",
+      "name": "CD Accelerated Maturity",
+      "definition": "Reason is due to a CD accelerated maturity."
+    },
+    "COND": {
+      "isoName": "ConditionalPayment",
+      "name": "Conditional Payment",
+      "definition": "Payment is conditional and conditions have not been met yet."
+    },
+    "DFLT": {
+      "isoName": "Default",
+      "name": "Default",
+      "definition": "Issue is in default."
+    },
+    "FVDG": {
+      "isoName": "FiveDayGracePeriod",
+      "name": "Five Day Grace Period",
+      "definition": "Reason is due to a five day grace period."
+    },
+    "ANFI": {
+      "isoName": "FundsNotReceivedByAgent",
+      "name": "Funds Not Received By Agent",
+      "definition": "Funds were not received by the agent."
+    },
+    "SAGA": {
+      "isoName": "GracePeriod",
+      "name": "Grace Period",
+      "definition": "Company is taking a 30 day grace period."
+    },
+    "HICO": {
+      "isoName": "HolidayInCountryOfOrigin",
+      "name": "Holiday In Country Of Origin",
+      "definition": "Reason is due to holiday in country of origin."
+    },
+    "ISNF": {
+      "isoName": "IssueNotFunded",
+      "name": "Issue Not Funded",
+      "definition": "Reason is due to issue that was not funded."
+    },
+    "NMAT": {
+      "isoName": "IssueNotMaturing",
+      "name": "Issue Not Maturing",
+      "definition": "Reason is due to issue that is not maturing."
+    },
+    "PEND": {
+      "isoName": "ItemIsPending",
+      "name": "Item Is Pending",
+      "definition": "Reason is due to items pending."
+    },
+    "LIQD": {
+      "isoName": "Liquidation",
+      "name": "Liquidation",
+      "definition": "Issue is being liquidated."
+    },
+    "MSTK": {
+      "isoName": "MaturityForStockPaymentOption",
+      "name": "Maturity For Stock Payment Option",
+      "definition": "Reason is due to maturity for stock payment option."
+    },
+    "NOTL": {
+      "isoName": "NotionalBalance",
+      "name": "Notional Balance",
+      "definition": "Notional balance principal will not be paid."
+    },
+    "MASF": {
+      "isoName": "InsufficientFundsReceivedFromAgent",
+      "name": "Insufficient Funds Received From Agent",
+      "definition": "Reason is due to insufficient funds received from the agent."
+    },
+    "OFAC": {
+      "isoName": "FundsHeldAtChaseForOFAC",
+      "name": "Funds Held At Chase For OFAC",
+      "definition": "Reason is due to funds held at Chase for official foreign asset control."
+    },
+    "FDIC": {
+      "isoName": "FederalDepositInsuranceCorporation",
+      "name": "Federal Deposit Insurance Corporation",
+      "definition": "Reason is due to a failed bank; Federal Deposit Insurance Corporation assumed."
+    },
+    "CHBD": {
+      "isoName": "ChurchBondNotFunded",
+      "name": "Church Bond Not Funded",
+      "definition": "Reason is due to a church bond not funded."
+    },
+    "CHIP": {
+      "isoName": "CHIPSPayment",
+      "name": "CHIPS Payment",
+      "definition": "Reason is due to a CHIPS Payment."
+    },
+    "CSHU": {
+      "isoName": "CashRateZero",
+      "name": "Cash Rate Zero",
+      "definition": "Cash rate for allocation is zero."
+    },
+    "PUVF": {
+      "isoName": "SpecificIssuesSuppressed",
+      "name": "Specific Issues Suppressed",
+      "definition": "Specific issues have been suppressed."
+    },
+    "SPNF": {
+      "isoName": "SpecialDistributionNotYetFunded",
+      "name": "Special Distribution Not Yet Funded",
+      "definition": "Reason is due to special distribution and the issue was not funded."
+    },
+    "SDPC": {
+      "isoName": "SameDayPositionCapture",
+      "name": "Same Day Position Capture",
+      "definition": "Reason is due to same day position capture."
+    },
+    "SANF": {
+      "isoName": "SaleOfAssetsNotYetFunded",
+      "name": "Sale Of Assets Not Yet Funded",
+      "definition": "Reason is that due to sale of asset, issue was not funded."
+    },
+    "RPLG": {
+      "isoName": "ReleasedPledgePosition",
+      "name": "Released Pledge Position",
+      "definition": "Reason is due to released pledge position."
+    },
+    "RRNF": {
+      "isoName": "RedemptionOfRatesNotYetFunded",
+      "name": "Redemption Of Rates Not Yet Funded",
+      "definition": "Reason is that due to redemption of rates, issue was not funded."
+    },
+    "RCNF": {
+      "isoName": "RecapitalisationNotFunded",
+      "name": "Recapitalisation Not Funded",
+      "definition": "Reason is due to recapitalisation and issue not funded."
+    },
+    "PLEG": {
+      "isoName": "PledgedPosition",
+      "name": "Pledged Position",
+      "definition": "Reason is due to pledged position."
+    },
+    "RRFX": {
+      "isoName": "PendingConversionOfFunds",
+      "name": "Pending Conversion Of Funds",
+      "definition": "Reason is due to pending conversion of funds."
+    },
+    "PCHK": {
+      "isoName": "PaidUponReceiptOfCheck",
+      "name": "Paid Upon Receipt Of Check",
+      "definition": "Reason is due paid upon receipt of check."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Reserved for new user defined reason codes."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "StatusReport15",
+  "language": "en",
+  "name": "Status Report 15",
+  "definition": "Status of the acceptor system containing the identification of the POI (Point Of Interaction), its components and their installed versions.",
+  "isoElements": {
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identification of the point of interaction for terminal management."
+    },
+    "InitiatingTrigger": {
+      "name": "Initiating Trigger",
+      "definition": "Identification of the requestor."
+    },
+    "TerminalManagerIdentification": {
+      "name": "Terminal Manager Identification",
+      "definition": "Identification of the terminal management system (TMS) to contact for the maintenance."
+    },
+    "DataSet": {
+      "name": "Data Set",
+      "definition": "Data related to a status report of a point of interaction (POI)."
+    }
+  }
+}

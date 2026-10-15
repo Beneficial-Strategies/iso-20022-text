@@ -1,0 +1,25 @@
+{
+  "isoType": "RequestToPayDebtorActivationStatusReportV02",
+  "language": "en",
+  "name": "Request To Pay Debtor Activation Status Report V 02",
+  "definition": "The RequestToPayDebtorActivationStatusReport message is sent from the recipient of the debtor activation request message (initiation, amendment or cancellation), such as the creditor RTP provider or the creditor, to the initiator of the debtor activation request message (debtor, debtor RTP provider or any of the forwarding agent) to provide the status of the request.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics to identify the message and parties playing a role in the mandate acceptance, but which are not part of the mandate."
+    },
+    "OriginalActivationAndStatus": {
+      "name": "Original Activation And Status",
+      "definition": "Status of the debtor activation instruction (that is request, amendment or cancellation)."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}

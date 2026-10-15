@@ -1,0 +1,32 @@
+{
+  "isoType": "TotalPortfolioValuationReportV01",
+  "language": "en",
+  "name": "Total Portfolio Valuation Report V 01",
+  "definition": "Scope|An account servicer sends a TotalPortfolioValuationReport to an account owner to provide detailed valuation information for a portfolio.|Usage|The TotalPortfolioValuationReport will be sent by the account servicer to the account owner on an agreed basis. The report may also be requested using a SecuritiesStatementQuery.|The TotalPortfolioValuationReport is used to report on a portfolio without Investment Funds; or to report on a portfolio when an investment fund is regarded as a portfolio containing, only one or multiple investment funds|The TotalPortfolioValuationReport may also be used to:|- re-send a message previously sent (the CopyDuplicate value is DUPL),|- provide a third party with a copy of a message for information (the CopyDuplicate value is COPY),|- re-send to a third party a copy of a message for information (the CopyDuplicate value is CODU).",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message (within the report) and continuation indicator to indicate that the report is to continue or that the message is the last page of the report."
+    },
+    "ReportGeneralDetails": {
+      "name": "Report General Details",
+      "definition": "General information related to the total portfolio valuation report."
+    },
+    "AccountDetails": {
+      "name": "Account Details",
+      "definition": "Details of the account. The account may represent an investment portfolio or a fund."
+    },
+    "TotalPortfolioValuation": {
+      "name": "Total Portfolio Valuation",
+      "definition": "Valuation information of the portfolio. In some markets a fund of funds or an investment fund is regarded as a portfolio."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Balance breakdown information."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

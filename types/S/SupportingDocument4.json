@@ -1,0 +1,44 @@
+{
+  "isoType": "SupportingDocument4",
+  "language": "en",
+  "name": "Supporting Document 4",
+  "definition": "Currency control document supporting the contract registration.",
+  "isoElements": {
+    "SupportingDocumentIdentification": {
+      "name": "Supporting Document Identification",
+      "definition": "Unique and unambiguous identification of the supporting document."
+    },
+    "OriginalRequestIdentification": {
+      "name": "Original Request Identification",
+      "definition": "Unique identification of the original query message."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Unique identification of the certificate for which the supporting document is provided."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the cash account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "Amendment": {
+      "name": "Amendment",
+      "definition": "Amendment indicator details."
+    },
+    "ContractReference": {
+      "name": "Contract Reference",
+      "definition": "Reference of the registered contract or the underlying contract for the supporting documents."
+    },
+    "Entry": {
+      "name": "Entry",
+      "definition": "Individual entry of the supporting document."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalInvoiceInformation1",
+  "language": "en",
+  "name": "Original Invoice Information 1",
+  "definition": "General information about the invoice contained in the original request.",
+  "isoElements": {
+    "DocumentNumber": {
+      "name": "Document Number",
+      "definition": "Unique identifier of the document."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice additional amounts (allowances and charges) and total tax amounts."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Issue date of the document."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Due date for the payment of the invoice."
+    }
+  }
+}

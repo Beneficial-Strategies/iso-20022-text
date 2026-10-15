@@ -1,0 +1,48 @@
+{
+  "isoType": "FundingService4",
+  "language": "en",
+  "name": "Funding Service 4",
+  "definition": "Funds related service such as a payment or a transfer related to the transaction.",
+  "isoElements": {
+    "Provider": {
+      "name": "Provider",
+      "definition": "Identification of the funding service provider."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the funding service (for example, MoneyGram, Western Union, etc.)."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference to the funding service."
+    },
+    "BusinessPurpose": {
+      "name": "Business Purpose",
+      "definition": "Purpose of the transfer."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free text that can be used between the sender and the receiver to describe the details of the transfer."
+    },
+    "FundingSource": {
+      "name": "Funding Source",
+      "definition": "Source of funding."
+    },
+    "ClaimCredentials": {
+      "name": "Claim Credentials",
+      "definition": "Code presented by the customer to claim funds."
+    },
+    "ClaimAssigner": {
+      "name": "Claim Assigner",
+      "definition": "Entity issuing the claim credential."
+    },
+    "ServiceProcessingType": {
+      "name": "Service Processing Type",
+      "definition": "Contains service processing types."
+    },
+    "DeferredDateTime": {
+      "name": "Deferred Date Time",
+      "definition": "Contains date and time value indicating scheduled deferred posting for issuer."
+    }
+  }
+}

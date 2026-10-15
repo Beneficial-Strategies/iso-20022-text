@@ -1,0 +1,87 @@
+{
+  "isoType": "Trade9",
+  "language": "en",
+  "name": "Trade 9",
+  "definition": "Details of the foreign exchange trade including spot\\forward\\NDF\\swap that is confirmed.",
+  "isoElements": {
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Unique reference identification assigned to the trade by the instructing party. This reference will be used throughout the trade life cycle to identify the particular trade."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date on which the trade was executed."
+    },
+    "ForeignExchangeTradeProduct": {
+      "name": "Foreign Exchange Trade Product",
+      "definition": "Specifies the underlying product type."
+    },
+    "TradingCurrency": {
+      "name": "Trading Currency",
+      "definition": "Specifies the ISO code of the trade currency."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Settlement currency of the trade, agreed by both sides of the trade."
+    },
+    "TradingMethod": {
+      "name": "Trading Method",
+      "definition": "Identifies the type of trading method."
+    },
+    "TradingMode": {
+      "name": "Trading Mode",
+      "definition": "Identifies the type of the trade mode."
+    },
+    "ClearingMethod": {
+      "name": "Clearing Method",
+      "definition": "Clearing method of the trade, agreed by both sides of the trade."
+    },
+    "Symbol": {
+      "name": "Symbol",
+      "definition": "Symbol of the trade."
+    },
+    "PlaceOfConfirmation": {
+      "name": "Place Of Confirmation",
+      "definition": "Infrastructure where the trade confirmation will take place."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Provides details of the foreign exchange trade including Spot Forward and NDF."
+    },
+    "SwapLeg": {
+      "name": "Swap Leg",
+      "definition": "Provides details about each leg of the multileg instrument (foreign exchange swap)."
+    },
+    "ProductIdentification": {
+      "name": "Product Identification",
+      "definition": "Identification of the treasury trade product, as assigned under a formal or proprietary identification scheme."
+    },
+    "AssociatedTradeReference": {
+      "name": "Associated Trade Reference",
+      "definition": "Some associated trade reference needs to be specified."
+    }
+  },
+  "isoRules": {
+    "ForeignExchangeTradeProduct1Rule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to 'FORW' (Foreign Exchange Forward) or 'NDFO' (Foreign Exchange Non Deliverable Forward) or 'SPOT' (Foreign Exchange Spot), then ForeignExchangeDetails must be present."
+    },
+    "ForeignExchangeTradeProduct2Rule": {
+      "definition": "If Foreign Exchange Trade Product is equal to 'SWAP' (Foreign Exchange Swap), then SwapLeg must be present."
+    },
+    "SwapLegRule": {
+      "definition": "If Foreign ExchangeTradeProduct is equal to 'SWAP' (Foreign Exchange Swap), then SwapLeg must be present."
+    },
+    "FixingCurrencyAndFixingDateRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'NDFO' (Foreign Exchange Non Deliverable Forward), then FixingCurrency and FixingDate must be present."
+    },
+    "DeltaIndicatorRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'SPOT' (Foreign Exchange Spot) or 'FORW' (Foreign Exchange Forward) , then DeltaIndicator must be present."
+    },
+    "OptionIndicatorRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'SPOT' (Foreign Exchange Spot), then OptionIndicator Must be present."
+    },
+    "ForwardPointsRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'NDFO' (Foreign Exchange Non Deliverable Forward) or 'FORW' (Foreign Exchange Forward), then ForwardPoints must be present."
+    }
+  }
+}

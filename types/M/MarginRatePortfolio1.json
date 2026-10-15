@@ -1,0 +1,20 @@
+{
+  "isoType": "MarginRatePortfolio1",
+  "language": "en",
+  "name": "Margin Rate Portfolio 1",
+  "definition": "Specifies long and short margin rates for a defined portfolio.",
+  "isoElements": {
+    "LongMarginRate": {
+      "name": "Long Margin Rate",
+      "definition": "Margin charged on a portfolio where the value of the contract increases when the value of the underlying increases."
+    },
+    "ShortMarginRate": {
+      "name": "Short Margin Rate",
+      "definition": "Margin charged on a portfolio where the value of the contract decreases when the value of the underlying increases."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the fixed portfolio used for the purposes of the calculation."
+    }
+  }
+}

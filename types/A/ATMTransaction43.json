@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTransaction43",
+  "language": "en",
+  "name": "ATM Transaction 43",
+  "definition": "Transaction for which the service is requested.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the ATM."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period assigned by the ATM manager."
+    },
+    "CardholderNewPIN": {
+      "name": "Cardholder New PIN",
+      "definition": "Encrypted personal identification number (PIN) and related information."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Sequence of one or more TLV data elements from the ATM application, in accordance with ISO 7816-6, not in a specific order. Present if the transaction is performed with an EMV chip card application."
+    }
+  }
+}

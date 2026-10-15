@@ -1,0 +1,32 @@
+{
+  "isoType": "CreditorInvoice6",
+  "language": "en",
+  "name": "Creditor Invoice 6",
+  "definition": "Specifies the identification attribtues of an invoice which are required by the creditor for the activation of the debtor.",
+  "isoElements": {
+    "LimitedPresentmentIndicator": {
+      "name": "Limited Presentment Indicator",
+      "definition": "Indicates whether the creditor allows limited presentment of the e-invoice, that is, only the e-invoice data needed for payment initiation."
+    },
+    "CustomerIdentificationType": {
+      "name": "Customer Identification Type",
+      "definition": "Unique and unambiguous type of the identification of the debtor required by the creditor, for example  the reference number or customer number. Unique identification provided by the web bank or web payment services user, with which the creditor may identify the debtor in its system."
+    },
+    "ContractFormatType": {
+      "name": "Contract Format Type",
+      "definition": "Document format type supported to exchange the contracts."
+    },
+    "ContractReferenceType": {
+      "name": "Contract Reference Type",
+      "definition": "Type of the contract reference for which the enrolment is defined. Type of the contract reference requested by the creditor which the debtor must provide in the debtor activation request  to identify the contract(s) for which the RTP is requested."
+    },
+    "CreditorInstruction": {
+      "name": "Creditor Instruction",
+      "definition": "Instructions provided by the seller (that is creditor or ultimate creditor) for the Request-To-Pay (RTP) recipient (that is the debtor). The instructions may include for example the time required by the creditor to take into account the activation request. The debtor agent may display the information in the customer’s own service language."
+    },
+    "ActivationRequestDeliveryParty": {
+      "name": "Activation Request Delivery Party",
+      "definition": "Creditor's service provider address to which the debtor activation has to be delivered."
+    }
+  }
+}

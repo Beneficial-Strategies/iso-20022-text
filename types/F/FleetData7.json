@@ -1,0 +1,88 @@
+{
+  "isoType": "FleetData7",
+  "language": "en",
+  "name": "Fleet Data 7",
+  "definition": "Fleet data pertaining to the payment transaction.",
+  "isoElements": {
+    "Driver": {
+      "name": "Driver",
+      "definition": "Contains driver-related information."
+    },
+    "Vehicle": {
+      "name": "Vehicle",
+      "definition": "Vehicle belonging to the fleet."
+    },
+    "DriverOrVehicleCard": {
+      "name": "Driver Or Vehicle Card",
+      "definition": "Second card presented for the payment transaction."
+    },
+    "CardFuelPromptCode": {
+      "name": "Card Fuel Prompt Code",
+      "definition": "Indicates whether or not fuel or fleet data prompting should occur."
+    },
+    "AgentFuelPromptCode": {
+      "name": "Agent Fuel Prompt Code",
+      "definition": "Currently known as \"TransactionNumber\". An identification code assigned by an agent.  This code can be used after applying for and awaiting the appropriate prompt value to be defined."
+    },
+    "TripNumber": {
+      "name": "Trip Number",
+      "definition": "Identification number of the trip."
+    },
+    "TripJobNumber": {
+      "name": "Trip Job Number",
+      "definition": "Contains an indicator identifying the job or task identifier of the individual."
+    },
+    "TripWorkOrder": {
+      "name": "Trip Work Order",
+      "definition": "Contains the work order or purchase order number."
+    },
+    "TripInvoiceNumber": {
+      "name": "Trip Invoice Number",
+      "definition": "Contains the invoice number."
+    },
+    "TripBillingIdentification": {
+      "name": "Trip Billing Identification",
+      "definition": "Contains the billing identification number."
+    },
+    "TripControlNumber": {
+      "name": "Trip Control Number",
+      "definition": "Identification number assigned by an agent."
+    },
+    "TripDeliveryTicketNumber": {
+      "name": "Trip Delivery Ticket Number",
+      "definition": "Delivery Ticket Number for the trip information."
+    },
+    "LocalAmenity": {
+      "name": "Local Amenity",
+      "definition": "Indicates the amenities available at the location where the merchant actually performed the transaction."
+    },
+    "TransactionRelatedData": {
+      "name": "Transaction Related Data",
+      "definition": "Contains information related specifically to the transaction."
+    },
+    "AdditionalEnteredData": {
+      "name": "Additional Entered Data",
+      "definition": "Contains additional fleet summary data."
+    },
+    "DiscountMethod": {
+      "name": "Discount Method",
+      "definition": "A value to indicate the discount method applied to a transaction, such as Retail minus discount method, Cost plus discount method, Best of retail minus or cost plus"
+    },
+    "DiscountEntity": {
+      "name": "Discount Entity",
+      "definition": "Contains any of these codes to identify the entity who calculated discount."
+    },
+    "DiscountPlanIdentification": {
+      "name": "Discount Plan Identification",
+      "definition": "Contains a value to identify discount plan applied to a transaction."
+    },
+    "PurchaseRestrictionIndicator": {
+      "name": "Purchase Restriction Indicator",
+      "definition": "Indicate if the card acceptor supports purchase control override at POS."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Fleet Line Item component is designed to carry detail level fleet data and to enable issuers to supply more transaction information to their consumer and corporate clients pertaining to fleet transactions."
+    }
+  }
+}

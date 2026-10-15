@@ -1,0 +1,16 @@
+{
+  "isoType": "TechnicalIdentification2Choice",
+  "language": "en",
+  "name": "Technical Identification 2 Choice",
+  "definition": "Selection between a generic technical address or a BIC identifier when setting up or modifying the technical address for a party.",
+  "isoElements": {
+    "BICFI": {
+      "name": "BICFI",
+      "definition": "Technical address of the party is defined as a financial institution business identifier code."
+    },
+    "TechnicalAddress": {
+      "name": "Technical Address",
+      "definition": "Technical address of the party is defined in a free text format."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "FinancialInstrumentQuantity48Choice",
+  "language": "en",
+  "name": "Financial Instrument Quantity 48 Choice",
+  "definition": "Choice between formats for the specification of the number of units, amount of money or percentage.",
+  "isoElements": {
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment fund units redeemed."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money to be redeemed from the fund. |Gross Amount = Quantity * Price."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money to be received following redemption of fund units. |Net Amount = (Quantity * Price) - (Fees + Taxes)."
+    },
+    "DigitalTokenUnit": {
+      "name": "Digital Token Unit",
+      "definition": "Quantity of digital tokens expressed as a number, for example, a number of blockchain tokens."
+    },
+    "HoldingsRedemptionRate": {
+      "name": "Holdings Redemption Rate",
+      "definition": "Portion of the investor's holdings to be redeemed."
+    }
+  }
+}

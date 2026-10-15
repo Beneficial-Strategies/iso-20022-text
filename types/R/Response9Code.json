@@ -1,0 +1,33 @@
+{
+  "isoType": "Response9Code",
+  "language": "en",
+  "name": "Response 9 Code",
+  "definition": "Result of the performed service.",
+  "isoCodes": {
+    "APPR": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Service has been successfuly provided."
+    },
+    "DECL": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Service is declined."
+    },
+    "PART": {
+      "isoName": "PartialApproved",
+      "name": "Partial Approved",
+      "definition": "Service has been partialy provided."
+    },
+    "SUSP": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "Transaction has been received but hasn't been processed."
+    },
+    "TECH": {
+      "isoName": "TechnicalError",
+      "name": "Technical Error",
+      "definition": "Service cannot be provided for technical reason (eg timeout contacting the Issuer, security problem)."
+    }
+  }
+}

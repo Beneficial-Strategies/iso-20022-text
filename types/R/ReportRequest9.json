@@ -1,0 +1,32 @@
+{
+  "isoType": "ReportRequest9",
+  "language": "en",
+  "name": "Report Request 9",
+  "definition": "Specifies the environment, the context and the services to be used with this message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ServiceContent": {
+      "name": "Service Content",
+      "definition": "Define the type of service requested."
+    },
+    "ReportTransactionRequest": {
+      "name": "Report Transaction Request",
+      "definition": "Content of the Transaction Report Request message."
+    },
+    "ReportGetTotalsRequest": {
+      "name": "Report Get Totals Request",
+      "definition": "Content of the Get Totals Request message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

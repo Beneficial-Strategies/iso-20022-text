@@ -1,0 +1,32 @@
+{
+  "isoType": "PaymentMeans1",
+  "language": "en",
+  "name": "Payment Means 1",
+  "definition": "Means by which a payment will be or has been made for settlement purposes.",
+  "isoElements": {
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Type, or nature, of the payment, eg, express payment."
+    },
+    "PaymentMethodCode": {
+      "name": "Payment Method Code",
+      "definition": "Transfer method to be used for the transfer."
+    },
+    "PayeeCreditorAccount": {
+      "name": "Payee Creditor Account",
+      "definition": "Creditor financial account of the payee party for this payment means."
+    },
+    "PayeeFinancialInstitution": {
+      "name": "Payee Financial Institution",
+      "definition": "Creditor financial institution of the payee party specified for this payment means."
+    },
+    "PayerDebtorAccount": {
+      "name": "Payer Debtor Account",
+      "definition": "Debtor financial account of the payer party for this payment means."
+    },
+    "PayerFinancialInstitution": {
+      "name": "Payer Financial Institution",
+      "definition": "Debtor financial institution of the payer party specified for this payment means."
+    }
+  }
+}

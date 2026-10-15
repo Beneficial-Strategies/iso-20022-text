@@ -1,0 +1,36 @@
+{
+  "isoType": "Future4",
+  "language": "en",
+  "name": "Future 4",
+  "definition": "Parameters for contracts which obligate the buyer to receive and the seller to deliver in the future the assets specified at an agreed price.",
+  "isoElements": {
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a quantity."
+    },
+    "ExercisePrice": {
+      "name": "Exercise Price",
+      "definition": "Predetermined price at which the holder of a Future will have to buy or sell the underlying instrument."
+    },
+    "FutureDate": {
+      "name": "Future Date",
+      "definition": "Date on which future contracts settle."
+    },
+    "MinimumSize": {
+      "name": "Minimum Size",
+      "definition": "Specifies the minimum ratio or multiply factor used to convert from contracts to shares."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Used to indicate the measurement unit of the underlying commodity on which the contract is based (for example, 2500 lbs of lean cattle, 1000 barrels of crude oil, 1000 bushels of corn, etc.)."
+    },
+    "TimeUnit": {
+      "name": "Time Unit",
+      "definition": "Used to indicate a time unit for the contract (for example days, weeks, months, etc.)."
+    },
+    "AdditionalUnderlyingAttributes": {
+      "name": "Additional Underlying Attributes",
+      "definition": "Provides more information about the underlying instrument."
+    }
+  }
+}

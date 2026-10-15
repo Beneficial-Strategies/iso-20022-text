@@ -1,0 +1,28 @@
+{
+  "isoType": "ReportTransactionRequest1",
+  "language": "en",
+  "name": "Report Transaction Request 1",
+  "definition": "Content of the Transaction Report Request message.",
+  "isoElements": {
+    "SearchCriteria": {
+      "name": "Search Criteria",
+      "definition": "Eligibility parameters for a transaction to be part of transaction report."
+    },
+    "SearchOutputOrder": {
+      "name": "Search Output Order",
+      "definition": "Indicates the ordering in which the resulting transaction reports should be returned."
+    },
+    "DescendingOrder": {
+      "name": "Descending Order",
+      "definition": "Indicates the order used for the criteria."
+    },
+    "BlockStart": {
+      "name": "Block Start",
+      "definition": "Index of the first transaction matching the search criteria."
+    },
+    "BlockStop": {
+      "name": "Block Stop",
+      "definition": "Index of the last transaction matching the search criteria."
+    }
+  }
+}

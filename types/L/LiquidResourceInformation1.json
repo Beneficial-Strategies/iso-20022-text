@@ -1,0 +1,36 @@
+{
+  "isoType": "LiquidResourceInformation1",
+  "language": "en",
+  "name": "Liquid Resource Information 1",
+  "definition": "Information related to the liquid resources.",
+  "isoElements": {
+    "CounterPartyIdentification": {
+      "name": "Counter Party Identification",
+      "definition": "Identification of the facility provider."
+    },
+    "LiquidResourceValue": {
+      "name": "Liquid Resource Value",
+      "definition": "Amount of liquid resources available to meet liquid requirements."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "The market value of the financial instruments being used to secure the facility."
+    },
+    "Secured": {
+      "name": "Secured",
+      "definition": "Indicates whether the facility is secured or not."
+    },
+    "AssetEncumbered": {
+      "name": "Asset Encumbered",
+      "definition": "Indicates whether the financial instruments are encumbered or not. This includes where financial instruments must be pledged to secure liquidity facilities."
+    },
+    "QualifyingResource": {
+      "name": "Qualifying Resource",
+      "definition": "Indicates whether the available liquid resource counts towards the liquid requirements in the scenario or not."
+    },
+    "AgencyArrangements": {
+      "name": "Agency Arrangements",
+      "definition": "Indicates the reliance on third party entities to settle payment obligations for the CCP or a clearing member. The article 32(4) of Commission Delegated Regulated 153/2013 includes a full list of third party entities which a CCP may have a liquidity exposure to. If the value is true, the portion of the liquid resource which is assumed to be unavailable due to a dependency on third party entities. If the value is false, the portion of the liquid resource which is assumed to be available as no dependency on third party entities."
+    }
+  }
+}

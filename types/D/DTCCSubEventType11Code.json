@@ -1,0 +1,253 @@
+{
+  "isoType": "DTCCSubEventType11Code",
+  "language": "en",
+  "name": "DTCC Sub Event Type 11 Code",
+  "definition": "Specifies DTCC (The Depository Trust and Clearing Corporation) defined sub event types.",
+  "isoCodes": {
+    "OPTO": {
+      "isoName": "OptOut",
+      "name": "Opt Out",
+      "definition": "Identifies an event (for example Cash Dividend) where DTC (the Depository Trust Company) offers a DRIP option as a default option (holder must opt out of the DRIP Option)."
+    },
+    "DRPD": {
+      "isoName": "DividendReinvestmentByDTC",
+      "name": "Dividend Reinvestment By DTC",
+      "definition": "Identifies an event where the Issue is eligible for a Dividend Reinvestment program at DTCC (The Depository Trust and Clearing Corporation)."
+    },
+    "PLCL": {
+      "isoName": "PlaceOfListing",
+      "name": "Place Of Listing",
+      "definition": "Identifies a change in the place where the security is listed."
+    },
+    "BLOT": {
+      "isoName": "BoardLot",
+      "name": "Board Lot",
+      "definition": "Identifies a change in Board Lot size."
+    },
+    "RMRK": {
+      "isoName": "Remarketing",
+      "name": "Remarketing",
+      "definition": "Identifies an event that involves a Stock Purchase Contract product that is offering an early settlement or remarketing feature prior to the contract's expiration."
+    },
+    "UNWD": {
+      "isoName": "Unwind",
+      "name": "Unwind",
+      "definition": "Identifies an event where \"unwinding\" of the basket of securities occurs."
+    },
+    "SHEX": {
+      "isoName": "ShareExchange",
+      "name": "Share Exchange",
+      "definition": "Identifies an event where two companies exchange their shares during a merger. After the share exchange, one company becomes a subsidiary of the other and is no longer listed. Usually applicable to an event in JP markets."
+    },
+    "STDT": {
+      "isoName": "Standard",
+      "name": "Standard",
+      "definition": "Identifies an event where one company merges with the other and assumes the name of the surviving company. It is the standard market-accepted merger. Usually applicable to an event in JP markets."
+    },
+    "XFER": {
+      "isoName": "Transfer",
+      "name": "Transfer",
+      "definition": "Identifies an event where one company transfers all of its shares to a newly created company. Usually applicable to an event in JP markets."
+    },
+    "SOPT": {
+      "isoName": "SurvivorOptions",
+      "name": "Survivor Options",
+      "definition": "Indicates an event where the Issue has an early redemption feature. This feature allows the holder to elect to sell bonds back to the issuer on a predetermined basis (excluding monthly) according to specific priorities."
+    },
+    "MBCK": {
+      "isoName": "MortgageBacked",
+      "name": "Mortgage Backed",
+      "definition": "Indicates an event where the issue has an early redemption feature that allows the holder to elect to sell bonds back to the issuer on a monthly basis, according to specified conditions."
+    },
+    "SALE": {
+      "isoName": "SaleOfAssets",
+      "name": "Sale Of Assets",
+      "definition": "Identifies an event where the distribution is from the proceeds of the sale of assets."
+    },
+    "PRNI": {
+      "isoName": "PhysicalRightsNotIssued",
+      "name": "Physical Rights Not Issued",
+      "definition": "Identifies an event where the company is not issuing a security with the right to subscribe for additional shares. In these instances, a User CUSIP is created by DTC (The Depository Trust Company) as opposed to a company-issued CUSIP in order to identify these issues."
+    },
+    "POPI": {
+      "isoName": "PoisonPill",
+      "name": "Poison Pill",
+      "definition": "Identifies sale of rights event where issuers redeem poison pill rights."
+    },
+    "DRPI": {
+      "isoName": "DividendReinvestmentByIssuer",
+      "name": "Dividend Reinvestment By Issuer",
+      "definition": "Identifies an event where the issuer offers a dividend reinvestment program that is not processed by DTC (the Depository Trust Company)."
+    },
+    "MROS": {
+      "isoName": "MandatoryRedemptionOfShares",
+      "name": "Mandatory Redemption Of Shares",
+      "definition": "Identifies an event where redemption shares are issued in addition to shares of the original security. This is related to the Mandatory Exchange event with the same sub-event type name."
+    },
+    "SHPP": {
+      "isoName": "SharePurchasePlan",
+      "name": "Share Purchase Plan",
+      "definition": "Identifies an event involving the offer of shares by a corporation listed on the Australia Stock Exchange, in which ASIC will give relief so that the company can offer existing shareholders the opportunity to acquire small numbers of additional shares without needing a disclosure document or Product Disclosure Statement (PDS)."
+    },
+    "OPOF": {
+      "isoName": "OpenOffer",
+      "name": "Open Offer",
+      "definition": "Identifies an event in certain markets where underlying rights are not issued."
+    },
+    "TWRI": {
+      "isoName": "TenderWithRights",
+      "name": "Tender With Rights",
+      "definition": "Identifies a tender offer event on a Rights security. Holders must submit both the ordinary share(s) and right(s) to be eligible to receive the tender consideration. The ratio of ordinary shares to rights is defined in the offer."
+    },
+    "CILI": {
+      "isoName": "CashinLieu",
+      "name": "Cashin Lieu",
+      "definition": "Identifies DTC (the Depository Trust Company) specific sub-event where holders can elect to \"sell\" whole shares to satisfy fractional entitlements (usually as a result of a merger) at the beneficial owner level."
+    },
+    "BTST": {
+      "isoName": "BidTenderSealedTender",
+      "name": "Bid Tender Sealed Tender",
+      "definition": "Identifies a tender offer event in which the holder can choose the price at which they are willing to tender their securities. This price may or may not be accepted by the offeror."
+    },
+    "FTPR": {
+      "isoName": "OfferToPurchase",
+      "name": "Offer To Purchase",
+      "definition": "Identifies a tender offer event made by another company to purchase a portion or all of the outstanding shares."
+    },
+    "ADRS": {
+      "isoName": "ADR",
+      "name": "ADR",
+      "definition": "Identifies when the event security is an ADR. The underlying security is American Depositary Receipt."
+    },
+    "WITH": {
+      "isoName": "WithPayout",
+      "name": "With Payout",
+      "definition": "Identifies a consent event with payout."
+    },
+    "WITO": {
+      "isoName": "WithoutPayout",
+      "name": "Without Payout",
+      "definition": "Identifies a consent event without payout."
+    },
+    "CTAX": {
+      "isoName": "TaxCredit",
+      "name": "Tax Credit",
+      "definition": "Identifies an event where a tax credit relating to the Build America Bonds will occur."
+    },
+    "A144": {
+      "isoName": "USLegal144A",
+      "name": "US Legal 144 A",
+      "definition": "Identifies an exchange offer on securities that are subject to Securities Rule 144A."
+    },
+    "CASE": {
+      "isoName": "CashAndSecurities",
+      "name": "Cash And Securities",
+      "definition": "Identifies an event where the payout will be both cash and securities."
+    },
+    "REGS": {
+      "isoName": "RegulationS",
+      "name": "Regulation S",
+      "definition": "Identifies an exchange offer on securities that are subject to securities rule Reg S."
+    },
+    "NOTI": {
+      "isoName": "ImportantNotice",
+      "name": "Important Notice",
+      "definition": "Identifies a MMI Important Notice."
+    },
+    "RDTH": {
+      "isoName": "BasedOnRecordDateHoldings",
+      "name": "Based On Record Date Holdings",
+      "definition": "Identifies an event which will be based on record date holdings."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Identifies an event where the payout will be cash."
+    },
+    "PREQ": {
+      "isoName": "PresentationRequired",
+      "name": "Presentation Required",
+      "definition": "Identifies an event where the presentation of securities will be required."
+    },
+    "SECU": {
+      "isoName": "Securities",
+      "name": "Securities",
+      "definition": "Identifies an event where the payout will be securities."
+    },
+    "COTE": {
+      "isoName": "ConvertAndTender",
+      "name": "Convert And Tender",
+      "definition": "Identifies a tender offer with a convert feature."
+    },
+    "MITE": {
+      "isoName": "MiniTender",
+      "name": "Mini Tender",
+      "definition": "Identifies when a tender offer is a mini tender."
+    },
+    "SETE": {
+      "isoName": "SelfTender",
+      "name": "Self Tender",
+      "definition": "Identifies when a tender offer is a self tender."
+    },
+    "GDRS": {
+      "isoName": "GDR",
+      "name": "GDR",
+      "definition": "Identifies when the event security is a GDR. The underlying security is a global depositary receipt."
+    },
+    "M871": {
+      "isoName": "DividendEquivalentPayment871M",
+      "name": "Dividend Equivalent Payment 871 M",
+      "definition": "Identifies an event which has been considered a dividend equivalent payment under Section 871(m) of the United States Internal Revenue Code."
+    },
+    "C305": {
+      "isoName": "DeemedDividend305C",
+      "name": "Deemed Dividend 305 C",
+      "definition": "Identifies an event which has been considered a deemed distribution under Section 305(c) of the United States  Internal Revenue Code."
+    },
+    "CONV": {
+      "isoName": "Conversion",
+      "name": "Conversion",
+      "definition": "Identifies an event which is a full call or a maturity with conversion."
+    },
+    "CUSP": {
+      "isoName": "NameAndCUSIPChange",
+      "name": "Name And CUSIP Change",
+      "definition": "Name change with CUSIP change."
+    },
+    "CUPR": {
+      "isoName": "NameAndCUSIPChangeAndPresentationRequired",
+      "name": "Name And CUSIP Change And Presentation Required",
+      "definition": "Name change with both CUSIP change and presentation required."
+    },
+    "RCLA": {
+      "isoName": "Classification1042S",
+      "name": "Classification 1042 S",
+      "definition": "Identifies distributions that have multiple components for tax withholding and 1042-S reporting purposes."
+    },
+    "QN92": {
+      "isoName": "ExemptionQualifiedNotice92Days",
+      "name": "Exemption Qualified Notice 92 Days",
+      "definition": "Identifies a qualified notice issued by a publicly traded partnership that states applicability of the 10 percent exception under IRS regulation 1.1446(f)-4(b)(3)."
+    },
+    "UNIT": {
+      "isoName": "UnitCombination",
+      "name": "Unit Combination",
+      "definition": "Identifies a combination of assets or types of assets packaged together and sold as one. For example, a shareholder buying one unit of company stock may get preferred shares, ordinary shares and even warrants in the unit."
+    },
+    "ECNI": {
+      "isoName": "AmountsInExcessOfCumulativeNetIncome",
+      "name": "Amounts In Excess Of Cumulative Net Income",
+      "definition": "Identifies when a publicly traded partnership identifies the amount realised on such portion of the distribution as an amount in excess of cumulative net income under IRS regulation 1.1446(f)-4(c)(2)(iii)."
+    },
+    "SPAC": {
+      "isoName": "SpecialPurposeAcquisitionCompany",
+      "name": "Special Purpose Acquisition Company",
+      "definition": "Specified purpose acquisition companies (SPACs) are public companies comprised of cash available to investors in financial markets. The sole purpose of SPACs is to use the proceeds to finance a future acquisition. SPACs generally commit to identify a target operating company and complete a business combination transaction within a specified timeframe. SPACS have a feature where funds are put into a trust account and when the target investment is identified the investor can have their proceeds returned or participate in the business combination."
+    },
+    "VOTE": {
+      "isoName": "Vote",
+      "name": "Vote",
+      "definition": "Event where creditors whose claims are impaired are entitled to vote."
+    }
+  }
+}

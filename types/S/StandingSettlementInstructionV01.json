@@ -1,0 +1,41 @@
+{
+  "isoType": "StandingSettlementInstructionV01",
+  "language": "en",
+  "name": "Standing Settlement Instruction V 01",
+  "definition": "Scope|An instructing party sends the StandingSettlementInstruction (SSI) message to the receiver to create or update a standing cash or securities settlement instruction. The message can also be used to notify a counterparty of an SSI.||Usage|The instructing party (initiator) is:|•\tAn account servicer, for example, a global custodian or prime broker|•\tA counterparty in a transaction, for example:|-\tan investment manager (executing broker),|-\ta global custodian (executing broker, prime broker)|•\tA vendor’s application communicating on behalf of an account servicer or counterparty|The receiver is:|•\tAn account owner, for example, an investment manager, hedge fund administrator or a party to which SSI operations have been outsourced|•\tA counterparty, for example:|-\tan investment manager (executing broker)|-\ta global custodian (executing broker, prime broker)|•\tA vendor’s application communicating on behalf of the account owner or counterparty.",
+  "isoElements": {
+    "MessageReferenceIdentification": {
+      "name": "Message Reference Identification",
+      "definition": "Reference of this message."
+    },
+    "EffectiveDateDetails": {
+      "name": "Effective Date Details",
+      "definition": "Date on which the SSI is effective."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous master identification known to the sender (or its authorised agent) and receiver (or its authorised agent), below which the SSI will be lodged. This may be an account number or reference to a fund.|If no account or reference is available then “NONREF” must be specified."
+    },
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Identifies the market for the standing settlement instruction."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency for which the SSI is specified."
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": "Settlement chain parties, accounts and other details."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "CashPartiesCurrencyPresenceRule": {
+      "definition": "If SettlementDetails/CashPartiesDetails is present then SettlementCurrency must be present."
+    }
+  }
+}

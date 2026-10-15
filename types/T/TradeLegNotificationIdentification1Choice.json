@@ -1,0 +1,16 @@
+{
+  "isoType": "TradeLegNotificationIdentification1Choice",
+  "language": "en",
+  "name": "Trade Leg Notification Identification 1 Choice",
+  "definition": "Provides the references of the underlying trade leg(s) and/or the reference to the related NetPosition report message.",
+  "isoElements": {
+    "TradeLegNotificationIdentification": {
+      "name": "Trade Leg Notification Identification",
+      "definition": "Reference allocated by the central counterparty - central counterpatry trade leg reference identification that uniquely identifies the trade."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    }
+  }
+}

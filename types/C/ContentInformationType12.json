@@ -1,0 +1,28 @@
+{
+  "isoType": "ContentInformationType12",
+  "language": "en",
+  "name": "Content Information Type 12",
+  "definition": "General cryptographic message syntax (CMS) containing protected data.",
+  "isoElements": {
+    "ContentType": {
+      "name": "Content Type",
+      "definition": "Type of data protection."
+    },
+    "EnvelopedData": {
+      "name": "Enveloped Data",
+      "definition": "Data protection by encryption, with a session key."
+    },
+    "AuthenticatedData": {
+      "name": "Authenticated Data",
+      "definition": "Data protection by a message authentication code (MAC)."
+    },
+    "SignedData": {
+      "name": "Signed Data",
+      "definition": "Data protected by a digital signatures."
+    },
+    "DigestedData": {
+      "name": "Digested Data",
+      "definition": "Data protected by a digest."
+    }
+  }
+}

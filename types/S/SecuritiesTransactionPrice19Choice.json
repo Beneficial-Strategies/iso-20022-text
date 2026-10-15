@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesTransactionPrice19Choice",
+  "language": "en",
+  "name": "Securities Transaction Price 19 Choice",
+  "definition": "Specifies the price of the securities transaction.",
+  "isoElements": {
+    "MonetaryValue": {
+      "name": "Monetary Value",
+      "definition": "Price expressed as a monetary value."
+    },
+    "Unit": {
+      "name": "Unit",
+      "definition": "Price expressed in units."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Price expressed as a rate, that is a percentage."
+    },
+    "Yield": {
+      "name": "Yield",
+      "definition": "Price expressed as a yield."
+    },
+    "Decimal": {
+      "name": "Decimal",
+      "definition": "Price expressed as a decimal."
+    },
+    "PendingPrice": {
+      "name": "Pending Price",
+      "definition": "Indicates that price is currently not available, but pending."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Price or quantity expressed in another notation."
+    }
+  }
+}

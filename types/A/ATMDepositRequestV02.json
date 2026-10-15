@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDepositRequestV02",
+  "language": "en",
+  "name": "ATM Deposit Request V 02",
+  "definition": "The ATMDepositRequest message is sent by an ATM to an acquirer or its agent to request the approval of a deposit transaction at an ATM, before or after deposit media inside the ATM.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMDepositRequest": {
+      "name": "Protected ATM Deposit Request",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMDepositRequest": {
+      "name": "ATM Deposit Request",
+      "definition": "Information related to the request of a deposit transaction from an ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TradingSideTransactionReporting3",
+  "language": "en",
+  "name": "Trading Side Transaction Reporting 3",
+  "definition": "Regulatory transaction reporting information from the Trading Side party.",
+  "isoElements": {
+    "ReportingJurisdiction": {
+      "name": "Reporting Jurisdiction",
+      "definition": "Specifies the supervisory party to which the trade needs to be reported."
+    },
+    "ReportingParty": {
+      "name": "Reporting Party",
+      "definition": "Identifies the party that is responsible for reporting the trade to the trade repository."
+    },
+    "TradingSideUniqueTransactionIdentifier": {
+      "name": "Trading Side Unique Transaction Identifier",
+      "definition": "Specifies the unique transaction identifier (UTI) to be created at the time a transaction is first executed, shared with all registered entities and counterparties involved in the transaction, and used to track that particular transaction over its life. This identifier can also be known as the Unique Swap Identifier (USI). This is the UTI from the Trading Side party."
+    }
+  }
+}

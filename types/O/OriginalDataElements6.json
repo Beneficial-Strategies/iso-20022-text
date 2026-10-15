@@ -1,0 +1,56 @@
+{
+  "isoType": "OriginalDataElements6",
+  "language": "en",
+  "name": "Original Data Elements 6",
+  "definition": "Data elements contained in the original message.|ISO 8583:1987 bit 90 and ISO 8583 1993/2003 bit 56.",
+  "isoElements": {
+    "MessageClass": {
+      "name": "Message Class",
+      "definition": "Message class of the original message."
+    },
+    "MessageFunction": {
+      "name": "Message Function",
+      "definition": "Identifies the type of process related to the message."
+    },
+    "AcquirerIdentification": {
+      "name": "Acquirer Identification",
+      "definition": "Code identifying the acquirer of the original message."
+    },
+    "SenderIdentification": {
+      "name": "Sender Identification",
+      "definition": "Code identifying the sender of the original message."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of transaction associated with the main service."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "ConversionDateTime": {
+      "name": "Conversion Date Time",
+      "definition": "Date and Time of currency conversion."
+    },
+    "TransactionAmounts": {
+      "name": "Transaction Amounts",
+      "definition": "Amounts of the card transaction."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "ResponseCode": {
+      "name": "Response Code",
+      "definition": "Detailed results of the processing, conforming to ISO 8583 Response codes list.  This code list is maintained by the ISO 8583/MA (maintenance agency)."
+    },
+    "ApprovalCode": {
+      "name": "Approval Code",
+      "definition": "Value assigned by the entity when the transaction is approved."
+    },
+    "DeferredSettlementDate": {
+      "name": "Deferred Settlement Date",
+      "definition": "Deferred settlement date of the original transaction."
+    }
+  }
+}

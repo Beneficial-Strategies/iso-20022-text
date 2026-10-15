@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesAccountStatus2",
+  "language": "en",
+  "name": "Securities Account Status 2",
+  "definition": "Status of the securities account processed in the system.",
+  "isoElements": {
+    "RelatedSecuritiesAccount": {
+      "name": "Related Securities Account",
+      "definition": "Unique identification of the securities account referenced by a request."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the securities account maintenance instruction."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Reason for the status of a securities account maintenance instruction."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals REJT (Rejected) then StatusReason must be present."
+    },
+    "PresenceRule": {
+      "definition": "If Status equals COMP (Completed) then RelatedSecuritiesAccount must be present."
+    }
+  }
+}

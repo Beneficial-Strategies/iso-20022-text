@@ -1,0 +1,28 @@
+{
+  "isoType": "InvoiceTaxStatusReportHeader1",
+  "language": "en",
+  "name": "Invoice Tax Status Report Header 1",
+  "definition": "Provides the Invoice tax status report header details.",
+  "isoElements": {
+    "TaxAuthority": {
+      "name": "Tax Authority",
+      "definition": "Party to which the TaxReport is delivered. This message block contains party details for a specific tax authority."
+    },
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identifies the InvoiceTaxReportStatusAdvice message."
+    },
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Reference to the identification of the InvoiceTaxReport message."
+    },
+    "ReportStatus": {
+      "name": "Report Status",
+      "definition": "Provides the status for the full report."
+    },
+    "ValidationRule": {
+      "name": "Validation Rule",
+      "definition": "Provides the details of the rule which could not be validated."
+    }
+  }
+}

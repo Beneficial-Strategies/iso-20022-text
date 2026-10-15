@@ -1,0 +1,58 @@
+{
+  "isoType": "PartyType33Code",
+  "language": "en",
+  "name": "Party Type 33 Code",
+  "definition": "Identification of the type of entity involved in a transaction.",
+  "isoCodes": {
+    "OPOI": {
+      "isoName": "OriginatingPOI",
+      "name": "Originating POI",
+      "definition": "Point Of Interaction initiating the card payment transaction."
+    },
+    "MERC": {
+      "isoName": "Merchant",
+      "name": "Merchant",
+      "definition": "Merchant providing goods and service in the card payment transaction."
+    },
+    "ACCP": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Card acceptor, party accepting the card and presenting transaction data to the acquirer."
+    },
+    "ITAG": {
+      "isoName": "IntermediaryAgent",
+      "name": "Intermediary Agent",
+      "definition": "Party acting on behalf of other parties to process or forward data to other parties."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "DLIS": {
+      "isoName": "DelegateIssuer",
+      "name": "Delegate Issuer",
+      "definition": "Party to whom the card issuer delegates to authorise card payment transactions."
+    },
+    "MTMG": {
+      "isoName": "MasterTerminalManager",
+      "name": "Master Terminal Manager",
+      "definition": "Responsible for the maintenance of a card payment acceptance terminal."
+    },
+    "TAXH": {
+      "isoName": "TaxAuthority",
+      "name": "Tax Authority",
+      "definition": "Tax authority."
+    },
+    "TMGT": {
+      "isoName": "TerminalManager",
+      "name": "Terminal Manager",
+      "definition": "Responsible for one or several maintenance functions of a card payment acceptance terminal."
+    }
+  }
+}

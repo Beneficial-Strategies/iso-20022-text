@@ -1,0 +1,28 @@
+{
+  "isoType": "SignatureType1Code",
+  "language": "en",
+  "name": "Signature Type 1 Code",
+  "definition": "Type of signature form.",
+  "isoCodes": {
+    "ORIG": {
+      "isoName": "Original",
+      "name": "Original",
+      "definition": "The investor's written signature is required. Can also be known as physical or wet signature."
+    },
+    "DIGI": {
+      "isoName": "Digital",
+      "name": "Digital",
+      "definition": "A technical signature that includes algorithms and private key and public key information. Used to sign and verify the contents of a message."
+    },
+    "ELEC": {
+      "isoName": "Electronic",
+      "name": "Electronic",
+      "definition": "A copy of a physical or original signature in an electronic format."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "There is no signature required in any form."
+    }
+  }
+}

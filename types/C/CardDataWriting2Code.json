@@ -1,0 +1,43 @@
+{
+  "isoType": "CardDataWriting2Code",
+  "language": "en",
+  "name": "Card Data Writing 2 Code",
+  "definition": "Card  writing capabilities of the terminal performing the transaction. | ISO 8583:93 bit 22-10, ISO 8583:2003 bit 27-8_9",
+  "isoCodes": {
+    "ICPY": {
+      "isoName": "ICCProximity",
+      "name": "ICC Proximity",
+      "definition": "ICC contactless proximity"
+    },
+    "MGSP": {
+      "isoName": "MagneticStripePartial",
+      "name": "Magnetic Stripe Partial",
+      "definition": "Magnetic stripe is read, only partial data is available."
+    },
+    "ICCP": {
+      "isoName": "ICCContactPartial",
+      "name": "ICC Contact Partial",
+      "definition": "Integrated circuit card read; only partial data is available."
+    },
+    "MSIP": {
+      "isoName": "MSIProximity",
+      "name": "MSI Proximity",
+      "definition": "Magstripe image contactless proximity"
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Unspecified capability."
+    },
+    "MGST": {
+      "isoName": "MagneticStripe",
+      "name": "Magnetic Stripe",
+      "definition": "Magnetic stripe."
+    },
+    "ICCY": {
+      "isoName": "ICCContact",
+      "name": "ICC Contact",
+      "definition": "ICC contact capability"
+    }
+  }
+}

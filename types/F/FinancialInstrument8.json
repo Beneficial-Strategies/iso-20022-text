@@ -1,0 +1,45 @@
+{
+  "isoType": "FinancialInstrument8",
+  "language": "en",
+  "name": "Financial Instrument 8",
+  "definition": "Security that is a sub-set of an investment fund, and is governed by the same investment fund policy, eg, dividend option or valuation currency.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a security by an ISIN."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the financial instrument in free format text."
+    },
+    "SupplementaryIdentification": {
+      "name": "Supplementary Identification",
+      "definition": "Additional information about a financial instrument to help identify the instrument."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "ClassType": {
+      "name": "Class Type",
+      "definition": "Features of units offered by a fund. For example, a unit may have a specific load structure, eg, front end or back end, an income policy, eg, pay out or accumulate, or a trailer policy, eg, with or without. Fund classes are typically denoted by a single character, eg, 'Class A', 'Class 2'."
+    },
+    "SecuritiesForm": {
+      "name": "Securities Form",
+      "definition": "Form, ie, ownership, of the security, eg, registered or bearer."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to a class type, ie, if income is paid out or retained in the fund."
+    },
+    "DualFundIndicator": {
+      "name": "Dual Fund Indicator",
+      "definition": "Indicates whether the fund has two prices."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentIdentificationGuideline": {
+      "definition": "It is recommended that ISIN be used in Identification\\SecurityIdentification3Choice."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ReconciliationType1Code",
+  "language": "en",
+  "name": "Reconciliation Type 1 Code",
+  "definition": "Type of Reconciliation requested by the Sale to the POI.",
+  "isoCodes": {
+    "AREC": {
+      "isoName": "AcquirerReconciliation",
+      "name": "Acquirer Reconciliation",
+      "definition": "Reconciliation between the POI and one or several Acquirers only. There is no reconciliation between the Sale System and the POI System."
+    },
+    "ASYN": {
+      "isoName": "AcquirerSynchronisation",
+      "name": "Acquirer Synchronisation",
+      "definition": "Reconciliation and closure of the current period, with synchronisation of the reconciliation between the POI and Acquirers."
+    },
+    "PREC": {
+      "isoName": "PreviousReconciliation",
+      "name": "Previous Reconciliation",
+      "definition": "Request result of a previous reconciliation."
+    },
+    "SREC": {
+      "isoName": "SaleReconciliation",
+      "name": "Sale Reconciliation",
+      "definition": "Reconciliation with closure of the current period, without any Acquirers synchronisation."
+    }
+  }
+}

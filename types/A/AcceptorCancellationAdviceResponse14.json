@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCancellationAdviceResponse14",
+  "language": "en",
+  "name": "Acceptor Cancellation Advice Response 14",
+  "definition": "Cancellation advice response from the acquirer.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Cancellation transaction from an acceptor to the acquirer."
+    },
+    "TMSTrigger": {
+      "name": "TMS Trigger",
+      "definition": "Instructions for contacting the terminal management host."
+    }
+  }
+}

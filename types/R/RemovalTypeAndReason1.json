@@ -1,0 +1,25 @@
+{
+  "isoType": "RemovalTypeAndReason1",
+  "language": "en",
+  "name": "Removal Type And Reason 1",
+  "definition": "Identifies the removal type, the reason, the exclusion period, the extension date and the termination date.",
+  "isoElements": {
+    "RemovalType": {
+      "name": "Removal Type",
+      "definition": "Specifies the removal processing change requested."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Identifies the reason for the removal, the extension of the removal or the termination of the removal."
+    },
+    "ExclusionPeriod": {
+      "name": "Exclusion Period",
+      "definition": "Identifies the period, the start date or the end date of the exclusion period."
+    }
+  },
+  "isoRules": {
+    "ExclusionPeriodPresence": {
+      "definition": "Exclusion Period must be present if Removal Type is  REMO or EXTN. If the Removal Type is TERM then Exclusion Period is optional."
+    }
+  }
+}

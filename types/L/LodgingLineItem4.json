@@ -1,0 +1,56 @@
+{
+  "isoType": "LodgingLineItem4",
+  "language": "en",
+  "name": "Lodging Line Item 4",
+  "definition": "Lodging line item details",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date of the charge for the product or service associated with the line item."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Time of the charge for the product or service associated with the line item."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of product or service associated with the line item."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other type of product or service associated with the line item."
+    },
+    "PostCheckOut": {
+      "name": "Post Check Out",
+      "definition": "Indicates whether or not the charge originated following the checkout."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "A code to indicate the tax amount is credit or debit"
+    },
+    "UnitAmount": {
+      "name": "Unit Amount",
+      "definition": "Contains the cost for one unit of the product or service."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Duration of the trip."
+    },
+    "SubTotalAmount": {
+      "name": "Sub Total Amount",
+      "definition": "Subtotal amount of line item.  (e.g. total nightly rate, etc.)"
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes related to the products or services."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

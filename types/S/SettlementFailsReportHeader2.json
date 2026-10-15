@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementFailsReportHeader2",
+  "language": "en",
+  "name": "Settlement Fails Report Header 2",
+  "definition": "Specifies parameters of the report.",
+  "isoElements": {
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Provides the reporting timestamp, when the report was submitted from the CSD to the Competent Authority."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "Period covered by the report."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency used to report the aggregated values of the transactions.||Usage: this is the currency in which the values have to be reported, when no explicit currency is provided."
+    },
+    "ReportStatus": {
+      "name": "Report Status",
+      "definition": "Provides the status of the report."
+    },
+    "SecuritiesSettlementSystem": {
+      "name": "Securities Settlement System",
+      "definition": "Specifies the securities settlement system used in a settlement process."
+    }
+  }
+}

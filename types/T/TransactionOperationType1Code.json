@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionOperationType1Code",
+  "language": "en",
+  "name": "Transaction Operation Type 1 Code",
+  "definition": "Specifies the type of process related to a specific transaction.",
+  "isoCodes": {
+    "AMND": {
+      "isoName": "Amendment",
+      "name": "Amendment",
+      "definition": "Transaction amends a previously sent transaction."
+    },
+    "CANC": {
+      "isoName": "Cancellation",
+      "name": "Cancellation",
+      "definition": "Transaction requests the deletion/cancellation of a previously sent transaction."
+    },
+    "CORR": {
+      "isoName": "Correction",
+      "name": "Correction",
+      "definition": "Transaction corrects errors in a previously sent transaction."
+    },
+    "NEWT": {
+      "isoName": "NewTransaction",
+      "name": "New Transaction",
+      "definition": "Transaction is a new transaction."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralProposalV06",
+  "language": "en",
+  "name": "Collateral Proposal V 06",
+  "definition": "Scope|The CollateralProposal message is sent by the collateral giver or its collateral manager to the collateral taker or its collateral manager, to propose the collateral to be delivered. This message is sent once the Margin Call is agreed or partially agreed and can be used for new collateral at the initiation of an exposure or for additional collateral for variation of an existing exposure. This message is used for both initial collateral proposal and subsequent counter proposals.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|This message is sent once the Margin Call is agreed or partially agreed and can be used for new collateral at the initiation of an exposure or for additional collateral for variation of an existing exposure. The collateral proposal can include securities, cash and other types of collateral.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement details for the over the counter market."
+    },
+    "TypeAndDetails": {
+      "name": "Type And Details",
+      "definition": "Indicates whether this is an initial or counter proposal."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

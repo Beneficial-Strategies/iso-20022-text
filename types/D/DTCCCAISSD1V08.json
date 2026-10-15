@@ -1,0 +1,16 @@
+{
+  "isoType": "DTCCCAISSD1V08",
+  "language": "en",
+  "name": "DTCCCAISSD 1 V 08",
+  "definition": "The DTCCCAISSD1 message extends ISO corporate action instruction status advice message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "ReorganisationInstructionDetails": {
+      "name": "Reorganisation Instruction Details",
+      "definition": "Information to be extended as supplementary data to instruction status message for reorganisation events."
+    },
+    "DistributionInstructionDetails": {
+      "name": "Distribution Instruction Details",
+      "definition": "Information to be extended as supplementary data to instruction status message for distribution events."
+    }
+  }
+}

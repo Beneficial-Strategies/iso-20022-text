@@ -1,0 +1,111 @@
+{
+  "isoType": "SwitchExecution4",
+  "language": "en",
+  "name": "Switch Execution 4",
+  "definition": "Execution of a switch order.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time at which the order was placed by the investor."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for an order execution, as assigned by a confirming party."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for an order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "TotalRedemptionAmount": {
+      "name": "Total Redemption Amount",
+      "definition": "Amount of money used to determine the quantity of investment fund units to be redeemed."
+    },
+    "TotalSubscriptionAmount": {
+      "name": "Total Subscription Amount",
+      "definition": "Amount of money used to determine the quantity of investment fund units to be subscribed."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Confirmation of the information about parties related to the transaction."
+    },
+    "RequestedFutureTradeDate": {
+      "name": "Requested Future Trade Date",
+      "definition": "Future date at which the investor requests the order to be executed.|The specification of a requested future trade date is not allowed in some markets. The date must be a date in the future."
+    },
+    "AdditionalCashIn": {
+      "name": "Additional Cash In",
+      "definition": "Additional amount of money paid by the investor in addition to the switch redemption amount."
+    },
+    "ResultingCashOut": {
+      "name": "Resulting Cash Out",
+      "definition": "Amount of money that results from a switch-out, that is not reinvested in another investment fund, and is repaid to the investor."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method by which the transaction is settled."
+    },
+    "BestExecution": {
+      "name": "Best Execution",
+      "definition": "Specifies that the execution was subject to best execution rules as defined by MiFID."
+    },
+    "RedemptionLegDetails": {
+      "name": "Redemption Leg Details",
+      "definition": "Redemption leg of a switch order execution."
+    },
+    "SubscriptionLegDetails": {
+      "name": "Subscription Leg Details",
+      "definition": "Subscription leg of a switch order execution."
+    },
+    "CashSettlementDetails": {
+      "name": "Cash Settlement Details",
+      "definition": "Payment transaction resulting from the investment fund order execution."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Currency exchange related to the execution of an investment fund order."
+    },
+    "FinancialAdvice": {
+      "name": "Financial Advice",
+      "definition": "Specifies if advice has been received from an independent financial advisor."
+    },
+    "NegotiatedTrade": {
+      "name": "Negotiated Trade",
+      "definition": "Specifies whether the trade is negotiated."
+    },
+    "LateReport": {
+      "name": "Late Report",
+      "definition": "Specifies whether the order execution confirmation is late."
+    }
+  },
+  "isoRules": {
+    "InvestmentAccountDetailsRule": {
+      "definition": "Either InvestmentAccountDetails or (all occurrences of SubscriptionLegDetails/InvestmentAccountDetails and of RedemptionLegDetails/InvestmentAccountDetails) must be present, but not both."
+    },
+    "OrderOriginatorEligibilityRule": {
+      "definition": "Either InvestmentAccountDetails/OrderOriginatorEligibility or a single occurrence of RedemptionLegDetails/InvestmentAccountDetails/OrderOriginatorEligibility or a single occurrence of SubscriptionLegDetails/InvestmentAccountDetails/OrderOriginatorEligibility should be only present."
+    },
+    "CashInOrCashOutRule": {
+      "definition": "Either AdditionalCashIn or ResultingCashOut may be present, but not both."
+    }
+  }
+}

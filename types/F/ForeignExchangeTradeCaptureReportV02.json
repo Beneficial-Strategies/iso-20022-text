@@ -1,0 +1,67 @@
+{
+  "isoType": "ForeignExchangeTradeCaptureReportV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Capture Report V 02",
+  "definition": "Scope|The ForeignExchangeTradeCaptureReport message is sent by a trading system to a participant for notification and providing details of a treasury trade.|Usage|The report is sent by the trading system to the two trading parties after their trade has been executed. |The report can also be sent by the trading system to a trading parties to respond their inquiry (TradeCaptureRequest). |Note that multiple reports can be sent to respond one inquiry message.|The message may contains trade details and trading parties' information.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Capture report message management information."
+    },
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the capture report message."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the treasury trade which is captured."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty side of the treasury trade which is captured."
+    },
+    "TradeDetail": {
+      "name": "Trade Detail",
+      "definition": "Details of the treasury trade captured."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference of the report."
+    },
+    "RequestResponder": {
+      "name": "Request Responder",
+      "definition": "Indicates if this report is for responding to a capture request."
+    },
+    "RequestRejected": {
+      "name": "Request Rejected",
+      "definition": "Indicates if this report is a rejection report for responding to a capture request.||Usage: when absent, default value is \"false\"."
+    },
+    "QueryRejectReason": {
+      "name": "Query Reject Reason",
+      "definition": "Reason of rejection."
+    },
+    "TotalNumberTrades": {
+      "name": "Total Number Trades",
+      "definition": "Indicates the total number of trades."
+    },
+    "LastReportRequested": {
+      "name": "Last Report Requested",
+      "definition": "Indicates if this report is the last report sent for responding to one capture request.||Usage: when absent, default value is \"false\"."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "RequestRejectedRule": {
+      "definition": "If Request Rejected is \"true\" or \"1\" (Yes), then Query Reject Reason must be present.|If Request Rejected is \"false\" or \"0\" (No), then Total Number Trades and Last Report Requested must be present."
+    },
+    "RequestResponderRule": {
+      "definition": "If RequestResponder is \"true\" or \"1\" (Yes), then Reference and Request Rejected must be present.|If RequestResponder is \"false\" or \"0\" (No), then TradeDetail and TradingSideIdentification and CounterpartySideIdentification must be present."
+    },
+    "TotalNumberTradesRule": {
+      "definition": "If TotalNumberTrades is not equal to 0, then Trade Information and TradingSideIdentification and CounterpartySideIdentification must be present."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "TradeDateTimeQueryCriteria2",
+  "language": "en",
+  "name": "Trade Date Time Query Criteria 2",
+  "definition": "Date and time query criteria.",
+  "isoElements": {
+    "ReportingDateTime": {
+      "name": "Reporting Date Time",
+      "definition": "Indicates the reporting date and full hour that transaction was reported."
+    },
+    "ExecutionDateTime": {
+      "name": "Execution Date Time",
+      "definition": "Indicates the date and full hour the trade was executed."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Indicates the date when the trade was matured."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Indicates the date when the trade was terminated."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 4 elements must be present."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "ReportingAssetBreakdown2",
+  "language": "en",
+  "name": "Reporting Asset Breakdown 2",
+  "definition": "Specifies the breakdown of a reported amount that can be split across a range of assets: agency, cash, corporate, equity, municipal, sovereign, or another asset class.",
+  "isoElements": {
+    "ReportingAssetType": {
+      "name": "Reporting Asset Type",
+      "definition": "Class of the asset which is a component of the breakdown."
+    },
+    "DebtIssuerType": {
+      "name": "Debt Issuer Type",
+      "definition": "Identifies the type of the issuer of a bond."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the reporting asset."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Value of the reporting asset."
+    }
+  },
+  "isoRules": {
+    "DebtIssuerTypeRule": {
+      "definition": "If ReportingAssetType is equal to value 'BOND', then DebtIssuerType must be present."
+    },
+    "ConditionalPresenceOfBond": {
+      "definition": "The Debt Issuer Type must be present if and only if Financial Instrument Type equals 'Bond'"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "Tax44",
+  "language": "en",
+  "name": "Tax 44",
+  "definition": "Description of tax.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of tax. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the tax."
+    },
+    "Exemption": {
+      "name": "Exemption",
+      "definition": "Exemption for this type of tax.||True: Exemption of tax|False: No exemption of tax"
+    },
+    "ExemptReason": {
+      "name": "Exempt Reason",
+      "definition": "Reason for tax exemption."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Tax amount."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Tax rate applied on original amount."
+    },
+    "IncludedInTotal": {
+      "name": "Included In Total",
+      "definition": "Indicate whether the Tax amount is included in total transaction amount"
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "A code to indicate the amount is credit or debit"
+    }
+  }
+}

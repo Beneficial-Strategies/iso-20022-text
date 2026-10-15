@@ -1,0 +1,23 @@
+{
+  "isoType": "ServiceLevel1Code",
+  "language": "en",
+  "name": "Service Level 1 Code",
+  "definition": "Specifies the pre-agreed level of service between the parties.",
+  "isoCodes": {
+    "SEPA": {
+      "isoName": "SingleEuroPaymentsArea",
+      "name": "Single Euro Payments Area",
+      "definition": "Payment must be executed following the Single Euro Payments Area scheme."
+    },
+    "SDVA": {
+      "isoName": "SameDayValue",
+      "name": "Same Day Value",
+      "definition": "Payment must be executed with same day value to the creditor."
+    },
+    "PRPT": {
+      "isoName": "EBAPriorityService",
+      "name": "EBA Priority Service",
+      "definition": "Transaction must be processed according to the EBA|Priority Service."
+    }
+  }
+}

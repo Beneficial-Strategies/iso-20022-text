@@ -1,0 +1,195 @@
+{
+  "isoType": "SubscriptionExecution6",
+  "language": "en",
+  "name": "Subscription Execution 6",
+  "definition": "Execution of a subscription order.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for an order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for an order execution, as assigned by a confirming party."
+    },
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Specifies the category of the investment fund order."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which an investment fund order execution is related."
+    },
+    "SubAccountForHolding": {
+      "name": "Sub Account For Holding",
+      "definition": "Subdivision of an account used to segregate specific holdings."
+    },
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment fund units subscribed."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money invested in a specific financial instrument by an investor, after deduction of charges, commissions and taxes.|[Quantity * Price]."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money invested in a specific financial instrument by an investor, before deduction of charges, commissions, and taxes.|[(Quantity * Price) + (Charges + Commissions +Taxes)]."
+    },
+    "Rounding": {
+      "name": "Rounding",
+      "definition": "Indicates the rounding direction applied to nearest unit."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and time at which a price is applied, according to the terms stated in the prospectus."
+    },
+    "DealingPriceDetails": {
+      "name": "Dealing Price Details",
+      "definition": "Price at which the order was executed."
+    },
+    "InformativePriceDetails": {
+      "name": "Informative Price Details",
+      "definition": "Other quoted price than the one at which the order was executed."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method by which the transaction is settled."
+    },
+    "PartiallyExecutedIndicator": {
+      "name": "Partially Executed Indicator",
+      "definition": "Indicates whether the order has been partially executed, ie, the confirmed quantity does not match the ordered quantity for a given financial instrument."
+    },
+    "BestExecution": {
+      "name": "Best Execution",
+      "definition": "Specifies that the execution was subject to best execution rules as defined by MiFID."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, ie, cum-dividend, in the executed price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "InterimProfitAmount": {
+      "name": "Interim Profit Amount",
+      "definition": "Part of the price deemed as accrued income or profit rather than capital. The interim profit amount is used for tax purposes."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "LetterIntentReference": {
+      "name": "Letter Intent Reference",
+      "definition": "Reference of a letter of intent program, in which sales commissions are reduced based on the aggregate of a customer's actual purchase and anticipated purchases, over a specific period of time, and as agreed by the customer. A letter of intent program is mainly used in the US market."
+    },
+    "AccumulationRightReference": {
+      "name": "Accumulation Right Reference",
+      "definition": "Reference of an accumulation right program, in which sales commissions are based on a customer's present purchases of shares and the aggregate quantity previously purchased by the customer. An accumulation rights program is mainly used in the US market."
+    },
+    "ChargeGeneralDetails": {
+      "name": "Charge General Details",
+      "definition": "Amount of money associated with a service."
+    },
+    "CommissionGeneralDetails": {
+      "name": "Commission General Details",
+      "definition": "Amount of money due to a party as compensation for a service."
+    },
+    "TaxGeneralDetails": {
+      "name": "Tax General Details",
+      "definition": "Tax related to an investment fund order."
+    },
+    "SettlementAndCustodyDetails": {
+      "name": "Settlement And Custody Details",
+      "definition": "Parameters used to execute the settlement of an investment fund order."
+    },
+    "PhysicalDeliveryIndicator": {
+      "name": "Physical Delivery Indicator",
+      "definition": "Indicates whether the financial instrument is to be physically delivered."
+    },
+    "PhysicalDeliveryDetails": {
+      "name": "Physical Delivery Details",
+      "definition": "Information related to physical delivery of the securities."
+    },
+    "RequestedSettlementCurrency": {
+      "name": "Requested Settlement Currency",
+      "definition": "Currency requested for settlement of cash proceeds."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "Refund": {
+      "name": "Refund",
+      "definition": "Return of cash that has been overpaid for a subscription."
+    },
+    "SubscriptionInterest": {
+      "name": "Subscription Interest",
+      "definition": "Interest received when a subscription amount is paid in advance and then invested by the fund."
+    },
+    "CashSettlementDetails": {
+      "name": "Cash Settlement Details",
+      "definition": "Payment transaction resulting from the investment fund order execution."
+    },
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "PartialSettlementOfUnits": {
+      "name": "Partial Settlement Of Units",
+      "definition": "Percentage of units partially settled."
+    },
+    "PartialSettlementOfCash": {
+      "name": "Partial Settlement Of Cash",
+      "definition": "Percentage of cash partially settled."
+    },
+    "StaffClientBreakdown": {
+      "name": "Staff Client Breakdown",
+      "definition": "Breakdown of the net amount per type of order."
+    },
+    "FinancialAdvice": {
+      "name": "Financial Advice",
+      "definition": "Specifies if advice has been received from an independent financial advisor."
+    },
+    "NegotiatedTrade": {
+      "name": "Negotiated Trade",
+      "definition": "Specifies whether the trade is negotiated."
+    },
+    "LateReport": {
+      "name": "Late Report",
+      "definition": "Specifies whether the order execution confirmation is late."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Information about parties related to the transaction."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year."
+    }
+  },
+  "isoRules": {
+    "PhysicalDeliveryDetailsRule": {
+      "definition": "If PhysicalDeliveryIndicator is \"false\" or \"0\" (No), then PhysicalDeliveryDetails is not allowed. If PhysicalDeliveryIndicator is \"true\" or \"1\" (Yes), then PhysicalDeliveryDetails must be present."
+    },
+    "PriceDifferenceReasonRule": {
+      "definition": "Any occurrence of InformativePriceDetails/PriceDifferenceReason may not be present."
+    },
+    "RequestedSettlementCurrencyRule": {
+      "definition": "If RequestedSettlementCurrency is present, it must be the same Currency as in SettlementAmount."
+    }
+  }
+}

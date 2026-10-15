@@ -1,0 +1,28 @@
+{
+  "isoType": "StatusAndReason46",
+  "language": "en",
+  "name": "Status And Reason 46",
+  "definition": "Provides details related to the status of the order.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "name": "Affirmation Status",
+      "definition": "Status of affirmation of a trade."
+    },
+    "UnaffirmedReason": {
+      "name": "Unaffirmed Reason",
+      "definition": "Specifies the reason why the instruction has an unaffirmed status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Provides additional information about the reason in narrative form."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    },
+    "UnaffirmedReasonRule": {
+      "definition": "If AffirmationStatus is Unaffirmed then UnaffirmedReason must be present."
+    }
+  }
+}

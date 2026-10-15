@@ -1,0 +1,61 @@
+{
+  "isoType": "LineItemDetails14",
+  "language": "en",
+  "name": "Line Item Details 14",
+  "definition": "Goods or services that are part of a commercial trade agreement.",
+  "isoElements": {
+    "LineItemIdentification": {
+      "name": "Line Item Identification",
+      "definition": "Sequential number assigned to a line item."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies the quantity of a product in a trade transaction."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Amount of money for which goods or services are offered, sold, or bought."
+    },
+    "ProductName": {
+      "name": "Product Name",
+      "definition": "Name of the product detailed in the corresponding line item."
+    },
+    "ProductIdentifier": {
+      "name": "Product Identifier",
+      "definition": "Identifies the product of the corresponding line item."
+    },
+    "ProductCharacteristics": {
+      "name": "Product Characteristics",
+      "definition": "Identifies the characteristics of product."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Identifies the category of product."
+    },
+    "ProductOrigin": {
+      "name": "Product Origin",
+      "definition": "Country of origin of the goods."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on price for the goods."
+    },
+    "FreightCharges": {
+      "name": "Freight Charges",
+      "definition": "Charges related to the conveyance of goods."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters linked to the value of the goods in a trade transaction."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the line item after adjustments have been applied."
+    }
+  },
+  "isoRules": {
+    "ProductOriginBPORule": {
+      "definition": "ProductOrigin is mandatory if PaymentObligation (BPO) is used in this transaction."
+    }
+  }
+}

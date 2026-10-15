@@ -1,0 +1,20 @@
+{
+  "isoType": "ReconciliationResponseData2",
+  "language": "en",
+  "name": "Reconciliation Response Data 2",
+  "definition": "Content of the Reconciliation Response message.",
+  "isoElements": {
+    "ReconciliationType": {
+      "name": "Reconciliation Type",
+      "definition": "Type of Reconciliation requested by the Sale to the POI."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Identification of the reconciliation period between Sale and POI."
+    },
+    "TransactionTotals": {
+      "name": "Transaction Totals",
+      "definition": "Result of the Sale to POI Reconciliation processing."
+    }
+  }
+}

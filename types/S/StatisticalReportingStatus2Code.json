@@ -1,0 +1,23 @@
+{
+  "isoType": "StatisticalReportingStatus2Code",
+  "language": "en",
+  "name": "Statistical Reporting Status 2 Code",
+  "definition": "Specifies the status of a single statistical reporting transaction.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Transaction or report has been accepted."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Transaction or report has been rejected."
+    },
+    "WARN": {
+      "isoName": "Warning",
+      "name": "Warning",
+      "definition": "Transaction has been accepted with warnings."
+    }
+  }
+}

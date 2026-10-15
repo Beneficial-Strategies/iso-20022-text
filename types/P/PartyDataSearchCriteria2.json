@@ -1,0 +1,44 @@
+{
+  "isoType": "PartyDataSearchCriteria2",
+  "language": "en",
+  "name": "Party Data Search Criteria 2",
+  "definition": "Set of search criteria for querying party reference data.",
+  "isoElements": {
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Specifies the opening date of the party."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Specifies the closing date of the party."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type classification of the party."
+    },
+    "ResponsiblePartyIdentification": {
+      "name": "Responsible Party Identification",
+      "definition": "Unique identification of the party responsible for the maintenance of the party reference data."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification to unambiguously identify the party within the system."
+    },
+    "RestrictionIdentification": {
+      "name": "Restriction Identification",
+      "definition": "Specifies the identification of a restriction."
+    },
+    "RestrictionIssueDate": {
+      "name": "Restriction Issue Date",
+      "definition": "Specifies the date when the restriction for the party has been issued."
+    },
+    "ResidenceType": {
+      "name": "Residence Type",
+      "definition": "Specifies the type of residence where the party has its permanent home or principal establishment."
+    },
+    "LockStatus": {
+      "name": "Lock Status",
+      "definition": "Specifies whether the party is locked or not, and the reason for this status, when required."
+    }
+  }
+}

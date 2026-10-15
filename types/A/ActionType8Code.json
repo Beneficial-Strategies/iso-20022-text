@@ -1,0 +1,58 @@
+{
+  "isoType": "ActionType8Code",
+  "language": "en",
+  "name": "Action Type 8 Code",
+  "definition": "Recommended action for the card issuer.",
+  "isoCodes": {
+    "APPV": {
+      "isoName": "Approve",
+      "name": "Approve",
+      "definition": "Approve the transaction."
+    },
+    "BLCK": {
+      "isoName": "BlockCard",
+      "name": "Block Card",
+      "definition": "Block the card."
+    },
+    "CPTR": {
+      "isoName": "CaptureCard",
+      "name": "Capture Card",
+      "definition": "Capture the card."
+    },
+    "DCLN": {
+      "isoName": "Decline",
+      "name": "Decline",
+      "definition": "Decline the transaction."
+    },
+    "RQID": {
+      "isoName": "IdentificationRequired",
+      "name": "Identification Required",
+      "definition": "Additional identification required (passport, ID card, etc.)."
+    },
+    "NDCL": {
+      "isoName": "NoReasonForDecline",
+      "name": "No Reason For Decline",
+      "definition": "No reason for declining the transaction."
+    },
+    "RFRL": {
+      "isoName": "Referral",
+      "name": "Referral",
+      "definition": "Referral has to be performed."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other action defined at national level."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other action defined at private level"
+    },
+    "STUA": {
+      "isoName": "StepUpAuthentication",
+      "name": "Step Up Authentication",
+      "definition": "Further authentication required (e.g. one-time password)"
+    }
+  }
+}

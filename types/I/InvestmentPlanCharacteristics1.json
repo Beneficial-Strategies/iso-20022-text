@@ -1,0 +1,45 @@
+{
+  "isoType": "InvestmentPlanCharacteristics1",
+  "language": "en",
+  "name": "Investment Plan Characteristics 1",
+  "definition": "Characteristics of an investment plan.",
+  "isoElements": {
+    "PlanType": {
+      "name": "Plan Type",
+      "definition": "Type of investment plan."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the investment plan."
+    },
+    "TotalNumberOfInstalments": {
+      "name": "Total Number Of Instalments",
+      "definition": "Total number of times the amount must be invested at the predefined frequency as of the start date of the investment plan."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Minimum amount of the periodical payments. (If there is no maximum, then '0' must be specified for the Amount or Units.)"
+    },
+    "PlanContinuation": {
+      "name": "Plan Continuation",
+      "definition": "Indicates whether it is possible to continue the savings plan after the end date."
+    },
+    "AdditionalSubscription": {
+      "name": "Additional Subscription",
+      "definition": "Indicates whether it is possible to subscribe to additional instalments over and above that permitted by the savings plan frequency."
+    },
+    "AdditionalSubscriptionFunction": {
+      "name": "Additional Subscription Function",
+      "definition": "Indicates whether any additional instalments will reduce the period of the life of the savings investment plan."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the investment plan."
+    }
+  },
+  "isoRules": {
+    "InvestmentPlanRule": {
+      "definition": "If PlanType/Code is not INVP the AdditionalSubscription and AdditionalSubscriptionFunction must not be present."
+    }
+  }
+}

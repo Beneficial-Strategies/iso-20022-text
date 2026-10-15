@@ -1,0 +1,20 @@
+{
+  "isoType": "AllocationStatus1Choice",
+  "language": "en",
+  "name": "Allocation Status 1 Choice",
+  "definition": "Provides the status of allocation of collateral to cover the instruction.",
+  "isoElements": {
+    "FullyAllocated": {
+      "name": "Fully Allocated",
+      "definition": "Instruction has been fully covered by collateral."
+    },
+    "PartiallyAllocated": {
+      "name": "Partially Allocated",
+      "definition": "Instruction has been partially covered by collateral."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary status."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "Verification6",
+  "language": "en",
+  "name": "Verification 6",
+  "definition": "Method and data intended to be verified as well as the related results.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of authentication or verification."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other type of authentication or verification."
+    },
+    "SubType": {
+      "name": "Sub Type",
+      "definition": "Type of authentication for a given method (for example, three domain authentication, scheme proprietary solution, type of cryptogram, etc.)."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Contains verification or authentication data."
+    },
+    "PINData": {
+      "name": "PIN Data",
+      "definition": "Personal Identification Number data.|ISO 13492 and ISO 9564-1"
+    },
+    "Entity": {
+      "name": "Entity",
+      "definition": "Entity who actually performed the verification."
+    },
+    "OtherEntity": {
+      "name": "Other Entity",
+      "definition": "Other national or private entity in charge of the verification."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Result of the verification."
+    },
+    "OtherResult": {
+      "name": "Other Result",
+      "definition": "Additional result of the verification, for instance for electronic commerce."
+    },
+    "ResultDetails": {
+      "name": "Result Details",
+      "definition": "Details of the result."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionEventReferenceSD2",
+  "language": "en",
+  "name": "Corporate Action Event Reference SD 2",
+  "definition": "Provides additional information regarding linkage details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "LinkageType": {
+      "name": "Linkage Type",
+      "definition": "Indicates the reason why two or more events are related."
+    },
+    "LinkAddedDate": {
+      "name": "Link Added Date",
+      "definition": "Events can be linked together. This date represents the date on which the link was established."
+    },
+    "LinkModifiedDate": {
+      "name": "Link Modified Date",
+      "definition": "Events can be linked together. This date represents the date on which the link was modified."
+    }
+  }
+}

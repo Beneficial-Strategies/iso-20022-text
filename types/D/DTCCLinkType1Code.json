@@ -1,0 +1,63 @@
+{
+  "isoType": "DTCCLinkType1Code",
+  "language": "en",
+  "name": "DTCC Link Type 1 Code",
+  "definition": "Specifies types of linked events.",
+  "isoCodes": {
+    "COEV": {
+      "isoName": "CorrespondingEvent",
+      "name": "Corresponding Event",
+      "definition": "Events that are concurrent and affect the same underlying security (for example: Stock Split followed by a Reverse Split)."
+    },
+    "DUPE": {
+      "isoName": "Duplicate",
+      "name": "Duplicate",
+      "definition": "Events (event records) are duplicate of each other."
+    },
+    "CHMA": {
+      "isoName": "EventChangeToMandatory",
+      "name": "Event Change To Mandatory",
+      "definition": "Events that are consecutive and evolve from a Voluntary Event to a Mandatory Event but of the same basic GCA (Global Corporate Actions validation service) event type. For example Exchange - Voluntary to Exchange - Mandatory. Note: The old and new events should not overlap and the older event will remain in an \"approved\" state."
+    },
+    "CHVO": {
+      "isoName": "EventChangeToVoluntary",
+      "name": "Event Change To Voluntary",
+      "definition": "Event that are consecutive and evolve from a Mandatory Event to a voluntary event (for example Merger-Mandatory becomes a Merger-Voluntary)."
+    },
+    "FRSE": {
+      "isoName": "FractionalSecurity",
+      "name": "Fractional Security",
+      "definition": "Events are linked because of fractional security."
+    },
+    "HYBS": {
+      "isoName": "PartOfHybridSecurity",
+      "name": "Part Of Hybrid Security",
+      "definition": "Events are linked because of underlying security is part of hybrid security. Hybrid securities have underlying securities. As an example Telecom hybrid security is made of various Telecom securities, example ATT, Verizon etc. When there is a dividend on the underlying security the hybrid pays as well. Announcements are linked under the hybrid security payment announcement to the underlying security that is paying that event. This is the way the holders of the hybrid are informed where this income is being derived from, since on many occasions there can be multiple announcements under the hybrid at the same time since the underlying securities are paying a distribution."
+    },
+    "ISEV": {
+      "isoName": "EventOnIntermediarySecurity",
+      "name": "Event On Intermediary Security",
+      "definition": "Events are linked because of an intermediary security (for example Rights Distribution to a Rights Subscription; Rights Subscription to an Assimilation)."
+    },
+    "IUNS": {
+      "isoName": "InsuredUninsuredSecurities",
+      "name": "Insured Uninsured Securities",
+      "definition": "Events are linked because of insured or uninsured securities. In the market there are many securities where a municipality or issuer will insure a portion of their outstanding principal. It technically is the same security, however, there are two different CUSIPs one for the insured piece and the other for the un insured part."
+    },
+    "TONU": {
+      "isoName": "EventConvertedToNewEvent",
+      "name": "Event Converted To New Event",
+      "definition": "Event that are consecutive but of a different GCA (Global Corporate actions validation service) event type. For example Tender converts to Merger Voluntary when 429 Notice issued. Note: the old and new events should not overlap and the older event will remain in an \"approved\" state."
+    },
+    "MMKT": {
+      "isoName": "MultiMarket",
+      "name": "Multi Market",
+      "definition": "Events are linked because event security is listed in another market under another market security."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Cannot be classified by any of the link types."
+    }
+  }
+}

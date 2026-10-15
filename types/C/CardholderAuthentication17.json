@@ -1,0 +1,52 @@
+{
+  "isoType": "CardholderAuthentication17",
+  "language": "en",
+  "name": "Cardholder Authentication 17",
+  "definition": "Data related to the authentication of the cardholder.",
+  "isoElements": {
+    "AuthenticationMethod": {
+      "name": "Authentication Method",
+      "definition": "Method and data intended to be used for this transaction to authenticate the cardholder or its card."
+    },
+    "AuthenticationExemption": {
+      "name": "Authentication Exemption",
+      "definition": "If Strong Customer Authentication is not mandated to process the transaction, this message element must identify the reason of exemption."
+    },
+    "AuthenticationValue": {
+      "name": "Authentication Value",
+      "definition": "Value used to authenticate the cardholder."
+    },
+    "ProtectedAuthenticationValue": {
+      "name": "Protected Authentication Value",
+      "definition": "Protection of the authentication value."
+    },
+    "CardholderOnLinePIN": {
+      "name": "Cardholder On Line PIN",
+      "definition": "Encrypted personal identification number (PIN) and related information."
+    },
+    "CardholderIdentification": {
+      "name": "Cardholder Identification",
+      "definition": "Identification of the cardholder to verify."
+    },
+    "AddressVerification": {
+      "name": "Address Verification",
+      "definition": "Numeric characters of the cardholder's billing or shipping address for verification."
+    },
+    "AuthenticationType": {
+      "name": "Authentication Type",
+      "definition": "Type of authentication for a given method - e.g. three-domain authentication, scheme-proprietary authentication, etc."
+    },
+    "AuthenticationLevel": {
+      "name": "Authentication Level",
+      "definition": "Level of authentication for a given type – e.g. value assigned by scheme rules or by bilateral agreements."
+    },
+    "AuthenticationResult": {
+      "name": "Authentication Result",
+      "definition": "Result of authentication."
+    },
+    "AuthenticationAdditionalInformation": {
+      "name": "Authentication Additional Information",
+      "definition": "Additional information related to the result of the authentication."
+    }
+  }
+}

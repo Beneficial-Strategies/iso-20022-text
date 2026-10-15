@@ -1,0 +1,20 @@
+{
+  "isoType": "CounterpartyData88",
+  "language": "en",
+  "name": "Counterparty Data 88",
+  "definition": "Set of information specific to the counterparty.",
+  "isoElements": {
+    "ReportingDateTime": {
+      "name": "Reporting Date Time",
+      "definition": "Date and time of submission of the report to the trade repository."
+    },
+    "ReportSubmittingEntity": {
+      "name": "Report Submitting Entity",
+      "definition": "Unique code identifying the entity which submits the report. In the case where submission of the report has been delegated to a third party or to the other counterparty, a unique code identifying that entity."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Set of information specific to counterparties."
+    }
+  }
+}

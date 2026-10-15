@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareUnitPrice4",
+  "language": "en",
+  "name": "Compare Unit Price 4",
+  "definition": "Specifies two values to compare for a unit price.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the first side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDepositCompletionAdviceV02",
+  "language": "en",
+  "name": "ATM Deposit Completion Advice V 02",
+  "definition": "The ATMDepositCompletionAdvice message is sent by an ATM to an acquirer or its agent to inform of the result of a deposit transaction at an ATM.|If the ATM is configured to only send negative completion, a generic completion message should be used instead of ATMCompletionAdvice.|This message can be used each time a bundle is put in the ATM safe and/or at the end of a multi bundle deposit.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMDepositCompletionAdvice": {
+      "name": "Protected ATM Deposit Completion Advice",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMDepositCompletionAdvice": {
+      "name": "ATM Deposit Completion Advice",
+      "definition": "Information related to the completion of a deposit transaction on the ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

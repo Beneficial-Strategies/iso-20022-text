@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalPostTradeBond1Code",
+  "language": "en",
+  "name": "External Post Trade Bond 1 Code",
+  "definition": "Information related to the post trade of bonds.",
+  "isoCodes": {
+    "FULG": {
+      "isoName": "FullDetailsWithPreviouslyAggregated",
+      "name": "Full Details With Previously Aggregated",
+      "definition": "Full details flag G for Individual transactions in sovereign bonds which have previously benefited from aggregated publication."
+    },
+    "FULO": {
+      "isoName": "FullDetailsWithPreviouslyOmitted",
+      "name": "Full Details With Previously Omitted",
+      "definition": "Full details flag O for transactions in a sovereign bond which has previously benefitted from the omission of the publication of the volume."
+    },
+    "LIF4": {
+      "isoName": "LargeIlliquid",
+      "name": "Large Illiquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a large size in a financial instrument for which there is not a liquid market."
+    },
+    "LLF3": {
+      "isoName": "LargeLiquid",
+      "name": "Large Liquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a large size in a financial instrument for which there is a liquid market."
+    },
+    "MTCH": {
+      "isoName": "MatchedPrincipalTransaction",
+      "name": "Matched Principal Transaction",
+      "definition": "Flag for matched principal transactions."
+    },
+    "MIF2": {
+      "isoName": "MediumIlliquid",
+      "name": "Medium Illiquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a medium size in a financial instrument for which there is not a liquid market."
+    },
+    "NEGO": {
+      "isoName": "NegotiatedTransaction",
+      "name": "Negotiated Transaction",
+      "definition": "Flag for transactions which are negotiated privately but reported under the rules of a trading venue."
+    },
+    "MLF1": {
+      "isoName": "MediumLiquid",
+      "name": "Medium Liquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a medium size in a financial instrument for which there is a liquid market."
+    },
+    "NPFT": {
+      "isoName": "NonPriceFormingTransaction",
+      "name": "Non Price Forming Transaction",
+      "definition": "Flag for non-price forming transactions."
+    },
+    "TPAC": {
+      "isoName": "PackageTransaction",
+      "name": "Package Transaction",
+      "definition": "Flag for package transactions, which are not exchange for physicals."
+    },
+    "PORT": {
+      "isoName": "PortfolioTransaction",
+      "name": "Portfolio Transaction",
+      "definition": "Flag for transactions in five or more different financial instruments where those transactions are traded at the same time by the same client.||It is used against a single lot price and that is not a ‘package transaction'."
+    },
+    "VIF5": {
+      "isoName": "VeryLargeIlliquid",
+      "name": "Very Large Illiquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a very large size in a financial instrument for which there is not a liquid market."
+    },
+    "VLF5": {
+      "isoName": "VeryLargeLiquid",
+      "name": "Very Large Liquid",
+      "definition": "Flag for transactions in bonds benefiting from a deferral applicable to transactions of a very large size in a financial instrument for which there is a liquid market"
+    },
+    "OMIS": {
+      "isoName": "VolumeOmission",
+      "name": "Volume Omission",
+      "definition": "Flag for transactions in a sovereign bond which benefits from the omission of the publication of the volume."
+    }
+  }
+}

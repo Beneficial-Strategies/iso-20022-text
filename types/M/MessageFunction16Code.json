@@ -1,0 +1,33 @@
+{
+  "isoType": "MessageFunction16Code",
+  "language": "en",
+  "name": "Message Function 16 Code",
+  "definition": "Identifies the type of process related to a financial initiation and financial response message.|ISO 8583 MTI",
+  "isoCodes": {
+    "ADVC": {
+      "isoName": "Advice",
+      "name": "Advice",
+      "definition": "Advice indicates where the sender informs the receiver of an activity that has been taken that requires a response."
+    },
+    "NOTI": {
+      "isoName": "Notification",
+      "name": "Notification",
+      "definition": "Information about the transaction."
+    },
+    "CAAD": {
+      "isoName": "CaptureAdvice",
+      "name": "Capture Advice",
+      "definition": "Advice about the capture of an activity already performed (response expected)."
+    },
+    "CANO": {
+      "isoName": "CaptureNotification",
+      "name": "Capture Notification",
+      "definition": "Notification about the capture of an activity already performed (no response expected)."
+    },
+    "REQU": {
+      "isoName": "Request",
+      "name": "Request",
+      "definition": "Message function is a request."
+    }
+  }
+}

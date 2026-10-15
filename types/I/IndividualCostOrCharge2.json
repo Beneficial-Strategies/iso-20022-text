@@ -1,0 +1,50 @@
+{
+  "isoType": "IndividualCostOrCharge2",
+  "language": "en",
+  "name": "Individual Cost Or Charge 2",
+  "definition": "Individual cost or charge associated with the distribution or selling of a financial instrument. It may be one-off or recurring charge. It may be intended (ex ante) or actual (ex post).",
+  "isoElements": {
+    "CostType": {
+      "name": "Cost Type",
+      "definition": "Type of cost or charge."
+    },
+    "ExAnteOrExPost": {
+      "name": "Ex Ante Or Ex Post",
+      "definition": "Specifies if the cost or charge is ex ante (intended) or post ante (actual)."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the cost or charge."
+    },
+    "Sign": {
+      "name": "Sign",
+      "definition": "Indicates a negative amount."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate of the cost or charge."
+    },
+    "ReferencePeriod": {
+      "name": "Reference Period",
+      "definition": "Start date and end date of the reference period for the ex post cost or charge. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 08090 and 08100."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the individual cost or charge."
+    }
+  },
+  "isoRules": {
+    "ExAnteOrExPost2Guideline": {
+      "definition": "If ExAnteOrExPost contains POST then CostType must be an ex post cost or charge."
+    },
+    "ExAnteOrExPost1Guideline": {
+      "definition": "If ExAnteOrExPost contains ANTE then CostType must be an ex ante cost or charge."
+    },
+    "SignAmount2Rule": {
+      "definition": "Sign must only be used to express a negative value for Amount."
+    },
+    "SignAmount1Rule": {
+      "definition": "If Amount is not present, then Sign is not allowed."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CashAccountType2",
+  "language": "en",
+  "name": "Cash Account Type 2",
+  "definition": "Nature or use of the account.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Account type, in a coded form."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Nature or use of the account in a proprietary form."
+    }
+  },
+  "isoRules": {
+    "CodeOrProprietaryRule": {
+      "definition": "Either Code or Proprietary must be present, but not both."
+    }
+  }
+}

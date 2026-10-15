@@ -1,0 +1,21 @@
+{
+  "isoType": "NotionalAmountLegs6",
+  "language": "en",
+  "name": "Notional Amount Legs 6",
+  "definition": "Indicates the monetary or converted amount for the derivatives transaction.",
+  "isoElements": {
+    "FirstLeg": {
+      "name": "First Leg",
+      "definition": "Notional amount of leg 1 which indicates monetary or converted amount for the derivatives transaction."
+    },
+    "SecondLeg": {
+      "name": "Second Leg",
+      "definition": "Notional amount of leg 2 which indicates monetary or converted amount for the derivatives transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

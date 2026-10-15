@@ -1,0 +1,28 @@
+{
+  "isoType": "ProcessingStatus43Choice",
+  "language": "en",
+  "name": "Processing Status 43 Choice",
+  "definition": "Choice of formats for the specification of a status.",
+  "isoElements": {
+    "Received": {
+      "name": "Received",
+      "definition": "Status of the standing settlement instruction, cancellation or deletion is received for further processing."
+    },
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "Status of the standing settlement instruction, cancellation or deletion is |acknowledged/accepted for further processing. The instruction has been received, is processable and has been validated for further processing."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Status of the standing settlement instruction, cancellation or deletion is pending."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status of the standing settlement instruction, cancellation or deletion is rejected."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Status of the standing settlement instruction, cancellation or deletion is expressed in a bilaterally agreed manner."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ReconciliationResponse11",
+  "language": "en",
+  "name": "Reconciliation Response 11",
+  "definition": "Specifies the type of financial service to be used with this message of reconciliation. This is only one service : ReconcialiationResponse.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ReconciliationResponseData": {
+      "name": "Reconciliation Response Data",
+      "definition": "Content of the Reconciliation Response message."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Result of the processing of the request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ProtectedData2",
+  "language": "en",
+  "name": "Protected Data 2",
+  "definition": "Contains protected data and the attributes used to protect the data.",
+  "isoElements": {
+    "ContentType": {
+      "name": "Content Type",
+      "definition": "Type of data protection."
+    },
+    "EnvelopedData": {
+      "name": "Enveloped Data",
+      "definition": "Consists of an encrypted content of any type and encrypted content-encryption keys for one or more recipients.  The combination of the encrypted content and one encrypted content-encryption key for a recipient is a \"digital   envelope\" for that recipient."
+    },
+    "EncryptedData": {
+      "name": "Encrypted Data",
+      "definition": "Contains encrypted data and the attributes used to encrypt the data using the ISO 13492 methods for data encryption.  The encryption key is not included in the message with this method."
+    }
+  }
+}

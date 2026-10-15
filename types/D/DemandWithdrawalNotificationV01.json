@@ -1,0 +1,16 @@
+{
+  "isoType": "DemandWithdrawalNotificationV01",
+  "language": "en",
+  "name": "Demand Withdrawal Notification V 01",
+  "definition": "The DemandWithdrawalNotification message is sent by the beneficiary to the party that issued the undertaking, either directly or via a presenting or nominated party, to inform the issuer or nominated party that it has elected to withdraw its demand under the demand guarantee or standby letter of credit.",
+  "isoElements": {
+    "DemandWithdrawalNotificationDetails": {
+      "name": "Demand Withdrawal Notification Details",
+      "definition": "Details of the demand withdrawal notification."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the notification."
+    }
+  }
+}

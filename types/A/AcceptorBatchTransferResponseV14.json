@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorBatchTransferResponseV14",
+  "language": "en",
+  "name": "Acceptor Batch Transfer Response V 14",
+  "definition": "The AcceptorBatchTransferResponse is sent by the acquirer (or its agent) to inform the acceptor (or its agent) of the transfer in a previous AcceptorBatchTransfer of a collection of transactions.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Capture advice response message management information."
+    },
+    "BatchTransferResponse": {
+      "name": "Batch Transfer Response",
+      "definition": "Information related to the previously sent set of transaction."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

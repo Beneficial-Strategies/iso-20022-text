@@ -1,0 +1,40 @@
+{
+  "isoType": "TradingParameters2",
+  "language": "en",
+  "name": "Trading Parameters 2",
+  "definition": "Place at which the security is traded.",
+  "isoElements": {
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Code allocated to places of trade, ie, stock exchanges, regulated markets, for example, Electronic Trading Platforms (ECN), and unregulated markets, for example, Automated Trading Systems (ATS) (MIC - ISO 3166)."
+    },
+    "RoundLot": {
+      "name": "Round Lot",
+      "definition": "Minimum quantity of securities that can be purchased without incurring a larger fee. For example, if the round lot size is 100 and the trade is for 125 shares, then 100 will be processed without a fee and the remaining 25 will incur a service fee for being an odd lot size."
+    },
+    "TradeLotSize": {
+      "name": "Trade Lot Size",
+      "definition": "Minimum number of securities that can be traded."
+    },
+    "SecondaryPlaceOfListing": {
+      "name": "Secondary Place Of Listing",
+      "definition": "Market(s) on which the security is listed."
+    },
+    "MinimumTradedNominalQuantity": {
+      "name": "Minimum Traded Nominal Quantity",
+      "definition": "Minimum number of securities that can be traded."
+    },
+    "MaximumTradedNominalQuantity": {
+      "name": "Maximum Traded Nominal Quantity",
+      "definition": "Maximum number of securities that can be traded."
+    },
+    "MinimumTradingPricingIncrement": {
+      "name": "Minimum Trading Pricing Increment",
+      "definition": "Indicates the minimum or smallest movement (up or down) in the price allowed for the security."
+    },
+    "PrimaryPlaceOfListingIdentification": {
+      "name": "Primary Place Of Listing Identification",
+      "definition": "Market(s) on which the security is listed."
+    }
+  }
+}

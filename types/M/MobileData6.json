@@ -1,0 +1,32 @@
+{
+  "isoType": "MobileData6",
+  "language": "en",
+  "name": "Mobile Data 6",
+  "definition": "Data related to the mobile of stakeholder.",
+  "isoElements": {
+    "MobileCountryCode": {
+      "name": "Mobile Country Code",
+      "definition": "Identifies the country of a mobile phone operator."
+    },
+    "MobileNetworkCode": {
+      "name": "Mobile Network Code",
+      "definition": "Identifies the mobile phone operator inside a country."
+    },
+    "MobileMaskedMSISDN": {
+      "name": "Mobile Masked MSISDN",
+      "definition": "Masked Mobile Subscriber Integrated Service Digital Network."
+    },
+    "Geolocation": {
+      "name": "Geolocation",
+      "definition": "Geographic location specified by geographic or UTM coordinates."
+    },
+    "SensitiveMobileData": {
+      "name": "Sensitive Mobile Data",
+      "definition": "Sensitive information related to the mobile phone."
+    },
+    "ProtectedMobileData": {
+      "name": "Protected Mobile Data",
+      "definition": "Sensitive information related to the mobile phone, protected by CMS."
+    }
+  }
+}

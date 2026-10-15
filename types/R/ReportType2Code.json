@@ -1,0 +1,18 @@
+{
+  "isoType": "ReportType2Code",
+  "language": "en",
+  "name": "Report Type 2 Code",
+  "definition": "Specifies whether the baseline report is based on matching or pre-matching data sets.",
+  "isoCodes": {
+    "PREC": {
+      "isoName": "Precalculated",
+      "name": "Precalculated",
+      "definition": "The report is precalculated. This type of report is sent when an amendment is proposed."
+    },
+    "CURR": {
+      "isoName": "Current",
+      "name": "Current",
+      "definition": "The report is calculated on the basis of a dataset matched with a baseline."
+    }
+  }
+}

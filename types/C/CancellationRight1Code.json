@@ -1,0 +1,28 @@
+{
+  "isoType": "CancellationRight1Code",
+  "language": "en",
+  "name": "Cancellation Right 1 Code",
+  "definition": "Specifies if the investor has the right to cancel an instruction or, if not, the reason the investor cannot cancel.",
+  "isoCodes": {
+    "VALI": {
+      "isoName": "Entitled",
+      "name": "Entitled",
+      "definition": "Investor is entitled to a \"cooling off\" period with cancellation rights under compliance rules."
+    },
+    "NOXO": {
+      "isoName": "ExecutionOnly",
+      "name": "Execution Only",
+      "definition": "Investor is not entitled to cancellation rights under compliance rules, as the investor is an execution's only client."
+    },
+    "NOWA": {
+      "isoName": "WaiverAgreement",
+      "name": "Waiver Agreement",
+      "definition": "Investor is not entitled to cancellation rights under compliance rules as the investor has agreed to waive those rights."
+    },
+    "NOIN": {
+      "isoName": "Institutional",
+      "name": "Institutional",
+      "definition": "Investor is not entitled to cancellation rights under compliance rules as the investor is a financial institution."
+    }
+  }
+}

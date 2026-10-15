@@ -1,0 +1,44 @@
+{
+  "isoType": "ApplicationParameters13",
+  "language": "en",
+  "name": "Application Parameters 13",
+  "definition": "Acceptor parameters dedicated to a payment application of the point of interaction.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "ApplicationIdentification": {
+      "name": "Application Identification",
+      "definition": "Identification of the payment application."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the payment application configuration parameters."
+    },
+    "ParameterFormatIdentifier": {
+      "name": "Parameter Format Identifier",
+      "definition": "Version of the parameters' format."
+    },
+    "ParametersLength": {
+      "name": "Parameters Length",
+      "definition": "Full length of parameters."
+    },
+    "OffsetStart": {
+      "name": "Offset Start",
+      "definition": "Place of this  Block, beginning with 0, in the full parameters."
+    },
+    "OffsetEnd": {
+      "name": "Offset End",
+      "definition": "Following place of this Block in the full parameters."
+    },
+    "Parameters": {
+      "name": "Parameters",
+      "definition": "Configuration parameters used by the related payment application."
+    },
+    "EncryptedParameters": {
+      "name": "Encrypted Parameters",
+      "definition": "Sensitive parameters (sequence of parameters including the envelope) encrypted with a cryptographic key."
+    }
+  }
+}

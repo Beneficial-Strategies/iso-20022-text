@@ -1,0 +1,40 @@
+{
+  "isoType": "ForeignExchangeTradeConfirmationStatusAdviceV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Confirmation Status Advice V 02",
+  "definition": "Scope|The ForeignExchageTradeConfirmationStatusAdvice message is sent from a Central matching utility (CMU) to a market participant to advise the matching status of the trade. ||Usage|The confirmation status advice is sent by the CMU to the market participants after they received the confirmation request.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Advice message management information."
+    },
+    "AdviceIdentification": {
+      "name": "Advice Identification",
+      "definition": "Identifies the advice message."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the treasury trade which is captured."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty side of the treasury trade which is captured."
+    },
+    "TradeDetail": {
+      "name": "Trade Detail",
+      "definition": "Details of the treasury trade confirmed."
+    },
+    "ConfirmationInformation": {
+      "name": "Confirmation Information",
+      "definition": "Details of the confirmation in the CMU."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Additional reference of this message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

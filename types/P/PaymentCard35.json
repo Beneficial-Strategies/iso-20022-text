@@ -1,0 +1,72 @@
+{
+  "isoType": "PaymentCard35",
+  "language": "en",
+  "name": "Payment Card 35",
+  "definition": "Payment card performing the transaction.",
+  "isoElements": {
+    "ProtectedCardData": {
+      "name": "Protected Card Data",
+      "definition": "Replacement of the message element PlainCardData by a digital envelope using a cryptographic key."
+    },
+    "PrivateCardData": {
+      "name": "Private Card Data",
+      "definition": "Replacement of the message element PlainCardData by a private envelope."
+    },
+    "PlainCardData": {
+      "name": "Plain Card Data",
+      "definition": "Sensitive data associated with the card performing the transaction."
+    },
+    "PaymentAccountReference": {
+      "name": "Payment Account Reference",
+      "definition": "Unique reference to the card, used by both merchants and acquirers to link tokenized and non-tokenized transactions associated to the same underlying card."
+    },
+    "MaskedPAN": {
+      "name": "Masked PAN",
+      "definition": "Masked PAN to be printed on payment receipts or displayed to the cardholder. Masked digits may be absent or replaced by another character as '*'."
+    },
+    "IssuerBIN": {
+      "name": "Issuer BIN",
+      "definition": "Bank identifier number of the issuer for routing purpose."
+    },
+    "CardCountryCode": {
+      "name": "Card Country Code",
+      "definition": "Country code assigned to the card by the card issuer."
+    },
+    "CardCurrencyCode": {
+      "name": "Card Currency Code",
+      "definition": "Currency code of the card issuer (ISO 4217 numeric code)."
+    },
+    "CardProductProfile": {
+      "name": "Card Product Profile",
+      "definition": "Defines a category of cards related to the acceptance processing rules defined by the acquirer."
+    },
+    "CardBrand": {
+      "name": "Card Brand",
+      "definition": "Brand name of the card."
+    },
+    "CardProductType": {
+      "name": "Card Product Type",
+      "definition": "Type of card product."
+    },
+    "CardProductSubType": {
+      "name": "Card Product Sub Type",
+      "definition": "Additional information to identify CardProduct."
+    },
+    "InternationalCard": {
+      "name": "International Card",
+      "definition": "True if the card may be used abroad."
+    },
+    "AllowedProduct": {
+      "name": "Allowed Product",
+      "definition": "Product that can be purchased with the card."
+    },
+    "ServiceOption": {
+      "name": "Service Option",
+      "definition": "Options to the service provided by the card."
+    },
+    "AdditionalCardData": {
+      "name": "Additional Card Data",
+      "definition": "Additional card issuer specific data."
+    }
+  }
+}

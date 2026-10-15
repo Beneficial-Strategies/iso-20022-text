@@ -1,0 +1,56 @@
+{
+  "isoType": "ServiceResponse10",
+  "language": "en",
+  "name": "Service Response 10",
+  "definition": "Specifies the response of the corresponding service request.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ServiceContent": {
+      "name": "Service Content",
+      "definition": "Define the type of service response."
+    },
+    "PaymentResponse": {
+      "name": "Payment Response",
+      "definition": "Data to respond to a Payment request."
+    },
+    "ReversalResponse": {
+      "name": "Reversal Response",
+      "definition": "Response Data to a Reversal request."
+    },
+    "BalanceInquiryResponse": {
+      "name": "Balance Inquiry Response",
+      "definition": "Response data to a balance inquiry service request."
+    },
+    "LoyaltyResponse": {
+      "name": "Loyalty Response",
+      "definition": "Response data to a loyalty service request."
+    },
+    "StoredValueResponse": {
+      "name": "Stored Value Response",
+      "definition": "Response data to a Stored Value request."
+    },
+    "BatchResponse": {
+      "name": "Batch Response",
+      "definition": "Content of the Batch Response message."
+    },
+    "CardAcquisitionResponse": {
+      "name": "Card Acquisition Response",
+      "definition": "Content of the Card Acquisition Response message."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Result of the processing of the request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

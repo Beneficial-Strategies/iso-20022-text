@@ -1,0 +1,118 @@
+{
+  "isoType": "ConfirmationCancellationReason1Code",
+  "language": "en",
+  "name": "Confirmation Cancellation Reason 1 Code",
+  "definition": "Specifies the reason why a confirmation is cancelled.",
+  "isoCodes": {
+    "CSHN": {
+      "isoName": "CashNotReceived",
+      "name": "Cash Not Received",
+      "definition": "Confirmation is cancelled because the cash has not been received."
+    },
+    "REPL": {
+      "isoName": "ConfirmationReplacement",
+      "name": "Confirmation Replacement",
+      "definition": "Confirmation is cancelled because it will be replaced."
+    },
+    "BENA": {
+      "isoName": "IncorrectBackEndLoadAmount",
+      "name": "Incorrect Back End Load Amount",
+      "definition": "Confirmation is cancelled because the back end load amount is incorrect."
+    },
+    "CSHW": {
+      "isoName": "IncorrectCashAmount",
+      "name": "Incorrect Cash Amount",
+      "definition": "Confirmation is cancelled because the cash amount is incorrect."
+    },
+    "DISA": {
+      "isoName": "IncorrectDiscountAmount",
+      "name": "Incorrect Discount Amount",
+      "definition": "Confirmation is cancelled because the discount amount is incorrect."
+    },
+    "DISC": {
+      "isoName": "IncorrectDiscountAmountCurrency",
+      "name": "Incorrect Discount Amount Currency",
+      "definition": "Confirmation is cancelled because the discount amount has an incorrect currency."
+    },
+    "EXCH": {
+      "isoName": "IncorrectExchangeRate",
+      "name": "Incorrect Exchange Rate",
+      "definition": "Confirmation is cancelled because the exchange rate is incorrect."
+    },
+    "FEEE": {
+      "isoName": "IncorrectFeeOrCommission",
+      "name": "Incorrect Fee Or Commission",
+      "definition": "Confirmation is cancelled because a fee or commission amount is incorrect."
+    },
+    "DQUA": {
+      "isoName": "IncorrectFinancialInstrumentQuantity",
+      "name": "Incorrect Financial Instrument Quantity",
+      "definition": "Confirmation is cancelled because the financial instrument quantity is incorrect."
+    },
+    "FENA": {
+      "isoName": "IncorrectFrontEndLoadAmount",
+      "name": "Incorrect Front End Load Amount",
+      "definition": "Confirmation is cancelled because the front end load amount is incorrect."
+    },
+    "GROA": {
+      "isoName": "IncorrectGrossAmount",
+      "name": "Incorrect Gross Amount",
+      "definition": "Confirmation is cancelled because the gross amount is incorrect."
+    },
+    "GROC": {
+      "isoName": "IncorrectGrossAmountCurrency",
+      "name": "Incorrect Gross Amount Currency",
+      "definition": "Confirmation is cancelled because the gross amount has an incorrect currency."
+    },
+    "NETA": {
+      "isoName": "IncorrectNetAmount",
+      "name": "Incorrect Net Amount",
+      "definition": "Confirmation is cancelled because the net amount is incorrect."
+    },
+    "NETC": {
+      "isoName": "IncorrectNetAmountCurrency",
+      "name": "Incorrect Net Amount Currency",
+      "definition": "Confirmation is cancelled because the net amount has an incorrect currency."
+    },
+    "OPER": {
+      "isoName": "IncorrectOperation",
+      "name": "Incorrect Operation",
+      "definition": "Confirmation is cancelled because of an incorrect operation."
+    },
+    "MINI": {
+      "isoName": "IncorrectQuantityUnitsOrCash",
+      "name": "Incorrect Quantity Units Or Cash",
+      "definition": "Confirmation is cancelled because of an incorrect minimum traded quantity or cash amount."
+    },
+    "DMON": {
+      "isoName": "IncorrectSettlementAmount",
+      "name": "Incorrect Settlement Amount",
+      "definition": "Confirmation is cancelled because the settlement amount is incorrect."
+    },
+    "NCRR": {
+      "isoName": "IncorrectSettlementAmountCurrency",
+      "name": "Incorrect Settlement Amount Currency",
+      "definition": "Confirmation is cancelled because the settlement amount has an incorrect currency."
+    },
+    "DDAT": {
+      "isoName": "IncorrectSettlementDate",
+      "name": "Incorrect Settlement Date",
+      "definition": "Confirmation is cancelled because the settlement date is incorrect."
+    },
+    "SETS": {
+      "isoName": "IncorrectSettlementMethod",
+      "name": "Incorrect Settlement Method",
+      "definition": "Confirmation is cancelled because the settlement method is incorrect."
+    },
+    "DDEA": {
+      "isoName": "IncorrectTradeDate",
+      "name": "Incorrect Trade Date",
+      "definition": "Confirmation is cancelled because the trade date is incorrect."
+    },
+    "REFE": {
+      "isoName": "InvalidReference",
+      "name": "Invalid Reference",
+      "definition": "Confirmation contains an invalid business reference."
+    }
+  }
+}

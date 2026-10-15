@@ -1,0 +1,28 @@
+{
+  "isoType": "OrderConfirmationStatus1Code",
+  "language": "en",
+  "name": "Order Confirmation Status 1 Code",
+  "definition": "Specifies the current status of an order confirmation or of an order confirmation amendment.",
+  "isoCodes": {
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Order confirmation or order confirmation cancellation instruction or order confirmation amendment has been sent to the next party, eg, the next intermediary."
+    },
+    "CPNP": {
+      "isoName": "CommunicationProblemNextParty",
+      "name": "Communication Problem Next Party",
+      "definition": "Communication problems with the next party."
+    },
+    "COAC": {
+      "isoName": "ConfirmationAccepted",
+      "name": "Confirmation Accepted",
+      "definition": "Order confirmation or order confirmation amendment is accepted."
+    },
+    "CREC": {
+      "isoName": "ConfirmationReceived",
+      "name": "Confirmation Received",
+      "definition": "Order confirmation or order confirmation amendment is received, ie, technical validation of the message is ok, and the message is now at the receiving side."
+    }
+  }
+}

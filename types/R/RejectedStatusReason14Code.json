@@ -1,0 +1,43 @@
+{
+  "isoType": "RejectedStatusReason14Code",
+  "language": "en",
+  "name": "Rejected Status Reason 14 Code",
+  "definition": "Specifies the reason for a rejected status.",
+  "isoCodes": {
+    "ULNK": {
+      "isoName": "UnknownLinkagesReference",
+      "name": "Unknown Linkages Reference",
+      "definition": "Linked reference is not known."
+    },
+    "NSLA": {
+      "isoName": "NotCompliantWithSLA",
+      "name": "Not Compliant With SLA",
+      "definition": "Instruction is not compliant with the service level agreement."
+    },
+    "CUTO": {
+      "isoName": "CutOffTime",
+      "name": "Cut Off Time",
+      "definition": "Instruction has been received after the cut-off time."
+    },
+    "NALC": {
+      "isoName": "NotAllowedToCancel",
+      "name": "Not Allowed To Cancel",
+      "definition": "Instructing party is not allowed to request a cancellation."
+    },
+    "LEGL": {
+      "isoName": "LegallyImpossible",
+      "name": "Legally Impossible",
+      "definition": "Legally impossible to cancel."
+    },
+    "ADEA": {
+      "isoName": "AfterDeadline",
+      "name": "After Deadline",
+      "definition": "Instruction was received after the Receiver's deadline."
+    },
+    "NRGM": {
+      "isoName": "NoCancellationMatch",
+      "name": "No Cancellation Match",
+      "definition": "The cancellation request has been rejected since more than one instruction match to the cancellation criteria."
+    }
+  }
+}

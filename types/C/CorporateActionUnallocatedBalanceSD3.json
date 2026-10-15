@@ -1,0 +1,44 @@
+{
+  "isoType": "CorporateActionUnallocatedBalanceSD3",
+  "language": "en",
+  "name": "Corporate Action Unallocated Balance SD 3",
+  "definition": "Balance types related to an unallocated redemption payment.",
+  "isoElements": {
+    "TotalEligibleBalance": {
+      "name": "Total Eligible Balance",
+      "definition": "Total quantity of financial instruments of the balance."
+    },
+    "AffectedBalance": {
+      "name": "Affected Balance",
+      "definition": "The quantity that has been determined to be redeemed if the participant had|position in a redemption security."
+    },
+    "UnaffectedBalance": {
+      "name": "Unaffected Balance",
+      "definition": "Positions balance remaining after lottery is run."
+    },
+    "ObligatedBalance": {
+      "name": "Obligated Balance",
+      "definition": "Position that account holders should return to the account servicer to participate in the event or to fulfil their obligation for the event to be complete, for example, return of securities for late announced drawing."
+    },
+    "OriginalBalance": {
+      "name": "Original Balance",
+      "definition": "Position held in a security as of the day prior to publication date. This position is subject to a redemption lottery call when this is the first lottery. This balance will not be adjusted for the supplemental or concurrent lotteries and will remain constant to report the original position."
+    },
+    "PledgedBalance": {
+      "name": "Pledged Balance",
+      "definition": "Portion of the original balance position held in DTC general free account as of day prior to publication date. Position held in this account is subject to redemption lottery call."
+    },
+    "UnpledgedBalance": {
+      "name": "Unpledged Balance",
+      "definition": "Portion of the original balance position held in DTC general free account as of day prior to publication date. Position held in this account is subject to redemption lottery call."
+    },
+    "InvestmentPledgedBalance": {
+      "name": "Investment Pledged Balance",
+      "definition": "Portion of the original balance position held in DTC investment account as of day prior to publication date. Position held in this account is subject to redemption lottery call and must be released to allow allocation."
+    },
+    "InvestmentUnpledgedBalance": {
+      "name": "Investment Unpledged Balance",
+      "definition": "Portion of the original balance position held in DTC segregated account as of day prior to publication date. Position held in this account is subject to redemption lottery call and must be released to allow allocation."
+    }
+  }
+}

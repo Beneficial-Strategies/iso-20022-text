@@ -1,0 +1,16 @@
+{
+  "isoType": "ReuseValue1Choice",
+  "language": "en",
+  "name": "Reuse Value 1 Choice",
+  "definition": "Indication whether reused value is actual or estimated.",
+  "isoElements": {
+    "Actual": {
+      "name": "Actual",
+      "definition": "Total value of the collateral reused when it can be defined at the transaction level."
+    },
+    "Estimated": {
+      "name": "Estimated",
+      "definition": "In the case when the actual value of reused collateral is unknown or cannot be calculated, an estimate value of reuse at individual financial instrument level calculated."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "PartyIdentificationAndAccount200",
+  "language": "en",
+  "name": "Party Identification And Account 200",
+  "definition": "Party involved in the settlement chain.",
+  "isoElements": {
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the account owned by the party."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "ProcessingIdentification": {
+      "name": "Processing Identification",
+      "definition": "Specifies the reference of the transaction at the party identified in the sequence."
+    },
+    "ProcessingDate": {
+      "name": "Processing Date",
+      "definition": "Date and optionally the time, at which this transaction was processed by the party identified in this sequence."
+    },
+    "SubAccount": {
+      "name": "Sub Account",
+      "definition": "Business relationship between two entities; one entity is the account owner, the other entity is the account servicer."
+    },
+    "ContactPerson": {
+      "name": "Contact Person",
+      "definition": "Contact person and contact information."
+    }
+  },
+  "isoRules": {
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "If AccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, AccountIdentification must be absent."
+    }
+  }
+}

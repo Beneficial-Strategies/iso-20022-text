@@ -1,0 +1,20 @@
+{
+  "isoType": "Recipient7Choice",
+  "language": "en",
+  "name": "Recipient 7 Choice",
+  "definition": "Transport key or key encryption key (KEK) for the recipient.",
+  "isoElements": {
+    "KeyTransport": {
+      "name": "Key Transport",
+      "definition": "Encryption key using previously distributed asymmetric public key."
+    },
+    "KEK": {
+      "name": "KEK",
+      "definition": "Key encryption key using previously distributed symmetric key."
+    },
+    "KeyIdentifier": {
+      "name": "Key Identifier",
+      "definition": "Identification of a protection key without a session key, shared and previously exchanged between the initiator and the recipient."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "SecuritiesMovement9",
+  "language": "en",
+  "name": "Securities Movement 9",
+  "definition": "Movements of securities.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies whether the quantity of financial instrument is to be delivered or received."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of financial instrument."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "CollateralMovement": {
+      "name": "Collateral Movement",
+      "definition": "Indicates whether the financial instrument is delivered/received as collateral or as a loan."
+    },
+    "ClientSecuritiesMovementIdentification": {
+      "name": "Client Securities Movement Identification",
+      "definition": "Reference assigned by the party A to the financial instrument movement."
+    },
+    "TripartyAgentServiceProviderSecuritiesMovementIdentification": {
+      "name": "Triparty Agent Service Provider Securities Movement Identification",
+      "definition": "Reference assigned by the triparty agent to the financial instrument movement."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

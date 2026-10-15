@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionCertificate5",
+  "language": "en",
+  "name": "Transaction Certificate 5",
+  "definition": "Certificate in which all currency control transactions are registered.",
+  "isoElements": {
+    "ReferredDocument": {
+      "name": "Referred Document",
+      "definition": "Reference of the transaction, that is the underlying payment instruction or statement entry."
+    },
+    "TransactionDate": {
+      "name": "Transaction Date",
+      "definition": "Date of the underlying transaction."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of the transaction."
+    },
+    "LocalInstrument": {
+      "name": "Local Instrument",
+      "definition": "User community specific instrument.||Usage: This element is used to specify a local transaction type to further qualify the transaction type."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount as provided in the transaction to be recorded under the contract."
+    }
+  }
+}

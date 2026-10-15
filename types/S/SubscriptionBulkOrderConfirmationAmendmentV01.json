@@ -1,0 +1,51 @@
+{
+  "isoType": "SubscriptionBulkOrderConfirmationAmendmentV01",
+  "language": "en",
+  "name": "Subscription Bulk Order Confirmation Amendment V 01",
+  "definition": "Scope|An executing party, for example, a transfer agent sends the SubscriptionBulkOrderConfirmationAmendment message to the instructing party, for example, an investment manager or its authorised representative to amend a previously sent SubscriptionBulkOrderConfirmation message.|Usage|The SubscriptionBulkOrderConfirmationAmendment message is used to amend one or more previously sent subscription bulk order confirmations.|Each bulk order confirmation amendment specified is identified in DealReference. The reference of the original individual order is specified in OrderReference.|The message identification of the SubscriptionBulkOrder message in which the orders were conveyed may also be quoted in RelatedReference. The message identification of the SubscriptionBulkOrderConfirmation message in which the original order confirmations were conveyed may also be quoted in PreviousReference.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Reference that uniquely identifies a message from a business application standpoint."
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to a linked message that was previously received."
+    },
+    "BulkExecutionDetails": {
+      "name": "Bulk Execution Details",
+      "definition": "General information related to the execution of investment orders."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Information about parties related to the transaction."
+    },
+    "CopyDetails": {
+      "name": "Copy Details",
+      "definition": "Information provided when the message is a copy of a previous message."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "AccountIdentificationRule": {
+      "definition": "If this message is linked to an account opening request and the account identification is not yet known then the value of the AccountIdentification element in BulkExecutionDetails/IndividualExecutionDetails/InvestmentAccountDetails must be UNKNOWN."
+    },
+    "OrderReferenceRule": {
+      "definition": "If this message is not solicited by the receiver, then the value of the OrderReference element in every occurrence of BulkExecutionDetails/IndividualExecutionDetails must be UNSOLICITED."
+    },
+    "RelatedPartiesDetailsRule": {
+      "definition": "Either RelatedPartiesDetails or BulkExecutionDetails/IndividualExecutionDetails/RelatedPartiesDetails may be present, but not both."
+    }
+  }
+}

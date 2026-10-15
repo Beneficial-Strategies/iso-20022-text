@@ -1,0 +1,88 @@
+{
+  "isoType": "Side3Code",
+  "language": "en",
+  "name": "Side 3 Code",
+  "definition": "Side taken by a party on an order.",
+  "isoCodes": {
+    "BUYI": {
+      "isoName": "Buy",
+      "name": "Buy",
+      "definition": "Order is buy driven."
+    },
+    "SELL": {
+      "isoName": "Sell",
+      "name": "Sell",
+      "definition": "Order is sell driven."
+    },
+    "CROS": {
+      "isoName": "Cross",
+      "name": "Cross",
+      "definition": "Identifies an order for which a broker wishes to take the other side and cross with the client."
+    },
+    "CRSH": {
+      "isoName": "CrossShort",
+      "name": "Cross Short",
+      "definition": "Identifies a type of order for which a broker wants to cross with the client in the case a client wants to establish a short position, and sends a Sell Short order to the broker. Many exchanges have tick rules needing to be enforced, and the order getting converted from Sell Short to Cross (instead of Cross Short) could result in an illegal short sell."
+    },
+    "CSHE": {
+      "isoName": "CrossShortExempt",
+      "name": "Cross Short Exempt",
+      "definition": "Identifies a type of order for which a broker wants to cross with the client in the case a client wants to establish a short position and is exempt from the uptick restriction. Used as audit trail on exchanges."
+    },
+    "DEFI": {
+      "isoName": "AsDefined",
+      "name": "As Defined",
+      "definition": "Indicates, in the case of a multileg instrument,that the sides of the legs are the same as defined at the creation of the multileg instrument."
+    },
+    "OPPO": {
+      "isoName": "Opposite",
+      "name": "Opposite",
+      "definition": "Indicates, in the case of a multileg instrument,that the sides of the legs are the opposite of their definition at the creation of the multileg instrument."
+    },
+    "UNDI": {
+      "isoName": "Undisclosed",
+      "name": "Undisclosed",
+      "definition": "The side of the indication of interest is not disclosed."
+    },
+    "TWOS": {
+      "isoName": "TwoSided",
+      "name": "Two Sided",
+      "definition": "Indicates that the side refers to both buys and sells."
+    },
+    "BUMI": {
+      "isoName": "BuyMinus",
+      "name": "Buy Minus",
+      "definition": "A round-lot market order to buy minus is an order to buy a stated amount of a stock provided that its price is: |- not higher than the last sale if the last sale was a minus or zero minus tick and|- not higher than the last sale minus the minimum fractional change in the stock if the last sale was a plus or zero plus tick.|A limit price order to buy minus also states the highest price at which it can be executed."
+    },
+    "SEPL": {
+      "isoName": "SellPlus",
+      "name": "Sell Plus",
+      "definition": "A round-lot market order to sell plus is an order to sell a stated amount of a stock provided that its price is: |- not lower than the last sale if the last sale was a plus or zero plus tick and|- not lower than the last sale minus the minimum fractional change in the stock if the last sale was a minus or zero minus tick.|A limit-price order to sell plus also states the lowest price at which it can be executed."
+    },
+    "SESH": {
+      "isoName": "SellShort",
+      "name": "Sell Short",
+      "definition": "An order to sell a security that the seller does not own; a sale effected by delivering a security borrowed by, or for the account of, the seller. Can only be executed on a plus or zero plus tick."
+    },
+    "SSEX": {
+      "isoName": "SellShortExempt",
+      "name": "Sell Short Exempt",
+      "definition": "Short sale exempt from short-sale rules."
+    },
+    "LEND": {
+      "isoName": "Lend",
+      "name": "Lend",
+      "definition": "Order is to lend securities."
+    },
+    "BORW": {
+      "isoName": "Borrow",
+      "name": "Borrow",
+      "definition": "Order is to borrow securities."
+    },
+    "OPEX": {
+      "isoName": "OptionExercise",
+      "name": "Option Exercise",
+      "definition": "Exercise of an option contract."
+    }
+  }
+}

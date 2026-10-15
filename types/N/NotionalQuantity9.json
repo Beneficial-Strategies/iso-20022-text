@@ -1,0 +1,25 @@
+{
+  "isoType": "NotionalQuantity9",
+  "language": "en",
+  "name": "Notional Quantity 9",
+  "definition": "Indicates the reference quantity of the transaction and the schedule applicable to the quantity computation.",
+  "isoElements": {
+    "TotalQuantity": {
+      "name": "Total Quantity",
+      "definition": "Number of units of the financial instrument, that is, the nominal value."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Indicates the unit of measure in which the total notional quantity and notional quantity schedules are expressed."
+    },
+    "Details": {
+      "name": "Details",
+      "definition": "Indicates the schedule or frequency of the derivative transactions."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

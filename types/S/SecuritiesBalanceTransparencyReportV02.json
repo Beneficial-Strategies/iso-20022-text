@@ -6,31 +6,31 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Unique and unambiguous identification of the message. When the report has multiple pages, one message equals one page. Therefore, the MessageIdentification uniquely identifies the page."
     },
     "SenderIdentification": {
       "name": "Sender Identification",
-      "definition": ""
+      "definition": "Identification of the party that is the sender of the message."
     },
     "ReceiverIdentification": {
       "name": "Receiver Identification",
-      "definition": ""
+      "definition": "Identification of the party that is the receiver of the message."
     },
     "Pagination": {
       "name": "Pagination",
-      "definition": ""
+      "definition": "Page number of the message (within a statement) and continuation indicator to indicate that the statement is to continue or that the message is the last page of the statement."
     },
     "StatementGeneralDetails": {
       "name": "Statement General Details",
-      "definition": ""
+      "definition": "Provides general information on the statement."
     },
     "SafekeepingAccountAndHoldings": {
       "name": "Safekeeping Account And Holdings",
-      "definition": ""
+      "definition": "Details of the account, account sub-levels and the holdings."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

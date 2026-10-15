@@ -1,0 +1,20 @@
+{
+  "isoType": "RentalRate3",
+  "language": "en",
+  "name": "Rental Rate 3",
+  "definition": "Vehicle rental rate",
+  "isoElements": {
+    "Period": {
+      "name": "Period",
+      "definition": "Unit of measure used to compute the rental rate. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate applied to the vehicle rental for the specified period."
+    },
+    "PeriodCount": {
+      "name": "Period Count",
+      "definition": "Duration of the period for which the rental rate is calculated."
+    }
+  }
+}

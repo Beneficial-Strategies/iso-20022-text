@@ -1,0 +1,16 @@
+{
+  "isoType": "ExtendOrPayRequestV01",
+  "language": "en",
+  "name": "Extend Or Pay Request V 01",
+  "definition": "The ExtendOrPayRequest message is sent by the party that issued the undertaking to the party that requested issuance of the undertaking (applicant or obligor), to request the applicant's response to a beneficiary request to extend or pay.",
+  "isoElements": {
+    "ExtendOrPayRequestDetails": {
+      "name": "Extend Or Pay Request Details",
+      "definition": "Details of the extend or pay request."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the request."
+    }
+  }
+}

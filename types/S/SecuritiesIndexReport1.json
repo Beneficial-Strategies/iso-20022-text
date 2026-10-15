@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesIndexReport1",
+  "language": "en",
+  "name": "Securities Index Report 1",
+  "definition": "Provides details on the securities index request operations for national competent authorities.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and feedback messages.||Usage:|This identification will be used in the status advice sent back."
+    },
+    "RequestingEntity": {
+      "name": "Requesting Entity",
+      "definition": "Country code of the entity that wishes to express an interest in receiving transaction reports for the requested indexes."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Details the index that is being requested."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Date when the national competent authority last expressed its interest in this index."
+    }
+  }
+}

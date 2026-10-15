@@ -1,0 +1,33 @@
+{
+  "isoType": "FundOrderType10Code",
+  "language": "en",
+  "name": "Fund Order Type 10 Code",
+  "definition": "Specifies a type of investment fund transaction.",
+  "isoCodes": {
+    "SUBS": {
+      "isoName": "Subscription",
+      "name": "Subscription",
+      "definition": "Investment fund order is a subscription."
+    },
+    "RDIV": {
+      "isoName": "ReinvestmentOfDividend",
+      "name": "Reinvestment Of Dividend",
+      "definition": "Investment fund order is a dividend reinvestment (only applicable to a subscription)."
+    },
+    "REDM": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Investment fund order is a redemption."
+    },
+    "RGSV": {
+      "isoName": "RegularSavingsPlan",
+      "name": "Regular Savings Plan",
+      "definition": "Investment fund order is a regular savings plan (only applicable to a subscription)."
+    },
+    "WIDP": {
+      "isoName": "Withdrawal",
+      "name": "Withdrawal",
+      "definition": "Investment fund order is for a withdrawal investment plan (only applicable to a redemption)."
+    }
+  }
+}

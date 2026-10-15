@@ -1,0 +1,36 @@
+{
+  "isoType": "TransactionCertificate4",
+  "language": "en",
+  "name": "Transaction Certificate 4",
+  "definition": "Certificate against which all currency control transactions are registered.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique and unambiguous identification of the transaction."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Reference of the transaction certificate."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Cash account, linked to the registered contract, on which the cash entry is made."
+    },
+    "BankAccountDomiciliationCountry": {
+      "name": "Bank Account Domiciliation Country",
+      "definition": "Country in which the bank account is located, when the bank which services the account is located in another country."
+    },
+    "Amendment": {
+      "name": "Amendment",
+      "definition": "Amendment indicator details."
+    },
+    "CertificateRecord": {
+      "name": "Certificate Record",
+      "definition": "Record of the transaction certificate."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "PerformedTransaction8",
+  "language": "en",
+  "name": "Performed Transaction 8",
+  "definition": "Result of performed transactions.",
+  "isoElements": {
+    "Response": {
+      "name": "Response",
+      "definition": "Response for this performed transaction."
+    },
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Unique identification of a sale transaction."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "Unique identification of a POI transaction."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Identification of the POI reconciliation period."
+    },
+    "PaymentResult": {
+      "name": "Payment Result",
+      "definition": "Data related to the result of a processed payment transaction."
+    },
+    "LoyaltyResult": {
+      "name": "Loyalty Result",
+      "definition": "Data related to the result of a processed Loyalty transaction."
+    },
+    "ReversedAmount": {
+      "name": "Reversed Amount",
+      "definition": "Amount of the payment or loyalty to reverse."
+    }
+  }
+}

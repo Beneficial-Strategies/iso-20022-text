@@ -1,0 +1,52 @@
+{
+  "isoType": "CertificateManagementRequest4",
+  "language": "en",
+  "name": "Certificate Management Request 4",
+  "definition": "Information related to the request of certificate management.",
+  "isoElements": {
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identification of the terminal or system using the certificate management service."
+    },
+    "TMIdentification": {
+      "name": "TM Identification",
+      "definition": "Identification of the TM or the MTM providing the Certificate Authority service."
+    },
+    "CertificateService": {
+      "name": "Certificate Service",
+      "definition": "Requested certificate management service."
+    },
+    "SecurityDomain": {
+      "name": "Security Domain",
+      "definition": "Identification of the client and server public key infrastructures containing the certificate. In addition, it may identify specific requirements of the customer."
+    },
+    "KeyFunction": {
+      "name": "Key Function",
+      "definition": "Identifies type of function that could be used with the Key."
+    },
+    "POIChallengeValue": {
+      "name": "POI Challenge Value",
+      "definition": "Challenge value sends by the POI to be received back in a message response."
+    },
+    "POIDateTime": {
+      "name": "POI Date Time",
+      "definition": "Date and Time of the POI."
+    },
+    "BinaryCertificationRequest": {
+      "name": "Binary Certification Request",
+      "definition": "PKCS#10 (Public Key Certificate Standard 10) certification request coded in base64 ASN.1/DER (Abstract Syntax Notation 1, Distinguished Encoding Rules) or PEM (Privacy Enhanced Message) format."
+    },
+    "CertificationRequest": {
+      "name": "Certification Request",
+      "definition": "Certification request PKCS#10 (Public Key Certificate Standard 10) for creation or renewal of an X.509 certificate."
+    },
+    "ClientCertificate": {
+      "name": "Client Certificate",
+      "definition": "Created certificate. The certificate is ASN.1/DER encoded, for renewal or revocation of certificate."
+    },
+    "WhiteListIdentification": {
+      "name": "White List Identification",
+      "definition": "Identification of the white list element, for white list addition or removal."
+    }
+  }
+}

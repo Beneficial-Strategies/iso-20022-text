@@ -1,0 +1,29 @@
+{
+  "isoType": "DerivativeEvent6",
+  "language": "en",
+  "name": "Derivative Event 6",
+  "definition": "Information related to derivative details.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of derivative event type."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Indicates means of identification of a derivative event."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Indicates the time stamp of a derivative event."
+    },
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicator of whether the modification of the swap transaction reflects newly agreed upon term(s) from the previously negotiated terms resulting in price forming event.||Usage: When absent, meaning of AmendmentIndicator is False."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

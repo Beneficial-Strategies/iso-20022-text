@@ -1,0 +1,33 @@
+{
+  "isoType": "AccountOwnerType1Code",
+  "language": "en",
+  "name": "Account Owner Type 1 Code",
+  "definition": "Specifies the type of account owner.",
+  "isoCodes": {
+    "POWN": {
+      "isoName": "PrimaryOwner",
+      "name": "Primary Owner",
+      "definition": "Owner of the property. The ownership can be split among several owners, and the primary owner is the one giving its address and account details for the registration."
+    },
+    "TRUS": {
+      "isoName": "Trustee",
+      "name": "Trustee",
+      "definition": "Legal owners of the property. However, the beneficiary has the equitable or beneficial ownership."
+    },
+    "CUST": {
+      "isoName": "CustodianForMinor",
+      "name": "Custodian For Minor",
+      "definition": "Entity that holds shares/units on behalf of a legal minor. Although the account is registered under the name of the minor, the custodian retains control of the account."
+    },
+    "NOMI": {
+      "isoName": "Nominee",
+      "name": "Nominee",
+      "definition": "Entity named by the beneficial owner to act on its behalf, often to facilitate dealing, or to conceal the identity of the beneficiary."
+    },
+    "SECO": {
+      "isoName": "SecondaryOwner",
+      "name": "Secondary Owner",
+      "definition": "One of the owners of the property. The ownership can be split among several owners, and only the primary owner gives its address and account details for the registration."
+    }
+  }
+}

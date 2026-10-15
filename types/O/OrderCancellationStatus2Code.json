@@ -1,0 +1,28 @@
+{
+  "isoType": "OrderCancellationStatus2Code",
+  "language": "en",
+  "name": "Order Cancellation Status 2 Code",
+  "definition": "Specifies the current status of the order cancellation request.",
+  "isoCodes": {
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Order cancellation request has been sent to the next party, eg, the next intermediary."
+    },
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Status of the order cancellation request is received, that is, technical validation of the message is ok, and the message is now at the receiving side."
+    },
+    "CANP": {
+      "isoName": "CancellationPending",
+      "name": "Cancellation Pending",
+      "definition": "Order cancellation request is pending, The order cancellation request has been received but this does not indicate the order has been cancelled."
+    },
+    "CAND": {
+      "isoName": "CancellationCompleted",
+      "name": "Cancellation Completed",
+      "definition": "Status of the order cancellation request is completed. The cancellation request has been accepted and processed; the order has been cancelled."
+    }
+  }
+}

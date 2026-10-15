@@ -1,0 +1,77 @@
+{
+  "isoType": "InterestAmount4",
+  "language": "en",
+  "name": "Interest Amount 4",
+  "definition": "Provides the elements related to the interest amount calculation.",
+  "isoElements": {
+    "InterestRequestSequence": {
+      "name": "Interest Request Sequence",
+      "definition": "Indicates whether the interest request is new or updated."
+    },
+    "InterestPeriod": {
+      "name": "Interest Period",
+      "definition": "Period for which the calculation has been performed."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Amount of money representing an interest payment."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Agreed date for the interest payment."
+    },
+    "InterestMethod": {
+      "name": "Interest Method",
+      "definition": "Indicates whether the interest will be settled in cash or rolled in the existing collateral balance."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Percentage charged for the use of an amount of money, usually expressed at an annual rate. The interest rate is the ratio of the amount of interest paid during a certain period of time compared to the principal amount of the interest bearing financial instrument."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies the computation method of (accrued) interest of the security."
+    },
+    "AppliedWithholdingTax": {
+      "name": "Applied Withholding Tax",
+      "definition": "Amount or percentage of a cash distribution that will be withheld by a tax authority."
+    },
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "Specifies whether the interest is simple or compounded."
+    },
+    "CalculationFrequency": {
+      "name": "Calculation Frequency",
+      "definition": "Specifies the periodicity of the calculation of the interest."
+    },
+    "CollateralPurpose": {
+      "name": "Collateral Purpose",
+      "definition": "Specifies whether the collateral has been posted against the variation margin, the segregated independent amount or to cover any other risk defined with a proprietary code."
+    },
+    "OpeningCollateralBalance": {
+      "name": "Opening Collateral Balance",
+      "definition": "Provides details about the opening collateral balance."
+    },
+    "ClosingCollateralBalance": {
+      "name": "Closing Collateral Balance",
+      "definition": "Provides details about the closing collateral balance."
+    },
+    "StandardSettlementInstructions": {
+      "name": "Standard Settlement Instructions",
+      "definition": "Identifies the standard settlement instructions."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additionnal information related to interest request."
+    },
+    "ReferenceDetails": {
+      "name": "Reference Details",
+      "definition": "Additional references linked to the updated interest payement request."
+    }
+  },
+  "isoRules": {
+    "InterestRequestSequenceRule": {
+      "definition": "If InterestRequestSequence equals updated, then ReferenceDetails must be present."
+    }
+  }
+}

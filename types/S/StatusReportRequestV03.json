@@ -1,0 +1,16 @@
+{
+  "isoType": "StatusReportRequestV03",
+  "language": "en",
+  "name": "Status Report Request V 03",
+  "definition": "Scope|The StatusReportRequest message is sent by a party involved in a transaction to the matching application.|This message is used to request a report on the status of transactions registered in the matching application.|Usage|The StatusReportRequest message can be sent by either party involved in a transaction to request a report on the status and sub-statuses of all transactions that the requester is involved in.|The application will respond to the request by sending a StatusReport message.",
+  "isoElements": {
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identifies the request message."
+    },
+    "EntitiesToBeReported": {
+      "name": "Entities To Be Reported",
+      "definition": "Specifies the entities of the submitter for which the transactions have to be reported."
+    }
+  }
+}

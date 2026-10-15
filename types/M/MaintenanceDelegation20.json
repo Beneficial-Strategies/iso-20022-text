@@ -1,0 +1,52 @@
+{
+  "isoType": "MaintenanceDelegation20",
+  "language": "en",
+  "name": "Maintenance Delegation 20",
+  "definition": "Information on the delegation of a maintenance action or maintenance function.",
+  "isoElements": {
+    "DelegationType": {
+      "name": "Delegation Type",
+      "definition": "Type of delegation action."
+    },
+    "MaintenanceService": {
+      "name": "Maintenance Service",
+      "definition": "Maintenance service to be delegated."
+    },
+    "PartialDelegation": {
+      "name": "Partial Delegation",
+      "definition": "Flag to indicate that the delegated maintenance must be performed on a subset of the terminal estate.| Usage: When absent, default value is False."
+    },
+    "POISubset": {
+      "name": "POI Subset",
+      "definition": "Subset of the terminal estate for the delegated actions, for instance for pilot or key deactivation). The subset may be expressed as a list of POI or terminal estate subset identifier."
+    },
+    "DelegatedAction": {
+      "name": "Delegated Action",
+      "definition": "Information for the MTM to build or include delegated actions in the management plan of the POI."
+    },
+    "DelegationScopeIdentification": {
+      "name": "Delegation Scope Identification",
+      "definition": "Identifies the delegation scope assigned by the MTM."
+    },
+    "DelegationScopeDefinition": {
+      "name": "Delegation Scope Definition",
+      "definition": "This element contains all information relevant to the DelegationScopeIdentification. The format of this element is out of scope of this definition."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Certificate path of the terminal manager."
+    },
+    "POIIdentificationAssociation": {
+      "name": "POI Identification Association",
+      "definition": "Association of the TM identifier and the MTM identifier of a POI."
+    },
+    "SymmetricKey": {
+      "name": "Symmetric Key",
+      "definition": "Identification of the key to manage or to download."
+    },
+    "ParameterDataSet": {
+      "name": "Parameter Data Set",
+      "definition": "Configuration parameters of the terminal manager to be sent by the MTM."
+    }
+  }
+}

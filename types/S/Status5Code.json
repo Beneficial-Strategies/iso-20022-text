@@ -1,0 +1,23 @@
+{
+  "isoType": "Status5Code",
+  "language": "en",
+  "name": "Status 5 Code",
+  "definition": "Specifies the status of an instruction.",
+  "isoCodes": {
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instruction has been rejected."
+    },
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Instruction has been accepted and is validated for further processing."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Instruction is pending."
+    }
+  }
+}

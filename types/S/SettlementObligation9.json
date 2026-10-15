@@ -1,0 +1,68 @@
+{
+  "isoType": "SettlementObligation9",
+  "language": "en",
+  "name": "Settlement Obligation 9",
+  "definition": "Provides details about the settlement obligation.",
+  "isoElements": {
+    "SettlementObligationIdentification": {
+      "name": "Settlement Obligation Identification",
+      "definition": "Provides the identification of the settlement obligation."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Intended settlement date of the position."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies the quantity related to the settlement obligation."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Provides the total amount to be settled."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Place at which the security is traded."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Provides the trade date."
+    },
+    "TradingCapacity": {
+      "name": "Trading Capacity",
+      "definition": "Identifies the trading capacity of seller."
+    },
+    "ClearingAccountType": {
+      "name": "Clearing Account Type",
+      "definition": "Specifies the clearing account type."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Clearing member account at the central securities depository."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Indicates if the obligation will result in a receive or a delivery of securities."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies the amount to be paid under a specific obligation."
+    },
+    "SettlementParties": {
+      "name": "Settlement Parties",
+      "definition": "Provides details on the parties that are part of the settlement chain."
+    },
+    "AdditionalSettlementObligationDetails": {
+      "name": "Additional Settlement Obligation Details",
+      "definition": "Provides additional information about the settlement obligation details."
+    }
+  }
+}

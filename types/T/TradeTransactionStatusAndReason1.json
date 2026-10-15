@@ -1,0 +1,29 @@
+{
+  "isoType": "TradeTransactionStatusAndReason1",
+  "language": "en",
+  "name": "Trade Transaction Status And Reason 1",
+  "definition": "Identifies the transaction with a trade reference and provides its status. If the status is rejected, a reason for this status must be given.",
+  "isoElements": {
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Provides the identification of the RegulatoryTransactionReport document that was previously sent by the reporting institution."
+    },
+    "TradeReference": {
+      "name": "Trade Reference",
+      "definition": "Unique identification assigned to a trade once it is received or matched by an executing system."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Indicates the status of a trade transaction."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Indicates that the report is rejected and provides a reason why."
+    }
+  },
+  "isoRules": {
+    "TypeOfStatusRule": {
+      "definition": "Either Status or Rejected must be present, but not both."
+    }
+  }
+}

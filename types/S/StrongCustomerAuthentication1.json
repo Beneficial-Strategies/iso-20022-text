@@ -1,0 +1,28 @@
+{
+  "isoType": "StrongCustomerAuthentication1",
+  "language": "en",
+  "name": "Strong Customer Authentication 1",
+  "definition": "EU PSD2 Strong Consumer Authentication data.",
+  "isoElements": {
+    "SubjectToSCA": {
+      "name": "Subject To SCA",
+      "definition": "Boolean flag indicating whether the transaction is subject to Strong Customer Authentication requirements (True) or not (False)."
+    },
+    "Exemption": {
+      "name": "Exemption",
+      "definition": "Strong customer authentication exemption detail."
+    },
+    "DelegatedAuthority": {
+      "name": "Delegated Authority",
+      "definition": "Authentication performed by a delegated authority (for example by a wallet solution)."
+    },
+    "Waiver": {
+      "name": "Waiver",
+      "definition": "Waiver claimed for a transaction subject to Strong Customer Authentication."
+    },
+    "ReasonAuthenticationNotPerformed": {
+      "name": "Reason Authentication Not Performed",
+      "definition": "Reason why authentication was not performed."
+    }
+  }
+}

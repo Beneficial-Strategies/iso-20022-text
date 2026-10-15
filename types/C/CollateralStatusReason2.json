@@ -1,0 +1,25 @@
+{
+  "isoType": "CollateralStatusReason2",
+  "language": "en",
+  "name": "Collateral Status Reason 2",
+  "definition": "Business status of the collateral data management request for processing in the system.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the collateral data maintenance instruction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the status of a collateral data maintenance instruction."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals 'Rejected' then Reason must be present."
+    }
+  }
+}

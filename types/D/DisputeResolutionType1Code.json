@@ -1,0 +1,33 @@
+{
+  "isoType": "DisputeResolutionType1Code",
+  "language": "en",
+  "name": "Dispute Resolution Type 1 Code",
+  "definition": "Specifies the nature of the disputed collateral amount.",
+  "isoCodes": {
+    "RECO": {
+      "isoName": "ReconcileCollateral",
+      "name": "Reconcile Collateral",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the collateral."
+    },
+    "RMTA": {
+      "isoName": "ReconcileMinimumTransferAmount",
+      "name": "Reconcile Minimum Transfer Amount",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the minimum transfer amount."
+    },
+    "RERO": {
+      "isoName": "ReconcileRounding",
+      "name": "Reconcile Rounding",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the rounding."
+    },
+    "REVF": {
+      "isoName": "ReconcileValuationFrequency",
+      "name": "Reconcile Valuation Frequency",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the valuation frequency."
+    },
+    "RESA": {
+      "isoName": "ReconcileSegregatedIndependentAmount",
+      "name": "Reconcile Segregated Independent Amount",
+      "definition": "Indicates that the disputed collateral amount should be confirmed through reconciliation of the initial margin."
+    }
+  }
+}

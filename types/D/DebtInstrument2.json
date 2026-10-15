@@ -1,0 +1,28 @@
+{
+  "isoType": "DebtInstrument2",
+  "language": "en",
+  "name": "Debt Instrument 2",
+  "definition": "Specifies the debit instrument.",
+  "isoElements": {
+    "TotalIssuedNominalAmount": {
+      "name": "Total Issued Nominal Amount",
+      "definition": "Total issued nominal amount in monetary value."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Maturity date of the financial instrument."
+    },
+    "NominalValuePerUnit": {
+      "name": "Nominal Value Per Unit",
+      "definition": "Nominal value of each instrument. If not available, the minimum traded value should be populated."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate of the debt instrument."
+    },
+    "DebtSeniority": {
+      "name": "Debt Seniority",
+      "definition": "Seniority for a specific debt instrument."
+    }
+  }
+}

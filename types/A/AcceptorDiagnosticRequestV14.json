@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorDiagnosticRequestV14",
+  "language": "en",
+  "name": "Acceptor Diagnostic Request V 14",
+  "definition": "The AcceptorDiagnosticRequest message is sent by an acceptor (or its agent) to the acquirer (or its agent), to check the end-to-end communication, to test the availability of this acquirer, or to validate the security environment.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Diagnostic request message management information."
+    },
+    "DiagnosticRequest": {
+      "name": "Diagnostic Request",
+      "definition": "Information related to the diagnostic request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

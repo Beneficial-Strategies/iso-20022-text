@@ -1,0 +1,28 @@
+{
+  "isoType": "DevicePrintRequest7",
+  "language": "en",
+  "name": "Device Print Request 7",
+  "definition": "Content of the Print Request message.",
+  "isoElements": {
+    "DocumentQualifier": {
+      "name": "Document Qualifier",
+      "definition": "Qualifies the type of document."
+    },
+    "ResponseMode": {
+      "name": "Response Mode",
+      "definition": "Type of awaited response (none, immediate, after printing, after sound)."
+    },
+    "IntegratedPrintFlag": {
+      "name": "Integrated Print Flag",
+      "definition": "Flag that the print is integrated to other prints."
+    },
+    "RequiredSignatureFlag": {
+      "name": "Required Signature Flag",
+      "definition": "Flag to require a physical signature by the Customer."
+    },
+    "OutputContent": {
+      "name": "Output Content",
+      "definition": "Content of the message to print."
+    }
+  }
+}

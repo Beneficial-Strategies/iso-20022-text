@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesReferenceDeltaStatusReport5Choice",
+  "language": "en",
+  "name": "Securities Reference Delta Status Report 5 Choice",
+  "definition": "Choice defining financial instruments that are either new or have been modified.",
+  "isoElements": {
+    "ModifiedRecord": {
+      "name": "Modified Record",
+      "definition": "Specifies data that has been modified since the previous report."
+    },
+    "NewRecord": {
+      "name": "New Record",
+      "definition": "Specifies new instruments that have been added since the previous report."
+    },
+    "TerminatedRecord": {
+      "name": "Terminated Record",
+      "definition": "Specifies instruments which have been terminated / have reached there pre-set termination data and are no longer valid instruments."
+    },
+    "CancelledRecord": {
+      "name": "Cancelled Record",
+      "definition": "Specifies data that has been cancelled since the previous report."
+    }
+  }
+}

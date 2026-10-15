@@ -1,0 +1,120 @@
+{
+  "isoType": "FinancialInstrument96",
+  "language": "en",
+  "name": "Financial Instrument 96",
+  "definition": "Security that is a sub-set of an investment fund, and is governed by the same investment fund policy, for example, dividend option or valuation currency.",
+  "isoElements": {
+    "PhysicalBearerSecurities": {
+      "name": "Physical Bearer Securities",
+      "definition": "Indicates whether it is possible to hold bearer units/shares in this class in certified form."
+    },
+    "DematerialisedBearerSecurities": {
+      "name": "Dematerialised Bearer Securities",
+      "definition": "Indicates whether it is possible to hold bearer units/shares in paperless form."
+    },
+    "PhysicalRegisteredSecurities": {
+      "name": "Physical Registered Securities",
+      "definition": "Indicates whether it is possible to hold registered units/shares in this class in paperless form."
+    },
+    "DematerialisedRegisteredSecurities": {
+      "name": "Dematerialised Registered Securities",
+      "definition": "Indicates whether it is possible to hold registered units/shares in this class in paperless form."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to the class type, that is, if income is paid out or retained in the fund."
+    },
+    "DividendPolicy": {
+      "name": "Dividend Policy",
+      "definition": "Dividend policy of the fund, for example, cash, units."
+    },
+    "DividendFrequency": {
+      "name": "Dividend Frequency",
+      "definition": "Frequency with which the income is allocated to investors."
+    },
+    "ReinvestmentFrequency": {
+      "name": "Reinvestment Frequency",
+      "definition": "Frequency with which the reinvestment takes place, this is the same or less than the dividend frequency."
+    },
+    "FrontEndLoad": {
+      "name": "Front End Load",
+      "definition": "Indicates whether a front end charge on subscription orders for this class can be applied."
+    },
+    "BackEndLoad": {
+      "name": "Back End Load",
+      "definition": "Indicates whether an exit charge (for example, CDSC) on redemption orders for this class can be applied."
+    },
+    "SwitchFee": {
+      "name": "Switch Fee",
+      "definition": "Indicates whether a separate fee for switching between sub-funds of the same umbrella can be applied."
+    },
+    "EUSavingsDirective": {
+      "name": "EU Savings Directive",
+      "definition": "Indicates whether the investment fund class is subject to the European Union Saving Directive."
+    },
+    "LaunchDate": {
+      "name": "Launch Date",
+      "definition": "Date on which the fund is open for investment."
+    },
+    "FundEndDate": {
+      "name": "Fund End Date",
+      "definition": "Date on which the fund is closed to investment."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Date the fund closes."
+    },
+    "InitialOfferEndDate": {
+      "name": "Initial Offer End Date",
+      "definition": "Date on which the discount period of the newly launched investment fund ends."
+    },
+    "SuspensionStartDate": {
+      "name": "Suspension Start Date",
+      "definition": "Date on which valuation of the investment fund class is suspended."
+    },
+    "SuspensionEndDate": {
+      "name": "Suspension End Date",
+      "definition": "Date on which valuation of the investment fund class is unsuspended."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Maturity date of the product. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00065."
+    },
+    "MayBeTerminatedEarly": {
+      "name": "May Be Terminated Early",
+      "definition": "Specifies whether the product may be terminated early. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00067."
+    },
+    "ClosedEndFund": {
+      "name": "Closed End Fund",
+      "definition": "Indicates whether the fund is close-ended."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Indicates whether equalisation is applied."
+    },
+    "TaxEfficientProductEligible": {
+      "name": "Tax Efficient Product Eligible",
+      "definition": "Indicates whether the fund is eligible for a tax efficient product."
+    },
+    "Authorised": {
+      "name": "Authorised",
+      "definition": "Indicates whether the fund is authorised by the regulatory compliance authority."
+    },
+    "RDRCompliant": {
+      "name": "RDR Compliant",
+      "definition": "Indicates whether the fund is compliant with the Retail Distribution Review (RDR)."
+    },
+    "ManagementFeeSource": {
+      "name": "Management Fee Source",
+      "definition": "Specifies from where the management fee is taken."
+    },
+    "PerformanceFee": {
+      "name": "Performance Fee",
+      "definition": "Indicates whether there is a performance fee feature or carried interest. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00045."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the fund."
+    }
+  }
+}

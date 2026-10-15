@@ -1,0 +1,24 @@
+{
+  "isoType": "QualifiedPartyAndXMLSignature1",
+  "language": "en",
+  "name": "Qualified Party And XML Signature 1",
+  "definition": "Defines a signing party and a digital signature made by this party.",
+  "isoElements": {
+    "Party": {
+      "name": "Party",
+      "definition": "Identification of the signing party."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Digital signature in XML-DSIG format and reference to signing party."
+    }
+  },
+  "isoRules": {
+    "IDRule": {
+      "definition": "When a signature is created for a message component that contains IDREFs or IDs, these elements MUST not be excluded from the signature."
+    },
+    "ManifestRule": {
+      "definition": "When a signature is created for a message component that contains IDREFs or IDs, a manifest must be used to include the referenced data."
+    }
+  }
+}

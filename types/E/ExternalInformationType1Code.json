@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalInformationType1Code",
+  "language": "en",
+  "name": "External Information Type 1 Code",
+  "definition": "Specifies the information type, as published in an external information type code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "INST": {
+      "isoName": "ProcessingInstructions",
+      "name": "Processing Instructions",
+      "definition": "Instructions used to ease automatic request processing."
+    },
+    "OTHR": {
+      "isoName": "OtherInformation",
+      "name": "Other Information",
+      "definition": "Additional information not otherwise specified."
+    },
+    "RELY": {
+      "isoName": "RelayInstructions",
+      "name": "Relay Instructions",
+      "definition": "Instructions used to ease automatic request relay."
+    },
+    "SHPG": {
+      "isoName": "ShippingInformation",
+      "name": "Shipping Information",
+      "definition": "Additional shipping information not otherwise specified."
+    },
+    "SHPM": {
+      "isoName": "ShippingMarks",
+      "name": "Shipping Marks",
+      "definition": "Information concerning the letters, numbers or other symbols placed on the outside of cargo to facilitate identification."
+    },
+    "SLDC": {
+      "isoName": "SellerDomicileLocation",
+      "name": "Seller Domicile Location",
+      "definition": "Information concerning the domicile location of the seller."
+    }
+  }
+}

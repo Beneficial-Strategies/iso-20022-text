@@ -1,0 +1,52 @@
+{
+  "isoType": "ATMTransaction48",
+  "language": "en",
+  "name": "ATM Transaction 48",
+  "definition": "Inquiry information for the transaction.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the ATM."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Result of the inquiry service."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Sequence of actions to be performed by the ATM to complete the transaction."
+    },
+    "CustomerServiceProfile": {
+      "name": "Customer Service Profile",
+      "definition": "Profile of the customer with the allowed services and restrictions."
+    },
+    "CurrencyConversion": {
+      "name": "Currency Conversion",
+      "definition": "Dynamic currency conversion result."
+    },
+    "AccountInformation": {
+      "name": "Account Information",
+      "definition": "Account information associated to the customer."
+    },
+    "AccountStatementData": {
+      "name": "Account Statement Data",
+      "definition": "Statement information of an account."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Exchange rate and calculated amount to be presented to the customer when the dispense currency or the deposit currency (target currency) is different to account currency (source currency)."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Sequence of one or more TLV data elements from the ATM application, in accordance with ISO 7816-6, not in a specific order. Present if the transaction is performed with an EMV chip card application."
+    },
+    "Command": {
+      "name": "Command",
+      "definition": "Maintenance command to perform on the ATM."
+    },
+    "AuthorisationResult": {
+      "name": "Authorisation Result",
+      "definition": "Outcome of the authorisation"
+    }
+  }
+}

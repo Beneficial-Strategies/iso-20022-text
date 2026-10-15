@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityReportV01",
+  "language": "en",
+  "name": "Security Report V 01",
+  "definition": "SCOPE|An executing/servicing party sends a SecurityReport message to an instructing party to advise the last known image of securities data's.||The report may be sent upon request (for example a query) of the instructing party or push by the executing/servicing party.||The instructing party - executing/servicing party relationship may be:|- Central Securities Depositories (CSD) who would like to publish security static data, or |- a Corporate, or|- a Bank, or|- a Market Infrastructure, or |- a Market Data Provider.||Initiator: executing/servicing party.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Point to point reference elements, as assigned by the instructing party, to unambiguously identify the report message."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Provides details on the page number of the message."
+    },
+    "SecurityReportOrError": {
+      "name": "Security Report Or Error",
+      "definition": "Provides the financial instruments details or error raised during the generation of the report."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

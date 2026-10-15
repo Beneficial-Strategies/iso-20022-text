@@ -1,0 +1,28 @@
+{
+  "isoType": "FundParameters5",
+  "language": "en",
+  "name": "Fund Parameters 5",
+  "definition": "Parameters required to request a fund reference data report.",
+  "isoElements": {
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Financial instrument for which the report is requested."
+    },
+    "FundManagementCompany": {
+      "name": "Fund Management Company",
+      "definition": "Fund management company for which the report is requested."
+    },
+    "DateFrom": {
+      "name": "Date From",
+      "definition": "Specifies the date on or after which the information required will have been last updated. Only the most recent versions of the data is required."
+    },
+    "CountryOfDomicile": {
+      "name": "Country Of Domicile",
+      "definition": "Country where the fund has legal domicile."
+    },
+    "RegisteredDistributionCountry": {
+      "name": "Registered Distribution Country",
+      "definition": "Country where the fund is registered for distribution."
+    }
+  }
+}

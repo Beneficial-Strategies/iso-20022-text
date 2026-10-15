@@ -1,0 +1,208 @@
+{
+  "isoType": "AuthorisationResponseV05",
+  "language": "en",
+  "name": "Authorisation Response V 05",
+  "definition": "The AuthorisationResponse message is sent by an issuer or an agent to an acquirer in response to an AuthorisationInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "TransactionCharacteristics": {
+      "name": "Transaction Characteristics",
+      "definition": "Contains the key data elements of the transaction."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Information related to the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "AccountFrom": {
+      "name": "Account From",
+      "definition": "Identifies a customer account or a relationship to its account affected for debit, inquiries and the source of funding for transfers."
+    },
+    "AccountTo": {
+      "name": "Account To",
+      "definition": "Identifies a customer account or a relationship to its account affected for credits, inquiries and the destination account for funds transfers."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "ConversionDateTime": {
+      "name": "Conversion Date Time",
+      "definition": "Date and Time of currency conversion."
+    },
+    "TransactionAmounts": {
+      "name": "Transaction Amounts",
+      "definition": "Amounts of the card transaction."
+    },
+    "AdditionalAmount": {
+      "name": "Additional Amount",
+      "definition": "Amounts that are not part of the transaction amount and not included in reconciliation."
+    },
+    "OriginalDataElements": {
+      "name": "Original Data Elements",
+      "definition": "Data elements contained in the original message."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes applying to the good or item."
+    },
+    "Acceptor": {
+      "name": "Acceptor",
+      "definition": "Card acceptor performing the card transaction."
+    },
+    "Transactor": {
+      "name": "Transactor",
+      "definition": "Information related to the transactior who provides technical payment solutions for acceptor and originator to conduct transactions."
+    },
+    "Terminal": {
+      "name": "Terminal",
+      "definition": "Payment terminal or ATM performing the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Contains or describes conditions and characteristics of the transaction."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to an integrated circuit card application embedded in the payment card of the cardholder."
+    },
+    "AuthenticationData": {
+      "name": "Authentication Data",
+      "definition": "Contain information related to authentication."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "The party providing source of funds."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "The party receiving funds."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "Wallet": {
+      "name": "Wallet",
+      "definition": "Container for tenders used by the customer to perform the payment transaction."
+    },
+    "Cardholder": {
+      "name": "Cardholder",
+      "definition": "Cardholder performing the card payment transaction."
+    },
+    "Verification": {
+      "name": "Verification",
+      "definition": "Method and data intended to be used for this transaction in order to authenticate or verify  the cardholder or his card."
+    },
+    "Risk": {
+      "name": "Risk",
+      "definition": "Context of risk associated with the transaction."
+    },
+    "SpecialProgrammeQualification": {
+      "name": "Special Programme Qualification",
+      "definition": "Data to qualify for incentive or other related programmes."
+    },
+    "Instalment": {
+      "name": "Instalment",
+      "definition": "Data exclusively related to a card issuer financial loan of the payment transaction, or instalment."
+    },
+    "RecurringPayment": {
+      "name": "Recurring Payment",
+      "definition": "Detail information of the recurring payment."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Additional functions or services to be performed in conjunction with the transaction."
+    },
+    "AccountBalance": {
+      "name": "Account Balance",
+      "definition": "Balance of the account involved in the card transaction."
+    },
+    "FundsServices": {
+      "name": "Funds Services",
+      "definition": "Financial services related to the account."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation."
+    },
+    "TransactionSpecificData": {
+      "name": "Transaction Specific Data",
+      "definition": "Component contains data structures applicable to certain industries that require specific data within transaction messages."
+    },
+    "Benefits": {
+      "name": "Benefits",
+      "definition": "Contain benefit supporting data."
+    },
+    "Promotion": {
+      "name": "Promotion",
+      "definition": "Information about the promotion applied to the transaction."
+    },
+    "StrongCustomerAuthentication": {
+      "name": "Strong Customer Authentication",
+      "definition": "EU PSD2 Strong Consumer Authentication data."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

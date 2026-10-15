@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionSD19",
+  "language": "en",
+  "name": "Corporate Action SD 19",
+  "definition": "Provides additional information regarding corporate action details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "RecordDate": {
+      "name": "Record Date",
+      "definition": "Date at which positions are stuck at the end of the day to note which parties will receive the relevant amount of entitlement, due to be distributed on payment date. DTC (The Depository Trust Corporation) and its Participants may use this as a reference."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time at which the movement was due to take place (cash and/or securities)."
+    },
+    "LotteryDate": {
+      "name": "Lottery Date",
+      "definition": "Date/time on which the lottery is run and applied to the holder's positions. This is also applicable to partial calls."
+    },
+    "LotteryType": {
+      "name": "Lottery Type",
+      "definition": "Specifies the type of lottery announced."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "NonGuaranteedTrade4",
+  "language": "en",
+  "name": "Non Guaranteed Trade 4",
+  "definition": "Provides the non guaranteed trade details.",
+  "isoElements": {
+    "TradeCounterpartyMemberIdentification": {
+      "name": "Trade Counterparty Member Identification",
+      "definition": "External identification of the member who is the market counterpart member of the current trade leg (in case of non guarantee trades, this field allows buyer and seller to identify each other)."
+    },
+    "TradeCounterpartyClearingMemberIdentification": {
+      "name": "Trade Counterparty Clearing Member Identification",
+      "definition": "External identification of the clearing member of the market couterpart member (in case of non guarantee trades, this field allows buyer and seller to identify each other)."
+    },
+    "DeliveringParties": {
+      "name": "Delivering Parties",
+      "definition": "Provides details about the delivering parties involved in the settlement chain."
+    },
+    "ReceivingParties": {
+      "name": "Receiving Parties",
+      "definition": "Provides details about the receiving parties involved in the settlement chain."
+    }
+  }
+}

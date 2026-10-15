@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalUndertakingDocumentType1Code",
+  "language": "en",
+  "name": "External Undertaking Document Type 1 Code",
+  "definition": "Specifies the external undertaking document type code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BENS": {
+      "isoName": "BeneficiaryStatement",
+      "name": "Beneficiary Statement",
+      "definition": "Document is a beneficiary statement."
+    },
+    "CINV": {
+      "isoName": "CommercialInvoice",
+      "name": "Commercial Invoice",
+      "definition": "Document is an invoice."
+    },
+    "CLAF": {
+      "isoName": "ClaimForm",
+      "name": "Claim Form",
+      "definition": "Document is a claim form."
+    },
+    "DEMD": {
+      "isoName": "Demand",
+      "name": "Demand",
+      "definition": "Document is an undertaking demand."
+    },
+    "TRAF": {
+      "isoName": "TransferForm",
+      "name": "Transfer Form",
+      "definition": "Document is a transfer form."
+    }
+  }
+}

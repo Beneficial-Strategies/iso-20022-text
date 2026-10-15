@@ -1,0 +1,28 @@
+{
+  "isoType": "PriceFormatSD1Choice",
+  "language": "en",
+  "name": "Price Format SD 1 Choice",
+  "definition": "Choice between a percentage price or an amount price or an unspecified price or an amount price per amount or an amount price per financial instrument quantity.",
+  "isoElements": {
+    "AmountPrice": {
+      "name": "Amount Price",
+      "definition": "Price expressed as a currency and amount."
+    },
+    "NotSpecifiedPrice": {
+      "name": "Not Specified Price",
+      "definition": "Value of the price not specified."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "name": "Amount Price Per Financial Instrument Quantity",
+      "definition": "Price expressed as a ratio: amount price per financial instrument quantity."
+    }
+  },
+  "isoRules": {
+    "CoexistenceQuantityRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Quantity length must not be greater than 15, including the decimal point."
+    },
+    "CoexistenceAmountRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Amount length must not be greater than 15, including the decimal point."
+    }
+  }
+}

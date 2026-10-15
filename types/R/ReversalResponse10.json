@@ -1,0 +1,40 @@
+{
+  "isoType": "ReversalResponse10",
+  "language": "en",
+  "name": "Reversal Response 10",
+  "definition": "Response data to a reversal request.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "POI identification of the transaction in an unambiguous way."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer."
+    },
+    "IssuerReferenceData": {
+      "name": "Issuer Reference Data",
+      "definition": "Identification of the transaction given by the Issuer."
+    },
+    "ReversalTransactionResult": {
+      "name": "Reversal Transaction Result",
+      "definition": "Result of reversal transaction."
+    },
+    "ReversedAmount": {
+      "name": "Reversed Amount",
+      "definition": "Amount that have been reverse."
+    },
+    "Receipt": {
+      "name": "Receipt",
+      "definition": "Various receipts linked to the reversal."
+    }
+  }
+}

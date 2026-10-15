@@ -3,5 +3,10 @@
   "language": "en",
   "name": "Active Or Historic Currency And Amount",
   "definition": "A number of monetary units specified in an active or a historic currency where the unit of currency is explicit and compliant with ISO 4217.",
-  "format": "Required format is digits with an optional decimal point, for example 1500.25, at most 18 digits in total, of which at most 5 after the decimal point, not negative"
+  "format": "Required format is digits with an optional decimal point, for example 1500.25, at most 18 digits in total, of which at most 5 after the decimal point, not negative",
+  "isoRules": {
+    "CurrencyAmount": {
+      "definition": "The number of fractional digits (or minor unit of currency) must comply with ISO 4217.|Note: The decimal separator is a dot."
+    }
+  }
 }

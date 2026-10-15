@@ -1,0 +1,21 @@
+{
+  "isoType": "InterestRateContractTerm4",
+  "language": "en",
+  "name": "Interest Rate Contract Term 4",
+  "definition": "Describes how interest rates are reported.",
+  "isoElements": {
+    "Unit": {
+      "name": "Unit",
+      "definition": "Unit for the rate basis."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Specifies the number of time units (as expressed by the payment frequency period) that detemines the frequency at which periodic payment dates occur."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 2 elements must be present."
+    }
+  }
+}

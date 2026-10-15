@@ -1,0 +1,60 @@
+{
+  "isoType": "RetailerPaymentResult8",
+  "language": "en",
+  "name": "Retailer Payment Result 8",
+  "definition": "Data related to the result of a processed payment transaction.",
+  "isoElements": {
+    "PaymentInstrument": {
+      "name": "Payment Instrument",
+      "definition": "Set of payment instruments relevant to this transaction."
+    },
+    "PaymentTypeInformation": {
+      "name": "Payment Type Information",
+      "definition": "Further details related to the set of payment types."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of payment transaction."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Service provided by the card payment transaction, in addition to the main service."
+    },
+    "ServiceAttribute": {
+      "name": "Service Attribute",
+      "definition": "Additional attribute of the service type."
+    },
+    "RequestedTransaction": {
+      "name": "Requested Transaction",
+      "definition": "Data associated with the Transaction."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Result of the transaction processing."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Customer order attached to a customer, recorded in the POI system."
+    },
+    "ImageCapturedSignature": {
+      "name": "Image Captured Signature",
+      "definition": "Numeric value of a handwritten signature."
+    },
+    "ProtectedCapturedSignature": {
+      "name": "Protected Captured Signature",
+      "definition": "Protected value of a handwritten signature."
+    },
+    "MerchantOverrideFlag": {
+      "name": "Merchant Override Flag",
+      "definition": "Indicate that the Merchant forced the result of the payment to successful.| Usage: When absent, default value is False."
+    },
+    "CustomerLanguage": {
+      "name": "Customer Language",
+      "definition": "Language used to display messages to the customer."
+    },
+    "OnlineFlag": {
+      "name": "Online Flag",
+      "definition": "Indicate that the payment transaction processing has required the approval of an acquirer.| Usage: When absent, default value is False."
+    }
+  }
+}

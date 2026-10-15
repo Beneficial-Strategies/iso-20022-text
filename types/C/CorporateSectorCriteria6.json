@@ -1,0 +1,25 @@
+{
+  "isoType": "CorporateSectorCriteria6",
+  "language": "en",
+  "name": "Corporate Sector Criteria 6",
+  "definition": "Taxonomy for financial and non financial counterparties.",
+  "isoElements": {
+    "FinancialInstitutionSector": {
+      "name": "Financial Institution Sector",
+      "definition": "Indicates that reporting counterparty is a financial institution."
+    },
+    "NonFinancialInstitutionSector": {
+      "name": "Non Financial Institution Sector",
+      "definition": "Indicates that reporting counterparty is a non financial institution."
+    },
+    "NotReported": {
+      "name": "Not Reported",
+      "definition": "Indicates that reporting counterparty is another type of counterparty as defined by specific regulations (e.g. a CCP) and the detailed sector is not reported."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "ATMAccountStatement2",
+  "language": "en",
+  "name": "ATM Account Statement 2",
+  "definition": "Statement information of an account.",
+  "isoElements": {
+    "TransactionDate": {
+      "name": "Transaction Date",
+      "definition": "Date of the transaction."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Value date of the transaction."
+    },
+    "ShortText": {
+      "name": "Short Text",
+      "definition": "Short text to display or print for the statement."
+    },
+    "CreditTransaction": {
+      "name": "Credit Transaction",
+      "definition": "True if credit transaction."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the transaction."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the amount."
+    },
+    "LongText": {
+      "name": "Long Text",
+      "definition": "Alternative text of the statement to print or display."
+    }
+  }
+}

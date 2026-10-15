@@ -1,0 +1,23 @@
+{
+  "isoType": "NettingEligible1Code",
+  "language": "en",
+  "name": "Netting Eligible 1 Code",
+  "definition": "Specifies whether the trade is eligible for netting.",
+  "isoCodes": {
+    "GROS": {
+      "isoName": "Gross",
+      "name": "Gross",
+      "definition": "Indicates that the trade is not eligible for settlement netting."
+    },
+    "NETT": {
+      "isoName": "Nett",
+      "name": "Nett",
+      "definition": "Indicates that the trade is eligible for settlement netting."
+    },
+    "AGFS": {
+      "isoName": "AggregationForSettlement",
+      "name": "Aggregation For Settlement",
+      "definition": "Grouping of receipts/purchases to create one settlement obligation, and the grouping of deliveries/sales to create one settlement obligation."
+    }
+  }
+}

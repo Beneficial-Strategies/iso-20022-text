@@ -1,0 +1,16 @@
+{
+  "isoType": "DerivativesTradeWarningsReportV01",
+  "language": "en",
+  "name": "Derivatives Trade Warnings Report V 01",
+  "definition": "The DerivativesTradeWarningsReport is sent by the trade repository (TR) to the authority or made available by the trade repository (TR) to the report submitting entity and the reporting counterparty as well as the entity responsible for reporting, if applicable.",
+  "isoElements": {
+    "WarningsStatistics": {
+      "name": "Warnings Statistics",
+      "definition": "Detailed information on missing valuations of outstanding derivatives, missing margin information of outstanding derivatives, as well as on abnormal values reported in the fields."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

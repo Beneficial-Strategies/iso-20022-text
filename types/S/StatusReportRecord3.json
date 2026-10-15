@@ -1,0 +1,24 @@
+{
+  "isoType": "StatusReportRecord3",
+  "language": "en",
+  "name": "Status Report Record 3",
+  "definition": "Provides the per record status details.",
+  "isoElements": {
+    "OriginalRecordIdentification": {
+      "name": "Original Record Identification",
+      "definition": "Unique and unambiguous technical identification of the original data for which the status is provided."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Defines status of the reported transaction."
+    },
+    "ValidationRule": {
+      "name": "Validation Rule",
+      "definition": "Provides the details of the rule which could not be validated."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

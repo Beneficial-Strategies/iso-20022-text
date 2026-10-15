@@ -1,0 +1,32 @@
+{
+  "isoType": "InvoicePaymentReconciliationStatusV01",
+  "language": "en",
+  "name": "Invoice Payment Reconciliation Status V 01",
+  "definition": "The message InvoicePaymentReconciliationStatus is sent from a payee to a payer to acknowledge attribution of payments.|A payee that has received payment reconciliation information uses this message to confirm or to question common understanding of payments and instalments.|The payee may include references to the corresponding items of an InvoicePaymentReconciliationAdvice message or to other messages and may include the referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Specifies a set of characteristics that unambiguously identify the status, common parameters, documents and identifications."
+    },
+    "ReconciliationList": {
+      "name": "Reconciliation List",
+      "definition": "List of payment reconciliation information."
+    },
+    "ReconciliationCount": {
+      "name": "Reconciliation Count",
+      "definition": "Specifies the number of reconciliation lists."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

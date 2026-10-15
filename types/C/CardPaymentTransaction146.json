@@ -1,0 +1,96 @@
+{
+  "isoType": "CardPaymentTransaction146",
+  "language": "en",
+  "name": "Card Payment Transaction 146",
+  "definition": "Data associated with the transaction during the authorisation.",
+  "isoElements": {
+    "TransactionCapture": {
+      "name": "Transaction Capture",
+      "definition": "Flag indicating whether the transaction data must be captured or not in addition to the message process.|Usage: When absent, default value is False."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of transaction being undertaken for the main service."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Service in addition to the main service."
+    },
+    "ServiceAttribute": {
+      "name": "Service Attribute",
+      "definition": "Additional attribute of the service type."
+    },
+    "LastTransactionFlag": {
+      "name": "Last Transaction Flag",
+      "definition": "Flag indicating processing of the last transaction.|Usage: When absent, default value is True."
+    },
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code conform to ISO 18245, related to the type of services or goods the merchant provides for the transaction."
+    },
+    "CustomerConsent": {
+      "name": "Customer Consent",
+      "definition": "This enables retailers, if they so wish, to clearly indicate whether the consent of the customer was explicitly obtained for a given service instead of being implicitly derived.|Usage: When absent, default value is False."
+    },
+    "CardProgrammeProposed": {
+      "name": "Card Programme Proposed",
+      "definition": "Specifies the card program proposed by a retailer to a cardholder among a series of payment programmes offered by the retailer."
+    },
+    "CardProgrammeApplied": {
+      "name": "Card Programme Applied",
+      "definition": "Specifies the card program actually selected by the cardholder among the ones supported by the retailer and/or the one actually proposed to him."
+    },
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "OriginalTransaction": {
+      "name": "Original Transaction",
+      "definition": "Identification of the original transaction."
+    },
+    "InitiatorTransactionIdentification": {
+      "name": "Initiator Transaction Identification",
+      "definition": "Identification of the transaction assigned by the initiating party for the recipient party."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer. This identification might be linked to the identification of the settlement for further verification by the merchant."
+    },
+    "IssuerCITIdentification": {
+      "name": "Issuer CIT Identification",
+      "definition": "Identification, given by the Issuer, of the transaction processed with the cardholder that legitimates this merchant initiated transaction."
+    },
+    "MerchantCITIdentification": {
+      "name": "Merchant CIT Identification",
+      "definition": "Identification, given by the merchant, of the transaction processed with the cardholder that legitimates this merchant initiated transaction."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Details of the transaction."
+    },
+    "MerchantReferenceData": {
+      "name": "Merchant Reference Data",
+      "definition": "Merchant information that must be returned unchanged in the response."
+    },
+    "AccountFrom": {
+      "name": "Account From",
+      "definition": "Information relevant to the account where the money is taken from."
+    },
+    "AccountTo": {
+      "name": "Account To",
+      "definition": "Information relevant to the account where the money is put."
+    },
+    "AdditionalTransactionData": {
+      "name": "Additional Transaction Data",
+      "definition": "Additional information related to the transaction."
+    },
+    "MessageFromMerchant": {
+      "name": "Message From Merchant",
+      "definition": "Message from a merchant to be displayed on the cardholder bank statement."
+    }
+  }
+}

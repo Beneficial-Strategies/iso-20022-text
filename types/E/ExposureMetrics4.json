@@ -1,0 +1,45 @@
+{
+  "isoType": "ExposureMetrics4",
+  "language": "en",
+  "name": "Exposure Metrics 4",
+  "definition": "Numeric variables calculated on market exposures.",
+  "isoElements": {
+    "PrincipalAmount": {
+      "name": "Principal Amount",
+      "definition": "Amount of money to be settled as of the start date and maturity date of the transaction."
+    },
+    "LoanValue": {
+      "name": "Loan Value",
+      "definition": "Specifies the loan value, that is the quantity or nominal amount multiplied by the price."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Market value of asset or collateral component."
+    },
+    "OutstandingMarginLoanAmount": {
+      "name": "Outstanding Margin Loan Amount",
+      "definition": "Total amount of margin loans in base currency."
+    },
+    "ShortMarketValueAmount": {
+      "name": "Short Market Value Amount",
+      "definition": "Market value of short position in base currency."
+    },
+    "MarginLoan": {
+      "name": "Margin Loan",
+      "definition": "Margin loan in which a counterparty extends credit in connection with the purchase, sale, carrying or trading of securities, but not including other loans that are secured by collateral in the form of securities."
+    },
+    "CashCollateralAmount": {
+      "name": "Cash Collateral Amount",
+      "definition": "Amount of funds provided as collateral for borrowing the securities or commodities."
+    },
+    "CollateralMarketValue": {
+      "name": "Collateral Market Value",
+      "definition": "Market value of asset or collateral component."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/PrincipalAmount Must be present| Or\t/LoanValue Must be present| Or\t/MarketValue Must be present| Or\t/OutstandingMarginLoanAmount Must be present| Or /ShortMarketValueAmount Must be present| Or /MarginLoan Must be present| Or /CashCollateralAmount Must be present| Or /CollateralMarketValue Must be present"
+    }
+  }
+}

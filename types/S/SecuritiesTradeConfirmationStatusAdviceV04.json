@@ -1,0 +1,65 @@
+{
+  "isoType": "SecuritiesTradeConfirmationStatusAdviceV04",
+  "language": "en",
+  "name": "Securities Trade Confirmation Status Advice V 04",
+  "definition": "Scope|This message is sent from Central Matching Utility (CMU) to an executing party or an instructing party to advise the status of the SecuritiesTradeConfirmation message previously sent by the party. The status may be a processing, pending processing, affirmed or disaffirmed, cancel or replacement by an instructing party, a custodian or an affirming party, internal matching, and/or matching status.|The instructing party is typically the investment manager or an intermediary system/vendor communicating on behalf of the investment manager or of other categories of investors. The executing party is typically the broker/dealer or an intermediary system/vendor communicating on behalf of the broker/dealer.|The ISO 20022 Business Application Header must be used|Usage|Initiator: In central matching the Initiator is the Central Matching Utility.|Respondent: no response is needed by the recipient of the message.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Information that unambiguously identifies an SecuritiesTradeConfirmationStatusAdvice message as known by the account owner (or the instructing party acting on its behalf)."
+    },
+    "References": {
+      "name": "References",
+      "definition": "Link to another transaction that must be processed after, before or at the same time."
+    },
+    "AffirmationStatus": {
+      "name": "Affirmation Status",
+      "definition": "Provides details on the affitrmation status of a trade."
+    },
+    "ProcessingStatus": {
+      "name": "Processing Status",
+      "definition": "Provides the processing status of a trade."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides details on the matching status of a trade."
+    },
+    "ReplacementProcessingStatus": {
+      "name": "Replacement Processing Status",
+      "definition": "Provides the replacement processing status of a trade."
+    },
+    "CancellationProcessingStatus": {
+      "name": "Cancellation Processing Status",
+      "definition": "Provides details on the cancellation status of a trade."
+    },
+    "PartyTradingDetails": {
+      "name": "Party Trading Details",
+      "definition": "Details of the trading party."
+    },
+    "CounterpartyTradingDetails": {
+      "name": "Counterparty Trading Details",
+      "definition": "Details of the trading counterparty."
+    },
+    "ConfirmationParties": {
+      "name": "Confirmation Parties",
+      "definition": "Parties used for acting parties that applies either to the whole message or to individual sides."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Identifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Identifies the chain of receiving settlement parties."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "StatusPresenceRule": {
+      "definition": "AffirmationStatus or ProcessingStatus or MatchingStatus or ReplacementProcessingStatus or CancellationProcessingStatus must be present."
+    }
+  }
+}

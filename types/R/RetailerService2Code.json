@@ -1,0 +1,53 @@
+{
+  "isoType": "RetailerService2Code",
+  "language": "en",
+  "name": "Retailer Service 2 Code",
+  "definition": "List of specific services for ServiceRequest",
+  "isoCodes": {
+    "FSPQ": {
+      "isoName": "FinancialPaymentRequest",
+      "name": "Financial Payment Request",
+      "definition": "The Sale System requests to the POI System to perform a payment(Purchase/Refund/PWCB/MOTO Payment/...)."
+    },
+    "FSRQ": {
+      "isoName": "FinancialReversalRequest",
+      "name": "Financial Reversal Request",
+      "definition": "The Sale System requests to the POI System to perform a reversal partial or complete to cancel a former payment service."
+    },
+    "FSIQ": {
+      "isoName": "FinancialBalanceInquiryRequest",
+      "name": "Financial Balance Inquiry Request",
+      "definition": "The Sale System requests to the POI System to perform balance inquiry on the main account."
+    },
+    "FSBQ": {
+      "isoName": "FinancialBatchRequest",
+      "name": "Financial Batch Request",
+      "definition": "The Batch message pair is used to request or get the result of transactions (payment, loyalty and reversal) performed without connection to the Sale system (Payment delivery)."
+    },
+    "FSLQ": {
+      "isoName": "FinancialLoyaltyRequest",
+      "name": "Financial Loyalty Request",
+      "definition": "The Sale System requests to the POI System a loyalty service like loading or redeem."
+    },
+    "FSVQ": {
+      "isoName": "FinancialStoredValueRequest",
+      "name": "Financial Stored Value Request",
+      "definition": "The Sale System requests to the POI System to manage a stored value card or account (eg. Load, Payment, Reimbursement)."
+    },
+    "FSEQ": {
+      "isoName": "FinancialEnableServiceRequest",
+      "name": "Financial Enable Service Request",
+      "definition": "The Sale System requests to the POI System to enable a service on its side."
+    },
+    "FSAQ": {
+      "isoName": "FinancialCardAcquisitionRequest",
+      "name": "Financial Card Acquisition Request",
+      "definition": "The Sale System requests to the POI System to handle a card data acquisition on the card reader."
+    },
+    "FSCQ": {
+      "isoName": "FinancialReconciliationRequest",
+      "name": "Financial Reconciliation Request",
+      "definition": "The Sale System request to the POI System different kinds of transaction reconciliation."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "Response3Code",
+  "language": "en",
+  "name": "Response 3 Code",
+  "definition": "Result of the request message or advice message.",
+  "isoCodes": {
+    "APPR": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Service has been successfuly provided."
+    },
+    "DECL": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Service is declined."
+    },
+    "FRTH": {
+      "isoName": "FurtherAction",
+      "name": "Further Action",
+      "definition": "Further action required to complete the transaction, for instance a referral."
+    },
+    "PART": {
+      "isoName": "PartialApproved",
+      "name": "Partial Approved",
+      "definition": "Service has been partialy provided."
+    },
+    "PRCS": {
+      "isoName": "Processed",
+      "name": "Processed",
+      "definition": "Advice message is processed."
+    },
+    "UNPR": {
+      "isoName": "NotProcessed",
+      "name": "Not Processed",
+      "definition": "Advice message could not be processed."
+    }
+  }
+}

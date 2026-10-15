@@ -1,0 +1,36 @@
+{
+  "isoType": "ForeignExchangeTerms7",
+  "language": "en",
+  "name": "Foreign Exchange Terms 7",
+  "definition": "Information needed to process a currency exchange or conversion.",
+  "isoElements": {
+    "ToAmount": {
+      "name": "To Amount",
+      "definition": "Cash amount resulting from a foreign exchange trade."
+    },
+    "FromAmount": {
+      "name": "From Amount",
+      "definition": "Cash amount for which a foreign exchange is required."
+    },
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency in which the rate of exchange is expressed in a currency exchange. In the example 1GBP = xxxCUR, the unit currency is GBP."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the base currency is converted, in a currency exchange."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which an exchange rate is quoted."
+    },
+    "QuotingInstitution": {
+      "name": "Quoting Institution",
+      "definition": "Party that proposes a foreign exchange rate."
+    }
+  }
+}

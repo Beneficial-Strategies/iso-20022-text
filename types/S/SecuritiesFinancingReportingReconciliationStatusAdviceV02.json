@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesFinancingReportingReconciliationStatusAdviceV02",
+  "language": "en",
+  "name": "Securities Financing Reporting Reconciliation Status Advice V 02",
+  "definition": "The SecuritesFinancingReportingReconciliationStatusAdvice message is sent by the trade repositories (TRs) ) to other TR and to the authority or made available to the report submitting entity and the reporting counterparty as well as the entity responsible for reporting, if applicable, to provide a status advice for reconciliation.",
+  "isoElements": {
+    "ReconciliationData": {
+      "name": "Reconciliation Data",
+      "definition": "Set of data concerning the reconciliation results."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

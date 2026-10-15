@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMService21",
+  "language": "en",
+  "name": "ATM Service 21",
+  "definition": "Service provided by the ATM inside the session.",
+  "isoElements": {
+    "ServiceReference": {
+      "name": "Service Reference",
+      "definition": "Unique identification of the service provided by the ATM inside the session."
+    },
+    "ATMServiceCode": {
+      "name": "ATM Service Code",
+      "definition": "Codification of the type of service for the ATM."
+    },
+    "HostServiceCode": {
+      "name": "Host Service Code",
+      "definition": "Codification of the type of service for the host."
+    },
+    "ServiceType": {
+      "name": "Service Type",
+      "definition": "Describes the type of withdrawal selected by the customer."
+    },
+    "ServiceVariantIdentification": {
+      "name": "Service Variant Identification",
+      "definition": "Identification of the variant of the service."
+    }
+  }
+}

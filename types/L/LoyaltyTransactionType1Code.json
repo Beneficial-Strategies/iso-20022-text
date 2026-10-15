@@ -1,0 +1,38 @@
+{
+  "isoType": "LoyaltyTransactionType1Code",
+  "language": "en",
+  "name": "Loyalty Transaction Type 1 Code",
+  "definition": "Type of loyalty transaction.",
+  "isoCodes": {
+    "AWRD": {
+      "isoName": "Award",
+      "name": "Award",
+      "definition": "Direct or payment related award on a loyalty account. Award alone, award associated to a payment (may be with an additional award alone), award because of  a payment resulting on rebates."
+    },
+    "AWRR": {
+      "isoName": "AwardRefund",
+      "name": "Award Refund",
+      "definition": "Refund of a loyalty award transaction."
+    },
+    "REBR": {
+      "isoName": "RebateRefund",
+      "name": "Rebate Refund",
+      "definition": "Refund of a loyalty rebate transaction."
+    },
+    "REBA": {
+      "isoName": "Rebate",
+      "name": "Rebate",
+      "definition": "Rebate on a total amount, sale item amount, or sale items."
+    },
+    "REDE": {
+      "isoName": "Redemption",
+      "name": "Redemption",
+      "definition": "Redemption on a loyalty account."
+    },
+    "REDR": {
+      "isoName": "RedemptionRefund",
+      "name": "Redemption Refund",
+      "definition": "Refund of a loyalty redemption transaction."
+    }
+  }
+}

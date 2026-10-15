@@ -1,0 +1,21 @@
+{
+  "isoType": "CollateralType19",
+  "language": "en",
+  "name": "Collateral Type 19",
+  "definition": "Provides the details of the security or cash pledged as collateral.",
+  "isoElements": {
+    "Security": {
+      "name": "Security",
+      "definition": "Provides the details of the security pledged as collateral."
+    },
+    "Cash": {
+      "name": "Cash",
+      "definition": "Provides details on the type and amount of the cash reinvestment in a given currency and the average interest rate received."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

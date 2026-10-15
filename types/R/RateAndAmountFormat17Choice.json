@@ -1,0 +1,21 @@
+{
+  "isoType": "RateAndAmountFormat17Choice",
+  "language": "en",
+  "name": "Rate And Amount Format 17 Choice",
+  "definition": "Choice between an amount or an unspecified rate.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Number of monetary units specified in a currency."
+    },
+    "NotSpecifiedRate": {
+      "name": "Not Specified Rate",
+      "definition": "Value of the rate not specified."
+    }
+  },
+  "isoRules": {
+    "CoexistenceAmountRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Amount length must not be greater than 15, including the decimal point."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "FundOrderData6",
+  "language": "en",
+  "name": "Fund Order Data 6",
+  "definition": "Extract of trade data for an investment fund switch order.",
+  "isoElements": {
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method by which the transaction is settled."
+    },
+    "AdditionalAmount": {
+      "name": "Additional Amount",
+      "definition": "Choice between additional cash in or resulting cash out."
+    },
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency from which the quoted currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the unit currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    }
+  },
+  "isoRules": {
+    "SwitchOrderDataElementRule": {
+      "definition": "One of the elements (SettlementAmount, SettlementMethod, AdditionalAmount, UnitCurrency, QuotedCurrency) must be present."
+    }
+  }
+}

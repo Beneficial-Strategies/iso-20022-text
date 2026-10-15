@@ -1,0 +1,25 @@
+{
+  "isoType": "ReceivedMarginOrCollateral4",
+  "language": "en",
+  "name": "Received Margin Or Collateral 4",
+  "definition": "Information on the received margin or collateral of the transaction.",
+  "isoElements": {
+    "InitialMarginReceived": {
+      "name": "Initial Margin Received",
+      "definition": "Value of the initial margin received by the reporting counterparty from the other counterparty.|Where initial margin is received on a portfolio basis, this field should include the overall value of initial margin received for the portfolio."
+    },
+    "VariationMarginReceived": {
+      "name": "Variation Margin Received",
+      "definition": "Value of the variation margin received, including cash settled, by the reporting counterparty from the other counterparty. |Where variation margin is received on a portfolio basis, this field should include the overall value of variation margin received for the portfolio."
+    },
+    "ExcessCollateralReceived": {
+      "name": "Excess Collateral Received",
+      "definition": "Value of collateral received in excess of the required collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

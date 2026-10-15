@@ -1,0 +1,283 @@
+{
+  "isoType": "RejectedStatusReason15Code",
+  "language": "en",
+  "name": "Rejected Status Reason 15 Code",
+  "definition": "Specifies the reason for a rejected status.",
+  "isoCodes": {
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Cash settlement date is not recognised or is invalid."
+    },
+    "POIN": {
+      "isoName": "DifferentValuationPoints",
+      "name": "Different Valuation Points",
+      "definition": "Order contains funds that have different valuation points."
+    },
+    "ICAG": {
+      "isoName": "DeliveringAgent",
+      "name": "Delivering Agent",
+      "definition": "Delivering agent is not recognised or is invalid."
+    },
+    "IDDB": {
+      "isoName": "DirectDebit",
+      "name": "Direct Debit",
+      "definition": "Direct debit account identification is not recognised or is invalid."
+    },
+    "INTE": {
+      "isoName": "Intermediary",
+      "name": "Intermediary",
+      "definition": "Intermediary is not recognised or is invalid."
+    },
+    "SAFE": {
+      "isoName": "InvestmentAccount",
+      "name": "Investment Account",
+      "definition": "Investment account identification is not recognised or is invalid."
+    },
+    "IPAY": {
+      "isoName": "PaymentCard",
+      "name": "Payment Card",
+      "definition": "Payment card details are incorrect."
+    },
+    "ICTR": {
+      "isoName": "InvalidCreditTransfer",
+      "name": "Invalid Credit Transfer",
+      "definition": "Credit transfer details are incorrect."
+    },
+    "DEPT": {
+      "isoName": "SettlementPlace",
+      "name": "Settlement Place",
+      "definition": "Place of settlement is not recognised or is invalid."
+    },
+    "IVAG": {
+      "isoName": "ReceivingAgent",
+      "name": "Receiving Agent",
+      "definition": "Receiving agent is not recognised or is invalid."
+    },
+    "ISAF": {
+      "isoName": "SafekeepingPlace",
+      "name": "Safekeeping Place",
+      "definition": "Safekeeping place is not recognised or is invalid."
+    },
+    "DFOR": {
+      "isoName": "InvalidSecurityForm",
+      "name": "Invalid Security Form",
+      "definition": "Form of the security is wrong, eg, the form of security is registered not bearer or vice versa."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrumentIdentification",
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the security is not recognised or is invalid."
+    },
+    "BLCA": {
+      "isoName": "AccountBlockedForCorporateAction",
+      "name": "Account Blocked For Corporate Action",
+      "definition": "Investment account is blocked due to a corporate action."
+    },
+    "BLTR": {
+      "isoName": "AccountBlockedForTransfer",
+      "name": "Account Blocked For Transfer",
+      "definition": "Investment account is blocked due to a transfer out of investment funds."
+    },
+    "DOCC": {
+      "isoName": "AccountBlockedMissingDocuments",
+      "name": "Account Blocked Missing Documents",
+      "definition": "Investment account is blocked until certain legal proceedings are completed, for example, legal documents from the successor, legal proceedings due to bankruptcy."
+    },
+    "MONY": {
+      "isoName": "NotEnoughCash",
+      "name": "Not Enough Cash",
+      "definition": "There is not enough cash in the account to process the instruction."
+    },
+    "SECU": {
+      "isoName": "NotEnoughFinancialInstrument",
+      "name": "Not Enough Financial Instrument",
+      "definition": "There are not enough securities in the account to process the instruction."
+    },
+    "IDNA": {
+      "isoName": "FinancialInstrumentIdentificationAndName",
+      "name": "Financial Instrument Identification And Name",
+      "definition": "Identification of the security and the security name are not the same."
+    },
+    "UWAI": {
+      "isoName": "UnacceptedCommissionWaiving",
+      "name": "Unaccepted Commission Waiving",
+      "definition": "Percentage of commission waiving exceeds the commission percentage or commission amount."
+    },
+    "UDCY": {
+      "isoName": "UnacceptedDealCurrency",
+      "name": "Unaccepted Deal Currency",
+      "definition": "Deal currency is not supported."
+    },
+    "UNAV": {
+      "isoName": "UnacceptedNAVCurrency",
+      "name": "Unaccepted NAV Currency",
+      "definition": "Net asset value currency is not supported."
+    },
+    "UPAY": {
+      "isoName": "UnacceptedPaymentMethod",
+      "name": "Unaccepted Payment Method",
+      "definition": "Payment method, for example, cheque or payment card, is not accepted."
+    },
+    "URSC": {
+      "isoName": "UnacceptedRequestedSettlementCurrency",
+      "name": "Unaccepted Requested Settlement Currency",
+      "definition": "Settlement currency requested is not supported."
+    },
+    "SHIG": {
+      "isoName": "TooHighUnitsOrAmountToSubscribe",
+      "name": "Too High Units Or Amount To Subscribe",
+      "definition": "Quantity of units or amount of money in the order is too high for a subscription."
+    },
+    "SLOW": {
+      "isoName": "TooLowUnitsOrAmountToSubscribe",
+      "name": "Too Low Units Or Amount To Subscribe",
+      "definition": "Quantity of units or amount of money in the order is too low for a subscription."
+    },
+    "ULNK": {
+      "isoName": "UnknownLinkagesReference",
+      "name": "Unknown Linkages Reference",
+      "definition": "Linked reference is not known."
+    },
+    "DLVY": {
+      "isoName": "PhysicalDeliveryImpossible",
+      "name": "Physical Delivery Impossible",
+      "definition": "Order contains physical delivery details but the fund can not be physically delivered."
+    },
+    "ORRF": {
+      "isoName": "DuplicateOrderReference",
+      "name": "Duplicate Order Reference",
+      "definition": "Order reference is a duplicate of a previously received order."
+    },
+    "IPAC": {
+      "isoName": "InstructingPartyNotAllowedForAccount",
+      "name": "Instructing Party Not Allowed For Account",
+      "definition": "Instructing party is not allowed to instruct for this investment account."
+    },
+    "IOTP": {
+      "isoName": "InvalidOrderType",
+      "name": "Invalid Order Type",
+      "definition": "Order type is invalid."
+    },
+    "NSLA": {
+      "isoName": "NotCompliantWithSLA",
+      "name": "Not Compliant With SLA",
+      "definition": "Instruction is not compliant with the service level agreement."
+    },
+    "CUTO": {
+      "isoName": "CutOffTime",
+      "name": "Cut Off Time",
+      "definition": "Instruction has been received after the cut-off time."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Financial instrument quantity is invalid."
+    },
+    "LATE": {
+      "isoName": "TooLate",
+      "name": "Too Late",
+      "definition": "Instruction was received after market deadline."
+    },
+    "ADEA": {
+      "isoName": "AfterDeadline",
+      "name": "After Deadline",
+      "definition": "Instruction was received after the Receiver's deadline."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date or requested trade date or future trade date."
+    },
+    "FEEE": {
+      "isoName": "FeeOrCommission",
+      "name": "Fee Or Commission",
+      "definition": "Unrecognised or invalid fee or commission."
+    },
+    "IEXE": {
+      "isoName": "SubscriberOrRedeemer",
+      "name": "Subscriber Or Redeemer",
+      "definition": "Unrecognised or invalid subscriber or redeemer."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrency",
+      "name": "Settlement Amount Currency",
+      "definition": "Unrecognised or invalid Settlement Amount Currency."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlement",
+      "name": "Physical Settlement",
+      "definition": "Physical Settlement Impossible."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Unrecognised or invalid Place of Trade."
+    },
+    "SETR": {
+      "isoName": "SettlementTransaction",
+      "name": "Settlement Transaction",
+      "definition": "Unrecognised or invalid Settlement Transaction."
+    },
+    "RTGS": {
+      "isoName": "RTGSSystem",
+      "name": "RTGS System",
+      "definition": "Impossible to use RTGS System."
+    },
+    "CASH": {
+      "isoName": "InvalidCashAccount",
+      "name": "Invalid Cash Account",
+      "definition": "Cash account is not recognised or invalid."
+    },
+    "DMON": {
+      "isoName": "InvalidSettlementAmount",
+      "name": "Invalid Settlement Amount",
+      "definition": "Unrecognised or invalid settlement amount."
+    },
+    "BMIN": {
+      "isoName": "BelowMinimumInitialInvestmentAmount",
+      "name": "Below Minimum Initial Investment Amount",
+      "definition": "Amount of subscription is below the minimum initial investment amount."
+    },
+    "INSU": {
+      "isoName": "InsufficientCapacity",
+      "name": "Insufficient Capacity",
+      "definition": "Insufficient capacity."
+    },
+    "PRCT": {
+      "isoName": "PercentageHoldingBreach",
+      "name": "Percentage Holding Breach",
+      "definition": "Percentage holding breach, for example, PPM rules; taxation rules (ERISA)."
+    },
+    "BMRA": {
+      "isoName": "BelowMinimumRedemptionAmount",
+      "name": "Below Minimum Redemption Amount",
+      "definition": "Amount is below the minimum redemption amount."
+    },
+    "BMRV": {
+      "isoName": "BelowMinimumRetainedAmount",
+      "name": "Below Minimum Retained Amount",
+      "definition": "Holding will be below the minimum retained value."
+    },
+    "LOCK": {
+      "isoName": "LockUp",
+      "name": "Lock Up",
+      "definition": "Lock-up period is in place."
+    },
+    "ILLI": {
+      "isoName": "AssetsIlliquid",
+      "name": "Assets Illiquid",
+      "definition": "Assets are illiquid."
+    },
+    "CLOS": {
+      "isoName": "FundClosed",
+      "name": "Fund Closed",
+      "definition": "Fund is closed and will not take in any more investments."
+    },
+    "UNSC": {
+      "isoName": "UnacceptableSwitchCombination",
+      "name": "Unacceptable Switch Combination",
+      "definition": "Instruction specifies an unacceptable combination for the financial instruments in the switch order."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "DataSetRequest7",
+  "language": "en",
+  "name": "Data Set Request 7",
+  "definition": "Identification of requested data set.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the required data set."
+    },
+    "POIChallenge": {
+      "name": "POI Challenge",
+      "definition": "Point of interaction challenge for cryptographic key injection."
+    },
+    "TMChallenge": {
+      "name": "TM Challenge",
+      "definition": "Terminal manager challenge for cryptographic key injection."
+    },
+    "SessionKey": {
+      "name": "Session Key",
+      "definition": "Temporary encryption key that the host will use for protecting keys to download."
+    },
+    "DelegationProof": {
+      "name": "Delegation Proof",
+      "definition": "Proof of delegation to be validated by the terminal manager receiving a status report from a new POI."
+    },
+    "ProtectedDelegationProof": {
+      "name": "Protected Delegation Proof",
+      "definition": "Protected proof of delegation."
+    }
+  }
+}

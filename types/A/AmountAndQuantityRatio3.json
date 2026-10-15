@@ -1,0 +1,24 @@
+{
+  "isoType": "AmountAndQuantityRatio3",
+  "language": "en",
+  "name": "Amount And Quantity Ratio 3",
+  "definition": "Ratio expressed as amount per quantity.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Cash amount."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity expressed as number."
+    }
+  },
+  "isoRules": {
+    "CoexistenceQuantityRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Quantity length must not be greater than 15, including the decimal point. In this message subset, a restricted data type was implemented to comply with this coexistence rule."
+    },
+    "CoexistenceAmountRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Amount length must not be greater than 15, including the decimal point. In this message subset, a restricted data type was implemented to comply with this coexistence rule."
+    }
+  }
+}

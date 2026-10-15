@@ -1,0 +1,25 @@
+{
+  "isoType": "SecuritiesCertificate3",
+  "language": "en",
+  "name": "Securities Certificate 3",
+  "definition": "Physical representation of a security.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Unique and unambiguous identifier of a certificate assigned by the issuer."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Entity that assigns the identification."
+    },
+    "SchemeName": {
+      "name": "Scheme Name",
+      "definition": "Short textual description of the scheme."
+    }
+  },
+  "isoRules": {
+    "ISO8532AndIssuerSchemeNameRule": {
+      "definition": "If Number is ISO 8532 (Format for transmission of certificate numbers), then Issuer and SchemeName must not be used."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "isoType": "ComparisonResult2",
+  "language": "en",
+  "name": "Comparison Result 2",
+  "definition": "Describes the comparison between the currently established baseline elements and the proposed ones.",
+  "isoElements": {
+    "ElementSequenceNumber": {
+      "name": "Element Sequence Number",
+      "definition": "Sequence number assigned to the element."
+    },
+    "ElementPath": {
+      "name": "Element Path",
+      "definition": "Specifies from the root of the message the complete path of the element."
+    },
+    "ElementName": {
+      "name": "Element Name",
+      "definition": "Name of the element."
+    },
+    "Replacement": {
+      "name": "Replacement",
+      "definition": "Replacement of an existing content by a different one."
+    },
+    "Deletion": {
+      "name": "Deletion",
+      "definition": "Deletion of the current element."
+    },
+    "Addition": {
+      "name": "Addition",
+      "definition": "Addition of a new element."
+    }
+  },
+  "isoRules": {
+    "ReplacementOrAdditionOrDeletion": {
+      "definition": "One and only one Message Element in the list Addition, Deletion, Replacement must be present."
+    }
+  }
+}

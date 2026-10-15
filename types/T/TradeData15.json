@@ -1,0 +1,68 @@
+{
+  "isoType": "TradeData15",
+  "language": "en",
+  "name": "Trade Data 15",
+  "definition": "Provides information on the status of a trade.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the present message assigned by the party issuing the message. This identification must be unique amongst all messages of same type sent by the same party."
+    },
+    "OriginatorReference": {
+      "name": "Originator Reference",
+      "definition": "Represents the original reference of the instruction for which the status is given, as assigned by the participant that submitted the foreign exchange trade."
+    },
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference to the unique system identification assigned to the trade by the central matching system."
+    },
+    "MatchingSystemMatchingReference": {
+      "name": "Matching System Matching Reference",
+      "definition": "Unique matching identification assigned to the trade and to the matching trade from the counterparty by the central matching system."
+    },
+    "MatchingSystemMatchedSideReference": {
+      "name": "Matching System Matched Side Reference",
+      "definition": "Identification to the unique reference from the central settlement system that allows the removal of alleged trades once the matched status notification for the matching side has been received."
+    },
+    "StatusOriginator": {
+      "name": "Status Originator",
+      "definition": "Party that assigned the status to the foreign exchange or derivative trade."
+    },
+    "CurrentStatus": {
+      "name": "Current Status",
+      "definition": "Specifies the new status of a trade."
+    },
+    "CurrentStatusSubType": {
+      "name": "Current Status Sub Type",
+      "definition": "Additional information on the current status of a trade in a central system."
+    },
+    "CurrentStatusDateTime": {
+      "name": "Current Status Date Time",
+      "definition": "Specifies the date and time at which the current status was assigned."
+    },
+    "PreviousStatus": {
+      "name": "Previous Status",
+      "definition": "Specifies the previous status of a trade."
+    },
+    "PreviousStatusSubType": {
+      "name": "Previous Status Sub Type",
+      "definition": "Additional information on the previous status of a trade in a central system."
+    },
+    "PreviousStatusDateTime": {
+      "name": "Previous Status Date Time",
+      "definition": "Specifies the date and time at which the previous status was assigned."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Specifies the product for which the status of the confirmation is reported."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS Settlement Session that the related trade is part of."
+    },
+    "SplitTradeIndicator": {
+      "name": "Split Trade Indicator",
+      "definition": "To indicate if the trade is split."
+    }
+  }
+}

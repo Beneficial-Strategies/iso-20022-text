@@ -1,0 +1,24 @@
+{
+  "isoType": "EligibleSecurity5",
+  "language": "en",
+  "name": "Eligible Security 5",
+  "definition": "Provides details of the eligible securities as defined in the collateral reference data.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of a security by an ISIN."
+    },
+    "CollateralisationCurrency": {
+      "name": "Collateralisation Currency",
+      "definition": "Currency which may be processed by the system. A system may process transactions in a single currency or in multiple currencies."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Identifies the party for which the eligible security is defined."
+    }
+  }
+}

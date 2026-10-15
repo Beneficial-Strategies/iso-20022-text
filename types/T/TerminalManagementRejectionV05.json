@@ -1,0 +1,16 @@
+{
+  "isoType": "TerminalManagementRejectionV05",
+  "language": "en",
+  "name": "Terminal Management Rejection V 05",
+  "definition": "The TerminalManagementRejection message is sent by the terminal manager to reject a message request sent by an acceptor, to indicate that the received message could not be processed.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Rejection message management information."
+    },
+    "Reject": {
+      "name": "Reject",
+      "definition": "Information related to the reject."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "isoType": "CardPaymentTransactionDetails54",
+  "language": "en",
+  "name": "Card Payment Transaction Details 54",
+  "definition": "Details of the transaction in the authorisation request in a batch.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency associated with the transaction."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the transaction."
+    },
+    "CumulativeAmount": {
+      "name": "Cumulative Amount",
+      "definition": "Contains the updated amount of all authorisations related to the same business transaction."
+    },
+    "AmountQualifier": {
+      "name": "Amount Qualifier",
+      "definition": "Qualifies the amount associated with the transaction."
+    },
+    "DetailedAmount": {
+      "name": "Detailed Amount",
+      "definition": "Detailed amounts associated with the total amount of transaction."
+    },
+    "RequestedAmount": {
+      "name": "Requested Amount",
+      "definition": "Amount requested to be authorised."
+    },
+    "AuthorisedAmount": {
+      "name": "Authorised Amount",
+      "definition": "Amount authorised for the payment transaction."
+    },
+    "InvoiceAmount": {
+      "name": "Invoice Amount",
+      "definition": "Amount of the transaction that will be invoiced to the cardholder."
+    },
+    "ValidityDate": {
+      "name": "Validity Date",
+      "definition": "Transaction authorisation deadline to complete the related payment."
+    },
+    "OnLineReason": {
+      "name": "On Line Reason",
+      "definition": "Reason to process an online authorisation."
+    },
+    "UnattendedLevelCategory": {
+      "name": "Unattended Level Category",
+      "definition": "Transaction category level on an unattended POI (Point Of Interaction)."
+    },
+    "AccountType": {
+      "name": "Account Type",
+      "definition": "Type of cardholder account used for the transaction."
+    },
+    "CurrencyConversionResult": {
+      "name": "Currency Conversion Result",
+      "definition": "Result of the currency conversion proposed to the cardholder."
+    },
+    "Instalment": {
+      "name": "Instalment",
+      "definition": "Data related to a financial loan (instalment)."
+    },
+    "Recurring": {
+      "name": "Recurring",
+      "definition": "Data related to a recurring transaction."
+    },
+    "AggregationTransaction": {
+      "name": "Aggregation Transaction",
+      "definition": "Payment transaction with an aggregated amount."
+    },
+    "ProductCodeSetIdentification": {
+      "name": "Product Code Set Identification",
+      "definition": "Codification used to identify the products."
+    },
+    "SaleItem": {
+      "name": "Sale Item",
+      "definition": "Item purchased with the transaction."
+    },
+    "DeliveryLocation": {
+      "name": "Delivery Location",
+      "definition": "Location of the delivery, for instance pump number or parking bay."
+    },
+    "ReSubmissionCounter": {
+      "name": "Re Submission Counter",
+      "definition": "In case a message is sent after the consumption of goods or service, it indicates the number of times the authorisation has been sent to the Acquirer in order to get an approval."
+    },
+    "CompletionSequenceNumber": {
+      "name": "Completion Sequence Number",
+      "definition": "Total Number of Completion related to the authorisation of this transaction."
+    },
+    "CompletionSequenceCounter": {
+      "name": "Completion Sequence Counter",
+      "definition": "Identification in the Sequence of the Completion related to the authorisation of this transaction."
+    },
+    "TotalAuthorisedAmount": {
+      "name": "Total Authorised Amount",
+      "definition": "Total Amount authorised for the payment transaction when a sequence of completion is used."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the transaction like an Invoice or IndustryData (for example  hospitality, lodging, transportation)."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to an integrated circuit card application."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "EmbeddedType1Code",
+  "language": "en",
+  "name": "Embedded Type 1 Code",
+  "definition": "Specifies the list of codes applicable to embedded option types.",
+  "isoCodes": {
+    "CANC": {
+      "isoName": "Cancellable",
+      "name": "Cancellable",
+      "definition": "Option can be cancelled."
+    },
+    "EXTD": {
+      "isoName": "Extendible",
+      "name": "Extendible",
+      "definition": "Option can be extended."
+    },
+    "OPET": {
+      "isoName": "OptionalEarlyTermination",
+      "name": "Optional Early Termination",
+      "definition": "Option can be early terminated."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Option type is other."
+    },
+    "MDET": {
+      "isoName": "MandatoryEarlyTermination",
+      "name": "Mandatory Early Termination",
+      "definition": "Option must be early terminated."
+    }
+  }
+}

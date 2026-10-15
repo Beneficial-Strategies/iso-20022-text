@@ -1,0 +1,29 @@
+{
+  "isoType": "ForeignExchangeTradeBulkStatusNotificationV06",
+  "language": "en",
+  "name": "Foreign Exchange Trade Bulk Status Notification V 06",
+  "definition": "Scope||The ForeignExchangeTradeBulkStatusNotification message is sent by a central system to the participant to provide notification of the current status of one or more foreign exchange trades.",
+  "isoElements": {
+    "StatusDetails": {
+      "name": "Status Details",
+      "definition": "Information on the status of the trade in the central system."
+    },
+    "TradeDataReport": {
+      "name": "Trade Data Report",
+      "definition": "Identifies one or more trades for which the status notification is sent and optionally, the linked report."
+    },
+    "MessagePagination": {
+      "name": "Message Pagination",
+      "definition": "Page number of the message (within the status report) and continuation indicator to indicate that the statement is to continue or that the message is the last page of the report."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SettlementSessionIdentifierRule": {
+      "definition": "SettlementSessionIdentifier must only be present in StatusDetails if all of the trades within the bulk status report have been generated from a single settlement session."
+    }
+  }
+}

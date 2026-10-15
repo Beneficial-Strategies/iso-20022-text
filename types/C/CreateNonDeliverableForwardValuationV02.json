@@ -1,0 +1,32 @@
+{
+  "isoType": "CreateNonDeliverableForwardValuationV02",
+  "language": "en",
+  "name": "Create Non Deliverable Forward Valuation V 02",
+  "definition": "Scope|The CreateNonDeliverableForwardValuation message is sent by a participant to a central system or to a counterparty to notify the valuation of a non deliverable trade.|Usage|The two trading parties will both send similar notifications to the central settlement system and the central settlement system will send notifications to both.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides identification and date of the valuation of the non deliverable trade which is created."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the valuation of the non deliverable trade which is created."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the valuation of the non deliverable trade which is created."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the valuation of the non deliverable trade which is created."
+    },
+    "ValuationInformation": {
+      "name": "Valuation Information",
+      "definition": "Specifies the valuation information of the valuation of the non deliverable trade which is created."
+    },
+    "ValuationRate": {
+      "name": "Valuation Rate",
+      "definition": "Specifies the valuation rate of the valuation of the non deliverable trade which is created."
+    }
+  }
+}

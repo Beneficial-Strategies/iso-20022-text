@@ -6,23 +6,23 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Reference that uniquely identifies a message from a business application standpoint."
     },
     "PreviousReference": {
       "name": "Previous Reference",
-      "definition": ""
+      "definition": "Reference to a linked message that was previously sent."
     },
     "RelatedReference": {
       "name": "Related Reference",
-      "definition": ""
+      "definition": "Reference to a linked message that was previously received."
     },
     "MessagePagination": {
       "name": "Message Pagination",
-      "definition": ""
+      "definition": "Number used to sequence pages when it is not possible for data to be conveyed in a single message and the data has to be split across several pages (messages)."
     },
     "StatementToBeCancelled": {
       "name": "Statement To Be Cancelled",
-      "definition": ""
+      "definition": "The Custody Statement of Holdings message to cancel."
     }
   }
 }

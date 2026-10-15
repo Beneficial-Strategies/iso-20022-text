@@ -1,0 +1,20 @@
+{
+  "isoType": "ContractRegistrationClosureRequestV04",
+  "language": "en",
+  "name": "Contract Registration Closure Request V 04",
+  "definition": "The ContractRegistrationClosureRequest message is sent by the reporting party to the registration agent to close the registered contract subject to currency control.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": "Characteristics shared by all individual items included in the message."
+    },
+    "RegisteredContractClosure": {
+      "name": "Registered Contract Closure",
+      "definition": "Details on the closure of the registered contract."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

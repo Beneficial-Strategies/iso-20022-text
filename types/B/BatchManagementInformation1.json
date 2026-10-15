@@ -1,0 +1,24 @@
+{
+  "isoType": "BatchManagementInformation1",
+  "language": "en",
+  "name": "Batch Management Information 1",
+  "definition": "Elements of identification of a batch management transaction.",
+  "isoElements": {
+    "CollectionIdentification": {
+      "name": "Collection Identification",
+      "definition": "Identification of the collection to which the batch belongs.||ISO 8583:2003 bit 69-2"
+    },
+    "BatchIdentification": {
+      "name": "Batch Identification",
+      "definition": "Identification of the batch to which the message belongs.||ISO 8583:2003 bit 69-2"
+    },
+    "MessageSequenceNumber": {
+      "name": "Message Sequence Number",
+      "definition": "Sequence number of the message inside the batch.||ISO 8583:87/93 bit 71|ISO 8583:2003 bit 68-2"
+    },
+    "MessageChecksumInputValue": {
+      "name": "Message Checksum Input Value",
+      "definition": "Value of the message to use for the computation of the checksum of the batch or collection of messages."
+    }
+  }
+}

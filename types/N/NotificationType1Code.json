@@ -1,0 +1,18 @@
+{
+  "isoType": "NotificationType1Code",
+  "language": "en",
+  "name": "Notification Type 1 Code",
+  "definition": "Specifies which type of action a user must take or is prevented to take.",
+  "isoCodes": {
+    "MWFT": {
+      "isoName": "MustWithdrawFromTransaction",
+      "name": "Must Withdraw From Transaction",
+      "definition": "User must withdraw from transaction because of Force Majeure."
+    },
+    "CSDS": {
+      "isoName": "CannotSubmitDataSet",
+      "name": "Cannot Submit Data Set",
+      "definition": "User is unable to submit data set(s)."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "StandingSettlementInstructionCancellationV01",
+  "language": "en",
+  "name": "Standing Settlement Instruction Cancellation V 01",
+  "definition": "Scope|An instructing party sends the StandingSettlementInstructionCancellation message to the receiver to cancel a previously sent StandingSettlementInstruction message. The message can also be used to notify a counterparty of the deletion of a standing settlement information.||Usage|The instructing party (initiator) is:|• An account servicer, for example, a global custodian or prime broker|• A counterparty in a transaction, for example:|\t- an investment manager (executing broker),|\t- a global custodian (executing broker, prime broker)|• A vendor's application communicating on behalf of an account servicer or counterparty|The receiver is:|• An account owner, for example, an investment manager, hedge fund administrator or a party to which SSI operations have been outsourced|• A counterparty, for example:|\t- an investment manager (executing broker)|\t- a global custodian (executing broker, prime broker)|• A vendor's application communicating on behalf of the account owner or counterparty.",
+  "isoElements": {
+    "MessageReferenceIdentification": {
+      "name": "Message Reference Identification",
+      "definition": "Reference of this message."
+    },
+    "EffectiveDateDetails": {
+      "name": "Effective Date Details",
+      "definition": "Date on which the SSI is effective."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous master identification known to the sender (or its authorised agent) and receiver (or its authorised agent), below which the SSI will be lodged. This may be an account number or reference to a fund.|If no account or reference is available then “NONREF” must be specified."
+    },
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Identifies the market for the standing settlement instruction."
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": "Settlement information that helps to identify the standing settlement instruction for which the cancellation is sent."
+    },
+    "PreviousMessageReference": {
+      "name": "Previous Message Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

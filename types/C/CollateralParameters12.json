@@ -1,0 +1,40 @@
+{
+  "isoType": "CollateralParameters12",
+  "language": "en",
+  "name": "Collateral Parameters 12",
+  "definition": "Parameters which explicitly state the conditions that must be fulfilled before a particular triparty collateral instruction/transaction  can be confirmed. These parameters are defined by the instructing party in compliance with triparty collateral rules in the market the instruction/transaction will take place.|***is all the elements required/used in today, should we simplify?***",
+  "isoElements": {
+    "CollateralInstructionType": {
+      "name": "Collateral Instruction Type",
+      "definition": "Specifies the type of collateral instruction."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the exposure."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the client is the collateral taker or giver."
+    },
+    "SettlementProcess": {
+      "name": "Settlement Process",
+      "definition": "Specifies the settlement process in which the collateral will be settled."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies the priority with which the instruction needs to be executed."
+    },
+    "AutomaticAllocation": {
+      "name": "Automatic Allocation",
+      "definition": "Specifies whether the allocation of the collateral is manual or automatic."
+    },
+    "CollateralApproved": {
+      "name": "Collateral Approved",
+      "definition": "Indicates whether the proposed collateral movements can be accepted."
+    },
+    "SettlementApproved": {
+      "name": "Settlement Approved",
+      "definition": "Indicates whether the proposed collateral movements have settled or no"
+    }
+  }
+}

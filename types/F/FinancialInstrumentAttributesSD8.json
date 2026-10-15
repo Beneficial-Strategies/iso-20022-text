@@ -1,0 +1,44 @@
+{
+  "isoType": "FinancialInstrumentAttributesSD8",
+  "language": "en",
+  "name": "Financial Instrument Attributes SD 8",
+  "definition": "Provides additional information regarding underlying security details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "CountryOfListing": {
+      "name": "Country Of Listing",
+      "definition": "Country in which the security was issued."
+    },
+    "IncomeSourceCountry": {
+      "name": "Income Source Country",
+      "definition": "Country of source income for the security."
+    },
+    "DTCAssetClass": {
+      "name": "DTC Asset Class",
+      "definition": "Classification of instruments into asset classes at DTC (The Depository Trust Corporation)."
+    },
+    "DTCAssetType": {
+      "name": "DTC Asset Type",
+      "definition": "Further classification of instruments into (issue) asset types at DTC (The Depository Trust Corporation)."
+    },
+    "SecurityEligibilityIndicator": {
+      "name": "Security Eligibility Indicator",
+      "definition": "Indicates whether the security is eligible for holding at DTC."
+    },
+    "TickerSymbol": {
+      "name": "Ticker Symbol",
+      "definition": "Ticket symbol for the event security (underlying security)."
+    },
+    "LinkedSecurity": {
+      "name": "Linked Security",
+      "definition": "Security whose characteristics mirror the event security for purposes of FCP eligibility and tax relief. Certain derivative securities like HOLDR may have certain events where the source of payments are from an underlying security."
+    },
+    "OriginatingSecurityIdentification": {
+      "name": "Originating Security Identification",
+      "definition": "Represents the 'original' security identifier of the event. It is used in the scenarios like \"partial call\" where there are 2 events. The first event distributes into the Contra CUSIP, a temporary security; and on the second event that temporary security becomes the underlying security of the event. This element is used in the second event to point to the original CUSIP."
+    }
+  }
+}

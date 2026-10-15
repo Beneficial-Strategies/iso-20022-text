@@ -1,0 +1,68 @@
+{
+  "isoType": "BaselineStatus3Code",
+  "language": "en",
+  "name": "Baseline Status 3 Code",
+  "definition": "Indicates the status of a baseline.",
+  "isoCodes": {
+    "PROP": {
+      "isoName": "Proposed",
+      "name": "Proposed",
+      "definition": "Initial state of a baseline in the push-through model."
+    },
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "Final state of a baseline, in which only reporting is allowed."
+    },
+    "PMTC": {
+      "isoName": "PartiallyMatched",
+      "name": "Partially Matched",
+      "definition": "State of the baseline when an initial and at least one twin baselines have been submitted but it has not yet been agreed by all parties."
+    },
+    "ESTD": {
+      "isoName": "Established",
+      "name": "Established",
+      "definition": "State of the baseline when it has been agreed by all parties."
+    },
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "State of a baseline, after establishment, when one or more instructions (eg, amendment request, data set submission) have been processed."
+    },
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "State of a baseline, after establishment, when all match instructions have been processed, and no such instruction is allowed anymore."
+    },
+    "AMRQ": {
+      "isoName": "AmendmentRequested",
+      "name": "Amendment Requested",
+      "definition": "State of a baseline, after establishment, when an amendment has been requested by one party and has not yet been accepted or rejected by the counterparty(ies)."
+    },
+    "RARQ": {
+      "isoName": "ReActivateRequested",
+      "name": "Re Activate Requested",
+      "definition": "State of a baseline, after establishment, when an reactivation has been requested by one party and has not yet been accepted or rejected by the counterparty(ies)."
+    },
+    "CLRQ": {
+      "isoName": "CloseRequested",
+      "name": "Close Requested",
+      "definition": "State of a baseline, after establishment, when a closure has been requested by one party and has not yet been accepted or rejected by the counterparty(ies)."
+    },
+    "SCRQ": {
+      "isoName": "CompleteRequested",
+      "name": "Complete Requested",
+      "definition": "State of a baseline, after establishment, when a completion has been requested by one party and has not yet been accepted or rejected by the counterparty(ies)."
+    },
+    "SERQ": {
+      "isoName": "StatusExtensionRequested",
+      "name": "Status Extension Requested",
+      "definition": "State of a baseline when a status extension has been requested by one party and has not yet been accepted or rejected by the counterparty(ies)."
+    },
+    "DARQ": {
+      "isoName": "DataSetAcceptanceRequested",
+      "name": "Data Set Acceptance Requested",
+      "definition": "State of a baseline, after establishment, when data set acceptance has been requested by the matching engine and not all responses have been received from the relevant party(ies)."
+    }
+  }
+}

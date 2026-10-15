@@ -1,0 +1,24 @@
+{
+  "isoType": "TransportedGoods1",
+  "language": "en",
+  "name": "Transported Goods 1",
+  "definition": "Goods or services that are part of a commercial trade agreement.",
+  "isoElements": {
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Reference to the purchase order of the underlying transaction."
+    },
+    "GoodsDescription": {
+      "name": "Goods Description",
+      "definition": "Information about the goods and/or services of a trade transaction."
+    },
+    "BuyerDefinedInformation": {
+      "name": "Buyer Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    },
+    "SellerDefinedInformation": {
+      "name": "Seller Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CashParties24",
+  "language": "en",
+  "name": "Cash Parties 24",
+  "definition": "Cash settlement chain parties and accounts.",
+  "isoElements": {
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which the payment amount must be ultimately delivered. In some cases, this may be a fund."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution that services the cash account of the beneficiary (creditor). In some markets, this is also known as receiving agent. The creditor agent is the party where the payment amount must be ultimately delivered on behalf of the beneficiary (creditor), that is, the party where the beneficiary has its account."
+    },
+    "Intermediary": {
+      "name": "Intermediary",
+      "definition": "Financial institution through which the transaction must pass to reach the account with institution (creditor agent)."
+    },
+    "Intermediary2": {
+      "name": "Intermediary 2",
+      "definition": "Financial institution through which the transaction must pass to reach the account with institution (creditor agent)."
+    }
+  }
+}

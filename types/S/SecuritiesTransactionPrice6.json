@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesTransactionPrice6",
+  "language": "en",
+  "name": "Securities Transaction Price 6",
+  "definition": "Descriptive fields capturing where no strike price is known.",
+  "isoElements": {
+    "Pending": {
+      "name": "Pending",
+      "definition": "Price is currently not available, but pending."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency that will be used but for which no price is yet known."
+    },
+    "DigitalToken": {
+      "name": "Digital Token",
+      "definition": "Specifies the digital token when the number of units may not be known."
+    }
+  }
+}

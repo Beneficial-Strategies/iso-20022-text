@@ -1,0 +1,25 @@
+{
+  "isoType": "CreditorReferenceType1",
+  "language": "en",
+  "name": "Creditor Reference Type 1",
+  "definition": "Specifies the type of the documents referred by the creditor.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Coded creditor reference type."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Creditor reference type not avilable in a coded format."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Identification of the issuer of the credit reference type."
+    }
+  },
+  "isoRules": {
+    "CodeOrProprietaryRule": {
+      "definition": "If Code is present then Proprietary must not be present.|If Proprietary is present then Code must not be present."
+    }
+  }
+}

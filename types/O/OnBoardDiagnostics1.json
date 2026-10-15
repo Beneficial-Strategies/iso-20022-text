@@ -1,0 +1,84 @@
+{
+  "isoType": "OnBoardDiagnostics1",
+  "language": "en",
+  "name": "On Board Diagnostics 1",
+  "definition": "Data captured from on board diagnostic systems",
+  "isoElements": {
+    "EngineIdleTime": {
+      "name": "Engine Idle Time",
+      "definition": "Current amount of time the vehicle engine has run idle (under no load) as determined by the vehicle monitoring system. ||Expressed in hours"
+    },
+    "EngineTotalIdleTime": {
+      "name": "Engine Total Idle Time",
+      "definition": "Total amount of time the vehicle engine has run idle (under no load) since the last reset, as determined by the vehicle monitoring system.||Expressed in hours"
+    },
+    "EngineHours": {
+      "name": "Engine Hours",
+      "definition": "Number of hours the engine has been running (including idle time) as determined by the vehicle monitoring system."
+    },
+    "EngineTotalTime": {
+      "name": "Engine Total Time",
+      "definition": "Amount of time elapsed since the previous reset as determined by the vehicle monitoring system.||Expressed in hours"
+    },
+    "EngineLoad": {
+      "name": "Engine Load",
+      "definition": "Engine load measured as determined by the vehicle monitoring system."
+    },
+    "EngineRPM": {
+      "name": "Engine RPM",
+      "definition": "Maximum revolutions per minute experienced by the crankshaft of the vehicle engine as determined by the vehicle monitoring system."
+    },
+    "EngineOilTemperature": {
+      "name": "Engine Oil Temperature",
+      "definition": "Temperature of the engine oil as determined by the vehicle monitoring system."
+    },
+    "EngineOilPressure": {
+      "name": "Engine Oil Pressure",
+      "definition": "Pressure of the engine oil as determined by the vehicle monitoring system."
+    },
+    "EngineOilLifeRemaining": {
+      "name": "Engine Oil Life Remaining",
+      "definition": "Time remaining before next oil change expressed as a percentage, as determined by the vehicle monitoring system."
+    },
+    "CheckEngineWarningStatus": {
+      "name": "Check Engine Warning Status",
+      "definition": "Check engine status as determined by the vehicle monitoring system."
+    },
+    "FuelTankLevelStart": {
+      "name": "Fuel Tank Level Start",
+      "definition": "Fuel tank start level reading as determined by the vehicle monitoring system."
+    },
+    "FuelGaugeLevel": {
+      "name": "Fuel Gauge Level",
+      "definition": "Current fuel tank gauge level reading as determined by the vehicle monitoring system."
+    },
+    "FuelEconomy": {
+      "name": "Fuel Economy",
+      "definition": "Fuel economy expressed in terms of the amount of fuel consumed per unit of travel as determined by the vehicle monitoring system."
+    },
+    "RefrigerationHours": {
+      "name": "Refrigeration Hours",
+      "definition": "Number of hours the refrigeration unit has been in operation."
+    },
+    "RefrigerationTemperature": {
+      "name": "Refrigeration Temperature",
+      "definition": "Temperature of the refrigeration unit/trailer as determined by the vehicle monitoring system."
+    },
+    "CoolantTemperature": {
+      "name": "Coolant Temperature",
+      "definition": "Temperature of the coolant as determined by the vehicle monitoring system."
+    },
+    "BatteryVoltage": {
+      "name": "Battery Voltage",
+      "definition": "Voltage of the vehicle battery as determined by the vehicle monitoring system."
+    },
+    "HardBraking": {
+      "name": "Hard Braking",
+      "definition": "Number of occurrences of hard breaking as determined by the vehicle monitoring system."
+    },
+    "HardAcceleration": {
+      "name": "Hard Acceleration",
+      "definition": "Number of occurrences of hard acceleration as determined by the vehicle monitoring system."
+    }
+  }
+}

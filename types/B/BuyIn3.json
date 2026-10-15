@@ -1,0 +1,32 @@
+{
+  "isoType": "BuyIn3",
+  "language": "en",
+  "name": "Buy In 3",
+  "definition": "Specifies elements related to the response sent by the clearing member to the central counterparty in the context of the buy in process.",
+  "isoElements": {
+    "BuyInNotificationIdentification": {
+      "name": "Buy In Notification Identification",
+      "definition": "Indicates the reference of the BuyInNotification message."
+    },
+    "RequestForDelayIndicator": {
+      "name": "Request For Delay Indicator",
+      "definition": "Specific continuous net settlement case where the central counterparty can call for buy-in at a date anterior to \"theoretical\" buy-in date, the clearing member may request a delay."
+    },
+    "NumberOfDays": {
+      "name": "Number Of Days",
+      "definition": "Number of days associated to the request for delay."
+    },
+    "InitialQuantity": {
+      "name": "Initial Quantity",
+      "definition": "Buy in quantity called initially by the central counterparty."
+    },
+    "CoveredQuantity": {
+      "name": "Covered Quantity",
+      "definition": "Quantity amount covered by the clearing member after notification."
+    },
+    "UncoveredQuantity": {
+      "name": "Uncovered Quantity",
+      "definition": "Quantity amount non covered by the clearing member after notification (this is, new buy in amount to be executed)."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "SystemPartyModification3Choice",
+  "language": "en",
+  "name": "System Party Modification 3 Choice",
+  "definition": "Identifies which information are involved by a modification request for party reference data.",
+  "isoElements": {
+    "SystemPartyDate": {
+      "name": "System Party Date",
+      "definition": "Specifies the opening and closing dates, as assigned by the system."
+    },
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification to unambiguously identify the party within the system."
+    },
+    "PartyName": {
+      "name": "Party Name",
+      "definition": "Specifies the name by which a party is known and which is usually used to identify that party."
+    },
+    "ContactDetails": {
+      "name": "Contact Details",
+      "definition": "Specifies the options on how to contact the party."
+    },
+    "TechnicalAddress": {
+      "name": "Technical Address",
+      "definition": "Unique technical address to unambiguously identify a party for receiving messages from the executing system."
+    },
+    "PartyAddress": {
+      "name": "Party Address",
+      "definition": "Information that locates and identifies a specific address, as defined by postal services."
+    },
+    "ResidenceType": {
+      "name": "Residence Type",
+      "definition": "Specifies the type of residence where the party has its permanent home or principal establishment."
+    },
+    "LockStatus": {
+      "name": "Lock Status",
+      "definition": "Specifies whether the party is locked or not, and the reason for this status, when required."
+    },
+    "SystemRestriction": {
+      "name": "System Restriction",
+      "definition": "Defines the specific processing characteristics for a party to ensure configurability of specific requirements, as prescribed by national legal and regulatory requirements and practices."
+    },
+    "MarketSpecificAttribute": {
+      "name": "Market Specific Attribute",
+      "definition": "Additional attributes defined by a central security depositary for a party."
+    }
+  }
+}

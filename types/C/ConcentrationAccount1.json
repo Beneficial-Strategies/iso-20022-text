@@ -1,0 +1,32 @@
+{
+  "isoType": "ConcentrationAccount1",
+  "language": "en",
+  "name": "Concentration Account 1",
+  "definition": "Bank account used by a central counterparty to concentrate cash funds before or after investment.",
+  "isoElements": {
+    "InFlow": {
+      "name": "In Flow",
+      "definition": "Indicates inflows into the account."
+    },
+    "OutFlow": {
+      "name": "Out Flow",
+      "definition": "Indicates outflows out of the account."
+    },
+    "EndOfDay": {
+      "name": "End Of Day",
+      "definition": "Indicates end of day cash balance on the account."
+    },
+    "PeakCredit": {
+      "name": "Peak Credit",
+      "definition": "Indicates peak credit balance on the account."
+    },
+    "PeakDebit": {
+      "name": "Peak Debit",
+      "definition": "Indicates peak debit balance on the account."
+    },
+    "LatePaymentConfirmation": {
+      "name": "Late Payment Confirmation",
+      "definition": "Number of concentration account pay‐ins breaching the allowed time between instruction and confirmation. Usage: nil returns to be included for late payment confirmations in all cleared currencies."
+    }
+  }
+}

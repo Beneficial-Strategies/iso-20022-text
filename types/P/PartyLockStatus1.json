@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyLockStatus1",
+  "language": "en",
+  "name": "Party Lock Status 1",
+  "definition": "Lock status of the party for processing in the system.",
+  "isoElements": {
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Specifies the date from which the lock status is valid."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Lock status of the party."
+    },
+    "LockReason": {
+      "name": "Lock Reason",
+      "definition": "Specifies the underlying reason for the locking of the party."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "LoyaltyResponse3",
+  "language": "en",
+  "name": "Loyalty Response 3",
+  "definition": "Response data to a loyalty service request.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "POI identification of the transaction in an unambiguous way."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Data related to the result of a processed loyalty transaction."
+    }
+  }
+}

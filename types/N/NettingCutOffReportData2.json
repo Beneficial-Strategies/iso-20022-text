@@ -1,0 +1,40 @@
+{
+  "isoType": "NettingCutOffReportData2",
+  "language": "en",
+  "name": "Netting Cut Off Report Data 2",
+  "definition": "Specifies the meta data associated with a netting cut off report.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Unique and unambiguous identifier for a message, as assigned by the Sender. This unique identifier can be used for cross-referencing purposes in subsequent messages."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the net report was generated."
+    },
+    "ReportType": {
+      "name": "Report Type",
+      "definition": "Describes the type of net report, indicating how the obligations have been calculated."
+    },
+    "ActivationDate": {
+      "name": "Activation Date",
+      "definition": "Date on which the proposed netting cut off will become active."
+    },
+    "NetServiceParticipantIdentification": {
+      "name": "Net Service Participant Identification",
+      "definition": "Describes the participant receiving the net report."
+    },
+    "ReportServicer": {
+      "name": "Report Servicer",
+      "definition": "Describes the central system responsible for generating the net report."
+    },
+    "NetServiceType": {
+      "name": "Net Service Type",
+      "definition": "Describes the type of netting service supporting the net report."
+    },
+    "MessagePagination": {
+      "name": "Message Pagination",
+      "definition": "Page number of the message (within the net cut off report) and continuation indicator to indicate that the report is to continue or that the message is the last page of the report."
+    }
+  }
+}

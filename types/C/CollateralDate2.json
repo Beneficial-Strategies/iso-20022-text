@@ -1,0 +1,31 @@
+{
+  "isoType": "CollateralDate2",
+  "language": "en",
+  "name": "Collateral Date 2",
+  "definition": "Dates related to the triparty collateral instruction or transactions.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date the transaction was agreed between the trading parties."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date/time at which the instructing party requests the instruction to be executed."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date on which the financial instruments are to be delivered or received."
+    }
+  },
+  "isoRules": {
+    "RequestedExecutionDatePresenceRule": {
+      "definition": "If requested execution date is not present then trade date or settlement date must be present."
+    },
+    "TradeDatePresenceRule": {
+      "definition": "If trade date is not present than requested execution date or settlement date must be present."
+    },
+    "SettlementDatePresenceRule": {
+      "definition": "If settlement date is not present than trade date or requested execution date must be present."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "isoType": "TransactionReportItems3",
+  "language": "en",
+  "name": "Transaction Report Items 3",
+  "definition": "Detailed description of the items that correspond to the parameters set in a request and for which a report has been generated.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for each financial institution which is a party to the transaction."
+    },
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Reference to the purchase order of the underlying transaction."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that buys goods or services, or a financial instrument."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that sells goods or services, or a financial instrument."
+    },
+    "BuyerBank": {
+      "name": "Buyer Bank",
+      "definition": "Financial institution of the buyer."
+    },
+    "BuyerBankCountry": {
+      "name": "Buyer Bank Country",
+      "definition": "Country of the buyer bank."
+    },
+    "SellerBank": {
+      "name": "Seller Bank",
+      "definition": "Financial institution of the seller."
+    },
+    "SellerBankCountry": {
+      "name": "Seller Bank Country",
+      "definition": "Country of the seller bank."
+    },
+    "ObligorBank": {
+      "name": "Obligor Bank",
+      "definition": "Financial institution that is an obligor bank to the transaction."
+    },
+    "SubmittingBank": {
+      "name": "Submitting Bank",
+      "definition": "Financial institution that is a data set submitting bank to the transaction."
+    },
+    "OutstandingAmount": {
+      "name": "Outstanding Amount",
+      "definition": "Amount of baseline not yet utilised."
+    },
+    "TotalNetAmount": {
+      "name": "Total Net Amount",
+      "definition": "Total net amount as specified in the baseline."
+    },
+    "PendingRequestForAction": {
+      "name": "Pending Request For Action",
+      "definition": "Next processing step required."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "CurrencyConversion5",
+  "language": "en",
+  "name": "Currency Conversion 5",
+  "definition": "Exchange rate and calculated amount to be presented to the customer when the dispense currency or the deposit currency (target currency) is different to account currency (source currency).",
+  "isoElements": {
+    "SourceCurrency": {
+      "name": "Source Currency",
+      "definition": "Currency from which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "SourceCurrencyNumeric": {
+      "name": "Source Currency Numeric",
+      "definition": "Currency from which the amount is converted (ISO 4217, 3 numeric characters)."
+    },
+    "TargetCurrency": {
+      "name": "Target Currency",
+      "definition": "Currency into which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "TargetCurrencyNumeric": {
+      "name": "Target Currency Numeric",
+      "definition": "Currency into which the amount is converted (ISO 4217, 3 numeric characters)."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Currency exchange rate."
+    },
+    "CalculatedAmount": {
+      "name": "Calculated Amount",
+      "definition": "Resulting calculated amount is in target currency."
+    }
+  }
+}

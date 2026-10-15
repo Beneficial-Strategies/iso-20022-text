@@ -1,0 +1,23 @@
+{
+  "isoType": "CustomerOrderRequest1Code",
+  "language": "en",
+  "name": "Customer Order Request 1 Code",
+  "definition": "Type of customer orders that must be sent in response message.",
+  "isoCodes": {
+    "BOTH": {
+      "isoName": "Both",
+      "name": "Both",
+      "definition": "All types of CustomerOrder should be listed, some are open others closed."
+    },
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "Completed customer orders."
+    },
+    "OPEN": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Customer order not completed."
+    }
+  }
+}

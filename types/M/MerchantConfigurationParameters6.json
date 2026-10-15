@@ -1,0 +1,44 @@
+{
+  "isoType": "MerchantConfigurationParameters6",
+  "language": "en",
+  "name": "Merchant Configuration Parameters 6",
+  "definition": "Acceptor parameters dedicated to the merchant.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "MerchantIdentification": {
+      "name": "Merchant Identification",
+      "definition": "Identification of the merchant for the MTM, if the POI manages several merchants."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the merchant parameters."
+    },
+    "ParameterFormatIdentifier": {
+      "name": "Parameter Format Identifier",
+      "definition": "Version of the parameters' format."
+    },
+    "Proxy": {
+      "name": "Proxy",
+      "definition": "Local proxy configuration."
+    },
+    "OtherParametersLength": {
+      "name": "Other Parameters Length",
+      "definition": "Full length of other parameters."
+    },
+    "OffsetStart": {
+      "name": "Offset Start",
+      "definition": "Place of this  Block, beginning with 0, in the full other parameters."
+    },
+    "OffsetEnd": {
+      "name": "Offset End",
+      "definition": "Following place of this Block in the full other parameters."
+    },
+    "OtherParameters": {
+      "name": "Other Parameters",
+      "definition": "Other merchant parameters."
+    }
+  }
+}

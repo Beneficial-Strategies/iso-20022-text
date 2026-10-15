@@ -1,0 +1,23 @@
+{
+  "isoType": "OptionStyle4Code",
+  "language": "en",
+  "name": "Option Style 4 Code",
+  "definition": "Defines how an option can be exercised.",
+  "isoCodes": {
+    "AMER": {
+      "isoName": "American",
+      "name": "American",
+      "definition": "Option can be exercised before or on expiry date."
+    },
+    "EURO": {
+      "isoName": "European",
+      "name": "European",
+      "definition": "Option that can be exercised on expiry date only."
+    },
+    "BERM": {
+      "isoName": "Bermudan",
+      "name": "Bermudan",
+      "definition": "Option that can be exercised on multiple discrete dates prior to, or on expiry date."
+    }
+  }
+}

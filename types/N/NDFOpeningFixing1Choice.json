@@ -1,0 +1,16 @@
+{
+  "isoType": "NDFOpeningFixing1Choice",
+  "language": "en",
+  "name": "NDF Opening Fixing 1 Choice",
+  "definition": "Choice of providing the opening conditions or fixing conditions for an NDF instruction.",
+  "isoElements": {
+    "OpeningConditions": {
+      "name": "Opening Conditions",
+      "definition": "Used to provide the opening information associated with an NDF trade."
+    },
+    "OpeningConfirmationReference": {
+      "name": "Opening Confirmation Reference",
+      "definition": "Reference of the opening confirmation provided on an NDF fixing instruction to link back to the original NDF opening confirmation."
+    }
+  }
+}

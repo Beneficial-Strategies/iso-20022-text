@@ -1,0 +1,24 @@
+{
+  "isoType": "EncryptedDataElement2",
+  "language": "en",
+  "name": "Encrypted Data Element 2",
+  "definition": "Structure to encrypt data elements.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "identification of the element that has been encrypted."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Encrypted data element."
+    },
+    "ClearTextFormat": {
+      "name": "Clear Text Format",
+      "definition": "Format of the raw data prior to encryption."
+    },
+    "OtherClearTextFormat": {
+      "name": "Other Clear Text Format",
+      "definition": "Other national or private format of the raw data prior to encryption."
+    }
+  }
+}

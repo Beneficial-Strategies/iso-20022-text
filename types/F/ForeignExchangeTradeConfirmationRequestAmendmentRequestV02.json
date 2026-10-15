@@ -1,0 +1,44 @@
+{
+  "isoType": "ForeignExchangeTradeConfirmationRequestAmendmentRequestV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Confirmation Request Amendment Request V 02",
+  "definition": "Scope|The ForeignExchangeTradeConfirmationRequestAmendmentRequest message is sent from a market participant to a Central matching utility (CMU) to amend the ForeignExchangeTradeConfirmationRequest previously sent.||Usage|The request is sent by the market participants to the CMU after the confirmation is requested.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Message management information."
+    },
+    "AmendmentRequestIdentification": {
+      "name": "Amendment Request Identification",
+      "definition": "Identifies the amendment request messge."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the treasury trade which is captured."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty side of the treasury trade which is captured."
+    },
+    "TradeDetail": {
+      "name": "Trade Detail",
+      "definition": "Details of the treasury trade confirmed."
+    },
+    "QueryPeriod": {
+      "name": "Query Period",
+      "definition": "Period of the inquiry."
+    },
+    "QueryStartNumber": {
+      "name": "Query Start Number",
+      "definition": "Number which the query results will start from."
+    },
+    "QueryTradeStatus": {
+      "name": "Query Trade Status",
+      "definition": "Specifies the inquiry status of the trade."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

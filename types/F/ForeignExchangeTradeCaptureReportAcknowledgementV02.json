@@ -1,0 +1,32 @@
+{
+  "isoType": "ForeignExchangeTradeCaptureReportAcknowledgementV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Capture Report Acknowledgement V 02",
+  "definition": "Scope|The ForeignExchangeTradeCaptureReportAcknowledgement message is sent by trading members to the trading system for notifying the trade capture report is received.||Usage|The acknowledgement is sent by the trading member to the trading system after they received the trade capture report. |Note that one capture acknowledgement responds to one capture report.",
+  "isoElements": {
+    "AcknowledgementIdentification": {
+      "name": "Acknowledgement Identification",
+      "definition": "Identifies the acknowledgement message."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Unique reference identification assigned to the trade by the instructing party. This reference will be used throughout the trade life cycle to identify the particular trade."
+    },
+    "DealTicketIdentification": {
+      "name": "Deal Ticket Identification",
+      "definition": "Represents the transaction ticket number. When only the main broker is trading, it must be transmitted to PB (Prime Brokerage) institutions."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Acknowlegement status of recevied trade capture report."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference of the acknowledge, specifies the message this acknowledge responds to."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

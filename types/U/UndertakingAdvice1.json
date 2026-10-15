@@ -1,0 +1,39 @@
+{
+  "isoType": "UndertakingAdvice1",
+  "language": "en",
+  "name": "Undertaking Advice 1",
+  "definition": "Details of the advice for the issuance of an undertaking.",
+  "isoElements": {
+    "UndertakingIssuanceMessage": {
+      "name": "Undertaking Issuance Message",
+      "definition": "Contents of the related UndertakingIssuance message."
+    },
+    "FirstAdvisingPartyAdditionalInformation": {
+      "name": "First Advising Party Additional Information",
+      "definition": "Additional information related to the first advising party."
+    },
+    "SecondAdvisingPartyAdditionalInformation": {
+      "name": "Second Advising Party Additional Information",
+      "definition": "Additional information related to the second advising party."
+    },
+    "ConfirmationDetails": {
+      "name": "Confirmation Details",
+      "definition": "Details related to the confirmation of the undertaking."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the party providing additional undertaking advice details."
+    }
+  },
+  "isoRules": {
+    "IssuanceTypeRule": {
+      "definition": "Issuance type must be for either 'UndertakingIssuedViaAdvisingParty' (ISAD) or 'UndertakingIsuuedViaConfirmingParty' (ISCO)."
+    },
+    "Applicant1Rule": {
+      "definition": "Appplicant must be present."
+    },
+    "RequestedLocalUndertakingRule": {
+      "definition": "Requested local undertaking must not be present."
+    }
+  }
+}

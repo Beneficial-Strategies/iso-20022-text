@@ -1,0 +1,108 @@
+{
+  "isoType": "Wallet4",
+  "language": "en",
+  "name": "Wallet 4",
+  "definition": "Container for tenders used by the customer to perform the payment transaction.",
+  "isoElements": {
+    "ProviderName": {
+      "name": "Provider Name",
+      "definition": "Name of the wallet provider."
+    },
+    "ProviderBusinessName": {
+      "name": "Provider Business Name",
+      "definition": "Business name of  the wallet provider."
+    },
+    "ProviderIdentification": {
+      "name": "Provider Identification",
+      "definition": "Identification of  the wallet provider."
+    },
+    "ProviderLegalCorporateName": {
+      "name": "Provider Legal Corporate Name",
+      "definition": "Legal Corporate Name of the wallet provider."
+    },
+    "ProviderAddress": {
+      "name": "Provider Address",
+      "definition": "Address of  the wallet provider."
+    },
+    "ProviderLocalData": {
+      "name": "Provider Local Data",
+      "definition": "Contains local language equivalent(s) of  the wallet provider data."
+    },
+    "PANAge": {
+      "name": "PAN Age",
+      "definition": "Number of days that the user’s PAN has been on file for the user."
+    },
+    "UserAccountAge": {
+      "name": "User Account Age",
+      "definition": "Number of days since the user wallet account for this user exists."
+    },
+    "AccountAge": {
+      "name": "Account Age",
+      "definition": "Number of days since the user created the wallet account or started using the wallet."
+    },
+    "DaysSinceLastActivity": {
+      "name": "Days Since Last Activity",
+      "definition": "Number of days since the last activity on the wallet."
+    },
+    "Activity": {
+      "name": "Activity",
+      "definition": "Number of transactions on this wallet within an interval."
+    },
+    "ActivityInterval": {
+      "name": "Activity Interval",
+      "definition": "Identifies the interval of the activity."
+    },
+    "LastWalletChange": {
+      "name": "Last Wallet Change",
+      "definition": "Number of days since wallet settings were changed."
+    },
+    "SuspendedCards": {
+      "name": "Suspended Cards",
+      "definition": "Number of cards suspended in the wallet."
+    },
+    "AccountCountry": {
+      "name": "Account Country",
+      "definition": "Country of the wallet account."
+    },
+    "CardDataEntryMode": {
+      "name": "Card Data Entry Mode",
+      "definition": "Method used to capture the card details for the wallet. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "AccountEmailAge": {
+      "name": "Account Email Age",
+      "definition": "Number of days the email address has been in the wallet."
+    },
+    "ProviderRiskAssessment": {
+      "name": "Provider Risk Assessment",
+      "definition": "Wallet Provider Risk Assessment."
+    },
+    "ProviderRiskAssessmentModelVersion": {
+      "name": "Provider Risk Assessment Model Version",
+      "definition": "Wallet Provider Risk Assessment Model Version used to create scores."
+    },
+    "ProviderPhoneScore": {
+      "name": "Provider Phone Score",
+      "definition": "A value to determine trust level of the phone number."
+    },
+    "ProviderDeviceScore": {
+      "name": "Provider Device Score",
+      "definition": "A value to determine trust level of the device."
+    },
+    "ProviderAccountScore": {
+      "name": "Provider Account Score",
+      "definition": "A value to determine trust level of the account."
+    },
+    "ProviderReasonCode": {
+      "name": "Provider Reason Code",
+      "definition": "Code indicates the reason that wallet provider assess the risk score."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

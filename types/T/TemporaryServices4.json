@@ -1,0 +1,124 @@
+{
+  "isoType": "TemporaryServices4",
+  "language": "en",
+  "name": "Temporary Services 4",
+  "definition": "Information regarding the billing for services rendered on a temporary or contract basis. The component provides information such as the employee job performed, timekeeping, and billing rates.",
+  "isoElements": {
+    "CompanyName": {
+      "name": "Company Name",
+      "definition": "Contains the name of the individual at the contracting company that has requested temporary services."
+    },
+    "CompanyDepartment": {
+      "name": "Company Department",
+      "definition": "Contains the name of the department at the contracting company in which the temporary staff will be working."
+    },
+    "CompanyIdentification": {
+      "name": "Company Identification",
+      "definition": "Identification of the temporary services company."
+    },
+    "CompanyBusinessName": {
+      "name": "Company Business Name",
+      "definition": "Business name of the temporary services company."
+    },
+    "CompanyLegalCorporateName": {
+      "name": "Company Legal Corporate Name",
+      "definition": "Legal Corporate Name of the temporary services company."
+    },
+    "CompanyAddress": {
+      "name": "Company Address",
+      "definition": "Address of the temporary services company."
+    },
+    "CompanyLocalData": {
+      "name": "Company Local Data",
+      "definition": "Contains local language equivalent(s) of the temporary services company data."
+    },
+    "CompanySupervisor": {
+      "name": "Company Supervisor",
+      "definition": "Contains the name of the individual at the contracting company that is supervising the temporary staff."
+    },
+    "EmployeePersonalIdentification": {
+      "name": "Employee Personal Identification",
+      "definition": "Contains the personal ID associated with the individual working in a temporary capacity."
+    },
+    "EmployeeIdentification": {
+      "name": "Employee Identification",
+      "definition": "Contains the company-provided ID associated with the individual working in a temporary capacity."
+    },
+    "EmployeeName": {
+      "name": "Employee Name",
+      "definition": "Contains the name of the individual working in a temporary capacity."
+    },
+    "EmployeeProfessionalLevel": {
+      "name": "Employee Professional Level",
+      "definition": "Contains the professional level of the individual working in a temporary capacity."
+    },
+    "JobCode": {
+      "name": "Job Code",
+      "definition": "Identifies the job or task being performed by the individual working in a temporary capacity."
+    },
+    "JobDescription": {
+      "name": "Job Description",
+      "definition": "Contains the description of the job or task of the individual working in a temporary capacity."
+    },
+    "JobStartDate": {
+      "name": "Job Start Date",
+      "definition": "Contains the start date of the job."
+    },
+    "JobDuration": {
+      "name": "Job Duration",
+      "definition": "Duration of the job expressed in number of days."
+    },
+    "JobEndDate": {
+      "name": "Job End Date",
+      "definition": "Contains the end date of the job."
+    },
+    "FlatRateIndicator": {
+      "name": "Flat Rate Indicator",
+      "definition": "Indicates whether or not the fee for the individual working in a temporary capacity is a flat|rate."
+    },
+    "DiscountAmount": {
+      "name": "Discount Amount",
+      "definition": "Contains the discount amount."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "TimeSheet": {
+      "name": "Time Sheet",
+      "definition": "Contains the time sheet identification number."
+    },
+    "WeekEnding": {
+      "name": "Week Ending",
+      "definition": "Contains the date of the end of the billing cycle."
+    },
+    "ChargeRate": {
+      "name": "Charge Rate",
+      "definition": "Contains rate details of the temporary service charges."
+    },
+    "MiscellaneousExpenses": {
+      "name": "Miscellaneous Expenses",
+      "definition": "Contains miscellaneous expense details."
+    },
+    "SubtotalAmount": {
+      "name": "Subtotal Amount",
+      "definition": "Subtotal amount exclusive of tax."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Contains the amount of taxes assessed for temporary services."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount includes amounts of all expenses and total tax amounts, minus discount amount."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

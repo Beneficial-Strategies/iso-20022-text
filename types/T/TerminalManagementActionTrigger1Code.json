@@ -1,0 +1,28 @@
+{
+  "isoType": "TerminalManagementActionTrigger1Code",
+  "language": "en",
+  "name": "Terminal Management Action Trigger 1 Code",
+  "definition": "Event to start a terminal management action by the point of interaction (POI).",
+  "isoCodes": {
+    "DATE": {
+      "isoName": "DateTime",
+      "name": "Date Time",
+      "definition": "Date and time trigger the terminal management action."
+    },
+    "HOST": {
+      "isoName": "HostEvent",
+      "name": "Host Event",
+      "definition": "Acquirer triggers the terminal management action."
+    },
+    "MANU": {
+      "isoName": "Manual",
+      "name": "Manual",
+      "definition": "Acceptor triggers the terminal management action."
+    },
+    "SALE": {
+      "isoName": "SaleEvent",
+      "name": "Sale Event",
+      "definition": "Sale system triggers the terminal management action."
+    }
+  }
+}

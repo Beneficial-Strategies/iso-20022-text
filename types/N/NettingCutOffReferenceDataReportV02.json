@@ -1,0 +1,20 @@
+{
+  "isoType": "NettingCutOffReferenceDataReportV02",
+  "language": "en",
+  "name": "Netting Cut Off Reference Data Report V 02",
+  "definition": "The Netting Cut Off Reference Data Report message is sent to a participant by a central system to provide details of scheduled, changed, existing and previous netting cut off data held at a central system.",
+  "isoElements": {
+    "ReportData": {
+      "name": "Report Data",
+      "definition": "Specifies the meta data for the netting cut off report including message pagination."
+    },
+    "ParticipantNettingCutOffData": {
+      "name": "Participant Netting Cut Off Data",
+      "definition": "Provides the latest information related to the status of a netting cut off held at a central system."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

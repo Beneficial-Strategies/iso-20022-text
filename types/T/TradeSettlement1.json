@@ -1,0 +1,116 @@
+{
+  "isoType": "TradeSettlement1",
+  "language": "en",
+  "name": "Trade Settlement 1",
+  "definition": "Trade settlement details for this invoice which involves the payment of an outstanding debt, account, or charge.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "name": "Due Payable Amount",
+      "definition": "Monetary value that is an exact amount due and payable, such as the amount due to the creditor."
+    },
+    "CreditorReference": {
+      "name": "Creditor Reference",
+      "definition": "Unique and unambiguous reference assigned by the creditor."
+    },
+    "PaymentReference": {
+      "name": "Payment Reference",
+      "definition": "Unique and unambiguous identifier for a payment transaction, as assigned by the originator. The payment transaction reference is used for reconciliation or to link tasks relating to the payment transaction."
+    },
+    "InvoiceCurrencyCode": {
+      "name": "Invoice Currency Code",
+      "definition": "Code specifying the currency of the invoice."
+    },
+    "Invoicer": {
+      "name": "Invoicer",
+      "definition": "Organization issuing the invoice."
+    },
+    "Invoicee": {
+      "name": "Invoicee",
+      "definition": "Party to whom the invoice was issued."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "Party specified to receive payment for the invoice."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "Party specified to initiate payment for the invoice."
+    },
+    "TaxCurrencyExchange": {
+      "name": "Tax Currency Exchange",
+      "definition": "Currency exchange applicable to a tax."
+    },
+    "InvoiceCurrencyExchange": {
+      "name": "Invoice Currency Exchange",
+      "definition": "Currency exchange applicable to the invoice."
+    },
+    "PaymentCurrencyExchange": {
+      "name": "Payment Currency Exchange",
+      "definition": "Currency exchange applicable to the payment."
+    },
+    "PaymentMeans": {
+      "name": "Payment Means",
+      "definition": "Means of payment (for example, credit transfer, cheque, money order, or credit card) specified to initiate payment of the invoice."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters such as thresholds or income."
+    },
+    "BillingPeriod": {
+      "name": "Billing Period",
+      "definition": "Specifies the applicable billing period."
+    },
+    "AllowanceCharge": {
+      "name": "Allowance Charge",
+      "definition": "Allowance or charge specified."
+    },
+    "SubTotalCalculatedTax": {
+      "name": "Sub Total Calculated Tax",
+      "definition": "Tax subtotal calculated."
+    },
+    "LogisticsCharge": {
+      "name": "Logistics Charge",
+      "definition": "Logistics service charge specified."
+    },
+    "PaymentTerms": {
+      "name": "Payment Terms",
+      "definition": "Payment terms."
+    },
+    "MonetarySummation": {
+      "name": "Monetary Summation",
+      "definition": "Monetary totals specified for the invoice."
+    },
+    "AdjustmentAmountAndReason": {
+      "name": "Adjustment Amount And Reason",
+      "definition": "Financial adjustment specified."
+    },
+    "InvoiceReferencedDocument": {
+      "name": "Invoice Referenced Document",
+      "definition": "Invoice document referenced."
+    },
+    "ProformaInvoiceReferencedDocument": {
+      "name": "Proforma Invoice Referenced Document",
+      "definition": "Pro-forma invoice document referenced."
+    },
+    "LetterOfCreditReferencedDocument": {
+      "name": "Letter Of Credit Referenced Document",
+      "definition": "Letter of credit document referenced."
+    },
+    "FinancialCard": {
+      "name": "Financial Card",
+      "definition": "Financial card specified. The card is used to represent a financial account for the purpose of payment settlement."
+    },
+    "PurchaseAccountingAccount": {
+      "name": "Purchase Accounting Account",
+      "definition": "Specific purchase account for recording debits and credits for accounting purposes."
+    },
+    "IssuerFactoringListIdentification": {
+      "name": "Issuer Factoring List Identification",
+      "definition": "Factoring list document referenced."
+    },
+    "IssuerFactoringAgreementIdentification": {
+      "name": "Issuer Factoring Agreement Identification",
+      "definition": "Factoring agreement document referenced."
+    }
+  }
+}

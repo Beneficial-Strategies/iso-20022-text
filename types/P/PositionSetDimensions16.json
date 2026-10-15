@@ -1,0 +1,93 @@
+{
+  "isoType": "PositionSetDimensions16",
+  "language": "en",
+  "name": "Position Set Dimensions 16",
+  "definition": "Variables related to derivatives that are used to group derivatives together into positions for position sets and currency position sets reports.",
+  "isoElements": {
+    "CounterpartyIdentification": {
+      "name": "Counterparty Identification",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "ValueCurrency": {
+      "name": "Value Currency",
+      "definition": "Currency used for the valuation of the contract."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Type of collateral agreement existing between counterparties."
+    },
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Classification according to the contract type."
+    },
+    "AssetClass": {
+      "name": "Asset Class",
+      "definition": "Classification according to the asset class of the contract."
+    },
+    "UnderlyingInstrument": {
+      "name": "Underlying Instrument",
+      "definition": "Unique identification of the direct underlying instrument based on its type."
+    },
+    "NotionalCurrency": {
+      "name": "Notional Currency",
+      "definition": "Currency of the notional amount. ||Usage: In the case of an interest rate or currency derivative contract, this will be the notional currency of first leg."
+    },
+    "NotionalCurrencySecondLeg": {
+      "name": "Notional Currency Second Leg",
+      "definition": "Other currency of the notional amount. ||Usage: In the case of an interest rate or currency derivative contract, this will be the notional currency of the second leg."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies the currency to be used for cash settlement of the transaction. ||Usage: For multicurrency transactions that do not net, SettlementCurrency is to be considered as the first leg."
+    },
+    "SettlementCurrencySecondLeg": {
+      "name": "Settlement Currency Second Leg",
+      "definition": "Specifies the currency second leg to be used for cash settlement of the transaction."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Details related to the master agreement."
+    },
+    "Cleared": {
+      "name": "Cleared",
+      "definition": "Indicates whether clearing of contract has taken place.||Usage: When absent, default value is Not Applicable."
+    },
+    "IntraGroup": {
+      "name": "Intra Group",
+      "definition": "Indicates whether the contract was entered into as an intragroup transaction.||Usage: When absent, default value is false."
+    },
+    "ExchangeRateBasis": {
+      "name": "Exchange Rate Basis",
+      "definition": "Indicates the quote base for the exchange rate."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies the type of the option whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset)."
+    },
+    "TimeToMaturity": {
+      "name": "Time To Maturity",
+      "definition": "Difference between a expiration date of a derivative and the reference date, based on a Gregorian calendar."
+    },
+    "IRSType": {
+      "name": "IRS Type",
+      "definition": "Groups of IRS (Internal Revenue Service) derivatives with reference to whether leg 1 and leg 2 are fixed or floating."
+    },
+    "Credit": {
+      "name": "Credit",
+      "definition": "Information related to credit derivative asset class type."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Details on the commodity asset class type."
+    },
+    "OtherPayment": {
+      "name": "Other Payment",
+      "definition": "Payment related to elements not reported in dedicated fields."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

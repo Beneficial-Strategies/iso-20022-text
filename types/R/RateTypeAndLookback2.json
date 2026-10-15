@@ -1,0 +1,28 @@
+{
+  "isoType": "RateTypeAndLookback2",
+  "language": "en",
+  "name": "Rate Type And Lookback 2",
+  "definition": "Specifies the pricing expressed as a rate type or a rate name complemented with lookback and crystallization days.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the rate type as an index type or by its name."
+    },
+    "LookBackDays": {
+      "name": "Look Back Days",
+      "definition": "Number of days prior to the current day to source the rate."
+    },
+    "CrystallisationDate": {
+      "name": "Crystallisation Date",
+      "definition": "Identifies the penultimate accrual date of the transaction to the final (repurchase) date. Crystallising the penultimate fixing into a fixed rate for the final business day. This will allow for parties to send timely settlement instructions for the repurchase leg of the transaction. Default value is 1 day."
+    },
+    "Tenor": {
+      "name": "Tenor",
+      "definition": "Specifies the tenor of the interest rate index (when the interest rate is calculated)."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Rate Index currency."
+    }
+  }
+}

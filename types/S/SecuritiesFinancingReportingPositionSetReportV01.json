@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesFinancingReportingPositionSetReportV01",
+  "language": "en",
+  "name": "Securities Financing Reporting Position Set Report V 01",
+  "definition": "The SecuritiesFinancingReportingPositionSetReport message is sent by the trade repositories to the supervisory authority system, to report aggregated exposures between a pair of counterparties (except reuse report).",
+  "isoElements": {
+    "AggregatedPositions": {
+      "name": "Aggregated Positions",
+      "definition": "Representation of exposures between a pair of counterparties that comprise positions sets, collateral position sets, currency positions sets and currency collateral position sets."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

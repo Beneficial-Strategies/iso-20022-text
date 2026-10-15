@@ -1,0 +1,104 @@
+{
+  "isoType": "Record4",
+  "language": "en",
+  "name": "Record 4",
+  "definition": "Message in file message identified as a batch record.",
+  "isoElements": {
+    "SequenceCounter": {
+      "name": "Sequence Counter",
+      "definition": "Sequence counter of the record from 1 to n"
+    },
+    "RecordChecksumInputValue": {
+      "name": "Record Checksum Input Value",
+      "definition": "Value of the record to use for the computation of the checksum of the batch."
+    },
+    "OriginatorIdentification": {
+      "name": "Originator Identification",
+      "definition": "Identification of the originator of the transaction."
+    },
+    "OriginatorAssigner": {
+      "name": "Originator Assigner",
+      "definition": "Identification of the entity assigning the originator identification."
+    },
+    "OriginatorCountry": {
+      "name": "Originator Country",
+      "definition": "Country of the originator."
+    },
+    "OriginatorShortName": {
+      "name": "Originator Short Name",
+      "definition": "Short name of the originator."
+    },
+    "DestinationIdentification": {
+      "name": "Destination Identification",
+      "definition": "Identification of the destination of the transaction."
+    },
+    "DestinationAssigner": {
+      "name": "Destination Assigner",
+      "definition": "Identification of the entity assigning the destination identification."
+    },
+    "DestinationCountry": {
+      "name": "Destination Country",
+      "definition": "Country of the destination."
+    },
+    "DestinationShortName": {
+      "name": "Destination Short Name",
+      "definition": "Short name of the destination."
+    },
+    "ClearingMethod": {
+      "name": "Clearing Method",
+      "definition": "Type of clearing of the transaction. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "ClearingPriority": {
+      "name": "Clearing Priority",
+      "definition": "Level of priority of clearing."
+    },
+    "ClearingDate": {
+      "name": "Clearing Date",
+      "definition": "Date of clearing."
+    },
+    "ClearingAmount": {
+      "name": "Clearing Amount",
+      "definition": "Net clearing amount."
+    },
+    "ClearingCurrency": {
+      "name": "Clearing Currency",
+      "definition": "Currency code of the net clearing amount."
+    },
+    "ClearingCreditDebit": {
+      "name": "Clearing Credit Debit",
+      "definition": "Sign of net clearing amount."
+    },
+    "InterchangeFeeAmount": {
+      "name": "Interchange Fee Amount",
+      "definition": "Interchange fee amount."
+    },
+    "InterchangeFeeCurrency": {
+      "name": "Interchange Fee Currency",
+      "definition": "Currency code of interchange fee amount."
+    },
+    "InterchangeFeeCreditDebit": {
+      "name": "Interchange Fee Credit Debit",
+      "definition": "Sign of the interchange fee amount."
+    },
+    "AgentFeeAmount": {
+      "name": "Agent Fee Amount",
+      "definition": "Agent fee amount."
+    },
+    "AgentFeeCurrency": {
+      "name": "Agent Fee Currency",
+      "definition": "Currency code Gross clearing accumulated amount."
+    },
+    "AgentFeeCreditDebit": {
+      "name": "Agent Fee Credit Debit",
+      "definition": "Sign of agent fee amount."
+    },
+    "OtherAmount": {
+      "name": "Other Amount",
+      "definition": "Other amounts involved in clearing."
+    },
+    "RecordMessage": {
+      "name": "Record Message",
+      "definition": "Message to be sent in a batch transfer as a record."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "NonFinancialResponseRisk1Code",
+  "language": "en",
+  "name": "Non Financial Response Risk 1 Code",
+  "definition": "Type of risk management answer from an Acquirer (or its IntermediaryAgent) to aPOI through a NonFinancialResponse.",
+  "isoCodes": {
+    "DECL": {
+      "isoName": "Decline",
+      "name": "Decline",
+      "definition": "A decline of the transaction is expected by the POI to manage risk."
+    },
+    "NCHG": {
+      "isoName": "LocallyManaged",
+      "name": "Locally Managed",
+      "definition": "The POI is able to assess the risk by himself."
+    },
+    "ONLN": {
+      "isoName": "RequestOnline",
+      "name": "Request Online",
+      "definition": "An authorisation is expected from the POI to manage risk."
+    }
+  }
+}

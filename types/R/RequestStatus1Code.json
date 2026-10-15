@@ -1,0 +1,23 @@
+{
+  "isoType": "RequestStatus1Code",
+  "language": "en",
+  "name": "Request Status 1 Code",
+  "definition": "Specifies the coded status of invoice financing request.",
+  "isoCodes": {
+    "FNCD": {
+      "isoName": "Financed",
+      "name": "Financed",
+      "definition": "Single Invoice/Instalment financing request has been financed."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Single Invoice/Instalment financing request is in a pending status and more checks are ongoing."
+    },
+    "NTFD": {
+      "isoName": "NotFinanced",
+      "name": "Not Financed",
+      "definition": "Single Invoice/Instalment financing request has not been financed."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "RecordTechnicalData4",
+  "language": "en",
+  "name": "Record Technical Data 4",
+  "definition": "Instrument specific technical data to support identification.",
+  "isoElements": {
+    "InconsistencyIndicator": {
+      "name": "Inconsistency Indicator",
+      "definition": "Flag to say if there is an inconsistency across all submitting entities records."
+    },
+    "LastUpdate": {
+      "name": "Last Update",
+      "definition": "Last date for which data was received for this instrument."
+    },
+    "SubmissionDateTime": {
+      "name": "Submission Date Time",
+      "definition": "Defines the date and time when this instrument was originally received at the submission destination."
+    },
+    "RelevantCompetentAuthority": {
+      "name": "Relevant Competent Authority",
+      "definition": "Country code of the relevant competent authority of the instrument."
+    },
+    "PublicationPeriod": {
+      "name": "Publication Period",
+      "definition": "Period for which the associated instrument has been publically available."
+    },
+    "NeverPublished": {
+      "name": "Never Published",
+      "definition": "Flag to say if the record has ever been published."
+    },
+    "RelevantTradingVenue": {
+      "name": "Relevant Trading Venue",
+      "definition": "Trading venue of the record used by the relevant competent authority to determine the reference data for the instrument."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 5 elements must be present."
+    }
+  }
+}

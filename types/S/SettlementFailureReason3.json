@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementFailureReason3",
+  "language": "en",
+  "name": "Settlement Failure Reason 3",
+  "definition": "Specifies the reason for the settlement fails as defined in the relevant regulation.",
+  "isoElements": {
+    "AverageDuration": {
+      "name": "Average Duration",
+      "definition": "Average duration of settlement fails as number of days (difference between actual settlement date and intended settlement date, weighted for the value of the settlement fail).||Usage: |Duration of fails is value based."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Detailed description of the failure reasons."
+    }
+  }
+}

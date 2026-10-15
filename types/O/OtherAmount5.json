@@ -1,0 +1,48 @@
+{
+  "isoType": "OtherAmount5",
+  "language": "en",
+  "name": "Other Amount 5",
+  "definition": "Other amount in clearing record data.",
+  "isoElements": {
+    "ClearingCount": {
+      "name": "Clearing Count",
+      "definition": "Number of other amounts involved in clearing."
+    },
+    "ClearingAmount": {
+      "name": "Clearing Amount",
+      "definition": "Net clearing amount."
+    },
+    "ClearingCurrency": {
+      "name": "Clearing Currency",
+      "definition": "Currency code of the net clearing amount."
+    },
+    "ClearingCreditDebit": {
+      "name": "Clearing Credit Debit",
+      "definition": "Sign of net clearing amount."
+    },
+    "InterchangeFeeAmount": {
+      "name": "Interchange Fee Amount",
+      "definition": "Interchange fee amount."
+    },
+    "InterchangeFeeCurrency": {
+      "name": "Interchange Fee Currency",
+      "definition": "Currency code of interchange fee amount."
+    },
+    "InterchangeFeeCreditDebit": {
+      "name": "Interchange Fee Credit Debit",
+      "definition": "Sign of the interchange fee amount."
+    },
+    "AgentFeeAmount": {
+      "name": "Agent Fee Amount",
+      "definition": "Agent fee amount."
+    },
+    "AgentFeeCurrency": {
+      "name": "Agent Fee Currency",
+      "definition": "Currency code Gross clearing accumulated amount."
+    },
+    "AgentFeeCreditDebit": {
+      "name": "Agent Fee Credit Debit",
+      "definition": "Sign of agent fee amount."
+    }
+  }
+}

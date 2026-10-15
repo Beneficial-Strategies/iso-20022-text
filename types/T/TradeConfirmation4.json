@@ -1,0 +1,21 @@
+{
+  "isoType": "TradeConfirmation4",
+  "language": "en",
+  "name": "Trade Confirmation 4",
+  "definition": "Specifies time and type of contract confirmation.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies whether the contract was confirmed electronically or non-electronically."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Date and time of the trade confirmation, indicating time zone in which the confirmation has taken place."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

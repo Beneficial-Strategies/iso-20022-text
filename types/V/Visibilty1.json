@@ -1,0 +1,20 @@
+{
+  "isoType": "Visibilty1",
+  "language": "en",
+  "name": "Visibilty 1",
+  "definition": "Specifies the details of the visibility of the creditor enrolment as shown to the debtors.",
+  "isoElements": {
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date when the information will be shown to the debtors."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "End date when the information will be shown to the debtors."
+    },
+    "LimitedVisibility": {
+      "name": "Limited Visibility",
+      "definition": "Indicates whether the information is shown to the debtors or not.||Usage: when absent, the default value is no limited visibility (false)."
+    }
+  }
+}

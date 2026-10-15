@@ -1,0 +1,113 @@
+{
+  "isoType": "DTCCSubEventType3Code",
+  "language": "en",
+  "name": "DTCC Sub Event Type 3 Code",
+  "definition": "Specifies DTCC (The Depository Trust and Clearing Corporation) defined sub event types.",
+  "isoCodes": {
+    "PLCL": {
+      "isoName": "PlaceOfListing",
+      "name": "Place Of Listing",
+      "definition": "Identifies a change in the place where the security is listed."
+    },
+    "BLOT": {
+      "isoName": "BoardLot",
+      "name": "Board Lot",
+      "definition": "Identifies a change in Board Lot size."
+    },
+    "RMRK": {
+      "isoName": "Remarketing",
+      "name": "Remarketing",
+      "definition": "Identifies an event that involves a Stock Purchase Contract product that is offering an early settlement or remarketing feature prior to the contract's expiration."
+    },
+    "UNWD": {
+      "isoName": "Unwind",
+      "name": "Unwind",
+      "definition": "Identifies an event where \"unwinding\" of the basket of securities occurs."
+    },
+    "SHEX": {
+      "isoName": "ShareExchange",
+      "name": "Share Exchange",
+      "definition": "Identifies an event where two companies exchange their shares during a merger. After the share exchange, one company becomes a subsidiary of the other and is no longer listed. Usually applicable to an event in JP markets."
+    },
+    "STDT": {
+      "isoName": "Standard",
+      "name": "Standard",
+      "definition": "Identifies an event where one company merges with the other and assumes the name of the surviving company. It is the standard market-accepted merger. Usually applicable to an event in JP markets."
+    },
+    "XFER": {
+      "isoName": "Transfer",
+      "name": "Transfer",
+      "definition": "Identifies an event where one company transfers all of its shares to a newly created company. Usually applicable to an event in JP markets."
+    },
+    "SOPT": {
+      "isoName": "SurvivorOptions",
+      "name": "Survivor Options",
+      "definition": "Indicates an event where the Issue has an early redemption feature. This feature allows the holder to elect to sell bonds back to the issuer on a predetermined basis (excluding monthly) according to specific priorities."
+    },
+    "MBCK": {
+      "isoName": "MortgageBacked",
+      "name": "Mortgage Backed",
+      "definition": "Indicates an event where the issue has an early redemption feature that allows the holder to elect to sell bonds back to the issuer on a monthly basis, according to specified conditions."
+    },
+    "SALE": {
+      "isoName": "SaleOfAssets",
+      "name": "Sale Of Assets",
+      "definition": "Identifies an event where the distribution is from the proceeds of the sale of assets."
+    },
+    "PRNI": {
+      "isoName": "PhysicalRightsNotIssued",
+      "name": "Physical Rights Not Issued",
+      "definition": "Identifies an event where the company is not issuing a security with the right to subscribe for additional shares. In these instances, a User CUSIP is created by DTC (The Depository Trust Company) as opposed to a company-issued CUSIP in order to identify these issues."
+    },
+    "POPI": {
+      "isoName": "PoisonPill",
+      "name": "Poison Pill",
+      "definition": "Identifies sale of rights event where issuers redeem poison pill rights."
+    },
+    "DRPI": {
+      "isoName": "DividendReinvestmentByIssuer",
+      "name": "Dividend Reinvestment By Issuer",
+      "definition": "Identifies an event where the issuer offers a dividend reinvestment program that is not processed by DTC (the Depository Trust Company)."
+    },
+    "MROS": {
+      "isoName": "MandatoryRedemptionOfShares",
+      "name": "Mandatory Redemption Of Shares",
+      "definition": "Identifies an event where redemption shares are issued in addition to shares of the original security. This is related to the Mandatory Exchange event with the same sub-event type name."
+    },
+    "SHPP": {
+      "isoName": "SharePurchasePlan",
+      "name": "Share Purchase Plan",
+      "definition": "Identifies an event involving the offer of shares by a corporation listed on the Australia Stock Exchange, in which ASIC will give relief so that the company can offer existing shareholders the opportunity to acquire small numbers of additional shares without needing a disclosure document or Product Disclosure Statement (PDS)."
+    },
+    "OPOF": {
+      "isoName": "OpenOffer",
+      "name": "Open Offer",
+      "definition": "Identifies an event in certain markets where underlying rights are not issued."
+    },
+    "TWRI": {
+      "isoName": "TenderWithRights",
+      "name": "Tender With Rights",
+      "definition": "Identifies a tender offer event on a Rights security. Holders must submit both the ordinary share(s) and right(s) to be eligible to receive the tender consideration. The ratio of ordinary shares to rights is defined in the offer."
+    },
+    "CILI": {
+      "isoName": "CashinLieu",
+      "name": "Cashin Lieu",
+      "definition": "Identifies DTC (the Depository Trust Company) specific sub-event where holders can elect to \"sell\" whole shares to satisfy fractional entitlements (usually as a result of a merger) at the beneficial owner level."
+    },
+    "BTST": {
+      "isoName": "BidTenderSealedTender",
+      "name": "Bid Tender Sealed Tender",
+      "definition": "Identifies a tender offer event in which the holder can choose the price at which they are willing to tender their securities. This price may or may not be accepted by the offeror."
+    },
+    "FTPR": {
+      "isoName": "OfferToPurchase",
+      "name": "Offer To Purchase",
+      "definition": "Identifies a tender offer event made by another company to purchase a portion or all of the outstanding shares."
+    },
+    "ADRS": {
+      "isoName": "ADR",
+      "name": "ADR",
+      "definition": "Identifies when the event security is an ADR. The underlying security is American Depositary Receipt."
+    }
+  }
+}

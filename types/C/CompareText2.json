@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareText2",
+  "language": "en",
+  "name": "Compare Text 2",
+  "definition": "Specifies two values to compare for a text field of 52 characters.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

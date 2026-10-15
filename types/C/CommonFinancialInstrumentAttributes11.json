@@ -1,0 +1,216 @@
+{
+  "isoType": "CommonFinancialInstrumentAttributes11",
+  "language": "en",
+  "name": "Common Financial Instrument Attributes 11",
+  "definition": "Tangible items of value to a business.",
+  "isoElements": {
+    "SecurityStatus": {
+      "name": "Security Status",
+      "definition": "Specifies the status of the security within its lifecycle."
+    },
+    "FinancialInstrumentName": {
+      "name": "Financial Instrument Name",
+      "definition": "Name of the security."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CertificateNumber": {
+      "name": "Certificate Number",
+      "definition": "Unique and unambiguous identifier of a certificate assigned by the issuer."
+    },
+    "ContractVersionNumber": {
+      "name": "Contract Version Number",
+      "definition": "Version number assigned to the contract associated with the security."
+    },
+    "CouponAttachedNumber": {
+      "name": "Coupon Attached Number",
+      "definition": "Number of the coupon attached to the physical security."
+    },
+    "TaxLotNumber": {
+      "name": "Tax Lot Number",
+      "definition": "Identification, for tax purposes, of a lot of identical securities that are bought at a certain date and at a certain price."
+    },
+    "PoolNumber": {
+      "name": "Pool Number",
+      "definition": "Number identifying a group of underlying assets assigned by the issuer of a factored security."
+    },
+    "CoveredIndicator": {
+      "name": "Covered Indicator",
+      "definition": "Indicates whether the derivative product is covered or not by an underlying financial instrument position."
+    },
+    "LegalRestrictions": {
+      "name": "Legal Restrictions",
+      "definition": "Specifies the regulatory restrictions applicable to a security."
+    },
+    "PositionLimit": {
+      "name": "Position Limit",
+      "definition": "Position limits are created for the purpose of maintaining stable and fair markets. Contracts held by one individual investor with different brokers may be combined in order to gauge accurately the level of control held by one party. ||Each option and futures contract will have varying position limits."
+    },
+    "NearTermPositionLimit": {
+      "name": "Near Term Position Limit",
+      "definition": "Near-term position limit for the instrument."
+    },
+    "ListingDate": {
+      "name": "Listing Date",
+      "definition": "Original Date/time at which the security is listed at the specific exchange or trading venue."
+    },
+    "RecordDate": {
+      "name": "Record Date",
+      "definition": "Date/time at which positions are struck to note which parties are entitled to receive the entitlement to a corporate event or vote at a meeting."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which a privilege expires."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Reason for which money is raised through the issuance of a security."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Information allowing the classification of a financial instrument, for example, with its ISO CFI (Classification of Financial Instrument) or product type."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Details regarding the issuance of an asset."
+    },
+    "TradingMarket": {
+      "name": "Trading Market",
+      "definition": "Market(s) on which the security is traded."
+    },
+    "SpreadAndBenchmarkCurve": {
+      "name": "Spread And Benchmark Curve",
+      "definition": "Indicates the spread to benchmark details of an indication of interest."
+    },
+    "PutType": {
+      "name": "Put Type",
+      "definition": "Represents the type of put."
+    },
+    "CallType": {
+      "name": "Call Type",
+      "definition": "Represents the type of call."
+    },
+    "FungibleIndicator": {
+      "name": "Fungible Indicator",
+      "definition": "Indicates whether a security is interchangeable, ie, the security is allowed to be replaced by another security, without loss of value."
+    },
+    "Confidential": {
+      "name": "Confidential",
+      "definition": "Indicates whether the details of the security are to be made available to the market, or kept private between ICSDs and agency network."
+    },
+    "PrivatePlacement": {
+      "name": "Private Placement",
+      "definition": "The sale of securities directly to private persons, institutional investors, or both outside a public offering. Such non-public deals (often without a publicly available prospectus) closing through the ICSDs are placed directly with investors."
+    },
+    "ConvertibleIndicator": {
+      "name": "Convertible Indicator",
+      "definition": "Indicates whether the investor or the issuer has a conversion option."
+    },
+    "ConversionPeriod": {
+      "name": "Conversion Period",
+      "definition": "Period during which a convertible security may be converted according to the terms of the issue."
+    },
+    "ConversionRatioNumerator": {
+      "name": "Conversion Ratio Numerator",
+      "definition": "Number of target securities for the conversion."
+    },
+    "ConversionRatioDenominator": {
+      "name": "Conversion Ratio Denominator",
+      "definition": "Number of held securities for the conversion."
+    },
+    "PrimaryPlaceOfDeposit": {
+      "name": "Primary Place Of Deposit",
+      "definition": "Primary place of deposit."
+    },
+    "TradingMethod": {
+      "name": "Trading Method",
+      "definition": "Indicates whether the notional amount value is to be traded in either an amount or in units."
+    },
+    "TEFRARule": {
+      "name": "TEFRA Rule",
+      "definition": "Indicates the TEFRA rule under which the security is issued."
+    },
+    "SerieNumber": {
+      "name": "Serie Number",
+      "definition": "Identifies the series number."
+    },
+    "Class": {
+      "name": "Class",
+      "definition": "Identifier that links multiple security classes."
+    },
+    "WithholdingTaxRegime": {
+      "name": "Withholding Tax Regime",
+      "definition": "Amount or percentage of a cash distribution that will be withheld by a tax authority."
+    },
+    "PaymentStatus": {
+      "name": "Payment Status",
+      "definition": "Status of payment of a security at a particular time."
+    },
+    "InitialPhysicalForm": {
+      "name": "Initial Physical Form",
+      "definition": "Indicates the physical form of the securities on the closing date."
+    },
+    "AfterExchangePhysicalForm": {
+      "name": "After Exchange Physical Form",
+      "definition": "Indicates the physical form of the securities after the exchange of the initial certificate issued on the closing date."
+    },
+    "CommonSafekeeper": {
+      "name": "Common Safekeeper",
+      "definition": "Entity appointed by the ICSDs to provide safekeeping for securities in new global note (NGN) form."
+    },
+    "RedemptionType": {
+      "name": "Redemption Type",
+      "definition": "Indicates the type of redemption at maturity."
+    },
+    "RedemptionPaymentCurrency": {
+      "name": "Redemption Payment Currency",
+      "definition": "ISO currency for the payment of the cash proceeds."
+    },
+    "Restriction": {
+      "name": "Restriction",
+      "definition": "Regulatory restriction(s) linked to the security."
+    },
+    "FinancialInstrumentIdentificationValidity": {
+      "name": "Financial Instrument Identification Validity",
+      "definition": "Specifies the date from which the financial instrument identification is valid."
+    },
+    "SettlementInformation": {
+      "name": "Settlement Information",
+      "definition": "Settlement of the securities in a securities transaction, that is, the instruction to deliver or receive securities, involving the payment of an amount of money or not."
+    },
+    "FinancialInstrumentForm": {
+      "name": "Financial Instrument Form",
+      "definition": "Indicates the form of the financial Instrument."
+    },
+    "ContactName": {
+      "name": "Contact Name",
+      "definition": "Details (name, e-mail address and/or telephone number) of the person requesting the allocation of the ISIN used as a point of reference in case further clarifications are required."
+    },
+    "LeadManager": {
+      "name": "Lead Manager",
+      "definition": "Entity appointed by the issuer to structure and lead the placement of a syndicated issue."
+    },
+    "PrincipalPayingAgent": {
+      "name": "Principal Paying Agent",
+      "definition": "Main party appointed to distribute payment or securities on behalf of the issuer."
+    },
+    "PayingAgent": {
+      "name": "Paying Agent",
+      "definition": "Additional party appointed to distribute payment or securities on behalf of the issuer."
+    },
+    "Depository": {
+      "name": "Depository",
+      "definition": "Entity appointed by the relevant clearing system as a depository for instruments issued in global or definitive form. The depository keeps the securities for safekeeping purposes on behalf of the clearing system(s)."
+    },
+    "UnderlyingRisk": {
+      "name": "Underlying Risk",
+      "definition": "Entity(ies), asset(s) or security(ies) on which the credit responsibility lies as identified in the documentation."
+    },
+    "SecurityCSDLink": {
+      "name": "Security CSD Link",
+      "definition": "Defines how the CSD is linked to the security."
+    }
+  }
+}

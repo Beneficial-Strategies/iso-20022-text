@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMTransactionStatus1Code",
+  "language": "en",
+  "name": "ATM Transaction Status 1 Code",
+  "definition": "Outcome of the financial ATM transaction for the customer.",
+  "isoCodes": {
+    "DOBT": {
+      "isoName": "Doubt",
+      "name": "Doubt",
+      "definition": "Undetermined status, for instance possibly forgotten notes."
+    },
+    "FAIL": {
+      "isoName": "Failure",
+      "name": "Failure",
+      "definition": "Transaction failed."
+    },
+    "SCSS": {
+      "isoName": "Success",
+      "name": "Success",
+      "definition": "Transaction was successfully completed."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMCustomer9",
+  "language": "en",
+  "name": "ATM Customer 9",
+  "definition": "Customer involved in a transaction.",
+  "isoElements": {
+    "Profile": {
+      "name": "Profile",
+      "definition": "Profile of the customer selected to perform the transaction."
+    },
+    "AuthenticationResult": {
+      "name": "Authentication Result",
+      "definition": "Result of the customer authentication for this transaction."
+    },
+    "PreferredLanguage": {
+      "name": "Preferred Language",
+      "definition": "Language selected by the customer and stored by the issuer to be used in future customer sessions. The PreferredLanguage can be obtained by sending an ATMInquiryRequest to the issuer. Reference ISO 639-1 (alpha-2) et ISO 639-2 (alpha-3)."
+    }
+  }
+}

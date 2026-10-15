@@ -1,0 +1,24 @@
+{
+  "isoType": "InterestResponse1",
+  "language": "en",
+  "name": "Interest Response 1",
+  "definition": "Provides details about the reponse to the interest payment request.",
+  "isoElements": {
+    "ResponseType": {
+      "name": "Response Type",
+      "definition": "Provides the type of the response, either accepted or rejected."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Provides a reason for rejection identified using a code or a proprietary format."
+    },
+    "RejectionReasonInformation": {
+      "name": "Rejection Reason Information",
+      "definition": "Provides additional information on the rejection reason."
+    },
+    "InterestPaymentRequestIdentification": {
+      "name": "Interest Payment Request Identification",
+      "definition": "Provides the reference to the interest payment request."
+    }
+  }
+}

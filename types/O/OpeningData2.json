@@ -1,0 +1,40 @@
+{
+  "isoType": "OpeningData2",
+  "language": "en",
+  "name": "Opening Data 2",
+  "definition": "List of elements which specify the opening of a non deliverable trade.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date at which the trading parties execute a treasury trade."
+    },
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Refers to the identification of a notification assigned by the trading side."
+    },
+    "CommonReference": {
+      "name": "Common Reference",
+      "definition": "Reference common to the parties of a trade."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Refers to the identification of a previous event in the life of a non deliverable forward trade."
+    },
+    "AmendOrCancelReason": {
+      "name": "Amend Or Cancel Reason",
+      "definition": "Describes the reason for the cancellation or the amendment."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the non deliverable trade which is reported."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Exchange rate between two currencies. The rate is agreed by the trading parties during the negotiation process."
+    },
+    "ValuationConditions": {
+      "name": "Valuation Conditions",
+      "definition": "Set of parameters used to calculate the valuation rate to be applied to a non-deliverable agreement."
+    }
+  }
+}

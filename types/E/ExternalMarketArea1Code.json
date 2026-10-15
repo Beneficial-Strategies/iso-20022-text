@@ -1,0 +1,103 @@
+{
+  "isoType": "ExternalMarketArea1Code",
+  "language": "en",
+  "name": "External Market Area 1 Code",
+  "definition": "Specifies the external market code, to which the instruction, operation or report relates, in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code set published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ANYY": {
+      "isoName": "Any",
+      "name": "Any",
+      "definition": "Any market area."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Bank to bank cash movements."
+    },
+    "COLL": {
+      "isoName": "Collections",
+      "name": "Collections",
+      "definition": "Collections."
+    },
+    "COMM": {
+      "isoName": "Commodities",
+      "name": "Commodities",
+      "definition": "Precious metals and other commodities such as palm oil."
+    },
+    "COPA": {
+      "isoName": "CommercialPayments",
+      "name": "Commercial Payments",
+      "definition": "Payment in which one of the parties is not a financial institution."
+    },
+    "DERI": {
+      "isoName": "Derivatives",
+      "name": "Derivatives",
+      "definition": "Futures contracts, options, forward contracts, swaps, etc..."
+    },
+    "DOCC": {
+      "isoName": "DocumentaryCredits",
+      "name": "Documentary Credits",
+      "definition": "Documentary credits."
+    },
+    "FOEX": {
+      "isoName": "ForeignExchange",
+      "name": "Foreign Exchange",
+      "definition": "Foreign exchange."
+    },
+    "GUAR": {
+      "isoName": "Guarantees",
+      "name": "Guarantees",
+      "definition": "Guarantees."
+    },
+    "LETT": {
+      "isoName": "LettersOfCredit",
+      "name": "Letters Of Credit",
+      "definition": "Letters of credit."
+    },
+    "LOAN": {
+      "isoName": "Loans",
+      "name": "Loans",
+      "definition": "Loans and deposits."
+    },
+    "MMKT": {
+      "isoName": "MoneyMarkets",
+      "name": "Money Markets",
+      "definition": "Money markets."
+    },
+    "NDLF": {
+      "isoName": "NonDeliverableForward",
+      "name": "Non Deliverable Forward",
+      "definition": "FX forward trade for which only balance is settled."
+    },
+    "OFFS": {
+      "isoName": "Offshore",
+      "name": "Offshore",
+      "definition": "Offshore settlement."
+    },
+    "ONSH": {
+      "isoName": "Onshore",
+      "name": "Onshore",
+      "definition": "Onshore settlement."
+    },
+    "OPTI": {
+      "isoName": "Options",
+      "name": "Options",
+      "definition": "FX Options, swap options, etc..."
+    },
+    "SECU": {
+      "isoName": "Securities",
+      "name": "Securities",
+      "definition": "Bonds, equities, futures..."
+    },
+    "TFIN": {
+      "isoName": "TradeFinance",
+      "name": "Trade Finance",
+      "definition": "Documentary credits, collections, guarantees, letters of credit."
+    },
+    "TREA": {
+      "isoName": "Treasury",
+      "name": "Treasury",
+      "definition": "Cash management activities."
+    }
+  }
+}

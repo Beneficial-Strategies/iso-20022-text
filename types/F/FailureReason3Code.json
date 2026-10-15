@@ -1,0 +1,68 @@
+{
+  "isoType": "FailureReason3Code",
+  "language": "en",
+  "name": "Failure Reason 3 Code",
+  "definition": "List of incidents happening at the acceptor during the transaction.",
+  "isoCodes": {
+    "CDCL": {
+      "isoName": "CardDeclined",
+      "name": "Card Declined",
+      "definition": "Integrated circuit card declines the transaction before or after the authorisation."
+    },
+    "CUCL": {
+      "isoName": "CustomerCancel",
+      "name": "Customer Cancel",
+      "definition": "Customer cancellation, for example removing the card before the end of the transaction."
+    },
+    "MALF": {
+      "isoName": "Malfunction",
+      "name": "Malfunction",
+      "definition": "Suspected malfunction."
+    },
+    "FDCL": {
+      "isoName": "OfflineDeclined",
+      "name": "Offline Declined",
+      "definition": "Offline authorisation declined the transaction."
+    },
+    "NDCL": {
+      "isoName": "OnLineDeclined",
+      "name": "On Line Declined",
+      "definition": "Online authorisation declined the transaction."
+    },
+    "PART": {
+      "isoName": "Partial",
+      "name": "Partial",
+      "definition": "Completed partially."
+    },
+    "SFRD": {
+      "isoName": "SuspectedFraud",
+      "name": "Suspected Fraud",
+      "definition": "Card payment transaction fails because the merchant suspect a fraud."
+    },
+    "TIMO": {
+      "isoName": "TimeOut",
+      "name": "Time Out",
+      "definition": "Timeout while waiting for a response to a request message, or no response was received (for example connection release before receiving the response)."
+    },
+    "LATE": {
+      "isoName": "TooLateResponse",
+      "name": "Too Late Response",
+      "definition": "Response to the previous message was received too late."
+    },
+    "UCMP": {
+      "isoName": "UnableToComplete",
+      "name": "Unable To Complete",
+      "definition": "Unable to complete the transaction after the authorisation response."
+    },
+    "USND": {
+      "isoName": "UnableToSend",
+      "name": "Unable To Send",
+      "definition": "Unable to deliver the request message to the recipient party."
+    },
+    "SECU": {
+      "isoName": "SecurityError",
+      "name": "Security Error",
+      "definition": "Security error has occurred in the authorisation response message sent by the acquirer."
+    }
+  }
+}

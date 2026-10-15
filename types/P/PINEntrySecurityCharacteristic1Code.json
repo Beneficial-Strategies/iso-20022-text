@@ -1,0 +1,28 @@
+{
+  "isoType": "PINEntrySecurityCharacteristic1Code",
+  "language": "en",
+  "name": "PIN Entry Security Characteristic 1 Code",
+  "definition": "Identifies the security characteristic of the PIN entry device.",
+  "isoCodes": {
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other nationally assigned code."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other privately assigned code."
+    },
+    "SECS": {
+      "isoName": "SecureSoftware",
+      "name": "Secure Software",
+      "definition": "PIN entry is protected via an approved software solution."
+    },
+    "SECH": {
+      "isoName": "SecureHardware",
+      "name": "Secure Hardware",
+      "definition": "PIN entry is protected via a secure hardware solution."
+    }
+  }
+}

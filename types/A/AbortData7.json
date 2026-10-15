@@ -1,0 +1,24 @@
+{
+  "isoType": "AbortData7",
+  "language": "en",
+  "name": "Abort Data 7",
+  "definition": "Body of the Abort Request message.",
+  "isoElements": {
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Message identifier."
+    },
+    "AbortReason": {
+      "name": "Abort Reason",
+      "definition": "Reason of aborting a transaction."
+    },
+    "DisplayOutput": {
+      "name": "Display Output",
+      "definition": "To display an abort message to the Customer."
+    },
+    "TransactionSuccess": {
+      "name": "Transaction Success",
+      "definition": "Outcome of the transaction at the acceptor."
+    }
+  }
+}

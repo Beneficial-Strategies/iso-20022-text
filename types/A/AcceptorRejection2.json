@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorRejection2",
+  "language": "en",
+  "name": "Acceptor Rejection 2",
+  "definition": "Reject of an exchange.",
+  "isoElements": {
+    "RejectReason": {
+      "name": "Reject Reason",
+      "definition": "Reject reason of the request or the advice."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the reject of the exchange."
+    },
+    "MessageInError": {
+      "name": "Message In Error",
+      "definition": "Original request that caused the recipient party to reject it."
+    }
+  }
+}

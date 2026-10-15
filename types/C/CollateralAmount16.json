@@ -1,0 +1,57 @@
+{
+  "isoType": "CollateralAmount16",
+  "language": "en",
+  "name": "Collateral Amount 16",
+  "definition": "Provides details on the collateral valuation.",
+  "isoElements": {
+    "ValueOfCollateralHeld": {
+      "name": "Value Of Collateral Held",
+      "definition": "Total value of posted collateral (post-haircut) expressed in the reporting currency."
+    },
+    "TotalExposure": {
+      "name": "Total Exposure",
+      "definition": "Total exposure amount between the giver and taker expressed in the reporting currency."
+    },
+    "Margin": {
+      "name": "Margin",
+      "definition": "The difference between the total collateral value and the total collateral required."
+    },
+    "TotalCollateralRequired": {
+      "name": "Total Collateral Required",
+      "definition": "Collateral is required to cover interest that accrues on the exposure. Margin amount would thus be the difference between collateral required and collateral value (that is COVA)."
+    },
+    "TotalAccruedInterest": {
+      "name": "Total Accrued Interest",
+      "definition": "Total amount of money accrued interest computed in the case of interest bearing financial instruments."
+    },
+    "TotalValueOfOwnCollateral": {
+      "name": "Total Value Of Own Collateral",
+      "definition": "Total value of own collateral in the reporting currency."
+    },
+    "TotalValueOfReusedCollateral": {
+      "name": "Total Value Of Reused Collateral",
+      "definition": "Total value of reused/rehypotheticated collateral in the reporting currency."
+    },
+    "TotalOfPrincipals": {
+      "name": "Total Of Principals",
+      "definition": "Total of principals in the reporting currency."
+    },
+    "TotalPendingCollateralIn": {
+      "name": "Total Pending Collateral In",
+      "definition": "Value of incoming collateral, to be settled in the reporting currency."
+    },
+    "TotalPendingCollateralOut": {
+      "name": "Total Pending Collateral Out",
+      "definition": "Value of outgoing collateral, to be settled in the reporting currency."
+    },
+    "TotalCashFailed": {
+      "name": "Total Cash Failed",
+      "definition": "Total value of undelivered intended transaction cash amount."
+    }
+  },
+  "isoRules": {
+    "CashFailAmountUsageRule": {
+      "definition": "Whenever any cash is present in the Transaction not by intent of the provider but because the provider is unable to provide eligible securities to cover the exposure, then it should be reported in Cash Fail Amount (TCFA) and not as a part of Cash Movement Block. Whenever any cash is present in the Trade as intended by provider acting as cash collateral then it should be reported in the Cash Movement block and not as Cash Fail Amount."
+    }
+  }
+}

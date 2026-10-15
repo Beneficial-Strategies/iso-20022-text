@@ -1,0 +1,68 @@
+{
+  "isoType": "Action2Code",
+  "language": "en",
+  "name": "Action 2 Code",
+  "definition": "Specifies which type of action a user should take.",
+  "isoCodes": {
+    "SBTW": {
+      "isoName": "SubmitTwin",
+      "name": "Submit Twin",
+      "definition": "Request to submit a twin baseline."
+    },
+    "RSTW": {
+      "isoName": "ReSubmitTwin",
+      "name": "Re Submit Twin",
+      "definition": "Request to resubmit a twin baseline."
+    },
+    "RSBS": {
+      "isoName": "ReSubmitBaseline",
+      "name": "Re Submit Baseline",
+      "definition": "Request to resubmit a baseline."
+    },
+    "ARDM": {
+      "isoName": "AcceptOrRejectDataSetMisMatches",
+      "name": "Accept Or Reject Data Set Mis Matches",
+      "definition": "Request to accept or reject mismatched data set(s)."
+    },
+    "ARCS": {
+      "isoName": "AcceptOrRejectChangeOfStatus",
+      "name": "Accept Or Reject Change Of Status",
+      "definition": "Request to accept or reject a request for a change of status of the baseline."
+    },
+    "ARES": {
+      "isoName": "AcceptOrRejectExtensionOfStatus",
+      "name": "Accept Or Reject Extension Of Status",
+      "definition": "Request to accept or reject a request for an extension of the period of validity of the status of the baseline."
+    },
+    "WAIT": {
+      "isoName": "WaitForBaselineEstablished",
+      "name": "Wait For Baseline Established",
+      "definition": "Request to wait until the baseline is established."
+    },
+    "UPDT": {
+      "isoName": "UpdateAndResend",
+      "name": "Update And Resend",
+      "definition": "Request to update and resend."
+    },
+    "SBDS": {
+      "isoName": "SubmitDataSet",
+      "name": "Submit Data Set",
+      "definition": "Request to submit data set(s)."
+    },
+    "ARBA": {
+      "isoName": "AcceptOrRejectBaselineAmendment",
+      "name": "Accept Or Reject Baseline Amendment",
+      "definition": "Request to accept or reject a request for a baseline amendment."
+    },
+    "ARRO": {
+      "isoName": "AcceptOrRejectBaselineAndRole",
+      "name": "Accept Or Reject Baseline And Role",
+      "definition": "Request to accept or reject a baseline and the role contained in it for the financial institution."
+    },
+    "CINR": {
+      "isoName": "CheckInvoiceReference",
+      "name": "Check Invoice Reference",
+      "definition": "Request to check invoice number because it was not found."
+    }
+  }
+}

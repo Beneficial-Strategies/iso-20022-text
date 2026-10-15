@@ -1,0 +1,25 @@
+{
+  "isoType": "AuctionData2",
+  "language": "en",
+  "name": "Auction Data 2",
+  "definition": "Trading phase and indicative auction price and volume.",
+  "isoElements": {
+    "TradingPhase": {
+      "name": "Trading Phase",
+      "definition": "Trading phase during which an order is present in the order book including trading halts, circuit breakers and suspensions."
+    },
+    "IndicativeAuctionPrice": {
+      "name": "Indicative Auction Price",
+      "definition": "Price at which each auction is due to uncross in respect to the financial instrument for which one or more orders have been placed."
+    },
+    "IndicativeAuctionVolume": {
+      "name": "Indicative Auction Volume",
+      "definition": "Number of units of the financial instrument, that can be executed at the indicative auction price, if the auction ended at that precise moment of time."
+    }
+  },
+  "isoRules": {
+    "AuctionDataPresenceRule": {
+      "definition": "TradingPhase or IndicativeAuctionPrice or IndicativeAuctionVolume must be present."
+    }
+  }
+}

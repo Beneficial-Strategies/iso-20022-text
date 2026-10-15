@@ -1,0 +1,20 @@
+{
+  "isoType": "ClockSynchronisation3",
+  "language": "en",
+  "name": "Clock Synchronisation 3",
+  "definition": "Parameters to synchronise a real time clock.",
+  "isoElements": {
+    "POITimeZone": {
+      "name": "POI Time Zone",
+      "definition": "Name of the time zone where is located the POI (Point Of Interaction), as definined by the IANA (Internet Assigned Number Authority) time zone data base."
+    },
+    "SynchronisationServer": {
+      "name": "Synchronisation Server",
+      "definition": "Parameters to contact a time server."
+    },
+    "Delay": {
+      "name": "Delay",
+      "definition": "Delay between two contacts of the server."
+    }
+  }
+}

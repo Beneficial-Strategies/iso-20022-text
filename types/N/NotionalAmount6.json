@@ -1,0 +1,25 @@
+{
+  "isoType": "NotionalAmount6",
+  "language": "en",
+  "name": "Notional Amount 6",
+  "definition": "Indicates the reference amount from which contractual payments are determined and the schedule applicable to the payments.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Reference amount from which contractual payments are determined.||Usage: In case of partial terminations, and amortisations and in case of contracts where the notional, due to the characteristics of the contract, varies over time, it shall reflect the remaining notional after the change took place."
+    },
+    "SchedulePeriod": {
+      "name": "Schedule Period",
+      "definition": "Specifies the effective date and end date of the schedule for derivative transactions negotiated in monetary amounts varying throughout the life of the transaction."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency of the notional amount."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

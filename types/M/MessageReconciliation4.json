@@ -1,0 +1,16 @@
+{
+  "isoType": "MessageReconciliation4",
+  "language": "en",
+  "name": "Message Reconciliation 4",
+  "definition": "Contains message reconciliation data.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Contains the reconciliation message type. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Count": {
+      "name": "Count",
+      "definition": "Number of transactions."
+    }
+  }
+}

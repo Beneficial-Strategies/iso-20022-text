@@ -1,0 +1,24 @@
+{
+  "isoType": "LiquidityStressScenarioDefinition1",
+  "language": "en",
+  "name": "Liquidity Stress Scenario Definition 1",
+  "definition": "Attributes and information that describe a scenario used to test whether a legal entity or other financial construct has sufficient liquid resources to meet its obligations as they arise.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "CCP’s internal unique identifier of the stress scenario that generates the reported liquidity need."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Details of the method and assumptions used for estimating operational outflows."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "CCP’s internal classification of stress scenario type."
+    },
+    "StressCurrency": {
+      "name": "Stress Currency",
+      "definition": "Stress currency, or if aggregate, report ‘XLL’."
+    }
+  }
+}

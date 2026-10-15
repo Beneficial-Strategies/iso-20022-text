@@ -1,0 +1,76 @@
+{
+  "isoType": "FinancingItemList1",
+  "language": "en",
+  "name": "Financing Item List 1",
+  "definition": "Specifies a list of financing items exchanged between two parties, for example invoice, credit, financing request.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identification assigned to unambiguously identify the financing item list."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date of creation of this document."
+    },
+    "RelatedDocument": {
+      "name": "Related Document",
+      "definition": "Reference to related documents for example to original assignment in a status response or retry."
+    },
+    "AmountCutOffDate": {
+      "name": "Amount Cut Off Date",
+      "definition": "Cut off date for items used to establish the total request amount."
+    },
+    "Assignee": {
+      "name": "Assignee",
+      "definition": "Party to which the list is assigned."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Party assigning the list."
+    },
+    "NotificationInformation": {
+      "name": "Notification Information",
+      "definition": "Identifies parties that notify the assignment(s) and the notified parties."
+    },
+    "FinancialItem": {
+      "name": "Financial Item",
+      "definition": "List of items/transactions."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Number of individual items contained in the list."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the list, irrespective of currencies."
+    },
+    "TotalRequestAmount": {
+      "name": "Total Request Amount",
+      "definition": "Total amount in all items. Requires same currency, necessary when financing request is in percentage."
+    },
+    "TotalRequestFinancing": {
+      "name": "Total Request Financing",
+      "definition": "Total amount requested."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Acceptable exchange rate for financing by different currency."
+    },
+    "FinancingInstalment": {
+      "name": "Financing Instalment",
+      "definition": "Instalment for the financing."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional free form information concerning the list."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Validation status of the list."
+    },
+    "FinancingStatus": {
+      "name": "Financing Status",
+      "definition": "Financing status if applicable to the nature of the items."
+    }
+  }
+}

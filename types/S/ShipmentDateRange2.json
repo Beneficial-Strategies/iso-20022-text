@@ -1,0 +1,20 @@
+{
+  "isoType": "ShipmentDateRange2",
+  "language": "en",
+  "name": "Shipment Date Range 2",
+  "definition": "Specifies a shipment schedule, that is the quantity that must be shipped no sooner than the earliest shipment date and no later than the latest shipment date.",
+  "isoElements": {
+    "SubQuantityValue": {
+      "name": "Sub Quantity Value",
+      "definition": "Sub quantity that must be shipped no sooner than the earliest shipment date and no later than the latest shipment date."
+    },
+    "EarliestShipmentDate": {
+      "name": "Earliest Shipment Date",
+      "definition": "Earliest date whereby the goods must be shipped."
+    },
+    "LatestShipmentDate": {
+      "name": "Latest Shipment Date",
+      "definition": "Latest date whereby the goods must be shipped."
+    }
+  }
+}

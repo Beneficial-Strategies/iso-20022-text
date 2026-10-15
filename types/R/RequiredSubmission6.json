@@ -1,0 +1,20 @@
+{
+  "isoType": "RequiredSubmission6",
+  "language": "en",
+  "name": "Required Submission 6",
+  "definition": "Specifies the details relative to the submission of the certificate data set.",
+  "isoElements": {
+    "Submitter": {
+      "name": "Submitter",
+      "definition": "Specifies with party(ies) is authorised to submit the data set as part of the transaction."
+    },
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Specifies the type of the certificate, in 4 letters, for example BENE for beneficiary certificate, SHIP for shipping line certifcate."
+    },
+    "CertificateTypeDescription": {
+      "name": "Certificate Type Description",
+      "definition": "Description of the certificate type required."
+    }
+  }
+}

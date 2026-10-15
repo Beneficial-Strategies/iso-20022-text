@@ -1,0 +1,24 @@
+{
+  "isoType": "ReferredDocumentInformation2",
+  "language": "en",
+  "name": "Referred Document Information 2",
+  "definition": "Structured information related to the invoice to be financed.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the document, for example commercial invoice."
+    },
+    "DocumentNumber": {
+      "name": "Document Number",
+      "definition": "Unique and unambiguous identification number of the referred document."
+    },
+    "RelatedDate": {
+      "name": "Related Date",
+      "definition": "Date associated with the referred document, eg, date of issue."
+    },
+    "DocumentAmount": {
+      "name": "Document Amount",
+      "definition": "Amount of money and currency of a document referred to invoice to be financed."
+    }
+  }
+}

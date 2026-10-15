@@ -1,0 +1,36 @@
+{
+  "isoType": "TransportDetails4",
+  "language": "en",
+  "name": "Transport Details 4",
+  "definition": "Information on the shipment date, the charges, the routing and the goods described in the transport document.",
+  "isoElements": {
+    "TransportDocumentReference": {
+      "name": "Transport Document Reference",
+      "definition": "Reference to the identification of the underlying transport document."
+    },
+    "TransportedGoods": {
+      "name": "Transported Goods",
+      "definition": "Goods that are transported."
+    },
+    "Consignment": {
+      "name": "Consignment",
+      "definition": "Physical packaging of goods for transport."
+    },
+    "RoutingSummary": {
+      "name": "Routing Summary",
+      "definition": "Information related to the conveyance of goods."
+    },
+    "ShipmentDate": {
+      "name": "Shipment Date",
+      "definition": "Shipment date, actual or proposed."
+    },
+    "FreightCharges": {
+      "name": "Freight Charges",
+      "definition": "Charges related to the conveyance of goods."
+    },
+    "Incoterms": {
+      "name": "Incoterms",
+      "definition": "Specifies the applicable Incoterm and associated location."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BalanceInquiryRequest9",
+  "language": "en",
+  "name": "Balance Inquiry Request 9",
+  "definition": "Specifies data element nexessary to request balance information.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "PaymentAccountRequest": {
+      "name": "Payment Account Request",
+      "definition": "Data related to the account pointed by the payment card."
+    },
+    "LoyaltyAccountRequest": {
+      "name": "Loyalty Account Request",
+      "definition": "Data related to a requested Loyalty program or account."
+    },
+    "StoredValueAccountRequest": {
+      "name": "Stored Value Account Request",
+      "definition": "Data related to a requested Stored value account."
+    }
+  }
+}

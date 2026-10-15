@@ -1,0 +1,20 @@
+{
+  "isoType": "ValidationStatusInformation1",
+  "language": "en",
+  "name": "Validation Status Information 1",
+  "definition": "Information about the status of a specific message.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "The result of the technical validation (e.g. Accepted, Reception error) executed on the request message."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "The reason for the validation status."
+    },
+    "AdditionalStatusReasonInformation": {
+      "name": "Additional Status Reason Information",
+      "definition": "Further details on the validation status reason."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "isoType": "InstalmentPlan1",
+  "language": "en",
+  "name": "Instalment Plan 1",
+  "definition": "Attributes of the instalment plan.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the instalment plan."
+    },
+    "Owner": {
+      "name": "Owner",
+      "definition": "List of plan owners. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "OwnerName": {
+      "name": "Owner Name",
+      "definition": "Name of the instalment owner"
+    },
+    "RegistrationSystemIdentification": {
+      "name": "Registration System Identification",
+      "definition": "Contains plan registration system identifier."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Instalment payment type."
+    },
+    "Deferred": {
+      "name": "Deferred",
+      "definition": "Indicate a deferred Instalment plan."
+    },
+    "PeriodUnit": {
+      "name": "Period Unit",
+      "definition": "Period unit between consecutive payments."
+    },
+    "DeferredPeriods": {
+      "name": "Deferred Periods",
+      "definition": "Contains the number of period units between initiation of instalment plan and the date of required first payment."
+    },
+    "MonthlyInterestRate": {
+      "name": "Monthly Interest Rate",
+      "definition": "Monthly interest rate."
+    },
+    "AnnualInterestRate": {
+      "name": "Annual Interest Rate",
+      "definition": "Annual interest rate."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date of the first payment."
+    },
+    "FirstAmount": {
+      "name": "First Amount",
+      "definition": "Amount of the first payment when different from the subsequent payments."
+    },
+    "NormalPaymentAmount": {
+      "name": "Normal Payment Amount",
+      "definition": "Normal payment amount."
+    },
+    "TotalNumberOfPayments": {
+      "name": "Total Number Of Payments",
+      "definition": "Total number of instalment payments."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code associated with the instalment amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "GracePeriodUnitType": {
+      "name": "Grace Period Unit Type",
+      "definition": "Grace period unit type. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "NumberOfGracePeriodUnits": {
+      "name": "Number Of Grace Period Units",
+      "definition": "Number of grace period as defined by grace period unit type."
+    },
+    "CustomerSelectedGracePeriod": {
+      "name": "Customer Selected Grace Period",
+      "definition": "Indicates a customer selected grace period"
+    },
+    "AmountDetails": {
+      "name": "Amount Details",
+      "definition": "Contains the amount details of an instalment plan."
+    },
+    "GrandTotalAmount": {
+      "name": "Grand Total Amount",
+      "definition": "Total amount of the instalment including charges, insurance and taxes in addition to the funded amount."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

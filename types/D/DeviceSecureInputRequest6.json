@@ -1,0 +1,28 @@
+{
+  "isoType": "DeviceSecureInputRequest6",
+  "language": "en",
+  "name": "Device Secure Input Request 6",
+  "definition": "Request a secure input for a PIN.",
+  "isoElements": {
+    "PINRequestType": {
+      "name": "PIN Request Type",
+      "definition": "Type of PIN Service."
+    },
+    "PINVerificationMethod": {
+      "name": "PIN Verification Method",
+      "definition": "Identify the PIN verification method and keys."
+    },
+    "MaximumWaitingTime": {
+      "name": "Maximum Waiting Time",
+      "definition": "Maximum time to wait for the request processing in seconds."
+    },
+    "BeepKeyFlag": {
+      "name": "Beep Key Flag",
+      "definition": "Indicates, when the user press a key, if a beep has to be generated."
+    },
+    "CardholderPIN": {
+      "name": "Cardholder PIN",
+      "definition": "Enciphered PIN and related information."
+    }
+  }
+}

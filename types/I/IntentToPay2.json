@@ -1,0 +1,20 @@
+{
+  "isoType": "IntentToPay2",
+  "language": "en",
+  "name": "Intent To Pay 2",
+  "definition": "Specifies the details of an intention to pay based on purchase orders or commercial invoice.",
+  "isoElements": {
+    "Breakdown": {
+      "name": "Breakdown",
+      "definition": "Specifies if breakdown is by purchase order or commercial invoice."
+    },
+    "ExpectedPaymentDate": {
+      "name": "Expected Payment Date",
+      "definition": "Date at which the payment would be effected."
+    },
+    "SettlementTerms": {
+      "name": "Settlement Terms",
+      "definition": "Specifies the beneficiary's account information."
+    }
+  }
+}

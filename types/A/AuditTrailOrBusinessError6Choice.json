@@ -1,0 +1,16 @@
+{
+  "isoType": "AuditTrailOrBusinessError6Choice",
+  "language": "en",
+  "name": "Audit Trail Or Business Error 6 Choice",
+  "definition": "Choice between the audit trail static data or a business error.",
+  "isoElements": {
+    "AuditTrail": {
+      "name": "Audit Trail",
+      "definition": "Details of the static data audit trail retrieved from the system."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Business error resulting from a rejection."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "isoType": "ReferredDocumentType1",
+  "language": "en",
+  "name": "Referred Document Type 1",
+  "definition": "Specifies the type of the document referred in the remittance information.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Document type in a coded form."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary identification of the type of the remittance document."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Identification of the issuer of the reference document type."
+    }
+  },
+  "isoRules": {
+    "CodeOrProprietaryRule": {
+      "definition": "If Code is present then Proprietary must not be present.|If Proprietary is present then Code must not be present."
+    }
+  }
+}

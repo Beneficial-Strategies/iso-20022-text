@@ -1,0 +1,25 @@
+{
+  "isoType": "InvestmentFundsOrderBreakdown1",
+  "language": "en",
+  "name": "Investment Funds Order Breakdown 1",
+  "definition": "An investor's instruction to either subscribe or redeem an amount of money or its equivalent, eg, other assets, into or out of an investment fund.",
+  "isoElements": {
+    "OrderBreakdownType": {
+      "name": "Order Breakdown Type",
+      "definition": "Type of order breakdown."
+    },
+    "ExtendedOrderBreakdownType": {
+      "name": "Extended Order Breakdown Type",
+      "definition": "Type of order breakdown."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Portion of the net amount that is attributed to an order type."
+    }
+  },
+  "isoRules": {
+    "OrderBreakdownTypeOrExtendedOrderBreakdownTypeRule": {
+      "definition": "Either OrderBreakdownType Or ExtendedOrderBreakdownType must be present but not both."
+    }
+  }
+}

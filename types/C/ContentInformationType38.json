@@ -1,0 +1,20 @@
+{
+  "isoType": "ContentInformationType38",
+  "language": "en",
+  "name": "Content Information Type 38",
+  "definition": "General cryptographic message syntax (CMS) containing data. protected by a MAC or a digital signature.",
+  "isoElements": {
+    "ContentType": {
+      "name": "Content Type",
+      "definition": "Type of data protection."
+    },
+    "AuthenticatedData": {
+      "name": "Authenticated Data",
+      "definition": "Data protection by a message authentication code (MAC)."
+    },
+    "SignedData": {
+      "name": "Signed Data",
+      "definition": "Data protected by a digital signatures."
+    }
+  }
+}

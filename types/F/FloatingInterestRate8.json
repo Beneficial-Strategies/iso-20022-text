@@ -1,0 +1,16 @@
+{
+  "isoType": "FloatingInterestRate8",
+  "language": "en",
+  "name": "Floating Interest Rate 8",
+  "definition": "Provides the index used to define the rate and optionally the basis point spread.",
+  "isoElements": {
+    "ReferenceRate": {
+      "name": "Reference Rate",
+      "definition": "Identifies the reference index for the instrument. ||Usage:|Index or name if the reference rate is not included in the index list."
+    },
+    "Term": {
+      "name": "Term",
+      "definition": "Term of the reference rate."
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "isoType": "BusinessLetter1",
+  "language": "en",
+  "name": "Business Letter 1",
+  "definition": "Defines a business letter containing identifications of involved entities and their roles, references to documents, free form text and signatures.|The semantics of this information are defined by usual business practices for the exchange and tracing of business letters. The described references and party identifiers permit to establish a linked informal trace of sequences of letters.|This message component contains three types of elements that can be referenced using IDREF:|(1) - all elements defining qualified parties,|(2) - all elements defining qualified documents or references to them,|(3) - the LegalContext element.",
+  "isoElements": {
+    "ApplicationContext": {
+      "name": "Application Context",
+      "definition": "Application context defined by users. This is typically the name of a product."
+    },
+    "LetterIdentifier": {
+      "name": "Letter Identifier",
+      "definition": "Unambiguous identifier for this letter."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Purported creation date of the document."
+    },
+    "RelatedLetter": {
+      "name": "Related Letter",
+      "definition": "Identifier of a related letter."
+    },
+    "RelatedMessage": {
+      "name": "Related Message",
+      "definition": "Identifier of a related message."
+    },
+    "ContentIdentifier": {
+      "name": "Content Identifier",
+      "definition": "Cross references the lists that are associated to this letter inside a message. The identifiers are relative to the Originator."
+    },
+    "InstructionPriority": {
+      "name": "Instruction Priority",
+      "definition": "Urgency or order of importance that the originator would like the recipient of the business letter to apply to the processing of the letter."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identification of the originating party of this letter."
+    },
+    "PrimaryRecipient": {
+      "name": "Primary Recipient",
+      "definition": "Primary recipient of the business letter. The exact meaning is given by the users."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Sender of the business letter. The exact meaning is given by the users."
+    },
+    "AuthorisationUser": {
+      "name": "Authorisation User",
+      "definition": "User who, either individually or in concert with others, authorises the origination of a message."
+    },
+    "ResponseRecipient": {
+      "name": "Response Recipient",
+      "definition": "Party to receive a reply to this letter."
+    },
+    "CopyRecipient": {
+      "name": "Copy Recipient",
+      "definition": "Party to receive a copy of the message."
+    },
+    "OtherParty": {
+      "name": "Other Party",
+      "definition": "Other party involved. This element is usable as a target for IDREFs."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document."
+    },
+    "GoverningContract": {
+      "name": "Governing Contract",
+      "definition": "Governing contract."
+    },
+    "LegalContext": {
+      "name": "Legal Context",
+      "definition": "Rules and laws governing the letter."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Free form information about this message."
+    },
+    "Notice": {
+      "name": "Notice",
+      "definition": "Free form information unrelated to the message for example advertising or a service notice."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Status of referenced messages or letters."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signatures and signing parties of this letter or parts of it."
+    }
+  }
+}

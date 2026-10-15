@@ -1,0 +1,28 @@
+{
+  "isoType": "PreTradeOutputData1",
+  "language": "en",
+  "name": "Pre Trade Output Data 1",
+  "definition": "Pre-trade output related data.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Code used to identify the financial instrument."
+    },
+    "MostRelevantMarket": {
+      "name": "Most Relevant Market",
+      "definition": "The most relevant market in terms of liquidity shall be the trading venue where that financial instrument is first admitted to trading or first traded."
+    },
+    "OutputData": {
+      "name": "Output Data",
+      "definition": "Output data covering both the continuous order book and auction trading system."
+    },
+    "PublicationDateTime": {
+      "name": "Publication Date Time",
+      "definition": "Date and time when the transaction was published by the data contributors."
+    },
+    "DisseminationDateTime": {
+      "name": "Dissemination Date Time",
+      "definition": "Date and time when the output data were disseminated by the CTP."
+    }
+  }
+}

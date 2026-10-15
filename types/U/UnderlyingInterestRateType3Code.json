@@ -1,0 +1,28 @@
+{
+  "isoType": "UnderlyingInterestRateType3Code",
+  "language": "en",
+  "name": "Underlying Interest Rate Type 3 Code",
+  "definition": "Specifies the type of an underlying contract for interest rate derivatives.",
+  "isoCodes": {
+    "BOND": {
+      "isoName": "Bond",
+      "name": "Bond",
+      "definition": "Underlying is a bond."
+    },
+    "BNDF": {
+      "isoName": "BondFuture",
+      "name": "Bond Future",
+      "definition": "Underlying is a bond future."
+    },
+    "INTR": {
+      "isoName": "InterestRate",
+      "name": "Interest Rate",
+      "definition": "Underlying is interest rate."
+    },
+    "IFUT": {
+      "isoName": "InterestRateFutureFRA",
+      "name": "Interest Rate Future FRA",
+      "definition": "Underlying is an interest rate future or a forward rate agreement (FRA)."
+    }
+  }
+}

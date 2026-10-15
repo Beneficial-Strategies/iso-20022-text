@@ -24,6 +24,10 @@ holds only what differs from it.
 | Path | What |
 |---|---|
 | `types/<first letter>/<Type>.json` | one file per type: its `name` and `definition`, and the `isoElements`, `isoCodes`, `isoRules`, or (a business component) `isoAttributes` and `isoAssociations` of it; data types also carry `format`, the text that says what a value must look like |
+| `build/repository.mjs` | reads the ISO 20022 repository file (the `.iso20022` eRepository from iso20022.org), line by line, without dependencies |
+| `build/coverage.mjs` | what the hub should publish (the latest registered version of every message, every type those messages use however deep, every business component) and what of it is missing: `node build/coverage.mjs --repository <file.iso20022> --check`; `--write` sets `complete` in `coverage.json` |
+| `build/types.mjs` | writes the types and messages the hub lacks, from the repository file and the library's snapshot (for the code values): `--write-missing`; `--repair` fills the few things earlier files lacked; `--verify` regenerates every file and says which differ |
+| `build/format.mjs` | the `format` text of a data type, from the facts ISO publishes for it (pattern, length, digits) |
 | `build/domain.mjs` | writes the business domain (every business component with its attributes and associations) into `types/` from the ISO 20022 repository file: `node build/domain.mjs --repository <file.iso20022>`; `--check` says whether anything would change |
 | `areas.json` | the business areas (pain, camt, ...): name and definition of each, served at `/areas` |
 | `messages.json` | every message's identifier and root type (a message's name and description are its root type's; served at `/messages` with each name) |
@@ -37,6 +41,16 @@ Definitions are ISO's, word for word (with `|` for a line break, as ISO writes i
 so an error message for a malformed BIC is the same in a UI, a C# API or any other consumer.
 
 Coverage so far: the most recent version of each message and every type it uses, and the entirety of the domain model (the business components, with their business attributes and associations). `/coverage` says whether the publication is complete.
+
+## Updating from a new ISO release
+
+1. Download the new `.iso20022` repository file and the matching `spec-snapshot.tsv` (Iso20022Library, `snapshot-sync/`).
+2. `node build/coverage.mjs --repository <file>` says what is new (messages, types) and what the hub has that the release no longer has.
+3. `node build/types.mjs --repository <file> --snapshot <tsv> --write-missing`, then `node build/domain.mjs --repository <file>`; `--repair` once if an older file is incomplete.
+4. `node build/coverage.mjs --repository <file> --check --write`, so `coverage.json` says `complete` only when nothing is missing.
+5. The glossary build lists the words the language repositories do not cover yet (`node build/glossary.mjs missing --spoke <language repository>`): file the language work from it.
+
+A message counts as published when its latest registered version is. A provisionally registered message definition is published only if no registered version is newer (at the snapshot of 2026-09-04 every provisional definition was an older version); the provisional status of elements and codes inside a registered message is not marked in the text.
 
 ## Deployment
 

@@ -1,0 +1,23 @@
+{
+  "isoType": "FrequencyRateFixing1Code",
+  "language": "en",
+  "name": "Frequency Rate Fixing 1 Code",
+  "definition": "Defines the frequency rate fixing.",
+  "isoCodes": {
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "No update of  the rate for the duration of the trade."
+    },
+    "OVNG": {
+      "isoName": "Overnight",
+      "name": "Overnight",
+      "definition": "Daily fixing according to the tenor of the index."
+    },
+    "PRDC": {
+      "isoName": "Periodic",
+      "name": "Periodic",
+      "definition": "Periodic fixing of the rate in line with   (according to) the Tenor of the rate."
+    }
+  }
+}

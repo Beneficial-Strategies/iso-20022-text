@@ -1,0 +1,48 @@
+{
+  "isoType": "SecuritiesMovementStatus1Choice",
+  "language": "en",
+  "name": "Securities Movement Status 1 Choice",
+  "definition": "Provides the status of thesecurities movement.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Checks on the amount of the securities have failed for at least one security."
+    },
+    "Cash": {
+      "name": "Cash",
+      "definition": "Instruction is meant to cure a cash fail, but no cash fail position exists in the transaction"
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "At least one security in the message does not have the same currency as the transaction and this is a requirement in the triparty agreement or in the eligibility sets of this transaction."
+    },
+    "Excluded": {
+      "name": "Excluded",
+      "definition": "At least one security has been excluded from use as collateral for all transactions in the triparty agreement (or in the eligibility set)."
+    },
+    "Future": {
+      "name": "Future",
+      "definition": "Security satisfies all validation checks and can therefore be accepted for the related transaction."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Validation checks on the security have not yet started or are still ongoing."
+    },
+    "ManuallyAccepted": {
+      "name": "Manually Accepted",
+      "definition": "Security does not satisfy the eligibility criteria stipulated in the triparty agreement. However the bank has manually accepted this security."
+    },
+    "Eligibility": {
+      "name": "Eligibility",
+      "definition": "At least one security does not satisfy the eligibility criteria as defined in the triparty agreement (or in the eligibility set) for this transaction."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "At least one security cannot be used as collateral because a tax event is due in the next few days."
+    },
+    "Wait": {
+      "name": "Wait",
+      "definition": "At present the security satisfies the currency and eligibility criteria checks."
+    }
+  }
+}

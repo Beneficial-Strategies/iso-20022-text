@@ -1,0 +1,52 @@
+{
+  "isoType": "ProcessingResult28",
+  "language": "en",
+  "name": "Processing Result 28",
+  "definition": "Outcome of the processing of the transaction.",
+  "isoElements": {
+    "ResponseSourceIdentification": {
+      "name": "Response Source Identification",
+      "definition": "Identification of response source."
+    },
+    "ResponseSourceType": {
+      "name": "Response Source Type",
+      "definition": "Type of response source."
+    },
+    "ResponseSourceCountry": {
+      "name": "Response Source Country",
+      "definition": "Country of the response source"
+    },
+    "ResponseSourceName": {
+      "name": "Response Source Name",
+      "definition": "Name of the response source"
+    },
+    "ResponseCode": {
+      "name": "Response Code",
+      "definition": "Detailed results of the processing, conforming to ISO 8583 Response codes list.  This code list is maintained by the ISO 8583/MA (maintenance agency)."
+    },
+    "ApprovalCode": {
+      "name": "Approval Code",
+      "definition": "Value assigned by the entity when the transaction is approved."
+    },
+    "ResponseReason": {
+      "name": "Response Reason",
+      "definition": "Contains the reason of the response."
+    },
+    "TemporarySecureCardDataReusePermitted": {
+      "name": "Temporary Secure Card Data Reuse Permitted",
+      "definition": "Issuer permits reuse of temporary secure stored card data."
+    },
+    "ActionCode": {
+      "name": "Action Code",
+      "definition": "Action to be performed based on ISO8583 Action Code."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

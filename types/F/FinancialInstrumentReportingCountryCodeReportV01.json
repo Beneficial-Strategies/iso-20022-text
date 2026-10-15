@@ -1,0 +1,16 @@
+{
+  "isoType": "FinancialInstrumentReportingCountryCodeReportV01",
+  "language": "en",
+  "name": "Financial Instrument Reporting Country Code Report V 01",
+  "definition": "The FinancialInstrumentReportingCountryCodeReport message provides the details of the two character country codes and is created by ESMA for distribution to national competent authorities.",
+  "isoElements": {
+    "CountryData": {
+      "name": "Country Data",
+      "definition": "Report detailing all countries and their 2 character ISO 3166 code."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

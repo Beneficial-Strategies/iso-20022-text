@@ -1,0 +1,36 @@
+{
+  "isoType": "CardNotReceivedData1",
+  "language": "en",
+  "name": "Card Not Received Data 1",
+  "definition": "Details of a non-received card.",
+  "isoElements": {
+    "DateMailed": {
+      "name": "Date Mailed",
+      "definition": "Date of card when mailed to the cardholder."
+    },
+    "MailingAddress": {
+      "name": "Mailing Address",
+      "definition": "Address where card was mailed to."
+    },
+    "MailingAddressUnstructured": {
+      "name": "Mailing Address Unstructured",
+      "definition": "Unstructured mailing address where card was mailed to."
+    },
+    "MailedFromPostalCode": {
+      "name": "Mailed From Postal Code",
+      "definition": "Postal code where the card was mailed from."
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Date of the beginning of validation of the card."
+    },
+    "CardSecurityCode": {
+      "name": "Card Security Code",
+      "definition": "Indicates whether card provides a Card Security Code."
+    },
+    "CardSecurityCapability": {
+      "name": "Card Security Capability",
+      "definition": "Identifies the security capabilities of the card. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    }
+  }
+}

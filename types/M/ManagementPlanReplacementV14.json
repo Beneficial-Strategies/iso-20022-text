@@ -1,0 +1,20 @@
+{
+  "isoType": "ManagementPlanReplacementV14",
+  "language": "en",
+  "name": "Management Plan Replacement V 14",
+  "definition": "The ManagementPlanReplacement message is sent by a terminal manager to a POI to set maintenance actions to be performed.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the management plan."
+    },
+    "ManagementPlan": {
+      "name": "Management Plan",
+      "definition": "Sequence of terminal maintenance actions to be performed by a point of interaction (POI)."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

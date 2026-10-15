@@ -1,0 +1,28 @@
+{
+  "isoType": "TransactionOperationType11Code",
+  "language": "en",
+  "name": "Transaction Operation Type 11 Code",
+  "definition": "Specifies the transaction operation action type.",
+  "isoCodes": {
+    "CORR": {
+      "isoName": "Correction",
+      "name": "Correction",
+      "definition": "Transaction corrects errors in a previously sent transaction."
+    },
+    "MARU": {
+      "isoName": "MarginUpdate",
+      "name": "Margin Update",
+      "definition": "Indicates the report of the collateral data or of their modifications, but not the corrections of the previously reported collateral details."
+    },
+    "NEWT": {
+      "isoName": "NewTransaction",
+      "name": "New Transaction",
+      "definition": "Transaction is a new transaction."
+    },
+    "EROR": {
+      "isoName": "Error",
+      "name": "Error",
+      "definition": "Cancellation of a wrongly submitted entire report in case the contract never came into existence or was not subject to regulatory reporting requirements but was reported to a regulatory authority by mistake or a cancellation of duplicate report."
+    }
+  }
+}

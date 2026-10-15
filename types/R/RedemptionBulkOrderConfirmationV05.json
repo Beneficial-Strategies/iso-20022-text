@@ -1,0 +1,44 @@
+{
+  "isoType": "RedemptionBulkOrderConfirmationV05",
+  "language": "en",
+  "name": "Redemption Bulk Order Confirmation V 05",
+  "definition": "Scope|The RedemptionBulkOrderConfirmation message is sent by an executing party, for example, a transfer agent, to the instructing party, for example, an investment manager or its authorised representative, to confirm the details of execution for a previously received RedemptionBulkOrder message.|Usage|The RedemptionBulkOrderConfirmation message is used to confirm the execution of all individual orders included in a previously sent RedemptionBulkOrder message.|There is usually one bulk confirmation message for one bulk order message.|Each individual order confirmation specified is identified in DealReference. The reference of the original individual order is specified in OrderReference. The message identification of the RedemptionBulkOrder message in which the individual order was conveyed may also be quoted in RelatedReference, but this is not recommended.|A RedemptionBulkOrder must in all cases be responded to by a RedemptionBulkOrderConfirmation and in no circumstances by a RedemptionOrderConfirmation.|If the executing party needs to confirm a RedemptionOrder instruction, then the RedemptionOrderConfirmation must be used.|When the message is used to convey a confirmation amendment/s, the AmendmentIndicator must be present with the value ‘true’ or ‘1’. When this is the case, the message must only contain a confirmation amendment/s and not contain both a confirmation amendment/s and a ‘new’ confirmation/s.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Reference that uniquely identifies the message from a business application standpoint."
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to a linked message that was previously received."
+    },
+    "BulkExecutionDetails": {
+      "name": "Bulk Execution Details",
+      "definition": "General information related to the execution of the orders."
+    },
+    "CopyDetails": {
+      "name": "Copy Details",
+      "definition": "Information provided when the message is a copy of a previous message."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "AccountIdentificationRule": {
+      "definition": "If this message is linked to an account opening request and the account identification is not yet known then the value of the AccountIdentification element in BulkExecutionDetails/IndividualExecutionDetails/InvestmentAccountDetails must be UNKNOWN."
+    },
+    "OrderReferenceRule": {
+      "definition": "If this message is not solicited by the receiver, then the value of the OrderReference element in every occurrence of BulkExecutionDetails/IndividualExecutionDetails must be UNSOLICITED."
+    }
+  }
+}

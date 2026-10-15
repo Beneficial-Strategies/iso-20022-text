@@ -1,0 +1,48 @@
+{
+  "isoType": "ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Confirmation Status Advice Acknowledgement V 02",
+  "definition": "Scope|The ForeignExchangeTradeConfirmationStatusAdviceAcknowledgement message is sent from a market participant to a Central matching utility (CMU) in response to the FXTradeConfirmationStatusAdvice previously sent by the CMU in the scenario of trades matched by both participants.||Usage|The acknowledgement is sent by the trading member to the CMU after they received the confirmation status advice. |Note that one confirmation status advice acknowledgement responds to one confirmation status advice.",
+  "isoElements": {
+    "AdviceAcknowledgementIdentification": {
+      "name": "Advice Acknowledgement Identification",
+      "definition": "Identification of the advice acknowledgement."
+    },
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identification of the request."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date on which the trade was executed."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Unique reference identification assigned to the trade by the instructing party. This reference will be used throughout the trade life cycle to identify the particular trade."
+    },
+    "TradingMode": {
+      "name": "Trading Mode",
+      "definition": "Identifies the type of the trade mode."
+    },
+    "AffirmationStatus": {
+      "name": "Affirmation Status",
+      "definition": "Identifies the status of the confirmation acknowledgement."
+    },
+    "ConfirmationStatus": {
+      "name": "Confirmation Status",
+      "definition": "Identifies the status of the confirmation."
+    },
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Market in which a trade transaction has been executed."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Free format text string."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

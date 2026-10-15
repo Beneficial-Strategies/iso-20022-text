@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesAccount21",
+  "language": "en",
+  "name": "Securities Account 21",
+  "definition": "Unambiguous identification for the account between the account owner and the account servicer.",
+  "isoElements": {
+    "Account": {
+      "name": "Account",
+      "definition": "Account identification."
+    },
+    "SubAccount": {
+      "name": "Sub Account",
+      "definition": "Sub-account identification."
+    },
+    "BaseCurrency": {
+      "name": "Base Currency",
+      "definition": "Base currency for the account."
+    },
+    "ReportingCurrency": {
+      "name": "Reporting Currency",
+      "definition": "Currency chosen for reporting purposes by the account owner in agreement with the account servicer."
+    },
+    "ForeignExchangeRate": {
+      "name": "Foreign Exchange Rate",
+      "definition": "Foreign exchange rate applied between the reporting and base currencies. It is assumed the valuation date is the same as the report date."
+    }
+  }
+}

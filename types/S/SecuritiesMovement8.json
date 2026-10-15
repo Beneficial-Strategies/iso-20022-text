@@ -1,0 +1,64 @@
+{
+  "isoType": "SecuritiesMovement8",
+  "language": "en",
+  "name": "Securities Movement 8",
+  "definition": "Movements of securities.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Specifies whether the quantity of financial instrument are to be delivered or received"
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Quantity of financial instrument."
+    },
+    "MovementStatus": {
+      "name": "Movement Status",
+      "definition": "Securities movement status."
+    },
+    "CollateralMovement": {
+      "name": "Collateral Movement",
+      "definition": "Indicates whether the financial instrument is delivered/received as collateral."
+    },
+    "SecuritiesMovementsApproved": {
+      "name": "Securities Movements Approved",
+      "definition": "Indicates whether the proposed securities movements can be accepted."
+    },
+    "PositionType": {
+      "name": "Position Type",
+      "definition": "Indicates whether the position is fixed (post settlement)."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "ClientSecuritiesMovementIdentification": {
+      "name": "Client Securities Movement Identification",
+      "definition": "Reference assigned by the party A to the financial instrument movement."
+    },
+    "TripartyAgentServiceProviderSecuritiesMovementIdentification": {
+      "name": "Triparty Agent Service Provider Securities Movement Identification",
+      "definition": "Reference assigned by the triparty-agent/service-provider to the financial instrument movement."
+    },
+    "MarginedValue": {
+      "name": "Margined Value",
+      "definition": "Value of the collateral position."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

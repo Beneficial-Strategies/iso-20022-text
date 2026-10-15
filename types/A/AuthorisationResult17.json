@@ -1,0 +1,28 @@
+{
+  "isoType": "AuthorisationResult17",
+  "language": "en",
+  "name": "Authorisation Result 17",
+  "definition": "Outcome of the authorisation, and actions to perform.",
+  "isoElements": {
+    "AuthorisationEntity": {
+      "name": "Authorisation Entity",
+      "definition": "Type of party that has delivered or declined the card payment authorisation (the party is not identified)."
+    },
+    "ResponseToAuthorisation": {
+      "name": "Response To Authorisation",
+      "definition": "Response to an authorisation request."
+    },
+    "AuthorisationCode": {
+      "name": "Authorisation Code",
+      "definition": "Value assigned by the authorising party."
+    },
+    "CompletionRequired": {
+      "name": "Completion Required",
+      "definition": "Indicates whether the acquirer requires a further exchange completion after the completion of the transaction."
+    },
+    "TMSTrigger": {
+      "name": "TMS Trigger",
+      "definition": "Instructs the point of interaction (POI) how to contact the host to initiate the maintenance of the terminal."
+    }
+  }
+}

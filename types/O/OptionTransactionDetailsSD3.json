@@ -1,0 +1,48 @@
+{
+  "isoType": "OptionTransactionDetailsSD3",
+  "language": "en",
+  "name": "Option Transaction Details SD 3",
+  "definition": "Provides additional information regarding corporate action movement option details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique number assigned by the depository. Transaction identification will be either the DTC Instruction reference number for reorganisation instructions (VOI) or the DAM reference number for custody / reorganisation deposits."
+    },
+    "TransactionSequenceNumber": {
+      "name": "Transaction Sequence Number",
+      "definition": "Number which further identifies DTC instruction reference number. Not applicable to reorganisation / custody deposits."
+    },
+    "TransactionIdentificationDate": {
+      "name": "Transaction Identification Date",
+      "definition": "Instruction date and time for reorganisation instructions or the deposit date for reorganisation / custody deposits."
+    },
+    "TransactionIdentificationQuantity": {
+      "name": "Transaction Identification Quantity",
+      "definition": "Instructed quantity for reorganisation instructions or the deposit quantity for reorganisation / custody deposits."
+    },
+    "EntitledAmount": {
+      "name": "Entitled Amount",
+      "definition": "Amount based upon the DTC cash rate per instruction."
+    },
+    "EntitledQuantity": {
+      "name": "Entitled Quantity",
+      "definition": "Quantity based upon the DTC security rate per instruction."
+    },
+    "AgentEnteredQuantity": {
+      "name": "Agent Entered Quantity",
+      "definition": "Quantity entered by the agent on PUT (Mortgage Backed) instructions to be paid. This quantity can be for the full or partial instructed quantity."
+    },
+    "AgentRemainingQuantity": {
+      "name": "Agent Remaining Quantity",
+      "definition": "Instructed quantity less the quantity entered by Agent on PUT (Mortgage Backed) instructions. Remaining unpaid quantity."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by client upon instruction submission."
+    }
+  }
+}

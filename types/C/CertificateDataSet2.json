@@ -1,0 +1,72 @@
+{
+  "isoType": "CertificateDataSet2",
+  "language": "en",
+  "name": "Certificate Data Set 2",
+  "definition": "Formal document used to record a fact and used as proof of the fact, in the context of a commercial trade transaction.",
+  "isoElements": {
+    "DataSetIdentification": {
+      "name": "Data Set Identification",
+      "definition": "Identifies the certificate data set."
+    },
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Specifies the type of the certificate."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Specifies if the certificate data set is required in relation to specific line items, and which line items."
+    },
+    "CertifiedCharacteristics": {
+      "name": "Certified Characteristics",
+      "definition": "Characteristics of the goods that are certified, in the context of a commercial trade transaction."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Issue date of the document."
+    },
+    "PlaceOfIssue": {
+      "name": "Place Of Issue",
+      "definition": "Place where the certificate was issued."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Issuer of the certificate, typically the inspection company or its agent."
+    },
+    "InspectionDate": {
+      "name": "Inspection Date",
+      "definition": "Date(s) at which inspection of the goods took place."
+    },
+    "AuthorisedInspectorIndicator": {
+      "name": "Authorised Inspector Indicator",
+      "definition": "Indicates that the inspection has been performed by an authorised inspector."
+    },
+    "CertificateIdentification": {
+      "name": "Certificate Identification",
+      "definition": "Unique identifier of the document."
+    },
+    "Transport": {
+      "name": "Transport",
+      "definition": "Transport information relative to the goods that are covered by the certificate."
+    },
+    "GoodsDescription": {
+      "name": "Goods Description",
+      "definition": "Information about the goods and/or services of a trade transaction."
+    },
+    "Consignor": {
+      "name": "Consignor",
+      "definition": "Party responsible for dispatching the goods."
+    },
+    "Consignee": {
+      "name": "Consignee",
+      "definition": "Party to whom the goods (which are the subject of the certificate) must be delivered."
+    },
+    "Manufacturer": {
+      "name": "Manufacturer",
+      "definition": "Manufacturer of the goods which are the subject of the certificate."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional and important information that could not be captured by structured fields."
+    }
+  }
+}

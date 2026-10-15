@@ -1,0 +1,44 @@
+{
+  "isoType": "TripartyCollateralAllegementNotificationV01",
+  "language": "en",
+  "name": "Triparty Collateral Allegement Notification V 01",
+  "definition": "Scope:|This message is sent by a triparty agent after the receipt of a collateral transaction or instruction from the collateral giver or taker to advise  that a counterparty has alleged an instruction or a transaction against the account owner's account at the TPA and that the TPA could not find the corresponding transaction or instruction of the account owner.|The allegement is used for initiation, modification and termination.||In this message, the Sender is the triparty agent and the Receiver is either the collateral taker or the collateral giver or their account servicer.||Usage:|An account servicer sends a SecuritiesSettlementTransactionAllegementNotification to an account owner to advise the account owner that a counterparty has alleged an instruction against the account owner's account at the account servicer and that the account servicer could not find the corresponding instruction of the account owner.|The account servicer/owner relationship may be:|- a central securities depository or another settlement market infrastructure acting on behalf of their participants|- an agent (sub-custodian) acting on behalf of their global custodian customer, or|- a custodian acting on behalf of an investment management institution or a broker/dealer.",
+  "isoElements": {
+    "TransactionInstructionIdentification": {
+      "name": "Transaction Instruction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-part preliminary advice is to continue or that the message is the last page of the multi-part preliminary advice."
+    },
+    "GeneralParameters": {
+      "name": "General Parameters",
+      "definition": "Specifies the different parameters of the collateral instruction or transaction."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Identifies the chain of collateral parties. Party A and B will be the opposite  from that provided in the unmatched instruction."
+    },
+    "DealTransactionDetails": {
+      "name": "Deal Transaction Details",
+      "definition": "Specifies the information related to the deal."
+    },
+    "DealTransactionDate": {
+      "name": "Deal Transaction Date",
+      "definition": "Identifies the dates related to the triparty collateral instruction or transactions."
+    },
+    "SecuritiesMovement": {
+      "name": "Securities Movement",
+      "definition": "Securities movements."
+    },
+    "CashMovement": {
+      "name": "Cash Movement",
+      "definition": "Cash movements."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

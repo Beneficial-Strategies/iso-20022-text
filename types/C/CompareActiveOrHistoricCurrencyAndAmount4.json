@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareActiveOrHistoricCurrencyAndAmount4",
+  "language": "en",
+  "name": "Compare Active Or Historic Currency And Amount 4",
+  "definition": "Specifies two values to compare for an active or historic currency and decimal amount.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

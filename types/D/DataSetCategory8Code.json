@@ -1,0 +1,58 @@
+{
+  "isoType": "DataSetCategory8Code",
+  "language": "en",
+  "name": "Data Set Category 8 Code",
+  "definition": "Category of data set to transfer.",
+  "isoCodes": {
+    "SWPK": {
+      "isoName": "SoftwareModule",
+      "name": "Software Module",
+      "definition": "Software module."
+    },
+    "VDPR": {
+      "isoName": "VendorParameters",
+      "name": "Vendor Parameters",
+      "definition": "Point of interaction parameters defined by the manufacturer for instance the PIN verification capabilities."
+    },
+    "AQPR": {
+      "isoName": "AcquirerParameters",
+      "name": "Acquirer Parameters",
+      "definition": "Acquirer specific configuration parameters for the point of interaction (POI) system."
+    },
+    "MRPR": {
+      "isoName": "MerchantParameters",
+      "name": "Merchant Parameters",
+      "definition": "Merchant configuration parameters for the point of interaction (POI)."
+    },
+    "TXCP": {
+      "isoName": "BatchCapture",
+      "name": "Batch Capture",
+      "definition": "Batch upload of transaction data (data capture of a group of transactions)."
+    },
+    "AKCP": {
+      "isoName": "CaptureResponse",
+      "name": "Capture Response",
+      "definition": "Batch download response for the batch capture of transactions."
+    },
+    "STRP": {
+      "isoName": "StatusReport",
+      "name": "Status Report",
+      "definition": "Report of software configuration and parameter status."
+    },
+    "DLGT": {
+      "isoName": "DelegationData",
+      "name": "Delegation Data",
+      "definition": "Data needed to create a terminal management sub-domain."
+    },
+    "MGTP": {
+      "isoName": "ManagementPlan",
+      "name": "Management Plan",
+      "definition": "Configuration of management plan in the point of interaction."
+    },
+    "RCLE": {
+      "isoName": "ReconciliationError",
+      "name": "Reconciliation Error",
+      "definition": "Batch of transaction that have generated an error in the totals of the reconciliation."
+    }
+  }
+}

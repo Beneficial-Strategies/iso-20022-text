@@ -1,0 +1,40 @@
+{
+  "isoType": "Intermediary9",
+  "language": "en",
+  "name": "Intermediary 9",
+  "definition": "Party that provides services to investors relating to financial products.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier of the intermediary."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Business relationship between two entities; one entity is the account owner, the other entity is the account servicer."
+    },
+    "OrderOriginatorEligibility": {
+      "name": "Order Originator Eligibility",
+      "definition": "Counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties."
+    },
+    "TradingPartyCapacity": {
+      "name": "Trading Party Capacity",
+      "definition": "Capacity of the party executing an order."
+    },
+    "Role": {
+      "name": "Role",
+      "definition": "Function performed by the intermediary."
+    },
+    "ExtendedRole": {
+      "name": "Extended Role",
+      "definition": "Function performed by the intermediary."
+    }
+  },
+  "isoRules": {
+    "OrderOriginatorEligibility1Rule": {
+      "definition": "OrderOriginatorEligibility may only be present if Role is either UCL1 or UCL2."
+    },
+    "RoleOrExtendedRoleRule": {
+      "definition": "Either Role or ExtendedRole may be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementStatus3Code",
+  "language": "en",
+  "name": "Securities Settlement Status 3 Code",
+  "definition": "Provides the status of settlement of an instruction expressed as a code.",
+  "isoCodes": {
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Instruction is pending. Settlement at the instructed settlement date is still possible."
+    },
+    "SETT": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Full settlement."
+    }
+  }
+}

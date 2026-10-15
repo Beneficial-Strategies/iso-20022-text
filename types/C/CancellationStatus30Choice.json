@@ -1,0 +1,28 @@
+{
+  "isoType": "CancellationStatus30Choice",
+  "language": "en",
+  "name": "Cancellation Status 30 Choice",
+  "definition": "Instruction/Request has been cancelled.",
+  "isoElements": {
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Specifies the reason why the transaction or instruction is cancelled."
+    },
+    "Processed": {
+      "name": "Processed",
+      "definition": "Cancellation has been processed by the account servicer."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Cancellation is pending processing."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Cancellation request has been rejected for further processing."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Instruction is unsettled."
+    }
+  }
+}

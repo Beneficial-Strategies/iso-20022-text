@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalPendingProcessingReason1Code",
+  "language": "en",
+  "name": "External Pending Processing Reason 1 Code",
+  "definition": "Specifies the reason for pending status.|The list of valid codes is an external code list published separately. External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "ServicerDeadlineMissed",
+      "name": "Servicer Deadline Missed",
+      "definition": "Received after the servicer's deadline. Processed on best effort basis"
+    },
+    "DISA": {
+      "isoName": "NaturalDisaster",
+      "name": "Natural Disaster",
+      "definition": "Exceptional closing of all financial institutions due to natural disaster, for example, earthquake"
+    },
+    "ESCA": {
+      "isoName": "Escalation",
+      "name": "Escalation",
+      "definition": "Special follow-up is taking place"
+    },
+    "IAAD": {
+      "isoName": "StatusReasonInvestigation",
+      "name": "Status Reason Investigation",
+      "definition": "Pending reason being investigated"
+    },
+    "LPRO": {
+      "isoName": "LongerProcessing",
+      "name": "Longer Processing",
+      "definition": "Longer processing timeframe for this type of SSI"
+    },
+    "MINF": {
+      "isoName": "MissingInformation",
+      "name": "Missing Information",
+      "definition": "Information, for example, currency is missing"
+    },
+    "NEWI": {
+      "isoName": "NewIssues",
+      "name": "New Issues",
+      "definition": "Financial instrument is a new issue and not yet available/tradable"
+    },
+    "NEXT": {
+      "isoName": "NextProcess",
+      "name": "Next Process",
+      "definition": "Next process is launched. No processing pending problems to be reported"
+    },
+    "NSTP": {
+      "isoName": "NotStraightThroughProcessing",
+      "name": "Not Straight Through Processing",
+      "definition": "Instruction was not straight through processing and had to be processed manually"
+    },
+    "PRSY": {
+      "isoName": "SystemOnHold",
+      "name": "System On Hold",
+      "definition": "Transaction was put on hold/frozen by the system"
+    }
+  }
+}

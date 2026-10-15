@@ -1,0 +1,44 @@
+{
+  "isoType": "TransactionTotals6",
+  "language": "en",
+  "name": "Transaction Totals 6",
+  "definition": "Additional count which may be utilised for reconciliation.",
+  "isoElements": {
+    "Authorisation": {
+      "name": "Authorisation",
+      "definition": "Sum number of all authorisation transactions."
+    },
+    "AuthorisationReversal": {
+      "name": "Authorisation Reversal",
+      "definition": "Sum number of all reversed authorisation transactions."
+    },
+    "Inquiry": {
+      "name": "Inquiry",
+      "definition": "Sum number of all inquiry transactions."
+    },
+    "InquiryReversal": {
+      "name": "Inquiry Reversal",
+      "definition": "Sum number of all reversed inquiry transactions."
+    },
+    "Payments": {
+      "name": "Payments",
+      "definition": "Sum number of all financial presentment payment transactions processed."
+    },
+    "PaymentReversal": {
+      "name": "Payment Reversal",
+      "definition": "Sum number of all financial presentment payment transactions which have been reversed."
+    },
+    "Transfer": {
+      "name": "Transfer",
+      "definition": "Sum number of all financial presentment transactions processed."
+    },
+    "TransferReversal": {
+      "name": "Transfer Reversal",
+      "definition": "Sum number of all reversal transactions processed."
+    },
+    "FeeCollection": {
+      "name": "Fee Collection",
+      "definition": "Sum number of all fee collection transactions."
+    }
+  }
+}

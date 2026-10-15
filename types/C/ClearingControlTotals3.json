@@ -1,0 +1,24 @@
+{
+  "isoType": "ClearingControlTotals3",
+  "language": "en",
+  "name": "Clearing Control Totals 3",
+  "definition": "Gross clearing control totals.",
+  "isoElements": {
+    "Count": {
+      "name": "Count",
+      "definition": "Number of clearing transactions. To be used for control purpose."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code associated with the applicable type of amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Sign of the Amount."
+    }
+  }
+}

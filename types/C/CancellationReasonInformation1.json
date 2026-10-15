@@ -1,0 +1,20 @@
+{
+  "isoType": "CancellationReasonInformation1",
+  "language": "en",
+  "name": "Cancellation Reason Information 1",
+  "definition": "Further information on the cancellation reason of the transaction.",
+  "isoElements": {
+    "CancellationOriginator": {
+      "name": "Cancellation Originator",
+      "definition": "Party issuing the cancellation request."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Specifies the reason for the cancellation."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "name": "Additional Cancellation Reason Information",
+      "definition": "Further details on the cancellation request reason.||Usage: Additional cancellation reason information can be used to further detail the cancellation request reason."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "isoType": "TradeTransactionIdentification24",
+  "language": "en",
+  "name": "Trade Transaction Identification 24",
+  "definition": "Provides details on transaction and conducting counterparty.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Indication of the action type of the transaction."
+    },
+    "ReportingTimeStamp": {
+      "name": "Reporting Time Stamp",
+      "definition": "Indicates the date and time of the submission of the report to the trade repository."
+    },
+    "DerivativeEventType": {
+      "name": "Derivative Event Type",
+      "definition": "Classification of derivative event type."
+    },
+    "DerivativeEventTimeStamp": {
+      "name": "Derivative Event Time Stamp",
+      "definition": "Indicates the time stamp of a derivative event."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Unique code identifying the entity with which the reporting counterparty concluded the transaction."
+    },
+    "UniqueIdentifier": {
+      "name": "Unique Identifier",
+      "definition": "Choice between a Unique Transaction Identifier (UTI) or a proprietary identifier as agreed with the counterparty."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Details related to the master agreement."
+    },
+    "CollateralPortfolioCode": {
+      "name": "Collateral Portfolio Code",
+      "definition": "Unique codes identifying the portfolio."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ApplicationSpecifics1",
+  "language": "en",
+  "name": "Application Specifics 1",
+  "definition": "Application specific information defined by the service provider.",
+  "isoElements": {
+    "SystemUser": {
+      "name": "System User",
+      "definition": "A system user is a user account defined in the static data. It represents an individual or an application that interacts with the system administrator (e. g. T2S), triggering the available functions. The set of functions available to each system user stems from the set of privileges for which the system user is grantee. System administrator does not provide any attribute for distinguishing between individuals and applications."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Contains the digital signature of the Business Entity authorised to sign this Business File."
+    },
+    "TotalNumberOfDocuments": {
+      "name": "Total Number Of Documents",
+      "definition": "Gives the total number of instances (messages) within the file."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "isoType": "Instalment7",
+  "language": "en",
+  "name": "Instalment 7",
+  "definition": "Data exclusively related to a card issuer financial loan of the payment transaction, or instalment.",
+  "isoElements": {
+    "InstalmentPlan": {
+      "name": "Instalment Plan",
+      "definition": "Type of instalment plan."
+    },
+    "PlanIdentification": {
+      "name": "Plan Identification",
+      "definition": "Identification of the instalment plan."
+    },
+    "PlanOwner": {
+      "name": "Plan Owner",
+      "definition": "Type of the Plan Owner."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Indicates the instalment occurrence of the transaction (1 = 1st instalment, 2 = 2nd instalment, etc.)."
+    },
+    "PeriodUnit": {
+      "name": "Period Unit",
+      "definition": "Period unit between consecutive payments (for example day, month, year)."
+    },
+    "InstalmentPeriod": {
+      "name": "Instalment Period",
+      "definition": "Number of period units between consecutive payments."
+    },
+    "TotalNumberOfPayments": {
+      "name": "Total Number Of Payments",
+      "definition": "Total number of instalment payments."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date of the first payment."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Cumulative amount of all the instalments."
+    },
+    "FirstAmount": {
+      "name": "First Amount",
+      "definition": "Amount of the first payment."
+    },
+    "SubsequentAmount": {
+      "name": "Subsequent Amount",
+      "definition": "Amount of subsequent payments but the first one."
+    },
+    "LastAmount": {
+      "name": "Last Amount",
+      "definition": "Amount of the last payment."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Charges related to the transaction."
+    },
+    "DetailedCharges": {
+      "name": "Detailed Charges",
+      "definition": "Contains the charge details of an instalment plan."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Details of the interest rate."
+    },
+    "GracePeriod": {
+      "name": "Grace Period",
+      "definition": "Contains grace period details."
+    },
+    "PlanNotice": {
+      "name": "Plan Notice",
+      "definition": "Notice related to the InstalmentPlan."
+    }
+  }
+}

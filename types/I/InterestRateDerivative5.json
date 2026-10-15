@@ -1,0 +1,32 @@
+{
+  "isoType": "InterestRateDerivative5",
+  "language": "en",
+  "name": "Interest Rate Derivative 5",
+  "definition": "Specifies the interest rate derivative specific elements for interest rate derivatives as defined in the local regulation.",
+  "isoElements": {
+    "UnderlyingType": {
+      "name": "Underlying Type",
+      "definition": "Specific details on the underlying type of the interest rate derivative."
+    },
+    "UnderlyingBond": {
+      "name": "Underlying Bond",
+      "definition": "Populated when the underlying type is a bond or a bond future. Details the issuer and maturity date of the bond."
+    },
+    "SwaptionNotionalCurrency": {
+      "name": "Swaption Notional Currency",
+      "definition": "Notional currency of a swaption."
+    },
+    "UnderlyingSwapMaturityDate": {
+      "name": "Underlying Swap Maturity Date",
+      "definition": "Maturity date of the underlying swap, populated for swaptions, futures on swaps and forwards on a swap only."
+    },
+    "InflationIndex": {
+      "name": "Inflation Index",
+      "definition": "Populated to define the inflation index."
+    },
+    "InterestRateReference": {
+      "name": "Interest Rate Reference",
+      "definition": "Provides the interest rate against a reference rate and term in number of days, weeks, months or years."
+    }
+  }
+}

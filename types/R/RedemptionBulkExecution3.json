@@ -1,0 +1,77 @@
+{
+  "isoType": "RedemptionBulkExecution3",
+  "language": "en",
+  "name": "Redemption Bulk Execution 3",
+  "definition": "Execution of a redemption order.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which the advised trade transaction was executed."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time at which the order was placed by the investor."
+    },
+    "RequestedFutureTradeDate": {
+      "name": "Requested Future Trade Date",
+      "definition": "Future date at which the investor requests the order to be executed.|The specification of a requested future trade date is not allowed in some markets. The date must be a date in the future."
+    },
+    "CancellationRight": {
+      "name": "Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an investment fund order."
+    },
+    "ExtendedCancellationRight": {
+      "name": "Extended Cancellation Right",
+      "definition": "Cancellation right of an investor with respect to an investment fund order."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which an investment fund order execution is related."
+    },
+    "IndividualExecutionDetails": {
+      "name": "Individual Execution Details",
+      "definition": "Execution of a redemption order."
+    },
+    "RequestedSettlementCurrency": {
+      "name": "Requested Settlement Currency",
+      "definition": "Currency requested for settlement of cash proceeds."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "TotalSettlementAmount": {
+      "name": "Total Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the multiple order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "BulkCashSettlementDetails": {
+      "name": "Bulk Cash Settlement Details",
+      "definition": "Payment processes required to transfer cash from the debtor to the creditor."
+    }
+  },
+  "isoRules": {
+    "SettlementCurrency1Rule": {
+      "definition": "If BulkCashSettlementDetails is present, then Currency in IndividualExecutionDetails/SettlementAmount must be the same in all occurrences of IndividualOrderDetails."
+    },
+    "BulkCashSettlementDetails6Rule": {
+      "definition": "Either IndividualExecutionDetails/CashSettlementDetails or BulkCashSettlementDetails may be present, but not both."
+    },
+    "CashSettlementDateRule": {
+      "definition": "Either CashSettlementDate is present or all occurrences of IndividualExecutionDetails/CashSettlementDate are present, but not both."
+    },
+    "RequestedSettlementCurrencyRule": {
+      "definition": "If RequestedSettlementCurrency is present, it must be the same Currency as in all occurrences of IndividualExecutionDetails/SettlementAmount."
+    },
+    "CancellationRightOrExtendedCancellationRightRule": {
+      "definition": "Either CancellationRight or ExtendedCancellationRight may be present but not both."
+    }
+  }
+}

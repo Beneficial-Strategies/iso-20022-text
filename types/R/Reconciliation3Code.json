@@ -1,0 +1,63 @@
+{
+  "isoType": "Reconciliation3Code",
+  "language": "en",
+  "name": "Reconciliation 3 Code",
+  "definition": "Specifies the process type used for the trade repository reconciliation.",
+  "isoCodes": {
+    "DPRW": {
+      "isoName": "DualSidedEEAPartiallyReconciledNoValuationReconciliation",
+      "name": "Dual Sided EEA Partially Reconciled No Valuation Reconciliation",
+      "definition": "Trade repository has both sides of the trade reported but fields are not valuation reconciled."
+    },
+    "DPRV": {
+      "isoName": "DualSidedEEAPartiallyReconciledValuationReconciliationOnly",
+      "name": "Dual Sided EEA Partially Reconciled Valuation Reconciliation Only",
+      "definition": "Trade repository has both sides of the trade reported but fields are valuation reconciled only."
+    },
+    "DSMA": {
+      "isoName": "DualSidedMatched",
+      "name": "Dual Sided Matched",
+      "definition": "Trade repository has both sides of the trade reported and all fields match."
+    },
+    "DSNM": {
+      "isoName": "DualSidedNonMatched",
+      "name": "Dual Sided Non Matched",
+      "definition": "Trade repository has both sides of the trade reported but not all fields match."
+    },
+    "NORE": {
+      "isoName": "NotSubmittedToReconciliation",
+      "name": "Not Submitted To Reconciliation",
+      "definition": "Trade was not required to be submitted for reconciliation."
+    },
+    "SSMA": {
+      "isoName": "SingleSidedEEAMatched",
+      "name": "Single Sided EEA Matched",
+      "definition": "Trade repository has one side of the trade, knows which trade repository holds the other side of the trade, has already performed the comparison of the reports, and the result has been successful according to the specification of the inter-TR reconciliation process."
+    },
+    "SSPA": {
+      "isoName": "SingleSidedEEAPaired",
+      "name": "Single Sided EEA Paired",
+      "definition": "Trade repository has one side of the trade, knows which trade repository holds the other side of the trade, and either has already performed comparison of the reports, or is in the process of doing so."
+    },
+    "SPRW": {
+      "isoName": "SingleSidedEEAPartiallyReconciledNoValuationReconciliation",
+      "name": "Single Sided EEA Partially Reconciled No Valuation Reconciliation",
+      "definition": "Trade repository has one side of the trade, knows which trade repository holds the other side of the trade, has already performed the comparison of the reports, but fields are not valuation reconciled."
+    },
+    "SPRV": {
+      "isoName": "SingleSidedEEAPartiallyReconciledValuationReconciliationOnly",
+      "name": "Single Sided EEA Partially Reconciled Valuation Reconciliation Only",
+      "definition": "Trade repository has one side of the trade, knows which trade repository holds the other side of the trade, has already performed the comparison of the reports, but fields are valuation reconciled only."
+    },
+    "SSUN": {
+      "isoName": "SingleSidedEEAUnpaired",
+      "name": "Single Sided EEA Unpaired",
+      "definition": "Trade repository has one side of the trade, knows that the other side is EEA counterparty and does not know which TR holds the other side of the trade."
+    },
+    "SSNE": {
+      "isoName": "SingleSidedNonEEA",
+      "name": "Single Sided Non EEA",
+      "definition": "Trade repository has one side of the trade and knows that the other side does not have a reporting obligation."
+    }
+  }
+}

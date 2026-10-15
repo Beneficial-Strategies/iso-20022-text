@@ -1,0 +1,152 @@
+{
+  "isoType": "Context27",
+  "language": "en",
+  "name": "Context 27",
+  "definition": "Context in which the card payment transaction is performed.",
+  "isoElements": {
+    "CardDataEntryMode": {
+      "name": "Card Data Entry Mode",
+      "definition": "Entry mode of the card data for the transaction"
+    },
+    "QRCodePresentmentMode": {
+      "name": "QR Code Presentment Mode",
+      "definition": "Method used to present a QR Code at the point of service. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code related to the type of services or goods the merchant provides for the transaction in accordance with ISO 18245."
+    },
+    "MerchantCategorySpecificData": {
+      "name": "Merchant Category Specific Data",
+      "definition": "Further details about the merchant that is used in with the merchant category code (MCC) for the particular purchase."
+    },
+    "OtherMerchantCategory": {
+      "name": "Other Merchant Category",
+      "definition": "Other merchant category assigned by local or national scheme."
+    },
+    "POSConditionCode": {
+      "name": "POS Condition Code",
+      "definition": "A code identifying transaction conditions at the point-of-sale or point of service."
+    },
+    "CardPresent": {
+      "name": "Card Present",
+      "definition": "Indicates whether the transaction has been initiated by a card physically present or not.||True: Card physically present during the transaction|False: Card physically absent during the transaction."
+    },
+    "CardholderPresent": {
+      "name": "Cardholder Present",
+      "definition": "Indicates whether the transaction has been initiated in presence of the cardholder or not.||True: Cardholder present during the transaction|False: Cardholder absent during the transaction."
+    },
+    "CardholderActivated": {
+      "name": "Cardholder Activated",
+      "definition": "Indicates whether the automated device was operated solely by the cardholder or not (for example, vending machine, automated fuel dispenser, ATM, kiosk, etc.).||True: Device operated solely by the cardholder|False: Device not operated solely by the cardholder."
+    },
+    "TransponderInitiated": {
+      "name": "Transponder Initiated",
+      "definition": "Transaction initiated through a transponder or not.|True: Transaction initiated through a transponder.|False: Transaction not initiated through a transponder."
+    },
+    "Transit": {
+      "name": "Transit",
+      "definition": "Indicates a transit transaction."
+    },
+    "Attended": {
+      "name": "Attended",
+      "definition": "Card acceptor representative in attendance at the point of service during the transaction.|When an acceptor’s terminal is semi-attended (for example, multiple terminals supervised by a single clerk), it will be identified as ‘attended’.||True: Attended transaction at the terminal|False: Non-attended transaction at the terminal"
+    },
+    "UnattendedLevelCategory": {
+      "name": "Unattended Level Category",
+      "definition": "Transaction category level on an unattended terminal."
+    },
+    "ECommerce": {
+      "name": "E Commerce",
+      "definition": "Indicates whether the point of service is an e-commerce one or not:|True: e-commerce |False: non e-commerce |Default: False"
+    },
+    "ECommerceIndicatorProposed": {
+      "name": "E Commerce Indicator Proposed",
+      "definition": "Contains the proposed level of security of e-commerce transaction."
+    },
+    "ECommerceIndicatorApplied": {
+      "name": "E Commerce Indicator Applied",
+      "definition": "Contains the applied level of security of e-commerce transaction."
+    },
+    "ECommerceData": {
+      "name": "E Commerce Data",
+      "definition": "Contains electronic commerce data."
+    },
+    "MOTOCode": {
+      "name": "MOTO Code",
+      "definition": "A code that identifies the type of MOTO transaction."
+    },
+    "TransactionInitiator": {
+      "name": "Transaction Initiator",
+      "definition": "Identifies the transaction initiator."
+    },
+    "DelayedAuthorisation": {
+      "name": "Delayed Authorisation",
+      "definition": "Indicates whether the authorisation was delayed due to an on-board initiated transaction.||True: The authorisation was delayed|False: The authorisation was not delayed"
+    },
+    "DelayedCharges": {
+      "name": "Delayed Charges",
+      "definition": "Indicates a delayed charge."
+    },
+    "NoShow": {
+      "name": "No Show",
+      "definition": "Indicates that the cardholder failed to arrive at the property and was therefore charged a no-show fee; property was not actually rented."
+    },
+    "Reauthorisation": {
+      "name": "Reauthorisation",
+      "definition": "Indicates a reauthorisation."
+    },
+    "ReSubmission": {
+      "name": "Re Submission",
+      "definition": "Indicates a resubmission."
+    },
+    "PartialShipment": {
+      "name": "Partial Shipment",
+      "definition": "Indicates the partial shipment."
+    },
+    "PartialApprovalSupported": {
+      "name": "Partial Approval Supported",
+      "definition": "Indicates whether the point of service supports partial approval or not.|True: partial approval is supported|False: partial approval is not supported"
+    },
+    "VATDocumentationRequest": {
+      "name": "VAT Documentation Request",
+      "definition": "Indicate the merchant's preference of the party to create VAT documentation."
+    },
+    "VATDocumentationResponse": {
+      "name": "VAT Documentation Response",
+      "definition": "Indicate the issuer's decision of the party to create VAT documentation."
+    },
+    "DateAnticipated": {
+      "name": "Date Anticipated",
+      "definition": "The date on which the sale or purchase is expected to occur."
+    },
+    "MaximumProcessingDate": {
+      "name": "Maximum Processing Date",
+      "definition": "Contains network or scheme calcuated maximum processing date when the clearing will occur."
+    },
+    "SecurityCharacteristics": {
+      "name": "Security Characteristics",
+      "definition": "Security characteristics of the communication link in the card acceptance process. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "TemporarySecureCardDataReused": {
+      "name": "Temporary Secure Card Data Reused",
+      "definition": "Terminal has reused temporary secure stored card data."
+    },
+    "StorageLocation": {
+      "name": "Storage Location",
+      "definition": "Storage location of payment credential (for example, Acceptor or third party wallet)."
+    },
+    "PaymentCredentialMerchantRelationship": {
+      "name": "Payment Credential Merchant Relationship",
+      "definition": "Indicates the relationship between payment credential and merchant."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

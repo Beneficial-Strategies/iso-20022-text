@@ -1,0 +1,38 @@
+{
+  "isoType": "TypeTransactionTotals2Code",
+  "language": "en",
+  "name": "Type Transaction Totals 2 Code",
+  "definition": "Identification of the type of transactions which are included in the totals.",
+  "isoCodes": {
+    "CRDT": {
+      "isoName": "Credit",
+      "name": "Credit",
+      "definition": "Credit transactions (refund, account, cash service, as defined in the transaction service type)."
+    },
+    "CRDR": {
+      "isoName": "CreditReverse",
+      "name": "Credit Reverse",
+      "definition": "Reversal of credit transactions (cancellation)."
+    },
+    "DEBT": {
+      "isoName": "Debit",
+      "name": "Debit",
+      "definition": "Debit transactions on the cardholder account."
+    },
+    "DBTR": {
+      "isoName": "DebitReverse",
+      "name": "Debit Reverse",
+      "definition": "Reversal of debit transactions (cancellation)."
+    },
+    "DECL": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Declined transactions."
+    },
+    "FAIL": {
+      "isoName": "Failed",
+      "name": "Failed",
+      "definition": "Failed transactions."
+    }
+  }
+}

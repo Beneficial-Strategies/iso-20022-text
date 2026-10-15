@@ -1,0 +1,16 @@
+{
+  "isoType": "ReferenceData1",
+  "language": "en",
+  "name": "Reference Data 1",
+  "definition": "Container for reference data. Business content of this element is not specified.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the envelope reference data provided in the associated Data element occurrence. Typically an alphanumeric identifier that conforms to some globally or locally standardised identification scheme, whose purpose is to support applications that may need to process the references."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Technical element wrapping the reference data."
+    }
+  }
+}

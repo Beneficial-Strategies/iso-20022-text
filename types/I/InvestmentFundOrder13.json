@@ -1,0 +1,28 @@
+{
+  "isoType": "InvestmentFundOrder13",
+  "language": "en",
+  "name": "Investment Fund Order 13",
+  "definition": "References of an order and order cancellation.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the order cancellation, as assigned by the instructing party."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Reason for the cancellation."
+    }
+  }
+}

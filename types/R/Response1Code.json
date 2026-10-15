@@ -1,0 +1,28 @@
+{
+  "isoType": "Response1Code",
+  "language": "en",
+  "name": "Response 1 Code",
+  "definition": "Response code of a transaction.",
+  "isoCodes": {
+    "DECL": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Service is declined."
+    },
+    "APPR": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "Service has been successfuly provided."
+    },
+    "PART": {
+      "isoName": "PartialApproved",
+      "name": "Partial Approved",
+      "definition": "Service has been partialy provided."
+    },
+    "TECH": {
+      "isoName": "TechnicalError",
+      "name": "Technical Error",
+      "definition": "Service cannot be provided for technical reason (eg timeout contacting the Issuer, security problem)."
+    }
+  }
+}

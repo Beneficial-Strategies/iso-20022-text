@@ -1,0 +1,68 @@
+{
+  "isoType": "ActionType6Code",
+  "language": "en",
+  "name": "Action Type 6 Code",
+  "definition": "Type of action to be performed.",
+  "isoCodes": {
+    "DCCQ": {
+      "isoName": "AcceptCurrencyConversion",
+      "name": "Accept Currency Conversion",
+      "definition": "Ask the cardholder to accept the currency conversion."
+    },
+    "FEES": {
+      "isoName": "AcceptFees",
+      "name": "Accept Fees",
+      "definition": "Fees must be accepted."
+    },
+    "HAMT": {
+      "isoName": "AcceptHigherAmount",
+      "name": "Accept Higher Amount",
+      "definition": "MinimumAmount must be accepted."
+    },
+    "LAMT": {
+      "isoName": "AcceptLowerAmount",
+      "name": "Accept Lower Amount",
+      "definition": "MaximumAuthorisedAmount must be accepted."
+    },
+    "BUSY": {
+      "isoName": "Busy",
+      "name": "Busy",
+      "definition": "Server busy, try later."
+    },
+    "CPTR": {
+      "isoName": "CaptureCard",
+      "name": "Capture Card",
+      "definition": "Capture the card."
+    },
+    "DISP": {
+      "isoName": "DisplayMessage",
+      "name": "Display Message",
+      "definition": "Message to display, print or log."
+    },
+    "CPNS": {
+      "isoName": "DistributeCoupon",
+      "name": "Distribute Coupon",
+      "definition": "Distribute a coupon from the cassette of coupon."
+    },
+    "RQST": {
+      "isoName": "PerformRequest",
+      "name": "Perform Request",
+      "definition": "Request to be performed by the ATM."
+    },
+    "PINL": {
+      "isoName": "PINLastTry",
+      "name": "PIN Last Try",
+      "definition": "Last PIN (Personal Identification Number) try."
+    },
+    "PINR": {
+      "isoName": "PINRetry",
+      "name": "PIN Retry",
+      "definition": "PIN (Personal Identification Number) is wrong, retry a PIN verification."
+    },
+    "TRCK": {
+      "isoName": "UpdateTrack",
+      "name": "Update Track",
+      "definition": "Track provided in the response must be updated on the card."
+    }
+  }
+}

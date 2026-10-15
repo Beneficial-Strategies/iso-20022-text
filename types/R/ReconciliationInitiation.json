@@ -1,0 +1,20 @@
+{
+  "isoType": "ReconciliationInitiation",
+  "language": "en",
+  "name": "Reconciliation Initiation",
+  "definition": "The ReconciliationInitiation message is sent by an acquirer or an agent to an issuer or an agent, to initiate an exchange of totals to be reconciled for debits, credits, chargebacks and other transactions.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "ReconciliationInitiation": {
+      "name": "Reconciliation Initiation",
+      "definition": "Information related to the reconciliation."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

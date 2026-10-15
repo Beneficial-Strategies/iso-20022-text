@@ -1,0 +1,21 @@
+{
+  "isoType": "ExposureMetrics5",
+  "language": "en",
+  "name": "Exposure Metrics 5",
+  "definition": "Numeric variables calculated on market exposures.",
+  "isoElements": {
+    "CashCollateralAmount": {
+      "name": "Cash Collateral Amount",
+      "definition": "Amount of funds provided as collateral for borrowing the securities or commodities."
+    },
+    "CollateralMarketValue": {
+      "name": "Collateral Market Value",
+      "definition": "Market value of asset or collateral component."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

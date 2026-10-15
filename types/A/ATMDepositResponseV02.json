@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMDepositResponseV02",
+  "language": "en",
+  "name": "ATM Deposit Response V 02",
+  "definition": "The ATMDepositResponse message is sent by an ATM manager or its agent to inform the ATM of the approval or decline of the deposit transaction.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMDepositResponse": {
+      "name": "Protected ATM Deposit Response",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMDepositResponse": {
+      "name": "ATM Deposit Response",
+      "definition": "Response to a deposit request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

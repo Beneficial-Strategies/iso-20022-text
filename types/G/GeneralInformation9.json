@@ -1,0 +1,68 @@
+{
+  "isoType": "GeneralInformation9",
+  "language": "en",
+  "name": "General Information 9",
+  "definition": "Information concerning the negotiation process leading to a treasury trade.",
+  "isoElements": {
+    "BlockIndicator": {
+      "name": "Block Indicator",
+      "definition": "Indicates whether the trade is a block or single trade."
+    },
+    "RelatedTradeReference": {
+      "name": "Related Trade Reference",
+      "definition": "Reference to a preceding transaction, for example, an option or swap."
+    },
+    "DealingMethod": {
+      "name": "Dealing Method",
+      "definition": "Method used by the trading parties to negotiate and/or execute a deal."
+    },
+    "BrokerIdentification": {
+      "name": "Broker Identification",
+      "definition": "Specifies the broker which arranged the deal between the trading side and the counterparty side or, when two money brokers are involved, between the trading side and the other money broker."
+    },
+    "CounterpartyReference": {
+      "name": "Counterparty Reference",
+      "definition": "Counterparty's reference for the trade."
+    },
+    "BrokersCommission": {
+      "name": "Brokers Commission",
+      "definition": "Brokerage fee for a broker confirmation."
+    },
+    "SenderToReceiverInformation": {
+      "name": "Sender To Receiver Information",
+      "definition": "Specifies additional information for the receiver and applies to the whole message."
+    },
+    "DealingBranchTradingSide": {
+      "name": "Dealing Branch Trading Side",
+      "definition": "Specifies the branch at the trading side with which the deal was done."
+    },
+    "DealingBranchCounterpartySide": {
+      "name": "Dealing Branch Counterparty Side",
+      "definition": "Specifies the branch at the counterparty side with which the deal was done."
+    },
+    "ContactInformation": {
+      "name": "Contact Information",
+      "definition": "Specifies the name and/or electronic address of the receiver of the message who may be contacted for any queries concerning this trade."
+    },
+    "AgreementDetails": {
+      "name": "Agreement Details",
+      "definition": "Specifies the type, date and version of the agreement used in a trade."
+    },
+    "DefinitionsYear": {
+      "name": "Definitions Year",
+      "definition": "Specifies the year of definitions of the agreement."
+    },
+    "BrokersReference": {
+      "name": "Brokers Reference",
+      "definition": "Specifies a reference applied to the trade instruction by a broker."
+    },
+    "PaymentClearingCentre": {
+      "name": "Payment Clearing Centre",
+      "definition": "Specifies the place of clearing for offshore currency trades.||Usage: Used to designate the clearing centre for offshore currency trades. It must not be used for trades that settle onshore."
+    },
+    "CalculationAgent": {
+      "name": "Calculation Agent",
+      "definition": "Specifies the party that will act as calculation agent for a cash-settled trade."
+    }
+  }
+}

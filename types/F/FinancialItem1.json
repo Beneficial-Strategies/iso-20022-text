@@ -1,0 +1,52 @@
+{
+  "isoType": "FinancialItem1",
+  "language": "en",
+  "name": "Financial Item 1",
+  "definition": "Specifies information about a financing relation between two parties represented by a document, for example invoice, credit.|The component may include an external document describing details of the underlying trade object using an external schema.",
+  "isoElements": {
+    "ItemContext": {
+      "name": "Item Context",
+      "definition": "Parameters identifying the context of the item."
+    },
+    "FinancialDocumentReference": {
+      "name": "Financial Document Reference",
+      "definition": "Identifier of financial document that is the base document for this item, for example an invoice number."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or credit."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Specifies the total amount related to the financial document."
+    },
+    "DueAmount": {
+      "name": "Due Amount",
+      "definition": "Specifies the remaining monetary amount."
+    },
+    "InstalmentInformation": {
+      "name": "Instalment Information",
+      "definition": "Instalment information for payment."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional proprietary textual information concerning the item."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document, for example a delivery confirmation."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Validation status of the item."
+    },
+    "FinancingStatus": {
+      "name": "Financing Status",
+      "definition": "Financing status if applicable for the item."
+    },
+    "ProprietaryDetails": {
+      "name": "Proprietary Details",
+      "definition": "Structured proprietary information concerning details of the financial item."
+    }
+  }
+}

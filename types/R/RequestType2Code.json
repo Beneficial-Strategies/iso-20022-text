@@ -1,0 +1,33 @@
+{
+  "isoType": "RequestType2Code",
+  "language": "en",
+  "name": "Request Type 2 Code",
+  "definition": "Specifies the request used to further detail the type of information that will be queried.",
+  "isoCodes": {
+    "RT11": {
+      "isoName": "BankPositionEnquiry",
+      "name": "Bank Position Enquiry",
+      "definition": "Type is an enquiry on the bank's position."
+    },
+    "RT12": {
+      "isoName": "SpecificTransactionEnquiry",
+      "name": "Specific Transaction Enquiry",
+      "definition": "Type is an enquiry on a specific transaction."
+    },
+    "RT13": {
+      "isoName": "QueuedTransactionEnquiry",
+      "name": "Queued Transaction Enquiry",
+      "definition": "Type is an enquiry on a queued transaction."
+    },
+    "RT14": {
+      "isoName": "SuspiciousTransactionEnquiry",
+      "name": "Suspicious Transaction Enquiry",
+      "definition": "Type is an enquiry on a suspicious transaction."
+    },
+    "RT15": {
+      "isoName": "PendingInwardCreditsEnquiry",
+      "name": "Pending Inward Credits Enquiry",
+      "definition": "Type is an enquiry on pending inward credits."
+    }
+  }
+}

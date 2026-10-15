@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMServiceType6Code",
+  "language": "en",
+  "name": "ATM Service Type 6 Code",
+  "definition": "Describes the type of deposit service selected by the customer.",
+  "isoCodes": {
+    "MCHG": {
+      "isoName": "MakingChange",
+      "name": "Making Change",
+      "definition": "Making change between media types."
+    },
+    "DPSN": {
+      "isoName": "NonVerifiedDeposit",
+      "name": "Non Verified Deposit",
+      "definition": "Deposit of media items unverified by the ATM, for instance in an envelope."
+    },
+    "DPSV": {
+      "isoName": "VerifiedDeposit",
+      "name": "Verified Deposit",
+      "definition": "Deposit of media items verified by the ATM."
+    }
+  }
+}

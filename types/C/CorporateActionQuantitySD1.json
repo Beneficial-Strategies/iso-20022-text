@@ -1,0 +1,16 @@
+{
+  "isoType": "CorporateActionQuantitySD1",
+  "language": "en",
+  "name": "Corporate Action Quantity SD 1",
+  "definition": "Provides additional information regarding corporate action securities quantity details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "SubscriptionQuantity": {
+      "name": "Subscription Quantity",
+      "definition": "Represents \"subscription base\" (Quantity2) and \"subscription disbursed\" (Quantity1) quantity elements. \"Subscription base quantity\" is the quantity of the rights security that forms the basis for calculating the payout. It is located on the distribution announcement, with the rights subscription announcement following later. \"Subscription disbursed quantity\" is the quantity of securities received in the security payout. It is located on the distribution announcement, with the rights subscription announcement following later."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingNonEquityTradingActivityResultV03",
+  "language": "en",
+  "name": "Financial Instrument Reporting Non Equity Trading Activity Result V 03",
+  "definition": "The FinancialInstrumentReportingNonEquityTradingActivityResult message is sent by the trading venue to the national competent authority to report on computed results data of non-equity specific trading activity.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header information related to the global report."
+    },
+    "NonEquityTransparencyData": {
+      "name": "Non Equity Transparency Data",
+      "definition": "Details the transparency data reported by a trading venue."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BuyIn4",
+  "language": "en",
+  "name": "Buy In 4",
+  "definition": "Specifies elements related to the notification (or warn) sent by the central counterparty to the clearing member in the context of the buy in process.",
+  "isoElements": {
+    "WarningIndicator": {
+      "name": "Warning Indicator",
+      "definition": "Indicates whether the message is a warning only or a notification."
+    },
+    "ExpectedBuyInDate": {
+      "name": "Expected Buy In Date",
+      "definition": "Provides the date at which the buy-in will occur."
+    },
+    "CancellationLimitDate": {
+      "name": "Cancellation Limit Date",
+      "definition": "Identifies the latest date by which the buy-in operation can be cancelled."
+    },
+    "BuyInReversionDate": {
+      "name": "Buy In Reversion Date",
+      "definition": "Identifies the date by which the buy-in operation is reversed by the CCP."
+    }
+  }
+}

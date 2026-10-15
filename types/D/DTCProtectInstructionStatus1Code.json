@@ -1,0 +1,33 @@
+{
+  "isoType": "DTCProtectInstructionStatus1Code",
+  "language": "en",
+  "name": "DTC Protect Instruction Status 1 Code",
+  "definition": "DTC (The Depository Trust Company) system status code of protect instruction.",
+  "isoCodes": {
+    "PENA": {
+      "isoName": "PendingApproval",
+      "name": "Pending Approval",
+      "definition": "Instruction pending release or delete from approval function."
+    },
+    "WITH": {
+      "isoName": "Withdrawn",
+      "name": "Withdrawn",
+      "definition": "Client instruction withdrawn for events with withdrawal privilege."
+    },
+    "COVR": {
+      "isoName": "FullyCovered",
+      "name": "Fully Covered",
+      "definition": "Protect instruction has been fully covered."
+    },
+    "EXPI": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "Protect instruction has expired."
+    },
+    "OPEN": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Protect instruction which has not been fully covered. Will include partial covers."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentAttributesSD4",
+  "language": "en",
+  "name": "Financial Instrument Attributes SD 4",
+  "definition": "Provides additional information regarding security that will being distributed as part of entitlement.",
+  "isoElements": {
+    "CSDDisbursedSecurityIdentification": {
+      "name": "CSD Disbursed Security Identification",
+      "definition": "Security identification that a CSD (for example in the US - DTC, The Depository Trust Corporation) will distribute as part of the entitlement. This can be the DTC contra CUSIP in cases where the payout security is a contra CUSIP."
+    },
+    "CSDDisbursedSecurityDescription": {
+      "name": "CSD Disbursed Security Description",
+      "definition": "DTC (The Depository Trust Corporation) disbursed security description."
+    },
+    "CSDDisbursedFractionalSecurityIdentification": {
+      "name": "CSD Disbursed Fractional Security Identification",
+      "definition": "Security identification of the security that will be distributed in fractions by the CSD (for example in the US - DTC, The Depository Trust Corporation) DTC (The Depository Trust Corporation) as a result of a corporate action."
+    }
+  }
+}

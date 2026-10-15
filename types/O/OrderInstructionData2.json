@@ -1,0 +1,57 @@
+{
+  "isoType": "OrderInstructionData2",
+  "language": "en",
+  "name": "Order Instruction Data 2",
+  "definition": "Order Instructions.",
+  "isoElements": {
+    "BuySellIndicator": {
+      "name": "Buy Sell Indicator",
+      "definition": "Indicates whether the order is to buy or sell."
+    },
+    "OrderValidityStatus": {
+      "name": "Order Validity Status",
+      "definition": "Identification of the validity status of the order."
+    },
+    "OrderStatus": {
+      "name": "Order Status",
+      "definition": "Identification of the status of the order."
+    },
+    "InitialQuantity": {
+      "name": "Initial Quantity",
+      "definition": "Initial quantity of the order.||Usage: The initial quantity includes the hidden quantity."
+    },
+    "RemainingQuantity": {
+      "name": "Remaining Quantity",
+      "definition": "Total quantity that remains in the order book after a partial execution or in the case of any other event affecting the order||Usage: The remaining quantity includes the remaining hidden quantity."
+    },
+    "DisplayedQuantity": {
+      "name": "Displayed Quantity",
+      "definition": "Quantity of the order that is visible in the orderbook."
+    },
+    "MinimumAcceptableQuantity": {
+      "name": "Minimum Acceptable Quantity",
+      "definition": "Minimum acceptable quantity for an order to be filled, which can consist of multiple partial executions and is normally only for non-persistent order types."
+    },
+    "MinimumExecutable": {
+      "name": "Minimum Executable",
+      "definition": "Minimum execution size of any individual potential execution."
+    },
+    "PassiveOnlyIndicator": {
+      "name": "Passive Only Indicator",
+      "definition": "Indicates if the order is submitted to the trading venue with a characteristic or flag, such that the order shall not immediately execute against any contra visible orders.||Usage: When absent, default value is false."
+    },
+    "SelfExecutionPrevention": {
+      "name": "Self Execution Prevention",
+      "definition": "Indicates if order has been entered with self-execution prevention criteria, so that it would not execute with an order on the opposite side of the book entered by the same member or participant.||Usage: When absent, default value is false."
+    },
+    "RoutingStrategy": {
+      "name": "Routing Strategy",
+      "definition": "Applicable routing strategy as per the trading venue specification."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "BuySellInidicator must be present or |OrderValidityStatus must be present or |OrderStatus must be present or |InitialQuantity must be present or |RemainingQuantity must be present or |DisplayedQuantity must be present or |MinimumAcceptableQuantity must be present or |MinimumExecutable must be present or |PassiveOnlyIndicator must be present or |SelfExecutionPrevention must be present or|RoutingStrategy must be present."
+    }
+  }
+}

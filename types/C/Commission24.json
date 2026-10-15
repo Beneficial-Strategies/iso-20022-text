@@ -1,0 +1,36 @@
+{
+  "isoType": "Commission24",
+  "language": "en",
+  "name": "Commission 24",
+  "definition": "Amount of money due to a party as compensation for a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specification of the commission type."
+    },
+    "Commission": {
+      "name": "Commission",
+      "definition": "Amount of money due to a party as compensation for a service."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Information related to an identification, eg, party identification or account identification."
+    },
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Date at which an operation is triggered to calculate, for instance, a commission, fee, asset values, etc."
+    },
+    "TotalCommission": {
+      "name": "Total Commission",
+      "definition": "Total value of the commissions for a specific trade."
+    },
+    "TotalVATAmount": {
+      "name": "Total VAT Amount",
+      "definition": "Amount that results of the calculation of VAT on net fees, according to the transaction current tariffs."
+    },
+    "VATRate": {
+      "name": "VAT Rate",
+      "definition": "Specifies the VAT rate."
+    }
+  }
+}

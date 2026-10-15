@@ -1,0 +1,48 @@
+{
+  "isoType": "RelatedCustodianMessageDetailsSD1",
+  "language": "en",
+  "name": "Related Custodian Message Details SD 1",
+  "definition": "Provides selected corporate action events message details extracted from the related custodian messages received.",
+  "isoElements": {
+    "ReceivedEventType": {
+      "name": "Received Event Type",
+      "definition": "Reference the CAEV value from the received custodian message. Applicable to custodian service only."
+    },
+    "ReceivedMandatoryVoluntaryEventType": {
+      "name": "Received Mandatory Voluntary Event Type",
+      "definition": "Reference the CAMV value from the received custodian message. Applicable to custodian service only."
+    },
+    "ReceivedCorporateActionEventIdentification": {
+      "name": "Received Corporate Action Event Identification",
+      "definition": "Reference the CORP value from the received custodian message. Applicable to custodian service only."
+    },
+    "ReceivedDate": {
+      "name": "Received Date",
+      "definition": "Rate that the ISO message was received from the custodian. Applicable to custodian service only."
+    },
+    "ReceivedTime": {
+      "name": "Received Time",
+      "definition": "Time of day that the ISO message was received from the custodian. Applicable to custodian service only."
+    },
+    "InboundISOMessageType": {
+      "name": "Inbound ISO Message Type",
+      "definition": "Reference of the ISO15022 MT message type received from the custodian message. Applicable to custodian service only."
+    },
+    "InboundISOMessageReceiverBIC": {
+      "name": "Inbound ISO Message Receiver BIC",
+      "definition": "BIC Code of the recipient of the custodian record on a received message. Applicable to custodian service only."
+    },
+    "ReceivedRelatedReference": {
+      "name": "Received Related Reference",
+      "definition": "Sender related reference from the received custodian message. Applicable to custodian service only."
+    },
+    "ReceivedSenderMessageReference": {
+      "name": "Received Sender Message Reference",
+      "definition": "Sender SEME from received custodian message. Applicable to custodian service only."
+    },
+    "InboundISOMessageSenderBIC": {
+      "name": "Inbound ISO Message Sender BIC",
+      "definition": "BIC Code of the sender of the custodian record on a received message. Applicable to custodian service only."
+    }
+  }
+}

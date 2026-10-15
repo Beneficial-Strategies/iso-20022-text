@@ -1,0 +1,128 @@
+{
+  "isoType": "AcceptorData1",
+  "language": "en",
+  "name": "Acceptor Data 1",
+  "definition": "Information related the acceptor.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the acceptor."
+    },
+    "SchemeAssignedIdentification": {
+      "name": "Scheme Assigned Identification",
+      "definition": "Unique identification to the acceptor assigned by the scheme"
+    },
+    "BusinessName": {
+      "name": "Business Name",
+      "definition": "Business name of the acceptor."
+    },
+    "LegalCorporateName": {
+      "name": "Legal Corporate Name",
+      "definition": "Legal Corporate Name of the party."
+    },
+    "NameAndLocation": {
+      "name": "Name And Location",
+      "definition": "Name and location of acceptor.  May only contain name when the location is specified elsewhere."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the entity."
+    },
+    "AdditionalAddress": {
+      "name": "Additional Address",
+      "definition": "Additional information used when card acceptor street address is insufficient."
+    },
+    "Email": {
+      "name": "Email",
+      "definition": "Electronic mail address."
+    },
+    "URL": {
+      "name": "URL",
+      "definition": "Universal Resource Locator (URL) address."
+    },
+    "Phone": {
+      "name": "Phone",
+      "definition": "Collection of information that identifies  a phone number as defined by telecom services."
+    },
+    "CustomerService": {
+      "name": "Customer Service",
+      "definition": "Phone number of the customer service."
+    },
+    "AdditionalContact": {
+      "name": "Additional Contact",
+      "definition": "Additional information used to facilitate contact with the card acceptor, for instance sales agent name, dispute manager name."
+    },
+    "BusinessRegistrationIdentification": {
+      "name": "Business Registration Identification",
+      "definition": "Contains business registration Identification of the acceptor."
+    },
+    "BusinessRegistrationIdentificationType": {
+      "name": "Business Registration Identification Type",
+      "definition": "Contains the type of acceptor's business registration Identification."
+    },
+    "ServiceLocation": {
+      "name": "Service Location",
+      "definition": "Location where the cardholder receive the service. Only required if the service location is different than acceptor location."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains local language equivalent(s) of data in the current component."
+    },
+    "AdditionalTransactionReferenceNumber": {
+      "name": "Additional Transaction Reference Number",
+      "definition": "Contains a code that facilitates card acceptor/corporation communication and record keeping."
+    },
+    "CorporateTaxIdentification": {
+      "name": "Corporate Tax Identification",
+      "definition": "Identification of the company recognized by the taxation authority.  Used for reporting corporate-related taxes."
+    },
+    "CorporateTaxIdentificationType": {
+      "name": "Corporate Tax Identification Type",
+      "definition": "Indicates the corporate tax identification type."
+    },
+    "BusinessType": {
+      "name": "Business Type",
+      "definition": "Specific type of business."
+    },
+    "BusinessTypeProvidedBy": {
+      "name": "Business Type Provided By",
+      "definition": "Party that provided the type information."
+    },
+    "OwnerType": {
+      "name": "Owner Type",
+      "definition": "Specific type of business."
+    },
+    "OwnerTypeProvidedBy": {
+      "name": "Owner Type Provided By",
+      "definition": "Party that provided the type information."
+    },
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Specific type of business."
+    },
+    "CertificationTypeProvidedBy": {
+      "name": "Certification Type Provided By",
+      "definition": "Party that provided the type information."
+    },
+    "OwnerEthnicityType": {
+      "name": "Owner Ethnicity Type",
+      "definition": "Specific type of business."
+    },
+    "OwnerEthnicityTypeProvidedBy": {
+      "name": "Owner Ethnicity Type Provided By",
+      "definition": "Party that provided the type information."
+    },
+    "PartnerIdentification": {
+      "name": "Partner Identification",
+      "definition": "Identifies a specific partnership agreement, generally between specific acceptors and issuers."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "isoType": "FinancialInstrumentStipulations4",
+  "language": "en",
+  "name": "Financial Instrument Stipulations 4",
+  "definition": "Additional restrictions on the financial instrument, related to the stipulation.",
+  "isoElements": {
+    "Geographics": {
+      "name": "Geographics",
+      "definition": "Type of stipulation expressing geographical constraints on a fixed income instrument. It is expressed with a state or country abbreviation and a minimum or maximum percentage. Example: CA 0-80 (minimum of 80 percent in Californian assests)."
+    },
+    "YieldRange": {
+      "name": "Yield Range",
+      "definition": "Range of allowed yield."
+    },
+    "Rating": {
+      "name": "Rating",
+      "definition": "Range of assessment of securities credit and investment risk."
+    },
+    "CouponRange": {
+      "name": "Coupon Range",
+      "definition": "Identification of a range of coupon numbers attached to its related financial instrument."
+    },
+    "AmortisableIndicator": {
+      "name": "Amortisable Indicator",
+      "definition": "Indicates whether the financial instrument repays the principal amount in parts during the life cycle of the security."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Reason for which money is raised through the issuance of a security."
+    },
+    "AlternativeMinimumTaxIndicator": {
+      "name": "Alternative Minimum Tax Indicator",
+      "definition": "Identifies whether the issue is subject to alternative minimum taxation (used for municipal bonds)."
+    },
+    "AutoReinvestment": {
+      "name": "Auto Reinvestment",
+      "definition": "Indicates an instruction to reinvest dividends in the underlying security (or proceeds at maturity in a similar instrument) if the current rate is <rate> or better."
+    },
+    "TransactionConditions": {
+      "name": "Transaction Conditions",
+      "definition": "Indicates the conditions under which the order/trade is to be/was executed."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CustomDate": {
+      "name": "Custom Date",
+      "definition": "Indicates an instruction to override an investment's default start and/or end date with a custom date."
+    },
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Haircut or valuation factor on the security expressed as a percentage."
+    },
+    "InsuredIndicator": {
+      "name": "Insured Indicator",
+      "definition": "Identifies whether the lender is assured partial or full payment by a third party if the borrower defaults."
+    },
+    "LookBack": {
+      "name": "Look Back",
+      "definition": "Indicates an instruction or attribute giving the number of days to be included in the look-back period for the investment. E.g. some options allow exercise based on the underlying asset's optimal value over the look-back period."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Indicates the maturity date."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Indicates the issue date."
+    },
+    "IssuerIdentification": {
+      "name": "Issuer Identification",
+      "definition": "Identification of the issuer."
+    },
+    "IssueSize": {
+      "name": "Issue Size",
+      "definition": "Identifies the issue size range."
+    },
+    "MinimumDenomination": {
+      "name": "Minimum Denomination",
+      "definition": "Indicates the minimum denomination of a security."
+    },
+    "MaximumSubstitution": {
+      "name": "Maximum Substitution",
+      "definition": "Maximum number of time the collateral can be substitute."
+    },
+    "MinimumIncrement": {
+      "name": "Minimum Increment",
+      "definition": "Indicates the minimum tradable increments of a security."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Indicates the periodic or regular cycle of interest payments."
+    },
+    "MinimumQuantity": {
+      "name": "Minimum Quantity",
+      "definition": "Indicates the minimum tradable quantity of a security."
+    },
+    "Production": {
+      "name": "Production",
+      "definition": "Indicates a search criterion used when looking to buy a bond, particularly an MBS, issued in a particular year."
+    },
+    "RestrictedIndicator": {
+      "name": "Restricted Indicator",
+      "definition": "Identifies if the securities is restricted or not (as per Rule 144)."
+    },
+    "PriceFrequency": {
+      "name": "Price Frequency",
+      "definition": "Indicates the frequency at which the bond is re-rated and therefore re-priced (bond attribute, particularly of floating rate and index linked instruments)."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "Indicates the market sector the security is classified as. E.g. pharmacuticals, automobile, housing, etc."
+    },
+    "SubstitutionFrequency": {
+      "name": "Substitution Frequency",
+      "definition": "Indicates the maximum number of times collateral can be substituted."
+    },
+    "SubstitutionLeft": {
+      "name": "Substitution Left",
+      "definition": "Number of remaining times the collateral can be substitute."
+    },
+    "WholePoolIndicator": {
+      "name": "Whole Pool Indicator",
+      "definition": "Indicates a search criterion when looking to buy an MBS that either is [yes] or is not [no] an entire pool."
+    },
+    "PriceSource": {
+      "name": "Price Source",
+      "definition": "Identifies the Benchmark source price (eg. BB Generic, BB Fairvalue, Brokertec.)."
+    },
+    "ExpirationDate": {
+      "name": "Expiration Date",
+      "definition": "Date/time at which an interest bearing security becomes due and assets are to be repaid."
+    },
+    "OverAllotmentAmount": {
+      "name": "Over Allotment Amount",
+      "definition": "Amount for which a security can be overalloted (as in greenshoe option)."
+    },
+    "OverAllotmentRate": {
+      "name": "Over Allotment Rate",
+      "definition": "Percentage for which a security can be overalloted (as in greenshoe option)."
+    },
+    "PriceRange": {
+      "name": "Price Range",
+      "definition": "Indicates a search criterion used when looking to buy a bond within a particular price range."
+    },
+    "CallableIndicator": {
+      "name": "Callable Indicator",
+      "definition": "Indicates whether the issuer has the right to pay the security prior to maturity. Also called RetractableIndicator."
+    },
+    "ConvertibleIndicator": {
+      "name": "Convertible Indicator",
+      "definition": "Indicates whether the interest bearing security is convertible into another type of security."
+    },
+    "PutableIndicator": {
+      "name": "Putable Indicator",
+      "definition": "Indicates whether the holder has the right to ask for redemption of the security prior to final maturity. Also called RedeemableIndicator."
+    },
+    "PreFundedIndicator": {
+      "name": "Pre Funded Indicator",
+      "definition": "Indicates whether an interest bearing instrument is deposited in a fund that will be used to pay debt service on refunded securities."
+    },
+    "EscrowedIndicator": {
+      "name": "Escrowed Indicator",
+      "definition": "Indicates whether an interest bearing instrument is being escrowed or collateralized either by direct obligations guaranteed by the US government, or by other types of securities. The maturity schedules of the securities in the escrow fund are determined in such a way to pay the maturity value, coupon, and premium payments (if any) of the refunded bonds."
+    },
+    "PerpetualIndicator": {
+      "name": "Perpetual Indicator",
+      "definition": "Indicates whether the security has no maturity date."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SystemSecuritiesAccount5",
+  "language": "en",
+  "name": "System Securities Account 5",
+  "definition": "Specifies the account within a system to or from which a securities entry is made. It holds information generic or market specific attributes such as opening or closing date, and defines the default setting for the  holding of settlement instructions involving positions related to the account.",
+  "isoElements": {
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Legal closing date of the securities account."
+    },
+    "HoldIndicator": {
+      "name": "Hold Indicator",
+      "definition": "Indicates whether the securities account is on hold or not.||Usage:|- Meaning when true: account is in hold status.|- Meaning when false: account is in release status."
+    },
+    "NegativePosition": {
+      "name": "Negative Position",
+      "definition": "Indicates whether the securities account can hold a negative position in a security or not."
+    },
+    "EndInvestorFlag": {
+      "name": "End Investor Flag",
+      "definition": "Specifies information to identify securities accounts where allocation instructions are posted."
+    },
+    "PricingScheme": {
+      "name": "Pricing Scheme",
+      "definition": "Defines how the price is applied to the securities account."
+    }
+  }
+}

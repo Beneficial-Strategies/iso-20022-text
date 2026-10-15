@@ -1,0 +1,32 @@
+{
+  "isoType": "UndertakingIssuanceAdviceV01",
+  "language": "en",
+  "name": "Undertaking Issuance Advice V 01",
+  "definition": "The UndertakingIssuanceAdvice message is sent by an advising party to the beneficiary, either directly or via one or more other advising parties in the transaction chain, to advise the issuance of an undertaking. Other interested parties may also be informed of the advice. The undertaking advised could be a demand guarantee, standby letter of credit, or counter-undertaking (counter-guarantee or counter-standby). In addition to providing details on the applicable rules, expiry date, the amount, required documents, and terms and conditions of the undertaking, the advice may provide information from the sender such as confirmation details.",
+  "isoElements": {
+    "AdvisingParty": {
+      "name": "Advising Party",
+      "definition": "Party advising the undertaking to the beneficiary or to another party."
+    },
+    "SecondAdvisingParty": {
+      "name": "Second Advising Party",
+      "definition": "Additional party that advises the undertaking."
+    },
+    "DateOfAdvice": {
+      "name": "Date Of Advice",
+      "definition": "Date on which the undertaking is advised."
+    },
+    "UndertakingIssuanceAdviceDetails": {
+      "name": "Undertaking Issuance Advice Details",
+      "definition": "Details related to the advice of the issued undertaking."
+    },
+    "BankToBankInformation": {
+      "name": "Bank To Bank Information",
+      "definition": "Additional information specific to the bank-to-bank communication."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the undertaking advice."
+    }
+  }
+}

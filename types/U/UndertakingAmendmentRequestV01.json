@@ -1,0 +1,20 @@
+{
+  "isoType": "UndertakingAmendmentRequestV01",
+  "language": "en",
+  "name": "Undertaking Amendment Request V 01",
+  "definition": "The UndertakingAmendmentRequest message is sent by the party that requested issuance of the undertaking (applicant or obligor) to the party that issued the undertaking to request issuance of a proposed amendment to the undertaking. The undertaking could be a demand guarantee, standby letter of credit, counter-undertaking (counter-guarantee or counter-standby), or suretyship undertaking. The message provides details on proposed changes to the undertaking, for example, to the expiry date, amount, and/or terms and conditions. It may also be used to request termination or cancellation of the undertaking.",
+  "isoElements": {
+    "UndertakingAmendmentRequestDetails": {
+      "name": "Undertaking Amendment Request Details",
+      "definition": "Details related to the request for an amendment of an undertaking."
+    },
+    "InstructionsToBank": {
+      "name": "Instructions To Bank",
+      "definition": "Instructions specific to the bank receiving the message."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the undertaking amendment request."
+    }
+  }
+}

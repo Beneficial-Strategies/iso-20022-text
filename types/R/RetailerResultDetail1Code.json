@@ -1,0 +1,88 @@
+{
+  "isoType": "RetailerResultDetail1Code",
+  "language": "en",
+  "name": "Retailer Result Detail 1 Code",
+  "definition": "Result of the processing of the message",
+  "isoCodes": {
+    "ABRT": {
+      "isoName": "Aborted",
+      "name": "Aborted",
+      "definition": "The Initiator of the request has sent an Abort message request, which was accepted and processed."
+    },
+    "BUSY": {
+      "isoName": "Busy",
+      "name": "Busy",
+      "definition": "The system is busy, try later."
+    },
+    "CANC": {
+      "isoName": "Cancel",
+      "name": "Cancel",
+      "definition": "The user has aborted the transaction on the PED keyboard, for instance during PIN entering."
+    },
+    "DEVO": {
+      "isoName": "DeviceOut",
+      "name": "Device Out",
+      "definition": "Device out of order."
+    },
+    "WPIN": {
+      "isoName": "WrongPIN",
+      "name": "Wrong PIN",
+      "definition": "The user has entered the PIN on the PED keyboard and the verification fails."
+    },
+    "NHOS": {
+      "isoName": "UnreachableHost",
+      "name": "Unreachable Host",
+      "definition": "Acquirer or any host is unreachable or has not answered to an online request, so is considered as temporary unavailable. Depending on the Sale context, the request could be repeated (to be compared with \"Refusal\")."
+    },
+    "UNVS": {
+      "isoName": "UnavailableService",
+      "name": "Unavailable Service",
+      "definition": "The service is not available (not implemented, not configured, protocol version too old...)."
+    },
+    "UNVD": {
+      "isoName": "UnavailableDevice",
+      "name": "Unavailable Device",
+      "definition": "The hardware is not available (absent, not configured...)."
+    },
+    "REFU": {
+      "isoName": "Refusal",
+      "name": "Refusal",
+      "definition": "The transaction is refused by the host or by the local rules associated to the card or the POI."
+    },
+    "PAYR": {
+      "isoName": "PaymentRestriction",
+      "name": "Payment Restriction",
+      "definition": "Some sale items are not payable by the card proposed by the Customer."
+    },
+    "TNFD": {
+      "isoName": "NotFound",
+      "name": "Not Found",
+      "definition": "The transaction is not found (e.g. for a reversal or a repeat)."
+    },
+    "NALW": {
+      "isoName": "NotAllowed",
+      "name": "Not Allowed",
+      "definition": "A service request is sent during a Service dialogue. A combination of services not possible to provide. During the DeviceInitialisationCardReader message processing, the user has entered a card which has to be protected by the POI, and cannot be processed with this device request from the external, and then the Sale System."
+    },
+    "LOUT": {
+      "isoName": "LoggedOut",
+      "name": "Logged Out",
+      "definition": "Not logged in."
+    },
+    "IVCA": {
+      "isoName": "InvalidCard",
+      "name": "Invalid Card",
+      "definition": "The card entered by the Customer cannot be processed by the POI because this card is not configured in the system."
+    },
+    "ICAR": {
+      "isoName": "InsertedCard",
+      "name": "Inserted Card",
+      "definition": "If the Input Device request a NotifyCardInputFlag and the Customer enters a card in the card reader without answers to the Input command, the POI abort the Input command processing, and answer a dedicated ErrorCondition value in the Input response message."
+    },
+    "WIPG": {
+      "isoName": "InProgress",
+      "name": "In Progress",
+      "definition": "The transaction is still in progress and then the command cannot be processed."
+    }
+  }
+}

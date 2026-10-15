@@ -1,0 +1,156 @@
+{
+  "isoType": "TripLeg4",
+  "language": "en",
+  "name": "Trip Leg 4",
+  "definition": "Supplies additional transaction information for travel transactions.",
+  "isoElements": {
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Identifies the specific occurrence of trip leg data."
+    },
+    "TicketNumber": {
+      "name": "Ticket Number",
+      "definition": "Contains the ticket number."
+    },
+    "TicketIssuer": {
+      "name": "Ticket Issuer",
+      "definition": "Name of the issuing ticket agent."
+    },
+    "TicketIssueDate": {
+      "name": "Ticket Issue Date",
+      "definition": "Date the ticket was issued."
+    },
+    "TicketIssueLocation": {
+      "name": "Ticket Issue Location",
+      "definition": "Location where ticket was issued."
+    },
+    "ConjunctionTicketNumber": {
+      "name": "Conjunction Ticket Number",
+      "definition": "Number of a ticket that contains additional coupons for an itinerary that contains more than four segments."
+    },
+    "RestrictedTicket": {
+      "name": "Restricted Ticket",
+      "definition": "Indicates whether or not restrictions apply to the ticket.||True = Restrictions apply|False = Restrictions do not apply"
+    },
+    "OpenTicket": {
+      "name": "Open Ticket",
+      "definition": "Indicates whether or not the ticket is open-ended. ||True = Ticket is open-ended|False = Ticket is not open-ended"
+    },
+    "TicketRestrictions": {
+      "name": "Ticket Restrictions",
+      "definition": "Contains the specific restriction applicable to the ticket."
+    },
+    "ExchangedTicket": {
+      "name": "Exchanged Ticket",
+      "definition": "Indicates whether or not the ticket was exchanged (reissued or new ticket generated). ||True = Ticket was exchanged|False = Ticket was not exchanged"
+    },
+    "ExchangedTicketNumber": {
+      "name": "Exchanged Ticket Number",
+      "definition": "Contains the original ticket number that was replaced by the new ticket number."
+    },
+    "RecordLocatorNumber": {
+      "name": "Record Locator Number",
+      "definition": "Ticket record locator number."
+    },
+    "ReservationSystem": {
+      "name": "Reservation System",
+      "definition": "Computerised reservation system used to make the reservation and purchase the ticket."
+    },
+    "ReservationNumber": {
+      "name": "Reservation Number",
+      "definition": "Value that uniquely identifies the reservation."
+    },
+    "OriginalReservationSystem": {
+      "name": "Original Reservation System",
+      "definition": "System code that identifies the original reservation system used to make the reservation and purchase the ticket."
+    },
+    "OriginalReservationNumber": {
+      "name": "Original Reservation Number",
+      "definition": "Value that identifies the original reservation generated during the original reservation and purchase of the ticket."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "Provides the reference documentation."
+    },
+    "TransportType": {
+      "name": "Transport Type",
+      "definition": "Type of transportation. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "CommodityCode": {
+      "name": "Commodity Code",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "CarrierName": {
+      "name": "Carrier Name",
+      "definition": "Name of the transportation carrier."
+    },
+    "CarrierCode": {
+      "name": "Carrier Code",
+      "definition": "Identifies the operator (company providing service)."
+    },
+    "IATACode": {
+      "name": "IATA Code",
+      "definition": "Contains the International Air Transport Association (IATA) code identifying the company that purchased the ticket."
+    },
+    "RouteNumber": {
+      "name": "Route Number",
+      "definition": "Route number as specified by the transportation carrier (for example, flight number, bus number, train route or number, etc.)"
+    },
+    "ServiceClass": {
+      "name": "Service Class",
+      "definition": "Indicates the service class (for example, coach or first class)."
+    },
+    "Departure": {
+      "name": "Departure",
+      "definition": "Contains departure location, date and time."
+    },
+    "Arrival": {
+      "name": "Arrival",
+      "definition": "Contains arrival location, date and time."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Duration of the trip."
+    },
+    "StopOver": {
+      "name": "Stop Over",
+      "definition": "Indicator that specifies whether the mode of transportation was a direct or non-direct route on the same ticket number."
+    },
+    "NonDirectRouteCode": {
+      "name": "Non Direct Route Code",
+      "definition": "Indicates a non-direct route between the origin and the destination."
+    },
+    "FairBasisCode": {
+      "name": "Fair Basis Code",
+      "definition": "Code that transportation companies assign to a particular ticket type, such as business class or discounted or non-refundable tickets."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Contains trip leg amount information."
+    },
+    "CreditReasonCode": {
+      "name": "Credit Reason Code",
+      "definition": "Indicates reason for the credit to the cardholder.  Includes: ancillary purchase cancelled, passenger transport ticket and related ancillary purchase cancelled, etc."
+    },
+    "ProcedureIdentification": {
+      "name": "Procedure Identification",
+      "definition": "Contains identification of the rail server procedure or the order in which the service was booked or a cancellation was completed."
+    },
+    "LoyaltyProgramme": {
+      "name": "Loyalty Programme",
+      "definition": "Loyalty programme details."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "TransparencyDataReport11",
+  "language": "en",
+  "name": "Transparency Data Report 11",
+  "definition": "Provides for reporting qualitative details of equity instruments as part of Transparency calculations.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice messages.||Usage:|This identification will be used in the status advice report sent back."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "FullName": {
+      "name": "Full Name",
+      "definition": "Full name or description of the financial instrument."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Segment MIC for the trading venue where applicable, otherwise the operational MIC."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Date for which the data is provided."
+    },
+    "FinancialInstrumentClassification": {
+      "name": "Financial Instrument Classification",
+      "definition": "Specifies the classification of the equity instrument."
+    },
+    "NumberOutstandingInstruments": {
+      "name": "Number Outstanding Instruments",
+      "definition": "For shares and depositary receipts, the total number of outstanding instruments. |For ETFs, the number of units issued for trading."
+    },
+    "HoldingsExceedingTotalVotingRightThreshold": {
+      "name": "Holdings Exceeding Total Voting Right Threshold",
+      "definition": "The total number of shares corresponding to holdings exceeding 5% of total voting rights of the issuer unless such a holding is held by a collective investment undertaking or a pension fund. This field is to be populated only when actual information is known."
+    },
+    "IssuanceSize": {
+      "name": "Issuance Size",
+      "definition": "Issuance size of the certificate expressed in Euros."
+    },
+    "InstrumentPrice": {
+      "name": "Instrument Price",
+      "definition": "Before the first admission to trading of the instrument, the price of the instrument as it will stand at the start of the first day of trading.||After the first admission to trading of the instrument, the price of the instrument at the last trading day of the previous year, or at the end of the day on which a corporate action is effective. The price should be expressed in Euros. To be reported for shares and depositary receipts."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    },
+    "ValidMICRule": {
+      "definition": "Where reported, Market Identification code must be an active market for that reporting period."
+    }
+  }
+}

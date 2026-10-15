@@ -1,0 +1,23 @@
+{
+  "isoType": "BaselineStatus2Code",
+  "language": "en",
+  "name": "Baseline Status 2 Code",
+  "definition": "Specifies the status requested to be assigned to the baseline.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "State of a baseline, after establishment, when all match instructions have been processed, and no such instruction is allowed anymore."
+    },
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "Final state of a baseline, in which only reporting is allowed."
+    },
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "State of a baseline, after establishment, when one or more instructions (eg, amendment request, data set submission) have been processed."
+    }
+  }
+}

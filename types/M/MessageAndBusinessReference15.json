@@ -1,0 +1,25 @@
+{
+  "isoType": "MessageAndBusinessReference15",
+  "language": "en",
+  "name": "Message And Business Reference 15",
+  "definition": "Information to identify funds order(s).",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to a linked message that was previously received."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifiers of one or more individual order instructions or individual order cancellation requests."
+    }
+  },
+  "isoRules": {
+    "ReferenceElementRule": {
+      "definition": "One of the elements (Reference, RelatedReference, OrderReference) must be present."
+    }
+  }
+}

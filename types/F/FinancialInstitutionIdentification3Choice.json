@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancialInstitutionIdentification3Choice",
+  "language": "en",
+  "name": "Financial Institution Identification 3 Choice",
+  "definition": "Choice between formats for the identification of the financial institution.",
+  "isoElements": {
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Identifies the name and (long) postal address of a financial institution."
+    },
+    "BIC": {
+      "name": "BIC",
+      "definition": "Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "ClearingSystemMemberIdentification": {
+      "name": "Clearing System Member Identification",
+      "definition": "Choice of identifier for a clearing system member, as assigned by the clearing system. In some clearing systems, the accounts of the clearing system members are also assigned an identifier."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    }
+  }
+}

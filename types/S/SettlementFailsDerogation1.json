@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementFailsDerogation1",
+  "language": "en",
+  "name": "Settlement Fails Derogation 1",
+  "definition": "Specifies the derogation related data of settlement fails instructions.",
+  "isoElements": {
+    "EligibilityIndicator": {
+      "name": "Eligibility Indicator",
+      "definition": "Defines whether the item is eligible for derogation or not."
+    },
+    "Justification": {
+      "name": "Justification",
+      "definition": "Justification for the derogation."
+    }
+  },
+  "isoRules": {
+    "JustificationPresenceRule": {
+      "definition": "If EligibilityIndicator is equal to true, then Justification must be present."
+    }
+  }
+}

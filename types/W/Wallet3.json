@@ -1,0 +1,84 @@
+{
+  "isoType": "Wallet3",
+  "language": "en",
+  "name": "Wallet 3",
+  "definition": "Container for tenders used by the customer to perform the payment transaction.",
+  "isoElements": {
+    "Provider": {
+      "name": "Provider",
+      "definition": "Identification of the provider of the wallet."
+    },
+    "PANAge": {
+      "name": "PAN Age",
+      "definition": "Number of days that the user’s PAN has been on file for the user."
+    },
+    "UserAccountAge": {
+      "name": "User Account Age",
+      "definition": "Number of days since the user wallet account for this user exists."
+    },
+    "AccountAge": {
+      "name": "Account Age",
+      "definition": "Number of days since the user created the wallet account or started using the wallet."
+    },
+    "DaysSinceLastActivity": {
+      "name": "Days Since Last Activity",
+      "definition": "Number of days since the last activity on the wallet."
+    },
+    "Activity": {
+      "name": "Activity",
+      "definition": "Number of transactions on this wallet within an interval."
+    },
+    "ActivityInterval": {
+      "name": "Activity Interval",
+      "definition": "Identifies the interval of the activity."
+    },
+    "LastWalletChange": {
+      "name": "Last Wallet Change",
+      "definition": "Number of days since wallet settings were changed."
+    },
+    "SuspendedCards": {
+      "name": "Suspended Cards",
+      "definition": "Number of cards suspended in the wallet."
+    },
+    "AccountCountry": {
+      "name": "Account Country",
+      "definition": "Country of the wallet account."
+    },
+    "CardDataEntryMode": {
+      "name": "Card Data Entry Mode",
+      "definition": "Method used to capture the card details for the wallet."
+    },
+    "OtherCardDataEntryMode": {
+      "name": "Other Card Data Entry Mode",
+      "definition": "Other method used to capture the card details."
+    },
+    "AccountEmailAge": {
+      "name": "Account Email Age",
+      "definition": "Number of days the email address has been in the wallet."
+    },
+    "ProviderRiskAssessment": {
+      "name": "Provider Risk Assessment",
+      "definition": "Wallet Provider Risk Assessment."
+    },
+    "ProviderRiskAssessmentModelVersion": {
+      "name": "Provider Risk Assessment Model Version",
+      "definition": "Wallet Provider Risk Assessment Model Version used to create scores."
+    },
+    "ProviderPhoneScore": {
+      "name": "Provider Phone Score",
+      "definition": "A value to determine trust level of the phone number."
+    },
+    "ProviderDeviceScore": {
+      "name": "Provider Device Score",
+      "definition": "A value to determine trust level of the device."
+    },
+    "ProviderAccountScore": {
+      "name": "Provider Account Score",
+      "definition": "A value to determine trust level of the account."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional data associated with wallet."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CollateralSubstitutionConfirmation1Code",
+  "language": "en",
+  "name": "Collateral Substitution Confirmation 1 Code",
+  "definition": "Provides the status of the collateral substitution, either returned or released.",
+  "isoCodes": {
+    "CREL": {
+      "isoName": "CollateralSubstitutionReleased",
+      "name": "Collateral Substitution Released",
+      "definition": "Notification that the collateral substitution, that is new piece(s) of collateral, have been released."
+    },
+    "CRET": {
+      "isoName": "CollateralSubstitutionReturned",
+      "name": "Collateral Substitution Returned",
+      "definition": "Confirmation that the collateral substitution, that is new piece(s) of collateral, have been received."
+    }
+  }
+}

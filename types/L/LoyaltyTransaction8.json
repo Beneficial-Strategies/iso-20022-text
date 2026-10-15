@@ -1,0 +1,32 @@
+{
+  "isoType": "LoyaltyTransaction8",
+  "language": "en",
+  "name": "Loyalty Transaction 8",
+  "definition": "Data related to the loyalty transaction.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "LoyaltyTransactionType": {
+      "name": "Loyalty Transaction Type",
+      "definition": "Data related to the loyalty transaction."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the loyalty transaction."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Amount of the payment transaction related to the Loyalty."
+    },
+    "OriginalPOITransaction": {
+      "name": "Original POI Transaction",
+      "definition": "Data of a previous POI payment transaction."
+    },
+    "SaleItem": {
+      "name": "Sale Item",
+      "definition": "Item purchased with the transaction."
+    }
+  }
+}

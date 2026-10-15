@@ -1,0 +1,28 @@
+{
+  "isoType": "DTCCCAINSD1V07",
+  "language": "en",
+  "name": "DTCCCAINSD 1 V 07",
+  "definition": "The DTCCCAINSD1 message extends ISO corporate action instruction message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "OptionalDividend": {
+      "name": "Optional Dividend",
+      "definition": "DTC (The Depository Trust Corporation) optional dividend service election."
+    },
+    "TaxExempt": {
+      "name": "Tax Exempt",
+      "definition": "DTC (The Depository Trust Corporation) tax exempt service election."
+    },
+    "TaxCategory": {
+      "name": "Tax Category",
+      "definition": "Tax category number assigned on the announcement to provide a breakdown at a category level on the inbound instruction to determine tax treatment as required by issuers, their agents, or tax authorities."
+    },
+    "WireInstruction": {
+      "name": "Wire Instruction",
+      "definition": "DTC (The Depository Trust Corporation) foreign currency payment service wire payment instruction."
+    },
+    "ReorganisationInstructionDetails": {
+      "name": "Reorganisation Instruction Details",
+      "definition": "Information to be extended as supplementary data to instruction message for reorganisation events."
+    }
+  }
+}

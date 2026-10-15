@@ -1,0 +1,29 @@
+{
+  "isoType": "TradeAdditionalQueryCriteria7",
+  "language": "en",
+  "name": "Trade Additional Query Criteria 7",
+  "definition": "Query criteria regarding action type, product classification, venue of execution, asset class, corporate sector nature of counterparty.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Action types allowed as query criteria."
+    },
+    "ExecutionVenue": {
+      "name": "Execution Venue",
+      "definition": "Indicates the execution venue of the reported transaction."
+    },
+    "NatureOfCounterparty": {
+      "name": "Nature Of Counterparty",
+      "definition": "Indicates the nature of the reporting counterparty (if it is a central counterparty (CCP), a financial counterparty, a non-financial counterparty or another type of counterparty)."
+    },
+    "CorporateSector": {
+      "name": "Corporate Sector",
+      "definition": "Specifies the corporate sector of the reporting counterparty."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 4 elements must be present."
+    }
+  }
+}

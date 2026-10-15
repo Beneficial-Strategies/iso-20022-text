@@ -1,0 +1,48 @@
+{
+  "isoType": "ExternalTransactorType1Code",
+  "language": "en",
+  "name": "External Transactor Type 1 Code",
+  "definition": "Specifies a code to identify the transactor type. ||External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "DWTP": {
+      "isoName": "DigitalWalletProvider",
+      "name": "Digital Wallet Provider",
+      "definition": "Entity that offers a digital wallet solution enabling users to store payment instruments and initiate transactions electronically."
+    },
+    "GATW": {
+      "isoName": "Gateway",
+      "name": "Gateway",
+      "definition": "Service provider that acts as an intermediary between merchants and payment networks, securely transmitting transaction data."
+    },
+    "IDSO": {
+      "isoName": "IndepententSalesOrganisation",
+      "name": "Indepentent Sales Organisation",
+      "definition": "Third-party entity that partners with acquiring banks to provide merchant services, recruit merchants, and manage relationships."
+    },
+    "MKTP": {
+      "isoName": "Marketplace",
+      "name": "Marketplace",
+      "definition": "Platform that connects buyers and sellers, facilitating transactions and often handling payment processing and settlement."
+    },
+    "PMFT": {
+      "isoName": "PaymentFacilitator",
+      "name": "Payment Facilitator",
+      "definition": "Entity that enables sub-merchants to accept electronic payments without requiring each sub-merchant to have a direct merchant account."
+    },
+    "RMPP": {
+      "isoName": "RampProvider",
+      "name": "Ramp Provider",
+      "definition": "Service that enables conversion between fiat currency and digital assets, facilitating on-ramps and off-ramps."
+    },
+    "SDWP": {
+      "isoName": "StagedDigitalWalletProvider",
+      "name": "Staged Digital Wallet Provider",
+      "definition": "Provider of a wallet solution where the funding source and transaction execution are separated into stages."
+    },
+    "UPTA": {
+      "isoName": "UtilityPaymentAggregator",
+      "name": "Utility Payment Aggregator",
+      "definition": "Entity that consolidates bill payments for utilities and provides a single interface for consumers or businesses to pay multiple service providers."
+    }
+  }
+}

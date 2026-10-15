@@ -1,0 +1,40 @@
+{
+  "isoType": "LoyaltyTransactionTotals1",
+  "language": "en",
+  "name": "Loyalty Transaction Totals 1",
+  "definition": "Transaction totals during the reconciliation period, for a certain type of transaction.",
+  "isoElements": {
+    "POIGroupIdentification": {
+      "name": "POI Group Identification",
+      "definition": "Identifier assigned by the merchant identifying a set of POI terminals performing some categories of transactions."
+    },
+    "LoyaltyUnit": {
+      "name": "Loyalty Unit",
+      "definition": "Unit of the amount, expressed in point or in a monetary value and a currency."
+    },
+    "CardProductProfile": {
+      "name": "Card Product Profile",
+      "definition": "Cards category related to the acceptance processing rules defined by the Loyalty provider."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency associated with the transaction totals."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of Loyalty transaction for Report."
+    },
+    "TotalNumber": {
+      "name": "Total Number",
+      "definition": "Total number of transactions during a reconciliation period."
+    },
+    "CumulativeAmount": {
+      "name": "Cumulative Amount",
+      "definition": "Total amount of a collection of transactions."
+    },
+    "DetailedAmount": {
+      "name": "Detailed Amount",
+      "definition": "Detailed amounts associated with the total amount of transactions."
+    }
+  }
+}

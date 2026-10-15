@@ -1,0 +1,38 @@
+{
+  "isoType": "SystemSecuritiesAccountType1Code",
+  "language": "en",
+  "name": "System Securities Account Type 1 Code",
+  "definition": "Lists the type of the securities account specific for a system.",
+  "isoCodes": {
+    "CSDP": {
+      "isoName": "CSDParticipantAccount",
+      "name": "CSD Participant Account",
+      "definition": "Account owned by a CSD Participant|."
+    },
+    "CSDM": {
+      "isoName": "CSDMirrorAccount",
+      "name": "CSD Mirror Account",
+      "definition": "Account operated by CSD for mirroring positions|."
+    },
+    "ICSA": {
+      "isoName": "InterCSDAccount",
+      "name": "Inter CSD Account",
+      "definition": "Account operated by CSD for settlement of securities legs for instructions involving internal CSD s."
+    },
+    "TOFF": {
+      "isoName": "TechnicalOffsetAccount",
+      "name": "Technical Offset Account",
+      "definition": "Account operated by CSDs in a direct holding market context."
+    },
+    "CSDO": {
+      "isoName": "CSDOmnibusAccount",
+      "name": "CSD Omnibus Account",
+      "definition": "Account operated by CSD in cross-CSD settlement context."
+    },
+    "ISSA": {
+      "isoName": "IssuanceAccount",
+      "name": "Issuance Account",
+      "definition": "Account reflecting the holdings of the participants of the issuer CSD for a given financial instrument."
+    }
+  }
+}

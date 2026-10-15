@@ -1,0 +1,28 @@
+{
+  "isoType": "TaxationBasis4Code",
+  "language": "en",
+  "name": "Taxation Basis 4 Code",
+  "definition": "Specifies the tax basis.",
+  "isoCodes": {
+    "FLAT": {
+      "isoName": "Flat",
+      "name": "Flat",
+      "definition": "Charge/tax basis is a lump sum."
+    },
+    "PERU": {
+      "isoName": "PerUnit",
+      "name": "Per Unit",
+      "definition": "Charges/tax basis is per unit of financial instrument."
+    },
+    "GRAM": {
+      "isoName": "GrossAmount",
+      "name": "Gross Amount",
+      "definition": "Charge/Commission/tax basis is based on the gross amount."
+    },
+    "NEAM": {
+      "isoName": "NetAmount",
+      "name": "Net Amount",
+      "definition": "Charge/commission/tax basis is based on the net amount."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "InterestRateDetails2",
+  "language": "en",
+  "name": "Interest Rate Details 2",
+  "definition": "Details of the interest rate",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Interest rate applicable to the instalment."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other type of interest applied to the instalment, when Type is OtherNational or OtherPrivate."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Contains instalment period"
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate expressed as a decimal, example, 0.7 is 7/10 and 70%."
+    }
+  }
+}

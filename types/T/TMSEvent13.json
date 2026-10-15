@@ -1,0 +1,32 @@
+{
+  "isoType": "TMSEvent13",
+  "language": "en",
+  "name": "TMS Event 13",
+  "definition": "Result of an individual terminal management action performed by the point of interaction.",
+  "isoElements": {
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Date time of the terminal management action performed by the point of interaction."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Final result of the processed terminal management action."
+    },
+    "ActionIdentification": {
+      "name": "Action Identification",
+      "definition": "Identification of the terminal management action performed by the point of interaction."
+    },
+    "AdditionalErrorInformation": {
+      "name": "Additional Error Information",
+      "definition": "Additional information related to a failure."
+    },
+    "TerminalManagerIdentification": {
+      "name": "Terminal Manager Identification",
+      "definition": "Identification of the terminal management system (TMS) used with the action."
+    },
+    "DeviceResponse": {
+      "name": "Device Response",
+      "definition": "Response  of a device request done previously."
+    }
+  }
+}

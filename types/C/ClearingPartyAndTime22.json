@@ -1,0 +1,41 @@
+{
+  "isoType": "ClearingPartyAndTime22",
+  "language": "en",
+  "name": "Clearing Party And Time 22",
+  "definition": "Specifies the central counterparty clearing time.",
+  "isoElements": {
+    "CCP": {
+      "name": "CCP",
+      "definition": "Identifies the central counterparty (CCP) that cleared the transaction."
+    },
+    "ClearingReceiptDateTime": {
+      "name": "Clearing Receipt Date Time",
+      "definition": "Time and date when the original derivative was received by the central counterparty for clearing."
+    },
+    "ClearingDateTime": {
+      "name": "Clearing Date Time",
+      "definition": "Time and date when clearing took place."
+    },
+    "ClearingIdentifier": {
+      "name": "Clearing Identifier",
+      "definition": "Unique identifier of each clearing derivative that replaces the original derivative that was submitted for clearing to the central counterparty, other than the identifier for the transaction being reported."
+    },
+    "OriginalIdentifier": {
+      "name": "Original Identifier",
+      "definition": "Unique identifier of the original derivative submitted for clearing to the central counterparty that is replaced by the clearing derivative."
+    },
+    "OriginalTradeRepositoryIdentifier": {
+      "name": "Original Trade Repository Identifier",
+      "definition": "Identifies the trade repository to which the original derivative was reported."
+    },
+    "ClearingAccountOrigin": {
+      "name": "Clearing Account Origin",
+      "definition": "Indicator of whether the clearing member acted as principal for a house trade or an agent for a customer trade."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 7 elements must be present."
+    }
+  }
+}

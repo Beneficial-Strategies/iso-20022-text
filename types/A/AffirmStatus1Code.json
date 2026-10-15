@@ -1,0 +1,58 @@
+{
+  "isoType": "AffirmStatus1Code",
+  "language": "en",
+  "name": "Affirm Status 1 Code",
+  "definition": "Identifies the status of the confirmation acknowledgement.",
+  "isoCodes": {
+    "ATCN": {
+      "isoName": "AckToConfirmCompleteNotification",
+      "name": "Ack To Confirm Complete Notification",
+      "definition": "Notfies that the trade confimation was conpleted."
+    },
+    "ATSC": {
+      "isoName": "AckToSettlementStateChanged",
+      "name": "Ack To Settlement State Changed",
+      "definition": "Notfies the clearing status changed."
+    },
+    "COMP": {
+      "isoName": "Compared",
+      "name": "Compared",
+      "definition": "Data was successfully matched."
+    },
+    "MISM": {
+      "isoName": "MisMatched",
+      "name": "Mis Matched",
+      "definition": "Data was mismatched."
+    },
+    "MISE": {
+      "isoName": "ModeError",
+      "name": "Mode Error",
+      "definition": "Model has errors."
+    },
+    "NOTP": {
+      "isoName": "NoTradingPrivilege",
+      "name": "No Trading Privilege",
+      "definition": "Have no trading permissions."
+    },
+    "OUOR": {
+      "isoName": "OutOfRange",
+      "name": "Out Of Range",
+      "definition": "Query time was out of range."
+    },
+    "OUOS": {
+      "isoName": "OutOfService",
+      "name": "Out Of Service",
+      "definition": "Query time was over system service time."
+    },
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Format of upload data was right, and system receives successfully."
+    },
+    "UNRE": {
+      "isoName": "Unreceived",
+      "name": "Unreceived",
+      "definition": "Format of upload data was wrong, and system receives unsuccessfully."
+    }
+  }
+}

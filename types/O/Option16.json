@@ -1,0 +1,81 @@
+{
+  "isoType": "Option16",
+  "language": "en",
+  "name": "Option 16",
+  "definition": "List of elements which provide the parameters of an option trade.",
+  "isoElements": {
+    "Data": {
+      "name": "Data",
+      "definition": "Type of data to indicate whether a trade is an option or resulted by an option exercise."
+    },
+    "ExerciseStatus": {
+      "name": "Exercise Status",
+      "definition": "Specifies the exercise status of the option."
+    },
+    "ExerciseStyle": {
+      "name": "Exercise Style",
+      "definition": "Defines how an option can be exercised."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Choice of format for option type."
+    },
+    "DerivativeOptionIdentification": {
+      "name": "Derivative Option Identification",
+      "definition": "Identifies the derivative option."
+    },
+    "OptionPayoutType": {
+      "name": "Option Payout Type",
+      "definition": "Indicates the type of payout that will result from an in-the-money option."
+    },
+    "ValuationRate": {
+      "name": "Valuation Rate",
+      "definition": "Specifies the valuation rate used for the trade."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Specifies the rate of exchange at which the foreign exchange option has been struck."
+    },
+    "VolatilityMargin": {
+      "name": "Volatility Margin",
+      "definition": "Annualized volatility for option model calculations."
+    },
+    "RiskAmount": {
+      "name": "Risk Amount",
+      "definition": "Measurement of the amount of the trade values converted in the US dollars."
+    },
+    "ExpiryDateAndTime": {
+      "name": "Expiry Date And Time",
+      "definition": "Date on which a privilege (for example, option, right, warrant.) expires. If it is an European option, the option holder can only exercise the right or let it lapse on expiry date. If it is an American option, the option holder can exercise the right up to the expiry date."
+    },
+    "ExpiryLocation": {
+      "name": "Expiry Location",
+      "definition": "Financial center where option expires."
+    },
+    "SettlementType": {
+      "name": "Settlement Type",
+      "definition": "Specifies the settlment period of the option trade."
+    },
+    "OptionAmounts": {
+      "name": "Option Amounts",
+      "definition": "Specifies the call and the put amount of the underlying foreign exchange trade."
+    },
+    "Premium": {
+      "name": "Premium",
+      "definition": "Specifies the amount of the premium of a foreign exchange option trade and its settlement place."
+    },
+    "SettlementAmountType": {
+      "name": "Settlement Amount Type",
+      "definition": "Indicates whether the trade is to be settled as principal or netted off against another trade."
+    },
+    "AdditionalOptionInformation": {
+      "name": "Additional Option Information",
+      "definition": "Free format text that may contain information on the option."
+    }
+  },
+  "isoRules": {
+    "EarliestExerciseDateRule": {
+      "definition": "If ExerciseStyle is AMER, then EarliestExerciseDate must be present."
+    }
+  }
+}

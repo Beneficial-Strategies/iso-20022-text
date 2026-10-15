@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementTotalData1",
+  "language": "en",
+  "name": "Settlement Total Data 1",
+  "definition": "Specifies the aggregated data of settlement instructions.",
+  "isoElements": {
+    "Settled": {
+      "name": "Settled",
+      "definition": "Aggregated volume and value of settlement instructions settled during the period covered by the report, for financial Instruments, types of transactions, types of clients and cash transfers."
+    },
+    "Failed": {
+      "name": "Failed",
+      "definition": "Aggregated volume and value of settlement instructions failed during the period covered by the report, for financial Instruments, types of transactions, types of clients and cash transfers."
+    },
+    "Total": {
+      "name": "Total",
+      "definition": "Aggregated total volume and value of settlement instructions performed (settled and failed) during the period covered by the report, for financial Instruments, types of transactions, types of clients and cash transfers."
+    },
+    "FailedRate": {
+      "name": "Failed Rate",
+      "definition": "Rate of failed settlement instructions compared to the total volume and value, of settlement instructions performed (settled and failed) during the period covered by the report."
+    }
+  }
+}

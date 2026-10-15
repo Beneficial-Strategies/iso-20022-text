@@ -6,19 +6,19 @@
   "isoElements": {
     "Header": {
       "name": "Header",
-      "definition": ""
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
     },
     "ProtectedATMDeviceControl": {
       "name": "Protected ATM Device Control",
-      "definition": ""
+      "definition": "Encrypted body of the message."
     },
     "ATMDeviceControl": {
       "name": "ATM Device Control",
-      "definition": ""
+      "definition": "Information related to the control of an ATM device."
     },
     "SecurityTrailer": {
       "name": "Security Trailer",
-      "definition": ""
+      "definition": "Trailer of the message containing a MAC or a digital signature."
     }
   }
 }

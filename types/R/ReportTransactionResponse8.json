@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportTransactionResponse8",
+  "language": "en",
+  "name": "Report Transaction Response 8",
+  "definition": "Content of the Transaction Report Response message.",
+  "isoElements": {
+    "ReportFullSize": {
+      "name": "Report Full Size",
+      "definition": "Specifies the total number of transactions matching the search criteria."
+    },
+    "BlockStart": {
+      "name": "Block Start",
+      "definition": "Index of the first transaction reported in this message within the list of transactions matching the search criteria."
+    },
+    "BlockStop": {
+      "name": "Block Stop",
+      "definition": "Index of the last transaction reported in this message."
+    },
+    "TransactionReport": {
+      "name": "Transaction Report",
+      "definition": "List of Transaction Report containing one Transaction Report for each transaction matching the Search criteria. This list may be partial according to requested block."
+    }
+  }
+}

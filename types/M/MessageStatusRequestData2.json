@@ -1,0 +1,24 @@
+{
+  "isoType": "MessageStatusRequestData2",
+  "language": "en",
+  "name": "Message Status Request Data 2",
+  "definition": "Content of the Message TransactionStatus Request message.",
+  "isoElements": {
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Transaction identification."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Initiating Party information."
+    },
+    "ReceiptReprintFlag": {
+      "name": "Receipt Reprint Flag",
+      "definition": "Request to reprint the POI receipt(s)."
+    },
+    "DocumentQualifier": {
+      "name": "Document Qualifier",
+      "definition": "Customer or Cashier Receipt."
+    }
+  }
+}

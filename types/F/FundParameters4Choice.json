@@ -1,0 +1,21 @@
+{
+  "isoType": "FundParameters4Choice",
+  "language": "en",
+  "name": "Fund Parameters 4 Choice",
+  "definition": "Choice of fund parameters.",
+  "isoElements": {
+    "NoCriteria": {
+      "name": "No Criteria",
+      "definition": "Specifies that there is no criteria for the report. The request is a request for all reports, rather than reports attributed to a specific fund manager, date or financial instrument."
+    },
+    "Parameters": {
+      "name": "Parameters",
+      "definition": "Report parameters."
+    }
+  },
+  "isoRules": {
+    "ReportParameterRule1": {
+      "definition": "If Parameters is present, at least one element in the list (Parameters/FundManagementCompany, Parameters/FinancialInstrumentDetails, Parameters/DateFrom) must be present. More than one element in the list (Parameters/FundManagementCompany, Parameters/FinancialInstrumentDetails, Parameters/DateFrom) may be present."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "CollateralSubstitutionRequestV05",
+  "language": "en",
+  "name": "Collateral Substitution Request V 05",
+  "definition": "Scope|The CollateralSubstitutionRequest message is sent by either the collateral giver or its collateral manager to the collateral taker or its collateral manager. It is used to request a substitution of collateral by specifying the collateral to be returned and proposing the new type(s) of collateral to be delivered. Note: There are cases where the collateral taker can initiate the CollateralSubstitutionRequest message, for example in case of breach in the concentration limit.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|The CollateralSubstitutionRequest message can be sent by either the collateral giver or collateral taker in order to substitute collateral that is already held by the other party.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement details for the over the counter market."
+    },
+    "CollateralSubstitutionReturn": {
+      "name": "Collateral Substitution Return",
+      "definition": "Provides details about the collateral that will be returned."
+    },
+    "CollateralSubstitutionDeliver": {
+      "name": "Collateral Substitution Deliver",
+      "definition": "Provides details about the collateral that will be delivered."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

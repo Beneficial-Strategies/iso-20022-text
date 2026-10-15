@@ -1,0 +1,52 @@
+{
+  "isoType": "Cardholder21",
+  "language": "en",
+  "name": "Cardholder 21",
+  "definition": "Data related to the cardholder.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the cardholder involved in a transaction."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Cardholder name associated with the card."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language selected for the cardholder interface during the transaction.|Reference ISO 639-1 (alpha-2) et ISO 639-2 (alpha-3)."
+    },
+    "BillingAddress": {
+      "name": "Billing Address",
+      "definition": "Postal address of the owner of the payment card."
+    },
+    "ShippingAddress": {
+      "name": "Shipping Address",
+      "definition": "Postal address for delivery of goods or services."
+    },
+    "TripNumber": {
+      "name": "Trip Number",
+      "definition": "Identification of the trip."
+    },
+    "Vehicle": {
+      "name": "Vehicle",
+      "definition": "Information related to the vehicle used for the transaction."
+    },
+    "Authentication": {
+      "name": "Authentication",
+      "definition": "Method and data intended to be used for this transaction to authenticate the cardholder and its card."
+    },
+    "TransactionVerificationResult": {
+      "name": "Transaction Verification Result",
+      "definition": "Result of performed verifications for the transaction."
+    },
+    "PersonalData": {
+      "name": "Personal Data",
+      "definition": "Identifies personal data related to the cardholder."
+    },
+    "MobileData": {
+      "name": "Mobile Data",
+      "definition": "Data related to the mobile of stakeholder."
+    }
+  }
+}

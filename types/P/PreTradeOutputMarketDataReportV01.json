@@ -1,0 +1,20 @@
+{
+  "isoType": "PreTradeOutputMarketDataReportV01",
+  "language": "en",
+  "name": "Pre Trade Output Market Data Report V 01",
+  "definition": "The PreTradeOutputMarketDataReport message is sent by the Consolidated Tape Provider, based on data submitted by Trading Venues, in accordance with local regulations. The message contains consolidated pre-trade transparency data for financial instruments, including aggregated bid and ask prices, order sizes, type of auction, and timestamps.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the pre-trade core output data report."
+    },
+    "OutputDataReport": {
+      "name": "Output Data Report",
+      "definition": "Report related to the output of pre-trade transparency data for financial instruments."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

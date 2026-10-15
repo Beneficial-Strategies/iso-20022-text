@@ -1,0 +1,25 @@
+{
+  "isoType": "CollateralCancellationStatus2",
+  "language": "en",
+  "name": "Collateral Cancellation Status 2",
+  "definition": "Provides details on the status (that is accept or reject) of the CollateralManagementCancellationRequest message.",
+  "isoElements": {
+    "CollateralStatusCode": {
+      "name": "Collateral Status Code",
+      "definition": "Allows to provide a cancellation status using a code or a proprietary status."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information on the status of the CollateralManagementCancellationRequest message."
+    },
+    "RejectionDetails": {
+      "name": "Rejection Details",
+      "definition": "Provides rejection reason and optionaly additional information."
+    }
+  },
+  "isoRules": {
+    "StatusRejectionReasonRule": {
+      "definition": "If Collateral StatusCode equals Rejected then RejectionDetails must be present."
+    }
+  }
+}

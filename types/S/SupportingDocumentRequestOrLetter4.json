@@ -1,0 +1,56 @@
+{
+  "isoType": "SupportingDocumentRequestOrLetter4",
+  "language": "en",
+  "name": "Supporting Document Request Or Letter 4",
+  "definition": "Currency control related document or letter supporting the contract registration.",
+  "isoElements": {
+    "RequestOrLetterIdentification": {
+      "name": "Request Or Letter Identification",
+      "definition": "Unique and unambiguous identification of the supporting document request or the letter."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date of the supporting document request or the letter."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Sender of the request or letter."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Receiver of the request or letter."
+    },
+    "OriginalReferences": {
+      "name": "Original References",
+      "definition": "Provides the references of the original underlying message(s) for which supporting documents are requested or for which the letter is sent."
+    },
+    "Subject": {
+      "name": "Subject",
+      "definition": "Subject of the letter or supporting document."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Provides the type of supporting document requested."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Further free format description of the request."
+    },
+    "ResponseRequired": {
+      "name": "Response Required",
+      "definition": "Flag to indicate whether a response is required or not.||Usage: when the request is used to send a letter, there is no response required."
+    },
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Date by which the response to the request is expected."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the supporting document request or letter."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

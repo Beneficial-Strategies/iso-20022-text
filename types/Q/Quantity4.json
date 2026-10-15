@@ -1,0 +1,29 @@
+{
+  "isoType": "Quantity4",
+  "language": "en",
+  "name": "Quantity 4",
+  "definition": "Specifies the quantity of a product in a trade transaction.",
+  "isoElements": {
+    "UnitOfMeasureCode": {
+      "name": "Unit Of Measure Code",
+      "definition": "Specifies the unit of measurement. For example, kilo, tons."
+    },
+    "OtherUnitOfMeasure": {
+      "name": "Other Unit Of Measure",
+      "definition": "Identifies the unit of measure not present in the code list."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Quantity of a product on a line specified by a number. For example, 100 (kgs), 50 (pieces)."
+    },
+    "Factor": {
+      "name": "Factor",
+      "definition": "Multiplication factor of measurement values. For example: goods that can be ordered by 36 pieces."
+    }
+  },
+  "isoRules": {
+    "UnitOfMeasureCodeOrOtherUnitOfMeasureRule": {
+      "definition": "If UnitOfMeasureCode is present, then OtherUnitOfMeasure is not allowed. If UnitOfMeasureCode is not present, then OtherUnitOfMeasure is mandatory."
+    }
+  }
+}

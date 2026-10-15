@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPInvestmentsReportV02",
+  "language": "en",
+  "name": "CCP Investments Report V 02",
+  "definition": "The CCPInvestmentsReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about how the central counterparty invests the cash balances deposited with it as collateral by its clearing members.",
+  "isoElements": {
+    "Investment": {
+      "name": "Investment",
+      "definition": "Specifies a financial instrument purchased by a central counterparty using clearing member assets."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

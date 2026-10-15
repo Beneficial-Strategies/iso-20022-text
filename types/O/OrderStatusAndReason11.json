@@ -1,0 +1,20 @@
+{
+  "isoType": "OrderStatusAndReason11",
+  "language": "en",
+  "name": "Order Status And Reason 11",
+  "definition": "Status report of a bulk or multiple or switch order that was previously received.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Reference assigned to a set of orders or trades in order to link them together."
+    },
+    "OrderStatus": {
+      "name": "Order Status",
+      "definition": "Status of a 'bulk' of orders. Can be used if all the individual orders conveyed in a bulk or multiple order message have the same status."
+    },
+    "StatusInitiator": {
+      "name": "Status Initiator",
+      "definition": "Party that initiates the status of the order."
+    }
+  }
+}

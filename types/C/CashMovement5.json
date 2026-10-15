@@ -1,0 +1,28 @@
+{
+  "isoType": "CashMovement5",
+  "language": "en",
+  "name": "Cash Movement 5",
+  "definition": "Movements of cash.",
+  "isoElements": {
+    "CashMovement": {
+      "name": "Cash Movement",
+      "definition": "Specifies whether the cash amount is to be delivered or received."
+    },
+    "CashAmount": {
+      "name": "Cash Amount",
+      "definition": "Amount of the cash movement"
+    },
+    "CollateralMovement": {
+      "name": "Collateral Movement",
+      "definition": "Specifies whether the amount is delivered/received as part of collateral or not."
+    },
+    "ClientCashMovementIdentification": {
+      "name": "Client Cash Movement Identification",
+      "definition": "Reference assigned by party A to the cash movement."
+    },
+    "TripartyAgentServiceProviderCashMovementIdentification": {
+      "name": "Triparty Agent Service Provider Cash Movement Identification",
+      "definition": "Reference assigned by the triparty agent to the cash movement."
+    }
+  }
+}

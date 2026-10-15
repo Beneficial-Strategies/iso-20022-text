@@ -1,0 +1,24 @@
+{
+  "isoType": "AmendForeignExchangeOptionV02",
+  "language": "en",
+  "name": "Amend Foreign Exchange Option V 02",
+  "definition": "Scope|The AmendForeignExchangeOption message is sent by a participant to a central system or to a counterparty to notify the amendment of a foreign currency option contract.|Usage|The message contains a Related Reference to link it to the previously sent notification and may contain an reason for amendment.|This message is only suitable for Simple (i.e. not Barrier) Vanilla (i.e. not Binary, Digital, Notouch) Foreign Exchange Options.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides reference and date of the foreign exchange option trade which is amended."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the currency option trade which is amended."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the currency option trade which is amended."
+    },
+    "Option": {
+      "name": "Option",
+      "definition": "Specifies the parameters of the currency option which is bought by the trading side."
+    }
+  }
+}

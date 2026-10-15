@@ -1,0 +1,20 @@
+{
+  "isoType": "FloatingInterestRate4",
+  "language": "en",
+  "name": "Floating Interest Rate 4",
+  "definition": "Provides the index used to define the rate and optionally the basis point spread.",
+  "isoElements": {
+    "ReferenceRate": {
+      "name": "Reference Rate",
+      "definition": "Identifies the reference index for the debt instrument. ||Usage:|Where an identifier exists, the ISIN must be used; otherwise, names will be necessary (such as EURIBOR6M, LIBOR3M) as other identification."
+    },
+    "Term": {
+      "name": "Term",
+      "definition": "Term of the index."
+    },
+    "BasisPointSpread": {
+      "name": "Basis Point Spread",
+      "definition": "Provides the number of basis points added to (if positive) or deducted from (if negative) the underlying reference rate to calculate the actual interest rate applicable for a given period at issuance of the floating rate instrument.||Used to express differences in interest rates, for example, a difference of 0.10% is equivalent to a change of 10 basis points."
+    }
+  }
+}

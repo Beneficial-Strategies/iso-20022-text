@@ -1,0 +1,21 @@
+{
+  "isoType": "ComparePostTradeRiskReduction2",
+  "language": "en",
+  "name": "Compare Post Trade Risk Reduction 2",
+  "definition": "Specifies two values to compare for a post trade risk reduction.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 5 elements must be present."
+    }
+  }
+}

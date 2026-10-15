@@ -1,0 +1,24 @@
+{
+  "isoType": "ReconciliationRequest9",
+  "language": "en",
+  "name": "Reconciliation Request 9",
+  "definition": "Specifies  the type of financial services to be used with this message of reconciliation. There is only one service : ReconciliationRequest.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ReconciliationRequestData": {
+      "name": "Reconciliation Request Data",
+      "definition": "Content of the Reconciliation Request message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

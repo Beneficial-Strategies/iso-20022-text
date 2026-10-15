@@ -1,0 +1,49 @@
+{
+  "isoType": "TradeDateTimeQueryCriteria6",
+  "language": "en",
+  "name": "Trade Date Time Query Criteria 6",
+  "definition": "Date and time query criteria.",
+  "isoElements": {
+    "ReportingDateTime": {
+      "name": "Reporting Date Time",
+      "definition": "Indicates the reporting date and full hour that transaction was reported."
+    },
+    "ExecutionDateTime": {
+      "name": "Execution Date Time",
+      "definition": "Indicates the date and full hour the trade was executed."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Indicates the date when the trade was matured."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Indicates the date when obligations under the contract come into effect."
+    },
+    "ValuationDateTime": {
+      "name": "Valuation Date Time",
+      "definition": "Date and time of the valuation."
+    },
+    "ExpirationDate": {
+      "name": "Expiration Date",
+      "definition": "Indicates the date when the trade was terminated."
+    },
+    "EarlyTerminationDate": {
+      "name": "Early Termination Date",
+      "definition": "Indicates the effective date of the early termination of the reported derivative transaction."
+    },
+    "CollateralTimeStamp": {
+      "name": "Collateral Time Stamp",
+      "definition": "Indicates the collateral time stamp range."
+    },
+    "HistoricalAsOfDate": {
+      "name": "Historical As Of Date",
+      "definition": "Indicates a historical as-of date for which the query response shall be prepared."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

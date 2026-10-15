@@ -1,0 +1,28 @@
+{
+  "isoType": "RecurringTransaction3",
+  "language": "en",
+  "name": "Recurring Transaction 3",
+  "definition": "Financial loan (instalment) or a recurring transaction.",
+  "isoElements": {
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Date of first transfer."
+    },
+    "NumberOfOccurrences": {
+      "name": "Number Of Occurrences",
+      "definition": "Number of transfers to perform."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "Date of last transfer."
+    },
+    "PeriodUnit": {
+      "name": "Period Unit",
+      "definition": "Period of the recurring transfer."
+    },
+    "IntervalDay": {
+      "name": "Interval Day",
+      "definition": "Day of the period when the transfer will be performed."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "UndertakingStatusReportV01",
+  "language": "en",
+  "name": "Undertaking Status Report V 01",
+  "definition": "The UndertakingStatusReport message is exchanged between parties that have an interest in the referenced undertaking transaction. It notifies the recipient of the status of the transaction, such as acceptance or rejection, withdrawal, or non-conformation. The sender may add additional information, as appropriate.",
+  "isoElements": {
+    "UndertakingStatusReportDetails": {
+      "name": "Undertaking Status Report Details",
+      "definition": "Details of the undertaking status report."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the report."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "ContractMatchingCriteria3",
+  "language": "en",
+  "name": "Contract Matching Criteria 3",
+  "definition": "Compares information related to both sides of a contract.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Specifies whether the information on the ISINs are matching or not."
+    },
+    "UniqueProductIdentifier": {
+      "name": "Unique Product Identifier",
+      "definition": "Specifies whether the information on the Unique Product Identifiers are matching or not."
+    },
+    "AlternativeInstrumentIdentification": {
+      "name": "Alternative Instrument Identification",
+      "definition": "Specifies whether the information on the AIIs are matching or not."
+    },
+    "ProductClassification": {
+      "name": "Product Classification",
+      "definition": "Specifies whether the values defined as CFI (Classification of Financial Instruments-ISO 10962) identifier are matching or not."
+    },
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Specifies whether the information on the contract types are matching or not."
+    },
+    "AssetClass": {
+      "name": "Asset Class",
+      "definition": "Specifies whether the information on the asset classes are matching or not."
+    },
+    "DerivativeBasedOnCryptoAsset": {
+      "name": "Derivative Based On Crypto Asset",
+      "definition": "Specifies whether the information on the derivatives based on crypto assets are matching or not."
+    },
+    "UnderlyingInstrument": {
+      "name": "Underlying Instrument",
+      "definition": "Specifies whether the information on the underlying instruments are matching or not."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies whether the information on the settlement currency are matching or not."
+    },
+    "SettlementCurrencySecondLeg": {
+      "name": "Settlement Currency Second Leg",
+      "definition": "Specifies whether the information on the settlement currency second legs are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCompletionAdviceV03",
+  "language": "en",
+  "name": "ATM Completion Advice V 03",
+  "definition": "The ATMCompletionAdvice message is sent by an ATM to an acquirer or its agent to inform of the result of a transaction performed on the ATM.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMCompletionAdvice": {
+      "name": "Protected ATM Completion Advice",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMCompletionAdvice": {
+      "name": "ATM Completion Advice",
+      "definition": "Information related to the completion of an operation on the ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

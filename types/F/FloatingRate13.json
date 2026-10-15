@@ -1,0 +1,53 @@
+{
+  "isoType": "FloatingRate13",
+  "language": "en",
+  "name": "Floating Rate 13",
+  "definition": "Floating rate related information.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifier of the security subject of the transaction"
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "The full name of the interest rate as assigned by the index provider."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Indication of the floating rate used."
+    },
+    "ReferencePeriod": {
+      "name": "Reference Period",
+      "definition": "Information related to reference period."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Indicates a margin, over or under an index, which determines a price or a rate for each leg of a derivative transaction with periodic payments; or a difference between two floating leg indexes."
+    },
+    "DayCount": {
+      "name": "Day Count",
+      "definition": "Identifies the computation method that determines how interest payments are calculated. It is used to compute the year fraction of the calculation period, and indicates the number of days in the calculation period divided by the number of days in the year."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the time unit associated with the frequency of payments."
+    },
+    "ResetFrequency": {
+      "name": "Reset Frequency",
+      "definition": "Information related to reset of payment frequency."
+    },
+    "NextFloatingReset": {
+      "name": "Next Floating Reset",
+      "definition": "Indicates the nearest date in the future at which the floating reference rate will be reset."
+    },
+    "LastFloatingReset": {
+      "name": "Last Floating Reset",
+      "definition": "Most recent date and value at which the floating reference rate was reset."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

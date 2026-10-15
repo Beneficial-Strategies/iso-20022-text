@@ -1,0 +1,48 @@
+{
+  "isoType": "RejectedStatusReason9Code",
+  "language": "en",
+  "name": "Rejected Status Reason 9 Code",
+  "definition": "Reason for which an instruction, request, report message is rejected.",
+  "isoCodes": {
+    "DSEC": {
+      "isoName": "FinancialInstrumentIdentification",
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of the security is not recognised or is invalid."
+    },
+    "IDNA": {
+      "isoName": "FinancialInstrumentIdentificationAndName",
+      "name": "Financial Instrument Identification And Name",
+      "definition": "Identification of the security and the security name are not the same."
+    },
+    "ORRF": {
+      "isoName": "DuplicateOrderReference",
+      "name": "Duplicate Order Reference",
+      "definition": "Order reference is a duplicate of a previously received order."
+    },
+    "NSLA": {
+      "isoName": "NotCompliantWithSLA",
+      "name": "Not Compliant With SLA",
+      "definition": "Instruction is not compliant with the service level agreement."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Financial instrument quantity is invalid."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrency",
+      "name": "Settlement Amount Currency",
+      "definition": "Unrecognised or invalid Settlement Amount Currency."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Unrecognised or invalid Place of Trade."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date or requested trade date or future trade date."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "TMSContactLevel1Code",
+  "language": "en",
+  "name": "TMS Contact Level 1 Code",
+  "definition": "Level of urgency in contacting the terminal management system.",
+  "isoCodes": {
+    "CRIT": {
+      "isoName": "Critical",
+      "name": "Critical",
+      "definition": "Terminal management system has to be contacted before the next transaction."
+    },
+    "ASAP": {
+      "isoName": "AsSoonAsPossible",
+      "name": "As Soon As Possible",
+      "definition": "Terminal management system has to be contacted as soon as possible (for example after reconciliation)."
+    },
+    "DTIM": {
+      "isoName": "DateTime",
+      "name": "Date Time",
+      "definition": "Terminal management system has to be contacted at the date and time provided."
+    }
+  }
+}

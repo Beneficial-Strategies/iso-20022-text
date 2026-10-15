@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPBackTestingResultReportV01",
+  "language": "en",
+  "name": "CCP Back Testing Result Report V 01",
+  "definition": "The CCPBackTestingResultReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority of the results of the back test carried out by the central counterparty.",
+  "isoElements": {
+    "MonthlyResult": {
+      "name": "Monthly Result",
+      "definition": "Reports the results of the central counterparties production backtesting."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

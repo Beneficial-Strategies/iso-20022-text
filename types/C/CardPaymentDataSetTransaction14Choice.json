@@ -1,0 +1,32 @@
+{
+  "isoType": "CardPaymentDataSetTransaction14Choice",
+  "language": "en",
+  "name": "Card Payment Data Set Transaction 14 Choice",
+  "definition": "Card payment transaction choice between cancellation, authorisation request and authorisation response.",
+  "isoElements": {
+    "Completion": {
+      "name": "Completion",
+      "definition": "Completed card payment transaction to be captured."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Cancelled card payment transaction to be captured."
+    },
+    "AuthorisationRequest": {
+      "name": "Authorisation Request",
+      "definition": "Card payment transaction including an authorisation request."
+    },
+    "AuthorisationResponse": {
+      "name": "Authorisation Response",
+      "definition": "Card payment transaction including an authorisation response."
+    },
+    "TokenRequest": {
+      "name": "Token Request",
+      "definition": "Request for a token computation."
+    },
+    "TokenResponse": {
+      "name": "Token Response",
+      "definition": "Response to a token computation."
+    }
+  }
+}

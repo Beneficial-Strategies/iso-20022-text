@@ -1,0 +1,24 @@
+{
+  "isoType": "DeviceTransmitMessageRequest2",
+  "language": "en",
+  "name": "Device Transmit Message Request 2",
+  "definition": "Content of the Request message to transmit.",
+  "isoElements": {
+    "DestinationAddress": {
+      "name": "Destination Address",
+      "definition": "Transport address."
+    },
+    "MaximumTransmissionTime": {
+      "name": "Maximum Transmission Time",
+      "definition": "Maximum time in seconds of transmission."
+    },
+    "MaximumWaitingTime": {
+      "name": "Maximum Waiting Time",
+      "definition": "Defines the timeout to receive an answer."
+    },
+    "MessageToSend": {
+      "name": "Message To Send",
+      "definition": "Content of the message to be transmitted."
+    }
+  }
+}

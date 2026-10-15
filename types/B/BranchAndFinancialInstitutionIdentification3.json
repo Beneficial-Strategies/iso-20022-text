@@ -1,0 +1,16 @@
+{
+  "isoType": "BranchAndFinancialInstitutionIdentification3",
+  "language": "en",
+  "name": "Branch And Financial Institution Identification 3",
+  "definition": "Unique and unambiguous identifier of a financial institution or a branch of a financial institution, as assigned under an internationally recognised or proprietary identification scheme.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "name": "Financial Institution Identification",
+      "definition": "Unique and unambiguous identifier of a financial institution, as assigned under an internationally recognised or proprietary identification scheme."
+    },
+    "BranchIdentification": {
+      "name": "Branch Identification",
+      "definition": "Information identifying a specific branch of a financial institution.||Usage: this component should be used in case the identification information in the financial institution component does not provide identification up to branch level."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactorData1",
+  "language": "en",
+  "name": "Transactor Data 1",
+  "definition": "Information related to the transactior who provides technical payment solutions for acceptor and originator to conduct transactions.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the transactor."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the issuer."
+    },
+    "BusinessIdentification": {
+      "name": "Business Identification",
+      "definition": "Business or client identification for the  issuer."
+    },
+    "BusinessName": {
+      "name": "Business Name",
+      "definition": "Business name of the  issuer."
+    },
+    "LegalCorporateName": {
+      "name": "Legal Corporate Name",
+      "definition": "Legal Corporate Name of the  issuer."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the  issuer."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains local language equivalent(s) of data in the current component."
+    },
+    "SubMerchant": {
+      "name": "Sub Merchant",
+      "definition": "Submerchant is a merchant that uses the transactor to complete the transaction, such as retailer, utility service provider, sponsored merchant. ||Sponsored merchant is a merchant that uses the payment services of another entity, such as marketplace, utility service provider, payment facilitator, third party biller, etc."
+    }
+  }
+}

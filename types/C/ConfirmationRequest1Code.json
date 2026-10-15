@@ -1,0 +1,23 @@
+{
+  "isoType": "ConfirmationRequest1Code",
+  "language": "en",
+  "name": "Confirmation Request 1 Code",
+  "definition": "Identifies the type of confirmation message being sent.",
+  "isoCodes": {
+    "CONF": {
+      "isoName": "Confirmation",
+      "name": "Confirmation",
+      "definition": "To confirm the trade."
+    },
+    "CNRR": {
+      "isoName": "ConfirmationRequestRejected",
+      "name": "Confirmation Request Rejected",
+      "definition": "To reject the confirmation of the trade."
+    },
+    "STAT": {
+      "isoName": "Status",
+      "name": "Status",
+      "definition": "To inquire about the status of the trade confirmation."
+    }
+  }
+}

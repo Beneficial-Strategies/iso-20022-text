@@ -1,0 +1,33 @@
+{
+  "isoType": "CardServiceType2Code",
+  "language": "en",
+  "name": "Card Service Type 2 Code",
+  "definition": "Type of network management service (correspond to the ISO 8583 field 24).",
+  "isoCodes": {
+    "SFDS": {
+      "isoName": "DisableStoreForward",
+      "name": "Disable Store Forward",
+      "definition": "Close communication at application level to stop store and forward process."
+    },
+    "ECHO": {
+      "isoName": "EchoTest",
+      "name": "Echo Test",
+      "definition": "Detection whether communication at application level is still active."
+    },
+    "SFEN": {
+      "isoName": "EnableStoreForward",
+      "name": "Enable Store Forward",
+      "definition": "Establish communication at application level to start store and forward process."
+    },
+    "SGNF": {
+      "isoName": "SignOff",
+      "name": "Sign Off",
+      "definition": "Terminate communication at application level."
+    },
+    "SGNN": {
+      "isoName": "SignOn",
+      "name": "Sign On",
+      "definition": "Establish communication at application level."
+    }
+  }
+}

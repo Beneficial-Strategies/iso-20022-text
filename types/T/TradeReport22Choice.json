@@ -1,0 +1,40 @@
+{
+  "isoType": "TradeReport22Choice",
+  "language": "en",
+  "name": "Trade Report 22 Choice",
+  "definition": "Provides details on the reported trade transactions.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Indicates whether transaction is reported for the first time."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Indicates a modification to the terms or details of a previously reported position or correction the erroneous data fields of a previously submitted position."
+    },
+    "Error": {
+      "name": "Error",
+      "definition": "Indicates whether transaction was reported by mistake and needs to be removed."
+    },
+    "EarlyTermination": {
+      "name": "Early Termination",
+      "definition": "Indicates that reported position is a termination of an existing contract."
+    },
+    "PositionComponent": {
+      "name": "Position Component",
+      "definition": "Indicates contract that is to be reported as a new trade and also included in a separate position report on the same day."
+    },
+    "CollateralUpdate": {
+      "name": "Collateral Update",
+      "definition": "Details of the loan used for financing the transaction."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Indicates a modification to the terms or details of a previously reported position or correction the erroneous data fields of a previously submitted position."
+    },
+    "ValuationUpdate": {
+      "name": "Valuation Update",
+      "definition": "Indicates an update to the valuations of a previously reported position, but not a correction."
+    }
+  }
+}

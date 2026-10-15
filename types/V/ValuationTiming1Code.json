@@ -1,0 +1,23 @@
+{
+  "isoType": "ValuationTiming1Code",
+  "language": "en",
+  "name": "Valuation Timing 1 Code",
+  "definition": "Specifies how the price valuation timing is done based on the timeline defined in the prospectus.",
+  "isoCodes": {
+    "EXCP": {
+      "isoName": "Exceptional",
+      "name": "Exceptional",
+      "definition": "Price valuation is done exceptionally, outside the timeframe specified in the prospectus."
+    },
+    "USUA": {
+      "isoName": "Usual",
+      "name": "Usual",
+      "definition": "Price valuation is done within the timeframe specified in the prospectus."
+    },
+    "PATC": {
+      "isoName": "Particular",
+      "name": "Particular",
+      "definition": "Price valuation that is done outside the usual timeframe, but in conformance with a case specified in the prospectus, eg, market closing day."
+    }
+  }
+}

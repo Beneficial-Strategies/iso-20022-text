@@ -1,0 +1,25 @@
+{
+  "isoType": "MatchingCriteria10",
+  "language": "en",
+  "name": "Matching Criteria 10",
+  "definition": "Provides details on loan and collateral matching criteria.",
+  "isoElements": {
+    "CounterpartyMatchingCriteria": {
+      "name": "Counterparty Matching Criteria",
+      "definition": "Compares information related to both sides of a loan."
+    },
+    "LoanMatchingCriteria": {
+      "name": "Loan Matching Criteria",
+      "definition": "Compares information related to both sides of a loan."
+    },
+    "CollateralMatchingCriteria": {
+      "name": "Collateral Matching Criteria",
+      "definition": "Compares information related to both sides of a collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

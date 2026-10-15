@@ -1,0 +1,20 @@
+{
+  "isoType": "UndertakingAmendmentV01",
+  "language": "en",
+  "name": "Undertaking Amendment V 01",
+  "definition": "The UndertakingAmendment message is sent (and is thus issued) by the party that issued the undertaking. The message may be sent either directly to the beneficiary or via an advising party. The proposed undertaking amendment could be to a demand guarantee, standby letter of credit, or counter-undertaking (counter-guarantee or counter-standby). The message provides details on proposed changes to the undertaking, for example, to the expiry date, the amount, and terms and conditions of the undertaking. It may also be used to propose the termination or cancellation of the undertaking. Under practice and law, this communication binds the party issuing it. The message constitutes an operative financial instrument.",
+  "isoElements": {
+    "UndertakingAmendmentDetails": {
+      "name": "Undertaking Amendment Details",
+      "definition": "Details related to the proposed undertaking amendment."
+    },
+    "BankToBankInformation": {
+      "name": "Bank To Bank Information",
+      "definition": "Additional information specific to the bank-to-bank communication."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the proposed undertaking amendment."
+    }
+  }
+}

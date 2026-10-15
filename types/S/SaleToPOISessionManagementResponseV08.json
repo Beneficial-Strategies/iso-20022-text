@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOISessionManagementResponseV08",
+  "language": "en",
+  "name": "Sale To POI Session Management Response V 08",
+  "definition": "The SaleToPOISessionManagementResponse message is sent by a POI to provide the result of an administrative service related to session management.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "SessionManagementResponse": {
+      "name": "Session Management Response",
+      "definition": "Information related to the response of a session management request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

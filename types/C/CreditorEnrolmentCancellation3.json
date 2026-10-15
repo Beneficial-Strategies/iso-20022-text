@@ -1,0 +1,24 @@
+{
+  "isoType": "CreditorEnrolmentCancellation3",
+  "language": "en",
+  "name": "Creditor Enrolment Cancellation 3",
+  "definition": "Identifies the creditor enrolment to be cancelled.",
+  "isoElements": {
+    "OriginalBusinessInstruction": {
+      "name": "Original Business Instruction",
+      "definition": "Unique identification of the original instruction."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Provides detailed information on the cancellation reason."
+    },
+    "OriginalEnrolment": {
+      "name": "Original Enrolment",
+      "definition": "Provides the original creditor enrolment data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

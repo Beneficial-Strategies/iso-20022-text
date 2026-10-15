@@ -1,0 +1,53 @@
+{
+  "isoType": "ExternalUndertakingStatusCategory1Code",
+  "language": "en",
+  "name": "External Undertaking Status Category 1 Code",
+  "definition": "Specifies the external status stage code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AMND": {
+      "isoName": "Amendment",
+      "name": "Amendment",
+      "definition": "Status is related to an undertaking amendment."
+    },
+    "AMTC": {
+      "isoName": "CounterUndertakingAmountStatus",
+      "name": "Counter Undertaking Amount Status",
+      "definition": "Status is related to a counter-undertaking amount."
+    },
+    "AMTU": {
+      "isoName": "UndertakingAmountStatus",
+      "name": "Undertaking Amount Status",
+      "definition": "Status is related to an undertaking amount."
+    },
+    "APPL": {
+      "isoName": "Application",
+      "name": "Application",
+      "definition": "Status is related to an undertaking application."
+    },
+    "BAMD": {
+      "isoName": "BeneficiaryAmendment",
+      "name": "Beneficiary Amendment",
+      "definition": "Status is related to an undertaking amendment requested by the beneficiary."
+    },
+    "CONF": {
+      "isoName": "Confirmation",
+      "name": "Confirmation",
+      "definition": "Status is related to an undertaking confirmation."
+    },
+    "DEMD": {
+      "isoName": "Demand",
+      "name": "Demand",
+      "definition": "Status is related to an undertaking demand."
+    },
+    "NEXT": {
+      "isoName": "NonExtension",
+      "name": "Non Extension",
+      "definition": "Status is related to an undertaking non-extension request."
+    },
+    "TERM": {
+      "isoName": "Termination",
+      "name": "Termination",
+      "definition": "Status is related to an undertaking termination."
+    }
+  }
+}

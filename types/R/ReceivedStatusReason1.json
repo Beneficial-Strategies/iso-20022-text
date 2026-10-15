@@ -1,0 +1,21 @@
+{
+  "isoType": "ReceivedStatusReason1",
+  "language": "en",
+  "name": "Received Status Reason 1",
+  "definition": "Reason for a received status.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the received status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInformationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

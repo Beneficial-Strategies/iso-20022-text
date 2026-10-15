@@ -1,0 +1,44 @@
+{
+  "isoType": "TripartyCollateralAllegementNotificationCancellationAdviceV01",
+  "language": "en",
+  "name": "Triparty Collateral Allegement Notification Cancellation Advice V 01",
+  "definition": "Scope:|Triparty agent sends a TripartyCollateralAllegementNotificationCancellationAdvice to the collateral giver or the collateral taker to inform of the cancellation of an allegement notification message previously sent by the triparty agent. ||The collateral giver and the collateral taker are participants of the triparty agents. In the frame of ECMS the collateral taker will be a central bank.||The previously sent message is a TripartyCollateralAllegementNotification",
+  "isoElements": {
+    "TransactionInstructionIdentification": {
+      "name": "Transaction Instruction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "CollateralTransactionType": {
+      "name": "Collateral Transaction Type",
+      "definition": "Specifies the type of collateral instruction."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the exposure."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the alleging side is the collateral taker or giver."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Identifies the chain of collateral parties. Party A and B will be the opposite  from that provided in the unmatched instruction."
+    },
+    "TransactionAmount": {
+      "name": "Transaction Amount",
+      "definition": "Amount of the principal."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Date/time at which the instructing party requests the instruction to be executed."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

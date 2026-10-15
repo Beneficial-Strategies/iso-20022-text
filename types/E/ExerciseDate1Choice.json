@@ -1,0 +1,16 @@
+{
+  "isoType": "ExerciseDate1Choice",
+  "language": "en",
+  "name": "Exercise Date 1 Choice",
+  "definition": "Choice between a known exercise date and a pending date.",
+  "isoElements": {
+    "FirstExerciseDate": {
+      "name": "First Exercise Date",
+      "definition": "Specifies the earliest unadjusted date during the exercise period on which an option can be exercised.|||Usage|: For European style options, the first possible exercise date is the same as the ExpirationDate.||For American style options, the first possible exercise date is the same as the ExecutionTimeStamp.||For Knock-in options, the first exercise date is reported when available."
+    },
+    "PendingDateApplicable": {
+      "name": "Pending Date Applicable",
+      "definition": "Indicates that price is currently not available, but pending."
+    }
+  }
+}

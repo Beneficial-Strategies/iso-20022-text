@@ -1,0 +1,48 @@
+{
+  "isoType": "Verification4Code",
+  "language": "en",
+  "name": "Verification 4 Code",
+  "definition": "Result of a verification.",
+  "isoCodes": {
+    "FAIL": {
+      "isoName": "Failed",
+      "name": "Failed",
+      "definition": "Verification failed."
+    },
+    "FUTA": {
+      "isoName": "FurtherAction",
+      "name": "Further Action",
+      "definition": "Further action required."
+    },
+    "MISS": {
+      "isoName": "Missing",
+      "name": "Missing",
+      "definition": "Information required to perform the verification was missing."
+    },
+    "NOSP": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "Not support the verification type"
+    },
+    "NOVF": {
+      "isoName": "NotPerformed",
+      "name": "Not Performed",
+      "definition": "Verification has not been performed."
+    },
+    "PART": {
+      "isoName": "PartialMatch",
+      "name": "Partial Match",
+      "definition": "Verification was partially successful."
+    },
+    "SUCC": {
+      "isoName": "Successful",
+      "name": "Successful",
+      "definition": "Verification was successful."
+    },
+    "ERRR": {
+      "isoName": "TechnicalError",
+      "name": "Technical Error",
+      "definition": "Device or entity to perform the verification was unavailable."
+    }
+  }
+}

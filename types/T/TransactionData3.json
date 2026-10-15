@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionData3",
+  "language": "en",
+  "name": "Transaction Data 3",
+  "definition": "Transaction Data related to an order.",
+  "isoElements": {
+    "TransactionPrice": {
+      "name": "Transaction Price",
+      "definition": "Traded price of the transaction excluding, where applicable, commission and accrued interest."
+    },
+    "TradedQuantity": {
+      "name": "Traded Quantity",
+      "definition": "Quantity being executed, when there is a partial or full execution."
+    },
+    "PassiveOrAggressiveIndicator": {
+      "name": "Passive Or Aggressive Indicator",
+      "definition": "Indicates whether order provided or took liquidity, on partial fill or fill order events."
+    },
+    "StrategyLinkedOrderIdentification": {
+      "name": "Strategy Linked Order Identification",
+      "definition": "Alphanumerical code used to link all connected orders that are part of a strategy."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Alphanumerical code assigned by the trading venue to the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "TransactionPrice must be present or |TradedQuantity must be present or |PassiveOrAggressiveIndicator must be present or |StrategyLinkedOrderIdentification must be present or |TransactionIdentification must be present."
+    }
+  }
+}

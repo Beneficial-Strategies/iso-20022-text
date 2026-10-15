@@ -1,0 +1,33 @@
+{
+  "isoType": "InterestPaymentSchedule1",
+  "language": "en",
+  "name": "Interest Payment Schedule 1",
+  "definition": "Specifies an interest payment schedule, that is an amount that must be paid no sooner than the expected payment date and no later than the due date.",
+  "isoElements": {
+    "InterestScheduleIdentification": {
+      "name": "Interest Schedule Identification",
+      "definition": "Unique and unambiguous identification of the interest payment schedule."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Interest amount that must be paid at due date."
+    },
+    "ExpectedDate": {
+      "name": "Expected Date",
+      "definition": "Expected interest payment date."
+    },
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Latest date whereby the interest must be paid."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the interest payments."
+    }
+  },
+  "isoRules": {
+    "InterestSchedulePresenceRule": {
+      "definition": "At least on element must be present in the InterestPaymentSchedule."
+    }
+  }
+}

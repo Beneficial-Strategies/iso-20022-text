@@ -1,0 +1,18 @@
+{
+  "isoType": "DTCProtectInstructionStatus3Code",
+  "language": "en",
+  "name": "DTC Protect Instruction Status 3 Code",
+  "definition": "DTC (The Depository Trust Company) system status code of protect instruction.",
+  "isoCodes": {
+    "PENA": {
+      "isoName": "PendingApproval",
+      "name": "Pending Approval",
+      "definition": "Instruction pending release or delete from approval function."
+    },
+    "WITH": {
+      "isoName": "Withdrawn",
+      "name": "Withdrawn",
+      "definition": "Client instruction withdrawn for events with withdrawal privilege."
+    }
+  }
+}

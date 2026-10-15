@@ -1,0 +1,16 @@
+{
+  "isoType": "SettlementDataRate1Choice",
+  "language": "en",
+  "name": "Settlement Data Rate 1 Choice",
+  "definition": "Specifies the volume and value percentage rates of settlement instructions.",
+  "isoElements": {
+    "NumberOfInstructions": {
+      "name": "Number Of Instructions",
+      "definition": "Specifies the rate of settlement fails, based either on the number of settlement instructions or on the value of settlement instructions, is lower than the ceiling rate as specified in the local regulation."
+    },
+    "ValueOfInstructions": {
+      "name": "Value Of Instructions",
+      "definition": "Specifies the rate of settlement fails, based either on the value of settlement instructions, is lower than the ceiling rate as specified in the local regulation."
+    }
+  }
+}

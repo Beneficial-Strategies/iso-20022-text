@@ -1,0 +1,105 @@
+{
+  "isoType": "CorporateActionSD11",
+  "language": "en",
+  "name": "Corporate Action SD 11",
+  "definition": "Provides additional information regarding corporate action details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "NoticeType": {
+      "name": "Notice Type",
+      "definition": "Indicates whether the notice received was universal or specific to securities registered in DTC's nominee name."
+    },
+    "EventCashValue": {
+      "name": "Event Cash Value",
+      "definition": "Amount of cash set aside by the offeror. This is the maximum amount that the offeror is willing to pay out to the holders who elect to take part in the offer."
+    },
+    "NumberOfSharesToBeIssued": {
+      "name": "Number Of Shares To Be Issued",
+      "definition": "Number of shares the issuer is creating as part of the event."
+    },
+    "TotalNumberOfSharesOffered": {
+      "name": "Total Number Of Shares Offered",
+      "definition": "Total number of shares that are part of the offer for example subscription offer."
+    },
+    "CutOffDays": {
+      "name": "Cut Off Days",
+      "definition": "Number of additional days used to establish a DTC processing cut-off date. For example, DTC typically adds a cut-off off day (making it one business day prior) to the record date for issues with agents outside NYC. This allows time for DTC to deliver the securities."
+    },
+    "DTCAutomatedOfferProgram": {
+      "name": "DTC Automated Offer Program",
+      "definition": "Indicator that identifies the type of interface an event agent has with DTC (The Depository Trust Corporation). It defines how time sensitive instruction and withdrawal process is. Offline (non automated) agent will have earlier deadlines which will be reflected in response deadlines but importantly withdrawal procedures for manual agent require hard copy sign off from the agent that has to be delivered to DTC to proceed with withdrawal."
+    },
+    "DTCRecycleCutOffIndicator": {
+      "name": "DTC Recycle Cut Off Indicator",
+      "definition": "Indicates whether the recycling of instructions for eligible positions is set to end early or late at DTC (The Depository Trust Corporation)."
+    },
+    "LongShortPaymentIndicator": {
+      "name": "Long Short Payment Indicator",
+      "definition": "Denotes whether the first accrual period for debt instruments is either long or short, compared to the normal accrual period of the security."
+    },
+    "OversubscriptionType": {
+      "name": "Oversubscription Type",
+      "definition": "Type of oversubscription on the event."
+    },
+    "ConditionalPaymentApplicableFlag": {
+      "name": "Conditional Payment Applicable Flag",
+      "definition": "Indicates whether the payment made by the issuer is based on a stated condition."
+    },
+    "SolicitationDealerFeeFlag": {
+      "name": "Solicitation Dealer Fee Flag",
+      "definition": "Indicates whether there is a solicitation fee on the event. This fee is paid by the soliciting dealer."
+    },
+    "DTCCustodyEligibleFlag": {
+      "name": "DTC Custody Eligible Flag",
+      "definition": "Indicates whether positions held in Custody program are eligible for instruction processing at DTC (The Depository Trust Corporation)."
+    },
+    "DTCReorganisationCustodyEligibleFlag": {
+      "name": "DTC Reorganisation Custody Eligible Flag",
+      "definition": "Indicates whether the event is eligible for Custody Reorganisation service at DTC (The Depository Trust Corporation)."
+    },
+    "DTCReorganisationDepositEligibleFlag": {
+      "name": "DTC Reorganisation Deposit Eligible Flag",
+      "definition": "Indicates whether the event is eligible for Reorganisation Deposit Service at DTC (The Depository Trust Corporation)."
+    },
+    "SurrenderSharesToAgentFlag": {
+      "name": "Surrender Shares To Agent Flag",
+      "definition": "Indicates whether shares outside of DTC need to be delivered to the agent in order to receive entitlement."
+    },
+    "StepUpPrivilegeFlag": {
+      "name": "Step Up Privilege Flag",
+      "definition": "Indicates that the holder has the privilege to buy additional rights. Upon exercising this privilege, the holder may subscribe to one additional share of the new security in lieu of fractional shares to which the holder might otherwise be entitled."
+    },
+    "RightsOversubscriptionFlag": {
+      "name": "Rights Oversubscription Flag",
+      "definition": "Indicates whether holders of rights will be afforded the opportunity to subscribe to purchase extra shares that are not picked up by the remaining holders."
+    },
+    "RightsRoundUpPrivilegeFlag": {
+      "name": "Rights Round Up Privilege Flag",
+      "definition": "Indicates whether the shareholder will be able to round up his/her subscription in the event his/her rights are less than the requirement."
+    },
+    "RightsTransferableFlag": {
+      "name": "Rights Transferable Flag",
+      "definition": "Indicates whether rights can be transferred."
+    },
+    "CertificateDetails": {
+      "name": "Certificate Details",
+      "definition": "Provides details of certificates that have been called for redemption."
+    },
+    "EDSMessagingCountryCode": {
+      "name": "EDS Messaging Country Code",
+      "definition": "Country of Issue used to determine whether the electable option requires Tax Exempt or Wire information when sending EDS elections via the CAIN message type."
+    },
+    "RDPReferenceNumber": {
+      "name": "RDP Reference Number",
+      "definition": "Unique DTCC legacy reference used for matching and reconciling legacy records. The number algorhithm is as follows: Department ID (1:1), Activity Type (2:3), Cusip Country Code (5:2), Cusip (7:9), Record Date (15:8), Payable Date (22:8), Sequence Number (29:3), RDP Issue Type (31:1). |USAGE RULE: this sequence can be populated /extended to event details, option details or a movement, depending on sequence number coordinality to an event."
+    }
+  },
+  "isoRules": {
+    "EDSMessagingCountryCodeGuideline": {
+      "definition": "The value of the field \"EDSMessagingCountryCode\" conditions the presence of certain details that clients will need to submit as part of their CAIN Instruction when combined with the following rules:|a.\tIf the value equals “CA” (Canada), and the option types = FCPX (Foreign Currency Payment Exempt), FORX (Foreign Tax Relief Exempt), or DRPX (DRIP Exempt)) the Tax Exempt component must be populated in the CAIN extension;|b.\tAll Foreign Currency Payments (FCP) require wire information when submitting elections via ISO 20022 messaging, with 1 exception: If \"EDSMessagingCountryCode\" value is “CA” (Canada) and the extensions option action type is FCPU, FCPF, FCPX, then no wire instructions are required."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "InstructionLockoutType1Code",
+  "language": "en",
+  "name": "Instruction Lockout Type 1 Code",
+  "definition": "Specify the type of blocking when instructions are temporarily blocked for an event.",
+  "isoCodes": {
+    "MANL": {
+      "isoName": "ManualLocked",
+      "name": "Manual Locked",
+      "definition": "Event is locked out manually for instruction processing.  This relates to conversions, warrants and put events."
+    },
+    "NOTL": {
+      "isoName": "NotLocked",
+      "name": "Not Locked",
+      "definition": "Event is not locked out manually for instruction processing. This relates to conversions, warrants and put events."
+    },
+    "SYSL": {
+      "isoName": "SystemicLocked",
+      "name": "Systemic Locked",
+      "definition": "Event is locked out systemically for instruction processing. This relates to conversion or warrant events due to an \"out of town\" record date on the disbursed security."
+    }
+  }
+}

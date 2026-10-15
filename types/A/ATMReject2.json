@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMReject2",
+  "language": "en",
+  "name": "ATM Reject 2",
+  "definition": "Information related to the reject of a message from an ATM or an ATM manager.",
+  "isoElements": {
+    "RejectInitiatorIdentification": {
+      "name": "Reject Initiator Identification",
+      "definition": "Identification of the entity sending the reject message."
+    },
+    "RejectReason": {
+      "name": "Reject Reason",
+      "definition": "High level information allowing the sender of a request or an advice to know the types of error, and handle them accordingly."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the sending of a reject message in response to a request or an advice.|For logging purpose, in order to allow further analysis, statistics and deferred processing on the success or the failure of the request processing."
+    },
+    "Command": {
+      "name": "Command",
+      "definition": "Maintenance command to perform on the ATM."
+    },
+    "MessageInError": {
+      "name": "Message In Error",
+      "definition": "Received message that has been rejected."
+    }
+  }
+}

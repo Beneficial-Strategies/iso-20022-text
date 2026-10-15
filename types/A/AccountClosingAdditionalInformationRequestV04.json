@@ -6,39 +6,39 @@
   "isoElements": {
     "References": {
       "name": "References",
-      "definition": ""
+      "definition": "Set of elements for the identification of the message and related references."
     },
     "From": {
       "name": "From",
-      "definition": ""
+      "definition": "Identifies the business sender of the message, if it is not the account owner or account servicing financial institution."
     },
     "OrganisationIdentification": {
       "name": "Organisation Identification",
-      "definition": ""
+      "definition": "Identifier for an organisation."
     },
     "AccountIdentification": {
       "name": "Account Identification",
-      "definition": ""
+      "definition": "Unique and unambiguous identification of the account between the account owner and the account servicer."
     },
     "AccountServicerIdentification": {
       "name": "Account Servicer Identification",
-      "definition": ""
+      "definition": "Unique and unambiguous identifier of a financial institution, as assigned under an internationally recognised or proprietary identification scheme."
     },
     "BalanceTransferAccount": {
       "name": "Balance Transfer Account",
-      "definition": ""
+      "definition": "Identification of the account to which the remaining positive balance of the account to be closed must be transferred or account from which funds can be moved to the account to be closed and which balance is negative. This account must be held in the same financial institution as the account to be closed if the transfer account is used to compensate a negative balance. For a positive balance to be transferred, an account in another financial institution might be used. In that case the account servicer is mandatory."
     },
     "TransferAccountServicerIdentification": {
       "name": "Transfer Account Servicer Identification",
-      "definition": ""
+      "definition": "Unique and unambiguous identifier of a financial institution, as assigned under an internationally recognised or proprietary identification scheme, that is the servicer of the transfer account."
     },
     "DigitalSignature": {
       "name": "Digital Signature",
-      "definition": ""
+      "definition": "Contains the signature with its components, namely signed info, signature value, key info and the object."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

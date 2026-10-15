@@ -1,0 +1,60 @@
+{
+  "isoType": "FullPushThroughReportV05",
+  "language": "en",
+  "name": "Full Push Through Report V 05",
+  "definition": "Scope|The FullPushThroughReport message is sent by the matching application to a party involved in a transaction.|This message is used to pass on information that the matching application has received from the submitter. The forwarded information can originate from an InitialBaselineSubmission or BaselineReSubmission or BaselineAmendmentRequest message.|Usage|The FullPushThroughReport message can be sent by the matching application to a party to convey|- the details of an InitialBaselineSubmission message that it has obtained, or|- the details of a BaselineResubmission message that it has obtained, or|- the details of a BaselineAmendmentRequest message that it has obtained.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the report."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for the financial institution which submitted the baseline."
+    },
+    "ReportPurpose": {
+      "name": "Report Purpose",
+      "definition": "Specifies the type of report."
+    },
+    "PushedThroughBaseline": {
+      "name": "Pushed Through Baseline",
+      "definition": "Specifies the commercial details of the underlying transaction."
+    },
+    "BuyerContactPerson": {
+      "name": "Buyer Contact Person",
+      "definition": "Person to be contacted in the organisation of the buyer."
+    },
+    "SellerContactPerson": {
+      "name": "Seller Contact Person",
+      "definition": "Person to be contacted in the organisation of the seller."
+    },
+    "BuyerBankContactPerson": {
+      "name": "Buyer Bank Contact Person",
+      "definition": "Person to be contacted in the buyer's bank."
+    },
+    "SellerBankContactPerson": {
+      "name": "Seller Bank Contact Person",
+      "definition": "Person to be contacted in the seller's bank."
+    },
+    "OtherBankContactPerson": {
+      "name": "Other Bank Contact Person",
+      "definition": "Person to be contacted in another bank than the seller or buyer's bank."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Information on the next processing step required."
+    }
+  }
+}

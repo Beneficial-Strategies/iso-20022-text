@@ -1,0 +1,25 @@
+{
+  "isoType": "TradingVenueIdentification1Choice",
+  "language": "en",
+  "name": "Trading Venue Identification 1 Choice",
+  "definition": "Trade venue related fields.",
+  "isoElements": {
+    "MarketIdentificationCode": {
+      "name": "Market Identification Code",
+      "definition": "Identification used where reporting entity uses a market identification code (MIC)."
+    },
+    "NationalCompetentAuthority": {
+      "name": "National Competent Authority",
+      "definition": "Identification used where reporting entity is a national competent authority."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Identification used where a venue does not have an already defined code type."
+    }
+  },
+  "isoRules": {
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    }
+  }
+}

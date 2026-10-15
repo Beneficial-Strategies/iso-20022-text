@@ -1,0 +1,28 @@
+{
+  "isoType": "DebtorActivationAmendment5",
+  "language": "en",
+  "name": "Debtor Activation Amendment 5",
+  "definition": "Specifies the details to identify a creditor enrolment to be amended and the new amended data.",
+  "isoElements": {
+    "OriginalBusinessInstruction": {
+      "name": "Original Business Instruction",
+      "definition": "Unique identification of the original instruction."
+    },
+    "AmendmentReason": {
+      "name": "Amendment Reason",
+      "definition": "Provides detailed information on the amendment reason."
+    },
+    "Amendment": {
+      "name": "Amendment",
+      "definition": "Provides the amended enrolment data."
+    },
+    "OriginalActivation": {
+      "name": "Original Activation",
+      "definition": "Provides the original activation data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "LocalDateTime1",
+  "language": "en",
+  "name": "Local Date Time 1",
+  "definition": "Local time offset to UTC (Coordinated Universal Time).",
+  "isoElements": {
+    "FromDateTime": {
+      "name": "From Date Time",
+      "definition": "Date time of the beginning of the period (inclusive)."
+    },
+    "ToDateTime": {
+      "name": "To Date Time",
+      "definition": "Date time of the end of the period (exclusive)."
+    },
+    "UTCOffset": {
+      "name": "UTC Offset",
+      "definition": "UTC offset in minutes, of the local time during the period. For instance, 120 for Central European Time, -720 for Central Standard Time (North America)."
+    }
+  }
+}

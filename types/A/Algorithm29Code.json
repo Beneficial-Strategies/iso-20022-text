@@ -1,0 +1,213 @@
+{
+  "isoType": "Algorithm29Code",
+  "language": "en",
+  "name": "Algorithm 29 Code",
+  "definition": "Cryptographic algorithms for digital signatures.",
+  "isoCodes": {
+    "ERS2": {
+      "isoName": "SHA256WithRSA",
+      "name": "SHA 256 With RSA",
+      "definition": "Signature algorithms with RSA, using SHA-256 digest algorithm - (ASN.1 Object Identifier: sha256WithRSAEncryption)."
+    },
+    "ERS1": {
+      "isoName": "SHA1WithRSA",
+      "name": "SHA 1 With RSA",
+      "definition": "The DEPRECATED Signature algorithms with RSA (PKCS #1 version 2.1), using SHA-1 digest algorithm - (ASN.1 Object Identifier: sha1WithRSAEncryption)."
+    },
+    "RPSS": {
+      "isoName": "RSASSA-PSS",
+      "name": "RSASSA-PSS",
+      "definition": "Signature algorithm with Appendix, Probabilistic Signature Scheme (PKCS #1 version 2.1), - (ASN.1 Object Identifier: id-RSASSA-PSS)."
+    },
+    "ERS3": {
+      "isoName": "SHA3-256WithRSA",
+      "name": "SHA 3-256 With RSA",
+      "definition": "Signature algorithms with RSA, using SHA3-256 digest algorithm. (ASN.1 Object Identifier: id-rsassa-pkcs1-v1-5-with-sha3-256)."
+    },
+    "ED32": {
+      "isoName": "EcdsaSha3-256",
+      "name": "Ecdsa Sha 3-256",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "ED33": {
+      "isoName": "EcdsaSha3-384",
+      "name": "Ecdsa Sha 3-384",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "ED35": {
+      "isoName": "EcdsaSha3-512",
+      "name": "Ecdsa Sha 3-512",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "ED23": {
+      "isoName": "EcdsaSha384",
+      "name": "Ecdsa Sha 384",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "ED25": {
+      "isoName": "EcdsaSha512",
+      "name": "Ecdsa Sha 512",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "ES22": {
+      "isoName": "EcsdsaSha256",
+      "name": "Ecsdsa Sha 256",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "ES32": {
+      "isoName": "EcsdaSha3-256",
+      "name": "Ecsda Sha 3-256",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "ES33": {
+      "isoName": "EcsdsaSha3-384",
+      "name": "Ecsdsa Sha 3-384",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "ES35": {
+      "isoName": "EcsdsaSha3-512",
+      "name": "Ecsdsa Sha 3-512",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "ES23": {
+      "isoName": "EcsdsaSha384",
+      "name": "Ecsdsa Sha 384",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "ES25": {
+      "isoName": "EcsdsaSha512",
+      "name": "Ecsdsa Sha 512",
+      "definition": "Elliptic Curve Schnorr Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "ED22": {
+      "isoName": "EcdsaSha256",
+      "name": "Ecdsa Sha 256",
+      "definition": "Elliptic Curve Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "EF32": {
+      "isoName": "EcfsdaSha3-256",
+      "name": "Ecfsda Sha 3-256",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "EF22": {
+      "isoName": "EcfsdsaSha256",
+      "name": "Ecfsdsa Sha 256",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "EF33": {
+      "isoName": "EcfsdsaSha3-384",
+      "name": "Ecfsdsa Sha 3-384",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "EF35": {
+      "isoName": "EcfsdsaSha3-512",
+      "name": "Ecfsdsa Sha 3-512",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA3-512 Digest Algorithm."
+    },
+    "EF23": {
+      "isoName": "EcfsdsaSha384",
+      "name": "Ecfsdsa Sha 384",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "EO33": {
+      "isoName": "EcosdsaSha3-384",
+      "name": "Ecosdsa Sha 3-384",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "EF25": {
+      "isoName": "EcfsdsaSha512",
+      "name": "Ecfsdsa Sha 512",
+      "definition": "Elliptic Curve Full Schnorr Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "EO32": {
+      "isoName": "EcosdaSha3-256",
+      "name": "Ecosda Sha 3-256",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "EO22": {
+      "isoName": "EcosdsaSha256",
+      "name": "Ecosdsa Sha 256",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "EO35": {
+      "isoName": "EcosdsaSha3-512",
+      "name": "Ecosdsa Sha 3-512",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA3-512 Digest Algorithm."
+    },
+    "EO23": {
+      "isoName": "EcosdsaSha384",
+      "name": "Ecosdsa Sha 384",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "EO25": {
+      "isoName": "EcosdsaSha512",
+      "name": "Ecosdsa Sha 512",
+      "definition": "Elliptic Curve Optimised Schnorr Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "DD22": {
+      "isoName": "EddsaSha256",
+      "name": "Eddsa Sha 256",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "DD32": {
+      "isoName": "EddsaSha3-256",
+      "name": "Eddsa Sha 3-256",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "DD33": {
+      "isoName": "EddsaSha3-384",
+      "name": "Eddsa Sha 3-384",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "DD35": {
+      "isoName": "EddsaSha3-512",
+      "name": "Eddsa Sha 3-512",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA3-512 Digest Algorithm."
+    },
+    "DD23": {
+      "isoName": "EddsaSha384",
+      "name": "Eddsa Sha 384",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "DD25": {
+      "isoName": "EddsaSha512",
+      "name": "Eddsa Sha 512",
+      "definition": "Edward Curve Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "SM22": {
+      "isoName": "SM2Sha256",
+      "name": "SM 2 Sha 256",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA2-256 Digest Algorithm."
+    },
+    "SM33": {
+      "isoName": "SM2Sha3-384",
+      "name": "SM 2 Sha 3-384",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA3-384 Digest Algorithm."
+    },
+    "SM32": {
+      "isoName": "SM2Sha3-256",
+      "name": "SM 2 Sha 3-256",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA3-256 Digest Algorithm."
+    },
+    "SM35": {
+      "isoName": "SM2Sha3-512",
+      "name": "SM 2 Sha 3-512",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA3-512 Digest Algorithm."
+    },
+    "SM23": {
+      "isoName": "SM2Sha384",
+      "name": "SM 2 Sha 384",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA2-384 Digest Algorithm."
+    },
+    "SM25": {
+      "isoName": "SM2Sha512",
+      "name": "SM 2 Sha 512",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with SHA2-512 Digest Algorithm."
+    },
+    "S2S3": {
+      "isoName": "SM2SM3",
+      "name": "SM 2 SM 3",
+      "definition": "ShangMi2 Elliptic Curve Digital Signature Algorithm coupled with ShangMi3 Digest Algorithm."
+    }
+  }
+}

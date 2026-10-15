@@ -1,0 +1,105 @@
+{
+  "isoType": "Baseline5",
+  "language": "en",
+  "name": "Baseline 5",
+  "definition": "Specifies the commercial details of the underlying transaction.",
+  "isoElements": {
+    "SubmitterBaselineIdentification": {
+      "name": "Submitter Baseline Identification",
+      "definition": "Identifies the baseline provided by the submitter."
+    },
+    "ServiceCode": {
+      "name": "Service Code",
+      "definition": "Identifies the service requested by the submitter by means of a code."
+    },
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Reference to the purchase order of the underlying transaction."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that buys goods or services, or a financial instrument."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that sells goods or services, or a financial instrument."
+    },
+    "BuyerBank": {
+      "name": "Buyer Bank",
+      "definition": "Financial institution of the buyer, uniquely identified by its BIC."
+    },
+    "SellerBank": {
+      "name": "Seller Bank",
+      "definition": "Financial institution of the seller, uniquely identified by its BIC."
+    },
+    "BuyerSideSubmittingBank": {
+      "name": "Buyer Side Submitting Bank",
+      "definition": "Financial institution on the buyer's side, uniquely identified by its BIC. As part of the transaction, it may submit data sets."
+    },
+    "SellerSideSubmittingBank": {
+      "name": "Seller Side Submitting Bank",
+      "definition": "Financial institution on the seller's side, uniquely identified by its BIC. As part of the transaction, it may submit data sets."
+    },
+    "BillTo": {
+      "name": "Bill To",
+      "definition": "Party to be invoiced for the purchase."
+    },
+    "ShipTo": {
+      "name": "Ship To",
+      "definition": "Party to whom the goods must be delivered in the end."
+    },
+    "Consignee": {
+      "name": "Consignee",
+      "definition": "Party to whom the goods must be delivered."
+    },
+    "Goods": {
+      "name": "Goods",
+      "definition": "Goods or services that are part of a commercial trade agreement."
+    },
+    "PaymentTerms": {
+      "name": "Payment Terms",
+      "definition": "Specifies the payment terms by means of a code and a limit in time."
+    },
+    "SettlementTerms": {
+      "name": "Settlement Terms",
+      "definition": "Specifies how the underlying transaction should be settled."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Specifies the details of the payment obligation between financial institutions in this transaction."
+    },
+    "LatestMatchDate": {
+      "name": "Latest Match Date",
+      "definition": "Specifies the latest date on which a data set must be matched with a baseline."
+    },
+    "CommercialDataSetRequired": {
+      "name": "Commercial Data Set Required",
+      "definition": "Specifies that a commercial data set is required for each shipment part of the transaction."
+    },
+    "TransportDataSetRequired": {
+      "name": "Transport Data Set Required",
+      "definition": "Specifies that a transport data set is required for each shipment part of the transaction."
+    },
+    "InsuranceDataSetRequired": {
+      "name": "Insurance Data Set Required",
+      "definition": "Specifies that an insurance data set is required for each shipment part of the transaction."
+    },
+    "CertificateDataSetRequired": {
+      "name": "Certificate Data Set Required",
+      "definition": "Specifies that a certificate data set is required for each shipment part of the transaction."
+    },
+    "OtherCertificateDataSetRequired": {
+      "name": "Other Certificate Data Set Required",
+      "definition": "Specifies that another type of certificate data set is required for each shipment part of the transaction."
+    },
+    "IntentToPayExpected": {
+      "name": "Intent To Pay Expected",
+      "definition": "Specifies that IntentToPayNotice message(s) are expected as part of this transaction."
+    }
+  },
+  "isoRules": {
+    "TransShipmentRule": {
+      "definition": "If TransportDataSetRequired is present, then Goods/TransShipment is mandatory. If TransportDataSetRequired is absent, then Goods/TransShipment is optional."
+    }
+  }
+}

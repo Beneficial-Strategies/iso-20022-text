@@ -1,0 +1,38 @@
+{
+  "isoType": "VerificationEntity3Code",
+  "language": "en",
+  "name": "Verification Entity 3 Code",
+  "definition": "Type of verification entity.",
+  "isoCodes": {
+    "MERC": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Acceptor (for example signature verification by the attendant)."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Acquirer of the transaction."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between (or on behalf of) an acquirer and an issuer."
+    },
+    "ISSR": {
+      "isoName": "Issuer",
+      "name": "Issuer",
+      "definition": "Card issuer."
+    },
+    "CDAD": {
+      "isoName": "AcceptanceDevice",
+      "name": "Acceptance Device",
+      "definition": "Type of Device to accept payment"
+    },
+    "ICCA": {
+      "isoName": "CardApplication",
+      "name": "Card Application",
+      "definition": "Application in the smart card."
+    }
+  }
+}

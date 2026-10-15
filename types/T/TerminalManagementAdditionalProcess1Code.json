@@ -1,0 +1,23 @@
+{
+  "isoType": "TerminalManagementAdditionalProcess1Code",
+  "language": "en",
+  "name": "Terminal Management Additional Process 1 Code",
+  "definition": "Additional process to perform before starting or after a terminal management action by the point of interaction (POI).",
+  "isoCodes": {
+    "MANC": {
+      "isoName": "ManualConfirmation",
+      "name": "Manual Confirmation",
+      "definition": "Manual confirmation of the merchant before the terminal management action."
+    },
+    "RCNC": {
+      "isoName": "Reconciliation",
+      "name": "Reconciliation",
+      "definition": "Acquirer reconciliation to be performed before the terminal management action."
+    },
+    "RSRT": {
+      "isoName": "RestartSystem",
+      "name": "Restart System",
+      "definition": "Restart the system after performing the terminal management action."
+    }
+  }
+}

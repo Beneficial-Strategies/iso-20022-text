@@ -1,0 +1,24 @@
+{
+  "isoType": "AmountAndDirection111",
+  "language": "en",
+  "name": "Amount And Direction 111",
+  "definition": "Signed amount.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Sign": {
+      "name": "Sign",
+      "definition": "Indicates that the amount value is positive or negative."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Description of the balance amount that may be provided to the customer (for example ‘Available’, ‘Ledger’). If this element is not included in a Balance <Bal> it is assumed the balance is a ‘ledger’ balance.Date of the amount."
+    },
+    "Label": {
+      "name": "Label",
+      "definition": "Description of the balance amount that may be provided to the customer (for example ‘Available’, ‘Ledger’). If this element is not included in a Balance <Bal> it is assumed the balance is a ‘ledger’ balance."
+    }
+  }
+}

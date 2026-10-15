@@ -1,0 +1,88 @@
+{
+  "isoType": "SecurityCharacteristics2Code",
+  "language": "en",
+  "name": "Security Characteristics 2 Code",
+  "definition": "Security characteristics of the communication link.",
+  "isoCodes": {
+    "CETE": {
+      "isoName": "CardholderEndToEndEncryption",
+      "name": "Cardholder End To End Encryption",
+      "definition": "Encryption initiated by the cardholder to secure end-to-end communication channel."
+    },
+    "CPTE": {
+      "isoName": "CardholderPointToPointEncryption",
+      "name": "Cardholder Point To Point Encryption",
+      "definition": "Encryption initiated by the cardholder to secure point-to-point communication channel."
+    },
+    "CENC": {
+      "isoName": "ChannelEncryption",
+      "name": "Channel Encryption",
+      "definition": "Encryption used to secure the communication channel."
+    },
+    "CMAC": {
+      "isoName": "ChannelMAC",
+      "name": "Channel MAC",
+      "definition": "Usage of MAC to secure a communication channel"
+    },
+    "ETEE": {
+      "isoName": "EndToEndEncryption",
+      "name": "End To End Encryption",
+      "definition": "Encryption used from one end to the other end of the communication channel."
+    },
+    "METE": {
+      "isoName": "MerchantEndToEndEncryption",
+      "name": "Merchant End To End Encryption",
+      "definition": "Encryption initiated by the merchant to secure end-to-end communication channel."
+    },
+    "MPTE": {
+      "isoName": "MerchantPointToPointEncryption",
+      "name": "Merchant Point To Point Encryption",
+      "definition": "Encryption initiated by the merchant to secure point-to-point communication channel."
+    },
+    "OPNN": {
+      "isoName": "OpenNetwork",
+      "name": "Open Network",
+      "definition": "Open network"
+    },
+    "PMAC": {
+      "isoName": "PassthroughMAC",
+      "name": "Passthrough MAC",
+      "definition": "MAC used in a pass-through communication mode"
+    },
+    "PKIE": {
+      "isoName": "PKIEncryption",
+      "name": "PKI Encryption",
+      "definition": "Encryption using PKI to secure the communication channel."
+    },
+    "PRAE": {
+      "isoName": "PrivateAlgorithmEncryption",
+      "name": "Private Algorithm Encryption",
+      "definition": "Encryption using a private algorithm to secure a communication channel."
+    },
+    "PRAM": {
+      "isoName": "PrivateAlgorithmMAC",
+      "name": "Private Algorithm MAC",
+      "definition": "Private algorithm used for MAC."
+    },
+    "PRVN": {
+      "isoName": "PrivateNetwork",
+      "name": "Private Network",
+      "definition": "Private network."
+    },
+    "STAM": {
+      "isoName": "StandardAlgorithmMAC",
+      "name": "Standard Algorithm MAC",
+      "definition": "Standard algorithm used for MAC"
+    },
+    "APTE": {
+      "isoName": "AcquirerPointToPointEncryption",
+      "name": "Acquirer Point To Point Encryption",
+      "definition": "Encryption initiated by the acquirer to secure point-to-point communication channel."
+    },
+    "AETE": {
+      "isoName": "AcquirerEndToEndEncryption",
+      "name": "Acquirer End To End Encryption",
+      "definition": "Encryption initiated by the acquirer to secure end-to-end communication channel."
+    }
+  }
+}

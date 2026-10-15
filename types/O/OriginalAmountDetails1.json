@@ -1,0 +1,20 @@
+{
+  "isoType": "OriginalAmountDetails1",
+  "language": "en",
+  "name": "Original Amount Details 1",
+  "definition": "The OriginalAmountDetails contains all amount information in the acceptor currency code necessary to manage currency conversion in the cardholder currency code.",
+  "isoElements": {
+    "ActualAmount": {
+      "name": "Actual Amount",
+      "definition": "Actual amount to be converted."
+    },
+    "MinimumAmount": {
+      "name": "Minimum Amount",
+      "definition": "Minimum amount for conversion (in case of range of amounts)."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount for conversion (in case of range of amounts)."
+    }
+  }
+}

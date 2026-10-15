@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMInquiryRequestV03",
+  "language": "en",
+  "name": "ATM Inquiry Request V 03",
+  "definition": "The ATMInquiryRequest message is sent by an ATM to an ATM manager to request information about a customer (for example card, account).",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMInquiryRequest": {
+      "name": "Protected ATM Inquiry Request",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMInquiryRequest": {
+      "name": "ATM Inquiry Request",
+      "definition": "Information related to the request of an inquiry from an ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

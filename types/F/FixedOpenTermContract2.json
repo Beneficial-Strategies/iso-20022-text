@@ -1,0 +1,21 @@
+{
+  "isoType": "FixedOpenTermContract2",
+  "language": "en",
+  "name": "Fixed Open Term Contract 2",
+  "definition": "Specifies the terms of the contract in case of fixed or open interest rates.",
+  "isoElements": {
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date on which the counterparties contractually agree the exchange of securities or commodities versus collateral for the closing leg (forward leg) of the secured financing transaction."
+    },
+    "TerminationOption": {
+      "name": "Termination Option",
+      "definition": "Indication whether the counterparties to the transaction have agreed to an evergreen or extendable agreement."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "isoType": "CommissionWaiver3",
+  "language": "en",
+  "name": "Commission Waiver 3",
+  "definition": "Non-enforcement of the right to all or part of a commission by the party entitled to the commission.",
+  "isoElements": {
+    "InstructionBasis": {
+      "name": "Instruction Basis",
+      "definition": "Form of the rebate, eg, cash."
+    },
+    "ExtendedInstructionBasis": {
+      "name": "Extended Instruction Basis",
+      "definition": "Form of the rebate, eg, cash."
+    },
+    "WaivedRate": {
+      "name": "Waived Rate",
+      "definition": "Proportion of the commission that is waived, ie, if the commission is 5% and half is waived, 2.5% should be stated in this field."
+    }
+  },
+  "isoRules": {
+    "InstructionBasisOrExtendedInstructionBasisRule": {
+      "definition": "Either InstructionBasis or ExtendedInstructionBasis must be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "ReportData8",
+  "language": "en",
+  "name": "Report Data 8",
+  "definition": "Specifies the attributes of a report and its content.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the report."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Report identification."
+    },
+    "Qualifier": {
+      "name": "Qualifier",
+      "definition": "Additional specific information to ID (Country, Service, etc.)"
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date of the report."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Time of the report."
+    },
+    "Sequence": {
+      "name": "Sequence",
+      "definition": "Contains the specific instance of the report (e.g., sequence “2” of the report within a specific time frame)."
+    },
+    "TotalOccurrences": {
+      "name": "Total Occurrences",
+      "definition": "Contains the expected total number of occurrences of the report within a specific time frame."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Report frequency."
+    },
+    "ContinuationIndicator": {
+      "name": "Continuation Indicator",
+      "definition": "Indicates that report is not complete."
+    },
+    "Format": {
+      "name": "Format",
+      "definition": "Report format. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

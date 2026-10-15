@@ -1,0 +1,80 @@
+{
+  "isoType": "RegisteredContract20",
+  "language": "en",
+  "name": "Registered Contract 20",
+  "definition": "Document that a user must file with an authorised servicer for each contract that involves foreign currency transactions with non residents.",
+  "isoElements": {
+    "OriginalContractRegistrationRequest": {
+      "name": "Original Contract Registration Request",
+      "definition": "Unique identification of the contract registration creation, amendment or closure request."
+    },
+    "ReportingParty": {
+      "name": "Reporting Party",
+      "definition": "Party registering the currency control contract."
+    },
+    "RegistrationAgent": {
+      "name": "Registration Agent",
+      "definition": "Agent which registers the currency control contract."
+    },
+    "IssuerFinancialInstitution": {
+      "name": "Issuer Financial Institution",
+      "definition": "Financial institution of the issuer of the contract."
+    },
+    "Contract": {
+      "name": "Contract",
+      "definition": "Details of the contract being registered."
+    },
+    "ContractBalance": {
+      "name": "Contract Balance",
+      "definition": "Contract balance on date of contract registration."
+    },
+    "PaymentScheduleType": {
+      "name": "Payment Schedule Type",
+      "definition": "Type of the payment schedule provided in the contract."
+    },
+    "RegisteredContractIdentification": {
+      "name": "Registered Contract Identification",
+      "definition": "Unique and unambiguous identification of the registered contract as assigned by the registration agent."
+    },
+    "PreviousRegisteredContractIdentification": {
+      "name": "Previous Registered Contract Identification",
+      "definition": "Identification of a previously defined registered contract linked to the same underlying contract.||Usage:|This is the identification of a previous contract registration for the same underlying contract, which was closed. In most cases, this is used when a reporting party moves from one registration agent to another."
+    },
+    "RegisteredContractJournal": {
+      "name": "Registered Contract Journal",
+      "definition": "Journal of previously closed registered contracts for the same underlying contract, which were requested at the same registration agent."
+    },
+    "Amendment": {
+      "name": "Amendment",
+      "definition": "Details on amendments to the registered contract."
+    },
+    "Submission": {
+      "name": "Submission",
+      "definition": "Provides the communication method for the submission of the registered contract."
+    },
+    "Delivery": {
+      "name": "Delivery",
+      "definition": "Provides the communication method for the delivery of the registered contract."
+    },
+    "LoanPrincipalAmount": {
+      "name": "Loan Principal Amount",
+      "definition": "Amount of money the borrower pays back to the lender outside of interests and charges.||Usage:|Only applicable for loan contracts."
+    },
+    "EstimatedDateIndicator": {
+      "name": "Estimated Date Indicator",
+      "definition": "Indicates whether the dates provided are estimates or not."
+    },
+    "InterCompanyLoan": {
+      "name": "Inter Company Loan",
+      "definition": "Indicates whether loan in which both the lender and the borrower are divisions of the same corporation or not.||Usage:|Only applicable for loan contracts."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further information on the registered contract."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

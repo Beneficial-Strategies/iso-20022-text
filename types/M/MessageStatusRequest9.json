@@ -1,0 +1,24 @@
+{
+  "isoType": "MessageStatusRequest9",
+  "language": "en",
+  "name": "Message Status Request 9",
+  "definition": "Contents information to identify a previous exchange.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "MessageStatusRequestData": {
+      "name": "Message Status Request Data",
+      "definition": "Identification of the previous exchange."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

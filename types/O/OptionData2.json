@@ -1,0 +1,32 @@
+{
+  "isoType": "OptionData2",
+  "language": "en",
+  "name": "Option Data 2",
+  "definition": "Set of data which contains the link to a previously notified option trade.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date at which the trading parties have agreed on an option trade."
+    },
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Refers to the identification of a trade assigned by the trading side of a foreign exchange option trade."
+    },
+    "CommonReference": {
+      "name": "Common Reference",
+      "definition": "Reference common to the parties of a trade."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Refers to the identification of a previous event in the life of a foreign exchange option trade."
+    },
+    "AmendOrCancelReason": {
+      "name": "Amend Or Cancel Reason",
+      "definition": "Describes the reason for the cancellation or the amendment."
+    },
+    "Option": {
+      "name": "Option",
+      "definition": "Set of data defining a foreign exchange option sold."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportLine1",
+  "language": "en",
+  "name": "Report Line 1",
+  "definition": "Information about a payment against a purchase order.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction."
+    },
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Unique identification of the purchase order, assigned by the buyer."
+    },
+    "PurchaseOrderTotalNetAmount": {
+      "name": "Purchase Order Total Net Amount",
+      "definition": "Total amount of the purchase order after taxes, adjustments and charges."
+    },
+    "AccumulatedNetAmount": {
+      "name": "Accumulated Net Amount",
+      "definition": "Accumulated net amount, after adjustments, intended to be paid."
+    }
+  },
+  "isoRules": {
+    "TransactionAndPurchaseOrderRule": {
+      "definition": "The transaction identification and purchase order must match, that is, the purchase order must be the one contained in the baseline/transaction, identified by the transaction identification."
+    }
+  }
+}

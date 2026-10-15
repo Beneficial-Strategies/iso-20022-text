@@ -1,0 +1,29 @@
+{
+  "isoType": "Package4",
+  "language": "en",
+  "name": "Package 4",
+  "definition": "Combination of two or more transactions that are reported separately but that are negotiated together as the product of a single economic agreement.",
+  "isoElements": {
+    "ComplexTradeIdentification": {
+      "name": "Complex Trade Identification",
+      "definition": "Specifies the identifier determined by the reporting counterparty to connect:|- two or more transactions that are reported separately but that are negotiated together as the product of a single economic agreement,|- or two or more reports pertaining to the same transaction whenever jurisdictional reporting requirement does not allow the transaction to be reported with a single report to TRs.||Usage:|Where the package identifier is not known when a new transaction is reported, the package identifier is updated as it becomes available."
+    },
+    "FXSwapLinkIdentification": {
+      "name": "FX Swap Link Identification",
+      "definition": "Identifier which is used to link the near leg and far leg of an FX swap per current industry practice. This identifier could distingish FX swap from other packaged transactions identified by ComplexTradeIdentification."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Indicates the traded price of the entire package in which the reported derivative transaction is a component."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Indicates the traded price (expressed as a difference between two reference prices) of the entire package in which the reported derivative transaction is a component."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

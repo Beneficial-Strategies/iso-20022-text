@@ -1,0 +1,32 @@
+{
+  "isoType": "InvoiceAssignmentAcknowledgementV01",
+  "language": "en",
+  "name": "Invoice Assignment Acknowledgement V 01",
+  "definition": "The InvoiceAssignmentAcknowledgement message is sent from a trade partner to communicate the status of payment obligations related to financial items. The message can be sent independently or as a response to an InvoiceAssignmentNotification message.|Depending on legal contexts the message may be required as a response to an InvoiceAssignmentNotification message in order for the assignment to become effective.|The trade party may include references to the corresponding items of an InvoiceAssignmentRequest, InvoiceAssignmentStatus or InvoiceAssignmentNotification or other messages and may include referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the status, common parameters, documents and identifications."
+    },
+    "PaymentStatusList": {
+      "name": "Payment Status List",
+      "definition": "List of payment status information."
+    },
+    "PaymentStatusCount": {
+      "name": "Payment Status Count",
+      "definition": "Number of payment information lists as control value."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

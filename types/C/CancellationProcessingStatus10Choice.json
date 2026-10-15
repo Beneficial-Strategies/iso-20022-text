@@ -1,0 +1,24 @@
+{
+  "isoType": "CancellationProcessingStatus10Choice",
+  "language": "en",
+  "name": "Cancellation Processing Status 10 Choice",
+  "definition": "Choice of status for the cancellation processing.",
+  "isoElements": {
+    "CancellationPending": {
+      "name": "Cancellation Pending",
+      "definition": "Trade is in cancelation pending."
+    },
+    "CancellationRequested": {
+      "name": "Cancellation Requested",
+      "definition": "Cancelation request for the trade."
+    },
+    "CancellationCompleted": {
+      "name": "Cancellation Completed",
+      "definition": "Cancellation is completed."
+    },
+    "ProprietaryStatus": {
+      "name": "Proprietary Status",
+      "definition": "Provides a proprietary status and a proprietary reason of the processing status of the trade."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentInstrument11Choice",
+  "language": "en",
+  "name": "Payment Instrument 11 Choice",
+  "definition": "Choice between types of payment instrument, ie, cheque, credit transfer or investment account.",
+  "isoElements": {
+    "CreditTransferDetails": {
+      "name": "Credit Transfer Details",
+      "definition": "Payment instrument between a debtor and a creditor, which flows through one or more financial institutions or systems."
+    },
+    "ChequeDetails": {
+      "name": "Cheque Details",
+      "definition": "Written order on which instructions are given to an account holder (a financial institution) to pay a stated sum to a named recipient (the payee)."
+    },
+    "BankersDraftDetails": {
+      "name": "Bankers Draft Details",
+      "definition": "Cheque drawn by a bank on itself or its agent. A person who owes money to another buys the draft from a bank for cash and hands it to the creditor."
+    },
+    "CashAccountDetails": {
+      "name": "Cash Account Details",
+      "definition": "Part of the investment account to or from which cash entries are made."
+    }
+  }
+}

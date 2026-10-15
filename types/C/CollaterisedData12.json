@@ -1,0 +1,29 @@
+{
+  "isoType": "CollaterisedData12",
+  "language": "en",
+  "name": "Collaterised Data 12",
+  "definition": "Specifies the details of the collateralised securities.",
+  "isoElements": {
+    "CollateralValueDate": {
+      "name": "Collateral Value Date",
+      "definition": "Date on which the counterparties contractually agree the exchange of cash, securities, or commodities versus collateral for the opening leg (spot leg) of the securities financing transaction."
+    },
+    "AssetType": {
+      "name": "Asset Type",
+      "definition": "Specification on the type of asset used as collateral."
+    },
+    "NetExposureCollateralisationIndicator": {
+      "name": "Net Exposure Collateralisation Indicator",
+      "definition": "Indicates whether the collateral has been provided for a net exposure, rather than for a single transaction."
+    },
+    "BasketIdentifier": {
+      "name": "Basket Identifier",
+      "definition": "Identification of the collateral basket."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "SecuritiesAccountSearchCriteria2",
+  "language": "en",
+  "name": "Securities Account Search Criteria 2",
+  "definition": "Set of search criteria for querying securities account reference data.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that services the account."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "PartyType": {
+      "name": "Party Type",
+      "definition": "Specifies the type of the party for which securities account data have been queried."
+    },
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Legal opening date for the securities account."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Legal closing date for the securities account."
+    },
+    "AccountType": {
+      "name": "Account Type",
+      "definition": "Specifies the type of securities account."
+    },
+    "EndInvestorFlag": {
+      "name": "End Investor Flag",
+      "definition": "Specifies information to identify securities accounts where allocation instructions are posted."
+    },
+    "PricingScheme": {
+      "name": "Pricing Scheme",
+      "definition": "Defines how the price is applied to the securities account."
+    }
+  }
+}

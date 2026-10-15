@@ -1,0 +1,25 @@
+{
+  "isoType": "RequestToPayDebtorActivationCancellationRequestV02",
+  "language": "en",
+  "name": "Request To Pay Debtor Activation Cancellation Request V 02",
+  "definition": "The RequestToPayDebtorActivationCancellationRequest message is sent by the debtor RTP (Request To Pay) provider to the creditor RTP provider and optionally from the debtor to its RTP provider and from the creditor RTP provider to the creditor to request for the cancellation of the debtor activation of the RTP service with that specific creditor.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics to identify the message and parties playing a role in the cancellation of the mandate, but which are not part of the mandate."
+    },
+    "CancellationData": {
+      "name": "Cancellation Data",
+      "definition": "Provides details on the debtor activation cancellation request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide additional information about a transaction. The SupplementaryData element at transaction level should be used for that purpose."
+    }
+  }
+}

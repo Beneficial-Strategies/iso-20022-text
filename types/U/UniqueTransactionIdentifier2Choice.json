@@ -1,0 +1,16 @@
+{
+  "isoType": "UniqueTransactionIdentifier2Choice",
+  "language": "en",
+  "name": "Unique Transaction Identifier 2 Choice",
+  "definition": "Element is a choice between a standard identifier and a proprietary code.",
+  "isoElements": {
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique trade identifier (UTI) as agreed with the counterparty."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Trade identifier expressed in a proprietary notation."
+    }
+  }
+}

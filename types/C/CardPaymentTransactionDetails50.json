@@ -1,0 +1,28 @@
+{
+  "isoType": "CardPaymentTransactionDetails50",
+  "language": "en",
+  "name": "Card Payment Transaction Details 50",
+  "definition": "Details of the transaction in the cancellation inside a batch transfer.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency associated with the transaction."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the transaction."
+    },
+    "ValidityDate": {
+      "name": "Validity Date",
+      "definition": "Transaction authorisation deadline to complete the related payment."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Data related to an integrated circuit card application."
+    },
+    "KeepAuthorisationOpen": {
+      "name": "Keep Authorisation Open",
+      "definition": "This transaction is cancelled but the authorisation is not reversed."
+    }
+  }
+}

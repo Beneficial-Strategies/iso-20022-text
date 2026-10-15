@@ -1,0 +1,78 @@
+{
+  "isoType": "CardDataReading10Code",
+  "language": "en",
+  "name": "Card Data Reading 10 Code",
+  "definition": "Card  reading capabilities of the terminal performing the transaction. | ISO 8583:93 bit 22-2, ISO 8583:2003 bit 27-1",
+  "isoCodes": {
+    "ICPY": {
+      "isoName": "ICCProximity",
+      "name": "ICC Proximity",
+      "definition": "ICC contactless proximity"
+    },
+    "MGST": {
+      "isoName": "MagneticStripe",
+      "name": "Magnetic Stripe",
+      "definition": "Magnetic stripe."
+    },
+    "ICCY": {
+      "isoName": "ICCContact",
+      "name": "ICC Contact",
+      "definition": "ICC contact capability"
+    },
+    "MICR": {
+      "isoName": "MagneticInkCharacterRecognition",
+      "name": "Magnetic Ink Character Recognition",
+      "definition": "Recognition of magnetic ink characters"
+    },
+    "MLEY": {
+      "isoName": "ManualEntry",
+      "name": "Manual Entry",
+      "definition": "Manual, no terminal used."
+    },
+    "OCRR": {
+      "isoName": "OpticalCharacterRecognition",
+      "name": "Optical Character Recognition",
+      "definition": "OCR either at time of transaction or after the event."
+    },
+    "MSIP": {
+      "isoName": "MSIProximity",
+      "name": "MSI Proximity",
+      "definition": "Magstripe image contactless proximity"
+    },
+    "OPTC": {
+      "isoName": "OpticalCode",
+      "name": "Optical Code",
+      "definition": "Optical coded reading capabilities (e.g. barcode, QR code, etc.)"
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other national capability type assigned at national level."
+    },
+    "RFID": {
+      "isoName": "RFIDTag",
+      "name": "RFID Tag",
+      "definition": "Radio Frequency Identification tag capabilities."
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Unspecified capability."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card reading capability assigned on a private basis."
+    },
+    "KEEN": {
+      "isoName": "KeyEntered",
+      "name": "Key Entered",
+      "definition": "Key entered."
+    },
+    "DFLE": {
+      "isoName": "AccountData",
+      "name": "Account Data",
+      "definition": "Account data on file."
+    }
+  }
+}

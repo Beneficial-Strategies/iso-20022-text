@@ -1,0 +1,44 @@
+{
+  "isoType": "PaymentResponse8",
+  "language": "en",
+  "name": "Payment Response 8",
+  "definition": "Data to respond to a payment request.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "POI identification of the transaction in an unambiguous way."
+    },
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer."
+    },
+    "IssuerReferenceData": {
+      "name": "Issuer Reference Data",
+      "definition": "Identification of the transaction given by the Issuer."
+    },
+    "RetailerPaymentResult": {
+      "name": "Retailer Payment Result",
+      "definition": "Data related to the result of a processed payment transaction."
+    },
+    "PaymentReceipt": {
+      "name": "Payment Receipt",
+      "definition": "Customer or Merchant payment receipt."
+    },
+    "LoyaltyResult": {
+      "name": "Loyalty Result",
+      "definition": "Data related to the result of a processed loyalty transaction."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Customer order attached to a customer, recorded in the POI system."
+    }
+  }
+}

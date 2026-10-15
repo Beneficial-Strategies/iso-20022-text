@@ -1,0 +1,29 @@
+{
+  "isoType": "Collateral52",
+  "language": "en",
+  "name": "Collateral 52",
+  "definition": "Provides the details of the security pledged as collateral.",
+  "isoElements": {
+    "CollateralValueDate": {
+      "name": "Collateral Value Date",
+      "definition": "Date on which the counterparties contractually agree the exchange of cash, securities, or commodities versus collateral for the opening leg (spot leg) of the transaction."
+    },
+    "AssetType": {
+      "name": "Asset Type",
+      "definition": "Indication of the type of collateral component."
+    },
+    "NetExposureCollateralisationIndicator": {
+      "name": "Net Exposure Collateralisation Indicator",
+      "definition": "Indicates whether the collateral has been provided for a net exposure, rather than for a single transaction."
+    },
+    "BasketIdentifier": {
+      "name": "Basket Identifier",
+      "definition": "Identification of the collateral basket."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "isoType": "TradingModeType1Code",
+  "language": "en",
+  "name": "Trading Mode Type 1 Code",
+  "definition": "Identifies the type of the trading mode.",
+  "isoCodes": {
+    "QUDR": {
+      "isoName": "QuotationDriven",
+      "name": "Quotation Driven",
+      "definition": "Members could click When market makers quote continuously,or enter RFQ trading process, and make a deal with market makers finally."
+    },
+    "ORDR": {
+      "isoName": "OrderDriven",
+      "name": "Order Driven",
+      "definition": "Using matchmaking mechanism to match orders which are submitted by members."
+    },
+    "NETR": {
+      "isoName": "NegotiationTrade",
+      "name": "Negotiation Trade",
+      "definition": "Members send advertisements, and then other members could enter negotiation trade process. In the negotiation trade process, the member completes product elements and submits, and the counterpart just confirms the deal to make a negotiation trade."
+    },
+    "AUCT": {
+      "isoName": "Auction",
+      "name": "Auction",
+      "definition": "When issuer issues the deposits, market members subscribe the deposits."
+    },
+    "MARC": {
+      "isoName": "Matching",
+      "name": "Matching",
+      "definition": "Trades are executed through matching system."
+    },
+    "BILA": {
+      "isoName": "Bilateral",
+      "name": "Bilateral",
+      "definition": "Counterparties neogiate trading details to execute trades."
+    },
+    "ANON": {
+      "isoName": "Anonymous",
+      "name": "Anonymous",
+      "definition": "Trades are executed anonymously to each counterparty, based on rule \"pritority of price and time\" to match trade."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CardPaymentDataSet41",
+  "language": "en",
+  "name": "Card Payment Data Set 41",
+  "definition": "Transaction for whose batch capture has been rejected.",
+  "isoElements": {
+    "TransactionSequenceCounter": {
+      "name": "Transaction Sequence Counter",
+      "definition": "Sequential counter of the transaction."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Response to the capture of the transaction."
+    },
+    "Environment": {
+      "name": "Environment",
+      "definition": "Data related to the environment of the transaction."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Transaction that has been rejected."
+    }
+  }
+}

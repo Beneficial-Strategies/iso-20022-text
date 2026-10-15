@@ -1,0 +1,12 @@
+{
+  "isoType": "Max5Number",
+  "language": "en",
+  "name": "Max 5 Number",
+  "definition": "Number (max 99999) of objects represented as an integer.",
+  "isoRules": {
+    "NumberRule": {
+      "definition": "If Number is negative, then Sign must be present."
+    }
+  },
+  "format": "Required format is a whole number, using digits only, at most 5 digits in total"
+}

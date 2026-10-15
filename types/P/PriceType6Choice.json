@@ -1,0 +1,21 @@
+{
+  "isoType": "PriceType6Choice",
+  "language": "en",
+  "name": "Price Type 6 Choice",
+  "definition": "Type and information about a price.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Type and information about a price expressed as an ISO 20022 code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Type and information about a price expressed as an extended type."
+    }
+  },
+  "isoRules": {
+    "OtherCodeRule": {
+      "definition": "If Structured is OTHR, then AdditionalInformation is mandatory."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "UPIQueryCriteria1",
+  "language": "en",
+  "name": "UPI Query Criteria 1",
+  "definition": "Identification through a unique product identifier.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identification through a unique product identifier."
+    },
+    "NotReported": {
+      "name": "Not Reported",
+      "definition": "Field can be queried for not reported value."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CSDLinkStatus1",
+  "language": "en",
+  "name": "CSD Link Status 1",
+  "definition": "Business status of the party for processing in the system.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the party maintenance instruction."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Underlying reason related to the creation of a transaction."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals \"Rejected\" then StatusReason must be present."
+    }
+  }
+}

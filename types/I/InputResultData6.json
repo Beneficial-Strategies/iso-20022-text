@@ -1,0 +1,32 @@
+{
+  "isoType": "InputResultData6",
+  "language": "en",
+  "name": "Input Result Data 6",
+  "definition": "Information related to an Input request.",
+  "isoElements": {
+    "InputCommand": {
+      "name": "Input Command",
+      "definition": "Type of processed input."
+    },
+    "ConfirmedFlag": {
+      "name": "Confirmed Flag",
+      "definition": "Flag of notification of card to be entered in the POI card reader."
+    },
+    "FunctionKey": {
+      "name": "Function Key",
+      "definition": "Specifies the number of the function key which is typed by the Customer on the POI system or the Cashier on the Sale System."
+    },
+    "InputMessage": {
+      "name": "Input Message",
+      "definition": "Specifies the input text and data given by the POI or the Sale System."
+    },
+    "Password": {
+      "name": "Password",
+      "definition": "An enciphered password typed by the Customer on the POI system or the Cashier on the Sale system."
+    },
+    "ImageCapturedSignature": {
+      "name": "Image Captured Signature",
+      "definition": "Numeric value of a handwritten signature."
+    }
+  }
+}

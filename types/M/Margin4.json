@@ -1,0 +1,25 @@
+{
+  "isoType": "Margin4",
+  "language": "en",
+  "name": "Margin 4",
+  "definition": "Provides details on the type of margin amounts.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of margin that is calculated."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Provides the margin amount in the reporting currency and optionally in the original currency."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies whether the margin type position is short or long, that is, whether the balance is a negative or positive balance."
+    }
+  },
+  "isoRules": {
+    "VariationMarginTextualRule": {
+      "definition": "If the margin amount calculation is to be shown in more details (with for example, the MarkToMarketNetted or MarkToMarketGross amounts), then it is recommended to use the element variation margin that is present at a higher level in the message."
+    }
+  }
+}

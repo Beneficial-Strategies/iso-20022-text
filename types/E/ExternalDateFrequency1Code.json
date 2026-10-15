@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDateFrequency1Code",
+  "language": "en",
+  "name": "External Date Frequency 1 Code",
+  "definition": "Specifies the external date frequency code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "MNTH": {
+      "isoName": "Monthly",
+      "name": "Monthly",
+      "definition": "Frequency is monthly."
+    },
+    "QUTR": {
+      "isoName": "Quarterly",
+      "name": "Quarterly",
+      "definition": "Frequency is quarterly (every three months)."
+    },
+    "SEMI": {
+      "isoName": "SemiAnnual",
+      "name": "Semi Annual",
+      "definition": "Frequency is semi-annual (every six months)."
+    },
+    "TOMN": {
+      "isoName": "TwoMonthly",
+      "name": "Two Monthly",
+      "definition": "Frequency is two-monthly (every two months)."
+    },
+    "YEAR": {
+      "isoName": "Annual",
+      "name": "Annual",
+      "definition": "Frequency is annual."
+    }
+  }
+}

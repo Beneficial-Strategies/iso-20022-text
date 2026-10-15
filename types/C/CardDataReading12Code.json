@@ -1,0 +1,53 @@
+{
+  "isoType": "CardDataReading12Code",
+  "language": "en",
+  "name": "Card Data Reading 12 Code",
+  "definition": "Method used to obtain card payment information.",
+  "isoCodes": {
+    "UNKW": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Unknown card reading capability."
+    },
+    "CAMR": {
+      "isoName": "Camera",
+      "name": "Camera",
+      "definition": "Card details captured via camera."
+    },
+    "KEEN": {
+      "isoName": "KeyEntered",
+      "name": "Key Entered",
+      "definition": "Key entered."
+    },
+    "ICPY": {
+      "isoName": "ICCProximity",
+      "name": "ICC Proximity",
+      "definition": "ICC contactless proximity"
+    },
+    "OPTC": {
+      "isoName": "OpticalCode",
+      "name": "Optical Code",
+      "definition": "Optical coded reading capabilities (e.g. barcode, QR code, etc.)"
+    },
+    "CDFL": {
+      "isoName": "CardOnFile",
+      "name": "Card On File",
+      "definition": "Card information are stored on a file."
+    },
+    "MBNK": {
+      "isoName": "MobileBankingApplication",
+      "name": "Mobile Banking Application",
+      "definition": "Card details were obtained via a mobile banking application."
+    },
+    "TOKN": {
+      "isoName": "Token",
+      "name": "Token",
+      "definition": "Card details were obtained via a token."
+    },
+    "ICCP": {
+      "isoName": "ICCContactPartial",
+      "name": "ICC Contact Partial",
+      "definition": "Integrated circuit card read; only partial data is available."
+    }
+  }
+}

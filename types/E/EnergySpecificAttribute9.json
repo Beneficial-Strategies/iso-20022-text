@@ -1,0 +1,29 @@
+{
+  "isoType": "EnergySpecificAttribute9",
+  "language": "en",
+  "name": "Energy Specific Attribute 9",
+  "definition": "Attributes of energy related derivatives.",
+  "isoElements": {
+    "DeliveryPointOrZone": {
+      "name": "Delivery Point Or Zone",
+      "definition": "Indicates the delivery point(s) of market area(s) for energy derivative contracts."
+    },
+    "InterConnectionPoint": {
+      "name": "Inter Connection Point",
+      "definition": "Identification of the border(s) or border point(s) of a transportation contract."
+    },
+    "LoadType": {
+      "name": "Load Type",
+      "definition": "Identification of the delivery profile."
+    },
+    "DeliveryAttribute": {
+      "name": "Delivery Attribute",
+      "definition": "Attributes related to delivery of derivative contracts."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

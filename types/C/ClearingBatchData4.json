@@ -1,0 +1,60 @@
+{
+  "isoType": "ClearingBatchData4",
+  "language": "en",
+  "name": "Clearing Batch Data 4",
+  "definition": "Clearing data at batch level. Allows clearing in different currencies.",
+  "isoElements": {
+    "Method": {
+      "name": "Method",
+      "definition": "Type of clearing method used. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Level of priority of clearing."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date of clearing."
+    },
+    "TotalsCount": {
+      "name": "Totals Count",
+      "definition": "Number of transactions to clear."
+    },
+    "TotalsAmount": {
+      "name": "Totals Amount",
+      "definition": "Gross clearing accumulated amount."
+    },
+    "TotalsCurrency": {
+      "name": "Totals Currency",
+      "definition": "Currency code of gross clearing accumulated amount."
+    },
+    "TotalsCreditDebit": {
+      "name": "Totals Credit Debit",
+      "definition": "Sign of the gross clearing accumulated amount."
+    },
+    "InterchangeFeeAmount": {
+      "name": "Interchange Fee Amount",
+      "definition": "Interchange fee amount."
+    },
+    "InterchangeFeeCurrency": {
+      "name": "Interchange Fee Currency",
+      "definition": "Currency code of interchange fee amount."
+    },
+    "InterchangeFeeCreditDebit": {
+      "name": "Interchange Fee Credit Debit",
+      "definition": "Sign of the interchange fee amount."
+    },
+    "AgentFeeAmount": {
+      "name": "Agent Fee Amount",
+      "definition": "Agent fee amount."
+    },
+    "AgentFeeCurrency": {
+      "name": "Agent Fee Currency",
+      "definition": "Currency code Gross clearing accumulated amount."
+    },
+    "AgentFeeCreditDebit": {
+      "name": "Agent Fee Credit Debit",
+      "definition": "Sign of agent fee amount."
+    }
+  }
+}

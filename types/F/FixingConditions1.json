@@ -1,0 +1,36 @@
+{
+  "isoType": "FixingConditions1",
+  "language": "en",
+  "name": "Fixing Conditions 1",
+  "definition": "Provides the additional information for an NDF as supplied on a fixing instruction.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "The date on which the trade was executed."
+    },
+    "OriginatorReference": {
+      "name": "Originator Reference",
+      "definition": "Represents the original reference of the instruction for which the status is given, as assigned by the participant that submitted the foreign exchange trade."
+    },
+    "CommonReference": {
+      "name": "Common Reference",
+      "definition": "Reference common to both parties of the trade."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to the identification of a previous event in the life of a trade which is amended or cancelled."
+    },
+    "TradingSideBuyAmount": {
+      "name": "Trading Side Buy Amount",
+      "definition": "Currency and amount bought in a foreign exchange trade."
+    },
+    "TradingSideSellAmount": {
+      "name": "Trading Side Sell Amount",
+      "definition": "Currency and amount sold in a foreign exchange trade."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    }
+  }
+}

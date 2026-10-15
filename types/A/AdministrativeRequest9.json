@@ -1,0 +1,24 @@
+{
+  "isoType": "AdministrativeRequest9",
+  "language": "en",
+  "name": "Administrative Request 9",
+  "definition": "This component define the type of admin service to be used with this message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "AdministrativeServiceIdentification": {
+      "name": "Administrative Service Identification",
+      "definition": "Identification of the administrative service to process."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

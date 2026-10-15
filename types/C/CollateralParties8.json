@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralParties8",
+  "language": "en",
+  "name": "Collateral Parties 8",
+  "definition": "Choice of format for the trading capacity.",
+  "isoElements": {
+    "PartyA": {
+      "name": "Party A",
+      "definition": "Instructing party sending the collateral instruction."
+    },
+    "ClientPartyA": {
+      "name": "Client Party A",
+      "definition": "Party that instructs party A to send the message."
+    },
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Counterparty of party A."
+    },
+    "ClientPartyB": {
+      "name": "Client Party B",
+      "definition": "Party that instructs party B to settle the instruction on its behalf."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Party that handles tri-party transactions."
+    }
+  }
+}

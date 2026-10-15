@@ -1,0 +1,24 @@
+{
+  "isoType": "AuthorisationResult19",
+  "language": "en",
+  "name": "Authorisation Result 19",
+  "definition": "Outcome of the authorisation.",
+  "isoElements": {
+    "AuthorisationEntity": {
+      "name": "Authorisation Entity",
+      "definition": "Type of party that has delivered or declined the card payment authorisation (the party is not identified)."
+    },
+    "ResponseToAuthorisation": {
+      "name": "Response To Authorisation",
+      "definition": "Response to an authorisation request."
+    },
+    "AuthorisationCode": {
+      "name": "Authorisation Code",
+      "definition": "Value assigned by the authorising party."
+    },
+    "TMSTrigger": {
+      "name": "TMS Trigger",
+      "definition": "Acquirer has requested a contact to the maintenance host."
+    }
+  }
+}

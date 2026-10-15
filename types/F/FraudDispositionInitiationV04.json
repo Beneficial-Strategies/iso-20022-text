@@ -1,0 +1,100 @@
+{
+  "isoType": "FraudDispositionInitiationV04",
+  "language": "en",
+  "name": "Fraud Disposition Initiation V 04",
+  "definition": "A FraudDispositionInitiation message is usually sent by an agent to a financial institution acting as an acquirer or as an issuer   to report about the disposition of a confirmed fraudulent transaction.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "ReportedFraud": {
+      "name": "Reported Fraud",
+      "definition": "Fraud reporting type information."
+    },
+    "FraudDispositionStatus": {
+      "name": "Fraud Disposition Status",
+      "definition": "Contains the disposition of the previously submitted fraud reporting message."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Information related to the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "FraudTransactionIdentification": {
+      "name": "Fraud Transaction Identification",
+      "definition": "Identification of the  transaction reporting the fraud."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information relevant for the settlement report."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "Cardholder": {
+      "name": "Cardholder",
+      "definition": "Cardholder performing the card payment transaction."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

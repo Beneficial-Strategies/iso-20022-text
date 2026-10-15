@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatusReason15Code",
+  "language": "en",
+  "name": "Cancelled Status Reason 15 Code",
+  "definition": "Specifies the underlying reason for the cancellation of the associated transaction.",
+  "isoCodes": {
+    "CANI": {
+      "isoName": "CancelledByYourself",
+      "name": "Cancelled By Yourself",
+      "definition": "Transaction is cancelled by yourself."
+    },
+    "CSUB": {
+      "isoName": "CancelledByAgent",
+      "name": "Cancelled By Agent",
+      "definition": "Instruction has been cancelled by the agent due to an event deadline extension."
+    }
+  }
+}

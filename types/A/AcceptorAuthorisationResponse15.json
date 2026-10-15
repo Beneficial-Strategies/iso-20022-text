@@ -1,0 +1,24 @@
+{
+  "isoType": "AcceptorAuthorisationResponse15",
+  "language": "en",
+  "name": "Acceptor Authorisation Response 15",
+  "definition": "Authorisation response from the acquirer.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Authorisation of a card payment transaction between an acceptor and an acquirer."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Authorisation response from the acquirer.|Authorisation of a card payment transaction between an acceptor and an acquirer."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

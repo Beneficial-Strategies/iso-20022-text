@@ -1,0 +1,120 @@
+{
+  "isoType": "PaymentTransaction183",
+  "language": "en",
+  "name": "Payment Transaction 183",
+  "definition": "Data associated with a transaction process by a Point Of Interaction.",
+  "isoElements": {
+    "TransactionCapture": {
+      "name": "Transaction Capture",
+      "definition": "Flag indicating whether the transaction data must be captured or not in addition to the message process.|Usage: When absent, default value is False."
+    },
+    "PaymentInstrument": {
+      "name": "Payment Instrument",
+      "definition": "Set of possible payment instruments from which one will apply to this transaction."
+    },
+    "PaymentTypeInformation": {
+      "name": "Payment Type Information",
+      "definition": "Further details related to the set of payment types."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Type of transaction being undertaken for the main service."
+    },
+    "AdditionalService": {
+      "name": "Additional Service",
+      "definition": "Service in addition to the main service."
+    },
+    "ServiceAttribute": {
+      "name": "Service Attribute",
+      "definition": "Additional attribute of the service type."
+    },
+    "LastTransactionFlag": {
+      "name": "Last Transaction Flag",
+      "definition": "Flag indicating processing of the last transaction.| Usage: When absent, default value is  True."
+    },
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code conform to ISO 18245, related to the type of services or goods the merchant provides for the transaction."
+    },
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the initiator of the request. For instance refers to POITransactionIdentification if used inside an authorisation request or to SaleTransactionIdentification if the message is a payment request initiated by a sale system."
+    },
+    "OriginalTransaction": {
+      "name": "Original Transaction",
+      "definition": "Identification of the original transaction."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Unique identification of the Acquirer/Acceptor reconciliation period."
+    },
+    "IssuerReferenceData": {
+      "name": "Issuer Reference Data",
+      "definition": "Identification of the transaction given by the Issuer."
+    },
+    "IssuerCITIdentification": {
+      "name": "Issuer CIT Identification",
+      "definition": "Identification, given by the Issuer, of the transaction processed with the cardholder that legitimates this merchant initiated transaction."
+    },
+    "MerchantCITIdentification": {
+      "name": "Merchant CIT Identification",
+      "definition": "Identification, given by the merchant, of the transaction processed with the cardholder that legitimates this merchant initiated transaction."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Details of the transaction."
+    },
+    "AuthorisationResult": {
+      "name": "Authorisation Result",
+      "definition": "Outcome of the authorisation request."
+    },
+    "MerchantReferenceData": {
+      "name": "Merchant Reference Data",
+      "definition": "Merchant information that must be returned unchanged in the response."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Customer Order processing data."
+    },
+    "CustomerToken": {
+      "name": "Customer Token",
+      "definition": "Customer payment token information."
+    },
+    "CustomerConsent": {
+      "name": "Customer Consent",
+      "definition": "Indicates if the customer has explicitly validated a choice.|Usage: When absent, default value is False."
+    },
+    "CardProgrammeProposed": {
+      "name": "Card Programme Proposed",
+      "definition": "Specifies the card program proposed by a retailer to a cardholder among a series of payment programmes offered by the retailer."
+    },
+    "CardProgrammeApplied": {
+      "name": "Card Programme Applied",
+      "definition": "Specifies the card program actually selected by the cardholder among the ones supported by the retailer and/or the one actually proposed to him."
+    },
+    "SaleToPOIData": {
+      "name": "Sale To POI Data",
+      "definition": "Specifies element that the sale system wants to store in the POI system."
+    },
+    "SaleToAcquirerData": {
+      "name": "Sale To Acquirer Data",
+      "definition": "Sale information intended for the Acquirer."
+    },
+    "SaleToIssuerData": {
+      "name": "Sale To Issuer Data",
+      "definition": "Sale information intended for the Issuer."
+    },
+    "AdditionalTransactionData": {
+      "name": "Additional Transaction Data",
+      "definition": "Additional information related to the transaction."
+    },
+    "MessageFromMerchant": {
+      "name": "Message From Merchant",
+      "definition": "Message from a merchant to be displayed on the cardholder bank statement."
+    }
+  }
+}

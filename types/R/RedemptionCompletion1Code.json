@@ -1,0 +1,18 @@
+{
+  "isoType": "RedemptionCompletion1Code",
+  "language": "en",
+  "name": "Redemption Completion 1 Code",
+  "definition": "Specifies the redemption status of the redemption order.",
+  "isoCodes": {
+    "RED0": {
+      "isoName": "RedemptionNo",
+      "name": "Redemption No",
+      "definition": "It is not necessary to send more redemption order instructions to the executing party to complete the redemption, the executing will generate redemption confirmations automatically."
+    },
+    "RED1": {
+      "isoName": "RedemptionYes",
+      "name": "Redemption Yes",
+      "definition": "Additional redemption order instructions must be sent to the executing party order to have the rest of the redemption executed."
+    }
+  }
+}

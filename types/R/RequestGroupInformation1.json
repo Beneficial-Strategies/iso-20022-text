@@ -1,0 +1,56 @@
+{
+  "isoType": "RequestGroupInformation1",
+  "language": "en",
+  "name": "Request Group Information 1",
+  "definition": "Set of characteristics that unambiguously identify the global invoice financing request.",
+  "isoElements": {
+    "GroupIdentification": {
+      "name": "Group Identification",
+      "definition": "Point to point reference assigned by the financing requestor to unambiguously identify the invoice financing request message.||Usage: The financing requestor has to make sure that 'GroupIdentification' is unique for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time on which the invoice financing request was created."
+    },
+    "Authorisation": {
+      "name": "Authorisation",
+      "definition": "User identification or any user key that allows to check if the financing requestor is allowed to ask for invoice financing.||Usage: the content is not of a technical nature, but reflects the organisational structure at the requesting side.|The authorisation element can typically be used in case the financing requestor acts on behalf of one or more suppliers."
+    },
+    "NumberOfInvoiceRequests": {
+      "name": "Number Of Invoice Requests",
+      "definition": "Specifies the number of single invoice financing requests included in the bulk request message."
+    },
+    "TotalBulkInvoiceAmount": {
+      "name": "Total Bulk Invoice Amount",
+      "definition": "Total amount of the bulk invoice financing request. It is composed by the sum of the total amounts of all invoices included in the financing request."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Reference currency of the invoice financing request."
+    },
+    "FinancingAgreement": {
+      "name": "Financing Agreement",
+      "definition": "Specifies the financing method related to invoice financing (eg collection mandate)."
+    },
+    "FinancingRequestor": {
+      "name": "Financing Requestor",
+      "definition": "Party that requests the invoice financing, on behalf of a creditor."
+    },
+    "IntermediaryAgent": {
+      "name": "Intermediary Agent",
+      "definition": "Financial institution that receives the request from the financing requestor and forwards it to the first agent for execution."
+    },
+    "FirstAgent": {
+      "name": "First Agent",
+      "definition": "Financial institution of financing requestor to which an invoice financing request is addressed."
+    },
+    "AgreementClauses": {
+      "name": "Agreement Clauses",
+      "definition": "Agreements between financing requestor and his bank concerning conditions about the service of invoice financing, based on specific contractual schemes."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the financing request."
+    }
+  }
+}

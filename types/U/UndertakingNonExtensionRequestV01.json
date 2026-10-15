@@ -1,0 +1,16 @@
+{
+  "isoType": "UndertakingNonExtensionRequestV01",
+  "language": "en",
+  "name": "Undertaking Non Extension Request V 01",
+  "definition": "The UndertakingNonExtensionRequest message is sent by the party that requested issuance of the undertaking (applicant or obligor) to the party that issued the undertaking. It is used to request no further automatic extensions to the expiry of the referenced undertaking.",
+  "isoElements": {
+    "UndertakingNonExtensionRequestDetails": {
+      "name": "Undertaking Non Extension Request Details",
+      "definition": "Details of the non extension request."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the request."
+    }
+  }
+}

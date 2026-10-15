@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMServiceType1Code",
+  "language": "en",
+  "name": "ATM Service Type 1 Code",
+  "definition": "Describes the type of withdrawal selected by the customer.",
+  "isoCodes": {
+    "CHSN": {
+      "isoName": "ChosenWithdrawal",
+      "name": "Chosen Withdrawal",
+      "definition": "Amount and notes values are chosen by the customer."
+    },
+    "PATH": {
+      "isoName": "PreAuthorisedWithdrawal",
+      "name": "Pre Authorised Withdrawal",
+      "definition": "Withdrawal transaction was pre-authorised by another channel, for instance a mobile. The amount could be absent from the withdrawal request message."
+    },
+    "PRFL": {
+      "isoName": "ProfileWithdrawal",
+      "name": "Profile Withdrawal",
+      "definition": "Amount and notes Values are pre-defined by the customer profile."
+    },
+    "STDR": {
+      "isoName": "StandardWithdrawal",
+      "name": "Standard Withdrawal",
+      "definition": "Standard withdrawal of items."
+    },
+    "SPRV": {
+      "isoName": "SupervisedWithdrawal",
+      "name": "Supervised Withdrawal",
+      "definition": "Withdrawal authorised by a supervisor."
+    }
+  }
+}

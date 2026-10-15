@@ -1,0 +1,32 @@
+{
+  "isoType": "CollateralValueReport4",
+  "language": "en",
+  "name": "Collateral Value Report 4",
+  "definition": "Reports either on the collateral value report or on a business error.",
+  "isoElements": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Unique identification, as assigned by the account servicer, to unambiguously identify the account on which information is requested."
+    },
+    "CashAccountOwner": {
+      "name": "Cash Account Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "CashAccountServicer": {
+      "name": "Cash Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "SecuritiesAccountOwner": {
+      "name": "Securities Account Owner",
+      "definition": "Unique and unambiguous identification of the securities account owner."
+    },
+    "SecuritiesAccountServicer": {
+      "name": "Securities Account Servicer",
+      "definition": "Party that manages the securities account on behalf of the account owner."
+    },
+    "CollateralValueReport": {
+      "name": "Collateral Value Report",
+      "definition": "Provides information specific to the report on collateral value positions."
+    }
+  }
+}

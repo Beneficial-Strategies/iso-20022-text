@@ -1,0 +1,32 @@
+{
+  "isoType": "AuditTrail1",
+  "language": "en",
+  "name": "Audit Trail 1",
+  "definition": "Describes information needed to identify a change for a static data, the time when it was performed and the user requesting the change and approving it.",
+  "isoElements": {
+    "FieldName": {
+      "name": "Field Name",
+      "definition": "Name of the field whose value has been changed."
+    },
+    "OldFieldValue": {
+      "name": "Old Field Value",
+      "definition": "Value of the field before the change."
+    },
+    "NewFieldValue": {
+      "name": "New Field Value",
+      "definition": "Value of the field after the change."
+    },
+    "OperationTimeStamp": {
+      "name": "Operation Time Stamp",
+      "definition": "Timestamp of the change."
+    },
+    "InstructingUser": {
+      "name": "Instructing User",
+      "definition": "User who instructed the change."
+    },
+    "ApprovingUser": {
+      "name": "Approving User",
+      "definition": "User who approved the change instructed by the instructing user."
+    }
+  }
+}

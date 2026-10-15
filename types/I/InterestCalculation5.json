@@ -1,0 +1,64 @@
+{
+  "isoType": "InterestCalculation5",
+  "language": "en",
+  "name": "Interest Calculation 5",
+  "definition": "Provides the details of the interest calculation.",
+  "isoElements": {
+    "CalculationDate": {
+      "name": "Calculation Date",
+      "definition": "Indicates the calculation date of the interest amount."
+    },
+    "CollateralAccountIdentification": {
+      "name": "Collateral Account Identification",
+      "definition": "Provides the identification of the collateral account."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "EffectivePrincipalAmount": {
+      "name": "Effective Principal Amount",
+      "definition": "Provides the collateral amount used to calculate the interest amount and includes debit/short or credit/long positions."
+    },
+    "PrincipalAmount": {
+      "name": "Principal Amount",
+      "definition": "Provides the collateral amount posted before taking into account the collateral movement amount."
+    },
+    "MovementAmount": {
+      "name": "Movement Amount",
+      "definition": "Provides the additional amount of collateral posted between two calculation dates."
+    },
+    "NumberOfDays": {
+      "name": "Number Of Days",
+      "definition": "Indicates the number of days for the calculation of the interest."
+    },
+    "EffectiveRate": {
+      "name": "Effective Rate",
+      "definition": "Specifies the percentage charged for the use of an amount of money, usually expressed at an annual rate. The interest rate is the ratio of the amount of interest paid during a certain period of time compared to the principal amount of the interest bearing financial instrument."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Specifies the percentage charged for the use of an amount of money, usually expressed at an annual rate. The interest rate is the ratio of the amount of interest paid during a certain period of time compared to the principal amount of the interest bearing financial instrument."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Indicates the differences in interest rates."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Specifies the amount of money representing an interest payment."
+    },
+    "AggregatedInterestAmount": {
+      "name": "Aggregated Interest Amount",
+      "definition": "Specifies the total amount of money representing an interest payment."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    }
+  }
+}

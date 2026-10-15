@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectedStatusReason12",
+  "language": "en",
+  "name": "Rejected Status Reason 12",
+  "definition": "Reason for a rejected status.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the rejected status."
+    },
+    "AdditionalReasonInformation": {
+      "name": "Additional Reason Information",
+      "definition": "Additional information about the processed instruction."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInformationRule": {
+      "definition": "The AdditionalReasonInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    }
+  }
+}

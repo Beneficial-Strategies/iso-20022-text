@@ -1,0 +1,803 @@
+{
+  "isoType": "DTCAdjustmentPaymentSubReason2Code",
+  "language": "en",
+  "name": "DTC Adjustment Payment Sub Reason 2 Code",
+  "definition": "Specifies the subtype of the payment adjustment.",
+  "isoCodes": {
+    "SCPK": {
+      "isoName": "AccrualClaimPayment",
+      "name": "Accrual Claim Payment",
+      "definition": "Adjustment sub-reason is for an accrual claim payment related to a stock distribution payable on user defined date."
+    },
+    "SACP": {
+      "isoName": "AccruedInterestNotPaid",
+      "name": "Accrued Interest Not Paid",
+      "definition": "Adjustment sub-reason is that accrued interest was not previously paid to you for the redemption in this issue. This adjustment is to pay you for this accrued interest."
+    },
+    "SACA": {
+      "isoName": "AccruedInterestWrongRate",
+      "name": "Accrued Interest Wrong Rate",
+      "definition": "Adjustment sub-reason is for the accrued interest previously paid to you was at the wrong rate. This adjustment is to correct that erroneous payment."
+    },
+    "SRTJ": {
+      "isoName": "AdditionalRightsForBeneficialOwner",
+      "name": "Additional Rights For Beneficial Owner",
+      "definition": "Adjustment sub-reason is for a distribution of additional rights for round up of fractions as requested for your beneficial owners."
+    },
+    "SSRJ": {
+      "isoName": "AllocationAdjustmentDueToFractionsRoundedUpByAgent",
+      "name": "Allocation Adjustment Due To Fractions Rounded Up By Agent",
+      "definition": "Adjustment sub-reason is for an allocation adjustment due to fractions rounded up by the agent related adjustment."
+    },
+    "SST6": {
+      "isoName": "AllocationOfDRPTEDSInstruction",
+      "name": "Allocation Of DRPTEDS Instruction",
+      "definition": "Adjustment sub-reason is for an allocation of dividend reinvestment shares - DRP/TEDS instruction @100%."
+    },
+    "SARA": {
+      "isoName": "AssumedByYourGoodselves",
+      "name": "Assumed By Your Goodselves",
+      "definition": "Adjustment sub-reason is for an allocation for a participant position that was assumed by your good selves paid on retired Participant number."
+    },
+    "SAIA": {
+      "isoName": "AvoidFiscalPayment",
+      "name": "Avoid Fiscal Payment",
+      "definition": "Adjustment sub-reason is for an adjustment to avoid fiscal payment."
+    },
+    "SAPP": {
+      "isoName": "CalledCertificatesAccruedErroneousInterestChargeBack",
+      "name": "Called Certificates Accrued Erroneous Interest Charge Back",
+      "definition": "Adjustment sub-reason is for certificates you deposited prior to publication date were subsequently called. The agent paid DTCC the principal redemption proceeds but erroneously paid you the accrued interest."
+    },
+    "SCKS": {
+      "isoName": "CalledCertificatesCheckInParticipantsNameChargeBack",
+      "name": "Called Certificates Check In Participants Name Charge Back",
+      "definition": "Adjustment sub-reason is for certificates you deposited prior to publication date were subsequently called. The agent paid DTCC the principal proceeds via check, but in your customer’s name. We are forwarding the check today. This adjustment is to charge you for the funds."
+    },
+    "SSDK": {
+      "isoName": "CashDueOnDRPShareAllocation",
+      "name": "Cash Due On DRP Share Allocation",
+      "definition": "Adjustment sub-reason is for accrued cash due on DRP share allocation."
+    },
+    "SSCK": {
+      "isoName": "CashDueOnStockDividend",
+      "name": "Cash Due On Stock Dividend",
+      "definition": "Adjustment sub-reason is for accrued cash due on a stock dividend adjustment made on user defined date."
+    },
+    "SSJJ": {
+      "isoName": "CashInLieuOfFractionalShares",
+      "name": "Cash In Lieu Of Fractional Shares",
+      "definition": "Adjustment sub-reason is for an adjustment for cash-in-lieu of fractional shares related adjustment."
+    },
+    "SNNG": {
+      "isoName": "CashOnIncreasedShares",
+      "name": "Cash On Increased Shares",
+      "definition": "Adjustment sub-reason is for an adjustment for cash on increased shares due to a stock distribution payable."
+    },
+    "SSR6": {
+      "isoName": "ChargeInLieuOfReceiptOfDividendReinvestment",
+      "name": "Charge In Lieu Of Receipt Of Dividend Reinvestment",
+      "definition": "Adjustment sub-reason is that, as per your authorization, we are charging your account in lieu of receipt of dividend reinvestment related shares related adjustment."
+    },
+    "SFLD": {
+      "isoName": "AnnouncementDeletedOrFailTracking",
+      "name": "Announcement Deleted Or Fail Tracking",
+      "definition": "Adjustment sub-reason is for an announcement deleted for fail tracking related adjustment."
+    },
+    "SABA": {
+      "isoName": "AllocationOfBabyBondsAmountToBeExited",
+      "name": "Allocation Of Baby Bonds Amount To Be Exited",
+      "definition": "Adjustment sub-reason is for an allocation of baby bonds amount to be exited in USD."
+    },
+    "SGLA": {
+      "isoName": "AllocationAdjustment",
+      "name": "Allocation Adjustment",
+      "definition": "Adjustment sub-reason is for an allocation adjustment."
+    },
+    "SSPJ": {
+      "isoName": "AgentPaidBasedOnCombinedFractions",
+      "name": "Agent Paid Based On Combined Fractions",
+      "definition": "Adjustment sub-reason is that an agent paid DTC based on combined fractions for all public service New Hampshire. New spinoffs distributed on July 25, 1991."
+    },
+    "SSD6": {
+      "isoName": "AdjustmentToYourDividendReinvestmentPosition",
+      "name": "Adjustment To Your Dividend Reinvestment Position",
+      "definition": "Adjustment sub-reason is for an adjustment to your dividend reinvestment (DRP) position related adjustment."
+    },
+    "SSDJ": {
+      "isoName": "BabyBondPayment",
+      "name": "Baby Bond Payment",
+      "definition": "Adjustment sub-reason is for a bond paying in baby bonds that are issued in minimum/incremental denominations. This is to adjust for the amount of pending unissued bonds."
+    },
+    "SSBK": {
+      "isoName": "CashDueOnAccruedStockPayment",
+      "name": "Cash Due On Accrued Stock Payment",
+      "definition": "Adjustment sub-reason is for an adjustment for cash due on an accrued stock payment."
+    },
+    "SRDA": {
+      "isoName": "ChangeInRecordDate",
+      "name": "Change In Record Date",
+      "definition": "Adjustment sub-reason is for an allocation adjustment due to a change in the record date."
+    },
+    "SFI9": {
+      "isoName": "ChargeAtWithholdingRate",
+      "name": "Charge At Withholding Rate",
+      "definition": "Adjustment sub-reason is for required lists containing discrepancies or which were not forwarded to French paying agent. This charge is at user defined withholding rate."
+    },
+    "SFAF": {
+      "isoName": "ChargeForFrenchAvoidFiscalTaxCredit",
+      "name": "Charge For French Avoid Fiscal Tax Credit",
+      "definition": "Adjustment sub-reason is that, as per agent, this charge is for French avoid fiscal tax credit."
+    },
+    "SBB1": {
+      "isoName": "CODBuyBackWithdrawal",
+      "name": "COD Buy Back Withdrawal",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for a COD buy back withdrawal."
+    },
+    "SJCB": {
+      "isoName": "CODWithdrawal",
+      "name": "COD Withdrawal",
+      "definition": "Adjustment sub-reason is for DTCC COD withdrawal adjustment."
+    },
+    "SBDB": {
+      "isoName": "CODWithdrawalNotDeliveredInNameOfGoodselves",
+      "name": "COD Withdrawal Not Delivered In Name Of Goodselves",
+      "definition": "Adjustment sub-reason is that your COD withdrawal was not delivered, however the certificate(s) were issued and outstanding over the record date in the name of your good selves."
+    },
+    "SBEB": {
+      "isoName": "CODWithdrawalNotDeliveredInNameOfNominee",
+      "name": "COD Withdrawal Not Delivered In Name Of Nominee",
+      "definition": "Adjustment sub-reason is that your COD withdrawal was not delivered, however the certificate(s) were issued and outstanding over the record date in the name of your nominee."
+    },
+    "SANA": {
+      "isoName": "CompanyDidNotDeclareDividend",
+      "name": "Company Did Not Declare Dividend",
+      "definition": "Adjustment sub-reason is that the company never declared dividend adjust allocation on user defined date."
+    },
+    "SADA": {
+      "isoName": "CompanyInDefault",
+      "name": "Company In Default",
+      "definition": "Adjustment sub-reason is that the Company in default related adjustment."
+    },
+    "SCSM": {
+      "isoName": "CouponCollectionService",
+      "name": "Coupon Collection Service",
+      "definition": "Adjustment sub-reason code is for the coupon collection service adjustment for coupon deposit."
+    },
+    "SCDP": {
+      "isoName": "CustodyPayment",
+      "name": "Custody Payment",
+      "definition": "Adjustment sub-reason is for Custody payment."
+    },
+    "SJEG": {
+      "isoName": "DeliverOrder",
+      "name": "Deliver Order",
+      "definition": "Adjustment sub-reason is that DTCC deliver order related adjustment."
+    },
+    "SJDD": {
+      "isoName": "DepositAdjustment",
+      "name": "Deposit Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC deposit related adjustment."
+    },
+    "SSC6": {
+      "isoName": "DividendReinvestmentAllocation",
+      "name": "Dividend Reinvestment Allocation",
+      "definition": "Adjustment sub-reason is for dividend reinvestment allocation why not on normal event."
+    },
+    "SFLN": {
+      "isoName": "DateRevision",
+      "name": "Date Revision",
+      "definition": "Adjustment sub-reason is for date revision for fail tracking related adjustment."
+    },
+    "SFL1": {
+      "isoName": "Delete",
+      "name": "Delete",
+      "definition": "Adjustment sub-reason is for delete for fail tracking related adjustment."
+    },
+    "SEEE": {
+      "isoName": "DeliverOrderActivity",
+      "name": "Deliver Order Activity",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for deliver order (DO) activity."
+    },
+    "SDAD": {
+      "isoName": "DepositLostCertificateRegisteredInNameOfYour",
+      "name": "Deposit Lost Certificate Registered In Name Of Your",
+      "definition": "Adjustment sub-reason is for adjustment related to the deposit of lost certificate over the record date that was registered in the name of your [user defined]."
+    },
+    "SDCD": {
+      "isoName": "DepositTransferredIntoNameOfCEDEAndCo",
+      "name": "Deposit Transferred Into Name Of CEDE And Co",
+      "definition": "Adjustment sub-reason is for deposit after cut off date transferred into the name of the CEDE on record date."
+    },
+    "SSS6": {
+      "isoName": "DividendReinvestmentAllocationAdjustment",
+      "name": "Dividend Reinvestment Allocation Adjustment",
+      "definition": "Adjustment sub-reason is for dividend allocation adjustment due to your sub accounting instructions to the agent."
+    },
+    "SSE6": {
+      "isoName": "DividendReinvestmentAllocationOfCashInLieuOfFractions",
+      "name": "Dividend Reinvestment Allocation Of Cash In Lieu Of Fractions",
+      "definition": "Adjustment sub-reason is for dividend reinvestment allocation of cash in lieu of fractions related adjustment."
+    },
+    "SDMT": {
+      "isoName": "CTFSHeldOverRecordDate",
+      "name": "CTFS Held Over Record Date",
+      "definition": "Adjustment sub-reason is for CTF(s) held over record date on which we guarantee to hold you free and harmless of any further claim on this dividend."
+    },
+    "SPCP": {
+      "isoName": "DTCCClaimInTheNameOfYourCustomer",
+      "name": "DTCC Claim In The Name Of Your Customer",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your customer."
+    },
+    "SLCP": {
+      "isoName": "DTCCClaimInTheNameOfYourCustomerLateTransfer",
+      "name": "DTCC Claim In The Name Of Your Customer Late Transfer",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your customer. Late identification of missed transfer by Transfer Agent."
+    },
+    "SPGP": {
+      "isoName": "DTCCClaimInTheNameOfYourGoodselves",
+      "name": "DTCC Claim In The Name Of Your Goodselves",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your good selves."
+    },
+    "SLNP": {
+      "isoName": "DTCCClaimInTheNameOfYourNominee",
+      "name": "DTCC Claim In The Name Of Your Nominee",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your nominee. Late identification of missed transfer by Transfer Agent."
+    },
+    "SPNP": {
+      "isoName": "DTCCClaimInTheNameOfYourNomineeLateTransfer",
+      "name": "DTCC Claim In The Name Of Your Nominee Late Transfer",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your nominee."
+    },
+    "SGLZ": {
+      "isoName": "DTCCClaimOnRegisteredHolderInTheNameOfYourCustomer",
+      "name": "DTCC Claim On Registered Holder In The Name Of Your Customer",
+      "definition": "Adjustment sub-reason is for DTCC claim on registered holder in the name of your customer."
+    },
+    "SFLE": {
+      "isoName": "DueBill",
+      "name": "Due Bill",
+      "definition": "Adjustment sub-reason is for due bill for fail tracking related adjustment."
+    },
+    "SSFF": {
+      "isoName": "DueBillFailTracking",
+      "name": "Due Bill Fail Tracking",
+      "definition": "Adjustment sub-reason is for due bill fail tracking."
+    },
+    "SSFR": {
+      "isoName": "DueBillReversal",
+      "name": "Due Bill Reversal",
+      "definition": "Adjustment sub-reason is for due bill fail tracking reversal."
+    },
+    "SBB3": {
+      "isoName": "DWACAdjustment",
+      "name": "DWAC Adjustment",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for a DWAC withdrawal to effect a buy back/treasury purchase."
+    },
+    "SFF8": {
+      "isoName": "ForeignCashDividendsOrBondsInterestAllocationAtFavourableRate",
+      "name": "Foreign Cash Dividends Or Bonds Interest Allocation At Favourable Rate",
+      "definition": "Adjustment sub-reason is for foreign cash dividends/bonds interest allocation at favourable rate."
+    },
+    "SFH9": {
+      "isoName": "FrenchWithholdingTax10Percent",
+      "name": "French Withholding Tax 10 Percent",
+      "definition": "Adjustment sub-reason is for ten percent French withholding tax, based on your revised instructions to reduce favourable tax status to unfavourable."
+    },
+    "SFU9": {
+      "isoName": "ForeignCashDividendsOrBondInterestAllocationAtUnfavourableRate",
+      "name": "Foreign Cash Dividends Or Bond Interest Allocation At Unfavourable Rate",
+      "definition": "Adjustment sub-reason is for foreign cash dividends or bond interest allocation at unfavourable rate."
+    },
+    "SFE8": {
+      "isoName": "ForeignCashDividendsOrBondInterestAllocationAtExemptRate",
+      "name": "Foreign Cash Dividends Or Bond Interest Allocation At Exempt Rate",
+      "definition": "Adjustment sub-reason is for foreign cash dividends/bond interest allocation at exempt rate."
+    },
+    "SSBB": {
+      "isoName": "DWACBuyBackWithdrawal",
+      "name": "DWAC Buy Back Withdrawal",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for a DWAC buy back withdrawal."
+    },
+    "SGLQ": {
+      "isoName": "DTCCClaimOnRegisteredHolderInTheNameOfYourGoodselves",
+      "name": "DTCC Claim On Registered Holder In The Name Of Your Goodselves",
+      "definition": "Adjustment sub-reason is for DTCC claim on registered holder in the name of your good selves."
+    },
+    "SLGP": {
+      "isoName": "DTCCClaimInTheNameOfYourGoodselvesLateTransfer",
+      "name": "DTCC Claim In The Name Of Your Goodselves Late Transfer",
+      "definition": "Adjustment sub-reason is for DTCC claim against registered holder in the name of your good selves. Late identification of missed transfer by Transfer Agent."
+    },
+    "SFL9": {
+      "isoName": "ForeignCashDividendUnfavourableRate",
+      "name": "Foreign Cash Dividend Unfavourable Rate",
+      "definition": "Adjustment sub-reason is for foreign cash dividends allocation at unfavourable rate."
+    },
+    "SAFR": {
+      "isoName": "FractionalRights",
+      "name": "Fractional Rights",
+      "definition": "Adjustment sub-reason is for allocation of fractional rights."
+    },
+    "SFG8": {
+      "isoName": "FrenchWithholdingTax15Percent",
+      "name": "French Withholding Tax 15 Percent",
+      "definition": "Adjustment sub-reason is for fifteen percent French withholding tax, based on your option election of 100% ADRs at the favourable rate."
+    },
+    "SFG9": {
+      "isoName": "FrenchWithholdingTax25Percent",
+      "name": "French Withholding Tax 25 Percent",
+      "definition": "Adjustment sub-reason is for twenty five percent French withholding tax, based on your option election of 100% ADRs at the unfavourable rate."
+    },
+    "SFRO": {
+      "isoName": "FrozenLetterMovement",
+      "name": "Frozen Letter Movement",
+      "definition": "Adjustment sub-reason is as per memo requesting a frozen letter movement from part number."
+    },
+    "SAGA": {
+      "isoName": "GracePeriod",
+      "name": "Grace Period",
+      "definition": "Adjustment sub-reason is that company is taking 30 day grace period."
+    },
+    "SPRG": {
+      "isoName": "InLieuOfReorganisationDepositActivity",
+      "name": "In Lieu Of Reorganisation Deposit Activity",
+      "definition": "Adjustment sub-reason is that this adjustment represents credits/debits to your account in lieu of reorganisation deposit activity."
+    },
+    "SRIH": {
+      "isoName": "InResponseToYourInquiry",
+      "name": "In Response To Your Inquiry",
+      "definition": "Adjustment sub-reason is that adjustment is in response to your inquiry. Refer to control number."
+    },
+    "SGLT": {
+      "isoName": "InSettlementOfTradeDTCCReorganisationAccount",
+      "name": "In Settlement Of Trade DTCC Reorganisation Account",
+      "definition": "Adjustment sub-reason is for in settlement of a trade - DTCC reorganisation account 428-10271-1-2-039."
+    },
+    "SACB": {
+      "isoName": "InterestAdjustedDueToEarlyWithdrawal",
+      "name": "Interest Adjusted Due To Early Withdrawal",
+      "definition": "Adjustment sub-reason is for Interest adjusted due to early withdrawal (certificate of deposit)."
+    },
+    "SAEA": {
+      "isoName": "InterestAllocatedInError",
+      "name": "Interest Allocated In Error",
+      "definition": "Adjustment sub-reason is for interest allocated in error first payment on \"date user defined\"."
+    },
+    "S66P": {
+      "isoName": "InterestDueWasErroneouslyPaidToYouByIssuer",
+      "name": "Interest Due Was Erroneously Paid To You By Issuer",
+      "definition": "Adjustment sub-reason is that the interest due on the above CUSIP was erroneously paid to you by the issuer although the certificate of deposit was transferred to CEDE (DTCC) prior to the interest payment date."
+    },
+    "SAC7": {
+      "isoName": "InterestorDividendDueOnConversion",
+      "name": "Interestor Dividend Due On Conversion",
+      "definition": "Adjustment sub-reason is for interest or dividend due on conversion related adjustment."
+    },
+    "SAM7": {
+      "isoName": "InterestOrDividendDueOnMerger",
+      "name": "Interest Or Dividend Due On Merger",
+      "definition": "Adjustment sub-reason is for interest or dividend due on merger related adjustment."
+    },
+    "SAR7": {
+      "isoName": "InterestOrDividendDueOnRedemption",
+      "name": "Interest Or Dividend Due On Redemption",
+      "definition": "Adjustment sub-reason is for interest or dividend due on redemption."
+    },
+    "SAP7": {
+      "isoName": "InterestOrDividendDueOnRepaymentOption",
+      "name": "Interest Or Dividend Due On Repayment Option",
+      "definition": "Adjustment sub-reason is for interest or dividend due on repayment option."
+    },
+    "SAT7": {
+      "isoName": "InterestOrDividendDueOnTender",
+      "name": "Interest Or Dividend Due On Tender",
+      "definition": "Adjustment sub-reason is for interest or dividend due on tender."
+    },
+    "SAMA": {
+      "isoName": "InterestPaysAtMaturity",
+      "name": "Interest Pays At Maturity",
+      "definition": "Adjustment sub-reason is that interest pays at maturity. Allocated in error on user defined date."
+    },
+    "SIGE": {
+      "isoName": "InterimPositionAdjustedForDeliverOrderActivity",
+      "name": "Interim Position Adjusted For Deliver Order Activity",
+      "definition": "Adjustment sub-reason is for that your interim position was adjusted for deliver order activity."
+    },
+    "SJIE": {
+      "isoName": "InvestmentIdentificationAdjustment",
+      "name": "Investment Identification Adjustment",
+      "definition": "Adjustment sub-reason is that DTCC investment identification related adjustment."
+    },
+    "SADM": {
+      "isoName": "IssueInDefault",
+      "name": "Issue In Default",
+      "definition": "Adjustment sub-reason is for issue in default related adjustment."
+    },
+    "SFLL": {
+      "isoName": "LateAnnouncement",
+      "name": "Late Announcement",
+      "definition": "Adjustment sub-reason is for fail tracking for fail tracking related adjustment."
+    },
+    "SILL": {
+      "isoName": "LateAnnouncementActivityDueBillActivity",
+      "name": "Late Announcement Activity Due Bill Activity",
+      "definition": "Adjustment sub-reason is for late announcement activity due bill activity related adjustment."
+    },
+    "SDBD": {
+      "isoName": "LostCertificateRegisteredInTheNameOfYourGoodselves",
+      "name": "Lost Certificate Registered In The Name Of Your Goodselves",
+      "definition": "Adjustment sub-reason is for that the adjustment related to the deposit of lost certificate over the record date was registered in the name of your good selves."
+    },
+    "SWG1": {
+      "isoName": "LostCertificateWasRegisteredInTheNameOfYourCustomer",
+      "name": "Lost Certificate Was Registered In The Name Of Your Customer",
+      "definition": "Adjustment sub-reason is for withdrawal by transfer - lost certificate over the record date was registered in the name of your customer."
+    },
+    "SDED": {
+      "isoName": "LostCertificateWasRegisteredInTheNameOfYourNominee",
+      "name": "Lost Certificate Was Registered In The Name Of Your Nominee",
+      "definition": "Adjustment sub-reason is for adjustment related to the deposit of lost certificate over the record date that was registered in the name of your nominee."
+    },
+    "SCMU": {
+      "isoName": "MidwestDepository",
+      "name": "Midwest Depository",
+      "definition": "Adjustment sub-reason is for adjustment made for the Midwest depository (6942)."
+    },
+    "SGLM": {
+      "isoName": "MuniBearerBond",
+      "name": "Muni Bearer Bond",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment."
+    },
+    "SMAM": {
+      "isoName": "MuniBearerBondCoupon",
+      "name": "Muni Bearer Bond Coupon",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon related adjustment."
+    },
+    "SMDM": {
+      "isoName": "MuniBearerBondCouponAdjustmentExcessCouponsWithdrawn",
+      "name": "Muni Bearer Bond Coupon Adjustment Excess Coupons Withdrawn",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment excess coupon(s) withdrawn on user defined date."
+    },
+    "SFLS": {
+      "isoName": "NonAllocation",
+      "name": "Non Allocation",
+      "definition": "Adjustment sub-reason is for non allocation for fail tracking related adjustment."
+    },
+    "SOP2": {
+      "isoName": "OptionalDividendAllocationAdjustment",
+      "name": "Optional Dividend Allocation Adjustment",
+      "definition": "Adjustment sub-reason is for optional dividend (ops) allocation related adjustment."
+    },
+    "SCPP": {
+      "isoName": "PartClaimPayment",
+      "name": "Part Claim Payment",
+      "definition": "Adjustment sub-reason is for part claim payment."
+    },
+    "SJEE": {
+      "isoName": "PledgeReleaseAdjustment",
+      "name": "Pledge Release Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC pledge release related adjustment."
+    },
+    "SDDD": {
+      "isoName": "PositionAdjustedForDepositActivity",
+      "name": "Position Adjusted For Deposit Activity",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for deposit activity."
+    },
+    "SWN1": {
+      "isoName": "PositionReinstatedCertificatesIssuedAndOutstanding",
+      "name": "Position Reinstated Certificates Issued And Outstanding",
+      "definition": "Adjustment sub-reason is that your position was reinstated for a withdrawal by transfer. However the certificates(s) were issued and outstanding over the record date in the name of your customer(s)."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Reserved for new user defined reason codes."
+    },
+    "SCLU": {
+      "isoName": "PacificDepository",
+      "name": "Pacific Depository",
+      "definition": "Adjustment sub-reason is for adjustment made for the Pacific depository (3097)."
+    },
+    "SAHA": {
+      "isoName": "PaymentOfFullAvoidFiscalTaxRefund",
+      "name": "Payment Of Full Avoid Fiscal Tax Refund",
+      "definition": "Adjustment sub-reason is that payment of full avoid fiscal tax refund (equal to 42.5% of the dividend)."
+    },
+    "SAPA": {
+      "isoName": "PaymentOfPartialAvoidFiscalTaxRefund",
+      "name": "Payment Of Partial Avoid Fiscal Tax Refund",
+      "definition": "Adjustment sub-reason is that payment of partial avoid fiscal tax refund (equal to 15% of the dividend)."
+    },
+    "SCNU": {
+      "isoName": "PhiladelphiaDepository",
+      "name": "Philadelphia Depository",
+      "definition": "Adjustment sub-reason is for adjustment made for the Philadelphia depository (6070)."
+    },
+    "SJEF": {
+      "isoName": "PledgeAdjustment",
+      "name": "Pledge Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC pledge related adjustment."
+    },
+    "SFL3": {
+      "isoName": "PostDateChangeForFailTracking",
+      "name": "Post Date Change For Fail Tracking",
+      "definition": "Adjustment sub-reason is for post date change for fail tracking related adjustment."
+    },
+    "SCRP": {
+      "isoName": "PartClaimReversal",
+      "name": "Part Claim Reversal",
+      "definition": "Adjustment sub-reason is for part-claim reversal."
+    },
+    "SMMM": {
+      "isoName": "MuniBearerBondCouponPositionAdjustedForDepositActivity",
+      "name": "Muni Bearer Bond Coupon Position Adjusted For Deposit Activity",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment. Your interim position was adjusted for deposit activity."
+    },
+    "SMEM": {
+      "isoName": "MuniBearerBondCouponAdjustmentExcessCouponsDeposited",
+      "name": "Muni Bearer Bond Coupon Adjustment Excess Coupons Deposited",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment excess coupon(s) deposited on user defined date."
+    },
+    "SMCM": {
+      "isoName": "MuniBearerBondCouponAdjustmentCouponsMissingFromWithdrawal",
+      "name": "Muni Bearer Bond Coupon Adjustment Coupons Missing From Withdrawal",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment for coupon(s) missing from a withdrawal."
+    },
+    "SMBM": {
+      "isoName": "MuniBearerBondCouponAdjustmentCouponsMissingFromDeposit",
+      "name": "Muni Bearer Bond Coupon Adjustment Coupons Missing From Deposit",
+      "definition": "Adjustment sub-reason is for muni bearer bond coupon adjustment for coupon(s) missing from a deposit related adjustment."
+    },
+    "SSPA": {
+      "isoName": "PaynInKindDistribution",
+      "name": "Payn In Kind Distribution",
+      "definition": "Adjustment sub-reason is for an allocation of a pay in kind distribution."
+    },
+    "SDEP": {
+      "isoName": "PreviouslyCalledCertificatesFundsDelivery",
+      "name": "Previously Called Certificates Funds Delivery",
+      "definition": "Adjustment sub-reason is for that you deposited securities that were previously called. The agent paid DTCC the redemption proceeds. This adjustment is to pass these proceeds on to you. Your free account security position will be adjusted (shorted) today for the called quantity."
+    },
+    "SSA6": {
+      "isoName": "PriceCorrectionDividendReinvestment",
+      "name": "Price Correction Dividend Reinvestment",
+      "definition": "Adjustment sub-reason is for allocation adjustment for dividend reinvestment due to price correction by the agent."
+    },
+    "SPFS": {
+      "isoName": "ProceedsFromSaleOf",
+      "name": "Proceeds From Sale Of",
+      "definition": "Adjustment sub-reason is for proceeds from sale of."
+    },
+    "SSP4": {
+      "isoName": "ProceedsFromBuyTransactionInDividendTradingAccount",
+      "name": "Proceeds From Buy Transaction In Dividend Trading Account",
+      "definition": "Adjustment sub-reason is for proceeds resulting from a (buy) transaction affected in our DTCC/dividend trading account (#428‑10288‑1‑3‑039)."
+    },
+    "SSS5": {
+      "isoName": "ProceedsFromSellTransactionInDividendTradingAccount",
+      "name": "Proceeds From Sell Transaction In Dividend Trading Account",
+      "definition": "Adjustment sub-reason is for proceeds resulting from a (sell) transaction affected in our DTCC/dividend trading account (#428‑10288‑1‑3‑039)."
+    },
+    "SRTA": {
+      "isoName": "RateChange",
+      "name": "Rate Change",
+      "definition": "Adjustment sub-reason is that this allocation was adjusted for a rate change. Please refer to DIVA comment field for additional information."
+    },
+    "SFLR": {
+      "isoName": "RateRevision",
+      "name": "Rate Revision",
+      "definition": "Adjustment sub-reason is for rate revision for fail tracking related adjustment."
+    },
+    "SFL0": {
+      "isoName": "RateUnknown",
+      "name": "Rate Unknown",
+      "definition": "Adjustment sub-reason is for rate unknown for fail tracking related adjustment."
+    },
+    "SWHT": {
+      "isoName": "RecordDatePositionAdjustedForWithdrawalByTransfer",
+      "name": "Record Date Position Adjusted For Withdrawal By Transfer",
+      "definition": "Adjustment sub-reason is that our record date position was adjusted for a withdrawal by transfer activity."
+    },
+    "SJE7": {
+      "isoName": "RedemptionAdjustment",
+      "name": "Redemption Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC redemption related adjustment."
+    },
+    "SGLP": {
+      "isoName": "RedemptionPaymentDueToPledgeRelease",
+      "name": "Redemption Payment Due To Pledge Release",
+      "definition": "Adjustment sub-reason is for redemption payment due to pledge release."
+    },
+    "SFJ9": {
+      "isoName": "RefundedTaxRate",
+      "name": "Refunded Tax Rate",
+      "definition": "Adjustment sub-reason is that the 25% French withholding rate has been revised. This adjustment is based on the refunded tax rate."
+    },
+    "SFRB": {
+      "isoName": "RefundOfFrenchTaxJuly",
+      "name": "Refund Of French Tax July",
+      "definition": "Adjustment sub-reason is for refund of French tax based on acceptance of global reclamation for the July 1992 distribution refer to important notice b # 1352‑93."
+    },
+    "SFRA": {
+      "isoName": "RefundOfFrenchTaxJune",
+      "name": "Refund Of French Tax June",
+      "definition": "Adjustment sub-reason is for refund of French tax based on acceptance of global reclamation for the June 1992 distribution refer to important notice b # 1352‑93."
+    },
+    "SFL2": {
+      "isoName": "Reinstate",
+      "name": "Reinstate",
+      "definition": "Adjustment sub-reason is for reinstate for fail tracking related adjustment."
+    },
+    "SJR7": {
+      "isoName": "ReorganisationAdjustment",
+      "name": "Reorganisation Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC reorganisation related adjustment."
+    },
+    "S777": {
+      "isoName": "ReorganisationRelatedAdjustment",
+      "name": "Reorganisation Related Adjustment",
+      "definition": "Adjustment sub-reason is for reorganisation related adjustment on user defined date."
+    },
+    "SRPO": {
+      "isoName": "RepPaymentCharge",
+      "name": "Rep Payment Charge",
+      "definition": "Adjustment sub-reason is for Rep payment / charge."
+    },
+    "SGL7": {
+      "isoName": "RedemptionCash",
+      "name": "Redemption Cash",
+      "definition": "Adjustment sub-reason is for redemption cash settlement."
+    },
+    "SCRK": {
+      "isoName": "ReversalOfAccrualClaimPayment",
+      "name": "Reversal Of Accrual Claim Payment",
+      "definition": "Adjustment sub-reason is for a reversal of an accrual claim payment related to a stock distribution payable on user defined date."
+    },
+    "SBRH": {
+      "isoName": "ReversalOfCODWithdrawal",
+      "name": "Reversal Of COD Withdrawal",
+      "definition": "Adjustment sub-reason is for a reversal of a COD withdrawal related adjustment."
+    },
+    "SDRH": {
+      "isoName": "ReversalOfDeposit",
+      "name": "Reversal Of Deposit",
+      "definition": "Adjustment sub-reason is for a reversal of a deposit adjustment."
+    },
+    "SASA": {
+      "isoName": "ScriptSharesExited",
+      "name": "Script Shares Exited",
+      "definition": "Adjustment sub-reason is for allocation of script shares amount to be exited in dollar value."
+    },
+    "SSR4": {
+      "isoName": "ShareAdjustmentFromBuyTransactionInDividendTradingAccount",
+      "name": "Share Adjustment From Buy Transaction In Dividend Trading Account",
+      "definition": "Adjustment sub-reason is for share adjustment resulting from a (buy) transaction affected in our DTCC/dividend trading account (#428‑10288‑1‑3‑039)."
+    },
+    "SSR5": {
+      "isoName": "ShareAdjustmentFromSellTransactionInDividendTradingAccount",
+      "name": "Share Adjustment From Sell Transaction In Dividend Trading Account",
+      "definition": "Adjustment sub-reason is for share adjustment resulting from a (sell) transaction affected in our DTCC/dividend trading account (#428‑10288‑1‑3‑039)."
+    },
+    "SSOS": {
+      "isoName": "SpinOffAllocation",
+      "name": "Spin Off Allocation",
+      "definition": "Adjustment sub-reason is for an allocation of spinoff security."
+    },
+    "SSLA": {
+      "isoName": "StockLoanAdjustment",
+      "name": "Stock Loan Adjustment",
+      "definition": "Adjustment sub-reason is for stock loan related payment or charge."
+    },
+    "SSPO": {
+      "isoName": "StockLoanOrRepoPaymentOrder",
+      "name": "Stock Loan Or Repo Payment Order",
+      "definition": "Adjustment sub-reason is for stock loan or repo payment order related adjustment."
+    },
+    "SSME": {
+      "isoName": "SupplementalInterimActivityFromMidwest",
+      "name": "Supplemental Interim Activity From Midwest",
+      "definition": "Adjustment sub-reason is for supplemental interim activity from Midwest (6942)."
+    },
+    "SAFA": {
+      "isoName": "SupplementaryInterimOn",
+      "name": "Supplementary Interim On",
+      "definition": "Adjustment sub-reason is for supplementary interim on user defined date."
+    },
+    "SSPE": {
+      "isoName": "SupplementalInterimActivityFromPhiladelphia",
+      "name": "Supplemental Interim Activity From Philadelphia",
+      "definition": "Adjustment sub-reason is for supplemental interim activity from Philadelphia (6070)."
+    },
+    "SRPP": {
+      "isoName": "SupplementalInterimActivity",
+      "name": "Supplemental Interim Activity",
+      "definition": "Adjustment sub-reason is for supplemental interim activity related adjustment."
+    },
+    "SAJA": {
+      "isoName": "RevisionOfChargeForWithholdingTax",
+      "name": "Revision Of Charge For Withholding Tax",
+      "definition": "Adjustment sub-reason is for revision of charge for withholding tax."
+    },
+    "SETO": {
+      "isoName": "ReverseOfSharesEscheatedToNYStateInError",
+      "name": "Reverse Of Shares Escheated To NY State In Error",
+      "definition": "Adjustment sub-reason is due to shares escheated to New York state in error. This is to reverse."
+    },
+    "SFAP": {
+      "isoName": "ReverseOfEscheatedAmountOfClaim",
+      "name": "Reverse Of Escheated Amount Of Claim",
+      "definition": "Adjustment sub-reason is due to a reverse of escheated amount of claim."
+    },
+    "SWRH": {
+      "isoName": "ReversalOfWithdrawalByTransfer",
+      "name": "Reversal Of Withdrawal By Transfer",
+      "definition": "Adjustment sub-reason is for a reversal of a withdrawal by transfer adjustment."
+    },
+    "STEA": {
+      "isoName": "TaxExemptInstructions",
+      "name": "Tax Exempt Instructions",
+      "definition": "Adjustment sub-reason is to adjust allocation at 100% on your tax exempt instructions."
+    },
+    "SAF7": {
+      "isoName": "TenderFeeDeduction",
+      "name": "Tender Fee Deduction",
+      "definition": "Adjustment sub-reason is for interest adjusted due to tender fee deduction."
+    },
+    "SAA7": {
+      "isoName": "UnfavourableRateMerger",
+      "name": "Unfavourable Rate Merger",
+      "definition": "Adjustment sub-reason is that your account is being credited at the unfavourable rate (20%) as a result of the reorg merger paid on 4/2/93 (Armstrong Pharm to Medeva plc, effective 1/15/93). If entitled to favourable rate(15%), you must follow attached."
+    },
+    "SAWA": {
+      "isoName": "UninsuredInterestWithheld",
+      "name": "Uninsured Interest Withheld",
+      "definition": "Adjustment sub-reason is for uninsured interest withheld as per FSLICN."
+    },
+    "SRRA": {
+      "isoName": "VodaphoneADR",
+      "name": "Vodaphone ADR",
+      "definition": "Adjustment sub-reason is for option to receive Vodafone Group American Depository Receipt at 11.354392 for every 100 ADRS."
+    },
+    "SWL1": {
+      "isoName": "WithdrawalByTransferNotTransferredIntoClientsName",
+      "name": "Withdrawal By Transfer Not Transferred Into Clients Name",
+      "definition": "Adjustment sub-reason is for adjustment made for a withdrawal by transfer that was not transferred into your clients name by the record date."
+    },
+    "SWM1": {
+      "isoName": "WithdrawalByTransferSetUpAfterCutOffDateTransferIntoClientsName",
+      "name": "Withdrawal By Transfer Set Up After Cut Off Date Transfer Into Clients Name",
+      "definition": "Adjustment sub-reason code is for adjustment made for a withdrawal by transfer set up after the cut off date made transfer into your clients name."
+    },
+    "SJWT": {
+      "isoName": "WithdrawalTransferAdjustment",
+      "name": "Withdrawal Transfer Adjustment",
+      "definition": "Adjustment sub-reason is for DTCC WT related adjustment."
+    },
+    "SBB2": {
+      "isoName": "WithdrawalTransferBuyBackWithdrawal",
+      "name": "Withdrawal Transfer Buy Back Withdrawal",
+      "definition": "Adjustment sub-reason is that your record date position was adjusted for a w/t buy back withdrawal."
+    },
+    "SWTA": {
+      "isoName": "WithholdingTaxAdjustmentInUserDefinedCountry",
+      "name": "Withholding Tax Adjustment In User Defined Country",
+      "definition": "Adjustment sub-reason is for adjustment to allocation to charge (user defined percentage) withholding tax in (user defined) country."
+    },
+    "SRAH": {
+      "isoName": "WrittenInquiry",
+      "name": "Written Inquiry",
+      "definition": "Adjustment sub-reason is in response to your written inquiry."
+    },
+    "SJEW": {
+      "isoName": "WriteOffReorganisation",
+      "name": "Write Off Reorganisation",
+      "definition": "Adjustment sub-reason is for write off reorganisation related adjustment."
+    },
+    "SPRA": {
+      "isoName": "WrongRatePrincipal",
+      "name": "Wrong Rate Principal",
+      "definition": "Adjustment sub-reason is that the principal previously paid to you was at the wrong rate. This adjustment is to correct that erroneous payment."
+    }
+  }
+}

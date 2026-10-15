@@ -1,0 +1,64 @@
+{
+  "isoType": "TransparencyDataReport21",
+  "language": "en",
+  "name": "Transparency Data Report 21",
+  "definition": "Provides for reporting details of non-equity instruments as part of transparency calculations.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice messages.||Usage:|This identification will be used in the status advice report sent back."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "FullName": {
+      "name": "Full Name",
+      "definition": "Full name or description of the financial instrument."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Segment MIC for the trading venue where applicable, otherwise the operational MIC."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Date this information is reported in relation to."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Maturity date of the financial instrument. Field applicable for the asset classes of bonds, interest rate derivatives, equity derivatives, commodity derivatives, foreign exchange derivatives, credit derivatives, C10 derivatives and derivatives on emission allowances."
+    },
+    "FinancialInstrumentClassification": {
+      "name": "Financial Instrument Classification",
+      "definition": "Identification of non-equity financial instruments."
+    },
+    "UnderlyingInstrumentAssetClass": {
+      "name": "Underlying Instrument Asset Class",
+      "definition": "Details on the type of asset class a non-equity financial instrument can be classified as."
+    },
+    "DerivativeContractType": {
+      "name": "Derivative Contract Type",
+      "definition": "Details on the contract type a derivative non-equity financial instrument can be classified as."
+    },
+    "Bond": {
+      "name": "Bond",
+      "definition": "Details specific to a bond / debt instrument."
+    },
+    "EmissionAllowanceType": {
+      "name": "Emission Allowance Type",
+      "definition": "Details the reporting of the emission allowance sub type."
+    },
+    "Derivative": {
+      "name": "Derivative",
+      "definition": "Derivative specific details."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    },
+    "ValidMICRule": {
+      "definition": "Where reported, Market Identification code must be an active market for that reporting period."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "AcceptorConfigurationDataSet7",
+  "language": "en",
+  "name": "Acceptor Configuration Data Set 7",
+  "definition": "Data set containing the acceptor parameters of a point of interaction (POI).",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the data set transferred."
+    },
+    "SequenceCounter": {
+      "name": "Sequence Counter",
+      "definition": "Counter to identify a single data set within the whole transfer."
+    },
+    "LastSequence": {
+      "name": "Last Sequence",
+      "definition": "Indication of the last sequence in case of split messages.| Usage: When absent, default value is False."
+    },
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identification of the point of interactions involved by the configuration data set."
+    },
+    "ConfigurationScope": {
+      "name": "Configuration Scope",
+      "definition": "Scope of the configuration contained in the data set."
+    },
+    "Content": {
+      "name": "Content",
+      "definition": "Content of the acceptor parameters."
+    }
+  }
+}

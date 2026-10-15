@@ -1,0 +1,60 @@
+{
+  "isoType": "RiskAssessment3",
+  "language": "en",
+  "name": "Risk Assessment 3",
+  "definition": "Indicates to the card issuer the level of risk associated with the transaction.",
+  "isoElements": {
+    "EntityIdentification": {
+      "name": "Entity Identification",
+      "definition": "Identification of the party."
+    },
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Type of entity."
+    },
+    "OtherEntityType": {
+      "name": "Other Entity Type",
+      "definition": "Other party type defined at national or private level."
+    },
+    "EntityAssigner": {
+      "name": "Entity Assigner",
+      "definition": "Entity in charge of assigning an identification to a party."
+    },
+    "EntityCountry": {
+      "name": "Entity Country",
+      "definition": "Country of the party."
+    },
+    "EntityShortName": {
+      "name": "Entity Short Name",
+      "definition": "Short name of the party."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of risk assessment."
+    },
+    "HighRiskTransaction": {
+      "name": "High Risk Transaction",
+      "definition": "Transaction is identified as high risk."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for indicating a certain level of risk for the transaction."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Risk assessment result."
+    },
+    "Condition": {
+      "name": "Condition",
+      "definition": "Conditions noted for the risk assessment."
+    },
+    "Recommendation": {
+      "name": "Recommendation",
+      "definition": "Additional details of recommended action or other recommended action."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional risk data associated with the transaction."
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "isoType": "ChargeBackResponseV04",
+  "language": "en",
+  "name": "Charge Back Response V 04",
+  "definition": "The ChargeBackResponse message is sent by an acquirer or an agent to an issuer in response to an ChargeBackInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "TransactionCharacteristics": {
+      "name": "Transaction Characteristics",
+      "definition": "Contains the key data elements of the transaction."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Identification of the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "ConversionDateTime": {
+      "name": "Conversion Date Time",
+      "definition": "Date and Time of currency conversion."
+    },
+    "TransactionAmounts": {
+      "name": "Transaction Amounts",
+      "definition": "Amounts of the card transaction."
+    },
+    "Acceptor": {
+      "name": "Acceptor",
+      "definition": "Card acceptor performing the card transaction."
+    },
+    "Transactor": {
+      "name": "Transactor",
+      "definition": "Information related to the transactior who provides technical payment solutions for acceptor and originator to conduct transactions."
+    },
+    "Terminal": {
+      "name": "Terminal",
+      "definition": "Payment terminal or ATM performing the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context of the reversal transaction."
+    },
+    "OriginalTransactionAmounts": {
+      "name": "Original Transaction Amounts",
+      "definition": "Original Amounts of the card transaction."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "The party providing source of funds."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "The party receiving funds."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "DisputeData": {
+      "name": "Dispute Data",
+      "definition": "Information about the dispute."
+    },
+    "Documentation": {
+      "name": "Documentation",
+      "definition": "Supporting documentation information related to the chargeback."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

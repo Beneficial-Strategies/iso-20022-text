@@ -1,0 +1,43 @@
+{
+  "isoType": "TransactionChannel5Code",
+  "language": "en",
+  "name": "Transaction Channel 5 Code",
+  "definition": "Identifies the type of the communication channels used by the cardholder to the acceptor system.",
+  "isoCodes": {
+    "MAIL": {
+      "isoName": "MailOrder",
+      "name": "Mail Order",
+      "definition": "Mail order."
+    },
+    "TLPH": {
+      "isoName": "TelephoneOrder",
+      "name": "Telephone Order",
+      "definition": "Telephone order."
+    },
+    "ECOM": {
+      "isoName": "ElectronicCommerce",
+      "name": "Electronic Commerce",
+      "definition": "Electronic commerce."
+    },
+    "TVPY": {
+      "isoName": "TelevisionPayment",
+      "name": "Television Payment",
+      "definition": "Payment on television."
+    },
+    "SECM": {
+      "isoName": "SecuredElectronicCommerce",
+      "name": "Secured Electronic Commerce",
+      "definition": "Electronic commerce with cardholder authentication."
+    },
+    "MOBL": {
+      "isoName": "MobilePayment",
+      "name": "Mobile Payment",
+      "definition": "Payment performed through a cardholder mobile device."
+    },
+    "MPOS": {
+      "isoName": "MobilePOS",
+      "name": "Mobile POS",
+      "definition": "Payment performed through a merchant mobile device."
+    }
+  }
+}

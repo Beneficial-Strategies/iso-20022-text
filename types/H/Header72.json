@@ -1,0 +1,56 @@
+{
+  "isoType": "Header72",
+  "language": "en",
+  "name": "Header 72",
+  "definition": "Set of characteristics related to the protocol.",
+  "isoElements": {
+    "MessageFunction": {
+      "name": "Message Function",
+      "definition": "Identifies the type of process related to the message."
+    },
+    "ProtocolVersion": {
+      "name": "Protocol Version",
+      "definition": "Version of the acquirer to issuer protocol specifications."
+    },
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Unique identification of an exchange of messages between two parties."
+    },
+    "ReTransmissionCounter": {
+      "name": "Re Transmission Counter",
+      "definition": "Number of retransmission of the message. Incremented by one for each retransmission."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was sent."
+    },
+    "CollectionIdentification": {
+      "name": "Collection Identification",
+      "definition": "Identification of the collection to which the batch belongs."
+    },
+    "BatchIdentification": {
+      "name": "Batch Identification",
+      "definition": "Identification of the batch to which the message belongs."
+    },
+    "MessageSequenceNumber": {
+      "name": "Message Sequence Number",
+      "definition": "Sequence number of the message inside the batch."
+    },
+    "MessageChecksumInputValue": {
+      "name": "Message Checksum Input Value",
+      "definition": "Value of the message to use for the computation of the checksum of the batch or collection of messages."
+    },
+    "InitiatingPartyIdentification": {
+      "name": "Initiating Party Identification",
+      "definition": "Unique identification of the partner that has initiated the exchange."
+    },
+    "RecipientPartyIdentification": {
+      "name": "Recipient Party Identification",
+      "definition": "Unique identification of the partner that is the recipient of the message exchange."
+    },
+    "TraceData": {
+      "name": "Trace Data",
+      "definition": "Information sent in the request message to be returned in the response one, for instance to help in the retrieval of the context of the exchange."
+    }
+  }
+}

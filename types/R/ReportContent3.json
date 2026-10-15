@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportContent3",
+  "language": "en",
+  "name": "Report Content 3",
+  "definition": "Contains the content of a report.",
+  "isoElements": {
+    "ReportLineSequence": {
+      "name": "Report Line Sequence",
+      "definition": "Sequence number of the report line in the report."
+    },
+    "Text": {
+      "name": "Text",
+      "definition": "Report content in text format."
+    },
+    "Binary": {
+      "name": "Binary",
+      "definition": "BASE-64 encoded report content."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Encrypted report content."
+    }
+  }
+}

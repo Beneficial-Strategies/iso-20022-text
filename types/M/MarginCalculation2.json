@@ -1,0 +1,41 @@
+{
+  "isoType": "MarginCalculation2",
+  "language": "en",
+  "name": "Margin Calculation 2",
+  "definition": "Provides the details on the margin calculation per financial instrument or per currency.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "ExposureAmount": {
+      "name": "Exposure Amount",
+      "definition": "Net total of the transaction exposure of all outstanding deals."
+    },
+    "TotalMarginAmount": {
+      "name": "Total Margin Amount",
+      "definition": "Provides the total margin amount."
+    },
+    "CollateralOnDeposit": {
+      "name": "Collateral On Deposit",
+      "definition": "Provides details on the valuation of the collateral on deposit."
+    },
+    "MinimumRequirementDeposit": {
+      "name": "Minimum Requirement Deposit",
+      "definition": "Minimum requirement (expressed in the reporting currency) for a participant if their requirement falls below a specific amount set by the central counterparty."
+    },
+    "MarginResult": {
+      "name": "Margin Result",
+      "definition": "Provide details on the margin result taking into consideration the total margin amount and the minimum requirements deposit."
+    },
+    "MarginTypeAmount": {
+      "name": "Margin Type Amount",
+      "definition": "Provides margin calculation details such as the initial margin amount, the variation margin amount or other margin type amounts."
+    }
+  },
+  "isoRules": {
+    "MarginTypePresenceRule": {
+      "definition": ""
+    }
+  }
+}

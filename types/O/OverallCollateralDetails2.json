@@ -1,0 +1,28 @@
+{
+  "isoType": "OverallCollateralDetails2",
+  "language": "en",
+  "name": "Overall Collateral Details 2",
+  "definition": "Global collateral status of all transactions covered in the message, in the reporting currency, that is, the total of the exposure amount, of the posted collateral, of the margin amounts, of the accrued interest, of the fees or commissions and of the principals. In addition, it provides collateral-specific information.",
+  "isoElements": {
+    "ValuationAmounts": {
+      "name": "Valuation Amounts",
+      "definition": "Provides details on the collateral valuation."
+    },
+    "MarginRate": {
+      "name": "Margin Rate",
+      "definition": "The collateral excess/shortage expressed in the percentage of the collateral required."
+    },
+    "GlobalCollateralStatus": {
+      "name": "Global Collateral Status",
+      "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions covered in the message."
+    },
+    "ValuationDate": {
+      "name": "Valuation Date",
+      "definition": "Valuation date/time of both the collateral and the exposure."
+    },
+    "CollateralAdditionalDetails": {
+      "name": "Collateral Additional Details",
+      "definition": "Provides additional information on the collateral."
+    }
+  }
+}

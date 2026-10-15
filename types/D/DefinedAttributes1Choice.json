@@ -1,0 +1,16 @@
+{
+  "isoType": "DefinedAttributes1Choice",
+  "language": "en",
+  "name": "Defined Attributes 1 Choice",
+  "definition": "Specifies the choice between different types of derivative.",
+  "isoElements": {
+    "QuantityDefinedAttributes": {
+      "name": "Quantity Defined Attributes",
+      "definition": "Shares or some other fixed amount of derivative (such an ERIS future or swaption), or a fixed quantity of commodities."
+    },
+    "ValueDefinedAttributes": {
+      "name": "Value Defined Attributes",
+      "definition": "Value defined attributes for derivatives where the terms of the contract define the value of payable per unit of a move in some published index. This includes the floating leg of interest rate swaps which implicitly are payments proportional to the change in the index."
+    }
+  }
+}

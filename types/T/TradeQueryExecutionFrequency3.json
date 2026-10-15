@@ -1,0 +1,31 @@
+{
+  "isoType": "TradeQueryExecutionFrequency3",
+  "language": "en",
+  "name": "Trade Query Execution Frequency 3",
+  "definition": "Specifies the frequency of the trade query execution.",
+  "isoElements": {
+    "FrequencyType": {
+      "name": "Frequency Type",
+      "definition": "Specifies the frequency type of the trade query execution."
+    },
+    "DeliveryDay": {
+      "name": "Delivery Day",
+      "definition": "Specifies the day of the expected delivery of the query response."
+    },
+    "DayOfMonth": {
+      "name": "Day Of Month",
+      "definition": "Day of the month of the monthly query execution."
+    }
+  },
+  "isoRules": {
+    "Frequency1Rule": {
+      "definition": "If FrequencyType is Adhoc (ADHO), then DeliveryDay must be present."
+    },
+    "Frequency2Rule": {
+      "definition": "If FrequencyType is Weekly (WEEK), then DeliveryDay must be present and may occur only once."
+    },
+    "Frequency3Rule": {
+      "definition": "If FrequencyType is Monthly (MNTH), then DayOfMonth must be present and may occur only once."
+    }
+  }
+}

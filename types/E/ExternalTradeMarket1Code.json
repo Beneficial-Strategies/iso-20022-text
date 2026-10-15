@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalTradeMarket1Code",
+  "language": "en",
+  "name": "External Trade Market 1 Code",
+  "definition": "Specifies the external trade market code in the format of character string with a maximum length of 4 characters.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "FDMS": {
+      "isoName": "FactoringDomestic",
+      "name": "Factoring Domestic",
+      "definition": "Factoring service provider, Factoring client and third party in the same country"
+    },
+    "FEXP": {
+      "isoName": "FactoringExport",
+      "name": "Factoring Export",
+      "definition": "Factoring service provider, Factoring client in the same country, third party in another country"
+    },
+    "FFDM": {
+      "isoName": "FactoringForeignDomestic",
+      "name": "Factoring Foreign Domestic",
+      "definition": "Factoring client and third party in the same country, Factoring service provider in another country"
+    },
+    "FFDT": {
+      "isoName": "FactoringFrenchDomTom",
+      "name": "Factoring French Dom Tom",
+      "definition": "Factoring service provider, Factoring client and third party in the same country, but factoring client has an exceptional VAT ruling, for example if it’s overseas"
+    },
+    "FIMP": {
+      "isoName": "FactoringImport",
+      "name": "Factoring Import",
+      "definition": "Factoring service provider and third party in the same country, Factoring client in another country"
+    },
+    "FREX": {
+      "isoName": "FactoringReexportedExport",
+      "name": "Factoring Reexported Export",
+      "definition": "Factoring service provider, Factoring client and third party in three different countries"
+    }
+  }
+}

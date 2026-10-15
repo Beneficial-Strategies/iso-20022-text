@@ -1,0 +1,20 @@
+{
+  "isoType": "AbnormalValuesTransactionData2",
+  "language": "en",
+  "name": "Abnormal Values Transaction Data 2",
+  "definition": "Detailed information about derivatives that were received on the day of generation of the report with action type ‘New’, ‘Position component’, ‘Modification’ or ‘Correction’ whose notional amount is greater than a threshold for that class of derivatives.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of a transaction."
+    },
+    "NotionalAmount": {
+      "name": "Notional Amount",
+      "definition": "Posting of an item to a cash account, in the context of a cash transaction, that results in an increase or decrease to the balance of the account."
+    },
+    "NotionalQuantity": {
+      "name": "Notional Quantity",
+      "definition": "Indicates for each leg of the transaction the total notional quantity of the underlying asset for the term of the transaction."
+    }
+  }
+}

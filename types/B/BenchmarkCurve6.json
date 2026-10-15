@@ -1,0 +1,32 @@
+{
+  "isoType": "BenchmarkCurve6",
+  "language": "en",
+  "name": "Benchmark Curve 6",
+  "definition": "Identifies the benchmark against which the financial instrument is measured.",
+  "isoElements": {
+    "Spread": {
+      "name": "Spread",
+      "definition": "Either a swap spread or spread to benchmark depending upon order type. In case of a spread to benchmark, the price offset is expressed in terms of basis points relative to a benchmark - this can be a positive or a negative spread. In case of a swap spread, the price offset is a target spread for a swap."
+    },
+    "BenchmarkIdentification": {
+      "name": "Benchmark Identification",
+      "definition": "Identification of a security by an ISIN."
+    },
+    "BenchmarkPrice": {
+      "name": "Benchmark Price",
+      "definition": "Identifies the price of the benchmark security."
+    },
+    "BenchmarkCurveCurrency": {
+      "name": "Benchmark Curve Currency",
+      "definition": "Identifies the currency used for the benchmark curve."
+    },
+    "BenchmarkCurveName": {
+      "name": "Benchmark Curve Name",
+      "definition": "Identifies the name of the benchmark curve."
+    },
+    "BenchmarkCurvePoint": {
+      "name": "Benchmark Curve Point",
+      "definition": "Identifies a point on a benchmark curve. The point can be stated via a combination of maturity month/year and coupon."
+    }
+  }
+}

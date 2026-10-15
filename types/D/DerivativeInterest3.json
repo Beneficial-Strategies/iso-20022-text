@@ -1,0 +1,24 @@
+{
+  "isoType": "DerivativeInterest3",
+  "language": "en",
+  "name": "Derivative Interest 3",
+  "definition": "Specifies a multi-leg interest derivative.",
+  "isoElements": {
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Provides the interest rate in number of days, weeks, months or years."
+    },
+    "FirstLegInterestRate": {
+      "name": "First Leg Interest Rate",
+      "definition": "Interest rate of the notional currency."
+    },
+    "OtherNotionalCurrency": {
+      "name": "Other Notional Currency",
+      "definition": "Notional currency in which leg 2 of the contract is denominated, in case of multi-currency or cross-currency swaps.||Notional currency in which leg 2 of the swap is denominated, in case of swaptions where the underlying swap is multi-currency."
+    },
+    "OtherLegInterestRate": {
+      "name": "Other Leg Interest Rate",
+      "definition": "Indication of the interest rate used for leg 2, if applicable."
+    }
+  }
+}

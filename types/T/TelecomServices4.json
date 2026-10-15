@@ -1,0 +1,52 @@
+{
+  "isoType": "TelecomServices4",
+  "language": "en",
+  "name": "Telecom Services 4",
+  "definition": "Telecom services carries telephony billing data.",
+  "isoElements": {
+    "CustomerAccountNumber": {
+      "name": "Customer Account Number",
+      "definition": "Customer account number with the service provider."
+    },
+    "CustomerName": {
+      "name": "Customer Name",
+      "definition": "Name of the customer."
+    },
+    "CustomerPhone": {
+      "name": "Customer Phone",
+      "definition": "Customer's primary contact phone number."
+    },
+    "BillingStart": {
+      "name": "Billing Start",
+      "definition": "Contains the billing period start date for telecommunication or related services."
+    },
+    "BillingEnd": {
+      "name": "Billing End",
+      "definition": "Contains the billing period end date for telecommunication or related services."
+    },
+    "BillingEvent": {
+      "name": "Billing Event",
+      "definition": "Summary of the charges associated with the billing event."
+    },
+    "TotalTax": {
+      "name": "Total Tax",
+      "definition": "Total of taxes applicable to the billing amount."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount includes amounts of all the billing events and total tax amounts."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Telecom Services Line Item component is designed to carry detail level telephony billing data and to enable issuers to supply more transaction information to their consumer and corporate clients pertaining to telecommunications services and related billing information."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

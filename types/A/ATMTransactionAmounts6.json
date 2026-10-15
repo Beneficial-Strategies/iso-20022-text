@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTransactionAmounts6",
+  "language": "en",
+  "name": "ATM Transaction Amounts 6",
+  "definition": "Limit of amounts for the customer.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Default currency of the limits."
+    },
+    "MaximumPossibleAmount": {
+      "name": "Maximum Possible Amount",
+      "definition": "Maximum amount allowed for a transaction in the service."
+    },
+    "MinimumPossibleAmount": {
+      "name": "Minimum Possible Amount",
+      "definition": "Minimum amount allowed for a transaction in the service."
+    },
+    "AdditionalAmount": {
+      "name": "Additional Amount",
+      "definition": "Additional amount that may be displayed to the customer, for instance the daily limit or the daily balance for the service."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "isoType": "PartyType28Code",
+  "language": "en",
+  "name": "Party Type 28 Code",
+  "definition": "Type of entity involved in a card payment transaction.",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Card acceptor, party accepting the card and presenting transaction data to the acquirer."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between an acquirer and an issuer."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other card payment entity type defined at national level"
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card payment entity type defined at private level"
+    },
+    "WLPR": {
+      "isoName": "WalletProvider",
+      "name": "Wallet Provider",
+      "definition": "Provider of an electronic wallet"
+    },
+    "ISUR": {
+      "isoName": "Issuer",
+      "name": "Issuer",
+      "definition": "Issuer is the entitled party."
+    }
+  }
+}

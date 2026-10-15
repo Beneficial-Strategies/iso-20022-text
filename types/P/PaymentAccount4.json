@@ -1,0 +1,28 @@
+{
+  "isoType": "PaymentAccount4",
+  "language": "en",
+  "name": "Payment Account 4",
+  "definition": "Bank account used by a central counterparty to allow for the convenient settlement of obligations between a central counterparty and a clearing member, typically in commercial bank money. Gross credits and gross debits included.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency of the account"
+    },
+    "NetPayment": {
+      "name": "Net Payment",
+      "definition": "Total value of actual flows to and from clearing members via payment banks in the embedded system in each currency."
+    },
+    "GrossCredits": {
+      "name": "Gross Credits",
+      "definition": "Total value of flows from clearing members via payment banks in the embedded system in each currency."
+    },
+    "GrossDebits": {
+      "name": "Gross Debits",
+      "definition": "Total value of flows to clearing members via payment banks in the embedded system in each currency."
+    },
+    "LatePaymentConfirmation": {
+      "name": "Late Payment Confirmation",
+      "definition": "Number of payment bank account pay‐ins breaching the allowed time between instruction and confirmation. Usage: nil returns to be included for late payment confirmations in all cleared currencies."
+    }
+  }
+}

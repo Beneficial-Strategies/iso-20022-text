@@ -1,0 +1,156 @@
+{
+  "isoType": "FileActionResponseV04",
+  "language": "en",
+  "name": "File Action Response V 04",
+  "definition": "A FileActionResponse message is sent by any party to any party (acquirer, agent or issuer) in response to a FileActionInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Identification of the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "FileName": {
+      "name": "File Name",
+      "definition": "Identification of the file."
+    },
+    "Format": {
+      "name": "Format",
+      "definition": "File format code. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "DataRecord": {
+      "name": "Data Record",
+      "definition": "Content of record to be added, updated, deleted or replaced."
+    },
+    "ActionDate": {
+      "name": "Action Date",
+      "definition": "Date when the file action should be performed."
+    },
+    "FileSecurityCode": {
+      "name": "File Security Code",
+      "definition": "Indicates that the originator of the message is authorised to update the file."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Identifies that this batch or collection is a corrected version of a batch or collection that was previously sent."
+    },
+    "Acceptor": {
+      "name": "Acceptor",
+      "definition": "Card acceptor performing the card transaction."
+    },
+    "Terminal": {
+      "name": "Terminal",
+      "definition": "Payment terminal or ATM performing the transaction."
+    },
+    "POIComponent": {
+      "name": "POI Component",
+      "definition": "Data related to the components of the POI (Point Of Interaction) performing the transactions."
+    },
+    "Payer": {
+      "name": "Payer",
+      "definition": "The party providing source of funds."
+    },
+    "Payee": {
+      "name": "Payee",
+      "definition": "The party receiving funds."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "CustomerDevice": {
+      "name": "Customer Device",
+      "definition": "Identification of the customer device performing the transaction."
+    },
+    "Wallet": {
+      "name": "Wallet",
+      "definition": "Container for tenders used by the customer to perform the payment transaction."
+    },
+    "Cardholder": {
+      "name": "Cardholder",
+      "definition": "Cardholder performing the card payment transaction."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "ResponseCode": {
+      "name": "Response Code",
+      "definition": "Response code defined in ISO 8583."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

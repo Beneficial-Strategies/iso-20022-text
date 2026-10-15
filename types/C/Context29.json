@@ -1,0 +1,56 @@
+{
+  "isoType": "Context29",
+  "language": "en",
+  "name": "Context 29",
+  "definition": "Context in which the card payment transaction is performed.",
+  "isoElements": {
+    "MerchantCategoryCode": {
+      "name": "Merchant Category Code",
+      "definition": "Category code related to the type of services or goods the merchant provides for the transaction in accordance with ISO 18245."
+    },
+    "MerchantCategorySpecificData": {
+      "name": "Merchant Category Specific Data",
+      "definition": "Further details about the merchant that is used in with the merchant category code (MCC) for the particular purchase."
+    },
+    "OtherMerchantCategory": {
+      "name": "Other Merchant Category",
+      "definition": "Other merchant category assigned by local or national scheme."
+    },
+    "POSConditionCode": {
+      "name": "POS Condition Code",
+      "definition": "A code identifying transaction conditions at the point-of-sale or point of service."
+    },
+    "TransactionInitiator": {
+      "name": "Transaction Initiator",
+      "definition": "Identifies the transaction initiator."
+    },
+    "DelayedCharges": {
+      "name": "Delayed Charges",
+      "definition": "Indicates a delayed charge."
+    },
+    "NoShow": {
+      "name": "No Show",
+      "definition": "Indicates that the cardholder failed to arrive at the property and was therefore charged a no-show fee; property was not actually rented."
+    },
+    "Reauthorisation": {
+      "name": "Reauthorisation",
+      "definition": "Indicates a reauthorisation."
+    },
+    "ReSubmission": {
+      "name": "Re Submission",
+      "definition": "Indicates a resubmission."
+    },
+    "PartialShipment": {
+      "name": "Partial Shipment",
+      "definition": "Indicates the partial shipment."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "isoType": "SettlementService5",
+  "language": "en",
+  "name": "Settlement Service 5",
+  "definition": "Attributes of a settlement service.",
+  "isoElements": {
+    "ProposedType": {
+      "name": "Proposed Type",
+      "definition": "Proposed type of settlement service."
+    },
+    "ProposedIdentification": {
+      "name": "Proposed Identification",
+      "definition": "Identification of proposed settlement service."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of settlement service applied"
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of settlement service applied."
+    },
+    "RequestedDate": {
+      "name": "Requested Date",
+      "definition": "Date requested for settlement."
+    },
+    "Deferred": {
+      "name": "Deferred",
+      "definition": "Indicate a deferred Settlement date."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Actual date of settlement."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Actual time of settlement."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Identifies the settlement period, cycle or group. May contain settlement frequency or the identification of specific settlement period. For example, daily, monthly or settlementperiod123acd."
+    },
+    "CutOffTime": {
+      "name": "Cut Off Time",
+      "definition": "Identifies the effective end time of the settlement date and/or period."
+    },
+    "ReportingEntityType": {
+      "name": "Reporting Entity Type",
+      "definition": "Identifies the type of settlement reporting entity"
+    },
+    "ReportingEntityIdentification": {
+      "name": "Reporting Entity Identification",
+      "definition": "Identification of the settlement reporting entity."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional Settlement Information."
+    }
+  }
+}

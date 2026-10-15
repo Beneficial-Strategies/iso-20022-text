@@ -1,0 +1,24 @@
+{
+  "isoType": "LoyaltyServerData1",
+  "language": "en",
+  "name": "Loyalty Server Data 1",
+  "definition": "Data related to the loyalty server during a loyalty transaction.",
+  "isoElements": {
+    "LoyaltyServerIdentification": {
+      "name": "Loyalty Server Identification",
+      "definition": "Identification of the loyalty Server."
+    },
+    "ApprovalCode": {
+      "name": "Approval Code",
+      "definition": "Approval code assigned to a loyalty transaction by the Server."
+    },
+    "LoyaltyTransactionIdentification": {
+      "name": "Loyalty Transaction Identification",
+      "definition": "Identification of the Loyalty transaction in an unambiguous way."
+    },
+    "HostReconciliationIdentification": {
+      "name": "Host Reconciliation Identification",
+      "definition": "Identifier of a reconciliation period with a payment or loyalty host."
+    }
+  }
+}

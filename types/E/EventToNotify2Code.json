@@ -1,0 +1,108 @@
+{
+  "isoType": "EventToNotify2Code",
+  "language": "en",
+  "name": "Event To Notify 2 Code",
+  "definition": "Event the POI notifies to the Sale System.",
+  "isoCodes": {
+    "ABRT": {
+      "isoName": "Abort",
+      "name": "Abort",
+      "definition": "One or several device request has been sent by the POI during the processing of a service requested by the Sale System. The processing is cancelled by the Customer or stopped by the POI. If the device response is not received by the POI, an event is sent to inform the Sale to abort internally these device requests."
+    },
+    "MAIB": {
+      "isoName": "BeginMaintenance",
+      "name": "Begin Maintenance",
+      "definition": "Begin of POI Maintenance."
+    },
+    "CRDI": {
+      "isoName": "CardInserted",
+      "name": "Card Inserted",
+      "definition": "A card is inserted in the card reader (see Input request and NotifyCardInputFlag)."
+    },
+    "COMP": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "An Abort request has been sent to abort a message which is already completed."
+    },
+    "CRDR": {
+      "isoName": "CardRemoved",
+      "name": "Card Removed",
+      "definition": "A card is removed from the card reader."
+    },
+    "CUSL": {
+      "isoName": "CustomerLanguage",
+      "name": "Customer Language",
+      "definition": "The customer has selected a different language on the POI."
+    },
+    "MAIE": {
+      "isoName": "EndMaintenance",
+      "name": "End Maintenance",
+      "definition": "End of POI Maintenance."
+    },
+    "INIT": {
+      "isoName": "Initialised",
+      "name": "Initialised",
+      "definition": "The POI Terminal or the POI System is now ready to work."
+    },
+    "KEYP": {
+      "isoName": "KeyPressed",
+      "name": "Key Pressed",
+      "definition": "The customer has pressed a specific key on the POI."
+    },
+    "MAIR": {
+      "isoName": "MaintenanceRequired",
+      "name": "Maintenance Required",
+      "definition": "Maintenance required by the POI."
+    },
+    "OODR": {
+      "isoName": "OutOfOrder",
+      "name": "Out Of Order",
+      "definition": "The POI Terminal or the POI System cannot work."
+    },
+    "SADM": {
+      "isoName": "SaleAdmin",
+      "name": "Sale Admin",
+      "definition": "The POI has performed, or want to perform an automatic administrative process, e.g. the reports at the end of day."
+    },
+    "SWUP": {
+      "isoName": "SaleWakeUp",
+      "name": "Sale Wake Up",
+      "definition": "A POI terminal requests the payment of the transaction identified by the content of EventDetails in the Event notification."
+    },
+    "SECA": {
+      "isoName": "SecurityAlarm",
+      "name": "Security Alarm",
+      "definition": "Problem of security."
+    },
+    "SHUT": {
+      "isoName": "Shutdown",
+      "name": "Shutdown",
+      "definition": "The POI Terminal or the POI System is shutting down."
+    },
+    "SASS": {
+      "isoName": "StopAssistance",
+      "name": "Stop Assistance",
+      "definition": "When the Customer assistance is stopped, because the Customer has completed its input."
+    },
+    "DISC": {
+      "isoName": "Disconnected",
+      "name": "Disconnected",
+      "definition": "A disconnection occurred."
+    },
+    "CNTN": {
+      "isoName": "Connected",
+      "name": "Connected",
+      "definition": "Connection has been set up."
+    },
+    "TNOK": {
+      "isoName": "TransactionApproved",
+      "name": "Transaction Approved",
+      "definition": "Transaction has been processed and approved by the POI."
+    },
+    "TNKO": {
+      "isoName": "TransactionDeclined",
+      "name": "Transaction Declined",
+      "definition": "Transaction has been processed but has been declined."
+    }
+  }
+}

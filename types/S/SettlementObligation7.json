@@ -1,0 +1,76 @@
+{
+  "isoType": "SettlementObligation7",
+  "language": "en",
+  "name": "Settlement Obligation 7",
+  "definition": "Provides details about the settlement obligation.",
+  "isoElements": {
+    "CSDTransactionIdentification": {
+      "name": "CSD Transaction Identification",
+      "definition": "Last reference given by the settlement platform (this is the central securities depository) to the transaction (non settled instruction)."
+    },
+    "CentralCounterpartyTransactionIdentification": {
+      "name": "Central Counterparty Transaction Identification",
+      "definition": "Reference of the transaction (non settled instruction) given by the central counterparty."
+    },
+    "PreviousBuyInIdentification": {
+      "name": "Previous Buy In Identification",
+      "definition": "Original buy-in identification number in case an event causes a generation of a new buy-in identification."
+    },
+    "DeliveryAccount": {
+      "name": "Delivery Account",
+      "definition": "An account opened by the central counterparty in the name of the clearing member within the account structure, for settlement purposes (gives information about the clearing member account at central counterparty)."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Clearing member account at the central securities depository."
+    },
+    "ClearingSegment": {
+      "name": "Clearing Segment",
+      "definition": "Clearing organisation that will clear the trade.||Note: This field allows clearing member firm to segregate flows coming from clearing counterparty's clearing system. Indeed, clearing member firms receive messages from the same system (same sender) and this field allows them to know if the message is related to equities or derivatives."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides the identification for the non-clearing member and account."
+    },
+    "IntendedSettlementDate": {
+      "name": "Intended Settlement Date",
+      "definition": "Provides the intended settlement date of the position."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Provides the trade date."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Provides the price of the trade."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Provides the quantity of the trade."
+    },
+    "Depository": {
+      "name": "Depository",
+      "definition": "Place where settlement of the securities takes place."
+    },
+    "RemainingQuantityToBeSettled": {
+      "name": "Remaining Quantity To Be Settled",
+      "definition": "Provides the remaining quantity to be settled."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Provides the amount to be settled."
+    },
+    "RemainingAmountToBeSettled": {
+      "name": "Remaining Amount To Be Settled",
+      "definition": "Provides the remaining amount to be settled."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CalculationMethod1Code",
+  "language": "en",
+  "name": "Calculation Method 1 Code",
+  "definition": "Indicates if the method for interest calculation is simple or compounding.",
+  "isoCodes": {
+    "SIMP": {
+      "isoName": "Simple",
+      "name": "Simple",
+      "definition": "Calculation method by which interest is calculated on the original principal only. Accumulated interest from prior periods is not used in calculations for the following periods."
+    },
+    "COMP": {
+      "isoName": "Compounding",
+      "name": "Compounding",
+      "definition": "Calculation method by which interest is calculated each period on the original principal and all interest accumulated during past periods."
+    }
+  }
+}

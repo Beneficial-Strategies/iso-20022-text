@@ -1,0 +1,40 @@
+{
+  "isoType": "HostCommunicationParameter8",
+  "language": "en",
+  "name": "Host Communication Parameter 8",
+  "definition": "Configuration parameters to communicate with a host.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "HostIdentification": {
+      "name": "Host Identification",
+      "definition": "Identification of the host."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Network parameters of the host."
+    },
+    "Key": {
+      "name": "Key",
+      "definition": "Cryptographic key used to communicate with the host."
+    },
+    "NetworkServiceProvider": {
+      "name": "Network Service Provider",
+      "definition": "Access information to reach an intermediate network service provider."
+    },
+    "PhysicalInterface": {
+      "name": "Physical Interface",
+      "definition": "Physical Interface where the host is connect \t\t\t\t\tType of exchange supported by the host.ed."
+    },
+    "ExchangeMode": {
+      "name": "Exchange Mode",
+      "definition": "Type of exchange supported by the host."
+    },
+    "EncodingMode": {
+      "name": "Encoding Mode",
+      "definition": "Type of encoding mode used by the exchange mode supported by the host."
+    }
+  }
+}

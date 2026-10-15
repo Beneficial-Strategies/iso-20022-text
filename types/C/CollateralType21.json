@@ -1,0 +1,25 @@
+{
+  "isoType": "CollateralType21",
+  "language": "en",
+  "name": "Collateral Type 21",
+  "definition": "Provides information for the first side of the transaction on the type of collateral.",
+  "isoElements": {
+    "Security": {
+      "name": "Security",
+      "definition": "Data specific to securities and related fields used as a collateral."
+    },
+    "Cash": {
+      "name": "Cash",
+      "definition": "Amount of funds provided as collateral for borrowing the securities or commodities."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Data specific to commodities and related fields used as a collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

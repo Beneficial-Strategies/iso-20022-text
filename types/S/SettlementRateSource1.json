@@ -1,0 +1,29 @@
+{
+  "isoType": "SettlementRateSource1",
+  "language": "en",
+  "name": "Settlement Rate Source 1",
+  "definition": "Specifies the components of a settlement rate source for a non delvierable trade.",
+  "isoElements": {
+    "RateSource": {
+      "name": "Rate Source",
+      "definition": "Specifies the rate source for the non deliverable trade."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Specifies the time \"HHMM\" associated with the rate source."
+    },
+    "CountryCode": {
+      "name": "Country Code",
+      "definition": "Specifies the country code for the quoted rate source."
+    },
+    "LocationCode": {
+      "name": "Location Code",
+      "definition": "The location expressed as a 2 character code."
+    }
+  },
+  "isoRules": {
+    "TimeCountryLocationRule": {
+      "definition": "Time, Country and Location must be present together or not present at all."
+    }
+  }
+}

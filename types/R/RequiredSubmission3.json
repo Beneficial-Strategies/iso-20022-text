@@ -1,0 +1,36 @@
+{
+  "isoType": "RequiredSubmission3",
+  "language": "en",
+  "name": "Required Submission 3",
+  "definition": "Specifies the details relative to the submission of the insurance data set.",
+  "isoElements": {
+    "Submitter": {
+      "name": "Submitter",
+      "definition": "Specifies with party(ies) is authorised to submit the data set as part of the transaction."
+    },
+    "MatchIssuer": {
+      "name": "Match Issuer",
+      "definition": "Specifies if the issuer must be matched as part of the validation of the data set."
+    },
+    "MatchIssueDate": {
+      "name": "Match Issue Date",
+      "definition": "Specifies if the issue date must be matched as part of the validation of the data set."
+    },
+    "MatchTransport": {
+      "name": "Match Transport",
+      "definition": "Specifies if the transport information must be matched as part of the validation of the data set."
+    },
+    "MatchAmount": {
+      "name": "Match Amount",
+      "definition": "Specifies if the insured amount must be matched as part of the validation of the data set."
+    },
+    "ClausesRequired": {
+      "name": "Clauses Required",
+      "definition": "Specifies which clauses are required in the insurance data set."
+    },
+    "MatchAssuredParty": {
+      "name": "Match Assured Party",
+      "definition": "Specifies if the assured (insured) party must be matched as part of the validation of the data set."
+    }
+  }
+}

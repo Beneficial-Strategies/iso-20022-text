@@ -1,0 +1,63 @@
+{
+  "isoType": "SettlementStatus3Code",
+  "language": "en",
+  "name": "Settlement Status 3 Code",
+  "definition": "Specifies the status of the settlement of a trade in a central matching and settlement system.",
+  "isoCodes": {
+    "ASTL": {
+      "isoName": "AcceptedForSettlement",
+      "name": "Accepted For Settlement",
+      "definition": "Settlement is accepted for settlement."
+    },
+    "AAUT": {
+      "isoName": "AwaitingAuthorisation",
+      "name": "Awaiting Authorisation",
+      "definition": "Settlement is awaiting authorisation."
+    },
+    "ACCF": {
+      "isoName": "AwaitingCreationConfirmation",
+      "name": "Awaiting Creation Confirmation",
+      "definition": "Settlement is awaiting confirmation of creation."
+    },
+    "ARCF": {
+      "isoName": "AwaitingRescindConfirmation",
+      "name": "Awaiting Rescind Confirmation",
+      "definition": "Settlement is awaiting confirmation of rescind."
+    },
+    "MTCH": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Instruction is matched."
+    },
+    "PSTL": {
+      "isoName": "PartiallySettled",
+      "name": "Partially Settled",
+      "definition": "Part, but not all, of a Trade's value has settled, and no further elements of the Trade's value are expected to be settled."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Settlement is rejected."
+    },
+    "STLD": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Settlement is complete."
+    },
+    "STCR": {
+      "isoName": "SettlementTransactionCreated",
+      "name": "Settlement Transaction Created",
+      "definition": "Settlement has been created."
+    },
+    "SPLT": {
+      "isoName": "Split",
+      "name": "Split",
+      "definition": "Settlement is split."
+    },
+    "NMAT": {
+      "isoName": "Unmatched",
+      "name": "Unmatched",
+      "definition": "Instruction is unmatched."
+    }
+  }
+}

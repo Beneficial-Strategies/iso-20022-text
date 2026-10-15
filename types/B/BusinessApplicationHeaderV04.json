@@ -10,11 +10,11 @@
     },
     "From": {
       "name": "From",
-      "definition": ""
+      "definition": "The sending MessagingEndpoint that has created this Business Message for the receiving MessagingEndpoint that will process this Business Message.||Note\tthe sending MessagingEndpoint might be different from the sending address potentially contained in the transport header (as defined in the transport layer)."
     },
     "To": {
       "name": "To",
-      "definition": ""
+      "definition": "The MessagingEndpoint designated by the sending MessagingEndpoint to be the recipient who will ultimately process this Business Message.||Note the receiving MessagingEndpoint might be different from the receiving address potentially contained in the transport header (as defined in the transport layer)."
     },
     "BusinessMessageIdentifier": {
       "name": "Business Message Identifier",
@@ -30,7 +30,7 @@
     },
     "MarketPractice": {
       "name": "Market Practice",
-      "definition": ""
+      "definition": "Specifies the market practice to which the message conforms. The market practices are a set of rules agreed between parties that restricts the usage of the messages in order to achieve better STP (Straight Through Processing) rates.|A market practice specification may also extend the underlying message specification by using extensions or supplementary data of this underlying message."
     },
     "CreationDate": {
       "name": "Creation Date",
@@ -58,7 +58,7 @@
     },
     "Related": {
       "name": "Related",
-      "definition": ""
+      "definition": "Specifies the Business Application Header(s) of the Business Message(s) to which this Business Message relates.|Can be used when replying to a query; can also be used when canceling or amending."
     }
   },
   "isoRules": {

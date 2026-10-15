@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMPINManagementRequestV03",
+  "language": "en",
+  "name": "ATMPIN Management Request V 03",
+  "definition": "The ATMPINManagementRequest message is sent by an ATM to an ATM manager to request an operation on the cardholder PIN.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMPINManagementRequest": {
+      "name": "Protected ATMPIN Management Request",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMPINManagementRequest": {
+      "name": "ATMPIN Management Request",
+      "definition": "Information related to the request of a PIN management from an ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

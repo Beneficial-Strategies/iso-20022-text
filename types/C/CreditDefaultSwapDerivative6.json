@@ -1,0 +1,25 @@
+{
+  "isoType": "CreditDefaultSwapDerivative6",
+  "language": "en",
+  "name": "Credit Default Swap Derivative 6",
+  "definition": "Credit default swap derivative specific for reporting derivatives on a single name.",
+  "isoElements": {
+    "UnderlyingCreditDefaultSwapIdentification": {
+      "name": "Underlying Credit Default Swap Identification",
+      "definition": "Derivative on a credit default swap with the ISIN code of the underlying swap."
+    },
+    "ObligationIdentification": {
+      "name": "Obligation Identification",
+      "definition": "Identification of the reference obligation for a derivative on a credit default swap."
+    },
+    "SingleName": {
+      "name": "Single Name",
+      "definition": "Describes the single name specific details the derivative is being made on."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    }
+  }
+}

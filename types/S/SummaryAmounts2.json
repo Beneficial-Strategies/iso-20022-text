@@ -1,0 +1,64 @@
+{
+  "isoType": "SummaryAmounts2",
+  "language": "en",
+  "name": "Summary Amounts 2",
+  "definition": "Provides amounts taken in to account to calculate the collateral position.",
+  "isoElements": {
+    "ThresholdAmount": {
+      "name": "Threshold Amount",
+      "definition": "Amount of unsecured exposure a counterparty will accept before issuing a margin call in the base currency."
+    },
+    "ThresholdType": {
+      "name": "Threshold Type",
+      "definition": "Specifies if the threshold amount is secured or unsecured."
+    },
+    "PreHaircutCollateralValue": {
+      "name": "Pre Haircut Collateral Value",
+      "definition": "Total value of posted collateral (pre-haircut) held by the taker."
+    },
+    "AdjustedExposure": {
+      "name": "Adjusted Exposure",
+      "definition": "Total amount of collateral required (unrounded)."
+    },
+    "CollateralRequired": {
+      "name": "Collateral Required",
+      "definition": "Total amount of collateral required (rounded)."
+    },
+    "ReturnExcessCashAndCollateralCurrency": {
+      "name": "Return Excess Cash And Collateral Currency",
+      "definition": "Indicates if excess cash collateral in the currency is automatically returned as per the collateral provider’s Excess Cash Margin Instruction (colr.017)."
+    },
+    "MinimumTransferAmount": {
+      "name": "Minimum Transfer Amount",
+      "definition": "Minimum amount to pay/receive as specified in the agreement in the base currency (to avoid the need to transfer an inconveniently small amount of collateral)."
+    },
+    "RoundingAmount": {
+      "name": "Rounding Amount",
+      "definition": "Amount specified to avoid the need to transfer uneven amounts of collateral."
+    },
+    "PreviousExposureValue": {
+      "name": "Previous Exposure Value",
+      "definition": "Exposure value at previous valuation."
+    },
+    "PreviousCollateralValue": {
+      "name": "Previous Collateral Value",
+      "definition": "Value of collateral at previous valuation."
+    },
+    "TotalPendingIncomingCollateral": {
+      "name": "Total Pending Incoming Collateral",
+      "definition": "Value of incoming collateral, to be settled."
+    },
+    "TotalPendingOutgoingCollateral": {
+      "name": "Total Pending Outgoing Collateral",
+      "definition": "Value of outgoing collateral, to be settled."
+    },
+    "TotalAccruedInterestAmount": {
+      "name": "Total Accrued Interest Amount",
+      "definition": "Sum of accrued interest."
+    },
+    "TotalFees": {
+      "name": "Total Fees",
+      "definition": "Sum of fees/commissions."
+    }
+  }
+}

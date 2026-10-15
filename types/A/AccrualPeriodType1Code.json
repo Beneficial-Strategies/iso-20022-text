@@ -1,0 +1,43 @@
+{
+  "isoType": "AccrualPeriodType1Code",
+  "language": "en",
+  "name": "Accrual Period Type 1 Code",
+  "definition": "Specifies the type of the first accrual period for debt instruments compared to the normal accrual period of the security.",
+  "isoCodes": {
+    "LONG": {
+      "isoName": "LongFirstPaymentPeriod",
+      "name": "Long First Payment Period",
+      "definition": "Long first payment period is applicable."
+    },
+    "FREG": {
+      "isoName": "FirstRegularPaymentPeriod",
+      "name": "First Regular Payment Period",
+      "definition": "Regular first payment period is applicable."
+    },
+    "SHRT": {
+      "isoName": "ShortFirstPaymentperiod",
+      "name": "Short First Paymentperiod",
+      "definition": "Short first payment period is applicable."
+    },
+    "YEAR": {
+      "isoName": "FirstYearOfPayment",
+      "name": "First Year Of Payment",
+      "definition": "First year of payment is applicable."
+    },
+    "XLNG": {
+      "isoName": "ExtraLongPaymentPeriod",
+      "name": "Extra Long Payment Period",
+      "definition": "Extra long payment period is applicable."
+    },
+    "DFLT": {
+      "isoName": "DefaultPeriod",
+      "name": "Default Period",
+      "definition": "Default payment period is applicable."
+    },
+    "OMIT": {
+      "isoName": "PaymentOmitted",
+      "name": "Payment Omitted",
+      "definition": "Payment has not been done."
+    }
+  }
+}

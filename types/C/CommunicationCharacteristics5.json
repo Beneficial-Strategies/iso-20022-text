@@ -1,0 +1,28 @@
+{
+  "isoType": "CommunicationCharacteristics5",
+  "language": "en",
+  "name": "Communication Characteristics 5",
+  "definition": "Low level communication of the hardware or software component toward another component or an external entity.",
+  "isoElements": {
+    "CommunicationType": {
+      "name": "Communication Type",
+      "definition": "Type of low level communication."
+    },
+    "RemoteParty": {
+      "name": "Remote Party",
+      "definition": "Entity that communicate with the current component, using this communication device."
+    },
+    "Active": {
+      "name": "Active",
+      "definition": "Communication hardware is activated."
+    },
+    "Parameters": {
+      "name": "Parameters",
+      "definition": "Network parameters of the communication link."
+    },
+    "PhysicalInterface": {
+      "name": "Physical Interface",
+      "definition": "Physical Interface used by the communication link."
+    }
+  }
+}

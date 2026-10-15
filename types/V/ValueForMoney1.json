@@ -1,0 +1,54 @@
+{
+  "isoType": "ValueForMoney1",
+  "language": "en",
+  "name": "Value For Money 1",
+  "definition": "Additional information about UK Value For Money to complement the UK consumer duty regime.",
+  "isoElements": {
+    "EMTDataReportingVFMUK": {
+      "name": "EMT Data Reporting VFMUK",
+      "definition": "Specifies if the value for money section is filled in the current EMT posting. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09030."
+    },
+    "AssessmentOfValueRequiredUnderCOLLUK": {
+      "name": "Assessment Of Value Required Under COLLUK",
+      "definition": "Specifies if assessment of value is required under UK Collective Investment Schemes. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09040."
+    },
+    "OutcomeOfCOLLAssessmentOfValueUK": {
+      "name": "Outcome Of COLL Assessment Of Value UK",
+      "definition": "Specifies whether charges are justified based on the COLL assessment. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09050."
+    },
+    "OutcomeOfPRINValueAssessmentOrReviewUK": {
+      "name": "Outcome Of PRIN Value Assessment Or Review UK",
+      "definition": "Specifies the outcome of PRIN value assessment or review about fair value of product. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09060."
+    },
+    "OtherReviewRelatedToValueAndOrChargesUK": {
+      "name": "Other Review Related To Value And Or Charges UK",
+      "definition": "Specifies the outcome of other review about fair value and/or charges. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09070."
+    },
+    "FurtherInformationUK": {
+      "name": "Further Information UK",
+      "definition": "Link to sources of relevant information. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09080."
+    },
+    "ReviewDateUK": {
+      "name": "Review Date UK",
+      "definition": "Specifies the date of the value assessment review, date of the COLL assessment of the published value report, or initial launch date. The initial launch date must be used if the initial assessment has not yet become subject to review or where the first COLL assessment of value report has yet to be published. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09090."
+    },
+    "ReviewNextDueUK": {
+      "name": "Review Next Due UK",
+      "definition": "Specifies the date of next assessment review. Empty if the initial assessment is not expected to require a review. For example, 'bid-only' products. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 09100."
+    }
+  },
+  "isoRules": {
+    "AssessmentOfValueRule": {
+      "definition": "If EMTDataReporting is present, then AssessmentOfValueRequiredUnderCOLLUK must be present."
+    },
+    "OutcomeOfPRINValueAssessmentRule": {
+      "definition": "If AssessmentOfValueRequiredUnderCOLLUK value is NSCO, and OtherReviewRelatedToValueAndOrChargesUK is absent, then OutcomeOfPRINValueAssessmentOrReviewUK must be present."
+    },
+    "OutcomeOfCOLLAssessmentOfValueRule": {
+      "definition": "If AssessmentOfValueRequiredUnderCOLLUK value is YSCO then OutcomeOfCOLLAssessmentOfValueUK must be present."
+    },
+    "OtherReviewRelatedToValueAndOrChargesUKRule": {
+      "definition": "If AssessmentOfValueRequiredUnderCOLLUK value is NSCO, and OutcomeOfPRINValueAssessmentOrReviewUK is absent, then OtherReviewRelatedToValueAndOrChargesUK must be present."
+    }
+  }
+}

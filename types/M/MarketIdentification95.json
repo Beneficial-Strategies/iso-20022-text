@@ -1,0 +1,72 @@
+{
+  "isoType": "MarketIdentification95",
+  "language": "en",
+  "name": "Market Identification 95",
+  "definition": "Details on a trading venue as per ISO 10383.",
+  "isoElements": {
+    "Operating": {
+      "name": "Operating",
+      "definition": "Operating MIC of the venue."
+    },
+    "Segment": {
+      "name": "Segment",
+      "definition": "Segment MIC of the venue where it exists, otherwise the Operating MIC."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Define the type of Market Identification Code that is being supplied."
+    },
+    "Category": {
+      "name": "Category",
+      "definition": "Provides the category of market the venue operates in."
+    },
+    "InstitutionName": {
+      "name": "Institution Name",
+      "definition": "The name or description of the institution, market, or infrastructure."
+    },
+    "Acronym": {
+      "name": "Acronym",
+      "definition": "Known acronym of the institution, market, or infrastructure."
+    },
+    "City": {
+      "name": "City",
+      "definition": "City where the institution, market, or infrastructure operates."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Two character country code and country name as per ISO 3166."
+    },
+    "AuthorityName": {
+      "name": "Authority Name",
+      "definition": "The name of the national competent authority associated with the MIC."
+    },
+    "WebSite": {
+      "name": "Web Site",
+      "definition": "Website URI of the institution, market, or infrastructure."
+    },
+    "Note": {
+      "name": "Note",
+      "definition": "Details additional information about the market operator."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Additional information to help users identify the exchange or understand a modification."
+    },
+    "CreationDate": {
+      "name": "Creation Date",
+      "definition": "First date of the MIC issuance."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Details the validity of the specific record."
+    },
+    "StatusDate": {
+      "name": "Status Date",
+      "definition": "Date when the market identification code was last modified."
+    },
+    "LastUpdatedDate": {
+      "name": "Last Updated Date",
+      "definition": "Date when this record was last modified."
+    }
+  }
+}

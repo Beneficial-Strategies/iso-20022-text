@@ -1,0 +1,36 @@
+{
+  "isoType": "CorporateActionInstructedBalanceOptionProtectInstructionSD4",
+  "language": "en",
+  "name": "Corporate Action Instructed Balance Option Protect Instruction SD 4",
+  "definition": "Provides additional information regarding corporate action instructed balance details at option protect level.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Option number of the protect instruction."
+    },
+    "ProtectIdentification": {
+      "name": "Protect Identification",
+      "definition": "Instruction reference number assigned by DTC to the uncovered protect instruction."
+    },
+    "ProtectSafekeepingAccount": {
+      "name": "Protect Safekeeping Account",
+      "definition": "For cover protect instructions whereby one safekeeping account is covering on behalf of another safekeeping account. The protect safekeeping account will be the account which submitted the original protect instruction."
+    },
+    "ProtectIdentificationUncoveredQuantity": {
+      "name": "Protect Identification Uncovered Quantity",
+      "definition": "Quantity of the protect instruction which has not been covered."
+    },
+    "ProtectIdentificationOversubscriptionQuantity": {
+      "name": "Protect Identification Oversubscription Quantity",
+      "definition": "Protect oversubscription quantity."
+    },
+    "ProtectIdentificationStatus": {
+      "name": "Protect Identification Status",
+      "definition": "Status of the protect instruction."
+    }
+  }
+}

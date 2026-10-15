@@ -1,0 +1,73 @@
+{
+  "isoType": "TypeOfPrice1Code",
+  "language": "en",
+  "name": "Type Of Price 1 Code",
+  "definition": "Specifies the type of price and information about the price.",
+  "isoCodes": {
+    "AVER": {
+      "isoName": "Average",
+      "name": "Average",
+      "definition": "Price is an average execution price."
+    },
+    "AVOV": {
+      "isoName": "AverageOverride",
+      "name": "Average Override",
+      "definition": "Price is an override of the average price."
+    },
+    "COMB": {
+      "isoName": "Combined",
+      "name": "Combined",
+      "definition": "Price is composed of the combined expenses (used in the UK market)."
+    },
+    "GREX": {
+      "isoName": "GrossOfAll",
+      "name": "Gross Of All",
+      "definition": "Price is a gross execution price. The price is an all inclusive price, ie, including all charges, fees, and taxes."
+    },
+    "LIMI": {
+      "isoName": "Limit",
+      "name": "Limit",
+      "definition": "Price is the limit price of a limit order, eg, a customer might put in a limit order to sell financial instruments at 67 or to buy at 60."
+    },
+    "NET2": {
+      "isoName": "Net",
+      "name": "Net",
+      "definition": "Price is a net price, ie, net only of local broker's commission, local fees and local taxes."
+    },
+    "NDIS": {
+      "isoName": "NetDisclosed",
+      "name": "Net Disclosed",
+      "definition": "Price is net to the disclosed client."
+    },
+    "NET1": {
+      "isoName": "NetOfAll",
+      "name": "Net Of All",
+      "definition": "Price is a net price, ie, net of all charges, fees and taxes."
+    },
+    "NUND": {
+      "isoName": "NetUndisclosed",
+      "name": "Net Undisclosed",
+      "definition": "Price is net to the client undisclosed (used in the UK market)."
+    },
+    "NOGR": {
+      "isoName": "NotionalGross",
+      "name": "Notional Gross",
+      "definition": "Price is notional gross (used in the UK market)."
+    },
+    "PARV": {
+      "isoName": "ParValue",
+      "name": "Par Value",
+      "definition": "Price is equal to the nominal or face value of the instrument."
+    },
+    "RDAV": {
+      "isoName": "RoundedAverage",
+      "name": "Rounded Average",
+      "definition": "Price is a rounded average price."
+    },
+    "STOP": {
+      "isoName": "Stop",
+      "name": "Stop",
+      "definition": "Price is a stop price used in an order to buy. The order becomes a market order when the financial instrument trades at or above the stop price after the order is submitted. In an order to sell the order becomes a market order when the financial instrument trades at or below the stop price."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "isoType": "ReorganisationInstructionSD13",
+  "language": "en",
+  "name": "Reorganisation Instruction SD 13",
+  "definition": "Provides additional information regarding corporate action reorganisation instruction details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Identifies the reorganisation transaction type."
+    },
+    "TransactionSequence": {
+      "name": "Transaction Sequence",
+      "definition": "Enable input of multiple voluntary instructions for rights or voluntary puts events via a single instruction message through using Transaction Sequence Number."
+    },
+    "TotalOversubscriptionQuantity": {
+      "name": "Total Oversubscription Quantity",
+      "definition": "Total oversubscription quantity of all transaction sequence instructions."
+    },
+    "AcknowledgementDetails": {
+      "name": "Acknowledgement Details",
+      "definition": "Acknowledgement information relative to corporate action reorganisation instructions."
+    },
+    "ContactPerson": {
+      "name": "Contact Person",
+      "definition": "Party contact information for the given instruction; required for a voluntary offer instruction transaction (VOIT), protect transaction (PROT) and protect on behalf of another participant transaction (PROP); not required for cover protect instructions like a cover protect transaction (COVR), cover protect directly to agent transaction (COVA) and cover protect on behalf of another participant transaction (COVP)."
+    },
+    "UserReferenceNumber": {
+      "name": "User Reference Number",
+      "definition": "Unique identification of the transaction used by the transmitting party."
+    },
+    "WarrantSubscriptionChargeAmount": {
+      "name": "Warrant Subscription Charge Amount",
+      "definition": "Warrant subscription amount entered by client when instructing on a warrant exercise instruction."
+    },
+    "NonExemptInstructionsAllowedIndicator": {
+      "name": "Non Exempt Instructions Allowed Indicator",
+      "definition": "Indicates whether the DTC participant is willing to accept penalties as a result of processing instructions prior to maturity of CD redemptions events.|Yes: participant accepts penalties.|No: participant does not accept penalties."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Certificate information for a given instruction."
+    },
+    "DeceasedBeneficialOwnerDetails": {
+      "name": "Deceased Beneficial Owner Details",
+      "definition": "Beneficial owner information related to CD early redemption instructions."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by client upon instruction submission."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ReceivedMarginOrCollateral6",
+  "language": "en",
+  "name": "Received Margin Or Collateral 6",
+  "definition": "Information on the received margin or collateral of the transaction.",
+  "isoElements": {
+    "InitialMarginReceivedPreHaircut": {
+      "name": "Initial Margin Received Pre Haircut",
+      "definition": "Value of the initial margin received by the reporting counterparty from the other counterparty.|Where initial margin is received on a portfolio basis, this field should include the overall value of initial margin received for the portfolio."
+    },
+    "InitialMarginReceivedPostHaircut": {
+      "name": "Initial Margin Received Post Haircut",
+      "definition": "Value of the initial margin received by the reporting counterparty from the other counterparty.|Where initial margin is received on a portfolio basis, this field should include the overall value of initial margin received for the portfolio.|Post-haircut values of margins depend on associated risk of changes in collateral value and therefore on the nature of the collateral posted (or collected)."
+    },
+    "VariationMarginReceivedPreHaircut": {
+      "name": "Variation Margin Received Pre Haircut",
+      "definition": "Value of the variation margin received, including cash settled, by the reporting counterparty from the other counterparty. |Where variation margin is received on a portfolio basis, this field should include the overall value of variation margin received for the portfolio."
+    },
+    "VariationMarginReceivedPostHaircut": {
+      "name": "Variation Margin Received Post Haircut",
+      "definition": "Value of the variation margin received, including cash settled, by the reporting counterparty from the other counterparty. |Where variation margin is received on a portfolio basis, this field should include the overall value of variation margin received for the portfolio.|Post-haircut values of margins depend on associated risk of changes in collateral value and therefore on the nature of the collateral posted (or collected)."
+    },
+    "ExcessCollateralReceived": {
+      "name": "Excess Collateral Received",
+      "definition": "Value of collateral received in excess of the required collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

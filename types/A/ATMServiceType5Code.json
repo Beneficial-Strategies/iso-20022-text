@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMServiceType5Code",
+  "language": "en",
+  "name": "ATM Service Type 5 Code",
+  "definition": "Describes the type of service selected by the customer.",
+  "isoCodes": {
+    "PINC": {
+      "isoName": "PINChange",
+      "name": "PIN Change",
+      "definition": "Modification of the card PIN value."
+    },
+    "PINR": {
+      "isoName": "PINRecovery",
+      "name": "PIN Recovery",
+      "definition": "Resetting of a PIN."
+    },
+    "PINU": {
+      "isoName": "PINUnblock",
+      "name": "PIN Unblock",
+      "definition": "Unblock the PIN."
+    }
+  }
+}

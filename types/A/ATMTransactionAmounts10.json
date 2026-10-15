@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMTransactionAmounts10",
+  "language": "en",
+  "name": "ATM Transaction Amounts 10",
+  "definition": "Limit of deposited media for the customer.",
+  "isoElements": {
+    "MediaType": {
+      "name": "Media Type",
+      "definition": "Type of media."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the media."
+    },
+    "MinimumNumber": {
+      "name": "Minimum Number",
+      "definition": "Minimum number of media."
+    },
+    "MaximumNumber": {
+      "name": "Maximum Number",
+      "definition": "Maximum number of media."
+    },
+    "DisplayFlag": {
+      "name": "Display Flag",
+      "definition": "True if limits may be displayed to the customer on the ATM.|Usage: When absent, default value is True."
+    }
+  }
+}

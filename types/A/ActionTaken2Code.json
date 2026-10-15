@@ -1,0 +1,23 @@
+{
+  "isoType": "ActionTaken2Code",
+  "language": "en",
+  "name": "Action Taken 2 Code",
+  "definition": "Type of action taken as a disposition of a reported card payment fraud. P000-P999 reserved for private use, Z000-Z999 reversed for national use",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Reported fraud was accepted"
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Reported fraud was rejected."
+    },
+    "WARN": {
+      "isoName": "Warning",
+      "name": "Warning",
+      "definition": "Reported fraud was accepted with warnings."
+    }
+  }
+}

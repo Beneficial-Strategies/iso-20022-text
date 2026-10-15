@@ -1,0 +1,60 @@
+{
+  "isoType": "AdditionalFee3",
+  "language": "en",
+  "name": "Additional Fee 3",
+  "definition": "Fees not included in the transaction.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type or class of fee."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Additional information to specify the type of amount of fee."
+    },
+    "Program": {
+      "name": "Program",
+      "definition": "Identification of fee program."
+    },
+    "Descriptor": {
+      "name": "Descriptor",
+      "definition": "Identification of specific fee."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Contains code list for a credit or debit transaction"
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount exclusive of currency."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency for the type of amount."
+    },
+    "ReconciliationAmount": {
+      "name": "Reconciliation Amount",
+      "definition": "Amount of the transaction in Reconciliation currency"
+    },
+    "ReconciliationCurrency": {
+      "name": "Reconciliation Currency",
+      "definition": "Currency code of Reconciliation and associated with Reconciliation amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "ReconciliationEffectiveExchangeRate": {
+      "name": "Reconciliation Effective Exchange Rate",
+      "definition": "Effective exchange rate used in the conversion from transaction amount to reconciliation amount."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "A code to identify the type of party who assign the fee."
+    },
+    "OtherAssigner": {
+      "name": "Other Assigner",
+      "definition": "Other type of party that assign the fee."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Short description of the fee amount."
+    }
+  }
+}

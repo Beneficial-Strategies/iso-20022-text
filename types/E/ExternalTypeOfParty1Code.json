@@ -1,0 +1,73 @@
+{
+  "isoType": "ExternalTypeOfParty1Code",
+  "language": "en",
+  "name": "External Type Of Party 1 Code",
+  "definition": "Specifies the external type of party code in the format of a character string with a maximum length of 4 characters. The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ADVP": {
+      "isoName": "AdvisingParty",
+      "name": "Advising Party",
+      "definition": "Party advising the undertaking."
+    },
+    "ANYB": {
+      "isoName": "AnyBank",
+      "name": "Any Bank",
+      "definition": "Any bank."
+    },
+    "APPL": {
+      "isoName": "Applicant",
+      "name": "Applicant",
+      "definition": "Party named in the undertaking as the “applicant”."
+    },
+    "BENE": {
+      "isoName": "Beneficiary",
+      "name": "Beneficiary",
+      "definition": "Party in whose favour the undertaking (or counter-undertaking) is issued."
+    },
+    "CONF": {
+      "isoName": "ConfirmationParty",
+      "name": "Confirmation Party",
+      "definition": "Party that adds its undertaking to honour the undertaking."
+    },
+    "CUB2": {
+      "isoName": "SecondCounterUndertakingBeneficiary",
+      "name": "Second Counter Undertaking Beneficiary",
+      "definition": "Beneficiary of the second counter-undertaking."
+    },
+    "CUB3": {
+      "isoName": "ThirdCounterUndertakingBeneficiary",
+      "name": "Third Counter Undertaking Beneficiary",
+      "definition": "Beneficiary of the third counter-undertaking."
+    },
+    "ISSU": {
+      "isoName": "Issuer",
+      "name": "Issuer",
+      "definition": "Party that issues the undertaking (or counter-undertaking)."
+    },
+    "OBLG": {
+      "isoName": "Obligor",
+      "name": "Obligor",
+      "definition": "Party obligated to reimburse the issuer."
+    },
+    "ORDR": {
+      "isoName": "OrderingParty",
+      "name": "Ordering Party",
+      "definition": "Party requested to issue an undertaking on behalf of the applicant. Also known as the ordering institution or applicant's bank."
+    },
+    "PRES": {
+      "isoName": "PresentingParty",
+      "name": "Presenting Party",
+      "definition": "Party nominated to receive presentation."
+    },
+    "SADV": {
+      "isoName": "SecondAdvisingParty",
+      "name": "Second Advising Party",
+      "definition": "Second advising party."
+    },
+    "SPEC": {
+      "isoName": "SpecifiedAddress",
+      "name": "Specified Address",
+      "definition": "Party located at specified address."
+    }
+  }
+}

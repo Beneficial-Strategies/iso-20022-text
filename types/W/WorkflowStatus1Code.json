@@ -1,0 +1,33 @@
+{
+  "isoType": "WorkflowStatus1Code",
+  "language": "en",
+  "name": "Workflow Status 1 Code",
+  "definition": "Specifies the workflow status of the details of a specific level.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "Level details are complete. All required data is populated and verified."
+    },
+    "CNFL": {
+      "isoName": "Conflict",
+      "name": "Conflict",
+      "definition": "Level details are incomplete due to conflicting details from 2 or more sources."
+    },
+    "COND": {
+      "isoName": "ConditionallyComplete",
+      "name": "Conditionally Complete",
+      "definition": "Level details are complete pending a condition."
+    },
+    "INCO": {
+      "isoName": "Incomplete",
+      "name": "Incomplete",
+      "definition": "Level details are incomplete."
+    },
+    "DLTD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Level has been deleted, cancelled/deactivated/invalidated by the source or due to error processing error."
+    }
+  }
+}

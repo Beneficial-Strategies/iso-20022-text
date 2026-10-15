@@ -1,0 +1,24 @@
+{
+  "isoType": "PremiumAmount2",
+  "language": "en",
+  "name": "Premium Amount 2",
+  "definition": "Commercial agreement in which the buyer agrees to pay the seller an amount of cash. Some aspects of the payment may be defined in the agreement, eg, the method of the payment.",
+  "isoElements": {
+    "PremiumQuote": {
+      "name": "Premium Quote",
+      "definition": "Specifies the calculation method of the premium amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Result of the calculation of the premium amount on the basis of the premium quote and one of the amounts of the underlying foreign exchange trade."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date on which the premium must be settled."
+    },
+    "SettlementParty": {
+      "name": "Settlement Party",
+      "definition": "Party that settles the premium amount on behalf of the paying party. It may contain the BIC of a central settlement system, eg. CLSBUS33."
+    }
+  }
+}

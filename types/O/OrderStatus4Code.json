@@ -1,0 +1,63 @@
+{
+  "isoType": "OrderStatus4Code",
+  "language": "en",
+  "name": "Order Status 4 Code",
+  "definition": "Specifies the current status of the order.",
+  "isoCodes": {
+    "PACK": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Order is accepted and is ready for execution (execution is the moment when pricing is applied)."
+    },
+    "COSE": {
+      "isoName": "AlreadyExecuted",
+      "name": "Already Executed",
+      "definition": "Order is already executed and confirmation has been sent."
+    },
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Order has been sent to the next party, eg, the next intermediary."
+    },
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Order has been received, ie, technical validation of the message is ok, and the message is now at the receiving side."
+    },
+    "SETT": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Order is settled. The cash is credited or debited."
+    },
+    "CPNP": {
+      "isoName": "CommunicationProblemNextParty",
+      "name": "Communication Problem Next Party",
+      "definition": "Communication problems with the next party."
+    },
+    "CNFC": {
+      "isoName": "ConfirmationAmendment",
+      "name": "Confirmation Amendment",
+      "definition": "Order confirmation cancellation has been sent and will be followed by a confirmation amendment, or a confirmation amendment has been sent."
+    },
+    "DONE": {
+      "isoName": "DoneForDay",
+      "name": "Done For Day",
+      "definition": "Order has been partially filled, and is done for the day, ie, no further executions will take place today."
+    },
+    "DONF": {
+      "isoName": "PartiallyDone",
+      "name": "Partially Done",
+      "definition": "Order has been partially filled and will not be filled further."
+    },
+    "OPOD": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Order is open."
+    },
+    "IACO": {
+      "isoName": "InvalidAgentConfirmation",
+      "name": "Invalid Agent Confirmation",
+      "definition": "Order confirmation received from agent is invalid."
+    }
+  }
+}

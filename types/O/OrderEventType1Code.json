@@ -1,0 +1,83 @@
+{
+  "isoType": "OrderEventType1Code",
+  "language": "en",
+  "name": "Order Event Type 1 Code",
+  "definition": "Events affecting the orders in financial instruments.",
+  "isoCodes": {
+    "CAME": {
+      "isoName": "CancelledAtTheInitiativeOfTheMemberOrParticipantOfTheTradingVenue",
+      "name": "Cancelled At The Initiative Of The Member Or Participant Of The Trading Venue",
+      "definition": "Member, participant or client decides upon its own initiative to cancel the order it has previously entered."
+    },
+    "CAMO": {
+      "isoName": "CancelledByMarketOperations",
+      "name": "Cancelled By Market Operations",
+      "definition": "Includes a protection mechanism provided for investment firms carrying out a market-making activity."
+    },
+    "CHME": {
+      "isoName": "ChangeOfStatusAtTheInitiativeOfTheMemberOrParticipantOfTheTradingVenue",
+      "name": "Change Of Status At The Initiative Of The Member Or Participant Of The Trading Venue",
+      "definition": "Includes activation and deactivation."
+    },
+    "CHMO": {
+      "isoName": "ChangeOfStatusDuetoMarketOperations",
+      "name": "Change Of Status Dueto Market Operations",
+      "definition": "Change of status due to market operations."
+    },
+    "EXPI": {
+      "isoName": "ExpiredOrder",
+      "name": "Expired Order",
+      "definition": "Where the order is removed from the order book upon the end of its validity period."
+    },
+    "FILL": {
+      "isoName": "Filled",
+      "name": "Filled",
+      "definition": "Where there is no more quantity to be executed."
+    },
+    "NEWO": {
+      "isoName": "NewOrder",
+      "name": "New Order",
+      "definition": "Receipt of a new order by the operator of the trading venue."
+    },
+    "PARF": {
+      "isoName": "PartiallyFilled",
+      "name": "Partially Filled",
+      "definition": "Where the order is not fully executed so that there remains a quantity to be executed."
+    },
+    "REMA": {
+      "isoName": "ReplacedByMarketOperationsAutomatic",
+      "name": "Replaced By Market Operations Automatic",
+      "definition": "Where any characteristic of an order is changed by the trading venue operator's IT systems. This includes where a peg order's or a trailing stop order's current characteristics are changed to reflect how the order is located within the order book."
+    },
+    "REMO": {
+      "isoName": "RejectedOrder",
+      "name": "Rejected Order",
+      "definition": "Order received but rejected by the operator of the trading venue."
+    },
+    "REMH": {
+      "isoName": "ReplacedByMarketOperationsHumanIntervention",
+      "name": "Replaced By Market Operations Human Intervention",
+      "definition": "Where any characteristic of an order is changed by a trading venue operator's staff. This includes the situation where a member, participant of the trading venue has IT issues and needs its orders to be cancelled urgently."
+    },
+    "REME": {
+      "isoName": "ReplacedByTheMemberOrParticipantOfTheTradingVenue",
+      "name": "Replaced By The Member Or Participant Of The Trading Venue",
+      "definition": "Where a member, participant or client of the trading venue decides upon its own initiative to change any characteristic of the order it has previously entered into the order book."
+    },
+    "TRIG": {
+      "isoName": "Triggered",
+      "name": "Triggered",
+      "definition": "Order which becomes executable or, as the case may be, non-executable upon the realisation of a pre-determined condition."
+    },
+    "RFQS": {
+      "isoName": "QuoteRequest",
+      "name": "Quote Request",
+      "definition": "Request for quote by one or more members or participants."
+    },
+    "RFQR": {
+      "isoName": "QuoteResponse",
+      "name": "Quote Response",
+      "definition": "Response to a request for quote submitted by one or more members or participants."
+    }
+  }
+}

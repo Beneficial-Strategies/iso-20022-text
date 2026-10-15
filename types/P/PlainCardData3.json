@@ -1,0 +1,24 @@
+{
+  "isoType": "PlainCardData3",
+  "language": "en",
+  "name": "Plain Card Data 3",
+  "definition": "Sensible data associated with the payment card performing the transaction provided for verification in response.",
+  "isoElements": {
+    "PAN": {
+      "name": "PAN",
+      "definition": "Primary Account Number (PAN) of the card, or card number."
+    },
+    "CardSequenceNumber": {
+      "name": "Card Sequence Number",
+      "definition": "Identify a card inside a set of cards with the same card number (PAN)."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date as from which the card can be used."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Expiry date of the card."
+    }
+  }
+}

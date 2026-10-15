@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyType16Code",
+  "language": "en",
+  "name": "Party Type 16 Code",
+  "definition": "Identifies the entity which initially sets the authorisation response value.",
+  "isoCodes": {
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "DLIS": {
+      "isoName": "DelegateIssuer",
+      "name": "Delegate Issuer",
+      "definition": "Party to whom the card issuer delegates to authorise card payment transactions."
+    },
+    "ITAG": {
+      "isoName": "IntermediaryAgent",
+      "name": "Intermediary Agent",
+      "definition": "Party acting on behalf of other parties to process or forward data to other parties."
+    },
+    "OTRM": {
+      "isoName": "OriginatingTerminal",
+      "name": "Originating Terminal",
+      "definition": "Application on the terminal which has initiated the transaction."
+    },
+    "BKAF": {
+      "isoName": "AccountFromBank",
+      "name": "Account From Bank",
+      "definition": "The bank of the source account."
+    },
+    "BKAT": {
+      "isoName": "AccountToBank",
+      "name": "Account To Bank",
+      "definition": "The bank of the destination account."
+    },
+    "ATMG": {
+      "isoName": "ATMManager",
+      "name": "ATM Manager",
+      "definition": "Entity managing the ATM."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "CardPaymentDataSet42",
+  "language": "en",
+  "name": "Card Payment Data Set 42",
+  "definition": "Result of the captured set of transactions.",
+  "isoElements": {
+    "DataSetIdentification": {
+      "name": "Data Set Identification",
+      "definition": "Identification of the data set."
+    },
+    "DataSetResult": {
+      "name": "Data Set Result",
+      "definition": "Result of the data set capture."
+    },
+    "RemoveDataSet": {
+      "name": "Remove Data Set",
+      "definition": "Indicates if the data set must be removed from the POI (Point Of Interaction)."
+    },
+    "DataSetInitiator": {
+      "name": "Data Set Initiator",
+      "definition": "Initiator of the data set."
+    },
+    "TransactionTotals": {
+      "name": "Transaction Totals",
+      "definition": "Transaction totals of the batch."
+    },
+    "RejectedTransaction": {
+      "name": "Rejected Transaction",
+      "definition": "Transaction in the batch, whose capture has been rejected."
+    },
+    "SuspendedTransaction": {
+      "name": "Suspended Transaction",
+      "definition": "Transaction in the batch, whose capture has been suspended."
+    },
+    "ResumedApproval": {
+      "name": "Resumed Approval",
+      "definition": "Transaction in the batch, whose capture has been approved after suspension."
+    },
+    "ResumedRejection": {
+      "name": "Resumed Rejection",
+      "definition": "Transaction in the batch, whose capture has been rejected after suspension."
+    }
+  }
+}

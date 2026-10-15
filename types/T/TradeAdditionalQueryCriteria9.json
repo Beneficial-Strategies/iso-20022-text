@@ -1,0 +1,45 @@
+{
+  "isoType": "TradeAdditionalQueryCriteria9",
+  "language": "en",
+  "name": "Trade Additional Query Criteria 9",
+  "definition": "Query criteria regarding action type, product classification, venue of execution, asset class, corporate sector nature of counterparty.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Code list of the action types allowed as query criteria."
+    },
+    "ExecutionVenue": {
+      "name": "Execution Venue",
+      "definition": "Indicates the execution venue of the reported transaction."
+    },
+    "NatureOfCounterparty": {
+      "name": "Nature Of Counterparty",
+      "definition": "Indicates the nature of the reporting counterparty (if is a CCP, a financial, non-financial counterparty or other type of counterparty)."
+    },
+    "CorporateSector": {
+      "name": "Corporate Sector",
+      "definition": "Specifies the corporate sector of the reporting counterparty."
+    },
+    "AssetClass": {
+      "name": "Asset Class",
+      "definition": "Code list of available values for asset class criteria."
+    },
+    "ProductClassification": {
+      "name": "Product Classification",
+      "definition": "Indicates the product classification of the reported transaction."
+    },
+    "Level": {
+      "name": "Level",
+      "definition": "Information concerning the reported transaction level type."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Classification of derivative event type."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

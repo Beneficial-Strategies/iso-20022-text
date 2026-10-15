@@ -1,0 +1,24 @@
+{
+  "isoType": "ReuseDataReport6Choice",
+  "language": "en",
+  "name": "Reuse Data Report 6 Choice",
+  "definition": "Information on reusability of previously submitted data.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Indicates whether transaction is reported for the first time."
+    },
+    "Error": {
+      "name": "Error",
+      "definition": "Indicates a cancellation of a wrongly submitted entire report in case the contract never came into existence or was not subject to reporting requirements but was reported to a trade repository by mistake."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Indicates that the report is correcting the erroneous data fields of a previously submitted position."
+    },
+    "CollateralReuseUpdate": {
+      "name": "Collateral Reuse Update",
+      "definition": "Information on collateral reusability for multiple transactions."
+    }
+  }
+}

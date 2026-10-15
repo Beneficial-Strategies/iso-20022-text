@@ -1,0 +1,24 @@
+{
+  "isoType": "Trigger1",
+  "language": "en",
+  "name": "Trigger 1",
+  "definition": "Trigger parameters.",
+  "isoElements": {
+    "DateChoice": {
+      "name": "Date Choice",
+      "definition": "Details related to the date on which a variation is effective."
+    },
+    "DocumentaryEvent": {
+      "name": "Documentary Event",
+      "definition": "Details related to the documentary event on which a variation is triggered."
+    }
+  },
+  "isoRules": {
+    "DateChoiceAndDocumentaryEvent1Rule": {
+      "definition": "Either DateChoice or at least one occurrence of DocumentaryEvent must be present. Both may be present."
+    },
+    "DateChoiceAndDocumentaryEvent2Rule": {
+      "definition": "Either DateChoice or at least one occurrence of DocumentaryEvent must be present. Both may be present."
+    }
+  }
+}

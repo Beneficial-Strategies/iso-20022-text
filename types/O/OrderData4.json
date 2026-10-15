@@ -1,0 +1,56 @@
+{
+  "isoType": "OrderData4",
+  "language": "en",
+  "name": "Order Data 4",
+  "definition": "Details of an order in financial instruments.",
+  "isoElements": {
+    "SubmittingEntity": {
+      "name": "Submitting Entity",
+      "definition": "Entity which submitted the order."
+    },
+    "DirectElectronicAccess": {
+      "name": "Direct Electronic Access",
+      "definition": "Indicates whether the order was submitted to the trading venue using direct electronic access. ||USAGE: when absent, default value is false."
+    },
+    "ClientIdentification": {
+      "name": "Client Identification",
+      "definition": "Identification of the client of the member or participant of the trading venue."
+    },
+    "InvestmentDecisionPerson": {
+      "name": "Investment Decision Person",
+      "definition": "Identification of the person or the algorithm within the member or participant of the trading venue who is responsible for the investment decision."
+    },
+    "ExecutingPerson": {
+      "name": "Executing Person",
+      "definition": "Identification of the person or algorithm within the member or participant of the trading venue who is respon sible for the execution of the transaction resulting from the order."
+    },
+    "NonExecutingBroker": {
+      "name": "Non Executing Broker",
+      "definition": "Member or participant of the trading venue who routed the order on behalf of and in the name of another member or participant of the trading venue."
+    },
+    "TradingCapacity": {
+      "name": "Trading Capacity",
+      "definition": "Indicates the capacity from which the order submission was carried out."
+    },
+    "LiquidityProvisionActivity": {
+      "name": "Liquidity Provision Activity",
+      "definition": "Indicates whether an order is submitted to a trading venue as part of a market making strategy.||USAGE: when absent, default value is false."
+    },
+    "OrderClassification": {
+      "name": "Order Classification",
+      "definition": "Type of order in financial instruments."
+    },
+    "OrderPrices": {
+      "name": "Order Prices",
+      "definition": "Prices related to an order in financial instruments. All prices should be expressed in the same unit and currency (when expresed in monetary value)."
+    },
+    "InstructionData": {
+      "name": "Instruction Data",
+      "definition": "Date related to the order Instruction."
+    },
+    "TransactionData": {
+      "name": "Transaction Data",
+      "definition": "Transaction Data related to an order."
+    }
+  }
+}

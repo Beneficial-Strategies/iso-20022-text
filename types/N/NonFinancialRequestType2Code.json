@@ -1,0 +1,38 @@
+{
+  "isoType": "NonFinancialRequestType2Code",
+  "language": "en",
+  "name": "Non Financial Request Type 2 Code",
+  "definition": "Type of non financial request that could be processed between an Acceptor and an Intermediary Agent or an Acquirer.",
+  "isoCodes": {
+    "ACQR": {
+      "isoName": "AcquirerSelection",
+      "name": "Acquirer Selection",
+      "definition": "According to several parameters of a transaction, an Intermediary Agent helps an Acceptor to identify the more relevant Acquirer to process the transaction."
+    },
+    "PARQ": {
+      "isoName": "ParRequest",
+      "name": "Par Request",
+      "definition": "The Intermediary Agent or Acquirer provides the PaymentAccountReference to use to process the transaction."
+    },
+    "RISK": {
+      "isoName": "RiskManagement",
+      "name": "Risk Management",
+      "definition": "The Intermediary Agent or Acquirer helps the Acceptor to assess the risk management of the transaction."
+    },
+    "TOKN": {
+      "isoName": "TokenRequest",
+      "name": "Token Request",
+      "definition": "The Intermediary Agent or Acquirer provides the token to use to process the transaction."
+    },
+    "ADDR": {
+      "isoName": "AdditionalRequest",
+      "name": "Additional Request",
+      "definition": "Indicates a request which implies to receive additional information."
+    },
+    "INSM": {
+      "isoName": "InstalmentPlanRequest",
+      "name": "Instalment Plan Request",
+      "definition": "Request to receive acquirer instalment plans."
+    }
+  }
+}

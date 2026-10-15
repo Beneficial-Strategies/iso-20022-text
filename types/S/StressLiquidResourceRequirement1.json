@@ -1,0 +1,24 @@
+{
+  "isoType": "StressLiquidResourceRequirement1",
+  "language": "en",
+  "name": "Stress Liquid Resource Requirement 1",
+  "definition": "Assumed obligations that are required to be met in cash under a hypothetical stress scenario.",
+  "isoElements": {
+    "OperationalOutflow": {
+      "name": "Operational Outflow",
+      "definition": "Liquidity needs arising from ‘operational’ procedures over the stress horizon. This includes (but is not necessarily limited to) repayment of excess cash collateral to members, cash to non‐cash collateral substitutions by members, reductions in margin requirements and related cash collateral and provision of liquidity to facilitate settlement / delivery for non‐defaulting members."
+    },
+    "VariationMarginPaymentObligation": {
+      "name": "Variation Margin Payment Obligation",
+      "definition": "Variation margin payment obligation of the CCP that is modelled to arise due to the default of CM1 and CM2 over the stress horizon."
+    },
+    "SettlementOrDelivery": {
+      "name": "Settlement Or Delivery",
+      "definition": "Liquidity needed by the CCP to fulfil the settlement/delivery obligations arising from the cleared trades of defaulting CM1 and CM2."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Other liquidity requirements not captured elsewhere."
+    }
+  }
+}

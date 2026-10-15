@@ -1,0 +1,28 @@
+{
+  "isoType": "PackageType5",
+  "language": "en",
+  "name": "Package Type 5",
+  "definition": "Chunk of a software package.",
+  "isoElements": {
+    "PackageIdentification": {
+      "name": "Package Identification",
+      "definition": "Identification of the software packages of which the chunk belongs."
+    },
+    "PackageLength": {
+      "name": "Package Length",
+      "definition": "Full length of software package identified through PackageIdentification."
+    },
+    "OffsetStart": {
+      "name": "Offset Start",
+      "definition": "Place of the first following PackageBlock, beginning with 0, in the full software package identified through PackageIdentification."
+    },
+    "OffsetEnd": {
+      "name": "Offset End",
+      "definition": "Following place of the last following PackageBlock in the full software package identified through PackageIdentification."
+    },
+    "PackageBlock": {
+      "name": "Package Block",
+      "definition": "Consecutive slices of the full software package identified through PackageIdentification starting with first slice at the place identified with OffsetStart and ending with the last slice at the previous place identified with OffsetEnd."
+    }
+  }
+}

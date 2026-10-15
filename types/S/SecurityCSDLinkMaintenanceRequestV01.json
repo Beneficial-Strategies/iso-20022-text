@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityCSDLinkMaintenanceRequestV01",
+  "language": "en",
+  "name": "Security CSD Link Maintenance Request V 01",
+  "definition": "SCOPE|An instructing party sends a SecurityCSDLinkMaintenanceRequest message to an executing/servicing party to request the maintenance of the link between a financial instrument and a CSD in their system.||The instructing party - executing/servicing party relationship may be:|- Central Securities Depositories (CSD) who would like to publish security CSD Link static data, or |- a Corporate, or|- a Bank, or|- a Market Infrastructure, or |- a Market Data Provider.||USAGE|The request is sent when the instructing party identified a gap in the security CSD Link coverage of the executing/servicing party. The instructing party needs this security to be maintained at the executing /servicing party to perform its activities.||Initiator: instructing party.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "SecurityCSDLinkIdentification": {
+      "name": "Security CSD Link Identification",
+      "definition": "Provides a unique and unambiguous identification for the Security CSD Link."
+    },
+    "Update": {
+      "name": "Update",
+      "definition": "Provides data that needs to be maintained."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

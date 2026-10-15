@@ -1,0 +1,116 @@
+{
+  "isoType": "InvoiceLineItem4",
+  "language": "en",
+  "name": "Invoice Line Item 4",
+  "definition": "Item purchased with the transaction",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Invoice date."
+    },
+    "OrderDate": {
+      "name": "Order Date",
+      "definition": "Invoice order date."
+    },
+    "ContractNumber": {
+      "name": "Contract Number",
+      "definition": "Contains the corporate contract number."
+    },
+    "ShippingDate": {
+      "name": "Shipping Date",
+      "definition": "Shipping date of the product or the date services rendered."
+    },
+    "Rebilling": {
+      "name": "Rebilling",
+      "definition": "Rebilling indicator."
+    },
+    "MedicalServices": {
+      "name": "Medical Services",
+      "definition": "Indicates whether or not the invoice line item represents a medical service."
+    },
+    "ShipToIndustryCode": {
+      "name": "Ship To Industry Code",
+      "definition": "Contains the health industry number to which the medical services are being shipped (for example, Medical Services ship to Health Industry Number)."
+    },
+    "ProductCode": {
+      "name": "Product Code",
+      "definition": "Product code of the item."
+    },
+    "ProductQualifier": {
+      "name": "Product Qualifier",
+      "definition": "Contains a code that identifies the product number qualifier of the product (for example, medical services)."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "May contain further clarifying data, such as event name, etc."
+    },
+    "TypeOfSupply": {
+      "name": "Type Of Supply",
+      "definition": "Indicates whether the purchase is categorized|as goods or services."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Unit of measure of the item purchased."
+    },
+    "OtherUnitOfMeasure": {
+      "name": "Other Unit Of Measure",
+      "definition": "Other unit of measure."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Contains the price for one unit of the product or service."
+    },
+    "ProductQuantity": {
+      "name": "Product Quantity",
+      "definition": "Quantity of product or item."
+    },
+    "AdjustmentAmount": {
+      "name": "Adjustment Amount",
+      "definition": "Contains the adjusted amount (for example, discounts)."
+    },
+    "AdjustmentCreditDebit": {
+      "name": "Adjustment Credit Debit",
+      "definition": "A code to indicate the adjustment amount is credit or debit"
+    },
+    "AdjustmentReason": {
+      "name": "Adjustment Reason",
+      "definition": "Reason for the adjustment."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "InsuranceAmount": {
+      "name": "Insurance Amount",
+      "definition": "Cost of the insurance purchased."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes related to the products or services."
+    },
+    "VATInvoiceReference": {
+      "name": "VAT Invoice Reference",
+      "definition": "Identifies the value-added tax (VAT) invoice or tax receipt."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of line item, inclusive of any applicable adjustments and taxes."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "A code to indicate the tax amount is credit or debit"
+    },
+    "ZeroCostToCustomer": {
+      "name": "Zero Cost To Customer",
+      "definition": "Indicates whether or not the line item carries a cost. ||True : Line item does not have any cost associated to the customer.|False : Line item has cost associated to the customer."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

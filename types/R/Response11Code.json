@@ -1,0 +1,23 @@
+{
+  "isoType": "Response11Code",
+  "language": "en",
+  "name": "Response 11 Code",
+  "definition": "Result of the processing of the message",
+  "isoCodes": {
+    "WARN": {
+      "isoName": "Warning",
+      "name": "Warning",
+      "definition": "An additional Response Code, mainly a functional one, should be considered to identify the outcome of the request."
+    },
+    "FAIL": {
+      "isoName": "Failure",
+      "name": "Failure",
+      "definition": "Processing of the request fails for various reasons. Some further processing according to the type of requested service, the context of the process, and some additional precision about the failure notified in the ErrorCondition data element."
+    },
+    "SUCC": {
+      "isoName": "Success",
+      "name": "Success",
+      "definition": "Processing OK. Information related to the result of the processing is contained in other parts of the response message."
+    }
+  }
+}

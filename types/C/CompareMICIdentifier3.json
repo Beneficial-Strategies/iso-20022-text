@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareMICIdentifier3",
+  "language": "en",
+  "name": "Compare MIC Identifier 3",
+  "definition": "Specifies two values to compare for a MIC (Market Identifier Code-ISO10383) identifier.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

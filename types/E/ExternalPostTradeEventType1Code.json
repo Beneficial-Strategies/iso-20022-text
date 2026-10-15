@@ -1,0 +1,43 @@
+{
+  "isoType": "ExternalPostTradeEventType1Code",
+  "language": "en",
+  "name": "External Post Trade Event Type 1 Code",
+  "definition": "Specifies the type of post trade event, as published in an external post trade event type code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "EAMT": {
+      "isoName": "EarlyDelivery",
+      "name": "Early Delivery",
+      "definition": "Trade will be settled early."
+    },
+    "PEAM": {
+      "isoName": "PartialEarlyDelivery",
+      "name": "Partial Early Delivery",
+      "definition": "Trade will be partially settled early."
+    },
+    "PRUR": {
+      "isoName": "PartialUnwindRollover",
+      "name": "Partial Unwind Rollover",
+      "definition": "Part of the trade will be settled on its original date and the remainder will rollover."
+    },
+    "PRUW": {
+      "isoName": "PartialUnwind",
+      "name": "Partial Unwind",
+      "definition": "Part of the trade will not be settled."
+    },
+    "ROLL": {
+      "isoName": "Rollover",
+      "name": "Rollover",
+      "definition": "Rollover of a previous trade."
+    },
+    "UNWD": {
+      "isoName": "Unwind",
+      "name": "Unwind",
+      "definition": "Trade will not be settled."
+    },
+    "UNWR": {
+      "isoName": "UnwindRollover",
+      "name": "Unwind Rollover",
+      "definition": "Original trade will not settle on its original date, but will be rolled over."
+    }
+  }
+}

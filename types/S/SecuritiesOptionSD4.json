@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesOptionSD4",
+  "language": "en",
+  "name": "Securities Option SD 4",
+  "definition": "Provides additional information regarding corporate action option securities movement details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "PayoutNumber": {
+      "name": "Payout Number",
+      "definition": "Unique number associated with a payout within an option."
+    },
+    "PayoutType": {
+      "name": "Payout Type",
+      "definition": "Describes the type of payout associated with the event."
+    },
+    "PayoutStatus": {
+      "name": "Payout Status",
+      "definition": "Workflow status of the payout."
+    }
+  }
+}

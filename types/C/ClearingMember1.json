@@ -1,0 +1,40 @@
+{
+  "isoType": "ClearingMember1",
+  "language": "en",
+  "name": "Clearing Member 1",
+  "definition": "Legal counterpart to trades cleared through a central counterparty.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the clearing member."
+    },
+    "CreditQuality": {
+      "name": "Credit Quality",
+      "definition": "Credit quality for the clearing member."
+    },
+    "UltimateParentIdentification": {
+      "name": "Ultimate Parent Identification",
+      "definition": "Identification of the ultimate parent of a clearing member if it is not the parent company itself."
+    },
+    "FuturesCommissionMerchantIndicator": {
+      "name": "Futures Commission Merchant Indicator",
+      "definition": "Identifies whether the clearing member is registered under the Commodity Exchange Act."
+    },
+    "MembershipValidFrom": {
+      "name": "Membership Valid From",
+      "definition": "Date on which the entity becomes a clearing member contractually subject to the CCP’s Rulebook."
+    },
+    "MembershipValidTo": {
+      "name": "Membership Valid To",
+      "definition": "Date on which the clearing member is no longer a member in any clearing services protected by the default waterfall as defined by the CCP’s rules. Typically this will be the day the clearing member’s default fund contribution is repaid or they are no longer contractually subject to rights of assessment."
+    },
+    "SponsoringClearingMemberIdentification": {
+      "name": "Sponsoring Clearing Member Identification",
+      "definition": "Identification of another clearing member or institution that acts as sponsor to the clearing member, undertaking certain of its obligations at the central counterparty on its behalf. These obligations typically include, but are not limited to, making default fund contributions and participating in default auctions."
+    },
+    "ClearingAccountOwner": {
+      "name": "Clearing Account Owner",
+      "definition": "Operational construct of a central counterparty that defines the relationship between collateral, margin and position accounts and upon default of a clearing member defines the segregation of losses on positions and assets held in that account."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "MarginCalculation1",
+  "language": "en",
+  "name": "Margin Calculation 1",
+  "definition": "Provides the total margin amount, the collateral amount on deposit and the total minimum requirement that used to calculate the margin result, either an excess or a deficit.",
+  "isoElements": {
+    "TotalMarginAmount": {
+      "name": "Total Margin Amount",
+      "definition": "Total margin requirement (expressed in the reporting currency) that must be provided by the clearing member to the central counterparty. This is the total requirement calculated to cover the initial margin and the variation margin."
+    },
+    "CollateralOnDeposit": {
+      "name": "Collateral On Deposit",
+      "definition": "Provides details on the valuation of the collateral on deposit."
+    },
+    "MinimumRequirementDeposit": {
+      "name": "Minimum Requirement Deposit",
+      "definition": "Minimum requirement (expressed in the reporting currency) for a participant if their requirement falls below a specific amount set by the central counterparty."
+    },
+    "MarginResult": {
+      "name": "Margin Result",
+      "definition": "Provide details on the margin result taking into consideration the total margin amount and the minimum requirements deposit."
+    }
+  }
+}

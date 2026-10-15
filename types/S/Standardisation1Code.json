@@ -1,0 +1,23 @@
+{
+  "isoType": "Standardisation1Code",
+  "language": "en",
+  "name": "Standardisation 1 Code",
+  "definition": "Specifies whether the terms of the security (underlying instruments, expiration date, contract size) are defined according to the exchange specifications or whether they can be user defined.",
+  "isoCodes": {
+    "FLEX": {
+      "isoName": "Flexible",
+      "name": "Flexible",
+      "definition": "Derivatives defined according to exchange specifications, but certain characteristics can be user defined."
+    },
+    "NSTA": {
+      "isoName": "NonStandardised",
+      "name": "Non Standardised",
+      "definition": "Custom-made instrument between two parties. Underlying|instruments, expiration date and contract size of the derivatives are not standardised."
+    },
+    "STAN": {
+      "isoName": "Standardised",
+      "name": "Standardised",
+      "definition": "The underlying instruments, expiration date and contract size of the derivatives are standardised."
+    }
+  }
+}

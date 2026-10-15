@@ -1,0 +1,56 @@
+{
+  "isoType": "TransactionSpecificData1",
+  "language": "en",
+  "name": "Transaction Specific Data 1",
+  "definition": "Component contains data structures applicable to certain merchant verticals that require industry-specific data within transaction messages.",
+  "isoElements": {
+    "Sale": {
+      "name": "Sale",
+      "definition": "Details of good and services included in the sale."
+    },
+    "Fleet": {
+      "name": "Fleet",
+      "definition": "Fleet data pertaining to the payment transaction."
+    },
+    "Invoice": {
+      "name": "Invoice",
+      "definition": "Invoice data pertaining to the payment transaction."
+    },
+    "TravelAgency": {
+      "name": "Travel Agency",
+      "definition": "Component supports corporate transactions for travel agency, airline, or railway transactions. Acquirers may submit multiple occurrences of this component. Each occurrence provides detailed travel agency fee data associated with a travel agency, airline, or railway transaction."
+    },
+    "PassengerTransport": {
+      "name": "Passenger Transport",
+      "definition": "Component supports ticketing transactions for airline, railway, and travel agency transactions to provide passenger ticket information for the cardholder."
+    },
+    "VehicleRental": {
+      "name": "Vehicle Rental",
+      "definition": "Component provides detailed vehicle rental information. One occurrence of this component provides rental agreement data reporting for a single vehicle rental transaction."
+    },
+    "Lodging": {
+      "name": "Lodging",
+      "definition": "Component provides detailed information about lodging accommodations and related expenses for the cardholder. Acquirers can submit multiple occurrences of this component for each lodging transaction, to provide details of one or more folios."
+    },
+    "ShippingData": {
+      "name": "Shipping Data",
+      "definition": "Shipping or Courier Service detail component provides detailed information regarding delivery or courier services."
+    },
+    "TelecommunicationServices": {
+      "name": "Telecommunication Services",
+      "definition": "Telecommunication services component is designed to carry telephony billing data and to enable issuers to supply more transaction information to their consumer and corporate clients pertaining to telecommunications services and related billing information."
+    },
+    "TemporaryServices": {
+      "name": "Temporary Services",
+      "definition": "Temporary Services component provides detailed information regarding the billing for services rendered on a temporary or contract basis. The component provides information such as the employee job performed, timekeeping, and billing rates."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "isoType": "RoleAndBaselineRejectionNotificationV01",
+  "language": "en",
+  "name": "Role And Baseline Rejection Notification V 01",
+  "definition": "Scope|The RoleAndBaselineRejectionNotification message is sent by the matching application to the primary banks to inform about role and baseline rejection by a secondary bank.|Usage|The RoleAndBaselineRejectionNotification message is used to inform that a secondary bank has rejected the role and baseline. No response is expected.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Identifies the notification message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties.|."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction that is not extended."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for each financial institution which is a party to the transaction."
+    },
+    "Initiator": {
+      "name": "Initiator",
+      "definition": "Party that has rejected."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason why the user cannot accept the request."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Information on the next processing step required."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "isoType": "UnitPrice10",
+  "language": "en",
+  "name": "Unit Price 10",
+  "definition": "Amount of money for which goods or services are offered, sold, or bought.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type and information about a price."
+    },
+    "ExtendedType": {
+      "name": "Extended Type",
+      "definition": "Type and information about a price."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Value of the price, eg, as a currency and value."
+    },
+    "PriceMethod": {
+      "name": "Price Method",
+      "definition": "Type of pricing calculation method."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Specifies the number of days used for calculating the accrued interest amount."
+    },
+    "TaxableIncomePerShare": {
+      "name": "Taxable Income Per Share",
+      "definition": "Amount included in the NAV that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "name": "Taxable Income Per Share Calculated",
+      "definition": "Specifies whether the fund calculates a taxable interest per share (TIS)."
+    },
+    "ExtendedTaxableIncomePerShareCalculated": {
+      "name": "Extended Taxable Income Per Share Calculated",
+      "definition": "Specifies whether the fund calculates a taxable interest per share (TIS)."
+    },
+    "PriceDifferenceReason": {
+      "name": "Price Difference Reason",
+      "definition": "Specifies the reason why the price is different from the current market price."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Either Type or ExtendedType must be present, but not both."
+    },
+    "TISCalculatedOrExtendedTISCalculatedRule": {
+      "definition": "Either TaxableIncomePerShareCalculated or ExtendedTaxableIncomePerShareCalculated may be present, but not both."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIAdministrativeRequestV08",
+  "language": "en",
+  "name": "Sale To POI Administrative Request V 08",
+  "definition": "The SaleToPOIAdministrativeRequest message is sent by a sale system to POI System to request for an Administrative service.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "AdministrativeRequest": {
+      "name": "Administrative Request",
+      "definition": "Information related to the administrative request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

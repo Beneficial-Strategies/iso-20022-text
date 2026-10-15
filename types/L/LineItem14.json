@@ -1,0 +1,44 @@
+{
+  "isoType": "LineItem14",
+  "language": "en",
+  "name": "Line Item 14",
+  "definition": "Calculation of the current situation of a baseline as a result of the submission of a commercial data set.",
+  "isoElements": {
+    "LineItemDetails": {
+      "name": "Line Item Details",
+      "definition": "Calculated information about the goods of the underlying transaction."
+    },
+    "OrderedLineItemsTotalAmount": {
+      "name": "Ordered Line Items Total Amount",
+      "definition": "Line items total amount as indicated in the baseline."
+    },
+    "AcceptedLineItemsTotalAmount": {
+      "name": "Accepted Line Items Total Amount",
+      "definition": "Line items total amount accepted by a data set submission(s)."
+    },
+    "OutstandingLineItemsTotalAmount": {
+      "name": "Outstanding Line Items Total Amount",
+      "definition": "Difference between the ordered and the accepted line items total amount."
+    },
+    "PendingLineItemsTotalAmount": {
+      "name": "Pending Line Items Total Amount",
+      "definition": "Line item total amount for which a mismatched data set has been submitted and has not yet been accepted or rejected."
+    },
+    "OrderedTotalNetAmount": {
+      "name": "Ordered Total Net Amount",
+      "definition": "Total net amount as indicated in the baseline."
+    },
+    "AcceptedTotalNetAmount": {
+      "name": "Accepted Total Net Amount",
+      "definition": "Total net amount accepted by a data set submission."
+    },
+    "OutstandingTotalNetAmount": {
+      "name": "Outstanding Total Net Amount",
+      "definition": "Total net amount for which a mismatched data set has been submitted and has not yet been accepted or rejected."
+    },
+    "PendingTotalNetAmount": {
+      "name": "Pending Total Net Amount",
+      "definition": "Difference between the ordered and the accepted total net amount."
+    }
+  }
+}

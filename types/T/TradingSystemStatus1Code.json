@@ -1,0 +1,23 @@
+{
+  "isoType": "TradingSystemStatus1Code",
+  "language": "en",
+  "name": "Trading System Status 1 Code",
+  "definition": "Status of the trading system.",
+  "isoCodes": {
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "The trading system is active."
+    },
+    "OTAG": {
+      "isoName": "OutageOfTheTradingSystem",
+      "name": "Outage Of The Trading System",
+      "definition": "The trading system is disrupted"
+    },
+    "POTG": {
+      "isoName": "PartialOutageOfTheTradingSystem",
+      "name": "Partial Outage Of The Trading System",
+      "definition": "The trading system is partially disrupted"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "ReversalRequest8",
+  "language": "en",
+  "name": "Reversal Request 8",
+  "definition": "Data to request a reversal.",
+  "isoElements": {
+    "ReversalTransaction": {
+      "name": "Reversal Transaction",
+      "definition": "Transaction to reverse."
+    },
+    "LoyaltyData": {
+      "name": "Loyalty Data",
+      "definition": "Data linked to card loyalty during payment."
+    },
+    "ReversalReason": {
+      "name": "Reversal Reason",
+      "definition": "Reason for this reversal."
+    },
+    "ReversedAmount": {
+      "name": "Reversed Amount",
+      "definition": "Amount to reverse (total or partial)."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Specific Customer Order linked with the reversal."
+    }
+  }
+}

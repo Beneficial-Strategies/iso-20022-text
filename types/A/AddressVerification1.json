@@ -1,0 +1,16 @@
+{
+  "isoType": "AddressVerification1",
+  "language": "en",
+  "name": "Address Verification 1",
+  "definition": "Numeric characters of the cardholder's address for verification.",
+  "isoElements": {
+    "AddressDigits": {
+      "name": "Address Digits",
+      "definition": "Numeric characters from the cardholder's address excluding the postal code (that is street number)."
+    },
+    "PostalCodeDigits": {
+      "name": "Postal Code Digits",
+      "definition": "Numeric characters from the cardholder's postal code."
+    }
+  }
+}

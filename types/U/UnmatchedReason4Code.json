@@ -1,0 +1,328 @@
+{
+  "isoType": "UnmatchedReason4Code",
+  "language": "en",
+  "name": "Unmatched Reason 4 Code",
+  "definition": "Specifies the reason the transaction, transfer or settlement instruction is unmatched.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the account servicer's deadline. Processed on best effort basis."
+    },
+    "CADE": {
+      "isoName": "RepurchaseCallDelay",
+      "name": "Repurchase Call Delay",
+      "definition": "Transaction call delay does not match."
+    },
+    "CHAR": {
+      "isoName": "ChargesAmount",
+      "name": "Charges Amount",
+      "definition": "Charges amount does not match."
+    },
+    "CMIS": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "A matching instruction from your counterparty could not be found."
+    },
+    "CPCA": {
+      "isoName": "CounterpartyCancelled",
+      "name": "Counterparty Cancelled",
+      "definition": "Counterparty cancelled their instruction."
+    },
+    "DDAT": {
+      "isoName": "SettlementDate",
+      "name": "Settlement Date",
+      "definition": "Settlement date/time does not match."
+    },
+    "DDEA": {
+      "isoName": "DealPrice",
+      "name": "Deal Price",
+      "definition": "Deal price does not match."
+    },
+    "DEAL": {
+      "isoName": "TransactionDealAmount",
+      "name": "Transaction Deal Amount",
+      "definition": "Deal amount does not match."
+    },
+    "DELN": {
+      "isoName": "TransactionDirection",
+      "name": "Transaction Direction",
+      "definition": "Direction of the trade does not match. Counterparty expects a delivery from you, not a receipt or vice versa."
+    },
+    "DEPT": {
+      "isoName": "ReceivingDeliveringDepository",
+      "name": "Receiving Delivering Depository",
+      "definition": "Depository does not match."
+    },
+    "DMON": {
+      "isoName": "SettlementAmount",
+      "name": "Settlement Amount",
+      "definition": "Settlement amount does not match."
+    },
+    "DQUA": {
+      "isoName": "FinancialInstrumentQuantity",
+      "name": "Financial Instrument Quantity",
+      "definition": "Quantity of financial instruments does not match."
+    },
+    "DSEC": {
+      "isoName": "FinancialInstrument",
+      "name": "Financial Instrument",
+      "definition": "Financial instrument identification does not match, for example, ISIN, financial instrument attributes differs."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Trade date does not match."
+    },
+    "EXEC": {
+      "isoName": "ExecutionBrokerCommission",
+      "name": "Execution Broker Commission",
+      "definition": "Executing broker's commission does not match."
+    },
+    "FORF": {
+      "isoName": "ForfeitRepurchaseAmount",
+      "name": "Forfeit Repurchase Amount",
+      "definition": "Forfeit amount does not match."
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Your instruction was too late for matching."
+    },
+    "LEOG": {
+      "isoName": "LetterOfGuarantee",
+      "name": "Letter Of Guarantee",
+      "definition": "Counterparty is for settlement through letter of guarantee, your instruction is not, or vice versa."
+    },
+    "MCAN": {
+      "isoName": "MatchingRecordCancelled",
+      "name": "Matching Record Cancelled",
+      "definition": "Corresponding matching record has been cancelled."
+    },
+    "NARR": {
+      "isoName": "NarrativeReason",
+      "name": "Narrative Reason",
+      "definition": "See narrative field for the reason."
+    },
+    "PHYS": {
+      "isoName": "PhysicalSettlement",
+      "name": "Physical Settlement",
+      "definition": "Counterparty's instruction is physical settlement, your instruction is not, or vice versa."
+    },
+    "PLCE": {
+      "isoName": "PlaceOfTrade",
+      "name": "Place Of Trade",
+      "definition": "Place of trade does not match."
+    },
+    "PODU": {
+      "isoName": "PossibleDuplicate",
+      "name": "Possible Duplicate",
+      "definition": "Instruction has not been matched. It is a possible duplicate instruction."
+    },
+    "REPA": {
+      "isoName": "RepurchaseAmount",
+      "name": "Repurchase Amount",
+      "definition": "Termination transaction amount does not match."
+    },
+    "REPO": {
+      "isoName": "RepurchaseRate",
+      "name": "Repurchase Rate",
+      "definition": "Repurchase rate does not match."
+    },
+    "REPP": {
+      "isoName": "RepurchasePremiumAmount",
+      "name": "Repurchase Premium Amount",
+      "definition": "Premium amount does not match."
+    },
+    "RERT": {
+      "isoName": "RepurchaseRateType",
+      "name": "Repurchase Rate Type",
+      "definition": "Repurchase rate type does not match."
+    },
+    "RSPR": {
+      "isoName": "RepurchaseSpreadRate",
+      "name": "Repurchase Spread Rate",
+      "definition": "Spread rate does not match."
+    },
+    "RTGS": {
+      "isoName": "RTGSSystem",
+      "name": "RTGS System",
+      "definition": "Counterparty is for Real Time Gross Settlement (RTGS) system, you are for non-RTGS or vice versa."
+    },
+    "SAFE": {
+      "isoName": "SafekeepingAccount",
+      "name": "Safekeeping Account",
+      "definition": "Safekeeping account used as matching criteria on the market concerned does not match. This includes Buyer/seller's account, direct client's account at the receiving/delivering agent, or receiving/delivering agent's account at the CSD."
+    },
+    "SETR": {
+      "isoName": "SettlementTransaction",
+      "name": "Settlement Transaction",
+      "definition": "Settlement transaction type does not match (relates to the settlement transaction type codes available for field: 22F:: SETR.)."
+    },
+    "SETS": {
+      "isoName": "SettlementSystemMethod",
+      "name": "Settlement System Method",
+      "definition": "Settlement system/method does not match (for example, instruction is to settle using settlement system/method A. Counterparty expects settlement to occur using settlement system/method B)."
+    },
+    "TERM": {
+      "isoName": "ClosingDateTime",
+      "name": "Closing Date Time",
+      "definition": "Closing date/time does not match."
+    },
+    "TXST": {
+      "isoName": "TaxStatus",
+      "name": "Tax Status",
+      "definition": "Disagreement on the tax status of the financial instruments to be settled."
+    },
+    "VASU": {
+      "isoName": "VariableRateSupport",
+      "name": "Variable Rate Support",
+      "definition": "Variable rate support does not match (repo)."
+    },
+    "POSE": {
+      "isoName": "PositionEffect",
+      "name": "Position Effect",
+      "definition": "Position effect does not match."
+    },
+    "BORT": {
+      "isoName": "BorrowingRate",
+      "name": "Borrowing Rate",
+      "definition": "Borrowing rate does not match."
+    },
+    "COAX": {
+      "isoName": "ConsumptionTax",
+      "name": "Consumption Tax",
+      "definition": "Consumption tax amount does not match."
+    },
+    "OTHI": {
+      "isoName": "OtherFinancialInstrumentIdentification",
+      "name": "Other Financial Instrument Identification",
+      "definition": "OtherIdentification of financial instrument identification does not match."
+    },
+    "BOFE": {
+      "isoName": "BorrowingFee",
+      "name": "Borrowing Fee",
+      "definition": "Borrowing fee does not match."
+    },
+    "TACR": {
+      "isoName": "AccruedInterestTax1",
+      "name": "Accrued Interest Tax 1",
+      "definition": "Accrued interest tax indicator does not match."
+    },
+    "SDAT": {
+      "isoName": "SettlementDate2",
+      "name": "Settlement Date 2",
+      "definition": "Settlement date in the second leg does not match."
+    },
+    "COID": {
+      "isoName": "CommonIdentification",
+      "name": "Common Identification",
+      "definition": "CommonIdentification does not match."
+    },
+    "SCRA": {
+      "isoName": "StandardCollateralRatio",
+      "name": "Standard Collateral Ratio",
+      "definition": "Standard collateral ratio does not match."
+    },
+    "ACRU": {
+      "isoName": "AccruedInterestAmount1",
+      "name": "Accrued Interest Amount 1",
+      "definition": "Accrued interest amount does not match."
+    },
+    "SHAI": {
+      "isoName": "SecuritiesHaircut",
+      "name": "Securities Haircut",
+      "definition": "Securities haircut rate does not match."
+    },
+    "ACRS": {
+      "isoName": "AccruedInterestAmount2",
+      "name": "Accrued Interest Amount 2",
+      "definition": "Accrued interest amount in the second leg does not match."
+    },
+    "DEAS": {
+      "isoName": "DealAmount2",
+      "name": "Deal Amount 2",
+      "definition": "Deal amount in the second leg does not match."
+    },
+    "CATI": {
+      "isoName": "CallableTradeIndicator",
+      "name": "Callable Trade Indicator",
+      "definition": "CallableTradeIndicator does not match."
+    },
+    "TACS": {
+      "isoName": "AccruedInterestTax2",
+      "name": "Accrued Interest Tax 2",
+      "definition": "Accrued interest tax indicator in the second leg does not match."
+    },
+    "DBNM": {
+      "isoName": "StandingSettlementInstruction",
+      "name": "Standing Settlement Instruction",
+      "definition": "Counterparty's instruction is for settlement through standing settlement instruction, your instruction is not, or vice versa."
+    },
+    "MADA": {
+      "isoName": "MaturityDate",
+      "name": "Maturity Date",
+      "definition": "Maturity date does not match."
+    },
+    "OLID": {
+      "isoName": "ClientOrderLinkIdentification",
+      "name": "Client Order Link Identification",
+      "definition": "ClientOrderLinkIdentification does not match."
+    },
+    "TRSA": {
+      "isoName": "ClosingSettlementAmount",
+      "name": "Closing Settlement Amount",
+      "definition": "Closing settlement amount does not match."
+    },
+    "TRTE": {
+      "isoName": "TypeOfFinancingClosing",
+      "name": "Type Of Financing Closing",
+      "definition": "Type of financing closing does not match."
+    },
+    "BOIA": {
+      "isoName": "BorrowingInterestAmount",
+      "name": "Borrowing Interest Amount",
+      "definition": "Borrowing interest amount does not match."
+    },
+    "OPLI": {
+      "isoName": "OpeningLegIdentification",
+      "name": "Opening Leg Identification",
+      "definition": "OpeningLegIdentification does not match."
+    },
+    "TRTR": {
+      "isoName": "TradeTransactionType",
+      "name": "Trade Transaction Type",
+      "definition": "Trade transaction type does not match."
+    },
+    "LWCO": {
+      "isoName": "LendingWithCollateral",
+      "name": "Lending With Collateral",
+      "definition": "LendingWithCollateral does not match."
+    },
+    "INTT": {
+      "isoName": "InterestType",
+      "name": "Interest Type",
+      "definition": "Interest type does not match."
+    },
+    "CUFC": {
+      "isoName": "CurrentFactor",
+      "name": "Current Factor",
+      "definition": "Current factor does not match."
+    },
+    "LTME": {
+      "isoName": "LendingTransactionMethod",
+      "name": "Lending Transaction Method",
+      "definition": "Lending transaction method does not match."
+    },
+    "ENFC": {
+      "isoName": "EndFactor",
+      "name": "End Factor",
+      "definition": "End factor does not match."
+    },
+    "CLSE": {
+      "isoName": "ClearingSegment",
+      "name": "Clearing Segment",
+      "definition": "Counterparty's instruction is for settlement through clearing segment, your instruction is not, or vice versa."
+    }
+  }
+}

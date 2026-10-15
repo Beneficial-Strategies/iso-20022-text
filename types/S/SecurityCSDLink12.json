@@ -1,0 +1,40 @@
+{
+  "isoType": "SecurityCSDLink12",
+  "language": "en",
+  "name": "Security CSD Link 12",
+  "definition": "Defines how the CSD is linked to the security.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of a security."
+    },
+    "IssuerInvestorCSD": {
+      "name": "Issuer Investor CSD",
+      "definition": "CSD Issuer of a security."
+    },
+    "TechnicalIssuerCSD": {
+      "name": "Technical Issuer CSD",
+      "definition": "Technical issuer of a security."
+    },
+    "SecurityMaintenance": {
+      "name": "Security Maintenance",
+      "definition": "Specifies if the involved CSD (issuer/technical issuer/investor) is also the maintainer of related reference data."
+    },
+    "IssuanceAccount": {
+      "name": "Issuance Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "DefaultLink": {
+      "name": "Default Link",
+      "definition": "Specifies whether the security CSD link is the default link. |Usage: when DefaultLink is absent, value is No/false"
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Defines the date since when the CSD is linked to the security."
+    },
+    "ValidTo": {
+      "name": "Valid To",
+      "definition": "Defines the date until when the CSD is linked to the security."
+    }
+  }
+}

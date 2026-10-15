@@ -1,0 +1,53 @@
+{
+  "isoType": "StatisticalReportingStatus1Code",
+  "language": "en",
+  "name": "Statistical Reporting Status 1 Code",
+  "definition": "Specifies the status of a group of statistical reporting transactions.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Transaction or report has been accepted."
+    },
+    "ACTC": {
+      "isoName": "AcceptedTechnicalValidation",
+      "name": "Accepted Technical Validation",
+      "definition": "Transaction or report has passed syntactical and semantical validation."
+    },
+    "PART": {
+      "isoName": "PartiallyAccepted",
+      "name": "Partially Accepted",
+      "definition": "Report has been partially accepted. A number of transactions have been accepted, whereas another number of transactions have not yet been accepted."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Processing of transaction or report is pending."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Report has been received."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Transaction or report has been rejected."
+    },
+    "RMDR": {
+      "isoName": "Reminder",
+      "name": "Reminder",
+      "definition": "Reminder of a non received report."
+    },
+    "INCF": {
+      "isoName": "IncorrectFilename",
+      "name": "Incorrect Filename",
+      "definition": "File containing the report has an incorrect filename."
+    },
+    "CRPT": {
+      "isoName": "CorruptedFile",
+      "name": "Corrupted File",
+      "definition": "File containing the report is corrupted."
+    }
+  }
+}

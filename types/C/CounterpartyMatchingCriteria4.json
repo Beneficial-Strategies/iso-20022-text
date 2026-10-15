@@ -1,0 +1,25 @@
+{
+  "isoType": "CounterpartyMatchingCriteria4",
+  "language": "en",
+  "name": "Counterparty Matching Criteria 4",
+  "definition": "Compares information related to both sides of a loan.",
+  "isoElements": {
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Specifies whether the information on the reporting counterparties are matching or not."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Specifies whether the information on the other counterparties are matching or not."
+    },
+    "CounterpartySide": {
+      "name": "Counterparty Side",
+      "definition": "Specifies whether the information on the counterparty side are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

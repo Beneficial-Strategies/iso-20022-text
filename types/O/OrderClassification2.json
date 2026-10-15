@@ -1,0 +1,21 @@
+{
+  "isoType": "OrderClassification2",
+  "language": "en",
+  "name": "Order Classification 2",
+  "definition": "Type of order in financial instruments.",
+  "isoElements": {
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Type of order submitted to the trading venue as per the trading venue specifications."
+    },
+    "OrderTypeClassification": {
+      "name": "Order Type Classification",
+      "definition": "Classification of the order."
+    }
+  },
+  "isoRules": {
+    "OrderClassificationPresenceRule": {
+      "definition": "OrderType or OrderTypeClassification must be present."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "VariableInterest1Rate",
+  "language": "en",
+  "name": "Variable Interest 1 Rate",
+  "definition": "Provides the index used to define the rate and optionaly the basis point spread.",
+  "isoElements": {
+    "Index": {
+      "name": "Index",
+      "definition": "Specifies the index taken into account to calculate the variable interest rate."
+    },
+    "BasisPointSpread": {
+      "name": "Basis Point Spread",
+      "definition": "Used to express differences in interest rates, for example, a difference of 0.10% is equivalent to a change of 10 basis points."
+    }
+  }
+}

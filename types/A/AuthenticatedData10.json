@@ -1,0 +1,28 @@
+{
+  "isoType": "AuthenticatedData10",
+  "language": "en",
+  "name": "Authenticated Data 10",
+  "definition": "Message authentication code (MAC), computed on the data to protect with an encryption key.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Session key or protection key identification used by the recipient."
+    },
+    "MACAlgorithm": {
+      "name": "MAC Algorithm",
+      "definition": "Algorithm to compute message authentication code (MAC)."
+    },
+    "EncapsulatedContent": {
+      "name": "Encapsulated Content",
+      "definition": "Data to authenticate."
+    },
+    "MAC": {
+      "name": "MAC",
+      "definition": "Message authentication code value."
+    }
+  }
+}

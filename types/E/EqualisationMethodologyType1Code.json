@@ -1,0 +1,23 @@
+{
+  "isoType": "EqualisationMethodologyType1Code",
+  "language": "en",
+  "name": "Equalisation Methodology Type 1 Code",
+  "definition": "Methodology used for the allocation of the performance fees.",
+  "isoCodes": {
+    "COLI": {
+      "isoName": "ContingentLiquidation",
+      "name": "Contingent Liquidation",
+      "definition": "Mandatory redemption of units processed either at redemption or crystallization, whose proceeds are due to the asset manager as performance fee. Performance fee to be paid by the investor when the value of the investment fund units were below their applicable high-watermark on subscription date, and above the high-watermark on redemption date."
+    },
+    "DDEP": {
+      "isoName": "DepreciationDeposit",
+      "name": "Depreciation Deposit",
+      "definition": "Performance fee to be paid by the investor when the net asset value reaches the high-watermark if the net asset value was under the high-watermark on subscription date."
+    },
+    "EQCR": {
+      "isoName": "EqualisationCredit",
+      "name": "Equalisation Credit",
+      "definition": "Prepayment amount to be paid by the investor at the moment of the subscription.  The amount is based on the positive difference between the gross asset value at subscription and the high-watermark, when the investment fund units are subscribed to above their high-watermark."
+    }
+  }
+}

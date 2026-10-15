@@ -1,0 +1,16 @@
+{
+  "isoType": "UndertakingNonExtensionNotificationV01",
+  "language": "en",
+  "name": "Undertaking Non Extension Notification V 01",
+  "definition": "The UndertakingNonExtensionNotification message is sent by the party that issued the undertaking to the beneficiary, either directly or via one or more advising parties, to notify it of the non-extension of the referenced undertaking beyond the current expiry date.",
+  "isoElements": {
+    "UndertakingNonExtensionNotificationDetails": {
+      "name": "Undertaking Non Extension Notification Details",
+      "definition": "Details of the non-extension notification."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the notification."
+    }
+  }
+}

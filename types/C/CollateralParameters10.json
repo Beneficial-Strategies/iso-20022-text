@@ -1,0 +1,71 @@
+{
+  "isoType": "CollateralParameters10",
+  "language": "en",
+  "name": "Collateral Parameters 10",
+  "definition": "Parameters which explicitly state the conditions that must be fulfilled before a particular triparty collateral instruction/transaction  can be confirmed. These parameters are defined by the instructing party in compliance with triparty collateral rules in the market the instruction/transaction will take place.",
+  "isoElements": {
+    "CollateralInstructionType": {
+      "name": "Collateral Instruction Type",
+      "definition": "Specifies the type of collateral instruction."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the exposure."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the client is the collateral taker or giver."
+    },
+    "ValueSoughtMarginRate": {
+      "name": "Value Sought Margin Rate",
+      "definition": "Percentage by which the collateral value sought is increased, in selecting securities for a collateral basket, to reflect the taker's margin requirements.|Margin or haircut to be applied on the exposure amount, expressed  as a percentage."
+    },
+    "TransferTitle": {
+      "name": "Transfer Title",
+      "definition": "Change of title for the collateral. If N then collateral is pledged."
+    },
+    "SettlementProcess": {
+      "name": "Settlement Process",
+      "definition": "Specifies the settlement process in which the collateral will be settled."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Specifies the priority with which the instruction needs to be executed."
+    },
+    "AutomaticAllocation": {
+      "name": "Automatic Allocation",
+      "definition": "Specifies whether the allocation of the collateral is manual or automatic."
+    },
+    "FailedSettlementSalvation": {
+      "name": "Failed Settlement Salvation",
+      "definition": "Specifies whether the taker is allowed to solve the failing settlement by proposing other collateral movements."
+    },
+    "MainTradingAccountCollateralisation": {
+      "name": "Main Trading Account Collateralisation",
+      "definition": "Specifies if the main trading account  is included in the pool of securities positions available for collateralisation. It is used in case of re-use of collateral to specify the account from which the securities collateral is taken from."
+    },
+    "BasketIdentificationAndEligibilitySetProfile": {
+      "name": "Basket Identification And Eligibility Set Profile",
+      "definition": "Provides information on the baskets identification and the Eligibility Set Profile."
+    },
+    "ResponseStatus": {
+      "name": "Response Status",
+      "definition": "Collateral taker's answer to the collateral giver instruction."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Provides additional information to a collateral instruction."
+    }
+  },
+  "isoRules": {
+    "MainTradingAccountCollateralisationGuideline": {
+      "definition": "If the indicator is not present then the default interpretation is that the main trading account is included in the pool of securities positions available for collateralisation (re-use)"
+    },
+    "MainTradingAccountCollateralisationProviderRule": {
+      "definition": "The Main Trading Account Collateralisation indicator can be present only if the collateral side is the provider of collateral."
+    },
+    "MainTradingAccountCollateralisationTransactionTypeRule": {
+      "definition": "The Main Trading Account Collateralisation Indicator can be present only if the Collateral Transaction Type is an initiation, a collateral adjustment, a principal adjustment or a margin adjustment."
+    }
+  }
+}

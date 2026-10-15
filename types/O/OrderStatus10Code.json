@@ -1,0 +1,23 @@
+{
+  "isoType": "OrderStatus10Code",
+  "language": "en",
+  "name": "Order Status 10 Code",
+  "definition": "Specifies the current status of an order.",
+  "isoCodes": {
+    "ACTI": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "Non-quote orders that are tradable."
+    },
+    "INAC": {
+      "isoName": "Inactive",
+      "name": "Inactive",
+      "definition": "Non-quote orders that are not tradable."
+    },
+    "SUSP": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "Order has been placed in suspended state at the request of the client."
+    }
+  }
+}

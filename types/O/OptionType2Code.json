@@ -1,0 +1,23 @@
+{
+  "isoType": "OptionType2Code",
+  "language": "en",
+  "name": "Option Type 2 Code",
+  "definition": "Specifies whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset) or any other type of option.",
+  "isoCodes": {
+    "CALL": {
+      "isoName": "Call",
+      "name": "Call",
+      "definition": "Right to buy a quantity of an asset for an agreed price at exercise date."
+    },
+    "PUTO": {
+      "isoName": "Put",
+      "name": "Put",
+      "definition": "Right to sell a quantity of an asset for an agreed price at exercise date."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Right where the holder of the option decides whether the option is put or call."
+    }
+  }
+}

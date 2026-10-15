@@ -1,0 +1,20 @@
+{
+  "isoType": "MaintenanceDelegationResponseV08",
+  "language": "en",
+  "name": "Maintenance Delegation Response V 08",
+  "definition": "The MaintenanceDelegationResponse message is sent by the master terminal manager to a terminal manager to provide the outcome of a maintenance delegation request.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Maintenance delegation response message management information."
+    },
+    "MaintenanceDelegationResponse": {
+      "name": "Maintenance Delegation Response",
+      "definition": "Information related to the request of maintenance delegations."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

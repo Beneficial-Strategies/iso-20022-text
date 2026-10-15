@@ -1,0 +1,45 @@
+{
+  "isoType": "PositionSetCollateralDimensions3",
+  "language": "en",
+  "name": "Position Set Collateral Dimensions 3",
+  "definition": "Variables related to derivatives that are used to group derivatives together into positions for collateral position sets and currency collateral position sets reports.",
+  "isoElements": {
+    "CounterpartyIdentification": {
+      "name": "Counterparty Identification",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Information indicating the type of collateral agreement existing between counterparties."
+    },
+    "InitialMarginPostedCurrency": {
+      "name": "Initial Margin Posted Currency",
+      "definition": "Currency of the initial margin posted by the reporting counterparty to the other counterparty."
+    },
+    "VariationMarginPostedCurrency": {
+      "name": "Variation Margin Posted Currency",
+      "definition": "Currency of the variation margin posted, including cash settled, by the reporting counterparty to the other counterparty."
+    },
+    "InitialMarginReceivedCurrency": {
+      "name": "Initial Margin Received Currency",
+      "definition": "Currency of the initial margin received by the reporting counterparty from the other counterparty."
+    },
+    "VariationMarginReceivedCurrency": {
+      "name": "Variation Margin Received Currency",
+      "definition": "Currency of the variation margin received, including cash settled, by the reporting counterparty from the other counterparty."
+    },
+    "ExcessCollateralPostedCurrency": {
+      "name": "Excess Collateral Posted Currency",
+      "definition": "Currency of collateral posted in excess of the required collateral."
+    },
+    "ExcessCollateralReceivedCurrency": {
+      "name": "Excess Collateral Received Currency",
+      "definition": "Currency of collateral received in excess of the required collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

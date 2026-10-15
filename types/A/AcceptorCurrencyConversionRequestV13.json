@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCurrencyConversionRequestV13",
+  "language": "en",
+  "name": "Acceptor Currency Conversion Request V 13",
+  "definition": "The AcceptorCurrencyConversionRequest message is sent by the card acceptor to the currency conversion service provider to request if the cardholder is able to pay in the currency of its card.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Currency Conversion request message management information."
+    },
+    "CurrencyConversionRequest": {
+      "name": "Currency Conversion Request",
+      "definition": "Information related to the currency conversion request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

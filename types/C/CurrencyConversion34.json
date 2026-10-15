@@ -1,0 +1,64 @@
+{
+  "isoType": "CurrencyConversion34",
+  "language": "en",
+  "name": "Currency Conversion 34",
+  "definition": "Conversion between the currency of a card acceptor and the currency of a card issuer, provided by a dedicated service provider. The currency conversion has to be accepted by the cardholder.",
+  "isoElements": {
+    "CurrencyConversionIdentification": {
+      "name": "Currency Conversion Identification",
+      "definition": "Identification of the currency conversion operation for the service provider."
+    },
+    "TargetCurrency": {
+      "name": "Target Currency",
+      "definition": "Currency into which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "ResultingAmount": {
+      "name": "Resulting Amount",
+      "definition": "Amount converted in the target currency, including additional charges."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Exchange rate, expressed as a percentage, applied to convert the original amount into the resulting amount."
+    },
+    "InvertedExchangeRate": {
+      "name": "Inverted Exchange Rate",
+      "definition": "Exchange rate, expressed as a percentage, applied to convert the resulting amount into the original amount."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which the exchange rate has been quoted."
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Specifies when the currency conversion could start."
+    },
+    "ValidUntil": {
+      "name": "Valid Until",
+      "definition": "Validity limit of the exchange rate."
+    },
+    "SourceCurrency": {
+      "name": "Source Currency",
+      "definition": "Currency from which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "ApplicableBinRange": {
+      "name": "Applicable Bin Range",
+      "definition": "Range of Bin for which the conversion is possible."
+    },
+    "OriginalAmount": {
+      "name": "Original Amount",
+      "definition": "Original amount in the source currency."
+    },
+    "CommissionDetails": {
+      "name": "Commission Details",
+      "definition": "Commission or additional charges made as part of a currency conversion."
+    },
+    "MarkUpDetails": {
+      "name": "Mark Up Details",
+      "definition": "Markup made as part of a currency conversion."
+    },
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Card scheme declaration (disclaimer) to present to the cardholder."
+    }
+  }
+}

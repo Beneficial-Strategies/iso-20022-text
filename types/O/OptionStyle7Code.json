@@ -1,0 +1,33 @@
+{
+  "isoType": "OptionStyle7Code",
+  "language": "en",
+  "name": "Option Style 7 Code",
+  "definition": "Specifies how an option for a derivative or securities derivative can be exercised.",
+  "isoCodes": {
+    "AMER": {
+      "isoName": "American",
+      "name": "American",
+      "definition": "Option can be exercised before or on expiry date."
+    },
+    "ASIA": {
+      "isoName": "Asian",
+      "name": "Asian",
+      "definition": "Option where the payoff is not determined by the underlying price at maturity but by the average underlying price over some pre-set period of time."
+    },
+    "BERM": {
+      "isoName": "Bermudan",
+      "name": "Bermudan",
+      "definition": "Option that can be exercised on multiple discrete dates prior to, or on expiry date."
+    },
+    "EURO": {
+      "isoName": "European",
+      "name": "European",
+      "definition": "Option that can be exercised on expiry date only."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other type of option style."
+    }
+  }
+}

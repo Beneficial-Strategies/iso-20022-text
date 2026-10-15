@@ -1,0 +1,124 @@
+{
+  "isoType": "FundReferenceDataReport5",
+  "language": "en",
+  "name": "Fund Reference Data Report 5",
+  "definition": "Fund reference data.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique technical identifier for an instance of a report within a fund reference data report, as assigned by the issuer of the report."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version Number. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00001 and is the version of the template for which the EMT data is provided."
+    },
+    "AuthorisedProxy": {
+      "name": "Authorised Proxy",
+      "definition": "Party that reports the data on behalf of the issuer and the entry point e-mail address for contact. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) references 00002, 00003 and 00004."
+    },
+    "GeneralReferenceDate": {
+      "name": "General Reference Date",
+      "definition": "Date to which the data refers. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00050."
+    },
+    "TargetMarketIndicator": {
+      "name": "Target Market Indicator",
+      "definition": "Indicates whether target market data is included in the report. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00006."
+    },
+    "ExAnteIndicator": {
+      "name": "Ex Ante Indicator",
+      "definition": "Indicates whether ex ante costs and charges are included in the report. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00007."
+    },
+    "ExPostIndicator": {
+      "name": "Ex Post Indicator",
+      "definition": "Indicates whether ex post costs and charges are included in the report. When used in reference to MiFID, this is in the scope of the European MiFID Template (EMT) reference 00008."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of the security."
+    },
+    "FundParties": {
+      "name": "Fund Parties",
+      "definition": "Parties related to the investment fund."
+    },
+    "MainFundOrderDesk": {
+      "name": "Main Fund Order Desk",
+      "definition": "Principal entity appointed by the fund, to which orders should be submitted. Usually located in the country of domicile."
+    },
+    "FundManagementCompany": {
+      "name": "Fund Management Company",
+      "definition": "Company that is responsible for the management and operation of the fund, for example, determines the investment strategy, appoints the service providers, and makes major decisions for the fund. It is usually responsible for the distribution and marketing of the fund. For self-managed funds, this will often be a separate promoter or sponsor of the fund."
+    },
+    "FundDetails": {
+      "name": "Fund Details",
+      "definition": "Security that is a sub-set of an investment fund, and is governed by the same investment fund policy, for example, dividend option or valuation currency."
+    },
+    "ValuationDealingCharacteristics": {
+      "name": "Valuation Dealing Characteristics",
+      "definition": "Processing characteristics linked to the instrument, that is, not to the market."
+    },
+    "InvestmentRestrictions": {
+      "name": "Investment Restrictions",
+      "definition": "Investment restrictions linked to the trading of the investment fund or an alternative/hedge fund."
+    },
+    "SubscriptionProcessingCharacteristics": {
+      "name": "Subscription Processing Characteristics",
+      "definition": "Processing characteristics linked to a subscription to the investment fund or alternative/hedge fund."
+    },
+    "RedemptionProcessingCharacteristics": {
+      "name": "Redemption Processing Characteristics",
+      "definition": "Processing characteristics linked to a redemption from the investment fund or alternative/hedge fund."
+    },
+    "SwitchProcessingCharacteristics": {
+      "name": "Switch Processing Characteristics",
+      "definition": "Processing characteristics linked to a switch of the investment fund or alternative/hedge fund."
+    },
+    "PlanCharacteristics": {
+      "name": "Plan Characteristics",
+      "definition": "Characteristics of the investment plan."
+    },
+    "PaymentInstrument": {
+      "name": "Payment Instrument",
+      "definition": "Specifies, for a specific type of transaction, how amounts are to be paid in or paid out."
+    },
+    "CashSettlementDetails": {
+      "name": "Cash Settlement Details",
+      "definition": "Account to be used for cash settlement."
+    },
+    "LocalMarketAnnex": {
+      "name": "Local Market Annex",
+      "definition": "Processing characteristics specific to a local fund order desk."
+    },
+    "TargetMarket": {
+      "name": "Target Market",
+      "definition": "Target market criteria."
+    },
+    "DistributionStrategy": {
+      "name": "Distribution Strategy",
+      "definition": "Distribution strategy criteria."
+    },
+    "CostsAndCharges": {
+      "name": "Costs And Charges",
+      "definition": "Costs and charges associated with the distribution of selling of the financial instrument. These may be one-off or recurring. These may be ex ante (intended) or post ante (actual)."
+    },
+    "AdditionalInformationUKMarket": {
+      "name": "Additional Information UK Market",
+      "definition": "Additional information required for distribution in the UK market."
+    },
+    "ValueForMoney": {
+      "name": "Value For Money",
+      "definition": "Additional information about UK Value For Money to complement the UK consumer duty regime."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "CostsAndCharges1Guideline": {
+      "definition": "One repetition of CostsAndCharges may be present for the specification of Ex Ante costs and charges."
+    },
+    "CostsAndCharges2Guideline": {
+      "definition": "One repetition of CostsAndCharges may be present for the specification of Ex Post costs and charges"
+    }
+  }
+}

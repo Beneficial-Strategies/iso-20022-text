@@ -1,0 +1,36 @@
+{
+  "isoType": "RetailerSaleEnvironment2",
+  "language": "en",
+  "name": "Retailer Sale Environment 2",
+  "definition": "Environment of Retailer for this message.",
+  "isoElements": {
+    "SaleCapabilities": {
+      "name": "Sale Capabilities",
+      "definition": "Capabilities of the Sale system."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Default currency associated with the sale system."
+    },
+    "MinimumAmountToDeliver": {
+      "name": "Minimum Amount To Deliver",
+      "definition": "Minimum amount the Sale System is allowed to deliver for this payment."
+    },
+    "MaximumCashBackAmount": {
+      "name": "Maximum Cash Back Amount",
+      "definition": "Maximum amount which could be requested for cash-back."
+    },
+    "MinimumSplitAmount": {
+      "name": "Minimum Split Amount",
+      "definition": "Minimum amount to split a sale transaction."
+    },
+    "DebitPreferredFlag": {
+      "name": "Debit Preferred Flag",
+      "definition": "Flag if preferred type of payment is a debit transaction."
+    },
+    "LoyaltyHandling": {
+      "name": "Loyalty Handling",
+      "definition": "Way of Loyalty handling."
+    }
+  }
+}

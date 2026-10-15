@@ -1,0 +1,65 @@
+{
+  "isoType": "SettlementData2",
+  "language": "en",
+  "name": "Settlement Data 2",
+  "definition": "Provides information on the settlement of a treasury trade.",
+  "isoElements": {
+    "CashFlowUniqueReference": {
+      "name": "Cash Flow Unique Reference",
+      "definition": "Unique reference supplied by the trade processing system."
+    },
+    "SettlementSystemUniqueReference": {
+      "name": "Settlement System Unique Reference",
+      "definition": "Unique reference assigned by a settlement system."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Original amount which should be settled. This information should be provided when the trade is partially settled or when the settlement is rejected."
+    },
+    "SettledAmount": {
+      "name": "Settled Amount",
+      "definition": "Funds which the trading side is expected to receive."
+    },
+    "RejectedAmount": {
+      "name": "Rejected Amount",
+      "definition": "Amount that cannot be settled by a settlement system."
+    },
+    "PayingParty": {
+      "name": "Paying Party",
+      "definition": "Specifies the party that pays the settlement amount."
+    },
+    "ReceivingParty": {
+      "name": "Receiving Party",
+      "definition": "Specifies the party that receives the settlement amount."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date on which the settlement is due to settle."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Specifies the status of a settlement eg rejected, settled or awaiting authorisation."
+    },
+    "ExtendedSettlementStatus": {
+      "name": "Extended Settlement Status",
+      "definition": "Description of the status of the settlement of a trade when no coded form is available."
+    },
+    "SettlementStatusSubType": {
+      "name": "Settlement Status Sub Type",
+      "definition": "Additional information about the cause of the rejection of a settlement."
+    },
+    "Suspended": {
+      "name": "Suspended",
+      "definition": "Cash settlement is suspended."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "Cash settlement is pending."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusOrExtendedSettlementStatusRule": {
+      "definition": ""
+    }
+  }
+}

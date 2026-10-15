@@ -1,0 +1,24 @@
+{
+  "isoType": "KEKIdentifier6",
+  "language": "en",
+  "name": "KEK Identifier 6",
+  "definition": "Identification of a key encryption key (KEK), using previously distributed symmetric key.",
+  "isoElements": {
+    "KeyIdentification": {
+      "name": "Key Identification",
+      "definition": "Identification of the cryptographic key."
+    },
+    "KeyVersion": {
+      "name": "Key Version",
+      "definition": "Version of the cryptographic key."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Number of usages of the cryptographic key."
+    },
+    "DerivationIdentification": {
+      "name": "Derivation Identification",
+      "definition": "Identification used for derivation of a unique key from a master key provided for the data protection."
+    }
+  }
+}

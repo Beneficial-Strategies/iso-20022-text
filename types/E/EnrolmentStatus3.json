@@ -1,0 +1,37 @@
+{
+  "isoType": "EnrolmentStatus3",
+  "language": "en",
+  "name": "Enrolment Status 3",
+  "definition": "Specifies the status of a creditor enrolment.",
+  "isoElements": {
+    "OriginalBusinessInstruction": {
+      "name": "Original Business Instruction",
+      "definition": "Unique identification of the original instruction."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provides detailed information on the status for the request."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Specifies the reason for the status of the enrolment request."
+    },
+    "OriginalEnrolmentReference": {
+      "name": "Original Enrolment Reference",
+      "definition": "Provides the original creditor enrolment data."
+    },
+    "EffectiveEnrolmentDate": {
+      "name": "Effective Enrolment Date",
+      "definition": "Actual date when the creditor enrolment was executed."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "OriginalEnrolmentPresenceRule": {
+      "definition": "When Status/Code is \"Accepted\" then OriginalEnrolmentReference must be present."
+    }
+  }
+}

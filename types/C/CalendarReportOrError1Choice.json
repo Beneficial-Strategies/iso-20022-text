@@ -1,0 +1,16 @@
+{
+  "isoType": "CalendarReportOrError1Choice",
+  "language": "en",
+  "name": "Calendar Report Or Error 1 Choice",
+  "definition": "Choice between details of the audit trail data or an operational error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "CalendarReport": {
+      "name": "Calendar Report",
+      "definition": "Provides the calendar information related to the system."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates that an operational error has been issued during the processing of the related request."
+    }
+  }
+}

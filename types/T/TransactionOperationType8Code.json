@@ -1,0 +1,63 @@
+{
+  "isoType": "TransactionOperationType8Code",
+  "language": "en",
+  "name": "Transaction Operation Type 8 Code",
+  "definition": "Specifies the transaction operation action type.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Compression",
+      "name": "Compression",
+      "definition": "Transaction is a compression."
+    },
+    "CORR": {
+      "isoName": "Correction",
+      "name": "Correction",
+      "definition": "Transaction corrects errors in a previously sent transaction."
+    },
+    "EROR": {
+      "isoName": "Error",
+      "name": "Error",
+      "definition": "Cancellation of a wrongly submitted entire report in case the contract never came into existence or was not subject to regulatory reporting requirements but was reported to a regulatory authority by mistake or a cancellation of duplicate report."
+    },
+    "MODI": {
+      "isoName": "Modification",
+      "name": "Modification",
+      "definition": "Transaction modifies in a previously sent transaction."
+    },
+    "NEWT": {
+      "isoName": "NewTransaction",
+      "name": "New Transaction",
+      "definition": "Transaction is a new transaction."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other."
+    },
+    "POSC": {
+      "isoName": "PositionComponent",
+      "name": "Position Component",
+      "definition": "Contract to be reported as a new trade and included in a separate position report on the same day."
+    },
+    "REVI": {
+      "isoName": "Revive",
+      "name": "Revive",
+      "definition": "Re-opening of a derivative, at a trade or position level, that was cancelled or terminated by mistake."
+    },
+    "TERM": {
+      "isoName": "Termination",
+      "name": "Termination",
+      "definition": "Closing of an existing transaction because of a new event (for example: Compression, Novation). This does not apply to transactions that terminate at contractual maturity date."
+    },
+    "VALU": {
+      "isoName": "ValuationUpdate",
+      "name": "Valuation Update",
+      "definition": "Update of a contract valuation or collateral."
+    },
+    "MARU": {
+      "isoName": "MarginUpdate",
+      "name": "Margin Update",
+      "definition": "Indicates the report of the collateral data or of their modifications, but not the corrections of the previously reported collateral details."
+    }
+  }
+}

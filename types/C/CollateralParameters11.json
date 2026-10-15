@@ -1,0 +1,36 @@
+{
+  "isoType": "CollateralParameters11",
+  "language": "en",
+  "name": "Collateral Parameters 11",
+  "definition": "Parameters which explicitly state the conditions that must be fulfilled before a particular triparty collateral instruction/transaction  can be confirmed. These parameters are defined by the instructing party in compliance with triparty collateral rules in the market the instruction/transaction will take place.",
+  "isoElements": {
+    "CollateralInstructionType": {
+      "name": "Collateral Instruction Type",
+      "definition": "Specifies the type of collateral instruction."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the exposure."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the alleged side is the collateral taker or giver. So it will be the opposite  side of the instruction."
+    },
+    "ValueSoughtMarginRate": {
+      "name": "Value Sought Margin Rate",
+      "definition": "Percentage by which the collateral value sought is increased, in selecting securities for a collateral basket, to reflect the taker's margin requirements."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    },
+    "TransferTitle": {
+      "name": "Transfer Title",
+      "definition": "Change of title for the collateral. If N then collateral is pledged."
+    },
+    "SettlementProcess": {
+      "name": "Settlement Process",
+      "definition": "Specifies the settlement process in which the collateral will be settled."
+    }
+  }
+}

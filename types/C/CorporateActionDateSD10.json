@@ -1,0 +1,60 @@
+{
+  "isoType": "CorporateActionDateSD10",
+  "language": "en",
+  "name": "Corporate Action Date SD 10",
+  "definition": "Provides additional information regarding corporate action date details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "DTCLastDayForEarlyRedemption": {
+      "name": "DTC Last Day For Early Redemption",
+      "definition": "Last day on which DTC (The Depository Trust Corporation) will accept instructions for CD early redemptions. This is specific to CDs when the registered holder is deceased."
+    },
+    "DTCPositionCaptureDate": {
+      "name": "DTC Position Capture Date",
+      "definition": "Date when positions are captured and entitlements are calculated in the system at DTC (The Depository Trust Corporation)."
+    },
+    "NewYorkCutOffDate": {
+      "name": "New York Cut Off Date",
+      "definition": "Last day to deposit securities at DTC and receive the entitlement for an event approaching record date. Issues that have a New York cut-off date have an out-of-town agent on DTC's records."
+    },
+    "DTCExtendedCutOffDate": {
+      "name": "DTC Extended Cut Off Date",
+      "definition": "Cut Off date for DTC (The Depository Trust Corporation) deposit and withdrawal activity. Certain events require an earlier cut off date. This is typically used on event securities requiring the submission of bearer coupons. Those events usually stop deposit and withdrawal activity one month prior to the declared record date."
+    },
+    "EffectiveDateByExchange": {
+      "name": "Effective Date By Exchange",
+      "definition": "Effective date as declared by the primary exchange that generally coincides with cessation of trading in the old security and commencement of trading in the new security."
+    },
+    "DateDeclaredWorthless": {
+      "name": "Date Declared Worthless",
+      "definition": "Date that DTC received formal notification from the agent/issuer stating that the securities are null and void."
+    },
+    "DeleteWorthlessSecurityDate": {
+      "name": "Delete Worthless Security Date",
+      "definition": "Date when DTC participant positions will be deleted. Typically used for expired rights and warrants."
+    },
+    "DTCExitDate": {
+      "name": "DTC Exit Date",
+      "definition": "Date on which securities will be exited to DTC participants from DTC (The Depository Trust Corporation)."
+    },
+    "SubscriptionBeginDate": {
+      "name": "Subscription Begin Date",
+      "definition": "Date on which a holder can begin to subscribe for new/additional shares."
+    },
+    "RightsDistributionAsOfDate": {
+      "name": "Rights Distribution As Of Date",
+      "definition": "Date used for determining client position for allocating rights."
+    },
+    "RightsDistributionDate": {
+      "name": "Rights Distribution Date",
+      "definition": "Date at which the rights allocation occurred."
+    },
+    "TimingDate": {
+      "name": "Timing Date",
+      "definition": "Date which defines the timing of the Dividend Equivalent payment as per IRS regulation 871m."
+    }
+  }
+}

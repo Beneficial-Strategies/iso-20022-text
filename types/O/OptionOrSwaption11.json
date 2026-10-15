@@ -1,0 +1,61 @@
+{
+  "isoType": "OptionOrSwaption11",
+  "language": "en",
+  "name": "Option Or Swaption 11",
+  "definition": "Option or swaption related attributes.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the Option whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset)."
+    },
+    "EmbeddedType": {
+      "name": "Embedded Type",
+      "definition": "Specifies the type of the Option when an optional provision is embedded in the contract."
+    },
+    "ExerciseStyle": {
+      "name": "Exercise Style",
+      "definition": "Indication as to whether the option may be exercised only at a fixed date (European, and Asian style), a series of pre-specified dates (Bermudan) or at any time during the life of the contract (American style). This field does not have to be populated for ISIN instruments."
+    },
+    "ExerciseDate": {
+      "name": "Exercise Date",
+      "definition": "Specifies the earliest unadjusted date during the exercise period on which an option can be exercised."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Specifies the predetermined price at which the owner of the option can buy or sell the underlying instrument.||Usage: For foreign exchange options, specifies the exchange rate at which the option can be exercised as the rate of exchange from converting the unit currency into the quoted currency.|For volatility and variance swaps, specify the volatility strike price."
+    },
+    "StrikePriceSchedule": {
+      "name": "Strike Price Schedule",
+      "definition": "Specifies the effective date and end date of the schedule for derivative transactions with strike prices varying throughout the life of the transaction."
+    },
+    "CallAmount": {
+      "name": "Call Amount",
+      "definition": "Indicates the amount and currency of a foreign exchange option that the option holder has the right to buy."
+    },
+    "PutAmount": {
+      "name": "Put Amount",
+      "definition": "Indicates the amount and currency of a foreign exchange option that the option holder has the right to sell."
+    },
+    "PremiumAmount": {
+      "name": "Premium Amount",
+      "definition": "Specifies the monetary amount of the premium paid by the buyer of the option."
+    },
+    "PremiumPaymentDate": {
+      "name": "Premium Payment Date",
+      "definition": "Specifies the date on which the option premium is paid."
+    },
+    "MaturityDateOfUnderlying": {
+      "name": "Maturity Date Of Underlying",
+      "definition": "In case of swaptions, maturity date of the underlying swap."
+    },
+    "BarrierLevels": {
+      "name": "Barrier Levels",
+      "definition": "For a barrier option, specifies one or more barrier levels."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

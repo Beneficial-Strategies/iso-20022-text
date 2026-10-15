@@ -1,0 +1,25 @@
+{
+  "isoType": "InvestmentAccount20",
+  "language": "en",
+  "name": "Investment Account 20",
+  "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Account type."
+    },
+    "ExtendedType": {
+      "name": "Extended Type",
+      "definition": "Purpose of the account/source fund type. This is typically linked to an investment product, eg, wrapper, PEP, ISA."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Either Type or ExtendedType may be present but not both."
+    }
+  }
+}

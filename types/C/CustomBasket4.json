@@ -1,0 +1,25 @@
+{
+  "isoType": "CustomBasket4",
+  "language": "en",
+  "name": "Custom Basket 4",
+  "definition": "Identification of constituents for a basket of indexes.",
+  "isoElements": {
+    "Structurer": {
+      "name": "Structurer",
+      "definition": "Identification of the structurer of the customer basket."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifier of the custom basket assigned by the structurer allowing to link the constituents of the basket of indexes."
+    },
+    "Constituents": {
+      "name": "Constituents",
+      "definition": "Identifier of the underliers that represent the constituents of a custom basket."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

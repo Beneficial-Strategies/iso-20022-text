@@ -1,0 +1,40 @@
+{
+  "isoType": "TradeTransactionIdentification20",
+  "language": "en",
+  "name": "Trade Transaction Identification 20",
+  "definition": "Provides details on transaction and conducting counterparty.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Unique code identifying the reporting counterparty."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Unique code identifying the entity with which the reporting counterparty concluded the transaction."
+    },
+    "EntityResponsibleForReport": {
+      "name": "Entity Responsible For Report",
+      "definition": "Unique code identifying that counterparty in the case where a financial counterparty is responsible for reporting on behalf of the other counterparty."
+    },
+    "UniqueTradeIdentifier": {
+      "name": "Unique Trade Identifier",
+      "definition": "Unique trade Identifier (UTI) as agreed with the counterparty."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Details related to the master agreement."
+    },
+    "AgentLender": {
+      "name": "Agent Lender",
+      "definition": "Identification of the agent lender involved in the securities lending transaction."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Identification of the third party that administers the transaction."
+    }
+  }
+}

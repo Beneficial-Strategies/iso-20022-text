@@ -1,0 +1,21 @@
+{
+  "isoType": "ExpectedExecutionDetails5",
+  "language": "en",
+  "name": "Expected Execution Details 5",
+  "definition": "Expected trade date and expected settlement date of the order execution.",
+  "isoElements": {
+    "ExpectedTradeDateTime": {
+      "name": "Expected Trade Date Time",
+      "definition": "Expected date or expected date and time at which a price will be applied according to the terms of the prospectus."
+    },
+    "ExpectedCashSettlementDate": {
+      "name": "Expected Cash Settlement Date",
+      "definition": "Date of a payment, for example, a prepayment date."
+    }
+  },
+  "isoRules": {
+    "DateElementRule": {
+      "definition": "Either ExpectedTradeDateTime or ExpectedCashSettlementDate must be present. Both may be present."
+    }
+  }
+}

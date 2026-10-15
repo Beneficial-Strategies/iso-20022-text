@@ -1,0 +1,24 @@
+{
+  "isoType": "OriginalGroupInformation4",
+  "language": "en",
+  "name": "Original Group Information 4",
+  "definition": "Unique and unambiguous identifier of the group of transactions as assigned by the original instructing party.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference assigned by the original instructing party to unambiguously identify the original group of individual transactions."
+    },
+    "OriginalMessageNameIdentification": {
+      "name": "Original Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers, eg, pacs.003.001.01 or MT103."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Original date and time at which the message was created."
+    },
+    "CancellationReasonInformation": {
+      "name": "Cancellation Reason Information",
+      "definition": "Detailed information on the cancellation reason."
+    }
+  }
+}

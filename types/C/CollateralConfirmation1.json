@@ -1,0 +1,24 @@
+{
+  "isoType": "CollateralConfirmation1",
+  "language": "en",
+  "name": "Collateral Confirmation 1",
+  "definition": "Provides the status details about the collateral substitution.",
+  "isoElements": {
+    "CollateralSubstitutionRequestIdentification": {
+      "name": "Collateral Substitution Request Identification",
+      "definition": "Reference to the collateral substitution request identification."
+    },
+    "CollateralSubstitutionResponseIdentification": {
+      "name": "Collateral Substitution Response Identification",
+      "definition": "Reference to the collateral substitution response identification."
+    },
+    "ConfirmationType": {
+      "name": "Confirmation Type",
+      "definition": "Provides details about the status of the collateral substitution, either released or returned."
+    },
+    "Comment": {
+      "name": "Comment",
+      "definition": "Allows to provides additional comments on the collateral substitution status."
+    }
+  }
+}

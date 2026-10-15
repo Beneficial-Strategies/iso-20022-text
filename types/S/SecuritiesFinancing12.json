@@ -1,0 +1,168 @@
+{
+  "isoType": "SecuritiesFinancing12",
+  "language": "en",
+  "name": "Securities Financing 12",
+  "definition": "Details of the closing of the securities financing transaction.",
+  "isoElements": {
+    "RateChangeDate": {
+      "name": "Rate Change Date",
+      "definition": "Date/Time at which rate change has taken place."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies whether the rate is fixed or variable."
+    },
+    "Revaluation": {
+      "name": "Revaluation",
+      "definition": "Specifies whether the collateral position should be subject to automatic revaluation by the account servicer."
+    },
+    "LegalFramework": {
+      "name": "Legal Framework",
+      "definition": "Legal framework of the transaction."
+    },
+    "InterestComputationMethod": {
+      "name": "Interest Computation Method",
+      "definition": "Identifies the computation method of accrued interest of the related financial instrument."
+    },
+    "VariableRateSupport": {
+      "name": "Variable Rate Support",
+      "definition": "Index or support rate used together with the spread to calculate the repurchase rate."
+    },
+    "RepurchaseRate": {
+      "name": "Repurchase Rate",
+      "definition": "Repurchase rate used to calculate the repurchase amount."
+    },
+    "StockLoanMargin": {
+      "name": "Stock Loan Margin",
+      "definition": "Percentage mark-up on a loan consideration used to reflect the lender's risk."
+    },
+    "SecuritiesHaircut": {
+      "name": "Securities Haircut",
+      "definition": "Haircut or valuation factor on the security expressed as a percentage."
+    },
+    "PricingRate": {
+      "name": "Pricing Rate",
+      "definition": "Interest rate to be paid on the transaction amount, as agreed between the counterparties."
+    },
+    "SpreadRate": {
+      "name": "Spread Rate",
+      "definition": "Margin over or under an index that determines the repurchase rate, expressed as a rate or an amount."
+    },
+    "CallableTradeIndicator": {
+      "name": "Callable Trade Indicator",
+      "definition": "Indicates whether or not the trade is callable."
+    },
+    "TransactionCallDelay": {
+      "name": "Transaction Call Delay",
+      "definition": "Minimum number of days' notice a counterparty needs for terminating the transaction."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest amount that has accrued in between two periods, for example, in between interest payment periods."
+    },
+    "AccruedInterestPercentage": {
+      "name": "Accrued Interest Percentage",
+      "definition": "Interest rate that has been accrued in between coupon payment periods."
+    },
+    "ForfeitAmount": {
+      "name": "Forfeit Amount",
+      "definition": "Fixed amount of money that has to be paid (instead of interest) in the case of a recall or at the closing date."
+    },
+    "PremiumAmount": {
+      "name": "Premium Amount",
+      "definition": "Difference between the amount of money of the first leg and the amount of the second leg of the transaction."
+    },
+    "ClosingAmountPerPiecesOfCollateral": {
+      "name": "Closing Amount Per Pieces Of Collateral",
+      "definition": "Amount of money to be settled per piece of collateral to close the transaction."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "name": "Total Number Of Collateral Instructions",
+      "definition": "Indicates the total Number of collateral instructions involved in the transaction."
+    },
+    "FinancingAgreement": {
+      "name": "Financing Agreement",
+      "definition": "Provides details for the securities financing transaction."
+    },
+    "LendingTransactionMethod": {
+      "name": "Lending Transaction Method",
+      "definition": "Method applied to a lending transaction."
+    },
+    "LendingWithCollateral": {
+      "name": "Lending With Collateral",
+      "definition": "Indicates if the contract is with or without an exchange of collateral."
+    },
+    "BorrowingReason": {
+      "name": "Borrowing Reason",
+      "definition": "Identifies the underlying reason for the borrowing, for instance, sale on my behalf or on behalf of a third party."
+    },
+    "CollateralType": {
+      "name": "Collateral Type",
+      "definition": "Indicates the type of collateral, for insatnce, security, bond, etc."
+    },
+    "ContractTermsModificationChanged": {
+      "name": "Contract Terms Modification Changed",
+      "definition": "Indicates whether or not the contract terms changed."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate to be paid as agreed between the counterparties."
+    },
+    "BorrowingRate": {
+      "name": "Borrowing Rate",
+      "definition": "Rate to be paid by the Borrower to the Lender for the securities borrowed."
+    },
+    "StandardCollateralRatio": {
+      "name": "Standard Collateral Ratio",
+      "definition": "Method used to calculate the standard collateral amount."
+    },
+    "DividendRatio": {
+      "name": "Dividend Ratio",
+      "definition": "Percentage of earnings paid to shareholders in dividends."
+    },
+    "NumberOfDaysLendingBorrowing": {
+      "name": "Number Of Days Lending Borrowing",
+      "definition": "Number of days the securities are lent or borrowed where the contract has an agreed closing date."
+    },
+    "StandardCollateralAmount": {
+      "name": "Standard Collateral Amount",
+      "definition": "Specifies the standard collateral amount."
+    },
+    "AccruedInterestTax": {
+      "name": "Accrued Interest Tax",
+      "definition": "Interest rate tax that has been accrued in between coupon payment periods."
+    },
+    "EndNumberOfDaysAccrued": {
+      "name": "End Number Of Days Accrued",
+      "definition": "Number of days accrued at the instant of closing trade."
+    },
+    "EndFactor": {
+      "name": "End Factor",
+      "definition": "End ratio of principal outstanding to the original balance."
+    },
+    "SecuritiesLendingType": {
+      "name": "Securities Lending Type",
+      "definition": "Type of securities lending."
+    },
+    "Reversible": {
+      "name": "Reversible",
+      "definition": "Indicates the possibility to terminate the securitiesc lending contract either by the borrower or lender before the expiration date."
+    },
+    "MinimumDateForCallBack": {
+      "name": "Minimum Date For Call Back",
+      "definition": "This is the minimum date at which the Borrower is allowed to give back the securities."
+    },
+    "RollOver": {
+      "name": "Roll Over",
+      "definition": "Indicates that the contract can be rolled over."
+    },
+    "PeriodicPayment": {
+      "name": "Periodic Payment",
+      "definition": "Indicates whether the securities lending fees can be paid periodically or at the end of the contract."
+    },
+    "ExCoupon": {
+      "name": "Ex Coupon",
+      "definition": "Indicates whether the trade is executed ex coupon."
+    }
+  }
+}

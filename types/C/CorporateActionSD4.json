@@ -1,0 +1,48 @@
+{
+  "isoType": "CorporateActionSD4",
+  "language": "en",
+  "name": "Corporate Action SD 4",
+  "definition": "Provides additional information regarding corporate action details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "NewParValue": {
+      "name": "New Par Value",
+      "definition": "New par value of a security."
+    },
+    "OldParValue": {
+      "name": "Old Par Value",
+      "definition": "Old par value of the event security represents the previously established par value that has changed in par value event. Used in combination with new par value element to represent the difference."
+    },
+    "ExchangeFeeRequiredFlag": {
+      "name": "Exchange Fee Required Flag",
+      "definition": "Indicates whether the event agent is charging a cancellation and or issuance fee upon the exchange of securities."
+    },
+    "CustodianShellFlag": {
+      "name": "Custodian Shell Flag",
+      "definition": "GCA VS-specific flag that indicates whether a composite record has been generated as a result of custodian information that has not yet been confirmed in the market."
+    },
+    "MustAllSharesBeSubmittedFlag": {
+      "name": "Must All Shares Be Submitted Flag",
+      "definition": "Indicates whether the issuer requires a holder to present the entire account balance in order to be eligible for the offer."
+    },
+    "LotteryDetails": {
+      "name": "Lottery Details",
+      "definition": "Provides details about the lottery that has been drawn as a part of the corporate action event."
+    },
+    "QualifiedDividendTaxIndicator": {
+      "name": "Qualified Dividend Tax Indicator",
+      "definition": "Indicates whether the dividend as whole or in part qualifies for lower/ favourable tax rate."
+    },
+    "SurvivingCompany": {
+      "name": "Surviving Company",
+      "definition": "Name of the company that will remain (possibly a new name), usually designated after a merger."
+    },
+    "ForeignIncomeSourceFlag": {
+      "name": "Foreign Income Source Flag",
+      "definition": "Indicates when all or part of the distribution is paid from foreign sourced income of the issuer."
+    }
+  }
+}

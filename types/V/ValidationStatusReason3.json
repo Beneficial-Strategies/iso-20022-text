@@ -1,0 +1,29 @@
+{
+  "isoType": "ValidationStatusReason3",
+  "language": "en",
+  "name": "Validation Status Reason 3",
+  "definition": "Provide information on the status reason of the record.",
+  "isoElements": {
+    "Originator": {
+      "name": "Originator",
+      "definition": "Party that issues the status."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the status."
+    },
+    "ValidationRule": {
+      "name": "Validation Rule",
+      "definition": "Provides details about the rule which could not be validated."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the status reason.||Usage: Additional information can be used for several purposes such as the reporting of repaired information."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Reason/Code is equal to NARR (Narrative), then AdditionalInformation must be present."
+    }
+  }
+}

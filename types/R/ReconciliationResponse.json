@@ -1,0 +1,20 @@
+{
+  "isoType": "ReconciliationResponse",
+  "language": "en",
+  "name": "Reconciliation Response",
+  "definition": "The ReconciliationResponse message is sent by an issuer or an agent to return the reconciled totals for debits, credits, chargebacks and other transactions.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "ReconciliationResponse": {
+      "name": "Reconciliation Response",
+      "definition": "Information related to the response to a reconciliation."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

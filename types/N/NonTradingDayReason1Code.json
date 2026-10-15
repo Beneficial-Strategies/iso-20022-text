@@ -1,0 +1,38 @@
+{
+  "isoType": "NonTradingDayReason1Code",
+  "language": "en",
+  "name": "Non Trading Day Reason 1 Code",
+  "definition": "Specifies the reason capturing a non trading day.",
+  "isoCodes": {
+    "THOL": {
+      "isoName": "TradingHoliday",
+      "name": "Trading Holiday",
+      "definition": "The date is a full day trading holiday with no trades performed."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other reasons a day is a non-trading day e.g. technical fault, company specific non-trading day not known in advance."
+    },
+    "HALF": {
+      "isoName": "HalfDay",
+      "name": "Half Day",
+      "definition": "Trading venue was open for an amount of time, up to half the day."
+    },
+    "PHOL": {
+      "isoName": "PublicHoliday",
+      "name": "Public Holiday",
+      "definition": "Date is a public holiday."
+    },
+    "BHOL": {
+      "isoName": "BankHoliday",
+      "name": "Bank Holiday",
+      "definition": "Date is a bank holiday."
+    },
+    "WKND": {
+      "isoName": "Weekend",
+      "name": "Weekend",
+      "definition": "Date being reported falls during the weekend."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "CalendarOrBusinessError1Choice",
+  "language": "en",
+  "name": "Calendar Or Business Error 1 Choice",
+  "definition": "Choice between the audit trail or a business error when the requested data cannot be retrieved.",
+  "isoElements": {
+    "CalendarData": {
+      "name": "Calendar Data",
+      "definition": "Requested information on the system calendar."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Reason the requested business information is not given."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "isoType": "FinancialInstrument15",
+  "language": "en",
+  "name": "Financial Instrument 15",
+  "definition": "Identifies the financial instrument.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using a choice of either ISIN, local code, or a description of the instrument. ISIN is the preferred format."
+    },
+    "InstrumentDescription": {
+      "name": "Instrument Description",
+      "definition": "Provides the ability to describe the instrument through a description and main characteristics."
+    },
+    "UnderlyingInstrumentIdentification": {
+      "name": "Underlying Instrument Identification",
+      "definition": "Provides details of the underlying financial instrument for which the transaction report is being sent. If there is more than one underlying financial instrument then it is the dominant/ultimate instrument that should be identified here."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentIdentificationGuideline": {
+      "definition": "It is recommended that ISIN be used in Identification or in UnderlyingInstrumentIdentification.|If Identification/ISIN is not present, then Identification/InstrumentDescription/ClassificationType or InstrumentDescription/ClassificationType should be present.|If UnderlyingInstrumentIdentification is present but UnderlyingInstrumentIdentification/ISIN is not present, then UnderlyingInstrumentIdentification/InstrumentDescription/ClassificationType or InstrumentDescription/ClassificationType should be present."
+    },
+    "InstrumentDescription1Rule": {
+      "definition": "InstrumentDescription may be present if either Identification/ISIN or Identification/OtherIdentification or UnderlyingInstrumentIdentification/ISIN or UnderlyingInstrumentIdentification/OtherIdentification is present. InstrumentDescription may not be present if Identification/InstrumentDescription or UnderlyingInstrumentIdentification/InstrumentDescription is present."
+    },
+    "InstrumentDescription2Rule": {
+      "definition": "If InstrumentDescription is present, then InstrumentDescription/Description must be present."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "Instalment2",
+  "language": "en",
+  "name": "Instalment 2",
+  "definition": "Specifies a single instalment related to an invoice settlement and optional reconciliation information.|Reconciliation information is used to indicate the amount to be allocated to a particular instalment of a financial document.",
+  "isoElements": {
+    "SequenceIdentification": {
+      "name": "Sequence Identification",
+      "definition": "Specifies the progressive number of the single instalment related to an invoice."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Due date for the payment of the financing item instalment."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of a single instalment related to an invoice."
+    },
+    "PaymentInstrument": {
+      "name": "Payment Instrument",
+      "definition": "Desired payment instrument to be used for the instalment."
+    }
+  }
+}

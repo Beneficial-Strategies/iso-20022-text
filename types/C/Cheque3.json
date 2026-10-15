@@ -1,0 +1,24 @@
+{
+  "isoType": "Cheque3",
+  "language": "en",
+  "name": "Cheque 3",
+  "definition": "Set of characteristics related to a cheque instruction, such as cheque type or cheque number.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Unique and unambiguous identifier for a cheque as assigned by the financial institution."
+    },
+    "PayeeIdentification": {
+      "name": "Payee Identification",
+      "definition": "Party to which a cheque is made payable."
+    },
+    "DraweeIdentification": {
+      "name": "Drawee Identification",
+      "definition": "Financial institution on which a cheque is drawn, ie, the financial institution that services the account of the entity that issued the cheque."
+    },
+    "DrawerIdentification": {
+      "name": "Drawer Identification",
+      "definition": "Account owner that issues a cheque ordering the drawee bank to pay a specific amount, upon demand, to the payee."
+    }
+  }
+}

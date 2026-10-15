@@ -1,0 +1,32 @@
+{
+  "isoType": "DTCCCACNSD1V12",
+  "language": "en",
+  "name": "DTCCCACNSD 1 V 12",
+  "definition": "The DTCCCACNSD1 message extends ISO corporate action cancellation advice (CACN) message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-parts message is to continue or that the message is the last page of the multi-parts message."
+    },
+    "Notification": {
+      "name": "Notification",
+      "definition": "Notification information to be extended as supplementary data to cancellation advice."
+    },
+    "GeneralInformation": {
+      "name": "General Information",
+      "definition": "Information to be extended as supplementary data to general information."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Information to be extended as supplementary data to underlying security details."
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": "Information to be extended as supplementary data to events linkage."
+    },
+    "ExternalComments": {
+      "name": "External Comments",
+      "definition": "Information to be extended as external comments to cancellation advice."
+    }
+  }
+}

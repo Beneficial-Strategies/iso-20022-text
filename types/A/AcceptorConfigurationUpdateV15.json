@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorConfigurationUpdateV15",
+  "language": "en",
+  "name": "Acceptor Configuration Update V 15",
+  "definition": "The AcceptorConfigurationUpdate message is sent by a TM to a POI to update configurations.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the acceptor parameters."
+    },
+    "AcceptorConfiguration": {
+      "name": "Acceptor Configuration",
+      "definition": "Acceptor configuration to be downloaded from the terminal management system."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

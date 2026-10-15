@@ -1,0 +1,38 @@
+{
+  "isoType": "ReportingWaiverType1Code",
+  "language": "en",
+  "name": "Reporting Waiver Type 1 Code",
+  "definition": "Specifies the type of regulatory reporting pre-trade waiver.",
+  "isoCodes": {
+    "OILQ": {
+      "isoName": "NegotiatedTransactionInIlliquidFinancialInstrument",
+      "name": "Negotiated Transaction In Illiquid Financial Instrument",
+      "definition": "Pre-trade waiver was for a negotiated transaction in illiquid financial instruments. Applicable to equity instruments."
+    },
+    "NLIQ": {
+      "isoName": "NegotiatedTransactionInLiquidFinancialInstrument",
+      "name": "Negotiated Transaction In Liquid Financial Instrument",
+      "definition": "Pre-trade waiver was for a negotiated transaction in liquid financial instruments. Applicable to equity instruments."
+    },
+    "PRIC": {
+      "isoName": "NegotiatedTransactionWithConditions",
+      "name": "Negotiated Transaction With Conditions",
+      "definition": "Pre-trade waiver was for a negotiated transaction subject to conditions other than the current market price of that financial instruments. Applicable to equity instruments."
+    },
+    "ILQD": {
+      "isoName": "IlliquidInstrumentTransaction",
+      "name": "Illiquid Instrument Transaction",
+      "definition": "Pre-trade waiver was for an illiquid instrument transaction. Applicable to non-equity instruments."
+    },
+    "RFPT": {
+      "isoName": "ReferencePriceTransaction",
+      "name": "Reference Price Transaction",
+      "definition": "Pre-trade waiver was for a reference price transaction. Applicable to equity instruments."
+    },
+    "SIZE": {
+      "isoName": "AboveSpecificSizeTransaction",
+      "name": "Above Specific Size Transaction",
+      "definition": "Pre-trade waiver was for an above specific size transaction. Applicable to non-equity instruments."
+    }
+  }
+}

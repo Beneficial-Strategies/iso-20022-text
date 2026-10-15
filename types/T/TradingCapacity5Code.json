@@ -1,0 +1,23 @@
+{
+  "isoType": "TradingCapacity5Code",
+  "language": "en",
+  "name": "Trading Capacity 5 Code",
+  "definition": "Specifies the role of a trading party in a transaction.",
+  "isoCodes": {
+    "PRIN": {
+      "isoName": "Principal",
+      "name": "Principal",
+      "definition": "Trading as Principal."
+    },
+    "RISP": {
+      "isoName": "RisklessPrincipal",
+      "name": "Riskless Principal",
+      "definition": "Trading as a riskless principal, ie, the order to buy(sell) has been simultaneously offset by an order to sell (buy) with another party."
+    },
+    "AGEN": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Trading as Agent on behalf of a customer."
+    }
+  }
+}

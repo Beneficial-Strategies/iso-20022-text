@@ -1,0 +1,25 @@
+{
+  "isoType": "ChargesDetails2",
+  "language": "en",
+  "name": "Charges Details 2",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of service for which a charge is asked or paid."
+    },
+    "OtherChargesType": {
+      "name": "Other Charges Type",
+      "definition": "Specifies the type of charge by means of a code."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money asked or paid for the charge."
+    }
+  },
+  "isoRules": {
+    "TypeOrOtherChargesTypeRule": {
+      "definition": "If Type is present, then OtherChargesType is not allowed. If Type is not present, then OtherChargesType is mandatory."
+    }
+  }
+}

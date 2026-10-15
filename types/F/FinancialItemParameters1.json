@@ -1,0 +1,76 @@
+{
+  "isoType": "FinancialItemParameters1",
+  "language": "en",
+  "name": "Financial Item Parameters 1",
+  "definition": "Regroups identification parameters for trade items.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Unique identification of this item relative to the issuing party."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date of creation of the item."
+    },
+    "RelatedItem": {
+      "name": "Related Item",
+      "definition": "Identifier of related items, for example an assignment or an advice."
+    },
+    "DocumentPurpose": {
+      "name": "Document Purpose",
+      "definition": "Specifies the function of the document related to the item."
+    },
+    "LanguageCode": {
+      "name": "Language Code",
+      "definition": "Language used for textual information in item."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party that issued this list of items."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Receiving party of this list of items."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that acts as buyer of the goods or services referred to by the financial item."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that acts as seller of the goods or services referred to by the financial item."
+    },
+    "SellerFinancialAgent": {
+      "name": "Seller Financial Agent",
+      "definition": "Financial agent for the seller."
+    },
+    "BuyerFinancialAgent": {
+      "name": "Buyer Financial Agent",
+      "definition": "Financial agent for the buyer."
+    },
+    "GoverningContract": {
+      "name": "Governing Contract",
+      "definition": "Reference to contract that governs the exchange of the message."
+    },
+    "LegalContext": {
+      "name": "Legal Context",
+      "definition": "Rules and laws governing the item."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the item."
+    },
+    "DebitAccount": {
+      "name": "Debit Account",
+      "definition": "Defines the account debited for charges (or credited for reimbursement)."
+    },
+    "CreditAccount": {
+      "name": "Credit Account",
+      "definition": "Defines the account credited for charges (or debited for reimbursement)."
+    },
+    "TradeMarket": {
+      "name": "Trade Market",
+      "definition": "Identification of the geographical environment of the trade market."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareCounterpartySide2",
+  "language": "en",
+  "name": "Compare Counterparty Side 2",
+  "definition": "Specifies two values to compare for a counterparty side.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

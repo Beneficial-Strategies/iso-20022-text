@@ -1,0 +1,36 @@
+{
+  "isoType": "BusinessFileEnvelopeV02",
+  "language": "en",
+  "name": "Business File Envelope V 02",
+  "definition": "The Business File Envelope contains information about the parties involved in the file exchange, as well as information about the content and its structure. |The Business File Envelope has four major functions:|- Provides information about the sender of the file.|- Identifies the file exchanged: each file must have a unique File Identifier.|- Describes the type of message(s) exchanged: by default, the type of messages contained in a file will be ISO 20022 message definitions.|- Provides processing information to the receiving party: that would be, for instance, the total number of messages included in the file.",
+  "isoElements": {
+    "From": {
+      "name": "From",
+      "definition": "Sending MessagingEndpoint that has created this Business File for the receiving MessagingEndpoint that will process this Business File.||Note: the sending MessagingEndpoint might be different from the sending address potentially contained in the transport header (as defined in the transport layer) and different from the content of the Business Content."
+    },
+    "To": {
+      "name": "To",
+      "definition": "Receiving MessagingEndpoint designated by the sending MessagingEndpoint to be the recipient who will ultimately process this Business File.||Note the receiving MessagingEndpoint might be different from the receiving address potentially contained in the transport header (as defined in the transport layer) and different from the content of the Business Content."
+    },
+    "PayloadData": {
+      "name": "Payload Data",
+      "definition": "Identifies the details of the file exchanged."
+    },
+    "ApplicationSpecifics": {
+      "name": "Application Specifics",
+      "definition": "Contains business information that is considered as necessary by the service provider."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Reference related to the delivery of the business file whilst in transit from sending to receiving business application."
+    },
+    "Payload": {
+      "name": "Payload",
+      "definition": "Used to include both the manifest data and the individual business messages within the file structure."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

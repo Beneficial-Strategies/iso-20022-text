@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMInquiryResponseV03",
+  "language": "en",
+  "name": "ATM Inquiry Response V 03",
+  "definition": "The ATMInquiryResponse message is sent by an ATM manager or its agent to the ATM to provide the information and the outcome of the verifications requested in the ATMInquiryRequest.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMInquiryResponse": {
+      "name": "Protected ATM Inquiry Response",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMInquiryResponse": {
+      "name": "ATM Inquiry Response",
+      "definition": "Information related to the response of an ATM inquiry from an ATM manager."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

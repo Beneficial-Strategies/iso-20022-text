@@ -1,0 +1,29 @@
+{
+  "isoType": "CounterpartyData86",
+  "language": "en",
+  "name": "Counterparty Data 86",
+  "definition": "Data specific to counterparties.",
+  "isoElements": {
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Set of information identifying the reporting counterparty."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Data specific to other counterparties and related information."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Specifies if a triparty agent is involved in the transaction."
+    },
+    "AgentLender": {
+      "name": "Agent Lender",
+      "definition": "Specifies if the agent lender is involved in the securities lending transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

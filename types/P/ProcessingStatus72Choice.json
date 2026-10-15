@@ -1,0 +1,28 @@
+{
+  "isoType": "ProcessingStatus72Choice",
+  "language": "en",
+  "name": "Processing Status 72 Choice",
+  "definition": "Specifies the status and the reason of the operation.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "name": "Acknowledged Accepted",
+      "definition": "Instruction has been acknowledged by the executing party."
+    },
+    "PendingProcessing": {
+      "name": "Pending Processing",
+      "definition": "Instruction is pendingprocessing by the executing party."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction is rejected by the executing party."
+    },
+    "Completed": {
+      "name": "Completed",
+      "definition": "Instruction has been completed by the executing party."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Status that cannot be reported using one of the available standard status."
+    }
+  }
+}

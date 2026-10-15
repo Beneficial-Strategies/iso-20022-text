@@ -1,0 +1,44 @@
+{
+  "isoType": "ForwardIntentToPayNotificationV02",
+  "language": "en",
+  "name": "Forward Intent To Pay Notification V 02",
+  "definition": "Scope|The ForwardIntentToPayNotification message is forwarded by the matching application from one primary bank to the other primary bank in order to provide details about a future payment.|This message contains details about an intention to pay a certain amount, on a certain date, in relation to one or several transactions known to the matching application.|Usage|The ForwardIntentToPayNotification message is a copy of the IntentToPayNotification message received by the matching application and forwarded to the other primary bank for information. No response is expected.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Identifies the notification message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for the financial institutions involved in this transaction."
+    },
+    "BuyerBank": {
+      "name": "Buyer Bank",
+      "definition": "The financial institution of the buyer, uniquely identified by its BIC."
+    },
+    "SellerBank": {
+      "name": "Seller Bank",
+      "definition": "The financial institution of the seller, uniquely identified by its BIC."
+    },
+    "IntentToPay": {
+      "name": "Intent To Pay",
+      "definition": "Provides the details of the intention to pay."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Next processing step required."
+    }
+  }
+}

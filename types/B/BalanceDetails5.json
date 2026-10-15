@@ -1,0 +1,29 @@
+{
+  "isoType": "BalanceDetails5",
+  "language": "en",
+  "name": "Balance Details 5",
+  "definition": "Balance related details for a portfolio.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Balance type."
+    },
+    "Unrealised": {
+      "name": "Unrealised",
+      "definition": "Unrealised gain or loss."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Balance amount."
+    },
+    "DetailedBalance": {
+      "name": "Detailed Balance",
+      "definition": "Detailed balance information."
+    }
+  },
+  "isoRules": {
+    "BalanceTypeGuideline1": {
+      "definition": "Balance Type codes used are subject to market practice and/or bilateral service level agreements."
+    }
+  }
+}

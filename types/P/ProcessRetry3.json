@@ -1,0 +1,20 @@
+{
+  "isoType": "ProcessRetry3",
+  "language": "en",
+  "name": "Process Retry 3",
+  "definition": "Definition of retry process if activation of an action fails.",
+  "isoElements": {
+    "Delay": {
+      "name": "Delay",
+      "definition": "Time period to wait for a retry in months, days, hours and minutes, leading zeros could be omitted."
+    },
+    "MaximumNumber": {
+      "name": "Maximum Number",
+      "definition": "Maximum number of retries."
+    },
+    "UnitOfTime": {
+      "name": "Unit Of Time",
+      "definition": "Identification of the minimum unit of time used by time configuration parameters."
+    }
+  }
+}

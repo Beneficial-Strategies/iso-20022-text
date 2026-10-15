@@ -1,0 +1,20 @@
+{
+  "isoType": "OrderBookReportV01",
+  "language": "en",
+  "name": "Order Book Report V 01",
+  "definition": "The OrderBookReport message is sent by a competent authority to another competent authority to share relevant data relating to order data record keeping obligations.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the order book report."
+    },
+    "OrderReport": {
+      "name": "Order Report",
+      "definition": "Order data record keeping obligations report."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

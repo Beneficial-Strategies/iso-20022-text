@@ -1,0 +1,28 @@
+{
+  "isoType": "ScenarioDefinition2",
+  "language": "en",
+  "name": "Scenario Definition 2",
+  "definition": "Characteristics used to describe a hypothetical scenario designed to test the value of a portfolio of financial instruments under such hypothetical scenario. No maximum number of stress items.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the stress scenario."
+    },
+    "ScenarioType": {
+      "name": "Scenario Type",
+      "definition": "Indicates whether the scenario is based on a historical event or a hypothetical scenario."
+    },
+    "StrategyStressType": {
+      "name": "Strategy Stress Type",
+      "definition": "Indicates how the scenario stresses the curve."
+    },
+    "StressItem": {
+      "name": "Stress Item",
+      "definition": "Information relating to at least one major representative product."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Long description of the scenario."
+    }
+  }
+}

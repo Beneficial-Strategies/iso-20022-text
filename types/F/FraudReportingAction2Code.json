@@ -1,0 +1,33 @@
+{
+  "isoType": "FraudReportingAction2Code",
+  "language": "en",
+  "name": "Fraud Reporting Action 2 Code",
+  "definition": "Fraud reporting action codes.",
+  "isoCodes": {
+    "DUPL": {
+      "isoName": "Duplicate",
+      "name": "Duplicate",
+      "definition": "Fraud information already reported."
+    },
+    "CLSE": {
+      "isoName": "Close",
+      "name": "Close",
+      "definition": "Closing a previously reported fraud."
+    },
+    "NEWF": {
+      "isoName": "New",
+      "name": "New",
+      "definition": "New fraud information not reported yet."
+    },
+    "REOP": {
+      "isoName": "Reopen",
+      "name": "Reopen",
+      "definition": "Reopen a previously closed reported fraud case"
+    },
+    "UPDT": {
+      "isoName": "Update",
+      "name": "Update",
+      "definition": "Update information about a fraud already reported."
+    }
+  }
+}

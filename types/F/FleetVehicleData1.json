@@ -1,0 +1,72 @@
+{
+  "isoType": "FleetVehicleData1",
+  "language": "en",
+  "name": "Fleet Vehicle Data 1",
+  "definition": "Attributes of a fleet vehicle.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Identification number assigned to the vehicle by the fleet operator. This may not be a legal registration."
+    },
+    "IdentificationNumber": {
+      "name": "Identification Number",
+      "definition": "Number that uniquely identifies the vehicle as assigned by the vehicle manufacturer."
+    },
+    "FleetNumber": {
+      "name": "Fleet Number",
+      "definition": "Fleet number."
+    },
+    "SubFleetNumber": {
+      "name": "Sub Fleet Number",
+      "definition": "Sub fleet number."
+    },
+    "UnitNumber": {
+      "name": "Unit Number",
+      "definition": "Identification of the unit number of the vehicle in the fleet."
+    },
+    "TrailerNumber": {
+      "name": "Trailer Number",
+      "definition": "Identification number assigned to the trailer."
+    },
+    "Tag": {
+      "name": "Tag",
+      "definition": "Registration tag of the vehicle."
+    },
+    "TagEntryMode": {
+      "name": "Tag Entry Mode",
+      "definition": "Entry mode of the registration tag."
+    },
+    "Replacement": {
+      "name": "Replacement",
+      "definition": "True indicates a replacement vehicle."
+    },
+    "Odometer": {
+      "name": "Odometer",
+      "definition": "Odometer reading value indicating the distance travelled by the vehicle (for example, car, van, pickup truck, semi-truck portion of a tractor trailer unit)."
+    },
+    "Hubometer": {
+      "name": "Hubometer",
+      "definition": "Hubometer reading value indicating the distance travelled by the trailer (for example,  the semi-trailer portion of a tractor trailer unit)."
+    },
+    "MaintenanceIdentification": {
+      "name": "Maintenance Identification",
+      "definition": "Identification assigned to the vehicle related to maintenance."
+    },
+    "OnBoardDiagnostics": {
+      "name": "On Board Diagnostics",
+      "definition": "Data captured from on board diagnostic systems."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Additional information related to the vehicle."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

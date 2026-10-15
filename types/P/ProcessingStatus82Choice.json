@@ -1,0 +1,36 @@
+{
+  "isoType": "ProcessingStatus82Choice",
+  "language": "en",
+  "name": "Processing Status 82 Choice",
+  "definition": "Provides the status of an instruction.",
+  "isoElements": {
+    "Processed": {
+      "name": "Processed",
+      "definition": "Transaction or instruction has been processed."
+    },
+    "Future": {
+      "name": "Future",
+      "definition": "All checks relative to the instruction (except collateral) are successful."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Instruction has been rejected for further processing."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Instruction has been cancelled."
+    },
+    "PendingCancellation": {
+      "name": "Pending Cancellation",
+      "definition": "Cancellation request is pending on the instruction."
+    },
+    "CancellationRequest": {
+      "name": "Cancellation Request",
+      "definition": "A cancellation request from your counterparty for this transaction is pending waiting for your cancellation request."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Proprietary status."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "ReportType1Code",
+  "language": "en",
+  "name": "Report Type 1 Code",
+  "definition": "Specifies whether the report contains a new, a resubmitted or an amended baseline.",
+  "isoCodes": {
+    "FWIS": {
+      "isoName": "ForwardInitialSubmission",
+      "name": "Forward Initial Submission",
+      "definition": "The report contains a baseline submitted for the first time."
+    },
+    "FWRE": {
+      "isoName": "ForwardReSubmission",
+      "name": "Forward Re Submission",
+      "definition": "The report contains a baseline that is resubmitted."
+    },
+    "FWAM": {
+      "isoName": "ForwardAmend",
+      "name": "Forward Amend",
+      "definition": "The report contains a baseline that is amended."
+    }
+  }
+}

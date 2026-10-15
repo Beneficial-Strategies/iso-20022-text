@@ -1,0 +1,48 @@
+{
+  "isoType": "Exemption1Code",
+  "language": "en",
+  "name": "Exemption 1 Code",
+  "definition": "Strong customer authentication exemption.",
+  "isoCodes": {
+    "LOWA": {
+      "isoName": "LowAmountExemption",
+      "name": "Low Amount Exemption",
+      "definition": "Transaction's amount is low and could be processed without strong customer authentication."
+    },
+    "MINT": {
+      "isoName": "MerchantInitiatedTransaction",
+      "name": "Merchant Initiated Transaction",
+      "definition": "Transaction is initiated by the Card Acceptor."
+    },
+    "RECP": {
+      "isoName": "RecurringPayment",
+      "name": "Recurring Payment",
+      "definition": "Transaction is one of a series of recurring payment."
+    },
+    "SCPE": {
+      "isoName": "SecureCorporatePaymentExemption",
+      "name": "Secure Corporate Payment Exemption",
+      "definition": "Transaction is a secure corporate payment."
+    },
+    "SCAD": {
+      "isoName": "StrongCustomerAuthenticationDelegation",
+      "name": "Strong Customer Authentication Delegation",
+      "definition": "Card Acceptor is a strong customer authentication delegate."
+    },
+    "TRAE": {
+      "isoName": "TransactionRiskAnalysisExemption",
+      "name": "Transaction Risk Analysis Exemption",
+      "definition": "According to the transaction risk analysis the strong customer authentication is not mandated."
+    },
+    "PKGE": {
+      "isoName": "TransportFareOrParkingFeeUnattendedPaymentExemption",
+      "name": "Transport Fare Or Parking Fee Unattended Payment Exemption",
+      "definition": "Payment is processed in a environment where strong customer authentication is inappropriate."
+    },
+    "TMBE": {
+      "isoName": "TrustedMerchantBeneficiaryExemption",
+      "name": "Trusted Merchant Beneficiary Exemption",
+      "definition": "Cardholder has enrolled the Card Acceptor in the exemption list of strong customer authentication."
+    }
+  }
+}

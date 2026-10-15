@@ -1,0 +1,28 @@
+{
+  "isoType": "MaintenanceDelegationResponse8",
+  "language": "en",
+  "name": "Maintenance Delegation Response 8",
+  "definition": "Information related to the request of maintenance delegations.",
+  "isoElements": {
+    "TMIdentification": {
+      "name": "TM Identification",
+      "definition": "Terminal manager identification."
+    },
+    "MasterTMIdentification": {
+      "name": "Master TM Identification",
+      "definition": "Master terminal manager identification."
+    },
+    "TMDateTime": {
+      "name": "TM Date Time",
+      "definition": "Date and Time of the TMS."
+    },
+    "TMChallengeValue": {
+      "name": "TM Challenge Value",
+      "definition": "Challenge value sends by the POI to be received back in a message response."
+    },
+    "DelegationResponse": {
+      "name": "Delegation Response",
+      "definition": "Information on the delegation of a maintenance action."
+    }
+  }
+}

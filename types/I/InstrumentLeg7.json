@@ -1,0 +1,64 @@
+{
+  "isoType": "InstrumentLeg7",
+  "language": "en",
+  "name": "Instrument Leg 7",
+  "definition": "Additionnal details related to the leg.",
+  "isoElements": {
+    "LegSide": {
+      "name": "Leg Side",
+      "definition": "Coded list to specify the side of the trade leg."
+    },
+    "LegSettlementType": {
+      "name": "Leg Settlement Type",
+      "definition": "Specifies the date of settlement, in coded form."
+    },
+    "LegSettlementDate": {
+      "name": "Leg Settlement Date",
+      "definition": "Specifies the date and time on which the trade will be settled."
+    },
+    "LegLastPrice": {
+      "name": "Leg Last Price",
+      "definition": "Execution price of trade leg."
+    },
+    "LegSettlementCurrency": {
+      "name": "Leg Settlement Currency",
+      "definition": "Settlement currency of trade leg, agreed by both sides of the trade."
+    },
+    "LegOrderQuantity": {
+      "name": "Leg Order Quantity",
+      "definition": "Amount of trade leg in trading currency."
+    },
+    "LegForwardPoints": {
+      "name": "Leg Forward Points",
+      "definition": "Forward points added to last spot rate. May be a negative value. Expressed in decimal form."
+    },
+    "LegCalculatedCounterpartyCurrencyLastQuantity": {
+      "name": "Leg Calculated Counterparty Currency Last Quantity",
+      "definition": "Used for the calculated quantity of the other side of the currency trade. Can be derived from leg order quantity and leg last price."
+    },
+    "LegRiskAmount": {
+      "name": "Leg Risk Amount",
+      "definition": "Measurement of the leg trade values in terms of a currency (for example, the amount of trade in US dollars)."
+    },
+    "LegValuationRate": {
+      "name": "Leg Valuation Rate",
+      "definition": "Specifies the valuation rate used for the trade leg."
+    },
+    "LegValueDate": {
+      "name": "Leg Value Date",
+      "definition": "Specifies the value date of leg spot transaction."
+    },
+    "LegCurrency": {
+      "name": "Leg Currency",
+      "definition": "Currency trade is conducted."
+    },
+    "LegSymbol": {
+      "name": "Leg Symbol",
+      "definition": "Symbol of the leg trade."
+    },
+    "LegSecurityIdentification": {
+      "name": "Leg Security Identification",
+      "definition": "Security identification of the leg trade."
+    }
+  }
+}

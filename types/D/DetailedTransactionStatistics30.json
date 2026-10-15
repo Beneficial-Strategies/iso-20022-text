@@ -1,0 +1,28 @@
+{
+  "isoType": "DetailedTransactionStatistics30",
+  "language": "en",
+  "name": "Detailed Transaction Statistics 30",
+  "definition": "Information about number of transactions accepted and rejected and the reasons of the rejections.",
+  "isoElements": {
+    "TotalNumberOfTransactions": {
+      "name": "Total Number Of Transactions",
+      "definition": "Total number of reports sent or received."
+    },
+    "TotalNumberOfTransactionsAccepted": {
+      "name": "Total Number Of Transactions Accepted",
+      "definition": "Total number of transactions accepted."
+    },
+    "TotalNumberOfTransactionsRejected": {
+      "name": "Total Number Of Transactions Rejected",
+      "definition": "Total number of transactions rejected."
+    },
+    "TotalCorrectedRejections": {
+      "name": "Total Corrected Rejections",
+      "definition": "Total number of rejected derivatives submitted by the report submitting entity for the reporting counterparty which were then corrected within ten business days."
+    },
+    "TransactionsRejectionsReason": {
+      "name": "Transactions Rejections Reason",
+      "definition": "Details on transactions rejected per error code."
+    }
+  }
+}

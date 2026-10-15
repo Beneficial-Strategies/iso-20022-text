@@ -1,0 +1,28 @@
+{
+  "isoType": "DeviceInitialisationCardReaderRequest7",
+  "language": "en",
+  "name": "Device Initialisation Card Reader Request 7",
+  "definition": "Specifies what to do during a card reader initialisation.",
+  "isoElements": {
+    "WarmResetFlag": {
+      "name": "Warm Reset Flag",
+      "definition": "Flag to request a warm reset on a chip."
+    },
+    "ForceEntryMode": {
+      "name": "Force Entry Mode",
+      "definition": "Payment instrument entry mode requested by the Sale System."
+    },
+    "LeaveCardFlag": {
+      "name": "Leave Card Flag",
+      "definition": "Flag to indicate the POI System to keep the card in the reader for a smart card."
+    },
+    "MaximumWaitingTime": {
+      "name": "Maximum Waiting Time",
+      "definition": "Maximum time in seconds that the POI has to wait for a card response."
+    },
+    "DisplayOutput": {
+      "name": "Display Output",
+      "definition": "Information to display."
+    }
+  }
+}

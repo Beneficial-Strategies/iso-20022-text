@@ -1,0 +1,51 @@
+{
+  "isoType": "GroupHeader69",
+  "language": "en",
+  "name": "Group Header 69",
+  "definition": "Set of characteristics shared by all individual transactions included in the message.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Report identification, for example invoice number or report number from point of sales system."
+    },
+    "IssuedDate": {
+      "name": "Issued Date",
+      "definition": "Date at which the status report was created."
+    },
+    "ReportCategory": {
+      "name": "Report Category",
+      "definition": "Specifies if the report is based on debit invoice, credit invoice, card transaction or cash transaction."
+    },
+    "TaxReportPurpose": {
+      "name": "Tax Report Purpose",
+      "definition": "Specifies if the TaxReport is new, correction or remove."
+    },
+    "OriginalIdentification": {
+      "name": "Original Identification",
+      "definition": "Original tax report identification, used for example original invoice number with credit notes."
+    },
+    "SellerTaxRepresentative": {
+      "name": "Seller Tax Representative",
+      "definition": "Details of tax representative. The corporate (seller) is allowed to use a tax representative for value added tax responsibilities in case the seller is not registered in a specific value added tax registry."
+    },
+    "BuyerTaxRepresentative": {
+      "name": "Buyer Tax Representative",
+      "definition": "Details of tax representative. The corporate (buyer) is allowed to use a tax representative for value added tax responsibilities in case the buyer is not registered in a specific value added tax registry."
+    },
+    "LanguageCode": {
+      "name": "Language Code",
+      "definition": "Specifies the language used in the message."
+    }
+  },
+  "isoRules": {
+    "R3": {
+      "definition": "Value according to external codelist."
+    },
+    "R4": {
+      "definition": "Value according to external codelist."
+    },
+    "R5": {
+      "definition": "according to ISO 639-1."
+    }
+  }
+}

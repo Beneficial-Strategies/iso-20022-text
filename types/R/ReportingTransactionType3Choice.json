@@ -1,0 +1,20 @@
+{
+  "isoType": "ReportingTransactionType3Choice",
+  "language": "en",
+  "name": "Reporting Transaction Type 3 Choice",
+  "definition": "Choice between a new or a cancellation transaction.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Transaction is a newly reported transaction."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Transaction is a cancellation transaction."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

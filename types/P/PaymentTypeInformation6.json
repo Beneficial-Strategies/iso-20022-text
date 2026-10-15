@@ -1,0 +1,37 @@
+{
+  "isoType": "PaymentTypeInformation6",
+  "language": "en",
+  "name": "Payment Type Information 6",
+  "definition": "Set of elements that further details the information related to the type of payment.",
+  "isoElements": {
+    "InstructionPriority": {
+      "name": "Instruction Priority",
+      "definition": "Indicator of the urgency or order of importance that the instructing party would like the instructed party to apply to the processing of the instruction."
+    },
+    "ServiceLevel": {
+      "name": "Service Level",
+      "definition": "Agreement under which or rules under which the transaction should be processed."
+    },
+    "ClearingChannel": {
+      "name": "Clearing Channel",
+      "definition": "Specifies the clearing channel to be used to process the payment instruction."
+    },
+    "LocalInstrument": {
+      "name": "Local Instrument",
+      "definition": "User community specific instrument.||Usage: When available, codes provided by local authorities should be used."
+    },
+    "SequenceType": {
+      "name": "Sequence Type",
+      "definition": "Identifies the direct debit sequence, eg, first, recurrent, final or one-off."
+    },
+    "CategoryPurpose": {
+      "name": "Category Purpose",
+      "definition": "Specifies the high level purpose of the instruction based on a set of pre-defined categories."
+    }
+  },
+  "isoRules": {
+    "ServiceLevelOrClearingChannelRule": {
+      "definition": "If ServiceLevel is present then ClearingChannel must is not allowed.|If ClearingChannel is present then ServiceLevel must is not allowed."
+    }
+  }
+}

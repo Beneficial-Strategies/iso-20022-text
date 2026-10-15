@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMCompletionAdvice3",
+  "language": "en",
+  "name": "ATM Completion Advice 3",
+  "definition": "Information related to the completion of an operation on the ATM.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Transaction for which the completion is sent."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "isoType": "CurrencyConversion32",
+  "language": "en",
+  "name": "Currency Conversion 32",
+  "definition": "Currency conversion accepted by the customer, either to convert the amount to dispense in the base currency of the ATM, or to convert the total requested amount in the currency of the customer (so called dynamic currency conversion).",
+  "isoElements": {
+    "CurrencyConversionIdentification": {
+      "name": "Currency Conversion Identification",
+      "definition": "Identification of the currency conversion operation."
+    },
+    "TargetCurrency": {
+      "name": "Target Currency",
+      "definition": "Currency into which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "ResultingAmount": {
+      "name": "Resulting Amount",
+      "definition": "Amount converted in the target currency, including commission and mark-up."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Exchange rate, expressed as a percentage, applied to convert the original amount into the resulting amount."
+    },
+    "InvertedExchangeRate": {
+      "name": "Inverted Exchange Rate",
+      "definition": "Exchange rate, expressed as a percentage, applied to convert the resulting amount into the original amount."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which the exchange rate has been quoted."
+    },
+    "ValidUntil": {
+      "name": "Valid Until",
+      "definition": "Validity limit of the exchange rate."
+    },
+    "SourceCurrency": {
+      "name": "Source Currency",
+      "definition": "Currency from which the amount is converted (ISO 4217, 3 alphanumeric characters)."
+    },
+    "OriginalAmount": {
+      "name": "Original Amount",
+      "definition": "Original amount in the source currency."
+    },
+    "CommissionDetails": {
+      "name": "Commission Details",
+      "definition": "Commission or additional charges made as part of a currency conversion."
+    },
+    "MarkUpDetails": {
+      "name": "Mark Up Details",
+      "definition": "Mark-up made as part of a currency conversion."
+    },
+    "DeclarationDetails": {
+      "name": "Declaration Details",
+      "definition": "Card scheme declaration (disclamer) to present to the cardholder."
+    },
+    "ReferenceRate": {
+      "name": "Reference Rate",
+      "definition": "Reference exchange rate to be shown to the consumer. Requirement within the EC, see 'REGULATION (EC) No 924/2009 OF THE EUROPEAN PARLIAMENT', 'P8_TA(2019)0124' and '2018/0076 (Article 3a)'."
+    }
+  }
+}

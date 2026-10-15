@@ -1,0 +1,76 @@
+{
+  "isoType": "ReorganisationInstructionSD15",
+  "language": "en",
+  "name": "Reorganisation Instruction SD 15",
+  "definition": "Provides additional information regarding corporate action reorganisation instruction details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique number assigned by the depository. Transaction identification will be either the DTC instruction reference number for reorganisation instructions (VOI) or the DAM reference number for custody/reorganisation deposits."
+    },
+    "TransactionSequence": {
+      "name": "Transaction Sequence",
+      "definition": "Enable input of multiple voluntary instructions for rights or voluntary puts events via a single instruction message through using transaction sequence number."
+    },
+    "TransactionIdentificationStatus": {
+      "name": "Transaction Identification Status",
+      "definition": "Status of the instruction."
+    },
+    "ProtectTransactionStatus": {
+      "name": "Protect Transaction Status",
+      "definition": "Status of the protect instruction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for which an inbound instruction message or a cancellation instruction message is pending or rejected."
+    },
+    "SecuritiesQuantityDetails": {
+      "name": "Securities Quantity Details",
+      "definition": "Provides further information about securities quantity linked to a corporate action option."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by the client upon instruction submission."
+    },
+    "AcknowledgementDetails": {
+      "name": "Acknowledgement Details",
+      "definition": "Acknowledgement information relative to corporate action reorganisation instructions."
+    },
+    "ContactPerson": {
+      "name": "Contact Person",
+      "definition": "Party contact information for the given instruction; required for a voluntary offer instruction transaction (VOIT), protect transaction (PROT) and protect on behalf of another participant transaction (PROP); not required for cover protect instructions like a cover protect transaction (COVR), cover protect directly to agent transaction (COVA) and cover protect on behalf of another participant transaction (COVP)."
+    },
+    "WarrantSubscriptionChargeAmount": {
+      "name": "Warrant Subscription Charge Amount",
+      "definition": "Warrant subscription amount entered by client when instructing on a warrant exercise instruction."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Certificate information for a given instruction."
+    },
+    "UserReferenceNumber": {
+      "name": "User Reference Number",
+      "definition": "Unique identification of the transaction used by the transmitting party."
+    },
+    "DeceasedBeneficialOwnerDetails": {
+      "name": "Deceased Beneficial Owner Details",
+      "definition": "Beneficial owner information related to CD early redemption instructions."
+    },
+    "TransactionRecordNumber": {
+      "name": "Transaction Record Number",
+      "definition": "Transaction record number for ATAM or ART system which may be causing pending status. Corresponds to ATP RBN number."
+    },
+    "BidPrice": {
+      "name": "Bid Price",
+      "definition": "Bid price of the instruction."
+    },
+    "ShareholderNumber": {
+      "name": "Shareholder Number",
+      "definition": "Reference number assigned to identify an investor or a shareholder with the issuer or the registration provider (for instance allocation code)."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "CurrencyControlHeader7",
+  "language": "en",
+  "name": "Currency Control Header 7",
+  "definition": "Characteristics shared by all individual items included in the currency control message.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference, as assigned by the instructing party, and sent to the next party in the chain to unambiguously identify the message.|Usage: The instructing party has to make sure that MessageIdentification is unique per instructed party for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "NumberOfItems": {
+      "name": "Number Of Items",
+      "definition": "Number of individual items contained in the message."
+    },
+    "ReceivingParty": {
+      "name": "Receiving Party",
+      "definition": "Party that receives the message."
+    },
+    "RegistrationAgent": {
+      "name": "Registration Agent",
+      "definition": "Agent which sends the message."
+    }
+  }
+}

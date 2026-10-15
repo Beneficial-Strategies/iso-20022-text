@@ -1,0 +1,53 @@
+{
+  "isoType": "RetailerService3Code",
+  "language": "en",
+  "name": "Retailer Service 3 Code",
+  "definition": "List of specific services for ServiceResponse.",
+  "isoCodes": {
+    "FSPP": {
+      "isoName": "FinancialPaymentResponse",
+      "name": "Financial Payment Response",
+      "definition": "The POI System sends a response to a payment request (Purchase/refund/PWCB/MOTO Payment/...)."
+    },
+    "FSRP": {
+      "isoName": "FinancialReversalResponse",
+      "name": "Financial Reversal Response",
+      "definition": "The POI System sends a response to a reversal request."
+    },
+    "FSIP": {
+      "isoName": "FinancialBalanceInquiryResponse",
+      "name": "Financial Balance Inquiry Response",
+      "definition": "The POI System sends a response to a Balance Inquiry request."
+    },
+    "FSBP": {
+      "isoName": "FinancialBatchResponse",
+      "name": "Financial Batch Response",
+      "definition": "The POI System sends a response to a batch processing request."
+    },
+    "FSLP": {
+      "isoName": "FinancialLoyaltyResponse",
+      "name": "Financial Loyalty Response",
+      "definition": "The POI System sends a response to a loyalty processing request."
+    },
+    "FSVP": {
+      "isoName": "FinancialStoredValueResponse",
+      "name": "Financial Stored Value Response",
+      "definition": "The POI System sends a response to a stored value card or account request."
+    },
+    "FSEP": {
+      "isoName": "FinancialEnableServiceResponse",
+      "name": "Financial Enable Service Response",
+      "definition": "The POI System sends a response after enabling or not some service."
+    },
+    "FSAP": {
+      "isoName": "FinancialCardAcquisitionResponse",
+      "name": "Financial Card Acquisition Response",
+      "definition": "The POI System sends a response to a card data acquisition request."
+    },
+    "FSCP": {
+      "isoName": "FinancialReconciliationResponse",
+      "name": "Financial Reconciliation Response",
+      "definition": "The POI System sends a response to a reconciliation request."
+    }
+  }
+}

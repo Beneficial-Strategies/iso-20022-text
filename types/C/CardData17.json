@@ -1,0 +1,96 @@
+{
+  "isoType": "CardData17",
+  "language": "en",
+  "name": "Card Data 17",
+  "definition": "Non-protected sensitive data associated with the card or payment token performing the transaction.",
+  "isoElements": {
+    "PAN": {
+      "name": "PAN",
+      "definition": "Primary Account Number (PAN) of the card or a surrogate of the PAN such as a payment token."
+    },
+    "ProtectedPAN": {
+      "name": "Protected PAN",
+      "definition": "To indicate whether the PAN is using ProtectedData for encryption or not.|False: The PAN is used in plain text |True: The PAN is encrypted by using ProtectedData|Default: False"
+    },
+    "CardSequenceNumber": {
+      "name": "Card Sequence Number",
+      "definition": "Distinguishes between instances of the same payment card."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date as from which the card can be used, expressed in one of the following formats: YYYY-MM-DD, YYYY-MM, YY-MM-DD."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Expiry date of the card or payment token."
+    },
+    "Track3": {
+      "name": "Track 3",
+      "definition": "ISO track 3 issued from the magnetic stripe card or from the ICC if the magnetic stripe was not read. The content is conform to ISO 4909, removing beginning and ending sentinels and longitudinal redundancy check characters."
+    },
+    "PaymentAccountReference": {
+      "name": "Payment Account Reference",
+      "definition": "Unique non-financial reference assigned to a given PAN. May be used to link the transaction activity to that PAN."
+    },
+    "PANAccountRange": {
+      "name": "PAN Account Range",
+      "definition": "Leading digits of the PAN that identifies the card portfolio (for example, Issuer Identification Number). This data should not to be presented to the card acceptor or its environment. (for example, acquirer should not to send or make available to merchant)."
+    },
+    "PANReferenceIdentifier": {
+      "name": "PAN Reference Identifier",
+      "definition": "PAN reference identifier."
+    },
+    "PANFourLastDigits": {
+      "name": "PAN Four Last Digits",
+      "definition": "Last four digits of the PAN."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country code assigned to the card by the card issuer.|ISO 8583 bit 20"
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code assigned to the card by the card issuer."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Type of card product."
+    },
+    "ProductSubType": {
+      "name": "Product Sub Type",
+      "definition": "Subtype of card product."
+    },
+    "PortfolioIdentifier": {
+      "name": "Portfolio Identifier",
+      "definition": "Identifies the card portfolio."
+    },
+    "Brand": {
+      "name": "Brand",
+      "definition": "Brand of the card or transaction."
+    },
+    "AccountFundingSource": {
+      "name": "Account Funding Source",
+      "definition": "The account funding source applied to the transaction."
+    },
+    "Segment": {
+      "name": "Segment",
+      "definition": "Classification or type of the card user, such as commerical, consumer."
+    },
+    "Scheme": {
+      "name": "Scheme",
+      "definition": "Switch that processed the transaction."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date of card was issued to cardholder."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

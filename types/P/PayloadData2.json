@@ -1,0 +1,20 @@
+{
+  "isoType": "PayloadData2",
+  "language": "en",
+  "name": "Payload Data 2",
+  "definition": "Identifies the instance of the document exchanged.",
+  "isoElements": {
+    "PayloadIdentifier": {
+      "name": "Payload Identifier",
+      "definition": "String of characters that uniquely identifies the file, which was delivered by the sender."
+    },
+    "CreationDateAndTime": {
+      "name": "Creation Date And Time",
+      "definition": "Date and time when the file was created by the sender."
+    },
+    "PossibleDuplicateFlag": {
+      "name": "Possible Duplicate Flag",
+      "definition": "Flag indicating if the file exchanged between the two business applications is possibly a duplicate. If this indicator is not present within the message, please note that the default value would be \"False\"."
+    }
+  }
+}

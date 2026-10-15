@@ -1,0 +1,44 @@
+{
+  "isoType": "FleetLineItem6",
+  "language": "en",
+  "name": "Fleet Line Item 6",
+  "definition": "Supplies additional transaction information for fleet transactions.",
+  "isoElements": {
+    "AllowedItem": {
+      "name": "Allowed Item",
+      "definition": "Indicates whether or not the requested product or service is allowed.||True = Allowed|False = Not allowed"
+    },
+    "Fuel": {
+      "name": "Fuel",
+      "definition": "Indicates whether or not the line item represents a fuel or non-fuel product or service."
+    },
+    "ServiceType": {
+      "name": "Service Type",
+      "definition": "Type of service received at the acceptor location."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Contains a code that identifies a category of fleet products or services."
+    },
+    "ProductCode": {
+      "name": "Product Code",
+      "definition": "Code that identifies the type of fuel or non-fuel product or service being purchased."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Unit of measure of the item purchased."
+    },
+    "ProductQuantity": {
+      "name": "Product Quantity",
+      "definition": "Quantity of product or item."
+    },
+    "TotalAmountExcludingTax": {
+      "name": "Total Amount Excluding Tax",
+      "definition": "Total amount excluding tax."
+    },
+    "TotalAmountIncludingTax": {
+      "name": "Total Amount Including Tax",
+      "definition": "Total amount including tax."
+    }
+  }
+}

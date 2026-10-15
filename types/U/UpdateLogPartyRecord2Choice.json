@@ -1,0 +1,56 @@
+{
+  "isoType": "UpdateLogPartyRecord2Choice",
+  "language": "en",
+  "name": "Update Log Party Record 2 Choice",
+  "definition": "Specifies the details related to an update of an individual record in the static data of a party.",
+  "isoElements": {
+    "Address": {
+      "name": "Address",
+      "definition": "Information that locates and identifies a specific address."
+    },
+    "ContactDetails": {
+      "name": "Contact Details",
+      "definition": "Specifies the contact details of the party."
+    },
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Specifies the opening date of the party."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Specifies the closing date of the party."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type classification of the party."
+    },
+    "TechnicalAddress": {
+      "name": "Technical Address",
+      "definition": "Unique technical address to unambiguously identify a party for receiving messages from the executing system."
+    },
+    "MarketSpecificAttribute": {
+      "name": "Market Specific Attribute",
+      "definition": "Additional attributes defined by a central security depositary for a party."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Specifies the name by which a party is known and which is usually used to identify that party."
+    },
+    "ResidenceType": {
+      "name": "Residence Type",
+      "definition": "Specifies the type of residence where the party has its permanent home or principal establishment."
+    },
+    "LockStatus": {
+      "name": "Lock Status",
+      "definition": "Specifies whether the party is locked or not, and the reason for this status, when required."
+    },
+    "Restriction": {
+      "name": "Restriction",
+      "definition": "Defines the specific processing characteristics for a party to ensure configurability of specific requirements, as prescribed by national legal and regulatory requirements and practices."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Specifies a proprietary update type."
+    }
+  }
+}

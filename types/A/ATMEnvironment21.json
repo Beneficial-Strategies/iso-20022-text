@@ -1,0 +1,36 @@
+{
+  "isoType": "ATMEnvironment21",
+  "language": "en",
+  "name": "ATM Environment 21",
+  "definition": "Environment of the withdrawal transaction.",
+  "isoElements": {
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Acquirer of the transactions, in charge of the funds settlement with the issuer."
+    },
+    "ATMManager": {
+      "name": "ATM Manager",
+      "definition": "Institution in charge of managing the ATM."
+    },
+    "HostingEntity": {
+      "name": "Hosting Entity",
+      "definition": "Entity hosting the ATM terminal."
+    },
+    "ATM": {
+      "name": "ATM",
+      "definition": "ATM information."
+    },
+    "Customer": {
+      "name": "Customer",
+      "definition": "Customer involved in the transaction."
+    },
+    "ProtectedCardData": {
+      "name": "Protected Card Data",
+      "definition": "Encryption of the sensitive card data."
+    },
+    "PlainCardData": {
+      "name": "Plain Card Data",
+      "definition": "Sensitive data associated with the card performing the transaction."
+    }
+  }
+}

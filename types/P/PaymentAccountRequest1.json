@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentAccountRequest1",
+  "language": "en",
+  "name": "Payment Account Request 1",
+  "definition": "Data related to the account pointed by the payment card.",
+  "isoElements": {
+    "AccountType": {
+      "name": "Account Type",
+      "definition": "Type of cardholder account used for the transaction. By Default the code Default is taken into account."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "To retrieve Card Acquisition Data."
+    },
+    "AccountReference": {
+      "name": "Account Reference",
+      "definition": "Reference of an account (all types)."
+    }
+  }
+}

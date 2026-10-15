@@ -1,0 +1,16 @@
+{
+  "isoType": "MarketIdentificationOrCashPurpose1Choice",
+  "language": "en",
+  "name": "Market Identification Or Cash Purpose 1 Choice",
+  "definition": "Choice of cash purpose or a securities market identifier.",
+  "isoElements": {
+    "SettlementInstructionMarketIdentification": {
+      "name": "Settlement Instruction Market Identification",
+      "definition": "Identifies the market for the settlement. This consists of the country code and the asset class. For example, if the SSI is for equities in the DTCC, the country code is ‘US’ and the classification type is ‘equity’."
+    },
+    "CashSSIPurpose": {
+      "name": "Cash SSI Purpose",
+      "definition": "Underlying reason for the payment SSI instruction, expressed as a code."
+    }
+  }
+}

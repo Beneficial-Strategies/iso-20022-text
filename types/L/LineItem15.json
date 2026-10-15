@@ -1,0 +1,57 @@
+{
+  "isoType": "LineItem15",
+  "language": "en",
+  "name": "Line Item 15",
+  "definition": "Commercial details of a trade transaction between a buyer and a seller.",
+  "isoElements": {
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Reference to the purchase order of the underlying transaction."
+    },
+    "FinalSubmission": {
+      "name": "Final Submission",
+      "definition": "Specifies whether this current invoice is the last submission against the purchase order referenced."
+    },
+    "CommercialLineItems": {
+      "name": "Commercial Line Items",
+      "definition": "Goods which are the subject of the invoice."
+    },
+    "LineItemsTotalAmount": {
+      "name": "Line Items Total Amount",
+      "definition": "Specifies the total amount of all line items (incl. their adjustments)."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on price for the goods."
+    },
+    "FreightCharges": {
+      "name": "Freight Charges",
+      "definition": "Charges related to the conveyance of goods."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters linked to the value of the goods in a trade transaction."
+    },
+    "TotalNetAmount": {
+      "name": "Total Net Amount",
+      "definition": "Total net amount of a trade transaction. Total amount resulting from the gross amount plus freight charges, tax and plus/minus Adjustments."
+    },
+    "BuyerDefinedInformation": {
+      "name": "Buyer Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    },
+    "SellerDefinedInformation": {
+      "name": "Seller Defined Information",
+      "definition": "Information important for the users of the message/service, which cannot be captured in any other message component/element. For example: Warehouse number."
+    },
+    "Incoterms": {
+      "name": "Incoterms",
+      "definition": "Specifies the applicable Incoterm and associated location."
+    }
+  },
+  "isoRules": {
+    "AdjustmentFreightChargesAndTaxRule": {
+      "definition": "Either all adjustments, freight charges and taxes must be entered at this level only, or all adjustments, freight charges and taxes must be entered at line item level only."
+    }
+  }
+}

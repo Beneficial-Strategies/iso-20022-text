@@ -1,0 +1,43 @@
+{
+  "isoType": "PartyType17Code",
+  "language": "en",
+  "name": "Party Type 17 Code",
+  "definition": "Type of role assigned.",
+  "isoCodes": {
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other card payment entity type defined at national level"
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card payment entity type defined at private level"
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "ACQP": {
+      "isoName": "AcquirerProcessor",
+      "name": "Acquirer Processor",
+      "definition": "Entity providing acquiring card payment processing services on behalf on an acquirer."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "CISP": {
+      "isoName": "CardIssuerProcessor",
+      "name": "Card Issuer Processor",
+      "definition": "Entity providing issuing card payment processing services on behalf on an issuer."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between an acquirer and an issuer."
+    }
+  }
+}

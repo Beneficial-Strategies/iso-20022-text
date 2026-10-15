@@ -1,0 +1,18 @@
+{
+  "isoType": "InterestRejectionReason1Code",
+  "language": "en",
+  "name": "Interest Rejection Reason 1 Code",
+  "definition": "Indicates whether the interest request is rejected due a value date or an interest amount difference.",
+  "isoCodes": {
+    "VADA": {
+      "isoName": "ValueDate",
+      "name": "Value Date",
+      "definition": "Indicates whether the interest request is rejected due a value date difference."
+    },
+    "DIAM": {
+      "isoName": "DisputeAmount",
+      "name": "Dispute Amount",
+      "definition": "Indicates whether the interest request is rejected due an interest amount difference."
+    }
+  }
+}

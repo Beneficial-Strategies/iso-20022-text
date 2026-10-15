@@ -1,0 +1,28 @@
+{
+  "isoType": "CancellationProcess2Code",
+  "language": "en",
+  "name": "Cancellation Process 2 Code",
+  "definition": "Configuration of the exchanges to perform the cancellation of a payment transaction.",
+  "isoCodes": {
+    "ADVC": {
+      "isoName": "Advice",
+      "name": "Advice",
+      "definition": "Card payment transaction may be cancelled by an advice only before closure of the reconciliation period or before the capture by batch."
+    },
+    "NALW": {
+      "isoName": "NotAllowed",
+      "name": "Not Allowed",
+      "definition": "Card payment transaction cannot be cancelled by the acquirer."
+    },
+    "REQU": {
+      "isoName": "Request",
+      "name": "Request",
+      "definition": "Card payment transaction may also be cancelled after the closure of the reconciliation period or after the capture by batch. In this case a cancellation request exchange is required."
+    },
+    "APPL": {
+      "isoName": "ApplicationLevel",
+      "name": "Application Level",
+      "definition": "Cancellation of the Card payment transaction is defined by the payment application."
+    }
+  }
+}

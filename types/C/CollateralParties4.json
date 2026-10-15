@@ -1,0 +1,20 @@
+{
+  "isoType": "CollateralParties4",
+  "language": "en",
+  "name": "Collateral Parties 4",
+  "definition": "Identifies the collateral counterparty(ies) of Party A with his eligibility set profile.",
+  "isoElements": {
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Counterparty of party A."
+    },
+    "ClientPartyB": {
+      "name": "Client Party B",
+      "definition": "Party that instructs party B to settle the instruction on its behalf."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    }
+  }
+}

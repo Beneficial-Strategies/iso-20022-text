@@ -1,0 +1,20 @@
+{
+  "isoType": "MarketIdentification87",
+  "language": "en",
+  "name": "Market Identification 87",
+  "definition": "Identifies the market and purpose for the settlement.",
+  "isoElements": {
+    "Country": {
+      "name": "Country",
+      "definition": "Country in which the financial instrument is to be settled."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Type of instrument covered by the SSI instruction."
+    },
+    "SettlementPurpose": {
+      "name": "Settlement Purpose",
+      "definition": "Purpose of the instruction, for example, whether for regular payments, margin payments related to a collateral movement, securities settlements, securities lending."
+    }
+  }
+}

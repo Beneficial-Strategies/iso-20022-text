@@ -1,0 +1,41 @@
+{
+  "isoType": "EnergyDeliveryAttribute10",
+  "language": "en",
+  "name": "Energy Delivery Attribute 10",
+  "definition": "Information related to energy derivatives attributes.",
+  "isoElements": {
+    "DeliveryInterval": {
+      "name": "Delivery Interval",
+      "definition": "Time interval for each block or shape."
+    },
+    "DeliveryDate": {
+      "name": "Delivery Date",
+      "definition": "Definition of delivery start date and end date."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Duration of the delivery period."
+    },
+    "WeekDay": {
+      "name": "Week Day",
+      "definition": "Days of the week of the delivery."
+    },
+    "DeliveryCapacity": {
+      "name": "Delivery Capacity",
+      "definition": "Delivery capacity for each delivery interval specified."
+    },
+    "QuantityUnit": {
+      "name": "Quantity Unit",
+      "definition": "Daily or hourly quantity in MWh or kWh/d which corresponds to the underlying commodity."
+    },
+    "PriceTimeIntervalQuantity": {
+      "name": "Price Time Interval Quantity",
+      "definition": "Indicates if applicable the price per quantity per delivery time interval."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "OrderStatus11Code",
+  "language": "en",
+  "name": "Order Status 11 Code",
+  "definition": "Specifies the current status of an order.",
+  "isoCodes": {
+    "FIRM": {
+      "isoName": "FirmQuotes",
+      "name": "Firm Quotes",
+      "definition": "Quotes that can be executed."
+    },
+    "IMPL": {
+      "isoName": "ImpliedStrategyOrders",
+      "name": "Implied Strategy Orders",
+      "definition": "Used for strategy orders that are derived from implied in or implied out functionality."
+    },
+    "INDI": {
+      "isoName": "IndicativeQuotes",
+      "name": "Indicative Quotes",
+      "definition": "Quotes that are visible but cannot be executed. Includes warrants in some trading venue."
+    },
+    "ROUT": {
+      "isoName": "RoutedOrders",
+      "name": "Routed Orders",
+      "definition": "Orders that are routed by the trading venue to other venues."
+    }
+  }
+}
