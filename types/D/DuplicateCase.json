@@ -1,0 +1,16 @@
+{
+  "isoType": "DuplicateCase",
+  "language": "en",
+  "name": "Duplicate Case",
+  "definition": "Outcome that results in closing a case as duplicate because the same issue has been reported by another party.",
+  "isoAssociations": {
+    "DuplicatedCase": {
+      "name": "Duplicated Case",
+      "definition": "Identifies the original case."
+    },
+    "RelatedCaseResolution": {
+      "name": "Related Case Resolution",
+      "definition": "Investigation case information which is duplicate."
+    }
+  }
+}

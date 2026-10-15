@@ -1,0 +1,26 @@
+{
+  "isoType": "SecurityCertificate",
+  "language": "en",
+  "name": "Security Certificate",
+  "definition": "Certificate linked to a digital signature.",
+  "isoAttributes": {
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Type of the security certificate."
+    }
+  },
+  "isoAssociations": {
+    "ElectronicSignature": {
+      "name": "Electronic Signature",
+      "definition": "Additional security provisions, such as a digital signature."
+    },
+    "SecurityCertificatePartyRole": {
+      "name": "Security Certificate Party Role",
+      "definition": "Role played by a party in the context of a security certificate."
+    },
+    "NetworkAccess": {
+      "name": "Network Access",
+      "definition": "Network access which uses a security certificate."
+    }
+  }
+}

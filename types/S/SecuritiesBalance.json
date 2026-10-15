@@ -1,0 +1,106 @@
+{
+  "isoType": "SecuritiesBalance",
+  "language": "en",
+  "name": "Securities Balance",
+  "definition": "Net position of a segregated holding, in a single security, within the overall position held in a securities account. A securities balance is calculated from the sum of securities' receipts minus the sum of securities' deliveries.",
+  "isoAttributes": {
+    "NetGainLoss": {
+      "name": "Net Gain Loss",
+      "definition": "Amount representing the difference between the cost and the current price of a security. In the context of securities settlement, it is the amount paid or received when the instructions are netted or paired off."
+    },
+    "ShortLong": {
+      "name": "Short Long",
+      "definition": "Indication that the position is short or long."
+    },
+    "SecuritiesBalanceType": {
+      "name": "Securities Balance Type",
+      "definition": "Reason a security is not available or additional information about the financial instrument for which the balance is given, for example, unregistered, registered in nominee name."
+    },
+    "AvailabilityIndicator": {
+      "name": "Availability Indicator",
+      "definition": "Indicates whether the quantity of securities on the balance is available."
+    },
+    "CostAdjustment": {
+      "name": "Cost Adjustment",
+      "definition": "Specifies the amount added or substracted to the original cost of a transaction."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Account or sub-account for which a balance is calculated. It is derived from the association between Balance and Account."
+    },
+    "EligibleBalanceRelatedEntitlement": {
+      "name": "Eligible Balance Related Entitlement",
+      "definition": "Corporate action entitlement for which an eligible balance is specified."
+    },
+    "AggregateQuantity": {
+      "name": "Aggregate Quantity",
+      "definition": "Total quantity of financial instruments of the balance."
+    },
+    "CorporateActionEntitlement": {
+      "name": "Corporate Action Entitlement",
+      "definition": "Corporate action entitlement for which a balance is specified."
+    },
+    "InstructedBalanceRelatedEntitlement": {
+      "name": "Instructed Balance Related Entitlement",
+      "definition": "Corporate action entitlement for which an instructed balance is specified."
+    },
+    "UninstructedBalanceRelatedEntitlement": {
+      "name": "Uninstructed Balance Related Entitlement",
+      "definition": "Corporate action entitlement for which an uninstructed balance is specified."
+    },
+    "MainSecuritiesBalance": {
+      "name": "Main Securities Balance",
+      "definition": "Balance which is divided in sub-balances."
+    },
+    "SecuritiesSubBalance": {
+      "name": "Securities Sub Balance",
+      "definition": "Net position of a segregated holding of a single security within the overall position held in an account, eg, sub-balance per status."
+    },
+    "SubBalanceQuantity": {
+      "name": "Sub Balance Quantity",
+      "definition": "Net position of a segregated holding of a single security within the overall position held in a securities account, for instance. sub-balance per type."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which a balance is calculated."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Specifies the exchange rate used to convert the balance value in another currency."
+    },
+    "AvailableQuantity": {
+      "name": "Available Quantity",
+      "definition": "Total quantity of financial instruments of the balance that is available."
+    },
+    "RelatedMeetingEntitlement": {
+      "name": "Related Meeting Entitlement",
+      "definition": "Entitlement for which an eligible posistion is specified."
+    },
+    "UnavailableQuantity": {
+      "name": "Unavailable Quantity",
+      "definition": "Total quantity of financial instruments of the balance that is not available."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Safekeeping place at which the securities are held."
+    },
+    "SecuritiesEntry": {
+      "name": "Securities Entry",
+      "definition": "Postings used to calculate a balance. It is derived from the association between Balance and Entry"
+    },
+    "NotEligibleBalanceRelatedEntitlement": {
+      "name": "Not Eligible Balance Related Entitlement",
+      "definition": "Corporate action entitlement for which a non eligible balance is specified."
+    },
+    "RelatedIntraPositionTransfer": {
+      "name": "Related Intra Position Transfer",
+      "definition": "Transfer between two balances or sub balances."
+    },
+    "Pledgee": {
+      "name": "Pledgee",
+      "definition": "Pledgee at which the securities are held."
+    }
+  }
+}

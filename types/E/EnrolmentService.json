@@ -1,0 +1,54 @@
+{
+  "isoType": "EnrolmentService",
+  "language": "en",
+  "name": "Enrolment Service",
+  "definition": "Specifies the service details for the enrolment.",
+  "isoAttributes": {
+    "ServiceActivationLink": {
+      "name": "Service Activation Link",
+      "definition": "Web page link provided by the Creditor, intended to the Debtors, to proceed to activation when  servicing messages can not be used."
+    },
+    "ServiceActivationAllowed": {
+      "name": "Service Activation Allowed",
+      "definition": "Define the acceptance of activation requests through the scheme."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "End date when the creditor enrolment becomes effective."
+    },
+    "ServiceDescriptionLink": {
+      "name": "Service Description Link",
+      "definition": "Information web page, as provided by the creditor, to which the debtor can be linked for further information (Universal Resource Locator - URL)."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date when the creditor enrolment becomes effective."
+    }
+  },
+  "isoAssociations": {
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    },
+    "Visibility": {
+      "name": "Visibility",
+      "definition": "Provides the details of the visibility of the creditor enrolment as shown to the debtors."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "OriginalEnrolment": {
+      "name": "Original Enrolment",
+      "definition": "Specifies the service details for the original enrolment."
+    },
+    "RelatedElectronicInvoiceProcessingService": {
+      "name": "Related Electronic Invoice Processing Service",
+      "definition": "Specifies the details service for the enrolment."
+    },
+    "RelatedEnrolment": {
+      "name": "Related Enrolment",
+      "definition": "Specifies the service details for the enrolment."
+    }
+  }
+}

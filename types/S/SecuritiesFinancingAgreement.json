@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesFinancingAgreement",
+  "language": "en",
+  "name": "Securities Financing Agreement",
+  "definition": "Contractual details related to the agreement between parties.",
+  "isoAttributes": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Contractual currency forming the basis of a financing agreement and associated transactions. Usually, but not always, the same as the trade currency."
+    },
+    "TerminationType": {
+      "name": "Termination Type",
+      "definition": "Type of financing termination."
+    },
+    "DeliveryType": {
+      "name": "Delivery Type",
+      "definition": "Identifies type of settlement."
+    },
+    "MarginRatio": {
+      "name": "Margin Ratio",
+      "definition": "Fraction of the cash consideration that must be collateralized, expressed as a percent. A margin ratio of 02% indicates that the value of the collateral (after deducting for \"haircut\") must exceed the cash consideration by 2%."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesFinancingTrade": {
+      "name": "Securities Financing Trade",
+      "definition": "Specifies a trade using the related financing agreement."
+    }
+  }
+}

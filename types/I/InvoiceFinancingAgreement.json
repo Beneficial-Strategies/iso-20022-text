@@ -1,0 +1,58 @@
+{
+  "isoType": "InvoiceFinancingAgreement",
+  "language": "en",
+  "name": "Invoice Financing Agreement",
+  "definition": "Set of characteristics that unambiguously identify an invoice financing agreement. An invoice financing agreement between a factor and its client allows to transfer a payment obligation that exists between the client and a third party from the client to the factor.",
+  "isoAttributes": {
+    "Authorisation": {
+      "name": "Authorisation",
+      "definition": "User identification or any user key that allows to check if the financing requestor is allowed to ask for invoice financing.|Usage: the content is not of a technical nature, but reflects the organisational structure at the requesting side. The authorisation element can typically be used in case the financing requestor acts on behalf of one or more suppliers."
+    },
+    "FinancingMethod": {
+      "name": "Financing Method",
+      "definition": "Specifies the financing method related to invoice financing (eg collection mandate)."
+    },
+    "RequestedAmount": {
+      "name": "Requested Amount",
+      "definition": "Amount requested by the requestor party, related to a single invoice to be financed."
+    },
+    "RequestedPercentage": {
+      "name": "Requested Percentage",
+      "definition": "Percentage of the amount requested by the requestor party, related to a single invoice, to be financed."
+    },
+    "AppliedPercentage": {
+      "name": "Applied Percentage",
+      "definition": "The percentage rate applied to calculate the amount financed."
+    },
+    "FinancedAmount": {
+      "name": "Financed Amount",
+      "definition": "Specifies the amount financed which is derived from the applied percentage and the invoice amount.."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies unambiguously the financing transaction."
+    }
+  },
+  "isoAssociations": {
+    "InvoiceFinancingPartyRole": {
+      "name": "Invoice Financing Party Role",
+      "definition": "Role played by a party in the context of financing an invoice."
+    },
+    "InvoiceFinancingStatus": {
+      "name": "Invoice Financing Status",
+      "definition": "Status of the invoice financing transaction and of the different requests linked to it."
+    },
+    "Invoice": {
+      "name": "Invoice",
+      "definition": "Invoice to which is referred financing request."
+    },
+    "ResultingCashEntry": {
+      "name": "Resulting Cash Entry",
+      "definition": "Information related to the crediting of the amount financed, such as dates, amount, charges..."
+    },
+    "Assignment": {
+      "name": "Assignment",
+      "definition": "Assignments resulting from an invoice financing agreement."
+    }
+  }
+}

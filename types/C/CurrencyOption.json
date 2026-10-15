@@ -1,0 +1,42 @@
+{
+  "isoType": "CurrencyOption",
+  "language": "en",
+  "name": "Currency Option",
+  "definition": "Right to buy (call) or sell (put) an underlying amount in one currency against another amount in another currency at a predetermined exchange rate, within a specified period of time or at a specified date and time.",
+  "isoAttributes": {
+    "CallAmount": {
+      "name": "Call Amount",
+      "definition": "Call amount and currency of a foreign exchange option trade."
+    },
+    "PutAmount": {
+      "name": "Put Amount",
+      "definition": "Put amount and currency of a foreign exchange option trade."
+    },
+    "OptionSettlementCurrency": {
+      "name": "Option Settlement Currency",
+      "definition": "Currency that must be used to settle the option when it is netted off."
+    },
+    "StrikeRate": {
+      "name": "Strike Rate",
+      "definition": "Fixed exchange rate at which the option contract can be exercised."
+    }
+  },
+  "isoAssociations": {
+    "PremiumCalculation": {
+      "name": "Premium Calculation",
+      "definition": "Specifies the way the premium is calculated."
+    },
+    "OptionDefinition": {
+      "name": "Option Definition",
+      "definition": "Specifies the different parameters used to define an option."
+    },
+    "PremiumSettlement": {
+      "name": "Premium Settlement",
+      "definition": "Specifies the amount of the premium paid by the buyer of the option and its settlement place."
+    },
+    "ExercisedOption": {
+      "name": "Exercised Option",
+      "definition": "Specifies the trade that may take place to exercise the option."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "DerivativeEvent",
+  "language": "en",
+  "name": "Derivative Event",
+  "definition": "Event which has an impact on the life cycle of the derivative contract.",
+  "isoAttributes": {
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Indicates the time stamp of a derivative event."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of the derivative event type"
+    }
+  },
+  "isoAssociations": {
+    "EventIdentifier": {
+      "name": "Event Identifier",
+      "definition": "Identification of the derivative event."
+    },
+    "RelatedDerivative": {
+      "name": "Related Derivative",
+      "definition": "Derivative for which the event has been triggered."
+    },
+    "PostTradeRiskReduction": {
+      "name": "Post Trade Risk Reduction",
+      "definition": "Means to reduce risks in the derivatives market."
+    }
+  }
+}

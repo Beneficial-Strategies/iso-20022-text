@@ -1,0 +1,96 @@
+{
+  "isoType": "CorporateActionDeadline",
+  "language": "en",
+  "name": "Corporate Action Deadline",
+  "definition": "Time constraints for processing corporate actions.",
+  "isoAttributes": {
+    "RevocabilityPeriod": {
+      "name": "Revocability Period",
+      "definition": "Period during which the shareholder can revoke, change or withdraw its instruction."
+    },
+    "ProtectDate": {
+      "name": "Protect Date",
+      "definition": "Last date a holder can request to defer delivery of securities pursuant to a notice of guaranteed delivery or other required documentation."
+    },
+    "TradingSuspendedDate": {
+      "name": "Trading Suspended Date",
+      "definition": "Date on which trading of a security is suspended as the result of an event."
+    },
+    "ThirdPartyDeadline": {
+      "name": "Third Party Deadline",
+      "definition": "Date/Time by which the account owner must instruct directly another party, for example to provide documentation to an issuer agent."
+    },
+    "CertificationDeadline": {
+      "name": "Certification Deadline",
+      "definition": "Deadline by which the beneficial ownership of securities must be declared."
+    },
+    "DeadlineToSplit": {
+      "name": "Deadline To Split",
+      "definition": "Deadline by which instructions must be received to split securities, that is, of physical certificates."
+    },
+    "SpecialExDate": {
+      "name": "Special Ex Date",
+      "definition": "Date/time as from which 'special processing' can start to be used by participants for that event. Special processing is a means of marking a transaction, that would normally be traded ex or cum, as being traded cum or ex respectively,  for example, a transaction dealt 'special' after the ex date would result in the buyer being eligible for the entitlement. This is typically used in the UK and Irish markets."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "name": "Deadline For Tax Breakdown Instruction",
+      "definition": "Date until which tax breakdown instructions will be accepted."
+    },
+    "EarlyClosingDate": {
+      "name": "Early Closing Date",
+      "definition": "First possible early closing date of an offer if different from the expiry date."
+    },
+    "RecordDate": {
+      "name": "Record Date",
+      "definition": "Date at which the positions are struck to note which parties will receive the entitlement."
+    },
+    "CoverExpirationDate": {
+      "name": "Cover Expiration Date",
+      "definition": "Last day a holder can deliver the securities that it had previously protected."
+    },
+    "ElectionToCounterpartyDeadline": {
+      "name": "Election To Counterparty Deadline",
+      "definition": "Deadline by which an entitled holder needs to advise their counterparty to a transaction of their election for a corporate action event."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which the offer terminates."
+    },
+    "EarlyThirdPartyDeadline": {
+      "name": "Early Third Party Deadline",
+      "definition": "Date/Time set by the issuer agent as a first early deadline by which the account owner must instruct directly another party, possibly giving the holder eligibility to incentives. For example, to provide documentation to an issuer agent."
+    },
+    "DepositoryCoverExpirationDate": {
+      "name": "Depository Cover Expiration Date",
+      "definition": "The last date/tiime that a participant of the depository can deliver securities that it had elected on and/or previously protected."
+    },
+    "ResponseDeadline": {
+      "name": "Response Deadline",
+      "definition": "Date on which the account servicer has set as the deadline to respond, with instructions, to an outstanding event. This time is dependent on the reference time zone of the account servicer as specified in an SLA."
+    },
+    "ConsentExpirationDate": {
+      "name": "Consent Expiration Date",
+      "definition": "Last date on which a holder can consent to the changes sought by the corporation."
+    },
+    "RegistrationDeadline": {
+      "name": "Registration Deadline",
+      "definition": "Date on which instructions to register or registration details will be accepted."
+    },
+    "StockLendingDeadline": {
+      "name": "Stock Lending Deadline",
+      "definition": "Date or date and time that the account servicer has set as the deadline to respond with instructions to an event for which the underlying security is out on loan."
+    },
+    "ConsentRecordDate": {
+      "name": "Consent Record Date",
+      "definition": "Date used by the offeror to determine the beneficiary eligible to participate in a consent based on the registered owner of the securities, eg, beneficial owner of consent record. The consent record date qualifier is used to indicate that a record date only applies to a certain part of the offer, not the entire offer.|The consent record date is used to indicate that a record date only applies to a certain part of the offer, not the entire offer."
+    },
+    "EarlyResponseDeadline": {
+      "name": "Early Response Deadline",
+      "definition": "Date/time that the account servicer has set as the deadline to respond, with instructions, to an outstanding event, giving the holder eligibility to incentives. This time is dependent on the reference time zone of the account servicer as specified in an SLA."
+    },
+    "GuaranteedParticipationDate": {
+      "name": "Guaranteed Participation Date",
+      "definition": "Last date/time by which a buying counterparty to a trade can be sure that it will have the right to participate in an event."
+    }
+  }
+}

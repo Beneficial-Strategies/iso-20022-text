@@ -1,0 +1,26 @@
+{
+  "isoType": "AutomaticVariation",
+  "language": "en",
+  "name": "Automatic Variation",
+  "definition": "Predefined variations that may be attributable to an undertaking such as a guarantee or standby letter of credit.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of predefined variation."
+    },
+    "VariationAmount": {
+      "name": "Variation Amount",
+      "definition": "Variation specified as a monetary amount increase or decrease to the undertaking amount."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which a predefined variation is specified."
+    },
+    "Trigger": {
+      "name": "Trigger",
+      "definition": "Trigger that causes the variation to come into effect."
+    }
+  }
+}

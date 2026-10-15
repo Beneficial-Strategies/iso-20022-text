@@ -1,0 +1,50 @@
+{
+  "isoType": "Cheque",
+  "language": "en",
+  "name": "Cheque",
+  "definition": "Negotiable instrument instructing a financial institution to pay a specific amount of a specific currency from the account of the drawer with that institution.",
+  "isoAttributes": {
+    "Number": {
+      "name": "Number",
+      "definition": "Unique and unambiguous identifier for a cheque as assigned by the financial institution."
+    },
+    "ChequeType": {
+      "name": "Cheque Type",
+      "definition": "Specifies the type of cheque."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date when the draft becomes payable and the debtor's account is debited."
+    },
+    "FormsCode": {
+      "name": "Forms Code",
+      "definition": "Code agreed between the initiating party and the debtor's agent, that specifies the cheque layout, company logo and digitised signature to be used to print the cheque."
+    },
+    "MemoField": {
+      "name": "Memo Field",
+      "definition": "Information that needs to be printed on a cheque, used by the payer to add miscellaneous information."
+    },
+    "RegionalClearingZone": {
+      "name": "Regional Clearing Zone",
+      "definition": "Regional area in which the cheque can be cleared, when a country has no nation-wide cheque clearing organisation."
+    }
+  },
+  "isoAssociations": {
+    "ChequeDelivery": {
+      "name": "Cheque Delivery",
+      "definition": "Specifies the parameters related to the delivery of the cheque."
+    },
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Payment which uses a cheque."
+    },
+    "ChequePartyRole": {
+      "name": "Cheque Party Role",
+      "definition": "Specifies each role played by a party in the process of paying by cheque."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account on which a cheque is drawn."
+    }
+  }
+}

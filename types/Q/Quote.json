@@ -1,0 +1,86 @@
+{
+  "isoType": "Quote",
+  "language": "en",
+  "name": "Quote",
+  "definition": "Indicates whether the quote details are indicated as an offer, a bid or a mid of a security, commodity, currency (the latter being an average of the offer and the bid).",
+  "isoAttributes": {
+    "ValidUntilDateTime": {
+      "name": "Valid Until Date Time",
+      "definition": "Expresses the validity date and time of the Quote."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Can be used to specify the desired currency of the quoted price that may differ from the normal trading currency of the instrument being quote requested."
+    }
+  },
+  "isoAssociations": {
+    "MaximumQuantity": {
+      "name": "Maximum Quantity",
+      "definition": "Specifies the maximum quantity of the financial instrument."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of a Financial Instrument."
+    },
+    "MinimumQuantity": {
+      "name": "Minimum Quantity",
+      "definition": "Specifies the minimal quantity of the financial instrument."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role played by a party in a quotation process."
+    },
+    "RelatedNegotiation": {
+      "name": "Related Negotiation",
+      "definition": "Negotiation process during which quotes are provided."
+    },
+    "QuotedRate": {
+      "name": "Quoted Rate",
+      "definition": "Exchange rate specified in a quote."
+    },
+    "PreviousClosingPrice": {
+      "name": "Previous Closing Price",
+      "definition": "Previous closing price of the financial instrument - Useful for verifying its identification."
+    },
+    "RequestedPrice": {
+      "name": "Requested Price",
+      "definition": "Is used to specify the desired currency of the quoted price when they differ from the normal trading currency of the instrument being quote requested."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Indicates the price of the instrument, applicable to the quote."
+    },
+    "MarketPrice": {
+      "name": "Market Price",
+      "definition": "Used by markets to indicate the current best bid and offer."
+    },
+    "MidSideQuoteVariable": {
+      "name": "Mid Side Quote Variable",
+      "definition": "Quote details for which mid information is provided."
+    },
+    "BidSideQuoteVariable": {
+      "name": "Bid Side Quote Variable",
+      "definition": "Quote details for which bid information is provided."
+    },
+    "OfferSideQuoteVariable": {
+      "name": "Offer Side Quote Variable",
+      "definition": "Quote details for which offer information is provided."
+    },
+    "SecurityQuoteVariable": {
+      "name": "Security Quote Variable",
+      "definition": "Proposition of price for a financial instrument."
+    },
+    "QuoteSwap": {
+      "name": "Quote Swap",
+      "definition": "Characteristics and conditions, quoted by the seller, by which a borrower can exchange one type of fund for another."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provide the status for the quote."
+    },
+    "QuotedSecurity": {
+      "name": "Quoted Security",
+      "definition": "Security specified in a quote."
+    }
+  }
+}

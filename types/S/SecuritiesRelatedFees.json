@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesRelatedFees",
+  "language": "en",
+  "name": "Securities Related Fees",
+  "definition": "Fees related to securities trades.",
+  "isoAttributes": {
+    "PostageFeeAmount": {
+      "name": "Postage Fee Amount",
+      "definition": "Amount of money paid for delivery by regular post mail."
+    },
+    "RegulatoryFeesAmount": {
+      "name": "Regulatory Fees Amount",
+      "definition": "Amount of money charged by a regulatory authority, eg, Securities and Exchange fees."
+    },
+    "ShippingFeesAmount": {
+      "name": "Shipping Fees Amount",
+      "definition": "Amount of money (including insurance) paid for delivery by carrier."
+    },
+    "ResearchFee": {
+      "name": "Research Fee",
+      "definition": "Charge or commission paid by the investor to a distributor/intermediary or other service provider for the provision of financial research."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which fees are specified."
+    }
+  }
+}

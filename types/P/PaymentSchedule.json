@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentSchedule",
+  "language": "en",
+  "name": "Payment Schedule",
+  "definition": "Schedule for partial payments of an issue.",
+  "isoAttributes": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date/time at which the partial payment is to be done."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the partial payment."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Partial payment expressed as a rate."
+    }
+  }
+}

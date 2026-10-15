@@ -1,0 +1,30 @@
+{
+  "isoType": "PerformanceFactors",
+  "language": "en",
+  "name": "Performance Factors",
+  "definition": "Performance factors of the investment fund / fund class.",
+  "isoAttributes": {
+    "CorporateActionFactor": {
+      "name": "Corporate Action Factor",
+      "definition": "Value of the NAV before all corporate events of the valuation date, divided by the value of the NAV after the corporate event."
+    },
+    "CumulativeCorporateActionFactor": {
+      "name": "Cumulative Corporate Action Factor",
+      "definition": "Value of the NAV before a corporate event, divided by the value of the NAV after the corporate event, accumulated for a number of corporate events over the defined period of time."
+    },
+    "NormalPerformance": {
+      "name": "Normal Performance",
+      "definition": "Normal performance value of the NAV."
+    }
+  },
+  "isoAssociations": {
+    "NetAssetValueCalculation": {
+      "name": "Net Asset Value Calculation",
+      "definition": "Calculation for which the performance factors are obtained."
+    },
+    "AccumulationPeriod": {
+      "name": "Accumulation Period",
+      "definition": "Period of time for the calculation of the cumulative corporate action factor."
+    }
+  }
+}

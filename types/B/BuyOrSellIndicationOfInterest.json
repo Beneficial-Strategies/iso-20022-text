@@ -1,0 +1,62 @@
+{
+  "isoType": "BuyOrSellIndicationOfInterest",
+  "language": "en",
+  "name": "Buy Or Sell Indication Of Interest",
+  "definition": "Intention to buy or sell a financial Instrument.",
+  "isoAttributes": {
+    "RelativeSize": {
+      "name": "Relative Size",
+      "definition": "Indicates a quantity in relative size."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Indicates the price of the instrument, applicable to the indication of interest."
+    },
+    "QualityIndication": {
+      "name": "Quality Indication",
+      "definition": "Indicates the relative quality of the indication of interest."
+    },
+    "NaturalIndicator": {
+      "name": "Natural Indicator",
+      "definition": "Indicates whether or not the indication of interest is the result of an existing agency order or a facilitation position resulting from an agency order, not from principal trading or order solicitation activity."
+    },
+    "Qualifier": {
+      "name": "Qualifier",
+      "definition": "Qualifies the use of the indication of interest."
+    },
+    "NumberOfLegs": {
+      "name": "Number Of Legs",
+      "definition": "In case of multilegs indication of interest, indicates number of instrumentLeg repeating group ."
+    },
+    "RoutingType": {
+      "name": "Routing Type",
+      "definition": "Indicates if the type of routing is allowed or blocked."
+    },
+    "OrganisationListName": {
+      "name": "Organisation List Name",
+      "definition": "Name of the organisation list."
+    }
+  },
+  "isoAssociations": {
+    "NegotiationDetails": {
+      "name": "Negotiation Details",
+      "definition": "Negotiation details associated with an indication of interest."
+    },
+    "Organisations": {
+      "name": "Organisations",
+      "definition": "Organisations to be included from the targeted list of firms, managed by the vendor, receiving indications."
+    },
+    "SpreadToBenchmark": {
+      "name": "Spread To Benchmark",
+      "definition": "Indicates the spread to benchmark details of an indication of interest."
+    },
+    "SwapSpread": {
+      "name": "Swap Spread",
+      "definition": "Indicates the swap spread details of an indication of interest."
+    },
+    "TwoLegTransaction": {
+      "name": "Two Leg Transaction",
+      "definition": "Securities Financing is the process of lending or borrowing cash or securities against securities or cash collateral. It aims at optimising liquidity, support a trading strategy, or increase settlement efficiency."
+    }
+  }
+}

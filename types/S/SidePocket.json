@@ -1,0 +1,26 @@
+{
+  "isoType": "SidePocket",
+  "language": "en",
+  "name": "Side Pocket",
+  "definition": "Separate account containing illiquid assets of a hedge fund portfolio. Only the present participants in the hedge fund will be entitled to a share of it.",
+  "isoAttributes": {
+    "SidePocketInclusionIndicator": {
+      "name": "Side Pocket Inclusion Indicator",
+      "definition": "Indicates whether the investor wants to participate in the optional side pocket."
+    },
+    "SidePocketIdentification": {
+      "name": "Side Pocket Identification",
+      "definition": "Identifies the side pocket.|Type of account used in hedge funds to separate illiquid assets from other more liquid investments. |Once an asset is designated for inclusion in a side pocket, new investors do not share in it, and when existing investors redeem from the hedge fund, they remain as investors in the side pocket until it is liquidated."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Investment account which contains the liquid assets of a hedge fund."
+    },
+    "SidePocketQuantity": {
+      "name": "Side Pocket Quantity",
+      "definition": "Quantity of the side pocket."
+    }
+  }
+}

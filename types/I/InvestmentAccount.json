@@ -1,0 +1,94 @@
+{
+  "isoType": "InvestmentAccount",
+  "language": "en",
+  "name": "Investment Account",
+  "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family.",
+  "isoAttributes": {
+    "InvestmentAccountType": {
+      "name": "Investment Account Type",
+      "definition": "Purpose of the account/source fund type. This is typically linked to an investment product, eg, wrapper, PEP, ISA."
+    },
+    "OwnershipType": {
+      "name": "Ownership Type",
+      "definition": "Ownership status of the account, eg, joint owners."
+    },
+    "Designation": {
+      "name": "Designation",
+      "definition": "Supplementary registration information applying to a specific block of units for dealing and reporting purposes. The supplementary registration information may be used when all the units are registered, for example, to a funds supermarket, but holdings for each investor have to be reconciled individually."
+    },
+    "ReferenceCurrency": {
+      "name": "Reference Currency",
+      "definition": "Currency chosen for reporting purposes by the account owner in agreement with the account servicer."
+    },
+    "AccountUsageType": {
+      "name": "Account Usage Type",
+      "definition": "Specifies whether the account is used for investment or for settlement purpose."
+    },
+    "Category": {
+      "name": "Category",
+      "definition": "Specifies the investment account category."
+    },
+    "UsufructPercentage": {
+      "name": "Usufruct Percentage",
+      "definition": "Percentage of usufruct that a person has on an asset."
+    },
+    "OwnershipPercentage": {
+      "name": "Ownership Percentage",
+      "definition": "Percentage of ownership that a person has on an asset."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentFundClass": {
+      "name": "Investment Fund Class",
+      "definition": "Investment fund classes held in an investment account."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Part of the investment account to or from which cash entries are made."
+    },
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Part of the investment account to or from which securities entries are made."
+    },
+    "InvestmentFundTax": {
+      "name": "Investment Fund Tax",
+      "definition": "Taxes specific to the account."
+    },
+    "InvestmentFundTransaction": {
+      "name": "Investment Fund Transaction",
+      "definition": "Investment fund transaction which uses the investment account."
+    },
+    "SidePocket": {
+      "name": "Side Pocket",
+      "definition": "Separate account containing illiquid assets of a hedge fund portfolio."
+    },
+    "InvestmentAccountPartyRole": {
+      "name": "Investment Account Party Role",
+      "definition": "Specifies each role linked to an investment account and played by a party in that context."
+    },
+    "DebitPortfolioTransfer": {
+      "name": "Debit Portfolio Transfer",
+      "definition": "Transfer process for which a debit investment account is specified."
+    },
+    "CreditPortfolioTransfer": {
+      "name": "Credit Portfolio Transfer",
+      "definition": "Transfer process for which a beneficiary investment account is specified."
+    },
+    "AccountForInvestmentFundProcessing": {
+      "name": "Account For Investment Fund Processing",
+      "definition": "Order desk for which an account is specified."
+    },
+    "InvestmentAccountContract": {
+      "name": "Investment Account Contract",
+      "definition": "Contract defining the related account"
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Portfolio held on an account."
+    },
+    "RelatedPortfolioTransfer": {
+      "name": "Related Portfolio Transfer",
+      "definition": "Transfer of a portfolio held on a nominee account."
+    }
+  }
+}

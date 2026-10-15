@@ -1,0 +1,62 @@
+{
+  "isoType": "Price",
+  "language": "en",
+  "name": "Price",
+  "definition": "Amount of money for which goods, services or assets are offered, sold, or bought.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Price expressed as a currency and value."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Specifies the unit of measurement. For example: kilo, tons."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code in which the price is expressed."
+    },
+    "Factor": {
+      "name": "Factor",
+      "definition": "Multiplication factor of measurement values. For example: 36 pieces."
+    }
+  },
+  "isoAssociations": {
+    "Option": {
+      "name": "Option",
+      "definition": "Option for which a strike price is specified."
+    },
+    "UnitPriceProduct": {
+      "name": "Unit Price Product",
+      "definition": "Product for which a unit price is specified."
+    },
+    "NetPriceProduct": {
+      "name": "Net Price Product",
+      "definition": "Product for which a net price is specified."
+    },
+    "PriceAdjustment": {
+      "name": "Price Adjustment",
+      "definition": "Variance on price for the goods and services."
+    },
+    "GrossPriceProduct": {
+      "name": "Gross Price Product",
+      "definition": "Product for which a gross price is specified."
+    },
+    "PriceTolerance": {
+      "name": "Price Tolerance",
+      "definition": "Variance allowed on the price of goods."
+    },
+    "Netting": {
+      "name": "Netting",
+      "definition": "Netting for which an average price is specified."
+    },
+    "SecuritiesPricing": {
+      "name": "Securities Pricing",
+      "definition": "Pricing parameters for a security."
+    },
+    "RelatedEnergy": {
+      "name": "Related Energy",
+      "definition": "Specifies related energy price."
+    }
+  }
+}

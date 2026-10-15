@@ -1,0 +1,62 @@
+{
+  "isoType": "RedemptionSchedule",
+  "language": "en",
+  "name": "Redemption Schedule",
+  "definition": "Describes the reason and terms for early partial or total redemption, amortisation or extension of an issue.",
+  "isoAttributes": {
+    "BusinessDayConvention": {
+      "name": "Business Day Convention",
+      "definition": "Convention used for adjusting a date when it is not a business day."
+    },
+    "PartyType": {
+      "name": "Party Type",
+      "definition": "Party type entitled to ask for the redemption."
+    },
+    "AmountFulfilType": {
+      "name": "Amount Fulfil Type",
+      "definition": "Specifies if the full amount or only part of it is redeemed."
+    },
+    "MinimumNoticeDays": {
+      "name": "Minimum Notice Days",
+      "definition": "Minimum number of notice in days that must be given by either the issuer or the holder before redemption can take place."
+    },
+    "MaximumNoticeDays": {
+      "name": "Maximum Notice Days",
+      "definition": "Maximum number of notice in days that must be given by either the issuer or the holder before redemption can take place."
+    },
+    "FinancialCenter": {
+      "name": "Financial Center",
+      "definition": "Financial place  taken into account to adjust the date and time, as defined within the business day convention."
+    },
+    "NoticePeriodType": {
+      "name": "Notice Period Type",
+      "definition": "Specifies the type of notice period."
+    },
+    "PriceChangeFrequency": {
+      "name": "Price Change Frequency",
+      "definition": "Redemption or amortisation price change frequency."
+    },
+    "PriceFrequency": {
+      "name": "Price Frequency",
+      "definition": "Specifies the frequency of the redemption."
+    }
+  },
+  "isoAssociations": {
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the issuer or holder may give notice."
+    },
+    "PriceChange": {
+      "name": "Price Change",
+      "definition": "Redemption or amortisation price change."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Redemption or amortisation price."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which a redemption schedule is specified."
+    }
+  }
+}

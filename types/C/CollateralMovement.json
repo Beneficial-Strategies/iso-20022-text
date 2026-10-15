@@ -1,0 +1,38 @@
+{
+  "isoType": "CollateralMovement",
+  "language": "en",
+  "name": "Collateral Movement",
+  "definition": "Provides the agreed amount and the collateral movement direction.",
+  "isoAttributes": {
+    "VariationMargin": {
+      "name": "Variation Margin",
+      "definition": "Amount of margin that will be delivered to one party by the other party after rounding, threshold and minimum transfer amount are taken into account."
+    },
+    "SegregatedIndependentAmount": {
+      "name": "Segregated Independent Amount",
+      "definition": "Amount of margin that will be delivered to one party by the other party after rounding, threshold and minimum transfer amount are taken into account."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCollateralProposal": {
+      "name": "Related Collateral Proposal",
+      "definition": "Collateral proposal for which collateral movements are detailed."
+    },
+    "MarginCall": {
+      "name": "Margin Call",
+      "definition": "Magin call which needs to be executed."
+    },
+    "SecuritiesCollateralMovement": {
+      "name": "Securities Collateral Movement",
+      "definition": "Movement of assets in relation with collateral updates."
+    },
+    "CashCollateralMovement": {
+      "name": "Cash Collateral Movement",
+      "definition": "Movement of assets in relation with collateral updates."
+    },
+    "FinancialTransaction": {
+      "name": "Financial Transaction",
+      "definition": "Financial transaction to which the collateral management is associated."
+    }
+  }
+}

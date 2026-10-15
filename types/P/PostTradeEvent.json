@@ -1,0 +1,32 @@
+{
+  "isoType": "PostTradeEvent",
+  "language": "en",
+  "name": "Post Trade Event",
+  "definition": "Information relating to post-trade lifecycle events.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of post trade event."
+    },
+    "OriginalReference": {
+      "name": "Original Reference",
+      "definition": "Provides the original trade reference."
+    },
+    "UnderlyingLiabilityReference": {
+      "name": "Underlying Liability Reference",
+      "definition": "Related underlying liability, for example a commercial trade."
+    },
+    "ProfitOrLossSettlementDate": {
+      "name": "Profit Or Loss Settlement Date",
+      "definition": "Date on which any profit or loss arising from the post-trade event will be settled."
+    },
+    "ProfitOrLoss": {
+      "name": "Profit Or Loss",
+      "definition": "Amount of profit or loss that is to be settled, after any adjustments have taken place."
+    },
+    "OutstandingSettlementAmount": {
+      "name": "Outstanding Settlement Amount",
+      "definition": "Amount that remains to be settled, in the specified currency if a trade is partially delivered early or partially unwound."
+    }
+  }
+}

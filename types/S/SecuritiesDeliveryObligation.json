@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesDeliveryObligation",
+  "language": "en",
+  "name": "Securities Delivery Obligation",
+  "definition": "Obligation for one party to deliver securities to another party.",
+  "isoAttributes": {
+    "CCPEligibility": {
+      "name": "CCP Eligibility",
+      "definition": "Specifies whether the settlement transaction is CCP (Central Counterparty) eligible."
+    },
+    "NettingEligibility": {
+      "name": "Netting Eligibility",
+      "definition": "Specifies whether the settlement transaction is eligible for netting."
+    },
+    "TransferInstructionDate": {
+      "name": "Transfer Instruction Date",
+      "definition": "Date at which the instructing party places the transfer instruction."
+    },
+    "TransferCurrency": {
+      "name": "Transfer Currency",
+      "definition": "Identifies the currency to be used to transfer the holdings."
+    },
+    "SettlementInstructionGeneration": {
+      "name": "Settlement Instruction Generation",
+      "definition": "Specifies whether the ETC provider should generate settlement instructions or not."
+    },
+    "SettlementDateCode": {
+      "name": "Settlement Date Code",
+      "definition": "Requested date of trade settlement, in coded form, for example, trade date +1)."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCorporateAction": {
+      "name": "Related Corporate Action",
+      "definition": "Corporate action processes which are the source of the securities delivery obligation."
+    },
+    "RelatedCollateralMovement": {
+      "name": "Related Collateral Movement",
+      "definition": "Collateral movement which is the source of the obligation."
+    },
+    "SecuritiesTradeExecution": {
+      "name": "Securities Trade Execution",
+      "definition": "Specifies the trade which originates the delivery obligation."
+    },
+    "RelatedPortfolioTransfer": {
+      "name": "Related Portfolio Transfer",
+      "definition": "Portfolio transfer which is the source of the securities delivery obligation."
+    },
+    "SecuritiesTransfer": {
+      "name": "Securities Transfer",
+      "definition": "Completion of a securities settlement instruction, wherein securities are delivered/debited from a securities account and received/credited to the designated securities account."
+    },
+    "SecuritiesLending": {
+      "name": "Securities Lending",
+      "definition": "Securities lending process which covers the delivery of securities by the seller."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "AccountLink",
+  "language": "en",
+  "name": "Account Link",
+  "definition": "Defines the link between the accounts held with a market infrastructure.",
+  "isoAttributes": {
+    "CashSettlementIndicator": {
+      "name": "Cash Settlement Indicator",
+      "definition": "Specifies whether market infrastructure can use the link between the securities account and the market infrastructure dedicated cash account for the settlement of the cash leg of a settlement instruction."
+    },
+    "CollateralisationIndicator": {
+      "name": "Collateralisation Indicator",
+      "definition": "Specifies whether market infrastructure can use the securities, earmarked as collateral and held on the securities account, for auto-collateralisation operations on the linked market infrastructure dedicated cash account."
+    },
+    "DefaultIndicator": {
+      "name": "Default Indicator",
+      "definition": "Specifies whether created account link is set as default for settlement."
+    }
+  },
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account linked to a securities account."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Defines the period when the securities account is linked to the cash account."
+    },
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Securities account linked to a cash account."
+    },
+    "MarketInfrastructure": {
+      "name": "Market Infrastructure",
+      "definition": "Specifies the market infrastructure where the accounts are held."
+    }
+  }
+}

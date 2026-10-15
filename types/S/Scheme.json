@@ -1,0 +1,66 @@
+{
+  "isoType": "Scheme",
+  "language": "en",
+  "name": "Scheme",
+  "definition": "Information regarding an enumerated code list and its owner.",
+  "isoAttributes": {
+    "NameShort": {
+      "name": "Name Short",
+      "definition": "Short textual description of the scheme."
+    },
+    "Code": {
+      "name": "Code",
+      "definition": "Code that represents the enumerated list, for example, ISO 6166 for ISIN."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version number of the scheme."
+    },
+    "NameLong": {
+      "name": "Name Long",
+      "definition": "Long textual description of the scheme."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Textual description of the scheme."
+    },
+    "DomainValueCode": {
+      "name": "Domain Value Code",
+      "definition": "Code for a specific instance of an entry within the enumerated list, for example, ISIN."
+    },
+    "DomainValueName": {
+      "name": "Domain Value Name",
+      "definition": "Textual description of the DomainValueCode, for example, International Securities Identification Number."
+    }
+  },
+  "isoAssociations": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification information for which a scheme is specified."
+    },
+    "Rating": {
+      "name": "Rating",
+      "definition": "Rating for which an identification by scheme is specified."
+    },
+    "CreditorRole": {
+      "name": "Creditor Role",
+      "definition": "Creditor for which an identification by scheme is specified."
+    },
+    "InformationPartyRole": {
+      "name": "Information Party Role",
+      "definition": "Role played by a party as source of a scheme code."
+    },
+    "AssessmentValidityPeriod": {
+      "name": "Assessment Validity Period",
+      "definition": "Period during which the version of the scheme applies (see ISO-8601)."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "Specifies the sector to which the scheme applies."
+    },
+    "AssetClassification": {
+      "name": "Asset Classification",
+      "definition": "Asset for which a classification by scheme is specified."
+    }
+  }
+}

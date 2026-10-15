@@ -1,0 +1,22 @@
+{
+  "isoType": "IntraPositionTransfer",
+  "language": "en",
+  "name": "Intra Position Transfer",
+  "definition": "Transfer of securities from one sub-balance to another or from one balance status to another.",
+  "isoAttributes": {
+    "CollateralAmount": {
+      "name": "Collateral Amount",
+      "definition": "Value of the collateral available for the delivery settlement process."
+    }
+  },
+  "isoAssociations": {
+    "Reservation": {
+      "name": "Reservation",
+      "definition": "Quantity of securities set aside by a party for specific purpose."
+    },
+    "SecuritiesBalance": {
+      "name": "Securities Balance",
+      "definition": "Specifies the securities balance or sub-balance from/to which the securities are transferred."
+    }
+  }
+}

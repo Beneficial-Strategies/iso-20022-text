@@ -1,0 +1,82 @@
+{
+  "isoType": "RegisteredContract",
+  "language": "en",
+  "name": "Registered Contract",
+  "definition": "Contract registered for regulatory purpose by a registration agent for the journaling of payments made against the contract.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification of the registered contract."
+    },
+    "DeliveryDate": {
+      "name": "Delivery Date",
+      "definition": "Provides the date for the delivery of the registered contract."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Priority requested for the registered contract."
+    },
+    "RegistrationDate": {
+      "name": "Registration Date",
+      "definition": "Provides the date for the registration of the registered contract."
+    },
+    "ClosureDate": {
+      "name": "Closure Date",
+      "definition": "Date of closure of the contract."
+    },
+    "SubmissionDate": {
+      "name": "Submission Date",
+      "definition": "Provides the date for the submission of the registered contract."
+    },
+    "DeliveryMethod": {
+      "name": "Delivery Method",
+      "definition": "Provides the communication method for the delivery of the registered contract."
+    },
+    "SubmissionMethod": {
+      "name": "Submission Method",
+      "definition": "Provides the communication method for the submission of the registered contract."
+    }
+  },
+  "isoAssociations": {
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Certificate against which all transactions in the scope of the regulatory requirements are registered."
+    },
+    "ContractBalance": {
+      "name": "Contract Balance",
+      "definition": "Contract balance on date of contract registration."
+    },
+    "ReportingParty": {
+      "name": "Reporting Party",
+      "definition": "Party which must register the contract for regulatory reporting reasons."
+    },
+    "RegistrationAgent": {
+      "name": "Registration Agent",
+      "definition": "Agent which is in charge of the registration of the contract."
+    },
+    "ReceivingParty": {
+      "name": "Receiving Party",
+      "definition": "Party which receives support information about the registered contract."
+    },
+    "ClosureReason": {
+      "name": "Closure Reason",
+      "definition": "Reason of closure of the contract."
+    },
+    "PaymentScheduleType": {
+      "name": "Payment Schedule Type",
+      "definition": "Type of the payment schedule provided in the contract."
+    },
+    "SendingParty": {
+      "name": "Sending Party",
+      "definition": "Party which sends support information about the registered contract."
+    },
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Provides the payment related of the registered contract."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the registered contract."
+    }
+  }
+}

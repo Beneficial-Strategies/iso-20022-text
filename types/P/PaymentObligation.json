@@ -1,0 +1,122 @@
+{
+  "isoType": "PaymentObligation",
+  "language": "en",
+  "name": "Payment Obligation",
+  "definition": "Obligation for the debtor to pay the creditor an amount of cash.",
+  "isoAttributes": {
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Underlying reason for the payment obligation"
+    },
+    "RemittanceDeliveryMethod": {
+      "name": "Remittance Delivery Method",
+      "definition": "Specifies the method to be used by the first agent (debtor agent in the case of a credit transfer, creditor agent in the case of a direct debit) to deliver the remittance advice information, which may be sent separately from the payment instruction."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount payable to the creditor."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Maximum amount that a financial institution guarantees to pay for a specific commercial trade, expressed as a percentage of the purchase order net amount."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount that a financial institution guarantees to pay for a specific commercial trade."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date at which the obligation will expire. For instance, it is the transaction authorisation deadline to complete a payment by card."
+    },
+    "ApplicableLaw": {
+      "name": "Applicable Law",
+      "definition": "Country of which the law governs the payment obligation."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Due date for the payment."
+    }
+  },
+  "isoAssociations": {
+    "PaymentOffset": {
+      "name": "Payment Offset",
+      "definition": "Fulfilment of a payment obligation through a payment and its execution. It is derived from the association between Obligation and Obligation fulfillment."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Specifies the referred document/transaction, eg, invoice or credit note."
+    },
+    "RemittanceLocation": {
+      "name": "Remittance Location",
+      "definition": "Address to which the first agent is to send the remittance information."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Process which calculates the interest to be paid. It may also specify the interest charged on instalment."
+    },
+    "CommercialTrade": {
+      "name": "Commercial Trade",
+      "definition": "Commercial trade which creates the payment obligation."
+    },
+    "PaymentSourceBuyIn": {
+      "name": "Payment Source Buy In",
+      "definition": "Buy-in process which created the payment obligation."
+    },
+    "RelatedCorporateAction": {
+      "name": "Related Corporate Action",
+      "definition": "Corporate action processes which are the source of the payment obligation."
+    },
+    "RelatedCollateralMovement": {
+      "name": "Related Collateral Movement",
+      "definition": "Collateral movement which is the source of the obligation."
+    },
+    "PaymentSourceUndertakingDemand": {
+      "name": "Payment Source Undertaking Demand",
+      "definition": "Undertaking demand which is the source of a payment obligation."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to a payment obligation and played by a party at that step in a payment flow."
+    },
+    "ExecutedSecuritiesTrade": {
+      "name": "Executed Securities Trade",
+      "definition": "Securities trade which created a payment flow."
+    },
+    "RelatedAccountClosingTerms": {
+      "name": "Related Account Closing Terms",
+      "definition": "Contract which authorises the transfer of funds resulting in a payment obligation."
+    },
+    "PaymentSourcePortfolioTransfer": {
+      "name": "Payment Source Portfolio Transfer",
+      "definition": "The PaymentObligation that specifies the payment resulting from charges due by one party to another."
+    },
+    "PaymentSourceCurrencyOption": {
+      "name": "Payment Source Currency Option",
+      "definition": "The PaymentObligation that specifies the amount of the premium paid by the buyer of the option and its settlement place."
+    },
+    "ExchangeRateInformation": {
+      "name": "Exchange Rate Information",
+      "definition": "Foreign exchange trade which is the source of the payment."
+    },
+    "Dividend": {
+      "name": "Dividend",
+      "definition": "Dividend for which payment terms are specified."
+    },
+    "RepurchaseAgreement": {
+      "name": "Repurchase Agreement",
+      "definition": "Repurchase agreement which covers the delivery of cash by the buyer."
+    },
+    "RelatedAssignment": {
+      "name": "Related Assignment",
+      "definition": "Assignment which contains one or more payment obligations."
+    },
+    "BankingTransaction": {
+      "name": "Banking Transaction",
+      "definition": "Transaction executed by the client of a financial institution from/to the account serviced by the financial institution, such as mortgage payment."
+    },
+    "PaymentTerms": {
+      "name": "Payment Terms",
+      "definition": "Specifies the payment terms of the obligation."
+    }
+  }
+}

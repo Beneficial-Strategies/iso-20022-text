@@ -1,0 +1,74 @@
+{
+  "isoType": "System",
+  "language": "en",
+  "name": "System",
+  "definition": "Set of integrated applications that provides centralised services such as clearing, netting, reconciliation, trading and/or settlement.",
+  "isoAttributes": {
+    "SystemDateTime": {
+      "name": "System Date Time",
+      "definition": "Date time of a system performing a task."
+    },
+    "SystemLanguage": {
+      "name": "System Language",
+      "definition": "Specifies the language used by the system."
+    }
+  },
+  "isoAssociations": {
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Identification of the system."
+    },
+    "Location": {
+      "name": "Location",
+      "definition": "Location, address and country in which the system is located."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Reconciliation process provided by the system."
+    },
+    "Availability": {
+      "name": "Availability",
+      "definition": "Information about the activity or non-activity of the system."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Specific point in time associated with the system's processing cycle. Operations of a system are composed of a series of processes, the closing, or completion, of which constitutes an event with an associated time stamp. An event may have a series of time stamps associated with it, such as the scheduled and effective completion times."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to a system."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the system."
+    },
+    "SystemGeneratedInformation": {
+      "name": "System Generated Information",
+      "definition": "Business details provided for an information system."
+    },
+    "VersionValidityPeriod": {
+      "name": "Version Validity Period",
+      "definition": "Date at, or period of time during which, the stipulated version is in effect."
+    },
+    "Negotiation": {
+      "name": "Negotiation",
+      "definition": "Negotiation process which uses a ssystem."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account managed by a system and held by a system member."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade processed by a system."
+    },
+    "Assessment": {
+      "name": "Assessment",
+      "definition": "Assessment associated with a system."
+    },
+    "TradesPosition": {
+      "name": "Trades Position",
+      "definition": "Specifies the status of trades and their value inside a system."
+    }
+  }
+}

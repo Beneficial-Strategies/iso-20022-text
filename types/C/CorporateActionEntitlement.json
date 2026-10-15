@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionEntitlement",
+  "language": "en",
+  "name": "Corporate Action Entitlement",
+  "definition": "Rights entitled to the account owner based on the terms of the corporate action event and the balance of underlying securities.",
+  "isoAttributes": {
+    "EligibleBalanceIndicator": {
+      "name": "Eligible Balance Indicator",
+      "definition": "Indicates whether the eligible balance is final except for a voluntary corporate action event where it can represent the current eligible balance when communicated before expiration date of that event."
+    }
+  },
+  "isoAssociations": {
+    "EligibleBalance": {
+      "name": "Eligible Balance",
+      "definition": "Total balance of securities eligible for this corporate action event. The entitlement calculation is based on this balance."
+    },
+    "SecuritiesBalance": {
+      "name": "Securities Balance",
+      "definition": "Specifies any type of balance related to a corporate action entitlement."
+    },
+    "InstructedBalance": {
+      "name": "Instructed Balance",
+      "definition": "Balance of  instructed position."
+    },
+    "UninstructedBalance": {
+      "name": "Uninstructed Balance",
+      "definition": "Balance of uninstructed position."
+    },
+    "RelatedServicing": {
+      "name": "Related Servicing",
+      "definition": "Process which groups the activities related to corporate action servicing."
+    },
+    "NotEligibleBalance": {
+      "name": "Not Eligible Balance",
+      "definition": "Total balance of securities which are not eligible for this corporate action event."
+    }
+  }
+}

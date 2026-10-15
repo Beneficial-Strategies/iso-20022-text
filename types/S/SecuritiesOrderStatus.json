@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesOrderStatus",
+  "language": "en",
+  "name": "Securities Order Status",
+  "definition": "Status of a securities order or of the processing of a securities order.",
+  "isoAttributes": {
+    "ConfirmationRejectedStatusReason": {
+      "name": "Confirmation Rejected Status Reason",
+      "definition": "Specifies the reason for a confirmation rejected status."
+    },
+    "ConfirmationStatus": {
+      "name": "Confirmation Status",
+      "definition": "Status of the confirmation of a status order."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Status of the cancellation of a securities order."
+    },
+    "PartiallySettledStatusReason": {
+      "name": "Partially Settled Status Reason",
+      "definition": "Reason for the partially settled status."
+    },
+    "SuspendedStatusReason": {
+      "name": "Suspended Status Reason",
+      "definition": "Reason for the suspended status."
+    },
+    "ListOrderStatus": {
+      "name": "List Order Status",
+      "definition": "Specifies the status of a list order."
+    },
+    "ConditionallyAcceptedStatus": {
+      "name": "Conditionally Accepted Status",
+      "definition": "Reason for the conditionally accepted status."
+    },
+    "OrderStatus": {
+      "name": "Order Status",
+      "definition": "Indicates the status of an order at a specific point in time."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Order for which a status is specified."
+    },
+    "InvestmentFundOrder": {
+      "name": "Investment Fund Order",
+      "definition": "Investment fund order for which a status is provided."
+    },
+    "CumulativeQuantity": {
+      "name": "Cumulative Quantity",
+      "definition": "Total quantity (for instance number of shares) filled."
+    },
+    "RemainingQuantity": {
+      "name": "Remaining Quantity",
+      "definition": "Quantity opened for further execution."
+    }
+  }
+}

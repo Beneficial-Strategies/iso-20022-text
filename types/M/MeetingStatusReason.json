@@ -1,0 +1,22 @@
+{
+  "isoType": "MeetingStatusReason",
+  "language": "en",
+  "name": "Meeting Status Reason",
+  "definition": "Specifies the underlying reason for a status of a meeting or related instructions.",
+  "isoAttributes": {
+    "MeetingCancellationReason": {
+      "name": "Meeting Cancellation Reason",
+      "definition": "Specifies the reason for cancelling a meeting."
+    },
+    "InstructionRejectionReason": {
+      "name": "Instruction Rejection Reason",
+      "definition": "Reason of the rejection of the instruction or of the cancellation request."
+    }
+  },
+  "isoAssociations": {
+    "MeetingStatus": {
+      "name": "Meeting Status",
+      "definition": "Status for which a reason is provided. It is derived from the association between StatusReason and Status."
+    }
+  }
+}

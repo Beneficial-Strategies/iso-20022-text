@@ -1,0 +1,162 @@
+{
+  "isoType": "InvestmentFundClassProcessingCharacteristics",
+  "language": "en",
+  "name": "Investment Fund Class Processing Characteristics",
+  "definition": "Processing characteristics linked to the instrument, ie, not to  the market.",
+  "isoAttributes": {
+    "ReinvestmentFrequency": {
+      "name": "Reinvestment Frequency",
+      "definition": "Frequency with which the reinvestment takes place,  This is the same or less than the dividend frequency,"
+    },
+    "FrontEndLoadIndicator": {
+      "name": "Front End Load Indicator",
+      "definition": "Front end charge on subscription orders for this class can be applied."
+    },
+    "BackEndLoadIndicator": {
+      "name": "Back End Load Indicator",
+      "definition": "Exit charge (eg. CDSC) on redemption orders for this class can be applied."
+    },
+    "SwitchingFeeIndicator": {
+      "name": "Switching Fee Indicator",
+      "definition": "If a separate fee for switching between sub-funds of the same umbrella can be applied."
+    },
+    "LimitedSubscriptionPeriod": {
+      "name": "Limited Subscription Period",
+      "definition": "Specific period, eg, for some guaranteed funds, during which the units/shares may be subscribed to."
+    },
+    "LimitedRedemptionPeriod": {
+      "name": "Limited Redemption Period",
+      "definition": "Specific period, eg, for some guaranteed funds, during which the units/shares may be redeemed."
+    },
+    "Decimalisation": {
+      "name": "Decimalisation",
+      "definition": "Number of decimal places to which quantities of units/shares are rounded."
+    },
+    "HoldingTransferableIndicator": {
+      "name": "Holding Transferable Indicator",
+      "definition": "Indicates whether registered investors are able to transfer some or all of their holdings to third parties."
+    },
+    "ApplicationForm": {
+      "name": "Application Form",
+      "definition": "Physical application form is required."
+    },
+    "SignatureRequired": {
+      "name": "Signature Required",
+      "definition": "Specifies which type of signature is required when completing an initial subscription, when completing a subsequent subscription, and when completing redemption."
+    },
+    "AmountIndicator": {
+      "name": "Amount Indicator",
+      "definition": "Indicates whether subscriptions/redemption in amount are allowed."
+    },
+    "UnitsIndicator": {
+      "name": "Units Indicator",
+      "definition": "Indicates whether subsciptions/redemption may be placed as a number of units."
+    },
+    "OrderCutOffDateTime": {
+      "name": "Order Cut Off Date Time",
+      "definition": "Last date/time at which an order to subscribe or an order to redeem can be given."
+    },
+    "HoldingTransferable": {
+      "name": "Holding Transferable",
+      "definition": "Indicates whether registered investors are able to transfer some or all of their holdings to third parties."
+    },
+    "DealingFrequency": {
+      "name": "Dealing Frequency",
+      "definition": "Frequency at which the subscriptions and redemptions are done."
+    },
+    "LimitedPeriod": {
+      "name": "Limited Period",
+      "definition": "Specific period, eg, for some guaranteed funds, during which the units/shares may be redeemed."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date/time as from which the processing characteristics are valid."
+    },
+    "SubsequentSubscriptionApplicationForm": {
+      "name": "Subsequent Subscription Application Form",
+      "definition": "Physical application form for subsequent investments by the same investor."
+    },
+    "RedemptionForm": {
+      "name": "Redemption Form",
+      "definition": "Physical written instruction/renunciation form for redemption of units/shares by the investor."
+    },
+    "DealingCurrency": {
+      "name": "Dealing Currency",
+      "definition": "Currency in which a subscription or redemption is accepted."
+    },
+    "MinimumHoldingAmount": {
+      "name": "Minimum Holding Amount",
+      "definition": "Minimum value of units that must be maintained to avoid automatic redemption."
+    },
+    "MaximumRedemptionUnits": {
+      "name": "Maximum Redemption Units",
+      "definition": "Maximum number of shares/units that may be redeemed on a single dealing day."
+    },
+    "MinimumHoldingUnits": {
+      "name": "Minimum Holding Units",
+      "definition": "Minimum number of units that must be maintained to avoid automatic redemption."
+    },
+    "MinimumRemainingHoldingAmount": {
+      "name": "Minimum Remaining Holding Amount",
+      "definition": "Minimum value of units/shares that must be retained to avoid automatic redemption."
+    },
+    "MaximumRedemptionPercentage": {
+      "name": "Maximum Redemption Percentage",
+      "definition": "Maximum quantity of securities, expressed as a percentage that can be sold."
+    },
+    "MaximumRedemptionAmount": {
+      "name": "Maximum Redemption Amount",
+      "definition": "Maximum quantity of securities, expressed as an amount that can be sold."
+    },
+    "MinimumInitialSubscriptionUnits": {
+      "name": "Minimum Initial Subscription Units",
+      "definition": "Minimum initial number of units/shares that must be purchased."
+    },
+    "MinimumSubscriptionAmount": {
+      "name": "Minimum Subscription Amount",
+      "definition": "Minimum quantity of securities, expressed as an amount that must be purchased."
+    },
+    "MinimumInitialSubscriptionAmount": {
+      "name": "Minimum Initial Subscription Amount",
+      "definition": "Minimum initial quantity of securities, expressed as an amount that must be purchased at subscription."
+    },
+    "MinimumSubscriptionUnits": {
+      "name": "Minimum Subscription Units",
+      "definition": "Minimum number of units/shares that must be purchase by existing investors."
+    },
+    "MinimumHoldingPeriod": {
+      "name": "Minimum Holding Period",
+      "definition": "Description of a period, that may be a number of days, weeks or descriptive period during which the units/shares must be held following their issue before redemption will be permitted."
+    },
+    "MinimumRedemptionPercentage": {
+      "name": "Minimum Redemption Percentage",
+      "definition": "Minimum percentage of holding that may be redeemed."
+    }
+  },
+  "isoAssociations": {
+    "SettlementCycle": {
+      "name": "Settlement Cycle",
+      "definition": "An agreed number of days after the Trade date (T) used to define standard timeframes e.g T+3 settlement period |Where T = the date the price is applied to a transaction."
+    },
+    "FundClass": {
+      "name": "Fund Class",
+      "definition": "Investment fund class for which processing characteristics are specified."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "Account used for settlement of fund transactions."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country in which the processing characteristic applies."
+    },
+    "LocalMarketAnnex": {
+      "name": "Local Market Annex",
+      "definition": "Context, or geographic environment, in which trading parties may meet in order to negotiate and execute trades among themselves."
+    },
+    "DealingCutOffTimeFrame": {
+      "name": "Dealing Cut Off Time Frame",
+      "definition": "Specifies the number of days for cut off before or after an activity."
+    }
+  }
+}

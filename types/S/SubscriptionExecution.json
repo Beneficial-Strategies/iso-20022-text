@@ -1,0 +1,34 @@
+{
+  "isoType": "SubscriptionExecution",
+  "language": "en",
+  "name": "Subscription Execution",
+  "definition": "Execution of a subscription order.",
+  "isoAttributes": {
+    "EquityComponent": {
+      "name": "Equity Component",
+      "definition": "Amount subscribed into equity (not including dividends)."
+    },
+    "CashComponent": {
+      "name": "Cash Component",
+      "definition": "Amount subscribed into cash."
+    },
+    "InvestedNetAmount": {
+      "name": "Invested Net Amount",
+      "definition": "Net amount of money invested in a specific financial instrument by an investor, expressed in the currency requested by the investor."
+    },
+    "Refund": {
+      "name": "Refund",
+      "definition": "Return of cash that has been overpaid for a subscription."
+    },
+    "SubscriptionInterest": {
+      "name": "Subscription Interest",
+      "definition": "Interest received when a subscription amount is paid in advance and then invested by the fund."
+    }
+  },
+  "isoAssociations": {
+    "TaxEfficientProduct": {
+      "name": "Tax Efficient Product",
+      "definition": "Characteristics of a tax efficient product."
+    }
+  }
+}

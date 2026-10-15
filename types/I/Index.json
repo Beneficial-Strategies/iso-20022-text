@@ -1,0 +1,62 @@
+{
+  "isoType": "Index",
+  "language": "en",
+  "name": "Index",
+  "definition": "Identifies the index.",
+  "isoAttributes": {
+    "IndexRateBasis": {
+      "name": "Index Rate Basis",
+      "definition": "Specifies the reference rate."
+    },
+    "IndexPoints": {
+      "name": "Index Points",
+      "definition": "Number of points above the index used to calculate a price."
+    },
+    "IndexFixingDate": {
+      "name": "Index Fixing Date",
+      "definition": "Date/time at which an index rate will be determined ."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the index by a name for instance LIBOR."
+    },
+    "ReferenceSource": {
+      "name": "Reference Source",
+      "definition": "Identifies the reference source. The source can be the fixing agent or a system."
+    },
+    "IndexRateCurrency": {
+      "name": "Index Rate Currency",
+      "definition": "Specifies the currency of the reference rate for fixed income instruments where the price of the instrument is indexed to the price of an underlying benchmark."
+    },
+    "IndexRateFrequency": {
+      "name": "Index Rate Frequency",
+      "definition": "Frequency at which the index changes."
+    },
+    "IndexRateMultiplier": {
+      "name": "Index Rate Multiplier",
+      "definition": "Multiplier for the variable rate."
+    }
+  },
+  "isoAssociations": {
+    "IndexFactor": {
+      "name": "Index Factor",
+      "definition": "Index rate applied to the amount paid to adjust it for instance to inflation."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Percentage to be added to or deducted from the index rate to calculate the effective rate."
+    },
+    "PortfolioBenchmark": {
+      "name": "Portfolio Benchmark",
+      "definition": "Portfolio benchmark which uses an index for decomposition,"
+    },
+    "VariableInterest": {
+      "name": "Variable Interest",
+      "definition": "Variable interest which uises the index."
+    },
+    "SecuritiesPricing": {
+      "name": "Securities Pricing",
+      "definition": "Pricing which uses an index."
+    }
+  }
+}

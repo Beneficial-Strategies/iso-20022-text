@@ -1,0 +1,102 @@
+{
+  "isoType": "CashClearingSystemMember",
+  "language": "en",
+  "name": "Cash Clearing System Member",
+  "definition": "Unique and unambiguous identifier for a clearing system member, as assigned by the clearing system. In some clearing systems, the accounts of the clearing system members are also assigned an identifier. The identifier can be used when transmitting, reconciling and confirming payment orders or security transfer instructions prior to settlement, and may include the netting of instructions and the establishment of final positions for settlement.",
+  "isoAttributes": {
+    "CHIPSUniversalIdentification": {
+      "name": "CHIPS Universal Identification",
+      "definition": "(United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) - identifies entities that own accounts at CHIPS participating financial institutions, through which CHIPS payments are effected. The CHIPS UID is assigned by the New York Clearing House."
+    },
+    "NewZealandNCC": {
+      "name": "New Zealand NCC",
+      "definition": "New Zealand Bank/Branch Code - identifies New Zealand institutions on the New Zealand national clearing system. The code is assigned by the New Zealand Bankers' Association (NZBA)."
+    },
+    "IrishNSC": {
+      "name": "Irish NSC",
+      "definition": "Irish National Sorting Code - identifies Irish financial institutions on the Irish national clearing system. The code is assigned by the Irish Payments Services Organisation (IPSO)."
+    },
+    "UKSortCode": {
+      "name": "UK Sort Code",
+      "definition": "United Kingdom (UK) Sort Code - identifies British financial institutions on the British national clearing systems. The sort code is assigned by the Association for Payments and Clearing Services (APACS)."
+    },
+    "CHIPSParticipantIdentification": {
+      "name": "CHIPS Participant Identification",
+      "definition": "(United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) - identifies financial institutions participating on CHIPS. The CHIPS Participant ID is assigned by the New York Clearing House."
+    },
+    "SwissBC": {
+      "name": "Swiss BC",
+      "definition": "Swiss Bank Code - identifies Swiss institutions on the Swiss national clearing system."
+    },
+    "FedwireRoutingNumber": {
+      "name": "Fedwire Routing Number",
+      "definition": "Fed wire Routing Number - identifies financial institutions, in the US, on the Fed wire system. The routing number is assigned by the American Bankers Association (ABA)."
+    },
+    "PortugueseNCC": {
+      "name": "Portuguese NCC",
+      "definition": "Portuguese National Clearing Code - identifies Portuguese financial institutions on the Portuguese national clearing system."
+    },
+    "RussianCentralBankIdentificationCode": {
+      "name": "Russian Central Bank Identification Code",
+      "definition": "Russian Central Bank Identification Code - identifies Russian financial institutions on the Russian national clearing system."
+    },
+    "ItalianDomesticIdentificationCode": {
+      "name": "Italian Domestic Identification Code",
+      "definition": "Italian Domestic Identification Code - identifies Italian financial institutions on the Italian national clearing system. The code is assigned by the Associazione Bancaria Italiana (ABI)."
+    },
+    "AustrianBankleitzahl": {
+      "name": "Austrian Bankleitzahl",
+      "definition": "Austrian Bankleitzahl - identifies Austrian financial institutions on the Austrian national clearing system."
+    },
+    "CanadianPaymentsAssociationRoutingNumber": {
+      "name": "Canadian Payments Association Routing Number",
+      "definition": "Canadian Payments Association Routing Number - identifies Canadian financial institutions on the Canadian national clearing system."
+    },
+    "SwissSIC": {
+      "name": "Swiss SIC",
+      "definition": "Swiss Interbank Clearing (SIC) Code - identifies Swiss financial institutions domestically, on the Swiss national clearing system."
+    },
+    "GermanBankleitzahl": {
+      "name": "German Bankleitzahl",
+      "definition": "German Bankleitzahl - identifies German financial institutions on the German national clearing systems."
+    },
+    "SpanishDomesticInterbankingCode": {
+      "name": "Spanish Domestic Interbanking Code",
+      "definition": "Spanish Domestic Interbanking Code - identifies Spanish financial institutions on the Spanish national clearing system. The code is assigned by the Centro de Cooperacion Interbancaria (CCI)."
+    },
+    "SouthAfricanNCC": {
+      "name": "South African NCC",
+      "definition": "South African National Clearing Code (NCC) - identifies South African financial institutions on the South African national clearing system. The code is assigned by the South African Bankers Services Company Ltd. (BankServ)."
+    },
+    "HongKongBankCode": {
+      "name": "Hong Kong Bank Code",
+      "definition": "Hong Kong Bank Code - identifies Hong Kong financial institutions on the Hong Kong local clearing system."
+    },
+    "IndianFinancialSystemCode": {
+      "name": "Indian Financial System Code",
+      "definition": "Indian Financial System Code - identifies Indian financial institutions on the Indian local clearing system."
+    },
+    "HellenicBankIdentificationCode": {
+      "name": "Hellenic Bank Identification Code",
+      "definition": "Hellenic Bank Identification Code - identifies Hellenic financial institutions on the Hellenic national clearing system."
+    },
+    "PolishNationalClearingCode": {
+      "name": "Polish National Clearing Code",
+      "definition": "Polish National Clearing Code - identifies Polish financial institutions on the Polish national clearing system."
+    }
+  },
+  "isoAssociations": {
+    "OrganisationIdentification": {
+      "name": "Organisation Identification",
+      "definition": "Identification parameters which include clearing system member identification."
+    },
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Clearing system member for which a clearing system member identification is specified."
+    },
+    "AustralianBSBCode": {
+      "name": "Australian BSB Code",
+      "definition": "Australian Bank State Branch (BSB) Code - identifies Australian financial institutions on the Australian national clearing system. The code is assigned by the Australian Payments Clearing Association (APCA)."
+    }
+  }
+}

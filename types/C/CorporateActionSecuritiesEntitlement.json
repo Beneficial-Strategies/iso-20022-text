@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionSecuritiesEntitlement",
+  "language": "en",
+  "name": "Corporate Action Securities Entitlement",
+  "definition": "Rights for securities entitled to the account owner based on the terms of the corporate action event and the balance of underlying securities.",
+  "isoAttributes": {
+    "RenounceableEntitlementStatusType": {
+      "name": "Renounceable Entitlement Status Type",
+      "definition": "Specifies whether terms of the event allow resale of the rights."
+    }
+  },
+  "isoAssociations": {
+    "EntitledSecuritiesQuantity": {
+      "name": "Entitled Securities Quantity",
+      "definition": "Quantity of securities based on the terms of the corporate action event and balance of underlying securities entitled to the account owner. (This quantity can be positive or negative)."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ClassAction",
+  "language": "en",
+  "name": "Class Action",
+  "definition": "Form of lawsuit in which a group of shareholders collectively bring a claim to court, mainly because it would be too expensive for each individual shareholder to launch their own lawsuit.",
+  "isoAttributes": {
+    "ClassActionNumber": {
+      "name": "Class Action Number",
+      "definition": "Reference assigned by a court to a class action."
+    },
+    "LeadPlaintiffDeadline": {
+      "name": "Lead Plaintiff Deadline",
+      "definition": "Last day an investor can become a lead plaintiff."
+    },
+    "CourtApprovalDate": {
+      "name": "Court Approval Date",
+      "definition": "Date upon which the High Court provided approval."
+    },
+    "FilingDate": {
+      "name": "Filing Date",
+      "definition": "Date on which the action was filed at the applicable court."
+    },
+    "HearingDate": {
+      "name": "Hearing Date",
+      "definition": "Date for the hearing between the plaintiff and defendant, as set by the court."
+    }
+  },
+  "isoAssociations": {
+    "ClaimPeriod": {
+      "name": "Claim Period",
+      "definition": "Period assigned by the court in a class action. It determines the client's eligible transactions that will be included in the class action and used to determine the resulting entitlement."
+    },
+    "CorporateEvent": {
+      "name": "Corporate Event",
+      "definition": "Corporate event for which class action is specified."
+    }
+  }
+}

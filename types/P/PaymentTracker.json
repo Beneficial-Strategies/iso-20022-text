@@ -1,0 +1,34 @@
+{
+  "isoType": "PaymentTracker",
+  "language": "en",
+  "name": "Payment Tracker",
+  "definition": "Specifies the agent specific tracking system information of a payment transaction.",
+  "isoAttributes": {
+    "ChargesAmount": {
+      "name": "Charges Amount",
+      "definition": "Transaction charges to be paid by the charge bearer."
+    },
+    "ChargeBearer": {
+      "name": "Charge Bearer",
+      "definition": "Specifies which party/parties will bear the charges associated with the processing of the payment transaction."
+    }
+  },
+  "isoAssociations": {
+    "Agent": {
+      "name": "Agent",
+      "definition": "Identification of an agent in the tracker."
+    },
+    "ExchangeRateData": {
+      "name": "Exchange Rate Data",
+      "definition": "Provides details of the rate and the currencies used in the foreign exchange."
+    },
+    "PaymentExecution": {
+      "name": "Payment Execution",
+      "definition": "Process required for executing an end to end payment. It consists of a payment initiation which may be followed by a series of instructions."
+    },
+    "TrackerNotification": {
+      "name": "Tracker Notification",
+      "definition": "Notification issued by the tracker for a specific payment transaction."
+    }
+  }
+}

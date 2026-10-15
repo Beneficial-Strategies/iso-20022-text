@@ -1,0 +1,42 @@
+{
+  "isoType": "CollateralBalance",
+  "language": "en",
+  "name": "Collateral Balance",
+  "definition": "Specifies the different values taken into account to calculate the current collateral.",
+  "isoAttributes": {
+    "HeldAmount": {
+      "name": "Held Amount",
+      "definition": "Specifies the collateral currently held."
+    },
+    "PriorAgreed": {
+      "name": "Prior Agreed",
+      "definition": "Specifies the collateral which has been agreed but is not yet transferred."
+    },
+    "InTransit": {
+      "name": "In Transit",
+      "definition": "Specifies the collateral which is being transferred."
+    }
+  },
+  "isoAssociations": {
+    "CollateralDescription": {
+      "name": "Collateral Description",
+      "definition": "Describes the collateral included in the collateral balance,"
+    },
+    "VariationMarginRelatedRiskCalculation": {
+      "name": "Variation Margin Related Risk Calculation",
+      "definition": "Risk coverage for which a current variation margin is provided."
+    },
+    "SegregatedIndependentAmountRelatedRiskCalculation": {
+      "name": "Segregated Independent Amount Related Risk Calculation",
+      "definition": "Risk coverage for which a collateral balance is provided."
+    },
+    "RelatedCollateralInterestManagement": {
+      "name": "Related Collateral Interest Management",
+      "definition": "Collateral interest management for which an opening balance is specified."
+    },
+    "CollateralInterestManagement": {
+      "name": "Collateral Interest Management",
+      "definition": "Collateral interest management for which a closing balance is specified."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ClearingSystem",
+  "language": "en",
+  "name": "Clearing System",
+  "definition": "Specifies the system which plays a role in the clearing process.",
+  "isoAssociations": {
+    "Clearing": {
+      "name": "Clearing",
+      "definition": "Specifies the clearing process for which a clearing system is used."
+    },
+    "CentralClearingCounterparty": {
+      "name": "Central Clearing Counterparty",
+      "definition": "Central counterparty which is related to a clearing system."
+    },
+    "DefaultFund": {
+      "name": "Default Fund",
+      "definition": "Assets posted by participants in a clearing fund that can be used in the event of a default by a participant to compensate non-defaulting participants for losses they suffer due to this default."
+    },
+    "CollateralManagement": {
+      "name": "Collateral Management",
+      "definition": "Collateral activities related to a clearing system."
+    }
+  }
+}

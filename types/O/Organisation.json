@@ -1,0 +1,114 @@
+{
+  "isoType": "Organisation",
+  "language": "en",
+  "name": "Organisation",
+  "definition": "Organised structure that is set up for a particular purpose. For example, a business, government body, department, charity, or financial institution.",
+  "isoAttributes": {
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Purpose of the organisation, eg, charity."
+    },
+    "RegistrationDate": {
+      "name": "Registration Date",
+      "definition": "Date and time at which a given organisation was officially registered."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of an organisation."
+    },
+    "LegalStructure": {
+      "name": "Legal Structure",
+      "definition": "Legal standing of the organisation."
+    },
+    "EstablishmentDate": {
+      "name": "Establishment Date",
+      "definition": "Date when the organisation was established."
+    },
+    "EntityExpirationDate": {
+      "name": "Entity Expiration Date",
+      "definition": "The date the Legal Entity ceased operation or was merged. This element SHALL be present if EntityExpirationReason is present, and omitted otherwise."
+    },
+    "EntityExpirationReason": {
+      "name": "Entity Expiration Reason",
+      "definition": "Reason that a Legal Entity ceased to operate. This element SHALL be present if EntityExpirationDate is present, and omitted otherwise."
+    },
+    "EntityStatus": {
+      "name": "Entity Status",
+      "definition": "Status of Legal Entity."
+    },
+    "MerchantCategory": {
+      "name": "Merchant Category",
+      "definition": "Classification of a business by the types of goods or services it provides."
+    },
+    "Logo": {
+      "name": "Logo",
+      "definition": "Commercial logo of the organisation."
+    },
+    "EntitySize": {
+      "name": "Entity Size",
+      "definition": "Size of the entity according to a taxonomy defined in a regulation."
+    },
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Type of the entity."
+    }
+  },
+  "isoAssociations": {
+    "OrganisationIdentification": {
+      "name": "Organisation Identification",
+      "definition": "Specific identification assigned to an organisation. It is derived from the association between Party and PartyIdentification."
+    },
+    "ParentOrganisation": {
+      "name": "Parent Organisation",
+      "definition": "Organisation which is divided in branches."
+    },
+    "Branch": {
+      "name": "Branch",
+      "definition": "Specifies an organisation which is not a head office."
+    },
+    "SecuritiesModification": {
+      "name": "Securities Modification",
+      "definition": "Specifies the process which originates the changes to an organisation."
+    },
+    "PlaceOfOperation": {
+      "name": "Place Of Operation",
+      "definition": "Place (including country) in which the organisation has its business activity."
+    },
+    "PlaceOfRegistration": {
+      "name": "Place Of Registration",
+      "definition": "Place (including country) in which the organisation is registered."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "Sector of business of the organisation, for example, pharmaceutical."
+    },
+    "RelatedIndicationOfInterest": {
+      "name": "Related Indication Of Interest",
+      "definition": "Indication of interest process for which a list of organisations is specified."
+    },
+    "Strategy": {
+      "name": "Strategy",
+      "definition": "Strategy related to an organisation."
+    },
+    "OrganisationHierarchy": {
+      "name": "Organisation Hierarchy",
+      "definition": "Description of the structure of a company."
+    },
+    "RepresentativeOfficer": {
+      "name": "Representative Officer",
+      "definition": "Officer who has some rights to represent a given organisation. In account management, it is the person to be contacted by the account servicer."
+    },
+    "RelatedUltimateCreditrorEnrolmentService": {
+      "name": "Related Ultimate Creditror Enrolment Service",
+      "definition": "Enrolment service for the ultimate party to which an amount of money is due."
+    },
+    "RelatedCreditrorEnrolmentService": {
+      "name": "Related Creditror Enrolment Service",
+      "definition": "Enrolment service for the party to which an amount of money is due."
+    },
+    "RelatedPostTradeRiskReduction": {
+      "name": "Related Post Trade Risk Reduction",
+      "definition": "Post trade risk reduction for which the organisation is the structurer."
+    }
+  }
+}

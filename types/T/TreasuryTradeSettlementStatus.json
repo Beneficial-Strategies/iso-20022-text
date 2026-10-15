@@ -1,0 +1,46 @@
+{
+  "isoType": "TreasuryTradeSettlementStatus",
+  "language": "en",
+  "name": "Treasury Trade Settlement Status",
+  "definition": "Specifies the status of a treasury trade at a specified time.",
+  "isoAttributes": {
+    "TradeStatus": {
+      "name": "Trade Status",
+      "definition": "Status of a treasury trade in a central matching/settlement system."
+    },
+    "AllegedTrade": {
+      "name": "Alleged Trade",
+      "definition": "Specifies whether a trade is alleged (notified by the counterparty) or not."
+    },
+    "Settlement": {
+      "name": "Settlement",
+      "definition": "Specifies the status of a settlement eg rejected, settled or awaiting authorisation."
+    },
+    "RejectedAmount": {
+      "name": "Rejected Amount",
+      "definition": "Amount that cannot be settled for instance by a settlement system."
+    },
+    "SettlementSuspended": {
+      "name": "Settlement Suspended",
+      "definition": "Cash settlement is suspended."
+    },
+    "PendingSettlement": {
+      "name": "Pending Settlement",
+      "definition": "Cash settlement is pending."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date on which the trade is actually settled."
+    },
+    "WithdrawalReason": {
+      "name": "Withdrawal Reason",
+      "definition": "Reason that an alleged trade is withdrawn."
+    }
+  },
+  "isoAssociations": {
+    "TreasuryTrade": {
+      "name": "Treasury Trade",
+      "definition": "Treasury trade for which a settlement status is provided."
+    }
+  }
+}

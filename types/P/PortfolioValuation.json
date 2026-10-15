@@ -1,0 +1,42 @@
+{
+  "isoType": "PortfolioValuation",
+  "language": "en",
+  "name": "Portfolio Valuation",
+  "definition": "Valuation information of the portfolio.",
+  "isoAttributes": {
+    "TotalPortfolioValue": {
+      "name": "Total Portfolio Value",
+      "definition": "Total value of the portfolio. It is derived from the sum of the values of the asset holdings, of the unrealised gain/loss and of the liabilities."
+    },
+    "TotalBookValue": {
+      "name": "Total Book Value",
+      "definition": "Net asset on balance sheet - total portfolio value minus or plus the unrealised gain or loss."
+    },
+    "TotalReceipts": {
+      "name": "Total Receipts",
+      "definition": "Total receipts attributable to the portfolio."
+    },
+    "TotalDisbursements": {
+      "name": "Total Disbursements",
+      "definition": "Total disbursements attributable to the portfolio."
+    },
+    "IncomeReceived": {
+      "name": "Income Received",
+      "definition": "Income attributable to the portfolio."
+    },
+    "ExpensesPaid": {
+      "name": "Expenses Paid",
+      "definition": "Expenses attributable to the portfolio"
+    }
+  },
+  "isoAssociations": {
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Specifies the portfolio for which a valuation is calculated."
+    },
+    "ValuationPeriod": {
+      "name": "Valuation Period",
+      "definition": "Period for which the valuation is calculated."
+    }
+  }
+}

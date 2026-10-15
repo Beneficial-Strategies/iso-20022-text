@@ -1,0 +1,82 @@
+{
+  "isoType": "Adjustment",
+  "language": "en",
+  "name": "Adjustment",
+  "definition": "Modification on the value of goods and / or services. For example: rebate, discount.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money that results from the application of an adjustment (charges. fees, discount or allowance) to the amount due."
+    },
+    "ChargeRate": {
+      "name": "Charge Rate",
+      "definition": "Rate used to calculate the amount of the adjustment, allowance, charge or fee."
+    },
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "Method used to calculate an adjustment (financial adjustment, charge or allowance)."
+    },
+    "Direction": {
+      "name": "Direction",
+      "definition": "Specifies whether the adjustment must be subtracted or added to the total amount."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the amount adjustment."
+    },
+    "AllowanceChargeIndicator": {
+      "name": "Allowance Charge Indicator",
+      "definition": "Indication of whether or not this allowance charge is a charge (Indicator is Yes) that should be added or an allowance that should be subtracted (Indicator is No)."
+    },
+    "ChargeIndicator": {
+      "name": "Charge Indicator",
+      "definition": "Indication of whether or not this allowance charge is a charge."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of adjustment applied to the amount of goods/services by means of a code."
+    }
+  },
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies the payment resulting from charges due by one party to another or the payment to which adjustements (for instance charges) are applied."
+    },
+    "RelatedLineItem": {
+      "name": "Related Line Item",
+      "definition": "Specifies the line item on which a financial adjustment took place."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Specifies the price which is adjusted."
+    },
+    "CollateralManagement": {
+      "name": "Collateral Management",
+      "definition": "Process which groups the activities related to collateral."
+    },
+    "AdjustedBalance": {
+      "name": "Adjusted Balance",
+      "definition": "Balance for which adjustments are specified."
+    },
+    "ChargesPartyRole": {
+      "name": "Charges Party Role",
+      "definition": "Role played by a party in the context of charges due."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the adjustment is applicable."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Currency exchange for which adjustments such as fees or commissions are applied."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Order for which adjustments are specified."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Information on the calculation method resulting in the tax amount included in the charge transfer. The tax is expressed as a fixed amount, or as a percentage of the charge amount, upon which the tax is applied."
+    }
+  }
+}

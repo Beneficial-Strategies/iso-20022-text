@@ -1,0 +1,24 @@
+{
+  "isoType": "AccountService",
+  "language": "en",
+  "name": "Account Service",
+  "definition": "Services linked to an account which are available to the account owner or to the holder of a mandate.",
+  "isoAssociations": {
+    "AccountContract": {
+      "name": "Account Contract",
+      "definition": "Account contract which specifies the services linked to an account."
+    },
+    "Reservation": {
+      "name": "Reservation",
+      "definition": "Reservation information included in the services related to an account."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account for which services are specified."
+    },
+    "AccountAdministrationCharge": {
+      "name": "Account Administration Charge",
+      "definition": "Charge applied for the administration of an account."
+    }
+  }
+}

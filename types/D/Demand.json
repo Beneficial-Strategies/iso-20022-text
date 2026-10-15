@@ -1,0 +1,38 @@
+{
+  "isoType": "Demand",
+  "language": "en",
+  "name": "Demand",
+  "definition": "Document signed by the beneficiary demanding payment under a demand guarantee or standby letter of credit.",
+  "isoAttributes": {
+    "SubmissionDateTime": {
+      "name": "Submission Date Time",
+      "definition": "Date and time the demand is submitted."
+    },
+    "DemandAmount": {
+      "name": "Demand Amount",
+      "definition": "Amount to be paid."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of demand, for example, pay or extend."
+    },
+    "TotalClaimAmount": {
+      "name": "Total Claim Amount",
+      "definition": "Amount and currency of the total amount claimed (sum of the demand amount plus counterparty commission and charges)."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which a document signed by the beneficiary demanding payment is specified."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment of the demand."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Documents which are associated with a demand."
+    }
+  }
+}

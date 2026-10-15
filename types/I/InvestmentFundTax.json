@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestmentFundTax",
+  "language": "en",
+  "name": "Investment Fund Tax",
+  "definition": "Tax related to an investment fund order.",
+  "isoAttributes": {
+    "FiscalExemption": {
+      "name": "Fiscal Exemption",
+      "definition": "Indicates whether an owner of an investment account may benefit from a fiscal exemption or amnesty for instance for declaring overseas investments."
+    },
+    "PercentageOfDebtClaim": {
+      "name": "Percentage Of Debt Claim",
+      "definition": "Percentage of the underlying assets of the funds that represents a debt and is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June)."
+    },
+    "PercentageGrandfatheredDebt": {
+      "name": "Percentage Grandfathered Debt",
+      "definition": "Percentage of grandfathered debt claim."
+    },
+    "ExemptionIndicator": {
+      "name": "Exemption Indicator",
+      "definition": "Indicates whether a tax exemption applies."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Investment account for which taxes are specified."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Transaction for which the tax is specified."
+    }
+  }
+}

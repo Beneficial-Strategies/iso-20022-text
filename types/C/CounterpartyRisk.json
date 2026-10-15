@@ -1,0 +1,30 @@
+{
+  "isoType": "CounterpartyRisk",
+  "language": "en",
+  "name": "Counterparty Risk",
+  "definition": "Calculation of the exposure amount that one party has vis-a-vis one counterparty or a central system, based on its credit risk.",
+  "isoAttributes": {
+    "ExposedAmount": {
+      "name": "Exposed Amount",
+      "definition": "The amount which needs to be covered for the counterparty risk."
+    },
+    "SecureMarketValue": {
+      "name": "Secure Market Value",
+      "definition": "The market value of the financial instruments being used to secure the facility."
+    },
+    "LiquidResourceValue": {
+      "name": "Liquid Resource Value",
+      "definition": "Amount of liquid resources available to meet liquid requirements."
+    }
+  },
+  "isoAssociations": {
+    "Party": {
+      "name": "Party",
+      "definition": "Specifies which role played by a party was taken into consideration for the risk calculation, for instance clearing member role."
+    },
+    "ExposureCalculation": {
+      "name": "Exposure Calculation",
+      "definition": "Specifies the exposure for which the risk is calculated on a counterparty basis."
+    }
+  }
+}

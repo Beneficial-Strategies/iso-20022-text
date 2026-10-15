@@ -1,0 +1,34 @@
+{
+  "isoType": "TerminalManagementAction",
+  "language": "en",
+  "name": "Terminal Management Action",
+  "definition": "Terminal management action to be performed by the point of interaction.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Types of terminal management action to be performed by a point of interaction."
+    },
+    "Trigger": {
+      "name": "Trigger",
+      "definition": "Event to start the terminal management action by the point of interaction (POI)."
+    },
+    "AdditionalProcess": {
+      "name": "Additional Process",
+      "definition": "Additional process to perform before starting or after the terminal management action by the point of interaction (POI)."
+    },
+    "ActionResult": {
+      "name": "Action Result",
+      "definition": "List of action result codes."
+    },
+    "ActionToProcess": {
+      "name": "Action To Process",
+      "definition": "Action to be processed."
+    }
+  },
+  "isoAssociations": {
+    "TerminalManagementSystem": {
+      "name": "Terminal Management System",
+      "definition": "Terminal management system from which an action took place"
+    }
+  }
+}

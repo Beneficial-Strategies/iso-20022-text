@@ -1,0 +1,54 @@
+{
+  "isoType": "Spread",
+  "language": "en",
+  "name": "Spread",
+  "definition": "Margin over or under an index which determines a rate.",
+  "isoAttributes": {
+    "SpreadRate": {
+      "name": "Spread Rate",
+      "definition": "Margin over or under an index which determines the interest rate of an interest bearing instrument."
+    },
+    "BasisPointSpread": {
+      "name": "Basis Point Spread",
+      "definition": "Specifies the number of points to be added or substracted to the rate."
+    },
+    "PriceOffset": {
+      "name": "Price Offset",
+      "definition": "Either a swap spread or spread to benchmark depending upon order type.  In case of a spread to benchmark, the price offset is expressed in terms of basis points relative to a benchmark - this can be a positive or a negative spread.  In case of a swap spread, the price offset is target spread for a swap."
+    }
+  },
+  "isoAssociations": {
+    "BenchmarkSecurity": {
+      "name": "Benchmark Security",
+      "definition": "Security used as a reference to express the value of another security."
+    },
+    "SecuritiesFinancing": {
+      "name": "Securities Financing",
+      "definition": "Securities financing process for which a repurchase spread is specified."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Index for which a spread is specified."
+    },
+    "BenchmarkPrice": {
+      "name": "Benchmark Price",
+      "definition": "Identifies the price of the benchmark security."
+    },
+    "RelatedIndicationOfInterest": {
+      "name": "Related Indication Of Interest",
+      "definition": "Indication of interest process for which a spread to benchmark is specified."
+    },
+    "IndicationOfInterest": {
+      "name": "Indication Of Interest",
+      "definition": "Indication of interest process for which a spread is specified."
+    },
+    "RelatedInterest": {
+      "name": "Related Interest",
+      "definition": "Interest calculation process for which a spread is provided."
+    },
+    "BenchmarkCurve": {
+      "name": "Benchmark Curve",
+      "definition": "Describes a benchmark curve."
+    }
+  }
+}

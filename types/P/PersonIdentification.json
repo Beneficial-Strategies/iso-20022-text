@@ -1,0 +1,46 @@
+{
+  "isoType": "PersonIdentification",
+  "language": "en",
+  "name": "Person Identification",
+  "definition": "Unique and unambiguous way to identify a person.",
+  "isoAttributes": {
+    "SocialSecurityNumber": {
+      "name": "Social Security Number",
+      "definition": "Number assigned by a social security agency."
+    },
+    "DriversLicenseNumber": {
+      "name": "Drivers License Number",
+      "definition": "Number assigned by a license authority to a driver's license."
+    },
+    "AlienRegistrationNumber": {
+      "name": "Alien Registration Number",
+      "definition": "Number assigned by a government agency to identify foreign nationals."
+    },
+    "PassportNumber": {
+      "name": "Passport Number",
+      "definition": "Number assigned by a passport authority to a passport."
+    },
+    "IdentityCardNumber": {
+      "name": "Identity Card Number",
+      "definition": "Number assigned by a national authority to an identity card."
+    },
+    "EmployerIdentificationNumber": {
+      "name": "Employer Identification Number",
+      "definition": "Number assigned to an employer by a registration authority."
+    },
+    "NPI": {
+      "name": "NPI",
+      "definition": "Natural person is identified through the natural person identifier."
+    }
+  },
+  "isoAssociations": {
+    "Person": {
+      "name": "Person",
+      "definition": "Person for which an identification is provided."
+    },
+    "PersonName": {
+      "name": "Person Name",
+      "definition": "Name by which a person is known and which is usually used to identify that person. It is derived from PartyName (association between PartyIdentificationInformation and PartyName)."
+    }
+  }
+}

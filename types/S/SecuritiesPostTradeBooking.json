@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesPostTradeBooking",
+  "language": "en",
+  "name": "Securities Post Trade Booking",
+  "definition": "Information used to book the executions of a trade.",
+  "isoAttributes": {
+    "DayBooking": {
+      "name": "Day Booking",
+      "definition": "Indicates whether or not automatic booking can occur."
+    },
+    "BookingUnit": {
+      "name": "Booking Unit",
+      "definition": "Indicates what constitutes a bookable unit, ie, a partial execution, or an aggregated execution."
+    },
+    "PreAllocationMethod": {
+      "name": "Pre Allocation Method",
+      "definition": "Indicates the method of preallocation."
+    },
+    "BookingType": {
+      "name": "Booking Type",
+      "definition": "Method for booking out an order."
+    }
+  },
+  "isoAssociations": {
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order for which booking instructions are specified."
+    }
+  }
+}

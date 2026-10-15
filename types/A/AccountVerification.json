@@ -1,0 +1,50 @@
+{
+  "isoType": "AccountVerification",
+  "language": "en",
+  "name": "Account Verification",
+  "definition": "Information to be verified to assess whether an account is valid.",
+  "isoAttributes": {
+    "Context": {
+      "name": "Context",
+      "definition": "Context of the party verification process."
+    },
+    "AccountOwnerType": {
+      "name": "Account Owner Type",
+      "definition": "Specifies the type of account ownership."
+    }
+  },
+  "isoAssociations": {
+    "Party": {
+      "name": "Party",
+      "definition": "Details of the party that will be verified."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "PaymentIdentification": {
+      "name": "Payment Identification",
+      "definition": "Specifies the different identifications associated with a payment transaction."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment information."
+    },
+    "Requestor": {
+      "name": "Requestor",
+      "definition": "Identification of the verification requestor."
+    },
+    "RequestingVerificationService": {
+      "name": "Requesting Verification Service",
+      "definition": "Identification of the verification service assigned by the Requesting Agent."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "General information that unambiguously identifies a document, such as identification number and issue date time."
+    },
+    "MatchedPostalAddress": {
+      "name": "Matched Postal Address",
+      "definition": "Information that locates and identifies a specific address, as defined by postal services."
+    }
+  }
+}

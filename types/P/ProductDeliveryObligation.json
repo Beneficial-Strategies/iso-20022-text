@@ -1,0 +1,16 @@
+{
+  "isoType": "ProductDeliveryObligation",
+  "language": "en",
+  "name": "Product Delivery Obligation",
+  "definition": "Obligation for the seller  to deliver goods or services to the buyer.",
+  "isoAssociations": {
+    "ProductDeliveryOffset": {
+      "name": "Product Delivery Offset",
+      "definition": "Fulfilment of a product delivery obligation through the delivery of goods and services. It is derived from the association between Obligation and Obligation fulfillment."
+    },
+    "CommercialTrade": {
+      "name": "Commercial Trade",
+      "definition": "Specifies the trade which originates the obligation to deliver a specific product."
+    }
+  }
+}

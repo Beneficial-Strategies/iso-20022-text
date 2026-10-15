@@ -1,0 +1,146 @@
+{
+  "isoType": "Account",
+  "language": "en",
+  "name": "Account",
+  "definition": "Record of transactions in specific types of assets, maintained by a servicing party on behalf of one or more owning parties. Business relationship between an account servicer and one or more account owners.",
+  "isoAttributes": {
+    "BaseCurrency": {
+      "name": "Base Currency",
+      "definition": "Base currency of the account."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language for all communication concerning the account."
+    },
+    "ReportingCurrency": {
+      "name": "Reporting Currency",
+      "definition": "Currency used to calculate and report the balance and related entries of an account."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Specifies the purpose of the account."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Date on which the account and related services cease effectively to be operational for the account owner."
+    },
+    "LiveDate": {
+      "name": "Live Date",
+      "definition": "Date of the first movement on the account."
+    },
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Date on which the account and related basic services are effectively operational for the account owner."
+    },
+    "CollateralAccountType": {
+      "name": "Collateral Account Type",
+      "definition": "Specifies the collateral account type."
+    }
+  },
+  "isoAssociations": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "ParentAccount": {
+      "name": "Parent Account",
+      "definition": "Account for which one or more sub-accounts are specified."
+    },
+    "SubAccount": {
+      "name": "Sub Account",
+      "definition": "Subdivision of an account used to segregate specific holdings."
+    },
+    "RelatedFundProcessingCharacteristics": {
+      "name": "Related Fund Processing Characteristics",
+      "definition": "Fund processing characteristics for which a settlement account is specified."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the current state of an account, eg, enabled or deleted."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to an account and played by a party in that context."
+    },
+    "TradePartyRole": {
+      "name": "Trade Party Role",
+      "definition": "Party for which an account is specified in the context of a trade."
+    },
+    "AccountRestriction": {
+      "name": "Account Restriction",
+      "definition": "Restriction on capability or operations allowed."
+    },
+    "SettlementPartyRole": {
+      "name": "Settlement Party Role",
+      "definition": "Specifies the role of the party which uses the account for settlement."
+    },
+    "ReportedPeriod": {
+      "name": "Reported Period",
+      "definition": "Specifies the period for which the movements in the account are reported."
+    },
+    "InvestmentFundPartyRole": {
+      "name": "Investment Fund Party Role",
+      "definition": "Party role for which an account is specified."
+    },
+    "RelatedCollateralProcess": {
+      "name": "Related Collateral Process",
+      "definition": "Collateral data for which a collateral account is specified."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of account."
+    },
+    "RelatedProceedsDelivery": {
+      "name": "Related Proceeds Delivery",
+      "definition": "Proceeds delivery instruction which contain account identification."
+    },
+    "RelatedCorporateActionPartyRole": {
+      "name": "Related Corporate Action Party Role",
+      "definition": "Party for which an account is specified in the context of a corporate action."
+    },
+    "DefaultFundAccountOwner": {
+      "name": "Default Fund Account Owner",
+      "definition": "Clearing member which holds a default fund account at an ICSD or at the central bank."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System where the account is held."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Overall position representing the net debits and credits in an account at a specific point in time."
+    },
+    "Entry": {
+      "name": "Entry",
+      "definition": "Record of the movements into or out of an account."
+    },
+    "AccountContract": {
+      "name": "Account Contract",
+      "definition": "Agreement which provides information on the account and on the services linked to it."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Rate used to calculate the difference between amounts based on the base currency and the reporting currency."
+    },
+    "DefaultFundContribution": {
+      "name": "Default Fund Contribution",
+      "definition": "Default fund contribution parameters associated with a contribution account."
+    },
+    "SystemMember": {
+      "name": "System Member",
+      "definition": "Member of a system which is the owner of an account with the system."
+    },
+    "AccountService": {
+      "name": "Account Service",
+      "definition": "Services linked to the account and specified in the account contract."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Process which compares and matches trade information with entries in an account."
+    },
+    "ManagedAccountProduct": {
+      "name": "Managed Account Product",
+      "definition": "Product which provides guidance to investors to manage their portfolios."
+    }
+  }
+}

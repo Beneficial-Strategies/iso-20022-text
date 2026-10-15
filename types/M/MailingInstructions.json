@@ -1,0 +1,22 @@
+{
+  "isoType": "MailingInstructions",
+  "language": "en",
+  "name": "Mailing Instructions",
+  "definition": "Characteristics of an address.",
+  "isoAttributes": {
+    "MailingIndicator": {
+      "name": "Mailing Indicator",
+      "definition": "Indicates whether mail should be sent to an address."
+    },
+    "RegistrationAddressIndicator": {
+      "name": "Registration Address Indicator",
+      "definition": "Indicates whether the address is the official address of the party."
+    }
+  },
+  "isoAssociations": {
+    "RelatedPostalAddress": {
+      "name": "Related Postal Address",
+      "definition": "Postal address for which mailing instructions are specified."
+    }
+  }
+}

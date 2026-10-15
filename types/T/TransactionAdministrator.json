@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionAdministrator",
+  "language": "en",
+  "name": "Transaction Administrator",
+  "definition": "Set of integrated applications that provides centralised services such as clearing and settlement.",
+  "isoAttributes": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency which may be processed by the system. A system may process transactions in a single currency or in multiple currencies."
+    }
+  },
+  "isoAssociations": {
+    "CashClearingSystem": {
+      "name": "Cash Clearing System",
+      "definition": "System where the clearing takes place."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Static data maintained by the transaction administrator and related to currency exchange details as maintained for system operations."
+    },
+    "CashManagementService": {
+      "name": "Cash Management Service",
+      "definition": "Set of applications that provides services which facilitate the management of cash positions on an account."
+    },
+    "SettlementInstruction": {
+      "name": "Settlement Instruction",
+      "definition": "Specifies the settlement instruction managed by the transaction administrator."
+    }
+  }
+}

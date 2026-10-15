@@ -1,0 +1,22 @@
+{
+  "isoType": "Response",
+  "language": "en",
+  "name": "Response",
+  "definition": "Response of a requested service.",
+  "isoAttributes": {
+    "ResponseReason": {
+      "name": "Response Reason",
+      "definition": "Detailed result of the transaction."
+    },
+    "ResponseToAuthorisation": {
+      "name": "Response To Authorisation",
+      "definition": "Response from the issuer to the authorisation."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCardPaymentValidation": {
+      "name": "Related Card Payment Validation",
+      "definition": "Validation process to which a response is given."
+    }
+  }
+}

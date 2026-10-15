@@ -1,0 +1,26 @@
+{
+  "isoType": "MandateStatus",
+  "language": "en",
+  "name": "Mandate Status",
+  "definition": "Specifies whether a mandate is accepted or rejected.",
+  "isoAttributes": {
+    "Accepted": {
+      "name": "Accepted",
+      "definition": "Indicates whether the mandate request was accepted or rejected."
+    },
+    "RejectReason": {
+      "name": "Reject Reason",
+      "definition": "Specifies the reason for the rejection of a mandate request."
+    },
+    "MandateReason": {
+      "name": "Mandate Reason",
+      "definition": "Specifies the reason for the request or status of a mandate."
+    }
+  },
+  "isoAssociations": {
+    "Mandate": {
+      "name": "Mandate",
+      "definition": "Mandate for which a status applies."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "RegulatoryReport",
+  "language": "en",
+  "name": "Regulatory Report",
+  "definition": "Information needed due to regulatory and statutory requirements.",
+  "isoAttributes": {
+    "DebitCreditReportingIndicator": {
+      "name": "Debit Credit Reporting Indicator",
+      "definition": "Identifies whether the regulatory reporting information applies to the debit side, to the credit side or to both debit and credit sides of the transaction."
+    },
+    "Code": {
+      "name": "Code",
+      "definition": "Specifies the nature, purpose, and reason for the transaction to be reported for regulatory and statutory requirements in a coded form."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money to be reported for regulatory and statutory requirements."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Additional details that may be necessary to cater for specific domestic regulatory requirements."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the information supplied in the regulatory reporting details."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date related to the specified type of regulatory reporting details."
+    },
+    "UnderlyingProduct": {
+      "name": "Underlying Product",
+      "definition": "Specifies the underlying product type."
+    },
+    "NonStandardFlag": {
+      "name": "Non Standard Flag",
+      "definition": "Specifies whether the reportable transaction has one or more additional terms or provisions, other than those listed in the required real-time data fields, that materially affects the price of the reportable transaction."
+    }
+  },
+  "isoAssociations": {
+    "Authority": {
+      "name": "Authority",
+      "definition": "Entity requiring the regulatory reporting information."
+    },
+    "ReportedTransaction": {
+      "name": "Reported Transaction",
+      "definition": "Trade for which a regulatory report is provided."
+    },
+    "ReportingPartyRole": {
+      "name": "Reporting Party Role",
+      "definition": "Party responsible for providing regulatory reports."
+    }
+  }
+}

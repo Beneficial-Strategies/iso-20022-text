@@ -1,0 +1,118 @@
+{
+  "isoType": "Undertaking",
+  "language": "en",
+  "name": "Undertaking",
+  "definition": "Independent undertaking, such as a demand guarantee or standby letter of credit, that provides financial assurance, to be collected on the presentation of documents that comply with its terms and conditions.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier assigned to the undertaking issued by the guarantor/issuer. This reference is used throughout the life cycle of the undertaking."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Date when the undertaking terminates."
+    },
+    "DateOfAdvice": {
+      "name": "Date Of Advice",
+      "definition": "Date on which the undertaking or its amendment is advised."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Description of the purpose of the undertaking."
+    },
+    "UndertakingName": {
+      "name": "Undertaking Name",
+      "definition": "Name of undertaking such as, demand guarantee, standby letter of credit."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of guarantee or standby letter of credit, for example, performance,  payment, etc."
+    },
+    "ConfirmationIndicator": {
+      "name": "Confirmation Indicator",
+      "definition": "Indicates whether the advising bank (confirmer) is requested to add its confirmation to the undertaking."
+    },
+    "CounterUndertakingIndicator": {
+      "name": "Counter Undertaking Indicator",
+      "definition": "Indicates whether the undertaking is a counter-undertaking."
+    },
+    "RelatedChargesPayableBy": {
+      "name": "Related Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the charges."
+    },
+    "StandardClaimDocumentIndicator": {
+      "name": "Standard Claim Document Indicator",
+      "definition": "Indication as to whether a claim is to utilise a standard claim form of the issuing institution."
+    },
+    "MultipleDemandIndicator": {
+      "name": "Multiple Demand Indicator",
+      "definition": "Indicates whether multiple demands are permitted against the undertaking."
+    },
+    "PartialDemandIndicator": {
+      "name": "Partial Demand Indicator",
+      "definition": "Indicates whether partial demands/drawings are permitted against the undertaking."
+    },
+    "TransferIndicator": {
+      "name": "Transfer Indicator",
+      "definition": "Indicates whether the undertaking is transferrable."
+    }
+  },
+  "isoAssociations": {
+    "ElectronicSignature": {
+      "name": "Electronic Signature",
+      "definition": "Digital signature."
+    },
+    "UndertakingStatus": {
+      "name": "Undertaking Status",
+      "definition": "Status of the undertaking."
+    },
+    "Demand": {
+      "name": "Demand",
+      "definition": "Document signed by the beneficiary demanding payment under a demand guarantee or standby letter of credit."
+    },
+    "UndertakingAmount": {
+      "name": "Undertaking Amount",
+      "definition": "Amount of the undertaking."
+    },
+    "Expiry": {
+      "name": "Expiry",
+      "definition": "Expiry information about the undertaking."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Role played by a party in the context of an undertaking or in the context of the business linked to the undertaking."
+    },
+    "UndertakingAmendment": {
+      "name": "Undertaking Amendment",
+      "definition": "Modification of an undertaking such as an guarantee or standby letter of credit."
+    },
+    "SpecifiedDocument": {
+      "name": "Specified Document",
+      "definition": "Document related to the undertaking."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Reference information on a commercial obligation between the beneficiary and applicant for which an undertaking is issued."
+    },
+    "ModelForm": {
+      "name": "Model Form",
+      "definition": "Wording template for the undertaking content made available for use with certain governance rules or made available by particular institutions."
+    },
+    "PredefinedVariation": {
+      "name": "Predefined Variation",
+      "definition": "Changes that may be made to the undertaking covered by clauses in the existing undertaking and its amendments."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Amount and currency of the commissions and changes."
+    },
+    "Presentation": {
+      "name": "Presentation",
+      "definition": "Presentation information related to the undertaking."
+    },
+    "UndertakingExtension": {
+      "name": "Undertaking Extension",
+      "definition": "Specifies information related to the extension of an undertaking."
+    }
+  }
+}

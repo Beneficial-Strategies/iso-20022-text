@@ -1,0 +1,50 @@
+{
+  "isoType": "CorporateActionStatusReason",
+  "language": "en",
+  "name": "Corporate Action Status Reason",
+  "definition": "Specifies the underlying reason for a status of a corporate action.",
+  "isoAttributes": {
+    "CorporateActionCancellationReason": {
+      "name": "Corporate Action Cancellation Reason",
+      "definition": "Specifies reasons for cancellation of a corporate action event."
+    },
+    "AcceptedReason": {
+      "name": "Accepted Reason",
+      "definition": "Specifies additional information about the processed instruction."
+    },
+    "ReversalReason": {
+      "name": "Reversal Reason",
+      "definition": "Reason for the reversal."
+    },
+    "MovementFailureReason": {
+      "name": "Movement Failure Reason",
+      "definition": "The reason for the failure."
+    },
+    "MovementRejectionReason": {
+      "name": "Movement Rejection Reason",
+      "definition": "Provides information about the rejection status."
+    },
+    "Forwarded": {
+      "name": "Forwarded",
+      "definition": "Instruction has been accepted and forwarded to the next intermediary in the chain."
+    },
+    "RejectedReason": {
+      "name": "Rejected Reason",
+      "definition": "Reason for the rejected status."
+    },
+    "ReceivedByIssuerOrOfferor": {
+      "name": "Received By Issuer Or Offeror",
+      "definition": "Instruction has been received and accepted by the issuer or offeror."
+    },
+    "Returned": {
+      "name": "Returned",
+      "definition": "Instructed units are returned or partially returned to the instructing party."
+    }
+  },
+  "isoAssociations": {
+    "CorporateActionStatus": {
+      "name": "Corporate Action Status",
+      "definition": "Corporate actions status for which a reason is provided."
+    }
+  }
+}

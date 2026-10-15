@@ -1,0 +1,26 @@
+{
+  "isoType": "CollateralReinvestment",
+  "language": "en",
+  "name": "Collateral Reinvestment",
+  "definition": "Provides details on the type of the cash reinvestment in a given currency and on the cash reinvestment rate.",
+  "isoAttributes": {
+    "CashReinvestmentRate": {
+      "name": "Cash Reinvestment Rate",
+      "definition": "Average interest rate received on cash collateral reinvestment by the lender for reinvestment of cash collateral."
+    },
+    "ReinvestedCashType": {
+      "name": "Reinvested Cash Type",
+      "definition": "Provides details on the type of the cash reinvestment in a given currency."
+    },
+    "FundingSourceType": {
+      "name": "Funding Source Type",
+      "definition": "Information on type of funding sources used as funding to finance a margin loans."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCollateral": {
+      "name": "Related Collateral",
+      "definition": "Provides details on the collateral of the cash reinvestment."
+    }
+  }
+}

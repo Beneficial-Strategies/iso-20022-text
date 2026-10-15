@@ -1,0 +1,42 @@
+{
+  "isoType": "SecuritiesRestriction",
+  "language": "en",
+  "name": "Securities Restriction",
+  "definition": "Restrictions applicable to the security.",
+  "isoAttributes": {
+    "LegalRestrictionType": {
+      "name": "Legal Restriction Type",
+      "definition": "Specifies the regulatory restrictions applicable to a security."
+    },
+    "RestrictionType": {
+      "name": "Restriction Type",
+      "definition": "Type of the restriction, for example, selling restriction, buying restriction, placing restriction."
+    },
+    "InvestorStatusRestrictionType": {
+      "name": "Investor Status Restriction Type",
+      "definition": "Specifies whether the restriction to be applied is relevant for citizen, resident, country."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the restriction applies."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used for the calculation of the restriction."
+    },
+    "InvestorType": {
+      "name": "Investor Type",
+      "definition": "Type of investor that is allowed to hold the security."
+    }
+  },
+  "isoAssociations": {
+    "Security": {
+      "name": "Security",
+      "definition": "Security for which restriction information is provided."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Jurisdiction (country, county, state, province, city) where the restriction applies."
+    }
+  }
+}

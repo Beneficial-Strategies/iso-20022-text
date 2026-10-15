@@ -1,0 +1,42 @@
+{
+  "isoType": "FundsCashFlow",
+  "language": "en",
+  "name": "Funds Cash Flow",
+  "definition": "Cash movements from or to a fund as a result of investment funds transactions, for example, subscriptions or redemptions.",
+  "isoAttributes": {
+    "ExceptionalCashFlowIndicator": {
+      "name": "Exceptional Cash Flow Indicator",
+      "definition": "Indicates whether the cash flow is exceptional , eg, extraordinary cash amounts in or out."
+    },
+    "FlowDirection": {
+      "name": "Flow Direction",
+      "definition": "Specifies the direction of the cash flow from the perspective of the fund."
+    },
+    "NetIndicator": {
+      "name": "Net Indicator",
+      "definition": "Indicates whether the cash flow is the result of netting."
+    }
+  },
+  "isoAssociations": {
+    "FundSubscriptionAccountEntry": {
+      "name": "Fund Subscription Account Entry",
+      "definition": "Account entry which is linked to a fund subscription process."
+    },
+    "FundRedemptionAccountEntry": {
+      "name": "Fund Redemption Account Entry",
+      "definition": "Account entry which is linked to a fund redemption process."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Trade which is the source for the calculation of the cash flow movements."
+    },
+    "NetAssetValueCalculation": {
+      "name": "Net Asset Value Calculation",
+      "definition": "Net asset value incorporating the net cash flow for a valuation date."
+    },
+    "CashFlowQuantity": {
+      "name": "Cash Flow Quantity",
+      "definition": "Value and quantity of the cash flow."
+    }
+  }
+}

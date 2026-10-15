@@ -1,0 +1,98 @@
+{
+  "isoType": "BiddingConditions",
+  "language": "en",
+  "name": "Bidding Conditions",
+  "definition": "Specifies the conditions under which securities can be acquired as part of a corporate action.",
+  "isoAttributes": {
+    "ProposedRate": {
+      "name": "Proposed Rate",
+      "definition": "Rate proposed in a remarketing of variable rate notes."
+    },
+    "OversubscriptionRate": {
+      "name": "Oversubscription Rate",
+      "definition": "Rate of allowed over-subscription."
+    },
+    "InformationToComplyWith": {
+      "name": "Information To Comply With",
+      "definition": "Provides information conditions to the account owner that are to be complied with, eg, not open to US/Canadian residents, QIB or SIL to be provided."
+    },
+    "SubscriptionCostDebitDate": {
+      "name": "Subscription Cost Debit Date",
+      "definition": "Date by which cash must be in place in order to take part in the event."
+    },
+    "ProrationRate": {
+      "name": "Proration Rate",
+      "definition": "Proportionate allocation used for the offer."
+    },
+    "TransformationRate": {
+      "name": "Transformation Rate",
+      "definition": "Rate used to determine the cash consideration split across outturn settlement transactions that are the result of a transformation of the parent transaction."
+    },
+    "ProrationDate": {
+      "name": "Proration Date",
+      "definition": "Date (and time) at which an issuer will determine the proration amount/quantity of an offer."
+    },
+    "PercentageSought": {
+      "name": "Percentage Sought",
+      "definition": "Percentage of securities the offeror/issuer will purchase or redeem under the terms of the event. This can be a number or the term \"any and all\"."
+    },
+    "BidInterval": {
+      "name": "Bid Interval",
+      "definition": "Acceptable price increment used for submitting a bid."
+    },
+    "CalculationMethod": {
+      "name": "Calculation Method",
+      "definition": "The method of calculation of drawings and partial redemptions."
+    },
+    "AdditionalSubscriptionCost": {
+      "name": "Additional Subscription Cost",
+      "definition": "Additional costs - coming on top of the subscription costs - which the subscriber should pay as per the subscription process."
+    }
+  },
+  "isoAssociations": {
+    "MaximumAllowedOverSubscription": {
+      "name": "Maximum Allowed Over Subscription",
+      "definition": "A maximum percentage of shares available through the over subscription privilege, usually a percentage of the basic subscription shares, eg, an account owner subscribing to 100 shares may over subscribe to a maximum of 50 additional shares when the over subscription maximum is 50%."
+    },
+    "ApplicableRate": {
+      "name": "Applicable Rate",
+      "definition": "Rate applicable to the event announced, eg, redemption rate for a redemption event."
+    },
+    "FrontEndOddLotQuantity": {
+      "name": "Front End Odd Lot Quantity",
+      "definition": "Specifies that if an order is prorated holders of odd lots who tender their full position will not have tendered position prorated but rather accepted in full."
+    },
+    "BackEndOddLotQuantity": {
+      "name": "Back End Odd Lot Quantity",
+      "definition": "Represents the presence of a back end odd lot provision and the quantity of equity required after proration to be eligible for this privilege."
+    },
+    "CompulsoryPurchasePeriod": {
+      "name": "Compulsory Purchase Period",
+      "definition": "Period during a take-over where any outstanding equity must be purchased by the take-over company."
+    },
+    "MaximumPrice": {
+      "name": "Maximum Price",
+      "definition": "Maximum or cap price at which a holder can bid, e.g. on a Dutch auction offer."
+    },
+    "MinimumPrice": {
+      "name": "Minimum Price",
+      "definition": "Minimum or floor price at which a holder can bid, e.g. on a Dutch auction offer."
+    },
+    "MaximumQuantity": {
+      "name": "Maximum Quantity",
+      "definition": "Maximum number of securities the offeror is requesting to complete the event."
+    },
+    "MinimumQuantitySought": {
+      "name": "Minimum Quantity Sought",
+      "definition": "Minimum quantity of securities the offeror/issuer will purchase or redeem under the terms of the event. This can be a number or the term \"any and all\"."
+    },
+    "BaseDenomination": {
+      "name": "Base Denomination",
+      "definition": "The minimum integral amount of securities that each account owner must have remaining after the called amounts are applied."
+    },
+    "Event": {
+      "name": "Event",
+      "definition": "Event to which the bidding conditions apply."
+    }
+  }
+}

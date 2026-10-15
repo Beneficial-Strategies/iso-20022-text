@@ -1,0 +1,46 @@
+{
+  "isoType": "Packaging",
+  "language": "en",
+  "name": "Packaging",
+  "definition": "Physical packaging of goods for transport.",
+  "isoAttributes": {
+    "PackagingName": {
+      "name": "Packaging Name",
+      "definition": "Name given to the type of supply chain packaging. For instance Halogenated Resin (PVC)."
+    },
+    "PackageType": {
+      "name": "Package Type",
+      "definition": "Code specifying the properties of packaging for the supply chain delivery of goods."
+    }
+  },
+  "isoAssociations": {
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Number of packages for a  supply chain trade delivery."
+    },
+    "PerPackageUnitQuantity": {
+      "name": "Per Package Unit Quantity",
+      "definition": "Number of units per package  for a supply chain trade delivery."
+    },
+    "Transport": {
+      "name": "Transport",
+      "definition": "Transport process which uses a specific packaging."
+    },
+    "TotalConsignmentQuantity": {
+      "name": "Total Consignment Quantity",
+      "definition": "Total quantity of packaging units, eg number of boxes, containers, pallets, etc"
+    },
+    "TotalVolume": {
+      "name": "Total Volume",
+      "definition": "Total volume of goods shipped, eg number of cubic meters."
+    },
+    "TotalWeight": {
+      "name": "Total Weight",
+      "definition": "Total weight of goods shipped, eg number of kg, tons."
+    },
+    "RelatedLineItem": {
+      "name": "Related Line Item",
+      "definition": "Line item information for the package goods."
+    }
+  }
+}

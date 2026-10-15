@@ -1,0 +1,54 @@
+{
+  "isoType": "CommercialTrade",
+  "language": "en",
+  "name": "Commercial Trade",
+  "definition": "Commercial details of a trade transaction between a buyer and a seller.",
+  "isoAttributes": {
+    "TotalAcceptedAmount": {
+      "name": "Total Accepted Amount",
+      "definition": "Total amount of a trade, that is the sum of the accepted items."
+    }
+  },
+  "isoAssociations": {
+    "PurchaseAccount": {
+      "name": "Purchase Account",
+      "definition": "Specific purchase account for recording debits and credits for accounting purposes."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Obligation for the buyer to settle the value of the products bought."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Role played by a party in the context of a trade."
+    },
+    "TradeSettlement": {
+      "name": "Trade Settlement",
+      "definition": "Process of settling a commercial trade."
+    },
+    "ProductDeliveryObligation": {
+      "name": "Product Delivery Obligation",
+      "definition": "Obligation for the seller to deliver the products to the buyer."
+    },
+    "PurchaseOrder": {
+      "name": "Purchase Order",
+      "definition": "Specifies the purchase order related to a commercial trade."
+    },
+    "Documents": {
+      "name": "Documents",
+      "definition": "Documents related to                             a commercial trade transaction."
+    },
+    "RelatedUndertaking": {
+      "name": "Related Undertaking",
+      "definition": "Undertaking related to the commercial trade."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Status of a commercial trade processed in a central system."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement between trade parties which describes the conditions under which they agree to execute trades amongst themselves."
+    }
+  }
+}

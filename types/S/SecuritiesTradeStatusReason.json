@@ -1,0 +1,54 @@
+{
+  "isoType": "SecuritiesTradeStatusReason",
+  "language": "en",
+  "name": "Securities Trade Status Reason",
+  "definition": "Specifies the underlying reason for a status of a securities trade.",
+  "isoAttributes": {
+    "UnmatchedReason": {
+      "name": "Unmatched Reason",
+      "definition": "Reason for the unmatched status."
+    },
+    "DeniedReason": {
+      "name": "Denied Reason",
+      "definition": "Specifies the reason why the request was denied."
+    },
+    "GeneratedReason": {
+      "name": "Generated Reason",
+      "definition": "Specifies the reason why the transaction was generated."
+    },
+    "AllegementReason": {
+      "name": "Allegement Reason",
+      "definition": "Reason why the instruction has an allegement status."
+    },
+    "PendingSettlementReason": {
+      "name": "Pending Settlement Reason",
+      "definition": "Reason for the settlement pending status."
+    },
+    "RepoCallAcknowledgementReason": {
+      "name": "Repo Call Acknowledgement Reason",
+      "definition": "Specifies additional information about the processed instruction."
+    },
+    "RepairReason": {
+      "name": "Repair Reason",
+      "definition": "Specifies the reason why the instruction/request has a repair status."
+    },
+    "DeliveryReturnReason": {
+      "name": "Delivery Return Reason",
+      "definition": "Reason why the trade was returned."
+    },
+    "CounterpartyStatusReason": {
+      "name": "Counterparty Status Reason",
+      "definition": "Specifies the counterparty action which is the reason of the trade status."
+    },
+    "ModifiedStatusReason": {
+      "name": "Modified Status Reason",
+      "definition": "Specifies the reason why the related instruction is modified."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesTradeStatus": {
+      "name": "Securities Trade Status",
+      "definition": "Status for which a reason is provided. It is derived from the association between StatusReason and Status."
+    }
+  }
+}

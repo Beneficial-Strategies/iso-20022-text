@@ -1,0 +1,110 @@
+{
+  "isoType": "Document",
+  "language": "en",
+  "name": "Document",
+  "definition": "General information that unambiguously identifies a document, such as identification number and issue date time.",
+  "isoAttributes": {
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Issue date of the document."
+    },
+    "CopyDuplicate": {
+      "name": "Copy Duplicate",
+      "definition": "Specifies if this document is a copy, a duplicate, or a duplicate of a copy."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the document, for example commercial invoice."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money and currency of a document. |The amount can be either the original amount due and payable for instance the ordered amount, or the amount actually remitted for the referred document."
+    },
+    "DocumentVersion": {
+      "name": "Document Version",
+      "definition": "Unambiguous identification of the version of a document."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the document (eg delivered, paid, etc.)"
+    },
+    "DataSetType": {
+      "name": "Data Set Type",
+      "definition": "Specifies the type of data set in which the document is included."
+    },
+    "SignedIndicator": {
+      "name": "Signed Indicator",
+      "definition": "Indication whether the document must be signed or not."
+    },
+    "RemittedAmount": {
+      "name": "Remitted Amount",
+      "definition": "Amount of money remitted for the referred document."
+    },
+    "Language": {
+      "name": "Language",
+      "definition": "Language used for textual information in the document."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Specifies the function of the document."
+    }
+  },
+  "isoAssociations": {
+    "PlaceOfStorage": {
+      "name": "Place Of Storage",
+      "definition": "Specifies where the document is stored."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Document which is referred to in a payment obligation."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement which is materialised by a document"
+    },
+    "PlaceOfIssue": {
+      "name": "Place Of Issue",
+      "definition": "Place where the document was issued."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Reconciliation process for which a document is specified."
+    },
+    "LetterOfCredit": {
+      "name": "Letter Of Credit",
+      "definition": "Written undertaking by a bank to honour a demand for payment."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Role played by a party in the context of a document or in the context of the business linked to the document."
+    },
+    "Transport": {
+      "name": "Transport",
+      "definition": "Transport process for which related documents are specified."
+    },
+    "Guarantee": {
+      "name": "Guarantee",
+      "definition": "Guarantee that is described in a document."
+    },
+    "DocumentIdentification": {
+      "name": "Document Identification",
+      "definition": "Identification of a document for instance unique identification of the purchase order, assigned by the buyer."
+    },
+    "Evidence": {
+      "name": "Evidence",
+      "definition": "Proof of evidence which uses a document."
+    },
+    "CommercialTrade": {
+      "name": "Commercial Trade",
+      "definition": "Trade for which a certificare is issued."
+    },
+    "Presentation": {
+      "name": "Presentation",
+      "definition": "Presentation of documents and statements."
+    },
+    "RelatedContract": {
+      "name": "Related Contract",
+      "definition": "Related document which materialises the agreement."
+    }
+  }
+}

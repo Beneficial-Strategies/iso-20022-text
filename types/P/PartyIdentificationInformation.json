@@ -1,0 +1,66 @@
+{
+  "isoType": "PartyIdentificationInformation",
+  "language": "en",
+  "name": "Party Identification Information",
+  "definition": "Unique and unambiguous way to identify a party",
+  "isoAttributes": {
+    "TaxIdentificationNumber": {
+      "name": "Tax Identification Number",
+      "definition": "Number assigned by a tax authority to an entity."
+    },
+    "NationalRegistrationNumber": {
+      "name": "National Registration Number",
+      "definition": "Number assigned by a national registration authority to an entity. In Singapore this is known as the NRIC."
+    },
+    "TypeOfIdentification": {
+      "name": "Type Of Identification",
+      "definition": "Specifies the type of alternate identification which can be used to identify a party."
+    },
+    "Declaration": {
+      "name": "Declaration",
+      "definition": "Provides declaration details relative to the party."
+    },
+    "PartyType": {
+      "name": "Party Type",
+      "definition": "Specifies the type of party in different business contexts."
+    },
+    "RegistrationAuthorityIdentification": {
+      "name": "Registration Authority Identification",
+      "definition": "An identifier for the Legal Entity in a business registry in the jurisdiction of legal registration, or in the appropriate registration authority."
+    }
+  },
+  "isoAssociations": {
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Identifier issued to a party for which no specific identifier has been defined."
+    },
+    "IdentifiedParty": {
+      "name": "Identified Party",
+      "definition": "Party for which an identification is provided."
+    },
+    "PartyName": {
+      "name": "Party Name",
+      "definition": "Name by which a party is known and which is usually used to identify that party."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Specifies the period during which an identification is valid"
+    },
+    "IdentifiedMarket": {
+      "name": "Identified Market",
+      "definition": "Market for which an identification is provided."
+    },
+    "RelatedApprovedBenchmark": {
+      "name": "Related Approved Benchmark",
+      "definition": "Benchmark that is supervised by the endorsing party."
+    },
+    "RelatedAdministratedBenchmark": {
+      "name": "Related Administrated Benchmark",
+      "definition": "Benchmark that is administrated by the administrator party."
+    },
+    "RelatedAccountVerification": {
+      "name": "Related Account Verification",
+      "definition": "Unique and unambiguous way to identify a party"
+    }
+  }
+}

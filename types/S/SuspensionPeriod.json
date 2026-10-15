@@ -1,0 +1,56 @@
+{
+  "isoType": "SuspensionPeriod",
+  "language": "en",
+  "name": "Suspension Period",
+  "definition": "Period defining the last date for which an action will be accepted and the date on which the suspension will be released and normal processing will resume.",
+  "isoAssociations": {
+    "PrivilegeSuspensionPeriod": {
+      "name": "Privilege Suspension Period",
+      "definition": "Period during which the privilege is not available, eg, this can happen whenever a meeting takes place or whenever a coupon payment is due."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "name": "Depository Suspension Period For Withdrawal",
+      "definition": "Period defining the last date on which withdrawal in street name requests on the outturn security will be accepted and the date on which the suspension will be released and withdrawal by transfer processing on the outturn security will resume."
+    },
+    "DepositorySuspensionPeriodForBookEntryTransfer": {
+      "name": "Depository Suspension Period For Book Entry Transfer",
+      "definition": "Period defining the last date for which book entry transfers will be accepted and the date on which the suspension will be released and book entry transfer processing will resume."
+    },
+    "DepositorySuspensionPeriodForDepositAtAgent": {
+      "name": "Depository Suspension Period For Deposit At Agent",
+      "definition": "Period defining the last date for which deposits, into nominee name, at the agent will be accepted and the date on which the suspension will be released and deposits at agent will resume."
+    },
+    "DepositorySuspensionPeriodForDeposit": {
+      "name": "Depository Suspension Period For Deposit",
+      "definition": "Period defining the last date for which deposits will be accepted and the date on which the suspension will be released and deposits will resume."
+    },
+    "DepositorySuspensionPeriodForPledge": {
+      "name": "Depository Suspension Period For Pledge",
+      "definition": "Period defining the last date for which pledges will be accepted and the date on which the suspension will be released and pledge processing will resume."
+    },
+    "DepositorySuspensionPeriodForSegregation": {
+      "name": "Depository Suspension Period For Segregation",
+      "definition": "Period defining the last date for which intra-position balances can be segregated and the date on which the suspension will be released and the ability to segregate intra-position balances will resume."
+    },
+    "DepositorySuspensionPeriodForWithdrawalAtAgent": {
+      "name": "Depository Suspension Period For Withdrawal At Agent",
+      "definition": "Period defining the last date for which withdrawals, from nominee name at the agent will be accepted and the date on which the suspension will be released and withdrawals at agent processing will resume."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInNomineeName": {
+      "name": "Depository Suspension Period For Withdrawal In Nominee Name",
+      "definition": "Period defining the last date for which physical withdrawals in the nominee's name will be accepted and the date on which the suspension will be released and physical withdrawals in the nominee's name will resume."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInStreetName": {
+      "name": "Depository Suspension Period For Withdrawal In Street Name",
+      "definition": "Period defining the last date on which withdrawal requests in street name's will be accepted on the event security and the date on which the suspension will be released and withdrawal in street name's processing on the event security will resume."
+    },
+    "CoDepositoriesSuspensionPeriod": {
+      "name": "Co Depositories Suspension Period",
+      "definition": "Period during which the settlement activities at the co-depositories are suspended in order to stabilise the holdings at the CSD."
+    },
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Corporate action event for which a depository suspension period is specified."
+    }
+  }
+}

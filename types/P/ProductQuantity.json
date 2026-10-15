@@ -1,0 +1,86 @@
+{
+  "isoType": "ProductQuantity",
+  "language": "en",
+  "name": "Product Quantity",
+  "definition": "Specifies the ordered quantity of a product.",
+  "isoAttributes": {
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Specifies the unit of measurement. For example, kilo, tons."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Quantity of a product on a line specified by a number. For example, 100 (kgs), 50 (pieces)."
+    },
+    "Factor": {
+      "name": "Factor",
+      "definition": "Multiplication factor of measurement values. For example: goods that can be ordered by 36 pieces."
+    },
+    "TimeUnit": {
+      "name": "Time Unit",
+      "definition": "Unit for the frequency period."
+    }
+  },
+  "isoAssociations": {
+    "Product": {
+      "name": "Product",
+      "definition": "Specifies the type of goods and services linked to the quantity."
+    },
+    "NetWeightRelatedLineItem": {
+      "name": "Net Weight Related Line Item",
+      "definition": "Line item for which a net weight is specified."
+    },
+    "BilledQuantityRelatedLineItem": {
+      "name": "Billed Quantity Related Line Item",
+      "definition": "Line item which contains this quantity."
+    },
+    "RelatedPackaging": {
+      "name": "Related Packaging",
+      "definition": "Packaging for which a quantity is specified."
+    },
+    "PackagingForUnitQuantity": {
+      "name": "Packaging For Unit Quantity",
+      "definition": "Packaging for which a unit quantity per package is specified."
+    },
+    "ChargeFreeQuantityRelatedLineItem": {
+      "name": "Charge Free Quantity Related Line Item",
+      "definition": "Line item for which a charge free quantity of product is specified."
+    },
+    "MeasureQuantityStart": {
+      "name": "Measure Quantity Start",
+      "definition": "Quantity value on which the quantity measurement started for a line item. For instance the start amount of a meter reading for an electricity supplier."
+    },
+    "MeasureQuantityEnd": {
+      "name": "Measure Quantity End",
+      "definition": "Quantity value on which the quantity measurement ended for a line item. For instance the end amount of a meter reading for an electricity supplier."
+    },
+    "QuantityTolerance": {
+      "name": "Quantity Tolerance",
+      "definition": "Variance allowed in the quantity of goods."
+    },
+    "PackagingForConsignmentlQuantity": {
+      "name": "Packaging For Consignmentl Quantity",
+      "definition": "Packaging for which a total consignment quantity is specified."
+    },
+    "PackagingForVolume": {
+      "name": "Packaging For Volume",
+      "definition": "Packaging for which a volume is specified."
+    },
+    "PackagingForWeight": {
+      "name": "Packaging For Weight",
+      "definition": "Packaging for which a weight is specified."
+    },
+    "GrossPriceQuantityRelatedLineItem": {
+      "name": "Gross Price Quantity Related Line Item",
+      "definition": "Line item for which gross price quantity is specified."
+    },
+    "NetPriceQuantityRelatedLineItem": {
+      "name": "Net Price Quantity Related Line Item",
+      "definition": "Line item for which a net price quantity is specified."
+    },
+    "GrossWeightRelatedLineItem": {
+      "name": "Gross Weight Related Line Item",
+      "definition": "Line item for which a gross weight is specified."
+    }
+  }
+}

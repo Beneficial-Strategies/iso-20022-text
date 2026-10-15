@@ -1,0 +1,24 @@
+{
+  "isoType": "Reconciliation",
+  "language": "en",
+  "name": "Reconciliation",
+  "definition": "Process of matching different documents submitted by parties to a trade.",
+  "isoAssociations": {
+    "System": {
+      "name": "System",
+      "definition": "System which provides the reconciliation process."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "Document submitted in a reconciliation process."
+    },
+    "ReconciledTrades": {
+      "name": "Reconciled Trades",
+      "definition": "Trades which are reconciled with entries in an account."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account for which a reconciliation process is performed."
+    }
+  }
+}

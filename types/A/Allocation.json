@@ -1,0 +1,58 @@
+{
+  "isoType": "Allocation",
+  "language": "en",
+  "name": "Allocation",
+  "definition": "Distribution of the (block) trade (transactions) by the investor or investment manager to different underlying clients, ie, investment funds.",
+  "isoAttributes": {
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Percent of the securities quantity that this allocation represents."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency to be used for settlement of the allocation."
+    },
+    "AllocationAmount": {
+      "name": "Allocation Amount",
+      "definition": "Allocated quantity of security multiplied by the allocated price."
+    },
+    "Method": {
+      "name": "Method",
+      "definition": "Indicates the method of pre-allocation, that is the factors that are/were applied in the pre-allocation process."
+    },
+    "AveragePricePrecision": {
+      "name": "Average Price Precision",
+      "definition": "Number of decimal places used for average pricing."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the allocation."
+    }
+  },
+  "isoAssociations": {
+    "AllocatedQuantity": {
+      "name": "Allocated Quantity",
+      "definition": "Quantity of a specific security allocated from a block trade, based upon the distribution of the trade to different accounts."
+    },
+    "AllocationAccount": {
+      "name": "Allocation Account",
+      "definition": "Account to or from which an allocation must be made."
+    },
+    "AllocatedPrice": {
+      "name": "Allocated Price",
+      "definition": "Executed price used in an allocation."
+    },
+    "SettlementExecutionParameters": {
+      "name": "Settlement Execution Parameters",
+      "definition": "Parameters used to execute the settlement of a securities allocation."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Securites order which is allocated."
+    },
+    "SecuritiesTrade": {
+      "name": "Securities Trade",
+      "definition": "Trade which is allocated."
+    }
+  }
+}

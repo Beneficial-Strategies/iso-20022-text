@@ -1,0 +1,58 @@
+{
+  "isoType": "VotingCondition",
+  "language": "en",
+  "name": "Voting Condition",
+  "definition": "Specifies the different voting types, channels and premium.",
+  "isoAttributes": {
+    "SecuritiesQuantityRequiredToVote": {
+      "name": "Securities Quantity Required To Vote",
+      "definition": "Number of holdings required for a vote."
+    },
+    "PartialVoteAllowed": {
+      "name": "Partial Vote Allowed",
+      "definition": "Specifies whether it is allowed to only vote on a part of the entire entitled holding, leaving part of the position un-voted."
+    },
+    "SplitVoteAllowed": {
+      "name": "Split Vote Allowed",
+      "definition": "Indicates that the option to give a split instruction, for example, a split voting instruction on a meeting, is allowed."
+    },
+    "BeneficialOwnerDisclosure": {
+      "name": "Beneficial Owner Disclosure",
+      "definition": "Indicates whether beneficiary details (eg name and address) must be supplied in order to take part to a meeting."
+    },
+    "IncentivePremium": {
+      "name": "Incentive Premium",
+      "definition": "Cash premium made available if the securities holder consents or participates to an event."
+    },
+    "VoteInstructionType": {
+      "name": "Vote Instruction Type",
+      "definition": "Identifies the possible types of voting instructions."
+    },
+    "StandingVotingInstruction": {
+      "name": "Standing Voting Instruction",
+      "definition": "Indicates whether standing instructions have been defined or not. In this case, the intermediary should cast the votes according to these instructions."
+    },
+    "VotingPremiumAmount": {
+      "name": "Voting Premium Amount",
+      "definition": "Amount of additional weight applied to the votes of long term shareholders."
+    },
+    "VotingPremiumRate": {
+      "name": "Voting Premium Rate",
+      "definition": "Rate of additional weight applied to the votes of long term shareholders."
+    },
+    "PreviousInstructionInvalidity": {
+      "name": "Previous Instruction Invalidity",
+      "definition": "Indicates whether the previously sent instructions becomes invalid after a market deadline extension."
+    }
+  },
+  "isoAssociations": {
+    "VoteLocation": {
+      "name": "Vote Location",
+      "definition": "Electronic address, e-mail or website where a voting ballot can be obtained and/or where a security holder can vote."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which voting conditions are specified."
+    }
+  }
+}

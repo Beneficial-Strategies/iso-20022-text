@@ -1,0 +1,36 @@
+{
+  "isoType": "ProductDelivery",
+  "language": "en",
+  "name": "Product Delivery",
+  "definition": "Arrangements for delivery of invoiced products and/or services.",
+  "isoAssociations": {
+    "DeliveryPeriod": {
+      "name": "Delivery Period",
+      "definition": "Actual delivery period of the products and/or services."
+    },
+    "Routing": {
+      "name": "Routing",
+      "definition": "Information related to the conveyance of goods."
+    },
+    "TradeSettlement": {
+      "name": "Trade Settlement",
+      "definition": "Specifies the settlement operation which originates the delivery of a product."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Specifies the obligation which is offset by the delivery of a product."
+    },
+    "TradeCertificate": {
+      "name": "Trade Certificate",
+      "definition": "Formal document used to record a fact and used as proof of the fact, in the context of a commercial trade transaction."
+    },
+    "InsuranceCertificate": {
+      "name": "Insurance Certificate",
+      "definition": "Formal document used to record a fact and used as proof of the fact that goods have been insured under an insurance policy."
+    },
+    "Product": {
+      "name": "Product",
+      "definition": "Specifies the type of goods and services linked to the quantity."
+    }
+  }
+}

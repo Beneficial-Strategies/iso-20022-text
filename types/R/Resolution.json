@@ -1,0 +1,66 @@
+{
+  "isoType": "Resolution",
+  "language": "en",
+  "name": "Resolution",
+  "definition": "Specifies an item in the agenda of the meeting. Some resolutions are submitted to the vote of the security holders, some are presented for information only.",
+  "isoAttributes": {
+    "IssuerLabel": {
+      "name": "Issuer Label",
+      "definition": "Numbering of the resolution as specified by the issuer or  its agent."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free text description of the resolution."
+    },
+    "Title": {
+      "name": "Title",
+      "definition": "Abbreviated description of the resolution."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Indicates whether a resolution is ordinary, extraordinary or special."
+    },
+    "ForInformationOnly": {
+      "name": "For Information Only",
+      "definition": "Indicates whether the resolution is listed for information or for voting."
+    },
+    "SubmittedBySecurityHolder": {
+      "name": "Submitted By Security Holder",
+      "definition": "Indicates whether the resolution has been submitted by the security holder."
+    },
+    "ManagementRecommendation": {
+      "name": "Management Recommendation",
+      "definition": "Indicates how the management of the issuing company wishes the security holders to vote."
+    },
+    "NotifyingPartyRecommendation": {
+      "name": "Notifying Party Recommendation",
+      "definition": "Indicates how the notifying party recommends that the security holders vote."
+    },
+    "VoteOptions": {
+      "name": "Vote Options",
+      "definition": "Vote options allowed at the resolution level. When specified, it supersedes the vote options given for the meeting."
+    },
+    "VoteType": {
+      "name": "Vote Type",
+      "definition": "Impact of vote results on an agenda resolution."
+    },
+    "VotingRightsThresholdForApproval": {
+      "name": "Voting Rights Threshold For Approval",
+      "definition": "Voting rights threshold required in percentage or in quantity to have the resolution approved."
+    },
+    "ThresholdBasis": {
+      "name": "Threshold Basis",
+      "definition": "Nature of the quantity used as a basis to set a threshold for voting on resolutions at general meetings."
+    }
+  },
+  "isoAssociations": {
+    "CastVotes": {
+      "name": "Cast Votes",
+      "definition": "Specifies whether a resolution is accepted or not and details the number of votes and their status."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which an agenda item is specified."
+    }
+  }
+}

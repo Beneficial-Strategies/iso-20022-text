@@ -1,0 +1,42 @@
+{
+  "isoType": "CollateralAgreement",
+  "language": "en",
+  "name": "Collateral Agreement",
+  "definition": "Agreement between two trading parties that contains information about their relative duties and rights regarding collateral processes.",
+  "isoAttributes": {
+    "BaseCurrency": {
+      "name": "Base Currency",
+      "definition": "Denomination currency."
+    },
+    "MarginConvention": {
+      "name": "Margin Convention",
+      "definition": "Determines how the variation margin requirement will be calculated, either net or gross."
+    },
+    "CallFrequency": {
+      "name": "Call Frequency",
+      "definition": "Specifies the frequency at which collateral positions are evaluated and margin calls are issued."
+    }
+  },
+  "isoAssociations": {
+    "AssociatedMasterAgreement": {
+      "name": "Associated Master Agreement",
+      "definition": "Agreement in which the parties agree to most of the terms that will govern collateral transactions."
+    },
+    "StandingSettlementInstructions": {
+      "name": "Standing Settlement Instructions",
+      "definition": "Settlement instructions which must be used for the settlement of collateral unless otherwise specified."
+    },
+    "ExposureTerm": {
+      "name": "Exposure Term",
+      "definition": "Specifies the terms used to calculate a risk exposure and its coverage."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Specifies the collateral which is the subject of the agreement."
+    },
+    "RiskCoverage": {
+      "name": "Risk Coverage",
+      "definition": "Collateral management process which applies the terms agreed in the collateral agreement."
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "isoType": "Invoice",
+  "language": "en",
+  "name": "Invoice",
+  "definition": "General information about an invoice, such as number, issue date date and monetary amounts.",
+  "isoAttributes": {
+    "CreditDebitNoteAmount": {
+      "name": "Credit Debit Note Amount",
+      "definition": "Amount of credit/debit note related to the invoice."
+    },
+    "TotalTaxAmount": {
+      "name": "Total Tax Amount",
+      "definition": "Sum of all tax amounts related to the invoice. It is derived from the association between line item and tax."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice additional amounts (allowances and charges) and total tax amounts."
+    },
+    "InvoiceCurrency": {
+      "name": "Invoice Currency",
+      "definition": "Code specifying the currency of the invoice."
+    },
+    "TotalCharge": {
+      "name": "Total Charge",
+      "definition": "Algebraical sum of charges related to the invoice."
+    },
+    "TotalPrepaidAmount": {
+      "name": "Total Prepaid Amount",
+      "definition": "Monetary value of the total prepaid amount being reported for this settlement."
+    },
+    "TotalNetAmount": {
+      "name": "Total Net Amount",
+      "definition": "Total amount after taxes, adjustments and charges."
+    },
+    "BillingCompensationType": {
+      "name": "Billing Compensation Type",
+      "definition": "Defines the type of billing compensation."
+    },
+    "BillingCompensationAmount": {
+      "name": "Billing Compensation Amount",
+      "definition": "Specifies the compensation amount of an incorrect billing."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates the direction of the invoice amount."
+    },
+    "LimitedPresentmentIndicator": {
+      "name": "Limited Presentment Indicator",
+      "definition": "Indicates whether the creditor allows limited presentment of the invoice, that is, only the invoice data needed for payment initiation."
+    },
+    "ActivationRequestDeliveryParty": {
+      "name": "Activation Request Delivery Party",
+      "definition": "Creditor's electronic invoice provider address to which the debtor activation has to be delivered."
+    }
+  },
+  "isoAssociations": {
+    "PeriodCovered": {
+      "name": "Period Covered",
+      "definition": "Specifies the period covered by an invoice for instance for recurring services."
+    },
+    "TradeSettlement": {
+      "name": "Trade Settlement",
+      "definition": "Specifies the process which takes place to settle an invoice."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Unit of information  showing the related  provision of products and/or services and monetary summations reported as a discrete line item."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Specifies currency exchange information which is used when currency conversion is necessary."
+    },
+    "InvoicePartyRole": {
+      "name": "Invoice Party Role",
+      "definition": "Role played by a party in the context of invoices."
+    },
+    "OriginalInvoice": {
+      "name": "Original Invoice",
+      "definition": "Invoice to which another invoice is associated."
+    },
+    "RelatedInvoice": {
+      "name": "Related Invoice",
+      "definition": "Specifies another invoice linked to the current one, for instance a previous invoice for which a credit note is available."
+    },
+    "InvoiceFinancingTransaction": {
+      "name": "Invoice Financing Transaction",
+      "definition": "Financing transaction related to an invoice."
+    },
+    "InvoiceStatus": {
+      "name": "Invoice Status",
+      "definition": "Status of the invoice or of the billing process."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment related to an invoice."
+    },
+    "RelatedElectronicInvoiceProcessingService": {
+      "name": "Related Electronic Invoice Processing Service",
+      "definition": "Specifies the details for the service for the invoice."
+    }
+  }
+}

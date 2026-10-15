@@ -1,0 +1,30 @@
+{
+  "isoType": "Clearing",
+  "language": "en",
+  "name": "Clearing",
+  "definition": "Mechanism allowing financial institutions that are members of a clearing house to pay and to receive the amounts linked to the transactions that they have executed on the market. The addition of all the positions per product results in one net position (due or to receive) with the clearing house or the central clearing counterparty.",
+  "isoAttributes": {
+    "ClearingThresholdIndicator": {
+      "name": "Clearing Threshold Indicator",
+      "definition": "Specifies whether the contract is above or below the clearing threshold. Where N indicates the contract is below the clearing threshold and Y indicates the contract is above the clearing threshold."
+    },
+    "ClearedIdentification": {
+      "name": "Cleared Identification",
+      "definition": "Reference number assigned by the Central Counterparty (CCP)."
+    },
+    "GuaranteedTrade": {
+      "name": "Guaranteed Trade",
+      "definition": "Indicates if the central counterparty has to novate and guarantee the trade or not."
+    },
+    "TradePostingType": {
+      "name": "Trade Posting Type",
+      "definition": "Indicates how a trade is maintained in the clearing account."
+    }
+  },
+  "isoAssociations": {
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Specifies the system which plays a role in the clearing of securities or cash."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "AgentCorporateActionStandingInstruction",
+  "language": "en",
+  "name": "Agent Corporate Action Standing Instruction",
+  "definition": "Set-up at the issuer (agent) of a standing instruction originating from the CSD Participants. These standing instructions allow the participant to indicate details for the distribution of the outturn resources of a CA event outside of the CSD. A standing instruction can be accepted or rejected by the issuer (agent) and a CSD participant can amend or cancel a standing instruction.",
+  "isoAttributes": {
+    "StandingInstructionType": {
+      "name": "Standing Instruction Type",
+      "definition": "Type of standing instruction."
+    },
+    "GrossOrNetIndicator": {
+      "name": "Gross Or Net Indicator",
+      "definition": "Indicates whether the payments must always be gross or net."
+    }
+  },
+  "isoAssociations": {
+    "RelatedDeliveryInstructions": {
+      "name": "Related Delivery Instructions",
+      "definition": "Corporate action delivery instructions which contain settlement standing instructions."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Financial instrument to which the standing instruction applies."
+    }
+  }
+}

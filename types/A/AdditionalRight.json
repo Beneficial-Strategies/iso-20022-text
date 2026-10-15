@@ -1,0 +1,26 @@
+{
+  "isoType": "AdditionalRight",
+  "language": "en",
+  "name": "Additional Right",
+  "definition": "Specifies how the additional rights can be granted to the shareholder. These rights can be exercised at shareholders meetings (for example, the right to ask questions, the right to add items to the agenda or table draft resolutions).",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the additional right type."
+    },
+    "AdditionalRightThreshold": {
+      "name": "Additional Right Threshold",
+      "definition": "Additional right granted to specify the minimum stake in share capital or cash value or number of security holders required to table resolutions."
+    },
+    "AdditionalRightThresholdPercentage": {
+      "name": "Additional Right Threshold Percentage",
+      "definition": "Additional right granted to specify the minimum stake in share capital or cash value or number of security holders required to table resolutions. This minimum is expressed as a percentage."
+    }
+  },
+  "isoAssociations": {
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which additional rights are specified."
+    }
+  }
+}

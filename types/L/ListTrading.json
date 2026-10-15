@@ -1,0 +1,54 @@
+{
+  "isoType": "ListTrading",
+  "language": "en",
+  "name": "List Trading",
+  "definition": "Provides the details for negotiating and trading a large number of securities contained in or comprising a portfolio. One example is index arbitrage, which consists in the purchase or sale of a basket of stocks in conjunction with the sale or purchase of a derivative product (for example index futures) to profit from price differences between the basket and the derivative product. Other examples include liquidation of EFP (Exchange for Physical) stock positions, portfolio realignment and portfolio liquidation.",
+  "isoAttributes": {
+    "ListIdentification": {
+      "name": "List Identification",
+      "definition": "Unique identifier for a list, as assigned by the trading party. The identifier must be unique within a single trading day."
+    },
+    "ListName": {
+      "name": "List Name",
+      "definition": "Provides the name of the order list."
+    },
+    "BasisPriceType": {
+      "name": "Basis Price Type",
+      "definition": "Represents the basis price type in a bid order (list trading)."
+    },
+    "StrikeTime": {
+      "name": "Strike Time",
+      "definition": "Time at which current market prices are used to determine the value of a basket."
+    },
+    "GrossAmountIndicator": {
+      "name": "Gross Amount Indicator",
+      "definition": "Indicates whether an amount is a gross amount (including all charges, commissions and tax), or a net amount."
+    },
+    "SellSideIdentification": {
+      "name": "Sell Side Identification",
+      "definition": "Unique identifier for a bid, as assigned by the the sell-side (broker, exchange, electronic communication network (ECN)). The identifier must be unique within a single trading day."
+    },
+    "BuySideIdentification": {
+      "name": "Buy Side Identification",
+      "definition": "Unique identifier for a bid, as assigned by the buy-side institution. The identifier must be unique within a single trading day."
+    },
+    "BidType": {
+      "name": "Bid Type",
+      "definition": "Indicates the type of bid for a list order."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesListOrder": {
+      "name": "Securities List Order",
+      "definition": "Order list containing the details of the individual orders within the program."
+    },
+    "ListTradingSession": {
+      "name": "List Trading Session",
+      "definition": "Details of a specific trading session for a list trading."
+    },
+    "Liquidity": {
+      "name": "Liquidity",
+      "definition": "Information on the liquidity of a financial instrument."
+    }
+  }
+}

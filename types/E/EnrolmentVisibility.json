@@ -1,0 +1,26 @@
+{
+  "isoType": "EnrolmentVisibility",
+  "language": "en",
+  "name": "Enrolment Visibility",
+  "definition": "Specifies the details of the visibility of the creditor enrolment as shown to the debtors.",
+  "isoAttributes": {
+    "EndDate": {
+      "name": "End Date",
+      "definition": "End date when the information will be shown to the debtors."
+    },
+    "LimitedVisibility": {
+      "name": "Limited Visibility",
+      "definition": "Indicates whether the information is shown to the debtors or not."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date when the information will be shown to the debtors."
+    }
+  },
+  "isoAssociations": {
+    "RelatedEnrolmentService": {
+      "name": "Related Enrolment Service",
+      "definition": "Provides the creditor enrolment as shown to the debtors of the  details of the visibility."
+    }
+  }
+}

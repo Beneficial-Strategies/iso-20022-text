@@ -1,0 +1,34 @@
+{
+  "isoType": "PrivateCertificate",
+  "language": "en",
+  "name": "Private Certificate",
+  "definition": "Specifies the parameters associated with the production of a certificate to identify the profile of a customer.",
+  "isoAttributes": {
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Identifies the type of certificate."
+    },
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Indicates whether the certificate type has been obtained and verified."
+    },
+    "CheckingDate": {
+      "name": "Checking Date",
+      "definition": "Date at which the certification check has been performed."
+    },
+    "CheckingFrequency": {
+      "name": "Checking Frequency",
+      "definition": "Specifies how frequently the check is performed."
+    },
+    "NextRevisionDate": {
+      "name": "Next Revision Date",
+      "definition": "Specifies the date at which the next certification check will be performed."
+    }
+  },
+  "isoAssociations": {
+    "Person": {
+      "name": "Person",
+      "definition": "Profile of a person for which a private certificate is described."
+    }
+  }
+}

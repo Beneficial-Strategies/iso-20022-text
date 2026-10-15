@@ -83,11 +83,11 @@ for (const letter of readdirSync(typesDir)) for (const file of readdirSync(join(
   full.language = lang;
   const sameLanguage = JSON.stringify(full);
   rewrite(full);
-  for (const map of ['isoElements', 'isoCodes', 'isoRules']) for (const e of Object.values(full[map] ?? {})) rewrite(e);
+  for (const map of ['isoElements', 'isoCodes', 'isoRules', 'isoAttributes', 'isoAssociations']) for (const e of Object.values(full[map] ?? {})) rewrite(e);
   const over = existsSync(join(spoke, 'types', letter, file)) ? read(join(spoke, 'types', letter, file)) : undefined;
   if (over) {
     for (const k of ['name', 'definition', 'format']) if (over[k] !== undefined) { full[k] = over[k]; explicit++; }
-    for (const map of ['isoElements', 'isoCodes', 'isoRules']) for (const [key, o] of Object.entries(over[map] ?? {})) {
+    for (const map of ['isoElements', 'isoCodes', 'isoRules', 'isoAttributes', 'isoAssociations']) for (const [key, o] of Object.entries(over[map] ?? {})) {
       for (const k of ['name', 'definition']) if (o[k] !== undefined) { full[map][key][k] = o[k]; explicit++; }
     }
   }

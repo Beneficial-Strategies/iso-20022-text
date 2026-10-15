@@ -1,0 +1,30 @@
+{
+  "isoType": "CappedLimit",
+  "language": "en",
+  "name": "Capped Limit",
+  "definition": "Limits of the capped drawdown.",
+  "isoAttributes": {
+    "IncomeCurrentPeriod": {
+      "name": "Income Current Period",
+      "definition": "Income taken in the current income year."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date of current reference period"
+    },
+    "IncomeLimitCurrentPeriod": {
+      "name": "Income Limit Current Period",
+      "definition": "Income limit for the current period."
+    },
+    "IncomeLimitNextPeriod": {
+      "name": "Income Limit Next Period",
+      "definition": "Income limit for the next income year."
+    }
+  },
+  "isoAssociations": {
+    "RelatedDrawdown": {
+      "name": "Related Drawdown",
+      "definition": "Details of a drawdown tranche."
+    }
+  }
+}

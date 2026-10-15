@@ -1,0 +1,78 @@
+{
+  "isoType": "CorporateActionOption",
+  "language": "en",
+  "name": "Corporate Action Option",
+  "definition": "Provides information about the alternatives available to an account owner when participating to a corporate action event. This is defined at a general level without looking at the specificities of the securities balances.",
+  "isoAttributes": {
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action options."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Type of corporate action options available to the account owner."
+    },
+    "FractionDisposition": {
+      "name": "Fraction Disposition",
+      "definition": "Treatment of the fractions resulting from derived securities will be processed or how prorated decisions will be rounding, if provided with a pro ration rate."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency choice given to the investor."
+    },
+    "OptionFeatures": {
+      "name": "Option Features",
+      "definition": "Features that may apply to a corporate action option."
+    },
+    "OfferType": {
+      "name": "Offer Type",
+      "definition": "Conditions that apply to the offer."
+    },
+    "ChargesAppliedIndicator": {
+      "name": "Charges Applied Indicator",
+      "definition": "Indicates whether charges apply to the holder, for instance redemption charges."
+    },
+    "WithdrawalAllowedIndicator": {
+      "name": "Withdrawal Allowed Indicator",
+      "definition": "Indicates whether withdrawal of instruction is allowed."
+    },
+    "ChangeAllowedIndicator": {
+      "name": "Change Allowed Indicator",
+      "definition": "Indicates whether change of instruction is allowed."
+    },
+    "Default": {
+      "name": "Default",
+      "definition": "Specifies whether the option is the default option or not."
+    },
+    "ProrationBelowMinimumQuantity": {
+      "name": "Proration Below Minimum Quantity",
+      "definition": "Specifies how instructions prorated below the minimum quantity to instruct will be processed."
+    }
+  },
+  "isoAssociations": {
+    "RelatedChoiceCorporateAction": {
+      "name": "Related Choice Corporate Action",
+      "definition": "Corporate action for which one or more options are provided."
+    },
+    "CorporateActionElection": {
+      "name": "Corporate Action Election",
+      "definition": "Election process which selected a specific option."
+    },
+    "ActionPeriod": {
+      "name": "Action Period",
+      "definition": "Period during which the specified option remains valid, eg, offer period."
+    },
+    "CorporateActionOptionServicing": {
+      "name": "Corporate Action Option Servicing",
+      "definition": "Calculation of the entitlement on the basis of the proposed option."
+    },
+    "ProceedsDefinition": {
+      "name": "Proceeds Definition",
+      "definition": "Definition of exchanges of cash and / or securities available in the processing of corporate actions."
+    },
+    "Distribution": {
+      "name": "Distribution",
+      "definition": "Distribution process for which an option is selected."
+    }
+  }
+}

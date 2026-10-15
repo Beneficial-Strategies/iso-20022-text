@@ -1,0 +1,42 @@
+{
+  "isoType": "MarginAmountRequirement",
+  "language": "en",
+  "name": "Margin Amount Requirement",
+  "definition": "Amount of expected margin required by any of the parties of the margin calculation.",
+  "isoAttributes": {
+    "DeliverMarginAmount": {
+      "name": "Deliver Margin Amount",
+      "definition": "Amount of new Variation Margin that will be delivered to one party by the other party after rounding, threshold and minimum transfer amount are taken into account."
+    },
+    "ReturnMarginAmount": {
+      "name": "Return Margin Amount",
+      "definition": "Amount of new Variation Margin that will be recalled to one party from the other party after rounding, threshold and minimum transfer amount are taken into account."
+    },
+    "IntraDayMarginCall": {
+      "name": "Intra Day Margin Call",
+      "definition": "Total aggregate value of collateral called intraday, excluding repayments."
+    },
+    "PeakInitialMarginLiability": {
+      "name": "Peak Initial Margin Liability",
+      "definition": "Peak increase in initial margin liability for the account during the day."
+    },
+    "AggregatePeakLiability": {
+      "name": "Aggregate Peak Liability",
+      "definition": "Peak intraday liability (sum of increase in initial margin relative to end of day plus sum of decrease in variation margin relative to end of day) for a margin account during the day. Liabilities are shown as positive integers."
+    },
+    "PeakVariationMarginLiability": {
+      "name": "Peak Variation Margin Liability",
+      "definition": "Peak loss uncollateralised variation margin liability on the margin account during the day."
+    }
+  },
+  "isoAssociations": {
+    "VariationMarginAmountRequirementCalculation": {
+      "name": "Variation Margin Amount Requirement Calculation",
+      "definition": "Exposure valuation which takes into account amount requirements."
+    },
+    "SegregatedAmountRequirementCalculation": {
+      "name": "Segregated Amount Requirement Calculation",
+      "definition": "Exposure valuation which takes into account amount requirements."
+    }
+  }
+}

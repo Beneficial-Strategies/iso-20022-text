@@ -1,0 +1,46 @@
+{
+  "isoType": "InvestmentAccountService",
+  "language": "en",
+  "name": "Investment Account Service",
+  "definition": "Services linked to an account which are available to the account owner or to the holder of a mandate. The exercise of these services may be submitted to a limit.",
+  "isoAttributes": {
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "TaxWithholdingMethod": {
+      "name": "Tax Withholding Method",
+      "definition": "Method by which the tax (withholding tax) is to be processed i.e. either withheld at source or tax information reported to tax authorities or tax information is reported due to the provision of a tax certificate."
+    },
+    "BeneficiaryCertificationIndicator": {
+      "name": "Beneficiary Certification Indicator",
+      "definition": "Indicates whether the beneficial ownership certification has been sent, certifying that the beneficial owner is eligible to own a specific investment fund or investment fund class."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "name": "Beneficiary Certification Completion",
+      "definition": "Beneficial owner or its designated agent certifies that it complies with any holding or investment restrictions or requirements of the fund."
+    }
+  },
+  "isoAssociations": {
+    "RoundingMethod": {
+      "name": "Rounding Method",
+      "definition": "Rounding method used to determine the quantity of investment fund units."
+    },
+    "SystematicInvestmentPlan": {
+      "name": "Systematic Investment Plan",
+      "definition": "Investment plan associated with an investment account."
+    },
+    "InvestmentAccountContract": {
+      "name": "Investment Account Contract",
+      "definition": "Contract which specifies the services related to an account."
+    },
+    "ReportingService": {
+      "name": "Reporting Service",
+      "definition": "Reporting services parameters for an investment account."
+    },
+    "Reinvestment": {
+      "name": "Reinvestment",
+      "definition": "Reinvestment information included in the investment account contract."
+    }
+  }
+}

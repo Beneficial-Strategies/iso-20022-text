@@ -1,0 +1,22 @@
+{
+  "isoType": "DebitCreditFacility",
+  "language": "en",
+  "name": "Debit Credit Facility",
+  "definition": "Specifies the conditions for overdraft on the account or for positive amounts.",
+  "isoAttributes": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies if the line is a debit limit or a credit limit."
+    }
+  },
+  "isoAssociations": {
+    "CreditLine": {
+      "name": "Credit Line",
+      "definition": "Credit or Debit limit applied to a cash account."
+    },
+    "CashAccountInterest": {
+      "name": "Cash Account Interest",
+      "definition": "Interest that applies to a cash account at a particular moment in time, as per a contractual relationship."
+    }
+  }
+}

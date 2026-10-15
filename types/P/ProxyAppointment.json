@@ -1,0 +1,30 @@
+{
+  "isoType": "ProxyAppointment",
+  "language": "en",
+  "name": "Proxy Appointment",
+  "definition": "Specifies that a proxy has been appointed  to represent a party authorised to vote at a general meeting.",
+  "isoAttributes": {
+    "ProxyType": {
+      "name": "Proxy Type",
+      "definition": "Specifies the type of proxy."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Uniquely identifies a proxy card."
+    },
+    "AdditionalParticipationCost": {
+      "name": "Additional Participation Cost",
+      "definition": "Aditional fee associated to the participation of a proxy person such as hotel expenses."
+    }
+  },
+  "isoAssociations": {
+    "RelatedMeetingInstruction": {
+      "name": "Related Meeting Instruction",
+      "definition": "Instruction in which the parameters for proxy appointment are included."
+    },
+    "Vote": {
+      "name": "Vote",
+      "definition": "Voting instructions for the proxy."
+    }
+  }
+}

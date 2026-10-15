@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationCaseStatus",
+  "language": "en",
+  "name": "Investigation Case Status",
+  "definition": "Status of an investigation case.",
+  "isoAttributes": {
+    "CaseStatus": {
+      "name": "Case Status",
+      "definition": "Status of the case."
+    }
+  },
+  "isoAssociations": {
+    "InvestigationCase": {
+      "name": "Investigation Case",
+      "definition": "Case for which a status is reported."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "SettlementTimeRequest",
+  "language": "en",
+  "name": "Settlement Time Request",
+  "definition": "Provides information on the requested settlement time(s) of the payment instruction.",
+  "isoAttributes": {
+    "CLSTime": {
+      "name": "CLS Time",
+      "definition": "Time by which the amount of money must be credited, with confirmation, to the CLS Bank's account at the central bank.|Usage: Time must be expressed in Central European Time (CET)."
+    },
+    "TillTime": {
+      "name": "Till Time",
+      "definition": "Time until when the payment may be settled."
+    },
+    "FromTime": {
+      "name": "From Time",
+      "definition": "Time as from when the payment may be settled."
+    },
+    "RejectTime": {
+      "name": "Reject Time",
+      "definition": "Time by when the payment must be settled to avoid rejection."
+    }
+  },
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment for which settlement times are specified."
+    }
+  }
+}

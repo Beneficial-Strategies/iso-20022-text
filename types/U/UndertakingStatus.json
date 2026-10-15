@@ -1,0 +1,34 @@
+{
+  "isoType": "UndertakingStatus",
+  "language": "en",
+  "name": "Undertaking Status",
+  "definition": "Status of the undertaking.",
+  "isoAttributes": {
+    "DemandStatus": {
+      "name": "Demand Status",
+      "definition": "Processing status reported by the applicant."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the undertaking."
+    },
+    "StatusCategory": {
+      "name": "Status Category",
+      "definition": "Specifies the category of the status."
+    },
+    "PresentationStatus": {
+      "name": "Presentation Status",
+      "definition": "Status of the presentation."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which a status is specified."
+    },
+    "UndertakingStatusReason": {
+      "name": "Undertaking Status Reason",
+      "definition": "Specifies the reason for the status. it is derived from the association between Status and StatusReason."
+    }
+  }
+}

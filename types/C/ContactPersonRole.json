@@ -1,0 +1,20 @@
+{
+  "isoType": "ContactPersonRole",
+  "language": "en",
+  "name": "Contact Person Role",
+  "definition": "Person to be contacted in a given organisation. In the corporate action domain (including meeting notifications) , it is the contact person at the party organising the meeting, at the issuer or at an intermediary.",
+  "isoAssociations": {
+    "Role": {
+      "name": "Role",
+      "definition": "Role for which a contact person is specified."
+    },
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which a person is the contact."
+    },
+    "Person": {
+      "name": "Person",
+      "definition": "Identifies the person which plays the role of contact."
+    }
+  }
+}

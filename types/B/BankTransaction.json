@@ -1,0 +1,38 @@
+{
+  "isoType": "BankTransaction",
+  "language": "en",
+  "name": "Bank Transaction",
+  "definition": "Code of the underlying bank transaction.",
+  "isoAttributes": {
+    "Domain": {
+      "name": "Domain",
+      "definition": "Specifies the business area of the underlying transaction."
+    },
+    "Family": {
+      "name": "Family",
+      "definition": "Specifies the family within a domain."
+    },
+    "SubFamily": {
+      "name": "Sub Family",
+      "definition": "Specifies the sub-product family within a specific family."
+    }
+  },
+  "isoAssociations": {
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Bank transaction code in a proprietary form, as defined by the issuer."
+    },
+    "BankOperation": {
+      "name": "Bank Operation",
+      "definition": "Bank operation for which a type is detailed."
+    },
+    "RelatedEntry": {
+      "name": "Related Entry",
+      "definition": "Entry for which a bank transaction code is provided."
+    },
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Payment for which bank transaction information is specified."
+    }
+  }
+}

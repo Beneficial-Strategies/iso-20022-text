@@ -1,0 +1,30 @@
+{
+  "isoType": "CashManagementService",
+  "language": "en",
+  "name": "Cash Management Service",
+  "definition": "Set of applications that provides services which facilitate the management of cash positions on an account.",
+  "isoAttributes": {
+    "CallInType": {
+      "name": "Call In Type",
+      "definition": "Type of call when additional funding from a settlement member is requested by a central settlement system."
+    }
+  },
+  "isoAssociations": {
+    "RiskManagementLimit": {
+      "name": "Risk Management Limit",
+      "definition": "Maximum amount value applied to or by a party versus a specific counterparty or a set of counterparts. The limit can be expressed as a debit limit or a credit limit."
+    },
+    "StandingOrder": {
+      "name": "Standing Order",
+      "definition": "Specifies standing orders that must be executed in the context of cash management. This service may be offered by a transaction administrator."
+    },
+    "RelatedTransactionAdministrator": {
+      "name": "Related Transaction Administrator",
+      "definition": "Transaction administrator of a cash management service."
+    },
+    "LiquidityManagementLimit": {
+      "name": "Liquidity Management Limit",
+      "definition": "Cash management feature limiting the amount of liquidity needed to perform clearing and settlement operations. At any point in time during the process, the limit imposes the maximum amount of liquidity available for operations concerning the system or other managed elements, eg, transaction amount or counterparty."
+    }
+  }
+}

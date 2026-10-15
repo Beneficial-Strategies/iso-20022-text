@@ -1,0 +1,66 @@
+{
+  "isoType": "InvestmentPlan",
+  "language": "en",
+  "name": "Investment Plan",
+  "definition": "Plan that allows investors to schedule periodical investments or divestments, according to pre-defined criteria.",
+  "isoAttributes": {
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the investment or divestment, eg, daily, weekly, or monthly."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Currency and amount of the periodical payments. When the standing order is related to a fund investment plan, this is the cash part of the invested amount."
+    },
+    "MultiCurrency": {
+      "name": "Multi Currency",
+      "definition": "Specifies whether the investment plan is multi currency or not."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the investment plan."
+    },
+    "PlanStatus": {
+      "name": "Plan Status",
+      "definition": "Status of the savings or withdrawal investment plan."
+    }
+  },
+  "isoAssociations": {
+    "Asset": {
+      "name": "Asset",
+      "definition": "Security that an investment plan invests in, or from which the investment plan divests."
+    },
+    "Instalment": {
+      "name": "Instalment",
+      "definition": "Specifies information on the successive payments in an investment plan."
+    },
+    "RelatedService": {
+      "name": "Related Service",
+      "definition": "Service which provides a systematic investment plan."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Insurance contract which covers the investment plan."
+    },
+    "StandingOrder": {
+      "name": "Standing Order",
+      "definition": "Order generated automatically, according to the terms of the investment plan."
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Portfolio for which the investment plan invests or divests."
+    },
+    "InvestmentPeriod": {
+      "name": "Investment Period",
+      "definition": "Period during which an investment plan has to be executed."
+    },
+    "Pension": {
+      "name": "Pension",
+      "definition": "Attributes of a pension."
+    },
+    "TaxEfficientProduct": {
+      "name": "Tax Efficient Product",
+      "definition": "Characteristics of a tax efficient product."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "HaircutValuation",
+  "language": "en",
+  "name": "Haircut Valuation",
+  "definition": "Basic valuation details of an asset's market value.",
+  "isoAttributes": {
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Haircut or valuation factor on the security expressed as a percentage."
+    },
+    "Sign": {
+      "name": "Sign",
+      "definition": "One of the following PlusOrMinusIndicator values must be used:|MeaningWhenTrue: Plus (the haircut is added)|MeaningWhenFalse: Minus (the haircut is deducted)"
+    }
+  },
+  "isoAssociations": {
+    "AssetHolding": {
+      "name": "Asset Holding",
+      "definition": "Asset holding for which a haircut is specified."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies the role of a party in the haircut valuation process."
+    }
+  }
+}

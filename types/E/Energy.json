@@ -1,0 +1,42 @@
+{
+  "isoType": "Energy",
+  "language": "en",
+  "name": "Energy",
+  "definition": "Energy related commodities.",
+  "isoAttributes": {
+    "WeekDay": {
+      "name": "Week Day",
+      "definition": "Specifies energy week days."
+    },
+    "LoadType": {
+      "name": "Load Type",
+      "definition": "Specifies the energy delivery profile."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Specifies energy duration details."
+    },
+    "QuantityUnit": {
+      "name": "Quantity Unit",
+      "definition": "Specifies energy quanity units."
+    },
+    "InterConnectionPoint": {
+      "name": "Inter Connection Point",
+      "definition": "Specifies the energy delivery profile."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Specifies date related to energy."
+    }
+  },
+  "isoAssociations": {
+    "Delivery": {
+      "name": "Delivery",
+      "definition": "Specifies energy delivery."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Specifies corresponding energy."
+    }
+  }
+}

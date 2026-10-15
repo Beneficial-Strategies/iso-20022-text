@@ -1,0 +1,42 @@
+{
+  "isoType": "Guarantee",
+  "language": "en",
+  "name": "Guarantee",
+  "definition": "Partial or full coverage of amounts by a party other than the debtor.",
+  "isoAttributes": {
+    "CoveredAmount": {
+      "name": "Covered Amount",
+      "definition": "Amount covered by the guarantee."
+    },
+    "GuaranteeType": {
+      "name": "Guarantee Type",
+      "definition": "Specifies the type of security granted by an organisation with the role as 'guarantor', for example, suretyship."
+    },
+    "CoveredPercentage": {
+      "name": "Covered Percentage",
+      "definition": "Amount covered by the guarantee, expressed as a percentage."
+    },
+    "ExcessAmount": {
+      "name": "Excess Amount",
+      "definition": "Amount not covered by the guarantee."
+    }
+  },
+  "isoAssociations": {
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the guarantee is valid."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "Document which contains the description of the guarantee."
+    },
+    "GuaranteedTrade": {
+      "name": "Guaranteed Trade",
+      "definition": "Trade which is partially or fully covered by a guarantee."
+    },
+    "GuaranteePartyRole": {
+      "name": "Guarantee Party Role",
+      "definition": "Specifies the roles played by a party in the context of guarantees."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesEntry",
+  "language": "en",
+  "name": "Securities Entry",
+  "definition": "Posting to a securities account as a result of a securities creation, deletion or transfer in the context of a securities transaction.",
+  "isoAttributes": {
+    "AcquisitionDate": {
+      "name": "Acquisition Date",
+      "definition": "Date upon which the investor purchased the financial instrument."
+    }
+  },
+  "isoAssociations": {
+    "FinancialInstrumentQuantity": {
+      "name": "Financial Instrument Quantity",
+      "definition": "Quantity of financial instrument."
+    },
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Securities account on which the quantity of the entry is debited or credited. It is derived from the association between Entry and Account."
+    },
+    "SecuritiesBalance": {
+      "name": "Securities Balance",
+      "definition": "Amount that is the result of the sum of the entries from or to an account. It is derived from the association between Entry and Balance."
+    },
+    "TriggeringSecuritiesTransfer": {
+      "name": "Triggering Securities Transfer",
+      "definition": "Transfer which is at the origin of the entry in the securities account."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "PaymentIdentification",
+  "language": "en",
+  "name": "Payment Identification",
+  "definition": "Specifies the different identifications associated with a payment transaction.",
+  "isoAttributes": {
+    "ExecutionIdentification": {
+      "name": "Execution Identification",
+      "definition": "Unique and unambiguous identifier for a payment execution, as assigned by the clearing agent or the initiating party."
+    },
+    "EndToEndIdentification": {
+      "name": "End To End Identification",
+      "definition": "Unique and unambiguous identifier for a payment as assigned by the originator. The payment transaction reference is used for reconciliation or to link tasks relating to the payment."
+    },
+    "InstructionIdentification": {
+      "name": "Instruction Identification",
+      "definition": "Unique identification assigned by an instructing party for an instructed party to unambiguously identify the instruction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the first instructing agent to unambiguously identify the transaction and passed on, unchanged, throughout the entire interbank chain."
+    },
+    "ClearingSystemReference": {
+      "name": "Clearing System Reference",
+      "definition": "Unique and unambiguous identifier for a payment instruction, as assigned by the clearing system."
+    },
+    "CreditorReference": {
+      "name": "Creditor Reference",
+      "definition": "Unique and unambiguous reference assigned by the creditor to refer to the payment obligation."
+    },
+    "UETR": {
+      "name": "UETR",
+      "definition": "Universally unique identifier to provide an end-to-end reference of a payment transaction."
+    }
+  },
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment for which identifications are provided."
+    }
+  }
+}

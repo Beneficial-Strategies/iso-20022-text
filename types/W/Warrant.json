@@ -1,0 +1,26 @@
+{
+  "isoType": "Warrant",
+  "language": "en",
+  "name": "Warrant",
+  "definition": "Financial instrument that gives the holder the right to purchase shares or bonds at a given price within a specified time.",
+  "isoAttributes": {
+    "Multiplier": {
+      "name": "Multiplier",
+      "definition": "Specifies the ratio or multiply factor used to convert from contracts to shares."
+    },
+    "Style": {
+      "name": "Style",
+      "definition": "Specifies the expiration style of the warrant."
+    }
+  },
+  "isoAssociations": {
+    "SubscriptionPrice": {
+      "name": "Subscription Price",
+      "definition": "Pre-determined price at which the holder of a warrant is entitled to buy the underlying instrument."
+    },
+    "WarrantParity": {
+      "name": "Warrant Parity",
+      "definition": "Provides the ratio between the quantity of warrants and the quantity of underlying securities."
+    }
+  }
+}

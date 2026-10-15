@@ -1,0 +1,42 @@
+{
+  "isoType": "InvoiceFinancingStatus",
+  "language": "en",
+  "name": "Invoice Financing Status",
+  "definition": "Status of an invoice financing transaction and of the instructions related to the invoice financing.",
+  "isoAttributes": {
+    "ValidationStatusReason": {
+      "name": "Validation Status Reason",
+      "definition": "The reason for the validation status."
+    },
+    "ValidationStatus": {
+      "name": "Validation Status",
+      "definition": "The result of the technical validation (e.g. Accepted, Reception error) executed on the  request message."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Information on the business status of the cancellation."
+    },
+    "CancellationStatusReason": {
+      "name": "Cancellation Status Reason",
+      "definition": "The reason for the cancellation status."
+    },
+    "FinancingTransactionStatus": {
+      "name": "Financing Transaction Status",
+      "definition": "Specifies the status of the financing request (e.g. financed. not financed)."
+    },
+    "CancellationRequestReason": {
+      "name": "Cancellation Request Reason",
+      "definition": "Further details on the cancellation request information, in an uncoded form."
+    },
+    "FinancingStatusReason": {
+      "name": "Financing Status Reason",
+      "definition": "Indicates the reasons that have determined the result of the single request."
+    }
+  },
+  "isoAssociations": {
+    "InvoiceFinancingTransaction": {
+      "name": "Invoice Financing Transaction",
+      "definition": "Specifies the transaction for which a status is provided."
+    }
+  }
+}

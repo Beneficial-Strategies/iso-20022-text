@@ -1,0 +1,290 @@
+{
+  "isoType": "DateTimePeriod",
+  "language": "en",
+  "name": "Date Time Period",
+  "definition": "Time span defined by a start date and time, and an end date and time.",
+  "isoAttributes": {
+    "FromDateTime": {
+      "name": "From Date Time",
+      "definition": "Date and time at which the range starts."
+    },
+    "ToDateTime": {
+      "name": "To Date Time",
+      "definition": "Date and time at which the range ends."
+    },
+    "NumberOfDays": {
+      "name": "Number Of Days",
+      "definition": "Period specified as a number of days."
+    }
+  },
+  "isoAssociations": {
+    "RelatedStandingOrder": {
+      "name": "Related Standing Order",
+      "definition": "Standing order for which a validity period is specified."
+    },
+    "PaymentInstruction": {
+      "name": "Payment Instruction",
+      "definition": "Payment instruction for which a processing validity time is specified."
+    },
+    "ValuationStatistics": {
+      "name": "Valuation Statistics",
+      "definition": "Valuation statistics for which a reference period is specified."
+    },
+    "PerformanceFactors": {
+      "name": "Performance Factors",
+      "definition": "Performance factors for which an accumulation period is specified."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status for which a validity time is specified."
+    },
+    "PriceCalculationRelatedPricing": {
+      "name": "Price Calculation Related Pricing",
+      "definition": "Securities pricing for which a price calculation period is specified."
+    },
+    "CorporateActionOption": {
+      "name": "Corporate Action Option",
+      "definition": "Corporate action option for which an action period is defined."
+    },
+    "ParallelTradingProceedsDefinition": {
+      "name": "Parallel Trading Proceeds Definition",
+      "definition": "Securities proceeds for which a parallel trading period is specified."
+    },
+    "PrivilegeSuspensionCorporateAction": {
+      "name": "Privilege Suspension Corporate Action",
+      "definition": "Corporate event for which a privilege suspension period has been defined."
+    },
+    "WithdrawalSuspensionRelatedEvent": {
+      "name": "Withdrawal Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for withdrawals is specified."
+    },
+    "RelatedInterestCalculation": {
+      "name": "Related Interest Calculation",
+      "definition": "Interest calculation process for which an interest period is specified."
+    },
+    "BiddingConditions": {
+      "name": "Bidding Conditions",
+      "definition": "Bidding conditions for which a compulsory purchase period is specified."
+    },
+    "ClassAction": {
+      "name": "Class Action",
+      "definition": "Class action for which a claim period is specified."
+    },
+    "BookEntryTransferSuspensionRelatedEvent": {
+      "name": "Book Entry Transfer Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for book entry transfers is specified."
+    },
+    "DepositAtAgentSuspensionRelatedEvent": {
+      "name": "Deposit At Agent Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for deposits at agent is specified."
+    },
+    "DepositSuspensionRelatedEvent": {
+      "name": "Deposit Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for deposits is specified."
+    },
+    "PledgeSuspensionRelatedEvent": {
+      "name": "Pledge Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for pledges is specified."
+    },
+    "SegregationPeriodRelatedEvent": {
+      "name": "Segregation Period Related Event",
+      "definition": "Corporate event for which a suspension period for segregation is specified."
+    },
+    "WithdrawalAtAgentSuspensionRelatedEvent": {
+      "name": "Withdrawal At Agent Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for withdrawals at agent is specified."
+    },
+    "WithdrawalInNomineeNameSuspensionRelatedEvent": {
+      "name": "Withdrawal In Nominee Name Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for withdrawals in nominee name is specified."
+    },
+    "WithdrawalInStreetNameSuspensionRelatedEvent": {
+      "name": "Withdrawal In Street Name Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for withdrawals in street name is specified."
+    },
+    "BookClosureCorporateAction": {
+      "name": "Book Closure Corporate Action",
+      "definition": "Corporate action for which a book closure period has been specified."
+    },
+    "CoDepositoriesSuspensionRelatedEvent": {
+      "name": "Co Depositories Suspension Related Event",
+      "definition": "Corporate event for which a suspension period for co-depositories is specified."
+    },
+    "ExtendiblePeriodDebt": {
+      "name": "Extendible Period Debt",
+      "definition": "Debt for which an extendible period is specified."
+    },
+    "SecuritiesConversion": {
+      "name": "Securities Conversion",
+      "definition": "Securities conversion process for which a conversion period is specified."
+    },
+    "YieldCalculation": {
+      "name": "Yield Calculation",
+      "definition": "Yield calculation for which a value period is specified."
+    },
+    "CustomDateDebt": {
+      "name": "Custom Date Debt",
+      "definition": "Debt for which a custom date is specified."
+    },
+    "TaxPeriod": {
+      "name": "Tax Period",
+      "definition": "Tax period for which a from/to date is specified."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Account for which a reported period is specified."
+    },
+    "RelatedAgreement": {
+      "name": "Related Agreement",
+      "definition": "Agreement for which a validity period is specified."
+    },
+    "AssentedLinePeriodProceedsDefinition": {
+      "name": "Assented Line Period Proceeds Definition",
+      "definition": "Securities proceeds for which an assented line period is specified."
+    },
+    "SellThruIssuerProceedsDefinition": {
+      "name": "Sell Thru Issuer Proceeds Definition",
+      "definition": "Securities proceeds for which a sell thru issuer period is specified."
+    },
+    "RelatedProductDelivery": {
+      "name": "Related Product Delivery",
+      "definition": "Trade delivery process for which a delivery period is specified."
+    },
+    "RelatedInvoice": {
+      "name": "Related Invoice",
+      "definition": "Invoice for which a period is specified."
+    },
+    "TradeCertificate": {
+      "name": "Trade Certificate",
+      "definition": "Trade certificate for which an inspection date is specified."
+    },
+    "RelatedPortfolioValuation": {
+      "name": "Related Portfolio Valuation",
+      "definition": "Portfolio valuation process for which a valuation period is specified."
+    },
+    "System": {
+      "name": "System",
+      "definition": "System for which a validity period is specified."
+    },
+    "AccountRestriction": {
+      "name": "Account Restriction",
+      "definition": "Account restriction for which a validity period is specified."
+    },
+    "BankOperation": {
+      "name": "Bank Operation",
+      "definition": "Bank operation for which an applicable period is specified."
+    },
+    "RelatedCorporateAction": {
+      "name": "Related Corporate Action",
+      "definition": "Corporate action event for which a trading period is specified."
+    },
+    "RelatedLimit": {
+      "name": "Related Limit",
+      "definition": "Limit for which a validity period is specified."
+    },
+    "RelatedIdentification": {
+      "name": "Related Identification",
+      "definition": "Party identification for which a validity period is specified."
+    },
+    "AssessmentValidityScheme": {
+      "name": "Assessment Validity Scheme",
+      "definition": "Scheme for which a validity period is specified."
+    },
+    "ExercisePeriodDistribution": {
+      "name": "Exercise Period Distribution",
+      "definition": "Cash and securities distribution information for which an exercise period is specified."
+    },
+    "OfferPeriodDistribution": {
+      "name": "Offer Period Distribution",
+      "definition": "Cash and securities distribution information for which an offer period is specified."
+    },
+    "TradingPeriodDistribution": {
+      "name": "Trading Period Distribution",
+      "definition": "Cash and securities distribution information for which a trading period is specified."
+    },
+    "BlockingPeriodDistribution": {
+      "name": "Blocking Period Distribution",
+      "definition": "Cash and securities distribution information for which a blocking period is specified."
+    },
+    "Guarantee": {
+      "name": "Guarantee",
+      "definition": "Guarantee for which an effective period is specified."
+    },
+    "PriceFactRelatedPricing": {
+      "name": "Price Fact Related Pricing",
+      "definition": "Securities pricing for which a price fact period is specified."
+    },
+    "CashDistribution": {
+      "name": "Cash Distribution",
+      "definition": "Cash distribution for which an interest period is specified."
+    },
+    "ComponentSecurity": {
+      "name": "Component Security",
+      "definition": "Security component for which a separation period is specified."
+    },
+    "TradingSession": {
+      "name": "Trading Session",
+      "definition": "Trading session for which a time bracket is specified."
+    },
+    "FinancialInstrumentSwap": {
+      "name": "Financial Instrument Swap",
+      "definition": "Swap for which a maturity period is specified."
+    },
+    "RelatedPostalAddress": {
+      "name": "Related Postal Address",
+      "definition": "Postal address for which a validity period is specified."
+    },
+    "RedemptionSchedule": {
+      "name": "Redemption Schedule",
+      "definition": "Redemption schedule for which a notice period is provided."
+    },
+    "RelatedAccountLink": {
+      "name": "Related Account Link",
+      "definition": "Link between two accounts for which a validity period is specified."
+    },
+    "RelatedAdjustment": {
+      "name": "Related Adjustment",
+      "definition": "Adjustment for which a validity period is provided."
+    },
+    "RelatedSecuritiesIdentification": {
+      "name": "Related Securities Identification",
+      "definition": "Securities identification for which a validity period is specified."
+    },
+    "RelatedStandingSettlementInstruction": {
+      "name": "Related Standing Settlement Instruction",
+      "definition": "SSI for which a validity period is specified."
+    },
+    "RelatedSecuritiesRegistration": {
+      "name": "Related Securities Registration",
+      "definition": "Securities registration process for which a split period is specified."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Relationship with an amount."
+    },
+    "RelatedInvestmentPlan": {
+      "name": "Related Investment Plan",
+      "definition": "InvestmentPlan for which an investment period is specified."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Issuance for which subscription information is provided."
+    },
+    "RelatedPaymentTerms": {
+      "name": "Related Payment Terms",
+      "definition": "Payment terms for which a period is specified."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Relationship with a percentage."
+    },
+    "RelatedRolePlayer": {
+      "name": "Related Role Player",
+      "definition": "Role player for which a validity period is specified."
+    },
+    "RelatedSystemAvailability": {
+      "name": "Related System Availability",
+      "definition": "System availability for which the closure period is provided."
+    }
+  }
+}

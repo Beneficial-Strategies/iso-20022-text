@@ -1,0 +1,26 @@
+{
+  "isoType": "Quorum",
+  "language": "en",
+  "name": "Quorum",
+  "definition": "Specifies whether a quorum is required or not together with the quorum parameters.",
+  "isoAttributes": {
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Minimum quantity of securities required to hold a meeting."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Minimum quantity of securities, expressed as a percentage, required to hold a meeting."
+    },
+    "QuorumRequired": {
+      "name": "Quorum Required",
+      "definition": "Specifies whether a minimum number of security representation is required to hold a meeting."
+    }
+  },
+  "isoAssociations": {
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which a quorum is specified."
+    }
+  }
+}

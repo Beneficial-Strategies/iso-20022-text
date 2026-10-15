@@ -1,0 +1,44 @@
+{
+  "isoType": "IssuerMeeting",
+  "language": "en",
+  "name": "Issuer Meeting",
+  "definition": "Information about the meeting, specifying the participation requirements and the voting procedures.",
+  "isoAttributes": {
+    "IssuerMeetingIdentification": {
+      "name": "Issuer Meeting Identification",
+      "definition": "Identification assigned to a meeting by the issuer. It must be unique for the issuer."
+    },
+    "NomineePowerOfAttorneyIndicator": {
+      "name": "Nominee Power Of Attorney Indicator",
+      "definition": "Indicates that a power of attorney must be provided by the beneficial owner to the nominee in order for the nominee to vote on behalf of the beneficial owner."
+    },
+    "NomineeVotingIndicator": {
+      "name": "Nominee Voting Indicator",
+      "definition": "Indicates whether an agent can vote on behalf of the beneficial owners."
+    },
+    "NomineeBeneficialOwnerIndicator": {
+      "name": "Nominee Beneficial Owner Indicator",
+      "definition": "Indicates whether the beneficiary details, for example, name and address, must be supplied in order to take part in the event."
+    },
+    "ProxyVotingIndicator": {
+      "name": "Proxy Voting Indicator",
+      "definition": "Indicates that the beneficial owner may give authority to a third party to vote on his behalf."
+    },
+    "ProxyBeneficialOwnerIndicator": {
+      "name": "Proxy Beneficial Owner Indicator",
+      "definition": "Indicates whether the beneficiary details of the proxy, for example, name and address, must be supplied in order to take part in the event."
+    },
+    "ProxyPowerOfAttorneyIndicator": {
+      "name": "Proxy Power Of Attorney Indicator",
+      "definition": "Indicates that a power of attorney must be provided by the beneficial owner to the proxy in order for the proxy to vote on behalf of the beneficial owner."
+    },
+    "ValidCreditorIndicator": {
+      "name": "Valid Creditor Indicator",
+      "definition": "Indicates that the participant must be a creditor of the company in order to vote on the resolutions of the meeting."
+    },
+    "CapitalStock": {
+      "name": "Capital Stock",
+      "definition": "Total amount of stock, common or preferred, that a corporation has issued uder its certificate of incorporation or charter."
+    }
+  }
+}

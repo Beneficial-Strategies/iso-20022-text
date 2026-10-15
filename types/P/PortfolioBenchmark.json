@@ -1,0 +1,46 @@
+{
+  "isoType": "PortfolioBenchmark",
+  "language": "en",
+  "name": "Portfolio Benchmark",
+  "definition": "Security or other price against which the performance of the portfolio is evaluated.",
+  "isoAttributes": {
+    "BenchmarkWeight": {
+      "name": "Benchmark Weight",
+      "definition": "Instrument weighting in the benchmark for the portfolio."
+    },
+    "MaximumDeviation": {
+      "name": "Maximum Deviation",
+      "definition": "Maximum allowable deviation from the benchmark."
+    },
+    "MinimumDeviation": {
+      "name": "Minimum Deviation",
+      "definition": "Minimum allowable deviation from the benchmark."
+    },
+    "EffectivePeriod": {
+      "name": "Effective Period",
+      "definition": "Period during which the instrument is used as a benchmark for the portfolio."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free text description of the benchmark used to determine the performance of a portfolio."
+    }
+  },
+  "isoAssociations": {
+    "Index": {
+      "name": "Index",
+      "definition": "Specifies the index which may be used for decomposition."
+    },
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Portfolio to which the benchmark applies."
+    },
+    "Approver": {
+      "name": "Approver",
+      "definition": "Party who is the supervised entity endorsing the benchmark."
+    },
+    "Administrator": {
+      "name": "Administrator",
+      "definition": "Party who is administrating the benchmark."
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "isoType": "Option",
+  "language": "en",
+  "name": "Option",
+  "definition": "Contracts which grant to the holder either the privilege to purchase or the privilege to sell the assets specified at a predetermined price or formula at or within a time in the future.",
+  "isoAttributes": {
+    "InstrumentAssignmentMethod": {
+      "name": "Instrument Assignment Method",
+      "definition": "Method under which assignment was conducted."
+    },
+    "SettleStyle": {
+      "name": "Settle Style",
+      "definition": "Specifies whether the option contract settles at the open or close of the market."
+    },
+    "Standardisation": {
+      "name": "Standardisation",
+      "definition": "Specifies whether the terms of the security (underlying instruments, expiration date, contract size) are defined according to the exchange specifications or whether they can be user defined."
+    },
+    "PositionLimit": {
+      "name": "Position Limit",
+      "definition": "Indicates the maximum number of listed option contracts on a single security which can be held by an investor or group of investors acting jointly."
+    },
+    "UnderlyingType": {
+      "name": "Underlying Type",
+      "definition": "Specifies the type of underlying to which the option relates."
+    },
+    "CoverIndicator": {
+      "name": "Cover Indicator",
+      "definition": "Indicates whether the underlying financial instrument of an option is owned by the writer of the option."
+    },
+    "OptionRatio": {
+      "name": "Option Ratio",
+      "definition": "Expresses the risk of an option leg. Value must be between -1 and 1. A Call Option will require a ratio value between 0 and 1. A Put Option will require a ratio value between -1 and 0."
+    },
+    "SettlementType": {
+      "name": "Settlement Type",
+      "definition": "Indicates whether the trade is to be settled as principal or netted off against another trade."
+    },
+    "StrikeMultiplier": {
+      "name": "Strike Multiplier",
+      "definition": "Multiplier applied to the strike price for the purpose of calculating the settlement value (Used for derivatives)."
+    },
+    "ExpiryLocation": {
+      "name": "Expiry Location",
+      "definition": "Financial center where option expires."
+    },
+    "FinalSettlementDate": {
+      "name": "Final Settlement Date",
+      "definition": "Date on which the trade is settled. i.e., the amounts are due."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised (American, European, Bermudan)"
+    },
+    "EarliestExerciseDate": {
+      "name": "Earliest Exercise Date",
+      "definition": "First date on which an american option can be exercised."
+    },
+    "SettlementDays": {
+      "name": "Settlement Days",
+      "definition": "Number of business days between the hit date and the payment date in case of settlement at hit."
+    },
+    "OptionStartDate": {
+      "name": "Option Start Date",
+      "definition": "First date on which an option becomes effective."
+    },
+    "ExpiryDateAndTime": {
+      "name": "Expiry Date And Time",
+      "definition": "For European options, date on which the option holder can only exercise the right or let it lapse. For American options, the option holder can exercise the right up to the expiry date."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a Call option (right to purchase a specific underlying asset) or a Put option (right to sell a specific underlying asset)."
+    },
+    "StrikeValue": {
+      "name": "Strike Value",
+      "definition": "Number of shares/units for the financial instrument involved in the option trade (Used for derivatives)."
+    },
+    "SettlementPeriodType": {
+      "name": "Settlement Period Type",
+      "definition": "Specifies how settlement will take place for instance at expiration or at hit."
+    }
+  },
+  "isoAssociations": {
+    "OptionConversionInformation": {
+      "name": "Option Conversion Information",
+      "definition": "Information on the conversion exchange of an option into another form of securities."
+    },
+    "SecuritiesOptionTrade": {
+      "name": "Securities Option Trade",
+      "definition": "Specifies the trade elements for the option."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Information specific to a currency option."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Predetermined price at which the holder will have to buy or sell the underlying instrument."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "CashAccountService",
+  "language": "en",
+  "name": "Cash Account Service",
+  "definition": "Services linked to an account which are available to the account owner or to the holder of a mandate. The exercise of these services may be submitted to a limit.",
+  "isoAttributes": {
+    "CompensationMethod": {
+      "name": "Compensation Method",
+      "definition": "Defines if and how charges and taxes due are paid to the account servicer."
+    },
+    "BillingCurrency": {
+      "name": "Billing Currency",
+      "definition": "Currency used for billing the services related to the account."
+    },
+    "BillingChargeMethod": {
+      "name": "Billing Charge Method",
+      "definition": "Defines how the billing charge is calculated."
+    },
+    "PaymentMethod": {
+      "name": "Payment Method",
+      "definition": "Specifies the different payment methods for an account service."
+    }
+  },
+  "isoAssociations": {
+    "CashAccountMandate": {
+      "name": "Cash Account Mandate",
+      "definition": "Mandate which specifies the services that can be operated by the mandate holder."
+    },
+    "CashAccountContract": {
+      "name": "Cash Account Contract",
+      "definition": "Cash account contract which specifies the services linked to a cash account. It is derived from the association between AccountService and AccountContract."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the bank operation."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account for which services are specified. It is derived from the association between AccountService and Account."
+    }
+  }
+}

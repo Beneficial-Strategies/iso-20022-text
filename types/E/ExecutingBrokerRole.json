@@ -1,0 +1,12 @@
+{
+  "isoType": "ExecutingBrokerRole",
+  "language": "en",
+  "name": "Executing Broker Role",
+  "definition": "Party responsible for executing an order (e.g. an executing or give-up broker).",
+  "isoAssociations": {
+    "ExecutingTrader": {
+      "name": "Executing Trader",
+      "definition": "Trader at the executing broker"
+    }
+  }
+}

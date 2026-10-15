@@ -1,0 +1,30 @@
+{
+  "isoType": "CollateralSubstitution",
+  "language": "en",
+  "name": "Collateral Substitution",
+  "definition": "Substitution of collateral by specifying the collateral to be returned and proposing the new type(s) of collateral to be delivered.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies if the collateral that is substituted was posted against the variation margin or the independent amount."
+    },
+    "AcceptedAmount": {
+      "name": "Accepted Amount",
+      "definition": "Provides the accepted collateral substitution amount."
+    },
+    "RejectedAmount": {
+      "name": "Rejected Amount",
+      "definition": "Specifies the collateral substitution amount that is rejected."
+    }
+  },
+  "isoAssociations": {
+    "RelatedManagementProcess": {
+      "name": "Related Management Process",
+      "definition": "Process which groups the activities related to collateral."
+    },
+    "NewCollateral": {
+      "name": "New Collateral",
+      "definition": "Specifies the collateral which is replacing the returned one."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "CardPaymentStatus",
+  "language": "en",
+  "name": "Card Payment Status",
+  "definition": "Status of a payment by card.",
+  "isoAttributes": {
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason of the rejection of a request or an advice."
+    },
+    "FailureReason": {
+      "name": "Failure Reason",
+      "definition": "List of incidents during the transaction."
+    }
+  },
+  "isoAssociations": {
+    "CardPayment": {
+      "name": "Card Payment",
+      "definition": "Card payment for which a status is provided."
+    }
+  }
+}

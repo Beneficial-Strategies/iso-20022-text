@@ -1,0 +1,34 @@
+{
+  "isoType": "ExposureTerm",
+  "language": "en",
+  "name": "Exposure Term",
+  "definition": "Specifies the terms used to calculate a risk exposure and its coverage.",
+  "isoAttributes": {
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the collateral movement."
+    },
+    "MinimumTransferAmount": {
+      "name": "Minimum Transfer Amount",
+      "definition": "Minimum amount to pay/receive as specified in the agreement in the base currency (to avoid the need to transfer an inconveniently small amount of variation margin)."
+    },
+    "RoundingAmount": {
+      "name": "Rounding Amount",
+      "definition": "Amount specified to avoid the need to transfer uneven amounts of collateral."
+    },
+    "RoundingMethod": {
+      "name": "Rounding Method",
+      "definition": "Defines how the rounding amount is applied in the calculation to avoid the need to transfer uneven amounts of collateral. For example, should the amount of collateral required be rounded up, down, to the closer integral multiple specified or not rounded."
+    },
+    "MinimumRequirementDeposit": {
+      "name": "Minimum Requirement Deposit",
+      "definition": "Minimum requirement for a participant if their requirement falls below a specific amount set by the central counterparty."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCollateralAgreement": {
+      "name": "Related Collateral Agreement",
+      "definition": "Agreement in which the exposure terms are specified."
+    }
+  }
+}

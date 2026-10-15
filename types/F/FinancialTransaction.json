@@ -1,0 +1,32 @@
+{
+  "isoType": "FinancialTransaction",
+  "language": "en",
+  "name": "Financial Transaction",
+  "definition": "Process which includes the order, the execution, the settlement of trades in the financial domain.",
+  "isoAssociations": {
+    "CorporateActionDistribution": {
+      "name": "Corporate Action Distribution",
+      "definition": "Distribution of the proceeds of a CA event."
+    },
+    "InterestManagement": {
+      "name": "Interest Management",
+      "definition": "Management of interest which consists into calculating the interest, requesting its payment or distributing the interest proceeds."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Agreement between two parties to buy and sell assets."
+    },
+    "CollateralMovement": {
+      "name": "Collateral Movement",
+      "definition": "Collateral in or out as a result of collateral management."
+    },
+    "BankingTransaction": {
+      "name": "Banking Transaction",
+      "definition": "Transaction executed by the client of a financial institution from/to the account serviced by the financial institution, such as mortgage payment."
+    },
+    "RegulatoryReport": {
+      "name": "Regulatory Report",
+      "definition": "Information related to a trade and that has to be reported to a regulatory authority."
+    }
+  }
+}

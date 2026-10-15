@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMTotal",
+  "language": "en",
+  "name": "ATM Total",
+  "definition": "Current totals of the ATM.",
+  "isoAttributes": {
+    "ATMBalance": {
+      "name": "ATM Balance",
+      "definition": "Total balance of the ATM including reject cassette, but excluding the retract cassette."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the totals."
+    },
+    "ATMCurrentNumber": {
+      "name": "ATM Current Number",
+      "definition": "Total number of units for non-valued media, excluding reject cassette."
+    },
+    "ATMBalanceNumber": {
+      "name": "ATM Balance Number",
+      "definition": "Total number of units for non-valued media, including reject cassette."
+    },
+    "ATMCurrent": {
+      "name": "ATM Current",
+      "definition": "Available amount for dispense in the ATM."
+    }
+  },
+  "isoAssociations": {
+    "RelatedCardPayment": {
+      "name": "Related Card Payment",
+      "definition": "Related payments representing the current totals of the ATM."
+    }
+  }
+}

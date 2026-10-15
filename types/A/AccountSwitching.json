@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountSwitching",
+  "language": "en",
+  "name": "Account Switching",
+  "definition": "The Account Switch Service support the guaranteed switch of a customer’s account and the transfer of payments arrangements associated with the account from one payment institution to another payment institution.",
+  "isoAttributes": {
+    "SwitchReceivedDateTime": {
+      "name": "Switch Received Date Time",
+      "definition": "Date and time that the request was received by the central switch service."
+    },
+    "SwitchDate": {
+      "name": "Switch Date",
+      "definition": "Date on which the account switch is expected to have completed. The value is the same as the targeted switch date if the switch completes in the expected timeline."
+    },
+    "SwitchStatus": {
+      "name": "Switch Status",
+      "definition": "State of the account switch at the time the message is sent."
+    },
+    "UniqueReferenceNumber": {
+      "name": "Unique Reference Number",
+      "definition": "Unique number that provides unique and unambiguous identification of the account switch."
+    },
+    "SwitchType": {
+      "name": "Switch Type",
+      "definition": "Indicates whether the account switch is a full switch or a partial switch."
+    },
+    "BalanceTransferWindow": {
+      "name": "Balance Transfer Window",
+      "definition": "Identifies the processing window in which the balance transfer will be processed on the day of the account switch."
+    }
+  }
+}

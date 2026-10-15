@@ -1,0 +1,38 @@
+{
+  "isoType": "AccountStatus",
+  "language": "en",
+  "name": "Account Status",
+  "definition": "Specifies the status of an account or the status of the processing of the actions linked to the management of an account.",
+  "isoAttributes": {
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of an account."
+    },
+    "Blocked": {
+      "name": "Blocked",
+      "definition": "Indicates whether the account is blocked."
+    },
+    "ManagementStatus": {
+      "name": "Management Status",
+      "definition": "Specifies the status of the processing of a request linked to the management of an account."
+    },
+    "EntryStatus": {
+      "name": "Entry Status",
+      "definition": "Status of an entry on the books of the account servicer."
+    },
+    "BalanceStatus": {
+      "name": "Balance Status",
+      "definition": "Current status of a cash balance."
+    },
+    "BlockedReason": {
+      "name": "Blocked Reason",
+      "definition": "Specifies the different reasons for which the account is blocked."
+    }
+  },
+  "isoAssociations": {
+    "Account": {
+      "name": "Account",
+      "definition": "Identifies the account for which a status is provided."
+    }
+  }
+}

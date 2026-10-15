@@ -1,0 +1,28 @@
+{
+  "isoType": "CashAccountContract",
+  "language": "en",
+  "name": "Cash Account Contract",
+  "definition": "Account contract established between the organisation or the group to which the organisation belongs, and the account servicer.",
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Specifies the account which is managed by the stipulations of the contract. it is derived from the association between AccountContract and Account."
+    },
+    "TransferCashAccount": {
+      "name": "Transfer Cash Account",
+      "definition": "Identification of the account to/from which the balance of the account must be transferred."
+    },
+    "Services": {
+      "name": "Services",
+      "definition": "Operations on a bank account that are allowed as part of the services offered to the owners of a bank account. It is derived from the association between AccountContract and AccountService."
+    },
+    "BalanceTransfer": {
+      "name": "Balance Transfer",
+      "definition": "Specifies the transfer of a positive balance (fully or partially) or the transfer of cash to compensate a negative balance. This transfer occurs at the closing of the account. It contains the identification of the account to which or from which the amount must be transferred."
+    },
+    "CashAccountMandate": {
+      "name": "Cash Account Mandate",
+      "definition": "Mandate associated with a cash account contract."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SwitchRedemptionLeg",
+  "language": "en",
+  "name": "Switch Redemption Leg",
+  "definition": "Redemption leg, or switch-out, of a switch transaction.",
+  "isoAttributes": {
+    "PercentageOfTotalSubscriptionAmount": {
+      "name": "Percentage Of Total Subscription Amount",
+      "definition": "Percentage of the total switch amount (buy-driven) to be invested in a particular investment fund or investment fund class."
+    }
+  },
+  "isoAssociations": {
+    "RedemptionRelatedSwitchOrder": {
+      "name": "Redemption Related Switch Order",
+      "definition": "Switch order to which the redemption leg refers."
+    }
+  }
+}

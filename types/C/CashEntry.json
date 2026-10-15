@@ -1,0 +1,66 @@
+{
+  "isoType": "CashEntry",
+  "language": "en",
+  "name": "Cash Entry",
+  "definition": "Posting of an item to a cash account, in the context of a cash transaction, that results in an increase or decrease to the balance of the account.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money in the cash entry."
+    },
+    "ChargesIncluded": {
+      "name": "Charges Included",
+      "definition": "Indicates whether charges have already been included in the entry amount."
+    }
+  },
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Cash account on which the amount of the entry is debited or credited. It is derived from the association between Entry and Account."
+    },
+    "RelatedBookEntry": {
+      "name": "Related Book Entry",
+      "definition": "Account entry for which one or more cash entries are specified."
+    },
+    "CashBalance": {
+      "name": "Cash Balance",
+      "definition": "Cash amount that is the result of the sum of the cash entries from or to a cash account."
+    },
+    "CurrencyExchange": {
+      "name": "Currency Exchange",
+      "definition": "Entry details related to currency exchange information."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Provides information on the charges included in the entry amount."
+    },
+    "Availability": {
+      "name": "Availability",
+      "definition": "Availability information on the entry.|Elements used to indicate when the booked amount of money will become available, that is can be accessed and start generating interest."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest amount included in the entry amount."
+    },
+    "DebitRelatedBookEntry": {
+      "name": "Debit Related Book Entry",
+      "definition": "Book entry which is the source of the cash entry."
+    },
+    "CreditRelatedBookEntry": {
+      "name": "Credit Related Book Entry",
+      "definition": "Book entry which is the source of the cash entry."
+    },
+    "RelatedInvoiceFinancingTransaction": {
+      "name": "Related Invoice Financing Transaction",
+      "definition": "Specifies the invoice financing transaction which originates the entry."
+    },
+    "RelatedInvestigationCase": {
+      "name": "Related Investigation Case",
+      "definition": "Case which is investigating a cash entry."
+    },
+    "RelatedInvestigationCaseResolution": {
+      "name": "Related Investigation Case Resolution",
+      "definition": "Payment investigation case resolution which created a correction resulting in a cash entry."
+    }
+  }
+}

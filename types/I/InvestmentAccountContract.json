@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentAccountContract",
+  "language": "en",
+  "name": "Investment Account Contract",
+  "definition": "Contract defining the related investment account.",
+  "isoAttributes": {
+    "LetterIntentReference": {
+      "name": "Letter Intent Reference",
+      "definition": "Reference of a letter of intent program, in which sales commissions are reduced based on the aggregate of a customer's actual purchase and anticipated purchases, over a specific period of time, and as agreed by the customer. A letter of intent program is mainly used in the US market."
+    },
+    "AccumulationRightReference": {
+      "name": "Accumulation Right Reference",
+      "definition": "Reference of an accumulation rights program, in which sales commissions are based on a customer's present purchases of shares and the aggregate quantity previously purchased by the customer. An accumulation rights program is mainly used in the US market."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Specifies the account for which the service is offered."
+    },
+    "Services": {
+      "name": "Services",
+      "definition": "Services linked to an account which are available to the account owner or to the holder of a mandate. The exercise of these services may be submitted to a limit."
+    },
+    "ModeledAccount": {
+      "name": "Modeled Account",
+      "definition": "Product which provides guidance to investors to manage their portfolios."
+    }
+  }
+}

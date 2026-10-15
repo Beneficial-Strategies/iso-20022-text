@@ -1,0 +1,30 @@
+{
+  "isoType": "ExchangeForPhysicalTrade",
+  "language": "en",
+  "name": "Exchange For Physical Trade",
+  "definition": "Technique whereby a position in the underlying is traded for a futures position in the physical commodity markets.",
+  "isoAttributes": {
+    "OutsideIndex": {
+      "name": "Outside Index",
+      "definition": "Unexpected divergence between the price behaviour of an underlying position or portfolio and the price behaviour of a hedging position or benchmark."
+    },
+    "FairValue": {
+      "name": "Fair Value",
+      "definition": "Difference between the value of a future and the value of the underlying equities after allowing for the discounted cash flows associated with the underlying stocks."
+    },
+    "ValueForFutures": {
+      "name": "Value For Futures",
+      "definition": "Value of a futures position involved in an Exchange For Physical trade."
+    },
+    "OutMainCountryIndex": {
+      "name": "Out Main Country Index",
+      "definition": "Accepted value of stocks composing an index located outside its country of origin."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Order for which parameters for exchange for physical trading are specified."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "Order",
+  "language": "en",
+  "name": "Order",
+  "definition": "Order placed by an investor to buy or sell an asset at a price specified or not.",
+  "isoAttributes": {
+    "MasterIdentification": {
+      "name": "Master Identification",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    }
+  },
+  "isoAssociations": {
+    "Trade": {
+      "name": "Trade",
+      "definition": "Agreement between two parties to buy and sell assets."
+    }
+  }
+}

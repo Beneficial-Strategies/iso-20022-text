@@ -1,0 +1,22 @@
+{
+  "isoType": "ProductCharacteristics",
+  "language": "en",
+  "name": "Product Characteristics",
+  "definition": "Identifies the characteristic of a product.",
+  "isoAttributes": {
+    "Characteristics": {
+      "name": "Characteristics",
+      "definition": "Specifies the characteristic of a product."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of product characteristic by means of a code."
+    }
+  },
+  "isoAssociations": {
+    "Product": {
+      "name": "Product",
+      "definition": "Specifies the product for which characteristics are specified."
+    }
+  }
+}

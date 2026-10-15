@@ -1,0 +1,30 @@
+{
+  "isoType": "Role",
+  "language": "en",
+  "name": "Role",
+  "definition": "Role of a party in an activity.",
+  "isoAttributes": {
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies the role of the party in the transaction."
+    }
+  },
+  "isoAssociations": {
+    "Player": {
+      "name": "Player",
+      "definition": "Entity which plays a role in the context of the business domain in which the role is defined."
+    },
+    "ContactPersonRole": {
+      "name": "Contact Person Role",
+      "definition": "Contact person in the context of a role played by an organisation."
+    },
+    "CounterpartyRisk": {
+      "name": "Counterparty Risk",
+      "definition": "Specifies the risk which is related to the role played by a party."
+    },
+    "Entry": {
+      "name": "Entry",
+      "definition": "Entry for which a role is specified."
+    }
+  }
+}

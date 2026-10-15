@@ -1,0 +1,12 @@
+{
+  "isoType": "BulkPayment",
+  "language": "en",
+  "name": "Bulk Payment",
+  "definition": "Payment which contains a series of other payments which have been grouped under specific criteria. A bulk payment can only contain individual payments of the same type (credit transfer or direct debit).",
+  "isoAssociations": {
+    "Groups": {
+      "name": "Groups",
+      "definition": "Indicates that a bulk payment groups several individual payments of the same type (credit transfer or direct debit)."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "LotBreakdown",
+  "language": "en",
+  "name": "Lot Breakdown",
+  "definition": "Number of securities purchased or sold in one transaction. In terms of options, a lot represents the number of contracts contained in one derivative security.",
+  "isoAttributes": {
+    "LotUnit": {
+      "name": "Lot Unit",
+      "definition": "Quantity of securities included in the lot."
+    },
+    "LotDateTime": {
+      "name": "Lot Date Time",
+      "definition": "Date and time at which the lot was purchased."
+    },
+    "LotIdentifier": {
+      "name": "Lot Identifier",
+      "definition": "Identifies the lot constituting an asset backed or mortgage backed security issue."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "Number of securities included in a lot."
+    },
+    "LotNumber": {
+      "name": "Lot Number",
+      "definition": "Specifies the number of the lot."
+    },
+    "LotPrice": {
+      "name": "Lot Price",
+      "definition": "Specifies the price of the lot."
+    },
+    "TradeLotMarket": {
+      "name": "Trade Lot Market",
+      "definition": "Market for which a trade lot is specified."
+    },
+    "QuoteLotMarket": {
+      "name": "Quote Lot Market",
+      "definition": "Market for which a quote lot is specified."
+    },
+    "RoundLotMarket": {
+      "name": "Round Lot Market",
+      "definition": "Market for which a round lot size is specified."
+    }
+  }
+}

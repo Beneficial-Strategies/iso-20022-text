@@ -1,0 +1,62 @@
+{
+  "isoType": "SecuritiesLending",
+  "language": "en",
+  "name": "Securities Lending",
+  "definition": "Lending of securities by one party to another. The terms of the loan are governed by an agreement that requires the borrower to provide the lender with collateral of value equal to or greater than the loaned securities. As payment for the loan, the parties negotiate a fee, quoted as an annualised percentage of the value of the loaned securities.",
+  "isoAttributes": {
+    "BorrowingFee": {
+      "name": "Borrowing Fee",
+      "definition": "Amount to be paid by the borrower to the lender for the securities borrowed calculated based on the bond loan rate."
+    },
+    "CallableTradeIndicator": {
+      "name": "Callable Trade Indicator",
+      "definition": "Indicates whether the trade is callable or not."
+    },
+    "LendingTransactionMethod": {
+      "name": "Lending Transaction Method",
+      "definition": "Method applied to a lending transaction."
+    },
+    "BorrowingReason": {
+      "name": "Borrowing Reason",
+      "definition": "Underlying reason for the borrowing, for instance, sale on my behalf or on behalf of a third party."
+    },
+    "Reversible": {
+      "name": "Reversible",
+      "definition": "Indicates the possibility to terminate the securitiesc lending contract either by the borrower or lender before the expiration date."
+    },
+    "SecuritiesLendingType": {
+      "name": "Securities Lending Type",
+      "definition": "Type of securities lending."
+    },
+    "LendingWithCollateral": {
+      "name": "Lending With Collateral",
+      "definition": "Indicates if the contract is with or without an exchange of collateral."
+    },
+    "MinimumDateForCallBack": {
+      "name": "Minimum Date For Call Back",
+      "definition": "Minimum date at which the borrower is allowed to give back the securities."
+    },
+    "NumberOfDaysLendingBorrowing": {
+      "name": "Number Of Days Lending Borrowing",
+      "definition": "Number of days the securities are lent or borrowed for a contract which has an agreed closing date."
+    },
+    "PeriodicPayment": {
+      "name": "Periodic Payment",
+      "definition": "Indicates whether the securities lending fees can be paid periodically or at the end of the contract."
+    },
+    "Rollover": {
+      "name": "Rollover",
+      "definition": "Indicates that the contract can be rolled over."
+    },
+    "BorrowingRate": {
+      "name": "Borrowing Rate",
+      "definition": "Rate paid by the borrower to the lender for the securities borrowed."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesDeliveryObligation": {
+      "name": "Securities Delivery Obligation",
+      "definition": "Obligation covered by the lending of securities."
+    }
+  }
+}

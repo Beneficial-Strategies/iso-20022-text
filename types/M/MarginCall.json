@@ -1,0 +1,94 @@
+{
+  "isoType": "MarginCall",
+  "language": "en",
+  "name": "Margin Call",
+  "definition": "Specifies the calculation and the resulting margin and independent amount needed to cover the risk exposure of one party versus another.",
+  "isoAttributes": {
+    "MarginCallValuationDate": {
+      "name": "Margin Call Valuation Date",
+      "definition": "Close of business date that initiating party is valuing the margin call."
+    },
+    "AgreedAmount": {
+      "name": "Agreed Amount",
+      "definition": "Specifies the amount which is undisputed."
+    },
+    "VariationMargin": {
+      "name": "Variation Margin",
+      "definition": "Provides the summation of the call amounts for the variation margin and optionally the segregated independent amount."
+    },
+    "SegregatedIndependentAmount": {
+      "name": "Segregated Independent Amount",
+      "definition": "Provides the summation of the call amounts for the segregated independent amount only."
+    },
+    "TotalMarkToMarket": {
+      "name": "Total Mark To Market",
+      "definition": "Net unrealised profit or loss on the value of the netted, gross and failing positions."
+    },
+    "MarkToMarketNetted": {
+      "name": "Mark To Market Netted",
+      "definition": "Unrealised net loss calculated at the participant portfolio level."
+    },
+    "MarkToMarketGross": {
+      "name": "Mark To Market Gross",
+      "definition": "Unrealised net loss calculated in that market/boundary."
+    },
+    "MarkToMarketFails": {
+      "name": "Mark To Market Fails",
+      "definition": "Sum of the unrealised loss without taking profit into consideration."
+    },
+    "FailsHaircut": {
+      "name": "Fails Haircut",
+      "definition": "Haircut applied to the absolute value of the participants net positions. Calculation depends on a participants credit rating."
+    },
+    "InitialMargin": {
+      "name": "Initial Margin",
+      "definition": "Margin required for absorbing future market price fluctuations (market risks) occurring between the default of a member and close-out of unsettled securities positions by the CCP."
+    },
+    "IncreaseCoverage": {
+      "name": "Increase Coverage",
+      "definition": "Amount added to the requirement amount. Its value is at the discretion of the central clearing counterparty."
+    },
+    "CollateralisedMarginAccountIndicator": {
+      "name": "Collateralised Margin Account Indicator",
+      "definition": "Used to indicate whether the reported margin account is collateralised or not. If not collateralised, the account is configured for informational reporting."
+    },
+    "MarginProduct": {
+      "name": "Margin Product",
+      "definition": "Specifies the underlying product of the margin."
+    },
+    "MarginType": {
+      "name": "Margin Type",
+      "definition": "Specifies the type of margin, for example, initial margin, variation margin, initial deposit or coupon margin."
+    },
+    "TotalMarginAmount": {
+      "name": "Total Margin Amount",
+      "definition": "Total margin requirement (expressed in the reporting currency) that must be provided. This is the total requirement calculated to cover the initial margin and the variation margin."
+    }
+  },
+  "isoAssociations": {
+    "DefaultFundContribution": {
+      "name": "Default Fund Contribution",
+      "definition": "Portion of the participation to the default fund that clearing member must provide. It is the sum of the individual contributions."
+    },
+    "ExpectedVariationMarginType": {
+      "name": "Expected Variation Margin Type",
+      "definition": "Specifies the expected collateral type and direction."
+    },
+    "ExpectedSegregatedIndependentAmountType": {
+      "name": "Expected Segregated Independent Amount Type",
+      "definition": "Specifies the expected collateral type and direction."
+    },
+    "CollateralMovement": {
+      "name": "Collateral Movement",
+      "definition": "Movements resulting from the margin call calculation."
+    },
+    "RelatedManagementProcess": {
+      "name": "Related Management Process",
+      "definition": "Process which groups the activities related to collateral."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Description of the securities related to the margin call."
+    }
+  }
+}

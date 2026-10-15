@@ -1,0 +1,16 @@
+{
+  "isoType": "PaymentPartyRole",
+  "language": "en",
+  "name": "Payment Party Role",
+  "definition": "Role played by a party in the context of a payment.",
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Unambiguous identification of the account used in the context of the party role such as debtor account, instructing agent account..."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Identifies the payment in which a party plays a role."
+    }
+  }
+}

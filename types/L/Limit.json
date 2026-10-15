@@ -1,0 +1,66 @@
+{
+  "isoType": "Limit",
+  "language": "en",
+  "name": "Limit",
+  "definition": "Value used for risk containment in a system or towards counterparts. The limit may be a current limit or a default limit.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of the limit."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money of the limit, expressed in a currency."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Specifies if a limit is a debit limit or a credit limit."
+    },
+    "UsedAmount": {
+      "name": "Used Amount",
+      "definition": "Actual usage of the limit expressed as an amount."
+    },
+    "UsedPercentage": {
+      "name": "Used Percentage",
+      "definition": "Actual usage of the limit expressed as a percentage."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency unit used to specify the limit amount."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Specifies that the limit is a percentage of a related amount."
+    },
+    "Periodicity": {
+      "name": "Periodicity",
+      "definition": "Specifies the periodicity linked to a limit for example the periodicity can indicate that the limit can be reached daily or monthly."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies that the limit is a quantity."
+    },
+    "AvailableAmount": {
+      "name": "Available Amount",
+      "definition": "Remaining amount of money of the limit."
+    }
+  },
+  "isoAssociations": {
+    "LimitStatus": {
+      "name": "Limit Status",
+      "definition": "Current status of the limit."
+    },
+    "RelatedDebitCreditFacility": {
+      "name": "Related Debit Credit Facility",
+      "definition": "Overdraft conditions for which limit parameters are specified."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Period at which the limit is effective."
+    },
+    "RelatedPaymentCard": {
+      "name": "Related Payment Card",
+      "definition": "Payment card for which a limit is specified."
+    }
+  }
+}

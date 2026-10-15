@@ -1,0 +1,16 @@
+{
+  "isoType": "RegulatoryAuthorityRole",
+  "language": "en",
+  "name": "Regulatory Authority Role",
+  "definition": "Entity requiring the regulatory reporting information.",
+  "isoAssociations": {
+    "RegulatoryReport": {
+      "name": "Regulatory Report",
+      "definition": "Report which was requested by the regulatory authority."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country for which the regulatory authority operates."
+    }
+  }
+}

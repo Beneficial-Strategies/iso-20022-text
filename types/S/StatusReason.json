@@ -1,0 +1,54 @@
+{
+  "isoType": "StatusReason",
+  "language": "en",
+  "name": "Status Reason",
+  "definition": "Specifies the underlying reason for the status of an object.",
+  "isoAttributes": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason provided for the status."
+    },
+    "NoSpecifiedReason": {
+      "name": "No Specified Reason",
+      "definition": "Indicates that there is no reason available or to report."
+    },
+    "RejectedStatusReason": {
+      "name": "Rejected Status Reason",
+      "definition": "Reason for the rejected status."
+    },
+    "FailingReason": {
+      "name": "Failing Reason",
+      "definition": "Reason why a transaction has a failing status."
+    },
+    "CancellationReason": {
+      "name": "Cancellation Reason",
+      "definition": "Specifies the reason why the related instruction is cancelled, or the related cancellation request is executed."
+    },
+    "PendingReason": {
+      "name": "Pending Reason",
+      "definition": "Specifies the reason why the instruction processing is pending."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Specifies the reason why the instruction/request has a repair or rejection status."
+    },
+    "AcknowledgedAcceptedReason": {
+      "name": "Acknowledged Accepted Reason",
+      "definition": "Specifies additional information about the processed instruction."
+    }
+  },
+  "isoAssociations": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status for which a reason is provided."
+    },
+    "DataSourceScheme": {
+      "name": "Data Source Scheme",
+      "definition": "Proprietary identification of the reason for the status."
+    },
+    "RelatedClosureReason": {
+      "name": "Related Closure Reason",
+      "definition": "Related reason of closure of the contract."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SwitchExecutionRedemptionLeg",
+  "language": "en",
+  "name": "Switch Execution Redemption Leg",
+  "definition": "Execution of the redemption part, in a switch between investment funds or investment fund classes.",
+  "isoAttributes": {
+    "PercentageOfTotalSubscriptionAmount": {
+      "name": "Percentage Of Total Subscription Amount",
+      "definition": "Percentage of the total amount subscribed, and that came from redemption of investment funds or investment fund classes."
+    }
+  },
+  "isoAssociations": {
+    "RelatedSwitchExecution": {
+      "name": "Related Switch Execution",
+      "definition": "Switch execution process for which a redemption leg is specified."
+    }
+  }
+}

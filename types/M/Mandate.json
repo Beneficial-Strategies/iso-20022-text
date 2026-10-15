@@ -1,0 +1,62 @@
+{
+  "isoType": "Mandate",
+  "language": "en",
+  "name": "Mandate",
+  "definition": "Authorisation given by an issuing party to a holder party to act on the issuer's behalf.",
+  "isoAttributes": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Unique and unambiguous identification of the mandate."
+    },
+    "TrackingDays": {
+      "name": "Tracking Days",
+      "definition": "Specifies the number of days the mandate must be tracked."
+    },
+    "TrackingIndicator": {
+      "name": "Tracking Indicator",
+      "definition": "Specifies whether the direct debit instructions should be automatically re-submitted periodically when bilaterally agreed."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Pre-agreed increase or decrease rate that will be applied to the collection amount."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which payment instructions are to be created and processed."
+    }
+  },
+  "isoAssociations": {
+    "SignatureConditions": {
+      "name": "Signature Conditions",
+      "definition": "Specifies the signature requirements related to the document."
+    },
+    "OriginalMandate": {
+      "name": "Original Mandate",
+      "definition": "Mandate which is amended."
+    },
+    "Amendment": {
+      "name": "Amendment",
+      "definition": "Improvement on a mandate."
+    },
+    "MandatePartyRole": {
+      "name": "Mandate Party Role",
+      "definition": "Specifies each role linked to a mandate and played by a party in that context."
+    },
+    "MandateStatus": {
+      "name": "Mandate Status",
+      "definition": "Specifies the status of a mandate"
+    },
+    "AccountContract": {
+      "name": "Account Contract",
+      "definition": "Contract on which a mandate applies."
+    },
+    "Authentication": {
+      "name": "Authentication",
+      "definition": "Specifies the transport authentication details related to the mandate."
+    },
+    "MandatePaymentType": {
+      "name": "Mandate Payment Type",
+      "definition": "Identifies the type of mandate (service level and/or paper or electronic) being requested or given by the initiating party."
+    }
+  }
+}

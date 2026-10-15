@@ -1,0 +1,74 @@
+{
+  "isoType": "SecuritiesTransfer",
+  "language": "en",
+  "name": "Securities Transfer",
+  "definition": "Completion of a securities settlement instruction, wherein securities are delivered/debited from a securities account and received/credited to the designated securities account.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification of a transfer, as assigned by the instructing party."
+    },
+    "TransferType": {
+      "name": "Transfer Type",
+      "definition": "Specifies whether the financial instrument is transferred as an asset or as cash."
+    },
+    "OwnAccountTransferIndicator": {
+      "name": "Own Account Transfer Indicator",
+      "definition": "Indicates whether the transfer results in a change of beneficial owner."
+    },
+    "LateDeliveryDate": {
+      "name": "Late Delivery Date",
+      "definition": "Date and time after the settlement date specified in the trade, used for pool trades resulting from the original To Be Assigned (TBA) securities."
+    },
+    "TransferReason": {
+      "name": "Transfer Reason",
+      "definition": "Identifies the transfer reason."
+    },
+    "PartialSettlementType": {
+      "name": "Partial Settlement Type",
+      "definition": "Information about partial settlement."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of a securities transfer."
+    }
+  },
+  "isoAssociations": {
+    "TransferredQuantity": {
+      "name": "Transferred Quantity",
+      "definition": "Total quantity of securities settled."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Specifies the account from/to which the securities are transferred."
+    },
+    "RelatedSettlement": {
+      "name": "Related Settlement",
+      "definition": "Settlement process which is the source of the transfer operation."
+    },
+    "PhysicalDelivery": {
+      "name": "Physical Delivery",
+      "definition": "Information related to physical delivery of the securities."
+    },
+    "TransferTax": {
+      "name": "Transfer Tax",
+      "definition": "Tax related to the transfer of a financial instrument."
+    },
+    "SecuritiesDeliveryObligation": {
+      "name": "Securities Delivery Obligation",
+      "definition": "Obligation for one party to deliver securities to another party."
+    },
+    "BookEntry": {
+      "name": "Book Entry",
+      "definition": "Record in a securities account resulting from the transfer of a security."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Security which is transferred."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of a securities transfer."
+    }
+  }
+}

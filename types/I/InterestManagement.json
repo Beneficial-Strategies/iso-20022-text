@@ -1,0 +1,24 @@
+{
+  "isoType": "InterestManagement",
+  "language": "en",
+  "name": "Interest Management",
+  "definition": "Management of interest which consists into calculating the interest, requesting its payment or distributing the interest proceeds.",
+  "isoAssociations": {
+    "InterestCalculation": {
+      "name": "Interest Calculation",
+      "definition": "Calculation parameters used to obtain the interest amount."
+    },
+    "FinancialTransaction": {
+      "name": "Financial Transaction",
+      "definition": "Financial transaction to which the order belongs."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest information used in the interest management process."
+    },
+    "PaymentObligation": {
+      "name": "Payment Obligation",
+      "definition": "Payment information for the settlement of interest or payment obligation to which interest charges are attached."
+    }
+  }
+}

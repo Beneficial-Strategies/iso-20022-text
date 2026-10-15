@@ -1,0 +1,54 @@
+{
+  "isoType": "SecuritiesQuoteVariable",
+  "language": "en",
+  "name": "Securities Quote Variable",
+  "definition": "Proposition of price for a financial instrument.",
+  "isoAttributes": {
+    "Qualifier": {
+      "name": "Qualifier",
+      "definition": "Qualifies the use of the quote."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Indicates the scenario in which the quote is (requested to be) used (ie, indicative, firm, restricted tradeable or counter)."
+    },
+    "LegSwapType": {
+      "name": "Leg Swap Type",
+      "definition": "Indicates that the sell-side is requested to calculate the quantity based on the opposite leg and is used instead of giving a quantity."
+    },
+    "PriceType": {
+      "name": "Price Type",
+      "definition": "Initiator can specify the price type the quote needs to be quoted at. If not specified, the respondent has option to specify how quote is quoted."
+    }
+  },
+  "isoAssociations": {
+    "QuoteTradingSession": {
+      "name": "Quote Trading Session",
+      "definition": "Details of a specific trading session associated with a quote."
+    },
+    "MidSide": {
+      "name": "Mid Side",
+      "definition": "Indicates that the quote details are indicated as a mid of a security, commodity, currency (an average of the offer and the bid)."
+    },
+    "BidSide": {
+      "name": "Bid Side",
+      "definition": "Indicates that the quote details are indicated as a bid of a security, commodity, currency."
+    },
+    "OfferSide": {
+      "name": "Offer Side",
+      "definition": "Indicates that the quote details are indicated as an offer of a security, commodity, currency."
+    },
+    "RelatedQuote": {
+      "name": "Related Quote",
+      "definition": "Quote parameters related to a security quote."
+    },
+    "SecuritiesOrder": {
+      "name": "Securities Order",
+      "definition": "Preliminary information on conditions of the order, specified in the quote (request)."
+    },
+    "Commission": {
+      "name": "Commission",
+      "definition": "Commission associated with a quote."
+    }
+  }
+}

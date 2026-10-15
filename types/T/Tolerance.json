@@ -1,0 +1,30 @@
+{
+  "isoType": "Tolerance",
+  "language": "en",
+  "name": "Tolerance",
+  "definition": "Variance allowed on a quantity or on a price.",
+  "isoAttributes": {
+    "PlusPercent": {
+      "name": "Plus Percent",
+      "definition": "Variance in percentage allowed over the agreed dimension. For example, plus 10 percent."
+    },
+    "MinusPercent": {
+      "name": "Minus Percent",
+      "definition": "Variance in percentage allowed below the agreed dimension. For example, minus 10 percent."
+    }
+  },
+  "isoAssociations": {
+    "RelatedUndertakingAmount": {
+      "name": "Related Undertaking Amount",
+      "definition": "Undertaking amount for which a tolerance is provided."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of product on which a tolerance is allowed."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Price on which a tolerance is allowed."
+    }
+  }
+}

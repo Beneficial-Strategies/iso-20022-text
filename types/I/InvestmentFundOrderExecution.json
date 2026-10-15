@@ -1,0 +1,82 @@
+{
+  "isoType": "InvestmentFundOrderExecution",
+  "language": "en",
+  "name": "Investment Fund Order Execution",
+  "definition": "Creation/cancellation of investment units on the books of the fund or its designated agent, as a result of executing an investment fund order.",
+  "isoAttributes": {
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "DealIdentification": {
+      "name": "Deal Identification",
+      "definition": "Unique and unambiguous identifier for an order execution, as assigned by a confirming party."
+    },
+    "PartiallyExecutedIndicator": {
+      "name": "Partially Executed Indicator",
+      "definition": "Indicates whether the order has been partially executed, ie, the confirmed quantity does not match the ordered quantity for a given financial instrument."
+    },
+    "InterimProfitAmount": {
+      "name": "Interim Profit Amount",
+      "definition": "Part of the price deemed as accrued income or profit rather than capital. The interim profit amount is used for tax purposes."
+    },
+    "BestExecution": {
+      "name": "Best Execution",
+      "definition": "Specifies that the execution was subject to best execution rules as defined by MiFID."
+    },
+    "PartialSettlementOfUnits": {
+      "name": "Partial Settlement Of Units",
+      "definition": "Percentage of units partially settled."
+    },
+    "PartialSettlementOfCash": {
+      "name": "Partial Settlement Of Cash",
+      "definition": "Percentage of cash partially settled."
+    },
+    "LateReport": {
+      "name": "Late Report",
+      "definition": "Specifies whether the order execution confirmation is late."
+    },
+    "SettledIndicator": {
+      "name": "Settled Indicator",
+      "definition": "Indicates whether the cash payment with respect to the executed order is settled."
+    },
+    "RegisteredIndicator": {
+      "name": "Registered Indicator",
+      "definition": "Indicates whether the executed order has a registered status on the books of the transfer agent."
+    },
+    "ExecutedAmount": {
+      "name": "Executed Amount",
+      "definition": "Amount of money invested or redeemed as a result of an investment fund order."
+    },
+    "SourceOfCash": {
+      "name": "Source Of Cash",
+      "definition": "Source of cash used for the settlement of the execution."
+    }
+  },
+  "isoAssociations": {
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment fund units subscribed or redeemed."
+    },
+    "Order": {
+      "name": "Order",
+      "definition": "Order which is executed."
+    },
+    "ExecutedTradePrice": {
+      "name": "Executed Trade Price",
+      "definition": "Price at which the order was executed."
+    },
+    "InformativePrice": {
+      "name": "Informative Price",
+      "definition": "Other quoted price than the one at which the order was executed."
+    },
+    "InvestmentFundTransaction": {
+      "name": "Investment Fund Transaction",
+      "definition": "Transaction which is executed."
+    },
+    "CashFlow": {
+      "name": "Cash Flow",
+      "definition": "Specifies the cash flow resulting from the execution of an order."
+    }
+  }
+}

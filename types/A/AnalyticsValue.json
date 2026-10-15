@@ -1,0 +1,26 @@
+{
+  "isoType": "AnalyticsValue",
+  "language": "en",
+  "name": "Analytics Value",
+  "definition": "Value given to a price analytic.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Analytics expressed as a currency and value."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Analytics expressed as a rate."
+    },
+    "NumberOfYears": {
+      "name": "Number Of Years",
+      "definition": "Analytics expressed as a number of years."
+    }
+  },
+  "isoAssociations": {
+    "AnalyticsCalculation": {
+      "name": "Analytics Calculation",
+      "definition": "Analytics calculation for which an analytics value is specified."
+    }
+  }
+}

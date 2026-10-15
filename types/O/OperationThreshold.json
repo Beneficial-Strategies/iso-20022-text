@@ -1,0 +1,22 @@
+{
+  "isoType": "OperationThreshold",
+  "language": "en",
+  "name": "Operation Threshold",
+  "definition": "Threshold related to a bank account operation.",
+  "isoAttributes": {
+    "MininumAmountPerTransaction": {
+      "name": "Mininum Amount Per Transaction",
+      "definition": "Lower limit for the operation."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum amount allowed over a specific period of time and/or amount which is the upper limit for an operation."
+    }
+  },
+  "isoAssociations": {
+    "BankOperation": {
+      "name": "Bank Operation",
+      "definition": "Bank operation for which a threshold is specified."
+    }
+  }
+}

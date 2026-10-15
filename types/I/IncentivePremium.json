@@ -1,0 +1,42 @@
+{
+  "isoType": "IncentivePremium",
+  "language": "en",
+  "name": "Incentive Premium",
+  "definition": "Cash premium made available if the securities holder consents or participates to an event.",
+  "isoAttributes": {
+    "PerSecurity": {
+      "name": "Per Security",
+      "definition": "Number of securities giving right to a premium."
+    },
+    "PerVote": {
+      "name": "Per Vote",
+      "definition": "Number of votes giving right to a premium."
+    },
+    "PerAttendee": {
+      "name": "Per Attendee",
+      "definition": "Indicates that the premium is given per attendee."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the premium."
+    },
+    "PremiumAmount": {
+      "name": "Premium Amount",
+      "definition": "Cash premium paid per security, per vote or per attendee."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time for the payment of the premium."
+    }
+  },
+  "isoAssociations": {
+    "Meeting": {
+      "name": "Meeting",
+      "definition": "Meeting for which an incentive premium is specified."
+    },
+    "CorporateActionDistribution": {
+      "name": "Corporate Action Distribution",
+      "definition": "CorporateActionDistribution for which an incentive premium is specified."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "MasterAgreement",
+  "language": "en",
+  "name": "Master Agreement",
+  "definition": "Agreement which defines the framework of a contract between two trading parties in different domains such as collateral, derivatives, trade..",
+  "isoAttributes": {
+    "MasterAgreementType": {
+      "name": "Master Agreement Type",
+      "definition": "Nature of the agreement, eg, ISDA Master Agreement or bilateral agreement."
+    },
+    "GoverningLaw": {
+      "name": "Governing Law",
+      "definition": "National law under which a non-deliverable contract has been agreed."
+    }
+  },
+  "isoAssociations": {
+    "CollateralAgreement": {
+      "name": "Collateral Agreement",
+      "definition": "Collateral agreement which is governed by the related master agreement."
+    },
+    "GovernedTrades": {
+      "name": "Governed Trades",
+      "definition": "Trades to which the master agreement applies."
+    },
+    "GovernedContract": {
+      "name": "Governed Contract",
+      "definition": "Contract which is governed by the master agreement."
+    }
+  }
+}

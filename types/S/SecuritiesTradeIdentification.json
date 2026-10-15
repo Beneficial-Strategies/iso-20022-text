@@ -1,0 +1,74 @@
+{
+  "isoType": "SecuritiesTradeIdentification",
+  "language": "en",
+  "name": "Securities Trade Identification",
+  "definition": "Specifies the different identifications associated with a securities transaction.",
+  "isoAttributes": {
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Identification of a transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "name": "Processor Transaction Identification",
+      "definition": "Identification of the transaction assigned by the processor of the instruction other than the account owner the account servicer and the market infrastructure."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "CollateralTransactionIdentification": {
+      "name": "Collateral Transaction Identification",
+      "definition": "Unambiguous identification of a collateral transaction."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "name": "Client Triparty Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty collateral management transaction from the client's point of view."
+    },
+    "TripartyAgentCollateralTransactionIdentification": {
+      "name": "Triparty Agent Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty collateral management transaction from the triparty agent's point of view."
+    },
+    "BasketIdentification": {
+      "name": "Basket Identification",
+      "definition": "Identification of a basket trade."
+    },
+    "ProgramIdentification": {
+      "name": "Program Identification",
+      "definition": "Program reference which identifies a program trade."
+    },
+    "BlockIdentification": {
+      "name": "Block Identification",
+      "definition": "Reference of the linked message at the trade/block level which identifies a centrally matched transaction."
+    },
+    "AllocationIdentification": {
+      "name": "Allocation Identification",
+      "definition": "Identification at the allocation level."
+    },
+    "ComplianceIdentification": {
+      "name": "Compliance Identification",
+      "definition": "Identification which represents this transaction for compliance purposes."
+    },
+    "CSDTransactionIdentification": {
+      "name": "CSD Transaction Identification",
+      "definition": "Identification given by the central securities depository  to the transaction."
+    },
+    "CentralCounterpartyTransactionIdentification": {
+      "name": "Central Counterparty Transaction Identification",
+      "definition": "Identification of the transaction assigned by the central counterparty."
+    },
+    "CancellationRequestIdentification": {
+      "name": "Cancellation Request Identification",
+      "definition": "Unambiguous identification of the cancellation request as known by the instructing party."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "name": "Counterparty Market Infrastructure Transaction Identification",
+      "definition": "Identification of a counterparty transaction assigned by a market infrastructure other than a central securities depository, for example, Target2-Securities."
+    }
+  },
+  "isoAssociations": {
+    "IdentifiedTrade": {
+      "name": "Identified Trade",
+      "definition": "Trade for which one or more identifications are provided."
+    }
+  }
+}

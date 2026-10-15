@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentProcessing",
+  "language": "en",
+  "name": "Payment Processing",
+  "definition": "Specifies how a payment must be processed, for instance through which specific clearing channel.",
+  "isoAttributes": {
+    "Priority": {
+      "name": "Priority",
+      "definition": "Indicator of the urgency or order of importance that the instructing party would like the instructed party to apply to the processing of the instruction."
+    },
+    "ClearingChannel": {
+      "name": "Clearing Channel",
+      "definition": "Specifies the clearing channel to be used to process the payment instruction."
+    },
+    "LocalInstrument": {
+      "name": "Local Instrument",
+      "definition": "User community specific instrument.|Usage : When available, codes provided by local authorities should be used."
+    },
+    "CategoryPurpose": {
+      "name": "Category Purpose",
+      "definition": "Specifies the high level purpose of the instruction based on a set of pre-defined categories."
+    },
+    "SequenceType": {
+      "name": "Sequence Type",
+      "definition": "Identifies the payment sequence where applicable."
+    },
+    "AdviceType": {
+      "name": "Advice Type",
+      "definition": "Specifies the type of advice to report back for the transaction."
+    }
+  },
+  "isoAssociations": {
+    "ServiceLevel": {
+      "name": "Service Level",
+      "definition": "Agreement under which or rules under which the transaction should be processed."
+    },
+    "PaymentExecution": {
+      "name": "Payment Execution",
+      "definition": "Payment execution process for which processing parameters are specified."
+    },
+    "RelatedMandate": {
+      "name": "Related Mandate",
+      "definition": "Mandate for which payment processing parametres are specified."
+    },
+    "BankTransaction": {
+      "name": "Bank Transaction",
+      "definition": "Code of the underlying bank transaction."
+    },
+    "ContactPoint": {
+      "name": "Contact Point",
+      "definition": "Specifies the notification method to be used to inform the beneficiary."
+    }
+  }
+}

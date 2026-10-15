@@ -1,0 +1,66 @@
+{
+  "isoType": "CashProceedsDefinition",
+  "language": "en",
+  "name": "Cash Proceeds Definition",
+  "definition": "Definition of the cash proceeds for a corporate action in generic terms; that is, before applying it to specific securities holding. An example would be the definition of a dividend payment where all the information will be given in general on a per share basis.",
+  "isoAttributes": {
+    "CashIncentiveRate": {
+      "name": "Cash Incentive Rate",
+      "definition": "Cash premium made available if the securities holder consents or participates to an event, e.g. consent fees."
+    },
+    "ContractualPaymentIndicator": {
+      "name": "Contractual Payment Indicator",
+      "definition": "Indicates exceptions to contractual payment service."
+    },
+    "IndemnityAmount": {
+      "name": "Indemnity Amount",
+      "definition": "(Unique to France) Amount due to a buyer of securities dealt prior to ex date which may be subject to different rate of taxation."
+    },
+    "CashIncentiveAmount": {
+      "name": "Cash Incentive Amount",
+      "definition": "Rate of the cash premium made available if the securities holder consents or participates to an event, e.g. consent fees."
+    },
+    "PrincipalOrCorpus": {
+      "name": "Principal Or Corpus",
+      "definition": "Amount of money representing a distribution of a bond's principal, eg, repayment of outstanding debt."
+    },
+    "RedemptionPremiumAmount": {
+      "name": "Redemption Premium Amount",
+      "definition": "Amount of money (not interest) in addition to the principal at the redemption of a bond."
+    },
+    "IncomePortion": {
+      "name": "Income Portion",
+      "definition": "Amount relating to the underlying security for which income is distributed."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Cash amount which is posted."
+    },
+    "PaymentCurrency": {
+      "name": "Payment Currency",
+      "definition": "Currency for the payment of the cash proceeds."
+    },
+    "StatusCashAmount": {
+      "name": "Status Cash Amount",
+      "definition": "Amount of cash subscribed that has been assigned the status indicated."
+    },
+    "PriceCalculationMethod": {
+      "name": "Price Calculation Method",
+      "definition": "Specifies the method applied for the calculation of the price."
+    }
+  },
+  "isoAssociations": {
+    "IncomeType": {
+      "name": "Income Type",
+      "definition": "Specifies the type of income.|The lists of income type codes to be used, are available on the SMPG website at www.smpg.info."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest paid as the proceeds of a CA event."
+    },
+    "Dividend": {
+      "name": "Dividend",
+      "definition": "Distribution of earnings to shareholders, paid for in cash, stock, scrip issue or, rarely, in kind, eg, company products or property. The dividend amount is decided by the board of directors."
+    }
+  }
+}

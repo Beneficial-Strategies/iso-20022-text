@@ -1,0 +1,34 @@
+{
+  "isoType": "SignatureCondition",
+  "language": "en",
+  "name": "Signature Condition",
+  "definition": "Specifies the signature requirements for managing an account.",
+  "isoAttributes": {
+    "RequiredSignatureNumber": {
+      "name": "Required Signature Number",
+      "definition": "Number of account owners or related parties required to authorise transactions on the account."
+    },
+    "SignatoryRightIndicator": {
+      "name": "Signatory Right Indicator",
+      "definition": "Indicates whether the signature of the account owner is required to authorise transactions on the account."
+    },
+    "SignatureOrderIndicator": {
+      "name": "Signature Order Indicator",
+      "definition": "Indicator whether a certain order of signatures has to be respected or not."
+    },
+    "SignatureOrder": {
+      "name": "Signature Order",
+      "definition": "Indicates the order in which the mandate holders are allowed to sign."
+    }
+  },
+  "isoAssociations": {
+    "Mandate": {
+      "name": "Mandate",
+      "definition": "Mandate for which signature conditions are provided."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Manual or digital signature added as security provision by each party involved in the business covered by the document."
+    }
+  }
+}

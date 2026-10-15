@@ -1,0 +1,26 @@
+{
+  "isoType": "AmountRangeBoundary",
+  "language": "en",
+  "name": "Amount Range Boundary",
+  "definition": "Limit for an amount range.",
+  "isoAttributes": {
+    "BoundaryAmount": {
+      "name": "Boundary Amount",
+      "definition": "Amount value of the range limit."
+    },
+    "Included": {
+      "name": "Included",
+      "definition": "Indicates whether the boundary amount is included in the range of amount values."
+    }
+  },
+  "isoAssociations": {
+    "FromAmountRange": {
+      "name": "From Amount Range",
+      "definition": "Amount range for which a lower boundary is provided."
+    },
+    "ToAmountRange": {
+      "name": "To Amount Range",
+      "definition": "Amount range for which an upper boundary is provided."
+    }
+  }
+}

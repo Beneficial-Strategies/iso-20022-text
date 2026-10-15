@@ -1,0 +1,26 @@
+{
+  "isoType": "TradeCertificate",
+  "language": "en",
+  "name": "Trade Certificate",
+  "definition": "Formal document used to record a fact and used as proof of the fact, in the context of a commercial trade transaction.",
+  "isoAttributes": {
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Specifies the type of the certificate."
+    }
+  },
+  "isoAssociations": {
+    "InspectionDate": {
+      "name": "Inspection Date",
+      "definition": "Date(s) at which inspection of the goods took place."
+    },
+    "TradeCertificatePartyRole": {
+      "name": "Trade Certificate Party Role",
+      "definition": "Role played by a party in the context of issuing a trade certificate."
+    },
+    "ProductDelivery": {
+      "name": "Product Delivery",
+      "definition": "Delivery parameters of a trade."
+    }
+  }
+}

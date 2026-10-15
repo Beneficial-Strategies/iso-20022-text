@@ -1,0 +1,26 @@
+{
+  "isoType": "ProductCategory",
+  "language": "en",
+  "name": "Product Category",
+  "definition": "Specifies the category of the product.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of product category by means of a code."
+    },
+    "Category": {
+      "name": "Category",
+      "definition": "Specifies the category of a product."
+    }
+  },
+  "isoAssociations": {
+    "Product": {
+      "name": "Product",
+      "definition": "Specifies the product for which a category is specified."
+    },
+    "RelatedCardPaymentValidation": {
+      "name": "Related Card Payment Validation",
+      "definition": "Validation process which declined a product code."
+    }
+  }
+}

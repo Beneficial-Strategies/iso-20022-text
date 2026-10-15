@@ -1,0 +1,42 @@
+{
+  "isoType": "TerminalManagementSystem",
+  "language": "en",
+  "name": "Terminal Management System",
+  "definition": "Terminal management system (TMS), has in charge the maintenance of the terminal, including monitoring, software update, configuration parameters management.",
+  "isoAttributes": {
+    "ContactLevel": {
+      "name": "Contact Level",
+      "definition": "Level of urgency in contacting the maintenance."
+    },
+    "ContactDateTime": {
+      "name": "Contact Date Time",
+      "definition": "Date and time for calling the maintenance."
+    }
+  },
+  "isoAssociations": {
+    "AcceptorConfiguration": {
+      "name": "Acceptor Configuration",
+      "definition": "Acceptor parameters to be downloaded from the terminal management system."
+    },
+    "NetworkAccess": {
+      "name": "Network Access",
+      "definition": "Parameters used to access a network."
+    },
+    "CardPaymentAcquiring": {
+      "name": "Card Payment Acquiring",
+      "definition": "Process for which a TMS trigger is specified."
+    },
+    "TerminalManagerRole": {
+      "name": "Terminal Manager Role",
+      "definition": "Identifies the party which is the terminal manager (TM) to contact for the maintenance."
+    },
+    "ControlledPointOfInteraction": {
+      "name": "Controlled Point Of Interaction",
+      "definition": "Specifies each point of interaction controlled by a TMS."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Terminal management action to be performed by the point of interaction."
+    }
+  }
+}

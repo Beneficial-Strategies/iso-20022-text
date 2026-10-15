@@ -1,0 +1,16 @@
+{
+  "isoType": "CashSettlementInstructionPartyRole",
+  "language": "en",
+  "name": "Cash Settlement Instruction Party Role",
+  "definition": "Role played by a party in cash settlement.",
+  "isoAssociations": {
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Unambiguous identification of the account used in the context of the party role such as instructing reimbursement agent account..."
+    },
+    "SettlementInstruction": {
+      "name": "Settlement Instruction",
+      "definition": "Identifies the settlement instruction in which a party plays a role."
+    }
+  }
+}

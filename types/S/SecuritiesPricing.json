@@ -1,0 +1,282 @@
+{
+  "isoType": "SecuritiesPricing",
+  "language": "en",
+  "name": "Securities Pricing",
+  "definition": "Characteristics related to the price of the security.",
+  "isoAttributes": {
+    "PriceMethod": {
+      "name": "Price Method",
+      "definition": "Type of pricing calculation method."
+    },
+    "PriceType": {
+      "name": "Price Type",
+      "definition": "Type and information about a price."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, ie, cum-dividend, in the executed price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "CalculationBasis": {
+      "name": "Calculation Basis",
+      "definition": "Ratio applied on the non-adjusted price."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Price expressed as a rate, ie, percentage."
+    },
+    "Yielded": {
+      "name": "Yielded",
+      "definition": "Indicates whether the price is expressed as a yield (yield is the annual rate of return expressed as a percentage)."
+    },
+    "TypeOfRate": {
+      "name": "Type Of Rate",
+      "definition": "Type of value in which the price (as a rate)  is expressed."
+    },
+    "TypeOfAmount": {
+      "name": "Type Of Amount",
+      "definition": "Type of value in which the price (as a rate)  is expressed."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date on which the price is obtained."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date/time of the price. For CIV, this is the NAV date."
+    }
+  },
+  "isoAssociations": {
+    "PriceChangeRelatedStatistics": {
+      "name": "Price Change Related Statistics",
+      "definition": "Valuation statistics for which a change of price is specified."
+    },
+    "HighestPriceValueRelatedStatistics": {
+      "name": "Highest Price Value Related Statistics",
+      "definition": "Valuation statistics for which a highest price value is specified."
+    },
+    "LowestPriceValueRelatedStatistics": {
+      "name": "Lowest Price Value Related Statistics",
+      "definition": "Valuation statistics for which a lowest price value is specified."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Identifies the security for which a price is given."
+    },
+    "SecuritiesTradeExecution": {
+      "name": "Securities Trade Execution",
+      "definition": "Trade execution for which a deal price is specified."
+    },
+    "Derivative": {
+      "name": "Derivative",
+      "definition": "Derivative for which an exercise price is specified."
+    },
+    "RelatedWarrant": {
+      "name": "Related Warrant",
+      "definition": "Warrant for which a subscription price is provided."
+    },
+    "RelatedSecuritiesConversion": {
+      "name": "Related Securities Conversion",
+      "definition": "Securities conversion process for which a conversion price is specified."
+    },
+    "LotBreakdown": {
+      "name": "Lot Breakdown",
+      "definition": "Lot for which a price is specified."
+    },
+    "ExercisePriceRelatedEvent": {
+      "name": "Exercise Price Related Event",
+      "definition": "Corporate action event for which an exercise price is provided."
+    },
+    "GenericCashPriceReceivedPerProductRelatedEvent": {
+      "name": "Generic Cash Price Received Per Product Related Event",
+      "definition": "Corporate action event for which a generic cash price received per product is provided."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "name": "Amount Price Per Financial Instrument Quantity",
+      "definition": "Price expressed as an amount per a quantity of financial instruments."
+    },
+    "AmountPricePerAmount": {
+      "name": "Amount Price Per Amount",
+      "definition": "Price expressed as an amount per another amount."
+    },
+    "GenericCashPricePaidPerProductRelatedEvent": {
+      "name": "Generic Cash Price Paid Per Product Related Event",
+      "definition": "Corporate action event for which a generic cash price paid per product is provided."
+    },
+    "PriceCalculationPeriod": {
+      "name": "Price Calculation Period",
+      "definition": "Period during which the price of a security is determined (For outturn securities)."
+    },
+    "CashInLieuOfSharePriceRelatedEvent": {
+      "name": "Cash In Lieu Of Share Price Related Event",
+      "definition": "Corporate action event for which a cash in lieu of share price is provided."
+    },
+    "OverSubscriptionDepositPriceRelatedEvent": {
+      "name": "Over Subscription Deposit Price Related Event",
+      "definition": "Corporate action event for which an over subscription deposit price is provided."
+    },
+    "CashValueForTaxRelatedEvent": {
+      "name": "Cash Value For Tax Related Event",
+      "definition": "Corporate action event for which a cash value has been provided."
+    },
+    "MaximumPriceBiddingConditions": {
+      "name": "Maximum Price Bidding Conditions",
+      "definition": "Bidding conditions for which a maximum price is specified."
+    },
+    "MinimumPriceBiddingConditions": {
+      "name": "Minimum Price Bidding Conditions",
+      "definition": "Bidding conditions for which a minimum price is specified."
+    },
+    "YieldCalculation": {
+      "name": "Yield Calculation",
+      "definition": "Rate of return on an investment, based on the price."
+    },
+    "RelatedSecuritiesFinancing": {
+      "name": "Related Securities Financing",
+      "definition": "Securities financing process for which an end price is specified."
+    },
+    "FundOrderRelatedToExecutedPrice": {
+      "name": "Fund Order Related To Executed Price",
+      "definition": "Fund order for which an executed price is specified."
+    },
+    "FundOrderRelatedToInformativePrice": {
+      "name": "Fund Order Related To Informative Price",
+      "definition": "Fund order for which an informative price is specified."
+    },
+    "TaxVoucher": {
+      "name": "Tax Voucher",
+      "definition": "Tax voucher for which the cost per share is specified."
+    },
+    "SecuritiesTrade": {
+      "name": "Securities Trade",
+      "definition": "Trade for which the trade price is calculated."
+    },
+    "NetAssetValueCalculation": {
+      "name": "Net Asset Value Calculation",
+      "definition": "Value calculation for which a securities pricing is specified."
+    },
+    "RelatedBuyIn": {
+      "name": "Related Buy In",
+      "definition": "BuyIn process for which a price is specified."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Specifies the index information when used for calculating the price."
+    },
+    "InformationPartyRole": {
+      "name": "Information Party Role",
+      "definition": "Party which provided the pricing."
+    },
+    "PriceFactPeriod": {
+      "name": "Price Fact Period",
+      "definition": "Period during which the price fact type is valid."
+    },
+    "AnalyticsCalculation": {
+      "name": "Analytics Calculation",
+      "definition": "Calculated analytics based on the price."
+    },
+    "DurationCalculation": {
+      "name": "Duration Calculation",
+      "definition": "Calculated duration based on the price."
+    },
+    "LifeCalculation": {
+      "name": "Life Calculation",
+      "definition": "Calculated  life based on the price."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Spread which uses the price as benchmark."
+    },
+    "Order": {
+      "name": "Order",
+      "definition": "Securities order for which a price is specified."
+    },
+    "StopPriceOrder": {
+      "name": "Stop Price Order",
+      "definition": "Order for which a stop price is specified."
+    },
+    "Allocation": {
+      "name": "Allocation",
+      "definition": "Allocation process for which a price is specified."
+    },
+    "RelatedOrder": {
+      "name": "Related Order",
+      "definition": "Order for which a previous closing price is specified."
+    },
+    "Issuance": {
+      "name": "Issuance",
+      "definition": "Issuance for which a discount is specified."
+    },
+    "Entitlement": {
+      "name": "Entitlement",
+      "definition": "Entitlement for which a strike price is specified."
+    },
+    "CashFractionsPriceRelatedSecuritiesDistribution": {
+      "name": "Cash Fractions Price Related Securities Distribution",
+      "definition": "Securities distribution for which a cash fractions price is provided."
+    },
+    "SuscriptionPriceRelatedSecuritiesDistribution": {
+      "name": "Suscription Price Related Securities Distribution",
+      "definition": "Securities distribution for which a subscription price is provided."
+    },
+    "ReinvestmentPriceRelatedSecuritiesDistribution": {
+      "name": "Reinvestment Price Related Securities Distribution",
+      "definition": "Securities distribution for which a reinvestment price is provided."
+    },
+    "RelatedFuture": {
+      "name": "Related Future",
+      "definition": "Contract for which a tick is specified."
+    },
+    "Distribution": {
+      "name": "Distribution",
+      "definition": "Distribution for which an offer price is specified."
+    },
+    "PriceChangeRedemptionSchedule": {
+      "name": "Price Change Redemption Schedule",
+      "definition": "Redemption schedule for which a change in price is provided."
+    },
+    "RelatedRedemptionSchedule": {
+      "name": "Related Redemption Schedule",
+      "definition": "Redemption schedule for which a price is specified."
+    },
+    "PreviousClosingPriceRelatedQuote": {
+      "name": "Previous Closing Price Related Quote",
+      "definition": "Quote which contains a previous closing price."
+    },
+    "RequestedPriceRelatedQuote": {
+      "name": "Requested Price Related Quote",
+      "definition": "Quote which contains a requested price."
+    },
+    "PriceRelatedQuote": {
+      "name": "Price Related Quote",
+      "definition": "Quote which contains a price."
+    },
+    "MarketPriceRelatedQuote": {
+      "name": "Market Price Related Quote",
+      "definition": "Quote which contains a market price."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Value of the price."
+    },
+    "RelatedCorporateActionPrice": {
+      "name": "Related Corporate Action Price",
+      "definition": "Corporate action price for which pricing information is provided."
+    },
+    "RelatedPosition": {
+      "name": "Related Position",
+      "definition": "Position for which a price is provided."
+    },
+    "MinimumCashToInstructRelatedEvent": {
+      "name": "Minimum Cash To Instruct Related Event",
+      "definition": "Corporate action event for which a minimum cash is instructed."
+    },
+    "MaximumCashToInstructRelatedEvent": {
+      "name": "Maximum Cash To Instruct Related Event",
+      "definition": "Corporate action event for which a maximum cash is instructed."
+    },
+    "MinimumMultipleCashToInstructRelatedEvent": {
+      "name": "Minimum Multiple Cash To Instruct Related Event",
+      "definition": "Corporate action event for which a minimum multiple cash is instructed."
+    }
+  }
+}

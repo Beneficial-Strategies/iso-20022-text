@@ -1,0 +1,54 @@
+{
+  "isoType": "ExposureCalculation",
+  "language": "en",
+  "name": "Exposure Calculation",
+  "definition": "Description of the calculation of the amounts representing the risk that needs to be covered, together with the calculation of the existing coverage.",
+  "isoAttributes": {
+    "TotalCollateralCurrentValue": {
+      "name": "Total Collateral Current Value",
+      "definition": "Total value of the collateral derived from the sum of the current independent amounts and variation margins held, agreed and in transit."
+    },
+    "TotalExposedAmount": {
+      "name": "Total Exposed Amount",
+      "definition": "The sum of the exposures of all transactions which are in favour of a Party. That is, all transactions which would have an amount payable by the counterparty if they were being terminated."
+    },
+    "TotalCollateralAfterHaircut": {
+      "name": "Total Collateral After Haircut",
+      "definition": "Collateral currently received (+)/delivered (-) in the base currency. This amount is after the haircut has been applied."
+    }
+  },
+  "isoAssociations": {
+    "CurrentIndependentAmount": {
+      "name": "Current Independent Amount",
+      "definition": "Amount applied as an add-on to the exposure usually intended to cover a possible increase in exposure before the next valuation date."
+    },
+    "CurrentVariationMargin": {
+      "name": "Current Variation Margin",
+      "definition": "Provides details about the collateral held, in transit or that still needs to be agreed by both parties, against the variation margin."
+    },
+    "CurrentSegregatedIndependentAmount": {
+      "name": "Current Segregated Independent Amount",
+      "definition": "Provides details about the collateral held, in transit or that still needs to be agreed by both parties, against the segregated independent amount only."
+    },
+    "VariationMarginAmountRequirement": {
+      "name": "Variation Margin Amount Requirement",
+      "definition": "Amount of expected margin required by any of the parties of the margin calculation."
+    },
+    "SegregatedAmountRequirement": {
+      "name": "Segregated Amount Requirement",
+      "definition": "Margin requirements for the segregated independent amount."
+    },
+    "CollateralManagement": {
+      "name": "Collateral Management",
+      "definition": "Specifies the collateral management actions resulting from the calculation of the risk."
+    },
+    "CounterpartyRisk": {
+      "name": "Counterparty Risk",
+      "definition": "Calculation of the exposure amount that one party has vis-a-vis one counterparty or a central system, based on its credit risk."
+    },
+    "TransactionRisk": {
+      "name": "Transaction Risk",
+      "definition": "Calculation of the exposure amount that one party has vis-a-vis one counterparty or a central system, based on the transactions that are not yet settled."
+    }
+  }
+}

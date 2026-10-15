@@ -1,0 +1,22 @@
+{
+  "isoType": "Tranche",
+  "language": "en",
+  "name": "Tranche",
+  "definition": "One of a number of related assets offered as part of the same transaction. The detachment point less the attachment  point represents the maximum loss.",
+  "isoAttributes": {
+    "DetachmentPoint": {
+      "name": "Detachment Point",
+      "definition": "Point beyond which losses do not affect the tranche."
+    },
+    "AttachmentPoint": {
+      "name": "Attachment Point",
+      "definition": "The attachment point defines the amount of subordination a tranche enjoys."
+    }
+  },
+  "isoAssociations": {
+    "Asset": {
+      "name": "Asset",
+      "definition": "Specifies the asset for which tranche information is reported."
+    }
+  }
+}

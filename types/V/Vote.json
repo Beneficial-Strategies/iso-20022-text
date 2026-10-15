@@ -1,0 +1,74 @@
+{
+  "isoType": "Vote",
+  "language": "en",
+  "name": "Vote",
+  "definition": "Number of votes assigned to each voting option.",
+  "isoAttributes": {
+    "For": {
+      "name": "For",
+      "definition": "Number of votes in favour of one resolution"
+    },
+    "Against": {
+      "name": "Against",
+      "definition": "Number of votes against one resolution"
+    },
+    "Abstain": {
+      "name": "Abstain",
+      "definition": "Number of votes declared abstained for one resolution."
+    },
+    "Withhold": {
+      "name": "Withhold",
+      "definition": "Number of votes withheld for one resolution"
+    },
+    "WithManagement": {
+      "name": "With Management",
+      "definition": "Number of votes in line with the votes of the management."
+    },
+    "AgainstManagement": {
+      "name": "Against Management",
+      "definition": "Number of votes against the voting recommendation of the management."
+    },
+    "NoAction": {
+      "name": "No Action",
+      "definition": "Number of votes for which no action has been taken."
+    },
+    "TwoYears": {
+      "name": "Two Years",
+      "definition": "Number of votes in favour of two years for \"say on pay\" type of resolution."
+    },
+    "OneYear": {
+      "name": "One Year",
+      "definition": "Number of votes in favour for one year for \"say on pay\" type of resolution."
+    },
+    "Withdrawn": {
+      "name": "Withdrawn",
+      "definition": "Resolution withdrawn at the meeting."
+    },
+    "ThreeYears": {
+      "name": "Three Years",
+      "definition": "Number of votes in favour of three years for \"say on pay\" type of resolution."
+    },
+    "Blank": {
+      "name": "Blank",
+      "definition": "Vote is cast as empty but the vote is counted."
+    },
+    "VoteReceiptDateTime": {
+      "name": "Vote Receipt Date Time",
+      "definition": "Date or date and time at which the votes that have been recorded and counted were received."
+    }
+  },
+  "isoAssociations": {
+    "VoteRequest": {
+      "name": "Vote Request",
+      "definition": "Request which contains the vote instructions."
+    },
+    "Resolution": {
+      "name": "Resolution",
+      "definition": "Specifies the agenda item on which a vote is/was cast."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Information on the vote result for a specific resolution."
+    }
+  }
+}

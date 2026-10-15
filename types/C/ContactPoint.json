@@ -1,0 +1,78 @@
+{
+  "isoType": "ContactPoint",
+  "language": "en",
+  "name": "Contact Point",
+  "definition": "Number, physical or virtual address, used for communication.",
+  "isoAttributes": {
+    "BICAddress": {
+      "name": "BIC Address",
+      "definition": "BIC address which identifies the contact point."
+    },
+    "TemporaryIndicator": {
+      "name": "Temporary Indicator",
+      "definition": "Indicates whether the address is a temporary address."
+    }
+  },
+  "isoAssociations": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a contact point."
+    },
+    "RelatedInvestmentFund": {
+      "name": "Related Investment Fund",
+      "definition": "Investment fund class for which an order desk is specified."
+    },
+    "RelatedParty": {
+      "name": "Related Party",
+      "definition": "Party for which a contact point is specified."
+    },
+    "RelatedCorporateActionEvent": {
+      "name": "Related Corporate Action Event",
+      "definition": "Corporate action event for which the documentation location is specified."
+    },
+    "RelatedReportingService": {
+      "name": "Related Reporting Service",
+      "definition": "Reporting service for which a contact point is specified."
+    },
+    "StoredDocument": {
+      "name": "Stored Document",
+      "definition": "Document which is stored at a specific place."
+    },
+    "RemittanceRelatedPayment": {
+      "name": "Remittance Related Payment",
+      "definition": "Payment for which a remittance location is specified."
+    },
+    "RelatedProxyAppointment": {
+      "name": "Related Proxy Appointment",
+      "definition": "Proxy appointment process for which a notification address is specified."
+    },
+    "ContactPointForMeeting": {
+      "name": "Contact Point For Meeting",
+      "definition": "Meeting which takes place at a specific place."
+    },
+    "ContactPointForVote": {
+      "name": "Contact Point For Vote",
+      "definition": "Vote parameters which apply to a vote location."
+    },
+    "MainContact": {
+      "name": "Main Contact",
+      "definition": "Contact address used for normal operations."
+    },
+    "ReturnAddress": {
+      "name": "Return Address",
+      "definition": "Physical/logical address, segregated from the main address that is used for normal operations. The return address is used to route messages that require specific attention/exception handling, eg, returns or rejects."
+    },
+    "RelatedPayment": {
+      "name": "Related Payment",
+      "definition": "Payment for which a notification method is specified."
+    },
+    "DeliveredAttendanceCard": {
+      "name": "Delivered Attendance Card",
+      "definition": "Attendance card which is delivered at a specific location."
+    },
+    "InvestmentFundClassProcessing": {
+      "name": "Investment Fund Class Processing",
+      "definition": "Processing characteristics of an investment fund class for which a local market annex is specified."
+    }
+  }
+}

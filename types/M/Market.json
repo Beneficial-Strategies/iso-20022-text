@@ -1,0 +1,30 @@
+{
+  "isoType": "Market",
+  "language": "en",
+  "name": "Market",
+  "definition": "Context or geographic environment in which trading parties execute trades.",
+  "isoAttributes": {
+    "GeographicalEnvironment": {
+      "name": "Geographical Environment",
+      "definition": "Geographic zone in which the cash transfer is executed, from the perspective of the forwarding or first agent, eg, domestic or international."
+    }
+  },
+  "isoAssociations": {
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade executed in a market."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Jurisdiction of the governing law for the trades on this market, for example, City of NY, County of NY, State of NY, regulatory SEC."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country in which a market operates."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the market by name, id and/or code."
+    }
+  }
+}

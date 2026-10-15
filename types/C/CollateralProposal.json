@@ -1,0 +1,26 @@
+{
+  "isoType": "CollateralProposal",
+  "language": "en",
+  "name": "Collateral Proposal",
+  "definition": "Specifies collateral proposed to the counterparty.",
+  "isoAttributes": {
+    "ResponseType": {
+      "name": "Response Type",
+      "definition": "Indicates whether the collateral proposal is an initial or a counter proposal."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Indicates whether this is an initial or counter proposal."
+    }
+  },
+  "isoAssociations": {
+    "ProposedCollateralMovement": {
+      "name": "Proposed Collateral Movement",
+      "definition": "Details the movement of collateral that is proposed to be delivered or returned by one of the collateral parties."
+    },
+    "RelatedManagementProcess": {
+      "name": "Related Management Process",
+      "definition": "Process which groups the activities related to collateral."
+    }
+  }
+}

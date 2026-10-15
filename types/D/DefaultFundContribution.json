@@ -1,0 +1,30 @@
+{
+  "isoType": "DefaultFundContribution",
+  "language": "en",
+  "name": "Default Fund Contribution",
+  "definition": "Portion of the participation to the default fund that clearing member must provide. It is the sum of the individual contributions.",
+  "isoAttributes": {
+    "ExcessOrDeficitAmount": {
+      "name": "Excess Or Deficit Amount",
+      "definition": "Excess amount that the CCP will restitute to the Clearing member OR deficit to be provided by the member for the guarantee fund."
+    },
+    "AmountDirection": {
+      "name": "Amount Direction",
+      "definition": "Specifies whether the amount is a deficit (debit) or an excess (credit)."
+    }
+  },
+  "isoAssociations": {
+    "RelatedMarginCall": {
+      "name": "Related Margin Call",
+      "definition": "Margin call for which a contribution to a default fund is specified."
+    },
+    "DefaultFund": {
+      "name": "Default Fund",
+      "definition": "Management of the assets posted by participants in a clearing fund that can be used in the event of a default by a participant to compensate non-defaulting participants for losses they suffer due to this default."
+    },
+    "ContributionAccount": {
+      "name": "Contribution Account",
+      "definition": "Sub account segregated by the central counterparty on the basis of trading venues/products or other attributes."
+    }
+  }
+}

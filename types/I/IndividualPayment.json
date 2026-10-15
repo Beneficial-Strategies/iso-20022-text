@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPayment",
+  "language": "en",
+  "name": "Individual Payment",
+  "definition": "Payment which consists of one single transaction. This payment may be grouped with other similar payments to form a bulk payment.",
+  "isoAssociations": {
+    "BulkPayment": {
+      "name": "Bulk Payment",
+      "definition": "Payment hich groups a series of individual payments."
+    }
+  }
+}

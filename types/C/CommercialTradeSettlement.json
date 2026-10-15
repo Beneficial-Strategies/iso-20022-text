@@ -1,0 +1,28 @@
+{
+  "isoType": "CommercialTradeSettlement",
+  "language": "en",
+  "name": "Commercial Trade Settlement",
+  "definition": "Settlement of a commercial trade, that is, the instruction to deliver goods or services against the payment of an amount of money.",
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Settlement of the payment side of a commercial trade."
+    },
+    "Invoice": {
+      "name": "Invoice",
+      "definition": "Specifies for which invoice the settlement takes place."
+    },
+    "LetterOfCredit": {
+      "name": "Letter Of Credit",
+      "definition": "Written undertaking by a bank to honour a demand for payment."
+    },
+    "ProductDelivery": {
+      "name": "Product Delivery",
+      "definition": "Delivery of the goods or services to the buyer."
+    },
+    "CommercialTrade": {
+      "name": "Commercial Trade",
+      "definition": "Specifies the commercial trade which is settled."
+    }
+  }
+}

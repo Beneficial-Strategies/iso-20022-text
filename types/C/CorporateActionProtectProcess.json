@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionProtectProcess",
+  "language": "en",
+  "name": "Corporate Action Protect Process",
+  "definition": "Provides detailed information on protect and cover protect instructions.",
+  "isoAttributes": {
+    "ProtectDate": {
+      "name": "Protect Date",
+      "definition": "Date at which the protect instruction was created and used for cover protect validation."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique reference of the protect transaction assigned by the depository and used for cover protect validation."
+    },
+    "ProtectSafekeepingAccount": {
+      "name": "Protect Safekeeping Account",
+      "definition": "Account which submitted the original protect instruction used for cover protect instructions whereby one safekeeping account is covering on behalf of another safekeeping account."
+    },
+    "ProtectTransactionStatus": {
+      "name": "Protect Transaction Status",
+      "definition": "Status of the protect transaction."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Indicates whether the instruction is a protect or a cover protect instruction."
+    }
+  },
+  "isoAssociations": {
+    "UncoveredProtectQuantity": {
+      "name": "Uncovered Protect Quantity",
+      "definition": "Remaining quantity of protect instruction which has not been covered."
+    },
+    "RelatedCorporateActionElection": {
+      "name": "Related Corporate Action Election",
+      "definition": "Related election on wich the provided details informations refers to."
+    }
+  }
+}

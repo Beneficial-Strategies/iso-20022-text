@@ -1,0 +1,26 @@
+{
+  "isoType": "NonDeliverableTrade",
+  "language": "en",
+  "name": "Non Deliverable Trade",
+  "definition": "Foreign exchange contract where one of the exchanged amounts is specified in a non-deliverable currency.",
+  "isoAttributes": {
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency in which a non-deliverable contract is settled."
+    }
+  },
+  "isoAssociations": {
+    "FixingConditions": {
+      "name": "Fixing Conditions",
+      "definition": "Set of parameters used to calculate a rate for instance the fixing rate to be applied to a non-deliverable agreement."
+    },
+    "OpeningLeg": {
+      "name": "Opening Leg",
+      "definition": "Specifies the opening leg of a non deliverable trade in which the forward rate and amount are specified together with the fixing conditions."
+    },
+    "ClosingLeg": {
+      "name": "Closing Leg",
+      "definition": "Specifies the closing leg of a non deliverable trade in which the amount to be settled is the difference in the deliverable currency betweem its original value and the countervalue calculated against the fixing rate."
+    }
+  }
+}

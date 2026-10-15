@@ -1,0 +1,18 @@
+{
+  "isoType": "FundOrderDesk",
+  "language": "en",
+  "name": "Fund Order Desk",
+  "definition": "Principal entity appointed by the fund to which orders should be submitted.",
+  "isoAttributes": {
+    "MainFundOrderDeskIndicator": {
+      "name": "Main Fund Order Desk Indicator",
+      "definition": "Indicates whether the fund order desk is the principal entity appointed by the fund to which orders should be submitted."
+    }
+  },
+  "isoAssociations": {
+    "MainFundOrderDeskAccount": {
+      "name": "Main Fund Order Desk Account",
+      "definition": "Settlement details for the main fund order desk as defined in the prospectus of the investment fund class."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "InvestorRole",
+  "language": "en",
+  "name": "Investor Role",
+  "definition": "Party that makes investment decisions. Identifies the beneficiary or its broker.",
+  "isoAttributes": {
+    "IndividualInvestor": {
+      "name": "Individual Investor",
+      "definition": "Specifies whether the investor is a primary or the secondary individual investor."
+    },
+    "CorporateInvestor": {
+      "name": "Corporate Investor",
+      "definition": "Specifies whether the investor is a primary or a secondary corporate investor."
+    },
+    "Capacity": {
+      "name": "Capacity",
+      "definition": "Specifies whether the investor is the primary, or the secondary account owner or another account owner."
+    },
+    "InvestorProtectionAssociationMembership": {
+      "name": "Investor Protection Association Membership",
+      "definition": "Indicates whether the confirmation party is a member of the investor protection association required, eg, as per regulation."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies whether the investor is a corporate or an individual"
+    }
+  }
+}

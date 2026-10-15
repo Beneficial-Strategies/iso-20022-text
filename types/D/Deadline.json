@@ -1,0 +1,30 @@
+{
+  "isoType": "Deadline",
+  "language": "en",
+  "name": "Deadline",
+  "definition": "Specifies the different deadlines available for the different processes related to corporate action processes.",
+  "isoAttributes": {
+    "MarketDeadline": {
+      "name": "Market Deadline",
+      "definition": "Date by which the action should have been completed.  This deadline is set by the issuer."
+    },
+    "IntermediaryDeadline": {
+      "name": "Intermediary Deadline",
+      "definition": "Date by which the action should have been completed. This deadline is set by an intermediary."
+    },
+    "STPDeadline": {
+      "name": "STP Deadline",
+      "definition": "Date by which the action should have been completed. This deadline is set by the issuer. (STP or Electronic mode)"
+    }
+  },
+  "isoAssociations": {
+    "RelatedCorporateActionEvent": {
+      "name": "Related Corporate Action Event",
+      "definition": "Related corporate action event."
+    },
+    "RelatedMeeting": {
+      "name": "Related Meeting",
+      "definition": "Meeting for which deadlines are specified."
+    }
+  }
+}

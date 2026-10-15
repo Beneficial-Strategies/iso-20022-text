@@ -1,0 +1,130 @@
+{
+  "isoType": "InvestmentFundClass",
+  "language": "en",
+  "name": "Investment Fund Class",
+  "definition": "Security that is a sub-set of an investment fund, and is governed by the same investment fund policy, for example, a dividend option or valuation currency.",
+  "isoAttributes": {
+    "ClassType": {
+      "name": "Class Type",
+      "definition": "Features of units offered by a fund. For example, a unit may have a specific load structure, eg, front end or back end, an income policy, eg, pay out or accumulate, or a trailer policy, eg, with or without. Fund classes are typically denoted by a single character, eg, 'Class A', 'Class 2'."
+    },
+    "DistributionPolicy": {
+      "name": "Distribution Policy",
+      "definition": "Income policy relating to a class type, ie, if income is paid out or retained in the fund."
+    },
+    "DividendPolicy": {
+      "name": "Dividend Policy",
+      "definition": "Dividend policy of the fund, eg, cash, units."
+    },
+    "DualFundIndicator": {
+      "name": "Dual Fund Indicator",
+      "definition": "Indicates whether the fund has two prices."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "TradingCurrency": {
+      "name": "Trading Currency",
+      "definition": "Currency of the investment fund class."
+    },
+    "PhysicalBearerSecurities": {
+      "name": "Physical Bearer Securities",
+      "definition": "Indicates whether or not it is possible to hold bearer units/shares in this class in certified form"
+    },
+    "DematerialisedBearerSecurities": {
+      "name": "Dematerialised Bearer Securities",
+      "definition": "Indicate whether or not it is possible to hold bearer units/shares in paperless form"
+    },
+    "PhysicalRegisteredSecurities": {
+      "name": "Physical Registered Securities",
+      "definition": "Indicate whether or not it is possible to hold registered units/shares in this class in paperless form"
+    },
+    "DematerialisedRegisteredSecurities": {
+      "name": "Dematerialised Registered Securities",
+      "definition": "Indicate whether or not it is possible to hold registered units/shares in this class in paperless form"
+    },
+    "ProductGroup": {
+      "name": "Product Group",
+      "definition": "Company specific description of a group of funds."
+    },
+    "SeriesIssueIdentificationDate": {
+      "name": "Series Issue Identification Date",
+      "definition": "Date that identifies the issue of a fund series. Typically applicable to a redemption or order confirmation, but may be specified in the subscription, if known."
+    },
+    "SeriesName": {
+      "name": "Series Name",
+      "definition": "Identifies the name of a fund series. Typically applicable to a redemption or order confirmation, but may be specified in the subscription, if known."
+    },
+    "NewIssueIndicator": {
+      "name": "New Issue Indicator",
+      "definition": "Indicates that the financial instrument and/or series included in the message is a new issue."
+    },
+    "TopUpAmount": {
+      "name": "Top Up Amount",
+      "definition": "Additional amount of money (top-up amount) required to meet the minimum subscription amount."
+    },
+    "HoldBackAmount": {
+      "name": "Hold Back Amount",
+      "definition": "Value of the redemption amount subject to hold back."
+    },
+    "HoldBackReleaseDate": {
+      "name": "Hold Back Release Date",
+      "definition": "Date on which the hold back amount is to be released."
+    },
+    "LotDescription": {
+      "name": "Lot Description",
+      "definition": "Description of the lot."
+    },
+    "UnderlyingAssetType": {
+      "name": "Underlying Asset Type",
+      "definition": "Specifies the type of assets in which the fund invests."
+    },
+    "InvestorType": {
+      "name": "Investor Type",
+      "definition": "Type of investor that can invest in the fund class."
+    },
+    "OutstandingUnits": {
+      "name": "Outstanding Units",
+      "definition": "Investment fund class currently held by shareholders."
+    },
+    "FundEndDate": {
+      "name": "Fund End Date",
+      "definition": "Date on which the fund is closed to investment."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentFund": {
+      "name": "Investment Fund",
+      "definition": "Investment fund which is related to the investment fund class."
+    },
+    "ProcessingCharacteristics": {
+      "name": "Processing Characteristics",
+      "definition": "Processing characteristics linked to the investment fund class, ie, not to  the market."
+    },
+    "InvestmentAccount": {
+      "name": "Investment Account",
+      "definition": "Account which holds investment fund classes."
+    },
+    "NetAssetValueCalculation": {
+      "name": "Net Asset Value Calculation",
+      "definition": "Calculation of the value of the fund."
+    },
+    "InvestmentFundTransaction": {
+      "name": "Investment Fund Transaction",
+      "definition": "Transaction which is related to the fund class."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year."
+    },
+    "FundClassification": {
+      "name": "Fund Classification",
+      "definition": "Method of classifying a fund."
+    },
+    "Reinvestment": {
+      "name": "Reinvestment",
+      "definition": "Reinvestment information which involves this investment fund class."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "Assessment",
+  "language": "en",
+  "name": "Assessment",
+  "definition": "Assessment for the components of a system.",
+  "isoAttributes": {
+    "AssessmentType": {
+      "name": "Assessment Type",
+      "definition": "Type of assessment."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date when the assessment expires."
+    },
+    "DeliveryDate": {
+      "name": "Delivery Date",
+      "definition": "Date when the assessment document was delivered."
+    }
+  },
+  "isoAssociations": {
+    "System": {
+      "name": "System",
+      "definition": "System for which an assessment is produced."
+    }
+  }
+}

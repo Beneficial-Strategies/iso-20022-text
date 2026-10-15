@@ -1,0 +1,74 @@
+{
+  "isoType": "Product",
+  "language": "en",
+  "name": "Product",
+  "definition": "Item that is offered for sale. Products can be services or goods.",
+  "isoAttributes": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of a product."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Information about the goods and/or services of a trade transaction."
+    },
+    "Quality": {
+      "name": "Quality",
+      "definition": "Quality of the product."
+    }
+  },
+  "isoAssociations": {
+    "CardPayment": {
+      "name": "Card Payment",
+      "definition": "Card payment for which a product was specified."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price per unit of product."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Category of the product."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Specifies the line item in which the product is specified."
+    },
+    "ProductIdentification": {
+      "name": "Product Identification",
+      "definition": "Identification of the product."
+    },
+    "Origin": {
+      "name": "Origin",
+      "definition": "Country from which the product originates."
+    },
+    "Characteristics": {
+      "name": "Characteristics",
+      "definition": "Characteristics of the product."
+    },
+    "NetPrice": {
+      "name": "Net Price",
+      "definition": "Net price of the goods and/or service."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies the quantity of the product."
+    },
+    "GrossPrice": {
+      "name": "Gross Price",
+      "definition": "Gross price of the goods and/or service."
+    },
+    "Delivery": {
+      "name": "Delivery",
+      "definition": "Delivery process of a product"
+    },
+    "PurchaseOrder": {
+      "name": "Purchase Order",
+      "definition": "Specifies the purchase order in which a specific product is ordered."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters linked to the value of the goods and services in a trade transaction."
+    }
+  }
+}

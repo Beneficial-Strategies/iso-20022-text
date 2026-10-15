@@ -1,0 +1,42 @@
+{
+  "isoType": "QuantityRatio",
+  "language": "en",
+  "name": "Quantity Ratio",
+  "definition": "Ratio expressed as a quotient of quantities.",
+  "isoAttributes": {
+    "Quantity1": {
+      "name": "Quantity 1",
+      "definition": "Numerator of the quotient of quantities."
+    },
+    "Quantity2": {
+      "name": "Quantity 2",
+      "definition": "Denominator of the quotient of quantities."
+    }
+  },
+  "isoAssociations": {
+    "AdditionalQuantityForResultantSecuritiesProceedsDefinition": {
+      "name": "Additional Quantity For Resultant Securities Proceeds Definition",
+      "definition": "Securities proceeds for which an additional quantity for subscribed resultant securities is specified."
+    },
+    "AdditionalQuantityForSubscribedSecuritiesProceedsDefinition": {
+      "name": "Additional Quantity For Subscribed Securities Proceeds Definition",
+      "definition": "Securities proceeds for which an additional quantity for existing securities is specified."
+    },
+    "NewToOldProceedsDefinition": {
+      "name": "New To Old Proceeds Definition",
+      "definition": "Securities procceds for which a nwe to old ratio is specified."
+    },
+    "NewToUnderlyingProceedsDefinition": {
+      "name": "New To Underlying Proceeds Definition",
+      "definition": "Securities proceeds for which a new to underlying ratio is specified."
+    },
+    "IntermediateSecuritiesProceedsDefinition": {
+      "name": "Intermediate Securities Proceeds Definition",
+      "definition": "Securities proceeds for which a quantity of intermediate securities is specified."
+    },
+    "Warrant": {
+      "name": "Warrant",
+      "definition": "Provides the warrant for the related quantity or the underlying quantity."
+    }
+  }
+}

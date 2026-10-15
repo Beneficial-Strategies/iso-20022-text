@@ -1,0 +1,62 @@
+{
+  "isoType": "Entry",
+  "language": "en",
+  "name": "Entry",
+  "definition": "Posting to an account that results in an increase or decrease to a balance.",
+  "isoAttributes": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether an entry is a credit or a debit."
+    },
+    "EntryDate": {
+      "name": "Entry Date",
+      "definition": "Date and time at which an entry is posted to an account on the account servicer's books."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier for an entry, as assigned by the account servicer."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "name": "Account Owner Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "name": "Account Servicer Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the account servicer."
+    },
+    "ReversalIndicator": {
+      "name": "Reversal Indicator",
+      "definition": "Indicates whether or not the entry is the result of a reversal."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date and time assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry)."
+    },
+    "CommissionWaiverIndicator": {
+      "name": "Commission Waiver Indicator",
+      "definition": "Indicates whether the transaction is exempt from commission or not."
+    },
+    "EntryType": {
+      "name": "Entry Type",
+      "definition": "Specifies the type of an entry in a report."
+    }
+  },
+  "isoAssociations": {
+    "BankTransactionCode": {
+      "name": "Bank Transaction Code",
+      "definition": "Type of underlying transaction resulting in the entry."
+    },
+    "Role": {
+      "name": "Role",
+      "definition": "Specifies the role played by a party or a system in the context of an entry in an account."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Posting of an item to an account, that results in an increase or a decrease to the balance of the account."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Amount that is the result of the sum of the entries from or to an account."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "StandingSettlementInstruction",
+  "language": "en",
+  "name": "Standing Settlement Instruction",
+  "definition": "Settlement instruction database information.",
+  "isoAttributes": {
+    "FXStandingInstruction": {
+      "name": "FX Standing Instruction",
+      "definition": "Specifies whether the forex standing instruction in place should apply."
+    },
+    "SettlementStandingInstructionDatabase": {
+      "name": "Settlement Standing Instruction Database",
+      "definition": "Specifies what settlement standing instruction database is to be used to derive the settlement parties involved in the transaction."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the standing instruction."
+    },
+    "SSIDatabaseName": {
+      "name": "SSI Database Name",
+      "definition": "Specifies the settlement standing instruction database to be used to derive the settlement parties involved in a transaction."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the payment to which the SSI applies."
+    }
+  },
+  "isoAssociations": {
+    "Settlement": {
+      "name": "Settlement",
+      "definition": "Settlement process to which the settlement instruction database applies."
+    },
+    "RelatedCollateralAgreement": {
+      "name": "Related Collateral Agreement",
+      "definition": "Collateral agreement for which standing settlement instructions are specified."
+    },
+    "SSIDatabaseProvider": {
+      "name": "SSI Database Provider",
+      "definition": "Party which provides information on the parties and accounts to be used to settle a transaction."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Period during which the SSI is valid."
+    },
+    "Asset": {
+      "name": "Asset",
+      "definition": "Inidicates the asset for the standing settlement instruction."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "isoType": "SecuritiesDistribution",
+  "language": "en",
+  "name": "Securities Distribution",
+  "definition": "Characteristics for a securities distribution event.",
+  "isoAttributes": {
+    "IntermediateSecurityExpiryDate": {
+      "name": "Intermediate Security Expiry Date",
+      "definition": "Date/time at which a privilege or an intermediate security is no longer available."
+    },
+    "TradingAvailabilityDate": {
+      "name": "Trading Availability Date",
+      "definition": "Date/time at which a security starts or resumes trading."
+    },
+    "OfferExpiryDate": {
+      "name": "Offer Expiry Date",
+      "definition": "Date/time at which a privilege or a security is no longer available."
+    },
+    "OversubscriptionRate": {
+      "name": "Oversubscription Rate",
+      "definition": "Rate of oversubscription allowed by the issuer."
+    },
+    "OversubscriptionAmount": {
+      "name": "Oversubscription Amount",
+      "definition": "Amount of oversubscription allowed by the issuer."
+    },
+    "ReinvestmentAmount": {
+      "name": "Reinvestment Amount",
+      "definition": "Amount at which a cash disbursement will be reinvested into a security."
+    },
+    "ReinvestmentRate": {
+      "name": "Reinvestment Rate",
+      "definition": "Rate at which a cash disbursement will be reinvested into a security."
+    },
+    "LoyalityPremiumIndicator": {
+      "name": "Loyality Premium Indicator",
+      "definition": "Dividend, in addition to regular dividends, payable to loyal (time, size, amount) investors."
+    },
+    "OversubscriptionIndicator": {
+      "name": "Oversubscription Indicator",
+      "definition": "Indicates that the event permits the holder to subscribe to more securities than the underlying position allows."
+    },
+    "RenounceableIndicator": {
+      "name": "Renounceable Indicator",
+      "definition": "Indicates whether the intermediate securities held by the beneficial owner or agent can be sold."
+    },
+    "DecimalPrecision": {
+      "name": "Decimal Precision",
+      "definition": "Indicates the number of digits to the right of the decimal point."
+    },
+    "ReinvestmentType": {
+      "name": "Reinvestment Type",
+      "definition": "Specifies whether the investment will be net or gross."
+    },
+    "RevocableIndicator": {
+      "name": "Revocable Indicator",
+      "definition": "Action or event can be reversed at anytime, or otherwise annulled."
+    },
+    "FractionTreatment": {
+      "name": "Fraction Treatment",
+      "definition": "Specifies how the fractions will be treated."
+    },
+    "IntermediateSecurityDistributionIndicator": {
+      "name": "Intermediate Security Distribution Indicator",
+      "definition": "Indicates whether there will be a distribution of intermediate securities or privilege."
+    }
+  },
+  "isoAssociations": {
+    "MaximumHolding": {
+      "name": "Maximum Holding",
+      "definition": "Indicates the maximum quantity of financial instrument that must be held in order to be entitled to take part in the event."
+    },
+    "IntermediateToUnderlyingNumerator": {
+      "name": "Intermediate To Underlying Numerator",
+      "definition": "The quantity of interim securities awarded for a given quantity of underlying shares."
+    },
+    "IntermediateToUnderlyingDenominator": {
+      "name": "Intermediate To Underlying Denominator",
+      "definition": "The quantity of interim securities awarded for a given quantity of underlying shares."
+    },
+    "DistributedToUnderlyingDenominator": {
+      "name": "Distributed To Underlying Denominator",
+      "definition": "Quantity of new securities that will be derived by the exercise of a given quantity of intermediate securities."
+    },
+    "DistributedToUnderlyingNumerator": {
+      "name": "Distributed To Underlying Numerator",
+      "definition": "Quantity of new securities that will be derived by the exercise of a given quantity of intermediate securities."
+    },
+    "MinimumHolding": {
+      "name": "Minimum Holding",
+      "definition": "Indicates the minimum quantity of financial instrument that must be held in order to be entitled to take part in the event."
+    },
+    "CashFractionsPrice": {
+      "name": "Cash Fractions Price",
+      "definition": "Price paid by the issuer for the remaining fraction."
+    },
+    "SubscriptionPrice": {
+      "name": "Subscription Price",
+      "definition": "The amount of money required per unit for the purchase of an instrument."
+    },
+    "ReinvestmentPrice": {
+      "name": "Reinvestment Price",
+      "definition": "Price at which a cash disbursement will be reinvested into a security."
+    },
+    "SecuritiesAndCashDistribution": {
+      "name": "Securities And Cash Distribution",
+      "definition": "Distribution for which the cash distribution elements are provided."
+    }
+  }
+}

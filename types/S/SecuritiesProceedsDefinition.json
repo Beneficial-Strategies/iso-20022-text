@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesProceedsDefinition",
+  "language": "en",
+  "name": "Securities Proceeds Definition",
+  "definition": "The definition of the securities proceeds for a corporate action in generic terms; that is, before applying it to specific securities holding. An example would be the definition of a  bonus rights issue where all the information will be given in general on a per share basis.",
+  "isoAttributes": {
+    "ReinvestmentAmount": {
+      "name": "Reinvestment Amount",
+      "definition": "Amount of money reinvested in additional securities."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "name": "Intermediate Securities Distribution Type",
+      "definition": "Type of intermediate securities distribution, eg, stock dividend, reverse right."
+    },
+    "ReinvestmentDiscountToMarket": {
+      "name": "Reinvestment Discount To Market",
+      "definition": "Rate of discount for securities purchased through a reinvestment scheme as compared to the current market price of security."
+    },
+    "RedemptionDate": {
+      "name": "Redemption Date",
+      "definition": "Date on which the securities will be redeemed (early) for payment of principal."
+    },
+    "ShareRanking": {
+      "name": "Share Ranking",
+      "definition": "Specifies whether the shares are ranking for dividend or pari passu."
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesQuantity": {
+      "name": "Securities Quantity",
+      "definition": "The quantity of financial instruments that is posted."
+    },
+    "ConditionalQuantity": {
+      "name": "Conditional Quantity",
+      "definition": "Minimum quantity of securities to be accepted (used in the framework of conditional privilege on election). In case of proration, if this minimum quantity is not reached then the instruction is void."
+    },
+    "OverAndAboveNormalEnsuredEntitlementQuantity": {
+      "name": "Over And Above Normal Ensured Entitlement Quantity",
+      "definition": "Quantity instructed to be received over and above normal ensured entitlement."
+    },
+    "QuantityToReceive": {
+      "name": "Quantity To Receive",
+      "definition": "Quantity of the benefits that the account owner wants to receive, for example, as a result of dividend reinvestment."
+    },
+    "StatusQuantity": {
+      "name": "Status Quantity",
+      "definition": "Quantity of securities that has been assigned the status indicated."
+    },
+    "ParallelTradingPeriod": {
+      "name": "Parallel Trading Period",
+      "definition": "Period during which both old and new equity may be traded simultaneously, eg, consolidation of equity or splitting of equity."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "name": "Additional Quantity For Subscribed Resultant Securities",
+      "definition": "Quantity of additional intermediate securities/new equities awarded for a given quantity of securities derived from subscription."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "name": "Additional Quantity For Existing Securities",
+      "definition": "Quantity of additional securities for a given quantity of underlying securities where underlying securities are not exchanged or debited, eg, 1 for 1: 1 new equity credited for every 1 underlying equity = 2 resulting equities."
+    },
+    "NewToOld": {
+      "name": "New To Old",
+      "definition": "Quantity of new securities for a given quantity of underlying securities, where the underlying securities will be exchanged or debited, eg, 2 for 1: 2 new equities credited for every 1 underlying equity debited = 2 resulting equities."
+    },
+    "NewSecuritiesToUnderlyingSecurities": {
+      "name": "New Securities To Underlying Securities",
+      "definition": "Quantity of new equities that will be derived by the exercise of a given quantity of intermediate securities."
+    },
+    "BoardLotSecuritiesQuantity": {
+      "name": "Board Lot Securities Quantity",
+      "definition": "Quantity of equity that makes up a board lot."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "name": "New Denomination Securities Quantity",
+      "definition": "New denomination of the financial instrument following, eg, an increase or decrease in nominal value."
+    },
+    "IntermediateSecuritiesToUnderlyingRatio": {
+      "name": "Intermediate Securities To Underlying Ratio",
+      "definition": "Quantity of intermediate securities awarded for a given quantity of underlying security."
+    },
+    "AssentedLinePeriod": {
+      "name": "Assented Line Period",
+      "definition": "Period during which the assented line is available."
+    },
+    "SellThruIssuerPeriod": {
+      "name": "Sell Thru Issuer Period",
+      "definition": "Period (last day included) during which an account owner can surrender or sell securities to the issuer and receive the sale proceeds."
+    }
+  }
+}

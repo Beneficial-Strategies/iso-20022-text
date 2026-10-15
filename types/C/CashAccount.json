@@ -1,0 +1,126 @@
+{
+  "isoType": "CashAccount",
+  "language": "en",
+  "name": "Cash Account",
+  "definition": "Account to or from which a cash entry is made.",
+  "isoAttributes": {
+    "CashAccountType": {
+      "name": "Cash Account Type",
+      "definition": "Specifies the nature, or use, of the cash account."
+    },
+    "Level": {
+      "name": "Level",
+      "definition": "Defines the level of an account within the account hierarchy."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies the currency used for settlement, if different from the account currency."
+    }
+  },
+  "isoAssociations": {
+    "RelatedInvestmentAccount": {
+      "name": "Related Investment Account",
+      "definition": "Investment account for which a cash branch is specified."
+    },
+    "CashEntry": {
+      "name": "Cash Entry",
+      "definition": "Record of the cash movements into or out of a cash account. It is derived from the association between Account and Entry."
+    },
+    "CashBalance": {
+      "name": "Cash Balance",
+      "definition": "Overall position representing the net debits and credits in an account at a specific point in time. It is derived from the association between Account and Balance."
+    },
+    "PaymentPartyRole": {
+      "name": "Payment Party Role",
+      "definition": "Specifies each role linked to a payment and using a specific cash account in the payment context."
+    },
+    "RelatedCreditStandingOrder": {
+      "name": "Related Credit Standing Order",
+      "definition": "Instruction given by an account holder to an account servicer to make regular transfers on given dates to the same beneficiary."
+    },
+    "RelatedDebitStandingOrder": {
+      "name": "Related Debit Standing Order",
+      "definition": "Instruction given by an account holder to an account servicer to make regular transfers on given dates to the same beneficiary."
+    },
+    "CashAccountContract": {
+      "name": "Cash Account Contract",
+      "definition": "Contract which manages the account. It is derived from the relation between AccountContract and Account."
+    },
+    "RelatedCorporateActionElection": {
+      "name": "Related Corporate Action Election",
+      "definition": "Election process which uses specific cash accounts."
+    },
+    "Charges": {
+      "name": "Charges",
+      "definition": "Specifies the charges which are debited from the account."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Tax charged on a cash account."
+    },
+    "RelatedSettlementInstruction": {
+      "name": "Related Settlement Instruction",
+      "definition": "Settlement process which uses specific cash accounts."
+    },
+    "CashSettlementPartyRole": {
+      "name": "Cash Settlement Party Role",
+      "definition": "Specifies each role linked to a payment settlement and using a specific cash account in the payment context."
+    },
+    "UltimateObligor": {
+      "name": "Ultimate Obligor",
+      "definition": "Party for which different types of cash accounts are specified."
+    },
+    "RelatedPaymentCard": {
+      "name": "Related Payment Card",
+      "definition": "Payment card for which an account is specified."
+    },
+    "SecuritiesPartyRole": {
+      "name": "Securities Party Role",
+      "definition": "Specifies the role which uses a cash account."
+    },
+    "RelatedInvoiceFinancingPartyRole": {
+      "name": "Related Invoice Financing Party Role",
+      "definition": "Specifies each role using a specific account in the context of invoice financing."
+    },
+    "RelatedCommercialTrade": {
+      "name": "Related Commercial Trade",
+      "definition": "Commercial trade for which a purchase account is specified."
+    },
+    "ReportedMovements": {
+      "name": "Reported Movements",
+      "definition": "Provides statistical information on the number of movements and their value for a particular account."
+    },
+    "ClosedAccountContract": {
+      "name": "Closed Account Contract",
+      "definition": "Contract which specifies the cash account to/from which the balance of a closed account must be transferred."
+    },
+    "AccountLink": {
+      "name": "Account Link",
+      "definition": "Defines the link between a cash account and a securities account."
+    },
+    "CashStandingOrder": {
+      "name": "Cash Standing Order",
+      "definition": "Standing order which applies on a specific account."
+    },
+    "Cheque": {
+      "name": "Cheque",
+      "definition": "Cheques drawn on a cash account."
+    },
+    "CashAccountService": {
+      "name": "Cash Account Service",
+      "definition": "Services linked to the cash account and specified in the cash account contract. It is derived from the association between Account and AccountService."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment for which an account is specified."
+    },
+    "Commission": {
+      "name": "Commission",
+      "definition": "Amount of money due to a party as compensation for a service."
+    },
+    "RelatedAccountVerification": {
+      "name": "Related Account Verification",
+      "definition": "Information related to the verification of an account validity."
+    }
+  }
+}

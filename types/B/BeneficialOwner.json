@@ -1,0 +1,38 @@
+{
+  "isoType": "BeneficialOwner",
+  "language": "en",
+  "name": "Beneficial Owner",
+  "definition": "Characteristics of an individual or entity that is ultimately entitled to the benefit of income and rights in a security, as opposed to a nominal or legal owner.",
+  "isoAttributes": {
+    "CertificationType": {
+      "name": "Certification Type",
+      "definition": "Type of certification which is required."
+    },
+    "CertificationIndicator": {
+      "name": "Certification Indicator",
+      "definition": "Indicates whether or not certification is required from the account owner, for instance a certification is required to participate to a corporate action event.|Y: certification required |N: no certification required"
+    },
+    "CertificationFormat": {
+      "name": "Certification Format",
+      "definition": "Specifies the certification format required, that is, physical or electronic format."
+    },
+    "ERISAEligibility": {
+      "name": "ERISA Eligibility",
+      "definition": "Eligibility to federal Employee Retirement Income Security Act."
+    },
+    "ERISARate": {
+      "name": "ERISA Rate",
+      "definition": "Federal Employee Retirement Income Security Act (ERISA) rate."
+    },
+    "BenefitPlanDeclarationIndicator": {
+      "name": "Benefit Plan Declaration Indicator",
+      "definition": "Indicates whether the investor is a benefit plan investor."
+    }
+  },
+  "isoAssociations": {
+    "NonDomicileCountry": {
+      "name": "Non Domicile Country",
+      "definition": "The holder of the security has to certify, in line with the terms of the corporate action, that it is not domiciled in the country indicated."
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "isoType": "Debt",
+  "language": "en",
+  "name": "Debt",
+  "definition": "Financial instruments evidencing moneys owed by the issuer to the holder on terms as specified.",
+  "isoAttributes": {
+    "PaymentDirectionIndicator": {
+      "name": "Payment Direction Indicator",
+      "definition": "Indicates the direction of payment for asset or mortgage backed securities, ie, whether the repaid capital is distributed (payment direction is down) or capitalized (payment direction is up)."
+    },
+    "NextCallableDate": {
+      "name": "Next Callable Date",
+      "definition": "Next date/time at which the issuer has the right to pay the securitiy prior to maturity."
+    },
+    "PutableDate": {
+      "name": "Putable Date",
+      "definition": "Date at which the holder has the right to ask for redemption of the security prior to final maturity."
+    },
+    "DatedDate": {
+      "name": "Dated Date",
+      "definition": "First date/time at which a security begins to accrue interest."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date/time at which the first interest payment is due to holders of the security."
+    },
+    "Factor": {
+      "name": "Factor",
+      "definition": "Rate that defines the outstanding principal of the factored security.|Factored securities are debt instruments that have a factor that is used in the calculation of net money and market value. |Factors can be specified as current, next, previous or end factors.|End factor: portion of principal that is still due at the end of the financing period.|Previous factor: portion of principal that is still due before the current factor becomes applicable.|Next factor: rate that will be applicable as of the next factor date."
+    },
+    "PoolNumber": {
+      "name": "Pool Number",
+      "definition": "Number identifying a group of underlying assets assigned by the issuer of a factored security."
+    },
+    "VariableRateIndicator": {
+      "name": "Variable Rate Indicator",
+      "definition": "Indicates whether the interest rate of an interest bearing instrument is reset periodically."
+    },
+    "CallableIndicator": {
+      "name": "Callable Indicator",
+      "definition": "Indicates whether the issuer has the right to pay the security prior to maturity. Also called RetractableIndicator."
+    },
+    "PutableIndicator": {
+      "name": "Putable Indicator",
+      "definition": "Indicates whether the holder has the right to ask for redemption of the security prior to final maturity. Also called RedeemableIndicator."
+    },
+    "YieldToMaturityRate": {
+      "name": "Yield To Maturity Rate",
+      "definition": "Rate of return anticipated on a bond when held until maturity date."
+    },
+    "AccruedCapitalisationAmount": {
+      "name": "Accrued Capitalisation Amount",
+      "definition": "Amount of unpaid interest (on bonds which have defaulted and have subsequently restructured), which is capitalized and added to the original principal amount of the bond."
+    },
+    "NextCouponDate": {
+      "name": "Next Coupon Date",
+      "definition": "Next payment date of an interest bearing financial instrument."
+    },
+    "NextFactorDate": {
+      "name": "Next Factor Date",
+      "definition": "The date that the current factor will be changed to a new factor."
+    },
+    "OddCouponIndicator": {
+      "name": "Odd Coupon Indicator",
+      "definition": "Specifies whether the payment of the coupon (interest) on a bond is off the normal schedule."
+    },
+    "CPProgram": {
+      "name": "CP Program",
+      "definition": "The program under which a commercial paper is issued. The values that are most used are:|0 = N/A|1 = 3(a)3|2 = 4(2)|3 = 3(a)4|4 = 3(c)7|5 = 144A|6 = 3(a)2|99 = Other"
+    },
+    "CPRegistrationType": {
+      "name": "CP Registration Type",
+      "definition": "Registration type of a commercial paper issuance."
+    },
+    "ConvertibleIndicator": {
+      "name": "Convertible Indicator",
+      "definition": "Indicates whether the interest bearing security is convertible into another type of security."
+    },
+    "PreFundedIndicator": {
+      "name": "Pre Funded Indicator",
+      "definition": "Indicates whether an interest bearing instrument is deposited in a fund that will be used to pay debt service on refunded securities."
+    },
+    "EscrowedIndicator": {
+      "name": "Escrowed Indicator",
+      "definition": "Indicates whether an interest bearing instrument is being escrowed or collateralized either by direct obligations guaranteed by the US government, or by other types of securities. The maturity schedules of the securities in the escrow fund are determined in such a way to pay the maturity value, coupon, and premium payments (if any) of the refunded bonds."
+    },
+    "PerpetualIndicator": {
+      "name": "Perpetual Indicator",
+      "definition": "Indicates whether the security has no maturity date."
+    },
+    "SubordinatedIndicator": {
+      "name": "Subordinated Indicator",
+      "definition": "Indicates whether the security is a subordinated security."
+    },
+    "ExtendibleIndicator": {
+      "name": "Extendible Indicator",
+      "definition": "Indicates whether the security is extendible,eg, repayment may be extended or maturity changed."
+    },
+    "OverAllotmentAmount": {
+      "name": "Over Allotment Amount",
+      "definition": "Amount for which a security can be overalloted (as in greenshoe option)."
+    },
+    "OverAllotmentRate": {
+      "name": "Over Allotment Rate",
+      "definition": "Percentage for which a security can be overalloted (as in greenshoe option)."
+    },
+    "AmortisableIndicator": {
+      "name": "Amortisable Indicator",
+      "definition": "Indicates whether repayment is made via regular principal and interest payments over time."
+    },
+    "CapitalisedInterest": {
+      "name": "Capitalised Interest",
+      "definition": "Specifies whether the interest amount is capitalised until maturity date or paid out at each interest payment date."
+    },
+    "ActualDenominationAmount": {
+      "name": "Actual Denomination Amount",
+      "definition": "Nominal value per security unit."
+    },
+    "Pieces": {
+      "name": "Pieces",
+      "definition": "Number of pieces composing a pool of financial assets."
+    },
+    "PoolsMaximum": {
+      "name": "Pools Maximum",
+      "definition": "Collection of assets by which a security is backed."
+    },
+    "PoolsPerMillion": {
+      "name": "Pools Per Million",
+      "definition": "Indicates per million the collection of loans, mortgages or other assets assembled by an originator as the basis for a security."
+    },
+    "PoolsPerLot": {
+      "name": "Pools Per Lot",
+      "definition": "Indicates per lot the collection of loans, mortgages or other assets assembled by an originator as the basis for a security."
+    },
+    "PoolsPerTrade": {
+      "name": "Pools Per Trade",
+      "definition": "Indicates per trade the collection of loans, mortgages or other assets assembled by an originator as the basis for a security."
+    },
+    "ConstantPrePaymentPenalty": {
+      "name": "Constant Pre Payment Penalty",
+      "definition": "Indicates whether a penalty might be imposed to the borrower of a mortgage in case of prepayments occurring during the lockout period."
+    },
+    "PrePaymentSpeed": {
+      "name": "Pre Payment Speed",
+      "definition": "Speed of unscheduled partial or complete payment of the principal amount outstanding on a debt obligation before its due date."
+    },
+    "ConstantPrePaymentYield": {
+      "name": "Constant Pre Payment Yield",
+      "definition": "Measure of prepayment as a yield of the current outstanding loan balance."
+    },
+    "WeightedAverageCoupon": {
+      "name": "Weighted Average Coupon",
+      "definition": "Contains the weighted average coupon of the fixed income instrument (expressed as a percentage)."
+    },
+    "WeightedAverageLife": {
+      "name": "Weighted Average Life",
+      "definition": "Contains the weighted average life of the fixed income instrument (expressed in months)."
+    },
+    "WeightedAverageLoan": {
+      "name": "Weighted Average Loan",
+      "definition": "Contains the weighted average loan of the fixed income instrument (expressed in months)."
+    },
+    "WeightedAverageMaturity": {
+      "name": "Weighted Average Maturity",
+      "definition": "Contains the weighted average maturity of the fixed income instrument (expressed in months)."
+    },
+    "InsuredIndicator": {
+      "name": "Insured Indicator",
+      "definition": "Indicates whether the instruments is backed by any kind of asset or not."
+    },
+    "BankQualified": {
+      "name": "Bank Qualified",
+      "definition": "Indicates whether the security is bank qualified (usually applies to loan products)."
+    },
+    "AutoReinvestment": {
+      "name": "Auto Reinvestment",
+      "definition": "Indicates an instruction to reinvest dividends in the underlying security (or proceeds at maturity in a similar instrument) if the current rate equals the rate specified or better."
+    },
+    "LookBack": {
+      "name": "Look Back",
+      "definition": "Indicates an instruction or attribute giving the number of days to be included in the look-back period for the investment. Some options allow exercise based on the underlying asset's optimal value over the look-back period."
+    },
+    "MaximumSubstitution": {
+      "name": "Maximum Substitution",
+      "definition": "Maximum number of time the collateral can be substitute."
+    },
+    "Production": {
+      "name": "Production",
+      "definition": "Indicates a search criterion used when looking to buy a bond, particularly an mortgage back security (MBS), issued in a particular year."
+    },
+    "Restricted": {
+      "name": "Restricted",
+      "definition": "Identifies if the securities is restricted or not (as per Rule 144)."
+    },
+    "PriceFrequency": {
+      "name": "Price Frequency",
+      "definition": "Indicates the frequency at which the bond is re-rated and therefore re-priced (bond attribute, particularly of floating rate and index linked instruments)."
+    },
+    "SubstitutionFrequency": {
+      "name": "Substitution Frequency",
+      "definition": "Indicates the maximum number of times collateral can be substituted."
+    },
+    "SubstitutionLeft": {
+      "name": "Substitution Left",
+      "definition": "Number of remaining times the collateral can be substitute."
+    },
+    "WholePool": {
+      "name": "Whole Pool",
+      "definition": "Indicates a search criterion when looking to buy an mortgage back security (MBS) that either is [yes] or is not [no] an entire pool."
+    },
+    "AlternativeMinimumTax": {
+      "name": "Alternative Minimum Tax",
+      "definition": "Identifies whether the issue is subject to alternative minimum taxation (used for municipal bonds)."
+    },
+    "ExtendibleDate": {
+      "name": "Extendible Date",
+      "definition": "Date/time to which a date might be extended."
+    },
+    "SinkableIndicator": {
+      "name": "Sinkable Indicator",
+      "definition": "Indicates whether the security is a sinkung fund. A sinking fund is a bond in which part of the total principal amount is repaid according to agreed schedules of dates, amounts and prices."
+    },
+    "Insured": {
+      "name": "Insured",
+      "definition": "Identifies whether the lender is assured partial or full payment by a third party if the borrower defaults."
+    },
+    "Geographics": {
+      "name": "Geographics",
+      "definition": "Type of stipulation expressing geographical constraints on a fixed income instrument. It is expressed with a state or country abbreviation and a minimum or maximum percentage. Example: CA 0-80 (minimum of 80 percent in Californian assets)."
+    },
+    "PaymentCurrency": {
+      "name": "Payment Currency",
+      "definition": "Currency of the payment."
+    },
+    "DirtyPrice": {
+      "name": "Dirty Price",
+      "definition": "Price that includes interest that has accrued since issue of the most recent coupon payment."
+    },
+    "DebtSeniority": {
+      "name": "Debt Seniority",
+      "definition": "Seniority of a specific debt instrument, that is the order of repayment in the event of a sale or bankruptcy of the issuer of the debt."
+    }
+  },
+  "isoAssociations": {
+    "ExtendiblePeriod": {
+      "name": "Extendible Period",
+      "definition": "Period during which a date might be extended."
+    },
+    "CustomDate": {
+      "name": "Custom Date",
+      "definition": "Indicates an instruction to override an investment's default start and/or end date with a custom date."
+    },
+    "MinimumDenomination": {
+      "name": "Minimum Denomination",
+      "definition": "Indicates the minimum denomination of a security."
+    },
+    "MinimumIncrement": {
+      "name": "Minimum Increment",
+      "definition": "Indicates the minimum tradable increments of a security."
+    },
+    "NextInterest": {
+      "name": "Next Interest",
+      "definition": "Specifies the interest applicable to the next interest payment period."
+    }
+  }
+}

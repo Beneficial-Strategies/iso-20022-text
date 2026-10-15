@@ -1,0 +1,38 @@
+{
+  "isoType": "NetworkAccess",
+  "language": "en",
+  "name": "Network Access",
+  "definition": "Parameters used to access a network.",
+  "isoAttributes": {
+    "HostIPAddress": {
+      "name": "Host IP Address",
+      "definition": "IP address of the host."
+    },
+    "HostPortNumber": {
+      "name": "Host Port Number",
+      "definition": "Port number of the host."
+    },
+    "UserName": {
+      "name": "User Name",
+      "definition": "User name identifying the party accessing the network."
+    },
+    "AccessCode": {
+      "name": "Access Code",
+      "definition": "Password authenticating the user"
+    },
+    "NetworkAddress": {
+      "name": "Network Address",
+      "definition": "Address used to reach the network on which a message will be carried."
+    }
+  },
+  "isoAssociations": {
+    "ClientCertificate": {
+      "name": "Client Certificate",
+      "definition": "Client certificate chain."
+    },
+    "TerminalManagementSystem": {
+      "name": "Terminal Management System",
+      "definition": "Terminal Management System which uses the network."
+    }
+  }
+}

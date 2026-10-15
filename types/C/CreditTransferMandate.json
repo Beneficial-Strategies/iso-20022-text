@@ -1,0 +1,28 @@
+{
+  "isoType": "CreditTransferMandate",
+  "language": "en",
+  "name": "Credit Transfer Mandate",
+  "definition": "Authorisation in favour of the creditor agent given by the creditor to initiate a credit transfer from its own account.",
+  "isoAttributes": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the setup of the credit transfer mandate."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date of the first payment of a recurrent credit transfer as per the mandate."
+    },
+    "DateOfVerification": {
+      "name": "Date Of Verification",
+      "definition": "Date on which the credit transfer mandate has been verified."
+    },
+    "FinalPaymentDate": {
+      "name": "Final Payment Date",
+      "definition": "Date of the final payment of a recurrent credit transfer as per the mandate."
+    },
+    "Signature": {
+      "name": "Signature",
+      "definition": "Additional security provisions, such as a digital signature, as provided by the debtor."
+    }
+  }
+}

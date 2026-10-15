@@ -1,0 +1,30 @@
+{
+  "isoType": "UndertakingStatusReason",
+  "language": "en",
+  "name": "Undertaking Status Reason",
+  "definition": "Specifies the reason for the status or for the action (for instance settlement reason).",
+  "isoAttributes": {
+    "TerminationReason": {
+      "name": "Termination Reason",
+      "definition": "Reason for the termination."
+    },
+    "DemandRefusalStatusReason": {
+      "name": "Demand Refusal Status Reason",
+      "definition": "Processing status reported by the issuer for the refusal of a demand."
+    },
+    "SettlementReason": {
+      "name": "Settlement Reason",
+      "definition": "Specifies the reason for the settlement of an amount."
+    }
+  },
+  "isoAssociations": {
+    "Discrepancy": {
+      "name": "Discrepancy",
+      "definition": "Demand is refused because of a discrepancy in the demand."
+    },
+    "UndertakingStatus": {
+      "name": "Undertaking Status",
+      "definition": "Status for which a reason is provided. It is derived from the association between StatusReason and Status."
+    }
+  }
+}

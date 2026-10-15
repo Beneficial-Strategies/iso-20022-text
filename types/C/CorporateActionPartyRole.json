@@ -1,0 +1,16 @@
+{
+  "isoType": "CorporateActionPartyRole",
+  "language": "en",
+  "name": "Corporate Action Party Role",
+  "definition": "Role played by a party in the context of a corporate action.",
+  "isoAssociations": {
+    "CorporateActionEvent": {
+      "name": "Corporate Action Event",
+      "definition": "Specifies the event for which a party plays a role."
+    },
+    "Account": {
+      "name": "Account",
+      "definition": "Unambiguous identification of the account used in the context of the corporate action party role."
+    }
+  }
+}

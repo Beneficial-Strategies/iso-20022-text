@@ -1,0 +1,18 @@
+{
+  "isoType": "SourceOfPrice",
+  "language": "en",
+  "name": "Source Of Price",
+  "definition": "Place from which the price was obtained.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of the source of the price."
+    }
+  },
+  "isoAssociations": {
+    "MarketIdentification": {
+      "name": "Market Identification",
+      "definition": "Market on which this price is valid (MIC - ISO 3166)."
+    }
+  }
+}

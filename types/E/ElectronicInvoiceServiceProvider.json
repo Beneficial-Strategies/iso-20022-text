@@ -1,0 +1,20 @@
+{
+  "isoType": "ElectronicInvoiceServiceProvider",
+  "language": "en",
+  "name": "Electronic Invoice Service Provider",
+  "definition": "Organisation servicing the e-invoicing for the debtor.",
+  "isoAssociations": {
+    "RelatedElectronicInvoiceSolutionService": {
+      "name": "Related Electronic Invoice Solution Service",
+      "definition": "Service related to the e-invoicing of the debtor organisation."
+    },
+    "ServiceStatus": {
+      "name": "Service Status",
+      "definition": "Specifies the status and the reason of the enrolment request."
+    },
+    "RelatedElectronicInvoiceDirectoryService": {
+      "name": "Related Electronic Invoice Directory Service",
+      "definition": "Service related to the e-invoicing of the debtor organisation."
+    }
+  }
+}

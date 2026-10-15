@@ -1,0 +1,38 @@
+{
+  "isoType": "Future",
+  "language": "en",
+  "name": "Future",
+  "definition": "Parameters for contracts which obligate the buyer to receive and the seller to deliver in the future the assets specified at an agreed price.",
+  "isoAttributes": {
+    "FutureDate": {
+      "name": "Future Date",
+      "definition": "Date on which future contracts settle."
+    },
+    "MinimumSize": {
+      "name": "Minimum Size",
+      "definition": "Specifies the minimum ratio or multiply factor used to convert from contracts to shares."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Used to indicate the size of the underlying commodity on which the contract is based (e.g., 2500 lbs of lean cattle, 1000 barrels of crude oil, 1000 bushels of corn, etc.)"
+    },
+    "LastDeliveryDate": {
+      "name": "Last Delivery Date",
+      "definition": "Last date/time by which the option for physical delivery may still be exercised."
+    },
+    "Standardisation": {
+      "name": "Standardisation",
+      "definition": "Specifies whether the terms of the security (underlying instruments, expiration date, contract size) are defined according to the exchange specifications or whether they can be user defined."
+    },
+    "UnderlyingType": {
+      "name": "Underlying Type",
+      "definition": "Specifies the type of underlying to which the option relates."
+    }
+  },
+  "isoAssociations": {
+    "FutureRule": {
+      "name": "Future Rule",
+      "definition": "Rule attached to a future on debt."
+    }
+  }
+}

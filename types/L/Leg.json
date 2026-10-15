@@ -1,0 +1,34 @@
+{
+  "isoType": "Leg",
+  "language": "en",
+  "name": "Leg",
+  "definition": "Separate transactions which combined together form a trade.",
+  "isoAttributes": {
+    "RatioQuantity": {
+      "name": "Ratio Quantity",
+      "definition": "Only for multileg instrument - Ratio of quantity for an individual leg relative to the entire multileg security."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Only for multileg instrument - Currency associated with a particular Leg's quantity."
+    },
+    "SwapType": {
+      "name": "Swap Type",
+      "definition": "For Fixed Income, used instead of LegQty or LegOrderQty to requests the respondent to calculate the quantity based on the quantity on the opposite side of the swap."
+    },
+    "Pool": {
+      "name": "Pool",
+      "definition": "For Fixed Income, identifies MBS / ABS pool for a specific leg of a multi-leg instrument."
+    }
+  },
+  "isoAssociations": {
+    "RelatedAsset": {
+      "name": "Related Asset",
+      "definition": "Asset for which leg information is provided."
+    },
+    "Trade": {
+      "name": "Trade",
+      "definition": "Trade which is composed of several legs."
+    }
+  }
+}

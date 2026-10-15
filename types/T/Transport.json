@@ -1,0 +1,74 @@
+{
+  "isoType": "Transport",
+  "language": "en",
+  "name": "Transport",
+  "definition": "Moving of goods or people from one place to another by vehicle.",
+  "isoAttributes": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification of the means of transport, such as the International Maritime Organization number of a vessel."
+    },
+    "ArrivalDateTime": {
+      "name": "Arrival Date Time",
+      "definition": "Date and time when the goods reach their destination.."
+    },
+    "PartialShipment": {
+      "name": "Partial Shipment",
+      "definition": "Indicates whether or not partial shipments are allowed."
+    },
+    "TransShipment": {
+      "name": "Trans Shipment",
+      "definition": "Indicates whether or not transshipment of goods is allowed."
+    },
+    "FreightChargesPrepaidOrCollect": {
+      "name": "Freight Charges Prepaid Or Collect",
+      "definition": "Identifies whether the freight charges associated with the items are \"prepaid\" or \"collect\"."
+    }
+  },
+  "isoAssociations": {
+    "Incoterms": {
+      "name": "Incoterms",
+      "definition": "Specifies the applicable Incoterm and associated location."
+    },
+    "Packaging": {
+      "name": "Packaging",
+      "definition": "Physical packaging of goods for transport."
+    },
+    "ProductDelivery": {
+      "name": "Product Delivery",
+      "definition": "Specifies the delivery parameters of a trade."
+    },
+    "PlaceOfDeparture": {
+      "name": "Place Of Departure",
+      "definition": "Place from where the goods must leave."
+    },
+    "PlaceOfDestination": {
+      "name": "Place Of Destination",
+      "definition": "Place where the goods must arrive."
+    },
+    "TransportCharges": {
+      "name": "Transport Charges",
+      "definition": "Charges related to the conveyance of goods."
+    },
+    "ShipmentDates": {
+      "name": "Shipment Dates",
+      "definition": "Specifies the shipment date, the earliest shipment date and the latest shipment date."
+    },
+    "TransportedGoods": {
+      "name": "Transported Goods",
+      "definition": "Goods that are transported."
+    },
+    "PartyRole": {
+      "name": "Party Role",
+      "definition": "Specifies each role linked to the transport of goods."
+    },
+    "TransitLocation": {
+      "name": "Transit Location",
+      "definition": "Place through which the goods are transiting."
+    },
+    "TransportDocuments": {
+      "name": "Transport Documents",
+      "definition": "Documents which may be required in relation with the transportation of goods."
+    }
+  }
+}

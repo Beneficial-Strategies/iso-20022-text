@@ -1,0 +1,52 @@
+{
+  "isoType": "CollateralManagement",
+  "language": "en",
+  "name": "Collateral Management",
+  "definition": "Set of operations relative to the management of collateral, variation margins, default fund participation and independent amount.",
+  "isoAssociations": {
+    "CollateralProposal": {
+      "name": "Collateral Proposal",
+      "definition": "Specifies collateral proposed to the counterparty."
+    },
+    "CollateralValuation": {
+      "name": "Collateral Valuation",
+      "definition": "Provides details about the valuation of each piece of collateral that is posted."
+    },
+    "FeesAndCommissions": {
+      "name": "Fees And Commissions",
+      "definition": "Specifies the amount of money paid for the provision of financial services."
+    },
+    "InterestManagement": {
+      "name": "Interest Management",
+      "definition": "Calculation and request of interest linked to collateral."
+    },
+    "DisputeManagement": {
+      "name": "Dispute Management",
+      "definition": "Provides the dispute details on the variation margin and/or the segregated independent amount."
+    },
+    "MarginCall": {
+      "name": "Margin Call",
+      "definition": "Calculation of the  variation margin and independent amount needed to cover the risk exposure of one party versus another."
+    },
+    "CollateralSubstitution": {
+      "name": "Collateral Substitution",
+      "definition": "Request of a substitution of collateral by specifying the collateral to be returned and proposing the new type(s) of collateral to be delivered."
+    },
+    "RiskToCover": {
+      "name": "Risk To Cover",
+      "definition": "Risk which is the source of the collateral management processes."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Description of the collateral which is related to the different management processes."
+    },
+    "AgreedTerms": {
+      "name": "Agreed Terms",
+      "definition": "Specifies the terms bilaterally agreed by the parties related to the collateral processes."
+    },
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Clearing system involved in the collateral management process."
+    }
+  }
+}

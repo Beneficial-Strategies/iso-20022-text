@@ -1,0 +1,34 @@
+{
+  "isoType": "UndertakingAmount",
+  "language": "en",
+  "name": "Undertaking Amount",
+  "definition": "Amount of an undertaking such as a guarantee or standby letter of credit.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the undertaking."
+    },
+    "BalanceAmount": {
+      "name": "Balance Amount",
+      "definition": "Calculated undertaking available balance amount resulting from the application of the variation amount."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Qualification of the costs and other amounts covered by the amount of the undertaking."
+    }
+  },
+  "isoAssociations": {
+    "Undertaking": {
+      "name": "Undertaking",
+      "definition": "Undertaking for which an amount is specified."
+    },
+    "Tolerance": {
+      "name": "Tolerance",
+      "definition": "Percentage (original or updated in case of amendment) by which the amount claimed under the undertaking may vary."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest associated with the undertaking amount."
+    }
+  }
+}

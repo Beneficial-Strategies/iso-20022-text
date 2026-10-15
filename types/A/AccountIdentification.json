@@ -1,0 +1,42 @@
+{
+  "isoType": "AccountIdentification",
+  "language": "en",
+  "name": "Account Identification",
+  "definition": "Unique identifier of an account, as assigned by the account servicer.",
+  "isoAttributes": {
+    "IBAN": {
+      "name": "IBAN",
+      "definition": "International Bank Account Number (IBAN) - identifier used internationally by financial institutions to uniquely identify the account of a customer. Further specifications of the format and content of the IBAN can be found in the standard ISO 13616 \"Banking and related financial services - International Bank Account Number (IBAN)\" version 1997-10-01, or later revisions."
+    },
+    "BBAN": {
+      "name": "BBAN",
+      "definition": "Basic Bank Account Number (BBAN) - identifier used nationally by financial institutions, ie, in individual countries, generally as part of a National Account Numbering Scheme(s), to uniquely identify the account of a customer."
+    },
+    "UPIC": {
+      "name": "UPIC",
+      "definition": "Universal Payment Identification Code (UPIC) - identifier used by the New York Clearing House to mask confidential data, such as bank accounts and bank routing numbers. UPIC numbers remain with business customers, regardless of banking relationship changes."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "String of characters (mainly numbers) used to identify an account."
+    }
+  },
+  "isoAssociations": {
+    "Account": {
+      "name": "Account",
+      "definition": "Account for which an identification is provided."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique identifier for an account. It is assigned by the account servicer using a proprietary identification scheme."
+    },
+    "CostReferencePattern": {
+      "name": "Cost Reference Pattern",
+      "definition": "Template describing the mask of the structure for the format of the accounting account identifier; for example \"AABBBBCC\" where AA represents the country, BBBB the service classification, CC the sales area."
+    }
+  }
+}

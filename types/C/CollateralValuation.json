@@ -1,0 +1,38 @@
+{
+  "isoType": "CollateralValuation",
+  "language": "en",
+  "name": "Collateral Valuation",
+  "definition": "Provides details about the valuation of each piece of collateral that is posted.",
+  "isoAttributes": {
+    "CollateralValuationDate": {
+      "name": "Collateral Valuation Date",
+      "definition": "Valuation date of the collateral."
+    },
+    "ReportedCurrencyAndAmount": {
+      "name": "Reported Currency And Amount",
+      "definition": "Specifies the total amount of the collateral in the reporting currency."
+    },
+    "MarketValueAmount": {
+      "name": "Market Value Amount",
+      "definition": "Specifies the total market to market value of the collateral in the reporting currency. It is the dirty price, that is, the accrued interest is included if any."
+    },
+    "AdjustedRate": {
+      "name": "Adjusted Rate",
+      "definition": "Percentage by which the collateral amount needs to be adjusted."
+    },
+    "CollateralValuationCurrency": {
+      "name": "Collateral Valuation Currency",
+      "definition": "Currency used for the valuation."
+    }
+  },
+  "isoAssociations": {
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Collateral which is the subject of the valuation."
+    },
+    "RelatedManagementProcess": {
+      "name": "Related Management Process",
+      "definition": "Process which groups the activities related to collateral."
+    }
+  }
+}

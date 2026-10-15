@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionElection",
+  "language": "en",
+  "name": "Corporate Action Election",
+  "definition": "Decision taken by the account holder regarding the corporate action event.",
+  "isoAttributes": {
+    "ExecutionRequestedDateTime": {
+      "name": "Execution Requested Date Time",
+      "definition": "Date/time at which the instructing party requests the instruction to be executed."
+    },
+    "ElectionType": {
+      "name": "Election Type",
+      "definition": "Specifies whether the election results in a change of balance type that transfers control of the underlying securities or the transfer of underlying securities themselves."
+    },
+    "AmendmentReason": {
+      "name": "Amendment Reason",
+      "definition": "Reason explaining the amendment of the election."
+    }
+  },
+  "isoAssociations": {
+    "Option": {
+      "name": "Option",
+      "definition": "Option on which the investor makes its decision."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Specifies the account(s) used in relation with the election of an option."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies the quantity of securities elected for the associated option."
+    },
+    "RelatedServicing": {
+      "name": "Related Servicing",
+      "definition": "Process which groups the activities related to corporate action servicing."
+    },
+    "ProtectProcess": {
+      "name": "Protect Process",
+      "definition": "Provides detailed information on protect and cover protect instructions."
+    }
+  }
+}

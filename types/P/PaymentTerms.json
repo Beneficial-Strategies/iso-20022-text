@@ -1,0 +1,38 @@
+{
+  "isoType": "PaymentTerms",
+  "language": "en",
+  "name": "Payment Terms",
+  "definition": "Specifies the payment terms of the obligation.",
+  "isoAttributes": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies that the payment terms apply to an amount."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Specifies that the payment conditions apply to a percentage of the amount due."
+    },
+    "PaymentTime": {
+      "name": "Payment Time",
+      "definition": "Specifies the time of the payment relative to an event such as product delivery or receipt of invoice."
+    }
+  },
+  "isoAssociations": {
+    "PaymentPeriod": {
+      "name": "Payment Period",
+      "definition": "Period to which the payment terms apply."
+    },
+    "RelatedPaymentObligation": {
+      "name": "Related Payment Obligation",
+      "definition": "Payment obligation for which payment terms are specified."
+    },
+    "RelatedPaymentScheduleType": {
+      "name": "Related Payment Schedule Type",
+      "definition": "Related type of the payment schedule provided in the contract."
+    },
+    "RelatedLoan": {
+      "name": "Related Loan",
+      "definition": "Schedule for the payment of the interests due on the related loan."
+    }
+  }
+}

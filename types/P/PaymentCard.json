@@ -1,0 +1,90 @@
+{
+  "isoType": "PaymentCard",
+  "language": "en",
+  "name": "Payment Card",
+  "definition": "Electronic money product that provides the cardholder with a portable and specialised computer device that typically contains a microprocessor.",
+  "isoAttributes": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of card, eg, credit card."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "Number embossed on a card that links the card to the account owner and account servicer (sometimes called personal account number or PAN)."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Year and month the card is available for use."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Year and month the card expires."
+    },
+    "SecurityCode": {
+      "name": "Security Code",
+      "definition": "Security code written on the card, sometimes called card security code (CSC)."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Identifies a card inside a set of cards with the same number (or PAN)."
+    },
+    "ServiceCode": {
+      "name": "Service Code",
+      "definition": "Services attached to the card."
+    },
+    "TrackValue": {
+      "name": "Track Value",
+      "definition": "Card track content or equivalent."
+    },
+    "SecurityCodeManagement": {
+      "name": "Security Code Management",
+      "definition": "Card Security Code management associated with the transaction."
+    },
+    "CardBrand": {
+      "name": "Card Brand",
+      "definition": "Brand name of the card."
+    },
+    "ProfileNumber": {
+      "name": "Profile Number",
+      "definition": "Defines a category of cards related the acceptance processing rules defined by the acquirer."
+    },
+    "RelatedAccountType": {
+      "name": "Related Account Type",
+      "definition": "Type of cardholder account used for the transaction."
+    },
+    "CreditAvailableAmount": {
+      "name": "Credit Available Amount",
+      "definition": "Monetary value of the credit available for this financial card."
+    },
+    "CardCurrencyCode": {
+      "name": "Card Currency Code",
+      "definition": "Currency code of the card issuer."
+    },
+    "CardProgramme": {
+      "name": "Card Programme",
+      "definition": "The card programme associated by a retailer to a cardholder among a series of payment programmes offered by the retailer."
+    }
+  },
+  "isoAssociations": {
+    "Payment": {
+      "name": "Payment",
+      "definition": "Payment for which a payment card is used."
+    },
+    "RelatedAccount": {
+      "name": "Related Account",
+      "definition": "Account linked to the card."
+    },
+    "Limit": {
+      "name": "Limit",
+      "definition": "Limit specified on a payment card."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "Interest applied on amounts due for credit card payments."
+    },
+    "CardCountryCode": {
+      "name": "Card Country Code",
+      "definition": "Country code attached to the card by the card issuer."
+    }
+  }
+}

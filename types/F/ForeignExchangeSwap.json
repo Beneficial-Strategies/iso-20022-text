@@ -1,0 +1,18 @@
+{
+  "isoType": "ForeignExchangeSwap",
+  "language": "en",
+  "name": "Foreign Exchange Swap",
+  "definition": "Combination of two foreign exchange trades, in opposite directions, for different value dates and for the same pair(s) of currencies.",
+  "isoAttributes": {
+    "LinkSwapIdentification": {
+      "name": "Link Swap Identification",
+      "definition": "Correlation identification for the near and far leg of a swap transaction."
+    }
+  },
+  "isoAssociations": {
+    "SwapLeg": {
+      "name": "Swap Leg",
+      "definition": "One-side of a pair of foreign exchange trades executed as part of a swap agreement."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "OrganisationIdentification",
+  "language": "en",
+  "name": "Organisation Identification",
+  "definition": "Unique and unambiguous way to identify an organisation.",
+  "isoAttributes": {
+    "BICFI": {
+      "name": "BICFI",
+      "definition": "Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Code allocated to a financial or non-financial institution by the ISO 9362 Registration Authority, as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "BICNonFI": {
+      "name": "BIC Non FI",
+      "definition": "Code allocated to a non-financial institution by the ISO 9362 Registration Authority as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "EANGLN": {
+      "name": "EANGLN",
+      "definition": "Global Location Number. A non-significant reference number used to identify legal entities, functional entities, or physical entities according to the European Association for Numbering (EAN) numbering scheme rules. The number is used to retrieve detailed information that is linked to it."
+    },
+    "CHIPSUniversalIdentifier": {
+      "name": "CHIPS Universal Identifier",
+      "definition": "(United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID). Identifies entities that own accounts at CHIPS participating financial institutions, through which CHIPS payments are effected. The CHIPS UID is assigned by the New York Clearing House."
+    },
+    "DUNS": {
+      "name": "DUNS",
+      "definition": "Data Universal Numbering System. A unique identification number provided by Dun & Bradstreet to identify an organization."
+    },
+    "BankPartyIdentification": {
+      "name": "Bank Party Identification",
+      "definition": "Unique and unambiguous assignment made by a specific bank to identify a relationship as defined between the bank and its client."
+    },
+    "MIC": {
+      "name": "MIC",
+      "definition": "Market Identifier Code. Identification of a financial market, as stipulated in the norm ISO 10383 \"Codes for exchanges and market identifications\"."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal Entity Identifier is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "ELF": {
+      "name": "ELF",
+      "definition": "Entity Legal Forms is a code allocated to a party as described in ISO 20275 \"Financial services — Entity legal forms (ELF)\"."
+    }
+  },
+  "isoAssociations": {
+    "OrganisationName": {
+      "name": "Organisation Name",
+      "definition": "Name by which an organisation is known and which is usually used to identify that organisation. It is derived from the association between PartyIdentificationInformation and PartyName."
+    },
+    "Organisation": {
+      "name": "Organisation",
+      "definition": "Organisation which is identified"
+    },
+    "ClearingSystemMemberIdentificationType": {
+      "name": "Clearing System Member Identification Type",
+      "definition": "Unique and unambiguous identifier of a clearing system member, assigned by the system or system administrator."
+    },
+    "AdditionalLEIAttributes": {
+      "name": "Additional LEI Attributes",
+      "definition": "Additional LEI attributes belonging to the organisation."
+    }
+  }
+}

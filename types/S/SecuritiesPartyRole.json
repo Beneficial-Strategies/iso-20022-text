@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesPartyRole",
+  "language": "en",
+  "name": "Securities Party Role",
+  "definition": "Specifies roles played by a party that are linked to the handling of securities but not related to a specific process.",
+  "isoAssociations": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Unambiguous identification of the securities account used in the context of the securities party role (such as investor securities account used for a corporate action securities distribution)"
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Unambiguous identification of the cash account used in the context of the securities party role (such as investor cash account used for a corporate action cash distribution)"
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Specifies the security for which the party plays a role."
+    }
+  }
+}

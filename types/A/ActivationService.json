@@ -1,0 +1,34 @@
+{
+  "isoType": "ActivationService",
+  "language": "en",
+  "name": "Activation Service",
+  "definition": "Specifies the attributes for an activation.",
+  "isoAttributes": {
+    "DedicatedActivation": {
+      "name": "Dedicated Activation",
+      "definition": "Unique, one-time code that a creditor may require from a debtor for activation purposes, and which is known only by the creditor and the debtor."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "Date and time at which the debtor activation will be deactivated."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Date and time at which the debtor activation will be activated."
+    }
+  },
+  "isoAssociations": {
+    "OriginalActivation": {
+      "name": "Original Activation",
+      "definition": "Specifies the attributes of the original activation."
+    },
+    "RelatedActivation": {
+      "name": "Related Activation",
+      "definition": "Specifies the attributes of the activation."
+    },
+    "RelatedElectronicInvoiceProcessingService": {
+      "name": "Related Electronic Invoice Processing Service",
+      "definition": "Related creditor's EIPP provider address to which the debtor activation has to be delivered."
+    }
+  }
+}

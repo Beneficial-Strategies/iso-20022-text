@@ -1,0 +1,102 @@
+{
+  "isoType": "Distribution",
+  "language": "en",
+  "name": "Distribution",
+  "definition": "Distributions in cash and/or securities following a corporate event.",
+  "isoAttributes": {
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date/time at which the event or part of the event, for example, an option, becomes valid and should be processed and/or applied to holdings."
+    },
+    "EventConditions": {
+      "name": "Event Conditions",
+      "definition": "Conditions that the issuer has placed on the completion of the event, for example, tender percentage required."
+    },
+    "ExDate": {
+      "name": "Ex Date",
+      "definition": "Date/time as from which trading (including exchange and OTC trading) occurs on the underlying security without the benefit."
+    },
+    "GrossRate": {
+      "name": "Gross Rate",
+      "definition": "Percentage paid before deductions and/or allowances have been made."
+    },
+    "MeetingDate": {
+      "name": "Meeting Date",
+      "definition": "Date/time at which the meeting will take place."
+    },
+    "NetRate": {
+      "name": "Net Rate",
+      "definition": "Percentage paid after deductions and/or allowances have been made."
+    },
+    "NewFaceValue": {
+      "name": "New Face Value",
+      "definition": "New unit value of a debt security."
+    },
+    "NewParValue": {
+      "name": "New Par Value",
+      "definition": "New nominal value of an equity security."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Date/time at which the distribution is due to take place (cash and/or securities)."
+    },
+    "CorporateActionOption": {
+      "name": "Corporate Action Option",
+      "definition": "Specifies information about the choices offered to the holder of a corporate action."
+    },
+    "CurrencyOption": {
+      "name": "Currency Option",
+      "definition": "Currency choice given to the investor."
+    },
+    "DecreaseAmount": {
+      "name": "Decrease Amount",
+      "definition": "Amount by which the issuer devalues a share  (in a decrease value event)."
+    },
+    "DecreaseRate": {
+      "name": "Decrease Rate",
+      "definition": "Amount, expressed as a percentage, by which the issuer devalues a share  (in a decrease value event)."
+    },
+    "OfferPriceFixingDate": {
+      "name": "Offer Price Fixing Date",
+      "definition": "Date/time at which an offer price is determined (as compared to its reset date if applicable)."
+    }
+  },
+  "isoAssociations": {
+    "ExercisePeriod": {
+      "name": "Exercise Period",
+      "definition": "Period during which the right and/or privilege on an underlying financial instrument may be executed."
+    },
+    "OfferPeriod": {
+      "name": "Offer Period",
+      "definition": "Period during which an open offer remains valid."
+    },
+    "TradingPeriod": {
+      "name": "Trading Period",
+      "definition": "Period during which a financial instrument is available for trading."
+    },
+    "BlockingPeriod": {
+      "name": "Blocking Period",
+      "definition": "Period, set by the issuer, during which the security is blocked, ie, not available for exchange."
+    },
+    "InterestPeriod": {
+      "name": "Interest Period",
+      "definition": "Period during which interest has accrued."
+    },
+    "DistributionTax": {
+      "name": "Distribution Tax",
+      "definition": "Provides the tax description associated with the corporate event."
+    },
+    "OfferPrice": {
+      "name": "Offer Price",
+      "definition": "Price, determined by the offerer, at which the investor is entitled to take part in an event."
+    },
+    "IncentivePremium": {
+      "name": "Incentive Premium",
+      "definition": "Cash premium made available to encourage participation by a certain deadline (avoids to have a second call)."
+    },
+    "Dividend": {
+      "name": "Dividend",
+      "definition": "Dividend per financial instrument."
+    }
+  }
+}

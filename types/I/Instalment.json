@@ -1,0 +1,46 @@
+{
+  "isoType": "Instalment",
+  "language": "en",
+  "name": "Instalment",
+  "definition": "Specifies the details of each successive payment in settlement of a debt or in an investment plan.",
+  "isoAttributes": {
+    "InitialNumberOfInstalment": {
+      "name": "Initial Number Of Instalment",
+      "definition": "Number of pre-paid instalment periods at the time an investment plan is created."
+    },
+    "TotalNumberOfInstalment": {
+      "name": "Total Number Of Instalment",
+      "definition": "Total number of times the amount must be invested at the predefined frequency as of the start date of the investment plan."
+    },
+    "PeriodUnit": {
+      "name": "Period Unit",
+      "definition": "Period unit between consecutive payments (for example day, month, year)."
+    },
+    "NumberOfUnits": {
+      "name": "Number Of Units",
+      "definition": "Number of period units between consecutive payments."
+    },
+    "SequenceIdentification": {
+      "name": "Sequence Identification",
+      "definition": "Specifies the progressive number of a single instalment."
+    },
+    "InstalmentPlanType": {
+      "name": "Instalment Plan Type",
+      "definition": "Type of instalment plan."
+    },
+    "FirstPaymentAmount": {
+      "name": "First Payment Amount",
+      "definition": "Amount of the first payment."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date of the first payment."
+    }
+  },
+  "isoAssociations": {
+    "InvestmentPlan": {
+      "name": "Investment Plan",
+      "definition": "Investment plan for which instalment information is provided."
+    }
+  }
+}

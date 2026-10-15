@@ -1,0 +1,34 @@
+{
+  "isoType": "BuyIn",
+  "language": "en",
+  "name": "Buy In",
+  "definition": "Process in which the buyer/CCP repurchases shares of stock because the seller either failed to deliver the shares or did not deliver them in a timely fashion. The seller has to make up the price difference if the new shares are more expensive than originally agreed to.",
+  "isoAttributes": {
+    "BuyinDate": {
+      "name": "Buyin Date",
+      "definition": "Date at which the buy-in occurs."
+    },
+    "Fees": {
+      "name": "Fees",
+      "definition": "Fees related to a cash compensation or to a securities compensation in a buy-in process"
+    }
+  },
+  "isoAssociations": {
+    "SecuritiesCompensation": {
+      "name": "Securities Compensation",
+      "definition": "Securities bought in a buy-in process."
+    },
+    "BuyInPrice": {
+      "name": "Buy In Price",
+      "definition": "Provides the price of the buy-in."
+    },
+    "CashCompensation": {
+      "name": "Cash Compensation",
+      "definition": "In case securities are not available to be bought-in by the buyer/CCP, a cash compensation is required from the seller. It is derived from the association ResultingObligation between ObligationFulfillment and Obligation."
+    },
+    "RelatedSecuritiesClearingProcess": {
+      "name": "Related Securities Clearing Process",
+      "definition": "Clearing process which includes the buy-in."
+    }
+  }
+}
