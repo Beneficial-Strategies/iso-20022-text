@@ -1,0 +1,23 @@
+{
+  "isoType": "SystemStatus3Code",
+  "language": "en",
+  "name": "System Status 3 Code",
+  "definition": "Specifies the status of a system.",
+  "isoCodes": {
+    "ACTV": {
+      "isoName": "Active",
+      "name": "Active",
+      "definition": "System is functioning normally, that is, operational."
+    },
+    "CLSD": {
+      "isoName": "Closed",
+      "name": "Closed",
+      "definition": "System is closed (eg. normal closure of an RTGS)."
+    },
+    "RMPS": {
+      "isoName": "ReserveMaintenancePeriodStart",
+      "name": "Reserve Maintenance Period Start",
+      "definition": "System is starting a new maintenance period."
+    }
+  }
+}

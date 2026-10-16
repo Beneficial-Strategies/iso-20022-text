@@ -1,0 +1,24 @@
+{
+  "isoType": "RequestToPayDebtorActivationRequestV02",
+  "language": "en",
+  "name": "Request To Pay Debtor Activation Request V 02",
+  "definition": "The RequestToPayDebtorActivationRequest message is sent by the debtor RTP (Request To Pay) provider to the creditor RTP provider and optionally from the debtor to its RTP provider and from the creditor RTP provider to the creditor to request the debtor activation of the RTP service with that specific creditor.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Header data for the creditor enrolment request."
+    },
+    "DebtorActivation": {
+      "name": "Debtor Activation",
+      "definition": "Specific attributes provided the debtor, as requested by the creditor, for the activation request."
+    },
+    "ElectronicInvoiceData": {
+      "name": "Electronic Invoice Data",
+      "definition": "Further data related to the electronic invoice (e-invoice)."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

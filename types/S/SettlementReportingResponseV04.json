@@ -1,0 +1,104 @@
+{
+  "isoType": "SettlementReportingResponseV04",
+  "language": "en",
+  "name": "Settlement Reporting Response V 04",
+  "definition": "The SettlementReportingResponse message is sent by any party (acquirer, agent or issuer) to an agent in response to a SettlementReportingInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "SettlementInstitution": {
+      "name": "Settlement Institution",
+      "definition": "financial institution (or its agent) at which the accounts are held by the parties settling. This institution, acting on information provided by the parties, transfers the appropriate funds between the accounts."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "FinancialInstitution": {
+      "name": "Financial Institution",
+      "definition": "Financial Institution to which the settlement totals apply."
+    },
+    "OtherInstitution": {
+      "name": "Other Institution",
+      "definition": "Additional institution involved in settlement. For example, the other party involved in bilateral settlement agreement."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "TransactionDescription": {
+      "name": "Transaction Description",
+      "definition": "Transaction data related to programmes and services, content and format based on bilateral agreements."
+    },
+    "OriginalResponseCode": {
+      "name": "Original Response Code",
+      "definition": "Original Response code."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Processing results of the settlement service."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

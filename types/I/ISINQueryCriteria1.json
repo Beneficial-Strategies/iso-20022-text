@@ -1,0 +1,21 @@
+{
+  "isoType": "ISINQueryCriteria1",
+  "language": "en",
+  "name": "ISIN Query Criteria 1",
+  "definition": "Identification of the product through ISIN.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "NotReported": {
+      "name": "Not Reported",
+      "definition": "Field can be queried for not reported value."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

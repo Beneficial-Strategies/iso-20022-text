@@ -1,0 +1,36 @@
+{
+  "isoType": "NetworkParameters7",
+  "language": "en",
+  "name": "Network Parameters 7",
+  "definition": "Parameters to communicate with a host.",
+  "isoElements": {
+    "Address": {
+      "name": "Address",
+      "definition": "Network addresses of the host."
+    },
+    "UserName": {
+      "name": "User Name",
+      "definition": "User name identifying the client."
+    },
+    "AccessCode": {
+      "name": "Access Code",
+      "definition": "Password authenticating the client."
+    },
+    "ServerCertificate": {
+      "name": "Server Certificate",
+      "definition": "X.509 Certificate required to authenticate the server."
+    },
+    "ServerCertificateIdentifier": {
+      "name": "Server Certificate Identifier",
+      "definition": "Identification of the X.509 Certificates required to authenticate the server, for instance a digest of the certificate."
+    },
+    "ClientCertificate": {
+      "name": "Client Certificate",
+      "definition": "X.509 Certificate required to authenticate the client."
+    },
+    "SecurityProfile": {
+      "name": "Security Profile",
+      "definition": "Identification of the set of security elements to access the host."
+    }
+  }
+}

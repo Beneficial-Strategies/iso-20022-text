@@ -1,0 +1,40 @@
+{
+  "isoType": "CollateralMarginCorrection6",
+  "language": "en",
+  "name": "Collateral Margin Correction 6",
+  "definition": "Specifies the details of the collateral margin data.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "ReportingDateTime": {
+      "name": "Reporting Date Time",
+      "definition": "Date and time of submission of the report to the trade repository."
+    },
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the reportable event pertaining to the transaction and captured by the report took place."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Data specific to counterparties of the reported transaction."
+    },
+    "CollateralPortfolioIdentification": {
+      "name": "Collateral Portfolio Identification",
+      "definition": "Unique and unambiguous identification of the collateral portfolio."
+    },
+    "PostedMarginOrCollateral": {
+      "name": "Posted Margin Or Collateral",
+      "definition": "Information on posted collateral and margin."
+    },
+    "ReceivedMarginOrCollateral": {
+      "name": "Received Margin Or Collateral",
+      "definition": "Information on received collateral and margin."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

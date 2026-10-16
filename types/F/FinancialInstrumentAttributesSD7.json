@@ -1,0 +1,28 @@
+{
+  "isoType": "FinancialInstrumentAttributesSD7",
+  "language": "en",
+  "name": "Financial Instrument Attributes SD 7",
+  "definition": "Provides additional information regarding underlying security details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "IssuerDescription": {
+      "name": "Issuer Description",
+      "definition": "Name of the issuer."
+    },
+    "CountryOfIncorporation": {
+      "name": "Country Of Incorporation",
+      "definition": "Country of incorporation of the issuer."
+    },
+    "PrimaryExchangeFlag": {
+      "name": "Primary Exchange Flag",
+      "definition": "Indicates if the stock exchange associated to place of listing code is primary."
+    },
+    "SECRegisteredFlag": {
+      "name": "SEC Registered Flag",
+      "definition": "Indicates whether the event has been registered with US Securities Exchange Commission (SEC)."
+    }
+  }
+}

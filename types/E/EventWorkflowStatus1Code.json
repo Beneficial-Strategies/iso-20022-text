@@ -1,0 +1,58 @@
+{
+  "isoType": "EventWorkflowStatus1Code",
+  "language": "en",
+  "name": "Event Workflow Status 1 Code",
+  "definition": "Specifies the workflow status of the announcement record based on validation procedure.",
+  "isoCodes": {
+    "WSAP": {
+      "isoName": "Approved",
+      "name": "Approved",
+      "definition": "All of the required data has been populated. Any conflicting data has been resolved. Either all information was in agreement (STP) or if manual validation was necessary authorised review and changes/updates were performed."
+    },
+    "WSPA": {
+      "isoName": "PendingApproval",
+      "name": "Pending Approval",
+      "definition": "Validation review was performed and event has been modified. Event is pending authorised approval."
+    },
+    "WSCA": {
+      "isoName": "ConditionallyApproved",
+      "name": "Conditionally Approved",
+      "definition": "Announcement has been confirmed but not all of the required data is available. Event was validated or specific STP criteria was met, however data is still pending confirmation of the event."
+    },
+    "WSPN": {
+      "isoName": "PendingConditionalApproval",
+      "name": "Pending Conditional Approval",
+      "definition": "Validation review has been performed and event has been modified. Announcement has been confirmed but not all of the required data is available. Even record is pending authorised approval."
+    },
+    "WSCT": {
+      "isoName": "InConflict",
+      "name": "In Conflict",
+      "definition": "Two or more sources disagree on one or more data elements."
+    },
+    "WSIN": {
+      "isoName": "Incomplete",
+      "name": "Incomplete",
+      "definition": "Required data is not available. Announcement record cannot be verified."
+    },
+    "WSPD": {
+      "isoName": "PendingDeleted",
+      "name": "Pending Deleted",
+      "definition": "Validation has determined the announcement record to be invalid. Pending authorisation."
+    },
+    "WSNS": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "Announcement record is not supported by validation service."
+    },
+    "WSPS": {
+      "isoName": "PendingNotSupported",
+      "name": "Pending Not Supported",
+      "definition": "Validation has determined that the record is not supported. Pending authorisations."
+    },
+    "WSPC": {
+      "isoName": "PendingCancelled",
+      "name": "Pending Cancelled",
+      "definition": "Validation has determined event is being cancelled by the issuer/offeror. Pending authorisation."
+    }
+  }
+}

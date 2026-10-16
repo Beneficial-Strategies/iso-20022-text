@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountLinkStatus1",
+  "language": "en",
+  "name": "Account Link Status 1",
+  "definition": "Business status of the party for processing in the system.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the account link instruction."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Underlying reason related to the creation of a transaction."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals \"Rejected\" then StatusReason must be present."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "TradeData60Choice",
+  "language": "en",
+  "name": "Trade Data 60 Choice",
+  "definition": "Reporting of position or transaction for trade lifecycle events.",
+  "isoElements": {
+    "DataSetAction": {
+      "name": "Data Set Action",
+      "definition": "Where no active instruments are present on a venue, this field should be set so that a valid instrument reference data file can be submitted to ESMA as per daily submission requirements."
+    },
+    "State": {
+      "name": "State",
+      "definition": "Information related to trade state reporting."
+    }
+  }
+}

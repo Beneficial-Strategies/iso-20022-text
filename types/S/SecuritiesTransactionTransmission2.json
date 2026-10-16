@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesTransactionTransmission2",
+  "language": "en",
+  "name": "Securities Transaction Transmission 2",
+  "definition": "Specifies the securities order transmission attributes.",
+  "isoElements": {
+    "TransmissionIndicator": {
+      "name": "Transmission Indicator",
+      "definition": "Indication as to whether the transaction results from an order transmitted by the reporting of a client to a third party.||Usage: Only applicable when the conditions for transmission are not satisfied."
+    },
+    "TransmittingBuyer": {
+      "name": "Transmitting Buyer",
+      "definition": "Identifies the buyer transmitting the order to the reporting firm. ||Usage: Only required for reporting firms reporting transactions on behalf of order transmitting firm."
+    },
+    "TransmittingSeller": {
+      "name": "Transmitting Seller",
+      "definition": "Identifies the seller transmitting the order to the reporting firm. ||Usage: Only required for reporting firms reporting transactions on behalf of order transmitting firm."
+    }
+  }
+}

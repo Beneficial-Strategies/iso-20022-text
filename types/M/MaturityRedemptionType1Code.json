@@ -1,0 +1,43 @@
+{
+  "isoType": "MaturityRedemptionType1Code",
+  "language": "en",
+  "name": "Maturity Redemption Type 1 Code",
+  "definition": "Indicates the type of redemption at maturity.",
+  "isoCodes": {
+    "FRED": {
+      "isoName": "FinalRedemption",
+      "name": "Final Redemption",
+      "definition": "Indicates that the type of redemption at maturity is final."
+    },
+    "PRNR": {
+      "isoName": "PartialRedemptionWithoutReduction",
+      "name": "Partial Redemption Without Reduction",
+      "definition": "Indicates that the type of redemption at maturity is partial without reduction."
+    },
+    "PRWR": {
+      "isoName": "PartialRedemptionWithReduction",
+      "name": "Partial Redemption With Reduction",
+      "definition": "Indicates that the type of redemption at maturity is partial with reduction."
+    },
+    "RNDM": {
+      "isoName": "DrawingAtRandom",
+      "name": "Drawing At Random",
+      "definition": "Indicates that the type of redemption at maturity is drawing at random."
+    },
+    "PRRA": {
+      "isoName": "DrawingProRata",
+      "name": "Drawing Pro Rata",
+      "definition": "Indicates that the type of redemption at maturity is drawing pro-rata."
+    },
+    "CALL": {
+      "isoName": "Call",
+      "name": "Call",
+      "definition": "Indicates that the type of redemption at maturity is call."
+    },
+    "PUUT": {
+      "isoName": "Put",
+      "name": "Put",
+      "definition": "Indicates that the type of redemption at maturity is put."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "PriceData2",
+  "language": "en",
+  "name": "Price Data 2",
+  "definition": "Indicates the details of the price applicable to the derivative transaction.",
+  "isoElements": {
+    "Price": {
+      "name": "Price",
+      "definition": "Indicates the price per derivative excluding, where applicable: fees, taxes or commissions."
+    },
+    "SchedulePeriod": {
+      "name": "Schedule Period",
+      "definition": "Specifies the effective date and end date of the schedule for derivative transactions with prices varying throughout the life of the transaction."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Specifies the unit of measure in which the price is expressed."
+    },
+    "PriceMultiplier": {
+      "name": "Price Multiplier",
+      "definition": "Number of units of the underlying instrument represented by a single derivative contract."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

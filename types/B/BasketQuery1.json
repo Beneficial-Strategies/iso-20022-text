@@ -1,0 +1,25 @@
+{
+  "isoType": "BasketQuery1",
+  "language": "en",
+  "name": "Basket Query 1",
+  "definition": "Identification of constituents for a basket of indexes.",
+  "isoElements": {
+    "Structurer": {
+      "name": "Structurer",
+      "definition": "Legal entity identifier code used to recognise the counterparty of the reporting agent for the reported transaction."
+    },
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identifier of the custom basket assigned by the structurer allowing to link the constituents of the basket of indexes."
+    },
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "UndertakingIssuanceNotificationV01",
+  "language": "en",
+  "name": "Undertaking Issuance Notification V 01",
+  "definition": "The UndertakingIssuanceNotification message is sent by the party that issued the undertaking to the applicant to notify it of the contents of an undertaking issued electronically or on paper. The undertaking that is notified could be a demand guarantee, standby letter of credit, counter-undertaking (counter-guarantee or counter-standby), or suretyship undertaking. In addition to containing details on the applicable rules, expiry date, the amount, required documents, and terms and conditions of the undertaking, the message may provide information from the sender such as confirmation details.",
+  "isoElements": {
+    "UndertakingIssuanceNotificationDetails": {
+      "name": "Undertaking Issuance Notification Details",
+      "definition": "Details related to the notification of the issued undertaking."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the undertaking notification."
+    }
+  }
+}

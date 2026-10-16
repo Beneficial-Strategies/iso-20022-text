@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesTransactionReport2",
+  "language": "en",
+  "name": "Securities Transaction Report 2",
+  "definition": "Details of the securities transaction report.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique and unambiguous identification of the transaction."
+    },
+    "ExecutingParty": {
+      "name": "Executing Party",
+      "definition": "Identification of the entity executing the transaction. ||Usage:|For legal entities, use the legal entity identifier. For non-legal entities, this field shall be populated with an identifier as specified in the local regulation."
+    },
+    "SubmittingParty": {
+      "name": "Submitting Party",
+      "definition": "Entity submitting the transaction report to the competent authority."
+    },
+    "TechnicalAttributes": {
+      "name": "Technical Attributes",
+      "definition": "Data used for exchanges between national competent authorities, not to be used by reporting entities."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

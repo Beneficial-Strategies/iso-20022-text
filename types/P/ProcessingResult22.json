@@ -1,0 +1,60 @@
+{
+  "isoType": "ProcessingResult22",
+  "language": "en",
+  "name": "Processing Result 22",
+  "definition": "Outcome of the processing of the transaction.",
+  "isoElements": {
+    "ResponseSourceIdentification": {
+      "name": "Response Source Identification",
+      "definition": "Identification of response source."
+    },
+    "ResponseSourceType": {
+      "name": "Response Source Type",
+      "definition": "Type of response source."
+    },
+    "ResponseSourceOtherType": {
+      "name": "Response Source Other Type",
+      "definition": "Other type of response source."
+    },
+    "ResponseSourceAssigner": {
+      "name": "Response Source Assigner",
+      "definition": "Entity that assigns the identification for the response source."
+    },
+    "ResponseSourceCountry": {
+      "name": "Response Source Country",
+      "definition": "Country of the response source"
+    },
+    "ResponseSourceShortName": {
+      "name": "Response Source Short Name",
+      "definition": "Short name of the response source"
+    },
+    "ResponseCode": {
+      "name": "Response Code",
+      "definition": "Detailed results of the processing, conforming to ISO 8583 Response codes list.  This code list is maintained by the ISO 8583/MA (maintenance agency)."
+    },
+    "ApprovalCode": {
+      "name": "Approval Code",
+      "definition": "Value assigned by the entity when the transaction is approved."
+    },
+    "TemporarySecureCardDataReusePermitted": {
+      "name": "Temporary Secure Card Data Reuse Permitted",
+      "definition": "Issuer permits reuse of temporary secure stored card data."
+    },
+    "ActionRequired": {
+      "name": "Action Required",
+      "definition": "Action required flag.||Default: False: Action Not Required.|True: Action Required."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Set of actions to be performed.||ISO 8583 bit 39"
+    },
+    "ErrorDetail": {
+      "name": "Error Detail",
+      "definition": "Error detail information."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional result information to be conveyed."
+    }
+  }
+}

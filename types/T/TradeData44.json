@@ -1,0 +1,53 @@
+{
+  "isoType": "TradeData44",
+  "language": "en",
+  "name": "Trade Data 44",
+  "definition": "Provides information and details on the status of a trade.",
+  "isoElements": {
+    "OriginatorReference": {
+      "name": "Originator Reference",
+      "definition": "Represents the original reference of the instruction for which the status is given, as assigned by the participant that submitted the foreign exchange trade."
+    },
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference to the unique system identification assigned to the trade by the central matching system."
+    },
+    "MatchingSystemMatchingReference": {
+      "name": "Matching System Matching Reference",
+      "definition": "Reference to the unique matching identification assigned to the trade and to the matching trade from the counterparty by the central matching system."
+    },
+    "MatchingSystemMatchedSideReference": {
+      "name": "Matching System Matched Side Reference",
+      "definition": "Unique reference from the central settlement system that allows the removal of alleged trades once the matched status notification for the matching side has been received."
+    },
+    "CurrentSettlementDate": {
+      "name": "Current Settlement Date",
+      "definition": "The current settlement date of the notification."
+    },
+    "NewSettlementDate": {
+      "name": "New Settlement Date",
+      "definition": "Settlement date has been amended."
+    },
+    "CurrentStatusDateTime": {
+      "name": "Current Status Date Time",
+      "definition": "Specifies the date and time at which the current status was assigned to the individual trade."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Product type of the individual trade."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "Indicate the requested settlement session that the related trade is part of."
+    },
+    "RegulatoryReporting": {
+      "name": "Regulatory Reporting",
+      "definition": "Information that is to be provided to trade repositories in the context of the regulatory standards around over-the-counter (OTC) derivatives, central counterparties and trade repositories."
+    }
+  },
+  "isoRules": {
+    "NewSettlementDateRule": {
+      "definition": "New Settlement Date is only to be used when there has been an amendment to the settlement date. For example, when there has been a currency calendar amendment or a settlement deferral event."
+    }
+  }
+}

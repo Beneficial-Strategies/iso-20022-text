@@ -1,0 +1,23 @@
+{
+  "isoType": "PriceReportFunction1Code",
+  "language": "en",
+  "name": "Price Report Function 1 Code",
+  "definition": "Specifies the function of the price report.",
+  "isoCodes": {
+    "REPL": {
+      "isoName": "CompleteReplacementPriceReport",
+      "name": "Complete Replacement Price Report",
+      "definition": "The price report conveys the correction of the complete set of prices previously sent for the same price report identification."
+    },
+    "NEWP": {
+      "isoName": "NewPriceReport",
+      "name": "New Price Report",
+      "definition": "The price report is ‘new’, that is the report is not being used as a correction of previously sent prices."
+    },
+    "PART": {
+      "isoName": "PartialCorrectionPriceReport",
+      "name": "Partial Correction Price Report",
+      "definition": "The price report conveys the correction of some of the prices previously sent for the same price report identification."
+    }
+  }
+}

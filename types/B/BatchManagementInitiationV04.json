@@ -1,0 +1,164 @@
+{
+  "isoType": "BatchManagementInitiationV04",
+  "language": "en",
+  "name": "Batch Management Initiation V 04",
+  "definition": "The BatchManagementInitiation message can be initiated by any party and received by any party (acquirer, agent or issuer) connected to a network.||This message provides flow control information enabling a series of messages in batches and batches in collections to start, end or require checkpoints during the flow.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "BatchManagementType": {
+      "name": "Batch Management Type",
+      "definition": "Type of batch management activity. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "CollectionIdentification": {
+      "name": "Collection Identification",
+      "definition": "Identification of a collection.|Mandatory for start or end of a collection and their acknowledgements if the batch is included in a collection.|All the messages included within the collection will have the same collection identification value."
+    },
+    "BatchIdentification": {
+      "name": "Batch Identification",
+      "definition": "Identification of a batch.|All the messages included within the batch will have the same batch identification value."
+    },
+    "CollectionSize": {
+      "name": "Collection Size",
+      "definition": "Total length in bytes of the collection to be transferred."
+    },
+    "OriginalCollectionIdentification": {
+      "name": "Original Collection Identification",
+      "definition": "Identification of the original collection.|Mandatory when the collection containing the batch response has not the same identification as the collection containing the original batch."
+    },
+    "OriginalBatchIdentification": {
+      "name": "Original Batch Identification",
+      "definition": "Identification of the original batch to answer.|Mandatory when the batch response has not the same identification as the batch initiation."
+    },
+    "NumberOfBatchesInCollection": {
+      "name": "Number Of Batches In Collection",
+      "definition": "Number of batches in the collection.|For a start of collection, this is the number of expected batches if known.|For a start of collection acknowledgement, this is the maximum number of batches that can be received in the collection.|For an end of collection, this is the number of batches sent in the closing collection.|For an end of collection acknowledgement, this is the number of batches received in the collection."
+    },
+    "NumberOfMessages": {
+      "name": "Number Of Messages",
+      "definition": "Number of messages.||For a start of collection, this is the number of expected messages in the collection if known. ||For a start of batch, this is the number of expected messages in the batch if known.||For an AcknowledgementRequest , this is the number of sent messages since last check point.||For an AcknowledgementResponse, this is the number of received messages since last check point.||For an end of batch this is the number of received messages in the batch.||For an end of collection, this is the number of received messages in the collection.||Note: Batch management messages are excluded from the count."
+    },
+    "RemainingMessagesInCollection": {
+      "name": "Remaining Messages In Collection",
+      "definition": "Number of remaining messages in the collection."
+    },
+    "MessageSequenceNumber": {
+      "name": "Message Sequence Number",
+      "definition": "For a start of collection, sequence number of first expected message of the collection. ||For a start of batch, sequence number of first expected message of the batch.||For an AcknowledgementRequest , sequence number of the last message sent for this checkpoint.||For an AcknowledgementResponse, sequence number of the last message received for this checkpoint.||For an end of batch, sequence number of last message of the batch.||For an end of collection, sequence number of last message of the collection."
+    },
+    "CollectionIdentificationList": {
+      "name": "Collection Identification List",
+      "definition": "List of collection identification that should have been sent or received."
+    },
+    "BatchIdentificationList": {
+      "name": "Batch Identification List",
+      "definition": "List of batch identifications of the collection.|For a start of collection, the identification of expected batches, if known.|For an end of collection, this is the identification of batches sent in the closing collection.|For an end of collection acknowledgement, this is the identification of batches received in the collection."
+    },
+    "CheckpointIdentification": {
+      "name": "Checkpoint Identification",
+      "definition": "Identification of a specific checkpoint."
+    },
+    "CollectionChecksum": {
+      "name": "Collection Checksum",
+      "definition": "Checksum of the series of messages or batches in the collection."
+    },
+    "BatchChecksum": {
+      "name": "Batch Checksum",
+      "definition": "Checksum of the series of messages in the batch or until a checkpoint."
+    },
+    "RequestAcknowledgement": {
+      "name": "Request Acknowledgement",
+      "definition": "Indicator to request acknowledgement.|True: Acknowledgement requested|False: Acknowledgement not requested."
+    },
+    "MessagesBeforeAcknowledgement": {
+      "name": "Messages Before Acknowledgement",
+      "definition": "Maximum number of messages to be sent before acknowledgement. The receiver will send an acknowledgement response every time the indicated number of messages is reached."
+    },
+    "PositiveAcknowledgement": {
+      "name": "Positive Acknowledgement",
+      "definition": "Indicate whether the acknowledgement is positive or not.|True: Positive acknowledgement.|False: Negative acknowledgement."
+    },
+    "Continuation": {
+      "name": "Continuation",
+      "definition": "Indicates that batch or collection is not complete."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Identifies that this batch or collection is a corrected version of a batch or collection that was previously sent."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "OriginalResponseCode": {
+      "name": "Original Response Code",
+      "definition": "Original Response code."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation"
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

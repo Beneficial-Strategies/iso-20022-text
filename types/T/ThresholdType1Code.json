@@ -1,0 +1,18 @@
+{
+  "isoType": "ThresholdType1Code",
+  "language": "en",
+  "name": "Threshold Type 1 Code",
+  "definition": "Defines whether the threshold was applied on an unsecured or securited basis.",
+  "isoCodes": {
+    "SECU": {
+      "isoName": "Secured",
+      "name": "Secured",
+      "definition": "Means that once the threshold is breached, collateral must be posted to cover the full exposure."
+    },
+    "UNSE": {
+      "isoName": "Unsecured",
+      "name": "Unsecured",
+      "definition": "Means that the threshold provides a predetermined level of free trading. Once the threshold is breached, collateral must be posted to cover the exposure over and above the threshold level."
+    }
+  }
+}

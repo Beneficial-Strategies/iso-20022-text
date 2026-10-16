@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeReport34Choice",
+  "language": "en",
+  "name": "Trade Report 34 Choice",
+  "definition": "Provides details on the reported trade transactions.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Indicates whether transaction is reported for the first time."
+    },
+    "MarginUpdate": {
+      "name": "Margin Update",
+      "definition": "Indicates the report of the collateral data or of their modifications, but not the corrections of the previously reported collateral details."
+    },
+    "Error": {
+      "name": "Error",
+      "definition": "Indicates whether transaction was reported by mistake and need to be removed."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Indicates that the report is correcting the erroneous data fields of a previously submitted position."
+    }
+  }
+}

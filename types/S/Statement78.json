@@ -1,0 +1,63 @@
+{
+  "isoType": "Statement78",
+  "language": "en",
+  "name": "Statement 78",
+  "definition": "Characteristics of the statement.",
+  "isoElements": {
+    "StatementIdentification": {
+      "name": "Statement Identification",
+      "definition": "Reference common to all pages of a statement."
+    },
+    "ReportNumber": {
+      "name": "Report Number",
+      "definition": "Sequential number of the report."
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "StatementDateTime": {
+      "name": "Statement Date Time",
+      "definition": "Date and time of the statement."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the statement."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the statement is complete or contains changes only."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the client is the collateral taker or giver."
+    },
+    "StatementBasis": {
+      "name": "Statement Basis",
+      "definition": "Specifies the basis on which the statement is prepared."
+    },
+    "StatusType": {
+      "name": "Status Type",
+      "definition": "Specifies whether the transactions reported are pending or confirmed."
+    },
+    "SummaryIndicator": {
+      "name": "Summary Indicator",
+      "definition": "Indicates whether the report is a summary.|If the indicator is set to Y then the report will not contain the securities or cash balances.|If the indicator is set to N then the report will contain the securities or cash balances."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    }
+  },
+  "isoRules": {
+    "FutureMarketToMarketPendingRule": {
+      "definition": "When the report basis is Future Market-to-Market, the status type indicator must be set to|confirmed."
+    },
+    "DeltaPendingRule": {
+      "definition": "If the update type is set to Delta then the Status type must be pending."
+    },
+    "ActivityindicatorUsageRule": {
+      "definition": "It is present to indicate whether any information is reported in the report or whether it is a blank report with no information present as there is nothing to report. For example, there may not be any transaction present to report, but the report needs to be done as a part of commitment."
+    }
+  }
+}

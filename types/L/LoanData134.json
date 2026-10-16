@@ -1,0 +1,65 @@
+{
+  "isoType": "LoanData134",
+  "language": "en",
+  "name": "Loan Data 134",
+  "definition": "Specifies the loan data details in case of a securities lending transaction.",
+  "isoElements": {
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Identification of the type of the transaction."
+    },
+    "Cleared": {
+      "name": "Cleared",
+      "definition": "Indicates that the contract has been cleared."
+    },
+    "PortfolioCode": {
+      "name": "Portfolio Code",
+      "definition": "Unique code determined by the reporting counterparty identifying the portfolio."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Identification of the trading venue where the transaction was executed."
+    },
+    "MasterAgreementType": {
+      "name": "Master Agreement Type",
+      "definition": "Type of agreement expressed as a code set. Reference to the master agreement under which the counterparties concluded a documented transaction."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date on which the counterparties contractually agree the exchange of securities or commodities versus collateral for the closing leg (forward leg) of the secured financing transaction. This information shall not be reported for open term agreements."
+    },
+    "GeneralCollateral": {
+      "name": "General Collateral",
+      "definition": "Indication whether the secured financing transaction is subject to a general or special collateral arrangement."
+    },
+    "Term": {
+      "name": "Term",
+      "definition": "Period before or at the end of which the loan should be repaid or renegotiated for another term."
+    },
+    "Rates": {
+      "name": "Rates",
+      "definition": "Interest rate of the loan."
+    },
+    "PrincipalAmountCurrency": {
+      "name": "Principal Amount Currency",
+      "definition": "Medium of exchange of currency."
+    },
+    "PriceCurrency": {
+      "name": "Price Currency",
+      "definition": "Currency in which the the security or commodity price is denominated."
+    },
+    "Security": {
+      "name": "Security",
+      "definition": "Data specific to securities being subject to the transaction."
+    },
+    "OutstandingMarginLoanCurrency": {
+      "name": "Outstanding Margin Loan Currency",
+      "definition": "Margin loans in base currency."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/ContractType Must be present| Or\t/Cleared Must be present| Or\t/PortfolioCode Must be present| Or\t/TradingVenue Must be present| Or /MasterAgreementType Must be present| Or  /MaturityDate Must be present| Or  /GeneralCollateral Must be present| Or  /Term Must be present| Or  /Rates Must be present| Or  /ValueDateAmount Must be present| Or  /PriceCurrency Must be present| Or  /Security Must be present| Or  /OutstandingMarginLoanAmount Must be present| Or  /PrincipalAmountCurrency Must be present"
+    }
+  }
+}

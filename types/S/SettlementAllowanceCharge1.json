@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementAllowanceCharge1",
+  "language": "en",
+  "name": "Settlement Allowance Charge 1",
+  "definition": "Specifies a pricing component, such as a service, promotion, allowance or charge, for this trade settlement.",
+  "isoElements": {
+    "AllowanceChargeIndicator": {
+      "name": "Allowance Charge Indicator",
+      "definition": "Indication of whether or not this allowance charge is a charge."
+    },
+    "ActualAmount": {
+      "name": "Actual Amount",
+      "definition": "Actual monetary amount specified for the allowance or charge."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason, expressed as text, for this allowance or charge."
+    }
+  }
+}

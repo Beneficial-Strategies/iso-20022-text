@@ -1,0 +1,25 @@
+{
+  "isoType": "Presentation4",
+  "language": "en",
+  "name": "Presentation 4",
+  "definition": "Information for the presentation of documents.",
+  "isoElements": {
+    "Medium": {
+      "name": "Medium",
+      "definition": "Medium through which the presentation can be submitted such as paper, electronic or both."
+    },
+    "Document": {
+      "name": "Document",
+      "definition": "Document required to be presented."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the presentation."
+    }
+  },
+  "isoRules": {
+    "ElectronicDetailsRule": {
+      "definition": "If /Medium/Code is equal to 'PAPR', then /Document[*]/ElectronicDetails[*] must be absent."
+    }
+  }
+}

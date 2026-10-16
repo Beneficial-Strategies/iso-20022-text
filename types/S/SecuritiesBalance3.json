@@ -1,0 +1,74 @@
+{
+  "isoType": "SecuritiesBalance3",
+  "language": "en",
+  "name": "Securities Balance 3",
+  "definition": "Quantity of securities assigned as collateral position.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of financial instrument at the time of the preparation of the statement. It is the resulting balance of securities post movements for delta (reporting on flow)."
+    },
+    "CollateralIndicator": {
+      "name": "Collateral Indicator",
+      "definition": "Indicates whether the financial instrument is delivered/received as collateral or as loaned  securities."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Account from which the collateral is sourced."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained. It is the source account."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of an instruction."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency  in which a security is issued or redenominated."
+    },
+    "RatingDetails": {
+      "name": "Rating Details",
+      "definition": "Rating and source of the rating of the financial instrument."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion."
+    },
+    "ValuationDetails": {
+      "name": "Valuation Details",
+      "definition": "Valuation details for the securities position."
+    },
+    "TransactionLotNumber": {
+      "name": "Transaction Lot Number",
+      "definition": "Identification of the underlying market value lots based on the term of the underlyning trades. The issuer defines the lot identification."
+    }
+  },
+  "isoRules": {
+    "CollateralFlagYesSettlementDateRule": {
+      "definition": "If collateral indicator is set to Y the  settlement date in the valuations details must be present."
+    },
+    "CollateralFlagNoSettlementDateRule": {
+      "definition": "If collateral flag is set to N, the settlement date in the valuation details  cannot be present."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

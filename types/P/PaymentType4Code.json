@@ -1,0 +1,23 @@
+{
+  "isoType": "PaymentType4Code",
+  "language": "en",
+  "name": "Payment Type 4 Code",
+  "definition": "Specifies the type, or nature, of the payment.",
+  "isoCodes": {
+    "UFRO": {
+      "isoName": "Upfront",
+      "name": "Upfront",
+      "definition": "Transaction is an initial payment made by one of the counterparties  either to bring a transaction to fair value or for any other reason that may be the cause of an off-market transaction."
+    },
+    "UWIN": {
+      "isoName": "UnWind",
+      "name": "Un Wind",
+      "definition": "Transaction is the final settlement payment made when a transaction is unwound prior to its end date or a payment that may result due to the full termination of derivative transaction(s)."
+    },
+    "PEXH": {
+      "isoName": "PrincipalExchange",
+      "name": "Principal Exchange",
+      "definition": "Transaction is an exchange of notional values for cross-currency swaps."
+    }
+  }
+}

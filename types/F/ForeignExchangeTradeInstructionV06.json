@@ -1,0 +1,56 @@
+{
+  "isoType": "ForeignExchangeTradeInstructionV06",
+  "language": "en",
+  "name": "Foreign Exchange Trade Instruction V 06",
+  "definition": "Scope||The ForeignExchangeTradeInstruction message is sent by a participant to a central settlement system to notify the creation of the foreign exchange trade agreed by both trading parties.||Usage||The ForeignExchangeTradeInstruction message is sent from a participant to a central settlement system to advise of the creation of a foreign exchange trade.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "General information related to the trade."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Party(ies) on the trading side of the trade."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Party(ies) on the counterparty side of the trade."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Amounts of the trade."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Exchange rate as agreed by the traders."
+    },
+    "NonDeliverableForwardConditions": {
+      "name": "Non Deliverable Forward Conditions",
+      "definition": "Specifies the conditions for a non deliverable opening or fixing confirmation."
+    },
+    "TradingSideSettlementInstructions": {
+      "name": "Trading Side Settlement Instructions",
+      "definition": "Settlement instructions for the amounts received by the trading side."
+    },
+    "CounterpartySideSettlementInstructions": {
+      "name": "Counterparty Side Settlement Instructions",
+      "definition": "Settlement instructions for the amounts received by the counterparty."
+    },
+    "OptionalGeneralInformation": {
+      "name": "Optional General Information",
+      "definition": "Specifies whether the trade is a block or an individual trade. It also contains supplementary information such as free format information, broker's identification, dealing branches and references."
+    },
+    "RegulatoryReporting": {
+      "name": "Regulatory Reporting",
+      "definition": "Information that is to be provided to trade repositories in the context of the regulatory standards around over-the-counter (OTC) derivatives, central counterparties and trade repositories."
+    },
+    "PostTradeEvent": {
+      "name": "Post Trade Event",
+      "definition": "Information relating to post-trade lifecycle events."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

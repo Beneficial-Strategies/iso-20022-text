@@ -1,0 +1,24 @@
+{
+  "isoType": "KEK6",
+  "language": "en",
+  "name": "KEK 6",
+  "definition": "Key encryption key (KEK), using previously distributed symmetric key.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "KEKIdentification": {
+      "name": "KEK Identification",
+      "definition": "Identification of the key encryption key (KEK)."
+    },
+    "KeyEncryptionAlgorithm": {
+      "name": "Key Encryption Algorithm",
+      "definition": "Algorithm to encrypt the key encryption key (KEK)."
+    },
+    "EncryptedKey": {
+      "name": "Encrypted Key",
+      "definition": "Encrypted key encryption key (KEK)."
+    }
+  }
+}

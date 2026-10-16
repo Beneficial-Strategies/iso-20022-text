@@ -1,0 +1,32 @@
+{
+  "isoType": "BalanceInquiryResponse7",
+  "language": "en",
+  "name": "Balance Inquiry Response 7",
+  "definition": "Content of the balance inquiry response message.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "POI identification of the transaction in an unambiguous way."
+    },
+    "PaymentAccount": {
+      "name": "Payment Account",
+      "definition": "Payment account information."
+    },
+    "LoyaltyAccount": {
+      "name": "Loyalty Account",
+      "definition": "Loyalty account information."
+    },
+    "StoredValueAccount": {
+      "name": "Stored Value Account",
+      "definition": "Stored value account information."
+    },
+    "Receipt": {
+      "name": "Receipt",
+      "definition": "Receipt to print after a balance inquiry."
+    }
+  }
+}

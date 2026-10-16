@@ -1,0 +1,33 @@
+{
+  "isoType": "QueryOrderStatus1Code",
+  "language": "en",
+  "name": "Query Order Status 1 Code",
+  "definition": "Specifies the inquiry status of order.",
+  "isoCodes": {
+    "QUCO": {
+      "isoName": "QueryUnconfirmedOrder",
+      "name": "Query Unconfirmed Order",
+      "definition": "Query for orders which are not confirmed by a party."
+    },
+    "QOFP": {
+      "isoName": "QueryOrdersForTheParty",
+      "name": "Query Orders For The Party",
+      "definition": "Query for all orders for a party."
+    },
+    "QFEO": {
+      "isoName": "QueryFullyExecutedOrder",
+      "name": "Query Fully Executed Order",
+      "definition": "Query for orders have been completely executed."
+    },
+    "QPEO": {
+      "isoName": "QueryPartiallyExecutedOrder",
+      "name": "Query Partially Executed Order",
+      "definition": "Query for orders have been partially executed."
+    },
+    "QUAO": {
+      "isoName": "QueryAllOrders",
+      "name": "Query All Orders",
+      "definition": "Query for all orders."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "isoType": "DisputeData5",
+  "language": "en",
+  "name": "Dispute Data 5",
+  "definition": "Data to be present in a dispute.",
+  "isoElements": {
+    "Cycle": {
+      "name": "Cycle",
+      "definition": "Indicates the cycle of presentment."
+    },
+    "Condition": {
+      "name": "Condition",
+      "definition": "Condition of the dispute."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of dispute."
+    },
+    "Partial": {
+      "name": "Partial",
+      "definition": "Partial dispute indicator."
+    },
+    "AgentBundleCaseReference": {
+      "name": "Agent Bundle Case Reference",
+      "definition": "Bundle dispute case reference assigned by agent."
+    },
+    "AgentCaseReference": {
+      "name": "Agent Case Reference",
+      "definition": "Dispute case reference assigned by agent."
+    },
+    "AcquirerCaseReference": {
+      "name": "Acquirer Case Reference",
+      "definition": "Dispute case reference assigned by acquirer."
+    },
+    "IssuerCaseReference": {
+      "name": "Issuer Case Reference",
+      "definition": "Dispute case reference assigned by issuer."
+    },
+    "DocumentationStatus": {
+      "name": "Documentation Status",
+      "definition": "Status of the dispute documentation."
+    },
+    "RejectReason": {
+      "name": "Reject Reason",
+      "definition": "Reason for rejecting a dispute."
+    },
+    "ChargebackEligibility": {
+      "name": "Chargeback Eligibility",
+      "definition": "Provides transaction chargeback eligibility conditions."
+    },
+    "MessageText": {
+      "name": "Message Text",
+      "definition": "Brief unformatted text describing a dispute."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

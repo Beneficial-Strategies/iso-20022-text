@@ -1,0 +1,104 @@
+{
+  "isoType": "AcquirerProtocolParameters18",
+  "language": "en",
+  "name": "Acquirer Protocol Parameters 18",
+  "definition": "Acceptor parameters dedicated to the acquirer protocol.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "AcquirerIdentification": {
+      "name": "Acquirer Identification",
+      "definition": "Identification of the acquirer using this protocol."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the acquirer protocol parameters."
+    },
+    "ApplicationIdentification": {
+      "name": "Application Identification",
+      "definition": "Identification of the payment application, user of the acquirer protocol."
+    },
+    "Host": {
+      "name": "Host",
+      "definition": "Acquirer host configuration."
+    },
+    "OnLineTransaction": {
+      "name": "On Line Transaction",
+      "definition": "Acquirer protocol parameters of transactions performing an online authorisation."
+    },
+    "OffLineTransaction": {
+      "name": "Off Line Transaction",
+      "definition": "Acquirer protocol parameters of transactions performing an offline authorisation."
+    },
+    "ReconciliationExchange": {
+      "name": "Reconciliation Exchange",
+      "definition": "Configuration parameters of reconciliation exchanges."
+    },
+    "ReconciliationByAcquirer": {
+      "name": "Reconciliation By Acquirer",
+      "definition": "Indicates the reconciliation period is assigned by the acquirer instead of the acceptor.| Usage: When absent, default value is False."
+    },
+    "TotalsPerCurrency": {
+      "name": "Totals Per Currency",
+      "definition": "Indicates the reconciliation total amounts are computed per currency.| Usage: When absent, default value is False."
+    },
+    "SplitTotals": {
+      "name": "Split Totals",
+      "definition": "Indicates that totals in reconciliation or batch must be split.| Usage: When absent, default value is False."
+    },
+    "SplitTotalCriteria": {
+      "name": "Split Total Criteria",
+      "definition": "List of criterion to use when totals in reconciliation or batch must be split."
+    },
+    "CompletionAdviceMandated": {
+      "name": "Completion Advice Mandated",
+      "definition": "To notify that the acquirer expect to receive a completion advice after each update of reservation.|The default value is True."
+    },
+    "AmountQualifierForReservation": {
+      "name": "Amount Qualifier For Reservation",
+      "definition": "Identification of available amount qualifier for a reservation."
+    },
+    "ReconciliationError": {
+      "name": "Reconciliation Error",
+      "definition": "After an error in a totals of the Reconciliation, the POI sends transactions in error in the BatchTransfer messages.|The default value is False."
+    },
+    "CardDataVerification": {
+      "name": "Card Data Verification",
+      "definition": "Indicates whether the POI must send card data (protected or plain card data) in the AcceptorCompletionAdvice message following an authorisation exchange.|The default value is False."
+    },
+    "NotifyOffLineCancellation": {
+      "name": "Notify Off Line Cancellation",
+      "definition": "Send a cancellation advice for offline transactions not yet captured.|The default value is False."
+    },
+    "BatchTransferContent": {
+      "name": "Batch Transfer Content",
+      "definition": "Types of transaction to include in the batch."
+    },
+    "FileTransferBatch": {
+      "name": "File Transfer Batch",
+      "definition": "BatchTransfer are exchanged per file transfer protocol rather than per message.|The default value is False."
+    },
+    "BatchDigitalSignature": {
+      "name": "Batch Digital Signature",
+      "definition": "BatchTransfer are authenticated by digital signature rather than a MAC (Message Authentication Code).|The default value is False."
+    },
+    "MessageItem": {
+      "name": "Message Item",
+      "definition": "Configuration of a message item."
+    },
+    "ProtectCardData": {
+      "name": "Protect Card Data",
+      "definition": "Indicator to require protection of sensitive card data in messages.| Usage: When absent, default value is  True."
+    },
+    "PrivateCardData": {
+      "name": "Private Card Data",
+      "definition": "Indicator to require a private protection of sensitive card data in messages.| Usage: When absent, default value is False."
+    },
+    "MandatorySecurityTrailer": {
+      "name": "Mandatory Security Trailer",
+      "definition": "A security trailer is mandatory in the messages.| Usage: When absent, default value is  True."
+    }
+  }
+}

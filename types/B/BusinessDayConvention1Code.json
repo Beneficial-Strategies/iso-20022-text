@@ -1,0 +1,18 @@
+{
+  "isoType": "BusinessDayConvention1Code",
+  "language": "en",
+  "name": "Business Day Convention 1 Code",
+  "definition": "Indicates how a date is adjusted when it falls on a non-business day.",
+  "isoCodes": {
+    "FWNG": {
+      "isoName": "Following",
+      "name": "Following",
+      "definition": "The date will be the first following day that is a business day."
+    },
+    "PREC": {
+      "isoName": "Preceding",
+      "name": "Preceding",
+      "definition": "The date will be the first preceding day that is a business day."
+    }
+  }
+}

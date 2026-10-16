@@ -1,0 +1,28 @@
+{
+  "isoType": "FundType2Code",
+  "language": "en",
+  "name": "Fund Type 2 Code",
+  "definition": "In the case where the reporting counterparty is a UCIT or AIF, an indication whether it is an ETF or a MMF.",
+  "isoCodes": {
+    "ETFT": {
+      "isoName": "ExchangeTradedFund",
+      "name": "Exchange Traded Fund",
+      "definition": "Fund of which at least one unit or share class is traded throughout the day on at|least one trading venue and with at least one market maker which takes action to ensure that the price of its units or shares on the trading venue does not vary significantly from its net asset value and, where applicable, from its indicative net asset value."
+    },
+    "MMFT": {
+      "isoName": "MoneyMarketFund",
+      "name": "Money Market Fund",
+      "definition": "Indication that a fund is a public debt constant net asset value money market fund, low volatility net asset value money market fund or variable net asset value money market fund."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other type of an investment fund."
+    },
+    "REIT": {
+      "isoName": "RealEstateInvestmentTrust",
+      "name": "Real Estate Investment Trust",
+      "definition": "Listed real investment company."
+    }
+  }
+}

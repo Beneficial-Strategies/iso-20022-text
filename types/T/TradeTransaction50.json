@@ -1,0 +1,161 @@
+{
+  "isoType": "TradeTransaction50",
+  "language": "en",
+  "name": "Trade Transaction 50",
+  "definition": "Provides details of the trade transaction.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Choice between a Unique Transaction Identifier (UTI) or a proprietary identifier as agreed with the counterparty."
+    },
+    "SecondaryTransactionIdentification": {
+      "name": "Secondary Transaction Identification",
+      "definition": "A proprietary internal trade identifier, as determined by the Reporting Counterparty. It enables internal tracing of Trade Repository records with the Reporting Counterparty records.||Usage: SecondaryTransactionIdentification element is optional and is not intended to be used in any data handling to link a report to any previous report. For data handling, TransactionIdentification element shall be primarily used in case of linking reports, while the TechnicalRecordId element may also be used for technical tracing of records in each report, provided that this element is allowed for usage in a specific implementation of this message definition."
+    },
+    "PriorTransactionIdentification": {
+      "name": "Prior Transaction Identification",
+      "definition": "Choice between a Unique Transaction Identifier (UTI) or a proprietary identifier assigned to the predecessor transaction that has given rise to the reported transaction due to a lifecycle event.|||Usage: This data element is not applicable when reporting many-to-one and many-to-many relations between transactions (for example, in the case of a compression).||This data element may be applicable when reporting one-to-one and one-to-many relations between transactions (for example, in the case of a clearing)."
+    },
+    "SubsequentTransactionIdentification": {
+      "name": "Subsequent Transaction Identification",
+      "definition": "Choice between a Unique Transaction Identifier (UTI) or a proprietary identifier of the position in which a derivative is included. This field is applicable only for the reports related to the termination of a derivative due to its inclusion in a position."
+    },
+    "CollateralPortfolioCode": {
+      "name": "Collateral Portfolio Code",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the portfolio if the collateral is posted on a portfolio basis."
+    },
+    "ReportTrackingNumber": {
+      "name": "Report Tracking Number",
+      "definition": "Unique number to indicate a group of reports which relate to the same execution."
+    },
+    "PlatformIdentifier": {
+      "name": "Platform Identifier",
+      "definition": "Identifies the trading platform on which the derivative transaction was executed (for example, exchange, multilateral trading facility, swap execution facility). ||Usage: For transactions where no trading facility was involved, specific predefined codes have to be used."
+    },
+    "MirrorOrTriggerTransaction": {
+      "name": "Mirror Or Trigger Transaction",
+      "definition": "Indicates whether the derivative transaction satisfies the definition of mirror transaction or trigger transaction.||Usage: If the element is not present, the MirrorOrTriggerTransaction is False."
+    },
+    "TransactionPrice": {
+      "name": "Transaction Price",
+      "definition": "Indicates the price per derivative excluding, where applicable, commission and accrued interest."
+    },
+    "NotionalAmount": {
+      "name": "Notional Amount",
+      "definition": "Indicates monetary or converted amount for the derivatives transaction.||Usage: In case of partial terminations, and amortisations and in case of contracts where the notional, due to the characteristics of the contract, varies over time, it shall reflect the remaining notional after the change took place."
+    },
+    "NotionalQuantity": {
+      "name": "Notional Quantity",
+      "definition": "Indicates for each leg of the transaction the total notional quantity of the underlying asset for the term of the transaction."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Number of units of the financial instrument, that is, the nominal value."
+    },
+    "DeliveryType": {
+      "name": "Delivery Type",
+      "definition": "Indicates whether the financial instrument is settled physically or in cash or decided at expiration time by counterparty."
+    },
+    "ExecutionTimeStamp": {
+      "name": "Execution Time Stamp",
+      "definition": "Indicates the date and time of the execution of the derivative transaction."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Indicates the date when obligations under the contract come into effect."
+    },
+    "ExpirationDate": {
+      "name": "Expiration Date",
+      "definition": "Indicates the unadjusted date at which obligations under the derivative transaction stop being effective, as included in the confirmation.|||For European style options, date on which the holder can exercise the right or let it lapse.||For American style options, the holder can exercise the right up to the expiry date.|||Usage: |An early termination shall not be reported in this field."
+    },
+    "EarlyTerminationDate": {
+      "name": "Early Termination Date",
+      "definition": "Indicates the effective date of the early termination of the reported derivative transaction."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Indicates the unadjusted date, as per the contract, by which all transfer of cash or assets should take place and the counterparties should no longer have any outstanding obligations to each other.|||For products that may not have a final contractual settlement date (eg American options), this data element reflects the date by which the transfer of cash or asset would take place if termination were to occur on the expiration date."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Details related to the master agreement."
+    },
+    "Compression": {
+      "name": "Compression",
+      "definition": "Identifies whether the contract results from a compression operation or not.||Usage: If the element is not present, the Compression is False."
+    },
+    "PostTradeRiskReductionFlag": {
+      "name": "Post Trade Risk Reduction Flag",
+      "definition": "Indicates whether the contract results from a PTRR operation."
+    },
+    "PostTradeRiskReductionEvent": {
+      "name": "Post Trade Risk Reduction Event",
+      "definition": "Identify whether the contract results from a Post Trade Risk Reduction operation."
+    },
+    "DerivativeEvent": {
+      "name": "Derivative Event",
+      "definition": "Indication of the derivative event of the transaction."
+    },
+    "TradeConfirmation": {
+      "name": "Trade Confirmation",
+      "definition": "Specifies whether the contract was electronically confirmed, non-electronically confirmed or remains unconfirmed."
+    },
+    "NonStandardisedTerm": {
+      "name": "Non Standardised Term",
+      "definition": "Indicates whether the derivative transaction has one or more additional terms or provisions that materially affect the price of the transaction.||Usage: If the element is not present, the NonStandardisedTerm is False."
+    },
+    "TradeClearing": {
+      "name": "Trade Clearing",
+      "definition": "Information related to clearing of the reported contract."
+    },
+    "BlockTradeElection": {
+      "name": "Block Trade Election",
+      "definition": "Indicates whether an election has been made to report the derivative transaction as a block transaction.||Usage: If the element is not present, the BlockTradeElection is False."
+    },
+    "LargeNotionalOffFacilityElection": {
+      "name": "Large Notional Off Facility Election",
+      "definition": "Indicates whether an election has been made to report the derivative transaction as a large notional off-facility transaction.||Usage: If the element is not present, the LargeNotionalOffFacilityElection is False."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Information related to interest rate asset class type."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Information related to currency asset class type."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Information related to commodity asset class type."
+    },
+    "Option": {
+      "name": "Option",
+      "definition": "Information related to credit derivative asset class type."
+    },
+    "EnergySpecificAttributes": {
+      "name": "Energy Specific Attributes",
+      "definition": "Attributes specific for derivative contracts related to natural gas and electricity."
+    },
+    "Credit": {
+      "name": "Credit",
+      "definition": "Information related to credit derivative asset class type."
+    },
+    "OtherPayment": {
+      "name": "Other Payment",
+      "definition": "Payment related to elements not reported in dedicated fields."
+    },
+    "Package": {
+      "name": "Package",
+      "definition": "A combination of two or more transactions that are reported separately but that are negotiated together as the product of a single economic agreement."
+    },
+    "TradeAllocationStatus": {
+      "name": "Trade Allocation Status",
+      "definition": "Specifies whether the trade is a pre-allocation or a post-allocation trade, or whether the trade is unallocated."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

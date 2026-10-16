@@ -1,0 +1,28 @@
+{
+  "isoType": "InvoiceTotals1",
+  "language": "en",
+  "name": "Invoice Totals 1",
+  "definition": "Specifies totals related to the invoice.",
+  "isoElements": {
+    "TotalTaxableAmount": {
+      "name": "Total Taxable Amount",
+      "definition": "Total amount subject to tax."
+    },
+    "TotalTaxAmount": {
+      "name": "Total Tax Amount",
+      "definition": "Sum of all tax amounts related to the invoice."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on invoice amount taking into account discounts, allowances and charges."
+    },
+    "TotalInvoiceAmount": {
+      "name": "Total Invoice Amount",
+      "definition": "Total amount of the invoice, being the sum of total invoice lines amounts, total invoice adjustment amount (discounts, allowances and charges) and total tax amounts."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Due date for the payment of the invoice."
+    }
+  }
+}

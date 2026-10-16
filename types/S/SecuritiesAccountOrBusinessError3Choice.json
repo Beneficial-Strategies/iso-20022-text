@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesAccountOrBusinessError3Choice",
+  "language": "en",
+  "name": "Securities Account Or Business Error 3 Choice",
+  "definition": "Choice between the securities account reference data or a business error.",
+  "isoElements": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Specifies the data requested for the securities account."
+    },
+    "BusinessError": {
+      "name": "Business Error",
+      "definition": "Business error resulting from a rejection."
+    }
+  }
+}

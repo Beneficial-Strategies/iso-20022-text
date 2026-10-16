@@ -1,0 +1,48 @@
+{
+  "isoType": "PaymentInstrumentType2Code",
+  "language": "en",
+  "name": "Payment Instrument Type 2 Code",
+  "definition": "Type of payment instrument.",
+  "isoCodes": {
+    "CARD": {
+      "isoName": "Card",
+      "name": "Card",
+      "definition": "Payment card (credit or debit)."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Cash managed by a cash handling system."
+    },
+    "CHCK": {
+      "isoName": "Check",
+      "name": "Check",
+      "definition": "Paper check."
+    },
+    "LOYT": {
+      "isoName": "LoyaltyAccount",
+      "name": "Loyalty Account",
+      "definition": "Account using loyalty processing."
+    },
+    "SVAC": {
+      "isoName": "StoredValueAccount",
+      "name": "Stored Value Account",
+      "definition": "Account accessed by a stored value instrument such as a card or a certificate."
+    },
+    "DRDT": {
+      "isoName": "DirectDebit",
+      "name": "Direct Debit",
+      "definition": "Payment, initiated by the creditor, to debit a debtor's account in favour of the creditor. A direct debit can be pre-authorised or not. In most countries, authorisation is in the form of a mandate between the debtor and creditor."
+    },
+    "CRTF": {
+      "isoName": "CreditTransfer",
+      "name": "Credit Transfer",
+      "definition": "Payment made by transferring an amount of money from a debtor to a creditor. The payment flows through one or more financial institutions or systems."
+    },
+    "VCHR": {
+      "isoName": "PaymentVoucher",
+      "name": "Payment Voucher",
+      "definition": "Bond of the redeemable transaction type which is worth a certain monetary value and which may be spent only for specific reasons or on specific goods."
+    }
+  }
+}

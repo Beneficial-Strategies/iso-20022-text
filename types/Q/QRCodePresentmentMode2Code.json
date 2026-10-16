@@ -1,0 +1,18 @@
+{
+  "isoType": "QRCodePresentmentMode2Code",
+  "language": "en",
+  "name": "QR Code Presentment Mode 2 Code",
+  "definition": "Identifies the mode used to present a QR Code for a transaction.",
+  "isoCodes": {
+    "CPMD": {
+      "isoName": "ConsumerPresented",
+      "name": "Consumer Presented",
+      "definition": "The consumer presented a QR Code at the point of service for the transaction."
+    },
+    "MPMD": {
+      "isoName": "MerchantPresented",
+      "name": "Merchant Presented",
+      "definition": "The acceptor presented a QR Code to the consumer for the transaction."
+    }
+  }
+}

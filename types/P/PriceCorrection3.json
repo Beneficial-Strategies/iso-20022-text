@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceCorrection3",
+  "language": "en",
+  "name": "Price Correction 3",
+  "definition": "Original and corrected price information of an investment fund.",
+  "isoElements": {
+    "PreviouslySentPriceDetails": {
+      "name": "Previously Sent Price Details",
+      "definition": "Information related to the price valuation of a financial instrument sent in a previous price report."
+    },
+    "CorrectedPriceDetails": {
+      "name": "Corrected Price Details",
+      "definition": "Information related to the new price valuation of a financial instrument, which overrides previously sent information."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "AggregationTransaction3",
+  "language": "en",
+  "name": "Aggregation Transaction 3",
+  "definition": "Payment transaction with an aggregated amount.",
+  "isoElements": {
+    "FirstPaymentDateTime": {
+      "name": "First Payment Date Time",
+      "definition": "Date and time of the first payment."
+    },
+    "LastPaymentDateTime": {
+      "name": "Last Payment Date Time",
+      "definition": "Date and time of the last payment."
+    },
+    "NumberOfPayments": {
+      "name": "Number Of Payments",
+      "definition": "Total number of payments that has been aggregated."
+    },
+    "IndividualPayment": {
+      "name": "Individual Payment",
+      "definition": "Individual payment that has been aggregated."
+    }
+  }
+}

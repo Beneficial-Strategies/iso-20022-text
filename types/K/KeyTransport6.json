@@ -1,0 +1,24 @@
+{
+  "isoType": "KeyTransport6",
+  "language": "en",
+  "name": "Key Transport 6",
+  "definition": "Key encryption key (KEK), encrypted with a previously distributed asymmetric public key.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Identification of a cryptographic asymmetric key for the recipient."
+    },
+    "KeyEncryptionAlgorithm": {
+      "name": "Key Encryption Algorithm",
+      "definition": "Algorithm to encrypt the key encryption key (KEK)."
+    },
+    "EncryptedKey": {
+      "name": "Encrypted Key",
+      "definition": "Encrypted key encryption key (KEK)."
+    }
+  }
+}

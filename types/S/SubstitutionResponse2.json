@@ -1,0 +1,28 @@
+{
+  "isoType": "SubstitutionResponse2",
+  "language": "en",
+  "name": "Substitution Response 2",
+  "definition": "Provides details about the collateral substitution response.",
+  "isoElements": {
+    "ResponseType": {
+      "name": "Response Type",
+      "definition": "Indicates if the substitution request was accepted or rejected."
+    },
+    "CollateralSubstitutionAcceptanceDetails": {
+      "name": "Collateral Substitution Acceptance Details",
+      "definition": "Provides details about the accepted collateral substitution."
+    },
+    "CollateralSubstitutionRejectionDetails": {
+      "name": "Collateral Substitution Rejection Details",
+      "definition": "Provides details about the rejected collateral substitution."
+    }
+  },
+  "isoRules": {
+    "CollateralSubstitutionAcceptancePresenceRule": {
+      "definition": "If Response Type equals Accepted then CollateralSubstitutionAcceptanceDetails must be present and CollateralSubstitutionRejectionDetails must be absent."
+    },
+    "CollateralSubstitutionRejectionPresenceRule": {
+      "definition": "If Response Type equals Rejected then CollateralSubstitutionRejectionDetails must be present and CollateralSubstitutionAcceptanceDetails must be absent."
+    }
+  }
+}

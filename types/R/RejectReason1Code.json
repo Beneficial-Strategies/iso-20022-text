@@ -1,0 +1,53 @@
+{
+  "isoType": "RejectReason1Code",
+  "language": "en",
+  "name": "Reject Reason 1 Code",
+  "definition": "Reason of transmission of a rejection message in response to a request or an advice.",
+  "isoCodes": {
+    "UNPR": {
+      "isoName": "UnableToProcess",
+      "name": "Unable To Process",
+      "definition": "Not possible to process the message, for instance the security module is unavailable, the hardware is unavailable, or there is a problem of resource."
+    },
+    "IMSG": {
+      "isoName": "InvalidMessage",
+      "name": "Invalid Message",
+      "definition": "Invalid envelope of the message."
+    },
+    "PARS": {
+      "isoName": "ParsingError",
+      "name": "Parsing Error",
+      "definition": "Invalid message: At least one of the data element or data structure is not present, the format, or the content of one data element or one data structure is not correct."
+    },
+    "SECU": {
+      "isoName": "Security",
+      "name": "Security",
+      "definition": "Security error (for example an invalid key or an incorrect MAC value)."
+    },
+    "INTP": {
+      "isoName": "InitiatingParty",
+      "name": "Initiating Party",
+      "definition": "Invalid identification data for the sender."
+    },
+    "RCPP": {
+      "isoName": "RecipientParty",
+      "name": "Recipient Party",
+      "definition": "Invalid identification data for the the receiver."
+    },
+    "DPMG": {
+      "isoName": "DuplicateMessage",
+      "name": "Duplicate Message",
+      "definition": "Duplicate message, the identification of the exchange is the same than a previous message."
+    },
+    "VERS": {
+      "isoName": "ProtocolVersion",
+      "name": "Protocol Version",
+      "definition": "Version of the protocol couldn't be supported by the recipient."
+    },
+    "MSGT": {
+      "isoName": "MessageType",
+      "name": "Message Type",
+      "definition": "Type of message the recipient receives is unknow or unsupported."
+    }
+  }
+}

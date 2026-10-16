@@ -1,0 +1,72 @@
+{
+  "isoType": "ReconciliationList1",
+  "language": "en",
+  "name": "Reconciliation List 1",
+  "definition": "Specifies a list of reconciliation information concerning financial items.",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date of creation of this document."
+    },
+    "RelatedDocument": {
+      "name": "Related Document",
+      "definition": "Reference to related documents for example to original assignment in a status response or retry."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Party to be advised."
+    },
+    "Advisor": {
+      "name": "Advisor",
+      "definition": "Informing party."
+    },
+    "Parameters": {
+      "name": "Parameters",
+      "definition": "Identification parameters."
+    },
+    "PaymentReference": {
+      "name": "Payment Reference",
+      "definition": "Reference to a payment instruction."
+    },
+    "PaymentMeans": {
+      "name": "Payment Means",
+      "definition": "Set of elements used to further specify the type of transaction."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Effective date of payment."
+    },
+    "PaymentTerms": {
+      "name": "Payment Terms",
+      "definition": "Terms of the payment."
+    },
+    "PaymentAmount": {
+      "name": "Payment Amount",
+      "definition": "Amount of the referenced payment."
+    },
+    "Item": {
+      "name": "Item",
+      "definition": "Financial item impacted by the payment."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Number of individual items contained in the list."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the list, irrespective of currencies."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional proprietary formal information concerning the list."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Validation status of the list."
+    }
+  }
+}

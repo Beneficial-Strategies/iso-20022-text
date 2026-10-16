@@ -1,0 +1,20 @@
+{
+  "isoType": "ActivityReportRequestV03",
+  "language": "en",
+  "name": "Activity Report Request V 03",
+  "definition": "Scope|The ActivityReportRequest message is sent by any party involved in a transaction to the matching application.|This message is used to request a report on all transactions for which an activity has taken place within a given time span.|Usage|The ActivityReportRequest message can be sent|- at a pre-determined time. The message requests a report on all transactions that the requester is involved in and for which an activity has taken place within the last 24 hours.|- on demand. The message requests a report on all transactions that the requester is involved in and for which an activity has taken place within a time span specified by the requester.",
+  "isoElements": {
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identifies the request message."
+    },
+    "EntitiesToBeReported": {
+      "name": "Entities To Be Reported",
+      "definition": "Specifies the entities of the submitter for which the activities have to be reported."
+    },
+    "ReportPeriod": {
+      "name": "Report Period",
+      "definition": "Specifies the period for which activities have to be reported."
+    }
+  }
+}

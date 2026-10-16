@@ -1,0 +1,44 @@
+{
+  "isoType": "CounterpartyAggregation3",
+  "language": "en",
+  "name": "Counterparty Aggregation 3",
+  "definition": "Specifies the valuation details per counterparty aggregation.",
+  "isoElements": {
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a Call option (right to purchase a specific underlying asset) or a Put option (right to sell a specific underlying asset)."
+    },
+    "TerminationOption": {
+      "name": "Termination Option",
+      "definition": "Indication whether the counterparties to the transaction have agreed to an evergreen or extendable repo."
+    },
+    "BasketIdentificationAndEligibilitySetProfile": {
+      "name": "Basket Identification And Eligibility Set Profile",
+      "definition": "Provides information on the baskets identification and the Eligiblity Set Profile."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Provides  the identification of the party or parties associated with the collateral agreement"
+    },
+    "ValuationAmounts": {
+      "name": "Valuation Amounts",
+      "definition": "Provides details on the collateral valuation."
+    },
+    "MarginRate": {
+      "name": "Margin Rate",
+      "definition": "The collateral excess/shortage expressed in the percentage of the collateral required."
+    },
+    "GlobalCounterpartyStatus": {
+      "name": "Global Counterparty Status",
+      "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions against counterparty."
+    }
+  },
+  "isoRules": {
+    "OptionTypePresenceRule": {
+      "definition": "If OptionType is present then TerminationOption is not allowed."
+    },
+    "TerminationOptionPresenceRule": {
+      "definition": "If TerminationOption is present then OptionType is not allowed."
+    }
+  }
+}

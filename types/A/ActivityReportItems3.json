@@ -1,0 +1,28 @@
+{
+  "isoType": "ActivityReportItems3",
+  "language": "en",
+  "name": "Activity Report Items 3",
+  "definition": "Describes the events that occurred for one transaction.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for each financial institution which is a party to the transaction."
+    },
+    "ReportedEntity": {
+      "name": "Reported Entity",
+      "definition": "Entity for which the activity is reported."
+    },
+    "ReportedItem": {
+      "name": "Reported Item",
+      "definition": "Describes an activity that took place during a period."
+    },
+    "PendingRequestForAction": {
+      "name": "Pending Request For Action",
+      "definition": "Next processing step required."
+    }
+  }
+}

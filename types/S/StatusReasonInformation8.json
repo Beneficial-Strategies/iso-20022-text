@@ -1,0 +1,25 @@
+{
+  "isoType": "StatusReasonInformation8",
+  "language": "en",
+  "name": "Status Reason Information 8",
+  "definition": "Set of elements used to provide information on the status reason of the transaction.",
+  "isoElements": {
+    "Originator": {
+      "name": "Originator",
+      "definition": "Party that issues the status."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Specifies the reason for the status report."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the status reason.||Usage: Additional information can be used for several purposes such as the reporting of repaired information."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Reason/Code is equal to NARR, then AddititionalInformation must be present."
+    }
+  }
+}

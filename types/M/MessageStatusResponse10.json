@@ -1,0 +1,28 @@
+{
+  "isoType": "MessageStatusResponse10",
+  "language": "en",
+  "name": "Message Status Response 10",
+  "definition": "Specifies the environment, the context|and the services to be used with this message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "MessageStatusResponseData": {
+      "name": "Message Status Response Data",
+      "definition": "Content of the Message status Response."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Result of the processing of the request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

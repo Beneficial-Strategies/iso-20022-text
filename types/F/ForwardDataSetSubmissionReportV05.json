@@ -1,0 +1,56 @@
+{
+  "isoType": "ForwardDataSetSubmissionReportV05",
+  "language": "en",
+  "name": "Forward Data Set Submission Report V 05",
+  "definition": "Scope|The ForwardDataSetSubmissionReport message is sent by the matching application to the counterparty(ies) of the submitter of data sets.|This message is used to pass on information related to the purchasing agreement(s) covered by the transaction(s) referred to in the message.|Usage|The ForwardDataSetSubmission message can be sent by the matching application to forward the details of a DataSetSubmission message that it has obtained.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the report."
+    },
+    "RelatedTransactionReferences": {
+      "name": "Related Transaction References",
+      "definition": "Identifies the transactions that this submission relates to and provides associated information."
+    },
+    "CommonSubmissionReference": {
+      "name": "Common Submission Reference",
+      "definition": "This reference must be used for all data sets belonging to the same submission group."
+    },
+    "Submitter": {
+      "name": "Submitter",
+      "definition": "The financial institution that has submitted the data sets to the matching engine."
+    },
+    "BuyerBank": {
+      "name": "Buyer Bank",
+      "definition": "The financial institution of the buyer, uniquely identified by its BIC."
+    },
+    "SellerBank": {
+      "name": "Seller Bank",
+      "definition": "The financial institution of the seller, uniquely identified by its BIC."
+    },
+    "CommercialDataSet": {
+      "name": "Commercial Data Set",
+      "definition": "Commercial information that has been submitted to the matching application by the other party."
+    },
+    "TransportDataSet": {
+      "name": "Transport Data Set",
+      "definition": "Transport information that has been submitted to the matching application by the other party."
+    },
+    "InsuranceDataSet": {
+      "name": "Insurance Data Set",
+      "definition": "Insurance information that has been submitted to the matching application by the other party."
+    },
+    "CertificateDataSet": {
+      "name": "Certificate Data Set",
+      "definition": "Certificate information that has been submitted to the matching application by the other party."
+    },
+    "OtherCertificateDataSet": {
+      "name": "Other Certificate Data Set",
+      "definition": "Other certificate information that has been submitted to the matching application by the other party."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Next processing step required."
+    }
+  }
+}

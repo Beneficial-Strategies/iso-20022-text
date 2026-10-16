@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesFinancingReportingTransactionQueryV02",
+  "language": "en",
+  "name": "Securities Financing Reporting Transaction Query V 02",
+  "definition": "The SecuritiesFinancingReportingTransactionQuery message is sent by the authority to the trade repositories, to query data based on the search criteria for the  transactions as defined by the system user.",
+  "isoElements": {
+    "RequestingAuthority": {
+      "name": "Requesting Authority",
+      "definition": "Set of information identifying the authority that requests the query report."
+    },
+    "TradeQueryData": {
+      "name": "Trade Query Data",
+      "definition": "Criteria for defining recurrent and ad-hoc queries."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

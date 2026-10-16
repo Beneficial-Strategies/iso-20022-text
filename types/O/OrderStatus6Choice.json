@@ -1,0 +1,36 @@
+{
+  "isoType": "OrderStatus6Choice",
+  "language": "en",
+  "name": "Order Status 6 Choice",
+  "definition": "Choice of status for an order.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the individual order is accepted or already executed or sent to next party or received. There is no reason attached."
+    },
+    "Cancelled": {
+      "name": "Cancelled",
+      "definition": "Status of the individual order is cancelled. This status is used for an order that has been accepted or that has been entered in an order book but that can not be executed."
+    },
+    "ConditionallyAccepted": {
+      "name": "Conditionally Accepted",
+      "definition": "Status of the individual order is conditionally accepted."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Status of the individual order is rejected. This status is used for an order that has not been accepted or entered in an order book."
+    },
+    "Suspended": {
+      "name": "Suspended",
+      "definition": "Status of the individual order is suspended."
+    },
+    "InRepair": {
+      "name": "In Repair",
+      "definition": "Status of the individual order is in repair."
+    },
+    "PartiallySettled": {
+      "name": "Partially Settled",
+      "definition": "Status of the individual order is partially settled."
+    }
+  }
+}

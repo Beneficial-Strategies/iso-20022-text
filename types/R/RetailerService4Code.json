@@ -1,0 +1,23 @@
+{
+  "isoType": "RetailerService4Code",
+  "language": "en",
+  "name": "Retailer Service 4 Code",
+  "definition": "List of specific services for SessionManagementRequest.",
+  "isoCodes": {
+    "SMIQ": {
+      "isoName": "AdministrativeSessionManagementLoginRequest",
+      "name": "Administrative Session Management Login Request",
+      "definition": "The Sale System requests a login to the POI System."
+    },
+    "SMOQ": {
+      "isoName": "AdministrativeSessionManagementLogoutRequest",
+      "name": "Administrative Session Management Logout Request",
+      "definition": "The Sale System requests a logout to the POI System."
+    },
+    "SMDQ": {
+      "isoName": "AdministrativeSessionManagementDiagnosisRequest",
+      "name": "Administrative Session Management Diagnosis Request",
+      "definition": "The Sale System requests a session diagnosis to the POI System."
+    }
+  }
+}

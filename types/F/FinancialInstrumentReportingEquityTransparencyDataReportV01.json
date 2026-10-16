@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingEquityTransparencyDataReportV01",
+  "language": "en",
+  "name": "Financial Instrument Reporting Equity Transparency Data Report V 01",
+  "definition": "The FinancialInstrumentReportingEquityTransparencyDataReport message is sent by the trading venues to the national competent authority to report on the transparency data for equity financial instruments.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header information related to the global report, common to all reference data."
+    },
+    "EquityTransparencyData": {
+      "name": "Equity Transparency Data",
+      "definition": "Details the equity transparency qualitative data reported by a trading venue."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

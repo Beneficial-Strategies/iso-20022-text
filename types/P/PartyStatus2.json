@@ -1,0 +1,28 @@
+{
+  "isoType": "PartyStatus2",
+  "language": "en",
+  "name": "Party Status 2",
+  "definition": "Business status of the party for processing in the system.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the party maintenance instruction."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Specifies the underlying reason for the status of an object."
+    },
+    "SystemPartyIdentification": {
+      "name": "System Party Identification",
+      "definition": "Specifications of a party defined within a system."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals 'Rejected' then StatusReason must be present."
+    },
+    "PartyPresenceRule": {
+      "definition": "If Status equals 'Completed' then RelatedPartyIdentification must be present and ResponsiblePartyIdentification must be present."
+    }
+  }
+}

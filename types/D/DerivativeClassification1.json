@@ -1,0 +1,28 @@
+{
+  "isoType": "DerivativeClassification1",
+  "language": "en",
+  "name": "Derivative Classification 1",
+  "definition": "Hierarchy of classification of a derivative.",
+  "isoElements": {
+    "AssetClass": {
+      "name": "Asset Class",
+      "definition": "Highest level classification of a derivative."
+    },
+    "BaseProduct": {
+      "name": "Base Product",
+      "definition": "Second level classification of a derivative."
+    },
+    "SubProduct": {
+      "name": "Sub Product",
+      "definition": "Third level classification of a derivative."
+    },
+    "SubCommodity": {
+      "name": "Sub Commodity",
+      "definition": "Low level classification of commodity derivatives."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Low level classification of a derivative."
+    }
+  }
+}

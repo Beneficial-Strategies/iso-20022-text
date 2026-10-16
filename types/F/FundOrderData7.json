@@ -1,0 +1,53 @@
+{
+  "isoType": "FundOrderData7",
+  "language": "en",
+  "name": "Fund Order Data 7",
+  "definition": "Extract of trade data for an investment fund order.",
+  "isoElements": {
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account information of the individual order instruction for which the status is given."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Financial instrument information of the individual order instruction for which the status is given."
+    },
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment fund units subscribed or redeemed."
+    },
+    "DigitalTokenUnit": {
+      "name": "Digital Token Unit",
+      "definition": "Quantity of digital tokens expressed as a number, for example, a number of blockchain tokens."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "When the status message is used for a subscription, this is the amount of money to be invested in the fund. |Net Amount = Quantity * Price.|When the status message is used for a redemption, this is the amount of money to be received following redemption of fund units. |Net Amount = (Quantity * Price) - (Fees + Taxes)."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "When the status message is used for a subscription, this is the amount of money to be paid by the investor when subscribing to fund units. |Gross amount = (Quantity * Price) + (Fees + Taxes). |When the status message is used for a redemption, this is the amount of money to be redeemed from the fund. |Gross Amount = Quantity * Price."
+    },
+    "HoldingsRedemptionRate": {
+      "name": "Holdings Redemption Rate",
+      "definition": "Portion of the investor's holdings, in a specific investment fund/fund class, that is redeemed."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency from which the quoted currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the unit currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    }
+  },
+  "isoRules": {
+    "OrderDataElementRule": {
+      "definition": "One of the elements (InvestmentAccountDetails, FinancialInstrumentDetails, UnitsNumber, NetAmount, GrossAmount, HoldingsRedemptionRate, SettlementAmount, UnitCurrency, QuotedCurrency) must be present."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "UndertakingAmendmentResponseNotificationV01",
+  "language": "en",
+  "name": "Undertaking Amendment Response Notification V 01",
+  "definition": "The UndertakingAmendmentResponseNotification message is sent by the advising party to the party that issued the undertaking, either directly or via one or more other parties, to notify the recipient of the acceptance or rejection by the beneficiary of the amendment. On receipt of this message or the UndertakingAmendmentResponse message, the issuer may also send the UndertakingAmendmentResponseNotification to the applicant.",
+  "isoElements": {
+    "UndertakingAmendmentResponseNotificationDetails": {
+      "name": "Undertaking Amendment Response Notification Details",
+      "definition": "Details related to the proposed amendment response notification."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information reported by the beneficiary."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the response notification."
+    }
+  }
+}

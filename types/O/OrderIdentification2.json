@@ -1,0 +1,56 @@
+{
+  "isoType": "OrderIdentification2",
+  "language": "en",
+  "name": "Order Identification 2",
+  "definition": "Data related to order identification.",
+  "isoElements": {
+    "OrderBookIdentification": {
+      "name": "Order Book Identification",
+      "definition": "Alphanumerical code established by the trading venue for each and every order book."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Unique number assigned in ascending order to each event."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Priority assigned to an order."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Date and time of each event/auction."
+    },
+    "TradeVenue": {
+      "name": "Trade Venue",
+      "definition": "Identification of the venue where the transaction was executed."
+    },
+    "FinancialInstrument": {
+      "name": "Financial Instrument",
+      "definition": "Identification of the financial instrument(s) to which the order refers to."
+    },
+    "OrderIdentification": {
+      "name": "Order Identification",
+      "definition": "Alphanumerical code assigned by the operator of the trading venue to the individual order."
+    },
+    "DateOfReceipt": {
+      "name": "Date Of Receipt",
+      "definition": "Date of receipt of the original order."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Defines the conditions under which an order becomes active or is removed from an orderbook."
+    },
+    "OrderRestriction": {
+      "name": "Order Restriction",
+      "definition": "Indicates information about order restriction, such as the trading phase when the order becomes active."
+    },
+    "ValidityDateTime": {
+      "name": "Validity Date Time",
+      "definition": "Timestamp reflecting the time on which the order becomes active or it is ultimately removed from the order book."
+    },
+    "EventType": {
+      "name": "Event Type",
+      "definition": "Events affecting the orders in financial instruments."
+    }
+  }
+}

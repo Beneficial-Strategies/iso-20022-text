@@ -1,0 +1,16 @@
+{
+  "isoType": "DTCCCARESD1V05",
+  "language": "en",
+  "name": "DTCCCARESD 1 V 05",
+  "definition": "The DTCCCARESD1 message extends ISO corporate action movement reversal advice message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": "Information to be extended as supplementary data to corporate action general information."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Information to be extended as supplementary data to underlying security details."
+    }
+  }
+}

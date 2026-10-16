@@ -1,0 +1,154 @@
+{
+  "isoType": "Undertaking3",
+  "language": "en",
+  "name": "Undertaking 3",
+  "definition": "Independent undertaking, such as a demand guarantee or standby letter of credit, that provides financial assurance, to be honoured on the presentation of documents that comply with its terms and conditions.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier assigned by the issuer to the undertaking, for example the guarantee or standby number."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of undertaking such as, demand guarantee, standby letter of credit."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of undertaking, for example, performance, payment."
+    },
+    "IssuanceType": {
+      "name": "Issuance Type",
+      "definition": "Type of the undertaking issuance."
+    },
+    "Applicant": {
+      "name": "Applicant",
+      "definition": "Party named in the undertaking as the “applicant”."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party that issues the undertaking (or counter-undertaking)."
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Party in whose favour the undertaking (or counter-undertaking) is issued."
+    },
+    "DateOfIssuance": {
+      "name": "Date Of Issuance",
+      "definition": "Date on which the undertaking is issued."
+    },
+    "PlaceOfIssue": {
+      "name": "Place Of Issue",
+      "definition": "Location which is to be regarded as the place from which the undertaking is issued."
+    },
+    "AdvisingParty": {
+      "name": "Advising Party",
+      "definition": "Party asked to advise the undertaking to the beneficiary or to another advising party at the request of the issuer."
+    },
+    "SecondAdvisingParty": {
+      "name": "Second Advising Party",
+      "definition": "Additional party asked to advise the undertaking."
+    },
+    "UndertakingAmount": {
+      "name": "Undertaking Amount",
+      "definition": "Details related to the amount of the undertaking."
+    },
+    "ExpiryDetails": {
+      "name": "Expiry Details",
+      "definition": "Details related to the expiry of the undertaking."
+    },
+    "ConfirmationIndicator": {
+      "name": "Confirmation Indicator",
+      "definition": "Indicates whether or not the advising bank (confirmer) is requested to add its confirmation to the undertaking."
+    },
+    "ConfirmationPartyType": {
+      "name": "Confirmation Party Type",
+      "definition": "Indicates the type of party requested to add its confirmation to the undertaking."
+    },
+    "AdditionalParty": {
+      "name": "Additional Party",
+      "definition": "Party, in addition to the other parties specified in the undertaking, that is also related to the undertaking."
+    },
+    "GovernanceRulesAndLaw": {
+      "name": "Governance Rules And Law",
+      "definition": "Rules and laws governing the undertaking."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Details of the underlying transaction for which the undertaking is issued."
+    },
+    "PresentationDetails": {
+      "name": "Presentation Details",
+      "definition": "Presentation details related to the undertaking."
+    },
+    "UndertakingTermsAndConditions": {
+      "name": "Undertaking Terms And Conditions",
+      "definition": "Terms and conditions of the undertaking."
+    },
+    "MultipleDemandIndicator": {
+      "name": "Multiple Demand Indicator",
+      "definition": "Indicates that multiple demands are not permitted."
+    },
+    "PartialDemandIndicator": {
+      "name": "Partial Demand Indicator",
+      "definition": "Indicates that partial demands/drawings are not permitted."
+    },
+    "ConfirmationChargesPayableBy": {
+      "name": "Confirmation Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the confirmation charges."
+    },
+    "TransferChargesPayableBy": {
+      "name": "Transfer Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the transfer charges."
+    },
+    "AutomaticAmountVariation": {
+      "name": "Automatic Amount Variation",
+      "definition": "Details related to a variation in amount that is automatically applied."
+    },
+    "DeliveryChannel": {
+      "name": "Delivery Channel",
+      "definition": "Details of the communication channel."
+    },
+    "TransferIndicator": {
+      "name": "Transfer Indicator",
+      "definition": "Indicates whether the undertaking is transferable."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document or template enclosed in the undertaking directly related to the issued undertaking."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the undertaking."
+    },
+    "RequestedLocalUndertaking": {
+      "name": "Requested Local Undertaking",
+      "definition": "Details of the local or ancillary undertaking requested to be issued by a local or other issuing institution."
+    }
+  },
+  "isoRules": {
+    "SecondAdvisingPartyRule": {
+      "definition": "If SecondAdvisingParty is present, then AdvisingParty must be present."
+    },
+    "ConfirmationPartyType1Rule": {
+      "definition": "If ConfirmationIndicator is \"true', then ConfirmationPartyType must be \"CONF\"."
+    },
+    "ConfirmationPartyType2Rule": {
+      "definition": "If ConfirmationPartyType is \"CONF\", then one occurrence of AdditionalParty/Type/Code must be \"CONF\"."
+    },
+    "AdvisingPartyRule": {
+      "definition": "If IssuanceType is UndertakingViaAdvisingParty(ISAD) then AdvisingParty must be present."
+    },
+    "PlaceOfPresentation1Rule": {
+      "definition": "If PlaceOfPresentation is \"PRES\", then one occurrence of AdditionalParty/TypeCode must be \"PRES\"."
+    },
+    "Type1Rule": {
+      "definition": "Type must present if IssuanceType is ISSU, ISAD, ISCO."
+    },
+    "MultipleDemandIndicatorRule": {
+      "definition": "If MultipleDemandIndicator is \"true\" or \"1\" (Yes), then PartialDemandIndicator cannot be \"false\" or \"0\" (No)."
+    },
+    "PlaceOfIssue1Rule": {
+      "definition": "Place of Issue must be specified when the address is different from the address specified for the issuer."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "isoType": "ReportParameters7",
+  "language": "en",
+  "name": "Report Parameters 7",
+  "definition": "Parameters related to the net position.",
+  "isoElements": {
+    "NetPositionIdentification": {
+      "name": "Net Position Identification",
+      "definition": "After netting, reference that is common to a net transaction to settle and all its underlying trades."
+    },
+    "ReportDateAndTime": {
+      "name": "Report Date And Time",
+      "definition": "Date and time of the net position report."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Indicates whether the statement is complete or contains changes only."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Frequency of the report."
+    },
+    "ReportNumber": {
+      "name": "Report Number",
+      "definition": "Sequential number of the report."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or information update reported in the statement."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "If the report has multiple pages, then the ReportNumber must remain the same through all the pages. It is a unique number to the report.|Two reports of the same type sent one after the other to the same receiver in relation to the same safekeeping account must have different ReportNumbers. For example, a daily report sent on day 1 would have ReportNumber 001, on day 2, 002, etc."
+    }
+  }
+}

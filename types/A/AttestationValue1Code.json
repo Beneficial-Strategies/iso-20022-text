@@ -1,0 +1,28 @@
+{
+  "isoType": "AttestationValue1Code",
+  "language": "en",
+  "name": "Attestation Value 1 Code",
+  "definition": "Attestation status value.",
+  "isoCodes": {
+    "CLAI": {
+      "isoName": "Claimed",
+      "name": "Claimed",
+      "definition": "Attestation claimed."
+    },
+    "HONO": {
+      "isoName": "Honored",
+      "name": "Honored",
+      "definition": "Attestation validated."
+    },
+    "NCLA": {
+      "isoName": "NotClaimed",
+      "name": "Not Claimed",
+      "definition": "Attestation not claimed."
+    },
+    "NHON": {
+      "isoName": "NotHonored",
+      "name": "Not Honored",
+      "definition": "Attestation failed validation."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "TradingSystemData1",
+  "language": "en",
+  "name": "Trading System Data 1",
+  "definition": "Trading system related data.",
+  "isoElements": {
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Identification of the trading venue on which the instrument status is valid."
+    },
+    "TradingSystemType": {
+      "name": "Trading System Type",
+      "definition": "Data related to the status of the trading system."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the trading system."
+    },
+    "StatusStartDateTime": {
+      "name": "Status Start Date Time",
+      "definition": "Date and time from which the system status is valid."
+    },
+    "DisseminationDateTime": {
+      "name": "Dissemination Date Time",
+      "definition": "Date and time on which the data are disseminated by the Consolidated Tape Provider (CTP). ||Usage: Only applicable for output data."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMService20",
+  "language": "en",
+  "name": "ATM Service 20",
+  "definition": "Context in which the transaction is performed.",
+  "isoElements": {
+    "ServiceReference": {
+      "name": "Service Reference",
+      "definition": "Unique identification of the withdrawal service provided by the ATM inside the session."
+    },
+    "ATMServiceCode": {
+      "name": "ATM Service Code",
+      "definition": "Codification of the type of service for the ATM."
+    },
+    "ServiceType": {
+      "name": "Service Type",
+      "definition": "Describes the type of inquiry selected by the customer or the ATM."
+    },
+    "ServiceVariantIdentification": {
+      "name": "Service Variant Identification",
+      "definition": "Identification of the variant of the service."
+    }
+  }
+}

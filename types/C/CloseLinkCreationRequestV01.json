@@ -1,0 +1,20 @@
+{
+  "isoType": "CloseLinkCreationRequestV01",
+  "language": "en",
+  "name": "Close Link Creation Request V 01",
+  "definition": "The CloseLinkCreationRequest message is sent by an instructing party to the executing party to request for the creation of a close link in the executing system collateral management reference data.||Usage: |It aims at instructing the creation of a new close link with corresponding details.|Processing and confirmation of the close link creation request message are provided via a collateral management status advice.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "CloseLink": {
+      "name": "Close Link",
+      "definition": "Represents a linkage between issuer/debtor/guarantor and its counterparty."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

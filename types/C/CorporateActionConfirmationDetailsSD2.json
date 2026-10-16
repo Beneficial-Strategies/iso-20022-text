@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionConfirmationDetailsSD2",
+  "language": "en",
+  "name": "Corporate Action Confirmation Details SD 2",
+  "definition": "Provides additional information regarding corporate action confirmation details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "ProrationRoundingIndicator": {
+      "name": "Proration Rounding Indicator",
+      "definition": "Indicates how fractional positions will be handled for events with prorated options."
+    },
+    "ProrationFraction": {
+      "name": "Proration Fraction",
+      "definition": "Decimal above which numbers are rounded for prorated options. For example if the rounding factor is 0.5, numbers of 0.5 and above will be rounded up."
+    }
+  }
+}

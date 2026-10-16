@@ -1,0 +1,80 @@
+{
+  "isoType": "OriginalTransactionIdentification2",
+  "language": "en",
+  "name": "Original Transaction Identification 2",
+  "definition": "Identification of the original transaction",
+  "isoElements": {
+    "LocalDate": {
+      "name": "Local Date",
+      "definition": "Local date the transaction takes place at the card acceptor location."
+    },
+    "LocalTime": {
+      "name": "Local Time",
+      "definition": "Local time the transaction takes place at the card acceptor location."
+    },
+    "TimeZone": {
+      "name": "Time Zone",
+      "definition": "Time zone name (for example, as defined by IANA - Internet Assigned Numbers Authority - in the time zone database)."
+    },
+    "PurchaseIdentifierType": {
+      "name": "Purchase Identifier Type",
+      "definition": "Specifies the type of identifier present in the message. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PurchaseIdentifier": {
+      "name": "Purchase Identifier",
+      "definition": "Contains a value identifying Invoice Data or Purchase Request Data."
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "Reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleSupport": {
+      "name": "Life Cycle Support",
+      "definition": "Indicate the point in the transaction lifecycle at which the lifecycle identifier was assigned."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification."
+    },
+    "AuthorisationSequenceNumber": {
+      "name": "Authorisation Sequence Number",
+      "definition": "Contains authorisation sequence number. This is related transaction lifecycle data."
+    },
+    "PresentmentSequenceNumber": {
+      "name": "Presentment Sequence Number",
+      "definition": "Number used with trace identifier to uniquely identify where a single authorisation was obtained covering a number of financial presentments. This is related transaction lifecycle data."
+    },
+    "PresentmentSequenceCount": {
+      "name": "Presentment Sequence Count",
+      "definition": "Expected maximum number of presentments for this transaction. This is related transaction lifecycle data."
+    },
+    "AuthenticationToken": {
+      "name": "Authentication Token",
+      "definition": "Code calculated using an algorithm against key transaction data elements that are common to both authorisation and financial messages. This is related transaction lifecycle data."
+    },
+    "LifeCycleIdentificationMissing": {
+      "name": "Life Cycle Identification Missing",
+      "definition": "Reason for not providing a lifecycle trace identification information."
+    },
+    "AcquirerReferenceData": {
+      "name": "Acquirer Reference Data",
+      "definition": "Data supplied by an acquirer in an authorisation or financial request, advice or notification that may be required to be provided in a subsequent transaction."
+    },
+    "AcquirerReferenceNumber": {
+      "name": "Acquirer Reference Number",
+      "definition": "Data supplied by an acquirer to assist in identifying a transaction (for example, for researching retrievals and chargebacks)."
+    },
+    "IssuerReferenceData": {
+      "name": "Issuer Reference Data",
+      "definition": "Data supplied by a card issuer in an authorisation response, financial response message or in a chargeback transaction that the acquirer may be required to provide in subsequent transactions."
+    }
+  }
+}

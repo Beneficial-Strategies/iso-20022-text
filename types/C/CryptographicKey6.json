@@ -1,0 +1,48 @@
+{
+  "isoType": "CryptographicKey6",
+  "language": "en",
+  "name": "Cryptographic Key 6",
+  "definition": "Cryptographic Key.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name or label of the key."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Name of the cryptographic key."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the cryptographic key."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of algorithm used by the cryptographic key."
+    },
+    "Function": {
+      "name": "Function",
+      "definition": "Allowed usage of the key."
+    },
+    "ActivationDate": {
+      "name": "Activation Date",
+      "definition": "Date and time on which the key must be activated."
+    },
+    "DeactivationDate": {
+      "name": "Deactivation Date",
+      "definition": "Date and time on which the key must be deactivated."
+    },
+    "EncryptedKeyValue": {
+      "name": "Encrypted Key Value",
+      "definition": "Encrypted value of the key present as CMS structure EnvelopedData."
+    },
+    "Certificate": {
+      "name": "Certificate",
+      "definition": "Certificate to protect the key."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Chip card protection of the key."
+    }
+  }
+}

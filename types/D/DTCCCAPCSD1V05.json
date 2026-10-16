@@ -1,0 +1,16 @@
+{
+  "isoType": "DTCCCAPCSD1V05",
+  "language": "en",
+  "name": "DTCCCAPCSD 1 V 05",
+  "definition": "The DTCCCAPCSD1 message extends ISO corporate action movement preliminary advice cancellation advice (CAPC) message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": "Information to be extended as supplementary data to corporate action general information."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Information to be extended as supplementary data to underlying security details."
+    }
+  }
+}

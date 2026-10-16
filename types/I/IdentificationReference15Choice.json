@@ -1,0 +1,69 @@
+{
+  "isoType": "IdentificationReference15Choice",
+  "language": "en",
+  "name": "Identification Reference 15 Choice",
+  "definition": "Unique identifier of a document, message or transaction.",
+  "isoElements": {
+    "InstructingPartyTransactionIdentification": {
+      "name": "Instructing Party Transaction Identification",
+      "definition": "Unambiguous identification of the confirmation transaction as known by the instructing party."
+    },
+    "ExecutingPartyTransactionIdentification": {
+      "name": "Executing Party Transaction Identification",
+      "definition": "Unambiguous identification of the confirmation transaction as known by the executing party."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "name": "Market Infrastructure Transaction Identification",
+      "definition": "Unambiguous identification of the confirmation transaction as known by the market infrastructure."
+    },
+    "ClientOrderLinkIdentification": {
+      "name": "Client Order Link Identification",
+      "definition": "It permits order originators to tie together groups of orders in which trades resulting from orders are associated for a specific purpose, for example the calculation of average execution price for a customer."
+    },
+    "PoolIdentification": {
+      "name": "Pool Identification",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "BlockIdentification": {
+      "name": "Block Identification",
+      "definition": "Reference of the linked message at the trade/block level which identifies a centrally matched transaction."
+    },
+    "AllocationIdentification": {
+      "name": "Allocation Identification",
+      "definition": "Reference of the linked message at the allocation level which identifies a centrally matched transaction."
+    },
+    "IndividualAllocationIdentification": {
+      "name": "Individual Allocation Identification",
+      "definition": "Reference of the linked message at the individual allocation level which identifies a centrally matched transaction."
+    },
+    "SecondaryAllocationIdentification": {
+      "name": "Secondary Allocation Identification",
+      "definition": "Reference that can be shared across a number of allocation instruction or allocation report messages, thereby making it possible to pass an identifier for an original allocation message on multiple messages (for example from one party to a second to a third, across cancel and replace messages etc)."
+    },
+    "IndexIdentification": {
+      "name": "Index Identification",
+      "definition": "Reference identifying a index trade."
+    },
+    "CommonIdentification": {
+      "name": "Common Identification",
+      "definition": "Unique reference agreed upon by the two trade counterparties to identify the trade."
+    },
+    "ComplianceIdentification": {
+      "name": "Compliance Identification",
+      "definition": "Identification used to represent this transaction for compliance purposes."
+    },
+    "CollateralTransactionIdentification": {
+      "name": "Collateral Transaction Identification",
+      "definition": "Unambiguous identification of a collateral transaction as assigned by the instructing party."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Unique Transaction Identifier (UTI) as agreed with the other counterparty."
+    }
+  },
+  "isoRules": {
+    "LinkedIdentificationGuideline": {
+      "definition": "InstructingPartyTransactionIdentification, ExecutingPartyTransactionIdentification, MarketInfrastructureTransactionIdentification, ClientOrderLinkIdentification, PoolIdentification, BlockIdentification, AllocationIdentification, IndexIdentification, CommonIdentification and ComplianceIdentification must not appear more than once in the message."
+    }
+  }
+}

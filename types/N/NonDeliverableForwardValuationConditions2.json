@@ -1,0 +1,24 @@
+{
+  "isoType": "NonDeliverableForwardValuationConditions2",
+  "language": "en",
+  "name": "Non Deliverable Forward Valuation Conditions 2",
+  "definition": "Set of parameters used to calculate the fixing rate to be applied to a non-deliverable agreement.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies the currency in which the non deliverable trade has to be settled ie the deliverable currency."
+    },
+    "ValuationDate": {
+      "name": "Valuation Date",
+      "definition": "Date at which the rate used for calculating the net amount to be settled is observed."
+    },
+    "AdditionalValuationInformation": {
+      "name": "Additional Valuation Information",
+      "definition": "Free format text that may contain valuation information such as the place, the time or the source of the rate."
+    },
+    "SettlementParty": {
+      "name": "Settlement Party",
+      "definition": "Party through which the settlement will take place. It may contain the BIC of a central settlement system eg CLSBUS33."
+    }
+  }
+}

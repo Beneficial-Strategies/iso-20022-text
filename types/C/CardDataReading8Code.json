@@ -1,0 +1,73 @@
+{
+  "isoType": "CardDataReading8Code",
+  "language": "en",
+  "name": "Card Data Reading 8 Code",
+  "definition": "Type of reading of the card data.",
+  "isoCodes": {
+    "TAGC": {
+      "isoName": "Tag",
+      "name": "Tag",
+      "definition": "Tag reading capabilities (RFID, etc.)."
+    },
+    "PHYS": {
+      "isoName": "Physical",
+      "name": "Physical",
+      "definition": "Keyboard entry or OCR reading of embossing or printed data, either at time of transaction or after the event."
+    },
+    "BRCD": {
+      "isoName": "BarCode",
+      "name": "Bar Code",
+      "definition": "Bar code."
+    },
+    "MGST": {
+      "isoName": "MagneticStripe",
+      "name": "Magnetic Stripe",
+      "definition": "Magnetic stripe."
+    },
+    "CICC": {
+      "isoName": "ICC",
+      "name": "ICC",
+      "definition": "ICC (Integrated Circuit Card) with contact containing software applications conform to ISO 7816."
+    },
+    "DFLE": {
+      "isoName": "AccountData",
+      "name": "Account Data",
+      "definition": "Account data on file."
+    },
+    "CTLS": {
+      "isoName": "ProximityReader",
+      "name": "Proximity Reader",
+      "definition": "Contactless proximity reader."
+    },
+    "ECTL": {
+      "isoName": "EMVProximityReader",
+      "name": "EMV Proximity Reader",
+      "definition": "Contactless proximity reader, with application conform to the standard EMV (standard initiated by Europay, Mastercard and Visa)."
+    },
+    "CDFL": {
+      "isoName": "CardOnFile",
+      "name": "Card On File",
+      "definition": "Card information are stored on a file."
+    },
+    "SICC": {
+      "isoName": "SynchronousIntegratedCircuitCard",
+      "name": "Synchronous Integrated Circuit Card",
+      "definition": "Synchronous ICC - (Integrated Circuit Card) with contact."
+    },
+    "UNKW": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Unknown card reading capability."
+    },
+    "QRCD": {
+      "isoName": "QRCode",
+      "name": "QR Code",
+      "definition": "Quick response code."
+    },
+    "OPTC": {
+      "isoName": "OpticalCode",
+      "name": "Optical Code",
+      "definition": "Optical coded reading capabilities (e.g. barcode, QR code, etc.)"
+    }
+  }
+}

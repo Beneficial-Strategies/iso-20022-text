@@ -1,0 +1,20 @@
+{
+  "isoType": "MoneyMarketStatisticalReportStatusAdviceV01",
+  "language": "en",
+  "name": "Money Market Statistical Report Status Advice V 01",
+  "definition": "The MoneyMarketStatisticalReportStatusAdvice message is sent by the relevant competent authority to the reporting agents to provide the status on the reported transactions.",
+  "isoElements": {
+    "StatusReportHeader": {
+      "name": "Status Report Header",
+      "definition": "Provides the status on the global report."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Provides the status on an individual transaction and the related reason if required."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

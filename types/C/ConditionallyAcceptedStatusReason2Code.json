@@ -1,0 +1,33 @@
+{
+  "isoType": "ConditionallyAcceptedStatusReason2Code",
+  "language": "en",
+  "name": "Conditionally Accepted Status Reason 2 Code",
+  "definition": "Specifies the reason for a conditionally accepted status.",
+  "isoCodes": {
+    "DOCC": {
+      "isoName": "AwaitingDocuments",
+      "name": "Awaiting Documents",
+      "definition": "Order is pending until documents are completed and received, eg, legal documents from the successor, legal proceeds because of bankruptcy, missing signature."
+    },
+    "AWRM": {
+      "isoName": "AwaitingRedemptionMoney",
+      "name": "Awaiting Redemption Money",
+      "definition": "Order is accepted for further processing but the execution of the order is pending until there are enough funds in the account to complete the redemption."
+    },
+    "AWSM": {
+      "isoName": "AwaitingSubscriptionMoney",
+      "name": "Awaiting Subscription Money",
+      "definition": "Order is accepted for further processing but the execution of the order is pending until there is enough cash in the account to pay the subscription."
+    },
+    "DUPL": {
+      "isoName": "PossibleDuplicate",
+      "name": "Possible Duplicate",
+      "definition": "Order is accepted for further processing pending the result of the investigation for possible duplicates."
+    },
+    "CRED": {
+      "isoName": "TradingLimitExceeded",
+      "name": "Trading Limit Exceeded",
+      "definition": "Order is accepted for further processing pending the extension of the trading limit."
+    }
+  }
+}

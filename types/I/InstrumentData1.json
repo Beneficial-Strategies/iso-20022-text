@@ -1,0 +1,36 @@
+{
+  "isoType": "InstrumentData1",
+  "language": "en",
+  "name": "Instrument Data 1",
+  "definition": "Instrument related data.",
+  "isoElements": {
+    "Instrument": {
+      "name": "Instrument",
+      "definition": "Data related to the identification of an instrument."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Description of the status of the financial instrument."
+    },
+    "StatusStartDateTime": {
+      "name": "Status Start Date Time",
+      "definition": "Date and time from which the instrument status is valid."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Identification of the trading venue on which the instrument status is valid."
+    },
+    "TradingSystem": {
+      "name": "Trading System",
+      "definition": "Information about the trading system where the instrument is traded."
+    },
+    "MostRelevantMarket": {
+      "name": "Most Relevant Market",
+      "definition": "Identification of the trading venue being the most relevant market.||Usage: Only applicable for the output data of the Equity Consolidated Tape Provider (CTP)."
+    },
+    "DisseminationDateTime": {
+      "name": "Dissemination Date Time",
+      "definition": "Date and time from which the instrument status or the data are disseminated by the Consolidated Tape Provider (CTP).||Usage: Only applicable for output data."
+    }
+  }
+}

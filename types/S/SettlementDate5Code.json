@@ -1,0 +1,73 @@
+{
+  "isoType": "SettlementDate5Code",
+  "language": "en",
+  "name": "Settlement Date 5 Code",
+  "definition": "Specifies the date of settlement, in coded form.",
+  "isoCodes": {
+    "REGU": {
+      "isoName": "Regular",
+      "name": "Regular",
+      "definition": "Settlement takes place under the standard rules applicable to the market and instrument."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Settlement takes place on the trade date."
+    },
+    "NXTD": {
+      "isoName": "NextDay",
+      "name": "Next Day",
+      "definition": "Settlement takes place on the day after trade date."
+    },
+    "TONE": {
+      "isoName": "TPlusOne",
+      "name": "T Plus One",
+      "definition": "Settlement takes place on the trade date plus one business day."
+    },
+    "TTWO": {
+      "isoName": "TPlusTwo",
+      "name": "T Plus Two",
+      "definition": "Settlement takes place on the trade date plus two business days."
+    },
+    "TTRE": {
+      "isoName": "TPlusThree",
+      "name": "T Plus Three",
+      "definition": "Settlement takes place on the trade date plus three business days."
+    },
+    "TFOR": {
+      "isoName": "TPlusFour",
+      "name": "T Plus Four",
+      "definition": "Settlement takes place on the trade date plus four business days."
+    },
+    "TFIV": {
+      "isoName": "TPlusFive",
+      "name": "T Plus Five",
+      "definition": "Settlement takes place on the trade date plus five business days."
+    },
+    "SELL": {
+      "isoName": "SellersOption",
+      "name": "Sellers Option",
+      "definition": "Settlement takes place at the choice/option of the seller."
+    },
+    "WDIS": {
+      "isoName": "WhenDistributed",
+      "name": "When Distributed",
+      "definition": "Settlement takes place when the financial instrument is distributed."
+    },
+    "WHID": {
+      "isoName": "WhenIssuedOrDistributed",
+      "name": "When Issued Or Distributed",
+      "definition": "Settlement takes place when the financial instrument is issued or distributed."
+    },
+    "TBAT": {
+      "isoName": "ToBeAnnouncedTrade",
+      "name": "To Be Announced Trade",
+      "definition": "Settlement takes place as a result of a \"to be announced\" trade."
+    },
+    "WISS": {
+      "isoName": "WhenIssued",
+      "name": "When Issued",
+      "definition": "Settlement is to be done when the security is issued."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCancellationAdviceResponseV14",
+  "language": "en",
+  "name": "Acceptor Cancellation Advice Response V 14",
+  "definition": "The AcceptorCancellationAdviceResponse message is sent by the acquirer (or its agent) to acknowledge the acceptor (or its agent) about the notification of the payment cancellation.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Cancellation advice response message management information."
+    },
+    "CancellationAdviceResponse": {
+      "name": "Cancellation Advice Response",
+      "definition": "Information related to the cancellation advice response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

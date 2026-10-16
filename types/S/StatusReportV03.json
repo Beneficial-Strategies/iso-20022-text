@@ -1,0 +1,20 @@
+{
+  "isoType": "StatusReportV03",
+  "language": "en",
+  "name": "Status Report V 03",
+  "definition": "Scope|The StatusReport message is sent by the matching application to the requester of a status report.|This message is used to report on the status of transactions registered in the matching application.|Usage|The StatusReport message can be sent by the matching application to report on the status and sub-status of all transactions that the requester of the report is involved in. The message can be sent in response to a StatusReportRequest message.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the report."
+    },
+    "RelatedMessageReference": {
+      "name": "Related Message Reference",
+      "definition": "Reference to the previous message requesting the report."
+    },
+    "ReportedItems": {
+      "name": "Reported Items",
+      "definition": "Describes a transaction and its status."
+    }
+  }
+}

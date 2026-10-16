@@ -1,0 +1,20 @@
+{
+  "isoType": "DefaultFundRequirement1",
+  "language": "en",
+  "name": "Default Fund Requirement 1",
+  "definition": "Requirement for a clearing member to post collateral at a central counterparty with respect to a default fund.",
+  "isoElements": {
+    "ClearingMemberIdentification": {
+      "name": "Clearing Member Identification",
+      "definition": "Identification of the clearing member."
+    },
+    "ServiceIdentification": {
+      "name": "Service Identification",
+      "definition": "Central counterparty's identification of the service where default fund contributions are made at the service level."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Clearing member's pre-funded default fund requirement for the default fund at the central counterparty."
+    }
+  }
+}

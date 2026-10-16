@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeReport21Choice",
+  "language": "en",
+  "name": "Trade Report 21 Choice",
+  "definition": "Provides details on the reported trade transactions.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Indicates whether transaction is reported for the first time."
+    },
+    "Error": {
+      "name": "Error",
+      "definition": "Indicates whether transaction was reported by mistake and need to be removed."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Indicates that the report is correcting the erroneous data fields of a previously submitted position."
+    },
+    "TradeUpdate": {
+      "name": "Trade Update",
+      "definition": "Information on margin held as a part of a transaction."
+    }
+  }
+}

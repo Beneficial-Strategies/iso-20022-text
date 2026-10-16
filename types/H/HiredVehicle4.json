@@ -1,0 +1,40 @@
+{
+  "isoType": "HiredVehicle4",
+  "language": "en",
+  "name": "Hired Vehicle 4",
+  "definition": "Vehicle for hire for passenger transport - excludes vehicles driven by a renter.  Examples include, but are not limited to, taxi, chauffeured limousine, boats.",
+  "isoElements": {
+    "CompanyType": {
+      "name": "Company Type",
+      "definition": "Defines the type of company or vehicle being hired (for example, private, taxi, chauffeur service, rideshare)."
+    },
+    "CompanyName": {
+      "name": "Company Name",
+      "definition": "Contains the name of the company that provided the hired vehicle services."
+    },
+    "TypeOfVehicle": {
+      "name": "Type Of Vehicle",
+      "definition": "Contains the type of vehicle that was hired (for example, limousine, black, SUV)."
+    },
+    "VehicleIdentification": {
+      "name": "Vehicle Identification",
+      "definition": "Contains the identifier assigned to the vehicle."
+    },
+    "DriverIdentification": {
+      "name": "Driver Identification",
+      "definition": "Contains the identifier assigned to the driver."
+    },
+    "DriverTaxIdentification": {
+      "name": "Driver Tax Identification",
+      "definition": "Contains the tax identifier assigned to the driver."
+    },
+    "DestinationNameAndLocation": {
+      "name": "Destination Name And Location",
+      "definition": "Name and location of the destination.  May only contain the name if the location is specified elsewhere."
+    },
+    "DestinationAddress": {
+      "name": "Destination Address",
+      "definition": "Specific address of the destination."
+    }
+  }
+}

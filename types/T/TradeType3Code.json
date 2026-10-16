@@ -1,0 +1,128 @@
+{
+  "isoType": "TradeType3Code",
+  "language": "en",
+  "name": "Trade Type 3 Code",
+  "definition": "Specifies the type of executed order.",
+  "isoCodes": {
+    "BSKT": {
+      "isoName": "Basket",
+      "name": "Basket",
+      "definition": "A basket trade, i.e. a unit of 15 or more financial instruments used in program trading."
+    },
+    "INDX": {
+      "isoName": "Index",
+      "name": "Index",
+      "definition": "A trade of a predetermined set of financial instruments."
+    },
+    "IPOO": {
+      "isoName": "IPO",
+      "name": "IPO",
+      "definition": "Transaction is an Initial Public Offer (IPO) order."
+    },
+    "LIST": {
+      "isoName": "List",
+      "name": "List",
+      "definition": "A trade of a predetermined set of financial instruments."
+    },
+    "PRAL": {
+      "isoName": "PreAllocation",
+      "name": "Pre Allocation",
+      "definition": "A pre-allocated trade."
+    },
+    "PROG": {
+      "isoName": "Program",
+      "name": "Program",
+      "definition": "A program trade, i.e. a computer-driven trade of buying and selling of baskets of 15 or more financial instruments by index arbitrage specialists or institutional traders."
+    },
+    "TRAD": {
+      "isoName": "Trade",
+      "name": "Trade",
+      "definition": "An executed order."
+    },
+    "BRBR": {
+      "isoName": "BrokerToBroker",
+      "name": "Broker To Broker",
+      "definition": "A trade from a broker to another broker."
+    },
+    "RISK": {
+      "isoName": "RiskTrade",
+      "name": "Risk Trade",
+      "definition": "Trade involving risk."
+    },
+    "VWAP": {
+      "isoName": "VWAPGuarantee",
+      "name": "VWAP Guarantee",
+      "definition": "Trade whose price is guaranteed as the weighted average of the trade prices on a specific day."
+    },
+    "AGEN": {
+      "isoName": "Agency",
+      "name": "Agency",
+      "definition": "Trade in which an agent intermediates between a buyer and a seller."
+    },
+    "GUAR": {
+      "isoName": "GuaranteedClose",
+      "name": "Guaranteed Close",
+      "definition": "Trade which is guaranteed to be finalized."
+    },
+    "EMTR": {
+      "isoName": "EmployeeTradeReporting",
+      "name": "Employee Trade Reporting",
+      "definition": "Transaction relates to employee trade reporting."
+    },
+    "ISSU": {
+      "isoName": "Issuance",
+      "name": "Issuance",
+      "definition": "Relates to the issuance of a security such as an equity or a depositary receipt."
+    },
+    "BOST": {
+      "isoName": "BondStart",
+      "name": "Bond Start",
+      "definition": "The trade is a Bond start."
+    },
+    "BOEN": {
+      "isoName": "BondEnd",
+      "name": "Bond End",
+      "definition": "The trade is a Bond end."
+    },
+    "LABO": {
+      "isoName": "LendingAndBorrowing",
+      "name": "Lending And Borrowing",
+      "definition": "Indicates that the trade is a Lending and borrowing."
+    },
+    "BORE": {
+      "isoName": "BondRepricing",
+      "name": "Bond Repricing",
+      "definition": "The trade is a Bond repricing."
+    },
+    "OFIT": {
+      "isoName": "OfferingIssuingTrade",
+      "name": "Offering Issuing Trade",
+      "definition": "Indicates that the trade is a Offering issue trade."
+    },
+    "BOSU": {
+      "isoName": "BondSubstitution",
+      "name": "Bond Substitution",
+      "definition": "The trade is a Bond substitution."
+    },
+    "FBBT": {
+      "isoName": "FutureBuyBackTrade",
+      "name": "Future Buy Back Trade",
+      "definition": "The security will be bought back in the future."
+    },
+    "OPTN": {
+      "isoName": "Options",
+      "name": "Options",
+      "definition": "Indicates that the trade is a Option contract trade."
+    },
+    "FUOP": {
+      "isoName": "FuturesOption",
+      "name": "Futures Option",
+      "definition": "Indicates that the trade is a Futures option contract trade."
+    },
+    "FUTR": {
+      "isoName": "Futures",
+      "name": "Futures",
+      "definition": "Indicates that the trade is a Futures contract trade."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "TradeLegNotificationV05",
+  "language": "en",
+  "name": "Trade Leg Notification V 05",
+  "definition": "Scope|The TradeLegNotification message is sent by the central counterparty (CCP) to a clearing member to report the trade that has been executed by the trading platform.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|The CCP reports both sides of the trade from the clearing member perspective. The CCP sends a message to the global clearing member of the seller and a message to the global clearing member of the buyer. Note: An individual clearing member only clear its own trades.",
+  "isoElements": {
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Provides the identification of the clearing member (individual clearing member or general clearing member)."
+    },
+    "ClearingAccount": {
+      "name": "Clearing Account",
+      "definition": "Identifies the clearing member account at the CCP through which the trade must be cleared (sometimes called position account)."
+    },
+    "DeliveryAccount": {
+      "name": "Delivery Account",
+      "definition": "An account opened by the central counterparty in the name of the clearing member or its settlement agent within the account structure, for settlement purposes (gives information about the clearing member/its settlement agent account at the central securities depository)."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides details about the non clearing member identification and account."
+    },
+    "ClearingDetails": {
+      "name": "Clearing Details",
+      "definition": "Provides clearing details such as the settlement netting (or not) eligibility code or the clearing segment."
+    },
+    "TradeLegDetails": {
+      "name": "Trade Leg Details",
+      "definition": "Provides details about the trade leg such as the trade date, the settlement date or the trading currency."
+    },
+    "SettlementDetails": {
+      "name": "Settlement Details",
+      "definition": "Provides details about the settlement details of the trade leg such the settlement amount or the place of settlement."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "DepositoryOrPlaceOfListingPresenceRule": {
+      "definition": "Depository or PlaceOfListing must be present."
+    }
+  }
+}

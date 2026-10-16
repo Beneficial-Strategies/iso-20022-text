@@ -1,0 +1,36 @@
+{
+  "isoType": "AdditionalAmounts5",
+  "language": "en",
+  "name": "Additional Amounts 5",
+  "definition": "Limits and amounts not part of the transaction amount. Not included in reconciliation totals.",
+  "isoElements": {
+    "AccountType": {
+      "name": "Account Type",
+      "definition": "Code used to describe the accounts affected.||Conforms to ISO 8583, Account type codes, which are maintained by the ISO 8583/MA (Maintenance Agency)."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type or class of amount."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other type of amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code associated with the applicable type of amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Sign of the Amount."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Short description of the additional amount."
+    }
+  }
+}

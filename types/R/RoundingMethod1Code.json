@@ -1,0 +1,28 @@
+{
+  "isoType": "RoundingMethod1Code",
+  "language": "en",
+  "name": "Rounding Method 1 Code",
+  "definition": "Defines how the rounding amount was applied in the calculation. For example, should the amount of collateral required be rounded up, down, to the closer integral multiple specified or not rounded.",
+  "isoCodes": {
+    "DRDW": {
+      "isoName": "Down",
+      "name": "Down",
+      "definition": "Rounds the amount down."
+    },
+    "DRUP": {
+      "isoName": "Up",
+      "name": "Up",
+      "definition": "Rounds the amount up."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "Do not round."
+    },
+    "CLSR": {
+      "isoName": "Closer",
+      "name": "Closer",
+      "definition": "Rounds the amount to the closer integral multiple specified."
+    }
+  }
+}

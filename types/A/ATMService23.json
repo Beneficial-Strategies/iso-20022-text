@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMService23",
+  "language": "en",
+  "name": "ATM Service 23",
+  "definition": "Inquiry service provided by the ATM inside the session.",
+  "isoElements": {
+    "ServiceReference": {
+      "name": "Service Reference",
+      "definition": "Unique identification of the customer session in which the transfer is performed."
+    },
+    "ATMServiceCode": {
+      "name": "ATM Service Code",
+      "definition": "Codification of the type of service for the ATM."
+    },
+    "HostServiceCode": {
+      "name": "Host Service Code",
+      "definition": "Codification of the type of service for the host."
+    },
+    "ServiceType": {
+      "name": "Service Type",
+      "definition": "Describes the type of fund transfer selected by the customer or the ATM."
+    },
+    "ServiceVariantIdentification": {
+      "name": "Service Variant Identification",
+      "definition": "Identification of the variant of the service."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "ValidityPeriodType1Code",
+  "language": "en",
+  "name": "Validity Period Type 1 Code",
+  "definition": "Code defining the conditions under which an order becomes active or is removed from an orderbook.",
+  "isoCodes": {
+    "FOKV": {
+      "isoName": "FillOrKill",
+      "name": "Fill Or Kill",
+      "definition": "Orde executed upon its entering into the order book provided that it can be fully filled (e.g. in the event the order can only be partially executed, then it is automatically rejected and cannot therefore be executed)."
+    },
+    "GADV": {
+      "isoName": "GoodAfterDate",
+      "name": "Good After Date",
+      "definition": "Order being active only from the beginning of a pre-determined date."
+    },
+    "GASV": {
+      "isoName": "GoodAfterSpecifiedDateTime",
+      "name": "Good After Specified Date Time",
+      "definition": "Order being active only from a pre-determined time on a pre-determined date."
+    },
+    "GATV": {
+      "isoName": "GoodAfterTime",
+      "name": "Good After Time",
+      "definition": "Order being active only after a pre-determined time within the current trading session."
+    },
+    "DAVY": {
+      "isoName": "GoodForDay",
+      "name": "Good For Day",
+      "definition": "Order expiring at the end of the trading day on which it was entered in the order book."
+    },
+    "GTCV": {
+      "isoName": "GoodTillCancelled",
+      "name": "Good Till Cancelled",
+      "definition": "Order remaining active in the order book and be executable until it is actually cancelled"
+    },
+    "GTDV": {
+      "isoName": "GoodTillDate",
+      "name": "Good Till Date",
+      "definition": "Order expiring at the end of a specified date."
+    },
+    "GTSV": {
+      "isoName": "GoodTillSpecifiedDateTime",
+      "name": "Good Till Specified Date Time",
+      "definition": "Order expiring at a specified date and time."
+    },
+    "GTTV": {
+      "isoName": "GoodTillTime",
+      "name": "Good Till Time",
+      "definition": "Order expiring at the latest at a pre-determined time within the current trading session."
+    },
+    "IOCV": {
+      "isoName": "ImmediateOrCancel",
+      "name": "Immediate Or Cancel",
+      "definition": "Order executed upon its entering into the order book (for the quantity that can be executed) and which does not remain in the order book for the remaining quantity (if any) that has not been executed."
+    }
+  }
+}

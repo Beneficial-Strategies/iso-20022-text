@@ -1,0 +1,113 @@
+{
+  "isoType": "ActionType15Code",
+  "language": "en",
+  "name": "Action Type 15 Code",
+  "definition": "Type of action to be performed by the point of interaction (POI).",
+  "isoCodes": {
+    "BUSY": {
+      "isoName": "Busy",
+      "name": "Busy",
+      "definition": "Server busy, try later."
+    },
+    "CPTR": {
+      "isoName": "CaptureCard",
+      "name": "Capture Card",
+      "definition": "Capture the card."
+    },
+    "DISP": {
+      "isoName": "DisplayMessage",
+      "name": "Display Message",
+      "definition": "Message to display, print or log."
+    },
+    "NOVR": {
+      "isoName": "ForbidOverride",
+      "name": "Forbid Override",
+      "definition": "Payment application cannot propose to the merchant an override of the payment transaction."
+    },
+    "RQID": {
+      "isoName": "IdentificationRequired",
+      "name": "Identification Required",
+      "definition": "Additional identification required (passport, ID card, etc.)."
+    },
+    "PINL": {
+      "isoName": "PINLastTry",
+      "name": "PIN Last Try",
+      "definition": "Last PIN (Personal Identification Number) try."
+    },
+    "PINR": {
+      "isoName": "PINRetry",
+      "name": "PIN Retry",
+      "definition": "PIN (Personal Identification Number) is wrong, retry a PIN verification."
+    },
+    "PRNT": {
+      "isoName": "PrintMessage",
+      "name": "Print Message",
+      "definition": "Print a message."
+    },
+    "RFRL": {
+      "isoName": "Referral",
+      "name": "Referral",
+      "definition": "Referral has to be performed."
+    },
+    "RQDT": {
+      "isoName": "RequestData",
+      "name": "Request Data",
+      "definition": "Request additional data through a displayed text and request confirmation by an attendant."
+    },
+    "DCCQ": {
+      "isoName": "AcceptCurrencyConversion",
+      "name": "Accept Currency Conversion",
+      "definition": "Ask the cardholder to accept the currency conversion."
+    },
+    "FLFW": {
+      "isoName": "FallForward",
+      "name": "Fall Forward",
+      "definition": "Fall-forward from contactless to chip card transaction required."
+    },
+    "PINQ": {
+      "isoName": "PINRequest",
+      "name": "PIN Request",
+      "definition": "Request Cardholder Authentification through PIN insertion."
+    },
+    "CDCV": {
+      "isoName": "ConsumerDeviceCardholderVerificationMethod",
+      "name": "Consumer Device Cardholder Verification Method",
+      "definition": "Request Cardholder Authentification according to the ConsumerDeviceCardholderVerificationMethod."
+    },
+    "CHDA": {
+      "isoName": "CardholderAuthentication",
+      "name": "Cardholder Authentication",
+      "definition": "Additional authentication of cardholder required."
+    },
+    "STAR": {
+      "isoName": "StopAllRecurring",
+      "name": "Stop All Recurring",
+      "definition": "Recurring transactions is no more allowed for this card and for all merchants."
+    },
+    "STOR": {
+      "isoName": "StopOneRecurring",
+      "name": "Stop One Recurring",
+      "definition": "Cardholder has revocated this recurring transaction for this merchant."
+    },
+    "ACUP": {
+      "isoName": "AccountUpdate",
+      "name": "Account Update",
+      "definition": "Indicates that the account was updated and should be taken into account for future authorisation."
+    },
+    "TALT": {
+      "isoName": "TryAgainLater",
+      "name": "Try Again Later",
+      "definition": "Indicates that the authorization should be resubmitted at a later time."
+    },
+    "DNTA": {
+      "isoName": "DoNotTryAgain",
+      "name": "Do Not Try Again",
+      "definition": "Indicates that this account shouldn't be used anymore."
+    },
+    "NCOF": {
+      "isoName": "CardOnFileNotSupported",
+      "name": "Card On File Not Supported",
+      "definition": "Reference used to process the transaction has been created for this transaction and shouldn't be used for additional transactions."
+    }
+  }
+}

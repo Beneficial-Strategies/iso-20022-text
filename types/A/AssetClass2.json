@@ -1,0 +1,25 @@
+{
+  "isoType": "AssetClass2",
+  "language": "en",
+  "name": "Asset Class 2",
+  "definition": "Structure for defining asset class specific details of a derivative to be declared.",
+  "isoElements": {
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "The fields in this section should only be populated for instruments that have non-financial instrument of type commodity as underlying."
+    },
+    "Interest": {
+      "name": "Interest",
+      "definition": "The fields in this section should only be populated for instruments that have non-financial instrument of type interest rates as underlying."
+    },
+    "ForeignExchange": {
+      "name": "Foreign Exchange",
+      "definition": "The fields in this section should only be populated for instruments that have non-financial instrument of type foreign exchange as underlying."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 3 elements must be present."
+    }
+  }
+}

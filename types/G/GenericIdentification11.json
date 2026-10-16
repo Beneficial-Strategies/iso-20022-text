@@ -1,0 +1,29 @@
+{
+  "isoType": "GenericIdentification11",
+  "language": "en",
+  "name": "Generic Identification 11",
+  "definition": "Information related to an identification, eg, party identification or account identification.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Name or number assigned by an entity to enable recognition of that entity, eg, account identifier."
+    },
+    "IdentificationType": {
+      "name": "Identification Type",
+      "definition": "Specifies the nature of the identifier."
+    },
+    "ExtendedIdentificationType": {
+      "name": "Extended Identification Type",
+      "definition": "Specifies a type of individual identification."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Entity that assigns the identifier."
+    }
+  },
+  "isoRules": {
+    "IdentificationTypeOrExtendedIdentificationTypeRule": {
+      "definition": "Either IdentificationType or ExtendedIdentificationType must be present, but not both."
+    }
+  }
+}

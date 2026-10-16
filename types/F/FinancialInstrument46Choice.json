@@ -1,0 +1,21 @@
+{
+  "isoType": "FinancialInstrument46Choice",
+  "language": "en",
+  "name": "Financial Instrument 46 Choice",
+  "definition": "Specifies underlying instruments or index a derivative has.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Identifies the financial instrument using an International Securities Identification Number (ISIN)."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Name of the index on which the financial instrument is based."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    }
+  }
+}

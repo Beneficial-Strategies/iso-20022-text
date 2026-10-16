@@ -1,0 +1,24 @@
+{
+  "isoType": "SecurityCSDLinkStatusAdviceV01",
+  "language": "en",
+  "name": "Security CSD Link Status Advice V 01",
+  "definition": "SCOPE|An executing/servicing party sends a SecurityCSDLinkStatusAdvice message to an instructing party to report the status of a SecurityCSDLink Request message previously sent by the instructing party. ||The SecurityCSDLinkStatusAdvice message may be sent as a response to the request of the instructing party or not.||The instructing party - executing/servicing party relationship may be:|- Central Securities Depositories (CSD) who would like to publish security CSD Link static data, or |- a Corporate, or|- a Bank, or|- a Market Infrastructure, or |- a Market Data Provider.||USAGE|Initiator: executing/servicing party.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "SecurityCSDLinkStatus": {
+      "name": "Security CSD Link Status",
+      "definition": "Represents the processing status."
+    },
+    "SecurityCSDLinkIdentification": {
+      "name": "Security CSD Link Identification",
+      "definition": "Provides a unique and unambiguous identification for the Security CSD Link."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

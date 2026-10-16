@@ -1,0 +1,88 @@
+{
+  "isoType": "FinancingStatusReason1Code",
+  "language": "en",
+  "name": "Financing Status Reason 1 Code",
+  "definition": "Specifies the coded reason for the financing status.",
+  "isoCodes": {
+    "CA01": {
+      "isoName": "CancellationRequestOutOfTime",
+      "name": "Cancellation Request Out Of Time",
+      "definition": "Cancellation request message was received after the end of the financing process previously activated."
+    },
+    "CA02": {
+      "isoName": "NoMatchingFinancingRequest",
+      "name": "No Matching Financing Request",
+      "definition": "Cancellation request does not match with an invoice financing request received previously."
+    },
+    "AC01": {
+      "isoName": "IncorrectAccountNumber",
+      "name": "Incorrect Account Number",
+      "definition": "Format of the account number specified is not correct."
+    },
+    "AC04": {
+      "isoName": "ClosedAccountNumber",
+      "name": "Closed Account Number",
+      "definition": "Account number specified has been closed on the Receiver's books."
+    },
+    "AC06": {
+      "isoName": "BlockedAccount",
+      "name": "Blocked Account",
+      "definition": "Account specified is blocked, prohibiting posting of transactions against it."
+    },
+    "BE08": {
+      "isoName": "UnrecognisedFinancingRequestor",
+      "name": "Unrecognised Financing Requestor",
+      "definition": "Party who sent the request message is not recognised by the first agent."
+    },
+    "BE09": {
+      "isoName": "UnrecognisedIntermediaryAgent",
+      "name": "Unrecognised Intermediary Agent",
+      "definition": "Party who forwarded the request message is not recognised by the first agent."
+    },
+    "BE10": {
+      "isoName": "UnexpectedIntermediaryAgent",
+      "name": "Unexpected Intermediary Agent",
+      "definition": "Financing Requestor is expected to send requests through a different Intermediary Agent."
+    },
+    "BE11": {
+      "isoName": "UnrecognisedParty",
+      "name": "Unrecognised Party",
+      "definition": "Party is not recognised by the first agent."
+    },
+    "DT02": {
+      "isoName": "InvalidPaymentDueDate",
+      "name": "Invalid Payment Due Date",
+      "definition": "PaymentDueDate is occurring before the request message creation date."
+    },
+    "ID01": {
+      "isoName": "DuplicatedRequestMessage",
+      "name": "Duplicated Request Message",
+      "definition": "Request message received appears to have been duplicated."
+    },
+    "ID02": {
+      "isoName": "WrongIdentification",
+      "name": "Wrong Identification",
+      "definition": "Request message received appears to have a wrong identification."
+    },
+    "ID03": {
+      "isoName": "InvalidDocumentNumber",
+      "name": "Invalid Document Number",
+      "definition": "Document number is invalid."
+    },
+    "MI01": {
+      "isoName": "MissingMandatoryInformation",
+      "name": "Missing Mandatory Information",
+      "definition": "Information bilateral agreed as mandatory is missing."
+    },
+    "NA01": {
+      "isoName": "Narrative",
+      "name": "Narrative",
+      "definition": "Reason is provided as narrative information in the additional reason information."
+    },
+    "CA03": {
+      "isoName": "FinancingProcessAlreadyInitiated",
+      "name": "Financing Process Already Initiated",
+      "definition": "Cancellation request was correctly received but the financing process has already been initiated."
+    }
+  }
+}

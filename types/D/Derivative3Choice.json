@@ -1,0 +1,36 @@
+{
+  "isoType": "Derivative3Choice",
+  "language": "en",
+  "name": "Derivative 3 Choice",
+  "definition": "Choice element to define a derivative instrument.",
+  "isoElements": {
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Details specific for commodity derivatives."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Details specific for Interest rate."
+    },
+    "ForeignExchange": {
+      "name": "Foreign Exchange",
+      "definition": "Details specific for Foreign exchange."
+    },
+    "Equity": {
+      "name": "Equity",
+      "definition": "Details specific for Equity derivatives."
+    },
+    "ContractForDifference": {
+      "name": "Contract For Difference",
+      "definition": "Details specific for Contract for difference (CFDs)."
+    },
+    "Credit": {
+      "name": "Credit",
+      "definition": "Details specific for a credit derivative."
+    },
+    "EmissionAllowance": {
+      "name": "Emission Allowance",
+      "definition": "Details specific for emission allowance derivatives"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "isoType": "OtherCollateral9",
+  "language": "en",
+  "name": "Other Collateral 9",
+  "definition": "Provides details about the letter of credit or bank guarantee, or other collateral, posted as collateral.",
+  "isoElements": {
+    "CollateralIdentification": {
+      "name": "Collateral Identification",
+      "definition": "Provides the identification of the proposed collateral."
+    },
+    "LetterOfCreditIdentification": {
+      "name": "Letter Of Credit Identification",
+      "definition": "Provides the unique identification of the letter of credit."
+    },
+    "LetterOfCreditAmount": {
+      "name": "Letter Of Credit Amount",
+      "definition": "Amount of the letter/documentary credit."
+    },
+    "GuaranteeAmount": {
+      "name": "Guarantee Amount",
+      "definition": "Amount of the bank guarantee."
+    },
+    "OtherTypeOfCollateral": {
+      "name": "Other Type Of Collateral",
+      "definition": "Provides a description and an amount of another type of collateral."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date on which the other collateral was issued."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which the other collateral expires."
+    },
+    "LimitedCoverageIndicator": {
+      "name": "Limited Coverage Indicator",
+      "definition": "Indicates that the collateral deposited in the clearing house covers the margin until a specific timeframe."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party that issues the bank guarantee or letter of / documentary credit."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Valuation date of the other collateral when it was taken as collateral."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Exchange rate."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Value of the collateral based on current market prices."
+    },
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Haircut or valuation factor on the collateral expressed as a percentage."
+    },
+    "CollateralValue": {
+      "name": "Collateral Value",
+      "definition": "Value of the collateral after taking into account the haircut, if any."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

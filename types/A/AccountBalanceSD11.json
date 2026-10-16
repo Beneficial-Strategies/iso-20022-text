@@ -1,0 +1,32 @@
+{
+  "isoType": "AccountBalanceSD11",
+  "language": "en",
+  "name": "Account Balance SD 11",
+  "definition": "Provides additional information regarding account balance. Contains transaction details of the stock loans, repurchase agreements (REPOs) and undelivered trades (FAILs).",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "OriginalBalance": {
+      "name": "Original Balance",
+      "definition": "Position held in a security as of the day prior to publication date. This position is subject to a redemption lottery call when this is the first lottery. This balance will not be adjusted for the supplemental or concurrent lotteries and will remain constant to report the original position."
+    },
+    "AdjustedBalance": {
+      "name": "Adjusted Balance",
+      "definition": "Adjusted position held in a security that is subject to redemption call."
+    },
+    "UnpledgedBalance": {
+      "name": "Unpledged Balance",
+      "definition": "Portion of the Original Balance position held in DTC General Free account as of day prior to Publication Date. Position held in this account is subject to redemption lottery call."
+    },
+    "InvestmentUnpledgedBalance": {
+      "name": "Investment Unpledged Balance",
+      "definition": "Portion of the Original Balance position held in DTC Segregated account as of day prior to Publication Date. Position held in this account is subject to redemption lottery call and must be released to allow allocation."
+    },
+    "InvestmentPledgedBalance": {
+      "name": "Investment Pledged Balance",
+      "definition": "Portion of the Original Balance position held in DTC Investment account as of day prior to Publication Date. Position held in this account is subject to redemption lottery call and must be released to allow allocation."
+    }
+  }
+}

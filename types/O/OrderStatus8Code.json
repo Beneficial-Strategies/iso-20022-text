@@ -1,0 +1,53 @@
+{
+  "isoType": "OrderStatus8Code",
+  "language": "en",
+  "name": "Order Status 8 Code",
+  "definition": "Identifies current status of order.",
+  "isoCodes": {
+    "CANC": {
+      "isoName": "Cancelled",
+      "name": "Cancelled",
+      "definition": "Cancelled order with or without executions."
+    },
+    "NEWW": {
+      "isoName": "New",
+      "name": "New",
+      "definition": "Outstanding order with no executions."
+    },
+    "REPL": {
+      "isoName": "Replaced",
+      "name": "Replaced",
+      "definition": "Order has been replaced."
+    },
+    "STOP": {
+      "isoName": "Stopped",
+      "name": "Stopped",
+      "definition": "Order has been stopped at the exchange. Used when guaranteeing or protecting a price and quantity."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Order has been rejected by sell-side. NOTE: An order can be rejected subsequent to order acknowledgment, i.e. an order can pass from New to Rejected status."
+    },
+    "EXPI": {
+      "isoName": "Expired",
+      "name": "Expired",
+      "definition": "Order has been cancelled in the broker's system due to time in force instructions."
+    },
+    "STNP": {
+      "isoName": "SentToNextParty",
+      "name": "Sent To Next Party",
+      "definition": "Order has been sent to the next party, eg, the next intermediary."
+    },
+    "RECE": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Order has been received, ie, technical validation of the message is ok, and the message is now at the receiving side."
+    },
+    "CANP": {
+      "isoName": "PendingCancel",
+      "name": "Pending Cancel",
+      "definition": "Order with an Order Cancel Request pending, used to confirm receipt of an Order Cancel Request. Does not indicate that the order has been cancelled."
+    }
+  }
+}

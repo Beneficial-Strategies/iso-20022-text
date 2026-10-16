@@ -1,0 +1,32 @@
+{
+  "isoType": "TimeFrame9",
+  "language": "en",
+  "name": "Time Frame 9",
+  "definition": "Time frame elements that define a period as number of days before or after a activity.",
+  "isoElements": {
+    "OtherTimeFrameDescription": {
+      "name": "Other Time Frame Description",
+      "definition": "Description of the timeframe."
+    },
+    "TradeMinus": {
+      "name": "Trade Minus",
+      "definition": "Number of days before the trade date (T) used for the standard timeframe for the dealing cut-off."
+    },
+    "NonWorkingDayAdjustment": {
+      "name": "Non Working Day Adjustment",
+      "definition": "Convention used for adjusting a date when it is not a business day."
+    },
+    "ReferToOrderDesk": {
+      "name": "Refer To Order Desk",
+      "definition": "For the dealing cut-off time, the order desk must be contacted."
+    }
+  },
+  "isoRules": {
+    "TradeMinusRule": {
+      "definition": "If TradeMinus is present then NonWorkingDayAdjustment must also be present."
+    },
+    "NonWorkingDayAdjustmentRule": {
+      "definition": "If NonWorkingDayAdjustment is present then TradeMinus must also be present."
+    }
+  }
+}

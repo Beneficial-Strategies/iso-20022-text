@@ -1,0 +1,28 @@
+{
+  "isoType": "PriceValueChange1",
+  "language": "en",
+  "name": "Price Value Change 1",
+  "definition": "Value given to a positive or negative price change.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount by which the price has changed."
+    },
+    "AmountSign": {
+      "name": "Amount Sign",
+      "definition": "Indicates a positive or negative amount change."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate by which the price has changed."
+    }
+  },
+  "isoRules": {
+    "AmountAndOrRateRule": {
+      "definition": "If Amount is not present, then Rate is mandatory. If Amount is present, then Rate is optional."
+    },
+    "AmountSignRule": {
+      "definition": "If Amount is present, then AmountSign is optional. If Amount is not present, then AmountSign is not allowed."
+    }
+  }
+}

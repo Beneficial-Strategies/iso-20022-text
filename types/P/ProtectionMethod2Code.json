@@ -1,0 +1,38 @@
+{
+  "isoType": "ProtectionMethod2Code",
+  "language": "en",
+  "name": "Protection Method 2 Code",
+  "definition": "Method used to protect the sensitive data.",
+  "isoCodes": {
+    "SELM": {
+      "isoName": "SecureElement",
+      "name": "Secure Element",
+      "definition": "Secure element method."
+    },
+    "SNCL": {
+      "isoName": "SecureEnclave",
+      "name": "Secure Enclave",
+      "definition": "Secure enclave method."
+    },
+    "SOFT": {
+      "isoName": "Software",
+      "name": "Software",
+      "definition": "Software protection method."
+    },
+    "TEEN": {
+      "isoName": "TrustedExectutionEnvironment",
+      "name": "Trusted Exectution Environment",
+      "definition": "Trusted execution environment method."
+    },
+    "TPMD": {
+      "isoName": "TrustedPlatformModule",
+      "name": "Trusted Platform Module",
+      "definition": "Trusted Platform Module (TPM)."
+    },
+    "VTEE": {
+      "isoName": "VirtualTrustedExecutionEnvironment",
+      "name": "Virtual Trusted Execution Environment",
+      "definition": "Virtual trusted execution environment"
+    }
+  }
+}

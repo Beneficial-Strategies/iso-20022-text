@@ -1,0 +1,32 @@
+{
+  "isoType": "SingleTransport8",
+  "language": "en",
+  "name": "Single Transport 8",
+  "definition": "Specifies individually each leg of a transport of goods.",
+  "isoElements": {
+    "TransportByAir": {
+      "name": "Transport By Air",
+      "definition": "Information related to the transportation of goods by air."
+    },
+    "TransportBySea": {
+      "name": "Transport By Sea",
+      "definition": "Information related for the transportation of goods by sea."
+    },
+    "TransportByRoad": {
+      "name": "Transport By Road",
+      "definition": "Moving of goods or people from one place to another by vehicle."
+    },
+    "TransportByRail": {
+      "name": "Transport By Rail",
+      "definition": "Information related to the transportation of goods by rail."
+    }
+  },
+  "isoRules": {
+    "CarrierNameBPORule": {
+      "definition": "At least one of AirCarrierName / SeaCarrierName / RoadCarrierName / RailCarrierName must be present if PaymentObligation (BPO) is used in this transaction."
+    },
+    "VesselNameBPORule": {
+      "definition": "In case of transport by sea, VesselName must be present if PaymentObligation (BPO) is used in this transaction.”."
+    }
+  }
+}

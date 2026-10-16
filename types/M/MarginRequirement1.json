@@ -1,0 +1,16 @@
+{
+  "isoType": "MarginRequirement1",
+  "language": "en",
+  "name": "Margin Requirement 1",
+  "definition": "Amount of expected margin required by any of the parties of the margin calculation.",
+  "isoElements": {
+    "DeliverMarginAmount": {
+      "name": "Deliver Margin Amount",
+      "definition": "Amount of new margin that will be delivered to one party by the other party after rounding, threshold and minimum transfer amount are taken into account."
+    },
+    "ReturnMarginAmount": {
+      "name": "Return Margin Amount",
+      "definition": "Amount of new margin that will be recalled to one party from the other party after rounding, threshold and minimum transfer amount are taken into account."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "isoType": "AccountLink7",
+  "language": "en",
+  "name": "Account Link 7",
+  "definition": "Defines how the securities account is linked to the cash account.",
+  "isoElements": {
+    "SecuritiesAccount": {
+      "name": "Securities Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "CashAccount": {
+      "name": "Cash Account",
+      "definition": "Account to or from which a cash entry is made."
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Defines the date since when the securities account is linked to the cash account."
+    },
+    "ValidTo": {
+      "name": "Valid To",
+      "definition": "Defines the date until when the securities account is linked to the cash account."
+    },
+    "DefaultIndicator": {
+      "name": "Default Indicator",
+      "definition": "Specifies whether created account link is set as default for settlement."
+    },
+    "CollateralisationIndicator": {
+      "name": "Collateralisation Indicator",
+      "definition": "Specifies whether market infrastructure can use the securities, earmarked as collateral and held on the securities account, for auto-collateralisation operations on the linked market infrastructure dedicated cash account."
+    },
+    "CashSettlementIndicator": {
+      "name": "Cash Settlement Indicator",
+      "definition": "Specifies whether market infrastructure can use the link between the securities account and the market infrastructure dedicated cash account for the settlement of the cash leg of a settlement instruction."
+    }
+  },
+  "isoRules": {
+    "SecuritiesAccountOrBlockChainAddress1Rule": {
+      "definition": "If SecuritiesAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SecuritiesAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SecuritiesAccount must be absent."
+    },
+    "SecuritiesAccountOrBlockChainAddress3Rule": {
+      "definition": "Either SecuritiesAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

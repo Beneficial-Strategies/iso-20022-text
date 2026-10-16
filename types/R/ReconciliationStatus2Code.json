@@ -1,0 +1,23 @@
+{
+  "isoType": "ReconciliationStatus2Code",
+  "language": "en",
+  "name": "Reconciliation Status 2 Code",
+  "definition": "Indicator if reconciliation of derivatives for which all the reconcilable fields are within the allowed tolerances.",
+  "isoCodes": {
+    "NREC": {
+      "isoName": "NonReconciled",
+      "name": "Non Reconciled",
+      "definition": "Indicator of reconciliation of derivatives for which all the reconcilable fields are not within the allowed tolerances."
+    },
+    "RECO": {
+      "isoName": "Reconciled",
+      "name": "Reconciled",
+      "definition": "Indicator of reconciliation of derivatives for which all the reconcilable fields are within the allowed tolerances."
+    },
+    "NOAP": {
+      "isoName": "NotApplicable",
+      "name": "Not Applicable",
+      "definition": "Not applicable."
+    }
+  }
+}

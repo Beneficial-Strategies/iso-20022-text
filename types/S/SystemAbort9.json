@@ -1,0 +1,24 @@
+{
+  "isoType": "SystemAbort9",
+  "language": "en",
+  "name": "System Abort 9",
+  "definition": "Specifies the type of system service to be used with this message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "SystemAbort": {
+      "name": "System Abort",
+      "definition": "Body of the Abort Request message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

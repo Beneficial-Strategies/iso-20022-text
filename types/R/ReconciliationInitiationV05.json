@@ -1,0 +1,104 @@
+{
+  "isoType": "ReconciliationInitiationV05",
+  "language": "en",
+  "name": "Reconciliation Initiation V 05",
+  "definition": "The ReconciliationInitiation message can be initiated by any party and received by any party (acquirer, agent or issuer).||Reconciliation is the exchange between two interchanging parties (Acquirer, Issuer or Agent) of totals and/or counts of messages within a specific session.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "ReconciliationFunction": {
+      "name": "Reconciliation Function",
+      "definition": "Type of reconciliation."
+    },
+    "ReconciliationActivityType": {
+      "name": "Reconciliation Activity Type",
+      "definition": "A code to indicate the activity type to be reconciled. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "ReconciliationType": {
+      "name": "Reconciliation Type",
+      "definition": "Type of reconciliation. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "RequestedCurrency": {
+      "name": "Requested Currency",
+      "definition": "Requested currency by the acceptor.|ISO 4217"
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "ReconciliationTotals": {
+      "name": "Reconciliation Totals",
+      "definition": "Totals of the reconciliation."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation"
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

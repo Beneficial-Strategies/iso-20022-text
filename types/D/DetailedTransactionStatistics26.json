@@ -1,0 +1,24 @@
+{
+  "isoType": "DetailedTransactionStatistics26",
+  "language": "en",
+  "name": "Detailed Transaction Statistics 26",
+  "definition": "Information about outstanding derivatives, outstanding derivatives with no margin and outstanding derivatives with outdated margin.",
+  "isoElements": {
+    "NumberOfOutstandingDerivatives": {
+      "name": "Number Of Outstanding Derivatives",
+      "definition": "Number of outstanding derivatives."
+    },
+    "NumberOfOutstandingDerivativesWithNoMarginInformation": {
+      "name": "Number Of Outstanding Derivatives With No Margin Information",
+      "definition": "Number of outstanding derivatives with no margin information."
+    },
+    "NumberOfOutstandingDerivativesWithOutdatedMarginInformation": {
+      "name": "Number Of Outstanding Derivatives With Outdated Margin Information",
+      "definition": "Number of outstanding derivatives with outdated margin information."
+    },
+    "Warnings": {
+      "name": "Warnings",
+      "definition": "Details of the outstanding derivatives for which no margin information has been reported, or the margin information that was reported is dated more than fourteen calendar days earlier than the day."
+    }
+  }
+}

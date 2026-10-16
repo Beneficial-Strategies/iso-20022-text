@@ -1,0 +1,33 @@
+{
+  "isoType": "PositionEffect2Code",
+  "language": "en",
+  "name": "Position Effect 2 Code",
+  "definition": "Indicates whether the resulting position after a trade should be an opening position or closing position.",
+  "isoCodes": {
+    "OPEN": {
+      "isoName": "OpenPosition",
+      "name": "Open Position",
+      "definition": "Position after the trade the position should be open."
+    },
+    "CLOS": {
+      "isoName": "ClosePosition",
+      "name": "Close Position",
+      "definition": "Position after the trade the position should be closed."
+    },
+    "ROLL": {
+      "isoName": "Rolled",
+      "name": "Rolled",
+      "definition": "Results in a position obtained in a security previously held, sold and repurchased."
+    },
+    "FIFO": {
+      "isoName": "Fifo",
+      "name": "Fifo",
+      "definition": "First in, first out. Results in a position obtained after having sold in priority the securities bought chronologically."
+    },
+    "CLOA": {
+      "isoName": "CloseAccount",
+      "name": "Close Account",
+      "definition": "Trade relates to a closure of an account."
+    }
+  }
+}

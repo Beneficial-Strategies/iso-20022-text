@@ -1,0 +1,55 @@
+{
+  "isoType": "Fee9",
+  "language": "en",
+  "name": "Fee 9",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of fee (charge/commission)."
+    },
+    "Basis": {
+      "name": "Basis",
+      "definition": "Method used to calculate the fee (charge/commission)."
+    },
+    "StandardAmount": {
+      "name": "Standard Amount",
+      "definition": "Standard fee (charge/commission) amount as specified in the fund prospectus or agreed for the account."
+    },
+    "StandardRate": {
+      "name": "Standard Rate",
+      "definition": "Standard fee (charge/commission) rate used to calculate the amount of the charge or fee, as specified in the fund prospectus or agreed for the account."
+    },
+    "DiscountDetails": {
+      "name": "Discount Details",
+      "definition": "Discount or waiver applied to the fee (charge/commission)."
+    },
+    "RequestedAmount": {
+      "name": "Requested Amount",
+      "definition": "Requested fee (charge/commission) amount as agreed for the account."
+    },
+    "RequestedRate": {
+      "name": "Requested Rate",
+      "definition": "Requested rate used to calculate the amount of the fee (charge/commission), as agreed for the account."
+    },
+    "NonStandardSLAReference": {
+      "name": "Non Standard SLA Reference",
+      "definition": "Reference to a sales agreement that overrides normal processing or the Service Level Agreement (SLA), such as a fee (charge/commission)."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Party entitled to the amount of money resulting from a fee (charge/commission)."
+    }
+  },
+  "isoRules": {
+    "FeeElementRule": {
+      "definition": "One of the elements (Basis, StandardAmount, StandardRate, DiscountDetails, RequestedAmount, RequestedRate, NonStandardSLAReference, RecipientIdentification) must be present."
+    },
+    "StandardFeeAmountCalculation": {
+      "definition": "If StandardAmount, RequestedAmount and DiscountDetails/Amount are all present, then StandardAmount minus DiscountDetails/Amount must equal RequestedAmount."
+    },
+    "StandardFeeRateCalculation": {
+      "definition": "If StandardRate, RequestedRate and DiscountDetails/Rate are all present, then StandardRate minus DiscountDetails/Rate must equal RequestedRate."
+    }
+  }
+}

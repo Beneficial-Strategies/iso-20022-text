@@ -1,0 +1,36 @@
+{
+  "isoType": "SettlementAccount1",
+  "language": "en",
+  "name": "Settlement Account 1",
+  "definition": "Deposit account used by the central counterparty to make payments to and from its clearing members.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the settlement account."
+    },
+    "EndOfDayInitialMarginCalled": {
+      "name": "End Of Day Initial Margin Called",
+      "definition": "Total value of initial margin to be called or returned to clearing member the morning following end of day. Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    },
+    "EndOfDayVariationMarginCalled": {
+      "name": "End Of Day Variation Margin Called",
+      "definition": "Total cash receivable (or payable) in the relevant currency based on changes in the mark-to-market of a clearing member’s positions, including liabilities (or credits) relating to option premiums, upfront fees or cash calls to cover other mark-to-market exposures where such exposures create a cash payable / receivable from the member. Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    },
+    "EndOfDayDefaultFundCalled": {
+      "name": "End Of Day Default Fund Called",
+      "definition": "Total net cash receivable (payable) in the relevant currency that will be called to cover default fund requirements. DF receipts from clearing members are positive, payments to members are negative. Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    },
+    "EndOfDaySettlementCalled": {
+      "name": "End Of Day Settlement Called",
+      "definition": "Total cash receivable (or payable) in the relevant currency arising from settlement or delivery obligations of a Clearing Member positions where such obligations arise in the payment system of the CCP. Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    },
+    "EndOfDayOtherCalled": {
+      "name": "End Of Day Other Called",
+      "definition": "Other cash receivable (payables) in the relevant currency that will be called from or paid to the Clearing Member by the CCP. Such obligations may include exchange/clearing fees, and interest on margin interest on mark-to-market, coupon payments (including such payments called and settled by a securities settlement system). Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    },
+    "EndOfDayLiquidityCalled": {
+      "name": "End Of Day Liquidity Called",
+      "definition": "Net cash receivables (payable) that will be called/paid by the CCP to the clearing member in the relevant currency. If the amount represents a credit for the clearing member, the net cash amount due to be delivered on the reporting date and/or returnable on demand by the Clearing Member. Indicates whether the clearing member has an obligation to deliver cash to the CCP (true) or receive cash from the CCP (false)."
+    }
+  }
+}

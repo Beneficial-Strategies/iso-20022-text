@@ -1,0 +1,38 @@
+{
+  "isoType": "ValuationFactorBreakdown1",
+  "language": "en",
+  "name": "Valuation Factor Breakdown 1",
+  "definition": "Possible valuation factors.",
+  "isoElements": {
+    "ValuationFactor": {
+      "name": "Valuation Factor",
+      "definition": "Aggregated adjustment applied on the liability/collateral to calculate the position. It is the sum of the inflation, the haircut/margin and pool factors."
+    },
+    "InflationFactor": {
+      "name": "Inflation Factor",
+      "definition": "Adjustment related to inflation applied on the liability/collateral to calculate the position."
+    },
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Haircut or margin on the security  expressed as a percentage."
+    },
+    "PoolFactor": {
+      "name": "Pool Factor",
+      "definition": "Percentage that applies to price of the securities following a redemption."
+    }
+  },
+  "isoRules": {
+    "ValuationFactorPresenceRule": {
+      "definition": "If  inflation factor, haircut and pool factor are absent then valuation factor must be present."
+    },
+    "InflationFactorPresenceRule": {
+      "definition": "If  valuation inflation factor, haircut and pool factor are absent then inflation factor must be present."
+    },
+    "HaircutFactorPresenceRule": {
+      "definition": "If  valuation factor, inflation factor and pool factor are absent then haircut  must be present."
+    },
+    "PoolFactorPresenceRule": {
+      "definition": "If  valuation factor, inflation factor and haircut are absent then pool factor must be present."
+    }
+  }
+}

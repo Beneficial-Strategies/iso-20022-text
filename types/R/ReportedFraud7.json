@@ -1,0 +1,28 @@
+{
+  "isoType": "ReportedFraud7",
+  "language": "en",
+  "name": "Reported Fraud 7",
+  "definition": "Fraud reporting type information",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of fraud for which a report is established. P000-P999 reserved for private use, N000-N999 reserved for national use"
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Identifies the type of fraud reporting action. P000-P999 reserved for private use, N000-N999 reserved for national use"
+    },
+    "ReportingEntity": {
+      "name": "Reporting Entity",
+      "definition": "Type of fraud reporting entity."
+    },
+    "SubmitterCaseReference": {
+      "name": "Submitter Case Reference",
+      "definition": "Reference to the case as provided by the submitter."
+    },
+    "CaseReference": {
+      "name": "Case Reference",
+      "definition": "Reference of fraudulent case."
+    }
+  }
+}

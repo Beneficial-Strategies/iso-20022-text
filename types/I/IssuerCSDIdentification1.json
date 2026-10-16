@@ -1,0 +1,20 @@
+{
+  "isoType": "IssuerCSDIdentification1",
+  "language": "en",
+  "name": "Issuer CSD Identification 1",
+  "definition": "Specifies the identification of the issuer CSD (central securities depository).",
+  "isoElements": {
+    "LEI": {
+      "name": "LEI",
+      "definition": "Identification code of the Issuer CSD, using LEI; Legal Entity Identifier (LEI) is a code allocated to a party as described in ISO 17442 'Financial Services - Legal Entity Identifier (LEI)'."
+    },
+    "FirstTwoCharactersInstrumentIdentification": {
+      "name": "First Two Characters Instrument Identification",
+      "definition": "Identifies the jurisdiction relevant for the financial instrument based on the first two characters of its instrument identification code."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Identifies the country code of the Issuer CSD, using ISO 3166 2-character code."
+    }
+  }
+}

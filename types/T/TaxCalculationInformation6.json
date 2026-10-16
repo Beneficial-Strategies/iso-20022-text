@@ -1,0 +1,25 @@
+{
+  "isoType": "TaxCalculationInformation6",
+  "language": "en",
+  "name": "Tax Calculation Information 6",
+  "definition": "Information used to calculate the tax.",
+  "isoElements": {
+    "Basis": {
+      "name": "Basis",
+      "definition": "Basis used to determine the capital gain or loss, eg, the purchase price."
+    },
+    "ExtendedBasis": {
+      "name": "Extended Basis",
+      "definition": "Basis used to determine the capital gain or loss, eg, the purchase price."
+    },
+    "TaxableAmount": {
+      "name": "Taxable Amount",
+      "definition": "Amount of money that it is to be taxed."
+    }
+  },
+  "isoRules": {
+    "BasisOrExtendedBasisRule": {
+      "definition": "Either Basis or ExtendedBasis may be present, but not both."
+    }
+  }
+}

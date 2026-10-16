@@ -1,0 +1,73 @@
+{
+  "isoType": "TradeStatus1Code",
+  "language": "en",
+  "name": "Trade Status 1 Code",
+  "definition": "Specifies the status of a trade in a central matching and settlement system.",
+  "isoCodes": {
+    "INVA": {
+      "isoName": "Invalid",
+      "name": "Invalid",
+      "definition": "Trade is invalid."
+    },
+    "VALI": {
+      "isoName": "Validated",
+      "name": "Validated",
+      "definition": "Trade is validated."
+    },
+    "REGC": {
+      "isoName": "RegulatoryChecked",
+      "name": "Regulatory Checked",
+      "definition": "Trade passed regulatory check."
+    },
+    "UMTC": {
+      "isoName": "Unmatched",
+      "name": "Unmatched",
+      "definition": "Trade is unmatched."
+    },
+    "VMTC": {
+      "isoName": "MatchedValued",
+      "name": "Matched Valued",
+      "definition": "Both the Opening and the Valuation details of an NDF trade have been matched with corresponding details of a counterparty's NDF trade."
+    },
+    "RSCD": {
+      "isoName": "Rescinded",
+      "name": "Rescinded",
+      "definition": "Trade is rescinded."
+    },
+    "STLD": {
+      "isoName": "Settled",
+      "name": "Settled",
+      "definition": "Settlement is complete."
+    },
+    "PSTL": {
+      "isoName": "PartiallySettled",
+      "name": "Partially Settled",
+      "definition": "Part, but not all, of a Trade's value has settled, and no further elements of the Trade's value are expected to be settled."
+    },
+    "REGS": {
+      "isoName": "RegulatorySuspended",
+      "name": "Regulatory Suspended",
+      "definition": "Trade is suspended for regulatory reasons."
+    },
+    "FMTC": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Trade is matched."
+    },
+    "SRJC": {
+      "isoName": "SettlementRejected",
+      "name": "Settlement Rejected",
+      "definition": "Trade settlement is rejected."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Trade is rejected."
+    },
+    "OPMA": {
+      "isoName": "OptionMature",
+      "name": "Option Mature",
+      "definition": "Option has matured."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "OtherPayment6",
+  "language": "en",
+  "name": "Other Payment 6",
+  "definition": "Payment related to elements not reported in dedicated fields.",
+  "isoElements": {
+    "PaymentCurrency": {
+      "name": "Payment Currency",
+      "definition": "Currency of payment the reporting counterparty made or received."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Indicates the type of other payment."
+    },
+    "PaymentDate": {
+      "name": "Payment Date",
+      "definition": "Indicates the unadjusted date on which the other payment is paid."
+    },
+    "PaymentPayer": {
+      "name": "Payment Payer",
+      "definition": "Identifies the payer of the other payment amount."
+    },
+    "PaymentReceiver": {
+      "name": "Payment Receiver",
+      "definition": "Identifies the receiver of the other payment amount."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

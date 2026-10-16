@@ -1,0 +1,36 @@
+{
+  "isoType": "InterestPaymentStatementV05",
+  "language": "en",
+  "name": "Interest Payment Statement V 05",
+  "definition": "Scope|The InterestPaymentStatement message is sent by either the collateral giver or its collateral manager to the collateral taker or its collateral manager. It is used to report the interest amounts calculated based on the effective posted collateral amount, over a specific period of time agreed by both parties.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|The InterestPaymentStatement message is used for reporting the interest per period on collateral held.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement details for the over the counter market."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "StatementParameters": {
+      "name": "Statement Parameters",
+      "definition": "Provides general information on the report such as the statement identification."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message (within a statement) and continuation indicator to indicate that the statement is to continue or that the message is the last page of the statement."
+    },
+    "InterestStatement": {
+      "name": "Interest Statement",
+      "definition": "Provides details on the interest statement."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

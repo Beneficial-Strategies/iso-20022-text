@@ -1,0 +1,64 @@
+{
+  "isoType": "ShippingData4",
+  "language": "en",
+  "name": "Shipping Data 4",
+  "definition": "Shipping or Courier Service delivery.",
+  "isoElements": {
+    "InvoiceNumber": {
+      "name": "Invoice Number",
+      "definition": "Contains the invoice number."
+    },
+    "InvoiceCreationDateTime": {
+      "name": "Invoice Creation Date Time",
+      "definition": "Contains the date and time the electronic invoice was created."
+    },
+    "ServiceDescriptorCode": {
+      "name": "Service Descriptor Code",
+      "definition": "Contains a card acceptor designated code for the shipping service provided."
+    },
+    "IncentiveAmount": {
+      "name": "Incentive Amount",
+      "definition": "Contains the amount of any incentives applied to the transaction."
+    },
+    "MiscellaneousExpenses": {
+      "name": "Miscellaneous Expenses",
+      "definition": "Contains the amount of any miscellaneous expenses applicable to the transaction."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "InsuranceAmount": {
+      "name": "Insurance Amount",
+      "definition": "Amount of insurance."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Contains the net amount of shipping expenses."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Contains the total tax amount for the entire purchase."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "NumberOfPackages": {
+      "name": "Number Of Packages",
+      "definition": "Contains the total number of packages being shipped or sent by the service provider."
+    },
+    "Package": {
+      "name": "Package",
+      "definition": "Contains the details of the package being shipped."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

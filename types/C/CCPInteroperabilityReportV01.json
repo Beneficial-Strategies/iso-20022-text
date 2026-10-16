@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPInteroperabilityReportV01",
+  "language": "en",
+  "name": "CCP Interoperability Report V 01",
+  "definition": "The CCPInteroperabilityReport message is sent from the central counterparty to the national competent authority. It is an optional report only to be sent if the central counterparty offers an interoperability arrangement with another CCP. It informs the national competent authority about the usage of the linked CCPs in terms of the exposures, margin calls and collateral from the interoperable CCP to the reporting CCP.",
+  "isoElements": {
+    "InteroperabilityCCP": {
+      "name": "Interoperability CCP",
+      "definition": "Identification of the interoperability CCP."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

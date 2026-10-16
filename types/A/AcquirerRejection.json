@@ -1,0 +1,16 @@
+{
+  "isoType": "AcquirerRejection",
+  "language": "en",
+  "name": "Acquirer Rejection",
+  "definition": "The AcquirerRejection message is sent by any party, to reject an Acquirer to Issuer message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "Reject": {
+      "name": "Reject",
+      "definition": "Information related to the reject."
+    }
+  }
+}

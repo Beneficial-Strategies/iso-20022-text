@@ -1,0 +1,28 @@
+{
+  "isoType": "ExposureTypeAggregation3",
+  "language": "en",
+  "name": "Exposure Type Aggregation 3",
+  "definition": "Specifies the valuation details per exposure type aggregation.",
+  "isoElements": {
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Specifies the underlying business area/type of trade causing the exposure."
+    },
+    "SettlementProcess": {
+      "name": "Settlement Process",
+      "definition": "Specifies the settlement process in which the collateral will be settled."
+    },
+    "ValuationAmounts": {
+      "name": "Valuation Amounts",
+      "definition": "Provides details on the collateral valuation."
+    },
+    "MarginRate": {
+      "name": "Margin Rate",
+      "definition": "The collateral excess/shortage expressed in the percentage of the collateral required."
+    },
+    "GlobalExposureTypeStatus": {
+      "name": "Global Exposure Type Status",
+      "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions of the same exposure type."
+    }
+  }
+}

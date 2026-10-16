@@ -1,0 +1,56 @@
+{
+  "isoType": "CorporateActionConfirmationSecuritiesMovementDetailsSD6",
+  "language": "en",
+  "name": "Corporate Action Confirmation Securities Movement Details SD 6",
+  "definition": "Provides additional information regarding corporate action confirmation securities movement details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or a credit."
+    },
+    "PayoutType": {
+      "name": "Payout Type",
+      "definition": "Specifies the type of payout associated with the event (for example: principal, long term capital gain)."
+    },
+    "TransactionQuantity": {
+      "name": "Transaction Quantity",
+      "definition": "Resulting quantity of securities concerned in this transaction."
+    },
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Transaction reason."
+    },
+    "SubReasonCode": {
+      "name": "Sub Reason Code",
+      "definition": "Transaction sub reason."
+    },
+    "ContraParticipantNumber": {
+      "name": "Contra Participant Number",
+      "definition": "Transaction contra participant identification when shares are distributed / delivered to / from another participant."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date on which a financial instrument becomes due and assets are to be repaid."
+    },
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Date/Time on which the posting /draft of the securities took place."
+    },
+    "TaxAdjustmentRate": {
+      "name": "Tax Adjustment Rate",
+      "definition": "Set of the DTC legacy sub reason codes representing tax rate. Used with reason codes ‘TJXD’ ‘TJXF’ ‘TJXI’ ‘TJXL’ ‘TJXR’ ‘TJXT’ ‘TJXU’ to identify the correct tax rate."
+    },
+    "RDPReferenceNumber": {
+      "name": "RDP Reference Number",
+      "definition": "Unique DTCC legacy reference used for matching and reconciling legacy CCF records. The element will be populated to all levels of the message (event details, options, movements) where applicable to indicate how values are sourced from CCF legacy files. For example: event has 2 related activity types 74, and 54. If event details and cash option are sourced from the activity type 74, then activity type 74 will be in RDP reference number in event details, and also on the cash option. The activity type 54 will be \"on\" the security option. Also, usage rules will specify the different layouts of the RDP reference number based on DTCC event group (reorganization, distribution, or redemption)."
+    },
+    "RoundingFactor": {
+      "name": "Rounding Factor",
+      "definition": "Decimal above which numbers are rounded. For an example if rounding factor is 0.6 this means that fractional units greater than or equal to 6 will be rounded up and less than 6 will be rounded down."
+    }
+  }
+}

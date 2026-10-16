@@ -1,0 +1,44 @@
+{
+  "isoType": "TradeData45",
+  "language": "en",
+  "name": "Trade Data 45",
+  "definition": "Provides information on the status of a trade.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Identification of the present message assigned by the party issuing the message. This identification must be unique amongst all messages of same type sent by the same party."
+    },
+    "StatusOriginator": {
+      "name": "Status Originator",
+      "definition": "Party that assigned the status to the foreign exchange trade."
+    },
+    "CurrentStatus": {
+      "name": "Current Status",
+      "definition": "Specifies the new status of the trade."
+    },
+    "CurrentStatusSubType": {
+      "name": "Current Status Sub Type",
+      "definition": "Additional information about the current status of the trade."
+    },
+    "CurrentStatusDateTime": {
+      "name": "Current Status Date Time",
+      "definition": "Specifies the date and time at which the current status was assigned to all the trades, unless overwritten by a date and time assigned to an individual trade."
+    },
+    "PreviousStatus": {
+      "name": "Previous Status",
+      "definition": "Specifies the previous status of a trade."
+    },
+    "PreviousStatusSubType": {
+      "name": "Previous Status Sub Type",
+      "definition": "Additional information on the previous status of a trade in a central system."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Specifies the product for which the status of the confirmation is reported, unless overwritten by a product type assigned to an individual trade."
+    },
+    "SettlementSessionIdentifier": {
+      "name": "Settlement Session Identifier",
+      "definition": "To indicate the requested CLS settlement session that the related trade is part of."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "isoType": "TradePartyQueryCriteria5",
+  "language": "en",
+  "name": "Trade Party Query Criteria 5",
+  "definition": "Details on the queried trade parties.",
+  "isoElements": {
+    "Operator": {
+      "name": "Operator",
+      "definition": "Specifies the AND/OR operators as query criteria."
+    },
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Identifies the reporting counterparty of the contract."
+    },
+    "ReportingCounterpartyBranch": {
+      "name": "Reporting Counterparty Branch",
+      "definition": "Data specific to branch of the reporting counterparty and related fields."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Identifies the other counterparty of the contract."
+    },
+    "OtherCounterpartyBranch": {
+      "name": "Other Counterparty Branch",
+      "definition": "Data specific to branch of the other reporting counterparty and related fields."
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Identifies the party subject to the rights and obligations arising from the contract."
+    },
+    "SubmittingAgent": {
+      "name": "Submitting Agent",
+      "definition": "Identifies the submitting agent of the reported of the contract."
+    },
+    "Broker": {
+      "name": "Broker",
+      "definition": "Identifies the broker who acts as an intermediary for the reporting counterparty."
+    },
+    "CCP": {
+      "name": "CCP",
+      "definition": "Unique code for the CCP that has cleared the contract."
+    },
+    "AgentLender": {
+      "name": "Agent Lender",
+      "definition": "Identification of the agent lender involved in the securities lending transaction."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Identification of the third party that administers the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of ReportingCounterparty,OtherCounterparty, Beneficiary, SubmittingAgent, Broker or CCP must be present."
+    }
+  }
+}

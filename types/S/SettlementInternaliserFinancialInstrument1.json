@@ -1,0 +1,44 @@
+{
+  "isoType": "SettlementInternaliserFinancialInstrument1",
+  "language": "en",
+  "name": "Settlement Internaliser Financial Instrument 1",
+  "definition": "Specifies the type of financial instruments that are initially recorded or centrally maintained in CSDs (central securities depositories) as defined in the relevant regulation.",
+  "isoElements": {
+    "Equity": {
+      "name": "Equity",
+      "definition": "Shares in companies and other securities equivalent to shares in companies, partnerships or other entities, and depositary receipts in respect of share."
+    },
+    "SovereignDebt": {
+      "name": "Sovereign Debt",
+      "definition": "Debt instrument issued by a sovereign issuer."
+    },
+    "Bond": {
+      "name": "Bond",
+      "definition": "Bonds other than sovereign debt."
+    },
+    "OtherTransferableSecurities": {
+      "name": "Other Transferable Securities",
+      "definition": "Securities meeting the criteria laid down in the relevant legislation."
+    },
+    "ExchangeTradingFunds": {
+      "name": "Exchange Trading Funds",
+      "definition": "Relates to a fund of which at least one unit or share class is traded throughout the day on at least one trading venue and with at least one market maker which takes action to ensure that the price of its units or shares on the trading venue does not vary significantly from its net asset value and, where applicable, from its indicative net asset value, as referred to in the relevant legislation."
+    },
+    "CollectiveInvestmentUndertakings": {
+      "name": "Collective Investment Undertakings",
+      "definition": "Units in collective investment undertakings, other than ETFs."
+    },
+    "MoneyMarketInstrument": {
+      "name": "Money Market Instrument",
+      "definition": "Money market instruments other than sovereign debts."
+    },
+    "EmissionAllowance": {
+      "name": "Emission Allowance",
+      "definition": "Relates to emission allowances which are tradable according to the relevant legislation."
+    },
+    "OtherFinancialInstruments": {
+      "name": "Other Financial Instruments",
+      "definition": "Covers any financial instruments not covered as a dedicated category."
+    }
+  }
+}

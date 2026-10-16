@@ -1,0 +1,32 @@
+{
+  "isoType": "PartyRegistrationAndGuaranteeNotificationV01",
+  "language": "en",
+  "name": "Party Registration And Guarantee Notification V 01",
+  "definition": "The PartyRegistrationAndGuaranteeNotification message is sent by a factoring client or a financial service to a trade partner and, optionally, to an interested party in order to notify the status of a requested financial service agreement. The trade partner is given information to explain the consequences of a financial service agreement, for instance, the trade partner must pay the financial institution and must use the electronic address to inform it and pay it using the bank account given.|The message may reference related messages and may include referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the notification, common parameters, documents and identifications."
+    },
+    "NotificationList": {
+      "name": "Notification List",
+      "definition": "List of otifications."
+    },
+    "NotificationCount": {
+      "name": "Notification Count",
+      "definition": "Number of notification lists as control value."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

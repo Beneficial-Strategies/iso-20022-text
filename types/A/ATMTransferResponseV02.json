@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTransferResponseV02",
+  "language": "en",
+  "name": "ATM Transfer Response V 02",
+  "definition": "The ATMTransferResponse message is sent by an acquirer or its agent to inform the ATM of the approval or decline of the transfer transaction.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMTransferResponse": {
+      "name": "Protected ATM Transfer Response",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMTransferResponse": {
+      "name": "ATM Transfer Response",
+      "definition": "Information related to the response of an ATM transfer from an ATM manager."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

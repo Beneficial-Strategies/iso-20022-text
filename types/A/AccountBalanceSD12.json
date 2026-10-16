@@ -1,0 +1,28 @@
+{
+  "isoType": "AccountBalanceSD12",
+  "language": "en",
+  "name": "Account Balance SD 12",
+  "definition": "Provides additional information regarding account balance. Contains transaction details of the stock loans, repurchase agreements (REPOs) and undelivered trades (FAILs).",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "UncoveredProtectBalance": {
+      "name": "Uncovered Protect Balance",
+      "definition": "Balance of all uncovered protect instructions across all options."
+    },
+    "InvestmentUnpledgedBalance": {
+      "name": "Investment Unpledged Balance",
+      "definition": "Position held in DTC segregated account also called account 18. This position is not eligible for instruction processing but will be eligible for payment on mandatory events."
+    },
+    "InvestmentPledgedBalance": {
+      "name": "Investment Pledged Balance",
+      "definition": "Position held in DTC segregated account also called account 22. This position is not eligible for instruction processing but will be eligible for payment on mandatory events."
+    },
+    "MemoSegregationBalance": {
+      "name": "Memo Segregation Balance",
+      "definition": "Position held in DTC memo segregated account. This position is eligible for payment."
+    }
+  }
+}

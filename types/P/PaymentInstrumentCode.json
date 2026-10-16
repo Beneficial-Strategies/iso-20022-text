@@ -1,0 +1,58 @@
+{
+  "isoType": "PaymentInstrumentCode",
+  "language": "en",
+  "name": "Payment Instrument Code",
+  "definition": "Specifies the payment instrument used or the underlying financial transaction that resulted in a payment transaction.",
+  "isoCodes": {
+    "BDT": {
+      "isoName": "BankDebitTransfer",
+      "name": "Bank Debit Transfer",
+      "definition": "Direct debit instruction in which the debtor and the creditor are financial institutions."
+    },
+    "BCT": {
+      "isoName": "BankCreditTransfer",
+      "name": "Bank Credit Transfer",
+      "definition": "Funds transfer in which the debtor and the creditor are financial institutions."
+    },
+    "CDT": {
+      "isoName": "CustomerDebitTransfer",
+      "name": "Customer Debit Transfer",
+      "definition": "Direct debit instruction in which the debtor or the creditor or both are non-financial institutions."
+    },
+    "CCT": {
+      "isoName": "CustomerCreditTransfer",
+      "name": "Customer Credit Transfer",
+      "definition": "Funds transfer in which the debtor or the creditor or both are non-financial institutions."
+    },
+    "CHK": {
+      "isoName": "Cheque",
+      "name": "Cheque",
+      "definition": "Payment instrument is a cheque. (A written order on which instructions are given to an account holder (a financial institution) to pay a stated sum to a named recipient (the payee))."
+    },
+    "BKT": {
+      "isoName": "BookTransfer",
+      "name": "Book Transfer",
+      "definition": "Transfer that is a movement of cash on the books of the account servicer."
+    },
+    "DCP": {
+      "isoName": "DebitCardPayment",
+      "name": "Debit Card Payment",
+      "definition": "Payment instrument is a debit card. (The payment originated using a debit card scheme.)."
+    },
+    "CCP": {
+      "isoName": "CreditCardPayment",
+      "name": "Credit Card Payment",
+      "definition": "Payment instrument is a credit card. (The payment originated using a credit card scheme.)."
+    },
+    "RTI": {
+      "isoName": "Return",
+      "name": "Return",
+      "definition": "Entry related to a returned or unpaid item."
+    },
+    "CAN": {
+      "isoName": "CancellationRequest",
+      "name": "Cancellation Request",
+      "definition": "Reverse entry that is the result of the cancellation of a previously booked entry."
+    }
+  }
+}

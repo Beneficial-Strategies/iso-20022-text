@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIDeviceResponseV08",
+  "language": "en",
+  "name": "Sale To POI Device Response V 08",
+  "definition": "The SaleToPOIDeviceResponse message is sent by a POI System to sale system to provide result of a device request.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "DeviceResponse": {
+      "name": "Device Response",
+      "definition": "Information related to the response of a device request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

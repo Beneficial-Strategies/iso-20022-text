@@ -1,0 +1,96 @@
+{
+  "isoType": "KeyExchangeResponseV05",
+  "language": "en",
+  "name": "Key Exchange Response V 05",
+  "definition": "The KeyExchangeResponse message is sent by any party to any party (acquirer, agent or issuer) in response to a KeyExchangeInitiation message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "KeyExchangeFunction": {
+      "name": "Key Exchange Function",
+      "definition": "Type of key exchange function being performed. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "MessageReason": {
+      "name": "Message Reason",
+      "definition": "Reason or purpose to send the message.||The ISO 8583 maintenance agency (MA) manages this code list."
+    },
+    "AlternateMessageReason": {
+      "name": "Alternate Message Reason",
+      "definition": "Alternate reason to send a message."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "KeyExchangeType": {
+      "name": "Key Exchange Type",
+      "definition": "Defines the type of key being exchanged. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "KeyExchangeData": {
+      "name": "Key Exchange Data",
+      "definition": "Contains information pertaining to a key exchange. ||ISO 8583 bit 96"
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "OriginalResponseCode": {
+      "name": "Original Response Code",
+      "definition": "Original Response code."
+    },
+    "ProcessingResult": {
+      "name": "Processing Result",
+      "definition": "Outcome of the processing of the authorisation"
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "CollateralMovement12",
+  "language": "en",
+  "name": "Collateral Movement 12",
+  "definition": "Provides the agreed amount and the collateral movement direction.",
+  "isoElements": {
+    "AgreedAmount": {
+      "name": "Agreed Amount",
+      "definition": "Provides the call amount that is agreed and that will result in a collateral movement."
+    },
+    "MovementDirection": {
+      "name": "Movement Direction",
+      "definition": "Provides the collateral movement direction that is a delivery and optionally a return, or a return only."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ResourceAction1Code",
+  "language": "en",
+  "name": "Resource Action 1 Code",
+  "definition": "Type of action to perform on a media resource.",
+  "isoCodes": {
+    "PAUS": {
+      "isoName": "Pause",
+      "name": "Pause",
+      "definition": "Pause the media resource in progress as specified in the message."
+    },
+    "STAS": {
+      "isoName": "Play",
+      "name": "Play",
+      "definition": "Start the media resource as specified in the message."
+    },
+    "LOOP": {
+      "isoName": "PlayInLoop",
+      "name": "Play In Loop",
+      "definition": "Play in a loop the media resource as specified in the message."
+    },
+    "RESU": {
+      "isoName": "Resume",
+      "name": "Resume",
+      "definition": "Resume the progress of the media resource as specified in the message."
+    },
+    "DVOL": {
+      "isoName": "SetDefaultVolume",
+      "name": "Set Default Volume",
+      "definition": "Set the default volume of sounds."
+    },
+    "STOS": {
+      "isoName": "Stop",
+      "name": "Stop",
+      "definition": "Stop the media resource in progress."
+    }
+  }
+}

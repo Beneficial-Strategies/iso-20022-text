@@ -1,0 +1,52 @@
+{
+  "isoType": "Fee12",
+  "language": "en",
+  "name": "Fee 12",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of fee (charge/commission)."
+    },
+    "RepairedStandardAmount": {
+      "name": "Repaired Standard Amount",
+      "definition": "Modified value of the standard fee (charge/commission) amount applied on the order (the standard fee (charge/commission) amount in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "RepairedStandardRate": {
+      "name": "Repaired Standard Rate",
+      "definition": "Modified value of the standard fee (charge/commission) rate applied on the order (the standard fee (charge/commission) rate in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "RepairedDiscountAmount": {
+      "name": "Repaired Discount Amount",
+      "definition": "Modified value of the discount amount applied on the order (the discount amount in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "RepairedDiscountRate": {
+      "name": "Repaired Discount Rate",
+      "definition": "Modified value of the discount rate applied on the order (the discount rate in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "RepairedRequestedAmount": {
+      "name": "Repaired Requested Amount",
+      "definition": "Modified value of the requested fee (charge/commission) amount applied on the order (the requested fee (charge/commission) amount in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "RepairedRequestedRate": {
+      "name": "Repaired Requested Rate",
+      "definition": "Modified value of the requested fee (charge/commission) rate applied on the order (the requested fee (charge/commission) rate in the original individual order that has been repaired so that the order can be accepted)."
+    },
+    "CommercialAgreementReference": {
+      "name": "Commercial Agreement Reference",
+      "definition": "Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions."
+    },
+    "NewCommercialAgreementReferenceIndicator": {
+      "name": "New Commercial Agreement Reference Indicator",
+      "definition": "Indicates if the CommercialAgreementReference is a new reference or not."
+    }
+  },
+  "isoRules": {
+    "CommercialAgreementRule": {
+      "definition": "If CommercialAgreementReference is present, then NewCommercialAgreementReferenceIndicator must be present too."
+    },
+    "FeeElementRule": {
+      "definition": "One of the elements (Type, RepairedStandardAmount, RepairedStandardRate, RepairedDiscountAmount, RepairedDiscountRate, RepairedRequestedAmount, RepairedRequestedRate, CommercialAgreementReference, NewCommercialAgreementReferenceIndicator) must be present."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "UnderlyingTransaction1Choice",
+  "language": "en",
+  "name": "Underlying Transaction 1 Choice",
+  "definition": "Specifies the details of the underlying transaction on which the investigation is processed.",
+  "isoElements": {
+    "Initiation": {
+      "name": "Initiation",
+      "definition": "Set of elements used to reference the details of the original payment initiation."
+    },
+    "Interbank": {
+      "name": "Interbank",
+      "definition": "Set of elements used to reference the details of the original interbank payment transaction."
+    },
+    "StatementEntry": {
+      "name": "Statement Entry",
+      "definition": "Reference details on the underlying statement cash entry."
+    }
+  }
+}

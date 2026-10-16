@@ -1,0 +1,24 @@
+{
+  "isoType": "CounterpartyData89",
+  "language": "en",
+  "name": "Counterparty Data 89",
+  "definition": "Set of information specific to the counterparty.",
+  "isoElements": {
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Set of information identifying the reporting counterparty."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Data specific to other counterparties and related fields."
+    },
+    "EntityResponsibleForReport": {
+      "name": "Entity Responsible For Report",
+      "definition": "In the case where a financial counterparty is responsible for reporting on behalf of the other counterparty, the unique code identifying that counterparty. In the case where a management company is responsible for reporting on behalf of an Undertaking for Collective Investment in Transferable Securities (UCITS), the unique code identifying that management company. In the case where an Alternative Investment Fund Manager (AIFM) is responsible for reporting on behalf of an Alternative Investment Fund (AIF), the unique code identifying that AIFM."
+    },
+    "OtherPartyData": {
+      "name": "Other Party Data",
+      "definition": "Information on the other parties."
+    }
+  }
+}

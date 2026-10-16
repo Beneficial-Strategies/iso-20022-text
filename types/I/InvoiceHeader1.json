@@ -1,0 +1,44 @@
+{
+  "isoType": "InvoiceHeader1",
+  "language": "en",
+  "name": "Invoice Header 1",
+  "definition": "Collection of data for that is exchanged between two or more parties in written, printed or electronic form.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique identification of this invoice document."
+    },
+    "TypeCode": {
+      "name": "Type Code",
+      "definition": "Specifies the type of the document, for example commercial invoice."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of invoice document or transaction, for example, tax invoice."
+    },
+    "IssueDateTime": {
+      "name": "Issue Date Time",
+      "definition": "Issue date of the document."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party that issued this invoice document."
+    },
+    "LanguageCode": {
+      "name": "Language Code",
+      "definition": "Unique identifier for a language used in this invoice document."
+    },
+    "CopyIndicator": {
+      "name": "Copy Indicator",
+      "definition": "Indicator that the document is a copy of the|original document."
+    },
+    "DocumentPurpose": {
+      "name": "Document Purpose",
+      "definition": "Specifies the function of the document."
+    },
+    "IncludedNote": {
+      "name": "Included Note",
+      "definition": "Note included in this invoice document."
+    }
+  }
+}

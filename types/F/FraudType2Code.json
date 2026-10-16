@@ -1,0 +1,68 @@
+{
+  "isoType": "FraudType2Code",
+  "language": "en",
+  "name": "Fraud Type 2 Code",
+  "definition": "Identifies the type of fraud in a card payment environment.",
+  "isoCodes": {
+    "ACTO": {
+      "isoName": "AccountTakeover",
+      "name": "Account Takeover",
+      "definition": "Fraudulent transaction due to the unauthorised use of a card account by a person with the intent to defraud the issuer of the card."
+    },
+    "CWUI": {
+      "isoName": "CounterfeitWithUnassignedIIN",
+      "name": "Counterfeit With Unassigned IIN",
+      "definition": "Fraudulent transaction where the acquirer confirmed that the IIN (Issuer Identification Number) used was either never issued or is invalid."
+    },
+    "CRNT": {
+      "isoName": "CardNotReceived",
+      "name": "Card Not Received",
+      "definition": "Fraudulent transaction with a card that was not received by the cardholder."
+    },
+    "FRAC": {
+      "isoName": "FraudulentAccountUse",
+      "name": "Fraudulent Account Use",
+      "definition": "Fraudulent use of an account."
+    },
+    "FRAP": {
+      "isoName": "FraudulentApplication",
+      "name": "Fraudulent Application",
+      "definition": "Fraudulent transaction on an account that the cardholder never applied for or the information on the application was falsified."
+    },
+    "CWKA": {
+      "isoName": "CounterfeitWithExistingAccount",
+      "name": "Counterfeit With Existing Account",
+      "definition": "Fraudulent transaction with an altered or duplicated card in a card-present environment where the cardholder did not knowingly participate or the account was not created."
+    },
+    "CRDL": {
+      "isoName": "LostCard",
+      "name": "Lost Card",
+      "definition": "Fraudulent transaction with a card that has been reported as lost"
+    },
+    "MISC": {
+      "isoName": "Miscellaneous",
+      "name": "Miscellaneous",
+      "definition": "Fraudulent transaction that cannot be categorised as one of the standard fraud types."
+    },
+    "CRDS": {
+      "isoName": "StolenCard",
+      "name": "Stolen Card",
+      "definition": "Fraudulent transaction with a card that has been reported as stolen."
+    },
+    "CNPA": {
+      "isoName": "CardNotPresentAccountUse",
+      "name": "Card Not Present Account Use",
+      "definition": "Fraudulent use in a card-not-present environment of an account."
+    },
+    "MUFD": {
+      "isoName": "MultipleUseFraud",
+      "name": "Multiple Use Fraud",
+      "definition": "Merchant makes additional transactions against a card when consumer authorised for one legitimate transaction."
+    },
+    "COSN": {
+      "isoName": "Collusion",
+      "name": "Collusion",
+      "definition": "Two parties colluding for the purpose of creating fraudulent transaction. For example, a cardholder and merchant."
+    }
+  }
+}

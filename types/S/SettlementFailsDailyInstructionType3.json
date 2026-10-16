@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementFailsDailyInstructionType3",
+  "language": "en",
+  "name": "Settlement Fails Daily Instruction Type 3",
+  "definition": "Specifies the details on the settlement fails split per instruction types.",
+  "isoElements": {
+    "DeliveryVersusPayment": {
+      "name": "Delivery Versus Payment",
+      "definition": "Fails due to delivery versus payment (DVP) settlement transactions, covers both delivery versus payment and receive versus payment transactions."
+    },
+    "DeliveryWithPayment": {
+      "name": "Delivery With Payment",
+      "definition": "Fails due to delivery with payment (DWP) settlement transactions, covers both delivery with payment (DWP) and receive with payment (RWP) transactions."
+    },
+    "PaymentFreeOfDelivery": {
+      "name": "Payment Free Of Delivery",
+      "definition": "Fails due to payment free of delivery (PFOD) settlement transactions, covers both debit payment free of delivery (DPFOD) and credit payment free of delivery (CPFOD) transactions."
+    },
+    "FreeOfPayment": {
+      "name": "Free Of Payment",
+      "definition": "Fails due to free of payment (FoP) settlement transactions, covers both deliver free of payment (DFoP) and receive free of payment (RFoP) transactions."
+    }
+  }
+}

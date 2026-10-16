@@ -1,0 +1,80 @@
+{
+  "isoType": "Token5",
+  "language": "en",
+  "name": "Token 5",
+  "definition": "Unencrypted sensitive data of a token.",
+  "isoElements": {
+    "PaymentToken": {
+      "name": "Payment Token",
+      "definition": "Contains the surrogate value of the PAN (such as token) or PAN."
+    },
+    "TokenType": {
+      "name": "Token Type",
+      "definition": "Contains the type of token."
+    },
+    "TokenExpiryDate": {
+      "name": "Token Expiry Date",
+      "definition": "Expiry date of the payment token or the PAN."
+    },
+    "TokenRequestorIdentification": {
+      "name": "Token Requestor Identification",
+      "definition": "Identification of a party requesting a token."
+    },
+    "TokenAssuranceData": {
+      "name": "Token Assurance Data",
+      "definition": "Supporting information for the Token Assurance Method."
+    },
+    "TokenAssuranceMethod": {
+      "name": "Token Assurance Method",
+      "definition": "Value that allows a Token Service Provider to indicate the identification and verification performed representing the binding of the payment token to the underlying PAN and cardholder."
+    },
+    "TokenReferenceIdentification": {
+      "name": "Token Reference Identification",
+      "definition": "A reference to the token."
+    },
+    "TokenInitiatedIndicator": {
+      "name": "Token Initiated Indicator",
+      "definition": "Original transaction was initiated by Token."
+    },
+    "StorageLocation": {
+      "name": "Storage Location",
+      "definition": "Storage location of the token. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "ProtectionMethod": {
+      "name": "Protection Method",
+      "definition": "Method used to protect the token. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "NonPayment": {
+      "name": "Non Payment",
+      "definition": "True means the token is a non-payment token."
+    },
+    "TokenRequestorName": {
+      "name": "Token Requestor Name",
+      "definition": "Contains the name of the token requestor"
+    },
+    "UpdatedChannel": {
+      "name": "Updated Channel",
+      "definition": "Indicate the channel used to update the token."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Contains status of the token."
+    },
+    "TokenActivationDateTime": {
+      "name": "Token Activation Date Time",
+      "definition": "The Date and time when token is activated."
+    },
+    "OriginalToken": {
+      "name": "Original Token",
+      "definition": "Original token."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

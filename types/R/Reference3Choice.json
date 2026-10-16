@@ -1,0 +1,72 @@
+{
+  "isoType": "Reference3Choice",
+  "language": "en",
+  "name": "Reference 3 Choice",
+  "definition": "Identification of the message to be cancelled.",
+  "isoElements": {
+    "ClientCollateralInstructionIdentification": {
+      "name": "Client Collateral Instruction Identification",
+      "definition": "Unique reference identifying the collateral management instruction from the client's point of view."
+    },
+    "ClientCollateralTransactionIdentification": {
+      "name": "Client Collateral Transaction Identification",
+      "definition": "Unique reference identifying the collateral management transaction from the client's point of view. Present in case of a decrease."
+    },
+    "CollateralProposalIdentification": {
+      "name": "Collateral Proposal Identification",
+      "definition": "Unique identifier of the collateral proposal."
+    },
+    "CollateralProposalResponseIdentification": {
+      "name": "Collateral Proposal Response Identification",
+      "definition": "Unique identifier of the collateral proposal response."
+    },
+    "CollateralSubstitutionConfirmationIdentification": {
+      "name": "Collateral Substitution Confirmation Identification",
+      "definition": "Unique identifier of the collateral substitution confirmation."
+    },
+    "CollateralSubstitutionRequestIdentification": {
+      "name": "Collateral Substitution Request Identification",
+      "definition": "Unique identifier of the collateral substitution request."
+    },
+    "CollateralSubstitutionResponseIdentification": {
+      "name": "Collateral Substitution Response Identification",
+      "definition": "Unique identifier of the collateral substitution response."
+    },
+    "CommonTransactionIdentification": {
+      "name": "Common Transaction Identification",
+      "definition": "Unique identification (UTI) agreed upon by the two trade counterparties to identify the trade."
+    },
+    "DisputeNotificationIdentification": {
+      "name": "Dispute Notification Identification",
+      "definition": "Unique identifier of the dispute notification."
+    },
+    "InterestPaymentRequestIdentification": {
+      "name": "Interest Payment Request Identification",
+      "definition": "Unique identifier of the interest payment request."
+    },
+    "InterestPaymentResponseIdentification": {
+      "name": "Interest Payment Response Identification",
+      "definition": "Unique identifier of the interest payment response."
+    },
+    "InterestPaymentStatementIdentification": {
+      "name": "Interest Payment Statement Identification",
+      "definition": "Unique identifier of the interest payment statement."
+    },
+    "MarginCallRequestIdentification": {
+      "name": "Margin Call Request Identification",
+      "definition": "Unique identifier of the margin call request."
+    },
+    "MarginCallResponseIdentification": {
+      "name": "Margin Call Response Identification",
+      "definition": "Unique identifier of the margin call response."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Instruction Identification",
+      "definition": "Reference assigned to the instruction by the triparty-agent/service-provider."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty-agent/service-provider collateral management transaction from the triparty-agent's/service-provider's point of view."
+    }
+  }
+}

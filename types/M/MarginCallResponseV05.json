@@ -1,0 +1,44 @@
+{
+  "isoType": "MarginCallResponseV05",
+  "language": "en",
+  "name": "Margin Call Response V 05",
+  "definition": "Scope|The MarginCallResponse message is sent by the collateral giver or its collateral manager to the collateral taker or its collateral manager or vice versa. This is a response to the MarginCallRequest message. The margin call can be accepted, fully disputed or partially disputed.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|When sent by the collateral giver the MarginCallResponse message is used to:|- fully accept the MarginCallRequest|- or partially accept the MarginCallRequest.||When sent by the collateral taker the MarginCallResponse message is used to:|- fully accept the recall of collateral|- or partially accept the recall of collateral.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement details for the over the counter market."
+    },
+    "MarginDetailsDueToA": {
+      "name": "Margin Details Due To A",
+      "definition": "Provides details about the margin calculation that would be due to party A."
+    },
+    "MarginDetailsDueToB": {
+      "name": "Margin Details Due To B",
+      "definition": "Provides details about the margin calculation that would be due to party B."
+    },
+    "AgreedAmountDueToA": {
+      "name": "Agreed Amount Due To A",
+      "definition": "Provides details about the agreed amount that would be due to party A."
+    },
+    "AgreedAmountDueToB": {
+      "name": "Agreed Amount Due To B",
+      "definition": "Provides details about the agreed amount that would be due to party B."
+    },
+    "ResponseDetails": {
+      "name": "Response Details",
+      "definition": "Provides response details about the margin call."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

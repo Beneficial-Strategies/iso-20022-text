@@ -1,0 +1,24 @@
+{
+  "isoType": "VehicleRentalAdditionalAmount1",
+  "language": "en",
+  "name": "Vehicle Rental Additional Amount 1",
+  "definition": "Contain additional amount information of the vehicle rental service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Code that describes the type of amount or fee. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Contains the amount."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Indicates whether or not the amount is a credit or debit."
+    },
+    "CustomerNotified": {
+      "name": "Customer Notified",
+      "definition": "Indicates whether or not the customer was notified about additional amounts."
+    }
+  }
+}

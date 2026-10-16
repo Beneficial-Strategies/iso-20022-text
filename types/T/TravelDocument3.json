@@ -1,0 +1,36 @@
+{
+  "isoType": "TravelDocument3",
+  "language": "en",
+  "name": "Travel Document 3",
+  "definition": "Details of travel document used for identification and/or authentication of the customer.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of travel document. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Form": {
+      "name": "Form",
+      "definition": "Form of travel document."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of travel document (for example, passport number)."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Party assigning the travel document."
+    },
+    "IssuanceDate": {
+      "name": "Issuance Date",
+      "definition": "Issuance date of travel document."
+    },
+    "ExpirationDate": {
+      "name": "Expiration Date",
+      "definition": "Expiration date of travel document (if and when relevant)."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country issuing the travel document."
+    }
+  }
+}

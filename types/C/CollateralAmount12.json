@@ -1,0 +1,36 @@
+{
+  "isoType": "CollateralAmount12",
+  "language": "en",
+  "name": "Collateral Amount 12",
+  "definition": "Deal amount details.",
+  "isoElements": {
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Amount of the principal."
+    },
+    "Termination": {
+      "name": "Termination",
+      "definition": "Amount of principal plus interests at termination."
+    },
+    "Accrued": {
+      "name": "Accrued",
+      "definition": "Specifies the accrued interest on the value of the principal trade, in the currency of the principal trade."
+    },
+    "CompoundSimpleAccrualCalculation": {
+      "name": "Compound Simple Accrual Calculation",
+      "definition": "Specifies whether the interest calculation method is simple or compounding."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies when the accrued interest is paid."
+    },
+    "InterestPaymentDelay": {
+      "name": "Interest Payment Delay",
+      "definition": "Number of days after the accrual payment is due."
+    },
+    "ValueSought": {
+      "name": "Value Sought",
+      "definition": "Value of collateral offered or sought."
+    }
+  }
+}

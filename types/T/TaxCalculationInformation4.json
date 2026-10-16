@@ -1,0 +1,44 @@
+{
+  "isoType": "TaxCalculationInformation4",
+  "language": "en",
+  "name": "Tax Calculation Information 4",
+  "definition": "Information used to calculate the tax.",
+  "isoElements": {
+    "EUCapitalGain": {
+      "name": "EU Capital Gain",
+      "definition": "Specifies whether capital gain is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "ExtendedEUCapitalGain": {
+      "name": "Extended EU Capital Gain",
+      "definition": "Specifies whether capital gain is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "PercentageOfDebtClaim": {
+      "name": "Percentage Of Debt Claim",
+      "definition": "Percentage of the underlying assets of the funds that represents a debt and is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June)."
+    },
+    "PercentageGrandfatheredDebt": {
+      "name": "Percentage Grandfathered Debt",
+      "definition": "Percentage of grandfathered debt claim."
+    },
+    "TaxableIncomePerDividend": {
+      "name": "Taxable Income Per Dividend",
+      "definition": "Amount included in the dividend that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "EUDividendStatus": {
+      "name": "EU Dividend Status",
+      "definition": "Specifies whether dividend is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "ExtendedEUDividendStatus": {
+      "name": "Extended EU Dividend Status",
+      "definition": "Specifies whether dividend is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    }
+  },
+  "isoRules": {
+    "EUCapitalGainOrExtendedEUCapitalGainRule": {
+      "definition": "Either EUCapitalGain or ExtendedEUCapitalGain may be present, but not both."
+    },
+    "EUDividendStatusOrExtendedEUDividendStatusRule": {
+      "definition": "Either EUDividendStatus or ExtendedEUDividendStatus may be present, but not both."
+    }
+  }
+}

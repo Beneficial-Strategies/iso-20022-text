@@ -1,0 +1,23 @@
+{
+  "isoType": "OversubscriptionType1Code",
+  "language": "en",
+  "name": "Oversubscription Type 1 Code",
+  "definition": "Specifies the oversubscription type.",
+  "isoCodes": {
+    "UNLD": {
+      "isoName": "Unlimited",
+      "name": "Unlimited",
+      "definition": "Unlimited oversubscription."
+    },
+    "LTDB": {
+      "isoName": "LimitedByQuantityOrPercentage",
+      "name": "Limited By Quantity Or Percentage",
+      "definition": "The subscription is limited by quantity or percentage."
+    },
+    "NONE": {
+      "isoName": "NoOversubscription",
+      "name": "No Oversubscription",
+      "definition": "No oversubscription is allowed."
+    }
+  }
+}

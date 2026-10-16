@@ -1,0 +1,18 @@
+{
+  "isoType": "ExecutionStatus1Code",
+  "language": "en",
+  "name": "Execution Status 1 Code",
+  "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions covered in the message as a code.",
+  "isoCodes": {
+    "INTD": {
+      "isoName": "Initiated",
+      "name": "Initiated",
+      "definition": "Transaction which has been initiated and has not yet closed."
+    },
+    "PINT": {
+      "isoName": "PendingInitiation",
+      "name": "Pending Initiation",
+      "definition": "Pending Initiation."
+    }
+  }
+}

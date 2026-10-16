@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIServiceResponseV08",
+  "language": "en",
+  "name": "Sale To POI Service Response V 08",
+  "definition": "The SaleToPOIServiceResponse message is sent by a POI to provide the outcome of a financial service.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the response."
+    },
+    "ServiceResponse": {
+      "name": "Service Response",
+      "definition": "Information related to the response of a service request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

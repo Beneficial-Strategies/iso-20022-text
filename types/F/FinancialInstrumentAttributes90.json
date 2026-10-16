@@ -1,0 +1,28 @@
+{
+  "isoType": "FinancialInstrumentAttributes90",
+  "language": "en",
+  "name": "Financial Instrument Attributes 90",
+  "definition": "Elements characterising a financial instrument.",
+  "isoElements": {
+    "Notional": {
+      "name": "Notional",
+      "definition": "Reference notional amount of the contract."
+    },
+    "UnitValue": {
+      "name": "Unit Value",
+      "definition": "Value of unit move in index if fixed in contract terms, and currency of payments relating to changes in the amount of the underlying."
+    },
+    "IndexIdentification": {
+      "name": "Index Identification",
+      "definition": "Unique identifier for underlying index on which final settlement price or periodic payments are calculated."
+    },
+    "IndexUnit": {
+      "name": "Index Unit",
+      "definition": "Unit index, typically ‘Points’, or for interest rate and CDS products, ‘Bps’."
+    },
+    "InterestRateTerms": {
+      "name": "Interest Rate Terms",
+      "definition": "Day count convention for interest payments. Interest rate products only."
+    }
+  }
+}

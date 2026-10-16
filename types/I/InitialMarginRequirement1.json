@@ -1,0 +1,16 @@
+{
+  "isoType": "InitialMarginRequirement1",
+  "language": "en",
+  "name": "Initial Margin Requirement 1",
+  "definition": "Liability and assets that arise for a clearing member with respect to a central counterparty.",
+  "isoElements": {
+    "InitialMarginExposure": {
+      "name": "Initial Margin Exposure",
+      "definition": "Liability a clearing member has to a central counterparty with respect to potential future exposures."
+    },
+    "Credit": {
+      "name": "Credit",
+      "definition": "Total value of any credits offsetable against initial margin requirements at the end of day. For example, net liquidating value of option positions, contingent variation margin, delivery credits."
+    }
+  }
+}

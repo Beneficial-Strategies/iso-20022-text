@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIReportRequestV08",
+  "language": "en",
+  "name": "Sale To POI Report Request V 08",
+  "definition": "The SaleToPOIReportRequest message is sent by sale system to request a report service.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "ReportRequest": {
+      "name": "Report Request",
+      "definition": "Information related to the report request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

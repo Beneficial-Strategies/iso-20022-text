@@ -1,0 +1,20 @@
+{
+  "isoType": "NetworkManagementInitiation",
+  "language": "en",
+  "name": "Network Management Initiation",
+  "definition": "The NetworkManagementInitiation message covers the range of activities to control the operating condition of the network and may be initiated by any party to an acquirer, an issuer or an agent.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "NetworkManagementInitiation": {
+      "name": "Network Management Initiation",
+      "definition": "Information related to the network management."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

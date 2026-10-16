@@ -1,0 +1,28 @@
+{
+  "isoType": "ReferredDocumentAmount1Choice",
+  "language": "en",
+  "name": "Referred Document Amount 1 Choice",
+  "definition": "Nature of the amount and currency on a document referred to in the remittance section, typically either the original amount due/payable or the amount actually remitted for the referenced document.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "name": "Due Payable Amount",
+      "definition": "Amount specified is the exact amount due and payable to the creditor."
+    },
+    "DiscountAppliedAmount": {
+      "name": "Discount Applied Amount",
+      "definition": "Amount of money that results from the application of an agreed discount to the amount due and payable to the creditor."
+    },
+    "RemittedAmount": {
+      "name": "Remitted Amount",
+      "definition": "Amount of money remitted for the referred document."
+    },
+    "CreditNoteAmount": {
+      "name": "Credit Note Amount",
+      "definition": "Amount specified for the referred document is the amount of a credit note."
+    },
+    "TaxAmount": {
+      "name": "Tax Amount",
+      "definition": "Quantity of cash resulting from the calculation of the tax."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "BatchRequest8",
+  "language": "en",
+  "name": "Batch Request 8",
+  "definition": "Data to request a batch service.",
+  "isoElements": {
+    "SaleBatchIdentification": {
+      "name": "Sale Batch Identification",
+      "definition": "Sale System identification of the batch in an unambiguous way."
+    },
+    "RemoveAllFlag": {
+      "name": "Remove All Flag",
+      "definition": "Flag to remove all the transactions."
+    },
+    "TransactionToPerform": {
+      "name": "Transaction To Perform",
+      "definition": "Content of the Batch Request message."
+    }
+  }
+}

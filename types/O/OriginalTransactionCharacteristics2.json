@@ -1,0 +1,44 @@
+{
+  "isoType": "OriginalTransactionCharacteristics2",
+  "language": "en",
+  "name": "Original Transaction Characteristics 2",
+  "definition": "Contains the transaction characteristics of original transaction.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Code that indicates the type of transaction being undertaken in accordance with ISO 8583, Transaction Type."
+    },
+    "TransactionSubType": {
+      "name": "Transaction Sub Type",
+      "definition": "Further breakdown of the transaction type being performed."
+    },
+    "TransactionAttribute": {
+      "name": "Transaction Attribute",
+      "definition": "Attribute of the transaction. P000-P999 reserved for private use, N000-N999 reserved for national use. ||ISO 8583:87 bit 25|ISO 8583:2003 bit 22-3 & bit 24"
+    },
+    "MessageReason": {
+      "name": "Message Reason",
+      "definition": "Reason or purpose to send the message.||The ISO 8583 maintenance agency (MA) manages this code list."
+    },
+    "AlternateMessageReason": {
+      "name": "Alternate Message Reason",
+      "definition": "Supports message reason codes that are not defined in external code list."
+    },
+    "PreAuthorisationTimeLimit": {
+      "name": "Pre Authorisation Time Limit",
+      "definition": "Contains the period (expressed in minutes) within which a merchant is expected to complete the transaction."
+    },
+    "TransactionDescription": {
+      "name": "Transaction Description",
+      "definition": "Transaction data related to programmes and services, content and format based on bilateral agreements.||ISO 8583:87/93 bit 104|ISO 8583:2003 bit 104-71"
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

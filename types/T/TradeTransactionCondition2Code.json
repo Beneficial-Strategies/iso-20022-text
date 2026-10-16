@@ -1,0 +1,73 @@
+{
+  "isoType": "TradeTransactionCondition2Code",
+  "language": "en",
+  "name": "Trade Transaction Condition 2 Code",
+  "definition": "Specifies the conditions under which the order/trade is to be executed.",
+  "isoCodes": {
+    "SPCC": {
+      "isoName": "SpecialCumCoupon",
+      "name": "Special Cum Coupon",
+      "definition": "Indicates whether the trade is executed with a special cum coupon."
+    },
+    "SECN": {
+      "isoName": "SpecialExCoupon",
+      "name": "Special Ex Coupon",
+      "definition": "Indicates whether the trade is executed with a special ex coupon."
+    },
+    "SEBN": {
+      "isoName": "SpecialExBonus",
+      "name": "Special Ex Bonus",
+      "definition": "Indicates whether the trade is executed special ex bonus."
+    },
+    "SCBN": {
+      "isoName": "SpecialCumBonus",
+      "name": "Special Cum Bonus",
+      "definition": "Indicates whether the trade is executed special cum bonus."
+    },
+    "SCRT": {
+      "isoName": "SpecialCumRights",
+      "name": "Special Cum Rights",
+      "definition": "Indicates whether the trade is executed special cum rights."
+    },
+    "SERT": {
+      "isoName": "SpecialExRights",
+      "name": "Special Ex Rights",
+      "definition": "Indicates whether the trade is executed special ex rights."
+    },
+    "SCCR": {
+      "isoName": "SpecialCumCapitalRepayments",
+      "name": "Special Cum Capital Repayments",
+      "definition": "Indicates whether the trade is executed special cum capital repayments."
+    },
+    "SECR": {
+      "isoName": "SpecialExCapitalRepayments",
+      "name": "Special Ex Capital Repayments",
+      "definition": "Indicates whether the trade is executed special ex capital repayments."
+    },
+    "CAST": {
+      "isoName": "CashSettlement",
+      "name": "Cash Settlement",
+      "definition": "Indicates whether the trade is executed with a cash settlement."
+    },
+    "SPPR": {
+      "isoName": "SpecialPrice",
+      "name": "Special Price",
+      "definition": "Indicates whether the trade is executed with a special price."
+    },
+    "SPCU": {
+      "isoName": "SpecialCumDividend",
+      "name": "Special Cum Dividend",
+      "definition": "Indicates whether the trade is executed with a special cum |dividend, that is, buying after the ex date and getting the dividend."
+    },
+    "SPEX": {
+      "isoName": "SpecialExDividend",
+      "name": "Special Ex Dividend",
+      "definition": "Indicates whether the trade is executed with a special ex |dividend, that is, selling before the ex date without the coupon."
+    },
+    "GTDL": {
+      "isoName": "GuaranteedDelivery",
+      "name": "Guaranteed Delivery",
+      "definition": "Indicates whether the delivery of the financial instrument on settlement date |is guaranteed."
+    }
+  }
+}

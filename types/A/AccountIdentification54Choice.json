@@ -1,0 +1,40 @@
+{
+  "isoType": "AccountIdentification54Choice",
+  "language": "en",
+  "name": "Account Identification 54 Choice",
+  "definition": "Identifier of an account, as assigned by the account servicer.",
+  "isoElements": {
+    "Card": {
+      "name": "Card",
+      "definition": "PAN of the card identifying the account."
+    },
+    "MSISDN": {
+      "name": "MSISDN",
+      "definition": "Mobile Subscriber Integrated Service Digital Network (i.e. mobile phone number of the SIM card)."
+    },
+    "EMail": {
+      "name": "E Mail",
+      "definition": "E-mail identifying the account."
+    },
+    "IBAN": {
+      "name": "IBAN",
+      "definition": "International Bank Account Number (IBAN) - identifier used internationally by financial institutions to uniquely identify the account of a customer. Further specifications of the format and content of the IBAN can be found in the standard ISO 13616 \"Banking and related financial services - International Bank Account Number (IBAN)\" version 1997-10-01, or later revisions."
+    },
+    "BBAN": {
+      "name": "BBAN",
+      "definition": "Basic Bank Account Number (BBAN) - identifier used nationally by financial institutions, that is, in individual countries, generally as part of a National Account Numbering Scheme(s), to uniquely identify the account of a customer."
+    },
+    "UPIC": {
+      "name": "UPIC",
+      "definition": "Universal Payment Identification Code (UPIC) - identifier used by the New York Clearing House to mask confidential data, such as bank accounts and bank routing numbers. UPIC numbers remain with business customers, regardless of banking relationship changes."
+    },
+    "Domestic": {
+      "name": "Domestic",
+      "definition": "Account number used by financial institutions in individual countries to identify an account of a customer, but not necessarily the bank and branch of the financial institution in which the account is held."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Other identifier."
+    }
+  }
+}

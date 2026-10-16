@@ -1,0 +1,40 @@
+{
+  "isoType": "ActionMessage12",
+  "language": "en",
+  "name": "Action Message 12",
+  "definition": "Information to display, print or store.",
+  "isoElements": {
+    "MessageDestination": {
+      "name": "Message Destination",
+      "definition": "Destination of the message."
+    },
+    "InformationQualifier": {
+      "name": "Information Qualifier",
+      "definition": "Qualification of the information to sent to an output logical device."
+    },
+    "Format": {
+      "name": "Format",
+      "definition": "Message format."
+    },
+    "MessageContent": {
+      "name": "Message Content",
+      "definition": "Content or reference of the message."
+    },
+    "MessageContentSignature": {
+      "name": "Message Content Signature",
+      "definition": "Digital signature of the message."
+    },
+    "OutputBarcode": {
+      "name": "Output Barcode",
+      "definition": "Content of message displayed or printed as Barcode."
+    },
+    "ResponseRequiredFlag": {
+      "name": "Response Required Flag",
+      "definition": "Flag to request a message response."
+    },
+    "MinimumDisplayTime": {
+      "name": "Minimum Display Time",
+      "definition": "Number of seconds the message has to be displayed."
+    }
+  }
+}

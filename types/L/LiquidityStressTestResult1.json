@@ -1,0 +1,20 @@
+{
+  "isoType": "LiquidityStressTestResult1",
+  "language": "en",
+  "name": "Liquidity Stress Test Result 1",
+  "definition": "Results of a scenario used to test whether a legal entity or other financial construct has sufficient liquid resources to meet its obligations as they arise.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "CCP’s internal unique identifier of the stress scenario that generates the reported liquidity need."
+    },
+    "ScenarioDefaulters": {
+      "name": "Scenario Defaulters",
+      "definition": "Identification of assumed defaulters under the stress scenario."
+    },
+    "LiquidityRequiredAndAvailable": {
+      "name": "Liquidity Required And Available",
+      "definition": "Indicates the stressed resources and liquidity requirements under the liquidity stress test. The balance of resources are reported as of day ‘T‐1’. The requirements and any flows of resources are reported on their respective day from day ’ T’ to ‘T+5'."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "MoneyMarketStatusReportHeader1",
+  "language": "en",
+  "name": "Money Market Status Report Header 1",
+  "definition": "Provides the money market statistical status report header details.",
+  "isoElements": {
+    "ReportingAgent": {
+      "name": "Reporting Agent",
+      "definition": "Agent which is subject to reporting requirements."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "For daily reporting this is the day to which the transaction data in the status message refers (trade date or amendment date if there are corrections).|For periodic reporting this is the first and the last day to which the transaction data in the status message refers (trade date or amendment date in case of corrections)."
+    },
+    "ReportStatus": {
+      "name": "Report Status",
+      "definition": "Provides the status for the full report."
+    },
+    "ValidationRule": {
+      "name": "Validation Rule",
+      "definition": "Provides the details of the rule which could not be validated."
+    }
+  }
+}

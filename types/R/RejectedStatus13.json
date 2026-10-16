@@ -1,0 +1,21 @@
+{
+  "isoType": "RejectedStatus13",
+  "language": "en",
+  "name": "Rejected Status 13",
+  "definition": "Reason for a rejected status.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the rejected status."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the rejected reason."
+    }
+  },
+  "isoRules": {
+    "ReasonElementRule": {
+      "definition": "Either Reason or AdditionalInformation must be present. Both may be present."
+    }
+  }
+}

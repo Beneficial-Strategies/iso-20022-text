@@ -1,0 +1,28 @@
+{
+  "isoType": "Agreement4",
+  "language": "en",
+  "name": "Agreement 4",
+  "definition": "Agreement details for the over the counter market.",
+  "isoElements": {
+    "AgreementDetails": {
+      "name": "Agreement Details",
+      "definition": "Full details of the supporting legal agreement under which the margin call can be issued and/or governed."
+    },
+    "AgreementIdentification": {
+      "name": "Agreement Identification",
+      "definition": "Common reference to the agreement between the two counterparties."
+    },
+    "AgreementDate": {
+      "name": "Agreement Date",
+      "definition": "Date on which the collateral agreement was signed."
+    },
+    "BaseCurrency": {
+      "name": "Base Currency",
+      "definition": "Denomination currency as specified in the collateral agreement."
+    },
+    "AgreementFramework": {
+      "name": "Agreement Framework",
+      "definition": "Specifies the underlying master agreement."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancingNotificationParties1",
+  "language": "en",
+  "name": "Financing Notification Parties 1",
+  "definition": "Identifies a party that notifies a financial document, the party to be notified, and whether notified party must send an acknowledgement and to whom.",
+  "isoElements": {
+    "NotifyingParty": {
+      "name": "Notifying Party",
+      "definition": "Party that notifies a third party."
+    },
+    "NotificationReceiver": {
+      "name": "Notification Receiver",
+      "definition": "Party (to be) notified."
+    },
+    "AcknowledgementReceiver": {
+      "name": "Acknowledgement Receiver",
+      "definition": "Party to whom a notification acknowledgement has to be sent by the notification receiver."
+    }
+  }
+}

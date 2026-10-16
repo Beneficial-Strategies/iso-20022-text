@@ -1,0 +1,64 @@
+{
+  "isoType": "PostTradeData1",
+  "language": "en",
+  "name": "Post Trade Data 1",
+  "definition": "Post-trade related data.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Code used to identify the financial instrument."
+    },
+    "TradingDateTime": {
+      "name": "Trading Date Time",
+      "definition": "Date and time when the transaction was executed."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Data related to the venue where the transaction was executed."
+    },
+    "ThirdCountryTradingVenueIdentification": {
+      "name": "Third Country Trading Venue Identification",
+      "definition": "Identification of the third-country trading venue where the transaction was executed."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Alphanumerical code assigned by trading venues and Approved Publication Arrangements (APAs) and used in any subsequent reference to the underlying trade.||Usage: Only applicable for the Bond Consolidated Tape Provider (CTP)."
+    },
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Number of transactions executed when deferred publication of details of several transactions in an aggregated form is required.||Usage: Only applicable for the Bond Consolidated Tape Provider (CTP)."
+    },
+    "TradingSystemType": {
+      "name": "Trading System Type",
+      "definition": "Type of trading system on which the transaction was executed."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Traded price of the transaction excluding, where applicable, commission and accrued interest. ||Usage: Only applicable for the Bond Consolidated Tape Provider (CTP)."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity being executed, when there is a partial or full execution.||Usage: Only applicable for the Equity Consolidated Tape Provider (CTP)."
+    },
+    "NotionalAmount": {
+      "name": "Notional Amount",
+      "definition": "Notional amount that is denominated.||Usage: Only applicable for the Bond Consolidated Tape Provider (CTP)."
+    },
+    "Contributor": {
+      "name": "Contributor",
+      "definition": "Data related to the transaction published by a contributor."
+    },
+    "ConsolidatedTapeProvider": {
+      "name": "Consolidated Tape Provider",
+      "definition": "Data related to the Consolidated Tape Provider.||Usage: Only applicable for output data."
+    },
+    "PostTradeData": {
+      "name": "Post Trade Data",
+      "definition": "Flags related to the post-trade related report."
+    },
+    "SuspiciousData": {
+      "name": "Suspicious Data",
+      "definition": "Indicates when the Consolidated Tape Provider (CTP) have identified trades that, in their view, might be subject to data quality issues.||Usage: Only applicable for output data."
+    }
+  }
+}

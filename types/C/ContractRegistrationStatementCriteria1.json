@@ -1,0 +1,24 @@
+{
+  "isoType": "ContractRegistrationStatementCriteria1",
+  "language": "en",
+  "name": "Contract Registration Statement Criteria 1",
+  "definition": "Provides the list of criteria to be returned in the contract registration statement.",
+  "isoElements": {
+    "TransactionJournal": {
+      "name": "Transaction Journal",
+      "definition": "Indicates whether the journal of the transactions recorded under the registered currency control contract must be returned or not."
+    },
+    "SupportingDocumentJournal": {
+      "name": "Supporting Document Journal",
+      "definition": "Indicates whether the journal of the supporting documents recorded under the registered currency control contract must be returned or not."
+    },
+    "AdditionalSupportingDocumentJournal": {
+      "name": "Additional Supporting Document Journal",
+      "definition": "Indicates whether the journal of additional supporting documents recorded under the registered currency control contract must be returned or not."
+    },
+    "RegulatoryRuleValidation": {
+      "name": "Regulatory Rule Validation",
+      "definition": "Indicates whether the details on the currency control rule against which has been violated must be returned or not."
+    }
+  }
+}

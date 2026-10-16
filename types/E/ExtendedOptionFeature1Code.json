@@ -1,0 +1,58 @@
+{
+  "isoType": "ExtendedOptionFeature1Code",
+  "language": "en",
+  "name": "Extended Option Feature 1 Code",
+  "definition": "Specifies DTCC (The Depository Trust and Clearing Corporation) specific options.",
+  "isoCodes": {
+    "FORU": {
+      "isoName": "ForeignTaxUnfavorable",
+      "name": "Foreign Tax Unfavorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for the Foreign Tax Relief service at DTC. Option to select unfavourable tax rate. The Foreign Tax Unfavourable option is the default option."
+    },
+    "FORF": {
+      "isoName": "ForeignTaxFavorable",
+      "name": "Foreign Tax Favorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for the Foreign Tax Relief service at DTC. An election into this option ensures the participant receives their payment at a favourable tax withholding rate."
+    },
+    "FORX": {
+      "isoName": "ForeignTaxExempt",
+      "name": "Foreign Tax Exempt",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for the Foreign Tax Relief service at DTC. An election into this option ensures the participant is exempt from any tax withholding."
+    },
+    "DRPU": {
+      "isoName": "DRIPUnfavorable",
+      "name": "DRIP Unfavorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Dividend Reinvestment and Foreign Tax services at DTC. Participants electing this option will receive additional shares and the tax withholding on those shares will be at the unfavourable tax rate."
+    },
+    "DRPF": {
+      "isoName": "DRIPFavorable",
+      "name": "DRIP Favorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Dividend Reinvestment and Foreign Tax Relief services at DTC. Participants electing this option will receive additional shares and the tax withholding on those shares will be at the favourable tax rate."
+    },
+    "DRPX": {
+      "isoName": "DRIPExempt",
+      "name": "DRIP Exempt",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Dividend Reinvestment and the Foreign Tax Relief services at DTC. Participants electing this option will receive additional shares and will be exempt from any tax withholding."
+    },
+    "FCPP": {
+      "isoName": "ForeignCurrencyPayment",
+      "name": "Foreign Currency Payment",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for Foreign Currency Payment service at DTC. Participants electing this option will receive their distribution in the foreign currency instructed."
+    },
+    "FCPU": {
+      "isoName": "ForeignCurrencyPaymentUnfavorable",
+      "name": "Foreign Currency Payment Unfavorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Foreign Currency and Foreign Tax services at DTC. Participants electing this option will receive their distribution in a foreign currency and the tax withholding on that distribution will be subject to unfavourable tax withholding."
+    },
+    "FCPF": {
+      "isoName": "ForeignCurrencyPaymentFavorable",
+      "name": "Foreign Currency Payment Favorable",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Foreign Currency and Foreign Tax services at DTC. Participants electing the option will receive their distribution in foreign currency and the tax withholding on that distribution will be subject to favourable tax withholding."
+    },
+    "FCPX": {
+      "isoName": "ForeignCurrencyPaymentExempt",
+      "name": "Foreign Currency Payment Exempt",
+      "definition": "DTC (The Depository Trust Company) only option. The event and security are eligible for both the Foreign Currency and Foreign Tax services at DTC. Participants electing this option will receive their distribution in a foreign currency and will be exempt from any tax withholding."
+    }
+  }
+}

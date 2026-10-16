@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesReferenceDataChange3",
+  "language": "en",
+  "name": "Securities Reference Data Change 3",
+  "definition": "Describes the comparison between the currently established baseline elements and the proposed ones.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identifies the financial instrument for which the changes are listed in the advice."
+    },
+    "FieldName": {
+      "name": "Field Name",
+      "definition": "Name of the element, as specified in the short tag name for the field in the message."
+    },
+    "OldFieldValue": {
+      "name": "Old Field Value",
+      "definition": "Value of the related field before the change was applied."
+    },
+    "NewFieldValue": {
+      "name": "New Field Value",
+      "definition": "Value of the related field after the change was applied."
+    },
+    "OperationTimeStamp": {
+      "name": "Operation Time Stamp",
+      "definition": "Specifies the timestamp of the operation."
+    }
+  }
+}

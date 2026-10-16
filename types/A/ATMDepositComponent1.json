@@ -1,0 +1,28 @@
+{
+  "isoType": "ATMDepositComponent1",
+  "language": "en",
+  "name": "ATM Deposit Component 1",
+  "definition": "Information related to a deposit transaction.",
+  "isoElements": {
+    "SubDepositIdentification": {
+      "name": "Sub Deposit Identification",
+      "definition": "Identification of the deposit transaction in a sequence of deposit transactions."
+    },
+    "AccountData": {
+      "name": "Account Data",
+      "definition": "Information related to the creditor's account."
+    },
+    "ProtectedAccountData": {
+      "name": "Protected Account Data",
+      "definition": "Secured account information."
+    },
+    "DetailedRequestedAmount": {
+      "name": "Detailed Requested Amount",
+      "definition": "Amounts of the deposit transaction."
+    },
+    "DepositedMedia": {
+      "name": "Deposited Media",
+      "definition": "Set of deposited media put in the safe."
+    }
+  }
+}

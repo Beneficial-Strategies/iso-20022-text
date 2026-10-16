@@ -1,0 +1,40 @@
+{
+  "isoType": "TaxReport1",
+  "language": "en",
+  "name": "Tax Report 1",
+  "definition": "Contains all needed party details for tax agency (sender of the TaxReport) and tax authority (receiver of the TaxReport) and the details of the reported sales transaction and calculated tax related that specific business transaction.",
+  "isoElements": {
+    "TaxReportHeader": {
+      "name": "Tax Report Header",
+      "definition": "Basic report details."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Tax reporting agent, for example seller.|Responsible to issue tax reporting to tax authority."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Specifies the buyer of goods/service reported in this message."
+    },
+    "TradeSettlement": {
+      "name": "Trade Settlement",
+      "definition": "Contains the details of the business transactions reported in the message."
+    },
+    "OtherParty": {
+      "name": "Other Party",
+      "definition": "Reserved for parties that may be required by a specific tax authority."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional reference like site key or identifier."
+    },
+    "AdditionalReference": {
+      "name": "Additional Reference",
+      "definition": "Structure to deliver link to external attachment or deliver base64-coded attachment inside message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

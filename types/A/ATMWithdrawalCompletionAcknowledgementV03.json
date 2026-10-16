@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMWithdrawalCompletionAcknowledgementV03",
+  "language": "en",
+  "name": "ATM Withdrawal Completion Acknowledgement V 03",
+  "definition": "The ATMWithdrawalCompletionAcknowledgement message is sent by an acquirer or its agent to an ATM to acknowledge the receipt of an ATMWithdrawalCompletionAdvice message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMWithdrawalCompletionAcknowledgement": {
+      "name": "Protected ATM Withdrawal Completion Acknowledgement",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMWithdrawalCompletionAcknowledgement": {
+      "name": "ATM Withdrawal Completion Acknowledgement",
+      "definition": "Information related to the acknowledgement of an ATM withdrawal transaction from the ATM manager."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

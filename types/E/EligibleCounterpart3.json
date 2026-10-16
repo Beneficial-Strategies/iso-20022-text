@@ -1,0 +1,32 @@
+{
+  "isoType": "EligibleCounterpart3",
+  "language": "en",
+  "name": "Eligible Counterpart 3",
+  "definition": "Represents a party to be identified as eligible for the instructing party.",
+  "isoElements": {
+    "IssuerIdentification": {
+      "name": "Issuer Identification",
+      "definition": "Unique business identifier code used to identify the party providing the eligible counterpart information."
+    },
+    "EligibleCounterpartIdentification": {
+      "name": "Eligible Counterpart Identification",
+      "definition": "Unique business identifier code used to identify the central securities depository to be defined as eligible."
+    },
+    "ValidFrom": {
+      "name": "Valid From",
+      "definition": "Date from when the eligible counterpart is valid."
+    },
+    "ValidTo": {
+      "name": "Valid To",
+      "definition": "Date until when the eligible counterpart is valid."
+    },
+    "EligibilityType": {
+      "name": "Eligibility Type",
+      "definition": "Defines the type of eligibility."
+    },
+    "EligibilityIdentification": {
+      "name": "Eligibility Identification",
+      "definition": "Unique identification of the eligible counterpart party."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PositionSetMetrics14",
+  "language": "en",
+  "name": "Position Set Metrics 14",
+  "definition": "Variables used to quantify the different calculations for position sets and currency position sets reports.",
+  "isoElements": {
+    "Total": {
+      "name": "Total",
+      "definition": "Refers to the total number of trades contained in the position set."
+    },
+    "Clean": {
+      "name": "Clean",
+      "definition": "Refers to the aggregated number of trades contained in the position set."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

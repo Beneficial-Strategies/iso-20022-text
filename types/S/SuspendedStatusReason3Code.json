@@ -1,0 +1,18 @@
+{
+  "isoType": "SuspendedStatusReason3Code",
+  "language": "en",
+  "name": "Suspended Status Reason 3 Code",
+  "definition": "Specifies the reason for a suspended status.",
+  "isoCodes": {
+    "PRIC": {
+      "isoName": "PriceSuspension",
+      "name": "Price Suspension",
+      "definition": "There is a suspension of pricing. The order will stay on the books until the next pricing."
+    },
+    "FLOW": {
+      "isoName": "Overflow",
+      "name": "Overflow",
+      "definition": "There is a fund overflow."
+    }
+  }
+}

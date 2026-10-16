@@ -1,0 +1,21 @@
+{
+  "isoType": "VolumeMetrics6",
+  "language": "en",
+  "name": "Volume Metrics 6",
+  "definition": "Numeric variables calculated on the number of transactions or on market exposures.",
+  "isoElements": {
+    "Positive": {
+      "name": "Positive",
+      "definition": "Aggregations of all positive values of the derivative for all derivatives pertaining to a position set."
+    },
+    "Negative": {
+      "name": "Negative",
+      "definition": "Aggregations of all negative values of the derivative for all derivatives pertaining to a position set."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

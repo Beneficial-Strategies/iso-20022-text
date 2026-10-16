@@ -1,0 +1,32 @@
+{
+  "isoType": "SecuritiesSettlementSystemIdentification2",
+  "language": "en",
+  "name": "Securities Settlement System Identification 2",
+  "definition": "Specifies the securities settlement system used in a settlement process.",
+  "isoElements": {
+    "SystemIdentification": {
+      "name": "System Identification",
+      "definition": "Identification of the securities settlement system."
+    },
+    "SystemName": {
+      "name": "System Name",
+      "definition": "Name of the securities settlement system."
+    },
+    "CountryOfJurisdiction": {
+      "name": "Country Of Jurisdiction",
+      "definition": "Country code for the jurisdiction in which the CSD is established."
+    },
+    "CSDLegalName": {
+      "name": "CSD Legal Name",
+      "definition": "Corporate name of the CSD."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification of the CSD operating the securities settlement system."
+    },
+    "ResponsibleParty": {
+      "name": "Responsible Party",
+      "definition": "Party (such as a person or a team) responsible for the report sent by the CSD."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "ExchangePolicy2Code",
+  "language": "en",
+  "name": "Exchange Policy 2 Code",
+  "definition": "Exchange policy between parties.",
+  "isoCodes": {
+    "ONDM": {
+      "isoName": "OnDemand",
+      "name": "On Demand",
+      "definition": "Exchange is performed if requested by the acquirer in a previous exchange, or at any time by the acceptor."
+    },
+    "IMMD": {
+      "isoName": "Immediately",
+      "name": "Immediately",
+      "definition": "Exchange is performed just after the transaction completion."
+    },
+    "ASAP": {
+      "isoName": "AsSoonAsPossible",
+      "name": "As Soon As Possible",
+      "definition": "As soon as the acquirer is contacted, for example with the next on-line transaction."
+    },
+    "AGRP": {
+      "isoName": "AsGroup",
+      "name": "As Group",
+      "definition": "Exchanges are performed after reaching a maximum number of transaction or time period."
+    },
+    "NBLT": {
+      "isoName": "NumberLimit",
+      "name": "Number Limit",
+      "definition": "Exchange is performed after reaching a number of transactions without exchanges with the acquirer."
+    },
+    "TTLT": {
+      "isoName": "TotalLimit",
+      "name": "Total Limit",
+      "definition": "Exchange is performed after reaching a cumulative amount of transactions without exchanges with the acquirer."
+    },
+    "CYCL": {
+      "isoName": "Cyclic",
+      "name": "Cyclic",
+      "definition": "Cyclic exchanges based on the related time conditions."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "No exchange."
+    },
+    "BLCK": {
+      "isoName": "Blocking",
+      "name": "Blocking",
+      "definition": "All pending process must be paused until exchange is exclusively performed just after the transaction completion."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "CurrencyExchange22",
+  "language": "en",
+  "name": "Currency Exchange 22",
+  "definition": "Describes the details of the currency exchange.",
+  "isoElements": {
+    "DeliverableCrossCurrency": {
+      "name": "Deliverable Cross Currency",
+      "definition": "Indicates the cross currency, if different from the currency of delivery."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Indicates the exchange rate between the two currencies specified in the derivative transaction agreed by the counterparties at the inception of the transaction,  expressed as the rate of exchange from converting the unit currency into the quoted currency."
+    },
+    "ForwardExchangeRate": {
+      "name": "Forward Exchange Rate",
+      "definition": "Forward exchange rate as agreed between the counterparties in the contractual agreement, expressed as a price of base currency in the quoted currency."
+    },
+    "ExchangeRateBasis": {
+      "name": "Exchange Rate Basis",
+      "definition": "Indicates, for equity options, commodity options and similar products, the currency in which the strike price is denominated.  In case of foreign exchange options, indicates the currency pair and order in which the strike price is expressed as unit currency and quoted currency."
+    },
+    "FixingDate": {
+      "name": "Fixing Date",
+      "definition": "Specifies the date when a derivative will fix against an interest rate or an exchange rate that will be used to compute the cash settlement."
+    }
+  },
+  "isoRules": {
+    "ExchangeRatePresenceRule": {
+      "definition": "ExchangeRate must be present or ForwardExchangeRate must be present."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MarginCallResponse1Code",
+  "language": "en",
+  "name": "Margin Call Response 1 Code",
+  "definition": "Specifies whether the margin call request was sent on a non valuation day or was received after notification time.",
+  "isoCodes": {
+    "NVDA": {
+      "isoName": "NonValuationDay",
+      "name": "Non Valuation Day",
+      "definition": "Indicates that the margin call request was sent on a non valuation day."
+    },
+    "RANT": {
+      "isoName": "ReceivedAfterNotificationTime",
+      "name": "Received After Notification Time",
+      "definition": "Indicates that the margin call request was sent after the notification time."
+    }
+  }
+}

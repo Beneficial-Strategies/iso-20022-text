@@ -1,0 +1,20 @@
+{
+  "isoType": "CCPAvailableFinancialResourcesReportV02",
+  "language": "en",
+  "name": "CCP Available Financial Resources Report V 02",
+  "definition": "The CCPAvailableFinancialResourcesReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority of the aggregate quantum of resources available in each default waterfall to absorb losses resulting from the failure of one or more clearing member(s).||V02 amends the reporting asset types to be consistent across the scope of CCP Supervisory Reporting data collection.",
+  "isoElements": {
+    "AvailableFinancialResourcesAmount": {
+      "name": "Available Financial Resources Amount",
+      "definition": "Construct used by a central counterparty to define the size of the aggregate quantum of resources available from a clearing member."
+    },
+    "OtherPrefundedResources": {
+      "name": "Other Prefunded Resources",
+      "definition": "Breakdown of other CCP prefunded resources required as part of the default waterfall."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

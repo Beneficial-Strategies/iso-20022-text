@@ -1,0 +1,56 @@
+{
+  "isoType": "ReportedFraud6",
+  "language": "en",
+  "name": "Reported Fraud 6",
+  "definition": "Fraud reporting type information",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of fraud for which a report is established. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Identifies the type of fraud reporting action. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "ReportingEntity": {
+      "name": "Reporting Entity",
+      "definition": "Type of fraud reporting entity. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "CompromisedCredential": {
+      "name": "Compromised Credential",
+      "definition": "Identifies the type of cardholder credential that was compromised."
+    },
+    "CardholderReportingDate": {
+      "name": "Cardholder Reporting Date",
+      "definition": "Date of fraud as reported by the cardholder"
+    },
+    "ConfirmationReportingDate": {
+      "name": "Confirmation Reporting Date",
+      "definition": "Date fraud was confirmed by the cardholder."
+    },
+    "SubmitterCaseReference": {
+      "name": "Submitter Case Reference",
+      "definition": "Reference to the case as provided by the submitter."
+    },
+    "MarketSegment": {
+      "name": "Market Segment",
+      "definition": "Type of market segment of confirmed fraud."
+    },
+    "CaseLocatorNumber": {
+      "name": "Case Locator Number",
+      "definition": "Case locator number."
+    },
+    "CaseReference": {
+      "name": "Case Reference",
+      "definition": "Reference of fraudulent case."
+    },
+    "Arrest": {
+      "name": "Arrest",
+      "definition": "Indicates whether the party that committed fraud was arrested or not."
+    },
+    "InvestigationStatus": {
+      "name": "Investigation Status",
+      "definition": "Investigation status at time of submission."
+    }
+  }
+}

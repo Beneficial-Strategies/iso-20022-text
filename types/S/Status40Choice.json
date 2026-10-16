@@ -1,0 +1,20 @@
+{
+  "isoType": "Status40Choice",
+  "language": "en",
+  "name": "Status 40 Choice",
+  "definition": "Choice of status.",
+  "isoElements": {
+    "OrderDetailsReport": {
+      "name": "Order Details Report",
+      "definition": "Status report details of all the individual orders conveyed in a bulk or multiple order message. Can be used if all the individual orders conveyed in a bulk or multiple order message have the same status."
+    },
+    "IndividualOrderDetailsReport": {
+      "name": "Individual Order Details Report",
+      "definition": "Status report details of an individual order."
+    },
+    "SwitchOrderDetailsReport": {
+      "name": "Switch Order Details Report",
+      "definition": "Status report details of a switch order."
+    }
+  }
+}

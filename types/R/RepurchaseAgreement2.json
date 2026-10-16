@@ -1,0 +1,32 @@
+{
+  "isoType": "RepurchaseAgreement2",
+  "language": "en",
+  "name": "Repurchase Agreement 2",
+  "definition": "Agreement between two parties to sell a financial instrument or set of financial instruments and repurchase at an agreed later date.",
+  "isoElements": {
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Date on which the repurchase agreement matures."
+    },
+    "SecondLegPrice": {
+      "name": "Second Leg Price",
+      "definition": "Specifies the repurchase price at maturity of the repo."
+    },
+    "CollateralMarketValue": {
+      "name": "Collateral Market Value",
+      "definition": "Specifies the dirty price of the underlying security or securities in repo."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Identifies the counterparty to the repurchase agreement."
+    },
+    "RepurchaseAgreementType": {
+      "name": "Repurchase Agreement Type",
+      "definition": "Specifies the type of repurchase agreement."
+    },
+    "TripartyAgentIdentification": {
+      "name": "Triparty Agent Identification",
+      "definition": "Identifies the triparty repurchase agent."
+    }
+  }
+}

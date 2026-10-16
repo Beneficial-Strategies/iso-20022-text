@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalMessageFunction1Code",
+  "language": "en",
+  "name": "External Message Function 1 Code",
+  "definition": "Code to identify the type of process related to the message, as published separately in a message function external code set.||External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "REQU": {
+      "isoName": "Request",
+      "name": "Request",
+      "definition": "Message function is request."
+    },
+    "ADVC": {
+      "isoName": "Advice",
+      "name": "Advice",
+      "definition": "Advice indicates where the sender informs the receiver of an activity that has been taken that requires a response."
+    },
+    "NOTI": {
+      "isoName": "Notification",
+      "name": "Notification",
+      "definition": "Message function is notification."
+    },
+    "CAAD": {
+      "isoName": "CaptureAdvice",
+      "name": "Capture Advice",
+      "definition": "Advice about the capture of an activity already performed (response expected)."
+    },
+    "CANO": {
+      "isoName": "CaptureNotification",
+      "name": "Capture Notification",
+      "definition": "Notification about the capture of an activity already performed (no response expected)."
+    },
+    "BNTF": {
+      "isoName": "BatchNotification",
+      "name": "Batch Notification",
+      "definition": "Notification to initiate the transfer of a batch (no response expected)."
+    },
+    "BTRQ": {
+      "isoName": "BatchRequest",
+      "name": "Batch Request",
+      "definition": "Request to initiate the transfer of a batch (response expected)."
+    },
+    "CLNF": {
+      "isoName": "CollectionNotification",
+      "name": "Collection Notification",
+      "definition": "Notification to initiate the transfer of a collection (no response expected)."
+    },
+    "CLRQ": {
+      "isoName": "CollectionRequest",
+      "name": "Collection Request",
+      "definition": "Request to initiate the transfer of a collection (response expected)."
+    },
+    "STAD": {
+      "isoName": "StatusAdvice",
+      "name": "Status Advice",
+      "definition": "Advice about the status of a transaction."
+    },
+    "STNO": {
+      "isoName": "StatusNotification",
+      "name": "Status Notification",
+      "definition": "Notification about the status of a transaction."
+    },
+    "ERNO": {
+      "isoName": "ErrorNotification",
+      "name": "Error Notification",
+      "definition": "Notification of a message containing errors."
+    },
+    "RENO": {
+      "isoName": "RejectNotification",
+      "name": "Reject Notification",
+      "definition": "Notification of a rejected message."
+    },
+    "INSN": {
+      "isoName": "Instruction",
+      "name": "Instruction",
+      "definition": "Informs of an action to be taken."
+    }
+  }
+}

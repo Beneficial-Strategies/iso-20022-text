@@ -1,0 +1,24 @@
+{
+  "isoType": "Period4Choice",
+  "language": "en",
+  "name": "Period 4 Choice",
+  "definition": "Choice between date and date-time for the specification of a period.",
+  "isoElements": {
+    "Date": {
+      "name": "Date",
+      "definition": "Date period is limited to a single date."
+    },
+    "FromDate": {
+      "name": "From Date",
+      "definition": "Date at which the date period range starts."
+    },
+    "ToDate": {
+      "name": "To Date",
+      "definition": "Date which the range date period ends."
+    },
+    "FromDateToDate": {
+      "name": "From Date To Date",
+      "definition": "Time span defined by a start date, and an end date."
+    }
+  }
+}

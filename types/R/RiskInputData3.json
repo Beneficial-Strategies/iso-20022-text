@@ -1,0 +1,20 @@
+{
+  "isoType": "RiskInputData3",
+  "language": "en",
+  "name": "Risk Input Data 3",
+  "definition": "Additional data to be considered for risk assessment.",
+  "isoElements": {
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Type of entity providing data for risk assessment. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type of risk assessment associated with the input data in the message."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Value of input data for risk assessment."
+    }
+  }
+}

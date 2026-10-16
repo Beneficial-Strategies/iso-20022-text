@@ -1,0 +1,25 @@
+{
+  "isoType": "ReportStatusAndReason1",
+  "language": "en",
+  "name": "Report Status And Reason 1",
+  "definition": "Provides the related report identification and its status. If the status is rejected, a reason for this status must be given.",
+  "isoElements": {
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Provides the identification of the RegulatoryTransactionReport document that was previously sent by the reporting institution."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Indicates the status of a report message."
+    },
+    "Rejected": {
+      "name": "Rejected",
+      "definition": "Indicates that the report is rejected and provides a reason why."
+    }
+  },
+  "isoRules": {
+    "TypeOfStatusRule": {
+      "definition": "Either Status or Rejected must be present, but not both."
+    }
+  }
+}

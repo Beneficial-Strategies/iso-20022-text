@@ -1,0 +1,20 @@
+{
+  "isoType": "StatusReportV15",
+  "language": "en",
+  "name": "Status Report V 15",
+  "definition": "The StatusReport message is sent by a POI to inform the master terminal manager (MTM) or the terminal manager (TM) about the status of the acceptor system including the identification of the POI, its components and their installed versions.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the status report."
+    },
+    "StatusReport": {
+      "name": "Status Report",
+      "definition": "Status of the point of interaction (POI), its components and their installed versions."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

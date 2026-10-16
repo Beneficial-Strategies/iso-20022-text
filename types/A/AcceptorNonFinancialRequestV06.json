@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorNonFinancialRequestV06",
+  "language": "en",
+  "name": "Acceptor Non Financial Request V 06",
+  "definition": "The AcceptorNonFinancialRequest message is sent by the POI to receive additional information from the Acquirer (or its agent).",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Non Financial request message management information."
+    },
+    "NonFinancialRequest": {
+      "name": "Non Financial Request",
+      "definition": "Information related to the non financial request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

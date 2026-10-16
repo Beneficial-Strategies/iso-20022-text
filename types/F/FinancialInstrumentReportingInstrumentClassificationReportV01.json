@@ -1,0 +1,16 @@
+{
+  "isoType": "FinancialInstrumentReportingInstrumentClassificationReportV01",
+  "language": "en",
+  "name": "Financial Instrument Reporting Instrument Classification Report V 01",
+  "definition": "The FinancialInstrumentReportingInstrumentClassificationReport message is sent by ESMA to all national competent authorities and provides all valid combinations for classification of financial instruments (CFI) as per ISO 10962.",
+  "isoElements": {
+    "InstrumentClassification": {
+      "name": "Instrument Classification",
+      "definition": "Report detailing all classification for financial instruments (CFI) code."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

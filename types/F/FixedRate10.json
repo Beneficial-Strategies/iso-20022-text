@@ -1,0 +1,25 @@
+{
+  "isoType": "FixedRate10",
+  "language": "en",
+  "name": "Fixed Rate 10",
+  "definition": "Fixed rate related information.",
+  "isoElements": {
+    "Rate": {
+      "name": "Rate",
+      "definition": "Indicates the per annum rate of the fixed leg(s) of an interest rate contract."
+    },
+    "DayCount": {
+      "name": "Day Count",
+      "definition": "Identifies the computation method that determines how interest payments are calculated. It is used to compute the year fraction of the calculation period, and indicates the number of days in the calculation period divided by the number of days in the year."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the time unit associated with the frequency of payments."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 3 elements must be present."
+    }
+  }
+}

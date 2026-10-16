@@ -1,0 +1,45 @@
+{
+  "isoType": "SecurityInstrumentDescription2",
+  "language": "en",
+  "name": "Security Instrument Description 2",
+  "definition": "Identifies the security instrument by its name and typical characteristics.",
+  "isoElements": {
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the security."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, eg, common share with voting rights, fully paid, or registered."
+    },
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Provides the place of listing using a market identifier code (MIC)."
+    },
+    "ExerciseDate": {
+      "name": "Exercise Date",
+      "definition": "Exercise date/time of a derivative contract."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Maturity date/time at which an interest bearing security becomes due."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset)."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Predetermined price at which the holder will have to buy or sell the underlying instrument."
+    },
+    "Multiplier": {
+      "name": "Multiplier",
+      "definition": "Indicates the ratio or multiplying factor used to convert one contract into a quantity. In the case of an equity or a bond, the price multiplier is 1."
+    }
+  },
+  "isoRules": {
+    "MultiplierRule": {
+      "definition": "Multiplier cannot be equal to zero."
+    }
+  }
+}

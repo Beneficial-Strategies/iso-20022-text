@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionStatus5",
+  "language": "en",
+  "name": "Transaction Status 5",
+  "definition": "Identifies the future status of the transaction by means of a code and a period.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "ChangeDateTime": {
+      "name": "Change Date Time",
+      "definition": "Date and time at which the current status will change."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Additional information on the reason for the time-out."
+    }
+  }
+}

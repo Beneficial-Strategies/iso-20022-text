@@ -1,0 +1,16 @@
+{
+  "isoType": "ResponseType1Choice",
+  "language": "en",
+  "name": "Response Type 1 Choice",
+  "definition": "Choice between a response type code and a proprietary code.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Provides a margin call response type using an ISO 20022 code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Provides a margin call response type using a proprietary code."
+    }
+  }
+}

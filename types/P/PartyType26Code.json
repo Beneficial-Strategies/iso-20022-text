@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyType26Code",
+  "language": "en",
+  "name": "Party Type 26 Code",
+  "definition": "Type of entity acting as a Payment Initiation Service Provider.",
+  "isoCodes": {
+    "ACCP": {
+      "isoName": "Acceptor",
+      "name": "Acceptor",
+      "definition": "Card acceptor, party accepting the card and presenting transaction data to the acquirer."
+    },
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "ICCA": {
+      "isoName": "CardApplication",
+      "name": "Card Application",
+      "definition": "Application in the smart card."
+    },
+    "CISS": {
+      "isoName": "CardIssuer",
+      "name": "Card Issuer",
+      "definition": "Party that issues cards."
+    },
+    "DLIS": {
+      "isoName": "DelegateIssuer",
+      "name": "Delegate Issuer",
+      "definition": "Party to whom the card issuer delegates to authorise card payment transactions."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between an acquirer and an issuer."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other card payment entity type defined at national level"
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card payment entity type defined at private level"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "isoType": "VehicleRentalService4",
+  "language": "en",
+  "name": "Vehicle Rental Service 4",
+  "definition": "Vehicle rental service provides detailed vehicle rental information.",
+  "isoElements": {
+    "CompanyName": {
+      "name": "Company Name",
+      "definition": "Name of the vehicle rental company."
+    },
+    "CompanyIdentification": {
+      "name": "Company Identification",
+      "definition": "Identification of the vehicle rental company."
+    },
+    "CompanyBusinessName": {
+      "name": "Company Business Name",
+      "definition": "Business name of the vehicle rental company."
+    },
+    "CompanyLegalCorporateName": {
+      "name": "Company Legal Corporate Name",
+      "definition": "Legal Corporate Name of the vehicle rental company."
+    },
+    "CompanyAddress": {
+      "name": "Company Address",
+      "definition": "Address of the vehicle rental company."
+    },
+    "CompanyLocalData": {
+      "name": "Company Local Data",
+      "definition": "Contains local language equivalent(s) of the vehicle rental company data."
+    },
+    "CompanyContact": {
+      "name": "Company Contact",
+      "definition": "Contact details at vehicle rental company location."
+    },
+    "CompanyType": {
+      "name": "Company Type",
+      "definition": "Type of vehicle rental activity."
+    },
+    "RenterName": {
+      "name": "Renter Name",
+      "definition": "Name of the vehicle rental customer."
+    },
+    "RenterCorporateName": {
+      "name": "Renter Corporate Name",
+      "definition": "Corporate name of the vehicle rental customer."
+    },
+    "RenterCorporateIdentifier": {
+      "name": "Renter Corporate Identifier",
+      "definition": "Corporate identifier of the vehicle rental customer."
+    },
+    "RenterCorporateIdentifierAssigner": {
+      "name": "Renter Corporate Identifier Assigner",
+      "definition": "Party assigning an identification to a vehicle rental customer."
+    },
+    "PrimaryDriver": {
+      "name": "Primary Driver",
+      "definition": "Vehicle rental driver."
+    },
+    "AdditionalDriver": {
+      "name": "Additional Driver",
+      "definition": "Type of identification of the additional vehicle rental customer."
+    },
+    "LoyaltyProgramme": {
+      "name": "Loyalty Programme",
+      "definition": "Loyalty programme of car rental applied."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "NoShow": {
+      "name": "No Show",
+      "definition": "Indicates that the cardholder failed to pick up the vehicle and was therefore charged a no-show fee; vehicle was not actually rented."
+    },
+    "RentalAgreementNumber": {
+      "name": "Rental Agreement Number",
+      "definition": "Contains the original vehicle rental agreement, invoice or contract number."
+    },
+    "RentalLocation": {
+      "name": "Rental Location",
+      "definition": "Contains the vehicle rental location."
+    },
+    "Adjusted": {
+      "name": "Adjusted",
+      "definition": "Indicates that an adjustment was made to a vehicle rental charge (for example, additional charges added)."
+    },
+    "PickupLocation": {
+      "name": "Pickup Location",
+      "definition": "Used when different than rental location"
+    },
+    "CheckOutDate": {
+      "name": "Check Out Date",
+      "definition": "Date the vehicle was picked-up by the customer.  In the case of a no-show transaction or a prepaid transaction, this contains the scheduled pickup date."
+    },
+    "CheckOutTime": {
+      "name": "Check Out Time",
+      "definition": "Time the vehicle was picked-up by the customer.  In the case of a no-show transaction or a prepaid transaction, this contains the scheduled pickup time."
+    },
+    "ReturnLocation": {
+      "name": "Return Location",
+      "definition": "Location to which vehicle was returned."
+    },
+    "CheckInDate": {
+      "name": "Check In Date",
+      "definition": "Date when the vehicle was returned to the rental agency."
+    },
+    "CheckInTime": {
+      "name": "Check In Time",
+      "definition": "Time when the vehicle was returned to the rental agency."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Duration of rental in days."
+    },
+    "ClassInvoiced": {
+      "name": "Class Invoiced",
+      "definition": "Contains the classification of the vehicle (for example, economy, intermediate, luxury, etc.) on invoice"
+    },
+    "MakeInvoiced": {
+      "name": "Make Invoiced",
+      "definition": "Brand or manufacturer of the vehicle on invoice."
+    },
+    "ModelInvoiced": {
+      "name": "Model Invoiced",
+      "definition": "Product line of vehicle within the make on invoice."
+    },
+    "RegistrationNumberInvoiced": {
+      "name": "Registration Number Invoiced",
+      "definition": "Registration number of vehicle on invoice."
+    },
+    "ClassProvided": {
+      "name": "Class Provided",
+      "definition": "Contains the classification of the provide vehicle (for example, economy, intermediate, luxury, etc.)"
+    },
+    "MakeProvided": {
+      "name": "Make Provided",
+      "definition": "Brand or manufacturer of the provided vehicle."
+    },
+    "ModelProvided": {
+      "name": "Model Provided",
+      "definition": "Product line of provided vehicle within the make."
+    },
+    "RegistrationNumberProvided": {
+      "name": "Registration Number Provided",
+      "definition": "Registration number of the provided vehicle."
+    },
+    "DistanceUnit": {
+      "name": "Distance Unit",
+      "definition": "Unit of measure used to compute the distance."
+    },
+    "OdometerStart": {
+      "name": "Odometer Start",
+      "definition": "Odometer reading at start of rental (at the time of vehicle check-out)."
+    },
+    "OdometerReturn": {
+      "name": "Odometer Return",
+      "definition": "Odometer reading at return of rental (at the time of vehicle check-in)."
+    },
+    "TotalDistance": {
+      "name": "Total Distance",
+      "definition": "Total distance expressed in unit of measure."
+    },
+    "FreeDistance": {
+      "name": "Free Distance",
+      "definition": "Maximum free miles or kilometres for the car rental period."
+    },
+    "DistanceRate": {
+      "name": "Distance Rate",
+      "definition": "Defines the rate in relation to a specific distance."
+    },
+    "RentalRate": {
+      "name": "Rental Rate",
+      "definition": "Vehicle rental rate."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "AdditionalAmount": {
+      "name": "Additional Amount",
+      "definition": "Contains the details of additional amount for a specific vehicle rental service type."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes related to the products or services."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

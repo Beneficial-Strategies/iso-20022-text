@@ -1,0 +1,28 @@
+{
+  "isoType": "QualifiedDividendTax1Code",
+  "language": "en",
+  "name": "Qualified Dividend Tax 1 Code",
+  "definition": "Indicates whether the dividend as whole or in part qualifies for lower/ favourable tax rate.",
+  "isoCodes": {
+    "FQUD": {
+      "isoName": "FullyQualified",
+      "name": "Fully Qualified",
+      "definition": "Dividend income is potentially qualified (for instance common or preferred stock dividends, income distribution by mutual funds)."
+    },
+    "PQUD": {
+      "isoName": "PartlyQualified",
+      "name": "Partly Qualified",
+      "definition": "Part of dividend income is potentially qualified (for instance income form a mutual fund which holds both stocks and bonds)."
+    },
+    "NQUD": {
+      "isoName": "NotQualified",
+      "name": "Not Qualified",
+      "definition": "Dividend is not qualified (for instance UIT dividends, REIT dividends)."
+    },
+    "UKWN": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Qualified dividend tax status is unknown (for instance if dividend tax status information is unavailable at the time of the dividend update, it will be provided when new information is received)."
+    }
+  }
+}

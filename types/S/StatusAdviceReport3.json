@@ -1,0 +1,24 @@
+{
+  "isoType": "StatusAdviceReport3",
+  "language": "en",
+  "name": "Status Advice Report 3",
+  "definition": "Provides the report level status advice.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Provides the status for the full message."
+    },
+    "ValidationRule": {
+      "name": "Validation Rule",
+      "definition": "Provides the details of the rule which could not be validated."
+    },
+    "MessageDate": {
+      "name": "Message Date",
+      "definition": "Indicates the report date with the status advice message is related to."
+    },
+    "Statistics": {
+      "name": "Statistics",
+      "definition": "Statistical information on the results of the records processing."
+    }
+  }
+}

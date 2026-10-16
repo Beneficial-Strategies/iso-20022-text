@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMServiceType9Code",
+  "language": "en",
+  "name": "ATM Service Type 9 Code",
+  "definition": "Describes the type of fund transfer selected by the customer or the ATM.",
+  "isoCodes": {
+    "TRFC": {
+      "isoName": "CustomerTransfer",
+      "name": "Customer Transfer",
+      "definition": "Funds transfer between accounts belonging to the customer in the same bank."
+    },
+    "TRFI": {
+      "isoName": "InterCustomerTransfer",
+      "name": "Inter Customer Transfer",
+      "definition": "Funds transfer to another customer."
+    },
+    "TRFP": {
+      "isoName": "Payment",
+      "name": "Payment",
+      "definition": "Funds transfer to pay a third party."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "ATMTransaction50",
+  "language": "en",
+  "name": "ATM Transaction 50",
+  "definition": "Deposit transaction for which the service is requested.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the ATM."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period assigned by the ATM."
+    },
+    "TotalRequestedAmount": {
+      "name": "Total Requested Amount",
+      "definition": "Total requested amount."
+    },
+    "SubDeposit": {
+      "name": "Sub Deposit",
+      "definition": "Set of deposit transactions."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the deposit transaction."
+    },
+    "RequestedReceipt": {
+      "name": "Requested Receipt",
+      "definition": "True if a receipt has be requested by the customer.|Usage: When absent, default value is False."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Sequence of one or more TLV data elements from the ATM application, in accordance with ISO 7816-6, not in a specific order. Present if the transaction is performed with an EMV chip card application."
+    }
+  }
+}

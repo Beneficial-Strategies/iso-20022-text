@@ -1,0 +1,20 @@
+{
+  "isoType": "RetailerReversalResult8",
+  "language": "en",
+  "name": "Retailer Reversal Result 8",
+  "definition": "Reversal transaction results after a reversal request.",
+  "isoElements": {
+    "POIReconciliationIdentification": {
+      "name": "POI Reconciliation Identification",
+      "definition": "POI reconciliation identification."
+    },
+    "OriginalPaymentTransaction": {
+      "name": "Original Payment Transaction",
+      "definition": "Original Transaction if any linked to this reversal."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Updated Customer order list after reversal."
+    }
+  }
+}

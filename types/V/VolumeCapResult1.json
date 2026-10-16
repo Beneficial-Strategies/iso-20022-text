@@ -1,0 +1,36 @@
+{
+  "isoType": "VolumeCapResult1",
+  "language": "en",
+  "name": "Volume Cap Result 1",
+  "definition": "Specifies the details of result of a volume capping.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "Date or date range the report relates to."
+    },
+    "LastUpdateDate": {
+      "name": "Last Update Date",
+      "definition": "Last date for which the data was updated for this instrument and reporting period."
+    },
+    "TotalTradingVolume": {
+      "name": "Total Trading Volume",
+      "definition": "Total traded volume of the instrument in this specific reporting period."
+    },
+    "TradingUnderWaiverPercentage": {
+      "name": "Trading Under Waiver Percentage",
+      "definition": "Total percentage of trading under waiver of the instrument in this specific reporting period."
+    },
+    "TradingUnderWaiverBreakdown": {
+      "name": "Trading Under Waiver Breakdown",
+      "definition": "Percentage of trading under waiver of the instrument in this specific reporting period broken down by trading venue."
+    },
+    "Disclaimer": {
+      "name": "Disclaimer",
+      "definition": "Information for interpreting the result."
+    }
+  }
+}

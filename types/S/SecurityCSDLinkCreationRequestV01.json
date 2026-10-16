@@ -1,0 +1,20 @@
+{
+  "isoType": "SecurityCSDLinkCreationRequestV01",
+  "language": "en",
+  "name": "Security CSD Link Creation Request V 01",
+  "definition": "SCOPE|An instructing party sends a SecurityCSDLinkCreationRequest message to an executing/servicing party to request the creation of the link between a financial instrument and a CSD in their system.||The instructing party - executing/servicing party relationship may be:|- Central Securities Depositories (CSD) who would like to publish security CSD Link static data, or |- a Corporate, or|- a Bank, or|- a Market Infrastructure, or |- a Market Data Provider.||USAGE|The request is sent when the instructing party identified a gap in the security CSD Link coverage of the executing/servicing party. The instructing party needs this security CSD Link to be set-up at the executing /servicing party to perform its activities.||Initiator: instructing party.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "SecurityCSDLink": {
+      "name": "Security CSD Link",
+      "definition": "This Securities CSD Link logical entity shall assign a security to a CSD in T2S in order to define the eligibility of the instrument for settlement in that CSD. An attribute within this entity shall specify which CSD is responsible for maintaining the instrument static data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

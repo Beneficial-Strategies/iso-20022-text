@@ -1,0 +1,24 @@
+{
+  "isoType": "SystemEventNotification9",
+  "language": "en",
+  "name": "System Event Notification 9",
+  "definition": "Specifies the type of system service to be used with this message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "EventNotification": {
+      "name": "Event Notification",
+      "definition": "Content of the EventNotification message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

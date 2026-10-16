@@ -1,0 +1,33 @@
+{
+  "isoType": "SecurityQueryV01",
+  "language": "en",
+  "name": "Security Query V 01",
+  "definition": "SCOPE|An instructing party sends a SecurityQuery message to an executing/servicing party to request a report of financial instrument details in their system.||The instructing party - executing/servicing party relationship may be:|- Central Securities Depositories (CSD) who would like to publish security static data, or |- a Corporate, or|- a Bank, or|- a Market Infrastructure, or |- a Market Data Provider.||USAGE|The request is sent when the instructing party needs to see data of a security data within the executing/servicing party system.||Initiator: instructing party.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Common business identification for the message."
+    },
+    "RequestType": {
+      "name": "Request Type",
+      "definition": "Defines the type of action to be performed in the request."
+    },
+    "SearchCriteria": {
+      "name": "Search Criteria",
+      "definition": "Defines the criteria to be used to query the securities reference data by the executing system."
+    },
+    "SmallSetReturnCriteria": {
+      "name": "Small Set Return Criteria",
+      "definition": "Defines the expected securities reference data to be returned."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "FullSetRules": {
+      "definition": "If SmallSetReturnCriteria is not present then the full set of security reference data is expected."
+    }
+  }
+}

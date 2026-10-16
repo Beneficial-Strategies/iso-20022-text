@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportLine7",
+  "language": "en",
+  "name": "Report Line 7",
+  "definition": "Information about a payment against a purchase order.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction."
+    },
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Unique identification of the purchase order, assigned by the buyer."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the adjustments applied to obtain the net amount."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Net amount, after adjustments, intended to be paid."
+    }
+  }
+}

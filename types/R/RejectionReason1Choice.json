@@ -1,0 +1,16 @@
+{
+  "isoType": "RejectionReason1Choice",
+  "language": "en",
+  "name": "Rejection Reason 1 Choice",
+  "definition": "Allows the sender of the rejection message to indicate only one rejection reason that applies to the entire rejected message.",
+  "isoElements": {
+    "GlobalRejectionReason": {
+      "name": "Global Rejection Reason",
+      "definition": "Rejection reason that applies to the whole report."
+    },
+    "RejectedElement": {
+      "name": "Rejected Element",
+      "definition": "Specifies a rejection reason for each individual element of a report."
+    }
+  }
+}

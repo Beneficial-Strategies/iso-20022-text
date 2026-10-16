@@ -1,0 +1,36 @@
+{
+  "isoType": "FinancingAllowedSummary1",
+  "language": "en",
+  "name": "Financing Allowed Summary 1",
+  "definition": "Summary information about amount financed.",
+  "isoElements": {
+    "FinancedItemNumber": {
+      "name": "Financed Item Number",
+      "definition": "Number of invoices/instalments financed."
+    },
+    "TotalAcceptedItemsAmount": {
+      "name": "Total Accepted Items Amount",
+      "definition": "Sum of the original total amounts of the invoices accepted for financing."
+    },
+    "AppliedPercentage": {
+      "name": "Applied Percentage",
+      "definition": "Percentage rate applied to calculate the total amount financed related to the total amounts of the invoices accepted for financing. It represents the average percentage rate applied to all single invoice requests financed. It can be calculated as result of \"TotalFinancedAmount\" divided by \"TotalAcceptedItemsAmount\"."
+    },
+    "TotalFinancedAmount": {
+      "name": "Total Financed Amount",
+      "definition": "Total amount financed, defined as the entire financed amount of the requests."
+    },
+    "FinancingDateDetails": {
+      "name": "Financing Date Details",
+      "definition": "Set of dates (eg book date, credit date) related to the crediting of the financed amount."
+    },
+    "CreditAccount": {
+      "name": "Credit Account",
+      "definition": "Unambiguous identification of the account, held by Financing Requestor, actually used for crediting the amount financed."
+    },
+    "FinancingAccount": {
+      "name": "Financing Account",
+      "definition": "Unambiguous identification of the internal bank account actually used by First Agent to manage the line of credit granted to Financing Requestor."
+    }
+  }
+}

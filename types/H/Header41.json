@@ -1,0 +1,36 @@
+{
+  "isoType": "Header41",
+  "language": "en",
+  "name": "Header 41",
+  "definition": "Set of characteristics related to the protocol.",
+  "isoElements": {
+    "MessageFunction": {
+      "name": "Message Function",
+      "definition": "Identifies the type of process related to the message."
+    },
+    "ProtocolVersion": {
+      "name": "Protocol Version",
+      "definition": "Version of the acquirer protocol specifications."
+    },
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Unique identification of an exchange occurrence."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Unique identification of the partner that has initiated the exchange."
+    },
+    "RecipientParty": {
+      "name": "Recipient Party",
+      "definition": "Unique identification of the partner that is the recipient of the message exchange."
+    },
+    "Traceability": {
+      "name": "Traceability",
+      "definition": "Identification of partners involved in exchange from the merchant to the issuer, with the relative timestamp of their exchanges."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "isoType": "TMSProtocolParameters8",
+  "language": "en",
+  "name": "TMS Protocol Parameters 8",
+  "definition": "Configuration parameters of the TMS protocol between a POI and a terminal manager.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "TerminalManagerIdentification": {
+      "name": "Terminal Manager Identification",
+      "definition": "Identification of the master terminal manager or the terminal manager."
+    },
+    "ProtocolVersion": {
+      "name": "Protocol Version",
+      "definition": "Uniquely identifies the protocol name and version to use when using these parameters."
+    },
+    "MaintenanceService": {
+      "name": "Maintenance Service",
+      "definition": "Maintenance services provided by the terminal manager."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the TMS protocol parameters."
+    },
+    "ApplicationIdentification": {
+      "name": "Application Identification",
+      "definition": "Identification of applications which may be managed by the TM, partially or globally."
+    },
+    "HostIdentification": {
+      "name": "Host Identification",
+      "definition": "Identification of the terminal manager host."
+    },
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "New identification of the POI for the terminal manager."
+    },
+    "InitiatingPartyIdentification": {
+      "name": "Initiating Party Identification",
+      "definition": "New identification of the initiating party to set in TMS messages with this terminal manager."
+    },
+    "RecipientPartyIdentification": {
+      "name": "Recipient Party Identification",
+      "definition": "New identification of the recipient party to set in TMS messages with this terminal manager."
+    },
+    "FileTransfer": {
+      "name": "File Transfer",
+      "definition": "Configuration parameters are exchanged per file transfer protocol rather than per message."
+    },
+    "MessageItem": {
+      "name": "Message Item",
+      "definition": "Configuration of a message item."
+    },
+    "ExternallyTypeSupported": {
+      "name": "Externally Type Supported",
+      "definition": "List of types that the receiver supports and that the sender could use as type of an ExternallyDefinedData message component."
+    }
+  }
+}

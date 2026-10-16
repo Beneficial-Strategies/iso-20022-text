@@ -1,0 +1,21 @@
+{
+  "isoType": "Series1",
+  "language": "en",
+  "name": "Series 1",
+  "definition": "Identification of a series.",
+  "isoElements": {
+    "SeriesDate": {
+      "name": "Series Date",
+      "definition": "Issue date of the fund series. It is typically applicable to a redemption order, subscription order confirmation or redemption order confirmation, but may be specified in the subscription order, if known."
+    },
+    "SeriesName": {
+      "name": "Series Name",
+      "definition": "Name of the fund series. It is typically applicable to a redemption order, subscription order confirmation or redemption order confirmation, but may be specified in the subscription, if known."
+    }
+  },
+  "isoRules": {
+    "SeriesElementRule": {
+      "definition": "Either SeriesDate or SeriesName must be present. Both may be present."
+    }
+  }
+}

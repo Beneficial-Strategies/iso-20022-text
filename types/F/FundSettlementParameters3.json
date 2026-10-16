@@ -1,0 +1,32 @@
+{
+  "isoType": "FundSettlementParameters3",
+  "language": "en",
+  "name": "Fund Settlement Parameters 3",
+  "definition": "Parameters applied to the settlement of a security transfer.",
+  "isoElements": {
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the securities are to be delivered or received."
+    },
+    "SettlementPlace": {
+      "name": "Settlement Place",
+      "definition": "Place where the settlement of transaction will take place. In the context of the investment funds, the place of settlement is the transfer agent, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place requested as the place of safekeeping."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "name": "Securities Settlement System Identification",
+      "definition": "Identifies the securities settlement system to be used."
+    },
+    "ReceivingSideDetails": {
+      "name": "Receiving Side Details",
+      "definition": "Chain of parties involved in the settlement of a transaction resulting in the movement of a security from one account to another."
+    },
+    "DeliveringSideDetails": {
+      "name": "Delivering Side Details",
+      "definition": "Chain of parties involved in the settlement of a transaction resulting in the movement of a security from one account to another."
+    }
+  }
+}

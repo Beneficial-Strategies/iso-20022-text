@@ -1,0 +1,20 @@
+{
+  "isoType": "PercentageAndPeriod1",
+  "language": "en",
+  "name": "Percentage And Period 1",
+  "definition": "Specifies a percentage together with a period of time. For overlapping periods, the maximum of all applicable elements at a given date is the result.",
+  "isoElements": {
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Covered percentage (max 100%)."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start of period or immediate if not specified."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "End of period or indefinite if not specified."
+    }
+  }
+}

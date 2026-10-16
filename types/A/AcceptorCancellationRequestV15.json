@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCancellationRequestV15",
+  "language": "en",
+  "name": "Acceptor Cancellation Request V 15",
+  "definition": "The AcceptorCancellationRequest message is sent by an acceptor (or its agent) to the acquirer (or its agent), to request the cancellation of a successfully completed transaction. Cancellation should only occur before the transaction has been cleared.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Cancellation request message management information."
+    },
+    "CancellationRequest": {
+      "name": "Cancellation Request",
+      "definition": "Information related to the cancellation request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

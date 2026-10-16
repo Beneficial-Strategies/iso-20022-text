@@ -1,0 +1,16 @@
+{
+  "isoType": "CardholderVerificationCapabilities1",
+  "language": "en",
+  "name": "Cardholder Verification Capabilities 1",
+  "definition": "Cardholder verification capabilities performing the transaction at the point of service.||ISO 8583:87 bit 22-3, ISO 8583;93 bit 22-2, ISO 8583:2003 bit 27-2",
+  "isoElements": {
+    "Capability": {
+      "name": "Capability",
+      "definition": "Cardholder verification capabilities performing the transaction at the point of service.||ISO 8583:93 bit 22-2, ISO 8583:2003-1 bit 27-2"
+    },
+    "OtherCapability": {
+      "name": "Other Capability",
+      "definition": "Other types of cardholder verification capabilities."
+    }
+  }
+}

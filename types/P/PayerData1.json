@@ -1,0 +1,92 @@
+{
+  "isoType": "PayerData1",
+  "language": "en",
+  "name": "Payer Data 1",
+  "definition": "Identification of a payer.",
+  "isoElements": {
+    "FinancialInstitution": {
+      "name": "Financial Institution",
+      "definition": "Financial institution-related data required by business and/or regulation (for example, money or funds transfer)."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the payer."
+    },
+    "Designation": {
+      "name": "Designation",
+      "definition": "Identifies the specific payer when multiple payers are associated with the same account."
+    },
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Entity type of the payer, such as business, or individul."
+    },
+    "AccountIdentifierType": {
+      "name": "Account Identifier Type",
+      "definition": "Type of the payer's account identifier."
+    },
+    "AccountIdentifier": {
+      "name": "Account Identifier",
+      "definition": "Value of the payer's account identifier."
+    },
+    "Credentials": {
+      "name": "Credentials",
+      "definition": "Credentials of the payer."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the cardholder, which is usually the full name."
+    },
+    "GivenName": {
+      "name": "Given Name",
+      "definition": "First name of the cardholder."
+    },
+    "MiddleName": {
+      "name": "Middle Name",
+      "definition": "Middle name or initials present in the name of a person."
+    },
+    "LastName": {
+      "name": "Last Name",
+      "definition": "Family name of the cardholder."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Address of the payer."
+    },
+    "Contact": {
+      "name": "Contact",
+      "definition": "Detail contact information of the payer."
+    },
+    "Nationality": {
+      "name": "Nationality",
+      "definition": "Nationality information (ISO 3166-1 alpha-2 or alpha-3) of the payer"
+    },
+    "CountryOfBirth": {
+      "name": "Country Of Birth",
+      "definition": "Country of Birth information (ISO 3166-1 alpha-2 or alpha-3) of the payer"
+    },
+    "DateOfBirth": {
+      "name": "Date Of Birth",
+      "definition": "Date of birth of the payer."
+    },
+    "AliasName": {
+      "name": "Alias Name",
+      "definition": "Alias name of the payer."
+    },
+    "Occupation": {
+      "name": "Occupation",
+      "definition": "The occupation of the payer."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains text fields in the local language."
+    }
+  }
+}

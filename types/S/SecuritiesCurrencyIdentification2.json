@@ -1,0 +1,36 @@
+{
+  "isoType": "SecuritiesCurrencyIdentification2",
+  "language": "en",
+  "name": "Securities Currency Identification 2",
+  "definition": "Details an individual currency including details on which country trades the currency.",
+  "isoElements": {
+    "Currency": {
+      "name": "Currency",
+      "definition": "Details the currency name and ISO 4217 currency code."
+    },
+    "FractionalDigit": {
+      "name": "Fractional Digit",
+      "definition": "Fractional digit for the currency, that is, the number of decimals to use."
+    },
+    "CountryDetails": {
+      "name": "Country Details",
+      "definition": "Details the country name and ISO 3166 country code."
+    },
+    "PreEuro": {
+      "name": "Pre Euro",
+      "definition": "Specifies if a currency is a pre Euro currency or not."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Modification status for the record compared to the previous report."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Details the validity of the specific record."
+    },
+    "LastUpdated": {
+      "name": "Last Updated",
+      "definition": "Date when this record was last modified."
+    }
+  }
+}

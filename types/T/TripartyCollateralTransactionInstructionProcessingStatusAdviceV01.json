@@ -1,0 +1,71 @@
+{
+  "isoType": "TripartyCollateralTransactionInstructionProcessingStatusAdviceV01",
+  "language": "en",
+  "name": "Triparty Collateral Transaction Instruction Processing Status Advice V 01",
+  "definition": "Scope: |This message is sent by a triparty agent after the receipt of a collateral instruction from its client.||In this message, the Sender is the triparty agent and the Receiver is either the collateral taker or the collateral giver or their account servicer.||Usage:|This message provides the status of the Triparty collateral transaction or instruction.",
+  "isoElements": {
+    "TransactionInstructionIdentification": {
+      "name": "Transaction Instruction Identification",
+      "definition": "Provides unambiguous transaction identification information."
+    },
+    "CancellationRequestReference": {
+      "name": "Cancellation Request Reference",
+      "definition": "Reference to the unambiguous identification of the cancellation request as per the account owner."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-part preliminary advice is to continue or that the message is the last page of the multi-part preliminary advice."
+    },
+    "InstructionProcessingStatus": {
+      "name": "Instruction Processing Status",
+      "definition": "Provides the status of an instruction."
+    },
+    "MatchingStatus": {
+      "name": "Matching Status",
+      "definition": "Provides the matching status of the instruction."
+    },
+    "CancellationProcessingStatus": {
+      "name": "Cancellation Processing Status",
+      "definition": "Provides the status of a cancellation request or status query."
+    },
+    "GeneralParameters": {
+      "name": "General Parameters",
+      "definition": "provides general information about the instruction and collateral transaction the message refers to."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Identifies the chain of collateral parties."
+    },
+    "DealTransactionDetails": {
+      "name": "Deal Transaction Details",
+      "definition": "Specifies the information related to the deal."
+    },
+    "DealTransactionDate": {
+      "name": "Deal Transaction Date",
+      "definition": "Identifies the dates related to the triparty collateral instruction or transactions."
+    },
+    "SecuritiesMovement": {
+      "name": "Securities Movement",
+      "definition": "Securities movements."
+    },
+    "CashMovement": {
+      "name": "Cash Movement",
+      "definition": "Cash movement"
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "MatchingStatusPresenceRule": {
+      "definition": "If matching status is absent then instruction processing status or cancellation processing status must be present."
+    },
+    "InstructionProcessingStatusPresenceRule": {
+      "definition": "If instruction process allocation status is absent then  matching status or cancellation processing status must be present."
+    },
+    "CancellationProcessingStatusPresenceRule": {
+      "definition": "If cancellation processing status is absent then instruction processing status or matching status must be present."
+    }
+  }
+}

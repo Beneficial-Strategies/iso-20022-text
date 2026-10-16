@@ -1,0 +1,77 @@
+{
+  "isoType": "NetPosition4",
+  "language": "en",
+  "name": "Net Position 4",
+  "definition": "Provides the net positions details.",
+  "isoElements": {
+    "ClearingAccount": {
+      "name": "Clearing Account",
+      "definition": "Identifies the clearing member account at the Central counterparty through which the trade must be cleared (sometimes called position account)."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides the identification for the non-clearing member."
+    },
+    "DeliveryAccount": {
+      "name": "Delivery Account",
+      "definition": "An account opened by the central counterparty in the name of the clearing member or its settlement agent within the account structure, for settlement purposes (gives information about the clearing member/its settlement agent account at the central securities depository)."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "InitialPositionAmount": {
+      "name": "Initial Position Amount",
+      "definition": "Provides the initial position amount."
+    },
+    "NetPositionAmount": {
+      "name": "Net Position Amount",
+      "definition": "Provides the net position amount."
+    },
+    "AccruedInterestAmount": {
+      "name": "Accrued Interest Amount",
+      "definition": "Interest that has accumulated on a bond since the last interest payment up to, but not including, the settlement date."
+    },
+    "AverageDealPrice": {
+      "name": "Average Deal Price",
+      "definition": "This is the price of the trade."
+    },
+    "NetQuantity": {
+      "name": "Net Quantity",
+      "definition": "Identifies the quantity of the trade leg."
+    },
+    "SecuritiesMovementType": {
+      "name": "Securities Movement Type",
+      "definition": "Indicates the securities movement direction, that is, whether this is a delivery or return."
+    },
+    "Depository": {
+      "name": "Depository",
+      "definition": "Place at which a trade settles."
+    },
+    "TradingCapacity": {
+      "name": "Trading Capacity",
+      "definition": "Identifies the trading capacity of the seller."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Place at which the security is traded."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Provides the date of the trade."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Provides the contractual settlement date."
+    },
+    "TradeLegDetails": {
+      "name": "Trade Leg Details",
+      "definition": "Provides the trade leg details such as trade leg identification and trade type."
+    }
+  },
+  "isoRules": {
+    "DepositoryOrPlaceOfListingPresenceRule": {
+      "definition": "At least Depository or PlaceOfListing must be present."
+    }
+  }
+}

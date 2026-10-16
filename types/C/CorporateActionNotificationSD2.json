@@ -1,0 +1,68 @@
+{
+  "isoType": "CorporateActionNotificationSD2",
+  "language": "en",
+  "name": "Corporate Action Notification SD 2",
+  "definition": "Provides additional information regarding corporate action notification.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "DerivativeWorkflowStatus": {
+      "name": "Derivative Workflow Status",
+      "definition": "Status of a notice of change."
+    },
+    "DerivativeExchange": {
+      "name": "Derivative Exchange",
+      "definition": "Exchange where the derivative is traded."
+    },
+    "DerivativePublicationDate": {
+      "name": "Derivative Publication Date",
+      "definition": "Date when the notice of change to the derivative is published by the exchange."
+    },
+    "DerivativeAdjustmentDate": {
+      "name": "Derivative Adjustment Date",
+      "definition": "Effective date of the adjustment to the derivative contract."
+    },
+    "DerivativeCalculationMethod": {
+      "name": "Derivative Calculation Method",
+      "definition": "Method (usually a formula) that will be used to calculate the adjustment factor that will be applied to the derivative to account for the impact of a corporate action event on the underlying equity."
+    },
+    "DerivativeFactor": {
+      "name": "Derivative Factor",
+      "definition": "Adjustment factor to be applied to the derivative contract to account for the impact of a corporate action event on the underlying equity. Derived by using the calculation method."
+    },
+    "LotSizeChangeFlag": {
+      "name": "Lot Size Change Flag",
+      "definition": "Indicates whether the deliverable stock amount on the derivative contract will be changed."
+    },
+    "LotAdjustmentMethod": {
+      "name": "Lot Adjustment Method",
+      "definition": "Method that is used to calculate the new stock deliverable on the derivative contract. Usually multiplication or division by a stated figure but may include explanatory text and examples."
+    },
+    "StrikePriceChangeFlag": {
+      "name": "Strike Price Change Flag",
+      "definition": "Indicates whether there is a new strike price for the change of the derivative contract as a result of the corporate action."
+    },
+    "StrikePriceRoundingMethod": {
+      "name": "Strike Price Rounding Method",
+      "definition": "Method that will be used to adjust the strike price. May include the number of decimal places and rounding rules, example up or down."
+    },
+    "ResidualCashFlag": {
+      "name": "Residual Cash Flag",
+      "definition": "Indicates whether a residual cash is paid on the derivative contract. For example, this may be a cash element that is included in the terms of a takeover that the underlying equity is subject to."
+    },
+    "ReferencePrice": {
+      "name": "Reference Price",
+      "definition": "Price of the security to be used in factor calculations. Usually the closing price of the underlying equity on the effective date of the contract adjustment."
+    },
+    "ReferencePriceCurrency": {
+      "name": "Reference Price Currency",
+      "definition": "Currency associated with the reference price."
+    },
+    "ApprovedFlag": {
+      "name": "Approved Flag",
+      "definition": "Indicates whether the derivative data has/hasn't been approved by a validation service."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMDepositCompletionAdvice2",
+  "language": "en",
+  "name": "ATM Deposit Completion Advice 2",
+  "definition": "Information related to the completion of a deposit transaction on the ATM.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the deposit transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Deposit transaction for which the completion is sent."
+    }
+  }
+}

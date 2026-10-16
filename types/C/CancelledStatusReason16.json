@@ -1,0 +1,24 @@
+{
+  "isoType": "CancelledStatusReason16",
+  "language": "en",
+  "name": "Cancelled Status Reason 16",
+  "definition": "Reason for a cancelled status.",
+  "isoElements": {
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the cancelled status."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the cancelled status."
+    }
+  },
+  "isoRules": {
+    "AdditionaInformationRule": {
+      "definition": "The AdditionalInformation element must not contain information that can be provided in a structured field unless bilaterally agreed."
+    },
+    "CancelledElementRule": {
+      "definition": "Either Reason or AdditionalInformation must be present. Both may be present."
+    }
+  }
+}

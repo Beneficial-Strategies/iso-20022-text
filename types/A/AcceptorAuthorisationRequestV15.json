@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorAuthorisationRequestV15",
+  "language": "en",
+  "name": "Acceptor Authorisation Request V 15",
+  "definition": "The AcceptorAuthorisationRequest message is sent by an acceptor (or its agent) to the acquirer (or its agent), to check with the issuer (or its agent) that the account associated to the card has the resources to fund the payment. This checking will include validation of the card data and any additional transaction data provided.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Authorisation request message management information."
+    },
+    "AuthorisationRequest": {
+      "name": "Authorisation Request",
+      "definition": "Information related to the authorisation request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

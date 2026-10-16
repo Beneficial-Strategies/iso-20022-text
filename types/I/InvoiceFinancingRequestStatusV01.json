@@ -1,0 +1,31 @@
+{
+  "isoType": "InvoiceFinancingRequestStatusV01",
+  "language": "en",
+  "name": "Invoice Financing Request Status V 01",
+  "definition": "Scope|The InvoiceFinancingRequestStatus message is sent by the First Agent to the Financing Requestor, alternatively through an Intermediary Agent (relay scenario). It is used to inform the Financing Requestor about the positive or negative status of a financing request or a financing cancellation request.|Usage|The InvoiceFinancingRequestStatus message flows from the First Agent to the Financing Requestor (alternatively through an Intermediary Agent) to provide status information about a request previously sent.|Its usage will always be governed by a bilateral agreement between the First Agent and the Financing Requestor.|The InvoiceFinancingRequestStatus message can be used two fold:|- to provide information about the reception status (eg rejection, acceptance) of a request message. In this case the status message is the result of a technical validation performed by the First Agent on the request message received;|- to inform the Financing Requestor about the business status of the financing process initiated. In this case the First Agent can:|* communicate that a single financing request has been granted, is pending or has not been granted at all;|* inform that a financing cancellation request has been allowed or denied.|Note.|If the Financing Requestor requests financing for more than one instalment related to the same invoice, the First Agent can decide to finance only some of the instalments. In such case the status message contains details and status of every single instalment (financed, not financed).|The message can be used in a direct or in a relay scenario:|- In a direct scenario, the message is sent directly by the First Agent to the Financing Requestor;|- In a relay scenario, the message is sent first by the First Agent to the Intermediary Agent, who forwards it to the Financing Requestor.|The InvoiceFinancingRequestStatus message refers to the original request(s) by means of references and a set of data elements included into the original request.",
+  "isoElements": {
+    "StatusIdentification": {
+      "name": "Status Identification",
+      "definition": "General information that unambiguously identify the invoice financing status report, such as status identification, creation date time."
+    },
+    "OriginalRequestInformationAndStatus": {
+      "name": "Original Request Information And Status",
+      "definition": "Set of summary information that unambiguously identifies the original invoice financing (or cancellation) request to which the status is referred. The status of the original request is also given in this block.|."
+    },
+    "FinancingInformationAndStatus": {
+      "name": "Financing Information And Status",
+      "definition": "Information concerning the business status of a financing request."
+    }
+  },
+  "isoRules": {
+    "Request1Rule": {
+      "definition": "If the status message refers to the technical validation result|related to a financing request, then only Status Identification and|Original Request Information blocks must be present.|If the status message refers to the business status related to a financing request, then the FinancingInformationAndStatus block is mandatory."
+    },
+    "Cancellation1Rule": {
+      "definition": "If the status message refers to the business status of cancellation request, then only Status Identification and Original Request Information must be present."
+    },
+    "Multiplicity1Rule": {
+      "definition": "The status message must contain one occurrence of the InvoiceFinancingDetails block for every single invoice request present into the original bulk invoice financing request message."
+    }
+  }
+}

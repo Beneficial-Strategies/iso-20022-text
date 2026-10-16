@@ -1,0 +1,33 @@
+{
+  "isoType": "RequestType1Code",
+  "language": "en",
+  "name": "Request Type 1 Code",
+  "definition": "Specifies the request used to further detail the type of information that will be queried.",
+  "isoCodes": {
+    "RT01": {
+      "isoName": "ReleasePending",
+      "name": "Release Pending",
+      "definition": "Type is a request to release the pending transactions."
+    },
+    "RT02": {
+      "isoName": "HoldNormal",
+      "name": "Hold Normal",
+      "definition": "Type is a request to hold normal transactions."
+    },
+    "RT03": {
+      "isoName": "Cancellation",
+      "name": "Cancellation",
+      "definition": "Type is a request to cancellation a transaction."
+    },
+    "RT04": {
+      "isoName": "ReSequence",
+      "name": "Re Sequence",
+      "definition": "Type is a request to change the sequence of the transactions."
+    },
+    "RT05": {
+      "isoName": "ReleaseSuspicious",
+      "name": "Release Suspicious",
+      "definition": "Type is a request to release the suspicious transactions."
+    }
+  }
+}

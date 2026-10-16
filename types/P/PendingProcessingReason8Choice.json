@@ -1,0 +1,16 @@
+{
+  "isoType": "PendingProcessingReason8Choice",
+  "language": "en",
+  "name": "Pending Processing Reason 8 Choice",
+  "definition": "Choice of formats for the reason of a pending status.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Reason for the pending status expressed as an ISO 20022 code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Reason for the pending status expressed as a proprietary code."
+    }
+  }
+}

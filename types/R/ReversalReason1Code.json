@@ -1,0 +1,28 @@
+{
+  "isoType": "ReversalReason1Code",
+  "language": "en",
+  "name": "Reversal Reason 1 Code",
+  "definition": "Reason of the payment or loyalty reversal.",
+  "isoCodes": {
+    "CUSC": {
+      "isoName": "CustomerCancellation",
+      "name": "Customer Cancellation",
+      "definition": "Customer cancels the transaction."
+    },
+    "MALF": {
+      "isoName": "Malfuntion",
+      "name": "Malfuntion",
+      "definition": "Reversal after a suspection of malfunction of the POI system."
+    },
+    "MERC": {
+      "isoName": "MerchantCancellation",
+      "name": "Merchant Cancellation",
+      "definition": "Merchant or Cashier cancels the transaction."
+    },
+    "UNAB": {
+      "isoName": "UnableToComplete",
+      "name": "Unable To Complete",
+      "definition": "POI System unable to complete transaction."
+    }
+  }
+}

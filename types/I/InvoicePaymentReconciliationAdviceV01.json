@@ -1,0 +1,32 @@
+{
+  "isoType": "InvoicePaymentReconciliationAdviceV01",
+  "language": "en",
+  "name": "Invoice Payment Reconciliation Advice V 01",
+  "definition": "The message InvoicePaymentReconciliationAdvice is sent by a payer to a payee to indicate attribution of payments to instalment of payment obligations in order to simplify the account netting or clearing when a lot of invoices are paid with a unique payment (for instance an SCT or an SDD).|The message contains references to payment instructions, may reference other messages and may include referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the letter, common parameters, documents and identifications."
+    },
+    "ReconciliationList": {
+      "name": "Reconciliation List",
+      "definition": "List of payment reconciliation information."
+    },
+    "ReconciliationCount": {
+      "name": "Reconciliation Count",
+      "definition": "Number of reconciliation lists as control value."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

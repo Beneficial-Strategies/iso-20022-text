@@ -1,0 +1,49 @@
+{
+  "isoType": "CreditTransferContext1",
+  "language": "en",
+  "name": "Credit Transfer Context 1",
+  "definition": "Context of a credit transfer transaction.",
+  "isoElements": {
+    "AutomaticNotificationOfCashMovement": {
+      "name": "Automatic Notification Of Cash Movement",
+      "definition": "Indicator that specifies if a notification is expected after a credit transfer request. | Usage: When absent, default value is False."
+    },
+    "WaitForNotificationBeforeEnding": {
+      "name": "Wait For Notification Before Ending",
+      "definition": "Indicator from the sale system to the accepting system to wait for notification before stating that the payment is done.|  Usage: When absent, default value is False."
+    },
+    "SystemToNotify": {
+      "name": "System To Notify",
+      "definition": "Reference of the system that should receive the notification of credit transfer."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Information related to the payer."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Information related to the payer's account."
+    },
+    "ProtectedDebtorAccount": {
+      "name": "Protected Debtor Account",
+      "definition": "Secured information related to the debtor's account."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Information related to the payee."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Information related to the payee's account."
+    },
+    "ProtectedCreditorAccount": {
+      "name": "Protected Creditor Account",
+      "definition": "Secured information related to the creditor's account."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "At least one of these subelements mut be present."
+    }
+  }
+}

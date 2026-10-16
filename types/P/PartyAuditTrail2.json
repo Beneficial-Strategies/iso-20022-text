@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyAuditTrail2",
+  "language": "en",
+  "name": "Party Audit Trail 2",
+  "definition": "Describes information needed to identify a change in the party related static data, the time when it was performed and the user requesting the change and approving it.",
+  "isoElements": {
+    "Record": {
+      "name": "Record",
+      "definition": "Individual record of the party audit trail."
+    },
+    "OperationTimeStamp": {
+      "name": "Operation Time Stamp",
+      "definition": "Timestamp of the change."
+    },
+    "InstructingUser": {
+      "name": "Instructing User",
+      "definition": "User who instructed the change."
+    },
+    "ApprovingUser": {
+      "name": "Approving User",
+      "definition": "User who approved the change instructed by the instructing user."
+    }
+  }
+}

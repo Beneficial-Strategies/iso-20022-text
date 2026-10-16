@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeTransactionIdentification17",
+  "language": "en",
+  "name": "Trade Transaction Identification 17",
+  "definition": "Provides details on transaction and conducting counterparty.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Unique code identifying the reporting counterparty."
+    },
+    "ReportSubmittingEntity": {
+      "name": "Report Submitting Entity",
+      "definition": "Unique code identifying the entity which submits the report. In the case where submission of the report has been delegated to a third party or to the other counterparty, a unique code identifying that entity."
+    },
+    "EntityResponsibleForReport": {
+      "name": "Entity Responsible For Report",
+      "definition": "Unique code identifying that the Financial counterparty responsible for reporting on behalf of the other counterparty."
+    }
+  }
+}

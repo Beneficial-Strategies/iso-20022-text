@@ -1,0 +1,73 @@
+{
+  "isoType": "DerivativeEventType3Code",
+  "language": "en",
+  "name": "Derivative Event Type 3 Code",
+  "definition": "Explanation or reason for the action being taken on the transaction reporting.",
+  "isoCodes": {
+    "ALOC": {
+      "isoName": "Allocation",
+      "name": "Allocation",
+      "definition": "Allocation event, where an existing derivative is allocated to different counterparties and reported as new derivatives."
+    },
+    "CLRG": {
+      "isoName": "Clearing",
+      "name": "Clearing",
+      "definition": "Process in which a CCP interposes itself between the counterparties to the contract becoming the buyer to the counterparty that was a seller and the seller to the counterparty that was a buyer."
+    },
+    "CLAL": {
+      "isoName": "ClearingAndAllocation",
+      "name": "Clearing And Allocation",
+      "definition": "Simultaneous clearing and allocation event in a derivatives clearing organisation."
+    },
+    "COMP": {
+      "isoName": "Compression",
+      "name": "Compression",
+      "definition": "Compression or post-trade risk reduction exercise."
+    },
+    "CORP": {
+      "isoName": "CorporateAction",
+      "name": "Corporate Action",
+      "definition": "Result of a corporate action."
+    },
+    "CREV": {
+      "isoName": "CreditEvent",
+      "name": "Credit Event",
+      "definition": "Applies only to credit derivatives. A credit event that results in a termination or modification of a derivative, at a trade or position level."
+    },
+    "ETRM": {
+      "isoName": "EarlyTermination",
+      "name": "Early Termination",
+      "definition": "Termination of an existing derivative transaction prior to scheduled termination or maturity date."
+    },
+    "EXER": {
+      "isoName": "Exercise",
+      "name": "Exercise",
+      "definition": "The exercise of an option or a swaption by one counterparty of the transaction, fully or partially."
+    },
+    "INCP": {
+      "isoName": "InclusionInPosition",
+      "name": "Inclusion In Position",
+      "definition": "Inclusion of an ETD or CFD into a position, where an existing derivative is terminated and either a new position is created or the notional of an existing position is modified."
+    },
+    "NOVA": {
+      "isoName": "Novation",
+      "name": "Novation",
+      "definition": "The replacement of a party to a derivative contract with another party giving rise to a new derivative contract."
+    },
+    "PTNG": {
+      "isoName": "Porting",
+      "name": "Porting",
+      "definition": "The process by which a derivative transaction is transferred to another trade repository using the same UTI."
+    },
+    "TRAD": {
+      "isoName": "Trade",
+      "name": "Trade",
+      "definition": "Conclusion of a derivative or renegotiation of its terms that does not result in change of a counterparty."
+    },
+    "UPDT": {
+      "isoName": "Update",
+      "name": "Update",
+      "definition": "Outstanding derivative is updated to comply with the revised requirements on reporting."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "ReturnExcessCash1Code",
+  "language": "en",
+  "name": "Return Excess Cash 1 Code",
+  "definition": "Specifies information about excess cash.",
+  "isoCodes": {
+    "RTND": {
+      "isoName": "AutomaticallyReturned",
+      "name": "Automatically Returned",
+      "definition": "Excess cash in the currency is returned."
+    },
+    "RTDN": {
+      "isoName": "NoAutomaticReturn",
+      "name": "No Automatic Return",
+      "definition": "Automatic return of excess cash has not been requested for the currency."
+    },
+    "SSPD": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "Automatic return of cash is temporarily suspended (for example due to a currency holiday)."
+    }
+  }
+}

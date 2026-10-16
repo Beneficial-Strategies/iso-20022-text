@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentStatusReportV01",
+  "language": "en",
+  "name": "Financial Instrument Status Report V 01",
+  "definition": "The InstrumentStatusReport message is sent by the Trading Venue to the Consolidated Tape Provider, which disseminates the data to their users on a consolidated basis. The InstrumentStatusReport message contains the latest trading status of financial instruments on a per-venue basis, including information such as whether an instrument is active, suspended, halted, or removed, along with its current trading phase.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the instruments report."
+    },
+    "InstrumentReport": {
+      "name": "Instrument Report",
+      "definition": "Report related to the status of financial instruments traded on a given venue."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

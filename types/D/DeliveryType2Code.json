@@ -1,0 +1,28 @@
+{
+  "isoType": "DeliveryType2Code",
+  "language": "en",
+  "name": "Delivery Type 2 Code",
+  "definition": "Describes the delivery or custody arrangement for the underlying securities.",
+  "isoCodes": {
+    "APMT": {
+      "isoName": "AgainstPayment",
+      "name": "Against Payment",
+      "definition": "Indicates that the delivery is against payment."
+    },
+    "FREE": {
+      "isoName": "Free",
+      "name": "Free",
+      "definition": "Indicates the delivery is free of payment."
+    },
+    "TRIP": {
+      "isoName": "Triparty",
+      "name": "Triparty",
+      "definition": "Indicates that a custodian bank or international clearing organization acts as an intermediary between the two parties to the repo."
+    },
+    "HOIC": {
+      "isoName": "HoldInCustody",
+      "name": "Hold In Custody",
+      "definition": "Indicates that the collateral pledged by the (cash) borrower is not actually delivered to the cash lender. Rather, it is placed in an internal account (\"held in custody\") by the borrower, for the lender, throughout the duration of the trade."
+    }
+  }
+}

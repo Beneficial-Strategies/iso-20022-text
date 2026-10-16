@@ -1,0 +1,68 @@
+{
+  "isoType": "TerminalManagementAction5Code",
+  "language": "en",
+  "name": "Terminal Management Action 5 Code",
+  "definition": "Types of terminal management action to be performed by a point of interaction.",
+  "isoCodes": {
+    "DCTV": {
+      "isoName": "Deactivate",
+      "name": "Deactivate",
+      "definition": "Request to deactivate the element identified inside the message exchange."
+    },
+    "DELT": {
+      "isoName": "Delete",
+      "name": "Delete",
+      "definition": "Request to delete the element identified inside the message exchange."
+    },
+    "DWNL": {
+      "isoName": "Download",
+      "name": "Download",
+      "definition": "Request to download the element identified inside the message exchange."
+    },
+    "INST": {
+      "isoName": "Install",
+      "name": "Install",
+      "definition": "Request to install the element identified inside the message exchange."
+    },
+    "RSTR": {
+      "isoName": "Restart",
+      "name": "Restart",
+      "definition": "Request to restart the element identified inside the message exchange."
+    },
+    "UPLD": {
+      "isoName": "Upload",
+      "name": "Upload",
+      "definition": "Request to upload the element identified inside the message exchange."
+    },
+    "UPDT": {
+      "isoName": "Update",
+      "name": "Update",
+      "definition": "Request to update the element identified inside the message exchange."
+    },
+    "BIND": {
+      "isoName": "Bind",
+      "name": "Bind",
+      "definition": "Request sent to a POI to bind with a server."
+    },
+    "RBND": {
+      "isoName": "Rebind",
+      "name": "Rebind",
+      "definition": "Request sent to a POI to rebind with a server."
+    },
+    "UBND": {
+      "isoName": "Unbind",
+      "name": "Unbind",
+      "definition": "Request sent to a POI to unbind with a server."
+    },
+    "ACTV": {
+      "isoName": "Activate",
+      "name": "Activate",
+      "definition": "Request to activate the element identified inside the message exchange."
+    },
+    "DEVR": {
+      "isoName": "DeviceRequest",
+      "name": "Device Request",
+      "definition": "Request to execute a device request."
+    }
+  }
+}

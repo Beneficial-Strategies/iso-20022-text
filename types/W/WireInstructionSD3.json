@@ -1,0 +1,52 @@
+{
+  "isoType": "WireInstructionSD3",
+  "language": "en",
+  "name": "Wire Instruction SD 3",
+  "definition": "Payment wire instruction details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "WireQuantity": {
+      "name": "Wire Quantity",
+      "definition": "Quantity of securities concerned in this wire."
+    },
+    "BankName": {
+      "name": "Bank Name",
+      "definition": "Name of the recipient bank for the wire."
+    },
+    "BankAddress": {
+      "name": "Bank Address",
+      "definition": "Street address of the recipient bank for the wire."
+    },
+    "BankCity": {
+      "name": "Bank City",
+      "definition": "City of the recipient bank for the wire."
+    },
+    "BankCountry": {
+      "name": "Bank Country",
+      "definition": "Country of the recipient bank for the wire."
+    },
+    "BankAttentionTo": {
+      "name": "Bank Attention To",
+      "definition": "Responsible person in the recipient back for the wire."
+    },
+    "BankComments": {
+      "name": "Bank Comments",
+      "definition": "Notes or comments for the recipient bank for the wire."
+    },
+    "BeneficiaryAccount": {
+      "name": "Beneficiary Account",
+      "definition": "Account type at the recipient bank for the wire."
+    },
+    "BeneficiaryAccountIdentification": {
+      "name": "Beneficiary Account Identification",
+      "definition": "Account identification at the recipient bank for the wire."
+    },
+    "BeneficiaryAccountComments": {
+      "name": "Beneficiary Account Comments",
+      "definition": "Notes or comments for the beneficiary account at the recipient bank for the wire."
+    }
+  }
+}

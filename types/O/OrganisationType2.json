@@ -1,0 +1,24 @@
+{
+  "isoType": "OrganisationType2",
+  "language": "en",
+  "name": "Organisation Type 2",
+  "definition": "Specifies a type of identification requested for an organisation.",
+  "isoElements": {
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Business identification code of the organisation is requested.||Usage: When absent (default value), the identification is not requested."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "Legal entity identification as an alternate identification for a party is requested.||Usage: When absent (default value), the identification is not requested."
+    },
+    "EmailAddress": {
+      "name": "Email Address",
+      "definition": "Address for electronic mail (e-mail) is requested.||Usage: When absent (default value), the identification is not requested."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Unique identification of an organisation, as assigned by an institution, using an identification scheme is requested."
+    }
+  }
+}

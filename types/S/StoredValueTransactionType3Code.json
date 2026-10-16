@@ -1,0 +1,58 @@
+{
+  "isoType": "StoredValueTransactionType3Code",
+  "language": "en",
+  "name": "Stored Value Transaction Type 3 Code",
+  "definition": "Identification of operation to proceed on the stored value account or the stored value card.",
+  "isoCodes": {
+    "ACTV": {
+      "isoName": "Activate",
+      "name": "Activate",
+      "definition": "Activate the account or the card."
+    },
+    "DUPL": {
+      "isoName": "Duplicate",
+      "name": "Duplicate",
+      "definition": "Duplicate the code or number provided by the loading or activation."
+    },
+    "LOAD": {
+      "isoName": "Load",
+      "name": "Load",
+      "definition": "Load the account or the card with money."
+    },
+    "RESV": {
+      "isoName": "Reserve",
+      "name": "Reserve",
+      "definition": "Reserve the account (e.g. get an activation code)."
+    },
+    "REVS": {
+      "isoName": "Reverse",
+      "name": "Reverse",
+      "definition": "Reverse an activation or loading."
+    },
+    "ULOA": {
+      "isoName": "Unload",
+      "name": "Unload",
+      "definition": "Unload the account."
+    },
+    "CLOS": {
+      "isoName": "CloseAccount",
+      "name": "Close Account",
+      "definition": "Close the account."
+    },
+    "DCTV": {
+      "isoName": "Deactivate",
+      "name": "Deactivate",
+      "definition": "Deactivate the account or the card."
+    },
+    "OPEN": {
+      "isoName": "OpenAccount",
+      "name": "Open Account",
+      "definition": "Open the account."
+    },
+    "BALC": {
+      "isoName": "Balance",
+      "name": "Balance",
+      "definition": "Balance enquiry."
+    }
+  }
+}

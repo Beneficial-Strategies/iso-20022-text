@@ -1,0 +1,23 @@
+{
+  "isoType": "ReconciliationCriteria1Code",
+  "language": "en",
+  "name": "Reconciliation Criteria 1 Code",
+  "definition": "Available criterion to group transactions when a reconliation is made.",
+  "isoCodes": {
+    "BRND": {
+      "isoName": "CardBrand",
+      "name": "Card Brand",
+      "definition": "The set is defined by transactions made with cards belonging  to the same brand."
+    },
+    "PROF": {
+      "isoName": "CardProductProfile",
+      "name": "Card Product Profile",
+      "definition": "The set is defined by transactions made with cards sharing the same CardProductProfile."
+    },
+    "GRUP": {
+      "isoName": "PoiGroup",
+      "name": "Poi Group",
+      "definition": "The set is defined by transactions processed by POIs identified with the same POIGroup."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "isoType": "ForeignExchangeTradeCaptureReportRequestV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Capture Report Request V 02",
+  "definition": "Scope|The ForeignExchangeTradeCaptureReportRequest message is sent by a trading member to the trading system for inquiry of trade capture report. |Usage|The request is sent by the trading member to the trading system to inquire trade capture report. |Note a capture request could be rejected.",
+  "isoElements": {
+    "QueryRequestIdentification": {
+      "name": "Query Request Identification",
+      "definition": "Identifies the capture request message."
+    },
+    "QueryOrderStatus": {
+      "name": "Query Order Status",
+      "definition": "Range of the trade for the inquire."
+    },
+    "QueryType": {
+      "name": "Query Type",
+      "definition": "Specifies the inquiry type of the data."
+    },
+    "QueryStartNumber": {
+      "name": "Query Start Number",
+      "definition": "Start number in request result."
+    },
+    "QueryByPeriod": {
+      "name": "Query By Period",
+      "definition": "Indicates whether the request is query trade for a period of time."
+    },
+    "QueryPeriod": {
+      "name": "Query Period",
+      "definition": "Period of the inquiry."
+    },
+    "QueryTradeIdentification": {
+      "name": "Query Trade Identification",
+      "definition": "States the identification of the trade which the trading member inquires."
+    },
+    "QueryEndIdentification": {
+      "name": "Query End Identification",
+      "definition": "Identifies the end of the request result."
+    },
+    "QueryPageSize": {
+      "name": "Query Page Size",
+      "definition": "Largest number of request result."
+    },
+    "QueryParameterValue": {
+      "name": "Query Parameter Value",
+      "definition": "Specifies the inquiry value of the parameter."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "QueryPeriodAndTradeIdentification1Rule": {
+      "definition": "Either QueryTradeIdentification or QueryPeriod may be present, but not both."
+    },
+    "QueryPeriodAndTradeIdentification2Rule": {
+      "definition": "If QueryByPeriod is \"false\" or \"0\" (No), then QueryTradeIdentification must be present. If QueryByPeriod is \"true\" or \"1\" (Yes), then QueryPeriod must be present."
+    }
+  }
+}

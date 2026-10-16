@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesAccountReportV01",
+  "language": "en",
+  "name": "Securities Account Report V 01",
+  "definition": "The SecuritiesAccountReport message sent by the executing party to an instructing party to provide the details of the securities account details as requested in the query.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Point to point reference elements, as assigned by the instructing party, to unambiguously identify the report message."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Provides details on the page number of the message."
+    },
+    "ReportOrError": {
+      "name": "Report Or Error",
+      "definition": "Provides information on report or error resulting from the originating query message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

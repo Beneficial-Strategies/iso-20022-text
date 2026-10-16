@@ -1,0 +1,57 @@
+{
+  "isoType": "PersonIdentification3",
+  "language": "en",
+  "name": "Person Identification 3",
+  "definition": "Unique and unambiguous way to identify a person.",
+  "isoElements": {
+    "DriversLicenseNumber": {
+      "name": "Drivers License Number",
+      "definition": "Number assigned by a license authority to a driver's license."
+    },
+    "CustomerNumber": {
+      "name": "Customer Number",
+      "definition": "Number assigned by an agent to identify its customer."
+    },
+    "SocialSecurityNumber": {
+      "name": "Social Security Number",
+      "definition": "Number assigned by a social security agency."
+    },
+    "AlienRegistrationNumber": {
+      "name": "Alien Registration Number",
+      "definition": "Number assigned by a government agency to identify foreign nationals."
+    },
+    "PassportNumber": {
+      "name": "Passport Number",
+      "definition": "Number assigned by a passport authority to a passport."
+    },
+    "TaxIdentificationNumber": {
+      "name": "Tax Identification Number",
+      "definition": "Number assigned by a tax authority to an entity."
+    },
+    "IdentityCardNumber": {
+      "name": "Identity Card Number",
+      "definition": "Number assigned by a national authority to an identity card."
+    },
+    "EmployerIdentificationNumber": {
+      "name": "Employer Identification Number",
+      "definition": "Number assigned to an employer by a registration authority."
+    },
+    "DateAndPlaceOfBirth": {
+      "name": "Date And Place Of Birth",
+      "definition": "Date and place of birth of a person."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Identifier issued to a person for which no specific identifier has been defined."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Entity that assigns the identifier."
+    }
+  },
+  "isoRules": {
+    "PersonIdentificationRule": {
+      "definition": "One and only one Message Element in the list (DateAndPlaceOfBirth, CustomerNumber, DriversLicenseNumber, SocialSecurityNumber, AlienRegistrationNumber, PassportNumber, TaxIdentificationNumber, IdentityCardNumber, EmployerIdentificationNumber, OtherIdentification, DateAndPlaceOfBirth) must be present."
+    }
+  }
+}

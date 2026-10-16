@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentInstrumentType1",
+  "language": "en",
+  "name": "Payment Instrument Type 1",
+  "definition": "Identifies a payment instrument type as the search criteria for the financial institution to do the investigation.",
+  "isoElements": {
+    "CardNumber": {
+      "name": "Card Number",
+      "definition": "Provides the card number."
+    },
+    "AuthorityRequestType": {
+      "name": "Authority Request Type",
+      "definition": "Identifies the authority request type as a code."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information, in free text form, to complement the requested information."
+    }
+  }
+}

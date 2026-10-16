@@ -18,12 +18,12 @@ const DOMAIN_KEYS = new Set(['isoType', 'language', 'name', 'definition', 'isoAt
 
 /** The ISO name broken into words: at camel case, and between letters and digits (`ISODateTime` is "ISO Date Time", `BranchData5` is "Branch Data 5"). */
 export const words = (n) => n
-  .replace(/([a-z])([A-Z])/g, '$1 $2').replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+  .replace(/([a-z])([A-Z])/g, '$1 $2').replace(/([A-Z]+)([A-Z][a-z])(?!\d)/g, '$1 $2')
   .replace(/([A-Za-z])(\d)/g, '$1 $2').replace(/(\d)([A-Za-z])/g, '$1 $2');
 
-const unescapeXml = (s) => s.replace(/&(#x[0-9A-Fa-f]+|#\d+|quot|amp|lt|gt|apos);/g, (_, e) =>
+export const unescapeXml = (s) => s.replace(/&(#x[0-9A-Fa-f]+|#\d+|quot|amp|lt|gt|apos);/g, (_, e) =>
   e[0] === '#' ? String.fromCodePoint(e[1] === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)) : { quot: '"', amp: '&', lt: '<', gt: '>', apos: "'" }[e]);
-const text = (s) => unescapeXml(s).replace(/\r\n|\r|\n/g, '|').replace(/^[|\s]+|[|\s]+$/g, '');
+export const text = (s) => unescapeXml(s).replace(/\r\n|\r|\n/g, '|').replace(/^[|\s]+|[|\s]+$/g, '');
 const attr = (line, name) => { const m = line.match(new RegExp(`\\s${name}="([^"]*)"`)); return m ? m[1] : undefined; };
 
 if (import.meta.url === `file://${process.argv[1]}`) {

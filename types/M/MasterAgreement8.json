@@ -1,0 +1,25 @@
+{
+  "isoType": "MasterAgreement8",
+  "language": "en",
+  "name": "Master Agreement 8",
+  "definition": "Information related to a master agreement.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Reference to any master agreement, if existent (such as ISDA Master Agreement; Master Power Purchase and Sale Agreement; International ForEx Master Agreement; European Master Agreement or any local Master Agreements)."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Reference to the year of the master agreement version used for the reported trade, if applicable (such as 1992, 2002, etc)."
+    },
+    "OtherMasterAgreementDetails": {
+      "name": "Other Master Agreement Details",
+      "definition": "Additional information specifying the other type of the master agreement."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

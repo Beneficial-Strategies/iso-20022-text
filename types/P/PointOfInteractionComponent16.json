@@ -1,0 +1,28 @@
+{
+  "isoType": "PointOfInteractionComponent16",
+  "language": "en",
+  "name": "Point Of Interaction Component 16",
+  "definition": "Data related to a component of the POI (Point Of Interaction) performing the transaction.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of component belonging to a POI (Point Of Interaction) Terminal."
+    },
+    "ItemNumber": {
+      "name": "Item Number",
+      "definition": "Hierarchical identification of a hardware component inside all the hardware component of the POI. It is composed of all item numbers of the upper level components, separated by the '.' character, ended by the item number of the current component."
+    },
+    "ProviderIdentification": {
+      "name": "Provider Identification",
+      "definition": "Identifies the provider of the software, hardware or parameters of the POI component."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the POI component assigned by its provider."
+    },
+    "SerialNumber": {
+      "name": "Serial Number",
+      "definition": "Serial number identifying an occurrence of an hardware component."
+    }
+  }
+}

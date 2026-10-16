@@ -1,0 +1,33 @@
+{
+  "isoType": "OrderPriceData2",
+  "language": "en",
+  "name": "Order Price Data 2",
+  "definition": "Prices related to an order in financial instruments.",
+  "isoElements": {
+    "LimitPrice": {
+      "name": "Limit Price",
+      "definition": "Maximum price at which a buy order can trade or the minimum price at which a sell order can trade."
+    },
+    "StopPrice": {
+      "name": "Stop Price",
+      "definition": "Price that must be reached for the order to become active. All prices should be"
+    },
+    "AdditionalLimitPrice": {
+      "name": "Additional Limit Price",
+      "definition": "Any other limit price which may apply to the order."
+    },
+    "PeggedPrice": {
+      "name": "Pegged Price",
+      "definition": "Maximum price at which a pegged order to buy can trade or the minimum price at which a pegged order to sell can trade."
+    },
+    "CurrencySecondLeg": {
+      "name": "Currency Second Leg",
+      "definition": "Currency in which leg 2 of the contract is denominated, for  multi-currency or cross-currency swaps."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "LimitPrice must be present or |StopPrice must be present or |AdditionalLimitPrice must be present or |PeggedPrice must be present or |CurrencySecondLeg must be present."
+    }
+  }
+}

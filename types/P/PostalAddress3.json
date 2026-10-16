@@ -1,0 +1,29 @@
+{
+  "isoType": "PostalAddress3",
+  "language": "en",
+  "name": "Postal Address 3",
+  "definition": "Information that locates and identifies a specific address, as defined by postal services.",
+  "isoElements": {
+    "AddressType": {
+      "name": "Address Type",
+      "definition": "Type of address."
+    },
+    "MailingIndicator": {
+      "name": "Mailing Indicator",
+      "definition": "Indicates whether mail should be sent to an address."
+    },
+    "RegistrationAddressIndicator": {
+      "name": "Registration Address Indicator",
+      "definition": "Indicates whether the address is the official address of the party."
+    },
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Information that locates and identifies a specific address, as defined by postal services."
+    }
+  },
+  "isoRules": {
+    "MailingIndicatorRule": {
+      "definition": "If RegistrationAddressIndicator is \"true\" or \"1\" (Yes), then MailingIndicator must be \"true\" or \"1\"."
+    }
+  }
+}

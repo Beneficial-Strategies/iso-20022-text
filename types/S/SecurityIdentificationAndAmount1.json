@@ -1,0 +1,20 @@
+{
+  "isoType": "SecurityIdentificationAndAmount1",
+  "language": "en",
+  "name": "Security Identification And Amount 1",
+  "definition": "Specifies the current valuation of a security.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "ISIN of the outright investment."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Value of the outright investment according to the CCP’s system of record."
+    },
+    "FinancialInstrumentType": {
+      "name": "Financial Instrument Type",
+      "definition": "Type of a financial instrument: an equity, bond or other."
+    }
+  }
+}

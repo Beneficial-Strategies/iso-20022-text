@@ -1,0 +1,44 @@
+{
+  "isoType": "InvoiceRequestInformation1",
+  "language": "en",
+  "name": "Invoice Request Information 1",
+  "definition": "Set of characteristics that unambiguously identify the single invoice financing request.",
+  "isoElements": {
+    "InvoiceGeneralInformation": {
+      "name": "Invoice General Information",
+      "definition": "General information that unambiguously identify the invoice to be financed, such as invoice type, invoice number and issue date."
+    },
+    "InvoiceTotalsInformation": {
+      "name": "Invoice Totals Information",
+      "definition": "Specifies totals related to the invoice, such as total invoice amount and total tax amount."
+    },
+    "CreditDebitNoteAmount": {
+      "name": "Credit Debit Note Amount",
+      "definition": "Amount of credit/debit note related to the invoice to be financed."
+    },
+    "InstalmentInformation": {
+      "name": "Instalment Information",
+      "definition": "Details of a single instalment to be financed, related to an invoice settlement (amount, payment due date)."
+    },
+    "RequestedAmount": {
+      "name": "Requested Amount",
+      "definition": "Amount requested by the requestor party, related to a single invoice to be financed."
+    },
+    "Supplier": {
+      "name": "Supplier",
+      "definition": "Person or organization that represents the creditor for the invoice to be financed."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Person or organization that represents the debtor for the invoice to be financed."
+    },
+    "InvoicePaymentInformation": {
+      "name": "Invoice Payment Information",
+      "definition": "Specifies payment terms and conditions related to a single invoice to be financed, including identifier of possible account used for payment."
+    },
+    "ReferredDocument": {
+      "name": "Referred Document",
+      "definition": "Information about a document related to the invoice to be financed, in structured form."
+    }
+  }
+}

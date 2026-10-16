@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementInternaliserIdentification1",
+  "language": "en",
+  "name": "Settlement Internaliser Identification 1",
+  "definition": "Specifies the identification of the settlement internaliser.",
+  "isoElements": {
+    "LEI": {
+      "name": "LEI",
+      "definition": "Identification code of the settlement internaliser; Legal Entity Identifier (LEI) is a code allocated to a party as described in ISO 17442 'Financial Services - Legal Entity Identifier (LEI)'."
+    },
+    "ResponsiblePerson": {
+      "name": "Responsible Person",
+      "definition": "Identification of the liaison at the Settlement Internaliser."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Identifies the country code of the place of establishment of the Settlement Internaliser (i.e. head-office), relating to the data that the report concerns, using ISO 3166 2-character code."
+    },
+    "BranchIdentification": {
+      "name": "Branch Identification",
+      "definition": "Identifies the code of the place of operation of the settlement internaliser (that is the branch), relating to the data that the report concerns."
+    }
+  }
+}

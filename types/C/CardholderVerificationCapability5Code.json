@@ -1,0 +1,93 @@
+{
+  "isoType": "CardholderVerificationCapability5Code",
+  "language": "en",
+  "name": "Cardholder Verification Capability 5 Code",
+  "definition": "Capability of verifying the cardholder's identity or authenticity.",
+  "isoCodes": {
+    "APKI": {
+      "isoName": "AccountDigitalSignature",
+      "name": "Account Digital Signature",
+      "definition": "Account based digital signature."
+    },
+    "NOVF": {
+      "isoName": "NoCapabilities",
+      "name": "No Capabilities",
+      "definition": "No cardholder verification capability."
+    },
+    "FBIG": {
+      "isoName": "OfflineBiographics",
+      "name": "Offline Biographics",
+      "definition": "Offline biographics."
+    },
+    "FBIO": {
+      "isoName": "OfflineBiometrics",
+      "name": "Offline Biometrics",
+      "definition": "Offline biometrics."
+    },
+    "FDSG": {
+      "isoName": "OfflineDigitalSignature",
+      "name": "Offline Digital Signature",
+      "definition": "Offline digital signature analysis."
+    },
+    "FCPN": {
+      "isoName": "OfflinePINClear",
+      "name": "Offline PIN Clear",
+      "definition": "Offline PIN in clear (Personal Identification Number)."
+    },
+    "FEPN": {
+      "isoName": "OfflinePINEncrypted",
+      "name": "Offline PIN Encrypted",
+      "definition": "Offline PIN encrypted (Personal Identification Number)."
+    },
+    "NBIO": {
+      "isoName": "OnLineBiometrics",
+      "name": "On Line Biometrics",
+      "definition": "Online biometrics."
+    },
+    "NPIN": {
+      "isoName": "OnLinePIN",
+      "name": "On Line PIN",
+      "definition": "Online PIN (Personal Identification Number)."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other type of cardholder verification defined at national level"
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other type of cardholder verification defined in a private manner."
+    },
+    "SIGN": {
+      "isoName": "Signature",
+      "name": "Signature",
+      "definition": "Handwritten signature verification"
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Cardholder verification capability unspecified."
+    },
+    "VORN": {
+      "isoName": "VoiceRecognition",
+      "name": "Voice Recognition",
+      "definition": "Recognition by voice."
+    },
+    "PKIS": {
+      "isoName": "PKISignature",
+      "name": "PKI Signature",
+      "definition": "PKI (Public Key Infrastructure) based digital signature."
+    },
+    "NOPN": {
+      "isoName": "NoPINEntry",
+      "name": "No PIN Entry",
+      "definition": "Device has no pin entry capability."
+    },
+    "NOOP": {
+      "isoName": "NoOnLinePINEntry",
+      "name": "No On Line PIN Entry",
+      "definition": "Device has no online pin entry capability."
+    }
+  }
+}

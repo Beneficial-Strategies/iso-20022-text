@@ -1,0 +1,21 @@
+{
+  "isoType": "CollateralStatusReason1",
+  "language": "en",
+  "name": "Collateral Status Reason 1",
+  "definition": "Business status of the collateral data management request for processing in the system.",
+  "isoElements": {
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the collateral data maintenance instruction."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the status of a collateral data maintenance instruction."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "If Status equals 'Rejected' then Reason must be present."
+    }
+  }
+}

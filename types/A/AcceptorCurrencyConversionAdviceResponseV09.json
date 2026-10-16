@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCurrencyConversionAdviceResponseV09",
+  "language": "en",
+  "name": "Acceptor Currency Conversion Advice Response V 09",
+  "definition": "The AcceptorCurrencyConversionAdviceResponse message is sent by the service provider to acknowledge the acceptor about the notification of the reception of the currency conversion advice.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Cancellation advice response message management information."
+    },
+    "CurrencyConversionAdviceResponse": {
+      "name": "Currency Conversion Advice Response",
+      "definition": "Information related to the currency conversion advice response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

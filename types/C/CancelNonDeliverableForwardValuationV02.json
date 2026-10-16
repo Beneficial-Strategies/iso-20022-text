@@ -1,0 +1,32 @@
+{
+  "isoType": "CancelNonDeliverableForwardValuationV02",
+  "language": "en",
+  "name": "Cancel Non Deliverable Forward Valuation V 02",
+  "definition": "Scope|The CancelNonDeliverableForwardValuation message is sent by a participant to a central system or to a counterparty to notify the cancellation of the valuation of a non deliverable trade previously confirmed by the sender.|Usage|The message will contain a Related Reference to link it to the previously sent notification. It may contain a reason for cancellation.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides references and date of the valuation of the non deliverable trade which is cancelled."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the non deliverable trade which is cancelled."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the non deliverable trade which is cancelled."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the valuation of the non deliverable trade which is cancelled."
+    },
+    "ValuationRate": {
+      "name": "Valuation Rate",
+      "definition": "Specifies the valuation rate of the valuation of the non deliverable trade which is cancelled."
+    },
+    "ValuationInformation": {
+      "name": "Valuation Information",
+      "definition": "Specifies the valuation information of the valuation of the non deliverable trade which is cancelled."
+    }
+  }
+}

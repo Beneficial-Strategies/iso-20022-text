@@ -1,0 +1,40 @@
+{
+  "isoType": "CorporateActionUnallocatedCashTransactionDetailsSD7",
+  "language": "en",
+  "name": "Corporate Action Unallocated Cash Transaction Details SD 7",
+  "definition": "Breakdown of unallocated cash transactions.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "name": "Credit Debit Indicator",
+      "definition": "Indicates whether the value is a debit or a credit."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Number identifying the available corporate action option."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Corporate action options available to the account owner."
+    },
+    "ReasonCode": {
+      "name": "Reason Code",
+      "definition": "Transaction reason."
+    },
+    "TransactionAmount": {
+      "name": "Transaction Amount",
+      "definition": "Resulting cash amount concerned in this transaction."
+    },
+    "UnallocatedReasonCode": {
+      "name": "Unallocated Reason Code",
+      "definition": "Reason for the unallocation."
+    },
+    "ContraParticipantNumber": {
+      "name": "Contra Participant Number",
+      "definition": "Transaction contra participant identification when shares are distributed/delivered to/from another participant."
+    },
+    "EarliestPaymentDate": {
+      "name": "Earliest Payment Date",
+      "definition": "Date/time at which the movement was due to take place (cash and/or securities)."
+    }
+  }
+}

@@ -6,23 +6,23 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Unique identification for the message."
     },
     "AccountSwitchDetails": {
       "name": "Account Switch Details",
-      "definition": ""
+      "definition": "Contains information about the details of the account switch."
     },
     "NewAccount": {
       "name": "New Account",
-      "definition": ""
+      "definition": "Account servicer holding the account to which the switch will be made for example the acquiring account servicer."
     },
     "OldAccount": {
       "name": "Old Account",
-      "definition": ""
+      "definition": "Account held at the old account servicer being switched to the new account servicer."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

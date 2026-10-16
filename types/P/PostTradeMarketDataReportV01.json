@@ -1,0 +1,20 @@
+{
+  "isoType": "PostTradeMarketDataReportV01",
+  "language": "en",
+  "name": "Post Trade Market Data Report V 01",
+  "definition": "The PostTradeMarketDataReport message is sent by the Trading Venue and the Approved Publication Arrangement to the Consolidated Tape Provider, which disseminates it to their users in accordance with local regulations. The PostTradeMarketDataReport message contains post-trade transparency data, including key information such as the instrument identifier, transaction price, quantity, execution timestamp, and publication time.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the post trade core output data report."
+    },
+    "PostTradeReport": {
+      "name": "Post Trade Report",
+      "definition": "Report related to the post-trade transparency data for equity and bond instruments."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

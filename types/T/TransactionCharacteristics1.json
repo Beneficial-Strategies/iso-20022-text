@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactionCharacteristics1",
+  "language": "en",
+  "name": "Transaction Characteristics 1",
+  "definition": "Contains transaction details.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Code that indicates the type of transaction being undertaken in accordance with ISO 8583, Transaction Type."
+    },
+    "TransactionSubType": {
+      "name": "Transaction Sub Type",
+      "definition": "Further breakdown of the transaction type being performed."
+    },
+    "TransactionAttribute": {
+      "name": "Transaction Attribute",
+      "definition": "Attribute of the transaction."
+    },
+    "OtherTransactionAttribute": {
+      "name": "Other Transaction Attribute",
+      "definition": "Other transaction attribute defined at national or private level."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Indicates the previous message is cancelled."
+    },
+    "MessageReason": {
+      "name": "Message Reason",
+      "definition": "Reason or purpose to send the message."
+    },
+    "AlternateMessageReason": {
+      "name": "Alternate Message Reason",
+      "definition": "Supports message reason codes that are not defined in external code list."
+    },
+    "PreAuthorisationTimeLimit": {
+      "name": "Pre Authorisation Time Limit",
+      "definition": "Contains the period (expressed in minutes) within which a merchant is expected to complete the transaction."
+    },
+    "TransactionDescription": {
+      "name": "Transaction Description",
+      "definition": "Transaction data related to programmes and services, content and format based on bilateral agreements."
+    },
+    "AdditionalData": {
+      "name": "Additional Data",
+      "definition": "Contains additional data."
+    }
+  }
+}

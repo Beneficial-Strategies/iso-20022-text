@@ -1,0 +1,20 @@
+{
+  "isoType": "TMSTrigger1",
+  "language": "en",
+  "name": "TMS Trigger 1",
+  "definition": "Instructs the POI (Point Of Interaction) how to contact the host of the terminal management system (TMS), to initiate the maintenance of the terminal.",
+  "isoElements": {
+    "TMSContactLevel": {
+      "name": "TMS Contact Level",
+      "definition": "Level of urgency in contacting the maintenance."
+    },
+    "TMSIdentification": {
+      "name": "TMS Identification",
+      "definition": "Identification of the host to contact for the maintenance."
+    },
+    "TMSContactDateTime": {
+      "name": "TMS Contact Date Time",
+      "definition": "Date and time for calling the maintenance."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementInternaliser1",
+  "language": "en",
+  "name": "Settlement Internaliser 1",
+  "definition": "Identifies the submitting entity and Settlement Internaliser of the report.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the submitting entity and settlement Internaliser of the report."
+    },
+    "OverallTotal": {
+      "name": "Overall Total",
+      "definition": "Overall aggregated total value and volume of |- settled and failed and total of internalised settlement instructions, and|- failed rate of internalised settlement instructions|performed during the period covered by the report, for all financial instruments, types of transactions, types of clients and cash transfers."
+    },
+    "FinancialInstrument": {
+      "name": "Financial Instrument",
+      "definition": "Classification of a financial instrument according to the categories defined in the relevant legislation."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Classification of securities movements according to the categories defined in the relevant legislation."
+    },
+    "ClientType": {
+      "name": "Client Type",
+      "definition": "Classification of a settlement internaliser's clients as referred to in the relevant legislation."
+    },
+    "TotalCashTransfer": {
+      "name": "Total Cash Transfer",
+      "definition": "Covers cash payments related to securities transactions."
+    }
+  }
+}

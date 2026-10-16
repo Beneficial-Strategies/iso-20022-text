@@ -1,0 +1,36 @@
+{
+  "isoType": "DirectDebitContext1",
+  "language": "en",
+  "name": "Direct Debit Context 1",
+  "definition": "Element containing all information needed for a direct debit.",
+  "isoElements": {
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Information related to the debtor."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Information related to the debtor's account."
+    },
+    "ProtectedDebtorAccount": {
+      "name": "Protected Debtor Account",
+      "definition": "Secured information related to the debtor's account."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Information related to the creditor."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Information related to the creditor's account."
+    },
+    "ProtectedCreditorAccount": {
+      "name": "Protected Creditor Account",
+      "definition": "Secured information related to the creditor's account."
+    },
+    "MandateRelatedInformation": {
+      "name": "Mandate Related Information",
+      "definition": "Provides further details of the mandate signed between the creditor and the debtor."
+    }
+  }
+}

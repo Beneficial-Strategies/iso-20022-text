@@ -1,0 +1,88 @@
+{
+  "isoType": "Algorithm27Code",
+  "language": "en",
+  "name": "Algorithm 27 Code",
+  "definition": "Cryptographic algorithms for the MAC (Message Authentication Code).",
+  "isoCodes": {
+    "MACC": {
+      "isoName": "RetailCBCMAC",
+      "name": "Retail CBCMAC",
+      "definition": "Retail CBC (Chaining Block Cypher) MAC (Message Authentication Code) (cf. ISO 9807, ANSI X9.19) - (ASN.1 Object Identifier: id-retail-cbc-mac)."
+    },
+    "MCCS": {
+      "isoName": "RetailSHA256MAC",
+      "name": "Retail SHA 256 MAC",
+      "definition": "Retail-CBC-MAC with SHA-256 (Secure HAsh standard) - (ASN.1 Object Identifier: id-retail-cbc-mac-sha-256)."
+    },
+    "CMA1": {
+      "isoName": "SHA256CMACwithAES128",
+      "name": "SHA 256 CMA Cwith AES 128",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 128 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-256 digest of the message."
+    },
+    "MCC1": {
+      "isoName": "RetailSHA1MAC",
+      "name": "Retail SHA 1 MAC",
+      "definition": "The DEPRECATED Retail-CBC-MAC with SHA-1 (Secure Hash standard) - (ASN.1 Object Identifier: id-retail-cbc-mac-sha-1)."
+    },
+    "CMA9": {
+      "isoName": "SHA384CMACwithAES192",
+      "name": "SHA 384 CMA Cwith AES 192",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 192 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-384 digest of the message."
+    },
+    "CMA5": {
+      "isoName": "SHA512CMACwithAES256",
+      "name": "SHA 512 CMA Cwith AES 256",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 256 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-512 digest of the message."
+    },
+    "CMA2": {
+      "isoName": "SHA256CMACWithAES256",
+      "name": "SHA 256 CMAC With AES 256",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 256 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA-256 digest of the message."
+    },
+    "CM31": {
+      "isoName": "SHA3-256CMACWithAES128",
+      "name": "SHA 3-256 CMAC With AES 128",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 128 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA3-256 digest of the message."
+    },
+    "CM32": {
+      "isoName": "SHA3-384CMACWithAES192",
+      "name": "SHA 3-384 CMAC With AES 192",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 192 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA3-384 digest of the message."
+    },
+    "CM33": {
+      "isoName": "SHA3-512CMACWithAES256",
+      "name": "SHA 3-512 CMAC With AES 256",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 256 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard). The CMAC algorithm is computed on the SHA3-512 digest of the message."
+    },
+    "MCS3": {
+      "isoName": "SHA3-256-3DESMAC",
+      "name": "SHA 3-256-3 DESMAC",
+      "definition": "3DES CBC-MAC with SHA3-256 (SecureHAsh standard) and ISO/IEC9797-1 method 2 padding."
+    },
+    "CCA1": {
+      "isoName": "CMACAES128",
+      "name": "CMACAES 128",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 128 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "CCA2": {
+      "isoName": "CMACAES192",
+      "name": "CMACAES 192",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 192 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "CCA3": {
+      "isoName": "CMACAES256",
+      "name": "CMACAES 256",
+      "definition": "CMAC (Cipher based Message Authentication Code) defined by the National Institute of Standards and Technology (NIST 800-38B - May 2005), using the block cipher Advanced Encryption Standard with a 256 bits cryptographic key, approved by the Federal Information Processing Standards (FIPS 197 - November 6, 2001 - Advanced Encryption Standard)."
+    },
+    "S34C": {
+      "isoName": "SM3SM4CBC",
+      "name": "SM 3 SM 4 CBC",
+      "definition": "ShangMi 4 enciphering method used in CBC mode coupled with ShangMi 3 hash function."
+    },
+    "S34R": {
+      "isoName": "SM3SM4CTR",
+      "name": "SM 3 SM 4 CTR",
+      "definition": "ShangMi 4 enciphering method used in CTR mode coupled with ShangMi 3 hash function."
+    }
+  }
+}

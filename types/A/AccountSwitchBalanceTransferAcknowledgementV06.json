@@ -6,27 +6,27 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Unique identification for the message."
     },
     "AccountSwitchDetails": {
       "name": "Account Switch Details",
-      "definition": ""
+      "definition": "Contains information about the details of the account switch."
     },
     "OldAccount": {
       "name": "Old Account",
-      "definition": ""
+      "definition": "Account held at the old Account Servicer being switched to the new Account Servicer."
     },
     "OldAccountBalance": {
       "name": "Old Account Balance",
-      "definition": ""
+      "definition": "Balance of the old account."
     },
     "BalanceTransfer": {
       "name": "Balance Transfer",
-      "definition": ""
+      "definition": "Information that enables any payments made in connection with the fulfilment of an account switch to be reconciled by the relevant account servicer with the associated request.||Usage: In the case of a negative closing balance of the old account, and where the old account servicer wishes any payment from the new account servicer to be addressed to an alternate account, this will be specified here."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

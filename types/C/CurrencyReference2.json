@@ -1,0 +1,20 @@
+{
+  "isoType": "CurrencyReference2",
+  "language": "en",
+  "name": "Currency Reference 2",
+  "definition": "Specifies the process of a currency exchange or conversion.",
+  "isoElements": {
+    "TargetCurrency": {
+      "name": "Target Currency",
+      "definition": "Currency into which an amount is to be converted in a currency conversion."
+    },
+    "SourceCurrency": {
+      "name": "Source Currency",
+      "definition": "Currency of the amount to be converted in a currency conversion."
+    },
+    "ExchangeRateInformation": {
+      "name": "Exchange Rate Information",
+      "definition": "The value of one currency expressed in relation to another currency. ExchangeRate expresses the ratio between UnitCurrency and QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    }
+  }
+}

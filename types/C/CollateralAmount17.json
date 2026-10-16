@@ -1,0 +1,64 @@
+{
+  "isoType": "CollateralAmount17",
+  "language": "en",
+  "name": "Collateral Amount 17",
+  "definition": "Provides details on the collateral valuation.",
+  "isoElements": {
+    "ValueOfCollateralHeld": {
+      "name": "Value Of Collateral Held",
+      "definition": "Total value of posted collateral (post-haircut) expressed in the reporting currency."
+    },
+    "TotalExposure": {
+      "name": "Total Exposure",
+      "definition": "Total exposure amount between the giver and taker expressed in the reporting currency. It includes the transaction amount and the accrued interests minus any  unsettled amount."
+    },
+    "TransactionAmount": {
+      "name": "Transaction Amount",
+      "definition": "Transaction Amount as instructed by the client."
+    },
+    "TransactionAmountBreakdown": {
+      "name": "Transaction Amount Breakdown",
+      "definition": "Breakdown of transaction amount (required value for the exposure)  into market value lots based on  the term for the underlying trades."
+    },
+    "Margin": {
+      "name": "Margin",
+      "definition": "The difference between the total collateral value and the total collateral required."
+    },
+    "TotalAccruedInterest": {
+      "name": "Total Accrued Interest",
+      "definition": "Total amount of money accrued interest computed in the case of interest bearing financial instruments."
+    },
+    "TotalCollateralRequired": {
+      "name": "Total Collateral Required",
+      "definition": "Collateral is required to cover interest that accrues on the exposure. Margin amount would thus be the difference between collateral required and collateral value (that is COVA)."
+    },
+    "TotalValueOfOwnCollateral": {
+      "name": "Total Value Of Own Collateral",
+      "definition": "Total value of own collateral in the reporting currency."
+    },
+    "TotalValueOfReusedCollateral": {
+      "name": "Total Value Of Reused Collateral",
+      "definition": "Total value of reused/rehypotheticated collateral in the reporting currency."
+    },
+    "TotalPendingCollateralIn": {
+      "name": "Total Pending Collateral In",
+      "definition": "Value of incoming collateral, to be settled in the reporting currency."
+    },
+    "TotalPendingCollateralOut": {
+      "name": "Total Pending Collateral Out",
+      "definition": "Value of outgoing collateral, to be settled in the reporting currency."
+    },
+    "TotalOfPrincipals": {
+      "name": "Total Of Principals",
+      "definition": "Total of principals in the reporting currency."
+    },
+    "TerminationTransactionAmount": {
+      "name": "Termination Transaction Amount",
+      "definition": "Termination Transaction Amount"
+    },
+    "TotalCashFailed": {
+      "name": "Total Cash Failed",
+      "definition": "Total value of undelivered intended transaction cash amount."
+    }
+  }
+}

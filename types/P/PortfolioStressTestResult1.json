@@ -1,0 +1,28 @@
+{
+  "isoType": "PortfolioStressTestResult1",
+  "language": "en",
+  "name": "Portfolio Stress Test Result 1",
+  "definition": "Outcome of the application of a hypothetical scenario on the valuation of a portfolio of financial instruments.",
+  "isoElements": {
+    "PortfolioIdentification": {
+      "name": "Portfolio Identification",
+      "definition": "Identification of the portfolio."
+    },
+    "StressLoss": {
+      "name": "Stress Loss",
+      "definition": "Calculated stress loss over the initial margin requirement, as used in the calculation of stress testing losses to size the default fund. Indicates whether the portfolio experienced a stress loss greater than initial margin."
+    },
+    "RawStressLoss": {
+      "name": "Raw Stress Loss",
+      "definition": "Calculated raw stress loss, as used in the calculation of stress testing losses to size the default fund. Indicates whether the portfolio experienced a stress loss."
+    },
+    "Cover1Flag": {
+      "name": "Cover 1 Flag",
+      "definition": "Indicates whether the stress loss over initial margin under this scenario for the clearing member of which the corresponding account is an account, is the largest stress over initial margin used to size the default fund."
+    },
+    "Cover2Flag": {
+      "name": "Cover 2 Flag",
+      "definition": "Indicates whether the stress loss over initial margin under this scenario for the clearing member of which the corresponding account is an account, is the second largest stress over initial margin used to size the default fund."
+    }
+  }
+}

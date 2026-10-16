@@ -1,0 +1,44 @@
+{
+  "isoType": "TransparencyDataReport15",
+  "language": "en",
+  "name": "Transparency Data Report 15",
+  "definition": "Provides for reporting quantitative data of non-equity instruments for transparency calculations.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice messages.||Usage:|This identification will be used in the status advice report sent back."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Date to which the quantitative data fields below relate."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Segment MIC for the trading venue where applicable, otherwise the operational MIC."
+    },
+    "Suspension": {
+      "name": "Suspension",
+      "definition": "Indicates whether the instrument was suspended for trading on that trading venue on the reporting day."
+    },
+    "NumberTransactions": {
+      "name": "Number Transactions",
+      "definition": "Total number of transactions executed on the reporting day for the instrument."
+    },
+    "AggregatedQuantitativeData": {
+      "name": "Aggregated Quantitative Data",
+      "definition": "Aggregated quantitative data on the non-equity instrument being reported. Details aggregated against the specific range that is defined. Transactions that have been cancelled should be excluded from the reported figure."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    },
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "TradeStatus1",
+  "language": "en",
+  "name": "Trade Status 1",
+  "definition": "Specifies the status of a trade in a central settlement system.",
+  "isoElements": {
+    "AllegedTrade": {
+      "name": "Alleged Trade",
+      "definition": "Specifies whether a trade is alleged or not."
+    },
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference to the unique identification assigned to a trade by a central matching system."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the status of a trade."
+    },
+    "ExtendedStatus": {
+      "name": "Extended Status",
+      "definition": "Description of the status of a trade when no coded form is available."
+    },
+    "StatusSubType": {
+      "name": "Status Sub Type",
+      "definition": "Additional information on the status of a trade in a central system."
+    },
+    "StatusTime": {
+      "name": "Status Time",
+      "definition": "Specifies the time at which a status was assigned."
+    },
+    "StatusOriginator": {
+      "name": "Status Originator",
+      "definition": "Identifies the party which assigned a status to a treasury trade."
+    }
+  },
+  "isoRules": {
+    "StatusOrExtendedStatusRule": {
+      "definition": ""
+    }
+  }
+}

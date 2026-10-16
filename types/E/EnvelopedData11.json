@@ -1,0 +1,24 @@
+{
+  "isoType": "EnvelopedData11",
+  "language": "en",
+  "name": "Enveloped Data 11",
+  "definition": "Encrypted data with encryption key.",
+  "isoElements": {
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the data structure."
+    },
+    "OriginatorInformation": {
+      "name": "Originator Information",
+      "definition": "Provides certificates of the originator."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Session key or identification of the protection key used by the recipient."
+    },
+    "EncryptedContent": {
+      "name": "Encrypted Content",
+      "definition": "Data protection by encryption (digital envelope), with an encryption key."
+    }
+  }
+}

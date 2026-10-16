@@ -1,0 +1,32 @@
+{
+  "isoType": "SecurityIdentificationAndAmount2",
+  "language": "en",
+  "name": "Security Identification And Amount 2",
+  "definition": "Specifies the current valuation of a security.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "ISIN of the outright investment."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Value of the outright investment according to the CCP’s system of record."
+    },
+    "FinancialInstrumentType": {
+      "name": "Financial Instrument Type",
+      "definition": "Type of a financial instrument: an equity, bond or other."
+    },
+    "DebtIssuerType": {
+      "name": "Debt Issuer Type",
+      "definition": "Type of debt issuer if Financial Instrument Type is Debt."
+    }
+  },
+  "isoRules": {
+    "DebtIssuerTypeRule": {
+      "definition": "If FinancialInstrumentType is equal to value 'BOND', then DebtIssuerType must be present."
+    },
+    "ConditionalPresenceOfBond": {
+      "definition": "The Debt Issuer Type must be present if and only if Financial Instrument Type equals 'Bond'"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "isoType": "IndividualOrderConfirmationStatusAndReason3",
+  "language": "en",
+  "name": "Individual Order Confirmation Status And Reason 3",
+  "definition": "Status report of the individual orders confirmation that was previously received.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Reference assigned to a set of orders or trades in order to link them together."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "Confirmation": {
+      "name": "Confirmation",
+      "definition": "Status of the order confirmation cancellation."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of an order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for the order execution, as assigned by the confirming party."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "StatusInitiator": {
+      "name": "Status Initiator",
+      "definition": "Party that initiates the status of the order confirmation."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account information of the individual order confirmation for which the status is given."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Financial instrument information of the individual order confirmation for which the status is given."
+    }
+  }
+}

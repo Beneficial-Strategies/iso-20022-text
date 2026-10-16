@@ -1,0 +1,48 @@
+{
+  "isoType": "CardAcquisitionRequest3",
+  "language": "en",
+  "name": "Card Acquisition Request 3",
+  "definition": "Data to request to card data acquisition.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "AllowedPaymentBrand": {
+      "name": "Allowed Payment Brand",
+      "definition": "Card payment brands allowed by the Sale System for the payment transaction."
+    },
+    "AllowedLoyaltyBrand": {
+      "name": "Allowed Loyalty Brand",
+      "definition": "Loyalty brands or programs allowed by the Sale System for the loyalty transaction."
+    },
+    "ForceCustomerSelectionFlag": {
+      "name": "Force Customer Selection Flag",
+      "definition": "Indicates if the Customer realises the selection of the card application."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Amount of the transaction. It allows the processing of a contactless card."
+    },
+    "PaymentType": {
+      "name": "Payment Type",
+      "definition": "Type of payment transaction."
+    },
+    "CashBackFlag": {
+      "name": "Cash Back Flag",
+      "definition": "Indicates if Cashback is allowed"
+    },
+    "SaleToPOIData": {
+      "name": "Sale To POI Data",
+      "definition": "The POI System receives this information."
+    },
+    "SaleToAcquirerData": {
+      "name": "Sale To Acquirer Data",
+      "definition": "Sale information intended for the Acquirer."
+    },
+    "SaleToIssuerData": {
+      "name": "Sale To Issuer Data",
+      "definition": "Sale information intended for the Issuer."
+    }
+  }
+}

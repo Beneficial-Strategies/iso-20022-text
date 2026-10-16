@@ -1,0 +1,25 @@
+{
+  "isoType": "TechnicalAttributes5",
+  "language": "en",
+  "name": "Technical Attributes 5",
+  "definition": "Specifies technical attributes of the message.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "ReconciliationFlag": {
+      "name": "Reconciliation Flag",
+      "definition": "List of possible values for TRs reconciliation purposes."
+    },
+    "ReportReceiptTimeStamp": {
+      "name": "Report Receipt Time Stamp",
+      "definition": "Indicates the date and time of the receipt of the submission of the report to the trade repository as recorded by the trade repository. This item should only be present in a message from the trade repository to an authority and/or other recipients of the message."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

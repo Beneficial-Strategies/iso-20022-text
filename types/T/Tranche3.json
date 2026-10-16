@@ -1,0 +1,21 @@
+{
+  "isoType": "Tranche3",
+  "language": "en",
+  "name": "Tranche 3",
+  "definition": "Indicates derivative contract was tranched.",
+  "isoElements": {
+    "AttachmentPoint": {
+      "name": "Attachment Point",
+      "definition": "Indicates the lower point at which the level of losses in the underlying portfolio reduces the notional of the tranche."
+    },
+    "DetachmentPoint": {
+      "name": "Detachment Point",
+      "definition": "Indicates the point beyond which the losses in the underlying portfolio no longer reduce the notional of the tranche."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one of the 2 elements must be present."
+    }
+  }
+}

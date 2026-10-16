@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionEventType1Code",
+  "language": "en",
+  "name": "Option Event Type 1 Code",
+  "definition": "Specifies the type of event for an option.",
+  "isoCodes": {
+    "CLST": {
+      "isoName": "CloseOut",
+      "name": "Close Out",
+      "definition": "Notice of a close out of the position."
+    },
+    "CONF": {
+      "isoName": "FirstConfirmation",
+      "name": "First Confirmation",
+      "definition": "First confirmation."
+    },
+    "KNIN": {
+      "isoName": "KnockIn",
+      "name": "Knock In",
+      "definition": "Notice of a knock-in. The option has a specified spot level, which, if touched during the knock-in period, triggers the option into existence. Prior to that level being touched, no option exists."
+    },
+    "KNOC": {
+      "isoName": "KnockOut",
+      "name": "Knock Out",
+      "definition": "Notice of a knock-out. The option has a specified spot level, which, if touched during the knock-out period, terminates the option."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Another type of event."
+    },
+    "TRIG": {
+      "isoName": "Trigger",
+      "name": "Trigger",
+      "definition": "Notice of a trigger hit."
+    }
+  }
+}

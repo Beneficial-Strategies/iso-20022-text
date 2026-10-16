@@ -1,0 +1,48 @@
+{
+  "isoType": "MessageItemCondition2Code",
+  "language": "en",
+  "name": "Message Item Condition 2 Code",
+  "definition": "Rule to apply for the presence of a message item.",
+  "isoCodes": {
+    "MNDT": {
+      "isoName": "Mandatory",
+      "name": "Mandatory",
+      "definition": "Message item must be present."
+    },
+    "CFVL": {
+      "isoName": "ConfiguredValue",
+      "name": "Configured Value",
+      "definition": "Message item must be present with the configured value."
+    },
+    "DFLT": {
+      "isoName": "DefaultValue",
+      "name": "Default Value",
+      "definition": "Message item has the configured value if the item is absent."
+    },
+    "ALWV": {
+      "isoName": "AllowedValues",
+      "name": "Allowed Values",
+      "definition": "Message item must have one of the configured values."
+    },
+    "IFAV": {
+      "isoName": "IfAvailable",
+      "name": "If Available",
+      "definition": "Message item has to be present if available."
+    },
+    "COPY": {
+      "isoName": "Copy",
+      "name": "Copy",
+      "definition": "Message item is present if it was present in a previous related message with the same value."
+    },
+    "UNSP": {
+      "isoName": "NotSupported",
+      "name": "Not Supported",
+      "definition": "Message item is not supported and has to be absent."
+    },
+    "LMNV": {
+      "isoName": "ListMinimumValues",
+      "name": "List Minimum Values",
+      "definition": "Minimum set of values to use in messages."
+    }
+  }
+}

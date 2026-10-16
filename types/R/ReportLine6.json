@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportLine6",
+  "language": "en",
+  "name": "Report Line 6",
+  "definition": "Information about a payment against a commercial invoice.",
+  "isoElements": {
+    "CommercialDocumentReference": {
+      "name": "Commercial Document Reference",
+      "definition": "Reference to the identification of the underlying commercial document."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the adjustments applied to obtain the net amount."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Net amount, after adjustments, intended to be paid."
+    },
+    "BreakdownByPurchaseOrder": {
+      "name": "Breakdown By Purchase Order",
+      "definition": "Specifies how the net amount to be paid is related to different purchase orders."
+    }
+  }
+}

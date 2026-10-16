@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIReconciliationRequestV08",
+  "language": "en",
+  "name": "Sale To POI Reconciliation Request V 08",
+  "definition": "The SaleToPOIReconciliationRequest message is sent by a sale system to request for reconciliation between sale and POI systems.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "ReconciliationRequest": {
+      "name": "Reconciliation Request",
+      "definition": "Information related to the reconciliation request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

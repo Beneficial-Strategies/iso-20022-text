@@ -1,0 +1,72 @@
+{
+  "isoType": "ForeignExchangeTradeStatusAndDetailsNotificationV06",
+  "language": "en",
+  "name": "Foreign Exchange Trade Status And Details Notification V 06",
+  "definition": "Scope||The ForeignExchangeTradeStatusAndDetails message is sent by a central system to the participant to provide notification of the status and details of a foreign exchange trade.||Usage||The notification is sent by a central settlement system to the two trading parties after it has received foreign exchange trade instructions from both.",
+  "isoElements": {
+    "StatusDetails": {
+      "name": "Status Details",
+      "definition": "Provides information on the status of a foreign exchange trade in the central system."
+    },
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "General information related to the foreign exchange trade."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Party(ies) on the trading side of the foreign exchange trade."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Party(ies) on the counterparty side of the foreign exchange trade."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Amounts of the foreign exchange trade."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Exchange rate as agreed by the traders."
+    },
+    "NonDeliverableForwardConditions": {
+      "name": "Non Deliverable Forward Conditions",
+      "definition": "Provides the opening and fixing information for an NDF trade."
+    },
+    "TradingSideSettlementInstructions": {
+      "name": "Trading Side Settlement Instructions",
+      "definition": "Settlement instructions for the amounts received by the trading side."
+    },
+    "CounterpartySideSettlementInstructions": {
+      "name": "Counterparty Side Settlement Instructions",
+      "definition": "Settlement instructions for the amounts received by the counterparty."
+    },
+    "GeneralInformation": {
+      "name": "General Information",
+      "definition": "Additional Information about the foreign exchange trade."
+    },
+    "SplitTradeInformation": {
+      "name": "Split Trade Information",
+      "definition": "Details of the split trade."
+    },
+    "RegulatoryReporting": {
+      "name": "Regulatory Reporting",
+      "definition": "Information that is to be provided to trade repositories in the context of the regulatory standards around over-the-counter (OTC) derivatives, central counterparties and trade repositories."
+    },
+    "PostTradeEvent": {
+      "name": "Post Trade Event",
+      "definition": "Information relating to post-trade lifecycle events."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SplitTradeFalsePresenceRule": {
+      "definition": "If TradeInformation\\SplitTradeIndicator is NO (‘false’), the SplitTradeInformation is not allowed."
+    },
+    "SplitTradeTruePresenceRule": {
+      "definition": "If TradeInformation\\SplitTradeIndicator is YES (‘true’), the SplitTradeInformation must be present."
+    }
+  }
+}

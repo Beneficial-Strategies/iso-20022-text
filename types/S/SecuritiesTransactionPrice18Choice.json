@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesTransactionPrice18Choice",
+  "language": "en",
+  "name": "Securities Transaction Price 18 Choice",
+  "definition": "Specifies the price of the securities transaction.",
+  "isoElements": {
+    "MonetaryValue": {
+      "name": "Monetary Value",
+      "definition": "Indicates that price is expressed as a monetary value."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Indicates that price is expressed as a rate, that is a percentage."
+    },
+    "Decimal": {
+      "name": "Decimal",
+      "definition": "Indicates that price is expressed as a decimal."
+    },
+    "BasisPoints": {
+      "name": "Basis Points",
+      "definition": "Used to express differences in interest rates, for example, a difference of 0.10% is equivalent to a change of 10 basis points."
+    }
+  }
+}

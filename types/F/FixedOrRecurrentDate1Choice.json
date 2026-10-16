@@ -1,0 +1,16 @@
+{
+  "isoType": "FixedOrRecurrentDate1Choice",
+  "language": "en",
+  "name": "Fixed Or Recurrent Date 1 Choice",
+  "definition": "Choice between a fixed date and a recurring date.",
+  "isoElements": {
+    "FixedDate": {
+      "name": "Fixed Date",
+      "definition": "Date on which the variation is triggered."
+    },
+    "RecurrentDate": {
+      "name": "Recurrent Date",
+      "definition": "Details related to recurrent dates on which the variation is triggered."
+    }
+  }
+}

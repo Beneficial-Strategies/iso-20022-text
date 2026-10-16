@@ -1,0 +1,73 @@
+{
+  "isoType": "ReportingWaiverType3Code",
+  "language": "en",
+  "name": "Reporting Waiver Type 3 Code",
+  "definition": "Specifies the type of regulatory reporting pre-trade waiver.",
+  "isoCodes": {
+    "BENC": {
+      "isoName": "BenchmarkTransaction",
+      "name": "Benchmark Transaction",
+      "definition": "Benchmark transaction."
+    },
+    "ACTX": {
+      "isoName": "AgencyCrossTransaction",
+      "name": "Agency Cross Transaction",
+      "definition": "Agency cross transaction."
+    },
+    "ILQD": {
+      "isoName": "IlliquidInstrumentTransaction",
+      "name": "Illiquid Instrument Transaction",
+      "definition": "Pre-trade waiver was for an illiquid instrument transaction. Applicable to non-equity instruments."
+    },
+    "SIZE": {
+      "isoName": "AboveSpecificSizeTransaction",
+      "name": "Above Specific Size Transaction",
+      "definition": "Pre-trade waiver was for an above specific size transaction. Applicable to non-equity instruments."
+    },
+    "CANC": {
+      "isoName": "Cancellations",
+      "name": "Cancellations",
+      "definition": "Cancellations."
+    },
+    "AMND": {
+      "isoName": "Amendments",
+      "name": "Amendments",
+      "definition": "Amendments."
+    },
+    "SDIV": {
+      "isoName": "SpecialDividendTransaction",
+      "name": "Special Dividend Transaction",
+      "definition": "Special dividend transactions."
+    },
+    "RPRI": {
+      "isoName": "TransactionWithPriceImprovment",
+      "name": "Transaction With Price Improvment",
+      "definition": "Transactions which have received price improvement. Applicable to equity instruments."
+    },
+    "DUPL": {
+      "isoName": "DuplicativeTradeReport",
+      "name": "Duplicative Trade Report",
+      "definition": "Duplicative trade reports."
+    },
+    "LRGS": {
+      "isoName": "LargeInScale",
+      "name": "Large In Scale",
+      "definition": "Large-in-scale transactions. Applicable for all instruments."
+    },
+    "TNCP": {
+      "isoName": "TransactionNotContributingToPriceDiscovery",
+      "name": "Transaction Not Contributing To Price Discovery",
+      "definition": "Transactions not contributing to the price discovery process."
+    },
+    "TPAC": {
+      "isoName": "PackageTransaction",
+      "name": "Package Transaction",
+      "definition": "Package transaction."
+    },
+    "XFPH": {
+      "isoName": "ExchangeForPhysical",
+      "name": "Exchange For Physical",
+      "definition": "Transaction where the contract on a commodity is exchanged for the actual physical good."
+    }
+  }
+}

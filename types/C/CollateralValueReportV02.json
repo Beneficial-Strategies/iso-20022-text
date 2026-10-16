@@ -1,0 +1,20 @@
+{
+  "isoType": "CollateralValueReportV02",
+  "language": "en",
+  "name": "Collateral Value Report V 02",
+  "definition": "The CollateralValueReport message is sent by the system transaction administrator to a system member (such as a directly connected party) to provide further information the current available value of securities for auto collateralisation for one specific or several cash accounts.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Set of elements to identify the collateral value report message."
+    },
+    "ReportOrError": {
+      "name": "Report Or Error",
+      "definition": "Report on collateral value information or operational error."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

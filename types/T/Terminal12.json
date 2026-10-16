@@ -1,0 +1,20 @@
+{
+  "isoType": "Terminal12",
+  "language": "en",
+  "name": "Terminal 12",
+  "definition": "Payment terminal or ATM performing the transaction",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the terminal.||ISO 8583 bit 41"
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

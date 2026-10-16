@@ -1,0 +1,120 @@
+{
+  "isoType": "RegulatoryReporting8",
+  "language": "en",
+  "name": "Regulatory Reporting 8",
+  "definition": "Includes data elements that can be used for reporting to trade repositories.||Usage: It is not to be used on regular trade confirmations. Although some fields, for example, unique transaction identifier and prior unique transaction identifier, might be used on regular trade confirmations.",
+  "isoElements": {
+    "TradingSideTransactionReporting": {
+      "name": "Trading Side Transaction Reporting",
+      "definition": "Regulatory transaction reporting information from the Trading Side party."
+    },
+    "CounterpartySideTransactionReporting": {
+      "name": "Counterparty Side Transaction Reporting",
+      "definition": "Regulatory transaction reporting information from the Counterparty Side party."
+    },
+    "CentralCounterpartyClearingHouse": {
+      "name": "Central Counterparty Clearing House",
+      "definition": "Identifies an agency or separate corporation of a futures exchange responsible for settling and|clearing trades, collecting and maintaining margins, regulating delivery and reporting trade data. This can also be known as a Central Counterparty (CCP)."
+    },
+    "ClearingBroker": {
+      "name": "Clearing Broker",
+      "definition": "Identifies the party that is a member of the clearing house and that acts as a liaison between the investor and the Central Counterparty (CCP)."
+    },
+    "ClearingExceptionParty": {
+      "name": "Clearing Exception Party",
+      "definition": "Identifies the party that is exempt from a clearing obligation."
+    },
+    "ClearingBrokerIdentification": {
+      "name": "Clearing Broker Identification",
+      "definition": "Specifies the reference number assigned by the clearing broker. A distinction can be made between the reference for the Central Counterparty (CCP) leg and the reference for the client leg of the transaction."
+    },
+    "ClearingThresholdIndicator": {
+      "name": "Clearing Threshold Indicator",
+      "definition": "Specifies whether the contract is above or below the clearing threshold. Where No indicates the contract is below the clearing threshold and Yes indicates the contract is above the clearing threshold."
+    },
+    "ClearedProductIdentification": {
+      "name": "Cleared Product Identification",
+      "definition": "Specifies the reference number assigned by the Central Counterparty (CCP)."
+    },
+    "ProductIdentifier": {
+      "name": "Product Identifier",
+      "definition": "Specifies the underlying product or unique product identifier."
+    },
+    "AllocationIndicator": {
+      "name": "Allocation Indicator",
+      "definition": "Specifies whether the trade is a pre-allocation or a post-allocation trade, or whether the trade is unallocated."
+    },
+    "CollateralisationIndicator": {
+      "name": "Collateralisation Indicator",
+      "definition": "Specifies whether the transaction is collateralised."
+    },
+    "ExecutionVenue": {
+      "name": "Execution Venue",
+      "definition": "Specifies the trading venue of the transaction."
+    },
+    "ExecutionTimestamp": {
+      "name": "Execution Timestamp",
+      "definition": "Specifies the date and time of the execution of the transaction in Coordinated Universal Time (UTC)."
+    },
+    "NonStandardFlag": {
+      "name": "Non Standard Flag",
+      "definition": "Specifies whether the reportable transaction has one or more additional terms or provisions, other than those listed in the required real-time data fields, that materially affects the price of the reportable transaction."
+    },
+    "LinkSwapIdentification": {
+      "name": "Link Swap Identification",
+      "definition": "Specifies the common reference or correlation identification for a swap transaction where the near and far leg are confirmed separately."
+    },
+    "FinancialNatureOfTheCounterpartyIndicator": {
+      "name": "Financial Nature Of The Counterparty Indicator",
+      "definition": "Specifies the financial nature of the reporting counterparty."
+    },
+    "CollateralPortfolioIndicator": {
+      "name": "Collateral Portfolio Indicator",
+      "definition": "Specifies if the collateral is posted on a portfolio basis."
+    },
+    "CollateralPortfolioCode": {
+      "name": "Collateral Portfolio Code",
+      "definition": "Identifies the portfolio code to which the trade belongs if the collateral is posted on a portfolio basis (and not trade by trade)."
+    },
+    "PortfolioCompressionIndicator": {
+      "name": "Portfolio Compression Indicator",
+      "definition": "Indicates if the trade results from portfolio compression."
+    },
+    "CorporateSectorIndicator": {
+      "name": "Corporate Sector Indicator",
+      "definition": "Specifies the corporate sector of the counterparty."
+    },
+    "TradeWithNonEEACounterpartyIndicator": {
+      "name": "Trade With Non EEA Counterparty Indicator",
+      "definition": "Specifies whether the counterparty has entered into a trade with a non-European Economic Area (EEA) counterparty that is not subject to the reporting obligation."
+    },
+    "IntragroupTradeIndicator": {
+      "name": "Intragroup Trade Indicator",
+      "definition": "Indicate if a reported trade falls under the definition of intragroup transaction, as defined by European Securities and Markets Authority (ESMA) in the Technical Standards."
+    },
+    "CommercialOrTreasuryFinancingIndicator": {
+      "name": "Commercial Or Treasury Financing Indicator",
+      "definition": "Specifies whether the contract is objectively measurable as directly linked to the non-financial counterparty's commercial or treasury financing activity."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of a security, as assigned under a formal or proprietary identification scheme."
+    },
+    "ConfirmationDateAndTimestamp": {
+      "name": "Confirmation Date And Timestamp",
+      "definition": "Specifies the date and time of the confirmation of the trade in Universal Time Coordinated (UTC)."
+    },
+    "ClearingTimestamp": {
+      "name": "Clearing Timestamp",
+      "definition": "Specifies the time at which the Central Counterparty (CCP) has legally taken on the clearing of the trade in Universal Time Coordinated (UTC)."
+    },
+    "CommissionsAndFees": {
+      "name": "Commissions And Fees",
+      "definition": "Provides the commission and fee type anf amout or rate."
+    },
+    "AdditionalReportingInformation": {
+      "name": "Additional Reporting Information",
+      "definition": "Specifies additional information that might be required by the regulator."
+    }
+  }
+}

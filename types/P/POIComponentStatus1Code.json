@@ -1,0 +1,28 @@
+{
+  "isoType": "POIComponentStatus1Code",
+  "language": "en",
+  "name": "POI Component Status 1 Code",
+  "definition": "Status of a component belonging to a POI Terminal (Point of Interaction).",
+  "isoCodes": {
+    "WAIT": {
+      "isoName": "WaitingActivation",
+      "name": "Waiting Activation",
+      "definition": "Component not yet activated."
+    },
+    "OUTD": {
+      "isoName": "OutOfOrder",
+      "name": "Out Of Order",
+      "definition": "Component not working properly."
+    },
+    "OPER": {
+      "isoName": "InOperation",
+      "name": "In Operation",
+      "definition": "Component activated and in operation."
+    },
+    "DACT": {
+      "isoName": "Deactivated",
+      "name": "Deactivated",
+      "definition": "Component has been deactivated."
+    }
+  }
+}

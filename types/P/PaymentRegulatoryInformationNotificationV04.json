@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentRegulatoryInformationNotificationV04",
+  "language": "en",
+  "name": "Payment Regulatory Information Notification V 04",
+  "definition": "The PaymentRegulatoryInformationNotification message is sent by the reporting party to the registration agent to provide details on the transaction, when a payment has to be recorded against the registered currency control contract. ||In some cases, the registration agent may also sent this message to the reporting party.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": "Characteristics shared by all individual items included in the message."
+    },
+    "TransactionNotification": {
+      "name": "Transaction Notification",
+      "definition": "Notification of information related to a regulatory reporting on a payment."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

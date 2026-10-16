@@ -1,0 +1,25 @@
+{
+  "isoType": "TradeClearing11",
+  "language": "en",
+  "name": "Trade Clearing 11",
+  "definition": "Information related to the clearing of the contract.",
+  "isoElements": {
+    "ClearingObligation": {
+      "name": "Clearing Obligation",
+      "definition": "Indicates, whether the reported contract belongs to a class of OTC derivatives that has been declared subject to the clearing obligation and both counterparties to the contract are subject to the clearing obligation, as of the time of execution of the contract."
+    },
+    "ClearingStatus": {
+      "name": "Clearing Status",
+      "definition": "Indicator of whether the transaction has been cleared, or is intended to be cleared, by a central counterparty."
+    },
+    "IntraGroup": {
+      "name": "Intra Group",
+      "definition": "Indicates whether the contract was entered into as an intragroup transaction.||Usage: When absent, default value is false."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

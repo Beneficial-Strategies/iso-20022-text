@@ -1,0 +1,52 @@
+{
+  "isoType": "FraudulentTransactionData4",
+  "language": "en",
+  "name": "Fraudulent Transaction Data 4",
+  "definition": "Data related to the confirmed fraudulent transaction.",
+  "isoElements": {
+    "Authorisation": {
+      "name": "Authorisation",
+      "definition": "Indicates whether the transaction was authorised or not."
+    },
+    "AuthorisationEntity": {
+      "name": "Authorisation Entity",
+      "definition": "Indicates the entity which authorised the transaction (if relevant). P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "MessageReason": {
+      "name": "Message Reason",
+      "definition": "Reason for sending the message.||The ISO 8583 maintenance agency (MA) manages this Message reason code list."
+    },
+    "AlternateMessageReason": {
+      "name": "Alternate Message Reason",
+      "definition": "Supports message reason codes that are not defined  in external code list."
+    },
+    "PresentmentCycle": {
+      "name": "Presentment Cycle",
+      "definition": "Indicates the cycle of presentment or of the chargeback  (1= first cycle for chargeback, 2= second cycle of presentment or chargeback, etc.)."
+    },
+    "DisputeCondition": {
+      "name": "Dispute Condition",
+      "definition": "Condition of the dispute."
+    },
+    "AgentDisputeBundleCaseReference": {
+      "name": "Agent Dispute Bundle Case Reference",
+      "definition": "Bundle dispute case reference assigned by agent."
+    },
+    "AgentDisputeCaseReference": {
+      "name": "Agent Dispute Case Reference",
+      "definition": "Dispute case reference assigned by agent."
+    },
+    "AcquirerDisputeCaseReference": {
+      "name": "Acquirer Dispute Case Reference",
+      "definition": "Dispute case reference assigned by acquirer."
+    },
+    "IssuerDisputeCaseReference": {
+      "name": "Issuer Dispute Case Reference",
+      "definition": "Dispute case reference assigned by issuer."
+    },
+    "FraudulentMessage": {
+      "name": "Fraudulent Message",
+      "definition": "Complete or partial details of the original message identified as fraudulent."
+    }
+  }
+}

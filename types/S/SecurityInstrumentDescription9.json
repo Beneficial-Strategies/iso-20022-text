@@ -1,0 +1,43 @@
+{
+  "isoType": "SecurityInstrumentDescription9",
+  "language": "en",
+  "name": "Security Instrument Description 9",
+  "definition": "Identifies the security instrument by its name and typical characteristics.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Code used to identify the financial instrument."
+    },
+    "FullName": {
+      "name": "Full Name",
+      "definition": "Full name of the financial instrument."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Short name of financial instrument in accordance with ISO 18774."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification."
+    },
+    "NotionalCurrency": {
+      "name": "Notional Currency",
+      "definition": "Currency in which the notional is denominated."
+    },
+    "CommodityDerivativeIndicator": {
+      "name": "Commodity Derivative Indicator",
+      "definition": "Indicates whether the financial instrument falls within the definition of commodities derivative under the local regulation."
+    }
+  },
+  "isoRules": {
+    "ValidCFIRule": {
+      "definition": "The CFI code must be a valid CFI code as defined by 10962."
+    },
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    },
+    "ValidShortNameRule": {
+      "definition": "ShortName must conform with ISO 18774."
+    }
+  }
+}

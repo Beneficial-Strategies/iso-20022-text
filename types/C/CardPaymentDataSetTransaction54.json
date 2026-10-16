@@ -1,0 +1,28 @@
+{
+  "isoType": "CardPaymentDataSetTransaction54",
+  "language": "en",
+  "name": "Card Payment Data Set Transaction 54",
+  "definition": "Cancelled card payment transaction to be captured in a batch.",
+  "isoElements": {
+    "TransactionSequenceCounter": {
+      "name": "Transaction Sequence Counter",
+      "definition": "Sequential counter of the transaction."
+    },
+    "Traceability": {
+      "name": "Traceability",
+      "definition": "Identification of partners involved in the exchange from the merchant to the issuer, with the corresponding timestamp of their exchanges."
+    },
+    "Environment": {
+      "name": "Environment",
+      "definition": "Data related to the environment of the cancelled transaction captured in batch."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Card payment cancellation transaction between an acceptor and an acquirer."
+    }
+  }
+}

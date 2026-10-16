@@ -1,0 +1,36 @@
+{
+  "isoType": "ForeignExchangeTradeConfirmationRequestCancellationRequestV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Confirmation Request Cancellation Request V 02",
+  "definition": "Scope|The ForeignExchangeTradeConfirmationRequestCancellationRequest message is sent from a market participant to a Central matching utility (CMU) to amend the ForeignExchangeTradeConfirmationRequest previously sent.||Usage|The request is sent by the market participants to the CMU after the confirmation is requested.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Message management information."
+    },
+    "CancellationRequestIdentification": {
+      "name": "Cancellation Request Identification",
+      "definition": "Identifies the cancellation request messge."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the treasury trade which is captured."
+    },
+    "CounterpartyRoleIdentification": {
+      "name": "Counterparty Role Identification",
+      "definition": "Specifies the counterparty side of the treasury trade which is captured."
+    },
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Identifier of the trade that needs to be cancelled."
+    },
+    "UnderlyingProductType": {
+      "name": "Underlying Product Type",
+      "definition": "Specifies the underlying product type."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

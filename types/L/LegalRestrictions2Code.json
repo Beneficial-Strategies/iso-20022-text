@@ -1,0 +1,33 @@
+{
+  "isoType": "LegalRestrictions2Code",
+  "language": "en",
+  "name": "Legal Restrictions 2 Code",
+  "definition": "Specifies the regulatory restrictions applicable to a security.",
+  "isoCodes": {
+    "JURO": {
+      "isoName": "JurisdictionOwnership",
+      "name": "Jurisdiction Ownership",
+      "definition": "Investors outside this jurisdiction can purchase this security, for example, a Reg S security can only be held by an investor outside the US."
+    },
+    "PPLA": {
+      "isoName": "PrivatePlacements",
+      "name": "Private Placements",
+      "definition": "Only investors qualified by the issuer in this jurisdiction may purchase this security."
+    },
+    "ACRI": {
+      "isoName": "AccreditedInvestor",
+      "name": "Accredited Investor",
+      "definition": "Only investors qualified by the regulator in this jurisdiction may purchase this security."
+    },
+    "MARG": {
+      "isoName": "Margin",
+      "name": "Margin",
+      "definition": "Issuer defines whether the security may be purchased with borrowed money (US and Japan)."
+    },
+    "PRIV": {
+      "isoName": "Privilege",
+      "name": "Privilege",
+      "definition": "Privileges, for example, voting rights, of holding the security may be restricted by the issuer."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "CorporateActionPriceSD2",
+  "language": "en",
+  "name": "Corporate Action Price SD 2",
+  "definition": "Provides additional information regarding corporate action option securities movement price details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "DTCCashInLieuPrice": {
+      "name": "DTC Cash In Lieu Price",
+      "definition": "Price and currency at which cash will be paid for fractional shares (cash-in-lieu rate) by DTC (The Depository Trust Corporation). Used in conjunction with a rounding factor element."
+    }
+  }
+}

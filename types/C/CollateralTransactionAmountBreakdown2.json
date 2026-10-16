@@ -1,0 +1,20 @@
+{
+  "isoType": "CollateralTransactionAmountBreakdown2",
+  "language": "en",
+  "name": "Collateral Transaction Amount Breakdown 2",
+  "definition": "Details of breakdown of a market value.",
+  "isoElements": {
+    "LotNumber": {
+      "name": "Lot Number",
+      "definition": "Identification of the underlying transaction (exposure split)."
+    },
+    "TransactionAmount": {
+      "name": "Transaction Amount",
+      "definition": "Split amount of the aggregate transaction amount (exposure)."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Period that applies to the aggregate transation amount (exposure)."
+    }
+  }
+}

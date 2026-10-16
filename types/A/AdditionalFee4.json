@@ -1,0 +1,60 @@
+{
+  "isoType": "AdditionalFee4",
+  "language": "en",
+  "name": "Additional Fee 4",
+  "definition": "Fees not included in the transaction.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type or class of fee."
+    },
+    "Program": {
+      "name": "Program",
+      "definition": "Identification of fee program."
+    },
+    "Descriptor": {
+      "name": "Descriptor",
+      "definition": "Identification of specific fee."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Fee rate."
+    },
+    "RateFix": {
+      "name": "Rate Fix",
+      "definition": "Fix amount per transaction in currency for the type of amount."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Contains code list for a credit or debit transaction"
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount exclusive of currency."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency for the type of amount."
+    },
+    "ReconciliationAmount": {
+      "name": "Reconciliation Amount",
+      "definition": "Amount of the transaction in Reconciliation currency"
+    },
+    "ReconciliationCurrency": {
+      "name": "Reconciliation Currency",
+      "definition": "Currency code of Reconciliation and associated with Reconciliation amount.  ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "ReconciliationEffectiveExchangeRate": {
+      "name": "Reconciliation Effective Exchange Rate",
+      "definition": "Effective exchange rate used in the conversion from transaction amount to reconciliation amount."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "A code to identify the type of party who assign the fee. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Short description of the fee amount."
+    }
+  }
+}

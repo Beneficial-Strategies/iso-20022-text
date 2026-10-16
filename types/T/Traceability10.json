@@ -1,0 +1,40 @@
+{
+  "isoType": "Traceability10",
+  "language": "en",
+  "name": "Traceability 10",
+  "definition": "Identification of partners involved in exchange from the merchant to the issuer, with the relative timestamp of their exchanges.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the entity."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of identified entity."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other type of identification."
+    },
+    "Assigner": {
+      "name": "Assigner",
+      "definition": "Entity type in charge of assigning an identification."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the entity (ISO 3166-1 alpha-2 or alpha-3)."
+    },
+    "ShortName": {
+      "name": "Short Name",
+      "definition": "Name of the entity."
+    },
+    "DateTimeIn": {
+      "name": "Date Time In",
+      "definition": "Date and time of incoming data exchange for relaying or processing."
+    },
+    "DateTimeOut": {
+      "name": "Date Time Out",
+      "definition": "Date and time of the outgoing exchange for relaying or processing."
+    }
+  }
+}

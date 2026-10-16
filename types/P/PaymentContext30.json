@@ -1,0 +1,29 @@
+{
+  "isoType": "PaymentContext30",
+  "language": "en",
+  "name": "Payment Context 30",
+  "definition": "Context in which the transaction is performed (payment and sale).",
+  "isoElements": {
+    "PaymentContext": {
+      "name": "Payment Context",
+      "definition": "Context of the card payment transaction."
+    },
+    "SaleContext": {
+      "name": "Sale Context",
+      "definition": "Context of the sale involving the card payment transaction."
+    },
+    "CreditTransferContext": {
+      "name": "Credit Transfer Context",
+      "definition": "Context of the credit transfer transaction."
+    },
+    "DirectDebitContext": {
+      "name": "Direct Debit Context",
+      "definition": "Context of the direct debit transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "At least one of these subelements mut be present."
+    }
+  }
+}

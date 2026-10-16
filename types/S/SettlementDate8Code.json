@@ -1,0 +1,108 @@
+{
+  "isoType": "SettlementDate8Code",
+  "language": "en",
+  "name": "Settlement Date 8 Code",
+  "definition": "Specifies the date of settlement, in coded form.",
+  "isoCodes": {
+    "ASAP": {
+      "isoName": "AsSoonAsPossible",
+      "name": "As Soon As Possible",
+      "definition": "Transfer is to be effected as soon as possible."
+    },
+    "ENDC": {
+      "isoName": "AtEndOfContract",
+      "name": "At End Of Contract",
+      "definition": "Transfer is to be effected at the end of the contract."
+    },
+    "CASH": {
+      "isoName": "Cash",
+      "name": "Cash",
+      "definition": "Settlement takes place on the trade date."
+    },
+    "CLEA": {
+      "isoName": "Cleared",
+      "name": "Cleared",
+      "definition": "Cash settlement takes place before trade date."
+    },
+    "MONT": {
+      "isoName": "EndOfMonth",
+      "name": "End Of Month",
+      "definition": "Settlement takes place at the end of the month."
+    },
+    "FUTU": {
+      "isoName": "Future",
+      "name": "Future",
+      "definition": "Settlement takes place on the trade date plus six or more business days."
+    },
+    "PRVD": {
+      "isoName": "PreviousDay",
+      "name": "Previous Day",
+      "definition": "Event occurs on the previous day."
+    },
+    "REGU": {
+      "isoName": "Regular",
+      "name": "Regular",
+      "definition": "Settlement takes place under the standard rules applicable to the market and instrument."
+    },
+    "SAVE": {
+      "isoName": "SavingsPlan",
+      "name": "Savings Plan",
+      "definition": "Money is withdrawn automatically from the savings plan."
+    },
+    "SELL": {
+      "isoName": "SellersOption",
+      "name": "Sellers Option",
+      "definition": "Settlement takes place at the choice/option of the seller."
+    },
+    "TBAT": {
+      "isoName": "ToBeAnnouncedTrade",
+      "name": "To Be Announced Trade",
+      "definition": "Settlement takes place as a result of a \"to be announced\" trade."
+    },
+    "TFIV": {
+      "isoName": "TPlusFive",
+      "name": "T Plus Five",
+      "definition": "Settlement takes place on the trade date plus five business days."
+    },
+    "TFOR": {
+      "isoName": "TPlusFour",
+      "name": "T Plus Four",
+      "definition": "Settlement takes place on the trade date plus four business days."
+    },
+    "TONE": {
+      "isoName": "TPlusOne",
+      "name": "T Plus One",
+      "definition": "Settlement takes place on the trade date plus one business day."
+    },
+    "TTRE": {
+      "isoName": "TPlusThree",
+      "name": "T Plus Three",
+      "definition": "Settlement takes place on the trade date plus three business days."
+    },
+    "TTWO": {
+      "isoName": "TPlusTwo",
+      "name": "T Plus Two",
+      "definition": "Settlement takes place on the trade date plus two business days."
+    },
+    "WHIF": {
+      "isoName": "WhenAndIfIssued",
+      "name": "When And If Issued",
+      "definition": "Settlement takes place when the financial instrument is issued by the issuer."
+    },
+    "WDIS": {
+      "isoName": "WhenDistributed",
+      "name": "When Distributed",
+      "definition": "Settlement takes place when the financial instrument is distributed."
+    },
+    "WISS": {
+      "isoName": "WhenIssued",
+      "name": "When Issued",
+      "definition": "Settlement is to be done when the security is issued."
+    },
+    "WHID": {
+      "isoName": "WhenIssuedOrDistributed",
+      "name": "When Issued Or Distributed",
+      "definition": "Settlement takes place when the financial instrument is issued or distributed."
+    }
+  }
+}

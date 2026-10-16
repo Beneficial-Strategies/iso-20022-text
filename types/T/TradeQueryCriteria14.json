@@ -1,0 +1,41 @@
+{
+  "isoType": "TradeQueryCriteria14",
+  "language": "en",
+  "name": "Trade Query Criteria 14",
+  "definition": "Query criteria on a trade transaction.",
+  "isoElements": {
+    "TradeLifeCycleHistory": {
+      "name": "Trade Life Cycle History",
+      "definition": "Field to define whether the query response file will include all reports submitted for a trade [true] or only the current state of the trade [false].||If false is selected, the reporting timestamp field cannot be used.||Usage: In case TradeLifeCycleHistory is not reported, the filter shall not be used to query the database of Trade Repository."
+    },
+    "MarginLifeCycleHistory": {
+      "name": "Margin Life Cycle History",
+      "definition": "Field to define whether the query response file will include all reports submitted for a margin [true] or only the current state of the margin [false].||If false is selected, the reporting timestamp field cannot be used.||Usage: In case MarginLifeCycleHistory is not reported, the filter shall not be used to query the database of Trade Repository."
+    },
+    "OutstandingTradeIndicator": {
+      "name": "Outstanding Trade Indicator",
+      "definition": "Field to define whether if the query response file will include all trades or only the outstanding trades."
+    },
+    "TradePartyCriteria": {
+      "name": "Trade Party Criteria",
+      "definition": "Query criteria related to counterparties."
+    },
+    "FinancialInstrumentCriteria": {
+      "name": "Financial Instrument Criteria",
+      "definition": "Indicates the query criteria related to financial instruments."
+    },
+    "TimeCriteria": {
+      "name": "Time Criteria",
+      "definition": "Query criteria related to time values."
+    },
+    "OtherCriteria": {
+      "name": "Other Criteria",
+      "definition": "Query criteria related to other fields."
+    }
+  },
+  "isoRules": {
+    "TimeCriteriaReportingDateTimeRule": {
+      "definition": "If TradeLifeCycleHistory equals false, then TimeCriteria/ReportingDateTime must be absent."
+    }
+  }
+}

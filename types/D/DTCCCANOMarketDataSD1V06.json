@@ -1,0 +1,80 @@
+{
+  "isoType": "DTCCCANOMarketDataSD1V06",
+  "language": "en",
+  "name": "DTCCCANO Market Data SD 1 V 06",
+  "definition": "The DTCCCANOMarketDataSD1 message extends ISO corporate action notification (CANO) market data message (Market Data type) with data elements that are not covered by the standard message, and additionally, with DTC values where issuer/offeror/market corresponding values are mapped to CANO. For example issuer/offeror/market declared cash rate will be mapped to the CANO and DTC announced cash rate will be extended in this message.",
+  "isoElements": {
+    "NotificationGeneralInformation": {
+      "name": "Notification General Information",
+      "definition": "Information to be extended as supplementary data to notification general information."
+    },
+    "CorporateActionGeneralInformation": {
+      "name": "Corporate Action General Information",
+      "definition": "Information to be extended as supplementary data to general information."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Information to be extended as supplementary data to underlying security details."
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": "Information to be extended as supplementary data to corporate action details."
+    },
+    "CorporateActionDateDetails": {
+      "name": "Corporate Action Date Details",
+      "definition": "Information to be extended as supplementary data to corporate action date details."
+    },
+    "CorporateActionPriceDetails": {
+      "name": "Corporate Action Price Details",
+      "definition": "Information to be extended as corporate action price supplementary data."
+    },
+    "CorporateActionPeriodDetails": {
+      "name": "Corporate Action Period Details",
+      "definition": "Information to be extended as supplementary data to corporate action period."
+    },
+    "CorporateActionSecuritiesQuantity": {
+      "name": "Corporate Action Securities Quantity",
+      "definition": "Information to be extended as supplementary data to corporate action securities quantity."
+    },
+    "CorporateActionRateAndAmountDetails": {
+      "name": "Corporate Action Rate And Amount Details",
+      "definition": "Information to be extended as supplementary data to corporate action rate and amount."
+    },
+    "OptionDetails": {
+      "name": "Option Details",
+      "definition": "Information to be extended as supplementary data to option details."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Information to be extended as supplementary data to securities movement details."
+    },
+    "SecuritiesMovementSecurityDetails": {
+      "name": "Securities Movement Security Details",
+      "definition": "Information to be extended as supplementary data to securities movement security details."
+    },
+    "SecuritiesMovementRateDetails": {
+      "name": "Securities Movement Rate Details",
+      "definition": "Information to be extended as supplementary data to securities movement rate details."
+    },
+    "SecuritiesMovementCashInLieuDetails": {
+      "name": "Securities Movement Cash In Lieu Details",
+      "definition": "Information to be extended as supplementary data to securities movement cash in lieu."
+    },
+    "SecuritiesMovementFractionDisposition": {
+      "name": "Securities Movement Fraction Disposition",
+      "definition": "Information to be extended as supplementary data to securities movement fraction disposition."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Information to be extended as supplementary data to cash movement details."
+    },
+    "Agent": {
+      "name": "Agent",
+      "definition": "Provides additional information to agent details (to message agent like \"issuer agent\", \"reselling agent\", etc). Used when required \"ISO agent type\" exists and only additional details need to be extended."
+    },
+    "NewAgent": {
+      "name": "New Agent",
+      "definition": "Information to be extended new agent block. Used when required ISO Agent Type does not exist and entire new component must be generated."
+    }
+  }
+}

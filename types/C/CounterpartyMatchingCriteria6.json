@@ -1,0 +1,25 @@
+{
+  "isoType": "CounterpartyMatchingCriteria6",
+  "language": "en",
+  "name": "Counterparty Matching Criteria 6",
+  "definition": "Compares information related to both sides of a counterparty.",
+  "isoElements": {
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Specifies whether the information on the reporting counterparties are matching or not."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Specifies whether the information on the other counterparties are matching or not."
+    },
+    "DirectionOrSide": {
+      "name": "Direction Or Side",
+      "definition": "Specifies whether the information on the direction and side of leg are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

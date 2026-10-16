@@ -1,0 +1,12 @@
+{
+  "isoType": "WithdrawalNotificationV01",
+  "language": "en",
+  "name": "Withdrawal Notification V 01",
+  "definition": "Scope|The WithdrawalNotification message is sent by a central system to notify the withdrawal of a trade which was previously notified to the receiver as an alleged trade.|Usage|The message is used to confirm the cancellation of a previously notified trade.||This message is obsolete please use WithdrawalNotificationV02 - fxtr.013.001.02",
+  "isoElements": {
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference assigned by the central matching system which is notifying the deletion of a previously reported trade."
+    }
+  }
+}

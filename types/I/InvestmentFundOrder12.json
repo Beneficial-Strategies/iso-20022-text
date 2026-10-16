@@ -1,0 +1,40 @@
+{
+  "isoType": "InvestmentFundOrder12",
+  "language": "en",
+  "name": "Investment Fund Order 12",
+  "definition": "Reference of an order and of an order cancellation.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Reference assigned to a set of orders or trades in order to link them together."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the order cancellation, as assigned by the instructing party."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for the order execution, as assigned by the confirming party."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account information of the individual order instruction or individual order cancellation request for which the status is requested."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Financial instrument information of the individual order or individual order cancellation request for which the status is requested."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "DebtIssuerType1Code",
+  "language": "en",
+  "name": "Debt Issuer Type 1 Code",
+  "definition": "Specifies the debt issuer type for debt.",
+  "isoCodes": {
+    "CORP": {
+      "isoName": "Corporate",
+      "name": "Corporate",
+      "definition": "Identifies categories of instruments issued by corporates."
+    },
+    "MUNI": {
+      "isoName": "Municipal",
+      "name": "Municipal",
+      "definition": "Identifies categories of securities issued by states and local governments."
+    },
+    "SPVS": {
+      "isoName": "SpecialProjectsAndSpecialPurposeVehicles",
+      "name": "Special Projects And Special Purpose Vehicles",
+      "definition": "Firms or governments may issue bonds for special projects or through special purpose vehicles. These bonds are tied to a specific project, such as an infrastructure build. The bond proceeds are then used to finance that project, and the coupon payments and principal are paid out through the project’s revenue."
+    },
+    "SUPR": {
+      "isoName": "SupranationalEntities",
+      "name": "Supranational Entities",
+      "definition": "Supranational entities refer to global entities that are not based in a specific nation. More specifically, a supranational entity has members that exist in multiple countries. Examples of supranational entities that issue bonds are the World Bank or the European Investment Bank. Like government bonds, these bonds are typically quite highly rated.||A supranational entity may issue bonds to fund its operations, and pay out coupon payments through operational revenue."
+    },
+    "SVGN": {
+      "isoName": "Sovereign",
+      "name": "Sovereign",
+      "definition": "Asset type is sovereign."
+    }
+  }
+}

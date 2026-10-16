@@ -1,0 +1,24 @@
+{
+  "isoType": "ElementIdentification1",
+  "language": "en",
+  "name": "Element Identification 1",
+  "definition": "Description of the element that creates the mismatch.",
+  "isoElements": {
+    "DocumentIndex": {
+      "name": "Document Index",
+      "definition": "Refers to the identification number of the document in which the mismatch was found."
+    },
+    "ElementPath": {
+      "name": "Element Path",
+      "definition": "Specifies from the root of the message the complete path of the element that violated a rule."
+    },
+    "ElementName": {
+      "name": "Element Name",
+      "definition": "Name of the element."
+    },
+    "ElementValue": {
+      "name": "Element Value",
+      "definition": "Content of the element."
+    }
+  }
+}

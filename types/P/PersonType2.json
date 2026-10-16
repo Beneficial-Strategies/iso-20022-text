@@ -1,0 +1,20 @@
+{
+  "isoType": "PersonType2",
+  "language": "en",
+  "name": "Person Type 2",
+  "definition": "Specifies the type of customer identification requested for a person.",
+  "isoElements": {
+    "DateAndPlaceOfBirth": {
+      "name": "Date And Place Of Birth",
+      "definition": "Date and place of birth of a person is requested.||Usage: When absent (default value), the identification is not requested."
+    },
+    "EmailAddress": {
+      "name": "Email Address",
+      "definition": "Address for electronic mail (e-mail) is requested.||Usage: When absent (default value), the identification is not requested."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Unique identification of a person, as assigned by an institution, using an identification scheme is requested."
+    }
+  }
+}

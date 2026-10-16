@@ -1,0 +1,16 @@
+{
+  "isoType": "CollateralType22Choice",
+  "language": "en",
+  "name": "Collateral Type 22 Choice",
+  "definition": "Choice element between specific and general collateral.",
+  "isoElements": {
+    "GeneralCollateral": {
+      "name": "General Collateral",
+      "definition": "Allows for the sale and repurchase of any of a selection of assets from a pool of eligible assets."
+    },
+    "SpecificCollateral": {
+      "name": "Specific Collateral",
+      "definition": "A single, pre defined, financial instrument is sold and repurchased."
+    }
+  }
+}

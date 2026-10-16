@@ -1,0 +1,36 @@
+{
+  "isoType": "TripartyCollateralUnilateralRemovalRequestV01",
+  "language": "en",
+  "name": "Triparty Collateral Unilateral Removal Request V 01",
+  "definition": "Scope:|A collateral giver/taker sends a TripartyCollateralFinancialInstrumentRemovalRequest to the Triparty Agent to remove a financial instrument from the collateral pool.||The status of this request is provided with the reda.028 , the CollateralDataStatusAdvice.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-part preliminary advice is to continue or that the message is the last page of the multi-part preliminary advice."
+    },
+    "RemovalRequestIdentification": {
+      "name": "Removal Request Identification",
+      "definition": "Unambiguous identification of the removal request as known by the account owner (or the instructing party managing the account)."
+    },
+    "PartyA": {
+      "name": "Party A",
+      "definition": "Instructing party sending the removal request."
+    },
+    "ClientPartyA": {
+      "name": "Client Party A",
+      "definition": "Party that instructs party A to send the message."
+    },
+    "CollateralSide": {
+      "name": "Collateral Side",
+      "definition": "Specifies whether the client is the collateral taker or giver."
+    },
+    "RequestDetails": {
+      "name": "Request Details",
+      "definition": "Details of the request (the request details block is not repetitive to remove some complexity, only one removal request will be possible per message)."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

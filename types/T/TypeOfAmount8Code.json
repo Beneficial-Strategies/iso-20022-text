@@ -1,0 +1,48 @@
+{
+  "isoType": "TypeOfAmount8Code",
+  "language": "en",
+  "name": "Type Of Amount 8 Code",
+  "definition": "Qualifies the amount associated with the transaction.",
+  "isoCodes": {
+    "ACTL": {
+      "isoName": "Actual",
+      "name": "Actual",
+      "definition": "Actual amount."
+    },
+    "ESTM": {
+      "isoName": "Estimated",
+      "name": "Estimated",
+      "definition": "Estimated amount (the final amount could be above or below)."
+    },
+    "MAXI": {
+      "isoName": "Maximum",
+      "name": "Maximum",
+      "definition": "Maximum amount (the final amount must be less or equal)."
+    },
+    "DFLT": {
+      "isoName": "Default",
+      "name": "Default",
+      "definition": "Default amount."
+    },
+    "RPLT": {
+      "isoName": "Replacement",
+      "name": "Replacement",
+      "definition": "Replacement amount."
+    },
+    "INCR": {
+      "isoName": "Incremental",
+      "name": "Incremental",
+      "definition": "Incremental amount for reservation."
+    },
+    "DECR": {
+      "isoName": "Decremental",
+      "name": "Decremental",
+      "definition": "Decremental amount for reservation."
+    },
+    "RESD": {
+      "isoName": "Reserved",
+      "name": "Reserved",
+      "definition": "Reserved or updated reserved amount for reservation."
+    }
+  }
+}

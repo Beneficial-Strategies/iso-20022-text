@@ -1,0 +1,28 @@
+{
+  "isoType": "RiskAssessment1Code",
+  "language": "en",
+  "name": "Risk Assessment 1 Code",
+  "definition": "Code that specifies risk assessment result.",
+  "isoCodes": {
+    "APPC": {
+      "isoName": "ApproveConditionally",
+      "name": "Approve Conditionally",
+      "definition": "Recommended to approve conditionally."
+    },
+    "APPH": {
+      "isoName": "ApproveConditionallyWithHighRisk",
+      "name": "Approve Conditionally With High Risk",
+      "definition": "Recommended to approve conditionally; high risk conditions exist."
+    },
+    "APPU": {
+      "isoName": "ApproveUnconditionally",
+      "name": "Approve Unconditionally",
+      "definition": "Recommended to approve unconditionally."
+    },
+    "DONT": {
+      "isoName": "DoNotApprove",
+      "name": "Do Not Approve",
+      "definition": "Recommended to not approve."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "ExposureConventionType1Code",
+  "language": "en",
+  "name": "Exposure Convention Type 1 Code",
+  "definition": "Determines how the variation margin requirement will be calculated, either net or gross.",
+  "isoCodes": {
+    "GROS": {
+      "isoName": "Gross",
+      "name": "Gross",
+      "definition": "Indicates that the exposed amount to party A and B will be netted together for the variation margin calculation, and then two separate variation margin requirements will be determined."
+    },
+    "NET1": {
+      "isoName": "Net",
+      "name": "Net",
+      "definition": "Indicates that the exposed amount to party A and B will be netted together for the variation margin calculation."
+    }
+  }
+}

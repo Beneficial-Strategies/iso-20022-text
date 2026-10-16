@@ -1,0 +1,21 @@
+{
+  "isoType": "MarketIdentification20",
+  "language": "en",
+  "name": "Market Identification 20",
+  "definition": "Context, or geographic environment, in which trading parties may meet in order to negotiate and execute trades among themselves.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Code allocated to places of trade, ie, stock exchanges, regulated markets, eg, Electronic Trading Platforms (ECN), and unregulated markets, eg, Automated Trading Systems (ATS), as sources of prices and related information, in order to facilitate automated processing."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Nature of a market in which transactions take place."
+    }
+  },
+  "isoRules": {
+    "MarketTypeAndIdentificationRule": {
+      "definition": "If MarketType is OverTheCounter (OTCO), then Identification/Description must specify a system. If MarketType is Exchange (EXCH), then Identification/MarketIdentificationCode must be present."
+    }
+  }
+}

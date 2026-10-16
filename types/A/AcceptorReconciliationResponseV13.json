@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorReconciliationResponseV13",
+  "language": "en",
+  "name": "Acceptor Reconciliation Response V 13",
+  "definition": "The AcceptorReconciliationResponse message is sent by the acquirer (or its agent) to an acceptor (or its agent), to ensure that the debits and credits performed by the acceptor matches the computed balances of the acquirer for the debits and credits performed during the same reconciliation period.|If the acceptor or the acquirer notices a difference in totals, the discrepancy will be resolved by other means, outside the scope of the protocol.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Reconciliation response message management information."
+    },
+    "ReconciliationResponse": {
+      "name": "Reconciliation Response",
+      "definition": "Information related to the reconciliation response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralAmount14",
+  "language": "en",
+  "name": "Collateral Amount 14",
+  "definition": "Deal amount details.",
+  "isoElements": {
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Amount of the principal."
+    },
+    "Termination": {
+      "name": "Termination",
+      "definition": "Amount of principal plus interests at termination."
+    },
+    "Accrued": {
+      "name": "Accrued",
+      "definition": "Specifies the accrued interest on the value of the principal trade, in the currency of the principal trade."
+    },
+    "ValueSought": {
+      "name": "Value Sought",
+      "definition": "Value of collateral offered or sought."
+    },
+    "UndisputedTransaction": {
+      "name": "Undisputed Transaction",
+      "definition": "Transaction amount effectively processed by the TPA taking into account the matching tolerance threshold."
+    }
+  }
+}

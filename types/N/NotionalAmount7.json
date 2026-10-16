@@ -1,0 +1,25 @@
+{
+  "isoType": "NotionalAmount7",
+  "language": "en",
+  "name": "Notional Amount 7",
+  "definition": "Indicates the reference amount from which contractual payments are determined and the schedule applicable to the payments.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Reference amount from which contractual payments are determined.||Usage: In case of partial terminations, and amortisations and in case of contracts where the notional, due to the characteristics of the contract, varies over time, it shall reflect the remaining notional after the change took place."
+    },
+    "AmountInEffect": {
+      "name": "Amount In Effect",
+      "definition": "Indicates the price per derivative excluding, where applicable, commission and accrued interest."
+    },
+    "WeightedAverageDelta": {
+      "name": "Weighted Average Delta",
+      "definition": "Delta position calculated on a weighted average basis, that is sum of (delta multiplied by notional amount) divided by sum of notional amount, where delta is the ratio of change between derivative transaction price and underlier price."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

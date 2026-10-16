@@ -1,0 +1,132 @@
+{
+  "isoType": "Lodging5",
+  "language": "en",
+  "name": "Lodging 5",
+  "definition": "Lodging provides summary information about lodging accommodations and related expenses for the cardholder.",
+  "isoElements": {
+    "FolioNumber": {
+      "name": "Folio Number",
+      "definition": "Contains the lodging company's invoice or billing ID reference number, referred to as a folio number."
+    },
+    "PropertyType": {
+      "name": "Property Type",
+      "definition": "Type of accommodations. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PrestigiousProperty": {
+      "name": "Prestigious Property",
+      "definition": "Identifier that describes the lodging establishment as a prestigious property."
+    },
+    "PropertyName": {
+      "name": "Property Name",
+      "definition": "Name of the property."
+    },
+    "PropertyIdentification": {
+      "name": "Property Identification",
+      "definition": "Identification of the property."
+    },
+    "PropertyBusinessName": {
+      "name": "Property Business Name",
+      "definition": "Business name of the propertyr."
+    },
+    "PropertyLegalCorporateName": {
+      "name": "Property Legal Corporate Name",
+      "definition": "Legal Corporate Name of the property."
+    },
+    "PropertyAddress": {
+      "name": "Property Address",
+      "definition": "Address of the property."
+    },
+    "PropertyLocationCode": {
+      "name": "Property Location Code",
+      "definition": "Contains the property location code."
+    },
+    "PropertyLocalTimeZone": {
+      "name": "Property Local Time Zone",
+      "definition": "Local time zone of the property."
+    },
+    "PropertyLocalData": {
+      "name": "Property Local Data",
+      "definition": "Contains local language equivalent(s) of property data."
+    },
+    "PropertyLocalCurrency": {
+      "name": "Property Local Currency",
+      "definition": "Local currency of the property."
+    },
+    "PropertyContact": {
+      "name": "Property Contact",
+      "definition": "Contact details at property."
+    },
+    "PropertyFireSafetyAct": {
+      "name": "Property Fire Safety Act",
+      "definition": "Indicates whether or not the lodging facility complies with the US Hotel and Motel Fire Safety Act of 1990 (PL101-391) or similar legislation.||True = in compliance|False = not in compliance"
+    },
+    "Customer": {
+      "name": "Customer",
+      "definition": "Name of the customer."
+    },
+    "NumberOfRooms": {
+      "name": "Number Of Rooms",
+      "definition": "Number of rooms within the reservation."
+    },
+    "Room": {
+      "name": "Room",
+      "definition": "Contains the room details."
+    },
+    "Duration": {
+      "name": "Duration",
+      "definition": "Duration of stay in days."
+    },
+    "Arrival": {
+      "name": "Arrival",
+      "definition": "Lodging transaction details."
+    },
+    "Departure": {
+      "name": "Departure",
+      "definition": "Contains departure details."
+    },
+    "NoShow": {
+      "name": "No Show",
+      "definition": "Indicates that the cardholder failed to arrive at the property and was therefore charged a no-show fee; property was not actually rented."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "InsuranceAmount": {
+      "name": "Insurance Amount",
+      "definition": "Amount of insurance."
+    },
+    "TotalTax": {
+      "name": "Total Tax",
+      "definition": "Taxes related to the products or services."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Contains the total amount of lodging expenses."
+    },
+    "AuthorisedAmount": {
+      "name": "Authorised Amount",
+      "definition": "Contains Authorised amount details."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "LoyaltyProgramme": {
+      "name": "Loyalty Programme",
+      "definition": "Loyalty programme details."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Component provides detailed information about lodging accommodations and related expenses for the cardholder. Acquirers can submit multiple occurrences of this component for each lodging transaction, to provide details of one or more folios."
+    }
+  }
+}

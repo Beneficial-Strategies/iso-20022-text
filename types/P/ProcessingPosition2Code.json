@@ -1,0 +1,28 @@
+{
+  "isoType": "ProcessingPosition2Code",
+  "language": "en",
+  "name": "Processing Position 2 Code",
+  "definition": "Specifies the processing position.",
+  "isoCodes": {
+    "AFTE": {
+      "isoName": "After",
+      "name": "After",
+      "definition": "Specifies that the transaction/instruction is to be executed after the linked transaction/instruction."
+    },
+    "WITH": {
+      "isoName": "With",
+      "name": "With",
+      "definition": "Specifies that the transaction/instruction is to be executed with the linked transaction/instruction."
+    },
+    "BEFO": {
+      "isoName": "Before",
+      "name": "Before",
+      "definition": "Specifies that the transaction/instruction is to be executed before the linked transaction/instruction."
+    },
+    "INFO": {
+      "isoName": "Information",
+      "name": "Information",
+      "definition": "Specifies that the transactions/instructions are linked for information purposes only."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "ExternalDebtorActivationCancellationReason1Code",
+  "language": "en",
+  "name": "External Debtor Activation Cancellation Reason 1 Code",
+  "definition": "Specifies the debtor activation cancellation reason code, as published in an external debtor activation cancellation reason code set.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "AM05": {
+      "isoName": "Duplication",
+      "name": "Duplication",
+      "definition": "Duplication."
+    },
+    "RF01": {
+      "isoName": "NotUniqueReference",
+      "name": "Not Unique Reference",
+      "definition": "Reference is not unique."
+    },
+    "RR04": {
+      "isoName": "RegulatoryReason",
+      "name": "Regulatory Reason",
+      "definition": "Regulatory Reason."
+    },
+    "TRJT": {
+      "isoName": "TechnicalRejection",
+      "name": "Technical Rejection",
+      "definition": "Technical rejection."
+    },
+    "UCRD": {
+      "isoName": "UnknownCreditor",
+      "name": "Unknown Creditor",
+      "definition": "Unknown creditor."
+    },
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation requested by the customer."
+    }
+  }
+}

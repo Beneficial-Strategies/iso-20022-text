@@ -1,0 +1,31 @@
+{
+  "isoType": "CollateralParties9",
+  "language": "en",
+  "name": "Collateral Parties 9",
+  "definition": "Identifies the chain of collateral parties on the instruction side.",
+  "isoElements": {
+    "PartyA": {
+      "name": "Party A",
+      "definition": "Instructing party sending the collateral instruction."
+    },
+    "ClientPartyA": {
+      "name": "Client Party A",
+      "definition": "Party that instructs party A to send the message."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Party that handles tri-party transactions."
+    }
+  },
+  "isoRules": {
+    "PartyAPresenceRule": {
+      "definition": "If party A is absent then client of party A or triparty agent must be present."
+    },
+    "ClientOfPartAPresenceRule": {
+      "definition": "If client of party A is absent then party A or triparty agent must be present."
+    },
+    "TripartyAgentPresenceRule": {
+      "definition": "If triparty agent is absent then party A or client of party A must be present."
+    }
+  }
+}

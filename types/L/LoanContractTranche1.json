@@ -1,0 +1,32 @@
+{
+  "isoType": "LoanContractTranche1",
+  "language": "en",
+  "name": "Loan Contract Tranche 1",
+  "definition": "Provides details on the tranches defined for the loan contract.",
+  "isoElements": {
+    "TrancheNumber": {
+      "name": "Tranche Number",
+      "definition": "Unique sequence number of the tranche."
+    },
+    "ExpectedDate": {
+      "name": "Expected Date",
+      "definition": "Expected tranche payment date."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of the tranche as defined in the loan contract."
+    },
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Loan tranche due date."
+    },
+    "DurationCode": {
+      "name": "Duration Code",
+      "definition": "Loan tranche duration in a coded form."
+    },
+    "LastTrancheIndicator": {
+      "name": "Last Tranche Indicator",
+      "definition": "Indicates whether this tranche is the last tranche of the full report."
+    }
+  }
+}

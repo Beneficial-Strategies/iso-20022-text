@@ -1,0 +1,28 @@
+{
+  "isoType": "EnrolmentHeader3",
+  "language": "en",
+  "name": "Enrolment Header 3",
+  "definition": "Specifies the header information for the creditor enrolment.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Point to point reference assigned by the instructing party and sent to the next party in the chain to unambiguously identify the message.||Usage: The instructing party has to make sure that 'MessageIdentification' is unique per instructed party for a pre-agreed period."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the message was created."
+    },
+    "MessageOriginator": {
+      "name": "Message Originator",
+      "definition": "Party that sends the message."
+    },
+    "MessageRecipient": {
+      "name": "Message Recipient",
+      "definition": "Party that receives the message."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Party that initiates the message. This can either be the creditor himself or the party that initiates the request on behalf of the creditor."
+    }
+  }
+}

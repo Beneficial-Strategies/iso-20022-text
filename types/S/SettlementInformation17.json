@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementInformation17",
+  "language": "en",
+  "name": "Settlement Information 17",
+  "definition": "Settlement of the securities in a securities transaction, that is, the instruction to deliver or receive securities, involving the payment of an amount of money or not.",
+  "isoElements": {
+    "SecuritiesQuantityType": {
+      "name": "Securities Quantity Type",
+      "definition": "Choice between formats for the quantity of security."
+    },
+    "ContractSettlementMonth": {
+      "name": "Contract Settlement Month",
+      "definition": "Specifies when the contract (i.e. MBS/TBA) will settle."
+    },
+    "MinimumDenomination": {
+      "name": "Minimum Denomination",
+      "definition": "Indicates the minimum quantity (unit or nominal) of a security."
+    },
+    "MinimumMultipleQuantity": {
+      "name": "Minimum Multiple Quantity",
+      "definition": "Minimum multiple quantity (unit or nominal) of securities."
+    },
+    "DeviatingSettlementUnit": {
+      "name": "Deviating Settlement Unit",
+      "definition": "Minimum quantity of securities that can be purchased without incurring a larger fee. For example, if the round lot size is 100 and the trade is for 125 shares, then 100 will be processed without a fee and the remaining 25 will incur a service fee for being an odd lot size."
+    }
+  }
+}

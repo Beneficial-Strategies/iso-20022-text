@@ -1,0 +1,18 @@
+{
+  "isoType": "TradeRepositoryReportingType1Code",
+  "language": "en",
+  "name": "Trade Repository Reporting Type 1 Code",
+  "definition": "Indication whether both counterparties to the transaction have reported to the same trade repository or each counterparty to the transaction reported two different trade repository.",
+  "isoCodes": {
+    "SWOS": {
+      "isoName": "SingleSided",
+      "name": "Single Sided",
+      "definition": "Only one counterparty to the transaction has reported to the same trade repository."
+    },
+    "TWOS": {
+      "isoName": "DualSided",
+      "name": "Dual Sided",
+      "definition": "Both counterparties to the transaction have reported to the same trade repository."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ValuationMatchingCriteria1",
+  "language": "en",
+  "name": "Valuation Matching Criteria 1",
+  "definition": "Compares information related to both sides of a contract valuation.",
+  "isoElements": {
+    "ContractValue": {
+      "name": "Contract Value",
+      "definition": "Specifies whether the information on the contract values are matching or not."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies whether the information on the valuation methods are matching or not."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

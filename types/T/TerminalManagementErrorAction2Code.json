@@ -1,0 +1,18 @@
+{
+  "isoType": "TerminalManagementErrorAction2Code",
+  "language": "en",
+  "name": "Terminal Management Error Action 2 Code",
+  "definition": "Action to perform in case of error during the maintenance action in progress.",
+  "isoCodes": {
+    "SDSR": {
+      "isoName": "SendStatusReport",
+      "name": "Send Status Report",
+      "definition": "Send a status report immediately."
+    },
+    "STOP": {
+      "isoName": "StopSequence",
+      "name": "Stop Sequence",
+      "definition": "Stop the current sequence of terminal management actions without any action, and do not notice the error with a status report."
+    }
+  }
+}

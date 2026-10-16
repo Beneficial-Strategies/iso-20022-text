@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementFailsMonthlyReportV01",
+  "language": "en",
+  "name": "Settlement Fails Monthly Report V 01",
+  "definition": "The SettlementFailsMonthlyReport is sent by central securities depository or by a central bank operating a securities settlement system to the CSD competent authority in its jurisdiction, to provide monthly and daily aggregated data on the number and the nature of settlement instructions which failed to settle on their intended settlement day. The report contains monthly and daily statistical information on the number and value of overall settlement instructions, settled instructions, and settlement fails that occurred during a specified period and within a given securities settlement system.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Specifies parameters of the report."
+    },
+    "MonthlyAggregate": {
+      "name": "Monthly Aggregate",
+      "definition": "Aggregated monthly volume and value of settled, failed, total of failed settlement instructions performed during the period covered by the report, for financial instruments, types of transactions, types of clients and cash transfers."
+    },
+    "DailyData": {
+      "name": "Daily Data",
+      "definition": "Daily data volume and value of settled, failed, total of failed settlement instructions performed during the period covered by the report, for financial instruments, types of transactions, types of clients and cash transfers."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

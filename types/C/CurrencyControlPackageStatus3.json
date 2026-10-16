@@ -1,0 +1,28 @@
+{
+  "isoType": "CurrencyControlPackageStatus3",
+  "language": "en",
+  "name": "Currency Control Package Status 3",
+  "definition": "Provides the details of each package of currency control records.",
+  "isoElements": {
+    "PackageIdentification": {
+      "name": "Package Identification",
+      "definition": "Unique and unambiguous identification of each package of transactions and optionally the entry/record within the package of transactions."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Defines the status of the reported transaction."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "StatusDateTime": {
+      "name": "Status Date Time",
+      "definition": "Provides the date and time when the status was issued."
+    },
+    "RecordStatus": {
+      "name": "Record Status",
+      "definition": "Provides the status of the individual records in the package."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "SecuritiesCountryIdentification2",
+  "language": "en",
+  "name": "Securities Country Identification 2",
+  "definition": "Details an individual country including its name and country code.",
+  "isoElements": {
+    "Country": {
+      "name": "Country",
+      "definition": "Two character country code and country name as per ISO 3166."
+    },
+    "EEACountry": {
+      "name": "EEA Country",
+      "definition": "Flag which reflects if the country is a member of the EEA (European Economic Area) or not."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Modification status for the record compared to the previous report."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Details the validity of the specific record."
+    },
+    "LastUpdated": {
+      "name": "Last Updated",
+      "definition": "Date when this record was last modified."
+    }
+  }
+}

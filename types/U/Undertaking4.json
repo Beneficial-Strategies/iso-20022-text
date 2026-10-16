@@ -1,0 +1,105 @@
+{
+  "isoType": "Undertaking4",
+  "language": "en",
+  "name": "Undertaking 4",
+  "definition": "Information about an undertaking.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the requested local undertaking such as, demand guarantee, standby letter of credit, surety."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of the requested local undertaking such as performance, payment."
+    },
+    "Applicant": {
+      "name": "Applicant",
+      "definition": "Party requested to be named in the local undertaking as the party on whose behalf the undertaking is issued."
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Party in whose favour the requested local undertaking is to be issued."
+    },
+    "DateOfIssuance": {
+      "name": "Date Of Issuance",
+      "definition": "Date on which the requested local undertaking is to be issued."
+    },
+    "AdvisingParty": {
+      "name": "Advising Party",
+      "definition": "Party asked to advise the requested local undertaking to the beneficiary or to another advising party at the request of the local undertaking issuer."
+    },
+    "SecondAdvisingParty": {
+      "name": "Second Advising Party",
+      "definition": "Additional party asked to advise the requested local undertaking."
+    },
+    "LocalUndertakingAmount": {
+      "name": "Local Undertaking Amount",
+      "definition": "Details related to the amount of the local undertaking."
+    },
+    "ExpiryDetails": {
+      "name": "Expiry Details",
+      "definition": "Details related to the expiry of the requested local undertaking."
+    },
+    "ConfirmationIndicator": {
+      "name": "Confirmation Indicator",
+      "definition": "Indicates whether or not the advising bank (confirmer) is requested to add its confirmation to the undertaking."
+    },
+    "AdditionalParty": {
+      "name": "Additional Party",
+      "definition": "Party, in addition to the other parties specified in the requested local undertaking, that is also related to the requested local undertaking."
+    },
+    "GovernanceRulesAndLaw": {
+      "name": "Governance Rules And Law",
+      "definition": "Rules and laws governing the requested local undertaking."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Details of the underlying transaction for which the undertaking is issued."
+    },
+    "PresentationDetails": {
+      "name": "Presentation Details",
+      "definition": "Presentation details related to the undertaking."
+    },
+    "UndertakingWording": {
+      "name": "Undertaking Wording",
+      "definition": "Wording details and text for the requested local undertaking."
+    },
+    "MultipleDemandIndicator": {
+      "name": "Multiple Demand Indicator",
+      "definition": "Indicates that multiple demands are not permitted."
+    },
+    "PartialDemandIndicator": {
+      "name": "Partial Demand Indicator",
+      "definition": "Indicates that partial demands/drawings are not permitted."
+    },
+    "ConfirmationChargesPayableBy": {
+      "name": "Confirmation Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the confirmation charges."
+    },
+    "TransferChargesPayableBy": {
+      "name": "Transfer Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the transfer charges."
+    },
+    "AutomaticAmountVariation": {
+      "name": "Automatic Amount Variation",
+      "definition": "Details related to a variation in amount that is automatically applied."
+    },
+    "DeliveryChannel": {
+      "name": "Delivery Channel",
+      "definition": "Details of the communication channel."
+    },
+    "TransferIndicator": {
+      "name": "Transfer Indicator",
+      "definition": "Indicates whether the requested local undertaking is transferable."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the requested local undertaking."
+    }
+  },
+  "isoRules": {
+    "MultipleDemandIndicatorRule": {
+      "definition": "If MultipleDemandIndicator is \"true\" or \"1\" (Yes), then PartialDemandIndicator cannot be \"false\" or \"0\" (No)."
+    }
+  }
+}

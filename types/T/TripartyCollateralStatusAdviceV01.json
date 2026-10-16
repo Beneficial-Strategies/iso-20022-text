@@ -1,0 +1,67 @@
+{
+  "isoType": "TripartyCollateralStatusAdviceV01",
+  "language": "en",
+  "name": "Triparty Collateral Status Advice V 01",
+  "definition": "Scope:|This message is sent by a triparty agent after the receipt of a collateral instruction from its client.||In this message, the Sender is the triparty agent and the Receiver is either the collateral taker or the collateral giver or their account servicer.||Usage:|This message provides valuation results as well as the status of the  proposed collateral movements (cash and securities).",
+  "isoElements": {
+    "TransactionInstructionIdentification": {
+      "name": "Transaction Instruction Identification",
+      "definition": "Provides unambiguous transaction identification information."
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-part preliminary advice is to continue or that the message is the last page of the multi-part preliminary advice."
+    },
+    "AllocationStatus": {
+      "name": "Allocation Status",
+      "definition": "Provides the status of allocation of collateral to cover the instruction."
+    },
+    "SettlementStatus": {
+      "name": "Settlement Status",
+      "definition": "Provides the status of settlement of the transaction or the instruction."
+    },
+    "CollateralStatus": {
+      "name": "Collateral Status",
+      "definition": "Provides the collateral status of an instruction."
+    },
+    "GeneralParameters": {
+      "name": "General Parameters",
+      "definition": "provides general information about the instruction and collateral transaction the message refers to."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Identifies the chain of collateral parties."
+    },
+    "DealTransactionDetails": {
+      "name": "Deal Transaction Details",
+      "definition": "Specifies the information related to the deal."
+    },
+    "DealTransactionDate": {
+      "name": "Deal Transaction Date",
+      "definition": "Identifies the dates related to the triparty collateral instruction or transactions."
+    },
+    "SecuritiesMovement": {
+      "name": "Securities Movement",
+      "definition": "Securities movements."
+    },
+    "CashMovement": {
+      "name": "Cash Movement",
+      "definition": "Cash movement."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusPresenceRule": {
+      "definition": "If settlement status is absent then allocation status or collateral status must be present."
+    },
+    "CollateralStatusPresenceRule": {
+      "definition": "If collateral status is absent then allocation status or settlement status must be present."
+    },
+    "AllocationStatusPresenceRule": {
+      "definition": "If allocation status is absent then settlement status or collateral status must be present."
+    }
+  }
+}

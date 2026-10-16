@@ -1,0 +1,32 @@
+{
+  "isoType": "LineItemTax1",
+  "language": "en",
+  "name": "Line Item Tax 1",
+  "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters such as thresholds or income.",
+  "isoElements": {
+    "CalculatedAmount": {
+      "name": "Calculated Amount",
+      "definition": "Amount of money resulting from the calculation of the tax."
+    },
+    "TypeCode": {
+      "name": "Type Code",
+      "definition": "Type of tax applied."
+    },
+    "TaxPointDate": {
+      "name": "Tax Point Date",
+      "definition": "Date of the tax point date when this tax, levy or duty becomes applicable."
+    },
+    "CalculatedRate": {
+      "name": "Calculated Rate",
+      "definition": "Rate used to calculate the amount of this tax, levy or duty."
+    },
+    "CategoryCode": {
+      "name": "Category Code",
+      "definition": "Code specifying the category to which this tax, levy or duty applies, such as codes for 'exempt from tax', 'standard rate', \"free export item - tax not charged'."
+    },
+    "CategoryName": {
+      "name": "Category Name",
+      "definition": "Category name, expressed as text, of the tax, levy or duty."
+    }
+  }
+}

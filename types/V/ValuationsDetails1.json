@@ -1,0 +1,44 @@
+{
+  "isoType": "ValuationsDetails1",
+  "language": "en",
+  "name": "Valuations Details 1",
+  "definition": "Valuation details for the securities position.",
+  "isoElements": {
+    "MarketPrice": {
+      "name": "Market Price",
+      "definition": "Last reported/known price of a financial instrument in a market."
+    },
+    "SourceOfPrice": {
+      "name": "Source Of Price",
+      "definition": "Source of the price quotation."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Date and time at which the financial instruments are to be delivered or received effectively (Effective Settlement Date and Time)."
+    },
+    "ValuationDetailsAmount": {
+      "name": "Valuation Details Amount",
+      "definition": "Securities collateral position valuation amounts."
+    },
+    "AccruedInterest": {
+      "name": "Accrued Interest",
+      "definition": "Amount of interest that has been accrued in between coupon payment periods for a given financial instrument."
+    },
+    "CleanPrice": {
+      "name": "Clean Price",
+      "definition": "Price amount excluding the accrued interest for a given financial instrument."
+    },
+    "ValuationFactorBreakdown": {
+      "name": "Valuation Factor Breakdown",
+      "definition": "Valuation factors."
+    },
+    "NumberOfDaysAccrued": {
+      "name": "Number Of Days Accrued",
+      "definition": "Number of days used for calculating the accrued interest amount."
+    },
+    "QuotationAge": {
+      "name": "Quotation Age",
+      "definition": "Number of days since the last pricing update."
+    }
+  }
+}

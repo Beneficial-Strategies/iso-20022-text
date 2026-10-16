@@ -1,0 +1,36 @@
+{
+  "isoType": "Equalisation3",
+  "language": "en",
+  "name": "Equalisation 3",
+  "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money resulting from the calculation of the equalisation."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used for calculation of the equalisation."
+    },
+    "EqualisationMethodologyType": {
+      "name": "Equalisation Methodology Type",
+      "definition": "Methodology used for the allocation of the performance fees."
+    },
+    "HighWatermark": {
+      "name": "High Watermark",
+      "definition": "The highest net asset value at the end of any previous calculation period, when a performance fee was payable (after the deduction of any such performance fee); or the initial net asset value."
+    },
+    "GrossAssetValue": {
+      "name": "Gross Asset Value",
+      "definition": "Value of the investment fund on subscription date before accruals for performance fees."
+    }
+  },
+  "isoRules": {
+    "RedemptionEqualisationMethodologyTypes1Rule": {
+      "definition": "Contingent Liquidation and Depreciation Deposit are mutually exclusive."
+    },
+    "RedemptionEqualisationMethodologyTypes2Rule": {
+      "definition": "Contingent Liquidation and Depreciation Deposit are mutually exclusive."
+    }
+  }
+}

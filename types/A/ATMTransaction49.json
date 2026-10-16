@@ -1,0 +1,76 @@
+{
+  "isoType": "ATMTransaction49",
+  "language": "en",
+  "name": "ATM Transaction 49",
+  "definition": "Response to the withdrawal transaction request.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the ATM."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period assigned by the ATM."
+    },
+    "CompletionRequired": {
+      "name": "Completion Required",
+      "definition": "True if a withdrawal completion advice has to be sent after the end of the transaction.|Usage: When absent, default value is True."
+    },
+    "AccountData": {
+      "name": "Account Data",
+      "definition": "Unprotected account information."
+    },
+    "ProtectedAccountData": {
+      "name": "Protected Account Data",
+      "definition": "Encryption of account information."
+    },
+    "TotalAuthorisedAmount": {
+      "name": "Total Authorised Amount",
+      "definition": "Total authorised amount."
+    },
+    "TotalRequestedAmount": {
+      "name": "Total Requested Amount",
+      "definition": "Total requested amount."
+    },
+    "DetailedRequestedAmount": {
+      "name": "Detailed Requested Amount",
+      "definition": "Detail of the requested amounts for the withdrawal transaction."
+    },
+    "CurrencyConversionEligibility": {
+      "name": "Currency Conversion Eligibility",
+      "definition": "Currency conversion accepted by the customer, either to convert the amount to dispense in the base currency of the ATM, or to convert the total requested amount in the currency of the customer (so called dynamic currency conversion)."
+    },
+    "AdditionalCharge": {
+      "name": "Additional Charge",
+      "definition": "Additional charge (for instance tax or fee)."
+    },
+    "Limits": {
+      "name": "Limits",
+      "definition": "Limit of amounts for the customer."
+    },
+    "MixType": {
+      "name": "Mix Type",
+      "definition": "Media mix algorithm requested by the ATM Host, the identification of the algorithm is an agreement between the ATM and the ATM manager."
+    },
+    "Mix": {
+      "name": "Mix",
+      "definition": "Media mix selected requested by the ATM Host."
+    },
+    "AuthorisationResult": {
+      "name": "Authorisation Result",
+      "definition": "Outcome of the withdrawal authorisation."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Sequence of one or more TLV data elements from the ATM application, in accordance with ISO 7816-6, not in a specific order. Present if the transaction is performed with an EMV chip card application."
+    },
+    "Command": {
+      "name": "Command",
+      "definition": "Maintenance command to perform on the ATM."
+    },
+    "AccountInformation": {
+      "name": "Account Information",
+      "definition": "Account information associated to the customer."
+    }
+  }
+}

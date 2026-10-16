@@ -1,0 +1,64 @@
+{
+  "isoType": "TradeData1",
+  "language": "en",
+  "name": "Trade Data 1",
+  "definition": "Provides information on the status of a trade.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Refers to the identification of a notification."
+    },
+    "MatchingSystemUniqueReference": {
+      "name": "Matching System Unique Reference",
+      "definition": "Reference to the unique identification assigned to a trade by a central matching system."
+    },
+    "StatusOriginator": {
+      "name": "Status Originator",
+      "definition": "Identifies the party which assigned a status to a treasury trade."
+    },
+    "CurrentStatus": {
+      "name": "Current Status",
+      "definition": "Specifies the new status of a trade."
+    },
+    "ExtendedCurrentStatus": {
+      "name": "Extended Current Status",
+      "definition": "Description of the status of a trade when no coded form is available."
+    },
+    "CurrentStatusSubType": {
+      "name": "Current Status Sub Type",
+      "definition": "Additional information on the current status of a trade in a central system."
+    },
+    "CurrentStatusTime": {
+      "name": "Current Status Time",
+      "definition": "Specifies the time at which the current status was assigned."
+    },
+    "PreviousStatus": {
+      "name": "Previous Status",
+      "definition": "Specifies the previous status of a trade."
+    },
+    "ExtendedPreviousStatus": {
+      "name": "Extended Previous Status",
+      "definition": "Description of the status of a trade when no coded form is available."
+    },
+    "PreviousStatusSubType": {
+      "name": "Previous Status Sub Type",
+      "definition": "Additional information on the previous status of a trade in a central system."
+    },
+    "PreviousStatusTime": {
+      "name": "Previous Status Time",
+      "definition": "Specifies the time at which the previous status was assigned."
+    },
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Specifies the product for which the status of the confirmation is reported."
+    }
+  },
+  "isoRules": {
+    "CurrentStatusOrExtendedCurrentStatusRule": {
+      "definition": ""
+    },
+    "PreviousStatusOrExtendedPreviousStatusRule": {
+      "definition": ""
+    }
+  }
+}

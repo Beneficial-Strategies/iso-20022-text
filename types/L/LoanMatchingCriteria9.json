@@ -1,0 +1,209 @@
+{
+  "isoType": "LoanMatchingCriteria9",
+  "language": "en",
+  "name": "Loan Matching Criteria 9",
+  "definition": "Compares information related to both sides of a loan.",
+  "isoElements": {
+    "UniqueTradeIdentifier": {
+      "name": "Unique Trade Identifier",
+      "definition": "Specifies whether the values for the Unique Trade Identifier (UTI) are matching or not."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Specifies whether the values defined as ISO date are matching or not."
+    },
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Specifies whether the values defined as exposure type are matching or not."
+    },
+    "ClearingStatus": {
+      "name": "Clearing Status",
+      "definition": "Specifies whether the information on contract clearing are matching or not."
+    },
+    "ClearingDateTime": {
+      "name": "Clearing Date Time",
+      "definition": "Specifies whether the values defined as ISO date and time are matching or not."
+    },
+    "CCP": {
+      "name": "CCP",
+      "definition": "Specifies whether the values defined as LEI identifier are matching or not."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Specifies whether the values defined as MIC (Market Identifier Code-ISO10383) identifier are matching or not."
+    },
+    "MasterAgreementType": {
+      "name": "Master Agreement Type",
+      "definition": "Specifies whether the information on master agreement type is matching or not."
+    },
+    "ExecutionDateTime": {
+      "name": "Execution Date Time",
+      "definition": "Specifies whether the values defined as ISO date and time are matching or not."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Specifies whether the values defined as ISO date are matching or not."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Specifies whether the values defined as ISO date are matching or not."
+    },
+    "MinimumNoticePeriod": {
+      "name": "Minimum Notice Period",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "EarliestCallBackDate": {
+      "name": "Earliest Call Back Date",
+      "definition": "Specifies whether the values defined as ISO date are matching or not."
+    },
+    "GeneralCollateral": {
+      "name": "General Collateral",
+      "definition": "Specifies whether the values defined as type of collateral agreement are matching or not."
+    },
+    "DeliveryByValue": {
+      "name": "Delivery By Value",
+      "definition": "Specifies whether the values defined as true/false indicator are matching or not."
+    },
+    "CollateralDeliveryMethod": {
+      "name": "Collateral Delivery Method",
+      "definition": "Specifies whether the values defined as collateral delivery method are matching or not."
+    },
+    "OpenTerm": {
+      "name": "Open Term",
+      "definition": "Specifies whether the values defined as true/false indicator are matching or not."
+    },
+    "TerminationOption": {
+      "name": "Termination Option",
+      "definition": "Specifies whether the values defined as repo termination option are matching or not."
+    },
+    "FixedInterestRate": {
+      "name": "Fixed Interest Rate",
+      "definition": "Specifies whether the values defined as percentage rate are matching or not."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies whether the values defined as number with max 5 characters are matching or not."
+    },
+    "FloatingInterestReferenceRate": {
+      "name": "Floating Interest Reference Rate",
+      "definition": "Specifies whether the values defined as benchmark curve name are matching or not."
+    },
+    "FloatingInterestRateTermUnit": {
+      "name": "Floating Interest Rate Term Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRateTermValue": {
+      "name": "Floating Interest Rate Term Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingInterestRatePaymentFrequencyUnit": {
+      "name": "Floating Interest Rate Payment Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRatePaymentFrequencyValue": {
+      "name": "Floating Interest Rate Payment Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingInterestRateResetFrequencyUnit": {
+      "name": "Floating Interest Rate Reset Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingInterestRateResetFrequencyValue": {
+      "name": "Floating Interest Rate Reset Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "BasisPointSpread": {
+      "name": "Basis Point Spread",
+      "definition": "Specifies whether the values defined as number with max 5 characters are matching or not."
+    },
+    "MarginLoanAttribute": {
+      "name": "Margin Loan Attribute",
+      "definition": "Data on amount and interest rates of the transaction."
+    },
+    "PrincipalAmountValueDateAmount": {
+      "name": "Principal Amount Value Date Amount",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "PrincipalAmountMaturityDateAmount": {
+      "name": "Principal Amount Maturity Date Amount",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "AssetType": {
+      "name": "Asset Type",
+      "definition": "Specifies whether the information on the asset type is matching or not."
+    },
+    "LoanValue": {
+      "name": "Loan Value",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "FixedRebateReferenceRate": {
+      "name": "Fixed Rebate Reference Rate",
+      "definition": "Specifies whether the values defined as percentage rate are matching or not."
+    },
+    "FloatingRebateReferenceRate": {
+      "name": "Floating Rebate Reference Rate",
+      "definition": "Specifies whether the values defined as benchmark curve name are matching or not."
+    },
+    "FloatingRebateRateTermUnit": {
+      "name": "Floating Rebate Rate Term Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingRebateRateTermValue": {
+      "name": "Floating Rebate Rate Term Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingRebateRatePaymentFrequencyUnit": {
+      "name": "Floating Rebate Rate Payment Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingRebateRatePaymentFrequencyValue": {
+      "name": "Floating Rebate Rate Payment Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "FloatingRebateRateResetFrequencyUnit": {
+      "name": "Floating Rebate Rate Reset Frequency Unit",
+      "definition": "Specifies whether the values defined as rate basis code are matching or not."
+    },
+    "FloatingRebateRateResetFrequencyValue": {
+      "name": "Floating Rebate Rate Reset Frequency Value",
+      "definition": "Specifies whether the values defined as number with max 3 characters are matching or not."
+    },
+    "RebateRateBasisPointSpread": {
+      "name": "Rebate Rate Basis Point Spread",
+      "definition": "Specifies whether the values defined as number with max 5 characters are matching or not."
+    },
+    "FloatingRateAdjustment": {
+      "name": "Floating Rate Adjustment",
+      "definition": "Specifies whether the values defined as the adjusted rate are matching or not."
+    },
+    "FloatingRateAdjustmentDate": {
+      "name": "Floating Rate Adjustment Date",
+      "definition": "Specifies whether the values defined as the Rate Date are matching or not."
+    },
+    "LendingFee": {
+      "name": "Lending Fee",
+      "definition": "Specifies whether the values defined as percentage rate are matching or not."
+    },
+    "OutstandingMarginLoanAmount": {
+      "name": "Outstanding Margin Loan Amount",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "ShortMarketValueAmount": {
+      "name": "Short Market Value Amount",
+      "definition": "Specifies whether the values defined as active or historic currency and amount are matching or not."
+    },
+    "LevelType": {
+      "name": "Level Type",
+      "definition": "Specifies whether the values defined as transaction/position indicator are matching or not."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Unit of measure in which the quantity is expressed."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|    /UniqueTradeIdentifier Must be present| Or /TerminationDate Must be present| Or /ContractType Must be present| Or /ClearingStatus Must be present| Or /ClearingDateTime Must be present| Or /CCP Must be present| Or /TradingVenue Must be present| Or /MasterAgreementType Must be present| Or /ExecutionDateTime Must be present| Or /ValueDate Must be present| Or /MaturityDate Must be present| Or /MinimumNoticePeriod Must be present| Or /EarliestCallBackDate Must be present| Or /GeneralCollateral Must be present| Or /DeliveryByValue Must be present| Or /CollateralDeliveryMethod Must be present| Or /OpenTerm Must be present| Or /TerminationOption Must be present| Or /FixedInterestRate Must be present| Or /DayCountBasis Must be present| Or /FloatingInterestReferenceRate Must be present| Or /FloatingInterestRateTermUnit Must be present| Or /FloatingInterestRateTermValue Must be present| Or /FloatingInterestRatePaymentFrequencyUnit Must be present| Or /FloatingInterestRatePaymentFrequencyValue Must be present| Or /FloatingInterestRateResetFrequencyUnit Must be present| Or /FloatingInterestRateResetFrequencyValue Must be present| Or /BasisPointSpread Must be present| Or /MarginLoanAttribute Must be present| Or /PrincipalAmountValueDateAmount Must be present| Or /PrincipalAmountMaturityDateAmount Must be present| Or /AssetType Must be present| Or /LoanValue Must be present| Or /FixedRebateReferenceRate Must be present| Or /FloatingRebateReferenceRate Must be present| Or /FloatingRebateRateTermUnit Must be present| Or /FloatingRebateRateTermValue Must be present| Or /FloatingRebateRatePaymentFrequencyUnit Must be present| Or /FloatingRebateRatePaymentFrequencyValue Must be present| Or /FloatingRebateRateResetFrequencyUnit Must be present| Or /FloatingRebateRateResetFrequencyValue Must be present| Or /RebateRateBasisPointSpread Must be present| Or /FloatingRateAdjustment Must be present| Or /FloatingRateAdjustmentDate Must be present| Or /LendingFee Must be present| Or /OutstandingMarginLoanAmount Must be present| Or /ShortMarketValueAmount Must be present| Or /LevelType Must be present| Or /UnitOfMeasure Must be present"
+    }
+  }
+}

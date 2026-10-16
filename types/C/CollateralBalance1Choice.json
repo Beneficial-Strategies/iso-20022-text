@@ -1,0 +1,20 @@
+{
+  "isoType": "CollateralBalance1Choice",
+  "language": "en",
+  "name": "Collateral Balance 1 Choice",
+  "definition": "Choice to provide the collateral balance for the variation margin and the segregated independent amount, or the segregated independent amount only.",
+  "isoElements": {
+    "TotalCollateral": {
+      "name": "Total Collateral",
+      "definition": "Collateral currently received (+)/delivered (-) in the base currency. This amount is after the haircut has been applied."
+    },
+    "CollateralDetails": {
+      "name": "Collateral Details",
+      "definition": "Provides details about the collateral held, in transit or that still needs to be agreed by both parties, for the variation margin and optionally the segregated independent amount."
+    },
+    "SegregatedIndependentAmount": {
+      "name": "Segregated Independent Amount",
+      "definition": "Provides details about the collateral held, in transit or that still needs to be agreed by both parties, against the segregated independent amount only."
+    }
+  }
+}

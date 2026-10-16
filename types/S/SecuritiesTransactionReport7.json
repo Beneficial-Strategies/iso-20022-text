@@ -1,0 +1,64 @@
+{
+  "isoType": "SecuritiesTransactionReport7",
+  "language": "en",
+  "name": "Securities Transaction Report 7",
+  "definition": "Details of the securities transaction report.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique and unambiguous identification of the transaction."
+    },
+    "ExecutingParty": {
+      "name": "Executing Party",
+      "definition": "Identification of the entity executing the transaction."
+    },
+    "InvestmentPartyIndicator": {
+      "name": "Investment Party Indicator",
+      "definition": "Indicates whether the reporting party is defined as an investment firm under the local regulation or not."
+    },
+    "SubmittingParty": {
+      "name": "Submitting Party",
+      "definition": "Entity submitting the transaction report to the competent authority."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Identifies the acquirer of the legal title to the financial instrument."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Identifies the seller of the legal title to the financial instrument."
+    },
+    "OrderTransmission": {
+      "name": "Order Transmission",
+      "definition": "Indication as to whether the transaction results from an order transmitted by the reporting of a client to a third party.||Usage: Only applicable when the conditions for transmission are not satisfied."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Provides the details of the reported transaction."
+    },
+    "FinancialInstrument": {
+      "name": "Financial Instrument",
+      "definition": "Financial instrument representing a sum of rights of the investor vis-a-vis the issuer."
+    },
+    "InvestmentDecisionPerson": {
+      "name": "Investment Decision Person",
+      "definition": "Identifies the person or algorithm which is responsible within the reporting party for the investment decision."
+    },
+    "ExecutingPerson": {
+      "name": "Executing Person",
+      "definition": "Person or algorithm responsible for the execution of the transaction."
+    },
+    "AdditionalAttributes": {
+      "name": "Additional Attributes",
+      "definition": "Provides additional indicators on the reported transaction."
+    },
+    "TechnicalAttributes": {
+      "name": "Technical Attributes",
+      "definition": "Data used for exchanges between national competent authorities, not to be used by reporting entities."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

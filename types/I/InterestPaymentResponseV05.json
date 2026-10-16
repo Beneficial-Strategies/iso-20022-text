@@ -1,0 +1,36 @@
+{
+  "isoType": "InterestPaymentResponseV05",
+  "language": "en",
+  "name": "Interest Payment Response V 05",
+  "definition": "Scope|The InterestPaymentResponse message is sent by either;|- the collateral taker or its collateral manager to the collateral giver or its collateral manager, or|- the collateral giver or its collateral manager to the collateral taker or its collateral manager|This is a response to the InterestPaymentRequest message and the amount of interest requested or advised can be accepted or rejected.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|The InterestPaymentResponse message is sent in response to the InterestPaymentRequest in order to accept or reject the amount of interest requested or advised. A rejection reason and information can be provide if the InterestPaymentRequest is being rejected.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "Agreement": {
+      "name": "Agreement",
+      "definition": "Agreement details for the over the counter market."
+    },
+    "InterestDueToA": {
+      "name": "Interest Due To A",
+      "definition": "Provides details on the interest amount due to party A."
+    },
+    "InterestDueToB": {
+      "name": "Interest Due To B",
+      "definition": "Provides details on the interest amount due to party B."
+    },
+    "InterestResponse": {
+      "name": "Interest Response",
+      "definition": "Provides details on the response to the interest payment request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "isoType": "Trade7",
+  "language": "en",
+  "name": "Trade 7",
+  "definition": "Details of the treasury trade captured.",
+  "isoElements": {
+    "TradeIdentification": {
+      "name": "Trade Identification",
+      "definition": "Unique reference identification assigned to the trade by the instructing party. This reference will be used throughout the trade life cycle to identify the particular trade."
+    },
+    "DateAndTime": {
+      "name": "Date And Time",
+      "definition": "Date and time at which the trade was executed."
+    },
+    "ForeignExchangeTradeProduct": {
+      "name": "Foreign Exchange Trade Product",
+      "definition": "Specifies the underlying product type."
+    },
+    "TradingCurrency": {
+      "name": "Trading Currency",
+      "definition": "Specifies the ISO code of the trade currency."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Settlement currency of the trade, agreed by both sides of the trade."
+    },
+    "TradingMethod": {
+      "name": "Trading Method",
+      "definition": "Identifies the type of trading method."
+    },
+    "TradingMode": {
+      "name": "Trading Mode",
+      "definition": "Identifies the type of the trade mode."
+    },
+    "ClearingMethod": {
+      "name": "Clearing Method",
+      "definition": "Clearing method of the trade, agreed by both sides of the trade."
+    },
+    "ExecutionType": {
+      "name": "Execution Type",
+      "definition": "Identifies current status of the trade."
+    },
+    "Symbol": {
+      "name": "Symbol",
+      "definition": "Symbol of the trade."
+    },
+    "PlaceOfConfirmation": {
+      "name": "Place Of Confirmation",
+      "definition": "Infrastructure where the trade confirmation will take place."
+    },
+    "TransactionTime": {
+      "name": "Transaction Time",
+      "definition": "Date and time at which the message was executed."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Provides details of the foreign exchange trade including Spot Forward and NDF."
+    },
+    "SwapLeg": {
+      "name": "Swap Leg",
+      "definition": "Provides details about each leg of the multileg instrument (foreign exchange swap)."
+    },
+    "Option": {
+      "name": "Option",
+      "definition": "Specifies the parameters of the foreign exchange option."
+    },
+    "ProductIdentification": {
+      "name": "Product Identification",
+      "definition": "Identification of the treasury trade product, as assigned under a formal or proprietary identification scheme."
+    },
+    "ContraCurrency": {
+      "name": "Contra Currency",
+      "definition": "Represents  the currency corresponding to the Dealt Currency in a currency pair."
+    },
+    "DealTicketIdentification": {
+      "name": "Deal Ticket Identification",
+      "definition": "It represents the transaction ticket number. When a PB transaction is performed, it needs to be split into two sub-transactions, and this number is used to record the association of each sub-transaction with the original PB transaction."
+    },
+    "CombinationDealTicketIdentification": {
+      "name": "Combination Deal Ticket Identification",
+      "definition": "Represents the option combination transaction ticket number. (There are two options for option exercise --full exercise and differential exercise. Only when the option is fully exercised on the exercise date will result in a spot trade -an alternative spot trade product - that is linked to the original option. Therefore, it is necessary to generate a ticket number to associate with the sub-option.)"
+    },
+    "BaseCurrencyOrAmount": {
+      "name": "Base Currency Or Amount",
+      "definition": "Represents the base currency with optional amount, one of the essential elements of the transaction."
+    },
+    "TargetCurrencyOrAmount": {
+      "name": "Target Currency Or Amount",
+      "definition": "Represents the non-base currency with optional amount, one of the essential elements of the transaction."
+    },
+    "DateConfirmed": {
+      "name": "Date Confirmed",
+      "definition": "The “DateConfirmed” is used to  support cross-day transactions.  It represents the date of the session, that is, the date when the transaction is placed, which is different from the date of the transaction. When trading continuously for 24 hours, the transaction date is the next day and the session date is the previous day, which constitutes a cross-day transaction. The date reserved for this field to support inter-day transactions, currently referring to the transaction date."
+    }
+  },
+  "isoRules": {
+    "ForeignExchangeDetailsRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to 'FORW' (Foreign Exchange Forward) or'NDFO' (Foreign Exchange Non Deliverable Forward) or 'SPOT' (Foreign Exchange Spot), then ForeignExchangeDetails must be present."
+    },
+    "SwapLegRule": {
+      "definition": "If Foreign ExchangeTradeProduct is equal to 'SWAP', then SwapLeg must be present."
+    },
+    "ForeignExchangeTradeProductAndOption1Rule": {
+      "definition": "If ForeignExchangeTradeProduct is present, then Option is not allowed."
+    },
+    "ForeignExchangeTradeProductAndOption2Rule": {
+      "definition": "If ForeignExchangeTradeProduct is not present, then Option must be present."
+    },
+    "OptionIndicatorRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to 'SWAP' (Foreign Exchange Swap), then SwapLeg must be present."
+    },
+    "DeltaIndicatorRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'SPOT' (Foreign Exchange Spot) or'FORW' (Foreign Exchange Forward), then DeltaIndicator must be present."
+    },
+    "FixingCurrencyAndFixingDateRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'NDFO' (Foreign Exchange Non Deliverable Forward), then FixingCurrency and FixingDate must be present."
+    },
+    "ForwardPointsRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to value 'NDFO' (Foreign Exchange Non Deliverable Forward) or 'FORW' (Foreign Exchange Forward), then ForwardPoints must be present."
+    },
+    "ForeignExchangeTradeProductRule": {
+      "definition": "If ForeignExchangeTradeProduct is present, then TradingCurrency, SettlementCurrency, TradingMode and PlaceOfConfirmation must be present."
+    },
+    "BaseAndTargetAmountRule": {
+      "definition": "If ForeignExchangeTradeProduct is equal to 'SWAP' (Foreign Exchange Swap), then BaseCurrencyOrAmount/Amount and TargetCurrencyOrAmount/Amount must be absent."
+    }
+  }
+}

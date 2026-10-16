@@ -1,0 +1,28 @@
+{
+  "isoType": "ClearingAccountType3Code",
+  "language": "en",
+  "name": "Clearing Account Type 3 Code",
+  "definition": "Specifies the clearing account type.",
+  "isoCodes": {
+    "NOSA": {
+      "isoName": "NetOmnibusClientAccount",
+      "name": "Net Omnibus Client Account",
+      "definition": "Specifies that the client positions and assets within the associated position and collateral accounts of the clearing account are operationally and legally commingled while initial margin requirements are calculated on a net basis across all related margining or position accounts."
+    },
+    "ISEG": {
+      "isoName": "IndividuallySegregatedAccount",
+      "name": "Individually Segregated Account",
+      "definition": "Specifies that customer positions and assets within the associated position and collateral accounts of the clearing account are operationally and legally segregated."
+    },
+    "HOUS": {
+      "isoName": "House",
+      "name": "House",
+      "definition": "Specifies that the account is used to register trades executed for either the clearing member or its subsidiaries."
+    },
+    "GOSA": {
+      "isoName": "GrossOmnibusClientAccount",
+      "name": "Gross Omnibus Client Account",
+      "definition": "Specifies that client position and assets within the associated position and collateral accounts of the clearing account are operationally and legally commingled, however initial margin requirements are calculated on a gross basis for each related margining account."
+    }
+  }
+}

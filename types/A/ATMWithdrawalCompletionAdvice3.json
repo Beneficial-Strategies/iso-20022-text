@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMWithdrawalCompletionAdvice3",
+  "language": "en",
+  "name": "ATM Withdrawal Completion Advice 3",
+  "definition": "Information related to the completion of a withdrawal on the ATM.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the withdrawal transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Withdrawal transaction for which the completion is sent."
+    }
+  }
+}

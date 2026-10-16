@@ -1,0 +1,20 @@
+{
+  "isoType": "CardTransactionEnvironment5",
+  "language": "en",
+  "name": "Card Transaction Environment 5",
+  "definition": "Environment of the transaction.",
+  "isoElements": {
+    "SendingInstitution": {
+      "name": "Sending Institution",
+      "definition": "Institution initiator of the reconciliation.|It corresponds to the ISO 8583 field number 94."
+    },
+    "ReceivingInstitution": {
+      "name": "Receiving Institution",
+      "definition": "Institution destination of the reconciliation.|It corresponds to the ISO 8583 field number 93."
+    },
+    "SettlementInstitution": {
+      "name": "Settlement Institution",
+      "definition": "Institution in charge of the settlement of the transaction."
+    }
+  }
+}

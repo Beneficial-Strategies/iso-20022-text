@@ -1,0 +1,29 @@
+{
+  "isoType": "BalanceDetails6",
+  "language": "en",
+  "name": "Balance Details 6",
+  "definition": "Balance related details for a portfolio.",
+  "isoElements": {
+    "Category": {
+      "name": "Category",
+      "definition": "Category of the financial asset balance type."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Balance type."
+    },
+    "Unrealised": {
+      "name": "Unrealised",
+      "definition": "Unrealised gain or loss."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Balance amount."
+    }
+  },
+  "isoRules": {
+    "BalanceTypeGuideline2": {
+      "definition": "FinancialAssetTypeCategory codes and Type codes used are subject to market practice and/or bilateral service level agreements."
+    }
+  }
+}

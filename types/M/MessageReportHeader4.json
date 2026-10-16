@@ -1,0 +1,24 @@
+{
+  "isoType": "MessageReportHeader4",
+  "language": "en",
+  "name": "Message Report Header 4",
+  "definition": "Provides details of many status advice reports where many received reports are reported at once.",
+  "isoElements": {
+    "MessageReportIdentifier": {
+      "name": "Message Report Identifier",
+      "definition": "Provide detail on previously received message reports that are being reported as part of this status advice.||Usage:|When required, this field will be populated with the BAH Business Message Identifier field. Where only a single message report header is used, this field is not used and relies solely on the BAH Business Message Identifier field."
+    },
+    "MessageStatus": {
+      "name": "Message Status",
+      "definition": "Details the status of the whole message that has been received."
+    },
+    "RecordStatus": {
+      "name": "Record Status",
+      "definition": "Provides per record status on the report that has been received."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

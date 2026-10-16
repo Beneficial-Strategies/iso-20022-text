@@ -1,0 +1,23 @@
+{
+  "isoType": "ReconciliationFunction1Code",
+  "language": "en",
+  "name": "Reconciliation Function 1 Code",
+  "definition": "Indicates whether the message is a request for totals or to convey totals.",
+  "isoCodes": {
+    "INQR": {
+      "isoName": "Inquire",
+      "name": "Inquire",
+      "definition": "Inquiry for reconciliation totals"
+    },
+    "INCU": {
+      "isoName": "InitiateCutover",
+      "name": "Initiate Cutover",
+      "definition": "Initiation of a cutover."
+    },
+    "CNVY": {
+      "isoName": "Convey",
+      "name": "Convey",
+      "definition": "Convey reconciliation totals"
+    }
+  }
+}

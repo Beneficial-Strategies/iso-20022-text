@@ -1,0 +1,44 @@
+{
+  "isoType": "PINData1",
+  "language": "en",
+  "name": "PIN Data 1",
+  "definition": "Attributes of a cardholder PIN.",
+  "isoElements": {
+    "Control": {
+      "name": "Control",
+      "definition": "Identifies the key management scheme and associated control field format.|ISO 13492|Binary, length of 1"
+    },
+    "KeySetIdentifier": {
+      "name": "Key Set Identifier",
+      "definition": "key-set identifier is a number that uniquely identifies a group of related keys that are all different but have certain characteristics in common.|ISO 13492||lengths of 6 or 8"
+    },
+    "DerivedInformation": {
+      "name": "Derived Information",
+      "definition": "Contains Derived Info or Device ID and Transaction Counter.|ISO 13492||Binary, lengths of 5, 8, 16 or 32"
+    },
+    "Algorithm": {
+      "name": "Algorithm",
+      "definition": "Used to select the encryption algorithm to encipher the keys contained in the associated key management data element. |ISO 13492"
+    },
+    "KeyLength": {
+      "name": "Key Length",
+      "definition": "Specifies the length of the keys being transported, not the encrypting key.|ISO 13492"
+    },
+    "KeyProtection": {
+      "name": "Key Protection",
+      "definition": "Mechanism used to provide key confidentiality and integrity. |ISO 13492"
+    },
+    "KeyIndex": {
+      "name": "Key Index",
+      "definition": "Identifies a unique key set when multiple keys with the same key set identifier are used (for example, key rotation).||ISO 13492||Length of 2 or 5"
+    },
+    "PINBlockFormat": {
+      "name": "PIN Block Format",
+      "definition": "As defined in ISO 9564-1."
+    },
+    "EncryptedPINBlock": {
+      "name": "Encrypted PIN Block",
+      "definition": "As defined in ISO 9564-1. ||Binary, length of 8 or 16"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "InvoiceAssignmentNotificationV01",
+  "language": "en",
+  "name": "Invoice Assignment Notification V 01",
+  "definition": "This message is sent from a factoring service provider or a factoring client to a trade partner to inform about assignments of financing items and, optionally, to an interested party.|The information given to the trade party indicates that property of the payment obligation has been or is being transferred to the financial institution and that payments have to be done between the trade partner and the factoring service provider.|The message indicates whether the notified party is required to acknowledge the notified assignment and to which party an acknowledgement has to be sent.|This message can also be used outside a factoring context directly between a payer and a payee for example as a reminder about a payment obligation or to make an adjustment.|If applicable, the message may reference corresponding items of an InvoiceFinancingRequest or InvoiceFinancingStatus or other related messages and may contain referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the assignment notification, common parameters, documents and identifications."
+    },
+    "NotificationList": {
+      "name": "Notification List",
+      "definition": "List of assignment notifications."
+    },
+    "NotificationCount": {
+      "name": "Notification Count",
+      "definition": "Number of assignment notification lists."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "isoType": "SecuritiesReturnCriteria1",
+  "language": "en",
+  "name": "Securities Return Criteria 1",
+  "definition": "Return criteria for information to be returned in the report deriving from a query about securities reference data.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Identification of a security."
+    },
+    "ISOSecurityLongName": {
+      "name": "ISO Security Long Name",
+      "definition": "Name of the security."
+    },
+    "ISOSecurityShortName": {
+      "name": "ISO Security Short Name",
+      "definition": "Short name of the security expressed as ISO 18773/18774."
+    },
+    "ClassificationFinancialInstrument": {
+      "name": "Classification Financial Instrument",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date/time at which the security was made available."
+    },
+    "IssueCurrency": {
+      "name": "Issue Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CountryOfIssue": {
+      "name": "Country Of Issue",
+      "definition": "Primary market or country where a security is issued by the issuer or its agent."
+    },
+    "SecurityStatus": {
+      "name": "Security Status",
+      "definition": "Specifies the status of the security within its lifecycle."
+    },
+    "InvestorCSD": {
+      "name": "Investor CSD",
+      "definition": "CSD Investor of a security."
+    },
+    "IssuerCSD": {
+      "name": "Issuer CSD",
+      "definition": "CSD Issuer of a security."
+    },
+    "TechnicalIssuerCSD": {
+      "name": "Technical Issuer CSD",
+      "definition": "Technical issuer of a security."
+    },
+    "CSD": {
+      "name": "CSD",
+      "definition": "CSD of a security."
+    },
+    "SecuritiesQuantityType": {
+      "name": "Securities Quantity Type",
+      "definition": "Quantity of a security."
+    },
+    "MinimumDenomination": {
+      "name": "Minimum Denomination",
+      "definition": "Indicates the minimum quantity (unit or nominal) of a security."
+    },
+    "MinimumMultipleQuantity": {
+      "name": "Minimum Multiple Quantity",
+      "definition": "Minimum multiple quantity (unit or nominal) of securities."
+    },
+    "DeviatingSettlementUnit": {
+      "name": "Deviating Settlement Unit",
+      "definition": "Minimum quantity of securities that can be purchased without incurring a larger fee. For example, if the round lot size is 100 and the trade is for 125 shares, then 100 will be processed without a fee and the remaining 25 will incur a service fee for being an odd lot size."
+    }
+  }
+}

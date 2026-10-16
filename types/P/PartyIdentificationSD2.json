@@ -1,0 +1,37 @@
+{
+  "isoType": "PartyIdentificationSD2",
+  "language": "en",
+  "name": "Party Identification SD 2",
+  "definition": "Provides additional information regarding the existing agent component.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "AgentIdentification": {
+      "name": "Agent Identification",
+      "definition": "DTC agent identification number."
+    },
+    "AgentTelephoneNumber": {
+      "name": "Agent Telephone Number",
+      "definition": "Telephone number of the agent."
+    },
+    "ContactInformation": {
+      "name": "Contact Information",
+      "definition": "Agent designated contact information details."
+    },
+    "AgentEmailAddress": {
+      "name": "Agent Email Address",
+      "definition": "Email address of the event agent."
+    },
+    "AgentAddress": {
+      "name": "Agent Address",
+      "definition": "Event agent address."
+    }
+  },
+  "isoRules": {
+    "AgentExtensionRule": {
+      "definition": "This block can only be used when extending elements to a particular agent block. ||Agent fields in DTCC model are consolidated (factored) in one sequence structure which is qualified by Agent Type. The rationale was the fact that all of the attributes for every agent type are same (name address, telephone, designated contact, etc) ISO model has separated dedicated sequences for each agent type (Issuer Agent block, Drop Agent block, etc). ||Although DTCC Agent naming convention differs from ISO, most of the DTCC-defined agent types have a corresponding ISO-defined agent types. With the exception of 2. ||When ISO message is generated and there is a corresponding ISO-defined agent block: that Agent Block details will be populated in ISO message, if there are DTCC-defined elements that need to be extended, they will be extended to that matching agent block. ||When ISO message is generated and there isn't a corresponding ISO-defined agent block: whole new agent sequence will be generated and extended to the root of the ISO message. Like other Agent blocks in Corporate Action Notification. |||Translation Rules:|DTCC = ISO ||Event Agent = Issuer Agent|Event Agent (Bearer) = Physical Securities Agent|Drop Agent = Drop Agent |Note: Drop Agent and Drop Agent (Bearer) will not exist on the same event |Information Agent = Information Agent|Solicitation Agent = Solicitation Agent|Remarketing Agent = Reselling Agent|Transfer Agent = Registrar|Others = Extension|Drop Agent (Bearer) = Extesion."
+    }
+  }
+}

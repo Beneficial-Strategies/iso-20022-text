@@ -1,0 +1,25 @@
+{
+  "isoType": "VolumeCapReport1",
+  "language": "en",
+  "name": "Volume Cap Report 1",
+  "definition": "Double volume cap report.",
+  "isoElements": {
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "Date or date range the report relates to."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "The venue this report is in relation to specified as {MIC} (segment MIC, where available, otherwise operational MIC)."
+    },
+    "InstrumentReport": {
+      "name": "Instrument Report",
+      "definition": "Volume cap data specific to a reporting period."
+    }
+  },
+  "isoRules": {
+    "ValidMICRule": {
+      "definition": "Where populated, the market identification code must be an active market at the time of reporting."
+    }
+  }
+}

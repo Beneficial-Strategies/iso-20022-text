@@ -1,0 +1,28 @@
+{
+  "isoType": "ForeignExchangeOptionNotificationV02",
+  "language": "en",
+  "name": "Foreign Exchange Option Notification V 02",
+  "definition": "Scope|The ForeignExchangeOptionNotification message is sent by a central system to a participant to provide details of a foreign exchange option trade.|Usage|The notification is sent by the central settlement system to the two trading parties after it has received Create, Amend or Cancel messages from both. The message may also contain information on the settlement of the trade and/or premium.",
+  "isoElements": {
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the currency option trade which is reported."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the non deliverable trade which is reported."
+    },
+    "OptionData": {
+      "name": "Option Data",
+      "definition": "Provides information on the conditions of the option."
+    },
+    "TradeStatus": {
+      "name": "Trade Status",
+      "definition": "Provides information on the status of a trade in a settlement system."
+    },
+    "SettlementData": {
+      "name": "Settlement Data",
+      "definition": "Provides information on the settlement of a trade."
+    }
+  }
+}

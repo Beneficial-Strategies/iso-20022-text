@@ -1,0 +1,21 @@
+{
+  "isoType": "VolumeMetrics5",
+  "language": "en",
+  "name": "Volume Metrics 5",
+  "definition": "Numeric variables calculated on the number of transactions or on market exposures.",
+  "isoElements": {
+    "NumberOfTransactions": {
+      "name": "Number Of Transactions",
+      "definition": "Count of the number of Unique Trade Identifiers."
+    },
+    "Exposure": {
+      "name": "Exposure",
+      "definition": "Sum for each exposure variable and currency."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

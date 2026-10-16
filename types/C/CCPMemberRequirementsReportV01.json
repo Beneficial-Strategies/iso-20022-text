@@ -1,0 +1,28 @@
+{
+  "isoType": "CCPMemberRequirementsReportV01",
+  "language": "en",
+  "name": "CCP Member Requirements Report V 01",
+  "definition": "The CCPMemberRequirementsReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about the collateral requirements that a central counterparty obligates a clearing member post at the central counterparty.",
+  "isoElements": {
+    "IntraDayRequirementAmount": {
+      "name": "Intra Day Requirement Amount",
+      "definition": "Obligations of a clearing member with respect to a central counterparty that are calculated based on intraday positions."
+    },
+    "IntraDayMarginCall": {
+      "name": "Intra Day Margin Call",
+      "definition": "Describes an instance of an intraday margin call being made against a margin account."
+    },
+    "EndOfDayRequirement": {
+      "name": "End Of Day Requirement",
+      "definition": "Obligations of a clearing member with respect to a central counterparty that are calculated based on end of day positions."
+    },
+    "DefaultFundRequirement": {
+      "name": "Default Fund Requirement",
+      "definition": "Requirement for a clearing member to post collateral at a central counterparty with respect to a default fund."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "EligibilityType1Code",
+  "language": "en",
+  "name": "Eligibility Type 1 Code",
+  "definition": "Defines the type of eligibility.",
+  "isoCodes": {
+    "SECU": {
+      "isoName": "Securities",
+      "name": "Securities",
+      "definition": "Eligibility applies at securities level."
+    },
+    "ISCS": {
+      "isoName": "IssuerCSD",
+      "name": "Issuer CSD",
+      "definition": "Eligibility applies at the level of issuer CSD.|All of the securities issued by the issuer CSD are eligible."
+    },
+    "CTRY": {
+      "isoName": "Country",
+      "name": "Country",
+      "definition": "Eligibility applies at country level.|All of the securities issued in that country are eligible."
+    }
+  }
+}

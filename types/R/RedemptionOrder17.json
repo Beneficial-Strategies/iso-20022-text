@@ -1,0 +1,139 @@
+{
+  "isoType": "RedemptionOrder17",
+  "language": "en",
+  "name": "Redemption Order 17",
+  "definition": "Instruction from an investor to sell investment fund units back to the fund.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account impacted by the investment fund order."
+    },
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Category of the investment fund order."
+    },
+    "BeneficiaryDetails": {
+      "name": "Beneficiary Details",
+      "definition": "Additional information about the investor."
+    },
+    "AmountOrUnitsOrPercentage": {
+      "name": "Amount Or Units Or Percentage",
+      "definition": "Amount of money or the number of units or percentage to be redeemed for the redemption order."
+    },
+    "Rounding": {
+      "name": "Rounding",
+      "definition": "Indicates the rounding direction applied to nearest unit."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method by which the transaction is settled."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion.|How the exchange rate is expressed determines which currency is the Unit Currency and Quoted Currency. If the amounts concerned are EUR 1000 and USD 1300, the exchange rate may be expressed as per either of the following examples:|EXAMPLE 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EXAMPLE 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "Group1Or2Units": {
+      "name": "Group 1 Or 2 Units",
+      "definition": "Tax group to which the purchased investment fund units belong. The investor indicates to the intermediary operating pooled nominees, which type of unit is to be sold."
+    },
+    "TransactionOverhead": {
+      "name": "Transaction Overhead",
+      "definition": "Fees (charges/commission) and tax to be applied to the gross amount."
+    },
+    "SettlementAndCustodyDetails": {
+      "name": "Settlement And Custody Details",
+      "definition": "Parameters used to execute the settlement of an investment fund order."
+    },
+    "PhysicalDeliveryIndicator": {
+      "name": "Physical Delivery Indicator",
+      "definition": "Indicates whether the financial instrument is to be physically delivered."
+    },
+    "PhysicalDeliveryDetails": {
+      "name": "Physical Delivery Details",
+      "definition": "Information related to the physical delivery of the securities."
+    },
+    "CashSettlementDetails": {
+      "name": "Cash Settlement Details",
+      "definition": "Payment process for the transfer of cash from the debtor to the creditor."
+    },
+    "DigitalAssetSettlement": {
+      "name": "Digital Asset Settlement",
+      "definition": "Total quantity of digital asset to be paid or received in exchange for the securities token."
+    },
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "StaffClientBreakdown": {
+      "name": "Staff Client Breakdown",
+      "definition": "Breakdown of the net amount per type of order."
+    },
+    "FinancialAdvice": {
+      "name": "Financial Advice",
+      "definition": "Specifies if advice has been received from an independent financial advisor."
+    },
+    "NegotiatedTrade": {
+      "name": "Negotiated Trade",
+      "definition": "Specifies whether the trade is negotiated."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Party related to the transaction."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Part of an investor's retained subscription amount that is returned by the fund in order to reimburse preliminary incentive/performance fees."
+    },
+    "CustomerConductClassification": {
+      "name": "Customer Conduct Classification",
+      "definition": "Assessment of the customer’s behaviour at the time of the account opening application."
+    },
+    "TransactionChannelType": {
+      "name": "Transaction Channel Type",
+      "definition": "Means by which the investor or account owner submits the open account form."
+    },
+    "SignatureType": {
+      "name": "Signature Type",
+      "definition": "Type of signature."
+    },
+    "OrderWaiverDetails": {
+      "name": "Order Waiver Details",
+      "definition": "Information about a non-standard order."
+    }
+  },
+  "isoRules": {
+    "OrderOriginatorEligibility3Rule": {
+      "definition": "Either InvestmentAccountDetails/OrderOriginatorEligibility or one or more occurrences of RelatedPartyDetails/OrderOriginatorEligibility may be present, but not both."
+    },
+    "PhysicalDeliveryDetails1Rule": {
+      "definition": "If PhysicalDeliveryIndicator is \"false\" or \"0\" (No), then PhysicalDeliveryDetails is not allowed."
+    },
+    "PhysicalDeliveryDetails2Rule": {
+      "definition": "If PhysicalDeliveryIndicator is \"true\" or \"1\" (Yes), then PhysicalDeliveryDetails must be present."
+    }
+  }
+}

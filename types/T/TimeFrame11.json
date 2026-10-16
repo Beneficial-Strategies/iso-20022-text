@@ -1,0 +1,32 @@
+{
+  "isoType": "TimeFrame11",
+  "language": "en",
+  "name": "Time Frame 11",
+  "definition": "Time frame elements that define a period as number of days before or after a activity.",
+  "isoElements": {
+    "OtherTimeFrameDescription": {
+      "name": "Other Time Frame Description",
+      "definition": "Description of the timeframe."
+    },
+    "TradePlus": {
+      "name": "Trade Plus",
+      "definition": "Number of days after the trade date (T) used for the standard timeframe for the issue of a deal confirmation."
+    },
+    "NonWorkingDayAdjustment": {
+      "name": "Non Working Day Adjustment",
+      "definition": "Convention used for adjusting a date when it is not a business day."
+    },
+    "ReferToOrderDesk": {
+      "name": "Refer To Order Desk",
+      "definition": "For the time of the issuance of the deal confirmation, the order desk must be contacted."
+    }
+  },
+  "isoRules": {
+    "TradePlusRule": {
+      "definition": "If TradePlus is present then NonWorkingDayAdjustment must also be present."
+    },
+    "NonWorkingDayAdjustmentRule": {
+      "definition": "If NonWorkingDayAdjustment is present then TradePlus must also be present."
+    }
+  }
+}

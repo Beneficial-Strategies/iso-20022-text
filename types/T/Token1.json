@@ -1,0 +1,32 @@
+{
+  "isoType": "Token1",
+  "language": "en",
+  "name": "Token 1",
+  "definition": "Unencrypted sensitive data of a token.",
+  "isoElements": {
+    "PaymentToken": {
+      "name": "Payment Token",
+      "definition": "Surrogate value of the PAN."
+    },
+    "TokenExpiryDate": {
+      "name": "Token Expiry Date",
+      "definition": "Expiry date of the payment token.|ISO 8583 bit 14."
+    },
+    "TokenRequestorIdentification": {
+      "name": "Token Requestor Identification",
+      "definition": "Identification of a party requesting a token."
+    },
+    "TokenAssuranceData": {
+      "name": "Token Assurance Data",
+      "definition": "Supporting information for the Token Assurance Method."
+    },
+    "TokenAssuranceMethod": {
+      "name": "Token Assurance Method",
+      "definition": "Value that allows a Token Service Provider to indicate the identification and verification performed representing the binding of the payment token to the underlying PAN and cardholder."
+    },
+    "TokenInitiatedIndicator": {
+      "name": "Token Initiated Indicator",
+      "definition": "Original transaction was initiated by Token."
+    }
+  }
+}

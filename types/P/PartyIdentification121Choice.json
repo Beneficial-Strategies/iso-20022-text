@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyIdentification121Choice",
+  "language": "en",
+  "name": "Party Identification 121 Choice",
+  "definition": "Choice of identification of a party.",
+  "isoElements": {
+    "AnyBIC": {
+      "name": "Any BIC",
+      "definition": "Code allocated to a financial or non-financial institution by the ISO 9362 Registration Authority, as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "LegalEntityIdentifier": {
+      "name": "Legal Entity Identifier",
+      "definition": "Identification of the party with a Legal Entity Identifier. This is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "NameAndAddress": {
+      "name": "Name And Address",
+      "definition": "Name and address of a party."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    }
+  }
+}

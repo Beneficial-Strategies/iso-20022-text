@@ -1,0 +1,28 @@
+{
+  "isoType": "SequenceType1Code",
+  "language": "en",
+  "name": "Sequence Type 1 Code",
+  "definition": "Specifies the type of the current transaction that belongs to a sequence of transactions. Specific attributes are required for the first, the recurring and the last instructions of a series, as well as the specification of a unique transaction (one-off direct debit transaction).",
+  "isoCodes": {
+    "FRST": {
+      "isoName": "First",
+      "name": "First",
+      "definition": "First collection of a series of direct debit instructions."
+    },
+    "RCUR": {
+      "isoName": "Recurring",
+      "name": "Recurring",
+      "definition": "Direct debit instruction where the debtor's authorisation is used for regular direct debit transactions initiated by the creditor."
+    },
+    "FNAL": {
+      "isoName": "Final",
+      "name": "Final",
+      "definition": "Final collection of a series of direct debit instructions."
+    },
+    "OOFF": {
+      "isoName": "OneOff",
+      "name": "One Off",
+      "definition": "Direct debit instruction where the debtor's authorisation is used to initiate one single direct debit transaction."
+    }
+  }
+}

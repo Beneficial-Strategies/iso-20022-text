@@ -1,0 +1,72 @@
+{
+  "isoType": "ATMTransaction38",
+  "language": "en",
+  "name": "ATM Transaction 38",
+  "definition": "Transfer information for the transaction.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction assigned by the ATM."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation period assigned by the ATM."
+    },
+    "CreditorLabel": {
+      "name": "Creditor Label",
+      "definition": "Description of the transfer for the creditor."
+    },
+    "DebtorLabel": {
+      "name": "Debtor Label",
+      "definition": "Description of the transfer for the debtor."
+    },
+    "PaymentReference": {
+      "name": "Payment Reference",
+      "definition": "Reference of the payment."
+    },
+    "AccountFrom": {
+      "name": "Account From",
+      "definition": "Information about the source account of the transfer."
+    },
+    "ProtectedAccountFrom": {
+      "name": "Protected Account From",
+      "definition": "Encryption of the source account information."
+    },
+    "AccountTo": {
+      "name": "Account To",
+      "definition": "Information about the destination account of the transfer."
+    },
+    "ProtectedAccountTo": {
+      "name": "Protected Account To",
+      "definition": "Encryption of the destination account information."
+    },
+    "TotalRequestedAmount": {
+      "name": "Total Requested Amount",
+      "definition": "Amount of the transaction to be authorised."
+    },
+    "DetailedRequestedAmount": {
+      "name": "Detailed Requested Amount",
+      "definition": "Details of the transfer transaction amounts."
+    },
+    "RequestedExecutionDate": {
+      "name": "Requested Execution Date",
+      "definition": "Requested date of the execution of the transfer."
+    },
+    "InstantTransferProgram": {
+      "name": "Instant Transfer Program",
+      "definition": "Identifies the instant transfer program."
+    },
+    "RecurringTransfer": {
+      "name": "Recurring Transfer",
+      "definition": "Information for reccurring transfer or standing orders."
+    },
+    "RequestedReceipt": {
+      "name": "Requested Receipt",
+      "definition": "True if the customer has requested a receipt.|Usage: When absent, default value is False."
+    },
+    "ICCRelatedData": {
+      "name": "ICC Related Data",
+      "definition": "Sequence of one or more TLV data elements from the ATM application, in accordance with ISO 7816-6, not in a specific order. Present if the transaction is performed with an EMV chip card application."
+    }
+  }
+}

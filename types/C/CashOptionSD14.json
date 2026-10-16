@@ -1,0 +1,68 @@
+{
+  "isoType": "CashOptionSD14",
+  "language": "en",
+  "name": "Cash Option SD 14",
+  "definition": "Provides additional information regarding corporate action option cash movement details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "PayoutType": {
+      "name": "Payout Type",
+      "definition": "Specifies the type of payout associated with the event (for example: principal, long term capital gain)."
+    },
+    "DTCPayMethod": {
+      "name": "DTC Pay Method",
+      "definition": "Indicates the type of payment. Used in stock dividends processing at DTC (The Depository Trust Corporation). Valid values list will be maintained separately from the schema."
+    },
+    "DTCPayOrder": {
+      "name": "DTC Pay Order",
+      "definition": "Indicates the payment order. Used in stock dividends processing at DTC (The Depository Trust Corporation). Valid values list will be maintained separately from the schema."
+    },
+    "EntitlementCalculationMethod": {
+      "name": "Entitlement Calculation Method",
+      "definition": "Indicates how the entitlements were calculated for optional dividends."
+    },
+    "EstimatedRateFlag": {
+      "name": "Estimated Rate Flag",
+      "definition": "Indicates whether the rate is approximate.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "NRATaxReportableFlag": {
+      "name": "NRA Tax Reportable Flag",
+      "definition": "Indicates whether the income event is subject to withholding tax if paid to a non-U.S. resident alien (NRA).|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "ProtectChargeFlag": {
+      "name": "Protect Charge Flag",
+      "definition": "Indicates whether a charge is levied on the protect instructions at the time when the protect is submitted or at the time of the cover. Applies to warrants or rights exercise scenario where the holder must put up money with rights or warrants execution. When this flag is set to yes - charges are due at the time of the protect, when it is set to \"no\" changes are due when protect is covered.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "DeclaredCashRate": {
+      "name": "Declared Cash Rate",
+      "definition": "Cash rate associated to the payout as declared on the market by the issuer or offeror."
+    },
+    "DeclaredGrossRate": {
+      "name": "Declared Gross Rate",
+      "definition": "Gross cash rate associated to the payout as declared on the market by the issuer or offeror."
+    },
+    "DeclaredNetRate": {
+      "name": "Declared Net Rate",
+      "definition": "Net cash rate associated to the payout as declared on the market by the issuer or offeror."
+    },
+    "DeclaredFeeRate": {
+      "name": "Declared Fee Rate",
+      "definition": "Rate at which the fee will be charged to a DTC participant."
+    },
+    "DTCUSTaxInstructionPeriod": {
+      "name": "DTCUS Tax Instruction Period",
+      "definition": "Indicates the period during which the instructions for DTC (The Depository Trust Corporation) US Tax service will be accepted."
+    },
+    "RDPReferenceNumber": {
+      "name": "RDP Reference Number",
+      "definition": "Unique DTCC legacy reference used for matching and reconciling legacy CCF records. The element will be populated to all levels of the message (event details, options, movements) where applicable to indicate how values are sourced from CCF legacy files. For example: an event has 2 related activity types 74, and 54. If event details and cash option are sourced from the activity type 74, then activity type 74 will be in RDP reference number element in event details, and also on the cash option. The activity type 54 will be \"on\" the security option. Also, usage rules will specify the different layouts of the RDP reference number based on DTCC event group (reorganisation, distribution, or redemption)."
+    },
+    "InterestAccruedNumberOfDays": {
+      "name": "Interest Accrued Number Of Days",
+      "definition": "Number of days used for calculating the accrued interest amount."
+    }
+  }
+}

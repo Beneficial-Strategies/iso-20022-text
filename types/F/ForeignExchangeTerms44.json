@@ -1,0 +1,28 @@
+{
+  "isoType": "ForeignExchangeTerms44",
+  "language": "en",
+  "name": "Foreign Exchange Terms 44",
+  "definition": "Information needed to process a currency exchange or conversion.",
+  "isoElements": {
+    "UnitCurrency": {
+      "name": "Unit Currency",
+      "definition": "Currency from which the quoted currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "name": "Quoted Currency",
+      "definition": "Currency into which the unit currency is converted in an exchange rate calculation.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "Factor used for the conversion of an amount from one currency into another. This reflects that amount of the quoted currency that can be purchased with one unit of the unit currency, as follows: |1 x CUR1 = nnn x CUR2, |where: |CUR1 is the unit currency |CUR2 is the quoted currency |nnn is the exchange rate.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotationDate": {
+      "name": "Quotation Date",
+      "definition": "Date and time at which an exchange rate is quoted."
+    },
+    "QuotingInstitution": {
+      "name": "Quoting Institution",
+      "definition": "Party that proposes a foreign exchange rate."
+    }
+  }
+}

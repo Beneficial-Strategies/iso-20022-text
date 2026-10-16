@@ -1,0 +1,48 @@
+{
+  "isoType": "Security49",
+  "language": "en",
+  "name": "Security 49",
+  "definition": "Data specific to securities being subject to the transaction.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifier of the security subject of the transaction."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, that is common share with voting rights, fully paid, or registered."
+    },
+    "QuantityOrNominalValue": {
+      "name": "Quantity Or Nominal Value",
+      "definition": "Quantity or nominal amount of the security or commodity subject of the transaction."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price of unit of collateral component, including accrued interest for interest-bearing securities, used to value the security."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Market value of asset or collateral component."
+    },
+    "Quality": {
+      "name": "Quality",
+      "definition": "Code that classifies the risk of the security."
+    },
+    "Maturity": {
+      "name": "Maturity",
+      "definition": "Maturity date of the security."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Data on the securities issuer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of the type of the security."
+    },
+    "ExclusiveArrangement": {
+      "name": "Exclusive Arrangement",
+      "definition": "Indication whether the borrower has exclusive access to borrow from the lender's securities portfolio."
+    }
+  }
+}

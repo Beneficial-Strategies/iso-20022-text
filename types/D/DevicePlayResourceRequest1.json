@@ -1,0 +1,32 @@
+{
+  "isoType": "DevicePlayResourceRequest1",
+  "language": "en",
+  "name": "Device Play Resource Request 1",
+  "definition": "Content of the Play Request message.",
+  "isoElements": {
+    "ResponseMode": {
+      "name": "Response Mode",
+      "definition": "Message response awaited by the initiator of the Request."
+    },
+    "ResourceAction": {
+      "name": "Resource Action",
+      "definition": "Requested Action: Start to play a media resource, Stop to play a media resource, Set the default volume."
+    },
+    "SoundVolume": {
+      "name": "Sound Volume",
+      "definition": "Volume of a sound, either in a percentage of the maximum volume, or 0 to mute."
+    },
+    "DisplayResolution": {
+      "name": "Display Resolution",
+      "definition": "Resolution to use."
+    },
+    "Resource": {
+      "name": "Resource",
+      "definition": "Identification of the resource to use."
+    },
+    "TimingSlot": {
+      "name": "Timing Slot",
+      "definition": "Identification of the moment to manage the media resource."
+    }
+  }
+}

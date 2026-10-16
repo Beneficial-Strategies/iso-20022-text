@@ -1,0 +1,23 @@
+{
+  "isoType": "StatusResponse1Code",
+  "language": "en",
+  "name": "Status Response 1 Code",
+  "definition": "Specifies the status of the response.",
+  "isoCodes": {
+    "NRES": {
+      "isoName": "NoResponseYet",
+      "name": "No Response Yet",
+      "definition": "Response not provided yet."
+    },
+    "PART": {
+      "isoName": "PartialResponse",
+      "name": "Partial Response",
+      "definition": "Response is partially provided."
+    },
+    "COMP": {
+      "isoName": "CompleteResponse",
+      "name": "Complete Response",
+      "definition": "Response is complete."
+    }
+  }
+}

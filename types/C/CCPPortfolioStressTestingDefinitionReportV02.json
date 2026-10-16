@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPPortfolioStressTestingDefinitionReportV02",
+  "language": "en",
+  "name": "CCP Portfolio Stress Testing Definition Report V 02",
+  "definition": "The CCPPortfolioStressTestingDefinitionReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about how the central counterparty defines stress scenarios used to stress clearing member portfolios.",
+  "isoElements": {
+    "ScenarioDefinition": {
+      "name": "Scenario Definition",
+      "definition": "Contains high level data on a stress scenario being applied to portfolios in order to calculate stress losses."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

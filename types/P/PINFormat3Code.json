@@ -1,0 +1,38 @@
+{
+  "isoType": "PINFormat3Code",
+  "language": "en",
+  "name": "PIN Format 3 Code",
+  "definition": "PIN (Personal Identification Number) format used before encryption.",
+  "isoCodes": {
+    "ISO0": {
+      "isoName": "ISO0",
+      "name": "ISO 0",
+      "definition": "PIN diversified with the card account number, conforming to the standard ISO 9564-2."
+    },
+    "ISO1": {
+      "isoName": "ISO1",
+      "name": "ISO 1",
+      "definition": "PIN completed with random padding characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO2": {
+      "isoName": "ISO2",
+      "name": "ISO 2",
+      "definition": "PIN without diversification characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO3": {
+      "isoName": "ISO3",
+      "name": "ISO 3",
+      "definition": "PIN diversified with the card account number and random characters, conforming to the standard ISO 9564-2."
+    },
+    "ISO4": {
+      "isoName": "ISO4",
+      "name": "ISO 4",
+      "definition": "PIN format used with AES encryption, conforming to the new ISO SC2 format."
+    },
+    "ISO5": {
+      "isoName": "ISO5",
+      "name": "ISO 5",
+      "definition": "Alternative PIN format used with AES encryption, conforming to the new ISO SC2 format."
+    }
+  }
+}

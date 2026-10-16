@@ -1,0 +1,21 @@
+{
+  "isoType": "OrderWaiver1",
+  "language": "en",
+  "name": "Order Waiver 1",
+  "definition": "Information about how an order is to be processed.",
+  "isoElements": {
+    "OrderWaiverReason": {
+      "name": "Order Waiver Reason",
+      "definition": "Reason why the order has to be handled differently, probably in a manual fashion, because, for example, the investment manager has agreed a waiver to the terms."
+    },
+    "InformationValue": {
+      "name": "Information Value",
+      "definition": "Additional information about the order waiver."
+    }
+  },
+  "isoRules": {
+    "WaiverElementRule": {
+      "definition": "Either OrderWaiverReason or InformationValue must be present. Both may be present."
+    }
+  }
+}

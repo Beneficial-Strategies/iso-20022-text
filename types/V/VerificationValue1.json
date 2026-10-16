@@ -1,0 +1,36 @@
+{
+  "isoType": "VerificationValue1",
+  "language": "en",
+  "name": "Verification Value 1",
+  "definition": "Data to be verified.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the data to be verified, such as billing street."
+    },
+    "TextValue": {
+      "name": "Text Value",
+      "definition": "Value of the data expressed in text form."
+    },
+    "BinaryValue": {
+      "name": "Binary Value",
+      "definition": "Value of the data expressed in BASE-64 encoded binary form."
+    },
+    "HexadecimalBinaryValue": {
+      "name": "Hexadecimal Binary Value",
+      "definition": "Value of the data expressed in hexadecimal encoded binary form."
+    },
+    "DateTime": {
+      "name": "Date Time",
+      "definition": "Date and time when the verification was performed."
+    },
+    "ValidityEndDate": {
+      "name": "Validity End Date",
+      "definition": "Contains end date of the verification that has been performed."
+    },
+    "ValidityEndTime": {
+      "name": "Validity End Time",
+      "definition": "Contains end time of the verification that has been performed."
+    }
+  }
+}

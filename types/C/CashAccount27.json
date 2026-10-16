@@ -1,0 +1,32 @@
+{
+  "isoType": "CashAccount27",
+  "language": "en",
+  "name": "Cash Account 27",
+  "definition": "Set of elements used to identify an account.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the nature, or use of the account."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Identification of the currency in which the account is held."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name of the account, as assigned by the account servicing institution, in agreement with the account owner in order to provide an additional means of identification of the account.||Usage: The account name is different from the account owner name. The account name is used in certain user communities to provide a means of identifying the account, in addition to the account owner's identity and the account number."
+    },
+    "Owner": {
+      "name": "Owner",
+      "definition": "Party that legally owns the account."
+    },
+    "Servicer": {
+      "name": "Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account.|."
+    }
+  }
+}

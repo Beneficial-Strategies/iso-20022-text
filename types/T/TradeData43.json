@@ -1,0 +1,32 @@
+{
+  "isoType": "TradeData43",
+  "language": "en",
+  "name": "Trade Data 43",
+  "definition": "Provides details of a new trade transaction report.",
+  "isoElements": {
+    "CounterpartySpecificData": {
+      "name": "Counterparty Specific Data",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "CommonTradeData": {
+      "name": "Common Trade Data",
+      "definition": "Data specifically related to transaction."
+    },
+    "Level": {
+      "name": "Level",
+      "definition": "Information concerning the reported transaction level type.||Usage: The absence of the code will imply the default value Transaction (TCTN)."
+    },
+    "TechnicalAttributes": {
+      "name": "Technical Attributes",
+      "definition": "Specifies technical attributes of the message."
+    },
+    "PublicDisseminationData": {
+      "name": "Public Dissemination Data",
+      "definition": "Information regarding the public dissemination of trade data."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

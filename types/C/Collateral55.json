@@ -1,0 +1,36 @@
+{
+  "isoType": "Collateral55",
+  "language": "en",
+  "name": "Collateral 55",
+  "definition": "Provides details on the collateral that will be either delivered, returned or both.",
+  "isoElements": {
+    "MarginCallRequestIdentification": {
+      "name": "Margin Call Request Identification",
+      "definition": "Specifies the reference to the unambiguous identification of the margin call request."
+    },
+    "MarginCallResponseIdentification": {
+      "name": "Margin Call Response Identification",
+      "definition": "Specifies the reference to the unambiguous identification of the margin call response."
+    },
+    "StandardSettlementInstructions": {
+      "name": "Standard Settlement Instructions",
+      "definition": "Specifies the standard settlement instructions."
+    },
+    "CollateralProposalResponseIdentification": {
+      "name": "Collateral Proposal Response Identification",
+      "definition": "Specifies the reference to the unambiguous identification of the collateral proposal response (in case of counter proposal)."
+    },
+    "SecuritiesCollateral": {
+      "name": "Securities Collateral",
+      "definition": "Collateral type is securities."
+    },
+    "CashCollateral": {
+      "name": "Cash Collateral",
+      "definition": "Collateral type is cash."
+    },
+    "OtherCollateral": {
+      "name": "Other Collateral",
+      "definition": "Collateral type is other than securities or cash for example letter of credit."
+    }
+  }
+}

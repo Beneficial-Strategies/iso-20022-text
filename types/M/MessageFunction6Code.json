@@ -1,0 +1,138 @@
+{
+  "isoType": "MessageFunction6Code",
+  "language": "en",
+  "name": "Message Function 6 Code",
+  "definition": "Identifies the type of process related to the message. It partially correspond to the message type identifier (MTI) of ISO 8583.",
+  "isoCodes": {
+    "RCAV": {
+      "isoName": "AcquirerReconciliationAdvice",
+      "name": "Acquirer Reconciliation Advice",
+      "definition": "Advice of transaction totals from an acquirer."
+    },
+    "RCAN": {
+      "isoName": "AcquirerReconciliationNotification",
+      "name": "Acquirer Reconciliation Notification",
+      "definition": "Notification of transaction totals from an acquirer."
+    },
+    "RCAQ": {
+      "isoName": "AcquirerReconciliationRequest",
+      "name": "Acquirer Reconciliation Request",
+      "definition": "Request of transaction totals exchange from an acquirer."
+    },
+    "REJA": {
+      "isoName": "AcquirerReject",
+      "name": "Acquirer Reject",
+      "definition": "Reject of a message by an acquirer."
+    },
+    "REVV": {
+      "isoName": "AcquirerReversalAdvice",
+      "name": "Acquirer Reversal Advice",
+      "definition": "Reversal advice of an authorisation or a financial message."
+    },
+    "REVN": {
+      "isoName": "AcquirerReversalNotification",
+      "name": "Acquirer Reversal Notification",
+      "definition": "Reversal notification of an authorisation or a financial message."
+    },
+    "REVQ": {
+      "isoName": "AcquirerReversalRequest",
+      "name": "Acquirer Reversal Request",
+      "definition": "Reversal request of an authorisation or a financial message."
+    },
+    "RCPV": {
+      "isoName": "AgentReconciliationAdvice",
+      "name": "Agent Reconciliation Advice",
+      "definition": "Advice of transaction totals from a processor."
+    },
+    "RCPN": {
+      "isoName": "AgentReconciliationNotification",
+      "name": "Agent Reconciliation Notification",
+      "definition": "Notification of transaction totals from a processor."
+    },
+    "RCPQ": {
+      "isoName": "AgentReconciliationRequest",
+      "name": "Agent Reconciliation Request",
+      "definition": "Request of transaction totals exchange from a processor."
+    },
+    "REJP": {
+      "isoName": "AgentReject",
+      "name": "Agent Reject",
+      "definition": "Reject of a message by an agent."
+    },
+    "AUTV": {
+      "isoName": "AuthorisationAdvice",
+      "name": "Authorisation Advice",
+      "definition": "Initiator of the message advises the recipient about the result of an authorisation already performed."
+    },
+    "AUTN": {
+      "isoName": "AuthorisationNotification",
+      "name": "Authorisation Notification",
+      "definition": "Information about an authorisation."
+    },
+    "AUTQ": {
+      "isoName": "AuthorisationRequest",
+      "name": "Authorisation Request",
+      "definition": "The initiator requests an authorisation without financial impact to complete the transaction."
+    },
+    "AUTP": {
+      "isoName": "AuthorisationResponse",
+      "name": "Authorisation Response",
+      "definition": "Response for authorisation without financial capture."
+    },
+    "FNCV": {
+      "isoName": "FinancialAdvice",
+      "name": "Financial Advice",
+      "definition": "Initiator of the message advises the receptor that an authorisation has been successfully delivered or completed with a final amount, and requests the clearing of the transaction."
+    },
+    "FNCN": {
+      "isoName": "FinancialNotification",
+      "name": "Financial Notification",
+      "definition": "Initiator requests the clearing of the transaction."
+    },
+    "FNCQ": {
+      "isoName": "FinancialRequest",
+      "name": "Financial Request",
+      "definition": "Initiator of the message requests both the authorisation and the clearing of the transaction."
+    },
+    "RCIV": {
+      "isoName": "IssuerReconciliationAdvice",
+      "name": "Issuer Reconciliation Advice",
+      "definition": "Advice of transaction totals from an issuer."
+    },
+    "RCIN": {
+      "isoName": "IssuerReconciliationNotification",
+      "name": "Issuer Reconciliation Notification",
+      "definition": "Notification of transaction totals from an issuer."
+    },
+    "RCIQ": {
+      "isoName": "IssuerReconciliationRequest",
+      "name": "Issuer Reconciliation Request",
+      "definition": "Request of transaction totals exchange from an issuer."
+    },
+    "REJI": {
+      "isoName": "IssuerReject",
+      "name": "Issuer Reject",
+      "definition": "Reject of a message by an issuer."
+    },
+    "KEYV": {
+      "isoName": "KeyExchangeAdvice",
+      "name": "Key Exchange Advice",
+      "definition": "Advise of a performed key update."
+    },
+    "KEYQ": {
+      "isoName": "KeyExchangeRequest",
+      "name": "Key Exchange Request",
+      "definition": "Request of a key exchange."
+    },
+    "MGTV": {
+      "isoName": "NetworkManagementAdvice",
+      "name": "Network Management Advice",
+      "definition": "Advise of a performed network management service."
+    },
+    "MGTQ": {
+      "isoName": "NetworkManagementRequest",
+      "name": "Network Management Request",
+      "definition": "Request of a network management service."
+    }
+  }
+}

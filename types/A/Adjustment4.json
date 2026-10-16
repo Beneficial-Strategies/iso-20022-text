@@ -1,0 +1,29 @@
+{
+  "isoType": "Adjustment4",
+  "language": "en",
+  "name": "Adjustment 4",
+  "definition": "Modification on the value of goods and / or services. For example: rebate, discount, surcharge.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type of adjustment applied to the amount of goods/services by means of a code."
+    },
+    "OtherAdjustmentType": {
+      "name": "Other Adjustment Type",
+      "definition": "Specifies a type of adjustment not present in the code list."
+    },
+    "Direction": {
+      "name": "Direction",
+      "definition": "Specifies whether the adjustment must be subtracted or added to the total amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Specifies the monetary amount of the adjustment."
+    }
+  },
+  "isoRules": {
+    "TypeOrOtherAdjustmentTypeRule": {
+      "definition": "If Type is present, then OtherAdjustmentType is not allowed. If Type is not present, then OtherAdjustmentType is mandatory."
+    }
+  }
+}

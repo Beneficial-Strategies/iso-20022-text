@@ -1,0 +1,29 @@
+{
+  "isoType": "IndividualPerson32",
+  "language": "en",
+  "name": "Individual Person 32",
+  "definition": "Human entity, as distinguished from a corporate entity (which is sometimes referred to as an 'artificial person').",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name by which the party is known and which is usually used to identify that party."
+    },
+    "BirthDate": {
+      "name": "Birth Date",
+      "definition": "Date on which the person is born."
+    },
+    "CountryAndResidentialStatus": {
+      "name": "Country And Residential Status",
+      "definition": "Country and residential status of the individual, for example, non-permanent resident."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Alternative identification, for example, national registration identification number, passport number, or an account number used to further identify the beneficial owner, for example, a Central Provident Fund (CFP) account as required for Singapore."
+    }
+  },
+  "isoRules": {
+    "PersonElementRule": {
+      "definition": "One of the elements (Name, BirthDate, CountryAndResidentialStatus, OtherIdentification) must be present."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "CustodianDetailsSD1",
+  "language": "en",
+  "name": "Custodian Details SD 1",
+  "definition": "Provides information regarding custodian service record.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "CustodianCorporateActionRecordIdentification": {
+      "name": "Custodian Corporate Action Record Identification",
+      "definition": "Unique identifier of a custodian corporate action record. Applicable to custodian service only."
+    },
+    "AgreeIndicator": {
+      "name": "Agree Indicator",
+      "definition": "Indicates the state of the agreement of the custodian record when compared to composite record. Applicable to custodian service only."
+    },
+    "CompletenessIndicator": {
+      "name": "Completeness Indicator",
+      "definition": "Indicates state of the details of the custodian record on the system. Applicable to custodian service only."
+    },
+    "CustodianActionIndicator": {
+      "name": "Custodian Action Indicator",
+      "definition": "Represents the status of custodian activity when applicable."
+    },
+    "GCAActionIndicator": {
+      "name": "GCA Action Indicator",
+      "definition": "Indicates what action needs to be taken by the GCA (Global Corporate Action) validation service for this particular record. Applicable to custodian service only."
+    },
+    "ReceivingBIC": {
+      "name": "Receiving BIC",
+      "definition": "BIC which is configured as a recipient of the custodian record. Applicable to custodian service only."
+    },
+    "OriginatingBIC": {
+      "name": "Originating BIC",
+      "definition": "BIC which is configured as a sender of the custodian record. Applicable to custodian service only."
+    },
+    "CompositeNotInSubscriptionFlag": {
+      "name": "Composite Not In Subscription Flag",
+      "definition": "Indicates whether the event security of the corresponding composite record is on SOI (security of interest) subscription. Applicable to custodian service only."
+    },
+    "RelatedCustodianMessageDetails": {
+      "name": "Related Custodian Message Details",
+      "definition": "Provides selected corporate action events message details extracted from the related custodian messages received. Applicable to custodian service only."
+    }
+  }
+}

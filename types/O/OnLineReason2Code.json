@@ -1,0 +1,78 @@
+{
+  "isoType": "OnLineReason2Code",
+  "language": "en",
+  "name": "On Line Reason 2 Code",
+  "definition": "Reason to process an online authorisation.",
+  "isoCodes": {
+    "RNDM": {
+      "isoName": "RandomSelection",
+      "name": "Random Selection",
+      "definition": "Transaction random selection to go online."
+    },
+    "ICCF": {
+      "isoName": "ICCForced",
+      "name": "ICC Forced",
+      "definition": "Payment application in the Integrated Circuit Card forces to go on-line."
+    },
+    "MERF": {
+      "isoName": "MerchantForced",
+      "name": "Merchant Forced",
+      "definition": "On line forced by card acceptor."
+    },
+    "TRMF": {
+      "isoName": "TerminalForced",
+      "name": "Terminal Forced",
+      "definition": "Terminal random selection to go online."
+    },
+    "ISSF": {
+      "isoName": "IssuerForced",
+      "name": "Issuer Forced",
+      "definition": "On line forced by card issuer."
+    },
+    "FRLT": {
+      "isoName": "FloorLimit",
+      "name": "Floor Limit",
+      "definition": "Over floor limit."
+    },
+    "EXFL": {
+      "isoName": "ExceptionFile",
+      "name": "Exception File",
+      "definition": "Card appears on terminal exception file."
+    },
+    "TAMT": {
+      "isoName": "TotalAmount",
+      "name": "Total Amount",
+      "definition": "Total amount of purchases per cardholder and per application above floor limit."
+    },
+    "CBIN": {
+      "isoName": "ControlledBIN",
+      "name": "Controlled BIN",
+      "definition": "Bank Identification Number under control."
+    },
+    "UBIN": {
+      "isoName": "UnknownBIN",
+      "name": "Unknown BIN",
+      "definition": "Unknown Bank Identification Number."
+    },
+    "CPAN": {
+      "isoName": "ControlledPAN",
+      "name": "Controlled PAN",
+      "definition": "Primary account number (card number) under control."
+    },
+    "FLOW": {
+      "isoName": "FlowControl",
+      "name": "Flow Control",
+      "definition": "Flow control."
+    },
+    "CRCY": {
+      "isoName": "UnavailableCurrency",
+      "name": "Unavailable Currency",
+      "definition": "Unknown currency code or foreign currency."
+    },
+    "IFPR": {
+      "isoName": "IssuerForcedPINRequest",
+      "name": "Issuer Forced PIN Request",
+      "definition": "Request Cardholder Authentication througth PIN insertion"
+    }
+  }
+}

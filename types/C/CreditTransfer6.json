@@ -1,0 +1,60 @@
+{
+  "isoType": "CreditTransfer6",
+  "language": "en",
+  "name": "Credit Transfer 6",
+  "definition": "Payment instrument between a debtor and a creditor, which flows through one or more financial institutions or systems.",
+  "isoElements": {
+    "Reference": {
+      "name": "Reference",
+      "definition": "Information supplied to enable the matching of an entry with the items that the transfer is intended to settle, such as commercial invoices in an accounts' receivable system."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor. In the context of the payment model, the debtor is also the debit account owner."
+    },
+    "DebtorAccount": {
+      "name": "Debtor Account",
+      "definition": "Unambiguous identification of the account of the debtor to which a debit entry will be made as a result of the transaction."
+    },
+    "DebtorAgent": {
+      "name": "Debtor Agent",
+      "definition": "Financial institution servicing an account for the debtor."
+    },
+    "DebtorAgentAccount": {
+      "name": "Debtor Agent Account",
+      "definition": "Identifies the account of the debtor's agent."
+    },
+    "IntermediaryAgent1": {
+      "name": "Intermediary Agent 1",
+      "definition": "Agent between the debtor's agent and the creditor's agent."
+    },
+    "IntermediaryAgent1Account": {
+      "name": "Intermediary Agent 1 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 1 at its servicing agent in the payment chain."
+    },
+    "IntermediaryAgent2": {
+      "name": "Intermediary Agent 2",
+      "definition": "Agent between the debtor's agent and the creditor's agent."
+    },
+    "IntermediaryAgent2Account": {
+      "name": "Intermediary Agent 2 Account",
+      "definition": "Unambiguous identification of the account of the intermediary agent 2 at its servicing agent in the payment chain."
+    },
+    "CreditorAgent": {
+      "name": "Creditor Agent",
+      "definition": "Financial institution servicing an account for the creditor."
+    },
+    "CreditorAgentAccount": {
+      "name": "Creditor Agent Account",
+      "definition": "Unambiguous identification of the account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction."
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party that receives an amount of money from the debtor. In the context of the payment model, the creditor is also the credit account owner."
+    },
+    "CreditorAccount": {
+      "name": "Creditor Account",
+      "definition": "Unambiguous identification of the account of the creditor to which a credit entry will be posted as a result of the payment transaction."
+    }
+  }
+}

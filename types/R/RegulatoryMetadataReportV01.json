@@ -1,0 +1,21 @@
+{
+  "isoType": "RegulatoryMetadataReportV01",
+  "language": "en",
+  "name": "Regulatory Metadata Report V 01",
+  "definition": "The RegulatoryMetadataReport message is exchanged between parties to support the exchange of metadata that may accompany the submission of other documents in relation to regulatory requirements.",
+  "isoElements": {
+    "MetadataReport": {
+      "name": "Metadata Report",
+      "definition": "Specifies metadata attributes for regulatory data"
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "RegulatoryDataTypeGuideline": {
+      "definition": "RegulatoryDataType at MetadataReport level may be used when the same RegulatoryDataType applies to all Regulatory Data records.|RegulatoryDataType at Regulatory Data record level may be used when Regulatory Data records have different RegulatoryDataType."
+    }
+  }
+}

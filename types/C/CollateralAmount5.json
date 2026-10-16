@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralAmount5",
+  "language": "en",
+  "name": "Collateral Amount 5",
+  "definition": "Collateral and settlement related amounts.",
+  "isoElements": {
+    "RequiredMargin": {
+      "name": "Required Margin",
+      "definition": "Margin amount needed when the instruction reported creates an exposure."
+    },
+    "Collateralised": {
+      "name": "Collateralised",
+      "definition": "Amount which is collateralised.|||||          ||||  ||Feedback"
+    },
+    "RemainingCollateralised": {
+      "name": "Remaining Collateralised",
+      "definition": "Outstanding amount to be covered, collateralised."
+    },
+    "Settled": {
+      "name": "Settled",
+      "definition": "Amount effectively settled and which will be credited to/debited from the account owner's position."
+    },
+    "RemainingSettlement": {
+      "name": "Remaining Settlement",
+      "definition": "Amount due to be settled."
+    }
+  }
+}

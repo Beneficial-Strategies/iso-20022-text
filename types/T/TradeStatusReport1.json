@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeStatusReport1",
+  "language": "en",
+  "name": "Trade Status Report 1",
+  "definition": "Details of the trade status report.",
+  "isoElements": {
+    "OriginalMessageDetails": {
+      "name": "Original Message Details",
+      "definition": "Information concerning the original message to which the TradeStatusReport is sent in response."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Specifies the processing status of the original message."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Set of elements used to provide detailed information on the status reason."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the report."
+    }
+  }
+}

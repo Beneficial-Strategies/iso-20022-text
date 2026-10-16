@@ -1,0 +1,28 @@
+{
+  "isoType": "ExchangeConfiguration9",
+  "language": "en",
+  "name": "Exchange Configuration 9",
+  "definition": "Configuration parameters of data exchanges.",
+  "isoElements": {
+    "ExchangePolicy": {
+      "name": "Exchange Policy",
+      "definition": "Exchange policy between parties."
+    },
+    "MaximumNumber": {
+      "name": "Maximum Number",
+      "definition": "Maximum number of transactions without exchange."
+    },
+    "MaximumAmount": {
+      "name": "Maximum Amount",
+      "definition": "Maximum cumulative amount of the transactions without exchange."
+    },
+    "ReTry": {
+      "name": "Re Try",
+      "definition": "Definition of retry process if activation of an action fails."
+    },
+    "TimeCondition": {
+      "name": "Time Condition",
+      "definition": "Timing condition for periodic exchanges."
+    }
+  }
+}

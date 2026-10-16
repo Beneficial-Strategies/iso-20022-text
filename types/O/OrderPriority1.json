@@ -1,0 +1,21 @@
+{
+  "isoType": "OrderPriority1",
+  "language": "en",
+  "name": "Order Priority 1",
+  "definition": "Specifies the priority of an order",
+  "isoElements": {
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Timestamp that defines the time when the priority of an order changes."
+    },
+    "Size": {
+      "name": "Size",
+      "definition": "Positive number corresponding to the quantity of the order, when size-time priority system is used."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "TimeStamp must be present or Size must be present."
+    }
+  }
+}

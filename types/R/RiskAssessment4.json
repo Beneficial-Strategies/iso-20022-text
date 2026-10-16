@@ -1,0 +1,52 @@
+{
+  "isoType": "RiskAssessment4",
+  "language": "en",
+  "name": "Risk Assessment 4",
+  "definition": "Indicates to the card issuer the level of risk associated with the transaction.",
+  "isoElements": {
+    "EntityIdentification": {
+      "name": "Entity Identification",
+      "definition": "Identification of the party."
+    },
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Type of entity who assess the risk for the transaction. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "EntityCountry": {
+      "name": "Entity Country",
+      "definition": "Country of the party."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of risk assessment."
+    },
+    "HighRiskTransaction": {
+      "name": "High Risk Transaction",
+      "definition": "Transaction is identified as high risk."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for indicating a certain level of risk for the transaction."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Risk assessment result."
+    },
+    "Condition": {
+      "name": "Condition",
+      "definition": "Conditions noted for the risk assessment."
+    },
+    "Recommendation": {
+      "name": "Recommendation",
+      "definition": "Additional details of recommended action or other recommended action."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

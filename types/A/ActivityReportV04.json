@@ -1,0 +1,20 @@
+{
+  "isoType": "ActivityReportV04",
+  "language": "en",
+  "name": "Activity Report V 04",
+  "definition": "Scope|The ActivityReport message is sent by the matching application to the requester of an activity report.|This message is used to report on all transactions for which an activity has taken place within a given time span.|Usage|The ActivityReport message can be sent|- at a pre-determined time every 24 hours. The message reports on all transactions that the requester is involved in and for which an activity has taken place within the last 24 hours.|- on demand in response to an ActivityReportRequest message. The message reports on all transactions that the requester is involved in and for which an activity has taken place within a time span specified by the requester in the ActivityReportRequest message.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the report."
+    },
+    "RelatedMessageReference": {
+      "name": "Related Message Reference",
+      "definition": "Reference to the previous message requesting the report."
+    },
+    "Report": {
+      "name": "Report",
+      "definition": "Describes the events that occurred for one transaction."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "TaxReclaimMethod1Code",
+  "language": "en",
+  "name": "Tax Reclaim Method 1 Code",
+  "definition": "Contains Tax Reclaim options",
+  "isoCodes": {
+    "INPP": {
+      "isoName": "InvoicePrintedPrimary",
+      "name": "Invoice Printed Primary",
+      "definition": "Invoice printed and given to purchaser and then used for tax reclaim"
+    },
+    "INPS": {
+      "isoName": "InvoicePrintedSupplimental",
+      "name": "Invoice Printed Supplimental",
+      "definition": "Invoice printed but treated as supplemental because electronic copy is used for tax reclaim"
+    },
+    "INSU": {
+      "isoName": "InvoiceSuppressed",
+      "name": "Invoice Suppressed",
+      "definition": "Printed invoice suppressed because electronic master version is used for tax reclaim"
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other tax reclaim method not elsewhere specified"
+    }
+  }
+}

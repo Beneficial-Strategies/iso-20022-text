@@ -1,0 +1,58 @@
+{
+  "isoType": "CollateralisationType3Code",
+  "language": "en",
+  "name": "Collateralisation Type 3 Code",
+  "definition": "Specifies the type of collateral agreement between two parties.",
+  "isoCodes": {
+    "FLCL": {
+      "isoName": "FullyCollateralised",
+      "name": "Fully Collateralised",
+      "definition": "The collateral agreement between the counterparties stipulates that both counterparties post initial margin and regularly post variation margin with respect to the derivative transaction."
+    },
+    "OWCL": {
+      "isoName": "OneWayCollateralised",
+      "name": "One Way Collateralised",
+      "definition": "The collateral agreement between the counterparties stipulates that one counterparty posts the initial margin and regularly posts variation margin and that the other counterparty does not post any margin with respect to the derivative transaction."
+    },
+    "OWC1": {
+      "isoName": "OneWayCollateralisedCounterparty1",
+      "name": "One Way Collateralised Counterparty 1",
+      "definition": "The collateral agreement between the counterparties stipulates that the reporting counterparty posts the initial margin and regularly posts variation margin and that the other counterparty does not post any margin with respect to the derivative transaction."
+    },
+    "OWC2": {
+      "isoName": "OneWayCollateralisedCounterparty2",
+      "name": "One Way Collateralised Counterparty 2",
+      "definition": "The collateral agreement between the counterparties stipulates that the other counterparty posts the initial margin and regularly posts variation margin and that the reporting counterparty does not post any margin with respect to the derivative transaction."
+    },
+    "OWP1": {
+      "isoName": "OneWayPartiallyCollateralisedCounterparty1",
+      "name": "One Way Partially Collateralised Counterparty 1",
+      "definition": "The collateral agreement between the counterparties stipulates that the reporting counterparty posts the initial margin and regularly posts variation margin and that the other counterparty regularly posts only variation margin."
+    },
+    "OWP2": {
+      "isoName": "OneWayPartiallyCollateralisedCounterparty2",
+      "name": "One Way Partially Collateralised Counterparty 2",
+      "definition": "The collateral agreement between the counterparties stipulates that the other counterparty posts the initial margin and regularly posts variation margin and that the reporting counterparty regularly posts only variation margin."
+    },
+    "PRCL": {
+      "isoName": "PartiallyCollateralised",
+      "name": "Partially Collateralised",
+      "definition": "The collateral agreement between the counterparties stipulates that both counterparties regularly post only variation margin with respect to the derivative transaction."
+    },
+    "PRC1": {
+      "isoName": "PartiallyCollateralisedCounterparty1",
+      "name": "Partially Collateralised Counterparty 1",
+      "definition": "The collateral agreement between the counterparties stipulates that the reporting counterparty regularly  posts only variation margin and that the other counterparty does not post any margin with respect to the derivative transaction."
+    },
+    "PRC2": {
+      "isoName": "PartiallyCollateralisedCounterparty2",
+      "name": "Partially Collateralised Counterparty 2",
+      "definition": "The collateral agreement between the counterparties stipulates that the other counterparty regularly posts only variation margin and that the reporting counterparty does not post any margin with respect to the derivative transaction."
+    },
+    "UNCL": {
+      "isoName": "Uncollateralised",
+      "name": "Uncollateralised",
+      "definition": "There is no collateral agreement between the counterparties or the collateral agreement between the counterparties stipulates that no collateral (neither initial margin nor variation margin) has to be posted with respect to the derivative transaction."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PriceMetrics3",
+  "language": "en",
+  "name": "Price Metrics 3",
+  "definition": "Numeric variables consisting in interest rates, lending fees or haircuts, calculated as weighted averages.",
+  "isoElements": {
+    "Rates": {
+      "name": "Rates",
+      "definition": "Interest rate of the loan."
+    },
+    "LendingFee": {
+      "name": "Lending Fee",
+      "definition": "Fee that the borrower of the security or commodity pays to the lender."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

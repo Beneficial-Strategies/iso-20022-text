@@ -1,0 +1,36 @@
+{
+  "isoType": "CreditDefaultSwapIndex3",
+  "language": "en",
+  "name": "Credit Default Swap Index 3",
+  "definition": "Credit default swap derivative specific for reporting derivatives on a credit default swap index.",
+  "isoElements": {
+    "UnderlyingIndexIdentification": {
+      "name": "Underlying Index Identification",
+      "definition": "Derivative on a credit default swap with the ISIN code of the underlying index."
+    },
+    "UnderlyingIndexName": {
+      "name": "Underlying Index Name",
+      "definition": "To be populated for derivatives on a CDS index with the standardized name of the index."
+    },
+    "Series": {
+      "name": "Series",
+      "definition": "Series number of the composition of the index if applicable."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "New version of a series is issued if one of the constituents defaults and the index has to be re-weighted to account for the new number of total constituents within the index."
+    },
+    "RollMonth": {
+      "name": "Roll Month",
+      "definition": "All months when the roll is expected as established by the index provider for a given year. Field should be repeated for each month in the roll."
+    },
+    "NextRollDate": {
+      "name": "Next Roll Date",
+      "definition": "To be populated in the case of a CDS Index or a derivative CDS Index with the next roll date of the index as established by the index provider."
+    },
+    "NotionalCurrency": {
+      "name": "Notional Currency",
+      "definition": "Currency in which the notional is denominated."
+    }
+  }
+}

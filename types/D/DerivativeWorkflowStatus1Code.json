@@ -1,0 +1,33 @@
+{
+  "isoType": "DerivativeWorkflowStatus1Code",
+  "language": "en",
+  "name": "Derivative Workflow Status 1 Code",
+  "definition": "Specifies the status of exchange's notice of change on a derivative.",
+  "isoCodes": {
+    "PREL": {
+      "isoName": "Preliminary",
+      "name": "Preliminary",
+      "definition": "Notice is an advance warning that an adjustment may be applied."
+    },
+    "ADJU": {
+      "isoName": "Adjustment",
+      "name": "Adjustment",
+      "definition": "Notice confirms that an adjustment will be applied."
+    },
+    "NOAC": {
+      "isoName": "NoAction",
+      "name": "No Action",
+      "definition": "Notice confirms that no adjustment will be applied."
+    },
+    "UCON": {
+      "isoName": "Unconfirmed",
+      "name": "Unconfirmed",
+      "definition": "GCA VS (Global Corporate Actions Validation Service) is unable to confirm that there is a corporate action corresponding to this notice."
+    },
+    "DLTD": {
+      "isoName": "Deleted",
+      "name": "Deleted",
+      "definition": "Details were entered in error. All data should be ignored."
+    }
+  }
+}

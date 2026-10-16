@@ -1,0 +1,88 @@
+{
+  "isoType": "TransactionAttribute3Code",
+  "language": "en",
+  "name": "Transaction Attribute 3 Code",
+  "definition": "Attribute related to the transaction.",
+  "isoCodes": {
+    "AGGR": {
+      "isoName": "Aggregation",
+      "name": "Aggregation",
+      "definition": "Payment is an aggregation one."
+    },
+    "CADB": {
+      "isoName": "CardlessATMCashDisbursement",
+      "name": "Cardless ATM Cash Disbursement",
+      "definition": "Withdrawal is a cardless cash disbursement one."
+    },
+    "CPLT": {
+      "isoName": "Completion",
+      "name": "Completion",
+      "definition": "Transaction previously initiated is completed and contains the actual amount."
+    },
+    "DBRC": {
+      "isoName": "DebtRecovery",
+      "name": "Debt Recovery",
+      "definition": "Debt Recovery."
+    },
+    "DBRP": {
+      "isoName": "DebtRepayment",
+      "name": "Debt Repayment",
+      "definition": "Payment is a debt repayment one."
+    },
+    "DFRD": {
+      "isoName": "DeferredPayment",
+      "name": "Deferred Payment",
+      "definition": "Payment is a deferred one."
+    },
+    "INCR": {
+      "isoName": "Incremental",
+      "name": "Incremental",
+      "definition": "To authorise additional amounts for a previously authorised transaction."
+    },
+    "FRCP": {
+      "isoName": "FirstRecurring",
+      "name": "First Recurring",
+      "definition": "First occurence of a recurring payment."
+    },
+    "INST": {
+      "isoName": "Instalment",
+      "name": "Instalment",
+      "definition": "Payment is an instalment one."
+    },
+    "PAUT": {
+      "isoName": "PreAuthorisation",
+      "name": "Pre Authorisation",
+      "definition": "Preauthorisation for an amount which is unknown at the time when the transaction is initiated and to be cleared within a specified timeframe."
+    },
+    "PACP": {
+      "isoName": "PreAuthorisationCompletion",
+      "name": "Pre Authorisation Completion",
+      "definition": "Financial completion of a pre-authorised transaction within a specified timeframe."
+    },
+    "PPYT": {
+      "isoName": "PrePayment",
+      "name": "Pre Payment",
+      "definition": "Payment in advance of receiving goods or services."
+    },
+    "RCPT": {
+      "isoName": "RecurringPayment",
+      "name": "Recurring Payment",
+      "definition": "An occurrence of a recurring payment.."
+    },
+    "SUBR": {
+      "isoName": "SubsequentRecurring",
+      "name": "Subsequent Recurring",
+      "definition": "Subsequent occurrence of a recurring payment."
+    },
+    "TPUP": {
+      "isoName": "TopUp",
+      "name": "Top Up",
+      "definition": "Service to replenish value in an account (for example, mobile account, prepaid account, etc.)."
+    },
+    "UCOF": {
+      "isoName": "UnscheduledCardOnFile",
+      "name": "Unscheduled Card On File",
+      "definition": "Unscheduled Card On File."
+    }
+  }
+}

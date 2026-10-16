@@ -1,0 +1,44 @@
+{
+  "isoType": "Charge18",
+  "language": "en",
+  "name": "Charge 18",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of service for which a charge is asked or paid."
+    },
+    "ExtendedType": {
+      "name": "Extended Type",
+      "definition": "Type of service for which a charge is asked or paid."
+    },
+    "ChargeBasis": {
+      "name": "Charge Basis",
+      "definition": "Method used to calculate a charge."
+    },
+    "ExtendedChargeBasis": {
+      "name": "Extended Charge Basis",
+      "definition": "Method used to calculate a charge."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount of money asked or paid for the charge."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Rate used to calculate the amount of the charge or fee."
+    },
+    "RecipientIdentification": {
+      "name": "Recipient Identification",
+      "definition": "Party entitled to the amount of money resulting from a charge."
+    }
+  },
+  "isoRules": {
+    "TypeOrExtendedTypeRule": {
+      "definition": "Either Type or ExtendedType must be present, but not both."
+    },
+    "ChargeBasisOrExtendedChargeBasisRule": {
+      "definition": "Either ChargeBasis or ExtendedChargeBasis may be present, but not both."
+    }
+  }
+}

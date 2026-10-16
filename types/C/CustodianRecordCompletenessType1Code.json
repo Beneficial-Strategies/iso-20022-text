@@ -1,0 +1,23 @@
+{
+  "isoType": "CustodianRecordCompletenessType1Code",
+  "language": "en",
+  "name": "Custodian Record Completeness Type 1 Code",
+  "definition": "Specifies the state of details of the composite record on the system. Applicable to custodian service only.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Complete",
+      "name": "Complete",
+      "definition": "Custodian record is complete."
+    },
+    "INCO": {
+      "isoName": "Incomplete",
+      "name": "Incomplete",
+      "definition": "Custodian record is incomplete."
+    },
+    "CCOM": {
+      "isoName": "ConditionallyComplete",
+      "name": "Conditionally Complete",
+      "definition": "Custodian record is conditionally complete."
+    }
+  }
+}

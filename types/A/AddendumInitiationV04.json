@@ -1,0 +1,108 @@
+{
+  "isoType": "AddendumInitiationV04",
+  "language": "en",
+  "name": "Addendum Initiation V 04",
+  "definition": "Provides supplemental data in addition to that which is required to complete an authorization initiation or financial initiation. ||The supplemental data is associated with an authorization or financial message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "DataSource": {
+      "name": "Data Source",
+      "definition": "Indicates the source of enhanced data."
+    },
+    "TransactionDescription": {
+      "name": "Transaction Description",
+      "definition": "Transaction data related to programmes and services, content and format based on bilateral agreements."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Information related to the originator."
+    },
+    "Acquirer": {
+      "name": "Acquirer",
+      "definition": "Information related to the acquirer."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Information related to the sender."
+    },
+    "Card": {
+      "name": "Card",
+      "definition": "Card or payment token performing the transaction."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Information related to the receiver."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Information related to the issuer."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Information related to the destination."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand actually applied to the transaction."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Identification of the transaction."
+    },
+    "Token": {
+      "name": "Token",
+      "definition": "Details of payment token."
+    },
+    "OriginalDataElements": {
+      "name": "Original Data Elements",
+      "definition": "Data elements contained in the original transaction"
+    },
+    "Acceptor": {
+      "name": "Acceptor",
+      "definition": "Card acceptor performing the card transaction."
+    },
+    "Customer": {
+      "name": "Customer",
+      "definition": "Information about the customer."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "TransactionSpecificData": {
+      "name": "Transaction Specific Data",
+      "definition": "Component contains data structures applicable to certain industries that require specific data within transaction messages."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

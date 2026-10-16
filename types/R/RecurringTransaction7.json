@@ -1,0 +1,28 @@
+{
+  "isoType": "RecurringTransaction7",
+  "language": "en",
+  "name": "Recurring Transaction 7",
+  "definition": "Element related to recurring transaction.",
+  "isoElements": {
+    "PlanIdentification": {
+      "name": "Plan Identification",
+      "definition": "Identification of the recurring plan."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Indicates the recurring occurrence of the transaction (1 = 1st recurring, 2 = 2nd recurring, etc.)."
+    },
+    "PeriodUnit": {
+      "name": "Period Unit",
+      "definition": "Period unit between consecutive payments (for example day, month, year)."
+    },
+    "GracePeriod": {
+      "name": "Grace Period",
+      "definition": "Contains grace period details."
+    },
+    "PlanNotice": {
+      "name": "Plan Notice",
+      "definition": "Notice related to the RecurringPlan."
+    }
+  }
+}

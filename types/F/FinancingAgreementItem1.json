@@ -1,0 +1,52 @@
+{
+  "isoType": "FinancingAgreementItem1",
+  "language": "en",
+  "name": "Financing Agreement Item 1",
+  "definition": "Describes a financing relation between two parties, for example invoice, credit, financing request, cash accounts.",
+  "isoElements": {
+    "ItemContext": {
+      "name": "Item Context",
+      "definition": "Parameters related to the context of the item."
+    },
+    "ItemAction": {
+      "name": "Item Action",
+      "definition": "Code to indicate the action concerning the item."
+    },
+    "PaymentInstrument": {
+      "name": "Payment Instrument",
+      "definition": "Desired payment instruction to be used by buyer."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Validation status of the item."
+    },
+    "Rating": {
+      "name": "Rating",
+      "definition": "Guarantee is (to be) provided according current rating."
+    },
+    "ReopenIndication": {
+      "name": "Reopen Indication",
+      "definition": "Set to yes if the agreement was rejected and needs to be re-opened for arbitrage."
+    },
+    "Guarantee": {
+      "name": "Guarantee",
+      "definition": "Issuers, amounts and periods to be guaranteed. At a given date, the sum of all issuers is guaranteed, covered as specified by rank/position and excess. For each period, the maximum value at a given date is used."
+    },
+    "GuaranteeStatus": {
+      "name": "Guarantee Status",
+      "definition": "Status of guarantee if applicable."
+    },
+    "RelatedGuaranteeLetter": {
+      "name": "Related Guarantee Letter",
+      "definition": "Reference to the guarantee letter issued by a guarantee provider."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Free form textual information related to the agreement."
+    }
+  }
+}

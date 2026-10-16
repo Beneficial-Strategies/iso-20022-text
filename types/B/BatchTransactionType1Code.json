@@ -1,0 +1,28 @@
+{
+  "isoType": "BatchTransactionType1Code",
+  "language": "en",
+  "name": "Batch Transaction Type 1 Code",
+  "definition": "Type of transactions to include in a batch transfer.",
+  "isoCodes": {
+    "DTCT": {
+      "isoName": "DebitCredit",
+      "name": "Debit Credit",
+      "definition": "Debit and credit transactions."
+    },
+    "CNCL": {
+      "isoName": "Cancellation",
+      "name": "Cancellation",
+      "definition": "Cancellation of a previous transaction."
+    },
+    "FAIL": {
+      "isoName": "Failed",
+      "name": "Failed",
+      "definition": "Failed transactions."
+    },
+    "DCLN": {
+      "isoName": "Declined",
+      "name": "Declined",
+      "definition": "Declined transactions."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingNonWorkingDayReportV01",
+  "language": "en",
+  "name": "Financial Instrument Reporting Non Working Day Report V 01",
+  "definition": "The FinancialInstrumentReportingNonWorkingDayReport message is sent by the reporting entity to the competent authority to report on non-working days.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header information related to the global report."
+    },
+    "NonWorkingDay": {
+      "name": "Non Working Day",
+      "definition": "Provides details on the days a venue is not open."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

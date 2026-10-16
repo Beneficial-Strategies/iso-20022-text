@@ -1,0 +1,20 @@
+{
+  "isoType": "BenchmarkCurveName4Choice",
+  "language": "en",
+  "name": "Benchmark Curve Name 4 Choice",
+  "definition": "Choice of format for benchmark curve name.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN), when it exists for the reference rate."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Identifier of the index/benchmark of a floating rate bond, when an identifier exists."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Where no identifier exists, standardized name of the index, including its term (such as ‘EURIBOR6M’, ‘LIBOR3M’)."
+    }
+  }
+}

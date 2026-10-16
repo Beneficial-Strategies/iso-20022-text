@@ -1,0 +1,24 @@
+{
+  "isoType": "ErrorDetails4",
+  "language": "en",
+  "name": "Error Details 4",
+  "definition": "Details of the error",
+  "isoElements": {
+    "ErrorCode": {
+      "name": "Error Code",
+      "definition": "Code list containing a code that identifies the error condition. such as missing data or non-numeric datae (ISO 8583, Message error codes)"
+    },
+    "SeverityCode": {
+      "name": "Severity Code",
+      "definition": "Code that identifies the severity of the errors found in the message. Shall contain a value of 00 to denote a rejected message. Additional values may be set by bilateral agreement to denote a message that was accepted and processed but contained invalid data in non-critical elements"
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the error found."
+    },
+    "DataElementInError": {
+      "name": "Data Element In Error",
+      "definition": "Data element in error."
+    }
+  }
+}

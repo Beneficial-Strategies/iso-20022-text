@@ -1,0 +1,28 @@
+{
+  "isoType": "CardTransaction12",
+  "language": "en",
+  "name": "Card Transaction 12",
+  "definition": "Network management transaction.",
+  "isoElements": {
+    "NetworkManagementType": {
+      "name": "Network Management Type",
+      "definition": "Type of network management service (correspond to the ISO 8583 field 24)."
+    },
+    "InitiatorDateTime": {
+      "name": "Initiator Date Time",
+      "definition": "Date and time of the transaction."
+    },
+    "NumberOfMessages": {
+      "name": "Number Of Messages",
+      "definition": "Number of messages in the store and forward queue."
+    },
+    "MaximumNumberOfMessages": {
+      "name": "Maximum Number Of Messages",
+      "definition": "Maximum number of messages in the store and forward queue."
+    },
+    "TransactionResponse": {
+      "name": "Transaction Response",
+      "definition": "Response to the network management request."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "isoType": "CustomReportV03",
+  "language": "en",
+  "name": "Custom Report V 03",
+  "definition": "The Custom Report message can be initiated by any party and received by any party (acquirer, agent, issuer or other party) connected to a network.||This message provides the capability to convey customized reports that are defined by bi-lateral agreement.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to protocol management."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "Correction": {
+      "name": "Correction",
+      "definition": "Identifies that is a corrected version of a report that was previously sent."
+    },
+    "Report": {
+      "name": "Report",
+      "definition": "Specifies the attributes of a report and its content."
+    },
+    "ReportContent": {
+      "name": "Report Content",
+      "definition": "Contains the content of a report."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

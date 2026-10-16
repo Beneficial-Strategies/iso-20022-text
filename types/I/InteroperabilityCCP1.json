@@ -1,0 +1,28 @@
+{
+  "isoType": "InteroperabilityCCP1",
+  "language": "en",
+  "name": "Interoperability CCP 1",
+  "definition": "Identifies the interoperability CCP.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Proprietary code that uniquely identifies the object or subject of interest."
+    },
+    "TotalInitialMargin": {
+      "name": "Total Initial Margin",
+      "definition": "Total value of the initial margin (IM) requirement for all members at the last business day of the month."
+    },
+    "TradesCleared": {
+      "name": "Trades Cleared",
+      "definition": "Number of trades cleared over the reporting period."
+    },
+    "GrossNotionalAmount": {
+      "name": "Gross Notional Amount",
+      "definition": "Gross notional of product cleared, if applicable."
+    },
+    "AssetHolding": {
+      "name": "Asset Holding",
+      "definition": "Specifies the financial instruments placed as collateral."
+    }
+  }
+}

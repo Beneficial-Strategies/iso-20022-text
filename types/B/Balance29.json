@@ -1,0 +1,36 @@
+{
+  "isoType": "Balance29",
+  "language": "en",
+  "name": "Balance 29",
+  "definition": "Card account balance.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of card account balance."
+    },
+    "OtherType": {
+      "name": "Other Type",
+      "definition": "Other card account balance type."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the account."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Indicates whether the value of the balance id positive or negative."
+    },
+    "CardholderCurrency": {
+      "name": "Cardholder Currency",
+      "definition": "Indicates whether the value of balance is expressed in the currency of the cardholder or not.|True: Balance is expressed in the currency of the cardholder|False: Balance is expressed in a different currency."
+    },
+    "BalanceDate": {
+      "name": "Balance Date",
+      "definition": "Date of the balance."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "isoType": "ContractType15",
+  "language": "en",
+  "name": "Contract Type 15",
+  "definition": "Information related to contract attributes.",
+  "isoElements": {
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Classification of information according to contract type."
+    },
+    "AssetClass": {
+      "name": "Asset Class",
+      "definition": "Specifies the classification according to the asset class of the contract."
+    },
+    "ProductClassification": {
+      "name": "Product Classification",
+      "definition": "Specifies the classification of the derivative product."
+    },
+    "ProductIdentification": {
+      "name": "Product Identification",
+      "definition": "Specifies the identification of the derivative product."
+    },
+    "UnderlyingInstrument": {
+      "name": "Underlying Instrument",
+      "definition": "Unique identification to identify the direct underlying instrument based on its type."
+    },
+    "UnderlyingAssetTradingPlatformIdentifier": {
+      "name": "Underlying Asset Trading Platform Identifier",
+      "definition": "For a platform (e.g. exchange) traded underlying asset, the platform on which the asset is traded. This data element is not applicable to OTC derivative transactions with custom basket constituents."
+    },
+    "UnderlyingAssetPriceSource": {
+      "name": "Underlying Asset Price Source",
+      "definition": "For an underlying asset or benchmark not traded on a platform, the source of the price used to determine the value or level of the asset or benchmark. This data element is not applicable to OTC derivative transactions with custom basket constituents."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies the currency to be used for cash settlement of the transaction. ||Usage: For multicurrency transactions that do not net, SettlementCurrency is to be considered as the first leg."
+    },
+    "SettlementCurrencySecondLeg": {
+      "name": "Settlement Currency Second Leg",
+      "definition": "Specifies the currency second leg to be used for cash settlement of the transaction."
+    },
+    "PlaceOfSettlement": {
+      "name": "Place Of Settlement",
+      "definition": "Specifies the place where settlement of the transaction occurs as stipulated in the contract."
+    },
+    "DerivativeBasedOnCryptoAsset": {
+      "name": "Derivative Based On Crypto Asset",
+      "definition": "Indicator whether the derivative is based on crypto-asset.||Usage: If the element is not present, the DerivativeBasedOnCryptoAsset is False."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    },
+    "UnderlyingAssetGuideline": {
+      "definition": "The values specified for the elements UnderlyingAssetTradingPlatformIdentifier and UnderlyingAssetPriceSource shall be understood to be related to the underlying asset (or benchmark) identified in UnderlyingInstrument element."
+    }
+  }
+}

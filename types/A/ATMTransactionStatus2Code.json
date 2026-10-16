@@ -1,0 +1,23 @@
+{
+  "isoType": "ATMTransactionStatus2Code",
+  "language": "en",
+  "name": "ATM Transaction Status 2 Code",
+  "definition": "Status of the amount presented to the customer in the last bundle.",
+  "isoCodes": {
+    "FULL": {
+      "isoName": "Full",
+      "name": "Full",
+      "definition": "Total presented amount is equal to the amount to dispense."
+    },
+    "PART": {
+      "isoName": "Partial",
+      "name": "Partial",
+      "definition": "Total presented amount is lower than the amount to dispense."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "Total presented amount is equal to zero."
+    }
+  }
+}

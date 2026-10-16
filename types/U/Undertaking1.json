@@ -1,0 +1,151 @@
+{
+  "isoType": "Undertaking1",
+  "language": "en",
+  "name": "Undertaking 1",
+  "definition": "Independent undertaking, such as a demand guarantee or standby letter of credit, that provides financial assurance, to be honoured on the presentation of documents that comply with its terms and conditions.",
+  "isoElements": {
+    "ApplicantReferenceNumber": {
+      "name": "Applicant Reference Number",
+      "definition": "Unique and unambiguous identifier assigned by the applicant to the undertaking."
+    },
+    "Purpose": {
+      "name": "Purpose",
+      "definition": "Brief description of the purpose of the undertaking. Provided as information for the issuer reference."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Undertaking name."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of undertaking, for example, performance, payment."
+    },
+    "Obligor": {
+      "name": "Obligor",
+      "definition": "Party obligated to reimburse the issuer."
+    },
+    "Applicant": {
+      "name": "Applicant",
+      "definition": "Party to be named in the undertaking as the “applicant” when different from the obligor."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party that issues the undertaking (or counter-undertaking)."
+    },
+    "Beneficiary": {
+      "name": "Beneficiary",
+      "definition": "Ultimate party in whose favour the undertaking is to be issued."
+    },
+    "AdvisingParty": {
+      "name": "Advising Party",
+      "definition": "Party asked to advise the undertaking to the beneficiary or to another advising party."
+    },
+    "SecondAdvisingParty": {
+      "name": "Second Advising Party",
+      "definition": "Additional party asked to advise the undertaking."
+    },
+    "Confirmer": {
+      "name": "Confirmer",
+      "definition": "Party that adds its confirmation to the undertaking. For further clarification, reference the applicable rules to which the undertaking is subject."
+    },
+    "ConfirmationIndicator": {
+      "name": "Confirmation Indicator",
+      "definition": "Indicates whether the advising bank (confirmer) is requested to add its confirmation to the undertaking. The absence of this element indicates that the advising bank (confirmer) is not requested to add its confirmation to the undertaking."
+    },
+    "CounterUndertakingIndicator": {
+      "name": "Counter Undertaking Indicator",
+      "definition": "Indicates whether the undertaking is a local or ancillary undertaking to be issued under a counter-undertaking."
+    },
+    "CounterUndertaking": {
+      "name": "Counter Undertaking",
+      "definition": "Details related to the counter undertaking."
+    },
+    "UndertakingAmount": {
+      "name": "Undertaking Amount",
+      "definition": "Details related to the amount of the undertaking."
+    },
+    "ExpiryDetails": {
+      "name": "Expiry Details",
+      "definition": "Details related to the expiry terms of the undertaking."
+    },
+    "AdditionalParty": {
+      "name": "Additional Party",
+      "definition": "Party, in addition to the other parties specified in the undertaking, that is also related to the undertaking."
+    },
+    "GovernanceRulesAndLaw": {
+      "name": "Governance Rules And Law",
+      "definition": "Rules and laws governing the undertaking."
+    },
+    "UnderlyingTransaction": {
+      "name": "Underlying Transaction",
+      "definition": "Details of the underlying transaction for which the undertaking is issued."
+    },
+    "PresentationDetails": {
+      "name": "Presentation Details",
+      "definition": "Presentation details related to the undertaking."
+    },
+    "UndertakingWording": {
+      "name": "Undertaking Wording",
+      "definition": "Wording details and text for the undertaking."
+    },
+    "MultipleDemandIndicator": {
+      "name": "Multiple Demand Indicator",
+      "definition": "Indicates whether multiple demands are permitted."
+    },
+    "PartialDemandIndicator": {
+      "name": "Partial Demand Indicator",
+      "definition": "Indicates whether partial demands/drawings are permitted."
+    },
+    "TransferIndicator": {
+      "name": "Transfer Indicator",
+      "definition": "Indicates whether the undertaking is transferable."
+    },
+    "TransferChargesPayableBy": {
+      "name": "Transfer Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the transfer charges."
+    },
+    "ConfirmationChargesPayableBy": {
+      "name": "Confirmation Charges Payable By",
+      "definition": "Indicates whether the applicant/obligor or beneficiary is responsible for payment of the confirmation charges."
+    },
+    "AutomaticAmountVariation": {
+      "name": "Automatic Amount Variation",
+      "definition": "Details related to a variation in amount that is automatically applied."
+    },
+    "DeliveryChannel": {
+      "name": "Delivery Channel",
+      "definition": "Details of the communication channel."
+    },
+    "ObligorLiabilityAccount": {
+      "name": "Obligor Liability Account",
+      "definition": "Account nominated by the obligor to record the liability amount of the undertaking."
+    },
+    "ObligorChargeAccount": {
+      "name": "Obligor Charge Account",
+      "definition": "Account nominated by the obligor for the settlement of charges related to the undertaking."
+    },
+    "ObligorSettlementAccount": {
+      "name": "Obligor Settlement Account",
+      "definition": "Account nominated by the obligor for the settlement of the amount claimed under the undertaking."
+    },
+    "EnclosedFile": {
+      "name": "Enclosed File",
+      "definition": "Document or template enclosed in the undertaking directly related to the undertaking to be issued."
+    },
+    "AdditionalApplicationInformation": {
+      "name": "Additional Application Information",
+      "definition": "Additional information related to the application for an undertaking."
+    }
+  },
+  "isoRules": {
+    "SecondAdvisingPartyRule": {
+      "definition": "If SecondAdvisingParty is present, then AdvisingParty must be present."
+    },
+    "CounterUndertakingYesRule": {
+      "definition": "If CounterUndertakingIndicator is \"true\" or \"1\" (Yes), then CounterUndertakingDetails must be present."
+    },
+    "CounterUndertakingNoRule": {
+      "definition": "If CounterUndertakingIndicator is \"false\" or \"0\" (No), then CounterUndertakingDetails must not be present."
+    }
+  }
+}

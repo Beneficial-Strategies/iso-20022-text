@@ -1,0 +1,173 @@
+{
+  "isoType": "RejectionReason62Code",
+  "language": "en",
+  "name": "Rejection Reason 62 Code",
+  "definition": "Specifies the reason why the transaction or in the instruction has a rejected status.",
+  "isoCodes": {
+    "REFE": {
+      "isoName": "ReferenceRejection",
+      "name": "Reference Rejection",
+      "definition": "Instruction has a reference identical to another previously received instruction."
+    },
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Transaction/instruction received after the account servicer's specified deadline."
+    },
+    "CCIX": {
+      "isoName": "ClientCollateralInstructionIdentification",
+      "name": "Client Collateral Instruction Identification",
+      "definition": "Unrecognised or invalid client collateral instruction identification."
+    },
+    "CCTI": {
+      "isoName": "ClientCollateralTransactionIdentification",
+      "name": "Client Collateral Transaction Identification",
+      "definition": "Unrecognised or invalid Client Collateral Transaction Identification."
+    },
+    "IIND": {
+      "isoName": "CommonReferenceRejection",
+      "name": "Common Reference Rejection",
+      "definition": "Unrecognised, invalid or missing common reference."
+    },
+    "PTYA": {
+      "isoName": "InvalidPartyA",
+      "name": "Invalid Party A",
+      "definition": "Unrecognised or Invalid Party A."
+    },
+    "PTYB": {
+      "isoName": "InvalidPartyB",
+      "name": "Invalid Party B",
+      "definition": "Unrecognised or Invalid Party B"
+    },
+    "ITPA": {
+      "isoName": "InvalidTripartyAgent",
+      "name": "Invalid Triparty Agent",
+      "definition": "Unrecognised or Invalid Triparty Agent"
+    },
+    "LATE": {
+      "isoName": "MarketDeadlineMissed",
+      "name": "Market Deadline Missed",
+      "definition": "Received after market deadline."
+    },
+    "SAFA": {
+      "isoName": "PartyASafekeepingAccount",
+      "name": "Party A Safekeeping Account",
+      "definition": "Unrecognised or invalid Party A Safekeeping Account"
+    },
+    "SAFB": {
+      "isoName": "PartyBSafekeepingAccount",
+      "name": "Party B Safekeeping Account",
+      "definition": "Unrecognised or Invalid Party B Safekeeping Account."
+    },
+    "REDT": {
+      "isoName": "RequestedExecutionDateTime",
+      "name": "Requested Execution Date Time",
+      "definition": "Invalid execution date/time"
+    },
+    "SEPR": {
+      "isoName": "SettlementProcessRejection",
+      "name": "Settlement Process Rejection",
+      "definition": "Unrecognised or invalid settlement process instructed."
+    },
+    "LBDR": {
+      "isoName": "LookbackDaysRejection",
+      "name": "Lookback Days Rejection",
+      "definition": "Number of lookback days not supported."
+    },
+    "DCBR": {
+      "isoName": "DayCountBasis",
+      "name": "Day Count Basis",
+      "definition": "Day count basis not supported."
+    },
+    "CSAC": {
+      "isoName": "CompoundSimpleAccrualCalculationRejection",
+      "name": "Compound Simple Accrual Calculation Rejection",
+      "definition": "Compound simple accrual calculation is not supported."
+    },
+    "TERM": {
+      "isoName": "ClosingDateTimeRejection",
+      "name": "Closing Date Time Rejection",
+      "definition": "Unrecognised or invalid closing date/time."
+    },
+    "DTRD": {
+      "isoName": "TradeDate",
+      "name": "Trade Date",
+      "definition": "Unrecognised or invalid trade date or requested trade date or future trade date."
+    },
+    "DDAT": {
+      "isoName": "SettlementDateRejection",
+      "name": "Settlement Date Rejection",
+      "definition": "Unrecognised or invalid settlement date."
+    },
+    "NCRR": {
+      "isoName": "SettlementAmountCurrencyRejection",
+      "name": "Settlement Amount Currency Rejection",
+      "definition": "Unrecognised or invalid settlement amount currency."
+    },
+    "IESP": {
+      "isoName": "InvalidEligibilitySetProfile",
+      "name": "Invalid Eligibility Set Profile",
+      "definition": "This is an unrecognised or invalid Eligibility Set Profile."
+    },
+    "IEXT": {
+      "isoName": "InvalidExposureType",
+      "name": "Invalid Exposure Type",
+      "definition": "This is an unrecognised or invalid Exposure Type (used when a proprietary code is sent)."
+    },
+    "IPBI": {
+      "isoName": "InvalidPreferentialBasketIdentification",
+      "name": "Invalid Preferential Basket Identification",
+      "definition": "Unrecognised or invalid Preferential Basket identification."
+    },
+    "IRIT": {
+      "isoName": "InvalidRateIndexType",
+      "name": "Invalid Rate Index Type",
+      "definition": "Unrecognised or invalid Rate Index Type (used when a proprietary code is sent)."
+    },
+    "TMAC": {
+      "isoName": "TerminationAmountCurrency",
+      "name": "Termination Amount Currency",
+      "definition": "Termination amount currency not supported."
+    },
+    "REPA": {
+      "isoName": "TerminationTransactionAmount",
+      "name": "Termination Transaction Amount",
+      "definition": "Unrecognised or invalid termination transaction amount."
+    },
+    "TXAC": {
+      "isoName": "TransactionAmountCurrency",
+      "name": "Transaction Amount Currency",
+      "definition": "Transaction amount currency not supported."
+    },
+    "NRGM": {
+      "isoName": "NoMatch",
+      "name": "No Match",
+      "definition": "More than one instruction match the criteria."
+    },
+    "TABC": {
+      "isoName": "TransactionAmountBreakdownCurrency",
+      "name": "Transaction Amount Breakdown Currency",
+      "definition": "Transaction amount breakdown currency differs from transaction amount currency."
+    },
+    "ICTT": {
+      "isoName": "InvalidCollateralTransactionType",
+      "name": "Invalid Collateral Transaction Type",
+      "definition": "This is an unrecognised or invalid Collateral Transaction Type."
+    },
+    "NRJN": {
+      "isoName": "NotFoundRejectionForCancellationModificationOrTermination",
+      "name": "Not Found Rejection For Cancellation Modification Or Termination",
+      "definition": "Cancellation, modification or termination request has been rejected since the instruction could not be found."
+    },
+    "NFCA": {
+      "isoName": "NotFoundCorrespondingAllegement",
+      "name": "Not Found Corresponding Allegement",
+      "definition": "Instruction has been rejected as the corresponding allegement was cancelled."
+    },
+    "CTRA": {
+      "isoName": "ClosingTransactionAmount",
+      "name": "Closing Transaction Amount",
+      "definition": "Unrecognised or invalid closing closing amount."
+    }
+  }
+}

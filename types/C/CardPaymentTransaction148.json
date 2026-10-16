@@ -1,0 +1,24 @@
+{
+  "isoType": "CardPaymentTransaction148",
+  "language": "en",
+  "name": "Card Payment Transaction 148",
+  "definition": "Identification of the original transaction.",
+  "isoElements": {
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identification of the POI (Point Of Interaction) performing the transaction."
+    },
+    "CurrencyConversion": {
+      "name": "Currency Conversion",
+      "definition": "Link to a previous currency conversion."
+    }
+  }
+}

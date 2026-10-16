@@ -1,0 +1,28 @@
+{
+  "isoType": "CardholderAuthentication8",
+  "language": "en",
+  "name": "Cardholder Authentication 8",
+  "definition": "Data related to the authentication of the card and the cardholder.",
+  "isoElements": {
+    "AuthenticationMethod": {
+      "name": "Authentication Method",
+      "definition": "Method and data intended to be used for this transaction to authenticate the customer or its card."
+    },
+    "TokenRequested": {
+      "name": "Token Requested",
+      "definition": "True if an authentication token is requested to the host. This token will be provided to the ATM for further authentication."
+    },
+    "AuthenticationValue": {
+      "name": "Authentication Value",
+      "definition": "Value or token to be used for customer or card authentication."
+    },
+    "ProtectedAuthenticationValue": {
+      "name": "Protected Authentication Value",
+      "definition": "Protection of the authentication value."
+    },
+    "CardholderOnLinePIN": {
+      "name": "Cardholder On Line PIN",
+      "definition": "Encrypted personal identification number (PIN) and related information."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "PaymentTerms6",
+  "language": "en",
+  "name": "Payment Terms 6",
+  "definition": "Specifies the payment terms of the underlying transaction.",
+  "isoElements": {
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Due date specified for the payment terms."
+    },
+    "PaymentPeriod": {
+      "name": "Payment Period",
+      "definition": "Payment period specified for these payment terms."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Textual description of these payment terms."
+    },
+    "PartialPaymentPercent": {
+      "name": "Partial Payment Percent",
+      "definition": "Partial payment, expressed as a percentage, for the payment terms."
+    },
+    "DirectDebitMandateIdentification": {
+      "name": "Direct Debit Mandate Identification",
+      "definition": "Direct debit mandate identification specified for these payment terms."
+    },
+    "BasisAmount": {
+      "name": "Basis Amount",
+      "definition": "Amount used as a basis to calculate the discount amount for these payment terms."
+    },
+    "DiscountAmount": {
+      "name": "Discount Amount",
+      "definition": "Amount of money that results from the application of an agreed discount percentage to the basis amount and payable to the creditor."
+    },
+    "DiscountPercentRate": {
+      "name": "Discount Percent Rate",
+      "definition": "Percent rate used to calculate the discount for these payment terms."
+    },
+    "PenaltyAmount": {
+      "name": "Penalty Amount",
+      "definition": "Amount of money that results from the application of an agreed penalty percentage to the basis amount and payable by the creditor."
+    },
+    "PenaltyPercentRate": {
+      "name": "Penalty Percent Rate",
+      "definition": "Percent rate used to calculate the penalty for these payment terms."
+    }
+  }
+}

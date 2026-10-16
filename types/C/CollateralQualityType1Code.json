@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralQualityType1Code",
+  "language": "en",
+  "name": "Collateral Quality Type 1 Code",
+  "definition": "Risk classification of the security used as collateral.",
+  "isoCodes": {
+    "INVG": {
+      "isoName": "InvestmentGrade",
+      "name": "Investment Grade",
+      "definition": "Security that is classified as investment grade according to external ratings."
+    },
+    "NIVG": {
+      "isoName": "NonInvestmentGrade",
+      "name": "Non Investment Grade",
+      "definition": "Security with a rating different than investment grade."
+    },
+    "NOTR": {
+      "isoName": "NotRated",
+      "name": "Not Rated",
+      "definition": "Security without a rating assigned."
+    },
+    "NOAP": {
+      "isoName": "NonApplicable",
+      "name": "Non Applicable",
+      "definition": "Collateral quality type is not applicable."
+    }
+  }
+}

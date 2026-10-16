@@ -1,0 +1,36 @@
+{
+  "isoType": "UnderlyingTradeTransaction1",
+  "language": "en",
+  "name": "Underlying Trade Transaction 1",
+  "definition": "Information about a transaction.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of underlying transaction such as a tender, order, contract."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the underlying transaction."
+    },
+    "TransactionDate": {
+      "name": "Transaction Date",
+      "definition": "Date the underlying transaction was issued or awarded."
+    },
+    "TenderClosingDate": {
+      "name": "Tender Closing Date",
+      "definition": "Date the tender closes."
+    },
+    "TransactionAmount": {
+      "name": "Transaction Amount",
+      "definition": "Amount of the underlying transaction."
+    },
+    "ContractAmountPercentage": {
+      "name": "Contract Amount Percentage",
+      "definition": "Percentage of the underlying contract covered by the undertaking."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the underlying transaction."
+    }
+  }
+}

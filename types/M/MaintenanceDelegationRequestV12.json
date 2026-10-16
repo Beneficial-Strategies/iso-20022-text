@@ -1,0 +1,20 @@
+{
+  "isoType": "MaintenanceDelegationRequestV12",
+  "language": "en",
+  "name": "Maintenance Delegation Request V 12",
+  "definition": "The MaintenanceDelegationRequest message is sent by a terminal manager to the master terminal manager to request delegation of maintenance functions or maintenance operation on the terminal estate managed by the master terminal manager.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management."
+    },
+    "MaintenanceDelegationRequest": {
+      "name": "Maintenance Delegation Request",
+      "definition": "Information related to the request of maintenance delegations."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

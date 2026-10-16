@@ -1,0 +1,21 @@
+{
+  "isoType": "NotionalQuantityLegs5",
+  "language": "en",
+  "name": "Notional Quantity Legs 5",
+  "definition": "Indicates the notional quantity of the underlying assets.",
+  "isoElements": {
+    "FirstLeg": {
+      "name": "First Leg",
+      "definition": "Aggregate notional quantity of the underlying asset of leg 1 for the term of the transaction. Where the total notional quantity is not known when a new transaction is reported, the total notional quantity is updated as it becomes available."
+    },
+    "SecondLeg": {
+      "name": "Second Leg",
+      "definition": "Aggregate notional quantity of the underlying asset of leg 2 for the term of the transaction. Where the total notional quantity is not known when a new transaction is reported, the total notional quantity is updated as it becomes available."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SaleCapabilities2Code",
+  "language": "en",
+  "name": "Sale Capabilities 2 Code",
+  "definition": "Type of the Logical device located on a Sale Terminal or a POI Terminal, in term of class of information to output (display, print or store), or input (keyboard) for the Cashier |or the Customer.",
+  "isoCodes": {
+    "CHIN": {
+      "isoName": "CashierInput",
+      "name": "Cashier Input",
+      "definition": "Any kind of keyboard allowing all or part of the commands  of the Input message request from the Sale System to the POI System (InputCommand data element). The output device attached to this input device is the CashierDisplay device."
+    },
+    "CUIN": {
+      "isoName": "CustomerInput",
+      "name": "Customer Input",
+      "definition": "Any kind of keyboard allowing all or part of the commands  of the Input message request from the Sale System to the POI System (InputCommand data element)."
+    }
+  }
+}

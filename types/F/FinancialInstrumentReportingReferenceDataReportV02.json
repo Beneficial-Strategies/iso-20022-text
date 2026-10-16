@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingReferenceDataReportV02",
+  "language": "en",
+  "name": "Financial Instrument Reporting Reference Data Report V 02",
+  "definition": "This FinancialInstrumentReportingReferenceDataReport message is sent by the trading venue to the national competent authority to report on the reference data used in the securities transactions.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header information related to the global report."
+    },
+    "ReferenceData": {
+      "name": "Reference Data",
+      "definition": "Details of the reference data reported by the trading venue."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

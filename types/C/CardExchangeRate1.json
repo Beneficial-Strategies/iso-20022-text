@@ -1,0 +1,60 @@
+{
+  "isoType": "CardExchangeRate1",
+  "language": "en",
+  "name": "Card Exchange Rate 1",
+  "definition": "Further detailed information on the exchange rate that has been used in or is related to the transaction.",
+  "isoElements": {
+    "Provider": {
+      "name": "Provider",
+      "definition": "Identifies the source of the rate information."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the specific rate, table or file that contains the rate information."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "The date the exchange rate data is effective."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "The time the exchange rate data is effective."
+    },
+    "EndPoint": {
+      "name": "End Point",
+      "definition": "Identifies the party to which this detail applies. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "CounterCurrencyCode": {
+      "name": "Counter Currency Code",
+      "definition": "Identifies the counter currency used for currency conversion for the transaction party."
+    },
+    "BaseCurrencyCode": {
+      "name": "Base Currency Code",
+      "definition": "Identifies the base currency used for currency conversion for the transaction party."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Contains the exchange rate."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Identifies the type of rate. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "AgreementType": {
+      "name": "Agreement Type",
+      "definition": "Type of exchange rate agreement. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "RateLockRequested": {
+      "name": "Rate Lock Requested",
+      "definition": "Indicates if a rate lock is or was requested."
+    },
+    "RateLockEligible": {
+      "name": "Rate Lock Eligible",
+      "definition": "Indicates if the transaction is rate lock eligible."
+    },
+    "RateLockApplied": {
+      "name": "Rate Lock Applied",
+      "definition": "Indicates if a rate lock was applied."
+    }
+  }
+}

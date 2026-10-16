@@ -1,0 +1,64 @@
+{
+  "isoType": "DeviceRequest9",
+  "language": "en",
+  "name": "Device Request 9",
+  "definition": "Specifies the environment, the context and the services to be used with a device request message.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "ServiceContent": {
+      "name": "Service Content",
+      "definition": "Define the type of service requested."
+    },
+    "DisplayRequest": {
+      "name": "Display Request",
+      "definition": "Content of the Display Request message."
+    },
+    "InputRequest": {
+      "name": "Input Request",
+      "definition": "Content of the Input Request message."
+    },
+    "PrintRequest": {
+      "name": "Print Request",
+      "definition": "Content of the Print Request message."
+    },
+    "PlayResourceRequest": {
+      "name": "Play Resource Request",
+      "definition": "Content of the Resource Request message."
+    },
+    "SecureInputRequest": {
+      "name": "Secure Input Request",
+      "definition": "Request a secure input for a PIN."
+    },
+    "InitialisationCardReaderRequest": {
+      "name": "Initialisation Card Reader Request",
+      "definition": "A service to send parameters to Card Reader to initialize a new communication with a card."
+    },
+    "CardReaderAPDURequest": {
+      "name": "Card Reader APDU Request",
+      "definition": "Content of the APDU (Application Protocol Data Unit) to send to the Card."
+    },
+    "PowerOffCardReaderRequest": {
+      "name": "Power Off Card Reader Request",
+      "definition": "Content of the Power Off Card Reader Request message."
+    },
+    "TransmissionRequest": {
+      "name": "Transmission Request",
+      "definition": "Content of the Request message to transmit."
+    },
+    "InputNotification": {
+      "name": "Input Notification",
+      "definition": "Content of the Input notification message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

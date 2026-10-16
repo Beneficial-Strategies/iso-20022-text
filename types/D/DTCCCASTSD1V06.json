@@ -1,0 +1,24 @@
+{
+  "isoType": "DTCCCASTSD1V06",
+  "language": "en",
+  "name": "DTCCCASTSD 1 V 06",
+  "definition": "The DTCCCASTSD1 message extends ISO corporate action instruction statement report message with DTCC corporate action elements not covered in the standard message.",
+  "isoElements": {
+    "EventBalanceDetails": {
+      "name": "Event Balance Details",
+      "definition": "Information to be extended as supplementary data to corporate action balance details at event level."
+    },
+    "TotalInstructedBalanceOptionBalanceDetails": {
+      "name": "Total Instructed Balance Option Balance Details",
+      "definition": "Information to be extended as supplementary data to corporate action balance details at option level."
+    },
+    "TotalInstructedBalanceOptionInstructionDetails": {
+      "name": "Total Instructed Balance Option Instruction Details",
+      "definition": "Information to be extended as supplementary data to corporate action balance details at option instruction details level. Option level instruction details are referenced by unique instruction identification, instruction date, quantity and status of instruction."
+    },
+    "TotalInstructedBalanceOptionProtectInstructionDetails": {
+      "name": "Total Instructed Balance Option Protect Instruction Details",
+      "definition": "Information to be extended as supplementary data to corporate action balance details at option protect instruction details level."
+    }
+  }
+}

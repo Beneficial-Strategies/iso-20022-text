@@ -1,0 +1,43 @@
+{
+  "isoType": "AgreementItemAction1Code",
+  "language": "en",
+  "name": "Agreement Item Action 1 Code",
+  "definition": "Specifies the type of action concerning registration information.|The default value is OPEN.",
+  "isoCodes": {
+    "DEAC": {
+      "isoName": "Deactivate",
+      "name": "Deactivate",
+      "definition": "Deactivate agreement item."
+    },
+    "HOLD": {
+      "isoName": "Hold",
+      "name": "Hold",
+      "definition": "Hold the agreement item."
+    },
+    "MDFY": {
+      "isoName": "Modify",
+      "name": "Modify",
+      "definition": "Modify agreement item information."
+    },
+    "REAC": {
+      "isoName": "Reactivate",
+      "name": "Reactivate",
+      "definition": "Reactivate agreement item."
+    },
+    "OPEN": {
+      "isoName": "Register",
+      "name": "Register",
+      "definition": "Register item as new agreement."
+    },
+    "SYNC": {
+      "isoName": "Synchronize",
+      "name": "Synchronize",
+      "definition": "Send status with full agreement information details."
+    },
+    "VRFY": {
+      "isoName": "Verify",
+      "name": "Verify",
+      "definition": "Verify agreement item information."
+    }
+  }
+}

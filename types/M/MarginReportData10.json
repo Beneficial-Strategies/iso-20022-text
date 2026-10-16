@@ -1,0 +1,56 @@
+{
+  "isoType": "MarginReportData10",
+  "language": "en",
+  "name": "Margin Report Data 10",
+  "definition": "Specifies the details of the margin data.",
+  "isoElements": {
+    "ReportingTimeStamp": {
+      "name": "Reporting Time Stamp",
+      "definition": "Date and time of submission of the report to the trade repository."
+    },
+    "CounterpartyIdentification": {
+      "name": "Counterparty Identification",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the reportable event pertaining to the transaction and captured by the report took place."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Choice between a Unique Transaction Identifier (UTI) or a proprietary identifier as agreed with the counterparty."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Information related to collateral agreement existing between counterparties."
+    },
+    "PostedMarginOrCollateral": {
+      "name": "Posted Margin Or Collateral",
+      "definition": "Information on posted collateral and margin."
+    },
+    "ReceivedMarginOrCollateral": {
+      "name": "Received Margin Or Collateral",
+      "definition": "Information on received collateral and margin."
+    },
+    "CounterpartyRatingTriggerIndicator": {
+      "name": "Counterparty Rating Trigger Indicator",
+      "definition": "Indicates if a counterparty rating trigger is agreed by the counterparties for the collateral posted by the reporting counterparty.||Usage: If the element is not present, the CounterpartyRatingTrigger is False."
+    },
+    "CounterpartyRatingThresholdIndicator": {
+      "name": "Counterparty Rating Threshold Indicator",
+      "definition": "Indicates if a counterparty rating trigger includes a threshold that increases collateral requirements when the counterparty falls below the single-A rating or equivalent.||Usage: If the CounterpartyRatingTrigger indicator is false, this element is omitted."
+    },
+    "ContractModification": {
+      "name": "Contract Modification",
+      "definition": "Contract modification details expressed as an action type and a reporting level type."
+    },
+    "TechnicalAttributes": {
+      "name": "Technical Attributes",
+      "definition": "Specifies technical attributes of the message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

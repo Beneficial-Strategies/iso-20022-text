@@ -1,0 +1,20 @@
+{
+  "isoType": "ForeignExchangeTradeStatusNotificationV08",
+  "language": "en",
+  "name": "Foreign Exchange Trade Status Notification V 08",
+  "definition": "Scope||The ForeignExchangeTradeStatusNotification message is sent by a central system to the participant to notify the current status of a foreign exchange trade in the system.||Usage||This ForeignExchangeTradeStatusNotification message will be sent at specific times agreed upon by the central settlement system and a participant in a central settlement system.",
+  "isoElements": {
+    "TradeData": {
+      "name": "Trade Data",
+      "definition": "Provides information on the status of a trade in a system."
+    },
+    "RegulatoryReporting": {
+      "name": "Regulatory Reporting",
+      "definition": "Information that is to be provided to trade repositories in the context of the regulatory standards around over-the-counter (OTC) derivatives, central counterparties and trade repositories."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

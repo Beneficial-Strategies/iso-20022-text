@@ -1,0 +1,21 @@
+{
+  "isoType": "SecurityCommodity9",
+  "language": "en",
+  "name": "Security Commodity 9",
+  "definition": "Indication of the type of assets subject of the transaction.",
+  "isoElements": {
+    "Security": {
+      "name": "Security",
+      "definition": "Data specific to securities being subject to the transaction."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Data specific to commodities being subject to the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

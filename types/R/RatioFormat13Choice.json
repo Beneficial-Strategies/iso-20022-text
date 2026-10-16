@@ -1,0 +1,28 @@
+{
+  "isoType": "RatioFormat13Choice",
+  "language": "en",
+  "name": "Ratio Format 13 Choice",
+  "definition": "Choice of format to expressed a ratio.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "name": "Quantity To Quantity",
+      "definition": "Ratio expressed as a quotient of quantities."
+    },
+    "NotSpecifiedRate": {
+      "name": "Not Specified Rate",
+      "definition": "Value of the ratio not specified."
+    },
+    "AmountToAmount": {
+      "name": "Amount To Amount",
+      "definition": "Ratio expressed as a quotient of amounts."
+    }
+  },
+  "isoRules": {
+    "CoexistenceQuantityRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Quantity length must not be greater than 15, including the decimal point."
+    },
+    "CoexistenceAmountRule": {
+      "definition": "During ISO 15022 – 20022 coexistence, Amount length must not be greater than 15, including the decimal point."
+    }
+  }
+}

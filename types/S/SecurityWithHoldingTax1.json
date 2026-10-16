@@ -1,0 +1,16 @@
+{
+  "isoType": "SecurityWithHoldingTax1",
+  "language": "en",
+  "name": "Security With Holding Tax 1",
+  "definition": "Set of elements of a cash distribution that will be withheld by a tax authority.",
+  "isoElements": {
+    "WithholdingTaxValue": {
+      "name": "Withholding Tax Value",
+      "definition": "Value of the withholding tax as rate, amount or not specified."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Represents the tax authority."
+    }
+  }
+}

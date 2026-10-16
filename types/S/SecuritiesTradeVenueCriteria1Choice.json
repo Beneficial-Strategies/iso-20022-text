@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesTradeVenueCriteria1Choice",
+  "language": "en",
+  "name": "Securities Trade Venue Criteria 1 Choice",
+  "definition": "Criteria for the trade venue identification.",
+  "isoElements": {
+    "MIC": {
+      "name": "MIC",
+      "definition": "Market identifier code of the trading venue."
+    },
+    "AnyMIC": {
+      "name": "Any MIC",
+      "definition": "Indicates any other code used to identify the execution venue.||Usage:|Result of the query should include all trades where this filed was populated with a MIC code (but not the trades with ‘XOFF’ or ‘XXXX’)."
+    }
+  }
+}

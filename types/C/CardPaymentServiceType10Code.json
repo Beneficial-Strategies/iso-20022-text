@@ -1,0 +1,33 @@
+{
+  "isoType": "CardPaymentServiceType10Code",
+  "language": "en",
+  "name": "Card Payment Service Type 10 Code",
+  "definition": "Requested certificate management service.",
+  "isoCodes": {
+    "CRTC": {
+      "isoName": "CreateCertificate",
+      "name": "Create Certificate",
+      "definition": "Creation of an X.509 certificate with the public key and the information of the owner of the asymmetric key provided by the requestor."
+    },
+    "CRTR": {
+      "isoName": "RenewCerificate",
+      "name": "Renew Cerificate",
+      "definition": "Renewal of an X.509 certificate, protected by the certificate to renew."
+    },
+    "CRTK": {
+      "isoName": "RevokeCertificate",
+      "name": "Revoke Certificate",
+      "definition": "Revocation of an active X.509 certificate."
+    },
+    "WLSR": {
+      "isoName": "RemoveWhiteList",
+      "name": "Remove White List",
+      "definition": "Remove a POI from the white list of the terminal manager."
+    },
+    "WLSA": {
+      "isoName": "AddWhiteList",
+      "name": "Add White List",
+      "definition": "Add a POI in the white list of the terminal manager."
+    }
+  }
+}

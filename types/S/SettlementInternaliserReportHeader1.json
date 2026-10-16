@@ -1,0 +1,24 @@
+{
+  "isoType": "SettlementInternaliserReportHeader1",
+  "language": "en",
+  "name": "Settlement Internaliser Report Header 1",
+  "definition": "Specifies parameters of the report",
+  "isoElements": {
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Provides the reporting timestamp, when the report was submitted from the Settlement Internaliser to the Competent Authority."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Last day of the reporting period."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Specifies the currency of the reported transactions."
+    },
+    "ReportStatus": {
+      "name": "Report Status",
+      "definition": "Provides the status of the report."
+    }
+  }
+}

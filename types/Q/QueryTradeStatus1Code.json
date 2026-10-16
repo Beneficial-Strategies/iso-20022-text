@@ -1,0 +1,38 @@
+{
+  "isoType": "QueryTradeStatus1Code",
+  "language": "en",
+  "name": "Query Trade Status 1 Code",
+  "definition": "Specifies the inquiry status of the trade.",
+  "isoCodes": {
+    "QAST": {
+      "isoName": "QueryAllStatus",
+      "name": "Query All Status",
+      "definition": "Query for all trades."
+    },
+    "QCTR": {
+      "isoName": "QueryCanceledTrade",
+      "name": "Query Canceled Trade",
+      "definition": "Query for trades have been canceled."
+    },
+    "QCIR": {
+      "isoName": "QueryCancellingTrade",
+      "name": "Query Cancelling Trade",
+      "definition": "Query for cancelling trades."
+    },
+    "QETR": {
+      "isoName": "QueryEmergencyTrade",
+      "name": "Query Emergency Trade",
+      "definition": "Query for emergency trades."
+    },
+    "QNTR": {
+      "isoName": "QueryNewTrade",
+      "name": "Query New Trade",
+      "definition": "Query for new trades."
+    },
+    "QRTR": {
+      "isoName": "QueryReplacedTrade",
+      "name": "Query Replaced Trade",
+      "definition": "Query for trades have been replaced."
+    }
+  }
+}

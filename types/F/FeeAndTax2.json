@@ -1,0 +1,29 @@
+{
+  "isoType": "FeeAndTax2",
+  "language": "en",
+  "name": "Fee And Tax 2",
+  "definition": "Amount of money associated with a service.",
+  "isoElements": {
+    "CommercialAgreementReference": {
+      "name": "Commercial Agreement Reference",
+      "definition": "Reference to the agreement established between the fund and another party. This element, amongst others, defines the conditions of the commissions."
+    },
+    "IndividualFee": {
+      "name": "Individual Fee",
+      "definition": "Individual fee (charge/commission)."
+    },
+    "IndividualTax": {
+      "name": "Individual Tax",
+      "definition": "Individual tax amount."
+    },
+    "DigitalNetworkFee": {
+      "name": "Digital Network Fee",
+      "definition": "Digital payment settlement information or digital network fee assigned to a transaction."
+    }
+  },
+  "isoRules": {
+    "FeeTaxElementRule": {
+      "definition": "One of the elements (CommercialAgreementReference, IndividualFee, IndividualTax, DigitalNetworkFee) must be present."
+    }
+  }
+}

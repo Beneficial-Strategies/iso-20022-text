@@ -1,0 +1,28 @@
+{
+  "isoType": "ExternalValidationRuleIdentification1Code",
+  "language": "en",
+  "name": "External Validation Rule Identification 1 Code",
+  "definition": "Specifies the external validation rule identification scheme name code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "CCTR": {
+      "isoName": "CrossborderTransactionsCurrencyControlReporting",
+      "name": "Crossborder Transactions Currency Control Reporting",
+      "definition": "Identifies the validation rules related to the Russian Cross-border Transactions Currency Control Reporting."
+    },
+    "ITRP": {
+      "isoName": "InvoiceTaxReporting",
+      "name": "Invoice Tax Reporting",
+      "definition": "Identifies the validation rules related to the invoice tax reporting."
+    },
+    "MMSR": {
+      "isoName": "MoneyMarketStatisticalReporting",
+      "name": "Money Market Statistical Reporting",
+      "definition": "Identifies the validation rule scheme related to the ECB Euro Money Market Statistical Reporting."
+    },
+    "SMMD": {
+      "isoName": "SterlingMoneyMarketDaily",
+      "name": "Sterling Money Market Daily",
+      "definition": "Identifies the validation rules related to the Bank Of England Sterling Money Market Daily Reporting."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "PositionSetMetrics11",
+  "language": "en",
+  "name": "Position Set Metrics 11",
+  "definition": "Variables used to quantify the different calculations for position sets.",
+  "isoElements": {
+    "VolumeMetrics": {
+      "name": "Volume Metrics",
+      "definition": "Numeric variables calculated on the number of transactions or on market exposures."
+    },
+    "CashReinvestmentRate": {
+      "name": "Cash Reinvestment Rate",
+      "definition": "Average interest rate received on cash collateral reinvestment by the lender for reinvestment of cash collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

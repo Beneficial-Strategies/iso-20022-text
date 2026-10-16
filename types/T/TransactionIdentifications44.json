@@ -1,0 +1,36 @@
+{
+  "isoType": "TransactionIdentifications44",
+  "language": "en",
+  "name": "Transaction Identifications 44",
+  "definition": "Provides unambiguous instruction or transaction identification information.",
+  "isoElements": {
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Instruction Identification",
+      "definition": "Reference assigned to the instruction by the triparty-agent/service-provider."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "name": "Triparty Agent Service Provider Collateral Transaction Identification",
+      "definition": "Unique reference identifying the triparty-agent/service-provider collateral management transaction from the triparty-agent's/service-provider's point of view."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "name": "Client Collateral Instruction Identification",
+      "definition": "Unique reference identifying the collateral management transaction from the client's point of view. Identifies the potential match."
+    },
+    "ClientCollateralTransactionIdentification": {
+      "name": "Client Collateral Transaction Identification",
+      "definition": "Unique reference identifying the collateral management transaction from the client's point of view. Present in case of a decrease."
+    },
+    "CounterpartyCollateralInstructionIdentification": {
+      "name": "Counterparty Collateral Instruction Identification",
+      "definition": "Unique collateral instruction reference assigned by counterparty."
+    },
+    "CounterpartyCollateralTransactionIdentification": {
+      "name": "Counterparty Collateral Transaction Identification",
+      "definition": "Unique collateral transaction reference assigned by counterparty."
+    },
+    "CommonTransactionIdentification": {
+      "name": "Common Transaction Identification",
+      "definition": "Unique identification (UTI) agreed upon by the two trade counterparties to identify the trade."
+    }
+  }
+}

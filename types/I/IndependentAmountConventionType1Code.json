@@ -1,0 +1,23 @@
+{
+  "isoType": "IndependentAmountConventionType1Code",
+  "language": "en",
+  "name": "Independent Amount Convention Type 1 Code",
+  "definition": "Determines how the independent amount was applied in the margin calculation.",
+  "isoCodes": {
+    "NBTR": {
+      "isoName": "NettedBeforeThreshold",
+      "name": "Netted Before Threshold",
+      "definition": "Independent amount is an add on to exposure."
+    },
+    "NATR": {
+      "isoName": "NettedAfterThreshold",
+      "name": "Netted After Threshold",
+      "definition": "Independent amount is an add on to the credit support amount and forms part of the variation margin requirement."
+    },
+    "SEGR": {
+      "isoName": "Segregated",
+      "name": "Segregated",
+      "definition": "Independent amount is treated independently of variation margin for segregation purposes."
+    }
+  }
+}

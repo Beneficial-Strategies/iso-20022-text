@@ -1,0 +1,20 @@
+{
+  "isoType": "MarginCallResult2Choice",
+  "language": "en",
+  "name": "Margin Call Result 2 Choice",
+  "definition": "Choice to provide the summation of the call amounts for the variation margin and the segregated independent amount, or the segregated independent amount only.",
+  "isoElements": {
+    "MarginCallResultDetails": {
+      "name": "Margin Call Result Details",
+      "definition": "Provides the summation of the call amounts for the variation margin and optionaly the segregated independent amount."
+    },
+    "MarginCallAmount": {
+      "name": "Margin Call Amount",
+      "definition": "Provides the summation of the call amounts."
+    },
+    "SegregatedIndependentAmount": {
+      "name": "Segregated Independent Amount",
+      "definition": "Provides the summation of the call amounts for the segregated independent amount only."
+    }
+  }
+}

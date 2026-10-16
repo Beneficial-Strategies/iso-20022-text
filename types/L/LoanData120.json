@@ -1,0 +1,20 @@
+{
+  "isoType": "LoanData120",
+  "language": "en",
+  "name": "Loan Data 120",
+  "definition": "Specifies the loan data details in case of a repurchase trade transaction.",
+  "isoElements": {
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the reportable event pertaining to the transaction and captured by the report took place."
+    },
+    "UniqueTradeIdentifier": {
+      "name": "Unique Trade Identifier",
+      "definition": "Unique trade Identifier (UTI) as agreed with the other counterparty."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Reference to master agreement under which the counterparties concluded a documented transaction."
+    }
+  }
+}

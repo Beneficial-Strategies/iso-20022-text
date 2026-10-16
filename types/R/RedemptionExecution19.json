@@ -1,0 +1,218 @@
+{
+  "isoType": "RedemptionExecution19",
+  "language": "en",
+  "name": "Redemption Execution 19",
+  "definition": "Execution of a redemption order.",
+  "isoElements": {
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for the order execution, as assigned by the confirming party."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "OrderType": {
+      "name": "Order Type",
+      "definition": "Category of the investment fund order."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which the investment fund order execution is related."
+    },
+    "SubAccountForHolding": {
+      "name": "Sub Account For Holding",
+      "definition": "Subdivision of the account used to segregate specific holdings."
+    },
+    "Units": {
+      "name": "Units",
+      "definition": "Quantity of units or digital tokens."
+    },
+    "Rounding": {
+      "name": "Rounding",
+      "definition": "Indicates the rounding direction applied to nearest unit."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money paid to the investor when redeeming fund units. |Net amount = (Quantity * Price) – (Fees + Taxes)."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money redeemed from the fund. |Gross Amount = Quantity * Price."
+    },
+    "HoldingsRedemptionRate": {
+      "name": "Holdings Redemption Rate",
+      "definition": "Portion of the investor's holdings redeemed."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and time at which a price is applied, according to the terms stated in the prospectus."
+    },
+    "DealingPriceDetails": {
+      "name": "Dealing Price Details",
+      "definition": "Price at which the order was executed."
+    },
+    "InformativePriceDetails": {
+      "name": "Informative Price Details",
+      "definition": "Other quoted price than the one at which the order was executed."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money paid/to be paid or received in exchange for the financial instrument in the individual order."
+    },
+    "CashSettlementDate": {
+      "name": "Cash Settlement Date",
+      "definition": "Date on which cash is available."
+    },
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method by which the transaction is settled."
+    },
+    "PartiallyExecutedIndicator": {
+      "name": "Partially Executed Indicator",
+      "definition": "Indicates whether the order has been partially executed, that is, the confirmed quantity does not match the ordered quantity for a given financial instrument."
+    },
+    "BestExecution": {
+      "name": "Best Execution",
+      "definition": "Specifies that the execution was subject to best execution rules as defined by MiFID."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, that is, cum-dividend, in the executed price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "InterimProfitAmount": {
+      "name": "Interim Profit Amount",
+      "definition": "Part of the price deemed as accrued income or profit rather than capital. The interim profit amount is used for tax purposes."
+    },
+    "ForeignExchangeDetails": {
+      "name": "Foreign Exchange Details",
+      "definition": "Information needed to process a currency exchange or conversion.|How the exchange rate is expressed determines which currency is the Unit Currency and Quoted Currency. If the amounts concerned are EUR 1000 and USD 1300, the exchange rate may be expressed as per either of the following examples:|EXAMPLE 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EXAMPLE 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "Group1Or2Units": {
+      "name": "Group 1 Or 2 Units",
+      "definition": "Tax group to which the purchased investment fund units belong. The investor indicates to the intermediary operating pooled nominees, which type of unit is to be sold."
+    },
+    "TransactionOverhead": {
+      "name": "Transaction Overhead",
+      "definition": "Fees (charges/commission) and taxes that are taken into consideration for the transaction, so that the total difference between the net amount and gross amount is known, without taking into account equalisation."
+    },
+    "InformativeTaxDetails": {
+      "name": "Informative Tax Details",
+      "definition": "Additional information about tax that does not have an impact on the transaction overhead."
+    },
+    "SettlementAndCustodyDetails": {
+      "name": "Settlement And Custody Details",
+      "definition": "Parameters used to execute the settlement of an investment fund order."
+    },
+    "PhysicalDeliveryIndicator": {
+      "name": "Physical Delivery Indicator",
+      "definition": "Indicates whether the financial instrument is to be physically delivered."
+    },
+    "PhysicalDeliveryDetails": {
+      "name": "Physical Delivery Details",
+      "definition": "Information related to the physical delivery of the securities."
+    },
+    "RequestedSettlementCurrency": {
+      "name": "Requested Settlement Currency",
+      "definition": "Currency requested for settlement of cash proceeds."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "CashSettlementDetails": {
+      "name": "Cash Settlement Details",
+      "definition": "Payment process for the transfer of cash from the debtor to the creditor."
+    },
+    "DigitalAssetSettlement": {
+      "name": "Digital Asset Settlement",
+      "definition": "Total quantity of digital asset to be paid or received in exchange for the securities token."
+    },
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "PartialSettlementOfUnits": {
+      "name": "Partial Settlement Of Units",
+      "definition": "Percentage of units partially settled."
+    },
+    "PartialSettlementOfCash": {
+      "name": "Partial Settlement Of Cash",
+      "definition": "Percentage of cash partially settled."
+    },
+    "StaffClientBreakdown": {
+      "name": "Staff Client Breakdown",
+      "definition": "Breakdown of the net amount per type of order."
+    },
+    "PartialRedemptionWithholdingAmount": {
+      "name": "Partial Redemption Withholding Amount",
+      "definition": "Amount retained by the fund and paid out later at a time decided by the fund."
+    },
+    "FinancialAdvice": {
+      "name": "Financial Advice",
+      "definition": "Specifies if advice has been received from an independent financial advisor."
+    },
+    "NegotiatedTrade": {
+      "name": "Negotiated Trade",
+      "definition": "Specifies whether the trade is negotiated."
+    },
+    "LateReport": {
+      "name": "Late Report",
+      "definition": "Specifies whether the order execution confirmation is late."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Party related to the transaction."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Part of an investor's subscription amount that was held by the fund in order to pay incentive/performance fees at the end of the fiscal year, and is returned due to the redemption."
+    },
+    "CustomerConductClassification": {
+      "name": "Customer Conduct Classification",
+      "definition": "Assessment of the customer’s behaviour at the time of the account opening application."
+    },
+    "TransactionChannelType": {
+      "name": "Transaction Channel Type",
+      "definition": "Means by which the investor or account owner submits the open account form."
+    },
+    "SignatureType": {
+      "name": "Signature Type",
+      "definition": "Type of signature."
+    },
+    "OrderWaiverDetails": {
+      "name": "Order Waiver Details",
+      "definition": "Information about a non-standard order."
+    },
+    "GatingOrHoldBackDetails": {
+      "name": "Gating Or Hold Back Details",
+      "definition": "Information about gating and hold back of redemption proceeds."
+    }
+  },
+  "isoRules": {
+    "PriceDifferenceReasonRule": {
+      "definition": "Any occurrence of InformativePriceDetails/PriceDifferenceReason may not be present."
+    },
+    "PhysicalDeliveryDetails1Rule": {
+      "definition": "If PhysicalDeliveryIndicator is \"false\" or \"0\" (No), then PhysicalDeliveryDetails is not allowed."
+    },
+    "PhysicalDeliveryDetails2Rule": {
+      "definition": "If PhysicalDeliveryIndicator is \"true\" or \"1\" (Yes), then PhysicalDeliveryDetails must be present."
+    },
+    "RequestedSettlementCurrencyRule": {
+      "definition": "If RequestedSettlementCurrency is present, it must be the same Currency as in SettlementAmount, if present."
+    }
+  }
+}

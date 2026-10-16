@@ -1,0 +1,23 @@
+{
+  "isoType": "RejectedCancellationStatusReason1Code",
+  "language": "en",
+  "name": "Rejected Cancellation Status Reason 1 Code",
+  "definition": "Reason for which a cancellation is rejected.",
+  "isoCodes": {
+    "REFE": {
+      "isoName": "InvalidOrUnrecognisedReference",
+      "name": "Invalid Or Unrecognised Reference",
+      "definition": "Request contains an invalid or unrecognised business reference."
+    },
+    "NRGM": {
+      "isoName": "NoCancellationMatch",
+      "name": "No Cancellation Match",
+      "definition": "The cancellation request has been rejected since more than one instruction match to the cancellation criteria."
+    },
+    "NSLA": {
+      "isoName": "NotCompliantWithSLA",
+      "name": "Not Compliant With SLA",
+      "definition": "Instruction is not compliant with the service level agreement."
+    }
+  }
+}

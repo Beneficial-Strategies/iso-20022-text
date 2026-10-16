@@ -1,0 +1,28 @@
+{
+  "isoType": "ClosingType1Code",
+  "language": "en",
+  "name": "Closing Type 1 Code",
+  "definition": "Specifies the timing or method for terminating the agreement - for repos.",
+  "isoCodes": {
+    "OVER": {
+      "isoName": "Overnight",
+      "name": "Overnight",
+      "definition": "Repo with a term of one day."
+    },
+    "TERM": {
+      "isoName": "Term",
+      "name": "Term",
+      "definition": "Repo with a term of more than one day."
+    },
+    "FLEX": {
+      "isoName": "Flexible",
+      "name": "Flexible",
+      "definition": "Identifies \"a classic term repo with the added feature that the cash is repaid to the buyer in installments\" (Definition from \"Mastering Repo Markets\" by Bob Steiner)."
+    },
+    "OPEN": {
+      "isoName": "Open",
+      "name": "Open",
+      "definition": "Repo which can be terminated by either party at any time, and which has an unspecified repurchase date."
+    }
+  }
+}

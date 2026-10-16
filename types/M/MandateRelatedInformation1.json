@@ -1,0 +1,45 @@
+{
+  "isoType": "MandateRelatedInformation1",
+  "language": "en",
+  "name": "Mandate Related Information 1",
+  "definition": "Set of elements used to provide further details related to a direct debit mandate signed between the creditor and the debtor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "name": "Mandate Identification",
+      "definition": "Reference of the direct debit mandate that has been signed between by the debtor and the creditor."
+    },
+    "DateOfSignature": {
+      "name": "Date Of Signature",
+      "definition": "Date on which the direct debit mandate has been signed by the debtor."
+    },
+    "AmendmentIndicator": {
+      "name": "Amendment Indicator",
+      "definition": "Indicator notifying whether the underlying mandate is amended or not."
+    },
+    "AmendmentInformationDetails": {
+      "name": "Amendment Information Details",
+      "definition": "List of direct debit mandate elements that have been modified."
+    },
+    "ElectronicSignature": {
+      "name": "Electronic Signature",
+      "definition": "Additional security provisions, such as a digital signature, as provided by the debtor."
+    },
+    "FirstCollectionDate": {
+      "name": "First Collection Date",
+      "definition": "Date of the first collection of a direct debit as per the mandate."
+    },
+    "FinalCollectionDate": {
+      "name": "Final Collection Date",
+      "definition": "Date of the final collection of a direct debit as per the mandate."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Regularity with which direct debit instructions are to be created and processed."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorRule": {
+      "definition": "If AmendmentIndicator is true, then AmendementInformationDetails must be present, with amended mandate information.||If AmendmentIndicator is false, then AmendmentInformationDetails is not allowed."
+    }
+  }
+}

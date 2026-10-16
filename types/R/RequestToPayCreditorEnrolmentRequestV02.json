@@ -1,0 +1,24 @@
+{
+  "isoType": "RequestToPayCreditorEnrolmentRequestV02",
+  "language": "en",
+  "name": "Request To Pay Creditor Enrolment Request V 02",
+  "definition": "The RequestToPayCreditorEnrolmentRequest message is sent by the creditor RTP (Request To Pay) provider to an RTP directory provider and optionally by the creditor to a creditor RTP provider to request the creditor registration in the RTP directory. |The message may also be forwarded to any authorised third party, as defined in the local scheme.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics to identify the message and parties playing a role in the creditor enrolment request."
+    },
+    "CreditorEnrolment": {
+      "name": "Creditor Enrolment",
+      "definition": "Specific attributes of the creditor and service enrolment provided by the creditor for its enrolment."
+    },
+    "ActivationData": {
+      "name": "Activation Data",
+      "definition": "Specific attributes requested from the debtor for its activation as specified by the creditor in the creditor enrolment request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

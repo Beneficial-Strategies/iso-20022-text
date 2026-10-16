@@ -1,0 +1,16 @@
+{
+  "isoType": "BPOApplicableRules1Choice",
+  "language": "en",
+  "name": "BPO Applicable Rules 1 Choice",
+  "definition": "Rules which apply to the BPO (Bank Payment Obligation).",
+  "isoElements": {
+    "URBPOVersion": {
+      "name": "URBPO Version",
+      "definition": "URBPO are rules that apply to a BPO when the Payment Obligation Segment within an Established Baseline expressly states that it is subject to these rules or when each Involved Bank agrees in a separate agreement that a BPO is subject to these rules. If an Established Baseline or separate agreement does not indicate the applicable version of URBPO, the BPO will be subject to the latest version in effect when the Baseline is established in accordance with sub-article 9 (d)."
+    },
+    "OtherRulesAndVersion": {
+      "name": "Other Rules And Version",
+      "definition": "Applicable rules are not URBPO and are specified here with version."
+    }
+  }
+}

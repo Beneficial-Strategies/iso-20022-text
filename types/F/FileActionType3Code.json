@@ -1,0 +1,48 @@
+{
+  "isoType": "FileActionType3Code",
+  "language": "en",
+  "name": "File Action Type 3 Code",
+  "definition": "Determines the type of file action.",
+  "isoCodes": {
+    "ADDD": {
+      "isoName": "Add",
+      "name": "Add",
+      "definition": "Add a new record or file."
+    },
+    "BRPT": {
+      "isoName": "BulkReplacement",
+      "name": "Bulk Replacement",
+      "definition": "Replacing  previously added records."
+    },
+    "DELT": {
+      "isoName": "Delete",
+      "name": "Delete",
+      "definition": "Delete an existing record or file."
+    },
+    "DLSP": {
+      "isoName": "DeleteRecordSystemPurge",
+      "name": "Delete Record System Purge",
+      "definition": "System purge."
+    },
+    "ENQR": {
+      "isoName": "Enquire",
+      "name": "Enquire",
+      "definition": "Request the content of an existing record or file."
+    },
+    "REPL": {
+      "isoName": "Replace",
+      "name": "Replace",
+      "definition": "Add a new record or file if none exists or replace an existing record or file if one exists."
+    },
+    "REQU": {
+      "isoName": "Request",
+      "name": "Request",
+      "definition": "Request for a file or record."
+    },
+    "UPDT": {
+      "isoName": "Update",
+      "name": "Update",
+      "definition": "Update an existing record or file."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "RegulatoryTransactionReportCancellationStatusV01",
+  "language": "en",
+  "name": "Regulatory Transaction Report Cancellation Status V 01",
+  "definition": "Scope|A regulator or an intermediary sends the RegulatoryTransactionReportCancellationStatus to a reporting institution to provide the status of a RegulatoryTransactionReportCancellationRequest previously sent by the reporting institution.|Usage|The message definition may be used to provide a status for the entire report or to provide a status at the level of individual transactions within the report. One of the following statuses can be reported:|- Completed, or,|- Pending, or,|- Rejected.|If the status is rejected, then reason for the rejection must be specified.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the RegulatoryTransactionReportCancellationStatus document."
+    },
+    "ReportingInstitution": {
+      "name": "Reporting Institution",
+      "definition": "Identification of the firm that executed the transaction."
+    },
+    "ReportCancellationStatus": {
+      "name": "Report Cancellation Status",
+      "definition": "Provides the status of the entire RegulatoryTransactionReportCancellationRequest document that was previously sent by a reporting institution.||."
+    },
+    "IndividualTransactionCancellationStatus": {
+      "name": "Individual Transaction Cancellation Status",
+      "definition": "Provides the cancellation status of one or more transactions within a RegulatoryTransactionReportCancellationRequest that was previously sent by a reporting institution."
+    }
+  },
+  "isoRules": {
+    "ReportCancellationStatusOrIndividualTransactionCancellationStatusRule": {
+      "definition": "Either ReportCancellationStatus or IndividualTransactionCancellationStatus must be present, but not both."
+    }
+  }
+}

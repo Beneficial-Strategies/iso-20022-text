@@ -1,0 +1,396 @@
+{
+  "isoType": "TransactionMatchingCriteria7",
+  "language": "en",
+  "name": "Transaction Matching Criteria 7",
+  "definition": "Compares information related to both sides of a transaction.",
+  "isoElements": {
+    "ReportTrackingNumber": {
+      "name": "Report Tracking Number",
+      "definition": "Specifies whether the information on the reporting tracking numbers are matching or not."
+    },
+    "UniqueTransactionIdentifier": {
+      "name": "Unique Transaction Identifier",
+      "definition": "Specifies whether the information on the Unique Transaction Identifiers are matching or not."
+    },
+    "PriorUniqueTransactionIdentifier": {
+      "name": "Prior Unique Transaction Identifier",
+      "definition": "Specifies whether the information on the Prior Unique Transaction Identifiers are matching or not."
+    },
+    "SubsequentPositionUniqueTransactionIdentifier": {
+      "name": "Subsequent Position Unique Transaction Identifier",
+      "definition": "Specifies whether the information on the Subsequent Position Unique Transaction Identifiers are matching or not."
+    },
+    "Delta": {
+      "name": "Delta",
+      "definition": "Specifies whether the information on the delta are matching or not."
+    },
+    "TradeConfirmation": {
+      "name": "Trade Confirmation",
+      "definition": "Specifies whether the information on the trade confirmations are matching or not."
+    },
+    "TradeClearingObligation": {
+      "name": "Trade Clearing Obligation",
+      "definition": "Specifies whether the information on the trade clearing obligations are matching or not."
+    },
+    "TradeClearingStatus": {
+      "name": "Trade Clearing Status",
+      "definition": "Specifies whether the information on the trade clearing statuses are matching or not."
+    },
+    "MasterAgreementType": {
+      "name": "Master Agreement Type",
+      "definition": "Specifies whether the information on the master agreement types are matching or not."
+    },
+    "MasterAgreementVersion": {
+      "name": "Master Agreement Version",
+      "definition": "Specifies whether the information on the master agreement versions are matching or not."
+    },
+    "IntraGroup": {
+      "name": "Intra Group",
+      "definition": "Specifies whether the information on the intra groups are matching or not."
+    },
+    "PostTradeRiskReduction": {
+      "name": "Post Trade Risk Reduction",
+      "definition": "Specifies whether the information on the post trade risk reductions are matching or not."
+    },
+    "DerivativeEvent": {
+      "name": "Derivative Event",
+      "definition": "Specifies whether the information on the derivative event are matching or not."
+    },
+    "PlatformIdentifier": {
+      "name": "Platform Identifier",
+      "definition": "Specifies whether the information on the platform identifiers are matching or not."
+    },
+    "ExecutionTimeStamp": {
+      "name": "Execution Time Stamp",
+      "definition": "Specifies whether the information on the execution time stamps are matching or not."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Specifies whether the information on the effective dates are matching or not."
+    },
+    "ExpirationDate": {
+      "name": "Expiration Date",
+      "definition": "Specifies whether the information on the expiration dates are matching or not."
+    },
+    "EarlyTerminationDate": {
+      "name": "Early Termination Date",
+      "definition": "Specifies whether the information on the early termination dates are matching or not."
+    },
+    "SettlementDate": {
+      "name": "Settlement Date",
+      "definition": "Specifies whether the information on the settlement dates are matching or not."
+    },
+    "DeliveryType": {
+      "name": "Delivery Type",
+      "definition": "Specifies whether the information on the delivery types are matching or not."
+    },
+    "TransactionPrice": {
+      "name": "Transaction Price",
+      "definition": "Specifies whether the the transaction prices are matching or not."
+    },
+    "PriceScheduleUnadjustedEffectiveDate": {
+      "name": "Price Schedule Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "PriceScheduleUnadjustedEndDate": {
+      "name": "Price Schedule Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "TransactionSchedulePrice": {
+      "name": "Transaction Schedule Price",
+      "definition": "Specifies whether the information on the transaction price in effect between the unadjusted effective and end date are matching or not."
+    },
+    "PackagePrice": {
+      "name": "Package Price",
+      "definition": "Specifies whether the information on the package prices are matching or not."
+    },
+    "NotionalAmountFirstLeg": {
+      "name": "Notional Amount First Leg",
+      "definition": "Specifies whether the information on the notional amount first legs are matching or not."
+    },
+    "NotionalAmountFirstLegUnadjustedEffectiveDate": {
+      "name": "Notional Amount First Leg Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "NotionalAmountFirstLegUnadjustedEndDate": {
+      "name": "Notional Amount First Leg Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "NotionalAmountFirstLegScheduleAmount": {
+      "name": "Notional Amount First Leg Schedule Amount",
+      "definition": "Specifies whether the information on the notional amount in effect on associated effective date of first legs are matching or not."
+    },
+    "NotionalQuantityFirstLeg": {
+      "name": "Notional Quantity First Leg",
+      "definition": "Specifies whether the information on the notional quantity first legs are matching or not."
+    },
+    "NotionalQuantityFirstLegUnadjustedEffectiveDate": {
+      "name": "Notional Quantity First Leg Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "NotionalQuantityFirstLegUnadjustedEndDate": {
+      "name": "Notional Quantity First Leg Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "NotionalQuantityFirstLegScheduleQuantity": {
+      "name": "Notional Quantity First Leg Schedule Quantity",
+      "definition": "Specifies whether the information on the notional quantity in effect on associated effective date of first legs are matching or not."
+    },
+    "NotionalAmountSecondLeg": {
+      "name": "Notional Amount Second Leg",
+      "definition": "Specifies whether the information on the notional amount second legs are matching or not."
+    },
+    "NotionalAmountSecondLegUnadjustedEffectiveDate": {
+      "name": "Notional Amount Second Leg Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "NotionalAmountSecondLegUnadjustedEndDate": {
+      "name": "Notional Amount Second Leg Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "NotionalAmountSecondLegScheduleAmount": {
+      "name": "Notional Amount Second Leg Schedule Amount",
+      "definition": "Specifies whether the information on the notional amount in effect on associated effective date of second legs are matching or not."
+    },
+    "NotionalQuantitySecondLeg": {
+      "name": "Notional Quantity Second Leg",
+      "definition": "Specifies whether the information on the notional quantity second legs are matching or not."
+    },
+    "NotionalQuantitySecondLegUnadjustedEffectiveDate": {
+      "name": "Notional Quantity Second Leg Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "NotionalQuantitySecondLegUnadjustedEndDate": {
+      "name": "Notional Quantity Second Leg Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "NotionalQuantitySecondLegScheduleQuantity": {
+      "name": "Notional Quantity Second Leg Schedule Quantity",
+      "definition": "Specifies whether the information on the notional quantity in effect on associated effective date of second legs are matching or not."
+    },
+    "OtherPayment": {
+      "name": "Other Payment",
+      "definition": "Payment related to elements not reported in dedicated fields."
+    },
+    "InterestFixedRateFirstLeg": {
+      "name": "Interest Fixed Rate First Leg",
+      "definition": "Specifies whether the information on the interest fixed rate legs are matching or not."
+    },
+    "InterestFixedRateFirstLegDayCount": {
+      "name": "Interest Fixed Rate First Leg Day Count",
+      "definition": "Specifies whether the information on the day counts are matching or not."
+    },
+    "InterestFixedRateFirstLegPaymentFrequencyUnit": {
+      "name": "Interest Fixed Rate First Leg Payment Frequency Unit",
+      "definition": "Specifies whether the information on the payment frequency units are matching or not."
+    },
+    "InterestFixedRateFirstLegPaymentFrequencyValue": {
+      "name": "Interest Fixed Rate First Leg Payment Frequency Value",
+      "definition": "Specifies whether the information on the payment frequency values are matching or not."
+    },
+    "InterestFloatingRateFirstLegIdentification": {
+      "name": "Interest Floating Rate First Leg Identification",
+      "definition": "Specifies whether the information on the interest floating rate identifiers are matching or not."
+    },
+    "InterestFloatingRateFirstLegCode": {
+      "name": "Interest Floating Rate First Leg Code",
+      "definition": "Specifies whether the information on the interest floating rate codes are matching or not."
+    },
+    "InterestFloatingRateFirstLegName": {
+      "name": "Interest Floating Rate First Leg Name",
+      "definition": "Specifies whether the information on the interest floating rate names are matching or not."
+    },
+    "InterestFloatingRateFirstLegDayCount": {
+      "name": "Interest Floating Rate First Leg Day Count",
+      "definition": "Specifies whether the information on the day counts are matching or not."
+    },
+    "InterestFloatingRateFirstLegPaymentFrequencyUnit": {
+      "name": "Interest Floating Rate First Leg Payment Frequency Unit",
+      "definition": "Specifies whether the information on the payment frequency units are matching or not."
+    },
+    "InterestFloatingRateFirstLegPaymentFrequencyValue": {
+      "name": "Interest Floating Rate First Leg Payment Frequency Value",
+      "definition": "Specifies whether the information on the payment frequency values are matching or not."
+    },
+    "InterestFloatingRateFirstLegReferencePeriodUnit": {
+      "name": "Interest Floating Rate First Leg Reference Period Unit",
+      "definition": "Specifies whether the information on the reference period units are matching or not."
+    },
+    "InterestFloatingRateFirstLegReferencePeriodValue": {
+      "name": "Interest Floating Rate First Leg Reference Period Value",
+      "definition": "Specifies whether the information on the reference period values are matching or not."
+    },
+    "InterestFloatingRateFirstLegResetFrequencyUnit": {
+      "name": "Interest Floating Rate First Leg Reset Frequency Unit",
+      "definition": "Specifies whether the information on the reset frequency units are matching or not."
+    },
+    "InterestFloatingRateFirstLegResetFrequencyValue": {
+      "name": "Interest Floating Rate First Leg Reset Frequency Value",
+      "definition": "Specifies whether the information on the reset frequency values are matching or not."
+    },
+    "InterestFloatingRateFirstLegSpread": {
+      "name": "Interest Floating Rate First Leg Spread",
+      "definition": "Specifies whether the information on the spreads are matching or not."
+    },
+    "InterestRateFixedSecondLeg": {
+      "name": "Interest Rate Fixed Second Leg",
+      "definition": "Specifies whether the information on the interest fixed rate legs are matching or not."
+    },
+    "InterestFixedRateSecondLegDayCount": {
+      "name": "Interest Fixed Rate Second Leg Day Count",
+      "definition": "Specifies whether the information on the day counts are matching or not."
+    },
+    "InterestFixedRateSecondLegPaymentFrequencyUnit": {
+      "name": "Interest Fixed Rate Second Leg Payment Frequency Unit",
+      "definition": "Specifies whether the information on the payment frequency units are matching or not."
+    },
+    "InterestFixedRateSecondLegPaymentFrequencyValue": {
+      "name": "Interest Fixed Rate Second Leg Payment Frequency Value",
+      "definition": "Specifies whether the information on the payment frequency values are matching or not."
+    },
+    "InterestFloatingRateSecondLegIdentification": {
+      "name": "Interest Floating Rate Second Leg Identification",
+      "definition": "Specifies whether the information on the interest floating rate identifiers are matching or not."
+    },
+    "InterestFloatingRateSecondLegCode": {
+      "name": "Interest Floating Rate Second Leg Code",
+      "definition": "Specifies whether the information on the interest floating rate codes are matching or not."
+    },
+    "InterestFloatingRateSecondLegName": {
+      "name": "Interest Floating Rate Second Leg Name",
+      "definition": "Specifies whether the information on the interest floating rate names are matching or not."
+    },
+    "InterestFloatingRateSecondLegDayCount": {
+      "name": "Interest Floating Rate Second Leg Day Count",
+      "definition": "Specifies whether the information on the day counts are matching or not."
+    },
+    "InterestFloatingRateSecondLegPaymentFrequencyUnit": {
+      "name": "Interest Floating Rate Second Leg Payment Frequency Unit",
+      "definition": "Specifies whether the information on the payment frequency units are matching or not."
+    },
+    "InterestFloatingRateSecondLegPaymentFrequencyValue": {
+      "name": "Interest Floating Rate Second Leg Payment Frequency Value",
+      "definition": "Specifies whether the information on the payment frequency values are matching or not."
+    },
+    "InterestFloatingRateSecondLegReferencePeriodUnit": {
+      "name": "Interest Floating Rate Second Leg Reference Period Unit",
+      "definition": "Specifies whether the information on the reference period units are matching or not."
+    },
+    "InterestFloatingRateSecondLegReferencePeriodValue": {
+      "name": "Interest Floating Rate Second Leg Reference Period Value",
+      "definition": "Specifies whether the information on the reference period values are matching or not."
+    },
+    "InterestFloatingRateSecondLegResetFrequencyUnit": {
+      "name": "Interest Floating Rate Second Leg Reset Frequency Unit",
+      "definition": "Specifies whether the information on the reset frequency units are matching or not."
+    },
+    "InterestFloatingRateSecondLegResetFrequencyValue": {
+      "name": "Interest Floating Rate Second Leg Reset Frequency Value",
+      "definition": "Specifies whether the information on the reset frequency values are matching or not."
+    },
+    "InterestFloatingRateSecondLegSpread": {
+      "name": "Interest Floating Rate Second Leg Spread",
+      "definition": "Specifies whether the information on the spreads are matching or not."
+    },
+    "PackageSpread": {
+      "name": "Package Spread",
+      "definition": "Specifies whether the information on the package spreads are matching or not."
+    },
+    "CurrencyExchangeRate": {
+      "name": "Currency Exchange Rate",
+      "definition": "Specifies whether the information on the currency exchange rates are matching or not."
+    },
+    "CurrencyForwardExchangeRate": {
+      "name": "Currency Forward Exchange Rate",
+      "definition": "Specifies whether the information on the forward currency exchange rates are matching or not."
+    },
+    "CurrencyExchangeRateBasis": {
+      "name": "Currency Exchange Rate Basis",
+      "definition": "Specifies whether the information on the currency exchange rate basis are matching or not."
+    },
+    "Commodity": {
+      "name": "Commodity",
+      "definition": "Specifies whether the information on the commodities are matching or not."
+    },
+    "EnergyDeliveryPointOrZone": {
+      "name": "Energy Delivery Point Or Zone",
+      "definition": "Specifies whether the information on the delivery points or zones are matching or not."
+    },
+    "EnergyInterConnectionPoint": {
+      "name": "Energy Inter Connection Point",
+      "definition": "Specifies whether the information on the interconnection points are matching or not."
+    },
+    "EnergyLoadType": {
+      "name": "Energy Load Type",
+      "definition": "Specifies whether the information on the load types are matching or not."
+    },
+    "DeliveryAttribute": {
+      "name": "Delivery Attribute",
+      "definition": "Attributes related to delivery of derivative contracts."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether the information on the option types are matching or not."
+    },
+    "OptionExerciseStyle": {
+      "name": "Option Exercise Style",
+      "definition": "Specifies whether the information on the exercise styles are matching or not."
+    },
+    "OptionStrikePrice": {
+      "name": "Option Strike Price",
+      "definition": "Specifies whether the information on the strike prices are matching or not."
+    },
+    "OptionStrikePriceScheduleUnadjustedEffectiveDate": {
+      "name": "Option Strike Price Schedule Unadjusted Effective Date",
+      "definition": "Specifies whether the information on the unadjusted effective dates are matching or not."
+    },
+    "OptionStrikePriceScheduleUnadjustedEndDate": {
+      "name": "Option Strike Price Schedule Unadjusted End Date",
+      "definition": "Specifies whether the information on the unadjusted end dates are matching or not."
+    },
+    "OptionStrikePriceScheduleAmount": {
+      "name": "Option Strike Price Schedule Amount",
+      "definition": "Specifies whether the information on the strike price in effect on associated effective dates are matching or not."
+    },
+    "OptionPremiumAmount": {
+      "name": "Option Premium Amount",
+      "definition": "Specifies whether the information on the premium amounts are matching or not."
+    },
+    "OptionPremiumPaymentDate": {
+      "name": "Option Premium Payment Date",
+      "definition": "Specifies whether the information on the premium payment dates are matching or not."
+    },
+    "OptionMaturityDateOfUnderlying": {
+      "name": "Option Maturity Date Of Underlying",
+      "definition": "Specifies whether the information on the maturity date of the underlying are matching or not."
+    },
+    "CreditSeniority": {
+      "name": "Credit Seniority",
+      "definition": "Specifies whether the information on the credity seniority are matching or not."
+    },
+    "CreditReferenceParty": {
+      "name": "Credit Reference Party",
+      "definition": "Specifies whether the information on the credit reference parties are matching or not."
+    },
+    "CreditSeries": {
+      "name": "Credit Series",
+      "definition": "Specifies whether the information on the credit series are matching or not."
+    },
+    "CreditVersion": {
+      "name": "Credit Version",
+      "definition": "Specifies whether the information on the credit versions are matching or not."
+    },
+    "CreditIndexFactor": {
+      "name": "Credit Index Factor",
+      "definition": "Specifies whether the information on the index factors are matching or not."
+    },
+    "CreditTranche": {
+      "name": "Credit Tranche",
+      "definition": "Specifies whether the information on the credit tranches are matching or not."
+    },
+    "Level": {
+      "name": "Level",
+      "definition": "Specifies whether the information on the levels are matching or not."
+    }
+  }
+}

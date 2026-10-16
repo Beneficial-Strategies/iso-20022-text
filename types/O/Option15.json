@@ -1,0 +1,72 @@
+{
+  "isoType": "Option15",
+  "language": "en",
+  "name": "Option 15",
+  "definition": "Contracts which grant to the holder either the privilege to purchase or the privilege to sell the assets specified at a predetermined price or formula at or within a time in the future.",
+  "isoElements": {
+    "OptionSettlementStyle": {
+      "name": "Option Settlement Style",
+      "definition": "Specifies whether the option contract settles at the open or close of the market."
+    },
+    "ConversionDate": {
+      "name": "Conversion Date",
+      "definition": "Deadline by which a convertible security must be converted according to the terms of the issue."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Amount of money for which goods, services or assets are offered, sold, or bought."
+    },
+    "MinimumExercisableQuantity": {
+      "name": "Minimum Exercisable Quantity",
+      "definition": "Minimum quantity of securities that must be exercised."
+    },
+    "ConversionPeriod": {
+      "name": "Conversion Period",
+      "definition": "Period during which a convertible security may be converted according to the terms of the issue."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised (American, European, Bermudan)."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a Call option (right to purchase a specific underlying asset) or a Put option (right to sell a specific underlying asset)."
+    },
+    "StrikeValue": {
+      "name": "Strike Value",
+      "definition": "Used for derivatives. The number of shares/units for the financial instrument involved in the option trade."
+    },
+    "StrikeMultiplier": {
+      "name": "Strike Multiplier",
+      "definition": "Used for derivatives. Multiplier applied to the strike price for the purpose of calculating the settlement value."
+    },
+    "InstrumentAssignmentMethod": {
+      "name": "Instrument Assignment Method",
+      "definition": "Method under which assignment was conducted."
+    },
+    "VersionNumber": {
+      "name": "Version Number",
+      "definition": "Number allocated by options exchanges to record that an option has undergone a change in its contract specifications (particularly adjustment of the strike price)."
+    },
+    "ExpiryLocation": {
+      "name": "Expiry Location",
+      "definition": "Financial center where option expires."
+    },
+    "Standardisation": {
+      "name": "Standardisation",
+      "definition": "Specifies whether the terms of the security (underlying instruments, expiration date, contract size) are defined according to the exchange specifications or whether they can be user defined."
+    },
+    "TradingPartyRole": {
+      "name": "Trading Party Role",
+      "definition": "Specifies the party which is the buyer or the seller."
+    },
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a quantity."
+    },
+    "AdditionalUnderlyingAttributes": {
+      "name": "Additional Underlying Attributes",
+      "definition": "Provides more information about the underlying instrument."
+    }
+  }
+}

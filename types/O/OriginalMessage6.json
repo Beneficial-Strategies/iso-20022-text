@@ -1,0 +1,32 @@
+{
+  "isoType": "OriginalMessage6",
+  "language": "en",
+  "name": "Original Message 6",
+  "definition": "Unique and unambiguous identification of the original message references.",
+  "isoElements": {
+    "OriginalSender": {
+      "name": "Original Sender",
+      "definition": "Original message sender used to identify the message."
+    },
+    "OriginalMessageIdentification": {
+      "name": "Original Message Identification",
+      "definition": "Point to point reference assigned by the original instructing party to unambiguously identify the original group of individual transactions."
+    },
+    "OriginalMessageNameIdentification": {
+      "name": "Original Message Name Identification",
+      "definition": "Specifies the original message name identifier to which the message refers, such as pacs.003.001.01 or MT103."
+    },
+    "OriginalCreationDateTime": {
+      "name": "Original Creation Date Time",
+      "definition": "Original date and time at which the message was created."
+    },
+    "OriginalPackageIdentification": {
+      "name": "Original Package Identification",
+      "definition": "Specifies the identification of original package of instructions, entries or records."
+    },
+    "OriginalRecordIdentification": {
+      "name": "Original Record Identification",
+      "definition": "Specifies the identification of original entry, instruction or record within the package."
+    }
+  }
+}

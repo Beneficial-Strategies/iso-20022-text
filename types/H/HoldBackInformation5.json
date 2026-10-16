@@ -1,0 +1,36 @@
+{
+  "isoType": "HoldBackInformation5",
+  "language": "en",
+  "name": "Hold Back Information 5",
+  "definition": "Information about hold back and gating.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of gating or a hold back."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Value of the redemption amount subject to gating or a hold back."
+    },
+    "ExpectedReleaseDate": {
+      "name": "Expected Release Date",
+      "definition": "Date on which the gated amount or hold back amount is expected to be released."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "New identification of the security."
+    },
+    "FinancialInstrumentName": {
+      "name": "Financial Instrument Name",
+      "definition": "New name of the security."
+    },
+    "RedemptionCompletion": {
+      "name": "Redemption Completion",
+      "definition": "Specifies whether or not additional redemption order instructions are required in order for the redemption to be completed."
+    },
+    "FinalConfirmation": {
+      "name": "Final Confirmation",
+      "definition": "Indicates whether or not this is the final redemption confirmation in the execution of a gated redemption."
+    }
+  }
+}

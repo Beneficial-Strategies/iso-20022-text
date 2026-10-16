@@ -1,0 +1,84 @@
+{
+  "isoType": "OptionTransactionSD6",
+  "language": "en",
+  "name": "Option Transaction SD 6",
+  "definition": "Provides additional information regarding corporate action movement option details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique number assigned by the depository. Transaction identification will be either the DTC Instruction reference number for reorganisation instructions (VOI) or the DAM reference number for custody / reorganisation deposits."
+    },
+    "TransactionSequenceNumber": {
+      "name": "Transaction Sequence Number",
+      "definition": "Number which further identifies DTC instruction reference number. Not applicable to reorganisation / custody deposits."
+    },
+    "TransactionIdentificationDate": {
+      "name": "Transaction Identification Date",
+      "definition": "Instruction date and time for reorganisation instructions or the deposit date for reorganisation / custody deposits."
+    },
+    "TransactionIdentificationQuantity": {
+      "name": "Transaction Identification Quantity",
+      "definition": "Instructed quantity for reorganisation instructions or the deposit quantity for reorganisation / custody deposits."
+    },
+    "TransactionIdentificationOversubscriptionQuantity": {
+      "name": "Transaction Identification Oversubscription Quantity",
+      "definition": "Oversubscribed quantity of the instruction."
+    },
+    "AcceptedQuantity": {
+      "name": "Accepted Quantity",
+      "definition": "For prorated events, portion of the instructed units that was accepted by the Issuer / Agent."
+    },
+    "UnacceptedQuantity": {
+      "name": "Unaccepted Quantity",
+      "definition": "For prorated events, the portion of the instructed quantity that was not accepted by the Issuer / Agent."
+    },
+    "EntitledAmount": {
+      "name": "Entitled Amount",
+      "definition": "Amount based upon the DTC cash rate per instruction."
+    },
+    "EntitledQuantity": {
+      "name": "Entitled Quantity",
+      "definition": "Quantity based upon the DTC security rate per instruction."
+    },
+    "EntitledOversubscriptionQuantity": {
+      "name": "Entitled Oversubscription Quantity",
+      "definition": "Entitled units for the oversubscription."
+    },
+    "SubscriptionAmount": {
+      "name": "Subscription Amount",
+      "definition": "Amount paid to the issuer / agent for subscription cost."
+    },
+    "OversubscriptionAmount": {
+      "name": "Oversubscription Amount",
+      "definition": "Amount paid to the issuer / agent for the oversubscription cost."
+    },
+    "CashInLieuOfShare": {
+      "name": "Cash In Lieu Of Share",
+      "definition": "Cash disbursement in lieu of a fractional quantity of, for example, equity."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by client upon instruction submission."
+    },
+    "AgentEnteredQuantity": {
+      "name": "Agent Entered Quantity",
+      "definition": "Quantity entered by the agent on PUT (Mortgage Backed) instructions to be paid. This quantity can be for the full or partial instructed quantity."
+    },
+    "InstructionComments": {
+      "name": "Instruction Comments",
+      "definition": "Client free format instruction narrative information. Will be 80 characters for tender instructions, 150 characters for rights instructions and 20 characters for put instructions."
+    },
+    "AdjustedSubscriptionAmount": {
+      "name": "Adjusted Subscription Amount",
+      "definition": "Amount of money debited or credited to adjust for the difference between the estimated and the final subscription rate for Rights Exercise events."
+    },
+    "RefundedSubscriptionAmount": {
+      "name": "Refunded Subscription Amount",
+      "definition": "Amount of money refunded from the original subscription cost for a Rights Exercise event.  This occurs when the event is prorated and the subscription cost relating to the unaffected (unaccepted) balance is returned to the holder."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "InstrumentIdentification6Choice",
+  "language": "en",
+  "name": "Instrument Identification 6 Choice",
+  "definition": "Choice between different instrument identification schemes.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "AlternativeInstrumentIdentification": {
+      "name": "Alternative Instrument Identification",
+      "definition": "Proprietary identification of a security assigned by an institution or organisation."
+    },
+    "UniqueProductIdentifier": {
+      "name": "Unique Product Identifier",
+      "definition": "Identification through a unique product identifier."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Other identification of a security assigned by an institution or organisation."
+    }
+  }
+}

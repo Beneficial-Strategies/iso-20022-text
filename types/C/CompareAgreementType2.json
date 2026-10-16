@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareAgreementType2",
+  "language": "en",
+  "name": "Compare Agreement Type 2",
+  "definition": "Specifies whether the infromation on the type of the master agrement is matching or not.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

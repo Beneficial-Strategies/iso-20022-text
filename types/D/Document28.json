@@ -1,0 +1,76 @@
+{
+  "isoType": "Document28",
+  "language": "en",
+  "name": "Document 28",
+  "definition": "General information that unambiguously identifies a document, such as identification number and issue date time.",
+  "isoElements": {
+    "TechnicalRecordIdentifier": {
+      "name": "Technical Record Identifier",
+      "definition": "Unique identifier of a document or data record in a message used as part of error management and status advice messages.||Usage:|This identification will be used in the status advice report sent back."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Specifies the version number of the document or data record submitted."
+    },
+    "SubmissionType": {
+      "name": "Submission Type",
+      "definition": "Indication as to whether the report is new or a previous report is amended or cancelled."
+    },
+    "RelatedEntity": {
+      "name": "Related Entity",
+      "definition": "Entity to which the information relates."
+    },
+    "RegulatoryDataType": {
+      "name": "Regulatory Data Type",
+      "definition": "Type of information in accordance with a taxonomy relevant for a legal act."
+    },
+    "Voluntary": {
+      "name": "Voluntary",
+      "definition": "Indication as to whether the information is submitted on a voluntary basis.||Usage: True if the information is submitted on a voluntary basis. If the element is not present, the Voluntary flag is False."
+    },
+    "HistoricalData": {
+      "name": "Historical Data",
+      "definition": "Information whether the regulatory data is historical data.||Usage: True if the regulatory data is historical data. If the element is not present, the historical data flag is 'false'."
+    },
+    "RelatedPeriod": {
+      "name": "Related Period",
+      "definition": "Period to which the information relates."
+    },
+    "PersonalData": {
+      "name": "Personal Data",
+      "definition": "Indication whether the information contains personal data.||Usage: True if the information contains personal data. If the element is not present, the personal data flag is 'false'."
+    },
+    "PublicationPeriod": {
+      "name": "Publication Period",
+      "definition": "Period during which the regulatory data should be published."
+    },
+    "SubmissionDateTime": {
+      "name": "Submission Date Time",
+      "definition": "Date and time when the regulatory data was submitted by the submitting entity to the collection body."
+    },
+    "HomeCountry": {
+      "name": "Home Country",
+      "definition": "Home member state as defined in the legal framework for the type of information."
+    },
+    "HostCountry": {
+      "name": "Host Country",
+      "definition": "Host member state as defined in the legal framework for the type of information."
+    },
+    "RelatedProductIdentifier": {
+      "name": "Related Product Identifier",
+      "definition": "ISIN or other product identifier to which the regulatory data relates."
+    },
+    "DocumentReference": {
+      "name": "Document Reference",
+      "definition": "Reference to the document containing the regulatory data."
+    },
+    "RelatedRegulatoryData": {
+      "name": "Related Regulatory Data",
+      "definition": "Identifier of related regulatory data."
+    },
+    "DataRecord": {
+      "name": "Data Record",
+      "definition": "Regulatory data when included inside the message."
+    }
+  }
+}

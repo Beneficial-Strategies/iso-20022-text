@@ -1,0 +1,24 @@
+{
+  "isoType": "CollateralValuation7",
+  "language": "en",
+  "name": "Collateral Valuation 7",
+  "definition": "Provides the specification of the valuation of a collateral, based on the sector and the asset classification.",
+  "isoElements": {
+    "PoolStatus": {
+      "name": "Pool Status",
+      "definition": "Specifies whether the collateral is a pool collateral or not."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the asset class pledged as collateral, expressed as an ISO 10962 Classification of Financial Instrument (CFI)."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "Provides the institutional sector, such as central government, central bank, etc. of the issuer of collateral."
+    },
+    "NominalAmount": {
+      "name": "Nominal Amount",
+      "definition": "Nominal amount of money of the security pledged as collateral, when the collateral cannot be identified through an individual or basket ISIN."
+    }
+  }
+}

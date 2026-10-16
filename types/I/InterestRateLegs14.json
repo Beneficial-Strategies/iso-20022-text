@@ -1,0 +1,21 @@
+{
+  "isoType": "InterestRateLegs14",
+  "language": "en",
+  "name": "Interest Rate Legs 14",
+  "definition": "Details related to interest rate attributes.",
+  "isoElements": {
+    "FirstLeg": {
+      "name": "First Leg",
+      "definition": "Details concerning the rate in the first leg of an interest rate contract."
+    },
+    "SecondLeg": {
+      "name": "Second Leg",
+      "definition": "Details concerning the rate in the second leg of an interest rate contract."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

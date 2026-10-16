@@ -1,0 +1,28 @@
+{
+  "isoType": "CardPaymentDataSetTransaction55",
+  "language": "en",
+  "name": "Card Payment Data Set Transaction 55",
+  "definition": "Completed card payment transaction to be captured in batch.",
+  "isoElements": {
+    "TransactionSequenceCounter": {
+      "name": "Transaction Sequence Counter",
+      "definition": "Sequential counter of the transaction."
+    },
+    "Traceability": {
+      "name": "Traceability",
+      "definition": "Identification of partners involved in the exchange from the merchant to the issuer, with the corresponding timestamp of their exchanges."
+    },
+    "Environment": {
+      "name": "Environment",
+      "definition": "Data related to the environment of the transaction in a transaction captured in batch."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Data related to the context of the transaction."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Transaction information to be captured."
+    }
+  }
+}

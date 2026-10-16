@@ -1,0 +1,31 @@
+{
+  "isoType": "IssuanceAccount3",
+  "language": "en",
+  "name": "Issuance Account 3",
+  "definition": "Defines the account to or from which a securities entry is made and the usage type.",
+  "isoElements": {
+    "IssuanceAccount": {
+      "name": "Issuance Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "IssuanceBlockChainAddressOrWallet": {
+      "name": "Issuance Block Chain Address Or Wallet",
+      "definition": "issuance blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "PrimaryAccountIndicator": {
+      "name": "Primary Account Indicator",
+      "definition": "Defines if the related issuance account is the primary account or not."
+    }
+  },
+  "isoRules": {
+    "IssuanceAccountOrBlockChainAddress1Rule": {
+      "definition": "If IssuanceAccount is present, IssuanceBlockChainAddressOrWallet must be absent."
+    },
+    "IssuanceAccountOrBlockChainAddress2Rule": {
+      "definition": "If IssuanceBlockChainAddressOrWallet is present, IssuanceAccount must be absent."
+    },
+    "SecuritiesAccountOrBlockChainAddress3Rule": {
+      "definition": "Either IssuanceAccount or IssuanceBlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "isoType": "CurrencyControlGroupStatus3",
+  "language": "en",
+  "name": "Currency Control Group Status 3",
+  "definition": "Provides the currency control group status details.",
+  "isoElements": {
+    "OriginalReferences": {
+      "name": "Original References",
+      "definition": "Original underlying message references for which the status advice is provided."
+    },
+    "ReportingParty": {
+      "name": "Reporting Party",
+      "definition": "Party registering the currency control contract."
+    },
+    "RegistrationAgent": {
+      "name": "Registration Agent",
+      "definition": "Agent which registers the currency control contract."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "For daily reporting this is the day to which the transaction data in the status message refers to.|For periodic reporting this is the first and the last day to which the transaction data in the status message refers."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provides the status for the full report."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Provides detailed information on the status reason."
+    },
+    "StatusDateTime": {
+      "name": "Status Date Time",
+      "definition": "Provides the date and time when the status was issued."
+    }
+  }
+}

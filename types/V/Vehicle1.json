@@ -1,0 +1,60 @@
+{
+  "isoType": "Vehicle1",
+  "language": "en",
+  "name": "Vehicle 1",
+  "definition": "Information related to a vehicle used during a transaction.",
+  "isoElements": {
+    "VehicleNumber": {
+      "name": "Vehicle Number",
+      "definition": "Number assigned to the vehicle for identification."
+    },
+    "TrailerNumber": {
+      "name": "Trailer Number",
+      "definition": "Number assigned to the vehicle trailer for identification."
+    },
+    "VehicleTag": {
+      "name": "Vehicle Tag",
+      "definition": "Registration tag of the vehicle."
+    },
+    "VehicleTagEntryMode": {
+      "name": "Vehicle Tag Entry Mode",
+      "definition": "Entry mode of the registration tag."
+    },
+    "UnitNumber": {
+      "name": "Unit Number",
+      "definition": "Identification of the vehicle in the fleet."
+    },
+    "ReplacementCar": {
+      "name": "Replacement Car",
+      "definition": "True if the car is a replacement car."
+    },
+    "Odometer": {
+      "name": "Odometer",
+      "definition": "Odometer reading value indicating the distance travelled by the vehicle."
+    },
+    "Hubometer": {
+      "name": "Hubometer",
+      "definition": "Hubometer reading value indicating the distance travelled by the trailer."
+    },
+    "TrailerHours": {
+      "name": "Trailer Hours",
+      "definition": "Number of hours the trailer has been in operation."
+    },
+    "ReferHours": {
+      "name": "Refer Hours",
+      "definition": "Number of hours the refer unit has been in operation."
+    },
+    "MaintenanceIdentification": {
+      "name": "Maintenance Identification",
+      "definition": "Identification assigned to the vehicle related to maintenance."
+    },
+    "DriverOrVehicleCard": {
+      "name": "Driver Or Vehicle Card",
+      "definition": "Second card presented for the payment transaction."
+    },
+    "AdditionalVehicleData": {
+      "name": "Additional Vehicle Data",
+      "definition": "Additional information related to the vehicle."
+    }
+  }
+}

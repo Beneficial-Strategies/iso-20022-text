@@ -1,0 +1,32 @@
+{
+  "isoType": "DetailedAmount16",
+  "language": "en",
+  "name": "Detailed Amount 16",
+  "definition": "Amounts of the deposit transaction.",
+  "isoElements": {
+    "AccountSequenceNumber": {
+      "name": "Account Sequence Number",
+      "definition": "Link to the account for multi-account deposit."
+    },
+    "AmountToDeposit": {
+      "name": "Amount To Deposit",
+      "definition": "Amount of the deposit to be made on the ATM after the approval of the deposit transaction."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the amount to deposit when different from the base currency of the ATM."
+    },
+    "CashBackAmount": {
+      "name": "Cash Back Amount",
+      "definition": "Cashback amount value."
+    },
+    "Fees": {
+      "name": "Fees",
+      "definition": "Deposit fees, accepted by the customer."
+    },
+    "Donation": {
+      "name": "Donation",
+      "definition": "Amount of the donation."
+    }
+  }
+}

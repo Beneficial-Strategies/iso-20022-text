@@ -6,7 +6,7 @@
   "isoElements": {
     "AccountOwnerTransactionIdentification": {
       "name": "Account Owner Transaction Identification",
-      "definition": ""
+      "definition": "Unambiguous identification of the transaction as known by the account owner (or the instructing party managing the account)."
     },
     "AccountServicerTransactionIdentification": {
       "name": "Account Servicer Transaction Identification",
@@ -26,31 +26,31 @@
     },
     "AccountOwner": {
       "name": "Account Owner",
-      "definition": ""
+      "definition": "Party that legally owns the account."
     },
     "SafekeepingAccount": {
       "name": "Safekeeping Account",
-      "definition": ""
+      "definition": "Account to or from which a securities entry is made."
     },
     "BlockChainAddressOrWallet": {
       "name": "Block Chain Address Or Wallet",
-      "definition": ""
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
     },
     "TransactionDetails": {
       "name": "Transaction Details",
-      "definition": ""
+      "definition": "Identifies the details of the transaction."
     },
     "CancellationReason": {
       "name": "Cancellation Reason",
-      "definition": ""
+      "definition": "Specifies the reason of the cancellation."
     },
     "FXCancellation": {
       "name": "FX Cancellation",
-      "definition": ""
+      "definition": "Specifies whether an associated FX should be cancelled."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   },
   "isoRules": {

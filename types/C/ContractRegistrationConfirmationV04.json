@@ -1,0 +1,20 @@
+{
+  "isoType": "ContractRegistrationConfirmationV04",
+  "language": "en",
+  "name": "Contract Registration Confirmation V 04",
+  "definition": "The ContractRegistrationConfirmation message is sent by the registration agent to the reporting party to register the contract subject to currency control.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": "Characteristics shared by all individual items included in the message."
+    },
+    "RegisteredContract": {
+      "name": "Registered Contract",
+      "definition": "Identifies the contract details which is registered for currency control."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

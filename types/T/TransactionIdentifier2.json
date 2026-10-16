@@ -1,0 +1,16 @@
+{
+  "isoType": "TransactionIdentifier2",
+  "language": "en",
+  "name": "Transaction Identifier 2",
+  "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents.",
+  "isoElements": {
+    "ReconciliationDate": {
+      "name": "Reconciliation Date",
+      "definition": "Date of the reconciliation.|It correspond to the ISO 8583 field number 28 for the versions 1993 and 2003."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Identification of the reconciliation.|It correspond to the ISO 8583 field number 29 for the versions 1993 and 2003."
+    }
+  }
+}

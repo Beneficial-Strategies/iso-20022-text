@@ -1,0 +1,20 @@
+{
+  "isoType": "ConfirmationStatus1Choice",
+  "language": "en",
+  "name": "Confirmation Status 1 Choice",
+  "definition": "Status of the confirmation.",
+  "isoElements": {
+    "ConfirmationRejected": {
+      "name": "Confirmation Rejected",
+      "definition": "Status of the order confirmation is rejected."
+    },
+    "AmendmentRejected": {
+      "name": "Amendment Rejected",
+      "definition": "Status of the order confirmation amendment is rejected."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Status of the order confirmation is accepted or received or sent to next party or there is a communication problem with next party. There is no reason attached."
+    }
+  }
+}

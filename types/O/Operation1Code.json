@@ -1,0 +1,23 @@
+{
+  "isoType": "Operation1Code",
+  "language": "en",
+  "name": "Operation 1 Code",
+  "definition": "Indicates the relationship between two variables.",
+  "isoCodes": {
+    "TILL": {
+      "isoName": "Till",
+      "name": "Till",
+      "definition": "Indicates a range delimited by two variables."
+    },
+    "ORRR": {
+      "isoName": "Or",
+      "name": "Or",
+      "definition": "Indicates either of two variables is valid, but not both."
+    },
+    "ANDD": {
+      "isoName": "And",
+      "name": "And",
+      "definition": "Indicates that only when both variables are given, the operation is valid."
+    }
+  }
+}

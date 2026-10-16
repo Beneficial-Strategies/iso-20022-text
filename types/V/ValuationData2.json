@@ -1,0 +1,24 @@
+{
+  "isoType": "ValuationData2",
+  "language": "en",
+  "name": "Valuation Data 2",
+  "definition": "Set of data which contains the link to the opening of the non deliverable trade and supplementary information on its valuation.",
+  "isoElements": {
+    "ValuationReference": {
+      "name": "Valuation Reference",
+      "definition": "Reference to the latest trade identification of the NDF opening trade."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Specifies the currency in which the non deliverable trade has to be settled ie the deliverable currency."
+    },
+    "AdditionalValuationInformation": {
+      "name": "Additional Valuation Information",
+      "definition": "Free format text that may contain information on the valuation such as the currency, the place, the time or the source of the rate."
+    },
+    "SettlementParty": {
+      "name": "Settlement Party",
+      "definition": "Party through which the settlement will take place. It may contain the BIC of a central settlement system eg CLSBUS33."
+    }
+  }
+}

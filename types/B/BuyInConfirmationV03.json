@@ -1,0 +1,28 @@
+{
+  "isoType": "BuyInConfirmationV03",
+  "language": "en",
+  "name": "Buy In Confirmation V 03",
+  "definition": "Scope|The Buy In Confirmation message is sent by the central counterparty (CCP) to the clearing member to confirm the details of the transaction resulting from the buy in.||The message definition is intended for use with the ISO 20022 Business Application Header.||Usage|The Buy In Confirmation message is sent by the central counterparty (CCP) to confirm the details of the buy in transaction.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as known by the instructing party."
+    },
+    "ClearingMember": {
+      "name": "Clearing Member",
+      "definition": "Provides the identification of the clearing member (individual clearing member or general clearing member)."
+    },
+    "BuyInDetails": {
+      "name": "Buy In Details",
+      "definition": "Provides the buy-in details."
+    },
+    "OriginalSettlementObligation": {
+      "name": "Original Settlement Obligation",
+      "definition": "Provides details about the original settlement obligation that did not settle and for which the buy in process will be launched."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

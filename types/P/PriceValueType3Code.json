@@ -1,0 +1,63 @@
+{
+  "isoType": "PriceValueType3Code",
+  "language": "en",
+  "name": "Price Value Type 3 Code",
+  "definition": "Specifies a type of value of the price.",
+  "isoCodes": {
+    "DISC": {
+      "isoName": "Discount",
+      "name": "Discount",
+      "definition": "Price expressed as a number of percentage points below par, for example, a discount price of 2.0% equals a price of 98 when par is 100."
+    },
+    "PREM": {
+      "isoName": "Premium",
+      "name": "Premium",
+      "definition": "Price expressed as a number of percentage points above par, for example, a premium price of 2.0% equals a price of 102 when par is 100."
+    },
+    "PARV": {
+      "isoName": "Par",
+      "name": "Par",
+      "definition": "Price is the face amount."
+    },
+    "YIEL": {
+      "isoName": "Yield",
+      "name": "Yield",
+      "definition": "Price expressed as a yield."
+    },
+    "SPRE": {
+      "isoName": "Spread",
+      "name": "Spread",
+      "definition": "Difference between a market maker's bid and asked price."
+    },
+    "PEUN": {
+      "isoName": "PerUnit",
+      "name": "Per Unit",
+      "definition": "Price expressed per unit."
+    },
+    "ABSO": {
+      "isoName": "Absolute",
+      "name": "Absolute",
+      "definition": "Price is expressed as absolute."
+    },
+    "TEDP": {
+      "isoName": "TEDPrice",
+      "name": "TED Price",
+      "definition": "Price is expressed as Treasury Euro Dollar price."
+    },
+    "TEDY": {
+      "isoName": "TEDYield",
+      "name": "TED Yield",
+      "definition": "Price is expressed as Treasury Euro Dollar yield."
+    },
+    "FICT": {
+      "isoName": "FixedCabinetTrade",
+      "name": "Fixed Cabinet Trade",
+      "definition": "Cabinet trades are used to indicate prices that trade at a price lower than that available on an exchange and they can be fixed or variable (primarily used for listed futures and options)."
+    },
+    "VACT": {
+      "isoName": "VariableCabinetTrade",
+      "name": "Variable Cabinet Trade",
+      "definition": "Cabinet trades are used to indicate prices that trade at a price lower than that available on an exchange and they can be fixed or variable (primarily used for listed futures and options)."
+    }
+  }
+}

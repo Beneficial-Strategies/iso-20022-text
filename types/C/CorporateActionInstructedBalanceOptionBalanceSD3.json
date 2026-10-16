@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionInstructedBalanceOptionBalanceSD3",
+  "language": "en",
+  "name": "Corporate Action Instructed Balance Option Balance SD 3",
+  "definition": "Provides additional information regarding corporate action instructed balance details at option level.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "OptionNumber": {
+      "name": "Option Number",
+      "definition": "Option Number of the extended balances."
+    },
+    "OptionUncoveredProtectBalance": {
+      "name": "Option Uncovered Protect Balance",
+      "definition": "Balance of uncovered protect transactions at an option level."
+    },
+    "OptionOversubscriptionQuantity": {
+      "name": "Option Oversubscription Quantity",
+      "definition": "For rights subscription events, total number of oversubscribed units. When there is an oversubscription privilege, this quantity will be included within the Instructed quantity in the core message."
+    },
+    "OptionUnacceptedBalance": {
+      "name": "Option Unaccepted Balance",
+      "definition": "For election merger events, the balance that is being moved into another option number for payment due to the proration of the original option."
+    }
+  }
+}

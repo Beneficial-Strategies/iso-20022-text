@@ -1,0 +1,77 @@
+{
+  "isoType": "ProcessingCharacteristics12",
+  "language": "en",
+  "name": "Processing Characteristics 12",
+  "definition": "Processing characteristics linked to a redemption from an investment fund or alternative/hedge fund.",
+  "isoElements": {
+    "DealingCurrencyAccepted": {
+      "name": "Dealing Currency Accepted",
+      "definition": "Currency in which a redemption is accepted."
+    },
+    "RedemptionAuthorisation": {
+      "name": "Redemption Authorisation",
+      "definition": "Specifies whether an application form is required for a redemption."
+    },
+    "AmountIndicator": {
+      "name": "Amount Indicator",
+      "definition": "Indicates whether a redemption can be instructed by amount."
+    },
+    "UnitsIndicator": {
+      "name": "Units Indicator",
+      "definition": "Indicates whether a redemption can be instructed as a number of units."
+    },
+    "Rounding": {
+      "name": "Rounding",
+      "definition": "Indicates the rounding direction applied to nearest unit."
+    },
+    "PercentageIndicator": {
+      "name": "Percentage Indicator",
+      "definition": "Indicates whether a redemption can be instructed as a percentage of holding."
+    },
+    "MainFundOrderDeskLocation": {
+      "name": "Main Fund Order Desk Location",
+      "definition": "Location of the main fund order desk."
+    },
+    "DealingFrequency": {
+      "name": "Dealing Frequency",
+      "definition": "Frequency at which the redemptions are done."
+    },
+    "DealingFrequencyDescription": {
+      "name": "Dealing Frequency Description",
+      "definition": "Description of frequency at which the redemption is done."
+    },
+    "DealingCutOffTime": {
+      "name": "Dealing Cut Off Time",
+      "definition": "Latest time at which an order to redeem can be given."
+    },
+    "DealingCutOffTimeFrame": {
+      "name": "Dealing Cut Off Time Frame",
+      "definition": "Dealing cut-off timeframe."
+    },
+    "DealConfirmationTime": {
+      "name": "Deal Confirmation Time",
+      "definition": "Time at which the deal confirmation is issued."
+    },
+    "DealConfirmationTimeFrame": {
+      "name": "Deal Confirmation Time Frame",
+      "definition": "Time frame within which the deal confirmation is issued."
+    },
+    "LimitedPeriod": {
+      "name": "Limited Period",
+      "definition": "Specific period, for example, for some guaranteed funds, during which the units/shares may be redeemed."
+    },
+    "SettlementCycle": {
+      "name": "Settlement Cycle",
+      "definition": "Settlement timing."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the redemption processing characteristics."
+    }
+  },
+  "isoRules": {
+    "DealingCutOffTimeFrameRule": {
+      "definition": "If DealingCutOffTimeFrame is present, then DealingCutOffTimeFrame/OtherTimeFrameDescription or DealingCutOffTimeFrame/ReferToOrderDesk or DealingCutOffTimeFrame/TradeMinus must be present."
+    }
+  }
+}

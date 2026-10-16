@@ -6,31 +6,31 @@
   "isoElements": {
     "ReportPagination": {
       "name": "Report Pagination",
-      "definition": ""
+      "definition": "Provides details on the page number of the report.||Usage: The pagination of the report is only allowed when agreed between the parties."
     },
     "ReportGeneralDetails": {
       "name": "Report General Details",
-      "definition": ""
+      "definition": "Provides general information on the report."
     },
     "SafekeepingAccount": {
       "name": "Safekeeping Account",
-      "definition": ""
+      "definition": "Account to or from which a securities entry is made."
     },
     "AccountOwner": {
       "name": "Account Owner",
-      "definition": ""
+      "definition": "Party that legally owns the account."
     },
     "AccountServicer": {
       "name": "Account Servicer",
-      "definition": ""
+      "definition": "Party that manages the sub-level account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
     },
     "Penalty": {
       "name": "Penalty",
-      "definition": ""
+      "definition": "Claims (penalties) in a currency and of a date reported for a given party.|If there are no penalties in a given currency for a party, this block will not be informed."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

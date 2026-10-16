@@ -1,0 +1,23 @@
+{
+  "isoType": "ExternalAcceptedReason1Code",
+  "language": "en",
+  "name": "External Accepted Reason 1 Code",
+  "definition": "Specifies the reason for an accepted status.||The list of valid codes is an external code list published separately. |External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ADEA": {
+      "isoName": "AccountServicerDeadlineMissed",
+      "name": "Account Servicer Deadline Missed",
+      "definition": "Received after the servicer's deadline. Processed on best effort basis"
+    },
+    "NSTP": {
+      "isoName": "NotStraightThroughProcessing",
+      "name": "Not Straight Through Processing",
+      "definition": "Instruction was not straight through processing and had to be processed manually"
+    },
+    "SMPG": {
+      "isoName": "MarketPracticeRuleDiscrepency",
+      "name": "Market Practice Rule Discrepency",
+      "definition": "Instruction is accepted but does not comply with the market practice rule published for the concerned market or process"
+    }
+  }
+}

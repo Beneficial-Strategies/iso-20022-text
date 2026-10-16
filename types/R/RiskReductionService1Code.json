@@ -1,0 +1,33 @@
+{
+  "isoType": "RiskReductionService1Code",
+  "language": "en",
+  "name": "Risk Reduction Service 1 Code",
+  "definition": "Indicator of a type of a post trade risk reduction operation for the purpose of reporting.",
+  "isoCodes": {
+    "NORR": {
+      "isoName": "NoRiskReduction",
+      "name": "No Risk Reduction",
+      "definition": "There is no portfolio compression."
+    },
+    "PWOS": {
+      "isoName": "NoThirdPartyPortfolioCompression",
+      "name": "No Third Party Portfolio Compression",
+      "definition": "Portfolio Compression without a third-party service provider."
+    },
+    "OTHR": {
+      "isoName": "OtherCompression",
+      "name": "Other Compression",
+      "definition": "Other portfolio compression."
+    },
+    "PRBM": {
+      "isoName": "PortfolioRebalancing",
+      "name": "Portfolio Rebalancing",
+      "definition": "Portfolio rebalancing or margin management."
+    },
+    "PWAS": {
+      "isoName": "ThirdPartyPortfolioCompression",
+      "name": "Third Party Portfolio Compression",
+      "definition": "Portfolio Compression with a third-party service provider or CCP."
+    }
+  }
+}

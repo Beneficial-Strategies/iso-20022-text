@@ -1,0 +1,21 @@
+{
+  "isoType": "SwapLegIdentification2",
+  "language": "en",
+  "name": "Swap Leg Identification 2",
+  "definition": "Details of the legs of swap transaction.",
+  "isoElements": {
+    "SwapIn": {
+      "name": "Swap In",
+      "definition": "Instrument received by the buyer."
+    },
+    "SwapOut": {
+      "name": "Swap Out",
+      "definition": "Instrument paid by the buyer."
+    }
+  },
+  "isoRules": {
+    "SwapInOrSwapOutRule": {
+      "definition": "SwapIn or SwapOut must be present or both."
+    }
+  }
+}

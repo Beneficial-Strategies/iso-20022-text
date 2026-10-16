@@ -1,0 +1,52 @@
+{
+  "isoType": "MarginCall3",
+  "language": "en",
+  "name": "Margin Call 3",
+  "definition": "Specifies the calculation and the resulting margin and independent amount needed to cover the risk exposure of one party versus another.",
+  "isoElements": {
+    "CollateralAccountIdentification": {
+      "name": "Collateral Account Identification",
+      "definition": "Provides additional information on the collateral account of the party delivering/receiving the collateral."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "MarginCallResult": {
+      "name": "Margin Call Result",
+      "definition": "Summation of the call amounts per margin type. It is provided for the purposes of carrying forward for future messages that are used to compare the margin call results to determine whether a call is agreed or full/partially disputed."
+    },
+    "MarginDetailDueToA": {
+      "name": "Margin Detail Due To A",
+      "definition": "Provides details about the margin calculation that would be due to party A."
+    },
+    "MarginDetailDueToB": {
+      "name": "Margin Detail Due To B",
+      "definition": "Provides details about the margin calculation that would be due to party B."
+    },
+    "RequirementDetailsDueToA": {
+      "name": "Requirement Details Due To A",
+      "definition": "Amount of expected margin that will be either delivered to party A by party B or recalled to party A from party B."
+    },
+    "RequirementDetailsDueToB": {
+      "name": "Requirement Details Due To B",
+      "definition": "Amount of expected margin that will be either delivered to party B by party A or recalled to party B from party A."
+    },
+    "ExpectedCollateralDueToA": {
+      "name": "Expected Collateral Due To A",
+      "definition": "Provides details about the type of collateral that will be either delivered to party A by party B or recalled to party A from party B."
+    },
+    "ExpectedCollateralDueToB": {
+      "name": "Expected Collateral Due To B",
+      "definition": "Provides details about the type of collateral that will be either delivered to party B by party A or recalled to party B from party A."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    }
+  }
+}

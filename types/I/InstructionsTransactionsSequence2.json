@@ -1,0 +1,24 @@
+{
+  "isoType": "InstructionsTransactionsSequence2",
+  "language": "en",
+  "name": "Instructions Transactions Sequence 2",
+  "definition": "Provides input capability for multiple instructions on elective corporate action events via a single instruction message through using Transaction Sequence Number.",
+  "isoElements": {
+    "TransactionSequenceNumber": {
+      "name": "Transaction Sequence Number",
+      "definition": "Number which further identifies DTC instruction reference number. Not applicable to reorganisation / custody deposits."
+    },
+    "InstructionQuantity": {
+      "name": "Instruction Quantity",
+      "definition": "Instruction quantity for a given transaction sequence number."
+    },
+    "OversubscriptionQuantity": {
+      "name": "Oversubscription Quantity",
+      "definition": "For rights subscription events with an oversubscription feature, the quantity of the oversubscription for the given instruction."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by client upon instruction submission."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "CCPIncomeStatementAndCapitalAdequacyReportV02",
+  "language": "en",
+  "name": "CCP Income Statement And Capital Adequacy Report V 02",
+  "definition": "The CCPIncomeStatementAndCapitalAdequacyReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about the financial performance and regulatory capital holdings of the central counterparty.||V02 adds a clearing member id to break down the ClrFees by the clearing member from whom the fee income is being received. The change is motivated by a supervisory need to understand from which jurisdictions clearing fees are paid to the CCP.",
+  "isoElements": {
+    "IncomeStatement": {
+      "name": "Income Statement",
+      "definition": "Income statement of the CCP."
+    },
+    "CapitalRequirements": {
+      "name": "Capital Requirements",
+      "definition": "Report of the breakdown of the components for the capital requirement for central counterparty."
+    },
+    "TotalCapital": {
+      "name": "Total Capital",
+      "definition": "Sum of the CCP's capital requirements for operational expenses; for winding down or restructuring its activities; for overall operational and legal risk; for uncovered credit, counterparty credit and market risks and business risks."
+    },
+    "LiquidFinancialResources": {
+      "name": "Liquid Financial Resources",
+      "definition": "Total capital resources invested in liquid financial resources."
+    },
+    "HypotheticalCapitalMeasure": {
+      "name": "Hypothetical Capital Measure",
+      "definition": "Hypothetical capital requirement due to counterparty credit risk exposures to all clearing members."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

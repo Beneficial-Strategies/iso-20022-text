@@ -1,0 +1,23 @@
+{
+  "isoType": "TransactionOperationType4Code",
+  "language": "en",
+  "name": "Transaction Operation Type 4 Code",
+  "definition": "Specifies the transaction operation action type.",
+  "isoCodes": {
+    "NEWT": {
+      "isoName": "NewTransaction",
+      "name": "New Transaction",
+      "definition": "Transaction is a new transaction."
+    },
+    "AMND": {
+      "isoName": "Amendment",
+      "name": "Amendment",
+      "definition": "Transaction amends a previously sent transaction."
+    },
+    "CANC": {
+      "isoName": "Cancellation",
+      "name": "Cancellation",
+      "definition": "Transaction requests the deletion/cancellation of a previously sent transaction."
+    }
+  }
+}

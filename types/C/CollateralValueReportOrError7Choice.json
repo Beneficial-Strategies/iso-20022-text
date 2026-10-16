@@ -1,0 +1,16 @@
+{
+  "isoType": "CollateralValueReportOrError7Choice",
+  "language": "en",
+  "name": "Collateral Value Report Or Error 7 Choice",
+  "definition": "Reports on collateral values or error report in case of business processing of the related request.",
+  "isoElements": {
+    "BusinessReport": {
+      "name": "Business Report",
+      "definition": "Provides information specific to the collateral value reports included in the message."
+    },
+    "OperationalError": {
+      "name": "Operational Error",
+      "definition": "Indicates whether an operational error has been issued during the processing of the related request."
+    }
+  }
+}

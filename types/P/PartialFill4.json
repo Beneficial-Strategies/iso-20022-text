@@ -1,0 +1,45 @@
+{
+  "isoType": "PartialFill4",
+  "language": "en",
+  "name": "Partial Fill 4",
+  "definition": "Intention to transfer an ownership of a financial instrument.",
+  "isoElements": {
+    "ConfirmationQuantity": {
+      "name": "Confirmation Quantity",
+      "definition": "Quantity of financial instrument to be ordered."
+    },
+    "DealPrice": {
+      "name": "Deal Price",
+      "definition": "Amount of money for which goods or services are offered, sold, or bought."
+    },
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which a trade transaction is to be or has been executed."
+    },
+    "OriginalOrderedQuantity": {
+      "name": "Original Ordered Quantity",
+      "definition": "Quantity of financial instrument ordered."
+    },
+    "PreviouslyExecutedQuantity": {
+      "name": "Previously Executed Quantity",
+      "definition": "Quantity of financial instrument that has been previously executed."
+    },
+    "RemainingQuantity": {
+      "name": "Remaining Quantity",
+      "definition": "Quantity of financial instrument that is remaining in order."
+    },
+    "MatchIncrementQuantity": {
+      "name": "Match Increment Quantity",
+      "definition": "Minimum quantity that applies to every execution. The order may still fill against smaller orders, but the cumulative quantity of the execution must be in multiples of the Match Increment."
+    }
+  },
+  "isoRules": {
+    "PartialFillsRule": {
+      "definition": "A SecuritiesTradeConfirmation should not be used as a TradeExecution report. PartialFills aims at providing a for information summary of the different executions that the confirmation consisted of."
+    }
+  }
+}

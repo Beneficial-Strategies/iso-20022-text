@@ -1,0 +1,80 @@
+{
+  "isoType": "SaleItem5",
+  "language": "en",
+  "name": "Sale Item 5",
+  "definition": "Item purchased with the transaction",
+  "isoElements": {
+    "ProductType": {
+      "name": "Product Type",
+      "definition": "Contains the product type of the sale line item."
+    },
+    "ProductCode": {
+      "name": "Product Code",
+      "definition": "Product code of the item."
+    },
+    "ProductCodeType": {
+      "name": "Product Code Type",
+      "definition": "Contains a list of codes used to identify a product."
+    },
+    "AdditionalProductCode": {
+      "name": "Additional Product Code",
+      "definition": "Additional code related to the product."
+    },
+    "AdditionalProductCodeType": {
+      "name": "Additional Product Code Type",
+      "definition": "Additional type of codification  used to identify a product."
+    },
+    "ProductCodeModifier": {
+      "name": "Product Code Modifier",
+      "definition": "Code discriminator between a product code and its format to uniquely identify a specific product (for example, Item or pack of same items)."
+    },
+    "ProductDescription": {
+      "name": "Product Description",
+      "definition": "Description of the product or item."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Unit of measure of the item purchased."
+    },
+    "OtherUnitOfMeasure": {
+      "name": "Other Unit Of Measure",
+      "definition": "Other unit of measure."
+    },
+    "ProductQuantity": {
+      "name": "Product Quantity",
+      "definition": "Quantity of product or item."
+    },
+    "NonAdjustedUnitPrice": {
+      "name": "Non Adjusted Unit Price",
+      "definition": "Original, non-adjusted cost of one unit of the product or service before discounts and taxes."
+    },
+    "NonAdjustedTotalAmount": {
+      "name": "Non Adjusted Total Amount",
+      "definition": "Original, non-adjusted total cost of a product or service before discounts and taxes."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Adjustment made to the original price."
+    },
+    "AdjustedAmount": {
+      "name": "Adjusted Amount",
+      "definition": "Total cost of the line item amount, inclusive adjustments and exclusive of taxes."
+    },
+    "InsuranceIndicator": {
+      "name": "Insurance Indicator",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "InsuranceAmount": {
+      "name": "Insurance Amount",
+      "definition": "Cost of the insurance purchased."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes applying to the good or item."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total cost of the line item, inclusive of all applicable adjustments and taxes."
+    }
+  }
+}

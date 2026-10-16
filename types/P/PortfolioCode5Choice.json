@@ -1,0 +1,16 @@
+{
+  "isoType": "PortfolioCode5Choice",
+  "language": "en",
+  "name": "Portfolio Code 5 Choice",
+  "definition": "Element is a choice between a known portfolio code and a code applicable when the code is unknown.",
+  "isoElements": {
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Unique code determined by the reporting counterparty to identify the portfolio if collateral is reported on a portfolio basis."
+    },
+    "NoPortfolio": {
+      "name": "No Portfolio",
+      "definition": "Collateralisation was performed on a transaction level basis or if the collateral portfolio code is not known at the time of reporting."
+    }
+  }
+}

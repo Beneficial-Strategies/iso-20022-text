@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeLegStatement5",
+  "language": "en",
+  "name": "Trade Leg Statement 5",
+  "definition": "Provides the trade leg statement details.",
+  "isoElements": {
+    "ClearingAccount": {
+      "name": "Clearing Account",
+      "definition": "Identifies the clearing member account at the Central counterparty through which the trade must be cleared (sometimes called position account)."
+    },
+    "ClearingSegment": {
+      "name": "Clearing Segment",
+      "definition": "Clearing organisation that will clear the trade.|Note: This field allows Clearing Member Firm to segregate flows coming from clearing counterparty's clearing system. Indeed, Clearing Member Firms receive messages from the same system (same sender) and this field allows them to know if the message is related to equities or derivatives."
+    },
+    "NonClearingMember": {
+      "name": "Non Clearing Member",
+      "definition": "Provides the identification for the non-clearing member."
+    },
+    "TradeLegsDetails": {
+      "name": "Trade Legs Details",
+      "definition": "Provides the lists of all trades during the period in consideration for the statement."
+    }
+  }
+}

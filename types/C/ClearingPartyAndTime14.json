@@ -1,0 +1,29 @@
+{
+  "isoType": "ClearingPartyAndTime14",
+  "language": "en",
+  "name": "Clearing Party And Time 14",
+  "definition": "Specifies the central counterparty and clearing informations.",
+  "isoElements": {
+    "CCP": {
+      "name": "CCP",
+      "definition": "In the case of a contract that has been cleared, the unique code for the clearing counterparty that has cleared the contract."
+    },
+    "ClearingDateTime": {
+      "name": "Clearing Date Time",
+      "definition": "Time and date when clearing took place."
+    },
+    "ReportTrackingNumber": {
+      "name": "Report Tracking Number",
+      "definition": "Unique number to indicate a group of reports which relate to the same execution."
+    },
+    "PortfolioCode": {
+      "name": "Portfolio Code",
+      "definition": "Unique code determined by the reporting counterparty identifying the portfolio."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

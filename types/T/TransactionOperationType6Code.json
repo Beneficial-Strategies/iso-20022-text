@@ -1,0 +1,58 @@
+{
+  "isoType": "TransactionOperationType6Code",
+  "language": "en",
+  "name": "Transaction Operation Type 6 Code",
+  "definition": "Specifies the transaction operation action type.",
+  "isoCodes": {
+    "REUU": {
+      "isoName": "CollateralReuseUpdate",
+      "name": "Collateral Reuse Update",
+      "definition": "Update in the reuse of collateral, the reinvestment of cash or the margin lending funding sources."
+    },
+    "COLU": {
+      "isoName": "CollateralUpdate",
+      "name": "Collateral Update",
+      "definition": "Update of a contract collateral."
+    },
+    "CORR": {
+      "isoName": "Correction",
+      "name": "Correction",
+      "definition": "Transaction corrects errors in a previously sent transaction."
+    },
+    "ETRM": {
+      "isoName": "EarlyTermination",
+      "name": "Early Termination",
+      "definition": "Transaction is an early termination."
+    },
+    "VALU": {
+      "isoName": "ValuationUpdate",
+      "name": "Valuation Update",
+      "definition": "Update of a contract valuation or collateral."
+    },
+    "POSC": {
+      "isoName": "PositionComponent",
+      "name": "Position Component",
+      "definition": "Contract to be reported as a new trade and included in a separate position report on the same day."
+    },
+    "NEWT": {
+      "isoName": "NewTransaction",
+      "name": "New Transaction",
+      "definition": "Transaction is a new transaction."
+    },
+    "MODI": {
+      "isoName": "Modification",
+      "name": "Modification",
+      "definition": "Transaction modifies in a previously sent transaction."
+    },
+    "MARU": {
+      "isoName": "MarginUpdate",
+      "name": "Margin Update",
+      "definition": "Specifies a dedicated report to provide changes in initial and variation margin that a reporting counterparty posts with regards to CCP-cleared SFTs."
+    },
+    "EROR": {
+      "isoName": "Error",
+      "name": "Error",
+      "definition": "Cancellation of a wrongly submitted entire report in case the contract never came into existence or was not subject to regulatory reporting requirements but was reported to a regulatory authority by mistake, in which case, it will be identified as ‘error’."
+    }
+  }
+}

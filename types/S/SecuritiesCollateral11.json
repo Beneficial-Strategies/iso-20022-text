@@ -1,0 +1,76 @@
+{
+  "isoType": "SecuritiesCollateral11",
+  "language": "en",
+  "name": "Securities Collateral 11",
+  "definition": "Provides details about the securities posted as collateral.",
+  "isoElements": {
+    "CollateralIdentification": {
+      "name": "Collateral Identification",
+      "definition": "Provides the identification of the proposed collateral."
+    },
+    "AssetNumber": {
+      "name": "Asset Number",
+      "definition": "Identifies the register number of the collateral deposit assigned by the central counterparty."
+    },
+    "SecurityIdentification": {
+      "name": "Security Identification",
+      "definition": "Identification of a security."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "LimitedCoverageIndicator": {
+      "name": "Limited Coverage Indicator",
+      "definition": "Indicates that the collateral posted in the clearing house covers the margin until a specific timeframe."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity of securities collateral."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Indicates the price of the security."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Value of the collateral based on current market prices."
+    },
+    "Haircut": {
+      "name": "Haircut",
+      "definition": "Haircut or valuation factor on the security expressed as a percentage."
+    },
+    "CollateralValue": {
+      "name": "Collateral Value",
+      "definition": "Value of the collateral after taking into account the haircut."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Valuation date of the securities taken as collateral."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account to or from which a securities entry is made."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "SafekeepingPlace": {
+      "name": "Safekeeping Place",
+      "definition": "Place where the securities are safe-kept, physically or notionally. This place can be, for example, a local custodian, a Central Securities Depository (CSD) or an International Central Securities Depository (ICSD)."
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": "Parameters which explicitly state the conditions that must be fulfilled before a particular transaction of a financial instrument can be settled. These parameters are defined by the instructing party in compliance with settlement rules in the market the transaction will settle in."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "PartyType32Code",
+  "language": "en",
+  "name": "Party Type 32 Code",
+  "definition": "Type of party.",
+  "isoCodes": {
+    "ACQR": {
+      "isoName": "Acquirer",
+      "name": "Acquirer",
+      "definition": "Entity acquiring card transactions."
+    },
+    "AGNT": {
+      "isoName": "Agent",
+      "name": "Agent",
+      "definition": "Entity providing card payment processing services acting as an intermediary between an acquirer and an issuer."
+    },
+    "ISUR": {
+      "isoName": "Issuer",
+      "name": "Issuer",
+      "definition": "Issuer is the entitled party."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other card payment entity type defined at national level"
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card payment entity type defined at private level"
+    }
+  }
+}

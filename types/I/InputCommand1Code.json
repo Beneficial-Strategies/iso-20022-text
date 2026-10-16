@@ -1,0 +1,63 @@
+{
+  "isoType": "InputCommand1Code",
+  "language": "en",
+  "name": "Input Command 1 Code",
+  "definition": "Type of requested input",
+  "isoCodes": {
+    "DCSG": {
+      "isoName": "DecimalString",
+      "name": "Decimal String",
+      "definition": "Wait for a string of digit characters with a decimal point, the length range could be specified."
+    },
+    "DGSG": {
+      "isoName": "DigitString",
+      "name": "Digit String",
+      "definition": "Wait for a string of digit characters."
+    },
+    "GAKY": {
+      "isoName": "GetAnyKey",
+      "name": "Get Any Key",
+      "definition": "Wait for a key pressed on the Terminal, to be able to read the message displayed on the Terminal."
+    },
+    "GCNF": {
+      "isoName": "GetConfirmation",
+      "name": "Get Confirmation",
+      "definition": "Wait for a confirmation Yes (Y) or No (N) on the Sale System. Wait for a confirmation (Valid or Cancel button) on the POI Terminal. The result of the command is a Boolean: True or False."
+    },
+    "GFKY": {
+      "isoName": "GetFunctionKey",
+      "name": "Get Function Key",
+      "definition": "Wait for a function key pressed on the Terminal: From POI, Valid, Clear, Correct, Generic Function key number. From Sale, Generic Function key."
+    },
+    "GMNE": {
+      "isoName": "GetMenuEntry",
+      "name": "Get Menu Entry",
+      "definition": "To choose an entry among a list of entries (all of them are not necessary selectable). The OutputFormat has to be MenuEntry."
+    },
+    "PSWD": {
+      "isoName": "Password",
+      "name": "Password",
+      "definition": "Request to enter a password with masked characters while typing the password."
+    },
+    "SITE": {
+      "isoName": "SiteManager",
+      "name": "Site Manager",
+      "definition": "Wait for a confirmation Yes (Y) or No (N) of the Site Manager on the Sale System."
+    },
+    "TXSG": {
+      "isoName": "TextString",
+      "name": "Text String",
+      "definition": "Wait for a string of alphanumeric characters."
+    },
+    "HTML": {
+      "isoName": "XHTMLText",
+      "name": "XHTML Text",
+      "definition": "Wait for a XHTML data."
+    },
+    "SIGN": {
+      "isoName": "Signature",
+      "name": "Signature",
+      "definition": "Request to wait for signature."
+    }
+  }
+}

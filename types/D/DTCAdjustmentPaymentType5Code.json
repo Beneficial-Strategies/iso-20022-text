@@ -1,0 +1,48 @@
+{
+  "isoType": "DTCAdjustmentPaymentType5Code",
+  "language": "en",
+  "name": "DTC Adjustment Payment Type 5 Code",
+  "definition": "Specifies the type of the payment adjustment.",
+  "isoCodes": {
+    "RRCD": {
+      "isoName": "CustodyReorganisationDeposit",
+      "name": "Custody Reorganisation Deposit",
+      "definition": "Custody reorganisation deposit related adjustment."
+    },
+    "RRDR": {
+      "isoName": "DynamicRateChange",
+      "name": "Dynamic Rate Change",
+      "definition": "Dynamic rate change related adjustment."
+    },
+    "FAIL": {
+      "isoName": "FailSettlement",
+      "name": "Fail Settlement",
+      "definition": "FAIL (undelivered securities) transaction."
+    },
+    "MISC": {
+      "isoName": "MiscellaneousSettlement",
+      "name": "Miscellaneous Settlement",
+      "definition": "Miscellaneous (adjustment) transaction."
+    },
+    "RRD1": {
+      "isoName": "ReorganisationDepositPhaseOne",
+      "name": "Reorganisation Deposit Phase One",
+      "definition": "Participant deposited a security within 10 days after a corporate action event has occurred."
+    },
+    "RRD2": {
+      "isoName": "ReorganisationDepositPhaseTwo",
+      "name": "Reorganisation Deposit Phase Two",
+      "definition": "Participant deposited a security 10 days after a corporate action event has occurred."
+    },
+    "REPO": {
+      "isoName": "RepoSettlement",
+      "name": "Repo Settlement",
+      "definition": "REPO (repurchase agreement) transaction."
+    },
+    "STOK": {
+      "isoName": "StockLoanSettlement",
+      "name": "Stock Loan Settlement",
+      "definition": "Stock loan transaction."
+    }
+  }
+}

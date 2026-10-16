@@ -1,0 +1,78 @@
+{
+  "isoType": "ATMServiceType7Code",
+  "language": "en",
+  "name": "ATM Service Type 7 Code",
+  "definition": "Describes the type of ATM transaction selected by the customer.",
+  "isoCodes": {
+    "CHSN": {
+      "isoName": "ChosenWithdrawal",
+      "name": "Chosen Withdrawal",
+      "definition": "Amount and notes values are chosen by the customer."
+    },
+    "PINC": {
+      "isoName": "PINChange",
+      "name": "PIN Change",
+      "definition": "Modification of the card PIN value."
+    },
+    "PINR": {
+      "isoName": "PINRecovery",
+      "name": "PIN Recovery",
+      "definition": "Resetting of a PIN."
+    },
+    "PINU": {
+      "isoName": "PINUnblock",
+      "name": "PIN Unblock",
+      "definition": "Unblock the PIN."
+    },
+    "PATH": {
+      "isoName": "PreAuthorisedWithdrawal",
+      "name": "Pre Authorised Withdrawal",
+      "definition": "Withdrawal transaction was pre-authorised by another channel, for instance a mobile. The amount could be absent from the withdrawal request message."
+    },
+    "PRFL": {
+      "isoName": "ProfileWithdrawal",
+      "name": "Profile Withdrawal",
+      "definition": "Amount and notes Values are pre-defined by the customer profile."
+    },
+    "STDR": {
+      "isoName": "StandardWithdrawal",
+      "name": "Standard Withdrawal",
+      "definition": "Standard withdrawal of items."
+    },
+    "SPRV": {
+      "isoName": "SupervisedWithdrawal",
+      "name": "Supervised Withdrawal",
+      "definition": "Withdrawal authorised by a supervisor."
+    },
+    "TRFC": {
+      "isoName": "CustomerTransfer",
+      "name": "Customer Transfer",
+      "definition": "Funds transfer between accounts belonging to the customer in the same bank."
+    },
+    "TRFI": {
+      "isoName": "InterCustomerTransfer",
+      "name": "Inter Customer Transfer",
+      "definition": "Funds transfer to another customer."
+    },
+    "DPSN": {
+      "isoName": "NonVerifiedDeposit",
+      "name": "Non Verified Deposit",
+      "definition": "Deposit of media items unverified by the ATM, for instance in an envelope."
+    },
+    "DPSV": {
+      "isoName": "VerifiedDeposit",
+      "name": "Verified Deposit",
+      "definition": "Deposit of media items verified by the ATM."
+    },
+    "MCHG": {
+      "isoName": "MakingChange",
+      "name": "Making Change",
+      "definition": "Making change between media types."
+    },
+    "TRFP": {
+      "isoName": "Payment",
+      "name": "Payment",
+      "definition": "Funds transfer to pay a third party."
+    }
+  }
+}

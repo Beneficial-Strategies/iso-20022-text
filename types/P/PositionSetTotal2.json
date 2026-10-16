@@ -1,0 +1,33 @@
+{
+  "isoType": "PositionSetTotal2",
+  "language": "en",
+  "name": "Position Set Total 2",
+  "definition": "Variables used to quantify the different calculations for position sets and currency position sets reports.",
+  "isoElements": {
+    "NumberOfTrades": {
+      "name": "Number Of Trades",
+      "definition": "Refers to the number of trades contained in the position set."
+    },
+    "PositiveValue": {
+      "name": "Positive Value",
+      "definition": "Aggregations of all positive values of the derivative for all derivatives pertaining to a position set."
+    },
+    "NegativeValue": {
+      "name": "Negative Value",
+      "definition": "Aggregations of all negative values of the derivative for all derivatives pertaining to a position set."
+    },
+    "Notional": {
+      "name": "Notional",
+      "definition": "Aggregations of all notional values of the derivatives pertaining to a position set."
+    },
+    "OtherPaymentAmount": {
+      "name": "Other Payment Amount",
+      "definition": "Amount of money of any payment the reporting counterparty made or received."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

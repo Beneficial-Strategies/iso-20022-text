@@ -1,0 +1,40 @@
+{
+  "isoType": "InitialBaselineSubmissionV05",
+  "language": "en",
+  "name": "Initial Baseline Submission V 05",
+  "definition": "Scope|The InitialBaselineSubmission message is sent by the initiator of a transaction to the matching application.|This message is used to initiate a transaction.|Usage|The InitialBaselineSubmission message can be sent by a party to register a transaction in the matching application. The message can be submitted with either lodge or push-through instruction.|When the push-through instruction is present, the matching application acknowledges the receipt of the message to the sender by sending an Acknowledgement message, stores the submitted information and informs the counterparty about the registration of the transaction by sending a FullPushThroughReport message. With the BaselineReSubmission message the counterparty responds with matching baseline information in order to establish the transaction (baseline).|When the lodge instruction is present, the matching application acknowledges the receipt of the message to the sender by sending an Acknowledgement message and stores the submitted information. No matching of the submitted baseline data with other baseline information will take place. For example the submission of an InitialBaselineSubmission message containing a lodge instruction establishes the transaction (baseline) in the matching application.|The InitialBaselineSubmission message consists of data which relates to the purchasing agreement covered by the transaction, for example line item details, shipping details.",
+  "isoElements": {
+    "SubmissionIdentification": {
+      "name": "Submission Identification",
+      "definition": "Identifies the submitted information."
+    },
+    "SubmitterTransactionReference": {
+      "name": "Submitter Transaction Reference",
+      "definition": "Reference to the transaction for the requesting financial institution."
+    },
+    "Instruction": {
+      "name": "Instruction",
+      "definition": "Specifies the instruction requested by the submitter by means of a code."
+    },
+    "Baseline": {
+      "name": "Baseline",
+      "definition": "Specifies the commercial details of the underlying transaction."
+    },
+    "BuyerContactPerson": {
+      "name": "Buyer Contact Person",
+      "definition": "Person to be contacted in the organisation of the buyer."
+    },
+    "SellerContactPerson": {
+      "name": "Seller Contact Person",
+      "definition": "Person to be contacted in the organisation of the seller."
+    },
+    "BankContactPerson": {
+      "name": "Bank Contact Person",
+      "definition": "Person to be contacted in the seller's bank or buyer's bank."
+    },
+    "OtherBankContactPerson": {
+      "name": "Other Bank Contact Person",
+      "definition": "Person to be contacted in another bank than seller or buyer's bank."
+    }
+  }
+}

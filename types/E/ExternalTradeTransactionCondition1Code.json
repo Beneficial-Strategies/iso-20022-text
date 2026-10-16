@@ -1,0 +1,243 @@
+{
+  "isoType": "ExternalTradeTransactionCondition1Code",
+  "language": "en",
+  "name": "External Trade Transaction Condition 1 Code",
+  "definition": "Specifies the external Trade Transaction Condition code in the format of character string with a maximum length of 4 characters.|The list of valid codes is an external code list published separately.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "BCBL": {
+      "isoName": "BoardLot",
+      "name": "Board Lot",
+      "definition": "Board lots, not set for odd lots (UK specific)."
+    },
+    "BCBN": {
+      "isoName": "BadName",
+      "name": "Bad Name",
+      "definition": "Bad names, not set for good names (UK specific)."
+    },
+    "BCFD": {
+      "isoName": "DeliveryForm",
+      "name": "Delivery Form",
+      "definition": "Form of delivery, not for foreign registration when unset (UK specific)."
+    },
+    "BCPD": {
+      "isoName": "DeliverCountryIncorporation",
+      "name": "Deliver Country Incorporation",
+      "definition": "Place of delivery, in country of incorporation when unset (UK specific)."
+    },
+    "BCRO": {
+      "isoName": "ResultOption",
+      "name": "Result Option",
+      "definition": "Result of option when set (UK specific)."
+    },
+    "BCRP": {
+      "isoName": "ResultRepo",
+      "name": "Result Repo",
+      "definition": "Result of repo when set (UK specific)."
+    },
+    "BLKO": {
+      "isoName": "Block",
+      "name": "Block",
+      "definition": "The trade is a block trade or not, ie, whether allocation instruction will follow or not."
+    },
+    "BTEX": {
+      "isoName": "BestExecution",
+      "name": "Best Execution",
+      "definition": "Trade to be executed done at best execution."
+    },
+    "BTMI": {
+      "isoName": "BoughtMinus",
+      "name": "Bought Minus",
+      "definition": "Bought minus indicator."
+    },
+    "CALL": {
+      "isoName": "Call",
+      "name": "Call",
+      "definition": "Trade to be executed following the exercise of a call option on the security."
+    },
+    "CBNS": {
+      "isoName": "CumBonus",
+      "name": "Cum Bonus",
+      "definition": "Trade is executed cum bonus."
+    },
+    "CCPN": {
+      "isoName": "CumCoupon",
+      "name": "Cum Coupon",
+      "definition": "Trade is executed cum coupon."
+    },
+    "CDIV": {
+      "isoName": "CumDividend",
+      "name": "Cum Dividend",
+      "definition": "Trade is executed cum dividend."
+    },
+    "CLBR": {
+      "isoName": "ClosureBeforeRollOver",
+      "name": "Closure Before Roll Over",
+      "definition": "Trade to be executed for closure of a previous position before the rollover of a position (Deferred Settlement Service)."
+    },
+    "CLEN": {
+      "isoName": "Clean",
+      "name": "Clean",
+      "definition": "Trade is executed clean, ie government tax must not be paid on the accrued interest on the bond."
+    },
+    "CRST": {
+      "isoName": "CrossTrade",
+      "name": "Cross Trade",
+      "definition": "Cross trades are allowed whereby buy and sell orders are offset without recording the trade on the exchange"
+    },
+    "CRTS": {
+      "isoName": "CumRights",
+      "name": "Cum Rights",
+      "definition": "Trade is executed cum rights."
+    },
+    "CWAR": {
+      "isoName": "CumWarrant",
+      "name": "Cum Warrant",
+      "definition": "Trade is executed cum warrant."
+    },
+    "DIOR": {
+      "isoName": "DirectedOrder",
+      "name": "Directed Order",
+      "definition": "Customer order where the customer gives specific instructions to the broker concerning the orders routing destination."
+    },
+    "DIRT": {
+      "isoName": "Dirty",
+      "name": "Dirty",
+      "definition": "Trade is executed dirty, ie government tax must be paid on the accrued interest on the bond."
+    },
+    "DORD": {
+      "isoName": "DirectOrder",
+      "name": "Direct Order",
+      "definition": "Order is to be executed by a trading party other than the trading party to which the order is sent. In this case, the instructing party has traded with another broker which will subsequently send an advice of execution to the executing party who received the order and which is acting as clearing broker."
+    },
+    "FORW": {
+      "isoName": "ForwardPriceTrade",
+      "name": "Forward Price Trade",
+      "definition": "Order is based on a forward price."
+    },
+    "FRAC": {
+      "isoName": "Fractions",
+      "name": "Fractions",
+      "definition": "Fractional parts are allowed."
+    },
+    "GTDL": {
+      "isoName": "GuaranteedDelivery",
+      "name": "Guaranteed Delivery",
+      "definition": "Delivery of the financial instrument on settlement date is guaranteed."
+    },
+    "HIST": {
+      "isoName": "HistoricPriceTrade",
+      "name": "Historic Price Trade",
+      "definition": "Order is based on a historic price."
+    },
+    "MAPR": {
+      "isoName": "MarketPrice",
+      "name": "Market Price",
+      "definition": "Trade was executed at market price."
+    },
+    "MONT": {
+      "isoName": "Monthly",
+      "name": "Monthly",
+      "definition": "Trade to be executed for month-end settlement (Deferred Settlement Service)."
+    },
+    "NBFR": {
+      "isoName": "NewTradeFollowingRollover",
+      "name": "New Trade Following Rollover",
+      "definition": "Trade to be executed for a new trade position on the next month following the roll-over of a position (Deferred Settlement Service)."
+    },
+    "NCRS": {
+      "isoName": "NoCrossTrade",
+      "name": "No Cross Trade",
+      "definition": "Cross trades, whereby buy and sell orders are offset without recording the trade on the exchange, are not allowed."
+    },
+    "NEGO": {
+      "isoName": "NegotiatedTrade",
+      "name": "Negotiated Trade",
+      "definition": "Trade for which the price is not the one quoted but an improved one, that is, the negotiated price."
+    },
+    "NMPR": {
+      "isoName": "NonMarketPrice",
+      "name": "Non Market Price",
+      "definition": "Trade was executed outside of normal market conditions, for example, in the case of an iceberg order."
+    },
+    "PETA": {
+      "isoName": "PreTradeAnonimity",
+      "name": "Pre Trade Anonimity",
+      "definition": "Allows trader to explicitly request anonymity or disclosure in pre-trade market data feeds. Anonymity is relevant in markets where counterparties are regularly disclosed in order depth feeds. Disclosure is relevant when counterparties are not normally visible."
+    },
+    "PUTT": {
+      "isoName": "Putt",
+      "name": "Putt",
+      "definition": "Trade to be executed following the exercise of a put option on the security."
+    },
+    "SETI": {
+      "isoName": "SoldExempt",
+      "name": "Sold Exempt",
+      "definition": "Trade is exempt from short-sale rules."
+    },
+    "SPCU": {
+      "isoName": "SpecialCumDividend",
+      "name": "Special Cum Dividend",
+      "definition": "Trade is executed  with a special cum dividend, ie, buying after the ex date and getting the dividend."
+    },
+    "SPEX": {
+      "isoName": "SpecialExDividend",
+      "name": "Special Ex Dividend",
+      "definition": "Trade is executed  with a special ex dividend, ie, selling before the ex date without the coupon."
+    },
+    "SPSI": {
+      "isoName": "SoldPlus",
+      "name": "Sold Plus",
+      "definition": "Sold plus indication."
+    },
+    "SSTI": {
+      "isoName": "SoldShort",
+      "name": "Sold Short",
+      "definition": "Trade is sold short. When the seller does not have the financial instrument, the delivery is effected by borrowing the financial instrument by or for the account of the seller."
+    },
+    "TEFR": {
+      "isoName": "TradeExecutedFollowingRollover",
+      "name": "Trade Executed Following Rollover",
+      "definition": "Trade executed this month following the rollover of positions."
+    },
+    "TRFR": {
+      "isoName": "TradeFollowingRollover",
+      "name": "Trade Following Rollover",
+      "definition": "Trade to be executed on the next month following the roll-over of positions."
+    },
+    "WIBC": {
+      "isoName": "BeforeAuction",
+      "name": "Before Auction",
+      "definition": "Transaction is before the issue date after announcement of the auction."
+    },
+    "WICD": {
+      "isoName": "AfterAuction",
+      "name": "After Auction",
+      "definition": "Transaction is after the issue date after announcement of the auction."
+    },
+    "XBNS": {
+      "isoName": "ExBonus",
+      "name": "Ex Bonus",
+      "definition": "Trade is executed ex bonus."
+    },
+    "XCPN": {
+      "isoName": "ExCoupon",
+      "name": "Ex Coupon",
+      "definition": "Trade is executed ex coupon."
+    },
+    "XDIV": {
+      "isoName": "ExDividend",
+      "name": "Ex Dividend",
+      "definition": "Trade is executed ex dividend."
+    },
+    "XRTS": {
+      "isoName": "ExRights",
+      "name": "Ex Rights",
+      "definition": "Trade is executed ex rights."
+    },
+    "XWAR": {
+      "isoName": "ExWarrant",
+      "name": "Ex Warrant",
+      "definition": "Trade is executed ex warrant."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMWithdrawalCompletionAdviceV03",
+  "language": "en",
+  "name": "ATM Withdrawal Completion Advice V 03",
+  "definition": "The ATMWithdrawalCompletionAdvice message is sent by an ATM to an acquirer or its agent to inform of the result of a withdrawal transaction at an ATM.|If the ATM is configured to only send negative completion, a generic completion message should be used instead of ATMCompletionAdvice.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMWithdrawalCompletionAdvice": {
+      "name": "Protected ATM Withdrawal Completion Advice",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMWithdrawalCompletionAdvice": {
+      "name": "ATM Withdrawal Completion Advice",
+      "definition": "Information related to the completion of a withdrawal transaction on the ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

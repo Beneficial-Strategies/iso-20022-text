@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyEventAdviceV01",
+  "language": "en",
+  "name": "Party Event Advice V 01",
+  "definition": "The PartyEventAdvice message can be sent by any party to any other party. It is used for business letters containing information for which treatment is not formally defined in order to keep partners informed and to maintain business traces, for example confirmations of information exchanged out-of band such as announcing a postal letter, confirming a telephone call or the exchange of contractual information. It can also be sent to verify the technical interoperability of the communicating IT-systems.|The message can reference other message and include data from referenced messages.|The message can report several events.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the event, common parameters, documents and identifications."
+    },
+    "EventNotice": {
+      "name": "Event Notice",
+      "definition": "Description of the event."
+    },
+    "EventCount": {
+      "name": "Event Count",
+      "definition": "Number of events as control value."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

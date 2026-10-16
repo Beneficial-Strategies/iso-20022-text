@@ -1,0 +1,33 @@
+{
+  "isoType": "CancellationReason1Code",
+  "language": "en",
+  "name": "Cancellation Reason 1 Code",
+  "definition": "Specifies the reason for requesting the cancellation of a payment instruction.",
+  "isoCodes": {
+    "CUST": {
+      "isoName": "RequestedByCustomer",
+      "name": "Requested By Customer",
+      "definition": "Cancellation requested by the Debtor."
+    },
+    "DUPL": {
+      "isoName": "DuplicatePayment",
+      "name": "Duplicate Payment",
+      "definition": "Payment is a duplicate of another payment."
+    },
+    "AGNT": {
+      "isoName": "IncorrectAgent",
+      "name": "Incorrect Agent",
+      "definition": "Agent in the payment workflow is incorrect."
+    },
+    "CURR": {
+      "isoName": "IncorrectCurrency",
+      "name": "Incorrect Currency",
+      "definition": "Currency of the payment is incorrect."
+    },
+    "UPAY": {
+      "isoName": "UnduePayment",
+      "name": "Undue Payment",
+      "definition": "Payment is not justified."
+    }
+  }
+}

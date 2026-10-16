@@ -1,0 +1,16 @@
+{
+  "isoType": "PortfolioIdentification3",
+  "language": "en",
+  "name": "Portfolio Identification 3",
+  "definition": "Identifies the portfolio if the collateral is reported on a portfolio basis.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Unique code determined by the reporting counterparty to identify the portfolio if collateral is reported on a portfolio basis."
+    },
+    "PortfolioTransactionExemption": {
+      "name": "Portfolio Transaction Exemption",
+      "definition": "Indicates whether the collateral portfolio includes transactions exempt from reporting.||Usage: If the element is not present, the PortfolioTransactionExemption is False."
+    }
+  }
+}

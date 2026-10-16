@@ -1,0 +1,83 @@
+{
+  "isoType": "CardholderVerificationCapability4Code",
+  "language": "en",
+  "name": "Cardholder Verification Capability 4 Code",
+  "definition": "Cardholder verification capabilities by the terminal.",
+  "isoCodes": {
+    "APKI": {
+      "isoName": "AccountDigitalSignature",
+      "name": "Account Digital Signature",
+      "definition": "Account based digital signature."
+    },
+    "CHDT": {
+      "isoName": "CardholderData",
+      "name": "Cardholder Data",
+      "definition": "Cardholder authentication data."
+    },
+    "MNSG": {
+      "isoName": "ManualSignature",
+      "name": "Manual Signature",
+      "definition": "Manual signature verification."
+    },
+    "MNVR": {
+      "isoName": "ManualVerification",
+      "name": "Manual Verification",
+      "definition": "Other manual verification, for example passport or drivers license."
+    },
+    "FBIG": {
+      "isoName": "OfflineBiographics",
+      "name": "Offline Biographics",
+      "definition": "Offline biographics."
+    },
+    "FBIO": {
+      "isoName": "OfflineBiometrics",
+      "name": "Offline Biometrics",
+      "definition": "Offline biometrics."
+    },
+    "FDSG": {
+      "isoName": "OfflineDigitalSignature",
+      "name": "Offline Digital Signature",
+      "definition": "Offline digital signature analysis."
+    },
+    "FCPN": {
+      "isoName": "OfflinePINClear",
+      "name": "Offline PIN Clear",
+      "definition": "Offline PIN in clear (Personal Identification Number)."
+    },
+    "FEPN": {
+      "isoName": "OfflinePINEncrypted",
+      "name": "Offline PIN Encrypted",
+      "definition": "Offline PIN encrypted (Personal Identification Number)."
+    },
+    "NPIN": {
+      "isoName": "OnLinePIN",
+      "name": "On Line PIN",
+      "definition": "Online PIN (Personal Identification Number)."
+    },
+    "PKIS": {
+      "isoName": "PKISignature",
+      "name": "PKI Signature",
+      "definition": "PKI (Public Key Infrastructure) based digital signature."
+    },
+    "SCEC": {
+      "isoName": "SecureElectronicCommerce",
+      "name": "Secure Electronic Commerce",
+      "definition": "Three domain secure (three domain secure authentication of the cardholder)."
+    },
+    "NBIO": {
+      "isoName": "OnLineBiometrics",
+      "name": "On Line Biometrics",
+      "definition": "Online biometrics."
+    },
+    "NOVF": {
+      "isoName": "NoCapabilities",
+      "name": "No Capabilities",
+      "definition": "No cardholder verification capability."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other cardholder verification capabilities."
+    }
+  }
+}

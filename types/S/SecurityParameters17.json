@@ -1,0 +1,28 @@
+{
+  "isoType": "SecurityParameters17",
+  "language": "en",
+  "name": "Security Parameters 17",
+  "definition": "Parameters related to the security of software application and application protocol.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action for the configuration parameters."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the security parameters."
+    },
+    "POIChallenge": {
+      "name": "POI Challenge",
+      "definition": "Point of interaction challenge for cryptographic key injection."
+    },
+    "TMChallenge": {
+      "name": "TM Challenge",
+      "definition": "Terminal manager challenge for cryptographic key injection."
+    },
+    "SecurityElement": {
+      "name": "Security Element",
+      "definition": "Key to inject in the point of interaction, protected by the temporary key previously sent."
+    }
+  }
+}

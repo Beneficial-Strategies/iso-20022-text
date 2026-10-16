@@ -1,0 +1,32 @@
+{
+  "isoType": "EarlyPayment1",
+  "language": "en",
+  "name": "Early Payment 1",
+  "definition": "Specifies the payment terms of the underlying transaction.",
+  "isoElements": {
+    "EarlyPaymentDate": {
+      "name": "Early Payment Date",
+      "definition": "Date before which the early payment discount is valid for payment."
+    },
+    "DiscountPercent": {
+      "name": "Discount Percent",
+      "definition": "Discount percent for early payment."
+    },
+    "DiscountAmount": {
+      "name": "Discount Amount",
+      "definition": "Early payment discount with tax, with currency."
+    },
+    "EarlyPaymentTaxSpecification": {
+      "name": "Early Payment Tax Specification",
+      "definition": "In tax specification for early payment discount one defined the applied tax rates for specific early payment. VAT stands for value added tax."
+    },
+    "EarlyPaymentTaxTotal": {
+      "name": "Early Payment Tax Total",
+      "definition": "Tax total in early payment, with currency."
+    },
+    "DuePayableAmountWithEarlyPayment": {
+      "name": "Due Payable Amount With Early Payment",
+      "definition": "Payable amount with discount of early payment, with currency."
+    }
+  }
+}

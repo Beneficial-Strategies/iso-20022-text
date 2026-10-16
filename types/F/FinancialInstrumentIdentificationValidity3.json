@@ -1,0 +1,16 @@
+{
+  "isoType": "FinancialInstrumentIdentificationValidity3",
+  "language": "en",
+  "name": "Financial Instrument Identification Validity 3",
+  "definition": "Specifies the date from which the financial instrument identification is valid.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Way(s) of identifying the security."
+    },
+    "ISINValidFrom": {
+      "name": "ISIN Valid From",
+      "definition": "Defines the date from which the instrument code is valid. This date can be before the actual issue date of an instrument for 'when-issued' securities, but may not be a date in the future for a new security."
+    }
+  }
+}

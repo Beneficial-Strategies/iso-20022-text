@@ -1,0 +1,37 @@
+{
+  "isoType": "RegulatoryTransactionReportCancellationRequestV02",
+  "language": "en",
+  "name": "Regulatory Transaction Report Cancellation Request V 02",
+  "definition": "Scope|A reporting institution, eg, an investment bank, sends the RegulatoryTransactionReportCancellationRequest to a regulator or to an intermediary (eg a reporting agent), to request a cancellation of a previously sent RegulatoryTransactionReport.|Usage|The message definition can be used to cancel an entire RegulatoryTransactionReport or to cancel one or more individual transactions in a previously sent RegulatoryTransactionReport.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the RegulatoryTransactionReportCancellationRequest document."
+    },
+    "ReportingInstitution": {
+      "name": "Reporting Institution",
+      "definition": "Identification of the firm that executed the transaction.|."
+    },
+    "ReportingAgent": {
+      "name": "Reporting Agent",
+      "definition": "Identifies the intermediary which is reporting on behalf on the reporting institution."
+    },
+    "CancellationByTransactionDetails": {
+      "name": "Cancellation By Transaction Details",
+      "definition": "Provides all the details of the transaction report that needs to be cancelled. More than one set of details can be provided.||."
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": "Provides the reference of the RegulatoryTransactionReport document that was previously sent and that needs to be cancelled in its entirety."
+    },
+    "CancellationByTradeReference": {
+      "name": "Cancellation By Trade Reference",
+      "definition": "Provides the trade reference of the transaction report that needs to be cancelled. More than one reference may be provided."
+    }
+  },
+  "isoRules": {
+    "CancellationByPreviousReferenceOrTradeReferenceOrTransactionDetailsRule": {
+      "definition": "Either PreviousReference or one or more instances of CancellationByTransactionDetails or one or more instances of CancellationByTradeReference must be present."
+    }
+  }
+}

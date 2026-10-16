@@ -1,0 +1,224 @@
+{
+  "isoType": "FinancialInstrumentAttributes124",
+  "language": "en",
+  "name": "Financial Instrument Attributes 124",
+  "definition": "Elements characterising a financial instrument.",
+  "isoElements": {
+    "PlaceOfListing": {
+      "name": "Place Of Listing",
+      "definition": "Market(s) on which the security is listed."
+    },
+    "Rating": {
+      "name": "Rating",
+      "definition": "Assessment of securities credit and investment risk."
+    },
+    "CertificateNumber": {
+      "name": "Certificate Number",
+      "definition": "Unique and unambiguous identifier of a certificate assigned by the issuer."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies the computation method of (accrued) interest of the security."
+    },
+    "RegistrationForm": {
+      "name": "Registration Form",
+      "definition": "Specifies the form, ie, ownership, of the security."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the frequency of an interest payment."
+    },
+    "VariableRateChangeFrequency": {
+      "name": "Variable Rate Change Frequency",
+      "definition": "Specifies the frequency of change to the variable rate of an interest bearing instrument."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, for example, common share with voting rights, fully paid, or registered."
+    },
+    "OptionStyle": {
+      "name": "Option Style",
+      "definition": "Specifies how an option can be exercised (American, European, Bermudan)."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a Call option (right to purchase a specific underlying asset) or a Put option (right to sell a specific underlying asset)."
+    },
+    "DenominationCurrency": {
+      "name": "Denomination Currency",
+      "definition": "Currency in which a security is issued or redenominated."
+    },
+    "CouponDate": {
+      "name": "Coupon Date",
+      "definition": "Next payment date of an interest bearing financial instrument."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Date on which a privilege expires."
+    },
+    "FloatingRateFixingDate": {
+      "name": "Floating Rate Fixing Date",
+      "definition": "Date at which the interest rate of an interest bearing security will be calculated and reset, according to the terms of the issue."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Date at which the security was made available."
+    },
+    "NextCallableDate": {
+      "name": "Next Callable Date",
+      "definition": "Next date at which the issuer has the right to pay the security prior to maturity."
+    },
+    "ConversionDate": {
+      "name": "Conversion Date",
+      "definition": "Deadline by which a convertible security must be converted according to the terms of the issue."
+    },
+    "PutableDate": {
+      "name": "Putable Date",
+      "definition": "Date at which the holder has the right to ask for redemption of the security prior to final maturity."
+    },
+    "DatedDate": {
+      "name": "Dated Date",
+      "definition": "First date at which a security begins to accrue interest."
+    },
+    "FirstPaymentDate": {
+      "name": "First Payment Date",
+      "definition": "Date at which the first interest payment is due to holders of the security."
+    },
+    "NextFactorDate": {
+      "name": "Next Factor Date",
+      "definition": "Date on which the current factor will be changed to the next factor."
+    },
+    "PreviousFactor": {
+      "name": "Previous Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 that was applicable before the current factor and defines the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "CurrentFactor": {
+      "name": "Current Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 defining the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "NextFactor": {
+      "name": "Next Factor",
+      "definition": "Rate expressed as a decimal between 0 and 1 that will be applicable as of the next factor date and defines the outstanding principal of the financial instrument (for factored securities)."
+    },
+    "EndFactor": {
+      "name": "End Factor",
+      "definition": "End ratio of principal outstanding to the original balance."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Per annum ratio of interest paid to the principal amount of the financial instrument for a specific period of time."
+    },
+    "NextInterestRate": {
+      "name": "Next Interest Rate",
+      "definition": "Interest rate applicable to the next interest payment period in relation to variable rate instruments."
+    },
+    "IndexRateBasis": {
+      "name": "Index Rate Basis",
+      "definition": "Specifies the reference rate for fixed income instruments where the |price of the instrument is indexed to the price of an underlying benchmark."
+    },
+    "PercentageOfDebtClaims": {
+      "name": "Percentage Of Debt Claims",
+      "definition": "Percentage of the underlying assets of a fund that represents a debt, for example, in the context of the EU Savings directive."
+    },
+    "CouponAttachedNumber": {
+      "name": "Coupon Attached Number",
+      "definition": "Number of the coupon attached to the physical security."
+    },
+    "PoolNumber": {
+      "name": "Pool Number",
+      "definition": "Number identifying a group of underlying assets assigned by the issuer of a factored security."
+    },
+    "VersionNumber": {
+      "name": "Version Number",
+      "definition": "Number allocated by options exchanges to record that an option has undergone a change in its contract specifications (particularly adjustment of the strike price)."
+    },
+    "ConvertibleIndicator": {
+      "name": "Convertible Indicator",
+      "definition": "Indicates whether the interest bearing security is convertible into another type of security."
+    },
+    "VariableRateIndicator": {
+      "name": "Variable Rate Indicator",
+      "definition": "Indicates whether the interest rate of an interest bearing instrument is reset periodically."
+    },
+    "CoveredIndicator": {
+      "name": "Covered Indicator",
+      "definition": "Indicates whether the underlying security is owned by the writer of the entitlement."
+    },
+    "CallableIndicator": {
+      "name": "Callable Indicator",
+      "definition": "Indicates whether the issuer has the right to pay the security prior to maturity. Also called RetractableIndicator."
+    },
+    "PutableIndicator": {
+      "name": "Putable Indicator",
+      "definition": "Indicates whether the holder has the right to ask for redemption of the security prior to final maturity. Also called RedeemableIndicator."
+    },
+    "WarrantAttachedOnDelivery": {
+      "name": "Warrant Attached On Delivery",
+      "definition": "Indicates whether the warrants on a financial instrument (which has been traded cum warrants) will be attached on delivery."
+    },
+    "OddCouponIndicator": {
+      "name": "Odd Coupon Indicator",
+      "definition": "Indicates whether the payment of the coupon (interest) on an interest bearing instrument is off the normal schedule."
+    },
+    "RedemptionYieldImpact": {
+      "name": "Redemption Yield Impact",
+      "definition": "Indicates whether, in the case of a debt security subject to redemption before maturity, such redemption could have an impact on the yield."
+    },
+    "YieldVariance": {
+      "name": "Yield Variance",
+      "definition": "Indicates whether the actual yield of an asset-backed security may vary according to the rate at which the underlying receivables or other financial assets are prepaid."
+    },
+    "ExercisePrice": {
+      "name": "Exercise Price",
+      "definition": "Predetermined price at which the holder of a derivative will buy or sell the underlying instrument."
+    },
+    "SubscriptionPrice": {
+      "name": "Subscription Price",
+      "definition": "Fixed price at which a new securities issue is being offered to the public."
+    },
+    "ConversionPrice": {
+      "name": "Conversion Price",
+      "definition": "Price at which a given convertible security can be converted to common stock."
+    },
+    "TaxableIncomePerShare": {
+      "name": "Taxable Income Per Share",
+      "definition": "Amount included in the Net Asset Value(NAV) that corresponds to gains directly or indirectly derived from interest payment, for example in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "MinimumNominalQuantity": {
+      "name": "Minimum Nominal Quantity",
+      "definition": "Indicates the minimum tradable quantity of a security."
+    },
+    "MinimumExercisableQuantity": {
+      "name": "Minimum Exercisable Quantity",
+      "definition": "Minimum quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "MinimumExercisableMultipleQuantity": {
+      "name": "Minimum Exercisable Multiple Quantity",
+      "definition": "Minimum multiple quantity of financial instrument or lot of rights/warrants that must be exercised."
+    },
+    "FaceAmount": {
+      "name": "Face Amount",
+      "definition": "Signed face amount and amortised value of security."
+    },
+    "ContractSize": {
+      "name": "Contract Size",
+      "definition": "Ratio or multiplying factor used to convert one contract into a quantity."
+    },
+    "FinancialInstrumentAttributeAdditionalDetails": {
+      "name": "Financial Instrument Attribute Additional Details",
+      "definition": "Provides additional information about the financial instrument in narrative form."
+    }
+  },
+  "isoRules": {
+    "PlaceOfListingRule": {
+      "definition": "If PlaceOfListing is used and a ISO 10383 MIC exists for the market to be identified, the ISO 10383 Market Identifier Code (MIC) must be used."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Unless bilaterally agreed between the Sender and Receiver, if FinancialInstrumentAttributeAdditionalDetails is present, then it must not contain information that can be provided in a structured field."
+    }
+  }
+}

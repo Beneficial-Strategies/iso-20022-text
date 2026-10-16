@@ -1,0 +1,16 @@
+{
+  "isoType": "CollateralStatus2Choice",
+  "language": "en",
+  "name": "Collateral Status 2 Choice",
+  "definition": "Indicates whether the transaction is pending initiation or has been initiated.",
+  "isoElements": {
+    "Code": {
+      "name": "Code",
+      "definition": "Provides the status after comparing the total collateral required and the total collateral value of all transactions covered in the message as a code."
+    },
+    "Proprietary": {
+      "name": "Proprietary",
+      "definition": "Specifies the status of the execution with a proprietary scheme."
+    }
+  }
+}

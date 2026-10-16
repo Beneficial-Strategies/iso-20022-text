@@ -1,0 +1,60 @@
+{
+  "isoType": "SettlementService7",
+  "language": "en",
+  "name": "Settlement Service 7",
+  "definition": "Attributes of a settlement service.",
+  "isoElements": {
+    "ProposedType": {
+      "name": "Proposed Type",
+      "definition": "Proposed type of settlement service."
+    },
+    "ProposedIdentification": {
+      "name": "Proposed Identification",
+      "definition": "Identification of proposed settlement service."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of settlement service applied"
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of settlement service applied."
+    },
+    "DeferredDate": {
+      "name": "Deferred Date",
+      "definition": "Indicate the date the transaction will be settled."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Actual date of settlement."
+    },
+    "Time": {
+      "name": "Time",
+      "definition": "Actual time of settlement."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Identifies the settlement period, cycle or group. May contain settlement frequency or the identification of specific settlement period. For example, daily, monthly or settlementperiod123acd."
+    },
+    "CutOffTime": {
+      "name": "Cut Off Time",
+      "definition": "Identifies the effective end time of the settlement date and/or period."
+    },
+    "ReportingEntityType": {
+      "name": "Reporting Entity Type",
+      "definition": "Identifies the type of settlement reporting entity"
+    },
+    "ReportingEntityIdentification": {
+      "name": "Reporting Entity Identification",
+      "definition": "Identification of the settlement reporting entity."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

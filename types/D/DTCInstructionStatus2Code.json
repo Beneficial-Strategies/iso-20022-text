@@ -1,0 +1,78 @@
+{
+  "isoType": "DTCInstructionStatus2Code",
+  "language": "en",
+  "name": "DTC Instruction Status 2 Code",
+  "definition": "DTC (The Depository Trust Company) system status code of instruction.",
+  "isoCodes": {
+    "CANC": {
+      "isoName": "Cancel",
+      "name": "Cancel",
+      "definition": "Instruction cancelled by client relating to survivor option event."
+    },
+    "CCAN": {
+      "isoName": "ConversionCancellation",
+      "name": "Conversion Cancellation",
+      "definition": "Cancellation of conversion instruction upon agent approval only."
+    },
+    "DROP": {
+      "isoName": "Dropped",
+      "name": "Dropped",
+      "definition": "Instruction dropped due to insufficient position."
+    },
+    "MADE": {
+      "isoName": "Made",
+      "name": "Made",
+      "definition": "Fully processed instruction."
+    },
+    "PDOC": {
+      "isoName": "PendingDocumentation",
+      "name": "Pending Documentation",
+      "definition": "Instruction for CD early redemption awaiting paperwork. Instruction will become MADE when DTC releases instruction upon paperwork."
+    },
+    "PENA": {
+      "isoName": "PendingApproval",
+      "name": "Pending Approval",
+      "definition": "Instruction pending release or delete from approval function."
+    },
+    "PEND": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Instruction waiting for update after submission."
+    },
+    "REJA": {
+      "isoName": "RejectedByAgent",
+      "name": "Rejected By Agent",
+      "definition": "Instruction or withdrawal rejected by agent relating to survivor option event."
+    },
+    "REJT": {
+      "isoName": "Reject",
+      "name": "Reject",
+      "definition": "Instruction did not pass initial validation."
+    },
+    "REMD": {
+      "isoName": "RecycleMade",
+      "name": "Recycle Made",
+      "definition": "Previously recycled transactions have been “MADE” and the system is processing the updates."
+    },
+    "RESC": {
+      "isoName": "Rescinded",
+      "name": "Rescinded",
+      "definition": "Rescinded by Issuer."
+    },
+    "SWUN": {
+      "isoName": "Swung",
+      "name": "Swung",
+      "definition": "Instruction moved from one client account to another for put events."
+    },
+    "WITH": {
+      "isoName": "Withdrawn",
+      "name": "Withdrawn",
+      "definition": "Client instruction withdrawn for events with withdrawal privilege."
+    },
+    "RECY": {
+      "isoName": "Recycle",
+      "name": "Recycle",
+      "definition": "Instruction waiting for position. Instruction will subsequently either become “Made” or “Dropped” by end of day."
+    }
+  }
+}

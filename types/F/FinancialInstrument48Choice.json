@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrument48Choice",
+  "language": "en",
+  "name": "Financial Instrument 48 Choice",
+  "definition": "Choice to specific an instrument of type ISIN, LEI or Index.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "LEI": {
+      "name": "LEI",
+      "definition": "The LEI code of the issuer where the instrument is referring to an issuer rather than one single instrument."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Index on which the financial instrument is based."
+    }
+  }
+}

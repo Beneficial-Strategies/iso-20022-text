@@ -1,0 +1,52 @@
+{
+  "isoType": "TwoLegTransactionDetails5",
+  "language": "en",
+  "name": "Two Leg Transaction Details 5",
+  "definition": "Specifies the details of the first leg in a two leg transaction process.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Specifies the date/time on which the trade was executed."
+    },
+    "OpeningLegIdentification": {
+      "name": "Opening Leg Identification",
+      "definition": "Unambiguous identification of the reference assigned in the first leg of the transaction."
+    },
+    "ClosingLegIdentification": {
+      "name": "Closing Leg Identification",
+      "definition": "Unambiguous identification of the second leg of the transaction as known by the account owner (or the instructing party acting on its behalf)."
+    },
+    "GrossTradeAmount": {
+      "name": "Gross Trade Amount",
+      "definition": "Principal amount of a trade (price multiplied by quantity)."
+    },
+    "OtherAmounts": {
+      "name": "Other Amounts",
+      "definition": "Identifies other amounts pertaining to the transaction."
+    },
+    "SecondLegNarrative": {
+      "name": "Second Leg Narrative",
+      "definition": "Provides additional information about the second leg in narrative form."
+    },
+    "EndPrice": {
+      "name": "End Price",
+      "definition": "Negotiated fixed price of the security to buy it back."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Closing date/time or maturity date/time of the transaction."
+    },
+    "ClosingSettlementAmount": {
+      "name": "Closing Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities. The amount includes the principal with any commissions and fees or accrued interest."
+    },
+    "ProcessingDate": {
+      "name": "Processing Date",
+      "definition": "Processing date of the trading session."
+    },
+    "TwoLegTransactionType": {
+      "name": "Two Leg Transaction Type",
+      "definition": "Specifies the type of the second leg transaction."
+    }
+  }
+}

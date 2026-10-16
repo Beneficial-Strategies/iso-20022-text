@@ -1,0 +1,20 @@
+{
+  "isoType": "ATMDepositRequest2",
+  "language": "en",
+  "name": "ATM Deposit Request 2",
+  "definition": "Information related to the request of a deposit transaction from an ATM.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment in which the transaction is performed."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the deposit transaction is performed."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Deposit transaction for which the service is requested."
+    }
+  }
+}

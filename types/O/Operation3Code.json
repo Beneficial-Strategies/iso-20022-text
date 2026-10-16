@@ -1,0 +1,18 @@
+{
+  "isoType": "Operation3Code",
+  "language": "en",
+  "name": "Operation 3 Code",
+  "definition": "Specifies an AND or an OR operator.",
+  "isoCodes": {
+    "ANDD": {
+      "isoName": "And",
+      "name": "And",
+      "definition": "Indicates that only when all if all of its elements are valid, the whole expression is valid."
+    },
+    "ORRR": {
+      "isoName": "Or",
+      "name": "Or",
+      "definition": "Indicates that when at least one of its elements is valid, the whole expression is valid."
+    }
+  }
+}

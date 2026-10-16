@@ -1,0 +1,28 @@
+{
+  "isoType": "ExternalCalculationAgent1Code",
+  "language": "en",
+  "name": "External Calculation Agent 1 Code",
+  "definition": "Specifies the calculation agent, as published in an external calculation agent code list.|External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "ISDA": {
+      "isoName": "ISDA",
+      "name": "ISDA",
+      "definition": "As defined in the ISDA Master Agreement."
+    },
+    "JOIN": {
+      "isoName": "Joint",
+      "name": "Joint",
+      "definition": "Trading side and counterparty side will jointly act."
+    },
+    "TRAD": {
+      "isoName": "TradingSide",
+      "name": "Trading Side",
+      "definition": "Trading side will act."
+    },
+    "CNTP": {
+      "isoName": "CounterpartySide",
+      "name": "Counterparty Side",
+      "definition": "Counterparty side will act."
+    }
+  }
+}

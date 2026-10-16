@@ -1,0 +1,57 @@
+{
+  "isoType": "TradeSettlement2",
+  "language": "en",
+  "name": "Trade Settlement 2",
+  "definition": "Trade settlement details for this invoice which involves the payment of an outstanding debt, account, or charge.",
+  "isoElements": {
+    "PaymentReference": {
+      "name": "Payment Reference",
+      "definition": "Payment or creditor reference."
+    },
+    "DueDate": {
+      "name": "Due Date",
+      "definition": "Date when invoice should be paid."
+    },
+    "DuePayableAmount": {
+      "name": "Due Payable Amount",
+      "definition": "Payable amount with currency code."
+    },
+    "InvoiceCurrencyExchange": {
+      "name": "Invoice Currency Exchange",
+      "definition": "If invoice currency is different from local tax reporting currency, then applied exchange rate is given in this message structure."
+    },
+    "DeliveryDate": {
+      "name": "Delivery Date",
+      "definition": "Date when goods/services are delivered to buyer."
+    },
+    "BillingPeriod": {
+      "name": "Billing Period",
+      "definition": "Period during which delivery executed or agreed invoicing period."
+    },
+    "TaxTotalAmount": {
+      "name": "Tax Total Amount",
+      "definition": "Tax total amount with currency code."
+    },
+    "ExemptionReasonCode": {
+      "name": "Exemption Reason Code",
+      "definition": "Reason for tax exemption expressed as a code, if invoice or card transaction is out of tax processing."
+    },
+    "ExemptionReason": {
+      "name": "Exemption Reason",
+      "definition": "Reason for a tax exemption, if invoice or card transaction is out of tax processing."
+    },
+    "SubTotalCalculatedTax": {
+      "name": "Sub Total Calculated Tax",
+      "definition": "Calculated tax subtotal."
+    },
+    "EarlyPayments": {
+      "name": "Early Payments",
+      "definition": "Details of each early payment discount."
+    }
+  },
+  "isoRules": {
+    "R6": {
+      "definition": "Value according to external codelist."
+    }
+  }
+}

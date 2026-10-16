@@ -1,0 +1,36 @@
+{
+  "isoType": "CardAccount17",
+  "language": "en",
+  "name": "Card Account 17",
+  "definition": "Customer account information.",
+  "isoElements": {
+    "SelectionMethod": {
+      "name": "Selection Method",
+      "definition": "Method used by the cardholder and the terminal for the choice of the account."
+    },
+    "SelectedAccountType": {
+      "name": "Selected Account Type",
+      "definition": "Type of cardholder account used for the transaction."
+    },
+    "AccountName": {
+      "name": "Account Name",
+      "definition": "Name of the account, as assigned by the account servicing institution, in agreement with the account owner in order to provide an additional means of identification of the account.|Usage: The account name is different from the account owner name. The account name is used in certain user communities to provide a means of identifying the account, in addition to the account owner's identity and the account number."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Identification of the currency in which the account is held."
+    },
+    "AccountIdentifier": {
+      "name": "Account Identifier",
+      "definition": "Unique identifier of the account, as assigned by the account servicer."
+    },
+    "CreditReference": {
+      "name": "Credit Reference",
+      "definition": "Internal account reference in case of credit account."
+    },
+    "Servicer": {
+      "name": "Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    }
+  }
+}

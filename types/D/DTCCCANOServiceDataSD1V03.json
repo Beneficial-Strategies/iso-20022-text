@@ -1,0 +1,48 @@
+{
+  "isoType": "DTCCCANOServiceDataSD1V03",
+  "language": "en",
+  "name": "DTCCCANO Service Data SD 1 V 03",
+  "definition": "The DTCCCANOServiceDataSD1 message extends ISO corporate action notification (CANO) message with DTCC validation service specific data elements that are not covered by the standard message.",
+  "isoElements": {
+    "NotificationGeneralInformation": {
+      "name": "Notification General Information",
+      "definition": "Information to be extended as supplementary data to notification general information."
+    },
+    "EventsLinkage": {
+      "name": "Events Linkage",
+      "definition": "Information to be extended as supplementary data to events linkage."
+    },
+    "CorporateActionNotification": {
+      "name": "Corporate Action Notification",
+      "definition": "Information to be extended as supplementary data to corporate action notification."
+    },
+    "UnderlyingSecurity": {
+      "name": "Underlying Security",
+      "definition": "Information to be extended as supplementary data to underlying security."
+    },
+    "CorporateActionDetails": {
+      "name": "Corporate Action Details",
+      "definition": "Information to be extended as corporate action details supplementary data."
+    },
+    "CorporateActionDateDetails": {
+      "name": "Corporate Action Date Details",
+      "definition": "Information to be extended as corporate action date details supplementary data."
+    },
+    "OptionDetails": {
+      "name": "Option Details",
+      "definition": "Information to be extended as supplementary data to option details."
+    },
+    "SecuritiesMovementDetails": {
+      "name": "Securities Movement Details",
+      "definition": "Information to be extended as supplementary data to securities movement details."
+    },
+    "SecuritiesMovementSecurityDetails": {
+      "name": "Securities Movement Security Details",
+      "definition": "Information to be extended as supplementary data to securities movement security details."
+    },
+    "CashMovementDetails": {
+      "name": "Cash Movement Details",
+      "definition": "Information to be extended as cash movement supplementary data."
+    }
+  }
+}

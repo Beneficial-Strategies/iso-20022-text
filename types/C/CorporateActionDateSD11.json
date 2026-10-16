@@ -1,0 +1,44 @@
+{
+  "isoType": "CorporateActionDateSD11",
+  "language": "en",
+  "name": "Corporate Action Date SD 11",
+  "definition": "Provides additional information regarding corporate action options date details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "ActualEarlyExpirationDate": {
+      "name": "Actual Early Expiration Date",
+      "definition": "Actual early expiration time as set by the issuer/offer/agent."
+    },
+    "ActualProtectExpirationDate": {
+      "name": "Actual Protect Expiration Date",
+      "definition": "Last day protect instructions can be submitted to the issuer / agent."
+    },
+    "ActualEarlyProtectExpirationDate": {
+      "name": "Actual Early Protect Expiration Date",
+      "definition": "Last day protect instructions can be submitted to the issuer / agent for the early expiration."
+    },
+    "DTCEarlyProtectExpirationDate": {
+      "name": "DTC Early Protect Expiration Date",
+      "definition": "Last day protect instructions can be submitted to DTC for the early expiration."
+    },
+    "ActualEarlyCoverProtectExpirationDate": {
+      "name": "Actual Early Cover Protect Expiration Date",
+      "definition": "Last day cover early protect instructions can be submitted to the issuer / agent."
+    },
+    "DTCEarlyCoverProtectExpirationDate": {
+      "name": "DTC Early Cover Protect Expiration Date",
+      "definition": "Last day cover early protect instructions can be submitted to DTC."
+    },
+    "ProcessToDate": {
+      "name": "Process To Date",
+      "definition": "For Reorganization events, date at which instructions will be accepted by agent for payment."
+    },
+    "DTCEarliestPaymentDate": {
+      "name": "DTC Earliest Payment Date",
+      "definition": "Date on which DTC expects to receive funds for distribution from the issuer / offeror.  It will be used before payout details are available."
+    }
+  }
+}

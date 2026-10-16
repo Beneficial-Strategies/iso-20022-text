@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPPortfolioStressTestingResultReportV01",
+  "language": "en",
+  "name": "CCP Portfolio Stress Testing Result Report V 01",
+  "definition": "The CCPPortfolioStressTestingResultReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority about the results of the stress testing carried out by the central counterparty on clearing member positions.",
+  "isoElements": {
+    "ScenarioStressTestResult": {
+      "name": "Scenario Stress Test Result",
+      "definition": "Identification of the stressed account, and data on the simulated profits and losses resulting from the application of a stress test scenario to the positions in a cleared portfolio."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

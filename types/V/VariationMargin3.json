@@ -1,0 +1,36 @@
+{
+  "isoType": "VariationMargin3",
+  "language": "en",
+  "name": "Variation Margin 3",
+  "definition": "Margin required to cover the risk because of the price fluctuations occurred on the unsettled exposures towards central counterparty.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Provides details about the security identification."
+    },
+    "TotalVariationMargin": {
+      "name": "Total Variation Margin",
+      "definition": "Margin required to cover the risk because of the price fluctuations occurred on the unsettled exposures towards the central counterparty."
+    },
+    "TotalMarkToMarket": {
+      "name": "Total Mark To Market",
+      "definition": "Net unrealised profit or loss on the value of the netted, gross and failing positions."
+    },
+    "MarkToMarketNetted": {
+      "name": "Mark To Market Netted",
+      "definition": "Unrealised net loss calculated at the participant portfolio level."
+    },
+    "MarkToMarketGross": {
+      "name": "Mark To Market Gross",
+      "definition": "Unrealised net loss calculated in that market/boundary."
+    },
+    "MarkToMarketFails": {
+      "name": "Mark To Market Fails",
+      "definition": "Sum of the unrealised loss without taking profit into consideration."
+    },
+    "FailsHaircut": {
+      "name": "Fails Haircut",
+      "definition": "Haircut applied to the absolute value of the participants net positions. Calculation depends on a participants credit rating."
+    }
+  }
+}

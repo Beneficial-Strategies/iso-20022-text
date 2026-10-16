@@ -1,0 +1,24 @@
+{
+  "isoType": "CollateralSubstitutionResponse3",
+  "language": "en",
+  "name": "Collateral Substitution Response 3",
+  "definition": "Provides details about the rejected collateral substitution.",
+  "isoElements": {
+    "CollateralSubstitutionRequestIdentification": {
+      "name": "Collateral Substitution Request Identification",
+      "definition": "Reference to the collateral substitution request identification."
+    },
+    "RejectedAmount": {
+      "name": "Rejected Amount",
+      "definition": "Specifies the collateral substitution amount that is rejected."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Specifies the reasons why the collateral substitution is rejected."
+    },
+    "RejectionReasonInformation": {
+      "name": "Rejection Reason Information",
+      "definition": "Provides additional information about the collateral substitution request rejection."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "BuyIn2",
+  "language": "en",
+  "name": "Buy In 2",
+  "definition": "Specifies elements related to the confirmation sent by the central counterparty to the clearing member in the context of the buy in process.",
+  "isoElements": {
+    "BuyInNotificationIdentification": {
+      "name": "Buy In Notification Identification",
+      "definition": "Indicates the reference of the BuyInNotification message."
+    },
+    "BuyInIdentification": {
+      "name": "Buy In Identification",
+      "definition": "Indicates the reference id of the buy in."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Provides the date at which the buy occured."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Provides the price of the buy-in."
+    },
+    "SecuritiesBuyIn": {
+      "name": "Securities Buy In",
+      "definition": "Specifies the elements related to the securities that the central counterparty had to buy in the context of the buy-in process."
+    },
+    "RequiredCashCompensation": {
+      "name": "Required Cash Compensation",
+      "definition": "Provides details about the cash compensation required, in case the central counterparty could not buy the securities to cover the trade(s) that failed."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "isoType": "RedemptionOrderConfirmationAmendmentV01",
+  "language": "en",
+  "name": "Redemption Order Confirmation Amendment V 01",
+  "definition": "Scope|An executing party, for example, a transfer agent, sends the RedemptionOrderConfirmationAmendment message to the instructing party, for example, an investment manager or its authorised representative to amend a previously sent RedemptionOrderConfirmation message.|Usage|The RedemptionOrderConfirmationAmendment message is used to amend one or more previously sent redemption order confirmations.|Each individual order confirmation amendment specified is identified in DealReference. The reference of the original individual order is specified in OrderReference.|The message identification of the RedemptionOrder message in which the individual orders were conveyed may also be quoted in RelatedReference. The message identification of the RedemptionOrderConfirmation message in which the original order confirmations were conveyed may also be quoted in PreviousReference.",
+  "isoElements": {
+    "MessageIdentification": {
+      "name": "Message Identification",
+      "definition": "Reference that uniquely identifies a message from a business application standpoint."
+    },
+    "PoolReference": {
+      "name": "Pool Reference",
+      "definition": "Collective reference identifying a set of messages."
+    },
+    "PreviousReference": {
+      "name": "Previous Reference",
+      "definition": "Reference to a linked message that was previously sent."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Reference to a linked message that was previously received."
+    },
+    "MultipleExecutionDetails": {
+      "name": "Multiple Execution Details",
+      "definition": "General information related to the execution of investment fund orders."
+    },
+    "RelatedPartyDetails": {
+      "name": "Related Party Details",
+      "definition": "Information about parties related to the transaction."
+    },
+    "CopyDetails": {
+      "name": "Copy Details",
+      "definition": "Information provided when the message is a copy of a previous message."
+    },
+    "Extension": {
+      "name": "Extension",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "AccountIdentificationRule": {
+      "definition": "If this message is linked to an account opening request and the account identification is not yet known then the value of the AccountIdentification element in MultipleExecutionDetails/InvestmentAccountDetails must be UNKNOWN."
+    },
+    "OrderReferenceRule": {
+      "definition": "If this message is not solicited by the receiver, then the value of the OrderReference element in every occurrence of MultipleExecutionDetails/IndividualExecutionDetails must be UNSOLICITED."
+    },
+    "RelatedPartiesDetailsRule": {
+      "definition": "Either RelatedPartiesDetails or MultipleExecutionDetails/IndividualExecutionDetails/RelatedPartiesDetails may be present, but not both."
+    }
+  }
+}

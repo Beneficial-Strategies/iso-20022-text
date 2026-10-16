@@ -1,0 +1,32 @@
+{
+  "isoType": "DeliveringPartiesAndAccount24",
+  "language": "en",
+  "name": "Delivering Parties And Account 24",
+  "definition": "Parameters applied to the settlement of a security transfer.",
+  "isoElements": {
+    "DeliverersCustodianDetails": {
+      "name": "Deliverers Custodian Details",
+      "definition": "Party that acts on behalf of the seller of securities when the seller does not have a direct relationship with the delivering agent."
+    },
+    "DeliverersIntermediary1Details": {
+      "name": "Deliverers Intermediary 1 Details",
+      "definition": "Party that the deliverer's custodian uses to effect the delivery of a security, when the deliverer's custodian does not have a direct relationship with the delivering agent."
+    },
+    "DeliverersIntermediary2Details": {
+      "name": "Deliverers Intermediary 2 Details",
+      "definition": "Party that interacts with the deliverer's intermediary 1."
+    },
+    "DeliveringAgentDetails": {
+      "name": "Delivering Agent Details",
+      "definition": "Party that delivers securities to the receiving agent at the place of settlement, for example, central securities depository."
+    }
+  },
+  "isoRules": {
+    "DeliverersCustodianRule": {
+      "definition": "If DeliverersIntermediary1Details is present, then DeliverersCustodianDetails must be present. If DeliverersIntermediary1Details is not present then DeliverersCustodianDetails is optional."
+    },
+    "DeliverersIntermediary1DetailsRule": {
+      "definition": "If DeliverersIntermediary2Details is present, then DeliverersIntermediary1Details must be present. If DeliverersIntermediary2Details is not present then DeliverersIntermediary1Details is optional."
+    }
+  }
+}

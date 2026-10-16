@@ -1,0 +1,32 @@
+{
+  "isoType": "AuthorisationResult20",
+  "language": "en",
+  "name": "Authorisation Result 20",
+  "definition": "Outcome of the withdrawal authorisation.",
+  "isoElements": {
+    "AuthorisationEntity": {
+      "name": "Authorisation Entity",
+      "definition": "Type of party that has delivered or declined the card payment authorisation (the party is not identified)."
+    },
+    "AuthorisationResponse": {
+      "name": "Authorisation Response",
+      "definition": "Result of the authorisation."
+    },
+    "ResponseTrace": {
+      "name": "Response Trace",
+      "definition": "Trace of response by the entities in the path from the issuer to the ATM."
+    },
+    "AuthorisationCode": {
+      "name": "Authorisation Code",
+      "definition": "Value assigned by the authorising party."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Sequence of actions to be performed by the ATM to complete the transaction."
+    },
+    "FeeToAdd": {
+      "name": "Fee To Add",
+      "definition": "Set of fees amount."
+    }
+  }
+}

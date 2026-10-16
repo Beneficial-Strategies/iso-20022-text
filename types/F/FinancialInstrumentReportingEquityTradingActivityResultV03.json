@@ -1,0 +1,20 @@
+{
+  "isoType": "FinancialInstrumentReportingEquityTradingActivityResultV03",
+  "language": "en",
+  "name": "Financial Instrument Reporting Equity Trading Activity Result V 03",
+  "definition": "The FinancialInstrumentReportingEquityTradingActivityResult message is used by an entity or an authority to provide information on computed results data of an equity specific trading activity.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Header to provide details on when and from whom the message originates."
+    },
+    "EquityTransparencyData": {
+      "name": "Equity Transparency Data",
+      "definition": "Details the transparency data reported by a trading venue."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

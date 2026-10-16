@@ -1,0 +1,32 @@
+{
+  "isoType": "CardAccountBalance1",
+  "language": "en",
+  "name": "Card Account Balance 1",
+  "definition": "Card account balance.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of card account balance. it is a 2 digit alphanumeric  value defined in ISO 8583 amount type code, range 00-1Z."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the account."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "Indicates whether the value of the balance id positive or negative."
+    },
+    "CardholderCurrency": {
+      "name": "Cardholder Currency",
+      "definition": "Indicates whether the value of balance is expressed in the currency of the cardholder or not.|True: Balance is expressed in the currency of the cardholder|False: Balance is expressed in a different currency."
+    },
+    "BalanceDate": {
+      "name": "Balance Date",
+      "definition": "Date of the balance."
+    }
+  }
+}

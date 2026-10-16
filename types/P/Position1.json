@@ -1,0 +1,44 @@
+{
+  "isoType": "Position1",
+  "language": "en",
+  "name": "Position 1",
+  "definition": "Attributes of a position in a financial instrument or financial product.",
+  "isoElements": {
+    "ProductIdentification": {
+      "name": "Product Identification",
+      "definition": "CCP’s unique internal identifier for product."
+    },
+    "RiskRequirement": {
+      "name": "Risk Requirement",
+      "definition": "Obligations of a clearing member with respect to a central counterparty based on the position at end of day."
+    },
+    "GrossNotional": {
+      "name": "Gross Notional",
+      "definition": "Gross notional of positions of the product without netting of long/short positions, or delta equivalent notional for options."
+    },
+    "NetNotional": {
+      "name": "Net Notional",
+      "definition": "Net notional of positions of the product with netting between long and short positions, or delta equivalent notional for options. Indicates whether net long position is positive."
+    },
+    "GrossDeltaEquivalentValue": {
+      "name": "Gross Delta Equivalent Value",
+      "definition": "Change in value of position for a unit change in the index. Usage: for interest rate swaps the PV01 of the gross position, for credit default swaps the DV01 of the gross position, for index products with a fixed value per unit move, the total weighted value of a one unit move in the index for the gross contracts in the position, weighted by the delta of the contracts in the position."
+    },
+    "NetDeltaEquivalentValue": {
+      "name": "Net Delta Equivalent Value",
+      "definition": "Change in value of position for a unit change in the index. Usage: for interest rate swaps the PV01 of the net position, for credit default swaps the DV01 of the net position, for index products with a fixed value per unit move, the total weighted value of a one unit move in the index for the net contracts in the position, weighted by the delta of the contracts in the position. Indicates whether net long position is positive."
+    },
+    "GrossDeltaEquivalentQuantity": {
+      "name": "Gross Delta Equivalent Quantity",
+      "definition": "Gross weighted quantity of the lots in the position weighted by the delta of the contracts in the position."
+    },
+    "NetDeltaEquivalentQuantity": {
+      "name": "Net Delta Equivalent Quantity",
+      "definition": "Net weighted quantity of the lots in the position weighted by the delta of the contracts in the position."
+    },
+    "GrossMarketValue": {
+      "name": "Gross Market Value",
+      "definition": "Gross market value of the positions of the product without netting of long/short positions."
+    }
+  }
+}

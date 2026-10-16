@@ -1,0 +1,64 @@
+{
+  "isoType": "InputData7",
+  "language": "en",
+  "name": "Input Data 7",
+  "definition": "Information related to an input request.",
+  "isoElements": {
+    "DeviceType": {
+      "name": "Device Type",
+      "definition": "Type of logical device located on a Sale Terminal or a POI Terminal."
+    },
+    "InformationQualifier": {
+      "name": "Information Qualifier",
+      "definition": "Qualification of the information to output to the logical device."
+    },
+    "InputCommand": {
+      "name": "Input Command",
+      "definition": "Type of requested input."
+    },
+    "NotifyCardInputFlag": {
+      "name": "Notify Card Input Flag",
+      "definition": "Flag of notification of card to be entered in the POI card reader."
+    },
+    "MaximumInputTime": {
+      "name": "Maximum Input Time",
+      "definition": "Maximum input time in seconds."
+    },
+    "InputText": {
+      "name": "Input Text",
+      "definition": "Text value set for an input command."
+    },
+    "ImmediateResponseFlag": {
+      "name": "Immediate Response Flag",
+      "definition": "Flag to request Immediate response without waiting for the completion of the command."
+    },
+    "WaitUserValidationFlag": {
+      "name": "Wait User Validation Flag",
+      "definition": "Flag to confirm by the user the entered characters, when the maximum allowed length is reached."
+    },
+    "BeepKeyFlag": {
+      "name": "Beep Key Flag",
+      "definition": "Flag to indicate that when the user press a key, a beep has to be generated."
+    },
+    "GlobalCorrectionFlag": {
+      "name": "Global Correction Flag",
+      "definition": "Flag to correct all characters (True) or just the last one (False)."
+    },
+    "DisableCancelFlag": {
+      "name": "Disable Cancel Flag",
+      "definition": "Flag to deactivate the \"Cancel\" function key."
+    },
+    "DisableCorrectFlag": {
+      "name": "Disable Correct Flag",
+      "definition": "Flag to deactivate the \"Correct\" function key."
+    },
+    "DisableValidFlag": {
+      "name": "Disable Valid Flag",
+      "definition": "Flag to disable the \"Valid\" function key."
+    },
+    "MenuBackFlag": {
+      "name": "Menu Back Flag",
+      "definition": "Flag to enable the \"Back\" function key to go the upper level."
+    }
+  }
+}

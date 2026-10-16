@@ -1,0 +1,28 @@
+{
+  "isoType": "PayloadData3",
+  "language": "en",
+  "name": "Payload Data 3",
+  "definition": "Identifies the instance of the document exchanged.",
+  "isoElements": {
+    "BusinessFileIdentifier": {
+      "name": "Business File Identifier",
+      "definition": "Identifier unique within the sender of the file and assigned by the sender of the file."
+    },
+    "CreationDate": {
+      "name": "Creation Date",
+      "definition": "Date and time when the file was created by the sender."
+    },
+    "CopyDuplicate": {
+      "name": "Copy Duplicate",
+      "definition": "Indicates whether the file is a Copy, a Duplicate or a copy of a duplicate of a previously sent ISO 20022 File."
+    },
+    "PossibleDuplicate": {
+      "name": "Possible Duplicate",
+      "definition": "Flag indicating if the Business File exchanged between the MessagingEndpoints is possibly a duplicate. |If the receiving MessagingEndpoint did not receive the original, then this Business File should be processed as if it were the original. ||If the receiving MessagingEndpoint did receive the original, then it should perform necessary actions to avoid processing this Business File again.||This will guarantee business idempotent behaviour.||NOTE: this is named \"PossResend\" in FIX - this is an application level resend not a network level retransmission."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Relative indication of the processing precedence of the file over a (set of) Business Files with assigned priorities."
+    }
+  }
+}

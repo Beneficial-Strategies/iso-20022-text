@@ -1,0 +1,48 @@
+{
+  "isoType": "TradeStatus7Code",
+  "language": "en",
+  "name": "Trade Status 7 Code",
+  "definition": "Specifies the status of a trade in a central matching and settlement system.",
+  "isoCodes": {
+    "INVA": {
+      "isoName": "Invalid",
+      "name": "Invalid",
+      "definition": "Trade is invalid."
+    },
+    "UMTC": {
+      "isoName": "Unmatched",
+      "name": "Unmatched",
+      "definition": "Trade is unmatched."
+    },
+    "FMTC": {
+      "isoName": "Matched",
+      "name": "Matched",
+      "definition": "Trade is matched."
+    },
+    "SMAT": {
+      "isoName": "SettlementMature",
+      "name": "Settlement Mature",
+      "definition": "Trade has been selected for settlement."
+    },
+    "SUSP": {
+      "isoName": "Suspended",
+      "name": "Suspended",
+      "definition": "Trade has been marked not ready for settlement."
+    },
+    "SMAP": {
+      "isoName": "SettlementMaturePending",
+      "name": "Settlement Mature Pending",
+      "definition": "Trade has been selected for settlement and is pending."
+    },
+    "PFIX": {
+      "isoName": "PartialFix",
+      "name": "Partial Fix",
+      "definition": "For NDF instructions, open confirmations are matched and the Fix confirmations are not matched."
+    },
+    "FUMT": {
+      "isoName": "FixUnmatched",
+      "name": "Fix Unmatched",
+      "definition": "For NDF instructions, if a party has submitted both the open and fix confirmations and the counterparty is yet to submit the open and fix confirmation the instruction is updated to ‘Fix Unmatched’ Status."
+    }
+  }
+}

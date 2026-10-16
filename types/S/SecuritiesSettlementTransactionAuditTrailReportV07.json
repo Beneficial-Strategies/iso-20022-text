@@ -6,7 +6,7 @@
   "isoElements": {
     "Pagination": {
       "name": "Pagination",
-      "definition": ""
+      "definition": "Page number of the message (within a statement) and continuation indicator to indicate that the statement is to continue or that the message is the last page of the statement."
     },
     "QueryReference": {
       "name": "Query Reference",
@@ -14,23 +14,23 @@
     },
     "TransactionIdentification": {
       "name": "Transaction Identification",
-      "definition": ""
+      "definition": "Provides unambiguous transaction identification information."
     },
     "SafekeepingAccount": {
       "name": "Safekeeping Account",
-      "definition": ""
+      "definition": "Account to or from which a securities entry is made."
     },
     "BlockChainAddressOrWallet": {
       "name": "Block Chain Address Or Wallet",
-      "definition": ""
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
     },
     "AccountOwner": {
       "name": "Account Owner",
-      "definition": ""
+      "definition": "Party that legally owns the account."
     },
     "StatusTrail": {
       "name": "Status Trail",
-      "definition": ""
+      "definition": "Provides the history of status and reasons for a pending, posted or cancelled transaction."
     }
   },
   "isoRules": {

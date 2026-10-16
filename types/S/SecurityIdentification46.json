@@ -1,0 +1,29 @@
+{
+  "isoType": "SecurityIdentification46",
+  "language": "en",
+  "name": "Security Identification 46",
+  "definition": "Choice between ISIN and an alternative format for the identification of a financial instrument. ISIN is the preferred format.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "UniqueProductIdentifier": {
+      "name": "Unique Product Identifier",
+      "definition": "Identification through a unique product identifier."
+    },
+    "AlternativeInstrumentIdentification": {
+      "name": "Alternative Instrument Identification",
+      "definition": "Proprietary identification of a security assigned by an institution or organisation."
+    },
+    "ProductDescription": {
+      "name": "Product Description",
+      "definition": "Specifies a human readable description of the product."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

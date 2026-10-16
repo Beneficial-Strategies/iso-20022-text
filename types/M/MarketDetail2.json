@@ -1,0 +1,21 @@
+{
+  "isoType": "MarketDetail2",
+  "language": "en",
+  "name": "Market Detail 2",
+  "definition": "Details specific to a market including which market identification and average number of transactions on the venue.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Most relevant market in terms of liquidity as defined in the local regulation."
+    },
+    "AverageDailyNumberOfTransactions": {
+      "name": "Average Daily Number Of Transactions",
+      "definition": "Average daily number of transactions that have been performed on the most relevant market in terms of liquidity."
+    }
+  },
+  "isoRules": {
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "isoType": "ErrorV05",
+  "language": "en",
+  "name": "Error V 05",
+  "definition": "The Error message is sent by any party to any party (acquirer, agent or issuer) to indicate a message error.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the management of the protocol."
+    },
+    "Originator": {
+      "name": "Originator",
+      "definition": "Identifies the originator of the transaction."
+    },
+    "Sender": {
+      "name": "Sender",
+      "definition": "Party sending the message to another intermediary agent or to the final destination."
+    },
+    "Receiver": {
+      "name": "Receiver",
+      "definition": "Party receiving the message from the origin or from an intermediary agent."
+    },
+    "Destination": {
+      "name": "Destination",
+      "definition": "Identifies the destination of the transaction."
+    },
+    "Programme": {
+      "name": "Programme",
+      "definition": "Programme, network, or brand processes the transaction."
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)"
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof."
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "OriginalMessage": {
+      "name": "Original Message",
+      "definition": "Original request that caused the party to reject it."
+    },
+    "ErrorDetail": {
+      "name": "Error Detail",
+      "definition": "Error detail information."
+    },
+    "Jurisdiction": {
+      "name": "Jurisdiction",
+      "definition": "Contains information that identifies or is specific to a transaction jurisdiction."
+    },
+    "SettlementService": {
+      "name": "Settlement Service",
+      "definition": "Type of settlement service for specific services requiring settlement."
+    },
+    "AdditionalFee": {
+      "name": "Additional Fee",
+      "definition": "Fees not included in the transaction amount."
+    },
+    "Reconciliation": {
+      "name": "Reconciliation",
+      "definition": "Identification of the reconciliation period between the acquirer and the issuer or their respective agents."
+    },
+    "ProtectedData": {
+      "name": "Protected Data",
+      "definition": "Contains protected data and the attributes used to protect the data."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC"
+    }
+  }
+}

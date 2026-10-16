@@ -1,0 +1,28 @@
+{
+  "isoType": "TradeAgreement2",
+  "language": "en",
+  "name": "Trade Agreement 2",
+  "definition": "Date and identification of a trade together with references to previous events in its life.",
+  "isoElements": {
+    "TradeDate": {
+      "name": "Trade Date",
+      "definition": "Date at which the trading parties have agreed to amend or cancel a treasury trade."
+    },
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Identification of a notification.This identification must be unique amongst all notifications of same type confirmed by the same party."
+    },
+    "CommonReference": {
+      "name": "Common Reference",
+      "definition": "Reference common to the parties of a trade."
+    },
+    "AmendOrCancelReason": {
+      "name": "Amend Or Cancel Reason",
+      "definition": "Describes the reason for the cancellation or the amendment."
+    },
+    "RelatedReference": {
+      "name": "Related Reference",
+      "definition": "Refers to the identification of a previous event in the life of a trade which is amended or cancelled."
+    }
+  }
+}

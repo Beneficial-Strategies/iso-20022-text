@@ -1,0 +1,21 @@
+{
+  "isoType": "EndOfDayRequirement1",
+  "language": "en",
+  "name": "End Of Day Requirement 1",
+  "definition": "Obligations of a clearing member with respect to a central counterparty that are calculated based on end of day positions.",
+  "isoElements": {
+    "InitialMarginRequirement": {
+      "name": "Initial Margin Requirement",
+      "definition": "Specifies the initial margin requirement for position."
+    },
+    "VariationMarginRequirement": {
+      "name": "Variation Margin Requirement",
+      "definition": "Daily change in mark-to-market for the associated position. Indicates whether variation margin paid to clearing members (true) or received from clearing members (false)."
+    }
+  },
+  "isoRules": {
+    "MarginPresenceRule": {
+      "definition": "At least one margin (initial or variation) must be present."
+    }
+  }
+}

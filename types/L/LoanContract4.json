@@ -1,0 +1,84 @@
+{
+  "isoType": "LoanContract4",
+  "language": "en",
+  "name": "Loan Contract 4",
+  "definition": "Contract by which an amount of money in exchange for future repayment of the principal amount along with interest or other finance charges.",
+  "isoElements": {
+    "ContractDocumentIdentification": {
+      "name": "Contract Document Identification",
+      "definition": "Contract document referenced from this loan agreement."
+    },
+    "LoanTypeIdentification": {
+      "name": "Loan Type Identification",
+      "definition": "Type code of the loan contract."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that is specified as the buyer for this loan agreement."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that is specified as the seller for this loan agreement."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Loan amount as defined in the contract."
+    },
+    "MaturityDate": {
+      "name": "Maturity Date",
+      "definition": "Planned final repayment date at the time of issuance."
+    },
+    "ProlongationFlag": {
+      "name": "Prolongation Flag",
+      "definition": "Indicates whether the contract duration is extended or not.|When absent, the flag meaning is NotApplicable."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Start date of the loan contract."
+    },
+    "SettlementCurrency": {
+      "name": "Settlement Currency",
+      "definition": "Currency in which the loan is being settled."
+    },
+    "SpecialConditions": {
+      "name": "Special Conditions",
+      "definition": "Special conditions applicable when the amount is credited outside of the country."
+    },
+    "DurationCode": {
+      "name": "Duration Code",
+      "definition": "Loan duration in a coded form."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate for the loan."
+    },
+    "Tranche": {
+      "name": "Tranche",
+      "definition": "One part or division of the loan, used to define the repayment."
+    },
+    "PaymentSchedule": {
+      "name": "Payment Schedule",
+      "definition": "Schedule of the payments defined for the loan contract."
+    },
+    "InterestSchedule": {
+      "name": "Interest Schedule",
+      "definition": "Schedule of the interest payments defined for the loan contract."
+    },
+    "IntraCompanyLoan": {
+      "name": "Intra Company Loan",
+      "definition": "Loan is an intra company loan."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Details of the collateral for the loan."
+    },
+    "SyndicatedLoan": {
+      "name": "Syndicated Loan",
+      "definition": "Loan offered by a group of lenders (called a syndicate) who work together to provide funds for a single borrower."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the loan contract."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "DerivativesTradeReportQueryV05",
+  "language": "en",
+  "name": "Derivatives Trade Report Query V 05",
+  "definition": "The DerivativesTradeReportQuery message is sent by the supervisory authority system to the trade repositories, to query data based on the search criteria for the trade transaction as defined by the system user.",
+  "isoElements": {
+    "RequestingAuthority": {
+      "name": "Requesting Authority",
+      "definition": "Indicates the authority that requests the query report."
+    },
+    "TradeQueryData": {
+      "name": "Trade Query Data",
+      "definition": "Criteria for defining recurrent and ad-hoc queries."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

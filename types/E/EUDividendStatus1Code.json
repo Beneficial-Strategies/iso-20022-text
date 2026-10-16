@@ -1,0 +1,23 @@
+{
+  "isoType": "EUDividendStatus1Code",
+  "language": "en",
+  "name": "EU Dividend Status 1 Code",
+  "definition": "Specifies whether the dividend is in the scope of the European directive on taxation of savings income in the form of interest payments.",
+  "isoCodes": {
+    "DIVI": {
+      "isoName": "DividendInScope",
+      "name": "Dividend In Scope",
+      "definition": "Dividend is in the scope of the directive."
+    },
+    "DIVO": {
+      "isoName": "DividendOutScope",
+      "name": "Dividend Out Scope",
+      "definition": "Dividend is out of the scope of the directive."
+    },
+    "UKWN": {
+      "isoName": "DividendUnknown",
+      "name": "Dividend Unknown",
+      "definition": "Unknown whether the dividend is in or out of the scope of the directive."
+    }
+  }
+}

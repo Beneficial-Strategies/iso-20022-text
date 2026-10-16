@@ -1,0 +1,37 @@
+{
+  "isoType": "SecurityIdentification48",
+  "language": "en",
+  "name": "Security Identification 48",
+  "definition": "Identification of a security.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "OtherIdentification": {
+      "name": "Other Identification",
+      "definition": "Identification of a security by proprietary or domestic identification scheme."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Textual description of a security instrument."
+    }
+  },
+  "isoRules": {
+    "DescriptionPresenceRule": {
+      "definition": "If Description is not present then either ISIN or at least one occurrence of OtherIdentification must be present."
+    },
+    "OtherIdentificationPresenceRule": {
+      "definition": "If OtherIdentification is not present then either ISIN or Description must be present."
+    },
+    "ISINPresenceRule": {
+      "definition": "If ISIN is not present then either Description or at least one occurrence of OtherIdentification must be present."
+    },
+    "DescriptionUsageRule": {
+      "definition": "Description must be used alone as the last resort."
+    },
+    "ISINGuideline": {
+      "definition": "When a ISIN code exist. It is strongly recommended that the ISIN be used."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "CustomerTypeRequest2",
+  "language": "en",
+  "name": "Customer Type Request 2",
+  "definition": "Specifies the type of customer identification requested.",
+  "isoElements": {
+    "Requested": {
+      "name": "Requested",
+      "definition": "Indicates whether the customer identification is required by the creditor or not."
+    },
+    "OrganisationType": {
+      "name": "Organisation Type",
+      "definition": "Specifies which type of customer identification is requested for an organisation."
+    },
+    "PrivateType": {
+      "name": "Private Type",
+      "definition": "Specifies which type of customer identification is requested for a person."
+    }
+  }
+}

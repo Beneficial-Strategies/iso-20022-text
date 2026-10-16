@@ -1,0 +1,64 @@
+{
+  "isoType": "Demand1",
+  "language": "en",
+  "name": "Demand 1",
+  "definition": "Details of the demand.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Unique and unambiguous identifier assigned by the presenting party to the demand."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of demand."
+    },
+    "UndertakingIdentification": {
+      "name": "Undertaking Identification",
+      "definition": "Details related to the undertaking."
+    },
+    "DemandAmount": {
+      "name": "Demand Amount",
+      "definition": "Details related to the demand amount."
+    },
+    "AdvisingPartyReferenceNumber": {
+      "name": "Advising Party Reference Number",
+      "definition": "Unique and unambiguous identifier assigned by the advising party to the undertaking."
+    },
+    "SecondAdvisingPartyReferenceNumber": {
+      "name": "Second Advising Party Reference Number",
+      "definition": "Unique and unambiguous identifier assigned by the second advising party to the undertaking."
+    },
+    "ConfirmerReferenceNumber": {
+      "name": "Confirmer Reference Number",
+      "definition": "Unique and unambiguous identifier assigned by the confirmer to the undertaking."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "Details related to the settlement account."
+    },
+    "PresentationDetails": {
+      "name": "Presentation Details",
+      "definition": "Details of the beneficiary's presentation of documents."
+    },
+    "RequestedExpiryDate": {
+      "name": "Requested Expiry Date",
+      "definition": "Requested new expiry date as an alternative to payment of the demand."
+    },
+    "DemandDocumentation": {
+      "name": "Demand Documentation",
+      "definition": "Document(s) presented for examination."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the demand."
+    }
+  },
+  "isoRules": {
+    "RequestedExpiryDate1Rule": {
+      "definition": "Requested expiry date must be present when demand type is Pay or Extend."
+    },
+    "RequestedExpiryDate2Rule": {
+      "definition": "Requested expiry date may only be present when demand type is Pay or Extend."
+    }
+  }
+}

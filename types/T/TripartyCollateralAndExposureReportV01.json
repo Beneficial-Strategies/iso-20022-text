@@ -1,0 +1,55 @@
+{
+  "isoType": "TripartyCollateralAndExposureReportV01",
+  "language": "en",
+  "name": "Triparty Collateral And Exposure Report V 01",
+  "definition": "Scope:|This message is sent by a triparty agent to both the collateral giver and the collateral taker or to an account servicer, who manage the account at the triparty agent on behalf of a trading party, in the following circumstances:|- after all collateral movements have been affected (after settlement-initiated) to show the end (fixed) positions (current status) or,|- taking into account all collateral management instructions (including pending initiation and/or initiated.||Usage:|This message is sent to provide the details of the valuation of both the collateral and the exposure.",
+  "isoElements": {
+    "Pagination": {
+      "name": "Pagination",
+      "definition": "Page number of the message and continuation indicator to indicate that the multi-part preliminary advice is to continue or that the message is the last page of the multi-part preliminary advice."
+    },
+    "StatementGeneralDetails": {
+      "name": "Statement General Details",
+      "definition": "Provides general information on the report."
+    },
+    "CollateralParties": {
+      "name": "Collateral Parties",
+      "definition": "Identifies the chain of collateral parties."
+    },
+    "OverallCollateralAggregation": {
+      "name": "Overall Collateral Aggregation",
+      "definition": "Overall Collateral  contains the global collateral status of all transactions covered in the message, in the reporting currency, that is, the total of the exposure amount, of the posted collateral, of the margin amounts, of the accrued interest, of the fees or commissions and of the principals. In addition, it provides collateral-specific information."
+    },
+    "ExposureTypeAggregation": {
+      "name": "Exposure Type Aggregation",
+      "definition": "Specifies the valuation details per exposure type aggregation."
+    },
+    "CounterpartyAggregation": {
+      "name": "Counterparty Aggregation",
+      "definition": "Specifies the valuation details per counterparty aggregation."
+    },
+    "Transactions": {
+      "name": "Transactions",
+      "definition": "Specifies the transaction,  the collateral and related valuation details."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "name": "Account Base Currency Total Amounts",
+      "definition": "Total valuation amounts provided in the base currency of the account"
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "AggregationFullRule": {
+      "definition": "Aggregation information, overall, by exposure or by counterparty,  should be provided in a complete report."
+    },
+    "CashBalancePresenceRule": {
+      "definition": "If Summary Indicator is set to Y Cash Balance cannot be present"
+    },
+    "CollateralIndicatorValueRule": {
+      "definition": "If Summary Indicator is set to Yes and securitiesbalance/Collateral Indicator is present and it is a securities lending, then securitiesbalance/collateral indicator must be set to No."
+    }
+  }
+}

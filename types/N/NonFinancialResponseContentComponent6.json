@@ -1,0 +1,36 @@
+{
+  "isoType": "NonFinancialResponseContentComponent6",
+  "language": "en",
+  "name": "Non Financial Response Content Component 6",
+  "definition": "Aim of the non financial response.",
+  "isoElements": {
+    "NonFinancialRequestType": {
+      "name": "Non Financial Request Type",
+      "definition": "Type of non financial request that the Acquirer processed."
+    },
+    "AcquirerSelected": {
+      "name": "Acquirer Selected",
+      "definition": "Identification of the most relevant Acquirer to process the transaction."
+    },
+    "RiskManagementResult": {
+      "name": "Risk Management Result",
+      "definition": "Advice from the Acquirer (or its Agent) to the POI to manage risk."
+    },
+    "Instalment": {
+      "name": "Instalment",
+      "definition": "Details of instalment supoported by the Service Provider."
+    },
+    "AdditionalResponse": {
+      "name": "Additional Response",
+      "definition": "Additional elements sent by the ServiceProvider which are not linked to payment."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Set of actions to be performed by the POI (Point Of Interaction) system."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Result of the processing of the request."
+    }
+  }
+}

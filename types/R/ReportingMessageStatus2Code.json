@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportingMessageStatus2Code",
+  "language": "en",
+  "name": "Reporting Message Status 2 Code",
+  "definition": "Specifies the status of a whole message processing.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Whole message has been accepted."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Message has been rejected."
+    },
+    "INCF": {
+      "isoName": "IncorrectFilename",
+      "name": "Incorrect Filename",
+      "definition": "File containing the report has an incorrect filename."
+    },
+    "CRPT": {
+      "isoName": "CorruptedFile",
+      "name": "Corrupted File",
+      "definition": "File containing the report is corrupted."
+    },
+    "NAUT": {
+      "isoName": "NotAuthorised",
+      "name": "Not Authorised",
+      "definition": "Message was rejected due to authorisation/permission issues."
+    }
+  }
+}

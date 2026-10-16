@@ -1,0 +1,24 @@
+{
+  "isoType": "Counterparty39",
+  "language": "en",
+  "name": "Counterparty 39",
+  "definition": "Set of information specific to the counterparties of the reported transaction.",
+  "isoElements": {
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Unique code identifying the reporting counterparty."
+    },
+    "OtherCounterparty": {
+      "name": "Other Counterparty",
+      "definition": "Unique code identifying the entity with which the reporting counterparty concluded the transaction."
+    },
+    "EntityResponsibleForReport": {
+      "name": "Entity Responsible For Report",
+      "definition": "Identification of the entity in the case where a financial counterparty is responsible for reporting on behalf of the other counterparty."
+    },
+    "ReportSubmittingEntity": {
+      "name": "Report Submitting Entity",
+      "definition": "Unique code identifying the entity which submits the report. In the case where submission of the report has been delegated to a third party or to the other counterparty, a unique code identifying that entity."
+    }
+  }
+}

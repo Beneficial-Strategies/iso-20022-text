@@ -1,0 +1,36 @@
+{
+  "isoType": "SecurityIdentificationQuery4Choice",
+  "language": "en",
+  "name": "Security Identification Query 4 Choice",
+  "definition": "Query based on various identification of the security.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "AlternativeInstrumentIdentification": {
+      "name": "Alternative Instrument Identification",
+      "definition": "Proprietary identification of a security assigned by an institution or organisation."
+    },
+    "NotAvailable": {
+      "name": "Not Available",
+      "definition": "Query for not available value (N/A).||Usage: N/A means that value was not available at the time of the reporting."
+    },
+    "UniqueProductIdentifier": {
+      "name": "Unique Product Identifier",
+      "definition": "Identification through a unique product identifier."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Identification of the index on which the financial instrument is based."
+    },
+    "Basket": {
+      "name": "Basket",
+      "definition": "Identification of constituents for a basket of indexes."
+    },
+    "NotReported": {
+      "name": "Not Reported",
+      "definition": "Field can be queried for not reported value."
+    }
+  }
+}

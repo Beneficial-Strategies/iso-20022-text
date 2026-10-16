@@ -1,0 +1,32 @@
+{
+  "isoType": "MarginCollateral1",
+  "language": "en",
+  "name": "Margin Collateral 1",
+  "definition": "Provides details about the collateral held, in transit or that still needs to be agreed by both parties.",
+  "isoElements": {
+    "HeldByPartyA": {
+      "name": "Held By Party A",
+      "definition": "Post haircut market value of all margin collateral held by party A."
+    },
+    "HeldByPartyB": {
+      "name": "Held By Party B",
+      "definition": "Post haircut market value of all margin collateral held by party B."
+    },
+    "PriorAgreedToPartyA": {
+      "name": "Prior Agreed To Party A",
+      "definition": "Sum of all margin agreed amounts due to party A from prior days’ collateral calls where collateral movements have not yet been agreed."
+    },
+    "PriorAgreedToPartyB": {
+      "name": "Prior Agreed To Party B",
+      "definition": "Sum of all margin agreed amounts due to party B from prior days’ collateral calls where collateral movements have not yet been agreed."
+    },
+    "InTransitToPartyA": {
+      "name": "In Transit To Party A",
+      "definition": "Sum of all margin collateral movements due to party A in progress but not yet settled."
+    },
+    "InTransitToPartyB": {
+      "name": "In Transit To Party B",
+      "definition": "Sum of all margin collateral movements due to party B in progress but not yet settled."
+    }
+  }
+}

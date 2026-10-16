@@ -1,0 +1,43 @@
+{
+  "isoType": "TypeOfPrice3Code",
+  "language": "en",
+  "name": "Type Of Price 3 Code",
+  "definition": "Specifies the type of price and information about the price.",
+  "isoCodes": {
+    "AVER": {
+      "isoName": "Average",
+      "name": "Average",
+      "definition": "Price is an average execution price."
+    },
+    "AVOV": {
+      "isoName": "AverageOverride",
+      "name": "Average Override",
+      "definition": "Price is an override of the average price."
+    },
+    "GREX": {
+      "isoName": "GrossOfAll",
+      "name": "Gross Of All",
+      "definition": "Price is a gross execution price. The price is an all inclusive price, ie, including all charges, fees, and taxes."
+    },
+    "NET2": {
+      "isoName": "Net",
+      "name": "Net",
+      "definition": "Price is a net price, ie, net only of local broker's commission, local fees and local taxes."
+    },
+    "NET1": {
+      "isoName": "NetOfAll",
+      "name": "Net Of All",
+      "definition": "Price is a net price, ie, net of all charges, fees and taxes."
+    },
+    "PARV": {
+      "isoName": "ParValue",
+      "name": "Par Value",
+      "definition": "Price is equal to the nominal or face value of the instrument."
+    },
+    "RDAV": {
+      "isoName": "RoundedAverage",
+      "name": "Rounded Average",
+      "definition": "Price is a rounded average price."
+    }
+  }
+}

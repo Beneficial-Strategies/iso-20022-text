@@ -1,0 +1,16 @@
+{
+  "isoType": "CorporateActionRateSD8Choice",
+  "language": "en",
+  "name": "Corporate Action Rate SD 8 Choice",
+  "definition": "Specifies security rate details.",
+  "isoElements": {
+    "AdditionalQuantityForExistingSecurities": {
+      "name": "Additional Quantity For Existing Securities",
+      "definition": "Quantity of additional securities for a given quantity of underlying securities where underlying securities are not exchanged or debited, for example, 1 for 1: 1 new equity credited for every 1 underlying equity = 2 resulting equities."
+    },
+    "NewToOld": {
+      "name": "New To Old",
+      "definition": "Quantity of new securities for a given quantity of underlying securities, where the underlying securities will be exchanged or debited, for example, 2 for 1: 2 new equities credited for every 1 underlying equity debited = 2 resulting equities."
+    }
+  }
+}

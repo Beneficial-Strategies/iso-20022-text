@@ -1,0 +1,64 @@
+{
+  "isoType": "Confirmation1",
+  "language": "en",
+  "name": "Confirmation 1",
+  "definition": "Details of confirmation in the CMU.",
+  "isoElements": {
+    "ConfirmationStatus": {
+      "name": "Confirmation Status",
+      "definition": "Identifies the status of the confirmation."
+    },
+    "ConfirmationTime": {
+      "name": "Confirmation Time",
+      "definition": "Time that both of parties confirm the trade."
+    },
+    "TradePartyConfirmationTime": {
+      "name": "Trade Party Confirmation Time",
+      "definition": "Time that the trade party confirms the trade."
+    },
+    "InitiatingPartyConfirmationTime": {
+      "name": "Initiating Party Confirmation Time",
+      "definition": "Time that the initiating party confirms the trade."
+    },
+    "ConfirmationType": {
+      "name": "Confirmation Type",
+      "definition": "Identifies the type of confirmation message being sent."
+    },
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identifies the confirm request messge."
+    },
+    "QueryStartNumber": {
+      "name": "Query Start Number",
+      "definition": "Start number in request result."
+    },
+    "TotalNumberOfReports": {
+      "name": "Total Number Of Reports",
+      "definition": "Total number of reports returned in response to a request."
+    },
+    "PageNumber": {
+      "name": "Page Number",
+      "definition": "Query results will be grouped with fixed number. The field indicates that the total number of groups."
+    },
+    "QueryPageNumber": {
+      "name": "Query Page Number",
+      "definition": "Page number in request result."
+    },
+    "MessageNumberOfCurrentPage": {
+      "name": "Message Number Of Current Page",
+      "definition": "Number of messages in current page."
+    },
+    "ListOrderNumber": {
+      "name": "List Order Number",
+      "definition": "Number of reports at current page."
+    },
+    "LastPageIndicator": {
+      "name": "Last Page Indicator",
+      "definition": "Indicate whether the current message is the last one of the current page or not."
+    },
+    "LastReportRequested": {
+      "name": "Last Report Requested",
+      "definition": "Indicates whether this message is that last report message in response to a request."
+    }
+  }
+}

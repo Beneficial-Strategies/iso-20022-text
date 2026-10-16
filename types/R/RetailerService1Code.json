@@ -1,0 +1,278 @@
+{
+  "isoType": "RetailerService1Code",
+  "language": "en",
+  "name": "Retailer Service 1 Code",
+  "definition": "List of Retail services available and used in the Retail messages. Helps to know which service to activate.",
+  "isoCodes": {
+    "DCAQ": {
+      "isoName": "DeviceSendApplicationProtocolDataUnitCardReaderRequest",
+      "name": "Device Send Application Protocol Data Unit Card Reader Request",
+      "definition": "A service to send commands to a card."
+    },
+    "ADAQ": {
+      "isoName": "AdministrativeAdminRequest",
+      "name": "Administrative Admin Request",
+      "definition": "An administrative request, to select and start customised administrative services provided by the POI, using a \"menu\" for an interactive or software interface, initiated by the Sale system."
+    },
+    "ADAP": {
+      "isoName": "AdministrativeAdminResponse",
+      "name": "Administrative Admin Response",
+      "definition": "The POI System responds to an administrative request."
+    },
+    "RPAP": {
+      "isoName": "AdministrativeReportGetTotalsResponse",
+      "name": "Administrative Report Get Totals Response",
+      "definition": "The POI System responds to a totals figures request."
+    },
+    "RPAQ": {
+      "isoName": "AdministrativeReportGetTotalsRequest",
+      "name": "Administrative Report Get Totals Request",
+      "definition": "The Sale System requests to the POI System a report on the totals figures of the POI system."
+    },
+    "RPTQ": {
+      "isoName": "AdministrativeReportTransactionRequest",
+      "name": "Administrative Report Transaction Request",
+      "definition": "The Sale System requests to the POI System a report on a list of transactions."
+    },
+    "RPTP": {
+      "isoName": "AdministrativeReportTransactionResponse",
+      "name": "Administrative Report Transaction Response",
+      "definition": "The POI System responds to a transaction report request."
+    },
+    "SMDQ": {
+      "isoName": "AdministrativeSessionManagementDiagnosisRequest",
+      "name": "Administrative Session Management Diagnosis Request",
+      "definition": "The Sale System requests a session diagnosis to the POI System."
+    },
+    "SMDP": {
+      "isoName": "AdministrativeSessionManagementDiagnosisResponse",
+      "name": "Administrative Session Management Diagnosis Response",
+      "definition": "The POI System responds to a diagnosis request."
+    },
+    "SMIQ": {
+      "isoName": "AdministrativeSessionManagementLoginRequest",
+      "name": "Administrative Session Management Login Request",
+      "definition": "The Sale System requests a login to the POI System."
+    },
+    "SMIP": {
+      "isoName": "AdministrativeSessionManagementLoginResponse",
+      "name": "Administrative Session Management Login Response",
+      "definition": "The POI System responds to a login request."
+    },
+    "SMOQ": {
+      "isoName": "AdministrativeSessionManagementLogoutRequest",
+      "name": "Administrative Session Management Logout Request",
+      "definition": "The Sale System requests a logout to the POI System."
+    },
+    "SMOP": {
+      "isoName": "AdministrativeSessionManagementLogoutResponse",
+      "name": "Administrative Session Management Logout Response",
+      "definition": "The POI System responds to a logout request."
+    },
+    "DDYQ": {
+      "isoName": "DeviceDisplayRequest",
+      "name": "Device Display Request",
+      "definition": "One System requests the other to display a message for cashier or customer."
+    },
+    "DDYP": {
+      "isoName": "DeviceDisplayResponse",
+      "name": "Device Display Response",
+      "definition": "One system responds to the other system for a display request."
+    },
+    "DCIQ": {
+      "isoName": "DeviceInitialisationCardReaderRequest",
+      "name": "Device Initialisation Card Reader Request",
+      "definition": "Service to send parameters to use when card reader initializes a new communication with the card."
+    },
+    "DCIP": {
+      "isoName": "DeviceInitialisationCardReaderResponse",
+      "name": "Device Initialisation Card Reader Response",
+      "definition": "The POI system responds to the Sale System for a card reader initialisation."
+    },
+    "DINO": {
+      "isoName": "DeviceInputNotification",
+      "name": "Device Input Notification",
+      "definition": "One system sends a notification to the POI System to update a input request."
+    },
+    "DINQ": {
+      "isoName": "DeviceInputRequest",
+      "name": "Device Input Request",
+      "definition": "One system requests to the other System to get data input."
+    },
+    "DINP": {
+      "isoName": "DeviceInputResponse",
+      "name": "Device Input Response",
+      "definition": "One system responds to the other System for a input request."
+    },
+    "DSOQ": {
+      "isoName": "DevicePlaySoundRequest",
+      "name": "Device Play Sound Request",
+      "definition": "One system requests to the Other System to play a sound."
+    },
+    "DSOP": {
+      "isoName": "DevicePlaySoundResponse",
+      "name": "Device Play Sound Response",
+      "definition": "One system responds to the other System for a play sound request."
+    },
+    "DCPQ": {
+      "isoName": "DevicePowerOffCardReaderRequest",
+      "name": "Device Power Off Card Reader Request",
+      "definition": "The Sale system requests to the POI System to power off the card reader."
+    },
+    "DCPP": {
+      "isoName": "DevicePowerOffCardRequestResponse",
+      "name": "Device Power Off Card Request Response",
+      "definition": "The POI system responds to the Sale System for a card reader power off."
+    },
+    "DPRQ": {
+      "isoName": "DevicePrintRequest",
+      "name": "Device Print Request",
+      "definition": "One system requests to the other System to print data."
+    },
+    "DPRP": {
+      "isoName": "DevicePrintResponse",
+      "name": "Device Print Response",
+      "definition": "One system responds to the other System for a print request."
+    },
+    "DSIQ": {
+      "isoName": "DeviceSecureInputRequest",
+      "name": "Device Secure Input Request",
+      "definition": "One system requests to the Other System to securely get data input (e.g. for PIN)."
+    },
+    "DSIP": {
+      "isoName": "DeviceSecureInputResponse",
+      "name": "Device Secure Input Response",
+      "definition": "One system responds to the other System for secure data input."
+    },
+    "DCAP": {
+      "isoName": "DeviceSendApplicationProtocolDataUnitCardReaderResponse",
+      "name": "Device Send Application Protocol Data Unit Card Reader Response",
+      "definition": "The POI system responds to the Sale System for a card reader Application Protocol Data Unit sending."
+    },
+    "DCOQ": {
+      "isoName": "DeviceTransmissionMessageRequest",
+      "name": "Device Transmission Message Request",
+      "definition": "The Sale system requests to the POI System to transmit a message (for instance to a mobile server)."
+    },
+    "DCOP": {
+      "isoName": "DeviceTransmissionMessageResponse",
+      "name": "Device Transmission Message Response",
+      "definition": "The POI system responds to the Sale System after a message transmission."
+    },
+    "FSIQ": {
+      "isoName": "FinancialBalanceInquiryRequest",
+      "name": "Financial Balance Inquiry Request",
+      "definition": "The Sale System requests to the POI System to perform balance inquiry on the main account."
+    },
+    "FSIP": {
+      "isoName": "FinancialBalanceInquiryResponse",
+      "name": "Financial Balance Inquiry Response",
+      "definition": "The POI System sends a response to a Balance Inquiry request."
+    },
+    "FSBQ": {
+      "isoName": "FinancialBatchRequest",
+      "name": "Financial Batch Request",
+      "definition": "The Batch message pair is used to request or get the result of transactions (payment, loyalty and reversal) performed without connection to the Sale system (Payment delivery)."
+    },
+    "FSBP": {
+      "isoName": "FinancialBatchResponse",
+      "name": "Financial Batch Response",
+      "definition": "The POI System sends a response to a batch processing request."
+    },
+    "FSAQ": {
+      "isoName": "FinancialCardAcquisitionRequest",
+      "name": "Financial Card Acquisition Request",
+      "definition": "The Sale System requests to the POI System to handle a card data acquisition on the card reader."
+    },
+    "FSAP": {
+      "isoName": "FinancialCardAcquisitionResponse",
+      "name": "Financial Card Acquisition Response",
+      "definition": "The POI System sends a response to a card data acquisition request."
+    },
+    "FSEQ": {
+      "isoName": "FinancialEnableServiceRequest",
+      "name": "Financial Enable Service Request",
+      "definition": "The Sale System requests to the POI System to enable a service on its side."
+    },
+    "FSEP": {
+      "isoName": "FinancialEnableServiceResponse",
+      "name": "Financial Enable Service Response",
+      "definition": "The POI System sends a response after enabling or not some service."
+    },
+    "FSLQ": {
+      "isoName": "FinancialLoyaltyRequest",
+      "name": "Financial Loyalty Request",
+      "definition": "The Sale System requests to the POI System a loyalty service like loading or redeem."
+    },
+    "FSLP": {
+      "isoName": "FinancialLoyaltyResponse",
+      "name": "Financial Loyalty Response",
+      "definition": "The POI System sends a response to a loyalty processing request."
+    },
+    "FSPQ": {
+      "isoName": "FinancialPaymentRequest",
+      "name": "Financial Payment Request",
+      "definition": "The Sale System requests to the POI System to perform a payment(Purchase/Refund/PWCB/MOTO Payment/...)."
+    },
+    "FSPP": {
+      "isoName": "FinancialPaymentResponse",
+      "name": "Financial Payment Response",
+      "definition": "The POI System sends a response to a payment request (Purchase/refund/PWCB/MOTO Payment/...)."
+    },
+    "FSCQ": {
+      "isoName": "FinancialReconciliationRequest",
+      "name": "Financial Reconciliation Request",
+      "definition": "The Sale System request to the POI System different kinds of transaction reconciliation."
+    },
+    "FSCP": {
+      "isoName": "FinancialReconciliationResponse",
+      "name": "Financial Reconciliation Response",
+      "definition": "The POI System sends a response to a reconciliation request."
+    },
+    "FSRQ": {
+      "isoName": "FinancialReversalRequest",
+      "name": "Financial Reversal Request",
+      "definition": "The Sale System requests to the POI System to perform a reversal partial or complete to cancel a former payment service."
+    },
+    "FSRP": {
+      "isoName": "FinancialReversalResponse",
+      "name": "Financial Reversal Response",
+      "definition": "The POI System sends a response to a reversal request."
+    },
+    "FSVQ": {
+      "isoName": "FinancialStoredValueRequest",
+      "name": "Financial Stored Value Request",
+      "definition": "The Sale System requests to the POI System to manage a stored value card or account (eg. Load, Payment, Reimbursement)."
+    },
+    "FSVP": {
+      "isoName": "FinancialStoredValueResponse",
+      "name": "Financial Stored Value Response",
+      "definition": "The POI System sends a response to a stored value card or account request."
+    },
+    "SSAB": {
+      "isoName": "SystemAbort",
+      "name": "System Abort",
+      "definition": "Abort a former request or message by the sale system."
+    },
+    "SSEN": {
+      "isoName": "SystemEventNotification",
+      "name": "System Event Notification",
+      "definition": "Send an Event notification to the other party."
+    },
+    "SSRR": {
+      "isoName": "SystemMessageRejection",
+      "name": "System Message Rejection",
+      "definition": "Send a rejection for a previous message."
+    },
+    "SSSQ": {
+      "isoName": "SystemMessageStatusRequest",
+      "name": "System Message Status Request",
+      "definition": "The Sale System requests to the POI System the status of a previous transaction."
+    },
+    "SSSP": {
+      "isoName": "SystemMessageStatusResponse",
+      "name": "System Message Status Response",
+      "definition": "The POI System responds to a message status request."
+    }
+  }
+}

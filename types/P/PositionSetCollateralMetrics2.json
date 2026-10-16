@@ -1,0 +1,21 @@
+{
+  "isoType": "PositionSetCollateralMetrics2",
+  "language": "en",
+  "name": "Position Set Collateral Metrics 2",
+  "definition": "Variables used to quantify the different calculations for collateral position sets and currency collateral position sets reports.",
+  "isoElements": {
+    "Total": {
+      "name": "Total",
+      "definition": "Total values by the reporting counterparty to the other counterparty. ||Usage: Where the value is on a portfolio basis, this field should include the overall value  posted for the portfolio."
+    },
+    "Clean": {
+      "name": "Clean",
+      "definition": "Clean values by the reporting counterparty to the other counterparty with outliers removed. ||Usage: Where the value is on a portfolio basis, this field should include the overall value posted for the portfolio."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

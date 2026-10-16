@@ -1,0 +1,24 @@
+{
+  "isoType": "AdditionalService3",
+  "language": "en",
+  "name": "Additional Service 3",
+  "definition": "Additional functions or services that have been or are to be performed in conjunction with the transaction.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of additional service applied to the transaction. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "SubType": {
+      "name": "Sub Type",
+      "definition": "Sub type of the additional service."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Result from performing the identified service."
+    },
+    "Detail": {
+      "name": "Detail",
+      "definition": "Contains additional information for the execution or results of the service."
+    }
+  }
+}

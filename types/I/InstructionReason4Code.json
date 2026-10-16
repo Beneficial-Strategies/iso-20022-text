@@ -1,0 +1,698 @@
+{
+  "isoType": "InstructionReason4Code",
+  "language": "en",
+  "name": "Instruction Reason 4 Code",
+  "definition": "Reason for a corporate action instruction or an instruction cancellation being rejected or pending.",
+  "isoCodes": {
+    "ACKA": {
+      "isoName": "AcknowledgementNotAgreed",
+      "name": "Acknowledgement Not Agreed",
+      "definition": "Acknowledgement must be agreed."
+    },
+    "ACKS": {
+      "isoName": "AcknowledgmentIndicatorMissing",
+      "name": "Acknowledgment Indicator Missing",
+      "definition": "Acknowledgment indicator is missing."
+    },
+    "ADIN": {
+      "isoName": "AdjudicationOfIncompetencyAcknowledgementIndicatorInvalid",
+      "name": "Adjudication Of Incompetency Acknowledgement Indicator Invalid",
+      "definition": "Adjudication of incompetency acknowledgement indicator is invalid."
+    },
+    "ADIM": {
+      "isoName": "AdjudicationOfIncompetencyAcknowledgmentIndicatorMissing",
+      "name": "Adjudication Of Incompetency Acknowledgment Indicator Missing",
+      "definition": "Adjudication of incompetency acknowledgement indicator is missing."
+    },
+    "BODD": {
+      "isoName": "BeneficialOwnerDeathDateMissing",
+      "name": "Beneficial Owner Death Date Missing",
+      "definition": "Beneficial owner death date is missing."
+    },
+    "BONM": {
+      "isoName": "BeneficialOwnerNameMissing",
+      "name": "Beneficial Owner Name Missing",
+      "definition": "Beneficial owner name is missing."
+    },
+    "BIDI": {
+      "isoName": "BidPriceMissingOrInvalid",
+      "name": "Bid Price Missing Or Invalid",
+      "definition": "Bid price is missing or invalid."
+    },
+    "BIDG": {
+      "isoName": "BidPriceOverflow",
+      "name": "Bid Price Overflow",
+      "definition": "Bid price cannot be greater than 9999.99999."
+    },
+    "BIDE": {
+      "isoName": "BidPriceOverMaximumAllowed",
+      "name": "Bid Price Over Maximum Allowed",
+      "definition": "Bid price exceeds maximum bid price allowed for the offer."
+    },
+    "BIDM": {
+      "isoName": "BidPriceUnderMinimumAllowed",
+      "name": "Bid Price Under Minimum Allowed",
+      "definition": "Bid price is less than the minimum bid price allowed for the offer."
+    },
+    "BID0": {
+      "isoName": "BidPriceZeroesRequired",
+      "name": "Bid Price Zeroes Required",
+      "definition": "Zeroes are required for bid price."
+    },
+    "BNDU": {
+      "isoName": "BondCheckOnMasterTableNotAvailable",
+      "name": "Bond Check On Master Table Not Available",
+      "definition": "Bond check on master table is not available."
+    },
+    "CENM": {
+      "isoName": "CertificateNameMissing",
+      "name": "Certificate Name Missing",
+      "definition": "Certificate number is missing."
+    },
+    "CERS": {
+      "isoName": "CertificateSequenceNumberInvalid",
+      "name": "Certificate Sequence Number Invalid",
+      "definition": "Certificate sequence number is invalid."
+    },
+    "CN1N": {
+      "isoName": "Condition1InvalidMustBeNo",
+      "name": "Condition 1 Invalid Must Be No",
+      "definition": "Condition 1 indicator is invalid. It must be No."
+    },
+    "CN1Y": {
+      "isoName": "Condition1InvalidMustBeYes",
+      "name": "Condition 1 Invalid Must Be Yes",
+      "definition": "Condition 1 indicator is invalid. It must be Yes."
+    },
+    "CN1R": {
+      "isoName": "Condition1Required",
+      "name": "Condition 1 Required",
+      "definition": "Condition 1 indicator is must be present."
+    },
+    "CN2N": {
+      "isoName": "Condition2InvalidMustBeNo",
+      "name": "Condition 2 Invalid Must Be No",
+      "definition": "Condition 2 indicator is invalid. It must be No."
+    },
+    "CN2Y": {
+      "isoName": "Condition2InvalidMustBeYes",
+      "name": "Condition 2 Invalid Must Be Yes",
+      "definition": "Condition 2 indicator is invalid. It must be Yes."
+    },
+    "CN2R": {
+      "isoName": "Condition2Required",
+      "name": "Condition 2 Required",
+      "definition": "Condition 2 indicator is must be present."
+    },
+    "CN3N": {
+      "isoName": "Condition3InvalidMustBeNo",
+      "name": "Condition 3 Invalid Must Be No",
+      "definition": "Condition 3 indicator is invalid. It must be No."
+    },
+    "CN3Y": {
+      "isoName": "Condition3InvalidMustBeYes",
+      "name": "Condition 3 Invalid Must Be Yes",
+      "definition": "Condition 3 indicator is invalid. It must be Yes."
+    },
+    "CN3R": {
+      "isoName": "Condition3Required",
+      "name": "Condition 3 Required",
+      "definition": "Condition 3 indicator is must be present."
+    },
+    "CN4N": {
+      "isoName": "Condition4InvalidMustBeNo",
+      "name": "Condition 4 Invalid Must Be No",
+      "definition": "Condition 4 indicator is invalid. It must be No."
+    },
+    "CN4Y": {
+      "isoName": "Condition4InvalidMustBeYes",
+      "name": "Condition 4 Invalid Must Be Yes",
+      "definition": "Condition 4 indicator is invalid. It must be Yes."
+    },
+    "CN4R": {
+      "isoName": "Condition4Required",
+      "name": "Condition 4 Required",
+      "definition": "Condition 4 indicator is must be present."
+    },
+    "COMM": {
+      "isoName": "CommentAreaInvalid",
+      "name": "Comment Area Invalid",
+      "definition": "Comment area is invalid."
+    },
+    "CERN": {
+      "isoName": "CertificateNumberInvalid",
+      "name": "Certificate Number Invalid",
+      "definition": "Certificate number is invalid."
+    },
+    "CN5N": {
+      "isoName": "Condition5InvalidMustBeNo",
+      "name": "Condition 5 Invalid Must Be No",
+      "definition": "Condition 5 indicator is invalid. It must be No."
+    },
+    "CN5Y": {
+      "isoName": "Condition5InvalidMustBeYes",
+      "name": "Condition 5 Invalid Must Be Yes",
+      "definition": "Condition 5 indicator is invalid. It must be Yes."
+    },
+    "CN5R": {
+      "isoName": "Condition5Required",
+      "name": "Condition 5 Required",
+      "definition": "Condition 5 indicator is must be present."
+    },
+    "CN6N": {
+      "isoName": "Condition6InvalidMustBeNo",
+      "name": "Condition 6 Invalid Must Be No",
+      "definition": "Condition 6 indicator is invalid. It must be No."
+    },
+    "CN6Y": {
+      "isoName": "Condition6InvalidMustBeYes",
+      "name": "Condition 6 Invalid Must Be Yes",
+      "definition": "Condition 6 indicator is invalid. It must be Yes."
+    },
+    "CN6R": {
+      "isoName": "Condition6Required",
+      "name": "Condition 6 Required",
+      "definition": "Condition 6 indicator is must be present."
+    },
+    "COQX": {
+      "isoName": "ConditionalQuantityCannotBeZero",
+      "name": "Conditional Quantity Cannot Be Zero",
+      "definition": "Conditional quantity cannot be zero."
+    },
+    "COTQ": {
+      "isoName": "ConditionalQuantityDoesNotEqualTransactionQuantity",
+      "name": "Conditional Quantity Does Not Equal Transaction Quantity",
+      "definition": "Conditional quantity does not equal the transaction quantity whilst this offer accepts only the full conditional quantity."
+    },
+    "COQE": {
+      "isoName": "ConditionalQuantityExceedsTransactionQuantity",
+      "name": "Conditional Quantity Exceeds Transaction Quantity",
+      "definition": "Conditional quantity exceeds the transaction quantity."
+    },
+    "COQI": {
+      "isoName": "ConditionalQuantityMissingOrInvalid",
+      "name": "Conditional Quantity Missing Or Invalid",
+      "definition": "Conditional quantity is missing or invalid."
+    },
+    "COQ0": {
+      "isoName": "ConditionalQuantityZeroesRequired",
+      "name": "Conditional Quantity Zeroes Required",
+      "definition": "Conditional quantity zeroes are required."
+    },
+    "CNAM": {
+      "isoName": "ContactNameMissing",
+      "name": "Contact Name Missing",
+      "definition": "Contact name is missing."
+    },
+    "CNAX": {
+      "isoName": "ContactNameNotUsedWithEvent",
+      "name": "Contact Name Not Used With Event",
+      "definition": "Contact name is not used with this event."
+    },
+    "CNPM": {
+      "isoName": "ContactPhoneNumberMissing",
+      "name": "Contact Phone Number Missing",
+      "definition": "Contact phone number is missing."
+    },
+    "CNPX": {
+      "isoName": "ContactPhoneNumberNotUsedWithEvent",
+      "name": "Contact Phone Number Not Used With Event",
+      "definition": "Contact phone number is not used with this event."
+    },
+    "SUMO": {
+      "isoName": "CoreInstructionOversubscriptionQuantityAndExtensionTransactionDetailsDifference",
+      "name": "Core Instruction Oversubscription Quantity And Extension Transaction Details Difference",
+      "definition": "There is summary difference between core oversubscription quantity and extension transaction details."
+    },
+    "SUME": {
+      "isoName": "CoreInstructionQuantityAndExtensionTransactionDetailsDifference",
+      "name": "Core Instruction Quantity And Extension Transaction Details Difference",
+      "definition": "There is a summary difference between the core instruction quantity and the extension transaction details."
+    },
+    "CAID": {
+      "isoName": "CorporateActionEventInvalid",
+      "name": "Corporate Action Event Invalid",
+      "definition": "Corporate action event identification is invalid."
+    },
+    "COVR": {
+      "isoName": "CoverQuantityGreaterThanProtectQuantity",
+      "name": "Cover Quantity Greater Than Protect Quantity",
+      "definition": "Cover quantity is greater than the remaining protect quantity."
+    },
+    "PROE": {
+      "isoName": "CurrentDatePassedProtectSubmissionEndDate",
+      "name": "Current Date Passed Protect Submission End Date",
+      "definition": "Current date is greater than the protect submission end date."
+    },
+    "PROS": {
+      "isoName": "CurrentDatePrecedesProtectSubmissionStartDate",
+      "name": "Current Date Precedes Protect Submission Start Date",
+      "definition": "Current date is less than the protect submission start date."
+    },
+    "CHIL": {
+      "isoName": "CUSIPDepositoryDeliverChilled",
+      "name": "CUSIP Depository Deliver Chilled",
+      "definition": "CUSIP is depository deliver chilled."
+    },
+    "CUSI": {
+      "isoName": "CUSIPMissingOrInvalid",
+      "name": "CUSIP Missing Or Invalid",
+      "definition": "Target CUSIP or contra CUSIP identification is missing or invalid."
+    },
+    "CUSD": {
+      "isoName": "CUSIPNotDTCEligible",
+      "name": "CUSIP Not DTC Eligible",
+      "definition": "Target CUSIP or contra CUSIP identification is not DTC eligible."
+    },
+    "OVCU": {
+      "isoName": "CustomerAndTotalOversubscriptionQuantitiesMismatch",
+      "name": "Customer And Total Oversubscription Quantities Mismatch",
+      "definition": "Customer oversubscription quantities do not add up to total oversubscription quantity."
+    },
+    "CUID": {
+      "isoName": "CustomerIdentificationMissingOrInvalid",
+      "name": "Customer Identification Missing Or Invalid",
+      "definition": "Customer identification is missing or invalid."
+    },
+    "CQRQ": {
+      "isoName": "CustomerQuantitiesAndTotalRightsQuantitiesMismatch",
+      "name": "Customer Quantities And Total Rights Quantities Mismatch",
+      "definition": "Customer quantities do not add up to total rights quantities."
+    },
+    "CUST": {
+      "isoName": "CustomerReferenceIdentificationMissingInSequence",
+      "name": "Customer Reference Identification Missing In Sequence",
+      "definition": "Customer reference identification must be populated for each sequence."
+    },
+    "SEQ0": {
+      "isoName": "CustomerSequenceNumberAllZero",
+      "name": "Customer Sequence Number All Zero",
+      "definition": "Customer sequence number must be all zero."
+    },
+    "CSEQ": {
+      "isoName": "CustomerSequenceNumberInvalid",
+      "name": "Customer Sequence Number Invalid",
+      "definition": "Customer sequence number is invalid or out of sequence."
+    },
+    "CUTC": {
+      "isoName": "CutoffTimeCheckFailed",
+      "name": "Cutoff Time Check Failed",
+      "definition": "Cut-off time check has failed."
+    },
+    "CUTT": {
+      "isoName": "CutoffTimePassed",
+      "name": "Cutoff Time Passed",
+      "definition": "Cut-off time has passed."
+    },
+    "BODC": {
+      "isoName": "DeathCertificateMissing",
+      "name": "Death Certificate Missing",
+      "definition": "Death certificate details are missing."
+    },
+    "SEQD": {
+      "isoName": "DuplicateTransactionSequenceNumber",
+      "name": "Duplicate Transaction Sequence Number",
+      "definition": "Transaction sequence number is duplicated."
+    },
+    "ENTR": {
+      "isoName": "EntryDateInvalid",
+      "name": "Entry Date Invalid",
+      "definition": "Entry date is invalid."
+    },
+    "ENTL": {
+      "isoName": "EntryDatePassed",
+      "name": "Entry Date Passed",
+      "definition": "Entry date must be less than or equal to current date."
+    },
+    "FUNU": {
+      "isoName": "FunctionNotAvailable",
+      "name": "Function Not Available",
+      "definition": "Function is not available at this time. Please check expiration start and end times for the event."
+    },
+    "QUIE": {
+      "isoName": "FunctionQuiesced",
+      "name": "Function Quiesced",
+      "definition": "Function is quiesced (not available)."
+    },
+    "INDI": {
+      "isoName": "InstructionDeletionAcknowledgementIndicatorInvalid",
+      "name": "Instruction Deletion Acknowledgement Indicator Invalid",
+      "definition": "Instruction deletion acknowledgement indicator is invalid."
+    },
+    "INDM": {
+      "isoName": "InstructionDeletionAcknowledgementIndicatorMissing",
+      "name": "Instruction Deletion Acknowledgement Indicator Missing",
+      "definition": "Instruction deletion acknowledgement indicator is missing."
+    },
+    "LACK": {
+      "isoName": "InsufficientPosition",
+      "name": "Insufficient Position",
+      "definition": "Participant has an insufficient position."
+    },
+    "BOIJ": {
+      "isoName": "IssuingJurisdictionMissing",
+      "name": "Issuing Jurisdiction Missing",
+      "definition": "Issuing jurisdiction is missing."
+    },
+    "KEYV": {
+      "isoName": "KeyDataNotFound",
+      "name": "Key Data Not Found",
+      "definition": "Key data (VOI transaction) cannot be found."
+    },
+    "KEYM": {
+      "isoName": "KeyInformationMissing",
+      "name": "Key Information Missing",
+      "definition": "Key information is missing (tenders data)."
+    },
+    "LEGI": {
+      "isoName": "LegalDocumentationThirtyMonthsRetentionAcknowledgementIndicatorInvalid",
+      "name": "Legal Documentation Thirty Months Retention Acknowledgement Indicator Invalid",
+      "definition": "Legal documentation thirty months retention acknowledgement indicator is invalid."
+    },
+    "LEGM": {
+      "isoName": "LegalDocumentationThirtyMonthsRetentionAcknowledgementIndicatorMissing",
+      "name": "Legal Documentation Thirty Months Retention Acknowledgement Indicator Missing",
+      "definition": "Legal documentation thirty months retention acknowledgement indicator is missing."
+    },
+    "MSTB": {
+      "isoName": "MasterTablesNotAvailable",
+      "name": "Master Tables Not Available",
+      "definition": "Master tables are not available."
+    },
+    "NWIT": {
+      "isoName": "NoWithdrawalPrivilege",
+      "name": "No Withdrawal Privilege",
+      "definition": "There is no withdrawal privilege on this offer."
+    },
+    "ODLI": {
+      "isoName": "OddLotIndicatorMissingOrInvalid",
+      "name": "Odd Lot Indicator Missing Or Invalid",
+      "definition": "Odd lot indicator is missing or invalid."
+    },
+    "ODLY": {
+      "isoName": "OddLotIndicatorYesInvalid",
+      "name": "Odd Lot Indicator Yes Invalid",
+      "definition": "Cannot submit odd lot indicator 'Yes' for the offer."
+    },
+    "HIST": {
+      "isoName": "OfferInDatabase",
+      "name": "Offer In Database",
+      "definition": "Offer is already on historical data base."
+    },
+    "OFFP": {
+      "isoName": "OfferNotEligibleForPuts",
+      "name": "Offer Not Eligible For Puts",
+      "definition": "Offer is not eligible for the PUTS function."
+    },
+    "ATOP": {
+      "isoName": "OfferNotATOPEligible",
+      "name": "Offer Not ATOP Eligible",
+      "definition": "Offer is not ATOP eligible."
+    },
+    "FRAQ": {
+      "isoName": "FractionalUnderlyingQuantity",
+      "name": "Fractional Underlying Quantity",
+      "definition": "Customer has fractional underlying quantity, adjust quantity."
+    },
+    "OVRX": {
+      "isoName": "OversubscriptionNotAllowed",
+      "name": "Oversubscription Not Allowed",
+      "definition": "Oversubscription is not allowed."
+    },
+    "OVRG": {
+      "isoName": "OversubscriptionQuantityExceeded",
+      "name": "Oversubscription Quantity Exceeded",
+      "definition": "Oversubscription quantity is greater than percentage of underlying shares."
+    },
+    "OVRI": {
+      "isoName": "OversubscriptionQuantityInvalid",
+      "name": "Oversubscription Quantity Invalid",
+      "definition": "Oversubscription quantity is invalid."
+    },
+    "OVTT": {
+      "isoName": "OversubscriptionQuantityNotUsed",
+      "name": "Oversubscription Quantity Not Used",
+      "definition": "Oversubscription quantity not used with this transaction type."
+    },
+    "PACH": {
+      "isoName": "ParticipantDOChilled",
+      "name": "Participant DO Chilled",
+      "definition": "Participant is DO chilled."
+    },
+    "PAEC": {
+      "isoName": "ParticipantEligibilityCheckNotAvailable",
+      "name": "Participant Eligibility Check Not Available",
+      "definition": "Participant eligibility check on master table is not available."
+    },
+    "PARL": {
+      "isoName": "ParticipantLocked",
+      "name": "Participant Locked",
+      "definition": "Participant is globally locked."
+    },
+    "PAPI": {
+      "isoName": "ParticipantNoMatchOnProtectIdentification",
+      "name": "Participant No Match On Protect Identification",
+      "definition": "Participant does not match the participant on protect identification."
+    },
+    "PARX": {
+      "isoName": "ParticipantNotEligible",
+      "name": "Participant Not Eligible",
+      "definition": "Participant is not DTC eligible."
+    },
+    "PART": {
+      "isoName": "ParticipantNumberInvalid",
+      "name": "Participant Number Invalid",
+      "definition": "Participant number is invalid."
+    },
+    "POLI": {
+      "isoName": "PotentialLossAcknowledgementIndicatorInvalid",
+      "name": "Potential Loss Acknowledgement Indicator Invalid",
+      "definition": "Potential loss acknowledgement indicator is invalid."
+    },
+    "POLM": {
+      "isoName": "PotentialLossAcknowledgementIndicatorMissing",
+      "name": "Potential Loss Acknowledgement Indicator Missing",
+      "definition": "Potential loss acknowledgement indicator is missing."
+    },
+    "PROI": {
+      "isoName": "ProtectDateInvalidOrMissing",
+      "name": "Protect Date Invalid Or Missing",
+      "definition": "Protect date invalid or missing."
+    },
+    "PROL": {
+      "isoName": "ProtectDatePassed",
+      "name": "Protect Date Passed",
+      "definition": "Protect date must be less than or equal to current date."
+    },
+    "PRO0": {
+      "isoName": "ProtectDateZero",
+      "name": "Protect Date Zero",
+      "definition": "Protect date on file must be zero."
+    },
+    "PROT": {
+      "isoName": "ProtectIdentificationMissingOrInvalid",
+      "name": "Protect Identification Missing Or Invalid",
+      "definition": "Protect identification is missing or invalid."
+    },
+    "PROX": {
+      "isoName": "ProtectIdentificationNotUsed",
+      "name": "Protect Identification Not Used",
+      "definition": "Protect identification is not used with this event."
+    },
+    "TRQP": {
+      "isoName": "ProvidedByProtect",
+      "name": "Provided By Protect",
+      "definition": "Provided by protect, enter 0 for transaction quantity."
+    },
+    "RECI": {
+      "isoName": "RecordTypeInvalid",
+      "name": "Record Type Invalid",
+      "definition": "Record type is invalid."
+    },
+    "RILA": {
+      "isoName": "RightsCUSIPInsufficientPosition",
+      "name": "Rights CUSIP Insufficient Position",
+      "definition": "Rights CUSIP has insufficient position."
+    },
+    "RPCI": {
+      "isoName": "RightsPositionCheckInvalid",
+      "name": "Rights Position Check Invalid",
+      "definition": "Not a good return code from rights position check."
+    },
+    "RQDV": {
+      "isoName": "RightsQuantityDivisibleByRights",
+      "name": "Rights Quantity Divisible By Rights",
+      "definition": "Rights quantity for this subscription must be divisible by rights."
+    },
+    "RQIN": {
+      "isoName": "RightsQuantityInvalid",
+      "name": "Rights Quantity Invalid",
+      "definition": "Rights quantity is invalid."
+    },
+    "RTIO": {
+      "isoName": "RightsRatioNotFound",
+      "name": "Rights Ratio Not Found",
+      "definition": "Rights ratio not found on data base."
+    },
+    "PROC": {
+      "isoName": "PassedProtectSubmissionEndDate",
+      "name": "Passed Protect Submission End Date",
+      "definition": "Current date has passed cover protect submission end date."
+    },
+    "RTSP": {
+      "isoName": "RTSProcessingInProgress",
+      "name": "RTS Processing In Progress",
+      "definition": "RTS processing is in progress. Submit later."
+    },
+    "SEQP": {
+      "isoName": "SequenceNumberInvalidBounds",
+      "name": "Sequence Number Invalid Bounds",
+      "definition": "Customer sequence number must be between 1 and 1 or for PUTS between 9999901 and 9999912."
+    },
+    "SEQM": {
+      "isoName": "SequenceNumberMissing",
+      "name": "Sequence Number Missing",
+      "definition": "Sequence number is missing."
+    },
+    "SEQO": {
+      "isoName": "SequenceNumberOutOfSync",
+      "name": "Sequence Number Out Of Sync",
+      "definition": "Sequence number is out of sequence."
+    },
+    "SOCR": {
+      "isoName": "SolicitationFeeCommentsRequired",
+      "name": "Solicitation Fee Comments Required",
+      "definition": "Comments are required for solicitation fee."
+    },
+    "SOLX": {
+      "isoName": "SolicitationFeeIndicatorNotUsed",
+      "name": "Solicitation Fee Indicator Not Used",
+      "definition": "Solicitation fee indicator is not used with this event."
+    },
+    "SOLI": {
+      "isoName": "SolicitationFeeIndicatorRequired",
+      "name": "Solicitation Fee Indicator Required",
+      "definition": "Solicitation fee indicator is required."
+    },
+    "SUBE": {
+      "isoName": "SubmissionDateNotReached",
+      "name": "Submission Date Not Reached",
+      "definition": "Submission date is not yet reached."
+    },
+    "SUBL": {
+      "isoName": "SubmissionDatePassed",
+      "name": "Submission Date Passed",
+      "definition": "Date of submission has passed."
+    },
+    "TRNI": {
+      "isoName": "TransactionIdentificationInvalid",
+      "name": "Transaction Identification Invalid",
+      "definition": "Transaction identification is invalid."
+    },
+    "TRQ0": {
+      "isoName": "TransactionQuantityCannotBeZero",
+      "name": "Transaction Quantity Cannot Be Zero",
+      "definition": "Transaction quantity cannot be zero."
+    },
+    "TRQI": {
+      "isoName": "TransactionQuantityMissingOrInvalid",
+      "name": "Transaction Quantity Missing Or Invalid",
+      "definition": "Transaction quantity is missing or invalid."
+    },
+    "TRNS": {
+      "isoName": "TransactionSequenceInvalid",
+      "name": "Transaction Sequence Invalid",
+      "definition": "Transaction sequence is invalid. Used only for rights exercise events."
+    },
+    "TNFN": {
+      "isoName": "TransactionTypeAndEventIncompatible",
+      "name": "Transaction Type And Event Incompatible",
+      "definition": "Transaction type and event are incompatible."
+    },
+    "TRNM": {
+      "isoName": "TransactionTypeMissing",
+      "name": "Transaction Type Missing",
+      "definition": "Transaction type is missing."
+    },
+    "CUSP": {
+      "isoName": "UnderlyingSecurityCUSIPInvalid",
+      "name": "Underlying Security CUSIP Invalid",
+      "definition": "Underlying security CUSIP is invalid."
+    },
+    "CUSU": {
+      "isoName": "UnderlyingSecurityCUSIPMismatch",
+      "name": "Underlying Security CUSIP Mismatch",
+      "definition": "Underlying security CUSIP does not match the original."
+    },
+    "SHQI": {
+      "isoName": "UnderlyingShareQuantityInvalid",
+      "name": "Underlying Share Quantity Invalid",
+      "definition": "Underlying share quantity is invalid."
+    },
+    "WARC": {
+      "isoName": "WarrantSubscriptionChargeAmountInvalid",
+      "name": "Warrant Subscription Charge Amount Invalid",
+      "definition": "Warrant subscription charge amount is not balancing."
+    },
+    "WITG": {
+      "isoName": "WithdrawalQuantityGreaterThanProtectQuantity",
+      "name": "Withdrawal Quantity Greater Than Protect Quantity",
+      "definition": "Withdrawal quantity is greater than VOI/protect quantity."
+    },
+    "WIT0": {
+      "isoName": "WithdrawalTransactionQuantityCannotBeZero",
+      "name": "Withdrawal Transaction Quantity Cannot Be Zero",
+      "definition": "Withdrawal transaction quantity cannot be zero."
+    },
+    "WITI": {
+      "isoName": "WithdrawalTransactionTypeInvalid",
+      "name": "Withdrawal Transaction Type Invalid",
+      "definition": "Withdrawal transaction type is invalid."
+    },
+    "WITE": {
+      "isoName": "WithdrawError",
+      "name": "Withdraw Error",
+      "definition": "Error in withdraw occurred."
+    },
+    "OTHR": {
+      "isoName": "UnknownErrorCondition",
+      "name": "Unknown Error Condition",
+      "definition": "Rejection reason is unknown."
+    },
+    "SHQO": {
+      "isoName": "UnderlyingShareQuantityMismatch",
+      "name": "Underlying Share Quantity Mismatch",
+      "definition": "Underlying share quantity does not match original share quantity."
+    },
+    "WITQ": {
+      "isoName": "WithdrawalQuantityExceedsRemainingQuantity",
+      "name": "Withdrawal Quantity Exceeds Remaining Quantity",
+      "definition": "Withdrawal quantity exceeds the remaining quantity."
+    },
+    "TRTI": {
+      "isoName": "TransactionTypeInvalid",
+      "name": "Transaction Type Invalid",
+      "definition": "Transaction type or withdrawal transaction type is invalid."
+    },
+    "TRQM": {
+      "isoName": "TransactionQuantityLessThanTransactionMinimum",
+      "name": "Transaction Quantity Less Than Transaction Minimum",
+      "definition": "Transaction quantity is less than the transaction minimum."
+    },
+    "EVNT": {
+      "isoName": "CorporateActionEventTypeInvalid",
+      "name": "Corporate Action Event Type Invalid",
+      "definition": "Corporate action event type provided is not valid."
+    },
+    "RTOP": {
+      "isoName": "InstructionsNotReleased",
+      "name": "Instructions Not Released",
+      "definition": "Instructions are not released."
+    },
+    "ASOP": {
+      "isoName": "NotApprovedBySubscriptionAgent",
+      "name": "Not Approved By Subscription Agent",
+      "definition": "Is not approved by the subscription agent."
+    }
+  }
+}

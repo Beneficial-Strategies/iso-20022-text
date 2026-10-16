@@ -1,0 +1,44 @@
+{
+  "isoType": "PaymentCard2",
+  "language": "en",
+  "name": "Payment Card 2",
+  "definition": "Electronic money product that provides the cardholder with a portable and specialised computer device, which typically contains a microprocessor.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of card, eg, credit card."
+    },
+    "Number": {
+      "name": "Number",
+      "definition": "Number embossed on a card that links the card to the account owner and account servicer."
+    },
+    "HolderName": {
+      "name": "Holder Name",
+      "definition": "Party entitled by a card issuer to use a card."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Year and month the card is available for use."
+    },
+    "ExpiryDate": {
+      "name": "Expiry Date",
+      "definition": "Year and month the card expires."
+    },
+    "CardIssuerName": {
+      "name": "Card Issuer Name",
+      "definition": "Party that issues a payment card, as expressed by a numeric identification of the card issuer according to ISO/IEC 7812-1."
+    },
+    "CardIssuerIdentification": {
+      "name": "Card Issuer Identification",
+      "definition": "Party that issues a payment card, as expressed by a numeric identification of the card issuer according to ISO/IEC 7812-1."
+    },
+    "SecurityCode": {
+      "name": "Security Code",
+      "definition": "Security code written on, or in, the card."
+    },
+    "SequenceNumber": {
+      "name": "Sequence Number",
+      "definition": "Number distinguishing two or more payment cards with the same account number."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "BasketIdentificationAndEligibilitySetProfile1",
+  "language": "en",
+  "name": "Basket Identification And Eligibility Set Profile 1",
+  "definition": "Provides information on the baskets identification and the Eligibility Set Profile.",
+  "isoElements": {
+    "PreferentialBasketIdentificationNumber": {
+      "name": "Preferential Basket Identification Number",
+      "definition": "Number identifying the preferred collateral basket."
+    },
+    "FallbackStartingBasketIdentification": {
+      "name": "Fallback Starting Basket Identification",
+      "definition": "Number identifying the fallback starting collateral basket."
+    },
+    "ExclusionBasketIdentification": {
+      "name": "Exclusion Basket Identification",
+      "definition": "Number identifying the collateral basket to be excluded."
+    },
+    "EligibilitySetProfile": {
+      "name": "Eligibility Set Profile",
+      "definition": "Number identifying the collateral eligibility set profile of the counterparty."
+    }
+  }
+}

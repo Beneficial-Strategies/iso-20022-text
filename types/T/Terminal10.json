@@ -1,0 +1,124 @@
+{
+  "isoType": "Terminal10",
+  "language": "en",
+  "name": "Terminal 10",
+  "definition": "Payment terminal or ATM performing the transaction",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the terminal."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Type of terminal. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "SubType": {
+      "name": "Sub Type",
+      "definition": "Sub type of accetpance device."
+    },
+    "ReadingCapability": {
+      "name": "Reading Capability",
+      "definition": "Card reading capability of the terminal performing the transaction. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "WritingCapability": {
+      "name": "Writing Capability",
+      "definition": "Card writing or output capabilities of the terminal performing the transaction. P0P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PINLengthCapability": {
+      "name": "PIN Length Capability",
+      "definition": "Maximum number of digits that the Point of Interaction is able to accept when the cardholder enters its PIN."
+    },
+    "PINEntryCapability": {
+      "name": "PIN Entry Capability",
+      "definition": "Describe the capability of acceptance device to support PINs."
+    },
+    "ApprovalCodeLength": {
+      "name": "Approval Code Length",
+      "definition": "Maximum number of characters of the approval code that the acquirer is able to manage."
+    },
+    "MaxScriptLength": {
+      "name": "Max Script Length",
+      "definition": "Maximum data length in bytes that a card issuer can return to the ICC at the terminal."
+    },
+    "CardCaptureCapable": {
+      "name": "Card Capture Capable",
+      "definition": "Indicates whether the terminal can capture cards or not.|True: The terminal is able to capture cards|False: The terminal is not able to capture cards."
+    },
+    "OnLineCapability": {
+      "name": "On Line Capability",
+      "definition": "Capability of the terminal to go online."
+    },
+    "MessageCapability": {
+      "name": "Message Capability",
+      "definition": "Capability of the terminal to display or print messages to the cardholder or the merchant."
+    },
+    "CardholderVerificationCapability": {
+      "name": "Cardholder Verification Capability",
+      "definition": "Cardholder verification capabilities performing the transaction at the point of service. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "TemporarySecureStorage": {
+      "name": "Temporary Secure Storage",
+      "definition": "Terminal is capable of temporary secure storage of the card details for reuse upon permission of the card issuer.|Default meaning when not present: false."
+    },
+    "IntegrationType": {
+      "name": "Integration Type",
+      "definition": "Type of terminal integration at a point of service location."
+    },
+    "GeographicLocation": {
+      "name": "Geographic Location",
+      "definition": "Geographic location of the terminal."
+    },
+    "Outdoor": {
+      "name": "Outdoor",
+      "definition": "Indicates whether the terminal is operated outdoor or indoor at the point of service.|True: The terminal is operated outdoor|False: The terminal is operated indoor"
+    },
+    "OffPremises": {
+      "name": "Off Premises",
+      "definition": "Indicates whether the terminal is operated on- or off-premises at the point of service.|True: The terminal is operated off premises.|False: The terminal is operated on premises."
+    },
+    "OnBoard": {
+      "name": "On Board",
+      "definition": "Indicates whether the transaction was performed on board.||True: The terminal is located on board.|False: The terminal is not located on board."
+    },
+    "SerialNumber": {
+      "name": "Serial Number",
+      "definition": "Serial number identifying an occurrence of an hardware component."
+    },
+    "Software": {
+      "name": "Software",
+      "definition": "Terminal software information."
+    },
+    "CertificationIdentification": {
+      "name": "Certification Identification",
+      "definition": "Terminal certification identification."
+    },
+    "TerminalLineEncryptionCertified": {
+      "name": "Terminal Line Encryption Certified",
+      "definition": "Indicates whether or not the POS terminal from which the|transaction occurred is Terminal Line Encryption (TLE)-certified."
+    },
+    "UniqueKeyPerTerminalCertified": {
+      "name": "Unique Key Per Terminal Certified",
+      "definition": "Indicates whether the terminal has encryption certification for unique key per terminal implementations. This includes technologies such as:|- UKPT (Unique Key Per Terminal)|- DUKPT (Derived Unique Key Per Transaction)|- Other key management schemes|||`true` - Terminal is certified for unique key per terminal encryption|`false` - Terminal is not certified or uses alternative encryption methods"
+    },
+    "EncryptionMethod": {
+      "name": "Encryption Method",
+      "definition": "Specific encryption method/standard used by the terminal"
+    },
+    "SingleTap": {
+      "name": "Single Tap",
+      "definition": "Terminal support single tap processing."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country of the terminal."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

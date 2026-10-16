@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorDiagnosticResponseV13",
+  "language": "en",
+  "name": "Acceptor Diagnostic Response V 13",
+  "definition": "The AcceptorDiagnosticResponse message is sent by the acquirer (or its agent) to provide to the acceptor the result of the diagnostic request.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Diagnostic response message management information."
+    },
+    "DiagnosticResponse": {
+      "name": "Diagnostic Response",
+      "definition": "Information related to the diagnostic response."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

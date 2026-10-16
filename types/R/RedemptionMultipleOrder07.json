@@ -1,0 +1,66 @@
+{
+  "isoType": "RedemptionMultipleOrder07",
+  "language": "en",
+  "name": "Redemption Multiple Order 07",
+  "definition": "Instruction from an investor to sell investment fund units back to the fund.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Unique and unambiguous identifier for a group of individual orders, as assigned by the instructing party. This identifier links the individual orders together."
+    },
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Market in which the advised trade transaction was executed."
+    },
+    "OrderDateTime": {
+      "name": "Order Date Time",
+      "definition": "Date and time the order is placed by the investor or its agent."
+    },
+    "ExpiryDateTime": {
+      "name": "Expiry Date Time",
+      "definition": "Date on which the order expires."
+    },
+    "RequestedFutureTradeDate": {
+      "name": "Requested Future Trade Date",
+      "definition": "Future date at which the investor requests the order to be executed.|The specification of a requested future trade date is not allowed in some markets. The date must be a date in the future."
+    },
+    "CancellationRight": {
+      "name": "Cancellation Right",
+      "definition": "Cancellation right of the investor with respect to the investment fund order."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account impacted by the investment fund order."
+    },
+    "BeneficiaryDetails": {
+      "name": "Beneficiary Details",
+      "definition": "Additional information about the investor."
+    },
+    "IndividualOrderDetails": {
+      "name": "Individual Order Details",
+      "definition": "Instruction from an investor to sell investment fund units back to the fund."
+    },
+    "BulkCashSettlementDetails": {
+      "name": "Bulk Cash Settlement Details",
+      "definition": "Payment process for the transfer of cash from the debtor to the creditor."
+    },
+    "TotalSettlementAmount": {
+      "name": "Total Settlement Amount",
+      "definition": "Total amount of money paid /to be paid or received in exchange for the financial instrument in the multiple order."
+    }
+  },
+  "isoRules": {
+    "BulkCashSettlementDetailsRule": {
+      "definition": "Either one or more occurrences of IndividualOrderDetails/CashSettlementDetails or BulkCashSettlementDetails may be present, but not both."
+    },
+    "SettlementCurrencyRule": {
+      "definition": "If BulkCashSettlementDetails is present, then Currency in IndividualOrderDetails/SettlementAmount, if present, must be the same in all occurrences of IndividualOrderDetails."
+    },
+    "OrderOriginatorEligibility3Rule": {
+      "definition": "Either InvestmentAccountDetails/OrderOriginatorEligibility or one or more occurrences of IndividualOrderDetails/RelatedPartyDetails/OrderOriginatorEligibility may be present, but not both."
+    },
+    "TotalSettlementCurrencyRule": {
+      "definition": "If TotalSettlementAmount is present, then Currency in IndividualOrderDetails/SettlementAmount, if present, must be the same in all occurrences of IndividualOrderDetails."
+    }
+  }
+}

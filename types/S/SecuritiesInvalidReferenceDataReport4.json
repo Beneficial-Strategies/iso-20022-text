@@ -1,0 +1,16 @@
+{
+  "isoType": "SecuritiesInvalidReferenceDataReport4",
+  "language": "en",
+  "name": "Securities Invalid Reference Data Report 4",
+  "definition": "Reference data instruments that are no longer valid either through an instrument update or that have passed their termination date.",
+  "isoElements": {
+    "FinancialInstrument": {
+      "name": "Financial Instrument",
+      "definition": "Instrument details at the time this specific details on the financial instrument was invalidated."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

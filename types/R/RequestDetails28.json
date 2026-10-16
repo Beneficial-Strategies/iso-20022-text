@@ -1,0 +1,43 @@
+{
+  "isoType": "RequestDetails28",
+  "language": "en",
+  "name": "Request Details 28",
+  "definition": "Details of the financial instrument removal request.",
+  "isoElements": {
+    "Removal": {
+      "name": "Removal",
+      "definition": "Specifies the  removal processing change requested."
+    },
+    "FinancialInstrumentAndAttributes": {
+      "name": "Financial Instrument And Attributes",
+      "definition": "Specifies the financial instruments to be removed  (identification or attributes)."
+    },
+    "Counterparty": {
+      "name": "Counterparty",
+      "definition": "Identifies the collateral parties of a contract."
+    },
+    "SafekeepingAccount": {
+      "name": "Safekeeping Account",
+      "definition": "Account where financial instruments are maintained."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "References of the transaction for which the financial instrument removal request is required."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentAndAttributesPresenceRule": {
+      "definition": "If removal type is REMO then Financial Instrument And Attributes must be present."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "If SafekeepingAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, SafekeepingAccount must be absent."
+    }
+  }
+}

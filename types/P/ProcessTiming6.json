@@ -1,0 +1,24 @@
+{
+  "isoType": "ProcessTiming6",
+  "language": "en",
+  "name": "Process Timing 6",
+  "definition": "Parameters defining the timing conditions to process an action.",
+  "isoElements": {
+    "StartTime": {
+      "name": "Start Time",
+      "definition": "Date and time to start the action."
+    },
+    "EndTime": {
+      "name": "End Time",
+      "definition": "Date and time after which the action cannot be processed."
+    },
+    "Period": {
+      "name": "Period",
+      "definition": "Period delay between cyclic action activation in months, days, hours and minutes, leading zeros could be omitted."
+    },
+    "UnitOfTime": {
+      "name": "Unit Of Time",
+      "definition": "Identification of the minimum unit of time used by time configuration parameters."
+    }
+  }
+}

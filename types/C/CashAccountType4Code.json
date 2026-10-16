@@ -1,0 +1,88 @@
+{
+  "isoType": "CashAccountType4Code",
+  "language": "en",
+  "name": "Cash Account Type 4 Code",
+  "definition": "Specifies the nature, or use, of the cash account.",
+  "isoCodes": {
+    "CASH": {
+      "isoName": "CashPayment",
+      "name": "Cash Payment",
+      "definition": "Account used for the payment of cash."
+    },
+    "CHAR": {
+      "isoName": "Charges",
+      "name": "Charges",
+      "definition": "Account used for charges if different from the account for payment."
+    },
+    "COMM": {
+      "isoName": "Commission",
+      "name": "Commission",
+      "definition": "Account used for commission if different from the account for payment."
+    },
+    "TAXE": {
+      "isoName": "Tax",
+      "name": "Tax",
+      "definition": "Account used for taxes if different from the account for payment."
+    },
+    "CISH": {
+      "isoName": "CashIncome",
+      "name": "Cash Income",
+      "definition": "Account used for payment of income if different from the current cash account."
+    },
+    "TRAS": {
+      "isoName": "CashTrading",
+      "name": "Cash Trading",
+      "definition": "Account used for trading if different from the current cash account."
+    },
+    "SACC": {
+      "isoName": "Settlement",
+      "name": "Settlement",
+      "definition": "Account used to post debit and credit entries, as a result of transactions cleared and settled through a specific clearing and settlement system."
+    },
+    "CACC": {
+      "isoName": "Current",
+      "name": "Current",
+      "definition": "Account used to post debits and credits when no specific account has been nominated."
+    },
+    "SVGS": {
+      "isoName": "Savings",
+      "name": "Savings",
+      "definition": "Account used for savings."
+    },
+    "ONDP": {
+      "isoName": "OverNightDeposit",
+      "name": "Over Night Deposit",
+      "definition": "Account used for overnight deposits."
+    },
+    "MGLD": {
+      "isoName": "MarginalLending",
+      "name": "Marginal Lending",
+      "definition": "Account used for a marginal lending facility."
+    },
+    "NREX": {
+      "isoName": "NonResidentExternal",
+      "name": "Non Resident External",
+      "definition": "Account used for non-resident external."
+    },
+    "MOMA": {
+      "isoName": "MoneyMarket",
+      "name": "Money Market",
+      "definition": "Account used for money markets if different from the cash account."
+    },
+    "LOAN": {
+      "isoName": "Loan",
+      "name": "Loan",
+      "definition": "Account used for loans."
+    },
+    "SLRY": {
+      "isoName": "Salary",
+      "name": "Salary",
+      "definition": "Accounts used for salary payments."
+    },
+    "ODFT": {
+      "isoName": "Overdraft",
+      "name": "Overdraft",
+      "definition": "Account is used for overdrafts."
+    }
+  }
+}

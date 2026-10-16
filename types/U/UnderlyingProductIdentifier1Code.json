@@ -1,0 +1,28 @@
+{
+  "isoType": "UnderlyingProductIdentifier1Code",
+  "language": "en",
+  "name": "Underlying Product Identifier 1 Code",
+  "definition": "Indicates the underlying product type for reporting to trade repositories. These product codes must be in line with the ISDA Product Taxonomy.",
+  "isoCodes": {
+    "FORW": {
+      "isoName": "ForeignExchangeForward",
+      "name": "Foreign Exchange Forward",
+      "definition": "Underlying product type of the transaction is a Foreign Exchange Forward."
+    },
+    "NDFO": {
+      "isoName": "ForeignExchangeNonDeliverableForward",
+      "name": "Foreign Exchange Non Deliverable Forward",
+      "definition": "Underlying product type of the transaction is a Foreign Exchange Non Deliverable Forward."
+    },
+    "SPOT": {
+      "isoName": "ForeignExchangeSpot",
+      "name": "Foreign Exchange Spot",
+      "definition": "Underlying product type of the transaction is Foreign Exchange Spot."
+    },
+    "SWAP": {
+      "isoName": "ForeignExchangeSWAP",
+      "name": "Foreign Exchange SWAP",
+      "definition": "Underlying product type of the transaction is a Foreign Exchange SWAP."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "UndertakingDemandV01",
+  "language": "en",
+  "name": "Undertaking Demand V 01",
+  "definition": "The UndertakingDemand message and other required documents are sent by the beneficiary to the party that issued the undertaking, either directly or via a presenting or nominated party. It is a demand for payment and may include a request to extend the undertaking expiry date. The demand itself must be contained in an enclosed file within the message or must be specified as narrative text within the message. It may contain other required documents in addition to the demand.",
+  "isoElements": {
+    "UndertakingDemandDetails": {
+      "name": "Undertaking Demand Details",
+      "definition": "Details of the demand."
+    },
+    "BankToBankInformation": {
+      "name": "Bank To Bank Information",
+      "definition": "Additional information specific to the bank-to-bank communication."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the demand."
+    }
+  }
+}

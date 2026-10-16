@@ -1,0 +1,60 @@
+{
+  "isoType": "EventDescription1",
+  "language": "en",
+  "name": "Event Description 1",
+  "definition": "Describes an event not covered by other formal messages, for example a trace after a telephone call.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identification of the event."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date when event occurred."
+    },
+    "Recipient": {
+      "name": "Recipient",
+      "definition": "Party to be advised."
+    },
+    "Advisor": {
+      "name": "Advisor",
+      "definition": "Advising party."
+    },
+    "OtherParty": {
+      "name": "Other Party",
+      "definition": "Parties involved in the event."
+    },
+    "LanguageCode": {
+      "name": "Language Code",
+      "definition": "Identifier for a language used for the description."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Free form description of event."
+    },
+    "RelatedDocument": {
+      "name": "Related Document",
+      "definition": "Reference to related document."
+    },
+    "RelatedLetter": {
+      "name": "Related Letter",
+      "definition": "Identifier of related letter."
+    },
+    "RelatedMessage": {
+      "name": "Related Message",
+      "definition": "Identifier of related message."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document."
+    },
+    "GoverningContract": {
+      "name": "Governing Contract",
+      "definition": "Reference to the contractual context."
+    },
+    "LegalContext": {
+      "name": "Legal Context",
+      "definition": "Rules and laws governing the event."
+    }
+  }
+}

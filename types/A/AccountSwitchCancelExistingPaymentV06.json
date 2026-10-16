@@ -6,27 +6,27 @@
   "isoElements": {
     "MessageIdentification": {
       "name": "Message Identification",
-      "definition": ""
+      "definition": "Unique identification for the message."
     },
     "AccountSwitchDetails": {
       "name": "Account Switch Details",
-      "definition": ""
+      "definition": "Contains information about the details of the account switch."
     },
     "OldAccount": {
       "name": "Old Account",
-      "definition": ""
+      "definition": "Details of the old account."
     },
     "PaymentInstruction": {
       "name": "Payment Instruction",
-      "definition": ""
+      "definition": "Details of a debit payment arrangement associated with the old account. The payment may be a standing order, a bill payment arrangement or a future dated payment."
     },
     "DirectDebitInstruction": {
       "name": "Direct Debit Instruction",
-      "definition": ""
+      "definition": "Details of a direct debit Instruction associated with the old account."
     },
     "SupplementaryData": {
       "name": "Supplementary Data",
-      "definition": ""
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
     }
   }
 }

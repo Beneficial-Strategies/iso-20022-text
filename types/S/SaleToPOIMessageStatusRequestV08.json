@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIMessageStatusRequestV08",
+  "language": "en",
+  "name": "Sale To POI Message Status Request V 08",
+  "definition": "The SaleToPOIMessageStatusRequest message is sent by a sale system when the sale system wants to know the status of previous message that has not be answered.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "StatusRequest": {
+      "name": "Status Request",
+      "definition": "Information related to a status request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

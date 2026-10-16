@@ -1,0 +1,32 @@
+{
+  "isoType": "ATMTransaction8",
+  "language": "en",
+  "name": "ATM Transaction 8",
+  "definition": "Preferred withdrawal transaction chosen by the the customer.",
+  "isoElements": {
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount to dispense."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency."
+    },
+    "ReceiptFlag": {
+      "name": "Receipt Flag",
+      "definition": "True if a receipt has to be printed by the ATM for the customer."
+    },
+    "BalancePrintFlag": {
+      "name": "Balance Print Flag",
+      "definition": "True if a balance has to be printed by the ATM on the customer receipt."
+    },
+    "MixType": {
+      "name": "Mix Type",
+      "definition": "Media mix algorithm, the identification of the algorithm is an agreement between the ATM and the ATM manager."
+    },
+    "Mix": {
+      "name": "Mix",
+      "definition": "Media mix to select."
+    }
+  }
+}

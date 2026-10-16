@@ -1,0 +1,43 @@
+{
+  "isoType": "CardDataWriting1Code",
+  "language": "en",
+  "name": "Card Data Writing 1 Code",
+  "definition": "Card  writing capabilities of the terminal performing the transaction. | ISO 8583:93 bit 22-10, ISO 8583:2003 bit 27-8_9",
+  "isoCodes": {
+    "ICPY": {
+      "isoName": "ICCProximity",
+      "name": "ICC Proximity",
+      "definition": "ICC contactless proximity"
+    },
+    "MGST": {
+      "isoName": "MagneticStripe",
+      "name": "Magnetic Stripe",
+      "definition": "Magnetic stripe."
+    },
+    "ICCY": {
+      "isoName": "ICCContact",
+      "name": "ICC Contact",
+      "definition": "ICC contact capability"
+    },
+    "MSIP": {
+      "isoName": "MSIProximity",
+      "name": "MSI Proximity",
+      "definition": "Magstripe image contactless proximity"
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Other national capability type assigned at national level."
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Unspecified capability."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Other card reading capability assigned on a private basis."
+    }
+  }
+}

@@ -9,6 +9,7 @@ import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, 
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { words } from './domain.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const arg = (name, fallback) => { const i = process.argv.indexOf(`--${name}`); return i > 0 ? process.argv[i + 1] : fallback; };
@@ -36,7 +37,8 @@ const isoMessages = {};
 for (const [identifier, { isoType }] of Object.entries(read(join(work, 'messages.json')).isoMessages)) {
   const root = types[isoType];
   if (!root) throw new Error(`message ${identifier}: root type ${isoType} is not in types/`);
-  isoMessages[identifier] = { isoType, name: root.name.replace(/\s+V\s*\d+$/, '') };
+  // a root type name that two messages share has an `ambiguous` list and no name of its own (SPECIFICATION.md, "Names that are not unique"): the name is the ISO name in words
+  isoMessages[identifier] = { isoType, name: (root.name ?? words(isoType)).replace(/\s+V\s*\d+$/, '') };
 }
 // /messages: every message's name, for a list to choose from; /areas: the business areas
 write(join(out, 'messages'), { isoMessages: Object.fromEntries(Object.entries(isoMessages).sort(([a], [b]) => a.localeCompare(b))) });

@@ -1,0 +1,52 @@
+{
+  "isoType": "SwitchOrderStatusAndReason3",
+  "language": "en",
+  "name": "Switch Order Status And Reason 3",
+  "definition": "Status report of the individual orders of a bulk or multiple order that was previously received.",
+  "isoElements": {
+    "MasterReference": {
+      "name": "Master Reference",
+      "definition": "Reference assigned to a set of orders or trades in order to link them together."
+    },
+    "OrderReference": {
+      "name": "Order Reference",
+      "definition": "Unique and unambiguous identifier for the order, as assigned by the instructing party."
+    },
+    "ClientReference": {
+      "name": "Client Reference",
+      "definition": "Unique and unambiguous investor's identification of the order. This reference can typically be used in a hub scenario to give the reference of the order as assigned by the underlying client."
+    },
+    "DealReference": {
+      "name": "Deal Reference",
+      "definition": "Unique and unambiguous identifier for the order execution, as assigned by the confirming party."
+    },
+    "NonceIdentification": {
+      "name": "Nonce Identification",
+      "definition": "Unambiguous identification of a random or semi-random number used once (NONCE) generated in the frame of a cryptographic communication."
+    },
+    "CancellationReference": {
+      "name": "Cancellation Reference",
+      "definition": "Unique and unambiguous identifier for the order cancellation, as assigned by the instructing party."
+    },
+    "OrderStatus": {
+      "name": "Order Status",
+      "definition": "Status of the switch order."
+    },
+    "LegInformation": {
+      "name": "Leg Information",
+      "definition": "Information about a switch leg that is rejected or repaired."
+    },
+    "StatusInitiator": {
+      "name": "Status Initiator",
+      "definition": "Party that initiates the status of the order."
+    },
+    "OrderData": {
+      "name": "Order Data",
+      "definition": "Order data."
+    },
+    "NewDetails": {
+      "name": "New Details",
+      "definition": "Expected execution information."
+    }
+  }
+}

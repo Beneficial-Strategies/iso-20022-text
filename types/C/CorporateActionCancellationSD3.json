@@ -1,0 +1,28 @@
+{
+  "isoType": "CorporateActionCancellationSD3",
+  "language": "en",
+  "name": "Corporate Action Cancellation SD 3",
+  "definition": "Provides additional information regarding linkage details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "LinkedCorporateActionIdentification": {
+      "name": "Linked Corporate Action Identification",
+      "definition": "Reference assigned by the account servicer to unambiguously identify a related corporate action event."
+    },
+    "LinkageType": {
+      "name": "Linkage Type",
+      "definition": "Indicates the reason why two or more events are related."
+    },
+    "LinkAddedDate": {
+      "name": "Link Added Date",
+      "definition": "Events can be linked together. This date represents the date on which the link was established."
+    },
+    "LinkModifiedDate": {
+      "name": "Link Modified Date",
+      "definition": "Events can be linked together. This date represents the date on which the link was modified."
+    }
+  }
+}

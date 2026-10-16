@@ -1,0 +1,16 @@
+{
+  "isoType": "ATMRejectV02",
+  "language": "en",
+  "name": "ATM Reject V 02",
+  "definition": "The ATMReject message is sent by any entity to reject a received message.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ATMReject": {
+      "name": "ATM Reject",
+      "definition": "Information related to the reject of a message from an ATM or an ATM manager."
+    }
+  }
+}

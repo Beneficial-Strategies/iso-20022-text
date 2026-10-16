@@ -1,0 +1,68 @@
+{
+  "isoType": "LineItemDetails12",
+  "language": "en",
+  "name": "Line Item Details 12",
+  "definition": "Calculation of the current situation of a line item as a result of the submission of a commercial dataset.",
+  "isoElements": {
+    "LineItemIdentification": {
+      "name": "Line Item Identification",
+      "definition": "Sequential number assigned to a line item."
+    },
+    "ProductName": {
+      "name": "Product Name",
+      "definition": "Name of the product detailed in the corresponding line item."
+    },
+    "ProductIdentifier": {
+      "name": "Product Identifier",
+      "definition": "Identifies the product of the corresponding line item."
+    },
+    "ProductCharacteristics": {
+      "name": "Product Characteristics",
+      "definition": "Identifies the characteristic of a product."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Identifies the category of product."
+    },
+    "OrderedQuantity": {
+      "name": "Ordered Quantity",
+      "definition": "Quantity ordered for a line as indicated in the baseline."
+    },
+    "AcceptedQuantity": {
+      "name": "Accepted Quantity",
+      "definition": "Quantity accepted by data set submission."
+    },
+    "OutstandingQuantity": {
+      "name": "Outstanding Quantity",
+      "definition": "Difference between the ordered quantity and the accepted one."
+    },
+    "PendingQuantity": {
+      "name": "Pending Quantity",
+      "definition": "Quantity of a product for which a mismatched data set has been submitted and has not yet been accepted or rejected."
+    },
+    "QuantityTolerance": {
+      "name": "Quantity Tolerance",
+      "definition": "Variance allowed on the quantity of goods."
+    },
+    "OrderedAmount": {
+      "name": "Ordered Amount",
+      "definition": "Price multiplied by the ordered quantity for a line as indicated in the baseline."
+    },
+    "AcceptedAmount": {
+      "name": "Accepted Amount",
+      "definition": "Price multiplied by the accepted quantity for a line."
+    },
+    "OutstandingAmount": {
+      "name": "Outstanding Amount",
+      "definition": "Price multiplied by the outstanding quantity for a line."
+    },
+    "PendingAmount": {
+      "name": "Pending Amount",
+      "definition": "Price multiplied by the pending quantity for a line."
+    },
+    "PriceTolerance": {
+      "name": "Price Tolerance",
+      "definition": "Variance on price for the goods."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "TransactionCharacteristics7",
+  "language": "en",
+  "name": "Transaction Characteristics 7",
+  "definition": "Contains transaction details.",
+  "isoElements": {
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Code that indicates the type of transaction being undertaken in accordance with ISO 8583, Transaction Type."
+    },
+    "TransactionSubType": {
+      "name": "Transaction Sub Type",
+      "definition": "Further breakdown of the transaction type being performed."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Indicates the previous message is cancelled."
+    },
+    "MessageReason": {
+      "name": "Message Reason",
+      "definition": "Reason or purpose to send the message.||The ISO 8583 maintenance agency (MA) manages this code list."
+    },
+    "AlternateMessageReason": {
+      "name": "Alternate Message Reason",
+      "definition": "Supports message reason codes that are not defined in external code list."
+    },
+    "FeeCollectionCycle": {
+      "name": "Fee Collection Cycle",
+      "definition": "Indicates the Fee Collection cycle."
+    },
+    "TransactionDescription": {
+      "name": "Transaction Description",
+      "definition": "Transaction data related to programmes and services, content and format based on bilateral agreements."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LocalData": {
+      "name": "Local Data",
+      "definition": "Contains local language equivalent(s) of data in the current component."
+    }
+  }
+}

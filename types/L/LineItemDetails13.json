@@ -1,0 +1,81 @@
+{
+  "isoType": "LineItemDetails13",
+  "language": "en",
+  "name": "Line Item Details 13",
+  "definition": "Goods or services that are part of a commercial trade agreement.",
+  "isoElements": {
+    "LineItemIdentification": {
+      "name": "Line Item Identification",
+      "definition": "Identification assigned to a line item."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Specifies the quantity of goods on a line in a trade transaction."
+    },
+    "QuantityTolerance": {
+      "name": "Quantity Tolerance",
+      "definition": "Variance allowed in the quantity of goods."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Amount of money for which goods or services are offered, sold, or bought."
+    },
+    "PriceTolerance": {
+      "name": "Price Tolerance",
+      "definition": "Variance allowed on a price."
+    },
+    "ProductName": {
+      "name": "Product Name",
+      "definition": "Name of the product detailed in the corresponding line item."
+    },
+    "ProductIdentifier": {
+      "name": "Product Identifier",
+      "definition": "Identifies the product of the corresponding line item."
+    },
+    "ProductCharacteristics": {
+      "name": "Product Characteristics",
+      "definition": "Identifies the characteristics of a product."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Identifies the category of product."
+    },
+    "ProductOrigin": {
+      "name": "Product Origin",
+      "definition": "Country from which the product originates."
+    },
+    "ShipmentSchedule": {
+      "name": "Shipment Schedule",
+      "definition": "Specifies the shipment schedule for the goods."
+    },
+    "RoutingSummary": {
+      "name": "Routing Summary",
+      "definition": "Information related to the conveyance of goods."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Variance on price for the goods."
+    },
+    "FreightCharges": {
+      "name": "Freight Charges",
+      "definition": "Maximum charges related to the conveyance of goods."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Amount of money due to the government or tax authority, according to various pre-defined parameters linked to the value of the goods in a trade transaction."
+    },
+    "TotalAmount": {
+      "name": "Total Amount",
+      "definition": "Total amount of the line item after adjustments have been applied."
+    },
+    "Incoterms": {
+      "name": "Incoterms",
+      "definition": "Specifies the applicable Incoterms and associated location. Latest version of Incoterms in effect at the date of message creation."
+    }
+  },
+  "isoRules": {
+    "ProductOriginBPORule": {
+      "definition": "ProductOrigin is mandatory if PaymentObligation (BPO) is used in this transaction."
+    }
+  }
+}

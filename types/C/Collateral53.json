@@ -1,0 +1,35 @@
+{
+  "isoType": "Collateral53",
+  "language": "en",
+  "name": "Collateral 53",
+  "definition": "Provides for each collateral account the report summary and the valuation of each piece of collateral.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Provides information about the collateral account, that is the identification, the type and optionally the name."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "ReportSummary": {
+      "name": "Report Summary",
+      "definition": "Summary of the collateral valuation."
+    },
+    "CollateralValuation": {
+      "name": "Collateral Valuation",
+      "definition": "Additional information about the collateral valuation that has been posted."
+    }
+  },
+  "isoRules": {
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Either SafekeepingAccount or BlockChainAddressOrWallet must be present but not both."
+    }
+  }
+}

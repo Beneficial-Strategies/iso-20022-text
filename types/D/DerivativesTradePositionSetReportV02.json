@@ -1,0 +1,16 @@
+{
+  "isoType": "DerivativesTradePositionSetReportV02",
+  "language": "en",
+  "name": "Derivatives Trade Position Set Report V 02",
+  "definition": "The DerivativesTradePositionSetReport message is sent by the trade repositories to the supervisory authority system, to report aggregated exposures between a pair of counterparties that comprise positions sets, collateral position sets, currency positions sets and currency collateral position sets.",
+  "isoElements": {
+    "AggregatedPosition": {
+      "name": "Aggregated Position",
+      "definition": "Representation of exposures between a pair of counterparties that comprise positions sets, collateral position sets, currency positions sets and currency collateral position sets."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

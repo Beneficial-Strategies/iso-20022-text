@@ -1,0 +1,44 @@
+{
+  "isoType": "RequiredSubmission4",
+  "language": "en",
+  "name": "Required Submission 4",
+  "definition": "Specifies the details relative to the submission of the certificate data set.",
+  "isoElements": {
+    "Submitter": {
+      "name": "Submitter",
+      "definition": "Specifies with party(ies) is authorised to submit the data set as part of the transaction."
+    },
+    "CertificateType": {
+      "name": "Certificate Type",
+      "definition": "Specifies the type of the certificate."
+    },
+    "MatchIssuer": {
+      "name": "Match Issuer",
+      "definition": "Specifies if the issuer must be matched as part of the validation of the data set."
+    },
+    "MatchIssueDate": {
+      "name": "Match Issue Date",
+      "definition": "Specifies if the issue date must be matched as part of the validation of the data set."
+    },
+    "MatchInspectionDate": {
+      "name": "Match Inspection Date",
+      "definition": "Specifies if the inspection date must be matched as part of the validation of the data set."
+    },
+    "AuthorisedInspectorIndicator": {
+      "name": "Authorised Inspector Indicator",
+      "definition": "Specifies if the indication of an authorised inspector must be present as part of the validation of the data set."
+    },
+    "MatchConsignee": {
+      "name": "Match Consignee",
+      "definition": "Specifies if the consignee must be matched as part of the validation of the data set."
+    },
+    "MatchManufacturer": {
+      "name": "Match Manufacturer",
+      "definition": "Specifies if the manufacturer must be matched as part of the validation of the data set."
+    },
+    "LineItemIdentification": {
+      "name": "Line Item Identification",
+      "definition": "Specifies if the certificate data set is required in relation to specific line items, and which line items."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "SearchAnd1",
+  "language": "en",
+  "name": "Search And 1",
+  "definition": "List of criteria following the AND logic.",
+  "isoElements": {
+    "Target": {
+      "name": "Target",
+      "definition": "Identifier of target element."
+    },
+    "Operator": {
+      "name": "Operator",
+      "definition": "Comparison operator used to evaluate matching transactions vs criteria."
+    },
+    "Value": {
+      "name": "Value",
+      "definition": "Reference value to be used when evaluating against the target element value using the criteria operator."
+    }
+  }
+}

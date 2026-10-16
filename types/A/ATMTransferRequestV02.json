@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTransferRequestV02",
+  "language": "en",
+  "name": "ATM Transfer Request V 02",
+  "definition": "The ATMTransferRequest message is sent by an ATM to an ATM manager to request the approval of a fund transfer at the ATM.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMTransferRequest": {
+      "name": "Protected ATM Transfer Request",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMTransferRequest": {
+      "name": "ATM Transfer Request",
+      "definition": "Information related to the request of a fund transfer from an ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

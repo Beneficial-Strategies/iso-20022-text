@@ -1,0 +1,20 @@
+{
+  "isoType": "ReportLine5",
+  "language": "en",
+  "name": "Report Line 5",
+  "definition": "Information about a payment against a purchase order.",
+  "isoElements": {
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Unique identification of the purchase order, assigned by the buyer."
+    },
+    "Adjustment": {
+      "name": "Adjustment",
+      "definition": "Specifies the adjustments applied to obtain the net amount."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Net amount, after adjustments, intended to be paid."
+    }
+  }
+}

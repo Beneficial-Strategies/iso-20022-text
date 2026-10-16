@@ -1,0 +1,24 @@
+{
+  "isoType": "KEKIdentifier3",
+  "language": "en",
+  "name": "KEK Identifier 3",
+  "definition": "Key that must be created and sent in the response, or that must be verified.",
+  "isoElements": {
+    "Name": {
+      "name": "Name",
+      "definition": "Name or label of the key."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the cryptographic key."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Version of the cryptographic key."
+    },
+    "KeyCheckValue": {
+      "name": "Key Check Value",
+      "definition": "Value to check the key, for instance, result of the encryption of the null binary string."
+    }
+  }
+}

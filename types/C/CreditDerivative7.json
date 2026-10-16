@@ -1,0 +1,40 @@
+{
+  "isoType": "CreditDerivative7",
+  "language": "en",
+  "name": "Credit Derivative 7",
+  "definition": "Information related specifically to credit derivatives attributes.",
+  "isoElements": {
+    "Seniority": {
+      "name": "Seniority",
+      "definition": "Classification of seniority in case of contract on index or on a single name entity."
+    },
+    "ReferenceParty": {
+      "name": "Reference Party",
+      "definition": "Designation of the underlying reference obligation."
+    },
+    "PaymentFrequency": {
+      "name": "Payment Frequency",
+      "definition": "Specifies the time unit associated with the frequency of payments."
+    },
+    "CalculationBasis": {
+      "name": "Calculation Basis",
+      "definition": "Calculation basis of the interest rate, such as Act/360."
+    },
+    "Series": {
+      "name": "Series",
+      "definition": "Indicates the series number of the composition of the index if applicable."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "New version of a series is issued if one of the constituents defaults and the index has to be re-weighted to account for the new number of total constituents within the index."
+    },
+    "IndexFactor": {
+      "name": "Index Factor",
+      "definition": "Factor to apply to the actual notional to adjust it to all the previous credit events in the index series. ||Usage: The figure varies between 0 and 100."
+    },
+    "TrancheIndicator": {
+      "name": "Tranche Indicator",
+      "definition": "Indicates whether the derivative contract is tranched or not."
+    }
+  }
+}

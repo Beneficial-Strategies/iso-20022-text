@@ -1,0 +1,84 @@
+{
+  "isoType": "CorporateActionOptionSD16",
+  "language": "en",
+  "name": "Corporate Action Option SD 16",
+  "definition": "Provides additional information regarding corporate action option details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "ExtendedOptionFeatures": {
+      "name": "Extended Option Features",
+      "definition": "Used for options that have particular proprietary feature that cannot be represented in the standard ISO message."
+    },
+    "DefaultOptionFlag": {
+      "name": "Default Option Flag",
+      "definition": "Indicates whether the option is declared as default by the issuer/offeror, and will be treated as default by the issuer/offeror if no elections is made.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "OptionalDividendSupplementaryDataRequiredFlag": {
+      "name": "Optional Dividend Supplementary Data Required Flag",
+      "definition": "Indicates whether optional dividend supplementary data are required in the ISO 20022 corporate action instruction (CAIN) message for this event.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "OversubscriptionChargeFlag": {
+      "name": "Oversubscription Charge Flag",
+      "definition": "Indicates whether the cash debit for the oversubscription charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "ProtectChargeFlag": {
+      "name": "Protect Charge Flag",
+      "definition": "Indicates whether the cash debit for the protect charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "StepUpChargeFlag": {
+      "name": "Step Up Charge Flag",
+      "definition": "Indicates whether the cash debit for the step-up charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "SubscriptionChargeFlag": {
+      "name": "Subscription Charge Flag",
+      "definition": "Indicates whether the cash debit for the subscription charge is made at the time of instruction submission.|Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "BackEndOddLotQuantityFlag": {
+      "name": "Back End Odd Lot Quantity Flag",
+      "definition": "Determines the disposition of odd lot quantities resulting from proration. Depending on the event, if the remaining quantity (instructed quantity – accepted prorated quantity) is an odd lot, it may be added to the accepted instruction quantity. |Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "FrontEndOddLotQuantityFlag": {
+      "name": "Front End Odd Lot Quantity Flag",
+      "definition": "Identifies whether the exemption is in effect. Some offers stipulate that instructions submitted on odd lot positions will be exempted from any proration if submitted in full. |Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "FullConditionFlag": {
+      "name": "Full Condition Flag",
+      "definition": "Indicates, whether an option for certain events may have a full condition indicator, meaning that either the conditional quantity must be instructed in full (equal to the instructed quantity) or zero must be instructed. |Yes: applicable.|No: not applicable.|When absent, means No."
+    },
+    "RDPReferenceNumber": {
+      "name": "RDP Reference Number",
+      "definition": "Unique DTCC legacy reference used for matching and reconciling legacy CCF records. The element will be populated to all levels of the message (event details, options, movements) where applicable to indicate how values are sourced from CCF legacy files. For example: event has 2 related activity types 74, and 54. If event details and cash option are sourced from the activity type 74, then activity type 74 will be in RDP reference number in event details, and also on the cash option. The activity type 54 will be \"on\" the security option. Also, usage rules will specify the different layouts of the RDP reference number based on DTCC event group (reorganization, distribution, or redemption)."
+    },
+    "NumberOfConditions": {
+      "name": "Number Of Conditions",
+      "definition": "Number of conditions for a given option that must be acknowledged upon submission of instruction for voluntary reorganisation events."
+    },
+    "TaxCategory": {
+      "name": "Tax Category",
+      "definition": "Identification of the tax category as issuers, their agents, or tax authorities may require a breakdown of holders at a category level that have requested to receive a distribution at a favourable rate of tax."
+    },
+    "ProrationRoundingIndicator": {
+      "name": "Proration Rounding Indicator",
+      "definition": "Indicates how fractional positions will be handled for events with prorated options."
+    },
+    "ProrationFraction": {
+      "name": "Proration Fraction",
+      "definition": "Decimal above which numbers are rounded for prorated options. For example if the rounding factor is 0.5, numbers of 0.5 and above will be rounded up."
+    },
+    "OptionConditions": {
+      "name": "Option Conditions",
+      "definition": "Participation in the event requires that certain conditions be met by the holder for certain voluntary options."
+    },
+    "AgentAcceptRejectIndicator": {
+      "name": "Agent Accept Reject Indicator",
+      "definition": "Indicates whether the event agent has approved the acceptance of voluntary instructions for a given event."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "name": "Proration Return Minimum Quantity Treatment",
+      "definition": "Indicates how prorated instructions will be handled when the prorated entitlement results in less than the minimum denomination."
+    }
+  }
+}

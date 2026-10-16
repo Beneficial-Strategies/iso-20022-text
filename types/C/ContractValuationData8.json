@@ -1,0 +1,29 @@
+{
+  "isoType": "ContractValuationData8",
+  "language": "en",
+  "name": "Contract Valuation Data 8",
+  "definition": "Information related to contract valuation.",
+  "isoElements": {
+    "ContractValue": {
+      "name": "Contract Value",
+      "definition": "Specifies the current value of the outstanding contract."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Indicates the date and time of the last valuation marked to market provided by the central counterparty (CCP) or calculated using the current or last available market price of the inputs."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Indicates the source and method used for the valuation of the transaction by the reporting counterparty.||Usage:|If at least one valuation input is used that is classified as mark-to-model, the whole valuation is classified as mark-to-model.|If only inputs are used that are classified as mark-to-market; the whole valuation is classified as mark-to-market."
+    },
+    "Delta": {
+      "name": "Delta",
+      "definition": "Specifies the ratio of the absolute change in price of a derivative transaction to the change in price of the underlier, at the time a new transaction is reported or when a change in the notional amount is reported."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

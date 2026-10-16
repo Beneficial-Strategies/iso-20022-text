@@ -1,0 +1,53 @@
+{
+  "isoType": "TradeConfirmationStatus1Code",
+  "language": "en",
+  "name": "Trade Confirmation Status 1 Code",
+  "definition": "Identifies the status of the confirmation.",
+  "isoCodes": {
+    "ALST": {
+      "isoName": "AllStatus",
+      "name": "All Status",
+      "definition": "All current status of the trade."
+    },
+    "CONF": {
+      "isoName": "Confirmed",
+      "name": "Confirmed",
+      "definition": "Trades are confirmed by Central Matching Utility (analogous to virtual matching utility)."
+    },
+    "DISA": {
+      "isoName": "Disaccord",
+      "name": "Disaccord",
+      "definition": "Trade information of the both trading member is unmatched."
+    },
+    "EMCN": {
+      "isoName": "EmergencyConfirmed",
+      "name": "Emergency Confirmed",
+      "definition": "Central Matching Utility (analogous to virtual matching utility) confirms trades in contingency."
+    },
+    "MISM": {
+      "isoName": "Mismatched",
+      "name": "Mismatched",
+      "definition": "Trade information between Central Matching Utility(analogous to virtual matching utility) and the trading member is mismatched."
+    },
+    "SCCN": {
+      "isoName": "SelfConfirmedAndCouterpartyNotConfirmed",
+      "name": "Self Confirmed And Couterparty Not Confirmed",
+      "definition": "Home party has confirmed, but couterparty is unrecognized."
+    },
+    "SNCC": {
+      "isoName": "SelfNotConfirmedAndCouterpartyConfirmed",
+      "name": "Self Not Confirmed And Couterparty Confirmed",
+      "definition": "Home party has not confirmed, but couterparty is recognized."
+    },
+    "SNCN": {
+      "isoName": "SelfNotConfirmedAndCouterpartyNotConfirmed",
+      "name": "Self Not Confirmed And Couterparty Not Confirmed",
+      "definition": "Both the two parties are not confirmed."
+    },
+    "UNCN": {
+      "isoName": "Unconfirmed",
+      "name": "Unconfirmed",
+      "definition": "Trades are not confirmed by Central Matching Utility(analogous to virtual matching utility)."
+    }
+  }
+}

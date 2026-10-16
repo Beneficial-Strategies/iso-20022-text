@@ -1,0 +1,44 @@
+{
+  "isoType": "CardPaymentTransaction154",
+  "language": "en",
+  "name": "Card Payment Transaction 154",
+  "definition": "Transaction information in the authorisation response.",
+  "isoElements": {
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Global reference of the sale transaction for the sale system."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification of the transaction assigned by the POI (Point Of Interaction)."
+    },
+    "InitiatorTransactionIdentification": {
+      "name": "Initiator Transaction Identification",
+      "definition": "Identification of the transaction assigned by the initiating party for the recipient party."
+    },
+    "RecipientTransactionIdentification": {
+      "name": "Recipient Transaction Identification",
+      "definition": "Identification of the transaction assigned by the recipient party for the initiating party."
+    },
+    "ReconciliationIdentification": {
+      "name": "Reconciliation Identification",
+      "definition": "Unique identification of the reconciliation period between the acceptor and the acquirer. This identification might be linked to the identification of the settlement for further verification by the merchant."
+    },
+    "InterchangeData": {
+      "name": "Interchange Data",
+      "definition": "Interchange information related to the card scheme."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Detail of the transaction transported."
+    },
+    "MerchantReferenceData": {
+      "name": "Merchant Reference Data",
+      "definition": "Merchant related information provided in the request."
+    },
+    "MessageFromMerchant": {
+      "name": "Message From Merchant",
+      "definition": "Message from a merchant to be displayed on the cardholder bank statement."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "isoType": "CurrencyConversionResponse3Code",
+  "language": "en",
+  "name": "Currency Conversion Response 3 Code",
+  "definition": "Result of a requested currency conversion.",
+  "isoCodes": {
+    "ODCC": {
+      "isoName": "Allowed",
+      "name": "Allowed",
+      "definition": "Dynamic currency conversion may be offered to the cardholder."
+    },
+    "DCCA": {
+      "isoName": "Assumed",
+      "name": "Assumed",
+      "definition": "Transaction authorised with dynamic currency conversion."
+    },
+    "ICRD": {
+      "isoName": "InvalidCard",
+      "name": "Invalid Card",
+      "definition": "The card is not valid for dynamic currency conversion."
+    },
+    "IMER": {
+      "isoName": "InvalidMerchant",
+      "name": "Invalid Merchant",
+      "definition": "The card acceptor has not been recognised."
+    },
+    "IPRD": {
+      "isoName": "InvalidProduct",
+      "name": "Invalid Product",
+      "definition": "Dynamic currency conversion service cannot be offered for this card product."
+    },
+    "IRAT": {
+      "isoName": "NoRate",
+      "name": "No Rate",
+      "definition": "Exchange rates are not available."
+    },
+    "NDCC": {
+      "isoName": "NotAvailable",
+      "name": "Not Available",
+      "definition": "Dynamic currency conversion is not available for other reason."
+    },
+    "REST": {
+      "isoName": "Restriction",
+      "name": "Restriction",
+      "definition": "Conversion accepted for the requested amount exclusively."
+    },
+    "CATG": {
+      "isoName": "Catalogue",
+      "name": "Catalogue",
+      "definition": "Conversion accepted for a range of amounts."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorDiagnosticResponse12",
+  "language": "en",
+  "name": "Acceptor Diagnostic Response 12",
+  "definition": "Diagnostic response from the acquirer.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "TMSTrigger": {
+      "name": "TMS Trigger",
+      "definition": "Instructions for contacting the terminal management host."
+    },
+    "AcquirerAvailable": {
+      "name": "Acquirer Available",
+      "definition": "Indicates if the acquirer is available.| Usage: When absent, default value is False."
+    }
+  }
+}

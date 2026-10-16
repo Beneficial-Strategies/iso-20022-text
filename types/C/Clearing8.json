@@ -1,0 +1,24 @@
+{
+  "isoType": "Clearing8",
+  "language": "en",
+  "name": "Clearing 8",
+  "definition": "Provides the clearing details.",
+  "isoElements": {
+    "SettlementNettingEligibleCode": {
+      "name": "Settlement Netting Eligible Code",
+      "definition": "Indicates to the clearing member whether the trade is eligible for settlement netting or not."
+    },
+    "ClearingSegment": {
+      "name": "Clearing Segment",
+      "definition": "Clearing organisation that will clear the trade.|Note: This field allows clearing member firm to segregate flows coming from clearing counterparty's clearing system. Indeed, clearing member firms receive messages from the same system (same sender) and this field allows them to know if the message is related to equities or derivatives."
+    },
+    "GuaranteedTrade": {
+      "name": "Guaranteed Trade",
+      "definition": "Indicates if the position is guaranteed or non-guaranteed by the central counterparty, that is whether the CCP has done the novation and then guarantees the trade, or not."
+    },
+    "TradeCounterpartyIdentification": {
+      "name": "Trade Counterparty Identification",
+      "definition": "Whether the trades are guaranteed or not by the central counterparty (this is when the central counterparty has not done the novation), provide details such as the trade counterparty member identification or the trade counterparty clearing member identification."
+    }
+  }
+}

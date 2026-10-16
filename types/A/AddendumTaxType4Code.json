@@ -1,0 +1,588 @@
+{
+  "isoType": "AddendumTaxType4Code",
+  "language": "en",
+  "name": "Addendum Tax Type 4 Code",
+  "definition": "Specifies the specific type of tax applicable to a transaction.",
+  "isoCodes": {
+    "TOTL": {
+      "isoName": "TotalTaxes",
+      "name": "Total Taxes",
+      "definition": "Total of all applicable taxes"
+    },
+    "ALMI": {
+      "isoName": "AlternativeMinimumTax",
+      "name": "Alternative Minimum Tax",
+      "definition": "Tax is an alternative minimum tax."
+    },
+    "ASNT": {
+      "isoName": "Assessment",
+      "name": "Assessment",
+      "definition": "Assessment"
+    },
+    "BPTX": {
+      "isoName": "BusinessPrivilegeTax",
+      "name": "Business Privilege Tax",
+      "definition": "Tax imposed on non-American Indian businesses for the privilege of conducting business on an American Indian Reservation"
+    },
+    "KAPA": {
+      "isoName": "CapitalGainTax",
+      "name": "Capital Gain Tax",
+      "definition": "Tax is on a capital gain (realised and unrealised), that is, the profit that is gained from the sale of a financial instrument."
+    },
+    "NKAP": {
+      "isoName": "CapitalLossCredit",
+      "name": "Capital Loss Credit",
+      "definition": "Tax recovery is due to capital loss."
+    },
+    "CRTX": {
+      "isoName": "CityRentalTax",
+      "name": "City Rental Tax",
+      "definition": "Levied by a city government against the periodic fee paid by a customer in return for the right to use the property of another party."
+    },
+    "CSTX": {
+      "isoName": "CitySalesTax",
+      "name": "City Sales Tax",
+      "definition": "Sales tax imposed by a city"
+    },
+    "CITX": {
+      "isoName": "CityTax",
+      "name": "City Tax",
+      "definition": "Service tax imposed by a city"
+    },
+    "COAX": {
+      "isoName": "ConsumptionTax",
+      "name": "Consumption Tax",
+      "definition": "Tax that is levied on goods and services purchased by customers, and is added to the retail price."
+    },
+    "CPST": {
+      "isoName": "CountyParishSalesTax",
+      "name": "County Parish Sales Tax",
+      "definition": "Service tax imposed by a County or Parish"
+    },
+    "CORT": {
+      "isoName": "CountyRentalTax",
+      "name": "County Rental Tax",
+      "definition": "Levied by a county government against the periodic fee paid by a customer in return for the right to use the property of another party."
+    },
+    "COTX": {
+      "isoName": "CountyTax",
+      "name": "County Tax",
+      "definition": "Service tax levied by a county"
+    },
+    "CUST": {
+      "isoName": "CustomsTax",
+      "name": "Customs Tax",
+      "definition": "Tax levied on imports or exports by a country's customs authority."
+    },
+    "DLTX": {
+      "isoName": "DefaultLabourTax",
+      "name": "Default Labour Tax",
+      "definition": "Default Labour Tax"
+    },
+    "DUTY": {
+      "isoName": "Duty",
+      "name": "Duty",
+      "definition": "A tax levied on goods that typically though not exclusively transit across a geographic border."
+    },
+    "EMIT": {
+      "isoName": "EmergencyAssistanceCityTax",
+      "name": "Emergency Assistance City Tax",
+      "definition": "Tax levied by a city to recover the cost of providing telephone emergency assistance service (for example, 112, 911, 999)."
+    },
+    "EMUT": {
+      "isoName": "EmergencyAssistanceCountyTax",
+      "name": "Emergency Assistance County Tax",
+      "definition": "Tax levied by a county to recover the cost of providing telephone emergency assistance service (for example, 112, 911, 999)."
+    },
+    "EMET": {
+      "isoName": "EmergencyAssistanceExciseTax",
+      "name": "Emergency Assistance Excise Tax",
+      "definition": "Usage tax levied to recover the cost of telephone emergency assistance service (for example, 112, 911, 999)."
+    },
+    "EMST": {
+      "isoName": "EmergencyAssistanceStateTax",
+      "name": "Emergency Assistance State Tax",
+      "definition": "Tax levied by a state to recover the cost of providing telephone emergency assistance service (for example, 112, 911, 999)."
+    },
+    "EMRT": {
+      "isoName": "EmergencyAssistanceTax",
+      "name": "Emergency Assistance Tax",
+      "definition": "Tax levied to recover the cost of providing telephone emergency assistance service (for example,112, 911, 999)."
+    },
+    "ENTX": {
+      "isoName": "EnergyTax",
+      "name": "Energy Tax",
+      "definition": "Tax applied to the utility and petroleum industries."
+    },
+    "ESET": {
+      "isoName": "EnhancedEmergencyAssistanceStateExciseTax",
+      "name": "Enhanced Emergency Assistance State Excise Tax",
+      "definition": "Tax levied by a state to recover the cost of providing enhanced telephone emergency assistance services (for example, 112, 911, 999) such as automatic call identification."
+    },
+    "ENVT": {
+      "isoName": "EnvironmentalTax",
+      "name": "Environmental Tax",
+      "definition": "Tax levied on activities which are considered to have negative impacts on an environment."
+    },
+    "EQUL": {
+      "isoName": "Equalisation",
+      "name": "Equalisation",
+      "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year."
+    },
+    "EQTX": {
+      "isoName": "EquipmentTax",
+      "name": "Equipment Tax",
+      "definition": "Equipment Tax"
+    },
+    "EUTR": {
+      "isoName": "EUTaxRetention",
+      "name": "EU Tax Retention",
+      "definition": "Tax withheld at source in the framework of the European Directive on taxation of savings in the form of interest payments."
+    },
+    "EXEC": {
+      "isoName": "ExecutingBrokerCommission",
+      "name": "Executing Broker Commission",
+      "definition": "Executing broker's commission amount."
+    },
+    "FEXT": {
+      "isoName": "FederalExciseTax",
+      "name": "Federal Excise Tax",
+      "definition": "Excise tax levied by a federal government."
+    },
+    "FNST": {
+      "isoName": "FederalNationalSalesTax",
+      "name": "Federal National Sales Tax",
+      "definition": "Federal or National Sales Tax."
+    },
+    "FETX": {
+      "isoName": "FederalTax",
+      "name": "Federal Tax",
+      "definition": "Usage tax levied by federal (US and Canadian) government."
+    },
+    "FVAT": {
+      "isoName": "FederalValueAddedTax",
+      "name": "Federal Value Added Tax",
+      "definition": "Federal Value-Added Tax (GST)."
+    },
+    "FVTS": {
+      "isoName": "FederalValueAddedTaxOnServices",
+      "name": "Federal Value Added Tax On Services",
+      "definition": "Federal Value-Added Tax (GST) on Services"
+    },
+    "FIMT": {
+      "isoName": "FICAMedicareTax",
+      "name": "FICA Medicare Tax",
+      "definition": "USA Federal Insurance Contributions Act tax levied to assist in the funding of Medicare."
+    },
+    "FSST": {
+      "isoName": "FICASocialSecurityTax",
+      "name": "FICA Social Security Tax",
+      "definition": "USA Federal Insurance Contributions Act tax levied to assist in the funding of social security."
+    },
+    "FICA": {
+      "isoName": "FICATax",
+      "name": "FICA Tax",
+      "definition": "USA Federal Insurance Contributions Act tax."
+    },
+    "FRTX": {
+      "isoName": "FranchiseTax",
+      "name": "Franchise Tax",
+      "definition": "Tax levied by a municipality, on certain types of businesses for the right to exist as a legal entity and conduct business in a particular jurisdiction."
+    },
+    "FSTX": {
+      "isoName": "FuelSpillTax",
+      "name": "Fuel Spill Tax",
+      "definition": "Fuel Spill Tax."
+    },
+    "FSFT": {
+      "isoName": "FuelSuperFundTax",
+      "name": "Fuel Super Fund Tax",
+      "definition": "USA federal tax levied on certain types of businesses to provide funding for cleanup of hazardous waste sites."
+    },
+    "FUVT": {
+      "isoName": "FullVAT",
+      "name": "Full VAT",
+      "definition": "Value Added Tax calculated at the full tax rate."
+    },
+    "GIFT": {
+      "isoName": "GiftTax",
+      "name": "Gift Tax",
+      "definition": "Tax that is levied on assets given to individuals prior to the death of the donor. Gift tax is designed to ensure the integrity of the inheritance tax, preventing the pre-death transfer of wealth."
+    },
+    "GCAT": {
+      "isoName": "GoodsAndServicesTax",
+      "name": "Goods And Services Tax",
+      "definition": "Goods and Services Tax - Canadian value-added tax."
+    },
+    "GRTX": {
+      "isoName": "GrossReceiptsTax",
+      "name": "Gross Receipts Tax",
+      "definition": "Gross Receipts Tax."
+    },
+    "HVAT": {
+      "isoName": "HalfVAT",
+      "name": "Half VAT",
+      "definition": "Value Added Tax calculated at the half tax rate."
+    },
+    "HATX": {
+      "isoName": "HandicapTax",
+      "name": "Handicap Tax",
+      "definition": "Tax assessed to assist the handicapped."
+    },
+    "HSTX": {
+      "isoName": "HarmonizedSalesTax",
+      "name": "Harmonized Sales Tax",
+      "definition": "Harmonized Sales Tax (HST)."
+    },
+    "HWTX": {
+      "isoName": "HazardousWasteTax",
+      "name": "Hazardous Waste Tax",
+      "definition": "Tax levied on entities that produce, store, treat, transport or otherwise manage hazardous wastes and materials."
+    },
+    "INHT": {
+      "isoName": "InheritanceTax",
+      "name": "Inheritance Tax",
+      "definition": "Tax that is payable at the time of death on any items (money or otherwise), where ownership changes either upon death or within a legally specified number of years before death."
+    },
+    "INPO": {
+      "isoName": "InterimProfitTax",
+      "name": "Interim Profit Tax",
+      "definition": "Tax levied on the sum of all earnings/revenues accrued since the last dividend distribution."
+    },
+    "LTTX": {
+      "isoName": "LabourByTradeTax",
+      "name": "Labour By Trade Tax",
+      "definition": "Labour by Trade Tax"
+    },
+    "FLST": {
+      "isoName": "LeakyUndergroundStorageTankTax",
+      "name": "Leaky Underground Storage Tank Tax",
+      "definition": "Federal tax levied in the USA to fund the clean-up activities associated with leaking underground storage tanks."
+    },
+    "LITX": {
+      "isoName": "LicenseTax",
+      "name": "License Tax",
+      "definition": "Tax levied by a government agency for the granting of a license to conduct an activity, such as driving a car, operating a business, selling liquor, hunting, or practicing certain vocations."
+    },
+    "LOCO": {
+      "isoName": "LocalBrokerCommission",
+      "name": "Local Broker Commission",
+      "definition": "Local broker's commission amount."
+    },
+    "LSTX": {
+      "isoName": "LocalSalesTax",
+      "name": "Local Sales Tax",
+      "definition": "All applicable sales taxes levied by taxing authorities below the state level. Used only for sales tax."
+    },
+    "LOCL": {
+      "isoName": "LocalTax",
+      "name": "Local Tax",
+      "definition": "Service tax levied by a local government or taxation agency. Not a sales tax."
+    },
+    "LUTX": {
+      "isoName": "LuxuryTax",
+      "name": "Luxury Tax",
+      "definition": "Ad valorem tax levied on products or services that are deemed to be non-essential or unneeded."
+    },
+    "MATX": {
+      "isoName": "MaterialTax",
+      "name": "Material Tax",
+      "definition": "Material Tax"
+    },
+    "METX": {
+      "isoName": "MetropolitanTransitTax",
+      "name": "Metropolitan Transit Tax",
+      "definition": "Metropolitan Transit Tax"
+    },
+    "MITX": {
+      "isoName": "MinimumTax",
+      "name": "Minimum Tax",
+      "definition": "Minimum Tax"
+    },
+    "MUTX": {
+      "isoName": "MunicipalTax",
+      "name": "Municipal Tax",
+      "definition": "Service tax imposed by a municipality."
+    },
+    "MUDE": {
+      "isoName": "MutuallyDefinedTax",
+      "name": "Mutually Defined Tax",
+      "definition": "Mutually Defined"
+    },
+    "COUN": {
+      "isoName": "NationalFederalTax",
+      "name": "National Federal Tax",
+      "definition": "Tax is a country, national, or federal tax usually levied by the custodian."
+    },
+    "NATI": {
+      "isoName": "NationalTax",
+      "name": "National Tax",
+      "definition": "Tax is a national tax."
+    },
+    "OCTX": {
+      "isoName": "OccupancyTax",
+      "name": "Occupancy Tax",
+      "definition": "Tax levied for the privelage of occupying space for home or rental for a fixed period of time, as determined by a taxing authority."
+    },
+    "OPTX": {
+      "isoName": "OccupationalTax",
+      "name": "Occupational Tax",
+      "definition": "Type of gross receipts tax imposed for the privilege of carrying on a business, trade or profession."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other type of tax not elsewhere classified."
+    },
+    "OTTX": {
+      "isoName": "OtherTaxes",
+      "name": "Other Taxes",
+      "definition": "Other taxes"
+    },
+    "LEVY": {
+      "isoName": "PaymentLevyTax",
+      "name": "Payment Levy Tax",
+      "definition": "Tax levied on a payment."
+    },
+    "POTX": {
+      "isoName": "PostThresholdTax",
+      "name": "Post Threshold Tax",
+      "definition": "Post-threshold Tax"
+    },
+    "PRTX": {
+      "isoName": "PreThresholdTax",
+      "name": "Pre Threshold Tax",
+      "definition": "Pre-threshold tax"
+    },
+    "PSTX": {
+      "isoName": "ProductAndServicesTax",
+      "name": "Product And Services Tax",
+      "definition": "Tax levied on products and services"
+    },
+    "PPTX": {
+      "isoName": "PropertyTax",
+      "name": "Property Tax",
+      "definition": "Ad valorem property tax levied on real or personal property by local government units such as counties, municipalities, school districts, and special taxing districts."
+    },
+    "PROV": {
+      "isoName": "ProvincialTax",
+      "name": "Provincial Tax",
+      "definition": "Provincial tax"
+    },
+    "PHET": {
+      "isoName": "PublicHealthAndEducationTax",
+      "name": "Public Health And Education Tax",
+      "definition": "Canadian tax levied to fund public care and education."
+    },
+    "QUST": {
+      "isoName": "QuebecSalesTax",
+      "name": "Quebec Sales Tax",
+      "definition": "Quebec Sales Tax (QST)"
+    },
+    "ROCI": {
+      "isoName": "RoomCity",
+      "name": "Room City",
+      "definition": "Room City"
+    },
+    "RCSB": {
+      "isoName": "RoomCountrySubdivision1",
+      "name": "Room Country Subdivision 1",
+      "definition": "Room Country Subdivision1"
+    },
+    "RCSD": {
+      "isoName": "RoomCountrySubdivision2",
+      "name": "Room Country Subdivision 2",
+      "definition": "Room Country Subdivision2"
+    },
+    "ROTX": {
+      "isoName": "RoomTax",
+      "name": "Room Tax",
+      "definition": "Room Tax"
+    },
+    "RVAT": {
+      "isoName": "RoomVAT",
+      "name": "Room VAT",
+      "definition": "Room VAT"
+    },
+    "ROVI": {
+      "isoName": "RoomVisitor",
+      "name": "Room Visitor",
+      "definition": "Room Visitor"
+    },
+    "SAUT": {
+      "isoName": "SalesAndUseTax",
+      "name": "Sales And Use Tax",
+      "definition": "Tax levied for the use of equipment and service provided"
+    },
+    "SCTX": {
+      "isoName": "SchoolTax",
+      "name": "School Tax",
+      "definition": "Tax levied by taxing authority for schools"
+    },
+    "SPTX": {
+      "isoName": "SecondaryPercentageTax",
+      "name": "Secondary Percentage Tax",
+      "definition": "Secondary Percentage Tax"
+    },
+    "STTA": {
+      "isoName": "StadiumTax",
+      "name": "Stadium Tax",
+      "definition": "Stadium Tax"
+    },
+    "STAM": {
+      "isoName": "StampDuty",
+      "name": "Stamp Duty",
+      "definition": "Tax levied on certain types of documents and transactions."
+    },
+    "SLST": {
+      "isoName": "StateAndLocalSalesTax",
+      "name": "State And Local Sales Tax",
+      "definition": "State and Local Sales Tax"
+    },
+    "SLTX": {
+      "isoName": "StateAndLocalTax",
+      "name": "State And Local Tax",
+      "definition": "State and local tax levies, exclusive of state and local sales tax."
+    },
+    "SETX": {
+      "isoName": "StateExciseTax",
+      "name": "State Excise Tax",
+      "definition": "Usage tax imposed by state or provincial government authorities."
+    },
+    "STPT": {
+      "isoName": "StateOrProvincialTax",
+      "name": "State Or Provincial Tax",
+      "definition": "Sales tax levied by a State or Province that excludes sales or excise taxes."
+    },
+    "SPTS": {
+      "isoName": "StateOrProvincialTaxOnServices",
+      "name": "State Or Provincial Tax On Services",
+      "definition": "State or Provincial tax on services"
+    },
+    "SPFT": {
+      "isoName": "StateProvincialFuelTax",
+      "name": "State Provincial Fuel Tax",
+      "definition": "State or Provincial Fuel Tax"
+    },
+    "SPTG": {
+      "isoName": "StateProvincialTaxOnGoods",
+      "name": "State Provincial Tax On Goods",
+      "definition": "State or Provincial Tax on Goods"
+    },
+    "SRTX": {
+      "isoName": "StateRentalTax",
+      "name": "State Rental Tax",
+      "definition": "Tax levied by a state government against a periodic fee paid by a customer in return for the right to use the property of another party."
+    },
+    "SSTX": {
+      "isoName": "StateSalesTax",
+      "name": "State Sales Tax",
+      "definition": "State Sales Tax"
+    },
+    "STAT": {
+      "isoName": "StateTax",
+      "name": "State Tax",
+      "definition": "State tax."
+    },
+    "STSL": {
+      "isoName": "StateTaxOnSpecificLabour",
+      "name": "State Tax On Specific Labour",
+      "definition": "State Tax on Specific Labour"
+    },
+    "STEX": {
+      "isoName": "StockExchangeTax",
+      "name": "Stock Exchange Tax",
+      "definition": "Tax levied by a stock exchange."
+    },
+    "SUTX": {
+      "isoName": "Surtax",
+      "name": "Surtax",
+      "definition": "Surtax"
+    },
+    "CTAX": {
+      "isoName": "TaxCredit",
+      "name": "Tax Credit",
+      "definition": "Direct reduction of an individual's tax liability."
+    },
+    "TDDT": {
+      "isoName": "TDDServiceExciseTax",
+      "name": "TDD Service Excise Tax",
+      "definition": "Excise tax levied to recover the cost of providing Telecommunications Device for the Deaf (TDD) Equipment."
+    },
+    "TELT": {
+      "isoName": "TelecommunicationsTax",
+      "name": "Telecommunications Tax",
+      "definition": "Tax levied on telecommunications companies for the right to provide services. May be a usage or excise tax."
+    },
+    "THTX": {
+      "isoName": "ThresholdTax",
+      "name": "Threshold Tax",
+      "definition": "Threshold Tax"
+    },
+    "TRAX": {
+      "isoName": "TransactionTax",
+      "name": "Transaction Tax",
+      "definition": "Tax levied on a transaction."
+    },
+    "TRAN": {
+      "isoName": "TransferTax",
+      "name": "Transfer Tax",
+      "definition": "Tax levied on a transfer."
+    },
+    "UNSP": {
+      "isoName": "Unspecified",
+      "name": "Unspecified",
+      "definition": "Unspecified tax type"
+    },
+    "UUTX": {
+      "isoName": "UtilityUsersTax",
+      "name": "Utility Users Tax",
+      "definition": "Tax levied on consumers by a city or county for the use of natural gas."
+    },
+    "VATA": {
+      "isoName": "ValueAddedTax",
+      "name": "Value Added Tax",
+      "definition": "Value added tax"
+    },
+    "VATB": {
+      "isoName": "ValueAddedTaxOfZeroRate",
+      "name": "Value Added Tax Of Zero Rate",
+      "definition": "Tax for which a zero rate applies."
+    },
+    "WTAX": {
+      "isoName": "WealthTax",
+      "name": "Wealth Tax",
+      "definition": "Tax levied only when the value of assets or categories of assets owned by an entity are above a given limit as defined by the tax authority. Wealth tax is not linked to income."
+    },
+    "WESV": {
+      "isoName": "WellService",
+      "name": "Well Service",
+      "definition": "Well Service"
+    },
+    "WITF": {
+      "isoName": "WithholdingOfForeignTax",
+      "name": "Withholding Of Foreign Tax",
+      "definition": "Rate at which the income will be withheld by the jurisdiction in which the income was originally paid, for which relief at source and/or reclaim may be possible."
+    },
+    "WITL": {
+      "isoName": "WithholdingOfLocalTax",
+      "name": "Withholding Of Local Tax",
+      "definition": "Rate at which the income will be withheld by the jurisdiction in which the account owner is located, for which relief at source and/or reclaim may be possible."
+    },
+    "WITH": {
+      "isoName": "WithholdingTax",
+      "name": "Withholding Tax",
+      "definition": "Income tax withheld or deducted from the amount due to the recipient, and paid to the government by the payer rather than the recipient. May apply to salaries, interest, and other types of proceeds."
+    },
+    "TNRT": {
+      "isoName": "TotalNonRoomTax",
+      "name": "Total Non Room Tax",
+      "definition": "Tax levied on non-room expenditures."
+    },
+    "DPTX": {
+      "isoName": "DepartureTax",
+      "name": "Departure Tax",
+      "definition": "Departure Tax"
+    }
+  }
+}

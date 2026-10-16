@@ -1,0 +1,25 @@
+{
+  "isoType": "Counterparty46",
+  "language": "en",
+  "name": "Counterparty 46",
+  "definition": "Information related to counterparty identification.",
+  "isoElements": {
+    "IdentificationType": {
+      "name": "Identification Type",
+      "definition": "Indicates if the counterparty is a legal entity or a natural person."
+    },
+    "Nature": {
+      "name": "Nature",
+      "definition": "Indicates if the counterparty is a central counterparty, a financial, non-financial counterparty or other type of counterparty in accordance with regulation."
+    },
+    "ReportingObligation": {
+      "name": "Reporting Obligation",
+      "definition": "Indicator of whether the counterparty 2 has the reporting obligation (irrespective of who is responsible and legally liable for its reporting).||Usage: If the element is not present, the ReportingObligation is False."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

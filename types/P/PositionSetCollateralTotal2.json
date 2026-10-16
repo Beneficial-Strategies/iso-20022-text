@@ -1,0 +1,25 @@
+{
+  "isoType": "PositionSetCollateralTotal2",
+  "language": "en",
+  "name": "Position Set Collateral Total 2",
+  "definition": "Variables used to quantify the different calculations for position sets and currency position sets reports.",
+  "isoElements": {
+    "NumberOfReports": {
+      "name": "Number Of Reports",
+      "definition": "Refers to the number of reports used for calculating the position set."
+    },
+    "PostedMarginOrCollateral": {
+      "name": "Posted Margin Or Collateral",
+      "definition": "Values of the initial margin for the portfolio."
+    },
+    "ReceivedMarginOrCollateral": {
+      "name": "Received Margin Or Collateral",
+      "definition": "Values of the margin for the portfolio."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

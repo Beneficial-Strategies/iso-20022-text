@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCurrencyConversionResponseV13",
+  "language": "en",
+  "name": "Acceptor Currency Conversion Response V 13",
+  "definition": "The AcceptorCurrencyConversionResponse message is sent by currency conversion service provider to the card acceptor to return the result of a potential currency conversion for the cardholder.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Currency conversion response message management information."
+    },
+    "CurrencyConversionResponse": {
+      "name": "Currency Conversion Response",
+      "definition": "Information related to the outcome of the currency conversion."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC (message authentication code)."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "VariationMargin1",
+  "language": "en",
+  "name": "Variation Margin 1",
+  "definition": "Elements used to calculate the collateral margin call for the variation margin.",
+  "isoElements": {
+    "ThresholdAmount": {
+      "name": "Threshold Amount",
+      "definition": "Amount of unsecured exposure a counterparty will accept before issuing a margin call in the base currency."
+    },
+    "ThresholdType": {
+      "name": "Threshold Type",
+      "definition": "Specifies if the threshold amount is secured or unsecured."
+    },
+    "MinimumTransferAmount": {
+      "name": "Minimum Transfer Amount",
+      "definition": "Minimum amount to pay/receive as specified in the agreement in the base currency (to avoid the need to transfer an inconveniently small amount of variation margin)."
+    },
+    "RoundingAmount": {
+      "name": "Rounding Amount",
+      "definition": "Amount specified to avoid the need to transfer uneven amounts of collateral."
+    },
+    "RoundingMethod": {
+      "name": "Rounding Method",
+      "definition": "Defines how the rounding amount was applied in the calculation. For example, should the amount of collateral required be rounded up, down, to the closer integral multiple specified or not rounded."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "DocumentIdentification10",
+  "language": "en",
+  "name": "Document Identification 10",
+  "definition": "Identifies a document by a unique identification and a version together with the submitter of the document.|Also specifies the type of document and an index for easy referencing.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of a set of data."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Unambiguous identification of the version of a set of data. Example: Version 1."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type of data set."
+    },
+    "Submitter": {
+      "name": "Submitter",
+      "definition": "Uniquely identifies the financial institution which has submitted the set of data by using a BIC."
+    },
+    "DocumentIndex": {
+      "name": "Document Index",
+      "definition": "Index assigned to the document, to allow easy referencing."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "Action18",
+  "language": "en",
+  "name": "Action 18",
+  "definition": "Set of actions to be performed by the POI (Point Of Interaction) system.",
+  "isoElements": {
+    "ActionType": {
+      "name": "Action Type",
+      "definition": "Type of action to be performed by the POI (Point Of Interaction) system."
+    },
+    "MessageToPresent": {
+      "name": "Message To Present",
+      "definition": "Message to be displayed to the cardholder or the cashier."
+    },
+    "RemoteAccess": {
+      "name": "Remote Access",
+      "definition": "Access information to reach the target host."
+    },
+    "Retry": {
+      "name": "Retry",
+      "definition": "Definition of retry process if activation of an action fails."
+    },
+    "TimeCondition": {
+      "name": "Time Condition",
+      "definition": "Timing condition for periodic exchanges."
+    }
+  }
+}

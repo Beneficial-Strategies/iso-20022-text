@@ -1,0 +1,20 @@
+{
+  "isoType": "TradingSystemStatusReportV01",
+  "language": "en",
+  "name": "Trading System Status Report V 01",
+  "definition": "The TradingSystemStatusReport message is sent by the Trading Venue to the Consolidated Tape Provider, which disseminates the data to their users on a consolidated basis. The TradingSystemStatusReport message provides the latest operational status of trading systems operated by each Trading Venue, indicating whether a system is active, experiencing an outage, or undergoing a partial outage.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the regulatory trading system report."
+    },
+    "TradingSystemReport": {
+      "name": "Trading System Report",
+      "definition": "Report related to the status of trading systems."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

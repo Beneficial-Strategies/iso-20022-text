@@ -1,0 +1,48 @@
+{
+  "isoType": "EncryptedData2",
+  "language": "en",
+  "name": "Encrypted Data 2",
+  "definition": "Contains encrypted data and the attributes used to encrypt the data using the ISO 13492 methods for data encryption.  The encryption key is not included in the message with this method.",
+  "isoElements": {
+    "Control": {
+      "name": "Control",
+      "definition": "Identifies the key management scheme and associated control field format.|See ISO 13492 Control field for values."
+    },
+    "KeySetIdentifier": {
+      "name": "Key Set Identifier",
+      "definition": "Number that uniquely identifies a key or a group of related keys that are all different but have certain characteristics in common.|See ISO 13492 Key-set identifier for usage."
+    },
+    "DerivedInformation": {
+      "name": "Derived Information",
+      "definition": "Contains Derived Info or Device ID and Transaction Counter.|See ISO 13492 Derived information or Device ID and Transaction Counter for more information."
+    },
+    "Algorithm": {
+      "name": "Algorithm",
+      "definition": "Defines the algorithm used for encryption.|See ISO 13492 Algorithm field for values."
+    },
+    "KeyLength": {
+      "name": "Key Length",
+      "definition": "Specifies the length of the encryption key.|See ISO 13492 Key length field for value to use."
+    },
+    "KeyProtection": {
+      "name": "Key Protection",
+      "definition": "Mechanism used to provide key confidentiality and integrity. Identifies encryption attribute used for the data encryption operation.|See ISO 13492 Key protection field for values."
+    },
+    "KeyIndex": {
+      "name": "Key Index",
+      "definition": "Identifies a unique key within a key set when multiple keys exist with the same key set identifier.|See ISO 13492 Key index for more information."
+    },
+    "PaddingMethod": {
+      "name": "Padding Method",
+      "definition": "Identifies the padding method used prior to encipherment of the data.|See ISO 13492 Padding method field for values."
+    },
+    "EncryptedFormat": {
+      "name": "Encrypted Format",
+      "definition": "Identifies the format of the structured data when the encrypted data block contains more than one data element."
+    },
+    "EncryptedElement": {
+      "name": "Encrypted Element",
+      "definition": "Encrypted data element information."
+    }
+  }
+}

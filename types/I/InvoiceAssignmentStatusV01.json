@@ -1,0 +1,32 @@
+{
+  "isoType": "InvoiceAssignmentStatusV01",
+  "language": "en",
+  "name": "Invoice Assignment Status V 01",
+  "definition": "The message InvoiceAssignmentStatus is sent by a factoring service provider to a factoring client and, optionally, to an interested party as a response to assignments requests.|The factoring service provider returns a copy of items of corresponding requests together with an information about the status of treatment, for example acceptance, rejection or treatment not yet finished. A rejection can be the result of bad message syntax, but also for other motives such as risk, compliance or covenants.|For each reported financial item, the factoring service provider includes a reference to the corresponding item of the InvoiceFinancingRequest message and may include the referenced item as well as data from other related and referenced messages.|The message contains information about other parties to be notified and whether these parties are required to acknowledge the assignment.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the assignment status, common parameters, documents and identifications."
+    },
+    "AssignmentList": {
+      "name": "Assignment List",
+      "definition": "List of assignments of financial items."
+    },
+    "AssignmentCount": {
+      "name": "Assignment Count",
+      "definition": "Number of assignments."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all assignments."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

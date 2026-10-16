@@ -1,0 +1,20 @@
+{
+  "isoType": "TradePartyIdentification3",
+  "language": "en",
+  "name": "Trade Party Identification 3",
+  "definition": "Entity involved in an activity.",
+  "isoElements": {
+    "FundInformation": {
+      "name": "Fund Information",
+      "definition": "Identifies the fund which is one of the parties in a treasury trade."
+    },
+    "SubmittingParty": {
+      "name": "Submitting Party",
+      "definition": "Specifies the party which submits a treasury trade to a matching system or to a settlement system or to a counterparty."
+    },
+    "TradeParty": {
+      "name": "Trade Party",
+      "definition": "Specifies the party which originated a treasury trade. This party may be the same as the submitting party."
+    }
+  }
+}

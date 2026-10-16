@@ -1,0 +1,37 @@
+{
+  "isoType": "TradeSecurityIdentificationQueryCriteria3",
+  "language": "en",
+  "name": "Trade Security Identification Query Criteria 3",
+  "definition": "Specifies the query criteria related to securities.",
+  "isoElements": {
+    "Operator": {
+      "name": "Operator",
+      "definition": "Specifies the AND/OR operators as query criteria."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the product through ISIN or AII."
+    },
+    "ContractType": {
+      "name": "Contract Type",
+      "definition": "Classification of information according to contract type."
+    },
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "International Securities Identification Number (ISIN). A numbering system designed by the United Nation's International Organisation for Standardisation (ISO). The ISIN is composed of a 2-character prefix representing the country of issue, followed by the national security number (if one exists), and a check digit. Each country has a national numbering agency that assigns ISIN numbers for securities in that country."
+    },
+    "UniqueProductIdentifier": {
+      "name": "Unique Product Identifier",
+      "definition": "Identification of the product through a unique product identifier."
+    },
+    "UnderlyingInstrumentIdentification": {
+      "name": "Underlying Instrument Identification",
+      "definition": "Unique identification to identify the direct underlying instrument based on its type."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

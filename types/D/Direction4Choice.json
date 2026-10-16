@@ -1,0 +1,16 @@
+{
+  "isoType": "Direction4Choice",
+  "language": "en",
+  "name": "Direction 4 Choice",
+  "definition": "Choice between elements indicating the direction of the derivative transaction.",
+  "isoElements": {
+    "Direction": {
+      "name": "Direction",
+      "definition": "Identifies whether the reporting counterparty is the payer (Taker) or the receiver (Maker).||Usage:|DirectionOfTheFirstLeg should be used for most swaps and swap-like contracts including interest rate swaps, credit total return swaps, and equity swaps (except for credit default swaps, variance, volatility, and correlation swaps) as well as for the foreign exchange swaps, forwards and non-deliverable forwards."
+    },
+    "CounterpartySide": {
+      "name": "Counterparty Side",
+      "definition": "Identifies whether the reporting counterparty is the buyer or the seller as determined at the time of transaction."
+    }
+  }
+}

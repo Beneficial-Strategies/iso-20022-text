@@ -1,0 +1,24 @@
+{
+  "isoType": "EquityDerivative3Choice",
+  "language": "en",
+  "name": "Equity Derivative 3 Choice",
+  "definition": "Element to define an equity instrument underlying code types.",
+  "isoElements": {
+    "Basket": {
+      "name": "Basket",
+      "definition": "Populated when sub asset class is either swaps or portfolio swaps and the underlying type is a basket."
+    },
+    "Index": {
+      "name": "Index",
+      "definition": "Populated when the sub asset class is either swap or portfolio swap and the underlying type is an index."
+    },
+    "SingleName": {
+      "name": "Single Name",
+      "definition": "Populated when sub asset class is either swaps or portfolio swaps and the underlying type is a single name."
+    },
+    "Other": {
+      "name": "Other",
+      "definition": "Populated when the sub asset class is neither swaps nor portfolio swaps."
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "isoType": "ExternalCustomerDeviceType1Code",
+  "language": "en",
+  "name": "External Customer Device Type 1 Code",
+  "definition": "Specified a type of customer device used for a card payment transaction.||External code sets can be downloaded from www.iso20022.org.",
+  "isoCodes": {
+    "SECR": {
+      "isoName": "SecureCardReader",
+      "name": "Secure Card Reader",
+      "definition": "Card reader device that meets security standards for encrypted PIN entry and secure transaction processing."
+    },
+    "NSCR": {
+      "isoName": "NonSecureCardReader",
+      "name": "Non Secure Card Reader",
+      "definition": "Card reader without advanced security features, typically used for low-risk or offline transactions."
+    },
+    "MOBL": {
+      "isoName": "Mobile",
+      "name": "Mobile",
+      "definition": "Smartphone used for initiating or receiving transactions, often via apps or NFC."
+    },
+    "TBLT": {
+      "isoName": "Tablet",
+      "name": "Tablet",
+      "definition": "Touchscreen tablet device functioning similarly to a mobile device for payments."
+    },
+    "PECR": {
+      "isoName": "PersonalComputer",
+      "name": "Personal Computer",
+      "definition": "Desktop or laptop computer used for online transactions through browsers or installed software."
+    },
+    "OTHN": {
+      "isoName": "OtherNational",
+      "name": "Other National",
+      "definition": "Device type specific to a national payment scheme or infrastructure (such as proprietary POS terminals mandated by a country)."
+    },
+    "OTHP": {
+      "isoName": "OtherPrivate",
+      "name": "Other Private",
+      "definition": "Proprietary device type used within a private network or closed-loop payment system."
+    },
+    "WRBL": {
+      "isoName": "Wearable",
+      "name": "Wearable",
+      "definition": "Device worn on the body (such as fitness band, smart ring) that supports payment functionality."
+    },
+    "VHCL": {
+      "isoName": "Vehicle",
+      "name": "Vehicle",
+      "definition": "In-vehicle system enabling payments (such as tolls, fuel, parking) through embedded technology."
+    },
+    "EMBD": {
+      "isoName": "Embedded",
+      "name": "Embedded",
+      "definition": "Payment-enabled component integrated into another device or appliance."
+    },
+    "KFOB": {
+      "isoName": "KeyFob",
+      "name": "Key Fob",
+      "definition": "Small portable device, often used for contactless payments."
+    },
+    "JEWL": {
+      "isoName": "Jewellery",
+      "name": "Jewellery",
+      "definition": "Payment-enabled jewelry such as rings or bracelets with NFC or tokenization capabilities."
+    },
+    "STIC": {
+      "isoName": "Sticker",
+      "name": "Sticker",
+      "definition": "Payment sticker with embedded NFC or RFID, typically attached to a physical object for tap-and-pay."
+    },
+    "GAMB": {
+      "isoName": "GamingDevice",
+      "name": "Gaming Device",
+      "definition": "Console or gaming system that supports in-game or digital purchases."
+    },
+    "WATC": {
+      "isoName": "Watch",
+      "name": "Watch",
+      "definition": "Smartwatch with payment capabilities."
+    },
+    "UNKW": {
+      "isoName": "Unknown",
+      "name": "Unknown",
+      "definition": "Device type cannot be determined or is not disclosed."
+    },
+    "TLVN": {
+      "isoName": "Television",
+      "name": "Television",
+      "definition": "Smart TV or connected device enabling payments for streaming or interactive services."
+    },
+    "HDST": {
+      "isoName": "HeadlessVoice",
+      "name": "Headless Voice",
+      "definition": "Voice-activated device without a screen (e.g., smart speaker) used for initiating transactions."
+    },
+    "IOTS": {
+      "isoName": "InternetOfThings",
+      "name": "Internet Of Things",
+      "definition": "Any IoT-enabled device capable of initiating or receiving payments (e.g., smart fridge ordering groceries)."
+    }
+  }
+}

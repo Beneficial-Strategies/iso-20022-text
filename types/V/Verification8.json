@@ -1,0 +1,36 @@
+{
+  "isoType": "Verification8",
+  "language": "en",
+  "name": "Verification 8",
+  "definition": "Method and data intended to be verified as well as the related results.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of authentication or verification. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "SubType": {
+      "name": "Sub Type",
+      "definition": "Type of authentication for a given method (for example, three domain authentication, scheme proprietary solution, type of cryptogram, etc.)."
+    },
+    "Data": {
+      "name": "Data",
+      "definition": "Contains verification or authentication data."
+    },
+    "PINData": {
+      "name": "PIN Data",
+      "definition": "Personal Identification Number data.|ISO 13492 and ISO 9564-1"
+    },
+    "Entity": {
+      "name": "Entity",
+      "definition": "Entity who actually performed the verification. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Result": {
+      "name": "Result",
+      "definition": "Result of the verification. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "ResultDetails": {
+      "name": "Result Details",
+      "definition": "Details of the result."
+    }
+  }
+}

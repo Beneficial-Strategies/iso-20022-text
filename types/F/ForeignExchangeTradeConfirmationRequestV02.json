@@ -1,0 +1,40 @@
+{
+  "isoType": "ForeignExchangeTradeConfirmationRequestV02",
+  "language": "en",
+  "name": "Foreign Exchange Trade Confirmation Request V 02",
+  "definition": "Scope| The ForeignExchangeTradeConfirmationRequest message is sent from a market participant to a Central matching utility (CMU) to request a foreign exchange(spot/forward/swap) trade confirmation.||Usage|The confirmation request is sent by the market participants to the CMU after they receiving the capture reports.|Note that a confirmation request could be cancelled or amended.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Message management information."
+    },
+    "RequestIdentification": {
+      "name": "Request Identification",
+      "definition": "Identifies the confirm request messge."
+    },
+    "TradeDetail": {
+      "name": "Trade Detail",
+      "definition": "Details of the treasury trade confirmed."
+    },
+    "ConfirmationType": {
+      "name": "Confirmation Type",
+      "definition": "Identifies the type of confirmation message being sent."
+    },
+    "QueryPeriod": {
+      "name": "Query Period",
+      "definition": "Period of the inquiry."
+    },
+    "QueryStartNumber": {
+      "name": "Query Start Number",
+      "definition": "Start number in request result."
+    },
+    "QueryTradeStatus": {
+      "name": "Query Trade Status",
+      "definition": "Specifies the inquiry status of the trade."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

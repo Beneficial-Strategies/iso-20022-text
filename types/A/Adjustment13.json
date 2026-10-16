@@ -1,0 +1,40 @@
+{
+  "isoType": "Adjustment13",
+  "language": "en",
+  "name": "Adjustment 13",
+  "definition": "Describes each adjustment made to the original price.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of adjustment."
+    },
+    "AdditionalType": {
+      "name": "Additional Type",
+      "definition": "Additional information to specify the type of adjustment."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the adjustment."
+    },
+    "Reason": {
+      "name": "Reason",
+      "definition": "Reason for the adjustment."
+    },
+    "PromotionCode": {
+      "name": "Promotion Code",
+      "definition": "Promotion or adjustment code."
+    },
+    "Percentage": {
+      "name": "Percentage",
+      "definition": "Contains the percentage value of the discount (when applicable)."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Contains amount of the adjustment, exclusive of tax."
+    },
+    "TaxOnOriginalAmount": {
+      "name": "Tax On Original Amount",
+      "definition": "Indicates whether or not tax was calculated on the original amount of the transaction. ||Note that false (or not present) indicates applicable taxes are based on adjusted amount."
+    }
+  }
+}

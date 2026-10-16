@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralisationIndicator1Code",
+  "language": "en",
+  "name": "Collateralisation Indicator 1 Code",
+  "definition": "Specifies whether the transaction is collateralised.",
+  "isoCodes": {
+    "FULL": {
+      "isoName": "FullyCollateralised",
+      "name": "Fully Collateralised",
+      "definition": "Transaction is fully collateralised."
+    },
+    "ONEW": {
+      "isoName": "OneWayCollateralised",
+      "name": "One Way Collateralised",
+      "definition": "Transaction is one-way collateralised."
+    },
+    "PART": {
+      "isoName": "PartiallyCollateralised",
+      "name": "Partially Collateralised",
+      "definition": "Transaction is partially collateralised."
+    },
+    "UNCO": {
+      "isoName": "Uncollateralised",
+      "name": "Uncollateralised",
+      "definition": "Transaction is uncollateralised."
+    }
+  }
+}

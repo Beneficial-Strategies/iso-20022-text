@@ -1,0 +1,52 @@
+{
+  "isoType": "CorporateActionAcknowledgementSD1",
+  "language": "en",
+  "name": "Corporate Action Acknowledgement SD 1",
+  "definition": "Acknowledgement information relative to corporate action reorganisation instructions.",
+  "isoElements": {
+    "TermsAcknowledgementIndicator": {
+      "name": "Terms Acknowledgement Indicator",
+      "definition": "Indicates whether the participant agrees to all terms of the event.|Yes: the participant agrees.|No: the participant does not agree."
+    },
+    "Condition1Indicator": {
+      "name": "Condition 1 Indicator",
+      "definition": "Indicates whether condition 1 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "Condition2Indicator": {
+      "name": "Condition 2 Indicator",
+      "definition": "Indicates whether condition 2 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "Condition3Indicator": {
+      "name": "Condition 3 Indicator",
+      "definition": "Indicates whether condition 3 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "Condition4Indicator": {
+      "name": "Condition 4 Indicator",
+      "definition": "Indicates whether condition 4 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "Condition5Indicator": {
+      "name": "Condition 5 Indicator",
+      "definition": "Indicates whether condition 5 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "Condition6Indicator": {
+      "name": "Condition 6 Indicator",
+      "definition": "Indicates whether condition 6 of this tender offer is being accepted.|Yes: accept.|No: decline."
+    },
+    "AdjudicationOfIncompetencyAcknowledgementIndicator": {
+      "name": "Adjudication Of Incompetency Acknowledgement Indicator",
+      "definition": "Indicates whether there is an acknowledgement that the beneficial owner has been deemed incompetent. Acknowledgement is related to CD early redemption instructions.|Yes: acknowledged.|No: not acknowledged."
+    },
+    "LegalDocumentationThirtyMonthsRetentionAcknowledgementIndicator": {
+      "name": "Legal Documentation Thirty Months Retention Acknowledgement Indicator",
+      "definition": "Indicates whether there is an acknowledgement that this CD Early Redemption request is an exempt request, that the identification of the beneficial owner and required legal documentation is correct and that you agree to maintain such documentation for at least 30 months following payment of the request and will make it available to the CD Issuer upon request. |Yes: acknowledged.|No: not acknowledged."
+    },
+    "InstructionDeletionAcknowledgementIndicator": {
+      "name": "Instruction Deletion Acknowledgement Indicator",
+      "definition": "Indicates whether there is an acknowledgement that this CD Early Redemption instruction will automatically be deleted by the close of the fifth business day subsequent to submission if the appropriate legal documents, for example, death certificate, affidavit of domicile, are not received by DTC at that time. |Yes: acknowledged.|No: not acknowledged."
+    },
+    "PotentialLossAcknowledgementIndicator": {
+      "name": "Potential Loss Acknowledgement Indicator",
+      "definition": "Indicates whether there is an acknowledgement that the warrant or conversion instruction being sent could lead to a potential loss due to pricing factors.|Yes: acknowledged.|No: not acknowledged."
+    }
+  }
+}

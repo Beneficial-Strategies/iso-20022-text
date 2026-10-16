@@ -1,0 +1,43 @@
+{
+  "isoType": "ReportingRecordStatus1Code",
+  "language": "en",
+  "name": "Reporting Record Status 1 Code",
+  "definition": "Specifies the status of the processing of an individual record within a message.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Record has been accepted."
+    },
+    "ACPD": {
+      "isoName": "AcceptedAfterPending",
+      "name": "Accepted After Pending",
+      "definition": "Record has been accepted, following a pending status."
+    },
+    "PDNG": {
+      "isoName": "Pending",
+      "name": "Pending",
+      "definition": "Processing of the record is pending (some validation rules have been executed but some have not and the final status is not known yet)."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Recrod has been received but not processed yet."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Record has been rejected."
+    },
+    "RJPD": {
+      "isoName": "RejectedAfterPending",
+      "name": "Rejected After Pending",
+      "definition": "Record has been rejected, following a pending status."
+    },
+    "WARN": {
+      "isoName": "Warning",
+      "name": "Warning",
+      "definition": "Record has been accepted with warnings."
+    }
+  }
+}

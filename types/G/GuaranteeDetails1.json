@@ -1,0 +1,40 @@
+{
+  "isoType": "GuaranteeDetails1",
+  "language": "en",
+  "name": "Guarantee Details 1",
+  "definition": "Indicates the details of a guarantee.",
+  "isoElements": {
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party issuing the guarantee."
+    },
+    "Position": {
+      "name": "Position",
+      "definition": "Rank of the guarantee provider. A value of 1 means highest rank. Providers may have the same position."
+    },
+    "Description": {
+      "name": "Description",
+      "definition": "Textual description of guarantee details."
+    },
+    "GuaranteedAmount": {
+      "name": "Guaranteed Amount",
+      "definition": "Amount by time periods, maximum value applies at any given date."
+    },
+    "Excess": {
+      "name": "Excess",
+      "definition": "Amount not covered by the guarantee. Maximum value applies at any given date."
+    },
+    "CoveredPercentage": {
+      "name": "Covered Percentage",
+      "definition": "Covered percentage, the maximum value applies at any given date."
+    },
+    "AssociatedDocument": {
+      "name": "Associated Document",
+      "definition": "Associated free form document."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information related to the demand."
+    }
+  }
+}

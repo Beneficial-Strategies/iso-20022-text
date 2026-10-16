@@ -1,0 +1,45 @@
+{
+  "isoType": "MaintenanceDelegateAction11",
+  "language": "en",
+  "name": "Maintenance Delegate Action 11",
+  "definition": "Information for the MTM to build or include delegated actions in the management plan of the POI.",
+  "isoElements": {
+    "PeriodicAction": {
+      "name": "Periodic Action",
+      "definition": "Flag to indicate that the delegated actions have to be included in a periodic sequence of actions.| Usage: When absent, default value is False."
+    },
+    "TMRemoteAccess": {
+      "name": "TM Remote Access",
+      "definition": "Network address and parameters of the terminal manager host which will performs the delegated actions."
+    },
+    "TMSProtocol": {
+      "name": "TMS Protocol",
+      "definition": "TMS protocol to use to perform the maintenance action."
+    },
+    "TMSProtocolVersion": {
+      "name": "TMS Protocol Version",
+      "definition": "Version of the TMS protocol to use to perform the maintenance action."
+    },
+    "DataSetIdentification": {
+      "name": "Data Set Identification",
+      "definition": "Data set on which the delegated action has to be performed."
+    },
+    "ReTry": {
+      "name": "Re Try",
+      "definition": "Definition of retry process when activation of the action fails."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information to include in the maintenance action."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Sequence of action to include in the next MTM management plan."
+    }
+  },
+  "isoRules": {
+    "OneElementPresenceRule": {
+      "definition": "At least one of these subelements mut be present."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "TerminalManagementDataSet35",
+  "language": "en",
+  "name": "Terminal Management Data Set 35",
+  "definition": "Data related to the management plan of a point of interaction (POI).",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identification of the data set containing the management plan."
+    },
+    "SequenceCounter": {
+      "name": "Sequence Counter",
+      "definition": "Counter to identify a single data set within the whole transfer."
+    },
+    "LastSequence": {
+      "name": "Last Sequence",
+      "definition": "Indication of the last sequence in case of split messages.| Usage: When absent, default value is False."
+    },
+    "Content": {
+      "name": "Content",
+      "definition": "Content of the management plan."
+    }
+  }
+}

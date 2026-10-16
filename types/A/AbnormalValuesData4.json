@@ -1,0 +1,24 @@
+{
+  "isoType": "AbnormalValuesData4",
+  "language": "en",
+  "name": "Abnormal Values Data 4",
+  "definition": "Detailed information about derivatives that were received on the day of generation of the report with action type ‘New’, ‘Position component’, ‘Modification’ or ‘Correction’ whose notional amount is greater than a threshold for that class of derivatives.",
+  "isoElements": {
+    "CounterpartyIdentification": {
+      "name": "Counterparty Identification",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "NumberOfDerivativesReported": {
+      "name": "Number Of Derivatives Reported",
+      "definition": "Number of reported derivatives."
+    },
+    "NumberOfDerivativesReportedWithOutliers": {
+      "name": "Number Of Derivatives Reported With Outliers",
+      "definition": "Number of reported derivatives with outliers."
+    },
+    "TransactionDetails": {
+      "name": "Transaction Details",
+      "definition": "Details on abnormal values per transaction."
+    }
+  }
+}

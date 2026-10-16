@@ -1,0 +1,21 @@
+{
+  "isoType": "FinancialBenchmarkReportV01",
+  "language": "en",
+  "name": "Financial Benchmark Report V 01",
+  "definition": "This FinancialBenchmarkReport message is sent by the competent institution to report benchmarks used for the purpose of the local regulation.",
+  "isoElements": {
+    "BenchmarkData": {
+      "name": "Benchmark Data",
+      "definition": "Provides appropriate instructions to update or cancel information about a benchmark in the scope of the local regulation."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "The SupplementaryData building block at message level must not be used to provide any information about a benchmark. The SupplementaryData element at benchmark level should be used for that purpose."
+    }
+  }
+}

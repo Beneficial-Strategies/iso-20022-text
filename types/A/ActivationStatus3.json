@@ -1,0 +1,37 @@
+{
+  "isoType": "ActivationStatus3",
+  "language": "en",
+  "name": "Activation Status 3",
+  "definition": "Specifies the status of a debtor activation.",
+  "isoElements": {
+    "OriginalBusinessInstruction": {
+      "name": "Original Business Instruction",
+      "definition": "Unique identification of the original instruction."
+    },
+    "Status": {
+      "name": "Status",
+      "definition": "Provides detailed information on the status of the request."
+    },
+    "StatusReason": {
+      "name": "Status Reason",
+      "definition": "Specifies the reason for the status of the debtor activation request."
+    },
+    "OriginalActivationReference": {
+      "name": "Original Activation Reference",
+      "definition": "Provides the reference of the original activation request."
+    },
+    "EffectiveActivationDate": {
+      "name": "Effective Activation Date",
+      "definition": "Effective date when the debtor has been activated."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  },
+  "isoRules": {
+    "OriginalActivationPresenceRule": {
+      "definition": "When Status/Code is \"Accepted\" then OriginalActivationReference must be present."
+    }
+  }
+}

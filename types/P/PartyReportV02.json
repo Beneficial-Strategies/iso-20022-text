@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyReportV02",
+  "language": "en",
+  "name": "Party Report V 02",
+  "definition": "Scope:|The PartyReport message is sent by the executing party to a central securities depository, a national central bank, a central securities depository participant, a central counter party, a payment bank, a trading party or a stock exchange to provide detailed information on the requested party reference data of the party defined in the system.",
+  "isoElements": {
+    "MessageHeader": {
+      "name": "Message Header",
+      "definition": "Point to point reference elements, as assigned by the instructing party, to unambiguously identify the report message."
+    },
+    "ReportOrError": {
+      "name": "Report Or Error",
+      "definition": "Provides information on report or error resulting from the originating query message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

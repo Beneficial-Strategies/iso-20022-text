@@ -1,0 +1,178 @@
+{
+  "isoType": "SettlementTransactionType7Code",
+  "language": "en",
+  "name": "Settlement Transaction Type 7 Code",
+  "definition": "Specifies underlying information regarding the type of settlement transaction.",
+  "isoCodes": {
+    "BSBK": {
+      "isoName": "BuySellBack",
+      "name": "Buy Sell Back",
+      "definition": "Relates to a buy sell back transaction."
+    },
+    "COLI": {
+      "isoName": "CollateralIn",
+      "name": "Collateral In",
+      "definition": "Relates to a collateral transaction, from the point of view of the collateral taker or its agent."
+    },
+    "COLO": {
+      "isoName": "CollateralOut",
+      "name": "Collateral Out",
+      "definition": "Relates to a collateral transaction, from the point of view of the collateral giver or its agent."
+    },
+    "CONV": {
+      "isoName": "DepositoryReceiptConversion",
+      "name": "Depository Receipt Conversion",
+      "definition": "Relates to a depository receipt conversion."
+    },
+    "FCTA": {
+      "isoName": "FactorUpdate",
+      "name": "Factor Update",
+      "definition": "Relates to a factor update."
+    },
+    "INSP": {
+      "isoName": "MoveOfStock",
+      "name": "Move Of Stock",
+      "definition": "Relates to a movement of shares into or out of a pooled account."
+    },
+    "ISSU": {
+      "isoName": "Issuance",
+      "name": "Issuance",
+      "definition": "Relates to the issuance of a security such as an equity or a depositary receipt."
+    },
+    "MKDW": {
+      "isoName": "MarkDown",
+      "name": "Mark Down",
+      "definition": "Relates to the decrease of positions held by an International Central Securities Depository (ICSD) at the common depository due to custody operations (repurchase, pre-release, proceed of corp. event realigned)."
+    },
+    "MKUP": {
+      "isoName": "MarkUp",
+      "name": "Mark Up",
+      "definition": "Relates to the increase of positions held by an International Central Securities Depository (ICSD) at the common depository due to custody operations (repurchase, pre-release, proceed of corporate event realigned)."
+    },
+    "NETT": {
+      "isoName": "Netting",
+      "name": "Netting",
+      "definition": "Relates to the netting of settlement instructions."
+    },
+    "NSYN": {
+      "isoName": "NonSyndicated",
+      "name": "Non Syndicated",
+      "definition": "Relates to the issue of medium and short term paper (CP, CD, MTN, notes.) under a program and without syndication arrangement."
+    },
+    "OWNE": {
+      "isoName": "ExternalAccountTransfer",
+      "name": "External Account Transfer",
+      "definition": "Relates to an account transfer involving more than one instructing party (messages sender) and/or account servicer (messages receiver)."
+    },
+    "OWNI": {
+      "isoName": "InternalAccountTransfer",
+      "name": "Internal Account Transfer",
+      "definition": "Relates to an account transfer involving one instructing party (messages sender) at one account servicer (messages receiver)."
+    },
+    "PAIR": {
+      "isoName": "PairOff",
+      "name": "Pair Off",
+      "definition": "Relates to a pair-off: the transaction is paired off and netted against one or more previous transactions."
+    },
+    "PLAC": {
+      "isoName": "Placement",
+      "name": "Placement",
+      "definition": "Relates to the placement/new issue of a financial instrument."
+    },
+    "PORT": {
+      "isoName": "PortfolioMove",
+      "name": "Portfolio Move",
+      "definition": "Relates to a portfolio move from one investment manager to another and/or from an account servicer to another. It is generally charged differently than another account transfer, hence the need to identify this type of transfer as such."
+    },
+    "REAL": {
+      "isoName": "Realignment",
+      "name": "Realignment",
+      "definition": "Relates to a realignment of positions."
+    },
+    "REDI": {
+      "isoName": "Withdrawal",
+      "name": "Withdrawal",
+      "definition": "Relates to the withdrawal of specified amounts from specified subaccounts."
+    },
+    "RELE": {
+      "isoName": "DepositoryReceiptReleaseCancellation",
+      "name": "Depository Receipt Release Cancellation",
+      "definition": "Relates to a release (into/from local) of depository receipt operation."
+    },
+    "REPU": {
+      "isoName": "Repo",
+      "name": "Repo",
+      "definition": "Relates to a repurchase agreement transaction."
+    },
+    "RODE": {
+      "isoName": "ReturnDeliveryWithoutMatching",
+      "name": "Return Delivery Without Matching",
+      "definition": "Relates to the return of financial instruments resulting from a rejected delivery without matching operation."
+    },
+    "RPTO": {
+      "isoName": "Reporting",
+      "name": "Reporting",
+      "definition": "Relates to a transaction that is for reporting purposes only."
+    },
+    "RVPO": {
+      "isoName": "ReverseRepurchaseAgreement",
+      "name": "Reverse Repurchase Agreement",
+      "definition": "Relates to a reverse repurchase agreement transaction."
+    },
+    "SBBK": {
+      "isoName": "SellBuyBack",
+      "name": "Sell Buy Back",
+      "definition": "Relates to a sell buy back transaction."
+    },
+    "SECB": {
+      "isoName": "SecuritiesBorrowing",
+      "name": "Securities Borrowing",
+      "definition": "Relates to a securities borrowing operation."
+    },
+    "SECL": {
+      "isoName": "SecuritiesLending",
+      "name": "Securities Lending",
+      "definition": "Relates to a securities lending operation."
+    },
+    "SYND": {
+      "isoName": "SyndicateUnderwriters",
+      "name": "Syndicate Underwriters",
+      "definition": "Relates to the issue of financial instruments through a syndicate of underwriters and a lead manager."
+    },
+    "TBAC": {
+      "isoName": "TBAClosing",
+      "name": "TBA Closing",
+      "definition": "Relates to a To Be Announced (TBA) closing trade."
+    },
+    "TRAD": {
+      "isoName": "Trade",
+      "name": "Trade",
+      "definition": "Relates to the settlement of a trade."
+    },
+    "TRPO": {
+      "isoName": "TripartyRepo",
+      "name": "Triparty Repo",
+      "definition": "Relates to a triparty repurchase agreement."
+    },
+    "TRVO": {
+      "isoName": "TripartyReverseRepo",
+      "name": "Triparty Reverse Repo",
+      "definition": "Relates to a triparty reverse repurchase agreement."
+    },
+    "TURN": {
+      "isoName": "Turnaround",
+      "name": "Turnaround",
+      "definition": "Relates to a turnaround: the same security is bought and sold to settle the same day, to or from different brokers."
+    },
+    "GUAR": {
+      "isoName": "GuaranteedClose",
+      "name": "Guaranteed Close",
+      "definition": "Trade which is guaranteed to be finalized."
+    },
+    "OFIT": {
+      "isoName": "OfferingIssuingTrade",
+      "name": "Offering Issuing Trade",
+      "definition": "Offering issue trade."
+    }
+  }
+}

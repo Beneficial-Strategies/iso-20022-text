@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionCertificateContract2",
+  "language": "en",
+  "name": "Transaction Certificate Contract 2",
+  "definition": "Certificate and contract reference of a transaction.",
+  "isoElements": {
+    "ContractReference": {
+      "name": "Contract Reference",
+      "definition": "Reference of the contract provided as through the date and identification of the contract or through the registered contract identification."
+    },
+    "TransactionAmountInContractCurrency": {
+      "name": "Transaction Amount In Contract Currency",
+      "definition": "Provides the amount of the transaction in the currency of the registered contract."
+    },
+    "ExpectedShipmentDate": {
+      "name": "Expected Shipment Date",
+      "definition": "Expected shipment date as per registered contract."
+    },
+    "ExpectedAdvancePaymentReturnDate": {
+      "name": "Expected Advance Payment Return Date",
+      "definition": "Expected advance payment (or prepayment) return date in case counterparty will not deliver the goods/services."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the transaction certificate contract."
+    }
+  },
+  "isoRules": {
+    "TransactionAmountInContractCurrencyPresenceRule": {
+      "definition": "If ContractReference/RegisteredContractIdentification is absent then TransactionAmountInContractCurrency must be absent."
+    }
+  }
+}

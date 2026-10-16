@@ -1,0 +1,20 @@
+{
+  "isoType": "IntraDayMarginCall1",
+  "language": "en",
+  "name": "Intra Day Margin Call 1",
+  "definition": "Describes an instance of an intraday margin call being made against a margin account.",
+  "isoElements": {
+    "MarginAccountIdentification": {
+      "name": "Margin Account Identification",
+      "definition": "Identification of the margin account against which the intraday margin call is being made."
+    },
+    "IntraDayCall": {
+      "name": "Intra Day Call",
+      "definition": "Value of the call being made."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Time at which the margin call was made."
+    }
+  }
+}

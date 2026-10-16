@@ -1,0 +1,28 @@
+{
+  "isoType": "ResponseMode2Code",
+  "language": "en",
+  "name": "Response Mode 2 Code",
+  "definition": "Message response awaited by the initiator of the Request.",
+  "isoCodes": {
+    "SEND": {
+      "isoName": "EndOfPlay",
+      "name": "End Of Play",
+      "definition": "The Response is required at the end of play."
+    },
+    "IMMD": {
+      "isoName": "Immediate",
+      "name": "Immediate",
+      "definition": "The Message Response is immediate, after taking into account the request."
+    },
+    "NREQ": {
+      "isoName": "NotRequired",
+      "name": "Not Required",
+      "definition": "The Message Response is not required, except in case of error."
+    },
+    "PEND": {
+      "isoName": "PrintEnd",
+      "name": "Print End",
+      "definition": "The Print Response is required at the end of print."
+    }
+  }
+}

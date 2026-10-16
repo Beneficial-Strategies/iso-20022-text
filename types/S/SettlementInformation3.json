@@ -1,0 +1,44 @@
+{
+  "isoType": "SettlementInformation3",
+  "language": "en",
+  "name": "Settlement Information 3",
+  "definition": "Further information required for the settlement the transaction.",
+  "isoElements": {
+    "SettlementMethod": {
+      "name": "Settlement Method",
+      "definition": "Method used to settle the (batch of) payment instructions."
+    },
+    "SettlementAccount": {
+      "name": "Settlement Account",
+      "definition": "A specific purpose account used to post debit and credit entries as a result of the transaction."
+    },
+    "ClearingSystem": {
+      "name": "Clearing System",
+      "definition": "Specification of a pre-agreed offering between clearing agents or the channel through which the payment instruction is processed."
+    },
+    "InstructingReimbursementAgent": {
+      "name": "Instructing Reimbursement Agent",
+      "definition": "Specifies the agent through which the instructing agent will reimburse the instructed agent.||Usage: If the instructing and instructed agents have the same reimbursement agent, then only InstructingReimbursementAgent must be used."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "name": "Instructing Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the instructing reimbursement agent account at its servicing agent in the payment chain."
+    },
+    "InstructedReimbursementAgent": {
+      "name": "Instructed Reimbursement Agent",
+      "definition": "Agent at which the instructed agent will be reimbursed.||Usage: If InstructedReimbursementAgent contains a branch of the InstructedAgent, then the instructed agent will claim reimbursement from that branch/will be paid by that branch.||Usage: If InstructingAgent and InstructedAgent have the same reimbursement agent, then only InstructingReimbursementAgent must be used."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "name": "Instructed Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the instructed reimbursement agent account at its servicing agent in the payment chain."
+    },
+    "ThirdReimbursementAgent": {
+      "name": "Third Reimbursement Agent",
+      "definition": "Specifies the branch of the instructed agent where the amount of money will be made available when different from the instructed reimbursement agent."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "name": "Third Reimbursement Agent Account",
+      "definition": "Unambiguous identification of the account of the third reimbursement agent account at its servicing agent in the payment chain."
+    }
+  }
+}

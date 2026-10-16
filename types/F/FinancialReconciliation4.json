@@ -1,0 +1,24 @@
+{
+  "isoType": "FinancialReconciliation4",
+  "language": "en",
+  "name": "Financial Reconciliation 4",
+  "definition": "Contains financial reconciliation data.",
+  "isoElements": {
+    "Impact": {
+      "name": "Impact",
+      "definition": "Reconciliation credit or debit indicator."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Contains the reconciliation category. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Cumulative amount of all financial transactions."
+    },
+    "Count": {
+      "name": "Count",
+      "definition": "Number of transactions."
+    }
+  }
+}

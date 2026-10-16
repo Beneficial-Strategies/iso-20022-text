@@ -1,0 +1,48 @@
+{
+  "isoType": "TravelAgencyPackage2",
+  "language": "en",
+  "name": "Travel Agency Package 2",
+  "definition": "Provides detailed information about the travel package, excluding specific itinerary data.",
+  "isoElements": {
+    "ReservationNumber": {
+      "name": "Reservation Number",
+      "definition": "Reservation number or identifier."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Describes the type of travel offering provided by the travel agency or partner."
+    },
+    "NumberInParty": {
+      "name": "Number In Party",
+      "definition": "Number of people included in the travel arrangements."
+    },
+    "CustomerReference": {
+      "name": "Customer Reference",
+      "definition": "Contains Customer Reference Values provided for this transaction and used for various reference processing at the customer site. These values represent information most prevalently provided by travel agencies for transactions booked against a lodged account or central travel account."
+    },
+    "DataSource": {
+      "name": "Data Source",
+      "definition": "Indicates the source of enhanced data that is matched to the transaction."
+    },
+    "DeliveryOrderNumber": {
+      "name": "Delivery Order Number",
+      "definition": "Contains a customer invoice number for a rail sale to a corporate account."
+    },
+    "CreditCardSlipNumber": {
+      "name": "Credit Card Slip Number",
+      "definition": "Contains a slip number from the credit card slip."
+    },
+    "Insurance": {
+      "name": "Insurance",
+      "definition": "Indicates whether or not insurance was purchased."
+    },
+    "InsuranceAmount": {
+      "name": "Insurance Amount",
+      "definition": "Cost of the insurance purchased."
+    },
+    "Fee": {
+      "name": "Fee",
+      "definition": "Travel agency fee amount."
+    }
+  }
+}

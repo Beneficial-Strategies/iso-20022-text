@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusNotificationV02",
+  "language": "en",
+  "name": "Status Notification V 02",
+  "definition": "Scope|The StatusNotification message is sent by a central system to a participant to notify the current status of a trade in the system.|Usage|This message will be sent at specific times agreed upon by the central settlement system and a participant in a central settlement system.|||This message is obsolete please use ForeignExchangeAndDerivativeTradeStatusNotificationV03 - fxtr.008.001.03",
+  "isoElements": {
+    "TradeData": {
+      "name": "Trade Data",
+      "definition": "Provides information on the status of a trade in a system."
+    }
+  }
+}

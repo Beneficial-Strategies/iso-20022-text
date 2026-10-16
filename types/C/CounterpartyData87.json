@@ -1,0 +1,20 @@
+{
+  "isoType": "CounterpartyData87",
+  "language": "en",
+  "name": "Counterparty Data 87",
+  "definition": "Data specific to counterparties and related informations.",
+  "isoElements": {
+    "ReportSubmittingEntity": {
+      "name": "Report Submitting Entity",
+      "definition": "Unique code identifying the entity which submits the report. In the case where submission of the report has been delegated to a third party or to the other counterparty, a unique code identifying that entity."
+    },
+    "ReportingCounterparty": {
+      "name": "Reporting Counterparty",
+      "definition": "Unique code identifying the reporting counterparty."
+    },
+    "EntityResponsibleForReport": {
+      "name": "Entity Responsible For Report",
+      "definition": "Unique code identifying the entity in the case where a financial counterparty is responsible for reporting on behalf of the other counterparty, the unique code identifying that counterparty."
+    }
+  }
+}

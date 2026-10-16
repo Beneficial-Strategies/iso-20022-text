@@ -1,0 +1,16 @@
+{
+  "isoType": "ExtendOrPayResponseV01",
+  "language": "en",
+  "name": "Extend Or Pay Response V 01",
+  "definition": "The ExtendOrPayResponse message is sent by the party that requested issuance of the undertaking (applicant or obligor) to the party that issued the undertaking, in response to the issuer's request for the applicant's response to the beneficiary’s request to extend or pay.",
+  "isoElements": {
+    "ExtendOrPayResponseDetails": {
+      "name": "Extend Or Pay Response Details",
+      "definition": "Details of the extend or pay response."
+    },
+    "DigitalSignature": {
+      "name": "Digital Signature",
+      "definition": "Digital signature of the response."
+    }
+  }
+}

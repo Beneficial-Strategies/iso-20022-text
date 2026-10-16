@@ -1,0 +1,55 @@
+{
+  "isoType": "PreTradeInputData1",
+  "language": "en",
+  "name": "Pre Trade Input Data 1",
+  "definition": "Pre-trade input related data.",
+  "isoElements": {
+    "ISIN": {
+      "name": "ISIN",
+      "definition": "Code used to identify the financial instrument."
+    },
+    "EmptyBookIndicator": {
+      "name": "Empty Book Indicator",
+      "definition": "Indicates whether there are any orders in the book on the bid and/or offer side.|Usage: If this element is not present, it is considered to be false."
+    },
+    "BuySellIndicator": {
+      "name": "Buy Sell Indicator",
+      "definition": "Side of the order or quote."
+    },
+    "Price": {
+      "name": "Price",
+      "definition": "Traded price of the transaction excluding, where applicable, commission and accrued interest."
+    },
+    "Quantity": {
+      "name": "Quantity",
+      "definition": "Quantity to be executed, when there is a partial or full execution."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Identification of the trading venue."
+    },
+    "PublicationDateTime": {
+      "name": "Publication Date Time",
+      "definition": "Date and time when the information was published by the trading venue."
+    },
+    "UpdateDateTime": {
+      "name": "Update Date Time",
+      "definition": "Last update of the date and time when the data was updated."
+    },
+    "TradingSystem": {
+      "name": "Trading System",
+      "definition": "Status in which the instrument that is traded is in."
+    }
+  },
+  "isoRules": {
+    "BuySellIndicatorGuideline": {
+      "definition": "When EmptyBookIndicator is true, then BuySellIndicator is optional."
+    },
+    "PriceGuideline": {
+      "definition": "When EmptyBookIndicator is true, then Price is optional."
+    },
+    "QuantityGuideline": {
+      "definition": "When EmptyBookIndicator is true, then Quantity is optional."
+    }
+  }
+}

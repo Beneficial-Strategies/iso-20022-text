@@ -1,0 +1,44 @@
+{
+  "isoType": "ContractRegistration8",
+  "language": "en",
+  "name": "Contract Registration 8",
+  "definition": "Document that a user must file with an authorized servicer for each contract that involves foreign currency transactions with non residents.",
+  "isoElements": {
+    "ContractRegistrationOpeningIdentification": {
+      "name": "Contract Registration Opening Identification",
+      "definition": "Unique and unambiguous identification of the registered contract opening."
+    },
+    "Priority": {
+      "name": "Priority",
+      "definition": "Priority requested for the opening of the registered contract."
+    },
+    "Contract": {
+      "name": "Contract",
+      "definition": "Details of the contract being registered."
+    },
+    "ContractBalance": {
+      "name": "Contract Balance",
+      "definition": "Contract balance on date of contract registration."
+    },
+    "PaymentScheduleType": {
+      "name": "Payment Schedule Type",
+      "definition": "Type of the payment schedule provided in the contract."
+    },
+    "PreviousRegistrationIdentification": {
+      "name": "Previous Registration Identification",
+      "definition": "Unique and unambiguous identification of a previous contract registration."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Further details on the registered contract opening."
+    },
+    "Attachment": {
+      "name": "Attachment",
+      "definition": "Documents provided as attachments to the contract registration request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

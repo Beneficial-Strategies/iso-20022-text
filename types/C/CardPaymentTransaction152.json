@@ -1,0 +1,40 @@
+{
+  "isoType": "CardPaymentTransaction152",
+  "language": "en",
+  "name": "Card Payment Transaction 152",
+  "definition": "Authorisation response from the acquirer.",
+  "isoElements": {
+    "AuthorisationResult": {
+      "name": "Authorisation Result",
+      "definition": "Outcome of the authorisation, and actions to perform."
+    },
+    "AllowedProductCode": {
+      "name": "Allowed Product Code",
+      "definition": "Product code which are allowed by the payment card."
+    },
+    "NotAllowedProductCode": {
+      "name": "Not Allowed Product Code",
+      "definition": "Product code not allowed by the payment card."
+    },
+    "AdditionalAvailableProduct": {
+      "name": "Additional Available Product",
+      "definition": "Products that may be added to the purchase after the authorisation."
+    },
+    "Balance": {
+      "name": "Balance",
+      "definition": "Balance and currency code of the account, related to the payment."
+    },
+    "ProtectedBalance": {
+      "name": "Protected Balance",
+      "definition": "Encrypted balance of the account."
+    },
+    "Action": {
+      "name": "Action",
+      "definition": "Set of actions to be performed by the POI (Point Of Interaction) system."
+    },
+    "CurrencyConversionEligibility": {
+      "name": "Currency Conversion Eligibility",
+      "definition": "Conversion between the currency of a card acceptor and the currency of a card issuer, provided by a dedicated service provider. The currency conversion has to be proposed to the cardholder."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "isoType": "SaleContext4",
+  "language": "en",
+  "name": "Sale Context 4",
+  "definition": "Sale context in which the transaction is performed.",
+  "isoElements": {
+    "SaleIdentification": {
+      "name": "Sale Identification",
+      "definition": "Identification of the sale terminal (electronic cash register or point of sale terminal) or the sale system."
+    },
+    "SaleReferenceNumber": {
+      "name": "Sale Reference Number",
+      "definition": "Identify a sale transaction assigned by the sale system."
+    },
+    "SaleReconciliationIdentification": {
+      "name": "Sale Reconciliation Identification",
+      "definition": "Identifier of the reconciliation between the Sale system and the POI system."
+    },
+    "CashierIdentification": {
+      "name": "Cashier Identification",
+      "definition": "Identification of the cashier who carried out the transaction."
+    },
+    "CashierLanguage": {
+      "name": "Cashier Language",
+      "definition": "Languages used by the cashier."
+    },
+    "ShiftNumber": {
+      "name": "Shift Number",
+      "definition": "Identifies the shift of the cashier."
+    },
+    "CustomerOrderRequestFlag": {
+      "name": "Customer Order Request Flag",
+      "definition": "Flag indicating that list of CustomerOrders should be returned in response."
+    },
+    "PurchaseOrderNumber": {
+      "name": "Purchase Order Number",
+      "definition": "Identification of the purchase order."
+    },
+    "InvoiceNumber": {
+      "name": "Invoice Number",
+      "definition": "Identification of the invoice."
+    },
+    "DeliveryNoteNumber": {
+      "name": "Delivery Note Number",
+      "definition": "Identification allocated by the sale system and given to the customer."
+    },
+    "SponsoredMerchant": {
+      "name": "Sponsored Merchant",
+      "definition": "Merchant using the payment services of a payment facilitator, acting as a card acceptor."
+    },
+    "SplitPayment": {
+      "name": "Split Payment",
+      "definition": "True if the payment transaction is a partial payment of the sale transaction."
+    },
+    "RemainingAmount": {
+      "name": "Remaining Amount",
+      "definition": "Remaining amount to complete the sale transaction, if a partial payment has been completed for the sale transaction."
+    },
+    "ForceOnlineFlag": {
+      "name": "Force Online Flag",
+      "definition": "Indicates if the Cashier requires POI forces online access to the Acquirer."
+    },
+    "ReuseCardDataFlag": {
+      "name": "Reuse Card Data Flag",
+      "definition": "Indicates if the card data has to be taken from a previous transaction."
+    },
+    "AllowedEntryMode": {
+      "name": "Allowed Entry Mode",
+      "definition": "Type of card data reading."
+    },
+    "SaleTokenScope": {
+      "name": "Sale Token Scope",
+      "definition": "Scope of the token that identifies the payment mean of the customer."
+    },
+    "AdditionalSaleData": {
+      "name": "Additional Sale Data",
+      "definition": "Additional information associated with the sale transaction."
+    }
+  }
+}

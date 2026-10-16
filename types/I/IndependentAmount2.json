@@ -1,0 +1,20 @@
+{
+  "isoType": "IndependentAmount2",
+  "language": "en",
+  "name": "Independent Amount 2",
+  "definition": "Indicates the independent amount and how it was applied in the calculation. It also provides a description of the amount type.",
+  "isoElements": {
+    "Description": {
+      "name": "Description",
+      "definition": "Description of the other amount used in the calculation of the independent amount."
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Provides the independant amount."
+    },
+    "Convention": {
+      "name": "Convention",
+      "definition": "Determines how the independent amount was applied in the calculation. |It is either:|- before threshold, effectively acting as an add on to exposure, |- after threshold where the amount is an add on to the credit support amount and forms part of the variation margin requirement,|- segregated where it is treated independently of variation margin for segregation purposes."
+    }
+  }
+}

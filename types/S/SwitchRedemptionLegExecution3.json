@@ -1,0 +1,109 @@
+{
+  "isoType": "SwitchRedemptionLegExecution3",
+  "language": "en",
+  "name": "Switch Redemption Leg Execution 3",
+  "definition": "Execution of the redemption part, in a switch between investment funds or investment fund classes.",
+  "isoElements": {
+    "LegIdentification": {
+      "name": "Leg Identification",
+      "definition": "Unique technical identifier for an instance of a leg within a switch."
+    },
+    "LegExecutionIdentification": {
+      "name": "Leg Execution Identification",
+      "definition": "Unique identifier for an instance of a leg execution within a switch confirmation."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Investment fund class to which an investment fund order execution is related."
+    },
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment funds units redeemed."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family."
+    },
+    "HoldingsRedemptionRate": {
+      "name": "Holdings Redemption Rate",
+      "definition": "Portion of the investor's holdings, in a specific investment fund/ fund class, that is redeemed."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money paid to the investor as a result of the redemption after deduction of charges, commissions and taxes.|[(Quantity * Price) - (Charges + Commissions +Taxes)]."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money resulting from the redemption before deduction of charges, commissions and taxes.|[Quantity * Price]."
+    },
+    "TradeDateTime": {
+      "name": "Trade Date Time",
+      "definition": "Date and time at which a price is applied, according to the terms stated in the prospectus."
+    },
+    "PriceDetails": {
+      "name": "Price Details",
+      "definition": "Price at which the order was executed."
+    },
+    "CumDividendIndicator": {
+      "name": "Cum Dividend Indicator",
+      "definition": "Indicates whether the dividend is included, ie, cum-dividend, in the executed price. When the dividend is not included, the price will be ex-dividend."
+    },
+    "InterimProfitAmount": {
+      "name": "Interim Profit Amount",
+      "definition": "Part of the price deemed as accrued income or profit rather than capital. The interim profit amount is used for tax purposes."
+    },
+    "IncomePreference": {
+      "name": "Income Preference",
+      "definition": "Dividend option chosen by the account owner based on the options offered in the prospectus."
+    },
+    "Group1Or2Units": {
+      "name": "Group 1 Or 2 Units",
+      "definition": "Tax group to which the purchased investment fund units belong. The investor indicates to the intermediary operating pooled nominees, which type of unit is to be sold."
+    },
+    "RequestedSettlementCurrency": {
+      "name": "Requested Settlement Currency",
+      "definition": "Currency requested for settlement of cash proceeds."
+    },
+    "RequestedNAVCurrency": {
+      "name": "Requested NAV Currency",
+      "definition": "Currency to be used for pricing the fund. This currency must be among the set of currencies in which the price may be expressed, as stated in the prospectus."
+    },
+    "ChargeGeneralDetails": {
+      "name": "Charge General Details",
+      "definition": "Amount of money associated with a service."
+    },
+    "CommissionGeneralDetails": {
+      "name": "Commission General Details",
+      "definition": "Commission for the execution of an investment fund order."
+    },
+    "TaxGeneralDetails": {
+      "name": "Tax General Details",
+      "definition": "Tax applicable to execution of an investment fund order."
+    },
+    "SettlementAndCustodyDetails": {
+      "name": "Settlement And Custody Details",
+      "definition": "Parameters used to execute the settlement of an investment fund order."
+    },
+    "PhysicalDeliveryIndicator": {
+      "name": "Physical Delivery Indicator",
+      "definition": "Indicates whether the financial instrument is to be physically delivered."
+    },
+    "PhysicalDeliveryDetails": {
+      "name": "Physical Delivery Details",
+      "definition": "Information related to physical delivery of the securities."
+    },
+    "NonStandardSettlementInformation": {
+      "name": "Non Standard Settlement Information",
+      "definition": "Additional specific settlement information for non-regulated traded funds."
+    },
+    "Equalisation": {
+      "name": "Equalisation",
+      "definition": "Part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year."
+    }
+  },
+  "isoRules": {
+    "PhysicalDeliveryDetailsRule": {
+      "definition": "If PhysicalDeliveryIndicator is \"false\" or \"0\" (No), then PhysicalDeliveryDetails is not allowed. If PhysicalDeliveryIndicator is \"true\" or \"1\" (Yes), then PhysicalDeliveryDetails must be present."
+    }
+  }
+}

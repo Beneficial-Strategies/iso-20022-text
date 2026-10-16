@@ -1,0 +1,70 @@
+{
+  "isoType": "DealTransactionDetails5",
+  "language": "en",
+  "name": "Deal Transaction Details 5",
+  "definition": "Details of the triparty collateral transaction deal.",
+  "isoElements": {
+    "PlaceOfTrade": {
+      "name": "Place Of Trade",
+      "definition": "Place at which the instrument was traded."
+    },
+    "ConcentrationLimit": {
+      "name": "Concentration Limit",
+      "definition": "Indicates whether a concentration limit applies to the transaction; if no limit applies, there is no constraint on how much of the collateral basket can be made up of one security."
+    },
+    "MinimumNoticePeriod": {
+      "name": "Minimum Notice Period",
+      "definition": "Identifies the number of days in which the cash investor and dealer can agree to revisit the terms of an agreement."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Closing date/time or maturity date/time of the transaction."
+    },
+    "DealDetailsAmount": {
+      "name": "Deal Details Amount",
+      "definition": "Specifies the details for the deal amounts."
+    },
+    "PricingRateAndIndex": {
+      "name": "Pricing Rate And Index",
+      "definition": "Interest rate to be paid on the transaction amount as agreed between the counterparties and the tenor of the interest rate index."
+    },
+    "OvernightFrequencyRateFixing": {
+      "name": "Overnight Frequency Rate Fixing",
+      "definition": "Indicates for a floating rate transaction if an overnight frequency  rate fixing should be applied.  If not present, a periodic fixing frequency will be applied (default is N)."
+    },
+    "Spread": {
+      "name": "Spread",
+      "definition": "Premium or discount applied on a given rate."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Specifies the computation method of (accrued) interest of the financial instrument."
+    },
+    "Payment": {
+      "name": "Payment",
+      "definition": "Specifies whether the instruction is free or against payment."
+    },
+    "OptionType": {
+      "name": "Option Type",
+      "definition": "Specifies whether it is a call option (right to purchase a specific underlying asset) or a put option (right to sell a specific underlying asset)."
+    },
+    "TerminationOption": {
+      "name": "Termination Option",
+      "definition": "Indication whether the counterparties to the transaction have agreed to an evergreen or extendable repo."
+    }
+  },
+  "isoRules": {
+    "OvernightFrequencyRateFixingGuideline": {
+      "definition": "If the indicator is not present then the default interpretation is that the rate fixing frequency is periodic."
+    },
+    "OvernightFrequencyRateFixingForFloatingOnly": {
+      "definition": "The overnight frequency rate fixing flag can be used only for floating rates."
+    },
+    "OptionTypePresenceRule": {
+      "definition": "If OptionType is present then TerminationOption is not allowed."
+    },
+    "TerminationOptionPresenceRule": {
+      "definition": "If TerminationOption is present then OptionType is not allowed."
+    }
+  }
+}

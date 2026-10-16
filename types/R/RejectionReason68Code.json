@@ -1,0 +1,48 @@
+{
+  "isoType": "RejectionReason68Code",
+  "language": "en",
+  "name": "Rejection Reason 68 Code",
+  "definition": "Specifies the reason why the instruction/cancellation request has a rejected status.",
+  "isoCodes": {
+    "DSEC": {
+      "isoName": "InvalidSecurity",
+      "name": "Invalid Security",
+      "definition": "Unrecognised or invalid financial instrument identification."
+    },
+    "EVNM": {
+      "isoName": "UnrecognisedIdentification",
+      "name": "Unrecognised Identification",
+      "definition": "Unrecognised event number."
+    },
+    "UKWN": {
+      "isoName": "UnknownSymbol",
+      "name": "Unknown Symbol",
+      "definition": "Financial instrument's symbol has not been recognized."
+    },
+    "ICOL": {
+      "isoName": "InsufficientCollateral",
+      "name": "Insufficient Collateral",
+      "definition": "Insufficient collateral proposed."
+    },
+    "CONL": {
+      "isoName": "ConcentrationLimitExceeded",
+      "name": "Concentration Limit Exceeded",
+      "definition": "Concentration limit was exceeded."
+    },
+    "ELIG": {
+      "isoName": "NonEligibleSecurity",
+      "name": "Non Eligible Security",
+      "definition": "Security is not eligible."
+    },
+    "INID": {
+      "isoName": "InvalidIdentification",
+      "name": "Invalid Identification",
+      "definition": "Instruction contains an invalid message identification, identification is unknown."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other. See Narrative."
+    }
+  }
+}

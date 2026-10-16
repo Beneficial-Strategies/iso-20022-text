@@ -1,0 +1,32 @@
+{
+  "isoType": "CreateNonDeliverableForwardOpeningV02",
+  "language": "en",
+  "name": "Create Non Deliverable Forward Opening V 02",
+  "definition": "Scope|The CreateNonDeliverableForwardOpening message is sent by a participant to a central system or to a counterparty to notify the opening of a non deliverable trade.|Usage|The trading parties will send similar messages to the central settlement system and the central settlement system will send notifications to both parties.",
+  "isoElements": {
+    "TradeInformation": {
+      "name": "Trade Information",
+      "definition": "Provides identification and date of the non deliverable trade which is created."
+    },
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the non deliverable trade which is created."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the non deliverable trade which is created."
+    },
+    "TradeAmounts": {
+      "name": "Trade Amounts",
+      "definition": "Specifies the amounts of the non deliverable trade which is created."
+    },
+    "AgreedRate": {
+      "name": "Agreed Rate",
+      "definition": "Specifies the rate agreed at the opening of a non deliverable trade."
+    },
+    "ValuationConditions": {
+      "name": "Valuation Conditions",
+      "definition": "Specifies the valuation conditions of the non deliverable trade which is created."
+    }
+  }
+}

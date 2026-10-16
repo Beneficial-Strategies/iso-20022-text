@@ -1,0 +1,36 @@
+{
+  "isoType": "ContractRegistrationStatementRequest3",
+  "language": "en",
+  "name": "Contract Registration Statement Request 3",
+  "definition": "Details on the statement requested elements.",
+  "isoElements": {
+    "StatementRequestIdentification": {
+      "name": "Statement Request Identification",
+      "definition": "Unique and unambiguous identification of the contract registration statement request."
+    },
+    "ReportingPeriod": {
+      "name": "Reporting Period",
+      "definition": "Specifies the period for which the statement is requested."
+    },
+    "ReportingParty": {
+      "name": "Reporting Party",
+      "definition": "Party registering the currency control contract."
+    },
+    "RegistrationAgent": {
+      "name": "Registration Agent",
+      "definition": "Agent which registers the currency control contract."
+    },
+    "RegisteredContractIdentification": {
+      "name": "Registered Contract Identification",
+      "definition": "Identifies the requested registered contract."
+    },
+    "ReturnCriteria": {
+      "name": "Return Criteria",
+      "definition": "Defines the criteria to be returned in the statement in response to the request."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

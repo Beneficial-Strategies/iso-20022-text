@@ -1,0 +1,36 @@
+{
+  "isoType": "TradeDelivery1",
+  "language": "en",
+  "name": "Trade Delivery 1",
+  "definition": "Specifies how the supply chain shipping arrangements and the delivery of products and/or services as well as related documentation.",
+  "isoElements": {
+    "DeliveryPeriod": {
+      "name": "Delivery Period",
+      "definition": "Actual delivery period of the products and/or services."
+    },
+    "DeliveryDateTime": {
+      "name": "Delivery Date Time",
+      "definition": "Actual delivery date/time of the products and/or services."
+    },
+    "ShipFrom": {
+      "name": "Ship From",
+      "definition": "Party from whom the goods are dispatched."
+    },
+    "ShipTo": {
+      "name": "Ship To",
+      "definition": "Party to whom the goods are dispatched."
+    },
+    "UltimateShipTo": {
+      "name": "Ultimate Ship To",
+      "definition": "Final party to whom the goods are dispatched."
+    },
+    "DeliveryNote": {
+      "name": "Delivery Note",
+      "definition": "Delivery note related to the delivery of the products and/or services."
+    },
+    "Consignment": {
+      "name": "Consignment",
+      "definition": "Physical consolidation of goods for transport."
+    }
+  }
+}

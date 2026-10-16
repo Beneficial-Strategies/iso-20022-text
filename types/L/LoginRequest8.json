@@ -1,0 +1,56 @@
+{
+  "isoType": "LoginRequest8",
+  "language": "en",
+  "name": "Login Request 8",
+  "definition": "Content of the login request message.",
+  "isoElements": {
+    "LoginDateTime": {
+      "name": "Login Date Time",
+      "definition": "Date and Time of Login."
+    },
+    "SaleSoftware": {
+      "name": "Sale Software",
+      "definition": "Information related to the software of the Sale System which manages the Sale to POI protocol."
+    },
+    "SaleTerminalData": {
+      "name": "Sale Terminal Data",
+      "definition": "Information related to the software and hardware feature of the Sale Terminal."
+    },
+    "TrainingModeFlag": {
+      "name": "Training Mode Flag",
+      "definition": "Training mode."
+    },
+    "CashierIdentification": {
+      "name": "Cashier Identification",
+      "definition": "Identification of the cashier.."
+    },
+    "CashierLanguage": {
+      "name": "Cashier Language",
+      "definition": "Language of the cashier."
+    },
+    "ShiftNumber": {
+      "name": "Shift Number",
+      "definition": "Shift number of the cashier."
+    },
+    "TokenRequestedType": {
+      "name": "Token Requested Type",
+      "definition": "Type of token replacing the PAN of a payment card to identify the payment mean of the customer."
+    },
+    "CustomerOrderRequest": {
+      "name": "Customer Order Request",
+      "definition": "Type of customer orders that must be sent in response message."
+    },
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "POI Terminal identification."
+    },
+    "TotalsGroupIdentification": {
+      "name": "Totals Group Identification",
+      "definition": "Default group identification for transaction consolidation (Totals)."
+    },
+    "OutputDisplay": {
+      "name": "Output Display",
+      "definition": "Message to be displayed."
+    }
+  }
+}

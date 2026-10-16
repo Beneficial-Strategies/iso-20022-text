@@ -1,0 +1,93 @@
+{
+  "isoType": "MessageFunction47Code",
+  "language": "en",
+  "name": "Message Function 47 Code",
+  "definition": "Type of message supporting a service.",
+  "isoCodes": {
+    "FAUQ": {
+      "isoName": "FinancialAuthorisationRequest",
+      "name": "Financial Authorisation Request",
+      "definition": "Request for authorisation with financial capture."
+    },
+    "CCAQ": {
+      "isoName": "CancellationRequest",
+      "name": "Cancellation Request",
+      "definition": "Request for cancellation."
+    },
+    "CMPV": {
+      "isoName": "CompletionAdvice",
+      "name": "Completion Advice",
+      "definition": "Advice for completion without financial capture."
+    },
+    "DGNP": {
+      "isoName": "DiagnosticRequest",
+      "name": "Diagnostic Request",
+      "definition": "Request for diagnostic."
+    },
+    "RCLQ": {
+      "isoName": "ReconciliationRequest",
+      "name": "Reconciliation Request",
+      "definition": "Request for reconciliation."
+    },
+    "CCAV": {
+      "isoName": "CancellationAdvice",
+      "name": "Cancellation Advice",
+      "definition": "Advice for cancellation."
+    },
+    "BTCH": {
+      "isoName": "BatchTransfer",
+      "name": "Batch Transfer",
+      "definition": "Transfer the financial data as a collection of transction."
+    },
+    "FRVA": {
+      "isoName": "FinancialReversalAdvice",
+      "name": "Financial Reversal Advice",
+      "definition": "Advice for reversal with financial capture."
+    },
+    "AUTQ": {
+      "isoName": "AuthorisationRequest",
+      "name": "Authorisation Request",
+      "definition": "The initiator requests an authorisation without financial impact to complete the transaction."
+    },
+    "FCMV": {
+      "isoName": "FinancialCompletionAdvice",
+      "name": "Financial Completion Advice",
+      "definition": "Advice for completion with financial capture."
+    },
+    "DCCQ": {
+      "isoName": "CurrencyConversionRequest",
+      "name": "Currency Conversion Request",
+      "definition": "Request for dynamic currency conversion."
+    },
+    "RVRA": {
+      "isoName": "ReversalAdvice",
+      "name": "Reversal Advice",
+      "definition": "Advice for reversal without financial capture."
+    },
+    "DCAV": {
+      "isoName": "CurrencyConversionAdvice",
+      "name": "Currency Conversion Advice",
+      "definition": "Advice for dynamic currency conversion."
+    },
+    "TRNA": {
+      "isoName": "TransactionAdvice",
+      "name": "Transaction Advice",
+      "definition": "Advise of the transaction's processing."
+    },
+    "NFRQ": {
+      "isoName": "NonFinancialRequest",
+      "name": "Non Financial Request",
+      "definition": "Initiator of the message requests additional information to the receiver."
+    },
+    "TRPQ": {
+      "isoName": "TransactionReportRequest",
+      "name": "Transaction Report Request",
+      "definition": "Request to receive of a report of transaction from the issuer to the receiver."
+    },
+    "ATAF": {
+      "isoName": "AcceptorToAcquirerBatchFileExchange",
+      "name": "Acceptor To Acquirer Batch File Exchange",
+      "definition": "Concatenation of multiple exchanges in one file."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "isoType": "CurrencyConversionResponse2Code",
+  "language": "en",
+  "name": "Currency Conversion Response 2 Code",
+  "definition": "Result of a requested currency conversion.",
+  "isoCodes": {
+    "ODCC": {
+      "isoName": "Allowed",
+      "name": "Allowed",
+      "definition": "Dynamic currency conversion may be offered to the cardholder."
+    },
+    "ICRD": {
+      "isoName": "InvalidCard",
+      "name": "Invalid Card",
+      "definition": "The card is not valid for dynamic currency conversion."
+    },
+    "IPRD": {
+      "isoName": "InvalidProduct",
+      "name": "Invalid Product",
+      "definition": "Dynamic currency conversion service cannot be offered for this card product."
+    },
+    "IRAT": {
+      "isoName": "NoRate",
+      "name": "No Rate",
+      "definition": "Exchange rates are not available."
+    },
+    "NDCC": {
+      "isoName": "NotAvailable",
+      "name": "Not Available",
+      "definition": "Dynamic currency conversion is not available for other reason."
+    },
+    "IAMG": {
+      "isoName": "InvalidATMManager",
+      "name": "Invalid ATM Manager",
+      "definition": "The ATM manager is not valid for dynamic currency conversion."
+    },
+    "IATM": {
+      "isoName": "InvalidATM",
+      "name": "Invalid ATM",
+      "definition": "The ATM is not valid for dynamic currency conversion."
+    }
+  }
+}

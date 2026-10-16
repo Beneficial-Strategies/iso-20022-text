@@ -1,0 +1,48 @@
+{
+  "isoType": "LiquidResources1",
+  "language": "en",
+  "name": "Liquid Resources 1",
+  "definition": "Resources of a legal entity or other financial construct that are available to meet cash obligations.",
+  "isoElements": {
+    "CashDue": {
+      "name": "Cash Due",
+      "definition": "Cash expected to be available to the CCP on each day in order to meet liquid requirements."
+    },
+    "FacilitiesCommittedLinesOfCredit": {
+      "name": "Facilities Committed Lines Of Credit",
+      "definition": "Lines of credit with credit institutions that are contractually committed with the liquidity provider."
+    },
+    "FacilitiesCommittedRepurchaseAgreements": {
+      "name": "Facilities Committed Repurchase Agreements",
+      "definition": "Repurchase agreement that are contractually committed with the liquidity provider."
+    },
+    "FacilitiesCommittedFXSwaps": {
+      "name": "Facilities Committed FX Swaps",
+      "definition": "FX swaps that are contractually committed with the liquidity provider."
+    },
+    "FacilitiesOtherCommitted": {
+      "name": "Facilities Other Committed",
+      "definition": "Other liquidity facilities that are contractually committed with the liquidity provider."
+    },
+    "FacilitiesUncommitted": {
+      "name": "Facilities Uncommitted",
+      "definition": "Liquidity facilities that are not contractually committed."
+    },
+    "FinancialInstrumentsCCP": {
+      "name": "Financial Instruments CCP",
+      "definition": "CCPs own non cash resources."
+    },
+    "FinancialInstrumentsTreasuryInvestments": {
+      "name": "Financial Instruments Treasury Investments",
+      "definition": "Financial instruments from CCP treasury investments of clearing members cash collateral with any of the CCPs own cash invested included."
+    },
+    "FinancialInstrumentsDefaultersSettlementCollateral": {
+      "name": "Financial Instruments Defaulters Settlement Collateral",
+      "definition": "Financial instruments due to be delivered to the defaulting member that post-default can be used to meet liquidity needs in the event of their default."
+    },
+    "FinancialInstrumentsDefaultersNonCashCollateral": {
+      "name": "Financial Instruments Defaulters Non Cash Collateral",
+      "definition": "Non-cash collateral e.g. margin provided by the defaulting counterparty that can be used to meet liquidity needs in the event of their default."
+    }
+  }
+}

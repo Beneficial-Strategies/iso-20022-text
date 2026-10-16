@@ -1,0 +1,58 @@
+{
+  "isoType": "ATMServiceType12Code",
+  "language": "en",
+  "name": "ATM Service Type 12 Code",
+  "definition": "Describes the type of inquiry selected by the customer or the ATM.",
+  "isoCodes": {
+    "ASTS": {
+      "isoName": "AccountStatements",
+      "name": "Account Statements",
+      "definition": "Request a full statement (that is a legal statement) related to a customer account."
+    },
+    "CDVF": {
+      "isoName": "CardVerification",
+      "name": "Card Verification",
+      "definition": "Verification of the card."
+    },
+    "DCCS": {
+      "isoName": "DynamicCurrencyConversion",
+      "name": "Dynamic Currency Conversion",
+      "definition": "Ask to a DCC service provider to qualify the currency conversion for the card."
+    },
+    "XRTD": {
+      "isoName": "ExchangeRateDeposit",
+      "name": "Exchange Rate Deposit",
+      "definition": "Ask for exchange rate for the ongoing deposit transaction."
+    },
+    "XRTW": {
+      "isoName": "ExchangeRateWithdrawal",
+      "name": "Exchange Rate Withdrawal",
+      "definition": "Ask for exchange rate for the ongoing withdrawal transaction."
+    },
+    "EMVS": {
+      "isoName": "SelectEMVApplication",
+      "name": "Select EMV Application",
+      "definition": "Select the EMV applications allowed by the acquirer."
+    },
+    "CMPF": {
+      "isoName": "CustomerProfile",
+      "name": "Customer Profile",
+      "definition": "Ask for customer profile with eventualy related account information."
+    },
+    "BLCQ": {
+      "isoName": "BalanceInquiry",
+      "name": "Balance Inquiry",
+      "definition": "Balance inquiry."
+    },
+    "ACCD": {
+      "isoName": "AccountDownload",
+      "name": "Account Download",
+      "definition": "Download accounts associated to the customer card."
+    },
+    "MINI": {
+      "isoName": "MiniStatement",
+      "name": "Mini Statement",
+      "definition": "Request a mini-statement (i.e. partial statement) related to a customer account."
+    }
+  }
+}

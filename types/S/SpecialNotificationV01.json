@@ -1,0 +1,40 @@
+{
+  "isoType": "SpecialNotificationV01",
+  "language": "en",
+  "name": "Special Notification V 01",
+  "definition": "Scope|The SpecialNotification message is sent by the matching application to parties to the transaction, following the receipt of a SpecialRequest message.|The SpecialRequest message is sent by a party to the transaction to the matching application if special circumstances are such that it cannot take part any longer to a specific transaction or that it cannot fulfill its role in the transaction.|Usage|The SpecialNotification message is sent to the parties to the transaction so that they can take appropriate action.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Identifies the notification message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties.|."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for the financial institution that is the sender of the acknowledged message."
+    },
+    "Initiator": {
+      "name": "Initiator",
+      "definition": "Party that has sent the special request."
+    },
+    "Notification": {
+      "name": "Notification",
+      "definition": "Notification received by the matching application and forwarded to another party."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Information on the next processing step required."
+    }
+  }
+}

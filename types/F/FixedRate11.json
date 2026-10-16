@@ -1,0 +1,21 @@
+{
+  "isoType": "FixedRate11",
+  "language": "en",
+  "name": "Fixed Rate 11",
+  "definition": "Specifies the details of the fixed rate.",
+  "isoElements": {
+    "Rate": {
+      "name": "Rate",
+      "definition": "Annualised interest rate on the principal amount of the repurchase transaction in accordance with the day count convention."
+    },
+    "DayCountBasis": {
+      "name": "Day Count Basis",
+      "definition": "Method for calculating the accrued interest on the principal amount for a fixed rate."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

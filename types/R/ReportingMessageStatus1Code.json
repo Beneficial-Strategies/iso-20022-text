@@ -1,0 +1,53 @@
+{
+  "isoType": "ReportingMessageStatus1Code",
+  "language": "en",
+  "name": "Reporting Message Status 1 Code",
+  "definition": "Specifies the status of a whole message processing.",
+  "isoCodes": {
+    "ACPT": {
+      "isoName": "Accepted",
+      "name": "Accepted",
+      "definition": "Whole message has been accepted."
+    },
+    "ACTC": {
+      "isoName": "AcceptedTechnicalValidation",
+      "name": "Accepted Technical Validation",
+      "definition": "Message has passed syntactical validation but further validations have not been completed yet."
+    },
+    "PART": {
+      "isoName": "PartiallyAccepted",
+      "name": "Partially Accepted",
+      "definition": "Message has been partially accepted. A number of transactions have been accepted, whereas another number of transactions have not yet been accepted."
+    },
+    "RCVD": {
+      "isoName": "Received",
+      "name": "Received",
+      "definition": "Message has been received but not processed yet."
+    },
+    "RJCT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Message has been rejected."
+    },
+    "RMDR": {
+      "isoName": "Reminder",
+      "name": "Reminder",
+      "definition": "Reminder of a non received message."
+    },
+    "WARN": {
+      "isoName": "Warning",
+      "name": "Warning",
+      "definition": "Message has been accepted with warnings."
+    },
+    "INCF": {
+      "isoName": "IncorrectFilename",
+      "name": "Incorrect Filename",
+      "definition": "File containing the report has an incorrect filename."
+    },
+    "CRPT": {
+      "isoName": "CorruptedFile",
+      "name": "Corrupted File",
+      "definition": "File containing the report is corrupted."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionReportV03",
+  "language": "en",
+  "name": "Transaction Report V 03",
+  "definition": "Scope|The TransactionReport message is sent by the matching application to the requester of a transaction report.|This message is used to report on various details of transactions registered in the matching application.|Usage|The TransactionReport message can be sent by the matching application to report on various details of transactions that the requester of the report asked for. The message is sent in response to a TransactionReportRequest message.",
+  "isoElements": {
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Identifies the report."
+    },
+    "RelatedMessageReference": {
+      "name": "Related Message Reference",
+      "definition": "Reference to the previous message requesting the report."
+    },
+    "ReportedItems": {
+      "name": "Reported Items",
+      "definition": "Detailed description of the items that correspond to the parameters set in the request."
+    }
+  }
+}

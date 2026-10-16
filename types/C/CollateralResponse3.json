@@ -1,0 +1,25 @@
+{
+  "isoType": "CollateralResponse3",
+  "language": "en",
+  "name": "Collateral Response 3",
+  "definition": "Provides additional information on the collateral proposal(s), that is either in cash, securities or other types.",
+  "isoElements": {
+    "SecuritiesCollateralResponse": {
+      "name": "Securities Collateral Response",
+      "definition": "Provides details on the securities collateral proposal."
+    },
+    "CashCollateralResponse": {
+      "name": "Cash Collateral Response",
+      "definition": "Provides details on the cash collateral proposal."
+    },
+    "OtherCollateralResponse": {
+      "name": "Other Collateral Response",
+      "definition": "Provides details on other collateral proposal."
+    }
+  },
+  "isoRules": {
+    "CollateralResponsePresenceRule": {
+      "definition": "CashCollateralResponse or SecuritiesCollateralResponse or OtherCollateralResponse must be present at least once."
+    }
+  }
+}

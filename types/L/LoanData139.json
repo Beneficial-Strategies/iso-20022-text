@@ -1,0 +1,77 @@
+{
+  "isoType": "LoanData139",
+  "language": "en",
+  "name": "Loan Data 139",
+  "definition": "Specifies the loan data details in case of a repurchase trade transaction.",
+  "isoElements": {
+    "UniqueTradeIdentifier": {
+      "name": "Unique Trade Identifier",
+      "definition": "Unique Trade Identifier (UTI) as agreed with the other counterparty."
+    },
+    "EventDate": {
+      "name": "Event Date",
+      "definition": "Date on which the reportable event pertaining to the transaction and captured by the report took place."
+    },
+    "ExecutionDateTime": {
+      "name": "Execution Date Time",
+      "definition": "Indicates the date and time when the contract was executed."
+    },
+    "ClearingStatus": {
+      "name": "Clearing Status",
+      "definition": "Indicates whether clearing of contract has taken place."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Identification of the trading venue where the transaction was executed."
+    },
+    "MasterAgreement": {
+      "name": "Master Agreement",
+      "definition": "Reference to master agreement under which the counterparties concluded a documented transaction."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Date on which the counterparties contractually agree the exchange of securities or commodities versus collateral for the opening leg (spot leg) of the secured financing transaction. In the case of rollover of transaction open term, this is the date on which the rollover settles, even if no exchange of cash takes place."
+    },
+    "MinimumNoticePeriod": {
+      "name": "Minimum Notice Period",
+      "definition": "Minimum number of business days that one of the counterparties has to inform about the termination of the transaction."
+    },
+    "EarliestCallBackDate": {
+      "name": "Earliest Call Back Date",
+      "definition": "Earliest date that the cash lender has the right to call back a portion of the amount of money or to terminate the transaction."
+    },
+    "GeneralCollateral": {
+      "name": "General Collateral",
+      "definition": "Indication whether the secured financing transaction is subject to a general or special collateral arrangement."
+    },
+    "DeliveryByValue": {
+      "name": "Delivery By Value",
+      "definition": "Indicates whether the transaction was settled using the Delivery-by-Value (DBV) mechanism."
+    },
+    "CollateralDeliveryMethod": {
+      "name": "Collateral Delivery Method",
+      "definition": "Delivery method of the collateral."
+    },
+    "Term": {
+      "name": "Term",
+      "definition": "Period before or at the end of which the loan should be repaid or renegotiated for another term."
+    },
+    "InterestRate": {
+      "name": "Interest Rate",
+      "definition": "Interest rate of the loan."
+    },
+    "PrincipalAmount": {
+      "name": "Principal Amount",
+      "definition": "Amount of money to be settled as of the start date and maturity date of the transaction."
+    },
+    "TerminationDate": {
+      "name": "Termination Date",
+      "definition": "Termination date in the case of a full early termination of the Securities Financing Transaction (SFT)."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|    /UniqueTradeIdentifier Must be present| Or /EventDate Must be present| Or /ExecutionDateTime Must be present| Or /ClearingStatus Must be present| Or /TradingVenue Must be present| Or /MasterAgreement Must be present| Or /ValueDate Must be present| Or /MinimumNoticePeriod Must be present| Or /EarliestCallBackDate Must be present| Or /GeneralCollateral Must be present| Or /DeliveryByValue Must be present| Or /CollateralDeliveryMethod Must be present| Or /Term Must be present| Or /InterestRate Must be present| Or /PrincipalAmount Must be present| Or /TerminationDate Must be present"
+    }
+  }
+}

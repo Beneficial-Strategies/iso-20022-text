@@ -1,0 +1,44 @@
+{
+  "isoType": "StoredValueData9",
+  "language": "en",
+  "name": "Stored Value Data 9",
+  "definition": "Data related to the stored value card.",
+  "isoElements": {
+    "Provider": {
+      "name": "Provider",
+      "definition": "Identification of the provider of the stored value account load/reload."
+    },
+    "TransactionType": {
+      "name": "Transaction Type",
+      "definition": "Identification of operation to proceed on the stored value account or the stored value card."
+    },
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Identification of the stored value account or the stored value card."
+    },
+    "OriginalPOITransaction": {
+      "name": "Original POI Transaction",
+      "definition": "Identification of a previous POI transaction."
+    },
+    "ProductCode": {
+      "name": "Product Code",
+      "definition": "Product code of item purchased with the transaction."
+    },
+    "EANUPC": {
+      "name": "EANUPC",
+      "definition": "Standard European Article Number Universal Product Code of item purchased with the transaction."
+    },
+    "ItemAmount": {
+      "name": "Item Amount",
+      "definition": "Total amount of the item line."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of the monetary amount."
+    },
+    "HostTransactionIdentification": {
+      "name": "Host Transaction Identification",
+      "definition": "Identification of the transaction by the host in charge of the stored value transaction."
+    }
+  }
+}

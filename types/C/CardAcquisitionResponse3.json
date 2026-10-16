@@ -1,0 +1,32 @@
+{
+  "isoType": "CardAcquisitionResponse3",
+  "language": "en",
+  "name": "Card Acquisition Response 3",
+  "definition": "Content of the Card Acquisition Response message.",
+  "isoElements": {
+    "SaleTransactionIdentification": {
+      "name": "Sale Transaction Identification",
+      "definition": "Sale System identification of the transaction in an unambiguous way."
+    },
+    "POITransactionIdentification": {
+      "name": "POI Transaction Identification",
+      "definition": "Unique identification of a POI transaction."
+    },
+    "PaymentBrand": {
+      "name": "Payment Brand",
+      "definition": "Type of payment card."
+    },
+    "CustomerLanguage": {
+      "name": "Customer Language",
+      "definition": "Language used to display messages to the customer."
+    },
+    "LoyaltyAccount": {
+      "name": "Loyalty Account",
+      "definition": "Loyalty account information."
+    },
+    "CustomerOrder": {
+      "name": "Customer Order",
+      "definition": "Customer order attached to a customer, recorded in the POI system."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TemporaryServiceChargeRate1",
+  "language": "en",
+  "name": "Temporary Service Charge Rate 1",
+  "definition": "Contains amount details for a specific type of charge in the temproary service.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Type of hours worked. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "Rate": {
+      "name": "Rate",
+      "definition": "Contains the rate per hour."
+    },
+    "Hours": {
+      "name": "Hours",
+      "definition": "Contains the number of hours worked."
+    }
+  }
+}

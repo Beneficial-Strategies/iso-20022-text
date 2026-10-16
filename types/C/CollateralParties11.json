@@ -1,0 +1,36 @@
+{
+  "isoType": "CollateralParties11",
+  "language": "en",
+  "name": "Collateral Parties 11",
+  "definition": "Identifies the chain of collateral parties of counterparty of Party A.",
+  "isoElements": {
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Counterparty of party A."
+    },
+    "ClientPartyB": {
+      "name": "Client Party B",
+      "definition": "Party that instructs party B to settle the instruction on its behalf."
+    },
+    "TripartyAgent": {
+      "name": "Triparty Agent",
+      "definition": "Party that handles tri-party transactions."
+    },
+    "CollateralAccount": {
+      "name": "Collateral Account",
+      "definition": "Account where the collateral is held during the lifecycle  of the transaction."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of safekeeping account for digital assets."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccount is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccount must be absent."
+    }
+  }
+}

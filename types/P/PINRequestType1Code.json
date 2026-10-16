@@ -1,0 +1,23 @@
+{
+  "isoType": "PINRequestType1Code",
+  "language": "en",
+  "name": "PIN Request Type 1 Code",
+  "definition": "Type of PIN Service.",
+  "isoCodes": {
+    "PIAE": {
+      "isoName": "PINAcquisitionEncryption",
+      "name": "PIN Acquisition Encryption",
+      "definition": "The cardholder enters the PIN, the POI enciphers the PIN Block and provides it as a result to the Sale System."
+    },
+    "PIAV": {
+      "isoName": "PINAcquisitionVerification",
+      "name": "PIN Acquisition Verification",
+      "definition": "The Cardholder enters the PIN and the POI verifies it."
+    },
+    "PIVO": {
+      "isoName": "PINVerifyOnly",
+      "name": "PIN Verify Only",
+      "definition": "The Sale System send a previous keyed PIN and the POI verifies it."
+    }
+  }
+}

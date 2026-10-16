@@ -1,0 +1,24 @@
+{
+  "isoType": "TradeValuationUpdate9",
+  "language": "en",
+  "name": "Trade Valuation Update 9",
+  "definition": "Indicates an update to the valuations of a previously reported position, but not a correction.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice message."
+    },
+    "CounterpartySpecificData": {
+      "name": "Counterparty Specific Data",
+      "definition": "Data specific to counterparties and related fields."
+    },
+    "LoanData": {
+      "name": "Loan Data",
+      "definition": "Details of the loan used for financing the transaction."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

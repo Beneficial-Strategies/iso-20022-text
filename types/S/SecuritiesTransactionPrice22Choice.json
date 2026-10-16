@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesTransactionPrice22Choice",
+  "language": "en",
+  "name": "Securities Transaction Price 22 Choice",
+  "definition": "Choice element capturing strike price related descriptive information.",
+  "isoElements": {
+    "Price": {
+      "name": "Price",
+      "definition": "Predetermined price at which the holder will have to buy or sell the underlying instrument."
+    },
+    "DigitalTokenPrice": {
+      "name": "Digital Token Price",
+      "definition": "Predetermined price at which the holder will have to buy or sell the underlying instrument, when the price is available in both monetary value and digital token amount."
+    },
+    "NoPrice": {
+      "name": "No Price",
+      "definition": "Captures where no price is yet known."
+    }
+  }
+}

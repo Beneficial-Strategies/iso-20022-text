@@ -1,0 +1,44 @@
+{
+  "isoType": "Summary3",
+  "language": "en",
+  "name": "Summary 3",
+  "definition": "Summary of a collateral valuation.",
+  "isoElements": {
+    "ExposedAmountPartyA": {
+      "name": "Exposed Amount Party A",
+      "definition": "Sum of the exposures of all transactions which are in the favour of party A. That is, all transactions which would have an amount payable by party B to party A if they were being terminated."
+    },
+    "ExposedAmountPartyB": {
+      "name": "Exposed Amount Party B",
+      "definition": "Sum of the exposures of all transactions which are in the favour of party B. That is, all transactions which would have an amount payable by party A to party B if they were being terminated."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Underlying business area/type of trade that triggered the posting of collateral."
+    },
+    "TotalValueOfCollateral": {
+      "name": "Total Value Of Collateral",
+      "definition": "Total value of the collateral (post-haircut) held by the exposed party."
+    },
+    "NetExcessDeficit": {
+      "name": "Net Excess Deficit",
+      "definition": "Amount of collateral in excess or deficit compared to the exposure."
+    },
+    "NetExcessDeficitIndicator": {
+      "name": "Net Excess Deficit Indicator",
+      "definition": "Indicates whether the collateral actually posted is a long or a short position."
+    },
+    "ValuationDateTime": {
+      "name": "Valuation Date Time",
+      "definition": "Date/time at which the collateral was valued."
+    },
+    "RequestedSettlementDate": {
+      "name": "Requested Settlement Date",
+      "definition": "Date on which the instructing party requests settlement of the collateral to take place."
+    },
+    "SummaryDetails": {
+      "name": "Summary Details",
+      "definition": "Additional details on the valuation of the collateral that is posted."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isoType": "SecurityCSDLinkUpdate3",
+  "language": "en",
+  "name": "Security CSD Link Update 3",
+  "definition": "Defines which data, representing the link between the CSD and the security, needs to be updated.",
+  "isoElements": {
+    "DefaultLink": {
+      "name": "Default Link",
+      "definition": "Specifies whether the security CSD link is the default link. |Usage: when DefaultLink is absent, value is No/false"
+    },
+    "ValidTo": {
+      "name": "Valid To",
+      "definition": "Defines the date until when the CSD is linked to the security."
+    }
+  }
+}

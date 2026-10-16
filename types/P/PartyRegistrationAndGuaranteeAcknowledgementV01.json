@@ -1,0 +1,32 @@
+{
+  "isoType": "PartyRegistrationAndGuaranteeAcknowledgementV01",
+  "language": "en",
+  "name": "Party Registration And Guarantee Acknowledgement V 01",
+  "definition": "The message PartyManagementPaymentAcknowledgement is sent from a trade partner to any partner requested through a PartyManagementPaymentAcknowledgemenNotification message to acknowledge the notified factoring service agreement. Depending on legal contexts, the acknowledgement may be required in order for the financial service agreement to become effective.|The message references related messages and may include referenced data.|The message can carry digital signatures if required by context.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics that unambiguously identify the acknowlegement, common parameters, documents and identifications."
+    },
+    "AcknowledgementList": {
+      "name": "Acknowledgement List",
+      "definition": "List of party management acknowledgements."
+    },
+    "AcknowledgementCount": {
+      "name": "Acknowledgement Count",
+      "definition": "Number of acknowledgement lists as control value."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Total number of individual items in all lists."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in all lists, irrespective of currencies or direction."
+    },
+    "AttachedMessage": {
+      "name": "Attached Message",
+      "definition": "Referenced or related business message."
+    }
+  }
+}

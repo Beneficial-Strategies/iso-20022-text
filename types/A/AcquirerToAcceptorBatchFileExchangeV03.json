@@ -1,0 +1,24 @@
+{
+  "isoType": "AcquirerToAcceptorBatchFileExchangeV03",
+  "language": "en",
+  "name": "Acquirer To Acceptor Batch File Exchange V 03",
+  "definition": "The AcquirerToAcceptorBatchFileExchange message is sent by an acquirer (or its agent) to the acceptor (or its agent), to send a batch of response.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "AcquirerToAcceptorBatchFileExchange message management information."
+    },
+    "BodyElement": {
+      "name": "Body Element",
+      "definition": "Record of an exchange to an Acceptor."
+    },
+    "Response": {
+      "name": "Response",
+      "definition": "Result of the processing of the request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a signature."
+    }
+  }
+}

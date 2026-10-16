@@ -1,0 +1,20 @@
+{
+  "isoType": "MarginCollateralReport5",
+  "language": "en",
+  "name": "Margin Collateral Report 5",
+  "definition": "Details of margin collateral agreement between counterparties.",
+  "isoElements": {
+    "CollateralPortfolioCode": {
+      "name": "Collateral Portfolio Code",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the portfolio if the collateral is posted on a portfolio basis.||Usage:|NoCode is reported if the collateralisation was performed on a transaction level basis, or if there is no collateral agreement or if no collateral is posted or received."
+    },
+    "CollateralisationCategory": {
+      "name": "Collateralisation Category",
+      "definition": "Indicates the type of collateral agreement existing between the counterparties."
+    },
+    "TimeStamp": {
+      "name": "Time Stamp",
+      "definition": "Indicates the date and time of the last collateral amount determination or calculation."
+    }
+  }
+}

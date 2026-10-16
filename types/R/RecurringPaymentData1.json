@@ -1,0 +1,44 @@
+{
+  "isoType": "RecurringPaymentData1",
+  "language": "en",
+  "name": "Recurring Payment Data 1",
+  "definition": "Contains detail information of the recurring payment.",
+  "isoElements": {
+    "Type": {
+      "name": "Type",
+      "definition": "Code to indicate the recurring payment type. The valid value refer to the ISO 8583 bit 104 Dataset 18/88 tag 80/2."
+    },
+    "PerTransactionAmountIndicator": {
+      "name": "Per Transaction Amount Indicator",
+      "definition": "Indicate the type of payment amount per transaction. Valid value refer to ISO 8583 bit 104 dataset 18/88 tag 81/3."
+    },
+    "NumberOfRecurringPayment": {
+      "name": "Number Of Recurring Payment",
+      "definition": "Contain the number of recurring payment."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Indicate the frequency of the recurring payment. The valid value refer to the ISO 8583 bit 104 Dataset 18/88 tag 83/5."
+    },
+    "RegistrationReferenceNumber": {
+      "name": "Registration Reference Number",
+      "definition": "Reference number of the recurring payment agreement assigned by the merchant."
+    },
+    "MaximumRecurringPaymentAmount": {
+      "name": "Maximum Recurring Payment Amount",
+      "definition": "Contain the maximum recurring payment amount."
+    },
+    "ValidationIndicator": {
+      "name": "Validation Indicator",
+      "definition": "Indicate whether the recurring payment agreement validated or not. The valid value refer to the ISO 8583 bit 104 Dataset 18/88 tag 86/8."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

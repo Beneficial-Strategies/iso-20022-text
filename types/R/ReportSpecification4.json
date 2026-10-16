@@ -1,0 +1,60 @@
+{
+  "isoType": "ReportSpecification4",
+  "language": "en",
+  "name": "Report Specification 4",
+  "definition": "Specifies the parameters for which a transaction report must be generated.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to a transaction, for which the matching application must generate a report."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    },
+    "SubmitterTransactionReference": {
+      "name": "Submitter Transaction Reference",
+      "definition": "Reference to the identification of a transaction of a user, for which the matching application must generate a report."
+    },
+    "EntitiesToBeReported": {
+      "name": "Entities To Be Reported",
+      "definition": "Specifies a list of entities for which the matching application must generate a report."
+    },
+    "Correspondent": {
+      "name": "Correspondent",
+      "definition": "Financial institution that is the counterparty to the trade transaction."
+    },
+    "SubmittingBank": {
+      "name": "Submitting Bank",
+      "definition": "Financial institution that is a data set submitting bank to the transaction."
+    },
+    "ObligorBank": {
+      "name": "Obligor Bank",
+      "definition": "Financial institution that is an obligor bank to the transaction."
+    },
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Party that buys goods or services, or a financial instrument."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Party that sells goods or services, or a financial instrument."
+    },
+    "BuyerCountry": {
+      "name": "Buyer Country",
+      "definition": "Country of the buyer."
+    },
+    "SellerCountry": {
+      "name": "Seller Country",
+      "definition": "Country of the seller."
+    },
+    "CorrespondentCountry": {
+      "name": "Correspondent Country",
+      "definition": "Country of the financial institution which is the other party to the trade."
+    },
+    "PendingRequestForAction": {
+      "name": "Pending Request For Action",
+      "definition": "Specifies a pending request for action for which the matching application must generate a report."
+    }
+  }
+}

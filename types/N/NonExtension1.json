@@ -1,0 +1,33 @@
+{
+  "isoType": "NonExtension1",
+  "language": "en",
+  "name": "Non Extension 1",
+  "definition": "Non-extension information.",
+  "isoElements": {
+    "NotificationPeriod": {
+      "name": "Notification Period",
+      "definition": "Minimum number of days prior to the then current expiry date by which notice of non-extension must be sent."
+    },
+    "NotificationMethod": {
+      "name": "Notification Method",
+      "definition": "Method by which the notice of non-extension is intended to be delivered."
+    },
+    "NotificationRecipientType": {
+      "name": "Notification Recipient Type",
+      "definition": "Type of party to whom the notice of non-extension is intended to be delivered."
+    },
+    "NotificationRecipientName": {
+      "name": "Notification Recipient Name",
+      "definition": "Name of party to whom the notice of non-extension is intended to be delivered."
+    },
+    "NotificationRecipientAddress": {
+      "name": "Notification Recipient Address",
+      "definition": "Address of party to whom the notice of non-extension is intended to be delivered."
+    }
+  },
+  "isoRules": {
+    "NotificationTypeSPECAddressRule": {
+      "definition": "If NotificationRecipienType is \"SPEC\" (SpecifiedAddress), then NotificationRecipientAddress must be present."
+    }
+  }
+}

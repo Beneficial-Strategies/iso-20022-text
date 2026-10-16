@@ -1,0 +1,49 @@
+{
+  "isoType": "Option3",
+  "language": "en",
+  "name": "Option 3",
+  "definition": "List of elements which provide the parameters of an option trade.",
+  "isoElements": {
+    "OptionAmounts": {
+      "name": "Option Amounts",
+      "definition": "Specifies the call and the put amount of the underlying foreign exchange trade."
+    },
+    "StrikePrice": {
+      "name": "Strike Price",
+      "definition": "Specifies the rate of exchange at which the foreign exchange option has been struck."
+    },
+    "ExerciseStyle": {
+      "name": "Exercise Style",
+      "definition": "Defines how an option can be exercised."
+    },
+    "EarliestExerciseDate": {
+      "name": "Earliest Exercise Date",
+      "definition": "First date on which an american option can be exercised."
+    },
+    "ExpiryDateAndTime": {
+      "name": "Expiry Date And Time",
+      "definition": "Date on which a privilege (eg, option, right, warrant.) expires. If it is an European option, the option holder can only exercise the right or let it lapse on expiry date. If it is an American option, the option holder can exercise the right up to the expiry date."
+    },
+    "ExpiryLocation": {
+      "name": "Expiry Location",
+      "definition": "Financial center where option expires."
+    },
+    "SettlementType": {
+      "name": "Settlement Type",
+      "definition": "Indicates whether the trade is to be settled as principal or netted off against another trade."
+    },
+    "AdditionalOptionInformation": {
+      "name": "Additional Option Information",
+      "definition": "Free format text that may contain information on the option."
+    },
+    "Premium": {
+      "name": "Premium",
+      "definition": "Specifies the amount of the premium of a foreign exchange option trade and its settlement place."
+    }
+  },
+  "isoRules": {
+    "EarliestExerciseDateRule": {
+      "definition": "If ExerciseStyle is AMER, then EarliestExerciseDate must be present."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "SettlementSubTotalCalculatedTax2",
+  "language": "en",
+  "name": "Settlement Sub Total Calculated Tax 2",
+  "definition": "Specifies the subtotal calculated tax applicable for this settlement.",
+  "isoElements": {
+    "TypeCode": {
+      "name": "Type Code",
+      "definition": "Type of tax applied."
+    },
+    "CalculatedRate": {
+      "name": "Calculated Rate",
+      "definition": "Rate used to calculate the amount of this tax, levy or duty."
+    },
+    "BasisAmount": {
+      "name": "Basis Amount",
+      "definition": "Monetary value used as the basis on which this tax, levy or duty is calculated."
+    },
+    "CalculatedAmount": {
+      "name": "Calculated Amount",
+      "definition": "Monetary value resulting from the calculation of this tax, levy or duty."
+    },
+    "ExemptionReasonCode": {
+      "name": "Exemption Reason Code",
+      "definition": "Reason for tax exemption expressed as a code, if invoice or card transaction is out of tax processing."
+    },
+    "ExemptionReasonText": {
+      "name": "Exemption Reason Text",
+      "definition": "Reason for a tax exemption, if invoice or card transaction is out of tax processing."
+    },
+    "TaxCurrencyExchange": {
+      "name": "Tax Currency Exchange",
+      "definition": "If tax currency in tax calculation is different from invoice currency, then applied exchange rate is given in this message structure."
+    }
+  },
+  "isoRules": {
+    "R7": {
+      "definition": "Value according to external codelist."
+    }
+  }
+}

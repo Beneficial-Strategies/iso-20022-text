@@ -1,0 +1,52 @@
+{
+  "isoType": "PaymentTransactionInformation3",
+  "language": "en",
+  "name": "Payment Transaction Information 3",
+  "definition": "Reference and status information concerning the original transactions, included in the original instruction, to which the cancellation request message applies.",
+  "isoElements": {
+    "CancellationIdentification": {
+      "name": "Cancellation Identification",
+      "definition": "Unique and unambiguous identifier of a cancellation request, assigned by an instructing party.||Usage: the cancellation request identification can be used for reconciliation or to link tasks relating to the cancellation request transaction."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "name": "Original Payment Information Identification",
+      "definition": "Unique and unambiguous identifier of the original payment information block as assigned by the original sending party."
+    },
+    "OriginalInstructionIdentification": {
+      "name": "Original Instruction Identification",
+      "definition": "Original unique instruction identification as assigned by an instructing party for an instructed party to unambiguously identify the original instruction.||Usage: the original instruction identification is the original point to point reference used between the instructing party and the instructed party to refer to the original instruction."
+    },
+    "OriginalEndToEndIdentification": {
+      "name": "Original End To End Identification",
+      "definition": "Original unique identification assigned by the initiating party to unambiguously identify the original transaction. This identification is passed on, unchanged, throughout the entire end-to-end chain."
+    },
+    "OriginalTransactionIdentification": {
+      "name": "Original Transaction Identification",
+      "definition": "Original identification of a transaction, as assigned by the first instructing agent and passed on, unchanged, throughout the entire interbank chain."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "name": "Original Interbank Settlement Amount",
+      "definition": "Amount of money transferred between the instructing agent and the instructed agent in the original transaction."
+    },
+    "OriginalInstructedAmount": {
+      "name": "Original Instructed Amount",
+      "definition": "Amount of money to be moved between the debtor and the creditor, before deduction of charges, expressed in the currency as ordered by the initiating party in the original transaction."
+    },
+    "InstructingAgent": {
+      "name": "Instructing Agent",
+      "definition": "Agent that instructs the next party in the chain to carry out the (set of) instruction(s)."
+    },
+    "InstructedAgent": {
+      "name": "Instructed Agent",
+      "definition": "Agent that is instructed by the previous party in the chain to carry out the (set of) instruction(s)."
+    },
+    "CancellationReasonInformation": {
+      "name": "Cancellation Reason Information",
+      "definition": "Detailed information on the cancellation reason."
+    },
+    "OriginalTransactionReference": {
+      "name": "Original Transaction Reference",
+      "definition": "Set of key elements of the original transaction being referred to."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "isoType": "DataSetSubmissionReferences4",
+  "language": "en",
+  "name": "Data Set Submission References 4",
+  "definition": "Provides references to the transactions both for the matching application and for the user.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties."
+    },
+    "PurchaseOrderReference": {
+      "name": "Purchase Order Reference",
+      "definition": "Reference to the purchase order of the underlying transaction."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Own reference to the transaction for the financial institution."
+    },
+    "ForcedMatch": {
+      "name": "Forced Match",
+      "definition": "Specifies that this message should force the matching application to match all data sets it has received so far for the transaction identified by the transaction identification."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching engine to the baseline when it is established."
+    },
+    "TransactionStatus": {
+      "name": "Transaction Status",
+      "definition": "Identifies the status of the transaction by means of a code."
+    }
+  }
+}

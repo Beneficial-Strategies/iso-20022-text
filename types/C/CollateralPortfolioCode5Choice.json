@@ -1,0 +1,16 @@
+{
+  "isoType": "CollateralPortfolioCode5Choice",
+  "language": "en",
+  "name": "Collateral Portfolio Code 5 Choice",
+  "definition": "Specifies the unique codes identifying the portfolio.",
+  "isoElements": {
+    "Portfolio": {
+      "name": "Portfolio",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the portfolio if the collateral is posted on a portfolio basis.||Usage:|NoPortfolio is reported if the collateralisation was performed on a transaction level basis, or if there is no collateral agreement or if no collateral is posted or received."
+    },
+    "MarginPortfolioCode": {
+      "name": "Margin Portfolio Code",
+      "definition": "Specifies the unique code assigned by the reporting counterparty to the margin portfolio if the collateral is posted on a margin portfolio basis."
+    }
+  }
+}

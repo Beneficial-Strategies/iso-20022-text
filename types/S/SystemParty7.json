@@ -1,0 +1,56 @@
+{
+  "isoType": "SystemParty7",
+  "language": "en",
+  "name": "System Party 7",
+  "definition": "Provides the definition of a party within a system. |A party shall denote any legal or organisational entity required in the system. |This entity shall store the parties from the first three levels: the system operator, the central securities depositaries, the participants of the central securities depositaries, the national central banks and payment banks.",
+  "isoElements": {
+    "PartyIdentification": {
+      "name": "Party Identification",
+      "definition": "Unique identification of the party within the system."
+    },
+    "Address": {
+      "name": "Address",
+      "definition": "Information that locates and identifies a specific address."
+    },
+    "ContactDetails": {
+      "name": "Contact Details",
+      "definition": "Specifies the options on how to contact the party."
+    },
+    "OpeningDate": {
+      "name": "Opening Date",
+      "definition": "Specifies the opening date of the party."
+    },
+    "ClosingDate": {
+      "name": "Closing Date",
+      "definition": "Specifies the closing date of the party."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Specifies the type classification of the party."
+    },
+    "TechnicalAddress": {
+      "name": "Technical Address",
+      "definition": "Unique technical address to unambiguously identify a party for receiving messages from the executing system."
+    },
+    "MarketSpecificAttribute": {
+      "name": "Market Specific Attribute",
+      "definition": "Additional attributes defined by a central security depositary for a party."
+    },
+    "Name": {
+      "name": "Name",
+      "definition": "Name by which a party is known and which is usually used to identify that party."
+    },
+    "ResidenceType": {
+      "name": "Residence Type",
+      "definition": "Specifies the type of residence where the party has its permanent home or principal establishment."
+    },
+    "LockStatus": {
+      "name": "Lock Status",
+      "definition": "Specifies whether the party is locked or not, and the reason for this status, when required."
+    },
+    "Restriction": {
+      "name": "Restriction",
+      "definition": "Defines the specific processing characteristics for a party to ensure configurability of specific requirements, as prescribed by national legal and regulatory requirements and practices."
+    }
+  }
+}

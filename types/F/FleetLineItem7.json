@@ -1,0 +1,116 @@
+{
+  "isoType": "FleetLineItem7",
+  "language": "en",
+  "name": "Fleet Line Item 7",
+  "definition": "Supplies additional transaction information for fleet transactions.",
+  "isoElements": {
+    "Fuel": {
+      "name": "Fuel",
+      "definition": "Indicates whether or not the line item represents a fuel or non-fuel product or service.||True = Fuel item|False = Non-fuel item"
+    },
+    "ServiceType": {
+      "name": "Service Type",
+      "definition": "Type of service received at the acceptor location."
+    },
+    "FuelBrandCode": {
+      "name": "Fuel Brand Code",
+      "definition": "Code that identifies the brand of the fuel purchased."
+    },
+    "ProductCode": {
+      "name": "Product Code",
+      "definition": "Product code of fleet product or service being purchased."
+    },
+    "ProductCategory": {
+      "name": "Product Category",
+      "definition": "Contains a code that identifies a category of fleet products or services."
+    },
+    "ProductQualifier": {
+      "name": "Product Qualifier",
+      "definition": "Contains a code that identifies the product qualifier of the fleet product or service."
+    },
+    "ProductCodeAssigner": {
+      "name": "Product Code Assigner",
+      "definition": "Contains a code that identifies the product code assigner."
+    },
+    "UnitPriceTax": {
+      "name": "Unit Price Tax",
+      "definition": "Indicates whether or not tax is included in unit price.||True: includes tax |False: does not include tax."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Unit price of the fleet line item."
+    },
+    "UnitOfMeasure": {
+      "name": "Unit Of Measure",
+      "definition": "Unit of measure of the item purchased. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PercentageDiscountRate": {
+      "name": "Percentage Discount Rate",
+      "definition": "Contains the discount rate in retail minus discount method."
+    },
+    "PerUnitDiscountRate": {
+      "name": "Per Unit Discount Rate",
+      "definition": "Contains unit discount per unit amount in retail minus discount model."
+    },
+    "FlatDiscountRate": {
+      "name": "Flat Discount Rate",
+      "definition": "Contains discount amount per transaction."
+    },
+    "CostPlusUnitDiscount": {
+      "name": "Cost Plus Unit Discount",
+      "definition": "Contains the unit discount per unite amount in cost plus discount method."
+    },
+    "CostPlusUnitDiscountSign": {
+      "name": "Cost Plus Unit Discount Sign",
+      "definition": "Contain the sign of cost plus unite discount."
+    },
+    "CostPlusUnitPrice": {
+      "name": "Cost Plus Unit Price",
+      "definition": "Contains unit price in cost plus discount method."
+    },
+    "TotalTimePluggedIn": {
+      "name": "Total Time Plugged In",
+      "definition": "Contains the total time the vehicle was plugged in."
+    },
+    "TotalTimeCharging": {
+      "name": "Total Time Charging",
+      "definition": "Contain the actual total time taken to charge the vehicle."
+    },
+    "ChargingStartTime": {
+      "name": "Charging Start Time",
+      "definition": "Contains the start time of the charge."
+    },
+    "ChargingCompletionTime": {
+      "name": "Charging Completion Time",
+      "definition": "Contains the completion time of the charge."
+    },
+    "ProductQuantity": {
+      "name": "Product Quantity",
+      "definition": "Quantity of product or item."
+    },
+    "DiscountAmount": {
+      "name": "Discount Amount",
+      "definition": "Contains the discount amount applied to the fleet transaction (includes coupons)."
+    },
+    "NonTaxable": {
+      "name": "Non Taxable",
+      "definition": "Indicates whether or not amount of fleet purchase is taxable."
+    },
+    "Tax": {
+      "name": "Tax",
+      "definition": "Taxes related to the products or services."
+    },
+    "TotalAmountExcludingTax": {
+      "name": "Total Amount Excluding Tax",
+      "definition": "Total amount excluding tax."
+    },
+    "TotalAmountIncludingTax": {
+      "name": "Total Amount Including Tax",
+      "definition": "Total amount including tax."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Contains net line item, less any taxes exempted or discounts."
+    }
+  }
+}

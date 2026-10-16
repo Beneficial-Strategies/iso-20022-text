@@ -1,0 +1,40 @@
+{
+  "isoType": "SettlementFailsData3",
+  "language": "en",
+  "name": "Settlement Fails Data 3",
+  "definition": "Specifies the aggregated data of settlement fails instructions.",
+  "isoElements": {
+    "Total": {
+      "name": "Total",
+      "definition": "Total of all types of settlement transactions."
+    },
+    "ParticipantInFail": {
+      "name": "Participant In Fail",
+      "definition": "Further details on the central securities depositories participants with the highest rates of settlement fails."
+    },
+    "FailsPerCurrency": {
+      "name": "Fails Per Currency",
+      "definition": "Further details on the settlement fails per currency."
+    },
+    "FailsPerFinancialInstrumentType": {
+      "name": "Fails Per Financial Instrument Type",
+      "definition": "Further details on the settlement fails per financial instrument type."
+    },
+    "SecuritiesInFail": {
+      "name": "Securities In Fail",
+      "definition": "Further details on the securities with the highest rates of settlement fails."
+    },
+    "FailsPerTransactionType": {
+      "name": "Fails Per Transaction Type",
+      "definition": "Further details on the settlement fails per transaction type."
+    },
+    "TotalSettlementPenalties": {
+      "name": "Total Settlement Penalties",
+      "definition": "Total of all types of settlement penalties (such as total of late matching and settlement fails)."
+    },
+    "FailureReason": {
+      "name": "Failure Reason",
+      "definition": "Further details on the reason for the settlement fails."
+    }
+  }
+}

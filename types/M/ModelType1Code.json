@@ -1,0 +1,38 @@
+{
+  "isoType": "ModelType1Code",
+  "language": "en",
+  "name": "Model Type 1 Code",
+  "definition": "Categorisation of margin models used by central counterparties.",
+  "isoCodes": {
+    "EXPS": {
+      "isoName": "ExpectedShortfall",
+      "name": "Expected Shortfall",
+      "definition": "Margin model used to calculate collateral requirements to cover potential future exposures whereby the model estimates the expected loss of a portfolio over a given holding period, or margin period of risk, to a set confidence interval."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Margin model used to calculate collateral requirements to cover potential future exposures that is not classified by any other the model type code."
+    },
+    "ORIA": {
+      "isoName": "OtherRiskAggregation",
+      "name": "Other Risk Aggregation",
+      "definition": "Margin model used to calculate collateral requirements where the total collateral requirement to cover potential future exposures for a portfolio is an aggregation of the estimated potential future exposure on each financial instrument of that portfolio. Such the methodology for such aggregation is defined explicitly by the model itself."
+    },
+    "SPAN": {
+      "isoName": "Span",
+      "name": "Span",
+      "definition": "Margin model used to calculate collateral requirements to cover potential future exposure developed by CME in the 1980s, or other derivatives thereof."
+    },
+    "VARI": {
+      "isoName": "ValueAtRisk",
+      "name": "Value At Risk",
+      "definition": "Margin model used to calculate collateral requirements to cover potential future exposure whereby the model estimates the potential loss of a portfolio over a given holding period, or margin period of risk, to a given confidence interval."
+    },
+    "SAMO": {
+      "isoName": "ScenarioAnalysisModel",
+      "name": "Scenario Analysis Model",
+      "definition": "Scenario analysis model other than SPAN."
+    }
+  }
+}

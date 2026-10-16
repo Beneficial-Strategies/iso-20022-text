@@ -1,0 +1,21 @@
+{
+  "isoType": "PositionSetBuyerAndSeller2",
+  "language": "en",
+  "name": "Position Set Buyer And Seller 2",
+  "definition": "Variables used to quantify the different calculations for position sets and currency position sets reports.",
+  "isoElements": {
+    "Buyer": {
+      "name": "Buyer",
+      "definition": "Refers to the aggregated data for the buyer counterparty."
+    },
+    "Seller": {
+      "name": "Seller",
+      "definition": "Refers to the aggregated data for the seller counterparty."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

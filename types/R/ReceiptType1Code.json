@@ -1,0 +1,33 @@
+{
+  "isoType": "ReceiptType1Code",
+  "language": "en",
+  "name": "Receipt Type 1 Code",
+  "definition": "Way of transmitting receipt information to recipient.",
+  "isoCodes": {
+    "EMAL": {
+      "isoName": "EMail",
+      "name": "E Mail",
+      "definition": "Receipt transmitted by Email."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Other type of channel to transmit receipt information to the recipient."
+    },
+    "PAPR": {
+      "isoName": "Paper",
+      "name": "Paper",
+      "definition": "Receipt in a paper form."
+    },
+    "SMSM": {
+      "isoName": "SMS",
+      "name": "SMS",
+      "definition": "Receipt transmitted by SMS message."
+    },
+    "URID": {
+      "isoName": "UniformResourceIdentifier",
+      "name": "Uniform Resource Identifier",
+      "definition": "Receipt transmitted to a Uniform Resource Identifier (URI) address."
+    }
+  }
+}

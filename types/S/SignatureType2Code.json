@@ -1,0 +1,28 @@
+{
+  "isoType": "SignatureType2Code",
+  "language": "en",
+  "name": "Signature Type 2 Code",
+  "definition": "Type of signature.",
+  "isoCodes": {
+    "DIGI": {
+      "isoName": "Digital",
+      "name": "Digital",
+      "definition": "Technical signature that includes algorithms and private key and public key information. Used to sign and verify the contents of a message."
+    },
+    "ELEC": {
+      "isoName": "Electronic",
+      "name": "Electronic",
+      "definition": "Copy of a physical or original signature in an electronic format."
+    },
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "No signature."
+    },
+    "ORIG": {
+      "isoName": "Original",
+      "name": "Original",
+      "definition": "Written signature. May also be known as a physical or wet signature."
+    }
+  }
+}

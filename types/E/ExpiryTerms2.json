@@ -1,0 +1,41 @@
+{
+  "isoType": "ExpiryTerms2",
+  "language": "en",
+  "name": "Expiry Terms 2",
+  "definition": "Expiry conditions.",
+  "isoElements": {
+    "DateTime": {
+      "name": "Date Time",
+      "definition": "Date and time when the undertaking will cease to be available."
+    },
+    "AutoExtension": {
+      "name": "Auto Extension",
+      "definition": "Details related to the automatic extension of the undertaking."
+    },
+    "Condition": {
+      "name": "Condition",
+      "definition": "Documentary condition that indicates when the undertaking will cease to be available."
+    },
+    "OpenEndedIndicator": {
+      "name": "Open Ended Indicator",
+      "definition": "Indicates whether the expiry terms are without a fixed expiry date."
+    }
+  },
+  "isoRules": {
+    "DateTimeAndCondition5Rule": {
+      "definition": "If DateTime and OpenEndedIndicator are not present, Condition must be present."
+    },
+    "DateTimeAndCondition6Rule": {
+      "definition": "If Condition and OpenEndedIndicator are not present, DateTime must be present."
+    },
+    "OpenEnded2Rule": {
+      "definition": "If OpenEndedIndicator is TRUE, then DateTime, AutoExtension, and Condition must not be present."
+    },
+    "DateTimeAndCondition7Rule": {
+      "definition": "If DateTime is not present and OpenEndedIndicator is FALSE, Condition must be present."
+    },
+    "DateTimeAndCondition8Rule": {
+      "definition": "If Condition is not present and OpenEndedIndicator is FALSE, DateTime must be present."
+    }
+  }
+}

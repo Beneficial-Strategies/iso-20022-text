@@ -1,0 +1,24 @@
+{
+  "isoType": "TransactionCollateralData18Choice",
+  "language": "en",
+  "name": "Transaction Collateral Data 18 Choice",
+  "definition": "Provides the details of the collateral used in the transaction.",
+  "isoElements": {
+    "RepurchaseTrade": {
+      "name": "Repurchase Trade",
+      "definition": "Data on collateral used for the repurchase trade transaction."
+    },
+    "BuySellBack": {
+      "name": "Buy Sell Back",
+      "definition": "Data on collateral used for the buy sell back transaction."
+    },
+    "SecuritiesLending": {
+      "name": "Securities Lending",
+      "definition": "Specifies the type of collateral used for the securities lending transaction."
+    },
+    "MarginLending": {
+      "name": "Margin Lending",
+      "definition": "Data on collateral used for the margin lending transaction."
+    }
+  }
+}

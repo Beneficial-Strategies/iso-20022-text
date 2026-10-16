@@ -1,0 +1,24 @@
+{
+  "isoType": "InformationResponseSD1V01",
+  "language": "en",
+  "name": "Information Response SD 1 V 01",
+  "definition": "This extends the message InformationRequestResponse.",
+  "isoElements": {
+    "InvestigationIdentification": {
+      "name": "Investigation Identification",
+      "definition": "Information used to identify the request."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time of creation of the extension."
+    },
+    "AccountServicerIdentification": {
+      "name": "Account Servicer Identification",
+      "definition": "Identifies the account servicing institution."
+    },
+    "AccountAndParties": {
+      "name": "Account And Parties",
+      "definition": "Requested account and its owners."
+    }
+  }
+}

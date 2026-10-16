@@ -1,0 +1,20 @@
+{
+  "isoType": "CurrencyControlRequestOrLetterV04",
+  "language": "en",
+  "name": "Currency Control Request Or Letter V 04",
+  "definition": "The CurrencyControlRequestOrLetter message is sent by the reporting party (respectively the registration agent) to the registration agent (respectively the reporting party) to send a currency control related letter or to request for supporting documents.",
+  "isoElements": {
+    "GroupHeader": {
+      "name": "Group Header",
+      "definition": "Characteristics shared by all individual items included in the message."
+    },
+    "RequestOrLetter": {
+      "name": "Request Or Letter",
+      "definition": "Supporting document request or letter details."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

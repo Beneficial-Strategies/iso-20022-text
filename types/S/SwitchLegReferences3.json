@@ -1,0 +1,28 @@
+{
+  "isoType": "SwitchLegReferences3",
+  "language": "en",
+  "name": "Switch Leg References 3",
+  "definition": "Information about a switch leg that is rejected or repaired.",
+  "isoElements": {
+    "LegIdentification": {
+      "name": "Leg Identification",
+      "definition": "Identification of a switch leg."
+    },
+    "LegRejectionReason": {
+      "name": "Leg Rejection Reason",
+      "definition": "Additional information about the reason for the rejection of the leg."
+    },
+    "RepairedFee": {
+      "name": "Repaired Fee",
+      "definition": "Elements from the original individual order that have been repaired so that the order can be accepted."
+    },
+    "InvestmentAccountDetails": {
+      "name": "Investment Account Details",
+      "definition": "Account identification of the switch leg that is rejected or repaired."
+    },
+    "FinancialInstrumentDetails": {
+      "name": "Financial Instrument Details",
+      "definition": "Financial instrument identification of the switch leg that is rejected or repaired."
+    }
+  }
+}

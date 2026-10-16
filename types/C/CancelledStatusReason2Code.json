@@ -1,0 +1,28 @@
+{
+  "isoType": "CancelledStatusReason2Code",
+  "language": "en",
+  "name": "Cancelled Status Reason 2 Code",
+  "definition": "Specifies the underlying reason for cancellation of the associated transaction.",
+  "isoCodes": {
+    "CANH": {
+      "isoName": "CancelledByHub",
+      "name": "Cancelled By Hub",
+      "definition": "Transaction is cancelled by the hub."
+    },
+    "CANP": {
+      "isoName": "CancelledByInstructingParty",
+      "name": "Cancelled By Instructing Party",
+      "definition": "Transaction is cancelled by the instructing party."
+    },
+    "CXLR": {
+      "isoName": "EndOfLife",
+      "name": "End Of Life",
+      "definition": "Transaction is rejected by the executing party, the rejection is final therefore the order is cancelled in the system."
+    },
+    "CANO": {
+      "isoName": "CancelledByOther",
+      "name": "Cancelled By Other",
+      "definition": "Transaction is cancelled by a party other than the instructing party, eg, a market infrastructure such as a stock exchange."
+    }
+  }
+}

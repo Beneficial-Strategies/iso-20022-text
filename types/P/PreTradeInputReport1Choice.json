@@ -1,0 +1,16 @@
+{
+  "isoType": "PreTradeInputReport1Choice",
+  "language": "en",
+  "name": "Pre Trade Input Report 1 Choice",
+  "definition": "Choice of a pre-trade input report either as a new report or as a cancellation report.",
+  "isoElements": {
+    "New": {
+      "name": "New",
+      "definition": "Pre-trade input related data report."
+    },
+    "Cancellation": {
+      "name": "Cancellation",
+      "definition": "Cancellation of a previously sent report, probably because of erroneous data."
+    }
+  }
+}

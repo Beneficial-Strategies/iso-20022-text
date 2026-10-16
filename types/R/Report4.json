@@ -1,0 +1,60 @@
+{
+  "isoType": "Report4",
+  "language": "en",
+  "name": "Report 4",
+  "definition": "General characteristics of the report.",
+  "isoElements": {
+    "ReportNumber": {
+      "name": "Report Number",
+      "definition": "Sequential number of the report."
+    },
+    "QueryReference": {
+      "name": "Query Reference",
+      "definition": "Identification of the SecuritiesStatementQuery message sent to request this statement."
+    },
+    "ReportIdentification": {
+      "name": "Report Identification",
+      "definition": "Unique identification of the report."
+    },
+    "ReportDateTime": {
+      "name": "Report Date Time",
+      "definition": "Date and time of the report."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Preparation date and time of the report."
+    },
+    "PreviousReportDateTime": {
+      "name": "Previous Report Date Time",
+      "definition": "Previous report date and time."
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "definition": "Specifies the frequency of the report."
+    },
+    "UpdateType": {
+      "name": "Update Type",
+      "definition": "Specifies whether the report is complete or contains changes only."
+    },
+    "ReportBasis": {
+      "name": "Report Basis",
+      "definition": "Specifies the type of balance on which the report is prepared."
+    },
+    "ReportPeriod": {
+      "name": "Report Period",
+      "definition": "Period for which the report is given."
+    },
+    "ReportSource": {
+      "name": "Report Source",
+      "definition": "Specifies the source of the report."
+    },
+    "AuditedIndicator": {
+      "name": "Audited Indicator",
+      "definition": "Indicates whether the report is audited or not."
+    },
+    "ActivityIndicator": {
+      "name": "Activity Indicator",
+      "definition": "Indicates whether there is activity or an information update reported in the report."
+    }
+  }
+}

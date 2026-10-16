@@ -1,0 +1,20 @@
+{
+  "isoType": "InvoiceTaxReportV01",
+  "language": "en",
+  "name": "Invoice Tax Report V 01",
+  "definition": "The InvoiceTaxReport message is sent by tax responsible to tax authority. Tax authorities require corporates to report their sales based value added tax (VAT). This message is targeted to this reporting based on information in sales invoices and card transactions.",
+  "isoElements": {
+    "InvoiceTaxReportHeader": {
+      "name": "Invoice Tax Report Header",
+      "definition": "Defines message level identification, number of individual tax reports and tax authority."
+    },
+    "TaxReport": {
+      "name": "Tax Report",
+      "definition": "Contains all needed party details for tax agency (sender of the TaxReport) and tax authority (receiver of the TaxReport) and the details of the reported sales transaction and calculated tax related that specific business transaction."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "CollateralManagementCancellationStatusV05",
+  "language": "en",
+  "name": "Collateral Management Cancellation Status V 05",
+  "definition": "Scope|The CollateralManagementCancellationStatus message is sent by:|- the collateral taker or its collateral manager to the collateral giver or its collateral manager, or|- the collateral giver or its collateral manager to the collateral taker or its collateral manager.|This message is used to provide the status of accepted or rejected for the CollateralManagementCancellationRequest message previously received.||The message definition is intended for use with the ISO20022 Business Application Header.||Usage|The CollateralManagementCancellationStatus message can be sent to provide a status for a previously received CollateralManagementCancellationRequest message.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unambiguous identification of the transaction as know by the instructing party."
+    },
+    "Reference": {
+      "name": "Reference",
+      "definition": "Provides reference to the previous received message."
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "definition": "Provides information like the identification of the party or parties associated with the collateral agreement, the exposure type and the valuation date."
+    },
+    "CancellationStatus": {
+      "name": "Cancellation Status",
+      "definition": "Provides status details of the collateral cancellation message."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that can not be captured in the structured fields and/or any other specific block."
+    }
+  }
+}

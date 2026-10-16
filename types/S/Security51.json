@@ -1,0 +1,57 @@
+{
+  "isoType": "Security51",
+  "language": "en",
+  "name": "Security 51",
+  "definition": "Data specific to securities being subject to the transaction.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifier of the security subject of the transaction."
+    },
+    "ClassificationType": {
+      "name": "Classification Type",
+      "definition": "Classification type of the financial instrument, as per the ISO Classification of Financial Instrument (CFI) codification, that is common share with voting rights, fully paid, or registered."
+    },
+    "QuantityOrNominalValue": {
+      "name": "Quantity Or Nominal Value",
+      "definition": "Quantity or nominal amount of the security or commodity subject of the transaction."
+    },
+    "UnitPrice": {
+      "name": "Unit Price",
+      "definition": "Price of unit of collateral component, including accrued interest for interest-bearing securities, used to value the security."
+    },
+    "MarketValue": {
+      "name": "Market Value",
+      "definition": "Market value of asset or collateral component."
+    },
+    "Quality": {
+      "name": "Quality",
+      "definition": "Code that classifies the risk of the security."
+    },
+    "Maturity": {
+      "name": "Maturity",
+      "definition": "Maturity date of the security."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Data on the securities issuer."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Classification of the type of the security."
+    },
+    "ExclusiveArrangement": {
+      "name": "Exclusive Arrangement",
+      "definition": "Indication whether the borrower has exclusive access to borrow from the lender's securities portfolio."
+    },
+    "AvailableForCollateralReuse": {
+      "name": "Available For Collateral Reuse",
+      "definition": "Indication whether the collateral taker can reuse the securities provided as a collateral."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/Identification Must be present| Or\t/ClassificationType Must be present| Or\t/QuantityOrNominalValue Must be present| Or\t/UnitPrice Must be present| Or /MarketValue Must be present| Or /Quality Must be present| Or /Maturity Must be present| Or /Issuer Must be present| Or /Type Must be present| Or /ExclusiveArrangement Must be present| Or /AvailableForCollateralReuse Must be present"
+    }
+  }
+}

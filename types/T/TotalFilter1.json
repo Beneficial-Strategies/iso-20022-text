@@ -1,0 +1,28 @@
+{
+  "isoType": "TotalFilter1",
+  "language": "en",
+  "name": "Total Filter 1",
+  "definition": "Filter to compute the totals.",
+  "isoElements": {
+    "POIIdentification": {
+      "name": "POI Identification",
+      "definition": "Identifier of the POI system performing a reconciliation."
+    },
+    "SaleIdentification": {
+      "name": "Sale Identification",
+      "definition": "Identification of the sale terminal (electronic cash register or point of sale terminal) or the sale system."
+    },
+    "CashierIdentification": {
+      "name": "Cashier Identification",
+      "definition": "Identification of the cashier who carried out the transaction."
+    },
+    "ShiftNumber": {
+      "name": "Shift Number",
+      "definition": "Identifies the shift of the cashier."
+    },
+    "TotalsGroupIdentification": {
+      "name": "Totals Group Identification",
+      "definition": "Identification of a group of transaction on a POI Terminal, having the same Sale features."
+    }
+  }
+}

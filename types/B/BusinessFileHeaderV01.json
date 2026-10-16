@@ -1,0 +1,16 @@
+{
+  "isoType": "BusinessFileHeaderV01",
+  "language": "en",
+  "name": "Business File Header V 01",
+  "definition": "The Business File Header contains information about the parties involved in the file exchange, as well as information about the content and its structure. |The Business File headers has four major functions:|- Provides information about the sender of the file.|- Identifies the file exchanged: each file must have a unique File Identifier.|- Describes the type of message(s) exchanged: by default, the type of messages contained in a file will be ISO 20022 message definitions.|- Provides processing information to the receiving party: that would be, for instance, the total number of messages included in the file.||Usage: The Business File Header (head.002) is to be used exclusively in existing implementations, such as the Eurosystem, and will be replaced for general use by the upcoming next version defined as the Business File Envelope (nvlp.002). The Business File Header (head.002) will therefore not be maintained in the future and any new implementation must use the Business File Envelope (nvlp.002).",
+  "isoElements": {
+    "PayloadDescription": {
+      "name": "Payload Description",
+      "definition": "Contains information about the payload."
+    },
+    "Payload": {
+      "name": "Payload",
+      "definition": "File Payload is used to include the exchanged documents within the file structure."
+    }
+  }
+}

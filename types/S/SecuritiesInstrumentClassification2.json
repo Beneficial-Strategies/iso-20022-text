@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesInstrumentClassification2",
+  "language": "en",
+  "name": "Securities Instrument Classification 2",
+  "definition": "Details an individuation of the classification type of the financial instrument.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identifier of the financial instrument classification type code."
+    },
+    "Modification": {
+      "name": "Modification",
+      "definition": "Modification status for the record compared to the previous report."
+    },
+    "ValidityPeriod": {
+      "name": "Validity Period",
+      "definition": "Details the validity of the specific record.||Usage:|Within MiFIR, the FromDate is populated while the instrument is valid. From Date To Date is only populated when the record is being invalidated."
+    },
+    "LastUpdated": {
+      "name": "Last Updated",
+      "definition": "Date when this record was last modified."
+    }
+  }
+}

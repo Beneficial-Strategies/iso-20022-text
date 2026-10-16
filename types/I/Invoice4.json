@@ -1,0 +1,120 @@
+{
+  "isoType": "Invoice4",
+  "language": "en",
+  "name": "Invoice 4",
+  "definition": "Invoice data pertaining to the payment transaction.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Contains the invoice number."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Effective billing date."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Contains the date and time the electronic invoice was created."
+    },
+    "SummaryCommodityIdentification": {
+      "name": "Summary Commodity Identification",
+      "definition": "Provides the identifier assigned by the card acceptor that best categorizes the items being purchased in a standardized commodity group."
+    },
+    "SellerName": {
+      "name": "Seller Name",
+      "definition": "Name of the seller."
+    },
+    "SellerIdentification": {
+      "name": "Seller Identification",
+      "definition": "Identification of the seller."
+    },
+    "SellerBusinessName": {
+      "name": "Seller Business Name",
+      "definition": "Business name of the seller."
+    },
+    "SellerLegalCorporateName": {
+      "name": "Seller Legal Corporate Name",
+      "definition": "Legal Corporate Name of the seller."
+    },
+    "SellerLocalData": {
+      "name": "Seller Local Data",
+      "definition": "Contains local language equivalent(s) of seller data."
+    },
+    "SellerAddress": {
+      "name": "Seller Address",
+      "definition": "Address of the seller."
+    },
+    "SellerContact": {
+      "name": "Seller Contact",
+      "definition": "Contact information related to the seller."
+    },
+    "SellerTaxRegistrationIdentification": {
+      "name": "Seller Tax Registration Identification",
+      "definition": "Identification of the seller recognized by the taxation authority."
+    },
+    "SellerAdditionalInformation": {
+      "name": "Seller Additional Information",
+      "definition": "Additional information about the seller."
+    },
+    "BuyerName": {
+      "name": "Buyer Name",
+      "definition": "Name of the buyer."
+    },
+    "BuyerIdentification": {
+      "name": "Buyer Identification",
+      "definition": "Identification of the buyer."
+    },
+    "BuyerBusinessName": {
+      "name": "Buyer Business Name",
+      "definition": "Business name of the buyer."
+    },
+    "BuyerLegalCorporateName": {
+      "name": "Buyer Legal Corporate Name",
+      "definition": "Legal Corporate Name of the buyer."
+    },
+    "BuyerLocalData": {
+      "name": "Buyer Local Data",
+      "definition": "Contains local language equivalent(s) of buyer data."
+    },
+    "BuyerAddress": {
+      "name": "Buyer Address",
+      "definition": "Address of the buyer."
+    },
+    "BuyerContact": {
+      "name": "Buyer Contact",
+      "definition": "Contact information related to the buyer."
+    },
+    "BuyerTaxRegistrationIdentification": {
+      "name": "Buyer Tax Registration Identification",
+      "definition": "Identification of the buyer recognized by the taxation authority."
+    },
+    "BuyerAdditionalInformation": {
+      "name": "Buyer Additional Information",
+      "definition": "Additional information about the buyer."
+    },
+    "FreightAmount": {
+      "name": "Freight Amount",
+      "definition": "Contains the freight charges for the entire purchase."
+    },
+    "TaxTotal": {
+      "name": "Tax Total",
+      "definition": "Contains the total tax amount for the entire purchase."
+    },
+    "TaxReclaimMethod": {
+      "name": "Tax Reclaim Method",
+      "definition": "Code that identifies the disposition of the tax reclaim invoice."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    },
+    "LineItem": {
+      "name": "Line Item",
+      "definition": "Line item information."
+    }
+  }
+}

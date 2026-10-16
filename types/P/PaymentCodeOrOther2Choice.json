@@ -1,0 +1,20 @@
+{
+  "isoType": "PaymentCodeOrOther2Choice",
+  "language": "en",
+  "name": "Payment Code Or Other 2 Choice",
+  "definition": "Choice between a payment term in a coded or free format.",
+  "isoElements": {
+    "PaymentCode": {
+      "name": "Payment Code",
+      "definition": "Specifies the payment period in coded form and a number of days."
+    },
+    "PaymentDueDate": {
+      "name": "Payment Due Date",
+      "definition": "Specifies the payment date as a fixed date."
+    },
+    "OtherPaymentTerms": {
+      "name": "Other Payment Terms",
+      "definition": "Specifies payment terms not present in a code list."
+    }
+  }
+}

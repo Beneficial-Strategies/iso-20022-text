@@ -1,0 +1,16 @@
+{
+  "isoType": "MaintenanceIdentificationAssociation1",
+  "language": "en",
+  "name": "Maintenance Identification Association 1",
+  "definition": "Association of the TM identifier and the MTM identifier of an entity.",
+  "isoElements": {
+    "MasterTMIdentification": {
+      "name": "Master TM Identification",
+      "definition": "Identifier for the master terminal manager."
+    },
+    "TMIdentification": {
+      "name": "TM Identification",
+      "definition": "Identifier for the terminal manager requesting the delegation."
+    }
+  }
+}

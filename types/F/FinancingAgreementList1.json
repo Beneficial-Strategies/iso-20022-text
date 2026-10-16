@@ -1,0 +1,64 @@
+{
+  "isoType": "FinancingAgreementList1",
+  "language": "en",
+  "name": "Financing Agreement List 1",
+  "definition": "Defines a list of party management registration and guarantee requests.",
+  "isoElements": {
+    "Identifier": {
+      "name": "Identifier",
+      "definition": "Identification assigned to unambiguously identify the agreement list."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Creation date of this list."
+    },
+    "RelatedDocument": {
+      "name": "Related Document",
+      "definition": "Reference to related document."
+    },
+    "AgreementRequestor": {
+      "name": "Agreement Requestor",
+      "definition": "Requestor of the agreement(s)."
+    },
+    "AgreementResponder": {
+      "name": "Agreement Responder",
+      "definition": "Party the agreement(s) are (to be) made with."
+    },
+    "GuaranteeApplicant": {
+      "name": "Guarantee Applicant",
+      "definition": "Applicant of the guarantee."
+    },
+    "GuaranteeBeneficiary": {
+      "name": "Guarantee Beneficiary",
+      "definition": "Beneficiary of the guarantee."
+    },
+    "GuaranteeIssuer": {
+      "name": "Guarantee Issuer",
+      "definition": "Party that issues the guarantee."
+    },
+    "NotificationInformation": {
+      "name": "Notification Information",
+      "definition": "Party or parties to notify and to acknowledge the agreement."
+    },
+    "Item": {
+      "name": "Item",
+      "definition": "List of agreement items."
+    },
+    "ItemCount": {
+      "name": "Item Count",
+      "definition": "Number of individual items contained in the list."
+    },
+    "ControlSum": {
+      "name": "Control Sum",
+      "definition": "Total of all individual amounts included in the list, irrespective of currencies."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional proprietary formal information concerning the list."
+    },
+    "ValidationStatusInformation": {
+      "name": "Validation Status Information",
+      "definition": "Validation status of the list."
+    }
+  }
+}

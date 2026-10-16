@@ -1,0 +1,20 @@
+{
+  "isoType": "Traceability3",
+  "language": "en",
+  "name": "Traceability 3",
+  "definition": "Identification of partners involved in exchange from the merchant to the issuer, with the relative timestamp of their exchanges.",
+  "isoElements": {
+    "RelayIdentification": {
+      "name": "Relay Identification",
+      "definition": "Identification of a partner of a message exchange."
+    },
+    "TraceDateTimeIn": {
+      "name": "Trace Date Time In",
+      "definition": "Date and time of incoming data exchange for relaying or processing."
+    },
+    "TraceDateTimeOut": {
+      "name": "Trace Date Time Out",
+      "definition": "Date and time of the outgoing exchange for relaying or processing."
+    }
+  }
+}

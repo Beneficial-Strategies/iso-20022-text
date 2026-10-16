@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMWithdrawalRequestV03",
+  "language": "en",
+  "name": "ATM Withdrawal Request V 03",
+  "definition": "The ATMWithdrawalRequest message is sent by an ATM to an acquirer or its agent to request the approval of a withdrawal transaction at an ATM.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Information related to the protocol management on a segment of the path from the ATM to the acquirer."
+    },
+    "ProtectedATMWithdrawalRequest": {
+      "name": "Protected ATM Withdrawal Request",
+      "definition": "Encrypted body of the message."
+    },
+    "ATMWithdrawalRequest": {
+      "name": "ATM Withdrawal Request",
+      "definition": "Information related to the request of a withdrawal transaction from an ATM."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

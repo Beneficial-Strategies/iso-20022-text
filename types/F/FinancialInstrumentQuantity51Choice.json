@@ -1,0 +1,28 @@
+{
+  "isoType": "FinancialInstrumentQuantity51Choice",
+  "language": "en",
+  "name": "Financial Instrument Quantity 51 Choice",
+  "definition": "Choice between formats for the specification of the number of units, amount of money or percentage.",
+  "isoElements": {
+    "UnitsNumber": {
+      "name": "Units Number",
+      "definition": "Number of investment fund units to be subscribed."
+    },
+    "PercentageOfTotalRedemptionAmount": {
+      "name": "Percentage Of Total Redemption Amount",
+      "definition": "Percentage of the total redemption amount used for the subscription in an investment fund or investment fund class."
+    },
+    "NetAmount": {
+      "name": "Net Amount",
+      "definition": "Amount of money to be invested in the fund. |Net Amount = Quantity * Price."
+    },
+    "GrossAmount": {
+      "name": "Gross Amount",
+      "definition": "Amount of money to be paid by the investor when subscribing to fund units. |Gross amount = (Quantity * Price) + (Fees + Taxes)."
+    },
+    "DigitalTokenUnit": {
+      "name": "Digital Token Unit",
+      "definition": "Quantity of digital tokens expressed as a number, for example, a number of blockchain tokens."
+    }
+  }
+}

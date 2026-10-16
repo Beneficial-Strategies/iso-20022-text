@@ -1,0 +1,64 @@
+{
+  "isoType": "DebtorActivation6",
+  "language": "en",
+  "name": "Debtor Activation 6",
+  "definition": "Specifies the attributes for a debtor activation.",
+  "isoElements": {
+    "DebtorActivationIdentification": {
+      "name": "Debtor Activation Identification",
+      "definition": "Unique identification, as assigned by the initiating party, to unambiguously identify the activation.||Usage:|This element may be used for technical reconciliation purpose."
+    },
+    "DisplayName": {
+      "name": "Display Name",
+      "definition": "Name by which the debtor is known, other than legal name, such as the name to be shown to the creditor."
+    },
+    "UltimateDebtor": {
+      "name": "Ultimate Debtor",
+      "definition": "Ultimate party that owes an amount of money to the (ultimate) creditor."
+    },
+    "Debtor": {
+      "name": "Debtor",
+      "definition": "Party that owes an amount of money to the (ultimate) creditor."
+    },
+    "DebtorSolutionProvider": {
+      "name": "Debtor Solution Provider",
+      "definition": "Organisation servicing the e-invoicing for the debtor (to which the activation status report must be sent)."
+    },
+    "CustomerIdentification": {
+      "name": "Customer Identification",
+      "definition": "Unique identifier of the debtor required by the creditor, for example  the reference number or customer number. Unique identification provided by the web bank or web payment services user, with which the creditor may identify the debtor in its system."
+    },
+    "ContractFormatType": {
+      "name": "Contract Format Type",
+      "definition": "Document format type supported to exchange the contracts."
+    },
+    "ContractReference": {
+      "name": "Contract Reference",
+      "definition": "Code choice external/prop|Description||identical to the Instruction for Debtor"
+    },
+    "Creditor": {
+      "name": "Creditor",
+      "definition": "Party to which an amount of money is due."
+    },
+    "UltimateCreditor": {
+      "name": "Ultimate Creditor",
+      "definition": "Ultimate party to which an amount of money is due."
+    },
+    "ActivationRequestDeliveryParty": {
+      "name": "Activation Request Delivery Party",
+      "definition": "Creditor's service provider address to which the debtor activation has to be delivered."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Date and time at which the debtor activation will be activated."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "Date and time at which the debtor activation will be deactivated."
+    },
+    "DedicatedActivationCode": {
+      "name": "Dedicated Activation Code",
+      "definition": "Unique, one-time code that a creditor may require from a debtor for activation purposes, and which is known only by the creditor and the debtor."
+    }
+  }
+}

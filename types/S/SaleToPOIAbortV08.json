@@ -1,0 +1,20 @@
+{
+  "isoType": "SaleToPOIAbortV08",
+  "language": "en",
+  "name": "Sale To POI Abort V 08",
+  "definition": "The SaleToPOIAbort message is sent by a sale system to abort process on POI.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Set of characteristics related to the transfer of the request."
+    },
+    "Abort": {
+      "name": "Abort",
+      "definition": "Information related to an abort request."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC or a digital signature."
+    }
+  }
+}

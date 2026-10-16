@@ -1,0 +1,23 @@
+{
+  "isoType": "LegalRestrictions1Code",
+  "language": "en",
+  "name": "Legal Restrictions 1 Code",
+  "definition": "Specifies the regulatory restrictions applicable to a security.",
+  "isoCodes": {
+    "USLE": {
+      "isoName": "USLegal144A",
+      "name": "US Legal 144 A",
+      "definition": "Ownership or transfer of an unregistered security issued, pursuant to US legal restrictions 144A."
+    },
+    "NORE": {
+      "isoName": "NoRestrictions",
+      "name": "No Restrictions",
+      "definition": "Ownership or transfer of a security that is not subject to restrictions."
+    },
+    "REST": {
+      "isoName": "Restrictions",
+      "name": "Restrictions",
+      "definition": "Ownership or transfer of a security that is subject to restrictions, and not pursuant to 144A."
+    }
+  }
+}

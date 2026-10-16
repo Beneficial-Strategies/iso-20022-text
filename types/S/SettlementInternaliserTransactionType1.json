@@ -1,0 +1,28 @@
+{
+  "isoType": "SettlementInternaliserTransactionType1",
+  "language": "en",
+  "name": "Settlement Internaliser Transaction Type 1",
+  "definition": "Specifies the aggregated data per transaction type for a settlement internaliser.",
+  "isoElements": {
+    "SecuritiesBuyOrSell": {
+      "name": "Securities Buy Or Sell",
+      "definition": "Purchase or sale of securities."
+    },
+    "CollateralManagementOperation": {
+      "name": "Collateral Management Operation",
+      "definition": "Relates to securities transfers aiming to provide or to return collateral."
+    },
+    "SecuritiesLendingOrBorrowing": {
+      "name": "Securities Lending Or Borrowing",
+      "definition": "Relates to a securities lending or borrowing operation."
+    },
+    "RepurchaseAgreement": {
+      "name": "Repurchase Agreement",
+      "definition": "Repurchase transactions."
+    },
+    "OtherTransactions": {
+      "name": "Other Transactions",
+      "definition": "Covers any securities transactions type not covered as a dedicated type."
+    }
+  }
+}

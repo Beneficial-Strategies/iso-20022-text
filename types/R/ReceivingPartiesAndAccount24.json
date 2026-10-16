@@ -1,0 +1,32 @@
+{
+  "isoType": "ReceivingPartiesAndAccount24",
+  "language": "en",
+  "name": "Receiving Parties And Account 24",
+  "definition": "Parameters applied to the settlement of a security transfer.",
+  "isoElements": {
+    "ReceiversCustodianDetails": {
+      "name": "Receivers Custodian Details",
+      "definition": "Party that acts on behalf of the buyer of securities when the buyer does not have a direct relationship with the receiving agent."
+    },
+    "ReceiversIntermediary1Details": {
+      "name": "Receivers Intermediary 1 Details",
+      "definition": "Party that the receiver's custodian uses to effect the receipt of a security, when the receiver's custodian does not have a direct relationship with the receiving agent."
+    },
+    "ReceiversIntermediary2Details": {
+      "name": "Receivers Intermediary 2 Details",
+      "definition": "Party that interacts with the receiver’s intermediary 1."
+    },
+    "ReceivingAgentDetails": {
+      "name": "Receiving Agent Details",
+      "definition": "Party that receives securities from the delivering agent at the place of settlement, for example, central securities depository."
+    }
+  },
+  "isoRules": {
+    "ReceiversCustodianRule": {
+      "definition": "If ReceiversIntermediary1Details is present, then ReceiversCustodianDetails must be present. If ReceiversIntermediary1Details is not present, then ReceiversCustodianDetails is optional."
+    },
+    "ReceiversIntermediary1DetailsRule": {
+      "definition": "If ReceiversIntermediary2Details is present, then ReceiversIntermediary1Details must be present. If ReceiversIntermediary2Details is not present, then ReceiversIntermediary1Details is optional."
+    }
+  }
+}

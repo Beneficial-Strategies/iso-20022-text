@@ -1,0 +1,18 @@
+{
+  "isoType": "PassiveOrAgressiveType1Code",
+  "language": "en",
+  "name": "Passive Or Agressive Type 1 Code",
+  "definition": "Indicates whether order provided or took liquidity, on partial fill or fill order events.",
+  "isoCodes": {
+    "AGRE": {
+      "isoName": "Aggresive",
+      "name": "Aggresive",
+      "definition": "Order initiated the trade and thus took liquidity."
+    },
+    "PASV": {
+      "isoName": "Passive",
+      "name": "Passive",
+      "definition": "Order was already resting on the order book and providing liquidity."
+    }
+  }
+}

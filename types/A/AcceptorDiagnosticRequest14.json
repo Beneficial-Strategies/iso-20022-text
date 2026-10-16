@@ -1,0 +1,16 @@
+{
+  "isoType": "AcceptorDiagnosticRequest14",
+  "language": "en",
+  "name": "Acceptor Diagnostic Request 14",
+  "definition": "Diagnostic request from an acceptor.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "AcquirerAvailabilityRequested": {
+      "name": "Acquirer Availability Requested",
+      "definition": "Indicates if the availability of the acquirer must be tested.| Usage: When absent, default value is False."
+    }
+  }
+}

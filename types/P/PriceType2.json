@@ -1,0 +1,21 @@
+{
+  "isoType": "PriceType2",
+  "language": "en",
+  "name": "Price Type 2",
+  "definition": "Specification of the price type.",
+  "isoElements": {
+    "Structured": {
+      "name": "Structured",
+      "definition": "Structured format."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information about the type of charge."
+    }
+  },
+  "isoRules": {
+    "OtherCodeRule": {
+      "definition": "If Structured is OTHR, then AdditionalInformation is mandatory."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "PreTradeInputMarketDataReportV01",
+  "language": "en",
+  "name": "Pre Trade Input Market Data Report V 01",
+  "definition": "The PreTradeInputMarketDataReport message is sent by the Trading Venue to the Consolidated Tape Provider. The message contains pre-trade transparency data for financial instruments, including information such as bid and ask prices, order sizes, type of auction, and time of submission.",
+  "isoElements": {
+    "ReportHeader": {
+      "name": "Report Header",
+      "definition": "Provides general information on the pre-trade core input data report."
+    },
+    "InputDataReport": {
+      "name": "Input Data Report",
+      "definition": "Report related to the input of pre-trade transparency data for financial instruments."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

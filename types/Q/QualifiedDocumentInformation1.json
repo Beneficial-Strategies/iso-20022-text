@@ -1,0 +1,72 @@
+{
+  "isoType": "QualifiedDocumentInformation1",
+  "language": "en",
+  "name": "Qualified Document Information 1",
+  "definition": "Specifies an identification of a document assigned by and relative to the issuing party (of the identification).|Optionally, the component can contain a copy of the identified document and a URI/URL (Universal Resource Information/Location) facilitating retrieval of the document.|The component may also contain a cryptographic hash of the referenced document.|Financial items are identified by three parts:|(1) the creator of the document,|(2) an identification of a dossier, and|(3) an identification of a financial item.|The two latter identifiers are independent permitting to identify the same item in several lists.|The element identification is of schema type ID, it can be referenced by IDREF typed elements (composite=false).",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Local identification to be used in IDREFs in this message."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Party issuing the reference."
+    },
+    "ItemListIdentifier": {
+      "name": "Item List Identifier",
+      "definition": "Unambiguous identifier relative to the issuing party of a list of items."
+    },
+    "ItemIdentifier": {
+      "name": "Item Identifier",
+      "definition": "Unambiguous identifier relative to the issuing party of an item (independent of any list)."
+    },
+    "Date": {
+      "name": "Date",
+      "definition": "Date of document or element. This may be used as a control value to indicate a specific version."
+    },
+    "Version": {
+      "name": "Version",
+      "definition": "Identification of the version of the document or element. This may be used as a control value to indicate a specific version."
+    },
+    "ElectronicOriginal": {
+      "name": "Electronic Original",
+      "definition": "If true, document is in its original form, otherwise it is a scanned version."
+    },
+    "Digest": {
+      "name": "Digest",
+      "definition": "Cryptographic hash of the document."
+    },
+    "DocumentType": {
+      "name": "Document Type",
+      "definition": "Specifies the type of the document, for example commercial invoice."
+    },
+    "URL": {
+      "name": "URL",
+      "definition": "URL (Uniform Resource Locator) where the document can be found."
+    },
+    "AttachedFile": {
+      "name": "Attached File",
+      "definition": "Attached file for this document. The file must be in a self-describing format."
+    }
+  },
+  "isoRules": {
+    "CompressedFormatRule": {
+      "definition": "An attached document MAY be compressed in a self-describing format."
+    },
+    "DigestCalculationRule": {
+      "definition": "A digest is calculated over the uncompressed version of a document."
+    },
+    "DigestPresenceRule": {
+      "definition": "When a referenced document is part of the element signed by a digital signature and the document is not directly present in the message, the digest of the document SHOULD be used to provide integrity protection."
+    },
+    "SelfDefiningRule": {
+      "definition": "Documents MUST be in a self-defining format; their interpretation MUST NOT depend on external information. Examples are PDF/A or jpeg."
+    },
+    "URLRetrievalPolicyRule": {
+      "definition": "URL retrieval SHOULD NOT be totally automatic."
+    },
+    "XMLNamespaceRule": {
+      "definition": "Documents in XML format MUST contain a known name space."
+    }
+  }
+}

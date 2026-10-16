@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareReportingLevelType3",
+  "language": "en",
+  "name": "Compare Reporting Level Type 3",
+  "definition": "Specifies two values to compare for a reporting level type.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

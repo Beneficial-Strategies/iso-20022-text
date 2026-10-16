@@ -1,0 +1,21 @@
+{
+  "isoType": "PlaceOfPresentation1",
+  "language": "en",
+  "name": "Place Of Presentation 1",
+  "definition": "Location of a presentation.",
+  "isoElements": {
+    "Place": {
+      "name": "Place",
+      "definition": "Place of the presentation."
+    },
+    "Country": {
+      "name": "Country",
+      "definition": "Country where a presentation is to be made."
+    }
+  },
+  "isoRules": {
+    "PlaceOfPresentation2Rule": {
+      "definition": "If PlaceOfPresentation is \"ANYB\", Country must be present."
+    }
+  }
+}

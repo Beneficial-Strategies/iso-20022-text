@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyIdentification11Choice",
+  "language": "en",
+  "name": "Party Identification 11 Choice",
+  "definition": "Choice of identification of a party. The party can be identified by providing a BIC or a MIC or a proprietary code.",
+  "isoElements": {
+    "BICOrBEI": {
+      "name": "BIC Or BEI",
+      "definition": "Code allocated to a financial or non-financial institution by the ISO 9362 Registration Authority, as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "CentralCounterparty": {
+      "name": "Central Counterparty",
+      "definition": "An infrastructure that is very often a component of a clearinghouse, and facilitates clearing and settlement for its members by standing between the buyer and the seller of a trade. It may net transactions, and substitutes itself as a settlement counterparty to each position."
+    },
+    "ProprietaryIdentification": {
+      "name": "Proprietary Identification",
+      "definition": "Unique and unambiguous identifier, as assigned to a financial institution using a proprietary identification scheme."
+    }
+  }
+}

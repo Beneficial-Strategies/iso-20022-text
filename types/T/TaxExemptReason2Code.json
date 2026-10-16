@@ -1,0 +1,158 @@
+{
+  "isoType": "TaxExemptReason2Code",
+  "language": "en",
+  "name": "Tax Exempt Reason 2 Code",
+  "definition": "Specifies the reason a specific tax has not been levied/deducted on a given transaction.",
+  "isoCodes": {
+    "NONE": {
+      "isoName": "None",
+      "name": "None",
+      "definition": "Account is not tax exempt."
+    },
+    "MASA": {
+      "isoName": "MaxiISA",
+      "name": "Maxi ISA",
+      "definition": "Maxi Individual Savings Account (ISA). Account is an ISA with a single ISA manager that may contain cash, stocks and shares, investment funds and life assurance up to the prescribed annual subscription limit (required for UK). The Maxi ISA allows an investor to save all three of the different elements of ISA investments that are allowed, with one savings institution in a single account."
+    },
+    "MISA": {
+      "isoName": "MiniCashISA",
+      "name": "Mini Cash ISA",
+      "definition": "Mini Cash Individual Savings Account (ISA). Account is an ISA with a single ISA manager that may contain cash, stocks and shares, investment funds and life assurance up to the prescribed annual subscription limit (required for UK). An investor can hold more than one Mini ISA to utilise the overall Mini ISA investment limit, and can invest with more than one savings institution, however only one of the three elements of ISA investment is allowed in a single account."
+    },
+    "SISA": {
+      "isoName": "MiniStocksAndSharesISA",
+      "name": "Mini Stocks And Shares ISA",
+      "definition": "Mini Stocks and Shares Individual Savings Account (ISA). Account is an ISA with an ISA manager that may only contain stocks, shares and collective investments up to the prescribed annual subscription limit (required for UK)."
+    },
+    "IISA": {
+      "isoName": "MiniInsuranceISA",
+      "name": "Mini Insurance ISA",
+      "definition": "Mini Insurance Individual Savings Account (ISA). Account is an ISA with an ISA manager that may only contain life insurance investments up to the prescribed annual subscription limit (required for UK)."
+    },
+    "CUYP": {
+      "isoName": "CurrentYearPayment",
+      "name": "Current Year Payment",
+      "definition": "Account is for current year payments into an investment retirement account (required for US)."
+    },
+    "PRYP": {
+      "isoName": "PriorYearPayment",
+      "name": "Prior Year Payment",
+      "definition": "Account is for a prior year payment into an investment retirement account (required for US)."
+    },
+    "ASTR": {
+      "isoName": "AssetTransfer",
+      "name": "Asset Transfer",
+      "definition": "Account is for an asset transfer into an investment retirement account (required for US)."
+    },
+    "EMPY": {
+      "isoName": "EmployeePriorYear",
+      "name": "Employee Prior Year",
+      "definition": "Account is for employee - prior year contributions into an investment retirement account (required for US)."
+    },
+    "EMCY": {
+      "isoName": "EmployeeCurrentYear",
+      "name": "Employee Current Year",
+      "definition": "Account is for employee - current year contributions into an investment retirement account (required for US)."
+    },
+    "EPRY": {
+      "isoName": "EmployerPriorYear",
+      "name": "Employer Prior Year",
+      "definition": "Account is for employer - prior year contributions into an investment retirement account (required for US)."
+    },
+    "ECYE": {
+      "isoName": "EmployerCurrentYear",
+      "name": "Employer Current Year",
+      "definition": "Account is for employer - current year contributions into an investment retirement account (required for US)."
+    },
+    "NFPI": {
+      "isoName": "NonFundPrototypeIRA",
+      "name": "Non Fund Prototype IRA",
+      "definition": "Account is for non-fund prototype Individual Retirement Account (IRA) into an investment retirement account (required for US)."
+    },
+    "NFQP": {
+      "isoName": "NonFundQualifiedPlan",
+      "name": "Non Fund Qualified Plan",
+      "definition": "Account is for non-fund qualified plan into an investment retirement account (required for US)."
+    },
+    "DECP": {
+      "isoName": "DefinedContributionPlan",
+      "name": "Defined Contribution Plan",
+      "definition": "Account is for a defined contribution plan (required for US)."
+    },
+    "IRAC": {
+      "isoName": "IndividualRetirementAccount",
+      "name": "Individual Retirement Account",
+      "definition": "Account is an Individual Retirement Account (IRA) (required for US)."
+    },
+    "IRAR": {
+      "isoName": "IndividualRetirementAccountRollover",
+      "name": "Individual Retirement Account Rollover",
+      "definition": "Account is for an Individual Retirement Account (IRA) - Rollover (required for US)."
+    },
+    "KEOG": {
+      "isoName": "KEOGH",
+      "name": "KEOGH",
+      "definition": "KEOGH. Account is a tax-deferred retirement plan designed to help self-employed workers or individuals who earn self-employed income establish a retirement savings program (required for US)."
+    },
+    "PFSP": {
+      "isoName": "ProfitSharingPlan",
+      "name": "Profit Sharing Plan",
+      "definition": "Account is a Profit Sharing Plan (required for US)."
+    },
+    "401K": {
+      "isoName": "FourHundredAndOneK",
+      "name": "Four Hundred And One K",
+      "definition": "401k. Account is an optional retirement plan supported by many companies, in which income is invested before it is taxed (required for US)."
+    },
+    "SIRA": {
+      "isoName": "SelfDirectedIRA",
+      "name": "Self Directed IRA",
+      "definition": "Self-Directed Individual Retirement Account (IRA) (required for US)."
+    },
+    "403B": {
+      "isoName": "FourHundredAndThreeB",
+      "name": "Four Hundred And Three B",
+      "definition": "403(b). Account is a tax-deferred investment and savings program for employees of hospitals, educational institutions and other non-profit organisations, to save and invest in their own retirement. The name refers to the relevant section in the US Internal Revenue Code (required for US)."
+    },
+    "457X": {
+      "isoName": "FourHundredFiftySeven",
+      "name": "Four Hundred Fifty Seven",
+      "definition": "457. Account is a non-qualified deferred compensation program that is available to state and local governments and not-for-profit employers (required for US)."
+    },
+    "RIRA": {
+      "isoName": "RothIRAFundPrototype",
+      "name": "Roth IRA Fund Prototype",
+      "definition": "Roth Individual Retirement Account (IRA) Fund Prototype. Account is a tax-deferred retirement account based on the reverse principle of a traditional IRA. Retirement contributions are taxed upfront, but withdrawals may be made tax-free when a certain age is reached, provided the Roth IRA has been set up for a certain period of time (required for US)."
+    },
+    "RIAN": {
+      "isoName": "RothIRANonPrototype",
+      "name": "Roth IRA Non Prototype",
+      "definition": "Roth Individual Retirement Account (IRA) Non-Prototype. Account is a tax-deferred retirement account based on the reverse principle of a traditional IRA. Retirement contributions are taxed upfront, but withdrawals may be made tax-free when a certain age is reached, provided the Roth IRA has been set up for a certain period of time (required for US)."
+    },
+    "RCRF": {
+      "isoName": "RothConversionIRAFundPrototype",
+      "name": "Roth Conversion IRA Fund Prototype",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Fund Prototype. Account is a retirement account established when a party switches from a regular IRA ( required for US)."
+    },
+    "RCIP": {
+      "isoName": "RothConversionIRANonPrototype",
+      "name": "Roth Conversion IRA Non Prototype",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Non-Prototype. Account is a retirement account established when a party switches from a Regular IRA (required for US)."
+    },
+    "EIFP": {
+      "isoName": "EducationIRAFundPrototype",
+      "name": "Education IRA Fund Prototype",
+      "definition": "Education Individual Retirement Account Fund Prototype (also known as an Education Savings Account). Account is a savings plan open to anyone under the age of 18. When the account owner withdraws money to pay for qualified higher education expenses, the withdrawals are generally tax-free (required for US)."
+    },
+    "EIOP": {
+      "isoName": "EducationIRANonPrototype",
+      "name": "Education IRA Non Prototype",
+      "definition": "Education Individual Retirement Account Non-Prototype (also known as an Education Savings Account). Account is a savings plan open to anyone under the age of 18. When the account owner withdraws money to pay for qualified higher education expenses, the withdrawals are generally tax-free (required in the US)."
+    },
+    "OTHR": {
+      "isoName": "Other",
+      "name": "Other",
+      "definition": "Another type of tax exemption."
+    }
+  }
+}

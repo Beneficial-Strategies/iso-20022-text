@@ -1,0 +1,24 @@
+{
+  "isoType": "AcceptorCompletionAdvice15",
+  "language": "en",
+  "name": "Acceptor Completion Advice 15",
+  "definition": "Notification to the acquirer of the completion of the card payment at the acceptor.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Card payment transaction between an acceptor and an acquirer."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

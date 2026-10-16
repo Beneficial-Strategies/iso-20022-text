@@ -1,0 +1,32 @@
+{
+  "isoType": "NaturalPersonIdentification5",
+  "language": "en",
+  "name": "Natural Person Identification 5",
+  "definition": "Identifies a natural person through identification number, name and domicile.",
+  "isoElements": {
+    "PersonName": {
+      "name": "Person Name",
+      "definition": "Name of the natural person.||Usage: the complete name, including first name, last name, and where applicable according to the regulation, middle name and surname."
+    },
+    "NPI": {
+      "name": "NPI",
+      "definition": "Natural person is identified through the natural person identifier."
+    },
+    "AlternateIdentification": {
+      "name": "Alternate Identification",
+      "definition": "Unique and unambiguous identification of the natural person."
+    },
+    "EntitySize": {
+      "name": "Entity Size",
+      "definition": "Size of the entity according to a taxonomy defined in a regulation."
+    },
+    "Sector": {
+      "name": "Sector",
+      "definition": "The industry sector(s) of the economic activities of the natural person."
+    },
+    "EntityType": {
+      "name": "Entity Type",
+      "definition": "Type of the entity."
+    }
+  }
+}

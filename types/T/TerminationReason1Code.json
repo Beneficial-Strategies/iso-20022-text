@@ -1,0 +1,28 @@
+{
+  "isoType": "TerminationReason1Code",
+  "language": "en",
+  "name": "Termination Reason 1 Code",
+  "definition": "Specifies the termination reason.",
+  "isoCodes": {
+    "REFU": {
+      "isoName": "ReductionTermsFulfilled",
+      "name": "Reduction Terms Fulfilled",
+      "definition": "Reason for termination is reduction terms have been fulfilled."
+    },
+    "NOAC": {
+      "isoName": "TenderNonAcceptance",
+      "name": "Tender Non Acceptance",
+      "definition": "Reason for termination is non-acceptance of a tender."
+    },
+    "BUFI": {
+      "isoName": "UnderlyingBusinessFinished",
+      "name": "Underlying Business Finished",
+      "definition": "Reason for termination is underlying business has finished."
+    },
+    "WOEX": {
+      "isoName": "WarrantyObligationPeriodExpired",
+      "name": "Warranty Obligation Period Expired",
+      "definition": "Reason for termination is warranty obligation period has expired."
+    }
+  }
+}

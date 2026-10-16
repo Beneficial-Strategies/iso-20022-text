@@ -1,0 +1,48 @@
+{
+  "isoType": "BusinessProcessType1Code",
+  "language": "en",
+  "name": "Business Process Type 1 Code",
+  "definition": "Type of business process model used to carry out the transaction.",
+  "isoCodes": {
+    "ISUP": {
+      "isoName": "TripartiteCentralMatching",
+      "name": "Tripartite Central Matching",
+      "definition": "Specifies the processing of a transaction in a central matching utility model."
+    },
+    "NISP": {
+      "isoName": "NotCoveredByInvestmentInstructions",
+      "name": "Not Covered By Investment Instructions",
+      "definition": "Specifies the processing of a transaction in a local matching model."
+    },
+    "PRAC": {
+      "isoName": "PreAccepted",
+      "name": "Pre Accepted",
+      "definition": "Transaction notice results from an agreement made out of a trading platform between two members (broker and intermediary) of an authorised entity."
+    },
+    "RSAL": {
+      "isoName": "Reversal",
+      "name": "Reversal",
+      "definition": "Transaction notice reverses a previously sent and agreed transaction notice. If the reversal transaction notice is stated to serve as invoice:|o Fees and taxes contained in the transaction notice are considered as being in debit of the broker’s account and in credit of the intermediary’s account: it is a ‘credit invoice’;|o The broker will have to specify the original transaction notice reference;|o The reversal transaction notice will have the same direction (buy, sell) as the original transaction notice."
+    },
+    "PROP": {
+      "isoName": "OwnAccountTradeType",
+      "name": "Own Account Trade Type",
+      "definition": "Specifies the processing of a transaction in a own account trade type model."
+    },
+    "THRU": {
+      "isoName": "ThroughType",
+      "name": "Through Type",
+      "definition": "Specifies the processing of a transaction in a through type model."
+    },
+    "IDEL": {
+      "isoName": "BillateralCentralMatching",
+      "name": "Billateral Central Matching",
+      "definition": "Specifies the processing of a transaction in a billateral central matching model."
+    },
+    "DPLX": {
+      "isoName": "DuplexType",
+      "name": "Duplex Type",
+      "definition": "Specifies the processing of a transaction in a duplex type model."
+    }
+  }
+}

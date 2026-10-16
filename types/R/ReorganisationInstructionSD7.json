@@ -1,0 +1,40 @@
+{
+  "isoType": "ReorganisationInstructionSD7",
+  "language": "en",
+  "name": "Reorganisation Instruction SD 7",
+  "definition": "Provides additional information regarding corporate action reorganisation instruction details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "Xpath to the element that is being extended."
+    },
+    "WithdrawalTransactionType": {
+      "name": "Withdrawal Transaction Type",
+      "definition": "Identifies the reorganisation withdrawal transaction type."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique number assigned by the depository. Transaction identification will be either the DTC instruction reference number for reorganisation instructions (VOI) or the DAM reference number for custody / reorganisation deposits."
+    },
+    "TransactionSequenceNumber": {
+      "name": "Transaction Sequence Number",
+      "definition": "Number which further identifies DTC instruction reference number. Not applicable to reorganisation / custody deposits."
+    },
+    "CustomerReferenceIdentification": {
+      "name": "Customer Reference Identification",
+      "definition": "Customer identification entered by client upon instruction submission."
+    },
+    "ContactPerson": {
+      "name": "Contact Person",
+      "definition": "Party contact information for the given instruction; required for voluntary offer instruction transaction (VOIT), protect transaction (PROT) and protect on behalf of another participant transaction (PROP); not required for cover protect instructions like cover protect transaction (COVR), cover protect directly to agent transaction (COVA) and cover protect on behalf of another participant transaction (COVP)."
+    },
+    "UserReferenceNumber": {
+      "name": "User Reference Number",
+      "definition": "Unique identification of the transaction used by the transmitting party."
+    },
+    "ProtectSafekeepingAccount": {
+      "name": "Protect Safekeeping Account",
+      "definition": "For cover protect instructions whereby one safekeeping account is covering on behalf of another safekeeping account. The protect safekeeping account will be the account which submitted the original protect instruction."
+    }
+  }
+}

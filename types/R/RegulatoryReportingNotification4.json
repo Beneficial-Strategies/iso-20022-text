@@ -1,0 +1,24 @@
+{
+  "isoType": "RegulatoryReportingNotification4",
+  "language": "en",
+  "name": "Regulatory Reporting Notification 4",
+  "definition": "Provides details on the regulatory notification.",
+  "isoElements": {
+    "TransactionNotificationIdentification": {
+      "name": "Transaction Notification Identification",
+      "definition": "Unique and unambiguous identification of the transaction notification."
+    },
+    "AccountOwner": {
+      "name": "Account Owner",
+      "definition": "Party that legally owns the cash account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "TransactionCertificate": {
+      "name": "Transaction Certificate",
+      "definition": "Certificate against which all currency control transactions are registered."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "isoType": "TransactionIdentification61",
+  "language": "en",
+  "name": "Transaction Identification 61",
+  "definition": "Identification of the transaction for network management.",
+  "isoElements": {
+    "PurchaseIdentifierType": {
+      "name": "Purchase Identifier Type",
+      "definition": "Specifies the type of identifier present in the message. P000-P999 reserved for private use, N000-N999 reserved for national use."
+    },
+    "PurchaseIdentifier": {
+      "name": "Purchase Identifier",
+      "definition": "Contains a value identifying Invoice Data or Purchase Request Data."
+    },
+    "TransmissionDateTime": {
+      "name": "Transmission Date Time",
+      "definition": "Date and time expressed in UTC of the message as sent by the initiator.|ISO 8583 bit 7"
+    },
+    "SystemTraceAuditNumber": {
+      "name": "System Trace Audit Number",
+      "definition": "Number assigned by a transaction originator to assist in identifying a transaction uniquely. The trace number remains unchanged for all messages within a two-message exchange (for example, request/repeat and response)|ISO 8583 bit 11."
+    },
+    "RetrievalReferenceNumber": {
+      "name": "Retrieval Reference Number",
+      "definition": "A reference supplied by the system retaining the original source information and used to assist in locating that information or a copy thereof.|ISO 8583 bit 37"
+    },
+    "LifeCycleIdentification": {
+      "name": "Life Cycle Identification",
+      "definition": "Transaction lifecycle identification"
+    },
+    "AssociatedData": {
+      "name": "Associated Data",
+      "definition": "Indicates that additional data will be provided in a separate addendum message."
+    },
+    "AssociatedDataReference": {
+      "name": "Associated Data Reference",
+      "definition": "Reference to additional transaction details to be conveyed separately from this message."
+    },
+    "AssociatedDataDestination": {
+      "name": "Associated Data Destination",
+      "definition": "Destination value to be used in the subsequent addendum message."
+    },
+    "PrivateData": {
+      "name": "Private Data",
+      "definition": "Reserved for private data. The use of this data element is determined by bilateral agreement."
+    },
+    "NationalData": {
+      "name": "National Data",
+      "definition": "Reserved to define data unique to the country applications."
+    }
+  }
+}

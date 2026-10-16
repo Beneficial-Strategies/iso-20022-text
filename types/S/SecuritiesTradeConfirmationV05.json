@@ -1,0 +1,96 @@
+{
+  "isoType": "SecuritiesTradeConfirmationV05",
+  "language": "en",
+  "name": "Securities Trade Confirmation V 05",
+  "definition": "SCOPE|Sent by an executing party to an instructing party directly or through Central Matching Utility (CMU) to provide trade confirmation on a per-account basis based on instructions provided by the instructing party in the SecuritiesAllocationInstruction message.||It may also be used to provide trade confirmation on the trade level from an executing party or an instructing party to the custodian or an affirming party directly or through CMU.||The instructing party is typically the investment manager or an intermediary system/vendor communicating on behalf of the investment manager or of other categories of investors.|The executing party is typically the broker/dealer or an intermediary system/vendor communicating on behalf of the broker/dealer.|The custodian or the affirming party is typically the custodian, trustee, financial institution, intermediary system/vendor communicating on behalf of them, or their agent.||USAGE|Initiator: In local matching, the initiator of this message is always the executing party. In central matching the initiator may be either the executing party or instructing party.|Respondent: instructing party, a custodian or an affirming party responds with SecuritiesTradeConfirmationResponse (accept or reject) message.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Information that unambiguously identifies an SecuritiesTradeConfirmation message as known by the account owner (or the instructing party acting on its behalf)."
+    },
+    "NumberCount": {
+      "name": "Number Count",
+      "definition": "Count of the number of transactions linked."
+    },
+    "References": {
+      "name": "References",
+      "definition": "Reference to the transaction identifier issued by a business party and/or market infrastructure. It may also be used to reference a previous transaction, for example, a block/allocation instruction, or tie a set of messages together."
+    },
+    "TradeDetails": {
+      "name": "Trade Details",
+      "definition": "Details of the trade."
+    },
+    "FinancialInstrumentIdentification": {
+      "name": "Financial Instrument Identification",
+      "definition": "Unique and unambiguous identifier of a financial instrument, assigned under a formal or proprietary identification scheme."
+    },
+    "FinancialInstrumentAttributes": {
+      "name": "Financial Instrument Attributes",
+      "definition": "Elements characterising a financial instrument."
+    },
+    "UnderlyingFinancialInstrument": {
+      "name": "Underlying Financial Instrument",
+      "definition": "Underlying financial instrument to which an trade confirmation is related."
+    },
+    "Stipulations": {
+      "name": "Stipulations",
+      "definition": "Additional restrictions on the financial instrument, related to the stipulation."
+    },
+    "ConfirmationParties": {
+      "name": "Confirmation Parties",
+      "definition": "Parties involved in the confirmation of the details of a trade."
+    },
+    "SettlementParameters": {
+      "name": "Settlement Parameters",
+      "definition": "Parameters which explicitly state the conditions that must be fulfilled before a particular transaction of a financial instrument can be settled. These parameters are defined by the instructing party in compliance with settlement rules in the market the transaction will settle in."
+    },
+    "StandingSettlementInstruction": {
+      "name": "Standing Settlement Instruction",
+      "definition": "Specifies what settlement standing instruction database is to be used to derive the settlement parties involved in the transaction."
+    },
+    "DeliveringSettlementParties": {
+      "name": "Delivering Settlement Parties",
+      "definition": "Specifies the chain of delivering settlement parties."
+    },
+    "ReceivingSettlementParties": {
+      "name": "Receiving Settlement Parties",
+      "definition": "Specifies the chain of receiving settlement parties."
+    },
+    "CashParties": {
+      "name": "Cash Parties",
+      "definition": "Cash parties involved in the specific transaction."
+    },
+    "ClearingDetails": {
+      "name": "Clearing Details",
+      "definition": "Provides clearing member information."
+    },
+    "SettlementAmount": {
+      "name": "Settlement Amount",
+      "definition": "Total amount of money to be paid or received in exchange for the securities. The amount includes the principal with any commissions and fees or accrued interest."
+    },
+    "OtherAmounts": {
+      "name": "Other Amounts",
+      "definition": "Other amounts than the settlement amount."
+    },
+    "OtherPrices": {
+      "name": "Other Prices",
+      "definition": "Other prices than the deal price."
+    },
+    "OtherBusinessParties": {
+      "name": "Other Business Parties",
+      "definition": "Other business parties relevant to the transaction."
+    },
+    "TwoLegTransactionDetails": {
+      "name": "Two Leg Transaction Details",
+      "definition": "Specifies a transaction that the trading parties are agreeing to repurchase, sell back or return the same or similar securities at a later time. |The two leg transaction details defines the closing leg conditions of a two leg transaction. It is also used to define the anticipated closing leg conditions at the time of opening the closed-end transaction."
+    },
+    "RegulatoryStipulations": {
+      "name": "Regulatory Stipulations",
+      "definition": "Specifies regulatory stipulations that financial institutions must be compliant with in the country, region, and/or area they conduct business."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

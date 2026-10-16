@@ -1,0 +1,32 @@
+{
+  "isoType": "NonDeliverableForwardNotificationV02",
+  "language": "en",
+  "name": "Non Deliverable Forward Notification V 02",
+  "definition": "Scope|The NonDeliverableForwardNotification message is sent by a central system to a participant to provide details of a non deliverable forward trade.|Usage|The notification is sent by a central settlement system to the two trading parties after it has received create, amend or cancel messages from both. The message may also contain information on the settlement of the trade.",
+  "isoElements": {
+    "TradingSideIdentification": {
+      "name": "Trading Side Identification",
+      "definition": "Specifies the trading side of the non deliverable trade which is reported."
+    },
+    "CounterpartySideIdentification": {
+      "name": "Counterparty Side Identification",
+      "definition": "Specifies the counterparty of the non deliverable trade which is reported."
+    },
+    "OpeningData": {
+      "name": "Opening Data",
+      "definition": "Set of data specified for the opening of a non deliverable trade."
+    },
+    "ValuationData": {
+      "name": "Valuation Data",
+      "definition": "Set of data specified for the valuation of a non deliverable trade."
+    },
+    "TradeInformationAndStatus": {
+      "name": "Trade Information And Status",
+      "definition": "Provides information on the status of a trade in a central system."
+    },
+    "SettlementData": {
+      "name": "Settlement Data",
+      "definition": "Provides information on the settlement of a trade."
+    }
+  }
+}

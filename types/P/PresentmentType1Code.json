@@ -1,0 +1,18 @@
+{
+  "isoType": "PresentmentType1Code",
+  "language": "en",
+  "name": "Presentment Type 1 Code",
+  "definition": "Specifies which elements types must be presented in an e-invoice.",
+  "isoCodes": {
+    "FULL": {
+      "isoName": "Full",
+      "name": "Full",
+      "definition": "Full information of the presented e-invoice should be presented to the debtor."
+    },
+    "PAYD": {
+      "isoName": "RequiredPaymentData",
+      "name": "Required Payment Data",
+      "definition": "Only information necessary to initiate the payment should be presented to the debtor."
+    }
+  }
+}

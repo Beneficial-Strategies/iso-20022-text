@@ -1,0 +1,20 @@
+{
+  "isoType": "RequestType1",
+  "language": "en",
+  "name": "Request Type 1",
+  "definition": "Specifies the original transaction number.",
+  "isoElements": {
+    "Number": {
+      "name": "Number",
+      "definition": "Idetifies the transaction number."
+    },
+    "Type": {
+      "name": "Type",
+      "definition": "Identifies the type of information request related to an original transaction number as a code."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Additional information, in free text form, to complement the requested information."
+    }
+  }
+}

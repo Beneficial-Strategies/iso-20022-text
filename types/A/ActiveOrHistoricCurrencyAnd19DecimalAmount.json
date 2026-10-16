@@ -1,0 +1,12 @@
+{
+  "isoType": "ActiveOrHistoricCurrencyAnd19DecimalAmount",
+  "language": "en",
+  "name": "Active Or Historic Currency And 19 Decimal Amount",
+  "definition": "A number of monetary units specified in an active or a historic currency where the unit of currency is explicit and compliant with ISO 4217.",
+  "isoRules": {
+    "CurrencyAmount": {
+      "definition": "The number of fractional digits (or minor unit of currency) must comply with ISO 4217.|Note: The decimal separator is a dot."
+    }
+  },
+  "format": "Required format is digits with an optional decimal point, for example 1500.25, at most 25 digits in total, of which at most 19 after the decimal point, not negative"
+}

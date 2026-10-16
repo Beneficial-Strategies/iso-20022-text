@@ -1,0 +1,37 @@
+{
+  "isoType": "NamedPosition3",
+  "language": "en",
+  "name": "Named Position 3",
+  "definition": "Type of detailed aggregated position set report between a pair of counterparties.",
+  "isoElements": {
+    "ReferenceDate": {
+      "name": "Reference Date",
+      "definition": "Reference date for statistics collection."
+    },
+    "GeneralInformation": {
+      "name": "General Information",
+      "definition": "Report containing aggregation of loan and collateral exposures between counterparties by Securities Financing Transaction type, for a limited number of fields."
+    },
+    "Loan": {
+      "name": "Loan",
+      "definition": "Aggregation of data for all transactions pertaining to the loan side, by Securities Financing Transaction type."
+    },
+    "Collateral": {
+      "name": "Collateral",
+      "definition": "Aggregation of data for all submissions pertaining to the collateral side, by Securities Financing Transaction type."
+    },
+    "Margin": {
+      "name": "Margin",
+      "definition": "Aggregation of data related to margin reported for cleared Securities Financing Transactions at the level of each pair of entities and portfolio code."
+    },
+    "Reuse": {
+      "name": "Reuse",
+      "definition": "Aggregation of data on collateral reuse transactions, at entity level."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

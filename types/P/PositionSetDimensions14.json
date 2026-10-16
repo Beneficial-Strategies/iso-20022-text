@@ -1,0 +1,29 @@
+{
+  "isoType": "PositionSetDimensions14",
+  "language": "en",
+  "name": "Position Set Dimensions 14",
+  "definition": "Variables related to derivatives that are used to group derivatives together into positions for position sets.",
+  "isoElements": {
+    "CounterpartyData": {
+      "name": "Counterparty Data",
+      "definition": "Data specific to counterparties."
+    },
+    "LoanData": {
+      "name": "Loan Data",
+      "definition": "Details of the loan used for financing the transaction."
+    },
+    "CollateralData": {
+      "name": "Collateral Data",
+      "definition": "Provides the details of the collateral used in the transaction."
+    },
+    "OutliersIncluded": {
+      "name": "Outliers Included",
+      "definition": "Flag to identify whether the reported Securities Financing Transaction position contains abnormal values."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

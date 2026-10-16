@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionRequestType1Code",
+  "language": "en",
+  "name": "Transaction Request Type 1 Code",
+  "definition": "Specifies the type of information request related to a transaction number.",
+  "isoCodes": {
+    "DTTX": {
+      "isoName": "DateTimeTransaction",
+      "name": "Date Time Transaction",
+      "definition": "Request is the date and time related to the original transaction numlber."
+    },
+    "OREC": {
+      "isoName": "OriginalReceipt",
+      "name": "Original Receipt",
+      "definition": "Request is the original receipt."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "TransactionToPerform8Choice",
+  "language": "en",
+  "name": "Transaction To Perform 8 Choice",
+  "definition": "Content of the batch request message.",
+  "isoElements": {
+    "PaymentRequest": {
+      "name": "Payment Request",
+      "definition": "Content of the Payment Request message."
+    },
+    "LoyaltyRequest": {
+      "name": "Loyalty Request",
+      "definition": "Content of the Loyalty Request message."
+    },
+    "ReversalRequest": {
+      "name": "Reversal Request",
+      "definition": "Content of the Reversal Request message."
+    }
+  }
+}

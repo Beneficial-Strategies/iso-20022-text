@@ -1,0 +1,24 @@
+{
+  "isoType": "AcceptorAuthorisationRequest15",
+  "language": "en",
+  "name": "Acceptor Authorisation Request 15",
+  "definition": "Authorisation request from an acceptor.",
+  "isoElements": {
+    "Environment": {
+      "name": "Environment",
+      "definition": "Environment of the transaction."
+    },
+    "Context": {
+      "name": "Context",
+      "definition": "Context in which the transaction is performed (payment and sale)."
+    },
+    "Transaction": {
+      "name": "Transaction",
+      "definition": "Card payment transaction for which the authorisation is requested."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information incorporated as an extension to the message."
+    }
+  }
+}

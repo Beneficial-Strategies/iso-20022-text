@@ -1,0 +1,36 @@
+{
+  "isoType": "StatusExtensionRejectionNotificationV03",
+  "language": "en",
+  "name": "Status Extension Rejection Notification V 03",
+  "definition": "Scope|The StatusExtensionRejectionNotification message is sent by the matching application to the submitter of a request to extend the status of a transaction.|This message is used to inform about the rejection of a request to extend the status of a transaction.|Usage|The StatusExtensionRejectionNotification message can be sent by the matching application to pass on information about the rejection of a request to extend the status of a transaction that it has obtained through the receipt of a StatusExtensionRejection message.|In order to pass on information about the acceptance of a request to extend the status of a transaction the matching application sends a StatusExtensionNotification message.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "name": "Notification Identification",
+      "definition": "Identifies the notification message."
+    },
+    "TransactionIdentification": {
+      "name": "Transaction Identification",
+      "definition": "Unique identification assigned by the matching application to the transaction.|This identification is to be used in any communication between the parties.|."
+    },
+    "EstablishedBaselineIdentification": {
+      "name": "Established Baseline Identification",
+      "definition": "Unique identification assigned by the matching application to the baseline when it is established."
+    },
+    "NonExtendedStatus": {
+      "name": "Non Extended Status",
+      "definition": "Identifies the status of the transaction that is not extended."
+    },
+    "UserTransactionReference": {
+      "name": "User Transaction Reference",
+      "definition": "Reference to the transaction for each financial institution which is a party to the transaction."
+    },
+    "RejectionReason": {
+      "name": "Rejection Reason",
+      "definition": "Reason why the user cannot accept the request."
+    },
+    "RequestForAction": {
+      "name": "Request For Action",
+      "definition": "Information on the next processing step required."
+    }
+  }
+}

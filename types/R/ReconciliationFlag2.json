@@ -1,0 +1,37 @@
+{
+  "isoType": "ReconciliationFlag2",
+  "language": "en",
+  "name": "Reconciliation Flag 2",
+  "definition": "Specifies the process type used for the trade repository reconciliation.",
+  "isoElements": {
+    "ReportType": {
+      "name": "Report Type",
+      "definition": "Indicates whether both counterparties to the transaction have reported to the same Trade Repository"
+    },
+    "BothCounterpartiesReporting": {
+      "name": "Both Counterparties Reporting",
+      "definition": "Indicates whether both counterparties are obliged to report the transaction data."
+    },
+    "PairedStatus": {
+      "name": "Paired Status",
+      "definition": "Indicates whether the transaction is paired."
+    },
+    "LoanReconciliationStatus": {
+      "name": "Loan Reconciliation Status",
+      "definition": "Indicates whether loan data is reconciled."
+    },
+    "CollateralReconciliationStatus": {
+      "name": "Collateral Reconciliation Status",
+      "definition": "Indicates whether collateral data is reconciled."
+    },
+    "ModificationStatus": {
+      "name": "Modification Status",
+      "definition": "Indicates whether the initially submitted report was further modified using action type modification."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "Following Must be True|\t/ReportType Must be present| Or\t/BothCounterpartiesReporting Must be present| Or\t/PairedStatus Must be present| Or\t/LoanReconciliationStatus Must be present| Or /CollateralReconciliationStatus Must be present| Or /ModificationStatus Must be present"
+    }
+  }
+}

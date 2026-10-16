@@ -1,0 +1,32 @@
+{
+  "isoType": "TradeQueryCriteria10",
+  "language": "en",
+  "name": "Trade Query Criteria 10",
+  "definition": "Query criteria on a trade transaction.",
+  "isoElements": {
+    "TradeLifeCycleHistory": {
+      "name": "Trade Life Cycle History",
+      "definition": "Indicates whether the response must include all reports submitted for a trade (true) or only the current state of the trade (false).||Usage:|If false is selected, the reporting timestamp element must be absent."
+    },
+    "OutstandingTradeIndicator": {
+      "name": "Outstanding Trade Indicator",
+      "definition": "Indicates whether the response must include all trades  (false) or only the outstanding trades (true)."
+    },
+    "TradePartyCriteria": {
+      "name": "Trade Party Criteria",
+      "definition": "Query criteria related to counterparties."
+    },
+    "TradeTypeCriteria": {
+      "name": "Trade Type Criteria",
+      "definition": "Query criteria related to transaction types."
+    },
+    "TimeCriteria": {
+      "name": "Time Criteria",
+      "definition": "Query criteria related to time values."
+    },
+    "OtherCriteria": {
+      "name": "Other Criteria",
+      "definition": "Query criteria related to other fields."
+    }
+  }
+}

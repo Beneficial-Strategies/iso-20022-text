@@ -1,0 +1,32 @@
+{
+  "isoType": "Header23",
+  "language": "en",
+  "name": "Header 23",
+  "definition": "Set of characteristics related to the transfer of transactions.",
+  "isoElements": {
+    "FormatVersion": {
+      "name": "Format Version",
+      "definition": "Version of file format."
+    },
+    "ExchangeIdentification": {
+      "name": "Exchange Identification",
+      "definition": "Unique identification of an exchange occurrence."
+    },
+    "InitiatingParty": {
+      "name": "Initiating Party",
+      "definition": "Unique identification of the partner that has initiated the exchange."
+    },
+    "RecipientParty": {
+      "name": "Recipient Party",
+      "definition": "Unique identification of the partner that is the recipient of the exchange."
+    },
+    "MessageSequenceNumber": {
+      "name": "Message Sequence Number",
+      "definition": "Sequence of this message in a conversation in integer."
+    },
+    "CreationDateTime": {
+      "name": "Creation Date Time",
+      "definition": "Date and time at which the file or message was created."
+    }
+  }
+}

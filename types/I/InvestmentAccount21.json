@@ -1,0 +1,41 @@
+{
+  "isoType": "InvestmentAccount21",
+  "language": "en",
+  "name": "Investment Account 21",
+  "definition": "Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family.",
+  "isoElements": {
+    "AccountIdentification": {
+      "name": "Account Identification",
+      "definition": "Unique and unambiguous identification for the account between the account owner and the account servicer."
+    },
+    "AccountName": {
+      "name": "Account Name",
+      "definition": "Name of the account. It provides an additional means of identification, and is designated by the account servicer in agreement with the account owner."
+    },
+    "AccountDesignation": {
+      "name": "Account Designation",
+      "definition": "Supplementary registration information applying to a specific block of units for dealing and reporting purposes. The supplementary registration information may be used when all the units are registered, for example, to a funds supermarket, but holdings for each investor have to reconciled individually."
+    },
+    "OwnerIdentification": {
+      "name": "Owner Identification",
+      "definition": "Party that legally owns the account."
+    },
+    "AccountServicer": {
+      "name": "Account Servicer",
+      "definition": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account."
+    },
+    "OrderOriginatorEligibility": {
+      "name": "Order Originator Eligibility",
+      "definition": "Counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties."
+    },
+    "SubAccountDetails": {
+      "name": "Sub Account Details",
+      "definition": "Sub-accounts that are grouped in a master or omnibus account."
+    }
+  },
+  "isoRules": {
+    "OrderOriginatorEligibility2Rule": {
+      "definition": "OrderOriginatorEligibility may only be present if one or more of the parties identified in OwnerIdentification is/are the originator of the order."
+    }
+  }
+}

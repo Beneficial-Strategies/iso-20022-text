@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentInstructionExtract",
+  "language": "en",
+  "name": "Payment Instruction Extract",
+  "definition": "Details of a payment instruction. The information contained in this component is sufficient to retrieve a payment instruction.",
+  "isoElements": {
+    "AssignerInstructionIdentification": {
+      "name": "Assigner Instruction Identification",
+      "definition": "Identification of the payment instruction (eg, field 20 of an MT 103) when meaningful to the case assigner."
+    },
+    "AssigneeInstructionIdentification": {
+      "name": "Assignee Instruction Identification",
+      "definition": "Identification of the payment instruction (eg, field 20 of an MT 103) when meaningful to the case assignee."
+    },
+    "CurrencyAmount": {
+      "name": "Currency Amount",
+      "definition": "Amount of the payment. Depending on the context it can be either the amount settled (UnableToApply) or the instructed amount (RequestToCancel, RequestToModify, ClaimNonReceipt)."
+    },
+    "ValueDate": {
+      "name": "Value Date",
+      "definition": "Value date of the payment."
+    }
+  }
+}

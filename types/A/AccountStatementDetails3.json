@@ -1,0 +1,52 @@
+{
+  "isoType": "AccountStatementDetails3",
+  "language": "en",
+  "name": "Account Statement Details 3",
+  "definition": "Statement information of an account.",
+  "isoElements": {
+    "TransactionDate": {
+      "name": "Transaction Date",
+      "definition": "Date of the transaction."
+    },
+    "Pending": {
+      "name": "Pending",
+      "definition": "True indicates transaction is pending. ||False indicates transaction has already posted.||No default value."
+    },
+    "PostingDate": {
+      "name": "Posting Date",
+      "definition": "Posting date of the transaction."
+    },
+    "CreditDebit": {
+      "name": "Credit Debit",
+      "definition": "A code to indicate the tax amount is credit or debit"
+    },
+    "Amount": {
+      "name": "Amount",
+      "definition": "Amount value."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency code associated with the applicable type of amount. |ISO 4217 \"Codes for the representation of currencies and funds\"."
+    },
+    "CardholderBillingAmount": {
+      "name": "Cardholder Billing Amount",
+      "definition": "Amount value in Cardholder billing currency."
+    },
+    "CardholderBillingCurrency": {
+      "name": "Cardholder Billing Currency",
+      "definition": "Cardholder billing Currency code."
+    },
+    "AcceptorNameAndLocation": {
+      "name": "Acceptor Name And Location",
+      "definition": "Currency of the amount."
+    },
+    "ShortDescription": {
+      "name": "Short Description",
+      "definition": "Short transaction description to print or display."
+    },
+    "LongDescription": {
+      "name": "Long Description",
+      "definition": "Long transaction description to print or display."
+    }
+  }
+}

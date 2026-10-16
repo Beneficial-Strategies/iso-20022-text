@@ -1,0 +1,11 @@
+{
+  "isoType": "SignatureEnvelopeReference",
+  "language": "en",
+  "name": "Signature Envelope Reference",
+  "definition": "The W3C XML Schema that specifies following standard signature:| XML Signature Syntax and Processing (Second Edition) W3C Recommendation 10 June 2008|http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/.",
+  "isoRules": {
+    "OnlyReferenceElement": {
+      "definition": "The XML Signature namespace (\"http://www.w3.org/2000/09/xmldsig#\") allows for different XML elements to be root elements. This means the user has to choose amongst these global elements which one to use as the root element. Only the XML element Reference is allowed."
+    }
+  }
+}

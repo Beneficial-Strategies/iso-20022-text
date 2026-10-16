@@ -1,0 +1,48 @@
+{
+  "isoType": "Obligation11",
+  "language": "en",
+  "name": "Obligation 11",
+  "definition": "General information about the collateral agreement.",
+  "isoElements": {
+    "PartyA": {
+      "name": "Party A",
+      "definition": "One of the entities associated with the collateral agreement and type of the CCP membership type where the counterparty is a CCP."
+    },
+    "ServicingPartyA": {
+      "name": "Servicing Party A",
+      "definition": "Party that is acting on behalf of party A and that offers collateral management services."
+    },
+    "PartyB": {
+      "name": "Party B",
+      "definition": "Other entity associated with the collateral agreement and type of the CCP membership type where the counterparty is a CCP."
+    },
+    "ServicingPartyB": {
+      "name": "Servicing Party B",
+      "definition": "Party that is acting on behalf of party B and that offers collateral management services."
+    },
+    "CollateralAccountIdentification": {
+      "name": "Collateral Account Identification",
+      "definition": "Provides additional information on the collateral account of the party delivering/receiving the collateral."
+    },
+    "BlockChainAddressOrWallet": {
+      "name": "Block Chain Address Or Wallet",
+      "definition": "Blockchain address or wallet where digital assets are maintained. This is the equivalent of collateral account for digital assets."
+    },
+    "ExposureType": {
+      "name": "Exposure Type",
+      "definition": "Underlying business area or type of trade causing the collateral movement."
+    },
+    "ValuationDate": {
+      "name": "Valuation Date",
+      "definition": "Close of business date on which the initiating party is valuing the margin call."
+    }
+  },
+  "isoRules": {
+    "CollateralAccountOrBlockChainAddress1Rule": {
+      "definition": "If CollateralAccountIdentification is present, BlockChainAddressOrWallet must be absent."
+    },
+    "CollateralAccountOrBlockChainAddress2Rule": {
+      "definition": "If BlockChainAddressOrWallet is present, CollateralAccountIdentification must be absent."
+    }
+  }
+}

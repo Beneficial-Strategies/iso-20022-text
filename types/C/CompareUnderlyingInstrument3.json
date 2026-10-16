@@ -1,0 +1,21 @@
+{
+  "isoType": "CompareUnderlyingInstrument3",
+  "language": "en",
+  "name": "Compare Underlying Instrument 3",
+  "definition": "Specifies two values to compare for a underlying instrument.",
+  "isoElements": {
+    "Value1": {
+      "name": "Value 1",
+      "definition": "Information for the first side of the transaction."
+    },
+    "Value2": {
+      "name": "Value 2",
+      "definition": "Information for the second side of the transaction."
+    }
+  },
+  "isoRules": {
+    "OneElementPresentRule": {
+      "definition": "At least one element must be present."
+    }
+  }
+}

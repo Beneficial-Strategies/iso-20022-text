@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesQuantitySD9",
+  "language": "en",
+  "name": "Securities Quantity SD 9",
+  "definition": "Provides information about securities quantity linked to a corporate action option.",
+  "isoElements": {
+    "TotalOversubscriptionQuantity": {
+      "name": "Total Oversubscription Quantity",
+      "definition": "Total oversubscription quantity of all transaction sequence instructions."
+    },
+    "InterimCoveredQuantity": {
+      "name": "Interim Covered Quantity",
+      "definition": "Quantity covered but transactions not in \"MADE\" status."
+    },
+    "ConditionalQuantity": {
+      "name": "Conditional Quantity",
+      "definition": "Minimum quantity of securities to be accepted (used in the framework of conditional privilege on election). In case of proration, if this minimum quantity is not reached then the instruction is void."
+    }
+  }
+}

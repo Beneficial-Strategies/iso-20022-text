@@ -1,0 +1,48 @@
+{
+  "isoType": "Appearance1Code",
+  "language": "en",
+  "name": "Appearance 1 Code",
+  "definition": "Specifies the deliverability of a security.",
+  "isoCodes": {
+    "DELI": {
+      "isoName": "Deliverable",
+      "name": "Deliverable",
+      "definition": "Physical certificates exist."
+    },
+    "NDEL": {
+      "isoName": "NotDeliverable",
+      "name": "Not Deliverable",
+      "definition": "Not yet deliverable contract."
+    },
+    "LIMI": {
+      "isoName": "Limited",
+      "name": "Limited",
+      "definition": "Limited or partial deliverability."
+    },
+    "BENT": {
+      "isoName": "BookEntry",
+      "name": "Book Entry",
+      "definition": "Security exists only as an electronic record, ie, there are no physical certificates representing the security."
+    },
+    "DFBE": {
+      "isoName": "DeferredBookEntry",
+      "name": "Deferred Book Entry",
+      "definition": "Deferred printing, book entry."
+    },
+    "DLBE": {
+      "isoName": "DeliverableBookEntry",
+      "name": "Deliverable Book Entry",
+      "definition": "Deliverable, book entry."
+    },
+    "TMPG": {
+      "isoName": "TemporaryGlobal",
+      "name": "Temporary Global",
+      "definition": "Deferred printing, global certificate."
+    },
+    "GLOB": {
+      "isoName": "Global",
+      "name": "Global",
+      "definition": "Not deliverable, global certificate."
+    }
+  }
+}

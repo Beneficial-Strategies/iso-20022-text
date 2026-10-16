@@ -1,0 +1,58 @@
+{
+  "isoType": "CollateralTransactionType1Code",
+  "language": "en",
+  "name": "Collateral Transaction Type 1 Code",
+  "definition": "Specifies the type of collateral instruction as a code.",
+  "isoCodes": {
+    "AADJ": {
+      "isoName": "AllocationModeAdjustment",
+      "name": "Allocation Mode Adjustment",
+      "definition": "Automatic/manual settlement adjustment to change the allocation mode from manual to automatic or vice  versa."
+    },
+    "CDTA": {
+      "isoName": "ClosingDateAdjustment",
+      "name": "Closing Date Adjustment",
+      "definition": "Change of the closing date."
+    },
+    "CADJ": {
+      "isoName": "CollateralAdjustment",
+      "name": "Collateral Adjustment",
+      "definition": "Change to collateral. Used  when collateral giver manually allocates the securities to the transaction."
+    },
+    "DADJ": {
+      "isoName": "DataAdjustment",
+      "name": "Data Adjustment",
+      "definition": "Change of other data."
+    },
+    "DBVT": {
+      "isoName": "DeliveredByValue",
+      "name": "Delivered By Value",
+      "definition": "Delivery by value (DBV) transaction."
+    },
+    "INIT": {
+      "isoName": "Initiation",
+      "name": "Initiation",
+      "definition": "Creation of a Collateral Management Transaction."
+    },
+    "MADJ": {
+      "isoName": "MarginAdjustment",
+      "name": "Margin Adjustment",
+      "definition": "Change to margin."
+    },
+    "PADJ": {
+      "isoName": "PrincipalExposureAdjustment",
+      "name": "Principal Exposure Adjustment",
+      "definition": "Change of principal/exposure adjustment"
+    },
+    "RATA": {
+      "isoName": "RateAdjustment",
+      "name": "Rate Adjustment",
+      "definition": "Change of rate."
+    },
+    "TERM": {
+      "isoName": "Termination",
+      "name": "Termination",
+      "definition": "Closing of the Collateral Management Transaction."
+    }
+  }
+}

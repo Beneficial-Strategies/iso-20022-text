@@ -1,0 +1,48 @@
+{
+  "isoType": "TransparencyDataReport13",
+  "language": "en",
+  "name": "Transparency Data Report 13",
+  "definition": "Provides for reporting quantitative details of equity instruments as part of transparency calculations.",
+  "isoElements": {
+    "TechnicalRecordIdentification": {
+      "name": "Technical Record Identification",
+      "definition": "Unique identifier of a record in a message used as part of error management and status advice messages.||Usage:|This identification will be used in the status advice report sent back."
+    },
+    "Identification": {
+      "name": "Identification",
+      "definition": "Identifies the financial instrument using an ISIN."
+    },
+    "ReportingDate": {
+      "name": "Reporting Date",
+      "definition": "Date to which the quantitative data fields below relate."
+    },
+    "TradingVenue": {
+      "name": "Trading Venue",
+      "definition": "Segment MIC for the trading venue where applicable, otherwise the operational MIC."
+    },
+    "Suspension": {
+      "name": "Suspension",
+      "definition": "Indicates whether the instrument was suspended for trading on that Trading Venue for the whole day on the given reporting day."
+    },
+    "TransactionsExecuted": {
+      "name": "Transactions Executed",
+      "definition": "Total number of transactions executed on the reporting day."
+    },
+    "TransactionsExecutedExcludingPreTradeWaiver": {
+      "name": "Transactions Executed Excluding Pre Trade Waiver",
+      "definition": "Details all transactions that have been performed under a pre-trade Waiver."
+    },
+    "TransactionsExecutedExcludingPostTradeLargeInScaleWaiver": {
+      "name": "Transactions Executed Excluding Post Trade Large In Scale Waiver",
+      "definition": "Details all transactions that have been performed under a post-trade large in scale waivers."
+    }
+  },
+  "isoRules": {
+    "ValidISINRule": {
+      "definition": "ISIN code must pass checksum validation."
+    },
+    "ValidMICRule": {
+      "definition": "Market Identification code must be an active market at the time of reporting."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "AuthenticationResult1Code",
+  "language": "en",
+  "name": "Authentication Result 1 Code",
+  "definition": "Specifies the result of authentication done.",
+  "isoCodes": {
+    "DENY": {
+      "isoName": "Denial",
+      "name": "Denial",
+      "definition": "The authentication didn’t succeed."
+    },
+    "MRCH": {
+      "isoName": "MerchantNotEnroled",
+      "name": "Merchant Not Enroled",
+      "definition": "Merchant not enrolled in the authentication programme."
+    },
+    "CARD": {
+      "isoName": "NonParticipation",
+      "name": "Non Participation",
+      "definition": "The card does not participate in the authentication programme."
+    },
+    "AUTH": {
+      "isoName": "UnableToAuthenticate",
+      "name": "Unable To Authenticate",
+      "definition": "The authentication couldn’t be carried out."
+    },
+    "CRPT": {
+      "isoName": "WithCryptogram",
+      "name": "With Cryptogram",
+      "definition": "Authentication succeeded with a cryptogram."
+    },
+    "UCRP": {
+      "isoName": "WithoutCryptogram",
+      "name": "Without Cryptogram",
+      "definition": "Authentication succeeded without a cryptogram."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ExchangeRateInformation1",
+  "language": "en",
+  "name": "Exchange Rate Information 1",
+  "definition": "Further detailed information on the exchange rate that has been used in the payment transaction.",
+  "isoElements": {
+    "ExchangeRate": {
+      "name": "Exchange Rate",
+      "definition": "The factor used for conversion of an amount from one currency to another. This reflects the price at which one currency was bought with another currency."
+    },
+    "RateType": {
+      "name": "Rate Type",
+      "definition": "Specifies the type used to complete the currency exchange."
+    },
+    "ContractIdentification": {
+      "name": "Contract Identification",
+      "definition": "Unique and unambiguous reference to the foreign exchange contract agreed between the initiating party/creditor and the debtor agent."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateActionOptionSD5",
+  "language": "en",
+  "name": "Corporate Action Option SD 5",
+  "definition": "Provides additional information regarding corporate action option details.",
+  "isoElements": {
+    "PlaceAndName": {
+      "name": "Place And Name",
+      "definition": "xPath to the element that is being extended."
+    },
+    "OptionStatus": {
+      "name": "Option Status",
+      "definition": "Workflow status of the specified option based on the consistency of the issuer declared data elements (excluding DTC data elements)."
+    },
+    "RandomLotPreferenceFlag": {
+      "name": "Random Lot Preference Flag",
+      "definition": "Indicates whether or not the offeror will select random lots if the offer has been prorated. The offeror may accept or reject conditional tenders on a random basis. Holders must indicate their willingness to have their rejected conditional tender accepted by random lot (if necessary). The holder must surrender all shares held in order to be eligible for this preference."
+    },
+    "NewShareDispatchedDate": {
+      "name": "New Share Dispatched Date",
+      "definition": "Date on which the new shares to be issued will be distributed, as opposed to the \"declared payable date.\" This date is typically used in some Asian markets."
+    }
+  }
+}

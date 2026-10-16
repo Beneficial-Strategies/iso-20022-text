@@ -1,0 +1,23 @@
+{
+  "isoType": "CutOff1Code",
+  "language": "en",
+  "name": "Cut Off 1 Code",
+  "definition": "Specifies the cut-off type.",
+  "isoCodes": {
+    "AERL": {
+      "isoName": "AnticipatedEarlyCutoff",
+      "name": "Anticipated Early Cutoff",
+      "definition": "Cut-off may change to early."
+    },
+    "EARL": {
+      "isoName": "Early",
+      "name": "Early",
+      "definition": "Cut-off occurs before the DTCC (The Depository Trust and Clearing Corporation) standard settlement cut-off. Early cut-off usually 1: 30 Eastern Standard Time."
+    },
+    "LATE": {
+      "isoName": "Late",
+      "name": "Late",
+      "definition": "Cut-off is after settlement at DTCC (The Depository Trust and Clearing Corporation)."
+    }
+  }
+}

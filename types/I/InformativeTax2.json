@@ -1,0 +1,33 @@
+{
+  "isoType": "InformativeTax2",
+  "language": "en",
+  "name": "Informative Tax 2",
+  "definition": "Tax related to an investment fund order.",
+  "isoElements": {
+    "TaxableIncomePerDividend": {
+      "name": "Taxable Income Per Dividend",
+      "definition": "Amount included in the dividend that corresponds to gains directly or indirectly derived from interest payment in the scope of the European Directive on taxation of savings income in the form of interest payments."
+    },
+    "EUCapitalGain": {
+      "name": "EU Capital Gain",
+      "definition": "Specifies whether capital gain is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "EUDividendStatus": {
+      "name": "EU Dividend Status",
+      "definition": "Specifies whether dividend is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June), or an income realised upon sale, a refund or redemption of shares and units, etc."
+    },
+    "PercentageOfDebtClaim": {
+      "name": "Percentage Of Debt Claim",
+      "definition": "Percentage of the underlying assets of the funds that represents a debt and is in the scope of the European directive on taxation of savings income in the form of interest payments (Council Directive 2003/48/EC 3 June)."
+    },
+    "IndividualTax": {
+      "name": "Individual Tax",
+      "definition": "Information related to a specific tax that is provided for information purposes."
+    }
+  },
+  "isoRules": {
+    "TaxElementRule": {
+      "definition": "One of the elements (TaxableIncomePerDividend, EUCapitalGain, EUDividendStatus, PercentageOfDebtClaim, IndividualTax) must be present."
+    }
+  }
+}

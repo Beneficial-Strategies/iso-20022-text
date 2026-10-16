@@ -1,0 +1,36 @@
+{
+  "isoType": "DetailedAmount15",
+  "language": "en",
+  "name": "Detailed Amount 15",
+  "definition": "Detailed amounts associated with the total amount of transaction.",
+  "isoElements": {
+    "AmountGoodsAndServices": {
+      "name": "Amount Goods And Services",
+      "definition": "Amount of purchase goods and services without tax."
+    },
+    "CashBack": {
+      "name": "Cash Back",
+      "definition": "Cash-back amount."
+    },
+    "Gratuity": {
+      "name": "Gratuity",
+      "definition": "Gratuity amount."
+    },
+    "Fees": {
+      "name": "Fees",
+      "definition": "Fees amount."
+    },
+    "Rebate": {
+      "name": "Rebate",
+      "definition": "Global rebate of the transaction. This amount is counted as a negative amount."
+    },
+    "ValueAddedTax": {
+      "name": "Value Added Tax",
+      "definition": "Value added tax amount."
+    },
+    "Surcharge": {
+      "name": "Surcharge",
+      "definition": "Additional charge paid by the cardholder. For example airline credit card surcharge."
+    }
+  }
+}

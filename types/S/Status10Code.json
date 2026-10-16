@@ -1,0 +1,28 @@
+{
+  "isoType": "Status10Code",
+  "language": "en",
+  "name": "Status 10 Code",
+  "definition": "Specifies the status of an instruction.",
+  "isoCodes": {
+    "COMP": {
+      "isoName": "Completed",
+      "name": "Completed",
+      "definition": "Processing has been completed."
+    },
+    "QUED": {
+      "isoName": "Queued",
+      "name": "Queued",
+      "definition": "Instruction is queued."
+    },
+    "REJT": {
+      "isoName": "Rejected",
+      "name": "Rejected",
+      "definition": "Instruction has been rejected."
+    },
+    "PART": {
+      "isoName": "PartiallyCompleted",
+      "name": "Partially Completed",
+      "definition": "Processing has been partially completed."
+    }
+  }
+}

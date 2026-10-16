@@ -1,0 +1,28 @@
+{
+  "isoType": "QualifiedPartyIdentification1",
+  "language": "en",
+  "name": "Qualified Party Identification 1",
+  "definition": "Defines and associates identifications for a party as a list of other global or qualified relative identifiers.|It is assumed that customers of a party can be referenced by an identifier local to the party. The party together with the local identifier can be used to reference the customer.|Multiple references can be given to identify the same party.|A short identification can be used for display purposes.",
+  "isoElements": {
+    "Identification": {
+      "name": "Identification",
+      "definition": "Schema ID to be used in IDREF values."
+    },
+    "Party": {
+      "name": "Party",
+      "definition": "List of identifications for the same party."
+    },
+    "ShortIdentification": {
+      "name": "Short Identification",
+      "definition": "Short identification of the resulting party as a control mechanism for humans."
+    },
+    "Role": {
+      "name": "Role",
+      "definition": "Formally defined role qualifying the party."
+    },
+    "RoleDescription": {
+      "name": "Role Description",
+      "definition": "Free form description of the party's role."
+    }
+  }
+}

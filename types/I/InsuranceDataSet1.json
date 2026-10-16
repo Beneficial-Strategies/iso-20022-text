@@ -1,0 +1,69 @@
+{
+  "isoType": "InsuranceDataSet1",
+  "language": "en",
+  "name": "Insurance Data Set 1",
+  "definition": "Formal document used to record a fact and used as proof of the fact that goods have been insured under an insurance policy.",
+  "isoElements": {
+    "DataSetIdentification": {
+      "name": "Data Set Identification",
+      "definition": "Identifies the insurancedata set."
+    },
+    "Issuer": {
+      "name": "Issuer",
+      "definition": "Issuer of the certificate, typically the insurance company or its agent."
+    },
+    "IssueDate": {
+      "name": "Issue Date",
+      "definition": "Issue date of the document."
+    },
+    "EffectiveDate": {
+      "name": "Effective Date",
+      "definition": "Date upon which cover under an insurance policy becomes effective."
+    },
+    "PlaceOfIssue": {
+      "name": "Place Of Issue",
+      "definition": "Place where the insurance certificate was issued."
+    },
+    "InsuranceDocumentIdentification": {
+      "name": "Insurance Document Identification",
+      "definition": "Unique identifier of the document."
+    },
+    "Transport": {
+      "name": "Transport",
+      "definition": "Transport information relative to the goods that are insured under the insurance policy."
+    },
+    "InsuredAmount": {
+      "name": "Insured Amount",
+      "definition": "Value of the goods as insured under the insurance policy."
+    },
+    "InsuredGoodsDescription": {
+      "name": "Insured Goods Description",
+      "definition": "Information about the goods and/or services of a trade transaction."
+    },
+    "InsuranceConditions": {
+      "name": "Insurance Conditions",
+      "definition": "Description of the conditions and exclusion clauses under which insurance is granted."
+    },
+    "InsuranceClauses": {
+      "name": "Insurance Clauses",
+      "definition": "Standard insurance clauses defined by the Institute of London Underwriters (or the American Institute of marine Underwriters)."
+    },
+    "Assured": {
+      "name": "Assured",
+      "definition": "Party that is covered under the assurance policy."
+    },
+    "ClaimsPayableAt": {
+      "name": "Claims Payable At",
+      "definition": "Place where claims under the insurance policy will be paid."
+    },
+    "ClaimsPayableIn": {
+      "name": "Claims Payable In",
+      "definition": "Currency in which claims, if valid, will be paid."
+    }
+  },
+  "isoRules": {
+    "IssueDateOrEffectiveDateRule": {
+      "definition": "At least one of IssueDate or EffectiveDate must be present."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "isoType": "CustomerOrder1",
+  "language": "en",
+  "name": "Customer Order 1",
+  "definition": "Customer order attached to a customer, recorded in the POI system.",
+  "isoElements": {
+    "CustomerOrderIdentification": {
+      "name": "Customer Order Identification",
+      "definition": "Identification of a customer order."
+    },
+    "SaleReferenceIdentification": {
+      "name": "Sale Reference Identification",
+      "definition": "Identification of a Sale transaction for a sequence of related POI transactions."
+    },
+    "OpenOrderState": {
+      "name": "Open Order State",
+      "definition": "Specifies if a customer order is currently open."
+    },
+    "StartDate": {
+      "name": "Start Date",
+      "definition": "Date time of the beginning of an operation."
+    },
+    "EndDate": {
+      "name": "End Date",
+      "definition": "Date time of the end of an operation."
+    },
+    "Unit": {
+      "name": "Unit",
+      "definition": "Unit of amount."
+    },
+    "ForecastedAmount": {
+      "name": "Forecasted Amount",
+      "definition": "Initial or global amount of the order."
+    },
+    "CurrentAmount": {
+      "name": "Current Amount",
+      "definition": "Total amount of all completed transactions of a customer order."
+    },
+    "Currency": {
+      "name": "Currency",
+      "definition": "Currency of monetary amount."
+    },
+    "AccessedBy": {
+      "name": "Accessed By",
+      "definition": "Identification of an entity accessing data to perform an operation."
+    },
+    "AdditionalInformation": {
+      "name": "Additional Information",
+      "definition": "Unqualified information related to customer order."
+    }
+  }
+}

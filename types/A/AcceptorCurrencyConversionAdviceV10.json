@@ -1,0 +1,20 @@
+{
+  "isoType": "AcceptorCurrencyConversionAdviceV10",
+  "language": "en",
+  "name": "Acceptor Currency Conversion Advice V 10",
+  "definition": "The AcceptorCurrencyConversionAdvice message is sent by the card acceptor to inform the currency conversion service provider of the outcome of the card currency conversion.",
+  "isoElements": {
+    "Header": {
+      "name": "Header",
+      "definition": "Currency Conversion request message management information."
+    },
+    "AcceptorCurrencyConversionAdvice": {
+      "name": "Acceptor Currency Conversion Advice",
+      "definition": "Information related to the outcome of the currency conversion."
+    },
+    "SecurityTrailer": {
+      "name": "Security Trailer",
+      "definition": "Trailer of the message containing a MAC."
+    }
+  }
+}

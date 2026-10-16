@@ -3,5 +3,10 @@
   "language": "en",
   "name": "BICFI Dec 2014 Identifier",
   "definition": "Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362: 2014 - \"Banking - Banking telecommunication messages - Business identifier code (BIC)\".",
-  "format": "Not a valid BIC (8 or 11 characters). Expected: 4 uppercase letters or digits, then 2 uppercase letters, then 2 uppercase letters or digits, then optionally 3 uppercase letters or digits. Example: DEUTDEFF / DEUTDEFF500"
+  "format": "Not a valid BIC (8 or 11 characters). Expected: 4 uppercase letters or digits, then 2 uppercase letters, then 2 uppercase letters or digits, then optionally 3 uppercase letters or digits. Example: DEUTDEFF / DEUTDEFF500",
+  "isoRules": {
+    "BICFI": {
+      "definition": "Valid BICs for financial institutions are registered and published by the ISO 9362 Registration Authority in the ISO directory of BICs, and consist of eight (8) or eleven (11) contiguous characters."
+    }
+  }
 }

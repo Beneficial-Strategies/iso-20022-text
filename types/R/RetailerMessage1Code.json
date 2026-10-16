@@ -1,0 +1,93 @@
+{
+  "isoType": "RetailerMessage1Code",
+  "language": "en",
+  "name": "Retailer Message 1 Code",
+  "definition": "Identifies the type of process related to the message.",
+  "isoCodes": {
+    "SSAB": {
+      "isoName": "Abort",
+      "name": "Abort",
+      "definition": "Abort the current process or the last request."
+    },
+    "SAAQ": {
+      "isoName": "AdminRequest",
+      "name": "Admin Request",
+      "definition": "To select and start customised administrative services provided by the POI, using a \"menu\" for an interactive or software interface, initiated by the Sale system."
+    },
+    "SAAP": {
+      "isoName": "AdminResponse",
+      "name": "Admin Response",
+      "definition": "Response to the Admin request."
+    },
+    "SDDR": {
+      "isoName": "DeviceRequest",
+      "name": "Device Request",
+      "definition": "Request one or several functions of the device, from user Interface or payment peripherals on the POI system or on the Sale system. Functions can be Display, Input, Print, play sound, Card reader capabilities or Transmit a message."
+    },
+    "SDDP": {
+      "isoName": "DeviceResponse",
+      "name": "Device Response",
+      "definition": "Response to a Device request."
+    },
+    "SSEN": {
+      "isoName": "EventNotification",
+      "name": "Event Notification",
+      "definition": "Notify the other party of an event that occurs on its side."
+    },
+    "SSMQ": {
+      "isoName": "MessageStatusRequest",
+      "name": "Message Status Request",
+      "definition": "Request the status of a previous message for which the Sale system has no response."
+    },
+    "SSMR": {
+      "isoName": "MessageStatusResponse",
+      "name": "Message Status Response",
+      "definition": "Response to a Message Status request."
+    },
+    "SSRJ": {
+      "isoName": "Rejection",
+      "name": "Rejection",
+      "definition": "Reject a previous received message, for technical or functional reasons."
+    },
+    "SARQ": {
+      "isoName": "ReportRequest",
+      "name": "Report Request",
+      "definition": "To request, by the Sale System, a report on a list of transactions on the POI system, or the status of a transaction."
+    },
+    "SARP": {
+      "isoName": "ReportResponse",
+      "name": "Report Response",
+      "definition": "Response to a Report request."
+    },
+    "SFRP": {
+      "isoName": "SaleFinancialReconciliationResponse",
+      "name": "Sale Financial Reconciliation Response",
+      "definition": "Response to a Reconciliation Request."
+    },
+    "SFRQ": {
+      "isoName": "SaleFinancialReconciliationRequest",
+      "name": "Sale Financial Reconciliation Request",
+      "definition": "Request a reconciliation (different types) between Sale System and POI System."
+    },
+    "SFSQ": {
+      "isoName": "SaleFinancialServiceRequest",
+      "name": "Sale Financial Service Request",
+      "definition": "Request a financial service like payment, reversal, loyalty, Balance Inquiry, etc."
+    },
+    "SFSP": {
+      "isoName": "SaleFinancialServiceResponse",
+      "name": "Sale Financial Service Response",
+      "definition": "Response to a financial service request."
+    },
+    "SASQ": {
+      "isoName": "SessionManagementRequest",
+      "name": "Session Management Request",
+      "definition": "Request the management of a session: login, logout and diagnosis services. Initiated by the Sale system."
+    },
+    "SASP": {
+      "isoName": "SessionManagementResponse",
+      "name": "Session Management Response",
+      "definition": "Response to a session management request to initiate/terminate a session."
+    }
+  }
+}

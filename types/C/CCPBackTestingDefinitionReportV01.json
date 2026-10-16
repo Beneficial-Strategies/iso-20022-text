@@ -1,0 +1,16 @@
+{
+  "isoType": "CCPBackTestingDefinitionReportV01",
+  "language": "en",
+  "name": "CCP Back Testing Definition Report V 01",
+  "definition": "The CCPBackTestingDefinitionReport message is sent from the central counterparty to the national competent authority. It is used to inform the national competent authority of the methodology used to carry out backtesting.",
+  "isoElements": {
+    "Methodology": {
+      "name": "Methodology",
+      "definition": "Details parameters and methodology used to conduct the back test."
+    },
+    "SupplementaryData": {
+      "name": "Supplementary Data",
+      "definition": "Additional information that cannot be captured in the structured elements and/or any other specific block."
+    }
+  }
+}

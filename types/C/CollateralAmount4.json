@@ -1,0 +1,40 @@
+{
+  "isoType": "CollateralAmount4",
+  "language": "en",
+  "name": "Collateral Amount 4",
+  "definition": "Securities collateral position valuation amounts.",
+  "isoElements": {
+    "ActualMarketValuePostValuationFactor": {
+      "name": "Actual Market Value Post Valuation Factor",
+      "definition": "Actual market value post valuation factor expressed in the collateral currency (denomination currency of the security). For cash, it is the value post haircut."
+    },
+    "ActualMarketValueBeforeValuationFactor": {
+      "name": "Actual Market Value Before Valuation Factor",
+      "definition": "Actual market value before valuation factor expressed in the collateral currency (denomination currency of the security). For cash, it is the value before haircut."
+    },
+    "ExposureCollateralInTransactionCurrency": {
+      "name": "Exposure Collateral In Transaction Currency",
+      "definition": "Amount of the exposure/collateral in the exposure/collateral currency."
+    },
+    "ExposureCollateralInReportingCurrency": {
+      "name": "Exposure Collateral In Reporting Currency",
+      "definition": "Amount of the exposure/collateral in the reporting currency."
+    },
+    "MarketValueAmountPostValuationFactor": {
+      "name": "Market Value Amount Post Valuation Factor",
+      "definition": "Market  value post valuation factor expressed in the transaction currency. For cash, it is the value post haircut."
+    },
+    "MarketValueAmountBeforeValuationFactor": {
+      "name": "Market Value Amount Before Valuation Factor",
+      "definition": "Market value before valuation factor expressed in the transaction currency. For cash, it is the value before haircut."
+    },
+    "TotalValueOfOwnCollateral": {
+      "name": "Total Value Of Own Collateral",
+      "definition": "Total value of own collateral in the reporting currency."
+    },
+    "TotalValueOfReusedCollateral": {
+      "name": "Total Value Of Reused Collateral",
+      "definition": "Total value of reused/rehypotheticated collateral in the reporting currency."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "isoType": "CardSecurityCapability2Code",
+  "language": "en",
+  "name": "Card Security Capability 2 Code",
+  "definition": "Card security code list.",
+  "isoCodes": {
+    "ICCD": {
+      "isoName": "ICC",
+      "name": "ICC",
+      "definition": "Card contains an integrated circuit card."
+    },
+    "MWOS": {
+      "isoName": "MagneticStripeWithoutSecurityCode",
+      "name": "Magnetic Stripe Without Security Code",
+      "definition": "Card does not contain a card security code in the magstripe"
+    },
+    "MSWS": {
+      "isoName": "MagneticStripeWithSecurityCode",
+      "name": "Magnetic Stripe With Security Code",
+      "definition": "Card contains a card security code in the magstripe"
+    },
+    "OLPN": {
+      "isoName": "OffLinePIN",
+      "name": "Off Line PIN",
+      "definition": "Off line PIN card"
+    }
+  }
+}
