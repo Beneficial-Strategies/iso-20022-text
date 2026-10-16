@@ -60,6 +60,18 @@ This repository deploys `en`, the ISO English as published (`wrangler.jsonc`, bu
 this one when they build, so a change here reaches a language host the next time that language's repository builds (`HUB_REF` and `HUB_REPO` choose another
 version of this repository, for a preview). `iso-20022-text.beneficialstrategies.com` itself is not a language host.
 
+All six repositories (this one, `-en-US`, `-fr`, `-de`, `-es`, `-pt`) are connected to Workers Builds: a pull request gets a "Workers Builds" check and a preview address, and a merge to `main` deploys the host.
+
+To try a language repository against a hub branch before the hub is merged, run that repository's build with `HUB_REF` set (a branch or tag of this repository; `HUB_REPO` is the address of a fork). For example, to see French with the branch `feat/my-change`:
+
+```
+cd iso-20022-text-fr
+HUB_REF=feat/my-change sh -c 'rm -rf .hub && git clone --depth 1 --branch "$HUB_REF" https://github.com/Beneficial-Strategies/iso-20022-text .hub && node .hub/build/build.mjs --spoke . --out site'
+npx wrangler dev
+```
+
+On Cloudflare, the same variable set as a build variable of the preview does it for a pull request.
+
 ## Help keep the text maintained
 
 The base text here is ISO's, and each language is cared for in its own repository. Every one has the same forms: a **glossary entry** ("when ISO 20022 says `Cheque` it should say `Check` in my language"), a correction to a definition, and an offer to review or maintain. They also ask which **variety** of the language (Brazil, Portugal, Quebec, Switzerland...) a term belongs to, so that regional differences are captured and a variety that needs it can get its own text.
